@@ -1,0 +1,3037 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-17662
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0058432
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Terrestrial environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological metrics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Biomass (ecology)
+          </subject> 
+          <subject>
+           Species diversity
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Ecological economics
+         </subject> 
+         <subject>
+          Plant ecology
+         </subject> 
+         <subject>
+          Terrestrial ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Chemistry
+       </subject> 
+       <subj-group> 
+        <subject>
+         Geochemistry
+        </subject> 
+        <subj-group> 
+         <subject>
+          Carbon sink
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Earth sciences
+       </subject> 
+       <subj-group> 
+        <subject>
+         Environmental sciences
+        </subject> 
+        <subj-group> 
+         <subject>
+          Environmental economics
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Science policy
+       </subject> 
+       <subj-group> 
+        <subject>
+         Science policy and economics
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Chemistry
+       </subject> 
+       <subject>
+        Science Policy
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Effect of Degradation Intensity on Grassland Ecosystem Services in the Alpine Region of Qinghai-Tibetan Plateau, China
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Effect of Degradation on Grassland Function
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Wen
+        </surname> 
+        <given-names>
+         Lu
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Dong
+        </surname> 
+        <given-names>
+         Shikui
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Li
+        </surname> 
+        <given-names>
+         Yuanyuan
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Li
+        </surname> 
+        <given-names>
+         Xiaoyan
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Shi
+        </surname> 
+        <given-names>
+         Jianjun
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Wang
+        </surname> 
+        <given-names>
+         Yanlong
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Liu
+        </surname> 
+        <given-names>
+         Demei
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Ma
+        </surname> 
+        <given-names>
+         Yushou
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       State Key Laboratory of Water Environment Simulation, Environmental School of Beijing Normal University, Beijing, China
+      </addr-line> 
+     </aff> 
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       Qinghai Academy of Animal Science and Veterinary Medicine of Qinghai University, Xining, China
+      </addr-line> 
+     </aff> 
+     <aff id="aff3"> 
+      <label>3</label> 
+      <addr-line>
+       Northwest Institute of Plateau Biology, Chinese Academy of Sciences, Xining, China
+      </addr-line> 
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Schumann
+        </surname> 
+        <given-names>
+         Guy J.-P.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1"> 
+      <addr-line>
+       NASA Jet Propulsion Laboratory, United States of America
+      </addr-line> 
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        dongshikui@sina.com
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: LW SKD. Performed the experiments: LW SKD YYL XYL JJS YLW DML YSM. Analyzed the data: LW. Contributed reagents/materials/analysis tools: LW SKD. Wrote the paper: LW.</p> 
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2013
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="epub"> 
+      <day>
+       4
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2013
+      </year> 
+     </pub-date> 
+     <volume>
+      8
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e58432
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        14
+       </day> 
+       <month>
+        6
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        6
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2013
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2013
+      </copyright-year> 
+      <copyright-holder>
+       Wen et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <abstract> 
+      <p>The deterioration of alpine grassland has great impact on ecosystem services in the alpine region of Qinghai-Tibetan Plateau. However, the effect of grassland degradation on ecosystem services and the consequence of grassland deterioration on economic loss still remains a mystery. So, in this study, we assessed four types of ecosystem services following the Millennium Ecosystem Assessment classification, along a degradation gradient. Five sites of alpine grassland at different levels of degradation were investigated in Guoluo Prefecture of Qinghai Province, China. The species composition, aboveground biomass, soil total organic carbon (TOC), and soil total nitrogen (TN) were tested to evaluate major ecological services of the alpine grassland. We estimated the value of primary production, carbon storage, nitrogen recycling, and plant diversity. The results show the ecosystem services of alpine grassland varied along the degradation gradient. The ecosystem services of degraded grassland (moderate, heavy and severe) were all significantly lower than non-degraded grassland. Interestingly, the lightly degraded grassland provided more economic benefit from carbon maintenance and nutrient sequestration compared to non-degraded. Due to the destruction of the alpine grassland, the economic loss associated with decrease of biomass in 2008 was $198/ha. Until 2008, the economic loss caused by carbon emissions and nitrogen loss on severely degraded grassland was up to $8 033/ha and $13 315/ha, respectively. Urgent actions are required to maintain or promote the ecosystem services of alpine grassland in the Qinghai-Tibetan Plateau.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       This study was financially supported by the grants from the Ministry of Science and Technology, China (2012BAC01B02), the Ministry of Environmental Protection, China (201209033), and 50939001 and the Engagement Fund for the Outstanding Doctoral Dissertation of Beijing Normal University (2009018). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <page-count count="8" /> 
+     </counts> 
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Qinghai-Tibet Plateau (QTP), the so-called third pole of the world, is an important eco-region of the earth. In this region, more than 85% is covered by alpine grasslands 
+     <xref ref-type="bibr" rid="pone.0058432-Wang1">
+      [1]
+     </xref>. Alpine grassland on the QTP provides great ecosystem services, such as plant diversity conservation, carbon sequestration, soil and water protection, as well as Tibetan culture and the maintenance of traditions, etc. 
+     <xref ref-type="bibr" rid="pone.0058432-Dong1">
+      [2]
+     </xref>. As one of the major pastoral production bases in China, it supported 30 million sheep (including goats) and 12 million yaks in 2005 
+     <xref ref-type="bibr" rid="pone.0058432-Miller1">
+      [3]
+     </xref>. The soil holds more than twice as much carbon as can be found in its vegetation or the atmosphere 
+     <xref ref-type="bibr" rid="pone.0058432-Batjes1">
+      [4]
+     </xref>, the changes in its soil carbon concentration can have a large effect on the global carbon budget 
+     <xref ref-type="bibr" rid="pone.0058432-Bellamy1">
+      [5]
+     </xref>. Carbon and nitrogen in soil can not only determine soil quality, but also influence ecosystem productivity. As soil at high latitudes is expected to respond sensitively to climate change 
+     <xref ref-type="bibr" rid="pone.0058432-Rodionov1">
+      [6]
+     </xref>, alpine grassland ecosystems are considered influential in global environmental change, through carbon and nitrogen sequestration 
+     <xref ref-type="bibr" rid="pone.0058432-Wright1">
+      [7]
+     </xref>. Grassland is also one of the important alpine genetic pools. It is thought that high biodiversity increases the stability of most types of ecosystems 
+     <xref ref-type="bibr" rid="pone.0058432-Balvanera1">
+      [8]
+     </xref> and enhances the sustainability of resource exploitation 
+     <xref ref-type="bibr" rid="pone.0058432-Fischer1">
+      [9]
+     </xref>. However, it was reported that almost 30% of alpine grasslands were severely degraded due to the integrated effects of climate change, population increases, overgrazing and rodent (plateau pika, 
+     <italic>
+      Ochotona curzoniae
+     </italic>) damage 
+     <xref ref-type="bibr" rid="pone.0058432-Shang1">
+      [10]
+     </xref>. Grassland degradation affected not only the livelihood of pastoralists, but also others who suffer from resultant hydrological disturbances, dust storms, commodity scarcity, and the social consequences of uprooted people 
+     <xref ref-type="bibr" rid="pone.0058432-Shang1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0058432-Akiyama1">
+      [11]
+     </xref>. The ecosystem services of alpine grassland changed significantly with the increase of grassland degradation intensity. Understanding ecosystems from the perspective of humans as beneficiaries has tremendous potential for protecting ecosystems and the services they provided 
+     <xref ref-type="bibr" rid="pone.0058432-Brauman1">
+      [12]
+     </xref>. The process of identifying or evaluating ecosystem services is a powerful lens through which to understand human relationships with the environment and to design environmental policy 
+     <xref ref-type="bibr" rid="pone.0058432-Brauman1">
+      [12]
+     </xref>. So, it is necessary to access the economic loss or benefit caused by the change in ecosystem services.</p> 
+    <p>Though some scholars around the world have done some research on assessments of degraded ecosystems, few of them quantified the dynamics of ecosystem services along a degradation gradient. Lange and Jiddawi 
+     <xref ref-type="bibr" rid="pone.0058432-Lange1">
+      [13]
+     </xref> evaluated the ecosystem services of a degraded marine ecosystem that was caused by uncontrolled tourism development, rapid population growth, destructive fishing, overharvesting of mangroves, dumping of untreated wastewater from urban areas and periodic coral bleaching. However, whether the decline in ecosystem services changes under different disturbance intensities remains a question. Rounsevell et al. 
+     <xref ref-type="bibr" rid="pone.0058432-Rounsevell1">
+      [14]
+     </xref> provided a new framework that can be applied to investigate the complex dynamics of environmental change drivers to assess changes of ecosystem services. Tomback and Achuff 
+     <xref ref-type="bibr" rid="pone.0058432-Tomback1">
+      [15]
+     </xref> evaluated the values of white pines that suffered from blister rust, in terms of biodiversity, economics, ecosystem services and aesthetics. de Groot et al. 
+     <xref ref-type="bibr" rid="pone.0058432-deGroot1">
+      [16]
+     </xref> reviewed the challenges in ecosystem service assessment, and presented an integrated concept for assessing ecosystem services and values given land use and cover change. Ouétier et al. 
+     <xref ref-type="bibr" rid="pone.0058432-Qutier1">
+      [17]
+     </xref> studied the ecosystem service of mountain grassland in the French Alps associated with land use change. Although these studies have documented the service value of some degraded ecosystems and report methods and ideas to evaluate the services, little attention has been paid to the dynamics of ecosystem services with different degrees of ecosystem degradation.</p> 
+    <p>For the alpine grassland of the QTP, many researchers have carried out the valuation of ecosystem services by using remote sensing data, geographic information systems (GIS), and simulation models 
+     <xref ref-type="bibr" rid="pone.0058432-Liu1">
+      [18]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0058432-Yu1">
+      [23]
+     </xref>. However, none of them have used first-hand data obtained from the field to estimate changes in ecosystem services, with respect to the degree of grassland degradation. Therefore, in this study, we followed the Millennium Ecosystem Assessment classification scheme to choose four elements of ecosystem services (net primary productivity (NPP), carbon sequestration, nitrogen sequestration, and biodiversity maintenance) to evaluate the changes in ecosystem services shown in field data with respect to degree of degradation on alpine grasslands of the QTP. We hypothesized that ecosystem services decreased with the increase in grassland degradation intensity. The aim of this study is to provide the scientific foundation for natural ecological compensation or payment for environmental services (PES). Such efforts can also contribute to the debate concerning the achievement of sustainable development of alpine grassland in the QTP of China and worldwide.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Research Area</title> 
+     <p>The study site is located in Dawu Village, Maqin Country of Guoluo Tibetan Autonomous Prefecture, Qinghai Province, China. The average elevation of this area is 4200 m with typical continental climate. The annually average temperature is −0.6°C, the lowest temperature is −34.9°C. Annual accumulated temperatures above 0°C and 5°C are 1202.6°C and 865.0°C respectively. Annual precipitation is 513 mm, occurring mainly from May to September and annual evaporation is 1459 mm. Annual sunshine hours are 2571 h, and there is no reliably frost-free period. The soil is silt-clay, which is classified as alpine meadow soil according to the Chinese Soil Classification System. The vegetation of this alpine grassland was dominated by alpine meadows composed mainly of 
+      <italic>
+       Kobresia
+      </italic> spp., 
+      <italic>
+       Polygonum
+      </italic> spp. and 
+      <italic>
+       Poa
+      </italic> spps. 
+      <xref ref-type="bibr" rid="pone.0058432-Dong2">
+       [24]
+      </xref>. Since the 1970s, researchers have done a series of experiments on restoration of degraded grasslands in this area. They established several 100 m×100 m demonstration plots for displaying different degraded grasslands.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Research Design</title> 
+     <p>In this study, vegetation composition, aboveground biomass, soil total organic carbon and total nitrogen were measured in study sites with different levels of degradation (none, light, moderate, heave and severe). Four major ecosystem services of the alpine grassland, including biodiversity conservation, carbon sequestration, nitrogen maintenance and primary production, were selected for evaluation in this study. The reasons for choosing these four ecosystem services are described below.</p> 
+     <p>Alpine grasslands in the QTP are grazed by indigenous herbivores, such as yak and Tibetan sheep 
+      <xref ref-type="bibr" rid="pone.0058432-Wang2">
+       [25]
+      </xref>. The alpine grasslands have served as the dominant pastures for Tibetan communities over a long history and are regarded as one of the major pastoral production bases in China 
+      <xref ref-type="bibr" rid="pone.0058432-Dong1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0058432-Harris1">
+       [26]
+      </xref>.</p> 
+     <p>In pastoral ecosystems, the amount of aboveground biomass not only determines forage availability, which thus constrains herbivore carrying capacity 
+      <xref ref-type="bibr" rid="pone.0058432-Yang1">
+       [27]
+      </xref>, but also is an important component of the global carbon cycle 
+      <xref ref-type="bibr" rid="pone.0058432-Scurlock1">
+       [28]
+      </xref>. Soil is the largest organic carbon reservoir in the terrestrial biosphere, which is about two times larger than that of vegetation or the atmosphere 
+      <xref ref-type="bibr" rid="pone.0058432-Yang1">
+       [27]
+      </xref>. Even a minor change in storage of organic carbon within soil could result in a significant alteration in atmospheric CO<sub>2</sub> concentrations 
+      <xref ref-type="bibr" rid="pone.0058432-Scurlock1">
+       [28]
+      </xref>. On the earth, the carbon storage of grasslands is 412∼820 million ton, accounting for 33–34% of the whole terrestrial ecosystem. The changing concentration of C and N within the soil can reflect not only soil quality and ecosystem productivity, but also the influence of C and N cycling and storage on global climate change 
+      <xref ref-type="bibr" rid="pone.0058432-Zhao1">
+       [29]
+      </xref>. As the QTP is one of the most sensitive areas to climate change 
+      <xref ref-type="bibr" rid="pone.0058432-Yashiro1">
+       [30]
+      </xref>, the changes of these services–carbon maintenance and nitrogen sequestration– play essential roles in global change.</p> 
+     <p>The grassland in Qinghai-Tibetan Plateau is also one of the earth’s good alpine genetic pools. It has been reported that 15%–23% of indigenous plant species are endangered due to the degradation of the alpine grasslands, especially wet meadows which are key habitats for many alpine organisms in these headwater areas 
+      <xref ref-type="bibr" rid="pone.0058432-Dong3">
+       [31]
+      </xref>. Thus understanding the states of biodiversity maintenance is critical for evaluating the services of the alpine grassland in QTP.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Field Survey and Sampling</title> 
+     <p>The parameters for grassland degradation and ecosystem services were measured in the field during growing seasons from July to August of 2008 and 2009. Vegetation composition, coverage and plant biomass were surveyed within four 100 cm×100 cm quadrats in each site of the alpine grassland at different degrees of degradation to quantify the level of grassland degradation in the present study. Plant diversity in each of degraded grasslands was surveyed in each site with thirty randomly distributed 50 cm×50 cm quadrats. Margalef richness index, Simpson index and Pielou evenness index were calculated.</p> 
+     <p>Together with the vegetation surveys, five soil samples in each soil layers (0–10 cm, 10–20 cm, 20–30 cm) were collected with a soil auger (D  = 3.5 cm) from each quadrat. The soil samples were then pooled together, air-dried, and passed through 0.85 mm and 0.15 mm sieves for testing total organic carbon (TOC) and total nitrogen (TN). TOC was measured by a thermodilution method with potassium dichromate. TN was assayed by a Vario EI automatic elemental analyzer made by Elementar Company in Germany. The soil bulk density and organic carbon density (OCD) were calculated by Song et al.’s formula 
+      <xref ref-type="bibr" rid="pone.0058432-Song1">
+       [32]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Ecosystem Service Value Assessment</title> 
+     <p>The evaluation in this study was a first attempt of integrating direct market valuation, indirect market valuation and contingent valuation to estimate the value of alpine grasslands along the degradation gradient based on the first-hand data from the field surveys. The assessment of the ecosystem service values of the alpine grassland in Qinghai-Tibet Plateau were standardized into US dollars ($1 =  RMByuan 6.85, August 2008), so as to reflect welfare in ways that are not mediated by the consumption of purchased goods. Because soil carbon, nitrogen and plant diversity losses did not all occur in a given year, the values for these services represent the values accumulated up to 2008.</p> 
+     <p>Net primary production value V<sub>NPP</sub> is estimated by the direct market price method as.
+      <disp-formula id="pone.0058432.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0058432.e001" xlink:type="simple" />
+       <label>(1)</label>
+      </disp-formula>Where P<sub>f</sub> is the price of the forage production and M is the biomass of the forage. According to the price of the dry forage in the market in 2008, P<sub>f</sub> is $80/t.</p> 
+     <p>The value of ecosystem carbon sequestration (V<sub>C</sub>) is calculated by the carbon tax of Sweden ($150/Mg C).
+      <disp-formula id="pone.0058432.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0058432.e002" xlink:type="simple" />
+       <label>(2)</label>
+      </disp-formula>Where P<sub>C</sub> is the price of the Carbon tax, and OCD
+      <italic>
+       <sub>i</sub>
+      </italic> is the organic carbon density of 
+      <italic>
+       i
+      </italic><sup>th</sup> soil layer (Mg C/ha).</p> 
+     <p>We applied the opportunity cost approach to assess the value of the nitrogen sequestration (V<sub>N</sub>) 
+      <xref ref-type="bibr" rid="pone.0058432-Tong1">
+       [33]
+      </xref>. The average price of urea fertilizer was about $240/t in 2008.
+      <disp-formula id="pone.0058432.e003">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0058432.e003" xlink:type="simple" />
+       <label>(3)</label>
+      </disp-formula>
+      <disp-formula id="pone.0058432.e004">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0058432.e004" xlink:type="simple" />
+       <label>(4)</label>
+      </disp-formula>Where, P<sub>N</sub> is the price of the urea, 46% is the percentage of total N in urea (According to the data form Lin et al. 
+      <xref ref-type="bibr" rid="pone.0058432-Lin1">
+       [34]
+      </xref>). DTN
+      <italic>
+       <sub>i</sub>
+      </italic> is the density of total nitrogen of 
+      <italic>
+       i
+      </italic><sup>th</sup> soil layer (Mg N/ha), TN
+      <italic>
+       <sub>i</sub>
+      </italic> is the total nitrogen content in 
+      <italic>
+       i
+      </italic><sup>th</sup> soil layer (%), 0.081 is the proportion of content of available nitrogen in total nitrogen, is soil bulk density of the 
+      <italic>
+       i
+      </italic><sup>th</sup> soil layer, H
+      <italic>
+       <sub>i</sub>
+      </italic> is soil thickness in the 
+      <italic>
+       i
+      </italic><sup>th</sup> soil layer (cm), and 
+      <italic>
+       i
+      </italic>  = 1, 2, 3 represents soil layers at 0–10 cm, 10–20 cm, and 20–30 cm, respectively.</p> 
+     <p>We categorized the value of biodiversity maintenance into 3 levels based on Margalef richness index 
+      <xref ref-type="bibr" rid="pone.0058432-Wang3">
+       [35]
+      </xref>. When the Margalef richness index was less than 4.0, the value of biodiversity maintenance was $200/ha, when it was 4–4.5, the value is $300/ha, when it was more than 4.5, the value is $400/ha.</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Statistical Analysis</title> 
+     <p>Differences among differently degraded pastures were analyzed with one-way ANOVA. Data were considered to be significantly different at 
+      <italic>
+       p
+      </italic>&lt;0.05. The graph was draw using Origin 8.0 to present the data as the mean ± standard error. Due to limitations of current understanding, methods and data, there are potentially large margins of error associated with the estimates 
+      <xref ref-type="bibr" rid="pone.0058432-Ingraham1">
+       [36]
+      </xref>. To price the ecosystem services, a variety of methods associated with direct market pricing, indirect market pricing, and replacement cost have been implemented.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Primary Production/Aboveground Biomass</title> 
+     <p>Aboveground biomasses showed a decreasing trend with increasing pasture degradation (
+      <xref ref-type="fig" rid="pone-0058432-g001">
+       Figure 1
+      </xref>). However, there was no significant difference between the biomass of heavily degraded grassland (dry weight 2.16±0.18 t/ha) and moderately degraded site (dry weight 2.13±0.11 t/ha) (
+      <italic>
+       p
+      </italic>&gt;0.05). At an average price of $80/t for dry grasses in 2008, when compared with the non-degradation grassland, the direct economic loss caused by light degradation reached $111/ha, and in severely degradation the direct economic loss was up to $198/ha.</p> 
+     <fig id="pone-0058432-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0058432.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>The Aboveground Biomass and Economic Loss of Different Degradation Grasslands.</title> 
+      <p>Note: ND, LD, MD, HD, SD represent non-degradation, light degradation, moderate degradation, heavy degradation and severely degradation, respectively.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0058432.g001" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Soil Carbon Sequestration</title> 
+     <p>Along the grassland degradation gradient, the soil organic carbon density for each soil layer reached the maximum in light degradation grassland (
+      <xref ref-type="fig" rid="pone-0058432-g002">
+       Figure 2
+      </xref>). The OCD of moderately, heavily and severely degraded grasslands were all lower than that of non-degraded grassland. The density of organic carbon decreased along the soil profile. The result shows that total organic carbon of the 0–30 cm soil layer increased at light degradation and decreased at moderate and severe degradation.</p> 
+     <fig id="pone-0058432-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0058432.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>The Density of Soil Organic Carbon and the Economic Loss in Different Degradation Grasslands.</title> 
+      <p>Note: ND, LD, MD, HD, SD represent non-degradation, light degradation, moderate degradation, heavy degradation and severely degradation, respectively.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0058432.g002" position="float" xlink:type="simple" /> 
+     </fig> 
+     <p>We used the density of organic carbon to reflect the ecosystem function of carbon sequestration. Using the carbon tax of Sweden ($150/Mg C) to calculate the value of CO<sub>2</sub> emissions 
+      <xref ref-type="bibr" rid="pone.0058432-Yu1">
+       [23]
+      </xref>, the potential economic income caused by carbon sequestration in the first soil layer (0–30 cm) were $25.0×10<sup>3</sup>/ha, $27.9×10<sup>3</sup>/ha, $28.1×10<sup>3</sup>/ha for severely degradation, heavy degradation and moderate degradation, respectively. However, in lightly degraded grassland, the benefit gained from carbon sequestration reached $34.1×10<sup>3</sup>/ha, which is a little higher than non-degraded lands, at $33.1×10<sup>3</sup>/ha.</p> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Nitrogen Sequestration</title> 
+     <p>Changes in soil total nitrogen along the degradation gradient are shown in 
+      <xref ref-type="fig" rid="pone-0058432-g003">
+       Figure 3
+      </xref>. The trend of DTN across soil layers was consistent with that of OCD. The economic benefit caused by nitrogen sequestration of severely, heavily, moderately, lightly, and non-degraded grasslands were $51.3×10<sup>3</sup>/ha, $57.4×10<sup>3</sup>/ha, $58.6×10<sup>3</sup>/ha, $69.9×10<sup>3</sup>/ha, and $64.6×10<sup>3</sup>/ha, respectively. Thus, compared to the non-degraded sites, both severely and heavily degraded grasslands showed serious economic declines due to nitrogen losses. Only in the light degradation site was the value of nitrogen sequestration higher than non-degraded grasslands.</p> 
+     <fig id="pone-0058432-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0058432.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>The Density of Soil Total Nitrogen and the Economic Loss of Different Degradation Grasslands.</title> 
+      <p>Note: ND, LD, MD, HD, SD represent non-degradation, light degradation, moderate degradation, heavy degradation and severely degradation, respectively.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0058432.g003" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3d"> 
+     <title>Plant Diversity Maintenance</title> 
+     <p>
+      <xref ref-type="fig" rid="pone-0058432-g004">
+       Figure 4
+      </xref> shows that the trends in the Margalef richness index, Simpson index and Pielou evenness index in grasslands degraded to different degrees were almost the same. The three plant diversity indexes in the non-degraded sites were the highest, and those in severely degraded sites were the lowest. Along the degradation gradient, the plant diversity indexes decreased, except the Simpson index in moderate degradation grasslands, which is higher than that of light degradation grassland.</p> 
+     <fig id="pone-0058432-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0058432.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>The Plant Diversity of Different Degradation Grasslands.</title> 
+      <p>Note: ND, LD, MD, HD, SD represent non-degradation, light degradation, moderate degradation, heavy degradation and severely degradation, respectively.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0058432.g004" position="float" xlink:type="simple" /> 
+     </fig> 
+     <p>The value of plant diversity maintenance in non-degradation grassland was $400/ha, and in light, moderate and heavy degradation grasslands were $300/ha, but in severely degradation it was only $200/ha.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>The results of valuation for alpine grassland ecosystem show that the values of non-degraded grassland are $308.9/ha, $33.07×10<sup>4</sup>/ha, $64.58×10<sup>4</sup>/ha and $400/ha for the services of production provision, carbon sequestration, nitrogen sequestration and biodiversity maintenance, respectively (
+     <xref ref-type="table" rid="pone-0058432-t001">
+      Table 1
+     </xref>). NPP is a parameter used to quantify the net carbon absorption rate by living plants, and has been shown to be correlated with spatially fungible ecosystem services 
+     <xref ref-type="bibr" rid="pone.0058432-Ingraham1">
+      [36]
+     </xref>. As the magnitude of grassland degradation increased, the biomass (fresh weight or dry weight) decreased. The trend in biomass observed is consistent with results of previous research on biomass 
+     <xref ref-type="bibr" rid="pone.0058432-Liu4">
+      [37]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0058432-Zuo1">
+      [39]
+     </xref>. The function of carbon sequestration shows a decreasing trend, possibly because the underground biomass decreases with increasing grassland degradation and soil depth 
+     <xref ref-type="bibr" rid="pone.0058432-Yan1">
+      [40]
+     </xref>. The trend of carbon maintenance was consistent with previous research 
+     <xref ref-type="bibr" rid="pone.0058432-Cai1">
+      [41]
+     </xref>, in which it was found that TOC was higher in lightly degraded grassland than in non-degraded grassland. In this study, we conclude that the function of carbon maintenance and nitrogen sequestration have similar dynamics in alpine grassland. This conclusion is consistent with other scholars’ findings 
+     <xref ref-type="bibr" rid="pone.0058432-Wei1">
+      [42]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0058432-Wiesmeier1">
+      [43]
+     </xref>. The decrease of these two functions may be associated with human disturbances, as it was found that the structure and function of grassland ecosystems were affected by anthropogenic factors such as seasonal overgrazing 
+     <xref ref-type="bibr" rid="pone.0058432-Li1">
+      [44]
+     </xref>. Overgrazing not only altered the vegetation composition but also resulted in a gradual decrease of soil organic carbon and nitrogen in the alpine meadow ecosystem 
+     <xref ref-type="bibr" rid="pone.0058432-Cao1">
+      [45]
+     </xref>.</p> 
+    <table-wrap id="pone-0058432-t001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0058432.t001
+     </object-id> 
+     <label>Table 1</label>  
+     <title>The Total Economic Loss/Benefit of the Alpine Grassland Caused by Degradation.</title>  
+     <alternatives> 
+      <graphic id="pone-0058432-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0058432.t001" xlink:type="simple" /> 
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Degradation</td> 
+         <td align="left" rowspan="1" colspan="1">Area</td> 
+         <td colspan="4" align="left" rowspan="1">Total economic loss/benefit in total area (×10<sup>7</sup> $)</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">intensity</td> 
+         <td align="left" rowspan="1" colspan="1">(×10<sup>7 </sup>ha)</td> 
+         <td align="left" rowspan="1" colspan="1">NPP</td> 
+         <td align="left" rowspan="1" colspan="1">Carbon sequestration</td> 
+         <td align="left" rowspan="1" colspan="1">Nitrogen sequestration</td> 
+         <td align="left" rowspan="1" colspan="1">Biodiversity maintenance</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">ND</td> 
+         <td align="left" rowspan="1" colspan="1">0.19</td> 
+         <td align="left" rowspan="1" colspan="1">0</td> 
+         <td align="left" rowspan="1" colspan="1">0</td> 
+         <td align="left" rowspan="1" colspan="1">0</td> 
+         <td align="left" rowspan="1" colspan="1">0</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">LD</td> 
+         <td align="left" rowspan="1" colspan="1">0.49</td> 
+         <td align="left" rowspan="1" colspan="1">−54.17</td> 
+         <td align="left" rowspan="1" colspan="1">549.54</td> 
+         <td align="left" rowspan="1" colspan="1">2626.41</td> 
+         <td align="left" rowspan="1" colspan="1">−49.00</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">MD and HD</td> 
+         <td align="left" rowspan="1" colspan="1">0.97</td> 
+         <td align="left" rowspan="1" colspan="1">−134.03</td> 
+         <td align="left" rowspan="1" colspan="1">−4785.32</td> 
+         <td align="left" rowspan="1" colspan="1">−5836.73</td> 
+         <td align="left" rowspan="1" colspan="1">−97.00</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">SD</td> 
+         <td align="left" rowspan="1" colspan="1">0.28</td> 
+         <td align="left" rowspan="1" colspan="1">−55.66</td> 
+         <td align="left" rowspan="1" colspan="1">−2249.26</td> 
+         <td align="left" rowspan="1" colspan="1">−3728.27</td> 
+         <td align="left" rowspan="1" colspan="1">−56.00</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Total</td> 
+         <td align="left" rowspan="1" colspan="1">1.93</td> 
+         <td align="left" rowspan="1" colspan="1">−243.86</td> 
+         <td align="left" rowspan="1" colspan="1">−8485.04</td> 
+         <td align="left" rowspan="1" colspan="1">−6938.59</td> 
+         <td align="left" rowspan="1" colspan="1">−202.00</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+     <table-wrap-foot> 
+      <fn id="nt101"> 
+       <label></label> 
+       <p>Note: ND, LD, MD, HD, SD represent non-degradation, light degradation, moderate degradation, heavy degradation and severe degradation, respectively.</p> 
+      </fn> 
+     </table-wrap-foot> 
+    </table-wrap> 
+    <p>Our trend in the Simpson index was almost opposite to that of Zuo’s et al.’s 
+     <xref ref-type="bibr" rid="pone.0058432-Zuo1">
+      [39]
+     </xref> findings that there was an increasing trend in the Simpson index in the processes of grassland degradation. Wang et al. 
+     <xref ref-type="bibr" rid="pone.0058432-Wang4">
+      [46]
+     </xref> reported that the plant diversity indices, including species richness, Shannon-winner index and Pielou evenness index were higher in light and moderate degradation stages than in the other stages of degradation. Some scholars also found that as degradation strengthened, plant diversity demonstrated different tendencies, with a decreasing trend or a trend shaped like a “humped-shaped response” 
+     <xref ref-type="bibr" rid="pone.0058432-Wang4">
+      [46]
+     </xref>.</p> 
+    <p>It is clear that ecosystem services varied with degradation intensity. As grasslands are degraded, the direct economic loss caused by biomass decreasing reached $198/ha in severely degraded grassland. The indirect economic loss in the severely degraded grassland caused by carbon emission, nitrogen loss (0–30 cm) and plant diversity decrease were up to $8 033/ha, $13 315/ha, and $200/ha, respectively. Both heavily degraded and moderately degraded grasslands show financial losses caused by decreases in these services. However, the lightly degraded grassland gain some economic benefit compared to the non-degradation grassland caused by carbon maintenance and nitrogen sequestration. The value is higher than reported in Xie et al.’s 
+     <xref ref-type="bibr" rid="pone.0058432-Xie1">
+      [22]
+     </xref> research, in which the value of alpine grassland services equaled $295/ha by using empirical formulas. Liu et al. 
+     <xref ref-type="bibr" rid="pone.0058432-Liu1">
+      [18]
+     </xref> reached the result that service value of alpine grassland is $516.5/ha by using Xie’s 
+     <xref ref-type="bibr" rid="pone.0058432-Xie1">
+      [22]
+     </xref> method according to data drawn from GIS.</p> 
+    <p>According to the valuation of different degraded grasslands 
+     <xref ref-type="bibr" rid="pone.0058432-Zhang1">
+      [47]
+     </xref>, in the Qinghai-Tibetan region the area of severely degraded is up to 2.829×10<sup>6</sup> ha, and 9.648×10<sup>6</sup> ha is moderately and heavily degraded. It can be inferred that in alpine regions, the retrogression of grasslands in 2008 dollars brought the economic loss of $2.44 billion by decreases in NPP. Because of the carbon emission, nitrogen loss and plant biodiversity loss, the alpine grassland had lost $84.85 billion, $69.39 billion and $2.02 billion up to 2008. However, this finical loss is only a small part of actual losses owing to the grassland destruction. In this study, we neglect the value of gross primary production (GPP), recreation value and the potential synergy among these ecosystem services. Regardless, urgent actions are needed to maintain or promote the ecosystem services of alpine rangelands in the Qinghai-Tibetan Plateau.</p> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>The authors wish to express their great thanks to the reviewers and the editors for their efforts and time.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0058432-Wang1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         GX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Characteristics of grassland and ecolocal changes of vegetations in the Source Regions of Yangtze and Yellow Rivers
+       </article-title>. 
+       <source>Journal of Desert Research 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        101
+       </fpage>–
+       <lpage>
+        107
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Dong1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dong
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhu
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Implication of coupled natural and human systems in sustainable rangeland ecosystem management in HKH region
+       </article-title>. 
+       <source>Front Earth Sci China 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        42
+       </fpage>–
+       <lpage>
+        50
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Miller1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Miller DJ (2005) The Tibetan steppe. In: Suttie JM, Reynolds SG, Batello C, editors. Grasslands of the world, Plant production and protection series Rome: Food and Agriculture Organization of the United Nations. 305–342.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Batjes1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Batjes
+        </surname>
+        <given-names>
+         NH
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Total carbon and nitrogen in the soils of the world
+       </article-title>. 
+       <source>Eur J Soil Sci 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        151
+       </fpage>–
+       <lpage>
+        163
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Bellamy1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bellamy
+        </surname>
+        <given-names>
+         PH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loveland
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bradley
+        </surname>
+        <given-names>
+         RI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lark
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kirk
+        </surname>
+        <given-names>
+         GJD
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Carbon losses from all soils across England and Wales 1978–2003
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        437
+       </volume>: 
+       <fpage>
+        245
+       </fpage>–
+       <lpage>
+        248
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Rodionov1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rodionov
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Flessa
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grabe
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kazansky
+        </surname>
+        <given-names>
+         OA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shibistova
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Organic carbon and total nitrogen variability in permafrost‐affected soils in a forest tundra ecotone
+       </article-title>. 
+       <source>Eur J Soil Sci 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        1260
+       </fpage>–
+       <lpage>
+        1272
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Wright1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hons
+        </surname>
+        <given-names>
+         FM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rouquette
+        </surname>
+        <given-names>
+         FM
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Long-term management impacts on soil carbon and nitrogen dynamics of grazed bermudagrass pastures
+       </article-title>. 
+       <source>Soil Biol Biochem 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        1809
+       </fpage>–
+       <lpage>
+        1816
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Balvanera1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Balvanera
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pfisterer
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchmann
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nakashizuka
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Quantifying the evidence for biodiversity effects on ecosystem functioning and services
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        1146
+       </fpage>–
+       <lpage>
+        1156
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Fischer1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rudmann-Maurer
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weyand
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stöcklin
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Agricultural Land Use and Biodiversity in the Alps: How Cultural Tradition and Socioeconomically Motivated Changes Are Shaping Grassland Biodiversity in the Swiss Alps
+       </article-title>. 
+       <source>Mt Res Dev 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        148
+       </fpage>–
+       <lpage>
+        155
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Shang1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shang
+        </surname>
+        <given-names>
+         ZH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Long
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Formation causes and recovery of the “Black Soil Type” degraded alpine grassland in Qinghai-Tibetan Plateau
+       </article-title>. 
+       <source>Frontiers of Agricultrue in China 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        197
+       </fpage>–
+       <lpage>
+        202
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Akiyama1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Akiyama
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kawamura
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Grassland degradation in China: Methods of monitoring, management and restoration
+       </article-title>. 
+       <source>Grassland Science 
+       <volume>
+        53
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        17
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Brauman1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brauman
+        </surname>
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daily
+        </surname>
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duarte
+        </surname>
+        <given-names>
+         TK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mooney
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        The nature and value of ecosystem services: An overview highlighting hydrologic services
+       </article-title>. 
+       <source>Annu Rev Environ Resourc 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        67
+       </fpage>–
+       <lpage>
+        98
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Lange1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lange
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jiddawi
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Economic value of marine ecosystem services in Zanzibar: Implications for marine conservation and sustainable development
+       </article-title>. 
+       <source>Ocean Coast Manage 
+       <volume>
+        52
+       </volume>: 
+       <fpage>
+        521
+       </fpage>–
+       <lpage>
+        532
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Rounsevell1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rounsevell
+        </surname>
+        <given-names>
+         MDA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dawson
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harrison
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        A conceptual framework to assess the effects of environmental change on ecosystem services
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        2823
+       </fpage>–
+       <lpage>
+        2842
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Tomback1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tomback
+        </surname>
+        <given-names>
+         DF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Achuff
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Blister rust and western forest biodiversity: ecology, values and outlook for white pines
+       </article-title>. 
+       <source>For Pathol 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        186
+       </fpage>–
+       <lpage>
+        225
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-deGroot1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         de Groot
+        </surname>
+        <given-names>
+         RS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alkemade
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Braat
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hein
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Willemen
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Challenges in integrating the concept of ecosystem services and values in landscape planning, management and decision making
+       </article-title>. 
+       <source>Ecol Complex 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        260
+       </fpage>–
+       <lpage>
+        272
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Qutier1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Quétier
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rivoal
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marty
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Chazal
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thuiller
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Social representations of an alpine grassland landscape and socio-political discourses on rural development
+       </article-title>. 
+       <source>Reg Environ Change 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        119
+       </fpage>–
+       <lpage>
+        130
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Liu1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         DQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luan
+        </surname>
+        <given-names>
+         XF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         YM
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Ecosystem services and its value evaluation of Sanjiangyuan Region
+       </article-title>. 
+       <source>Journal of Plant Resources and Environment 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        40
+       </fpage>–
+       <lpage>
+        43
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Liu2"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         DQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         YM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luan
+        </surname>
+        <given-names>
+         XF
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        The ecological function analysis and evaluation of ecosystem in Sanjiangyuan region
+       </article-title>. 
+       <source>Acta Scien Circum 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        1280
+       </fpage>–
+       <lpage>
+        1286
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Liu3"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         DQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         YM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luan
+        </surname>
+        <given-names>
+         XF
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Function and value of water-holding in Sanjiangyuan Region
+       </article-title>. 
+       <source>Resources and Environment in the Yangtze Basin 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        405
+       </fpage>–
+       <lpage>
+        408
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Lu1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lu
+        </surname>
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xie
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xiao
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         YJ
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Ecosystem diversity and economic valuation of Qinghai-Tibet Plateau
+       </article-title>. 
+       <source>Acta Ecologica Sinica 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        2749
+       </fpage>–
+       <lpage>
+        2755
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Xie1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Xie
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lu
+        </surname>
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xiao
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zheng
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        The Economic Evaluation of Grassland Ecosystem Services in Qinghai-Tibet Plateau
+       </article-title>. 
+       <source>Journal of Mountain Research 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        50
+       </fpage>–
+       <lpage>
+        55
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Yu1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lu
+        </surname>
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xie
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Seasonal dynamics of ecosystem services of grassland in Qinghai- Tibetan Plateau
+       </article-title>. 
+       <source>Chinese Journal of Applied Ecology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        47
+       </fpage>–
+       <lpage>
+        51
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Dong2"> 
+      <label>24</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Dong SK, Wen L, Li YY, Wang XX, Zhu L, 
+       <etal>
+        et al
+       </etal>.. (2012) Soil-Quality Effects of Grassland Degradation and Restoration on the Qinghai-Tibetan Plateau. Soil Sci Soc Am J.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Wang2"> 
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         GX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Characteristics of grassland and ecological changes of vegetations in the Source Regions of Yangtze and Yellow Rivers
+       </article-title>. 
+       <source>Journal of Desert Research 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        101
+       </fpage>–
+       <lpage>
+        107
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Harris1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Harris
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Rangeland degradation on the Qinghai-Tibetan plateau: A review of the evidence of its magnitude and causes
+       </article-title>. 
+       <source>J Arid Environ 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        12
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Yang1"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ji
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zheng
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Storage, patterns and controls of soil organic carbon in the Tibetan grasslands
+       </article-title>. 
+       <source>Global Change Biol 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        1592
+       </fpage>–
+       <lpage>
+        1599
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Scurlock1"> 
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Scurlock
+        </surname>
+        <given-names>
+         JMO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Johnson
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Olson
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Estimating net primary productivity from grassland biomass dynamics measurements
+       </article-title>. 
+       <source>Global Change Biol 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        736
+       </fpage>–
+       <lpage>
+        753
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Zhao1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhao
+        </surname>
+        <given-names>
+         HL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         YH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Su
+        </surname>
+        <given-names>
+         YZ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         YQ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Effects of desertification on soil organic C and N content in sandy farmland and grassland of Inner Mongolia
+       </article-title>. 
+       <source>Catena 
+       <volume>
+        77
+       </volume>: 
+       <fpage>
+        187
+       </fpage>–
+       <lpage>
+        191
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Yashiro1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yashiro
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shizu
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hirota
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shimono
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ohtsuka
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The role of shrub (Potentilla fruticosa) on ecosystem CO2 fluxes in an alpine shrub meadow
+       </article-title>. 
+       <source>Journal of Plant Ecology 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        89
+       </fpage>–
+       <lpage>
+        97
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Dong3"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dong
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         HY
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Ecological crisis and countermeasures of the Three Rivers Headstream Regions
+       </article-title>. 
+       <source>Journal of Natural Resources 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        713
+       </fpage>–
+       <lpage>
+        720
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Song1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Song
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pan
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Topsoil Organic Carbon Storage of China and Its Loss by Cultivation
+       </article-title>. 
+       <source>Biogeochemistry 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        47
+       </fpage>–
+       <lpage>
+        62
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Tong1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tong
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yong
+        </surname>
+        <given-names>
+         SP
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Changes of steppe ecosystem service values in Xilingul Biosphere Reserve of Inner Mongolia, China
+       </article-title>. 
+       <source>Chinese Journal of Ecology 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        259
+       </fpage>–
+       <lpage>
+        264
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Lin1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         CF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         ZQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xue
+        </surname>
+        <given-names>
+         QH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lai
+        </surname>
+        <given-names>
+         HX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         LS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Effect of Vegetation degradation on soil nutrients and microflora in the Sanjiangyuan Region of Qinghai, China
+       </article-title>. 
+       <source>Chinese Journal of Applied and Environmental Biology 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        788
+       </fpage>–
+       <lpage>
+        793
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Wang3"> 
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zheng
+        </surname>
+        <given-names>
+         QH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guo
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Economic Value Assessment of Forest Species Diversity Conservation in China Based on the Shannon-Wiener Index
+       </article-title>. 
+       <source>For Res 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        268
+       </fpage>–
+       <lpage>
+        274
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Ingraham1"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ingraham
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Foster
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The value of ecosystem services provided by the U.S. National Wildlife Refuge System in the contiguous U.S. Ecol Econ
+       </article-title>. 
+       <volume>
+        67
+       </volume>: 
+       <fpage>
+        608
+       </fpage>–
+       <lpage>
+        618
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Liu4"> 
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         HK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Biomass distribution pattern of degraded grassland in alpine meadow
+       </article-title>. 
+       <source>Grassland of China 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        9
+       </fpage>–
+       <lpage>
+        15
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Liu5"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         XN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sun
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         DG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pu
+        </surname>
+        <given-names>
+         XP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xu
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        A study on the community structure and plant diversity of alpine meadow under different degrees of degradation in the Eastern Qilian Mountains
+       </article-title>. 
+       <source>Acta Prataculturae Sinica 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        11
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Zuo1"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zuo
+        </surname>
+        <given-names>
+         XA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhao
+        </surname>
+        <given-names>
+         HL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhao
+        </surname>
+        <given-names>
+         XY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guo
+        </surname>
+        <given-names>
+         YR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yun
+        </surname>
+        <given-names>
+         JY
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Vegetation pattern variation, soil degradation and their relationship along a grassland desertification gradient in Horqin Sandy Land, northern China
+       </article-title>. 
+       <source>Environ Geol 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        1227
+       </fpage>–
+       <lpage>
+        1237
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Yan1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yan
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shuzhen
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Dynamic of grassland biomass in different degenerative stages
+       </article-title>. 
+       <source>Wuhan Univ J Nat Sci 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        958
+       </fpage>–
+       <lpage>
+        962
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Cai1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cai
+        </surname>
+        <given-names>
+         BL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         YQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shao
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Characteristics of soil fertility in alpine steppes at different degradation grades
+       </article-title>. 
+       <source>Acta Ecologica Sinica 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        1034
+       </fpage>–
+       <lpage>
+        1044
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Wei1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shao
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fu
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Horton
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Distribution of Soil Organic C, N and P in Three Adjacent Land Use Patterns in the Northern Loess Plateau, China
+       </article-title>. 
+       <source>Biogeochemistry 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        149
+       </fpage>–
+       <lpage>
+        162
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Wiesmeier1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wiesmeier
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steffens
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kölbl
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kögel-Knabner
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Degradation and small-scale spatial homogenization of topsoils in intensively-grazed steppes of Northern China
+       </article-title>. 
+       <source>Soil Tillage Res 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        299
+       </fpage>–
+       <lpage>
+        310
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Li1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Li XH, Huang BN (1995) Formation cause and treating methods of “Black Beach” in Qinghai Province. Grassland of China 4: 64–67, 51.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Cao1"> 
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cao
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mo
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Grazing intensity alters soil respiration in an alpine meadow on the Tibetan plateau
+       </article-title>. 
+       <source>Soil Biol Biochem 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        237
+       </fpage>–
+       <lpage>
+        243
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Wang4"> 
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         CT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Long
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         QL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jing
+        </surname>
+        <given-names>
+         ZC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shi
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Changes in plant diverstiy, biomass and soil C, in alpine meadows at different degradation stages in the Headwater Region of Three Rivers, China
+       </article-title>. 
+       <source>Land Degrad Develop 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        187
+       </fpage>–
+       <lpage>
+        198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0058432-Zhang1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Zhang JF (2008) Ecological current situation of grassland and its countermeasures in the Three Rivers District of Qinghai. Prataculture and Animal Husbandry: 30–31.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

@@ -1,0 +1,4734 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-33713
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0066653
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Community structure
+          </subject>
+          <subject>
+           Ecological risk
+          </subject>
+          <subject>
+           Food web structure
+          </subject>
+          <subject>
+           Species interactions
+          </subject>
+          <subject>
+           Trophic interactions
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecological environments
+         </subject>
+         <subj-group>
+          <subject>
+           Marine environments
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem functioning
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Coastal ecology
+         </subject>
+         <subject>
+          Global change ecology
+         </subject>
+         <subject>
+          Marine ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Marine biology
+        </subject>
+        <subj-group>
+         <subject>
+          Coastal ecology
+         </subject>
+         <subject>
+          Marine ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Zoology
+        </subject>
+        <subj-group>
+         <subject>
+          Nematology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Assessing the Response of Nematode Communities to Climate Change-Driven Warming: A Microcosm Experiment
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Community Response to Experimental Climate Change
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gingold
+        </surname>
+        <given-names>
+         Ruth
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         Tom
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rocha-Olivares
+        </surname>
+        <given-names>
+         Axayácatl
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Biological Oceanography Department, Centro de Investigación Científica y de Educación Superior de Ensenada, Ensenada, Baja California, Mexico
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Department of Biology, Ghent University, Ghent, Flanders, Belgium
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         Simon
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       National Institute of Water &amp; Atmospheric Research, New Zealand
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        ruth_gingold@hotmail.com
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: RG TM ARO. Performed the experiments: RG ARO. Analyzed the data: RG ARO. Contributed reagents/materials/analysis tools: RG ARO. Wrote the paper: RG. Performed laboratory work and sample analyses: RG. Interpreted the data: RG ARO TM. Revised the manuscript: ARO TM.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2013
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       18
+      </day>
+      <month>
+       6
+      </month>
+      <year>
+       2013
+      </year>
+     </pub-date> 
+     <volume>
+      8
+     </volume> 
+     <issue>
+      6
+     </issue> 
+     <elocation-id>
+      e66653
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        26
+       </day>
+       <month>
+        10
+       </month>
+       <year>
+        2012
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        13
+       </day>
+       <month>
+        5
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2013
+      </copyright-year> 
+      <copyright-holder>
+       Gingold et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Biodiversity has diminished over the past decades with climate change being among the main responsible factors. One consequence of climate change is the increase in sea surface temperature, which, together with long exposure periods in intertidal areas, may exceed the tolerance level of benthic organisms. Benthic communities may suffer structural changes due to the loss of species or functional groups, putting ecological services at risk. In sandy beaches, free-living marine nematodes usually are the most abundant and diverse group of intertidal meiofauna, playing an important role in the benthic food web. While apparently many functionally similar nematode species co-exist temporally and spatially, experimental results on selected bacterivore species suggest no functional overlap, but rather an idiosyncratic contribution to ecosystem functioning. However, we hypothesize that functional redundancy is more likely to observe when taking into account the entire diversity of natural assemblages. We conducted a microcosm experiment with two natural communities to assess their stress response to elevated temperature. The two communities differed in diversity (high [HD] vs. low [LD]) and environmental origin (harsh vs. moderate conditions). We assessed their stress resistance to the experimental treatment in terms of species and diversity changes, and their function in terms of abundance, biomass, and trophic diversity. According to the Insurance Hypothesis, we hypothesized that the HD community would cope better with the stressful treatment due to species functional overlap, whereas the LD community functioning would benefit from species better adapted to harsh conditions. Our results indicate no evidence of functional redundancy in the studied nematofaunal communities. The species loss was more prominent and size specific in the HD; large predators and omnivores were lost, which may have important consequences for the benthic food web. Yet, we found evidence for alternative diversity–ecosystem functioning relationships, such as the Rivets and the Idiosyncrasy Model.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This research was funded by the grant CONACYT-SEMARNAT-2004-C01-300 to ARO. The paper derived from the first author's PhD research at the Marine Ecology program at CICESE where she was supported by CONACYT. TM received funding from the Flemish National Science Foundation (FWO) through project 3G019209W and from the research council of UGent (project BOF09/24J/148). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="13" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Biodiversity has diminished dramatically over the past decades with climate change being among the main responsible factors 
+     <xref ref-type="bibr" rid="pone.0066653-Brierley1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Jokiel1">
+      [2]
+     </xref>. Increasing sea surface temperature is one of the consequences of climate change, and possibly the most pervasive of present-day impacts on marine systems 
+     <xref ref-type="bibr" rid="pone.0066653-IPCC1">
+      [3]
+     </xref>. In intertidal areas, the combination of high water-temperature and long exposure to high air-temperature during spring tides may exceed the tolerance of some intertidal organisms causing local extinctions 
+     <xref ref-type="bibr" rid="pone.0066653-Brierley1">
+      [1]
+     </xref>. Ecological services provided by intertidal organisms such as water filtration, nutrient recycling and sediment stabilization 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Ieno1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Hubas1">
+      [6]
+     </xref> may be at risk due to changes in community patterns and the loss of species.</p> 
+    <p>Free-living marine nematodes are usually the most abundant and diverse benthic meiofaunal taxon in marine sediments. They comprise a variety of feeding guilds including bacteria- and diatom-feeding species, scavengers and predators, which play a fundamental role in the benthic food web as recyclers and as a trophic link between microorganisms and macrofauna 
+     <xref ref-type="bibr" rid="pone.0066653-Hamerlynck1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Coull1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Li1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Hamels1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Olafsson1">
+      [11]
+     </xref>. Additionally, recent studies have revealed their importance for sediment stability, as their presence enhances the production of sediment-binding extracellular polymeric substances (EPS) 
+     <xref ref-type="bibr" rid="pone.0066653-Hubas1">
+      [6]
+     </xref>. Their communities are characterized by an exceptionally high taxonomic and functional diversity. According to the Insurance Hypothesis (IH) 
+     <xref ref-type="bibr" rid="pone.0066653-Yachi1">
+      [12]
+     </xref>, diverse communities benefit from the greater potential redundancy of similar species, as it may assure ecosystem functioning following considerable species loss caused by environmental hazards. Although such functional redundancy has been observed in microbial communities 
+     <xref ref-type="bibr" rid="pone.0066653-McGradySteed1">
+      [13]
+     </xref>, benthic macro-invertebrate species seem to contribute idiosyncratically to ecosystem functioning with their impact strongly depending on species identity and functional role 
+     <xref ref-type="bibr" rid="pone.0066653-Emmerson1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Emmerson2">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Bolam1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Cardinale1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Waldbusser1">
+      [18]
+     </xref>. Whether this also applies to benthic meiofauna remains to be investigated. Although meiobenthic assemblages typically comprise many seemingly functionally similar species 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Derycke1">
+      [19]
+     </xref>, experimental results on selected bacterivore species suggest that functional overlap within established guilds – with functional diversity most often approximated by the diversity in feeding groups – may be smaller than expected, resulting in an idiosyncratic relationship between diversity and ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel1">
+      [4]
+     </xref>.</p> 
+    <p>To date, the subject of functional redundancy in nematodes has been investigated on experimental systems that included very few functionally similar bacterivore species 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel2">
+      [20]
+     </xref>. In these low-diversity assemblages, each species contributed idiosyncratically. However, studies addressing species redundancy in natural nematode assemblages are lacking but necessary to assess the complexity of community responses to environmental forcing. Nematode assemblages are characterized by high local as well as within-guild diversity; in line with the insurance effect, we hypothesize that functional redundancy is likely more prominent in assemblages of higher diversity, where it may buffer nematode functional roles against perturbations. Therefore, we conducted a microcosm experiment with natural communities drawn directly from their environment to assess their stress response to elevated temperature. We assessed their stress resistance to the experimental treatment in terms of species and diversity changes, and their function in terms of abundance, individual and community biomass, and trophic diversity. The communities originate from a macrotidal ridge-and-runnel beach of the northern Gulf of California, Mexico, one of the world’s marine endemism and biodiversity hotspots 
+     <xref ref-type="bibr" rid="pone.0066653-Roberts1">
+      [21]
+     </xref>. This semi-enclosed sea is exceptionally prone to sea temperature increase (8°C over the past century 
+     <xref ref-type="bibr" rid="pone.0066653-JullietLeclerc1">
+      [22]
+     </xref>), putting at stake a high number of marine species 
+     <xref ref-type="bibr" rid="pone.0066653-Stillman1">
+      [23]
+     </xref>. Based on a previous study on the same beach conducted in 2007/2008 
+     <xref ref-type="bibr" rid="pone.0066653-Gingold1">
+      [24]
+     </xref>, we chose two different assemblages stemming from different environments: a low-diversity community from the upper beach (LD henceforth), where environmental conditions are rather harsh (long tidal exposure and high temperature), and a high-diversity (HD henceforth) community from a lower part of the beach, where environmental conditions are comparatively moderate (relatively shorter tidal exposure and on average lower temperature). We hypothesized that a) the less diverse community would largely consist of species, which cope better with stress and hence would lose relatively fewer species because of its environmental history of high temperature and long exposure during low tide. However, according to the IH, we also hypothesized that b) the HD community would better maintain its functionality in the face of environmental stress due to the compensatory potential of functionally redundant species, and/or due to the higher probability that high-diversity assemblages contain high-performance or resistant species (i.e. sampling effect) 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel1">
+      [4]
+     </xref>.</p> 
+    <p>We therefore expected that the imposed temperature stress would, on the one hand, drive the HD and LD communities to structural convergence based on a set of temperature-resistant species; and, on the other, that the HD assemblage would exhibit a higher degree of functionality than the LD after an environmentally stressful phase, as predicted by the IH.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>1. Rationale behind the choice of sampling sites and the proxies to assess ecosystem functioning</title> 
+     <p>The rationale behind the choice of the two sampling sites was to select two assemblages exhibiting different diversity levels (
+      <italic>
+       i.e.
+      </italic>, species richness and Shannon’s diversity index), yet no radical taxonomical differences such that diversity 
+      <italic>
+       per se
+      </italic> would be confounded with the taxonomic composition of the community. Moreover, the ecological background should not be radically different so that the ecological difference would not be the main driver of the response to increased temperature. For this reason we chose two stations located on different sandbars in the upper half of the middle beach.</p> 
+     <p>The functioning of the system was assessed with several proxies that integrate different aspects of nematode functionality: abundance, individual and community biomass, and trophic diversity. Abundance together with individual and community biomass are indicators of survival, population turnover rate, and secondary production, which in turn are linked to, e.g., community respiration (higher abundance/biomass  =  higher respiration rate), nutrient uptake rate (higher abundance/biomass  =  higher nutrient uptake rate) and ultimately also to nutrient regeneration. Given that larger nematodes move more easily in the sediments 
+      <xref ref-type="bibr" rid="pone.0066653-Gallucci1">
+       [25]
+      </xref> individual biomass may also be an indicator of micro-bioturbation with implications for the porosity of the sediment and therefore chemical processes and ultimately nutrient regeneration. The trophic identity and community trophic diversity are directly linked to the nematodes feeding habits and therefore available food sources in the system, which, in turn, reflect, e.g., the nutrient regeneration and transfer to higher trophic levels. Our functional proxies are thus relevant for a broad range of nematode functions, although functional overlap may vary among the different functions.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>2. Sampling site and strategy</title> 
+     <p>Samples were taken on September 1<sup>st</sup> 2008 during low spring tide at 
+      <italic>
+       El Tornillal
+      </italic> (N: 31° 33.527; W: 114° 17.866) in the Upper Gulf of California, Mexico (UGC). 
+      <italic>
+       El Tornillal
+      </italic> is a 600 m wide dissipative ridge-and-runnel macrotidal beach 
+      <xref ref-type="bibr" rid="pone.0066653-Masselink1">
+       [26]
+      </xref>. For a more detailed description of the study site we refer to Gingold et al. (2010) 
+      <xref ref-type="bibr" rid="pone.0066653-Gingold1">
+       [24]
+      </xref>. We chose two stations based on previous knowledge of the beach 
+      <xref ref-type="bibr" rid="pone.0066653-Gingold1">
+       [24]
+      </xref>, located approximately 150 m away from each other. The station closer to the waterline (ca. 350 m from the waterline, ca. 2.2 m above mean lower low water level [MLLW]) was the "high diversity" (HD) site, and the one closer to the dunes (ca. 500 m from the waterline, ca. 2.9 m above MLLW) the "low diversity" (LD) site (
+      <xref ref-type="fig" rid="pone-0066653-g001">
+       Figs. 1
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0066653.s001">
+       S1
+      </xref>). Daily mean tidal exposure to air for the month of sampling were 15.6 h for the LD site, and 11.7 h for the HD site (
+      <xref ref-type="supplementary-material" rid="pone.0066653.s002">
+       Fig. S2
+      </xref>). Differences in taxonomic diversity between sites were verified at the time of sampling under a Leica Zoom 2000 stereoscope. Twenty sediment cores were taken at equal distances within 20 m<sup>2</sup> to a depth of 10 cm at each of the two sites with a metal corer (10.8 cm in diameter) and carefully transferred to microcosm containers (
+      <xref ref-type="fig" rid="pone-0066653-g001">
+       Fig. 1A–D
+      </xref>). All microcosms were immediately placed in cooler-boxes filled with tempered seawater and brought as fast as possible to the aquaculture facilities at the Centro de Investigación Científica y Educación Superior de Ensenada (CICESE).</p> 
+     <fig id="pone-0066653-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Sampling strategy in the field.</title> 
+      <p>40 sediment cores were sampled at two stations (20 cores each) located on different sandbars of the intertidal, and hosting communities of high or low diversities respectively. A: Samples were taken with a metal cylinder to 10 cm depth. B: Entire sediment cores were placed into containers. C: The sampling corer fitted exactly in the container so that the internal structure of the sediment core remained as intact as possible. D: The metal corer was carefully removed.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>In addition to the microcosm cores, four sediment samples were taken at each site (LD and HD) with a small corer (9.8 cm long by 2.9 cm in diameter) to evaluate the nematode community composition and diversity in the field at the time of sampling. These samples were fixed immediately in 5% formalin. In order to characterize the habitat of both locations, four replicate samples were taken for each of the following analyses: 1) granulometry, 2) organic matter and 3) chlorophyll-
+      <italic>
+       a
+      </italic> as a proxy for microphytobenthos biomass. Core size for granulometry and organic matter was 9.8 cm long by 2.9 cm in diameter, and for microphytobenthos 1 cm long by 1 cm in diameter. Granulometry and organic matter samples were kept under ice in the field, and then frozen at –20°C until processed. Chlorophyll samples were kept in dark tubes under ice in the field, and then stored at –40°C until processed. Water temperature at the time of sampling was 31°C.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>3. Experimental setup</title> 
+     <p>In the laboratory, four microcosms (two HD and two LD respectively) were randomly assigned to each of ten 100 l tubs. Previously, the tubs had been filled with filtered and sterile seawater (passed through a 1 µm filter and UV treated) to minimize biofouling and maintained at 31°C. All microcosms were acclimated to experimental conditions at 31°C for 5 days. Temperature was maintained constant with thermostats (1000 W titanium heater for high, and regular 250 W heaters for the normal temperature), and the water was homogenized with bubbling air stones placed next to the heaters. All microcosm containers were closed with a transparent plastic lid. Water oxygenation and circulation inside the microcosm containers was achieved by bubbling air with an air stone introduced through a hole in the lid.</p> 
+     <p>After the acclimation period, the temperature was gradually (during 24 h) increased to 36°C in five randomly assigned high temperature tubs. We chose a relatively short acclimation period in order to start the experiment under conditions as close as possible to the original state, based on the assumption that temperature acclimation of nematodes is expected to be relatively fast (order of hours 
+      <xref ref-type="bibr" rid="pone.0066653-Dusenbery1">
+       [27]
+      </xref>). The experimental temperature (36°C) is above the highest recorded mean summer temperature (31.1°C±1°C) but within the range of future (50–100 years) temperatures that could be reached following linear extrapolations of 
+      <italic>
+       in situ
+      </italic> temperatures over the past 40 years (M. Lavín, pers. comm.). As soon as the temperature reached 36°C, one of the four containers was removed from each tub (five replicates from each HD and LD group respectively). These microcosms represented the "time zero control" (t<sub>0</sub>) at the start of the experimental treatment and served as a control for the enclosure effect by the microcosm device (
+      <xref ref-type="fig" rid="pone-0066653-g002">
+       Fig. 2A
+      </xref>). At the end of the experiment, two microcosms were sampled representing HD and LD respectively (
+      <xref ref-type="fig" rid="pone-0066653-g002">
+       Fig. 2B
+      </xref><sub>1</sub> and B<sub>2</sub>). The remaining microcosm (one in each tub) served as a "live control" to continuously monitor and record activity of nematodes during the course of the incubation (
+      <xref ref-type="fig" rid="pone-0066653-g002">
+       Fig. 2C
+      </xref>). Each of these ten live controls was sub-sampled once at regular intervals (4 days) from the acclimation period to the end of the experiment. The microcosms themselves were left in the tubs after sub-sampling. Sampled organisms were immediately checked under a light stereoscope.</p> 
+     <fig id="pone-0066653-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Experimental design.</title> 
+      <p>4 microcosm containers were placed in each of 10 tubs. The time<sub>0</sub> control (A) was analyzed at the start of the experimental treatment when temperature was changed in the high temperature treatments. The experimental groups of high (B<sub>1</sub>) and low (B<sub>2</sub>) diversity were kept at constant temperature throughout the experiment: elevated (36°C) for the test group and normal (31°C) for the "temperature control" group. Each experimental group was replicated 5 times. The live control (C) was used to monitor nematodes throughout the experiment.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.g002" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The experimental treatment consisted of high temperature incubation (maintained at 36°C), whereas the experimental temperature control was incubated at field temperature (maintained at 31°C). Henceforth, abbreviations of the different groups (
+      <italic>
+       i.e.
+      </italic>, diversity levels and treatments) will be used according to 
+      <xref ref-type="table" rid="pone-0066653-t001">
+       Table 1
+      </xref>. Microcosms were checked daily and constant salinity was maintained (ca. 35‰), compensating evaporation by adding reverse osmosis purified water. Tubs were refilled daily to maintain a constant water level. The experiment was run for 25 days, after 5 days of acclimation and 1 of gradual temperature change. Through the regular checks of the "live controls" a continuous mortality in both treatments could be observed. The experiment was stopped at the time when anoxic conditions were first detected in the sediments of the high temperature treatment, together with decreased activity of the nematodes in both treatments. Despite the anoxic conditions at the end of the experiment, we are confident that any effect of anoxia/hypoxia is likely to be subordinate to the temperature-induced effects, as no sudden collapse of microcosms in either treatment could be observed. At the end of the experiment, whole microcosms were fixed in 5% formalin.</p> 
+     <table-wrap id="pone-0066653-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Abbreviations for experimental groups.</title> 
+      <alternatives>
+       <graphic id="pone-0066653-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Low diversity</td> 
+          <td align="left" rowspan="1" colspan="1">High diversity</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Time zero control
+           </bold> 
+           <xref ref-type="table-fn" rid="nt101">
+            1
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">LDt<sub>0</sub></td> 
+          <td align="left" rowspan="1" colspan="1">HDt<sub>0</sub></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Normal temperature
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">LD<sub>31</sub></td> 
+          <td align="left" rowspan="1" colspan="1">HD<sub>31</sub></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            High temperature
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">LD<sub>36</sub></td> 
+          <td align="left" rowspan="1" colspan="1">HD<sub>36</sub></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label>1</label>
+        <p>Samples taken at the time when high temperature treatments reached their target temperature (36°C).</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s2d"> 
+     <title>4. Faunal analyses</title> 
+     <p>Fixed samples were rinsed with freshwater over a 45 mm sieve. Meiofauna was extracted by suspension in colloidal silica (LUDOX™, specific density 1.15) following De Jonge &amp; Bouwman 
+      <xref ref-type="bibr" rid="pone.0066653-DeJonge1">
+       [28]
+      </xref> and stored in 80 ml 5% formalin. Nematodes were counted in five aliquots of 5 ml (25 ml in total per sample) using a counting dish under a Leica Zoom 2000 stereoscope. Nematode density (ind. 10 cm<sup>−2</sup>) was calculated by the mean abundance of the five aliquots and extrapolated to total abundance based on the fraction (31.25%) of the volume of each aliquot relative to the total sample. All aliquots were transferred to a 5% glycerol solution and slowly evaporated on a heating plate. The first 100 randomly picked nematodes were mounted on permanent slides for identification using an OLYMPUS BX51 compound microscope with differential interference contrast (DIC) optics. Nematodes were identified to the species or genus level where possible, using pictorial keys 
+      <xref ref-type="bibr" rid="pone.0066653-Platt1">
+       [29]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066653-Platt2">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066653-Warwick1">
+       [31]
+      </xref>. In the case where male reproductive organs were essential to determine the genus, juveniles and females were determined in the most conservative way: if possible, they were identified to the generic level; alternatively they were identified to family level. If species could not be determined, they were labeled sp. 1, sp. 2.</p> 
+     <p>The community attributes (response variables) tested were the number of species (species richness, 
+      <italic>
+       S
+      </italic>), the taxonomic diversity (Diversity index of Shannon Wiener, 
+      <italic>
+       H’
+      </italic>) and the number of individuals per 10 cm<sup>2</sup> (abundance) to assess the structural changes. The index of Shannon Wiener was calculated as 
+      <italic>
+       H'
+      </italic>
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0066653.e001" xlink:type="simple" />
+      </inline-formula>, where 
+      <italic>
+       p
+       <sub>i</sub>
+      </italic> is the proportion of the total count arising from the 
+      <italic>
+       i
+      </italic>th species. In order to evaluate functional changes in the system, we estimated trophic diversity (Index of trophic diversity, 
+      <italic>
+       ITD
+       <sup>−1</sup>
+      </italic>) and biomass (individual and community).</p> 
+     <p>Trophic diversity was assessed based on the four trophic groups according to Wieser 
+      <xref ref-type="bibr" rid="pone.0066653-Wieser1">
+       [32]
+      </xref>: 1A (selective deposit and bacteria feeders with small, unarmed buccal cavities), 1B (non-selective deposit feeders with unarmed wide buccal cavities), 2A (epistrate feeders with lightly armed small buccal cavities) and 2B (carnivores and omnivores with wide armed buccal cavities). Although the trophic groups are based on morphological features rather than direct foraging observations, they are assumed to be directly linked to the potential feeding behavior. The trophic diversity is calculated by an index (Index of trophic diversity, ITD) modified from Heip et al. 
+      <xref ref-type="bibr" rid="pone.0066653-Heip1">
+       [33]
+      </xref> applying the formula 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0066653.e002" xlink:type="simple" />
+      </inline-formula>, where θ
+      <italic>
+       <sub>i</sub>
+      </italic> is the fraction of the 
+      <italic>
+       i
+      </italic>th functional group. It is therefore presented as 
+      <italic>
+       ITD
+       <sup>−1</sup>
+      </italic>. 
+      <italic>
+       ITD
+       <sup>−1</sup>
+      </italic> ranges from 1 (when one functional group contributes 100% and functional diversity is lowest) to 4 (when each functional group contributes 25% and functional diversity is highest). A functionally diverse assemblage is thus characterized by the even representation of the four trophic groups. The method allows for an approximate assessment of functional overlap when two species belong to the same trophic guild.</p> 
+     <p>Pictures were taken of all individuals for morphometric and biomass analyses. Biomass serves as an indirect proxy for secondary production. Direct measurement of secondary production of nematodes in natural assemblages is hampered by the fact that many species have continuous reproduction and overlapping generations. Hence, biomass is often used as a surrogate for secondary production, as it is directly proportional to community respiration 
+      <xref ref-type="bibr" rid="pone.0066653-Heip1">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066653-VanderMeer1">
+       [34]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066653-Franco1">
+       [35]
+      </xref>. Total body length and body width of each of the 100 individual nematodes per sample were measured using the software ImageJ. Individual biomass for each nematode was then calculated following a slightly adapted version of Andrassy’s formula 
+      <xref ref-type="bibr" rid="pone.0066653-Andrassy1">
+       [36]
+      </xref>: Biomass (in µg wet weight)  =  (
+      <italic>
+       LW
+      </italic><sup>2</sup>/1.7) 
+      <italic>
+       NRd
+      </italic> * 10<sup>3</sup>, where 
+      <italic>
+       L
+      </italic>  =  total body length (mm), 
+      <italic>
+       W
+      </italic>  =  body width (body diameter in mm), 
+      <italic>
+       NRd
+      </italic> =  relative density, estimated at 1.13 for marine nematodes 
+      <xref ref-type="bibr" rid="pone.0066653-Somerfield1">
+       [37]
+      </xref>. Community biomass (in µg wet weight) was calculated as the average individual biomass*number of individuals (abundance).</p> 
+    </sec>
+    <sec id="s2e"> 
+     <title>5. Habitat characterization of the sampling stations</title> 
+     <p>Sediment granulometry was assessed by the dry sieving method. Samples were first treated with 30% peroxide (H<sub>2</sub>O<sub>2</sub>) to oxidize organic matter. After rinsing gently with distilled water and drying at 60° C they were sieved through a stack of Wentworth grade sieves (0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5 and 4 Φ, where Φ  =  –log<sub>2</sub> [grain diameter]) and the dry weight of each fraction was obtained 
+      <xref ref-type="bibr" rid="pone.0066653-Bale1">
+       [38]
+      </xref>.</p> 
+     <p>Organic matter content was assessed by combustion at 550° C for 24 hours, after treating samples with 10% HCl to dissolve inorganic carbonates (mainly CaCO<sub>3</sub> 
+      <xref ref-type="bibr" rid="pone.0066653-Froelich1">
+       [39]
+      </xref>), rinsing them thoroughly with fresh water, and lyophilization 
+      <xref ref-type="bibr" rid="pone.0066653-Dean1">
+       [40]
+      </xref>. Organic matter was computed as the difference in dry weight before and after combustion and standardized to percentage of total dry weight before combustion.</p> 
+     <p>Phytobenthic chlorophyll was extracted by grinding sediment samples in 90% acetone, extracting for 24 hrs in the dark and then centrifuging at 3,000 rpm for 10 minutes. Absorbance of the supernatant was measured at 665 and 750 nm before and after acidification with a few drops of 10% HCl (Spectrophotometer Ely-2000, Elyptica, Ensenada B.C.). Chlorophyll density was calculated following Lorenzen 
+      <xref ref-type="bibr" rid="pone.0066653-Lorenzen1">
+       [41]
+      </xref> and Colijn &amp; Dijkema 
+      <xref ref-type="bibr" rid="pone.0066653-Colijn1">
+       [42]
+      </xref> and is expressed in mg m<sup>−2</sup>.</p> 
+    </sec>
+    <sec id="s2f"> 
+     <title>6. Statistical analyses</title> 
+     <p>To analyze differences in nematode assemblages among experimental groups we applied Analyses of Similarity (ANOSIM) on Bray-Curtis similarities. ANOSIM is conceptually similar to ANOVA but makes no assumptions about the distribution of the data. The test statistic R  =  1 if all replicates within groups are more similar to each other than to any replicate from different groups, whereas R  =  0 if similarities within and among groups are the same on average. Analysis of Similarity Percentage (SIMPER) was applied to assess the species that contributed the most (
+      <italic>
+       i.e.
+      </italic>, were the most "typical") to each of the assemblages. To visualize the relative contribution of the characteristic species of each experimental group, we plotted results from SIMPER (90% cumulative percentage) in a doughnut chart.</p> 
+     <p>We used Student’s t-tests to assess differences in community and environmental attributes between the two field stations. Assumptions of normal distribution and homoscedasticity were met as verified by a Kolmogorov-Smirnov and Bartlett’s test respectively.</p> 
+     <p>Differences in community attributes of experimental groups were tested with ANOVAs. The main predictions of this study relate to the independent effect of temperature in each diversity group, therefore we made an 
+      <italic>
+       a priori
+      </italic> test of independence of temperature (time<sub>0</sub>, 31°C and 36°C) and diversity (high and low) on response variables with a 3×2 factorial Type II ANOVA. Then, we applied 1-way ANOVA separately to test the null hypotheses of no differences between the mean response variables of the time<sub>0</sub> control and the different treatments (
+      <italic>
+       H
+       <sub>0</sub>
+      </italic>: m-
+      <italic>
+       x
+      </italic>Dt<sub>0</sub>  =  m-
+      <italic>
+       x
+      </italic>Dt<sub>31</sub>  =  m-
+      <italic>
+       x
+      </italic>Dt<sub>36</sub>), where m is the mean response variable of each diversity treatment, and 
+      <italic>
+       x
+      </italic> refers to L (low diversity) or H (high diversity). Rejection of 
+      <italic>
+       H
+       <sub>0</sub>
+      </italic> was further investigated using Dunnett test for multiple comparisons 
+      <xref ref-type="bibr" rid="pone.0066653-Zar1">
+       [43]
+      </xref>, taking 
+      <italic>
+       x
+      </italic>Dt<sub>0</sub> as the control group. Rejection of 
+      <italic>
+       H
+       <sub>0</sub>
+      </italic>: m-
+      <italic>
+       x
+      </italic>Dt<sub>0</sub>  =  m-
+      <italic>
+       x
+      </italic>Dt<sub>36</sub> was interpreted as evidence of a significant high temperature effect with or without significant enclosure effect, the latter being assessed by the rejection of H<sub>0</sub>: m-
+      <italic>
+       x
+      </italic>Dt<sub>0</sub>  =  m-
+      <italic>
+       x
+      </italic>Dt<sub>31</sub>. If both effects were significant, t-tests between xD<sub>31</sub> and xD<sub>36</sub> were performed in order to assess whether both effects were additive (in case of significance) or whether the enclosure effect was dominant (in case of non-significance). Homoscedasticity was verified with Bartlett’s test and normality with the Kolmogorov-Smirnov test 
+      <xref ref-type="bibr" rid="pone.0066653-Sokal1">
+       [44]
+      </xref>. In the case of heteroscedasticity data were log-transformed.</p> 
+     <p>PRIMER version 6 
+      <xref ref-type="bibr" rid="pone.0066653-Clarke1">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066653-Clarke2">
+       [46]
+      </xref> was used for multivariate analyses. STATISTICA 
+      <xref ref-type="bibr" rid="pone.0066653-StatSoft1">
+       [47]
+      </xref> was used for univariate analyses.</p> 
+    </sec>
+    <sec id="s2g"> 
+     <title>7. Ethics statement</title> 
+     <p>Samples were collected under permit No. DGOPA. 05335.100707.2458 (SAGARPA).</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>1. Biological and environmental differences between source communities in the field</title> 
+     <p>The two sampled stations hosted different nematode assemblages (ANOSIM, R = 1, p = 0.029); the HD assemblage had significantly higher species richness, diversity (
+      <italic>
+       H’
+      </italic>), trophic diversity (
+      <italic>
+       ITD
+       <sup>−1</sup>
+      </italic>), and abundance (individuals per 10 cm<sup>2</sup>) (
+      <xref ref-type="table" rid="pone-0066653-t002">
+       Table 2
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0066653-g003">
+       Fig. 3A-D
+      </xref>).</p> 
+     <fig id="pone-0066653-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Comparison of the two field assemblages.</title> 
+      <p>Mean (± Standard deviation) of A: Species richness (
+       <italic>
+        S
+       </italic>), B: Diversity (
+       <italic>
+        H’
+       </italic>; Index of Shannon Wiener), C: Trophic diversity (
+       <italic>
+        IDT
+        <sup>−1</sup>
+       </italic>), and D: Abundance (individuals per 10 cm<sup>2</sup>).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.g003" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0066653-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Student’s t-test of community attributes between the two field sampling stations (n = 4).</title> 
+      <alternatives>
+       <graphic id="pone-0066653-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">t</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Species richness
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">7.44</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Diversity
+           </bold>
+           <xref ref-type="table-fn" rid="nt102">
+            1
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">11.28</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Abundance
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">5.55</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Trophic diversity
+           </bold>
+           <xref ref-type="table-fn" rid="nt103">
+            2
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">11.04</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt102">
+        <label>1</label>
+        <p>Shannon Wiener diversity index.</p>
+       </fn>
+       <fn id="nt103">
+        <label>2</label>
+        <p>Index of trophic diversity ITD<sup>−1</sup>.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>SIMPER analysis revealed that the LD assemblage was largely dominated by 
+      <italic>
+       Perepsilonema
+      </italic> sp. (83.61%, 
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4A
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). Considering all species (and not only the cumulative 90% represented in the SIMPER analysis), the two assemblages shared 20 species. In addition, 12% of all species were unique to the LD whereas 31% were unique to the HD. 
+      <italic>
+       Perepsilonema
+      </italic> sp., 
+      <italic>
+       Microlaimus
+      </italic> sp.2, 
+      <italic>
+       Metachromadora
+      </italic> sp.2 and 
+      <italic>
+       Chromadorina
+      </italic> sp., making up 90% of the discriminating species of the LD (
+      <italic>
+       i.e.
+      </italic>, being the most typical species), were also present at the HD with the exception of 
+      <italic>
+       Chromadorina
+      </italic> sp. (
+      <italic>
+       Microlaimus
+      </italic> sp.2 was not part of the discriminating species shown in 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). Thus, the large difference between the two assemblages revealed by ANOSIM is mainly due to a) the dominance of a single species (
+      <italic>
+       Perepsilonema sp.
+      </italic> contributed almost 40% to the dissimilarity between the two assemblages) and b) the large number of unique species in the HD.</p> 
+     <fig id="pone-0066653-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Graphical representation of typical species of each diversity group.</title> 
+      <p>Species are represented by different colors. The corresponding percentage (up to 90%) of contribution was calculated by SIMPER and is listed in 
+       <xref ref-type="table" rid="pone-0066653-t003">
+        Table 3
+       </xref>. HD = High diversity, LD = low diversity. A: The two communities sampled in the field, B: Experimental control groups (before the start of the experiment), C: Assemblages exposed to normal temperature and D: Assemblages exposed to high temperatures.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.g004" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0066653-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>Percentages contribution (%) of the top 90% discriminating genera of the two field stations and the six experimental groups.</title> 
+      <alternatives>
+       <graphic id="pone-0066653-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.t003" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td colspan="6" align="left" rowspan="1">FIELD</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">HD
+           <xref ref-type="table-fn" rid="nt104">
+            1
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">LD
+           <xref ref-type="table-fn" rid="nt105">
+            2
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold>
+           <xref ref-type="table-fn" rid="nt106">
+            3
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Tricompa
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">5.38</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">83.61</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">5.1</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">4.36</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">1.7</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">1.86</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Rhynchonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">6.23</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chromadorina
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.66</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">5.1</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Xyala sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">4.53</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Omicronema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.55</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">19.83</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">7.37</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chromadorita
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">6.51</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">6.23</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Pomponema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">6.24</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Dichromadora
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.55</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Hypodontolaimus
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.27</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chromaspirinia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.98</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Epacanthion
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.83</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Odontophora
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.99</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Enoploides
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.69</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td colspan="6" align="left" rowspan="1">EXPERIMENT</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Time<sub>0</sub></td> 
+          <td align="left" rowspan="1" colspan="1">HD</td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">LD</td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Tricoma
+           </italic> sp. 1</td> 
+          <td align="left" rowspan="1" colspan="1">3.5</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">50</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.53</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Rhynchonema sp.
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">5</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Calomicrolaimus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">1.56</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Theristus
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">3.23</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.3</td> 
+          <td align="left" rowspan="1" colspan="1">1.17</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Theristus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">2.58</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">12.65</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">8.55</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">6.03</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">5.97</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyalidae
+           </italic> gen.1</td> 
+          <td align="left" rowspan="1" colspan="1">3.31</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">3.87</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Richtersia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.53</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.94</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Rhynchonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.33</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Pomponema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.94</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Omicronema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.36</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Gammanema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">4.68</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">26.85</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Adoncholaimus
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.42</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Pomponema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">8.95</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">5.84</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">4.47</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chromaspirinia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.95</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chromadorita
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.36</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.17</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Epacanthion
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.75</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Enoploides
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.56</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Normal T (31°)</td> 
+          <td align="left" rowspan="1" colspan="1">HD
+           <xref ref-type="table-fn" rid="nt104">
+            1
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">LD
+           <xref ref-type="table-fn" rid="nt105">
+            2
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Tricoma
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">8.01</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">17.77</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.3</td> 
+          <td align="left" rowspan="1" colspan="1">2.98</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.3</td> 
+          <td align="left" rowspan="1" colspan="1">2.26</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Calomicrolaimus
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.23</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">4.53</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.68</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Rhynchonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">4.01</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">1.12</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Theristus
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">3.48</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">10.24</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Theristus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">2.26</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">10.24</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">32.4</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Rhynchonema
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">8.19</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">8.01</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyalidae
+           </italic> gen.1</td> 
+          <td align="left" rowspan="1" colspan="1">4.66</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">4.18</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Richtersia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">3.35</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Pomponema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">3.66</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Sabatieria
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.23</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Paracyatholaimus
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.26</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Omicronema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.61</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Gammanema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">7.32</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Stylotheristus
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">1.68</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">15.27</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Pomponema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">6.33</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chromaspirinia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.42</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Kraspedonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">2.23</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">1.86</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.68</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Spirinia
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.3</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">High T (36°)</td> 
+          <td align="left" rowspan="1" colspan="1">HD
+           <xref ref-type="table-fn" rid="nt104">
+            1
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">LD
+           <xref ref-type="table-fn" rid="nt105">
+            2
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">15.52</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Perepsilonema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">43.96</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Tricoma
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">14.48</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.3</td> 
+          <td align="left" rowspan="1" colspan="1">7.25</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ceramonema
+           </italic> sp.3</td> 
+          <td align="left" rowspan="1" colspan="1">3.79</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">22.54</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Richtersia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">22.24</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">8.21</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xyala
+           </italic> sp.2</td> 
+          <td align="left" rowspan="1" colspan="1">3.97</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2B
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Gammanema
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">9.98</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Sabatieria
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">3.62</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2A
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Desmodora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">20.86</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Metachromadora
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">3.28</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Microlaimus
+           </italic> sp.1</td> 
+          <td align="left" rowspan="1" colspan="1">3.79</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt104">
+        <label>1</label>
+        <p>HD = High diversity.</p>
+       </fn>
+       <fn id="nt105">
+        <label>2</label>
+        <p>LD = Low diversity.</p>
+       </fn>
+       <fn id="nt106">
+        <label>3</label>
+        <p>1A, 1B, 2A, 2B  =  Feeding groups according to the classification of Wieser (1953).</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>Trophic diversity was lower in the LD: nematodes accounting for 90% of the cumulative similarity only comprised two trophic groups, namely selective deposit feeders (1A) and epistrate feeders (2A). The predominance of selective deposit feeders was again due to the predominance of 
+      <italic>
+       Perepsilonema sp
+      </italic>. (
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>).</p> 
+     <p>Environmentally, the two stations differed slightly but significantly only in sediment mean grain size, but not in sediment organic matter or chlorophyll
+      <italic>
+       -a
+      </italic> content (
+      <xref ref-type="table" rid="pone-0066653-t004">
+       Table 4
+      </xref>).</p> 
+     <table-wrap id="pone-0066653-t004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.t004
+      </object-id>
+      <label>Table 4</label> 
+      <title>Student’s t-test of environmental variables between the two field sampling stations (n = 4).</title> 
+      <alternatives>
+       <graphic id="pone-0066653-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.t004" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">t</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Mean grain size
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">10.64</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Organic matter content
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1.95</td> 
+          <td align="left" rowspan="1" colspan="1">0.1</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Chlorophyll
+           </bold>
+           <bold>
+            <italic>
+             -a
+            </italic>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">–0.0006</td> 
+          <td align="left" rowspan="1" colspan="1">0.99</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>2. Initial conditions of experimental units (&lt;italic&gt;x&lt;/italic&gt;Dt&lt;sub&gt;0&lt;/sub&gt;)</title> 
+     <p>At the start of the experimental treatment, the two assemblages (HDt<sub>0</sub> and LDt<sub>0</sub>) were significantly different (ANOSIM R =  0.972, p = 0.008). More species (19) contributed to the 90% cumulative similarity of the HDt<sub>0</sub> compared to the LDt<sub>0</sub> (11; 
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4B
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). The HDt<sub>0</sub> hosted a total of 57 species and more unique species (24) than the LDt<sub>0</sub> (total: 46, unique: 13). The differences for species richness, diversity (
+      <italic>
+       H’
+      </italic>), abundance and trophic diversity (
+      <italic>
+       ITD
+       <sup>−1</sup>
+      </italic>) (
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5A–D
+      </xref>), were less pronounced than those observed in the field. A larger fraction of large nematodes in the HD assemblage accounted for the higher individual and community biomass (
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5E and F
+      </xref>).</p> 
+     <fig id="pone-0066653-g005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.g005
+      </object-id>
+      <label>Figure 5</label> 
+      <title>Comparison of the experimental assemblages.</title> 
+      <p>Mean (± standard deviation) of A: Species richness (
+       <italic>
+        S
+       </italic>), B: Diversity (
+       <italic>
+        H’
+       </italic>; Index of Shannon Wiener), C: Abundance (individuals per 10 cm<sup>−2</sup>), D: Trophic diversity (
+       <italic>
+        IDT
+        <sup>−1</sup>
+       </italic>), E: Individual biomass (in µg wet weight), and F: Community biomass (in mg wet weight). HD  =  High diversity, LD  =  Low diversity. White bars  =  time<sub>0</sub> controls, light gray bars  =  control temperature (31°C), dark gray bars  =  high temperature (36°C). Asterisks indicate significance levels after multiple comparisons with Dunnett test between xDt<sub>0</sub> and xD<sub>31</sub> and xD<sub>36</sub> respectively. Significance between xD<sub>31</sub> and xD<sub>36</sub> were assessed with Student’s t-tests. *&lt;0.05, **&lt;0.01, ***&lt;0.001.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.g005" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+    <sec id="s3c"> 
+     <title>3. Structural changes in community resulting from high temperature effects: species richness and diversity</title> 
+     <p>Temperature and diversity acted independently on structural attributes of the community as indicated by the non-significant interaction effect (3×2 factorial ANOVA, 
+      <xref ref-type="table" rid="pone-0066653-t005">
+       Table 5
+      </xref>). High temperature had a clearly negative effect on species richness in both HD and LD assemblages (
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5A
+      </xref>). Non-significant differences in 
+      <italic>
+       S
+      </italic> and 
+      <italic>
+       H’
+      </italic> between t<sub>0</sub> and t<sub>31</sub> microcosms both in HD and LD revealed that significant differences between t<sub>0</sub> and t<sub>36</sub> were attributable to high temperature exposure. Significantly less species survived the high temperature exposure in both LD<sub>36</sub> and HD<sub>36</sub> relative to their t<sub>0</sub> controls (
+      <xref ref-type="table" rid="pone-0066653-t006">
+       Table 6
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5A
+      </xref>). Consequently, these microcosms exhibited decreased levels of diversity (
+      <italic>
+       H’
+      </italic>) at the end of the 25 days of incubation, although the change was significant only in HD (
+      <xref ref-type="table" rid="pone-0066653-t006">
+       Table 6
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5B
+      </xref>). The enclosure effect on species richness or H’ was not significant in the HD or LD group (
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5B
+      </xref>). The dissimilarity of the assemblages caused by the high temperature was much higher in the HD group (HDt<sub>0</sub> - HD<sub>36</sub>: 70.08) than in the LD group (LDt<sub>0</sub> - LD<sub>36</sub>: 52.04) as revealed by SIMPER. In fact, in both LD and HD, the dissimilarity caused by the enclosure effect was in a similar range as the temperature effect in LD (HDt<sub>0</sub> – HD<sub>31</sub>: 53.44; LDt<sub>0</sub> – LD<sub>31</sub>: 51.48).</p> 
+     <table-wrap id="pone-0066653-t005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.t005
+      </object-id>
+      <label>Table 5</label> 
+      <title>F- and p-values of 2×3 factorial ANOVA (n = 5).</title> 
+      <alternatives>
+       <graphic id="pone-0066653-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.t005" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="2" align="left" rowspan="1">Species richness</td> 
+          <td colspan="2" align="left" rowspan="1">Shannon diversity</td> 
+          <td colspan="2" align="left" rowspan="1">ITD</td> 
+          <td colspan="2" align="left" rowspan="1">Ind. biomass</td> 
+          <td colspan="2" align="left" rowspan="1">Abundance</td> 
+          <td colspan="2" align="left" rowspan="1">Community biomass</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            F
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            p
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            F
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            p
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            F
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            p
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            F
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            p
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            F
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            p
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            F
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            p
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            T
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">22.9</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">10.4</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">1.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.40</td> 
+          <td align="left" rowspan="1" colspan="1">2.5</td> 
+          <td align="left" rowspan="1" colspan="1">0.10</td> 
+          <td align="left" rowspan="1" colspan="1">91.3</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">127.9</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            D
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">23.3</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">19.4</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">7.1</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1">10.5</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">12.3</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">40.1</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            T*D
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">2.1</td> 
+          <td align="left" rowspan="1" colspan="1">0.15</td> 
+          <td align="left" rowspan="1" colspan="1">0.3</td> 
+          <td align="left" rowspan="1" colspan="1">0.76</td> 
+          <td align="left" rowspan="1" colspan="1">0.2</td> 
+          <td align="left" rowspan="1" colspan="1">0.86</td> 
+          <td align="left" rowspan="1" colspan="1">3.4</td> 
+          <td align="left" rowspan="1" colspan="1">0.05</td> 
+          <td align="left" rowspan="1" colspan="1">0.4</td> 
+          <td align="left" rowspan="1" colspan="1">0.67</td> 
+          <td align="left" rowspan="1" colspan="1">1.1</td> 
+          <td align="left" rowspan="1" colspan="1">0.36</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt107">
+        <label></label>
+        <p>Factors consist of temperature (T, three levels: time<sub>0</sub>, 31° and 36°) and diversity (D, two levels: high and low).</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+     <table-wrap id="pone-0066653-t006" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066653.t006
+      </object-id>
+      <label>Table 6</label> 
+      <title>F- and p-values of 1-way ANOVAs for each diversity group (n = 5).</title> 
+      <alternatives>
+       <graphic id="pone-0066653-t006-6" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066653.t006" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="2" align="left" rowspan="1">High diversity</td> 
+          <td colspan="2" align="left" rowspan="1">Low diversity</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Species richness
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">19.2</td> 
+          <td align="left" rowspan="1" colspan="1">0.0002</td> 
+          <td align="left" rowspan="1" colspan="1">6.9</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            H' diversity
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">9.7</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+          <td align="left" rowspan="1" colspan="1">2.9</td> 
+          <td align="left" rowspan="1" colspan="1">0.096</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            ITD
+            <sup>−1</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.2</td> 
+          <td align="left" rowspan="1" colspan="1">0.82</td> 
+          <td align="left" rowspan="1" colspan="1">0.9</td> 
+          <td align="left" rowspan="1" colspan="1">0.41</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Abundance
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">65.4</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+          <td align="left" rowspan="1" colspan="1">34.0</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Individual Biomass
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">7.6</td> 
+          <td align="left" rowspan="1" colspan="1">0.007</td> 
+          <td align="left" rowspan="1" colspan="1">0.4</td> 
+          <td align="left" rowspan="1" colspan="1">0.71</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Community biomass
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">85.0</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+          <td align="left" rowspan="1" colspan="1">48.3</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt108">
+        <label></label>
+        <p>The factor ( = treatment) consists of three levels: time<sub>0</sub>, 31° and 36°.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>A few taxa became more dominant under the temperature stress treatment (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). 
+      <italic>
+       Perepsilonema
+      </italic> sp., 
+      <italic>
+       Tricoma
+      </italic> sp., 
+      <italic>
+       Richtersia
+      </italic> sp., 
+      <italic>
+       Desmodora
+      </italic> sp.1 and 
+      <italic>
+       Metachromadora
+      </italic> sp.1 increased in abundance in HD<sub>36</sub>. 
+      <italic>
+       Sabatieria
+      </italic> sp. also increased in HD<sub>31</sub> and HD<sub>36</sub> appearing for the first time among the top 90% discriminating species (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4C and D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). 
+      <italic>
+       Microlaimus
+      </italic> sp.1 and 
+      <italic>
+       Gammanema
+      </italic> sp. increased in the LD<sub>36</sub>, and 
+      <italic>
+       Ceramonema
+      </italic> sp.3 appeared in LD<sub>31</sub> and LD<sub>36</sub> among the 90% discriminating species (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4C and D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>).</p> 
+    </sec>
+    <sec id="s3d"> 
+     <title>4. Functional changes in community resulting from high temperature and enclosure effects: abundance, individual and community biomass and trophic diversity</title> 
+     <p>The temperature treatment acted independently from the diversity level (HD or LD) on the functional attributes of the community (3×2 factorial ANOVA, 
+      <xref ref-type="table" rid="pone-0066653-t005">
+       Table 5
+      </xref>). Abundance and community biomass decreased significantly in both, HD<sub>36</sub> and LD<sub>36</sub>, due to the combined effects of temperature and experimental enclosure (
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5D and F
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t006">
+       Table 6
+      </xref>). The loss of individuals was species specific, since the high temperature also caused a significant loss of species richness (in both, HD and LD) and diversity (in HD). Decreased abundance in the HD due to the enclosure effect was also size-specific, and as a consequence, mean individual biomass decreased in response to the experimental enclosure effect as well. For instance, two of the four species lost exclusively due to the enclosure effect in HD, namely 
+      <italic>
+       Epacanthion
+      </italic> sp. and 
+      <italic>
+       Enoploides
+      </italic> sp., were among the largest in this study and contributed to, but were not exclusively responsible for, the significant loss of individual biomass. By contrast, the loss of 6 species in the LD was not size specific, since mean individual biomass remained unaffected.</p> 
+     <p>The functional diversity of both the HD<sub>36</sub> and LD<sub>36</sub> communities was affected to a large extent as they suffered the loss of an entire, yet different trophic guild. The HD community lost trophic group 2B consisting of large-sized predators and omnivores due to enclosure and temperature effects (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4C and D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). By contrast, the decrease in abundance of the LD<sub>36</sub> microcosms was related to the loss of trophic group 1B consisting of size-unspecific, unselective deposit feeders due to the temperature effect only (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). Even though both assemblages lost an entire, yet different trophic group, these changes were not reflected in significant 
+      <italic>
+       ITD
+       <sup>−1</sup>
+      </italic> differences (
+      <xref ref-type="fig" rid="pone-0066653-g005">
+       Fig. 5C
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t006">
+       Table 6
+      </xref>). The two species representing 2B in HDt<sub>0</sub> (
+      <italic>
+       Epacanthion
+      </italic> sp. and 
+      <italic>
+       Enoploides
+      </italic> sp.) disappeared due to the enclosure effect. This is consistent with the loss of individuals (
+      <italic>
+       i.e.
+      </italic>, decreased abundance) due to the combined enclosure and temperature effect. In the low diversity microcosms, of the two species representing 2B in LDt<sub>0</sub> (
+      <italic>
+       Gammanema
+      </italic> sp. and 
+      <italic>
+       Adoncholaimus
+      </italic> sp.), 
+      <italic>
+       Gammanema
+      </italic> sp. was temperature tolerant and even increased in relative abundance (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). By contrast, the species of trophic group 1B in LDt<sub>0</sub> (
+      <italic>
+       Rhynchonema
+      </italic> sp. and the two 
+      <italic>
+       Theristus
+      </italic> species) disappeared in the high temperature treatment (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). Similarly, many of the species representing 1B in the HDt<sub>0</sub> (
+      <italic>
+       Xyala
+      </italic> sp.1, 
+      <italic>
+       Xyalidae gen.1
+      </italic>, 
+      <italic>
+       Rhynchonema
+      </italic> and 
+      <italic>
+       Omicronema
+      </italic>) were lost in the high temperature treatment, but 
+      <italic>
+       Xyala
+      </italic> sp.2 and 
+      <italic>
+       Richtersia
+      </italic> sp. survived (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>). Functional group 2A (epistrate feeders) were represented by 3 and 2 species in HD<sub>36</sub> and LD<sub>36</sub> respectively. In both, 
+      <italic>
+       Desmodora
+      </italic> sp.1 (HD and LD), 
+      <italic>
+       Microlaimus
+      </italic> sp.1 (HD and LD), and 
+      <italic>
+       Metachromadora
+      </italic> sp.1 (HD) survived the high temperature exposure (
+      <xref ref-type="fig" rid="pone-0066653-g004">
+       Fig. 4D
+      </xref>, 
+      <xref ref-type="table" rid="pone-0066653-t003">
+       Table 3
+      </xref>).</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>In the present study, we assessed the stress response of two intertidal nematode communities, differing in environmental origin and in diversity. Given its environmental background, we expected the low diversity community to cope better with stressful conditions and lose relatively fewer species. On the other hand, according to the IH, we expected that the high diversity community would maintain its functional attributes despite species loss, due to their functional redundancy. In order to test this we exposed natural nematode assemblages of contrasting diversity levels and environmental background to a stressful temperature.</p> 
+    <p>Although the goal of the experiment was to study the effect of high temperature, the experimental enclosure had an effect on abundance and biomass in both HD and LD. Something similar happened in a mesocosm experiment on meiobenthic communities, where abundance decreased significantly between time<sub>0</sub> and control samples in one of the two experimental communities, whereas in the other, abundance remained constant during the whole experimental duration of 16 weeks 
+     <xref ref-type="bibr" rid="pone.0066653-Austen1">
+      [48]
+     </xref>. On the other hand, dos Santos 
+     <xref ref-type="bibr" rid="pone.0066653-dosSantos1">
+      [49]
+     </xref> was able to maintain abundance and diversity unaltered during 30 days in small (300 ml total, 100 ml sand) sandy beach microcosms. In our study, we set up time<sub>0</sub> controls and microcosms at a control temperature of 31°C. We were thus able to separate the effects arising from the enclosure and the high temperature, and therefore our hypotheses and predictions were not compromised.</p> 
+    <p>As expected, the LD contained a smaller, but more stress tolerant species pool, whereas the HD was generally more vulnerable to stress, as it lost a significant number of species due to the high temperature. Although our environmental results (grain size, chlorophyll
+     <italic>
+      -a
+     </italic> and organic matter content) imply only a slight difference between the two sampling stations, tidal-related conditions (
+     <italic>
+      e.g.
+     </italic>, exposure to air) were different between the HD and the LD site (
+     <xref ref-type="supplementary-material" rid="pone.0066653.s002">
+      Fig. S2
+     </xref>). Nematode diversity is related to beach morphodynamics 
+     <xref ref-type="bibr" rid="pone.0066653-Rodriguez1">
+      [50]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Rodriguez2">
+      [51]
+     </xref> and to physical and chemical gradients 
+     <xref ref-type="bibr" rid="pone.0066653-Gingold1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Gheskiere1">
+      [52]
+     </xref> among other factors; consequently, the two field assemblages differed significantly in species richness and composition. Given its environmental background, the LD maintained a higher similarity with its original state compared to the HD, which became very different from its original composition. The higher resistance of the LD assemblage, reflected by its non-significant diversity loss, presumably resulted from its exposure to a naturally more stressful environment in the high intertidal where longer exposure and insulation times prevail during low tide. Something similar happened when community stress-response to organic enrichment was tested for nematode assemblages from sandy and muddy intertidal regions 
+     <xref ref-type="bibr" rid="pone.0066653-Schratzberger1">
+      [53]
+     </xref>. Although the mud-community was less diverse, the effect of organic enrichment had a less drastic effect on species loss, as it was originally better adapted to higher loads of organic matter. In our study, four of the five species contributing to the top 90% discriminating taxa in LD<sub>36</sub> (
+     <xref ref-type="table" rid="pone-0066653-t003">
+      Table 3
+     </xref>) increased in abundance in HD<sub>36</sub> (
+     <italic>
+      Perepsilonema
+     </italic> sp., 
+     <italic>
+      Desmodora
+     </italic> sp.1, 
+     <italic>
+      Ceramonema
+     </italic> sp.3 and 
+     <italic>
+      Microlaimus
+     </italic> sp.1), and the difference between the HD community and LD<sub>t0</sub> decreased slightly but steadily with increasing temperature (HD<sub>t0</sub>-LD<sub>t0</sub>: 77.28, HD<sub>31</sub>-LD<sub>t0</sub>: 74.08, HD<sub>36</sub>-LD<sub>t0</sub>: 70.2). We propose three not mutually exclusive hypothetical mechanisms pertaining to the dominant species surviving the high-temperature stress: 1) increased tolerance: the species exhibit higher tolerance for high temperature and/or other effects of the temperature treatment (
+     <italic>
+      e.g.
+     </italic>, lower oxygen availability), 2) competitive release: nematodes benefit from the lower abundance or disappearance of other species, and 3) increased food supply: a higher bacterial biomass allows rapid population development. Our experiment provides evidence for the first, without excluding the other two. The fact that the LD exhibited higher stress resistance than the HD in terms of diversity changes contradicts the “sampling effect” 
+     <xref ref-type="bibr" rid="pone.0066653-Tilman1">
+      [54]
+     </xref>, which states that HD communities are generally more stress resistant because of their higher probability of containing stress-resistant species.</p> 
+    <p>The trophic composition of the two assemblages changed considerably and in different directions, even if the 
+     <italic>
+      ITD
+      <sup>−1</sup>
+     </italic> did not reflect it. Although this seems contradictory at first sight, it is not: a high 
+     <italic>
+      ITD
+      <sup>−1</sup>
+     </italic> value reflects the dominance of one functional group, whereas a low value reflects an even distribution of all functional groups. However, it gives no indication about which functional groups are present nor about their relative contribution. Therefore, although two assemblages may have similar 
+     <italic>
+      ITD
+      <sup>−1</sup>
+     </italic> values, it does not necessarily mean that their trophic composition is similar as well. The HD assemblage lost the entire functional group of predators and omnivores (2B), representing a trophic level that does not overlap with any of the other four trophic guilds. Predatory nematodes are often sensitive to stress, given that they are often long-living species at the top of the meiofaunal food web accumulating irregularities and losses from lower trophic levels, and depending on the biomass of other nematodes 
+     <xref ref-type="bibr" rid="pone.0066653-Bongers1">
+      [55]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-Danovaro1">
+      [56]
+     </xref>. If food availability was the only (or most important) determining factor for the survival of predators, we would expect predators to survive in the HD rather than the LD assemblages. However this was not the case in our study: predators were present in all three LD assemblages (t<sub>0</sub>, 31 and 36) despite the reduced abundance and community biomass, but they were missing in the HD<sub>31</sub> and HD<sub>36</sub>. In the HD, 
+     <italic>
+      Enoploides
+     </italic> and 
+     <italic>
+      Epacanthion
+     </italic> disappeared due to the enclosure effect, whereas in the LD, 
+     <italic>
+      Gammanema
+     </italic> persisted through the stressful treatment, indicating that this species is not only temperature stress resistant, but also that it is probably an omnivore or scavenger rather than an obligate predator, and that it may be able to switch from one food source to another depending on availability. In the natural environment, the loss of large predatory nematodes may have a considerable impact for the benthic food web in terms of energy transfer from meio- to macrofauna and higher trophic levels, since larger nematodes are more prone to predation by hyperbenthos 
+     <xref ref-type="bibr" rid="pone.0066653-Hamerlynck1">
+      [7]
+     </xref>. On the other hand, the functional implications of the loss of trophic group 1B (unselective deposit feeders) in the LD is less evident. Species belonging to the trophic group 1B are not particularly big on average. Moreover, their ecological function could overlap, at least partly, with nematodes from functional groups 1A and 2A, since they have also been observed feeding on bacteria and microalgae 
+     <xref ref-type="bibr" rid="pone.0066653-Moens1">
+      [57]
+     </xref>. The general increase of the feeding guild 1A (bacteria feeders) in the high temperature treatments may be due to the potential increase in bacterial biomass. Such an increase in bacteria feeding species also occurred during experimental enrichment of organic matter, which, as a secondary effect, caused increased bacterial growth 
+     <xref ref-type="bibr" rid="pone.0066653-Schratzberger1">
+      [53]
+     </xref>.</p> 
+    <p>The results of this study do not support the IH, implying that functional redundancy in the observed intertidal marine nematode assemblages is low as per our measured response variables. However, it is important to specify that the trophic function is just one of multiple functions nematode communities are involved in, and redundancy patterns may vary among multiple functions. Our expectation in the case of functional redundancy would have been that the HD community would maintain its functionality better than the LD community, because the latter does not have a similar buffer against species loss. However, despite a more prominent loss of species in the HD, both LD and HD were similarly impaired in their functionality. Against this background, we find some evidence for different models relating diversity and ecosystem functioning, such as the Rivets Model, which predicts that: a) a community of high diversity functions better than one of low diversity and b) the loss of functionality is contingent on the loss of species. These predictions are at least partly met with our data in both the HD and the LD assemblages. Both exhibited a better functioning (
+     <italic>
+      i.e.
+     </italic> higher abundance, higher community biomass) with higher species richness and diversity, and both showed a similar overall pattern of loss of functionality following a loss of taxonomic richness. We also find some support for the Idiosyncrasy Model, which states that the functional response depends on the species lost and therefore cannot be predicted. In the present study, the stressful environment caused the HD assemblage to lose its entire trophic group of predators (2B), which consisted of 
+     <italic>
+      Enoploides
+     </italic> and 
+     <italic>
+      Epacanthion
+     </italic>. The LD assemblage, on the other hand, maintained its trophic group 2B, represented by 
+     <italic>
+      Gammanema
+     </italic> after the enclosure and the temperature effect, but lost its trophic group of detritus feeders due to the high temperature effect. Thus, depending on the species lost, the trophic composition of the assemblage changed in different directions, but this change could not have been predicted 
+     <italic>
+      a priori
+     </italic>. On the other hand, there is also some evidence against the Idiosyncrasy Model since the impairment of the functionality in terms of biomass did not depend on species identity. Different species became relatively more abundant in the HD than in the LD. Moreover, the community dissimilarity between HD<sub>t0</sub> and HD<sub>36</sub> was much higher (70. 08) than between LD<sub>t0</sub> and LD<sub>36</sub> (52.04). Yet, the loss of functionality occurred at similar levels in both HD and LD. This stands in contrast to the Idiosyncrasy Model since the impairment of the functionality did not depend on the identity of the species lost. Consequently, based on our data we cannot side with any of the three models (IH, Rivets or Idiosyncrasy) conclusively, but we clearly do not find evidence for species redundancy. This concurs with other studies on selected bacterivore nematode species, where only incomplete functional overlap could be detected between even closely related species, and species identity rather than species richness affected functionality 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066653-DeMesel2">
+      [20]
+     </xref>. Furthermore, it concurs with other studies on benthic macrofauna, where species identity, but not richness had a significant effect on ecological processes such as nutrient generation 
+     <xref ref-type="bibr" rid="pone.0066653-Emmerson2">
+      [15]
+     </xref> or oxygen consumption 
+     <xref ref-type="bibr" rid="pone.0066653-Bolam1">
+      [16]
+     </xref>. Our results, in combination with those from other studies on benthic communities reveal that the relationship between species diversity and the functioning of the system is not a linear but a more complex one. Although other studies on other systems have shown clear redundancy effects of high diversity communities, we cannot presently affirm that functional redundancy exists in nematode assemblages at the diversity levels and the functions we measured. This is all the more surprising, since nematodes are one of the most diverse phyla of metazoan organisms 
+     <xref ref-type="bibr" rid="pone.0066653-Blaxter1">
+      [58]
+     </xref> and it leaves the question open, whether functional redundancy occurs at all in metazoans.</p> 
+    <p>In the present study, we set out to test, for the first time, the structural and functional changes of a natural subtropical meiofaunal community in response to increased water temperature. Our results successfully showed that changes in nematode communities are not consistent with the prevalence of functional redundancy, and hence are of consequence to hypotheses relating diversity with ecosystem function. Future experiments on intertidal nematode communities addressing this issue will benefit from the following recommendations: 1) more functional variables (in addition to trophic functions) could be investigated, as nematodes are involved in many different functions in the intertidal, with potentially varying patterns of redundancy. This will greatly improve our understanding in the current diversity-redundancy debate. 2) The experimental setup could incorporate a more realistic simulation of the intertidal environment such as tidal action, as constant water cover may act as an additional stress source on the communities. 3) Additional efforts could be made to better tease apart the effects of community composition and diversity levels in order to identify their potentially independent effects on ecosystem functioning. Admittedly, this represents a major challenge given the difficulty of finding species assemblages from the same type of environment in which diversity and taxonomic composition are not at least partially confounded. 4) Quantitative replicate sampling during the course of the experiment will provide evidence of the temporal changes and response of the community to the environmental stressor and allow testing additional hypotheses regarding the onset and rate of structural and functional changes of the community. 5) Finally, additional environmental variables such as algal and bacterial growth could be measured in the microcosms. This will help clarify causal relationships between the proxies of community function and environmental changes. For example, an increase in a bacteria-feeding guild could be linked to an increase in bacterial growth.</p> 
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0066653.s001" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0066653.s001" position="float" xlink:type="simple">
+     <label>Figure S1</label> 
+     <p>
+      <bold>
+       Beach topographic profile of the sampling location.
+      </bold> Sampling sites are indicated with red arrows. Sampling station E6 is the high diversity site, E8 is the low diversity site.</p> 
+     <p>(TIF)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0066653.s002" mimetype="image/tiff" xlink:href="info:doi/10.1371/journal.pone.0066653.s002" position="float" xlink:type="simple">
+     <label>Figure S2</label> 
+     <p>
+      <bold>
+       Difference in exposure time between the high diversity and the low diversity site (blue line) for the month of sampling.
+      </bold> The red line indicates the monthly mean (3.84 h). Blue and grey shaded areas indicate spring and neap tides respectively.</p> 
+     <p>(TIF)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>For invaluable help in the field we thank Renato Salvatteci Merino, Mary Carmen Ruiz de la Torre, Ismael Guzman, Jose Abella, Francisco López Rasgado, and to RSM also for his help in the laboratory. We are grateful to Luis Gustavo Alvarez who was instrumental for the morphological characterization of the beach, to Mónica Hernandez and Francisco Valenzuela for technical and logistic help and the setup in the aquaculture facilities of CICESE, and to Tania Campinas-Bezerra for help with the identification of the nematodes. We kindly thank the constructive remarks of an anonymous reviewer that helped improve the manuscript. Samples were collected under permit No. DGOPA. 05335.100707.2458 (SAGARPA).</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0066653-Brierley1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brierley
+        </surname>
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kingsford
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Impacts of Climate Change on Marine Organisms and Ecosystems
+       </article-title>. 
+       <source>Current Biology 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        R602
+       </fpage>–
+       <lpage>
+        R614
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Jokiel1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jokiel
+        </surname>
+        <given-names>
+         PL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         EK
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Global warming, regional trends and inshore environmental conditions influence coral bleaching in Hawaii
+       </article-title>. 
+       <source>Global Change Biology 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        1627
+       </fpage>–
+       <lpage>
+        1641
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-IPCC1">
+      <label>3</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       IPCC (2007) Climate Change 2007: Synthesis Report. Geneva, Switzerland: Intergovernmental Panel on Climate Change. 
+       <volume>
+        1
+       </volume>: –52 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-DeMesel1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De Mesel
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Derycke
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Swings
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Role of nematodes in decomposition processes: Does within-trophic group diversity matter?
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        321
+       </volume>: 
+       <fpage>
+        157
+       </fpage>–
+       <lpage>
+        166
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Ieno1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ieno
+        </surname>
+        <given-names>
+         EN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Batty
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pierce
+        </surname>
+        <given-names>
+         GJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        How biodiversity affects ecosystem functioning: roles of infaunal species richness, identity and density in the marine benthos
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        311
+       </volume>: 
+       <fpage>
+        263
+       </fpage>–
+       <lpage>
+        271
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Hubas1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hubas
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sachidhanandam
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rybarczyk
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lubarsky
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rigaux
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Bacterivorous nematodes stimulate microbial growth and exopolymeric production in marine sediments microcosms
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        419
+       </volume>: 
+       <fpage>
+        85
+       </fpage>–
+       <lpage>
+        94
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Hamerlynck1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hamerlynck
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vanreusel
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        Mesacanthion-Diplechma (Nematoda, Thoracostomopsidae), a link to higher trophic levels
+       </article-title>. 
+       <source>Journal of the Marine Biological Association of the United Kingdom 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        453
+       </fpage>–
+       <lpage>
+        456
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Coull1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Coull
+        </surname>
+        <given-names>
+         BC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Greenwood
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fielder
+        </surname>
+        <given-names>
+         DR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coull
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Subtropical Australian juvenile fish eat meiofauna: experiments with winter whiting 
+        <italic>
+         Sillago maculata
+        </italic> and observations on other species
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        125
+       </volume>: 
+       <fpage>
+        13
+       </fpage>–
+       <lpage>
+        19
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Li1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Carbon flows through meiobenthic nematodes in the Westerschelde Estuary
+       </article-title>. 
+       <source>Fundamental and Applied Nematology 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        487
+       </fpage>–
+       <lpage>
+        494
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Hamels1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hamels
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mutylaert
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vyverman
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Trophic interactions between ciliates and nematodes from an intertidal flat
+       </article-title>. 
+       <source>Aquatic Microbial Ecology 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        61
+       </fpage>–
+       <lpage>
+        72
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Olafsson1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Olafsson
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Do macrofauna structure meiofauna assemblages in marine soft-bottoms? A review of experimental studies
+       </article-title>. 
+       <source>Vie Milieu 
+       <volume>
+        53
+       </volume>: 
+       <fpage>
+        249
+       </fpage>–
+       <lpage>
+        265
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Yachi1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yachi
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Biodiversity and ecosystem productivity in a fluctuating environment: the insurance hypothesis
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        1463
+       </fpage>–
+       <lpage>
+        1468
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-McGradySteed1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McGradySteed
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harris
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morin
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Biodiversity regulates ecosystem predictability
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        390
+       </volume>: 
+       <fpage>
+        162
+       </fpage>–
+       <lpage>
+        165
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Emmerson1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Emmerson
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         DG
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Detecting the effects of diversity on measures of ecosystem function: experimental design, null models and empirical observations
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        195
+       </fpage>–
+       <lpage>
+        203
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Emmerson2">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Emmerson
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emes
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paterson
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Consistent patterns and the idiosyncratic effects of biodiversity in marine ecosystems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        411
+       </volume>: 
+       <fpage>
+        73
+       </fpage>–
+       <lpage>
+        77
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Bolam1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bolam
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fernandes
+        </surname>
+        <given-names>
+         TF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huxham
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Diversity, biomass, and ecosystem processes in the marine benthos
+       </article-title>. 
+       <source>Ecological Monographs 
+       <volume>
+        72
+       </volume>: 
+       <fpage>
+        599
+       </fpage>–
+       <lpage>
+        615
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Cardinale1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Palmer
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Collins
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Species diversity enhances ecosystem functioning through interspecific facilitation
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        415
+       </volume>: 
+       <fpage>
+        426
+       </fpage>–
+       <lpage>
+        429
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Waldbusser1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Waldbusser
+        </surname>
+        <given-names>
+         GG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marinelli
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whitlatch
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Visscher
+        </surname>
+        <given-names>
+         PT
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The effects of infaunal biodiversity on biogeochemistry of coastal marine sediments
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        1482
+       </fpage>–
+       <lpage>
+        1492
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Derycke1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Derycke
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Backeljau
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vlaeminck
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vierstraete
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vanfleteren
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Seasonal dynamics of population genetic structure in cryptic taxa of the Pellioditis marina complex (Nematoda : Rhabditida)
+       </article-title>. 
+       <source>Genetica 
+       <volume>
+        128
+       </volume>: 
+       <fpage>
+        307
+       </fpage>–
+       <lpage>
+        321
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-DeMesel2">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De Mesel
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Derycke
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van der Gucht
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Top-down impact of bacterivorous nematodes on the bacterial community structure: a microcosm study
+       </article-title>. 
+       <source>Environmental Microbiology 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        733
+       </fpage>–
+       <lpage>
+        744
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Roberts1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McClean
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Veron
+        </surname>
+        <given-names>
+         JEN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hawkins
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         GR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Marine Biodiversity Hotspots and Conservation Priorities for Tropical Reefs
+       </article-title>. 
+       <source>Science 
+       <volume>
+        295
+       </volume>: 
+       <fpage>
+        1280
+       </fpage>–
+       <lpage>
+        1284
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-JullietLeclerc1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Julliet-Leclerc
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Labeyrie
+        </surname>
+        <given-names>
+         LD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reyss
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name> (
+       <year>
+        1991
+       </year>) 
+       <article-title>
+        Temperature variability in the Gulf of Califonrnia during the last century: a record of the recent strong El Niño
+       </article-title>. 
+       <source>Geophysical Research Letters 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        1889
+       </fpage>–
+       <lpage>
+        1892
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Stillman1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stillman
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Acclimation capacity underlies susceptibility to climate change
+       </article-title>. 
+       <source>Science 
+       <volume>
+        301
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        65
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Gingold1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gingold
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mundo-Ocampo
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holovachov
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocha-Olivares
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The role of habitat heterogeneity in structuring the community of intertidal free-
+       </article-title>. 
+       <source>living marine nematodes Marine Biology 
+       <volume>
+        157
+       </volume>: 
+       <fpage>
+        1741
+       </fpage>–
+       <lpage>
+        1753
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Gallucci1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gallucci
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vanreusel
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fonseca
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Active colonisation of disturbed sediments by deep-sea nematodes: evidence for the patch mosaic model
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        367
+       </volume>: 
+       <fpage>
+        173
+       </fpage>–
+       <lpage>
+        183
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Masselink1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Masselink
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Short
+        </surname>
+        <given-names>
+         AD
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        The Effect of Tide Range on Beach Morphodynamics and Morphology - a Conceptual Beach Model
+       </article-title>. 
+       <source>Journal of Coastal Research 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        785
+       </fpage>–
+       <lpage>
+        800
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Dusenbery1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dusenbery
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         GL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name> (
+       <year>
+        1978
+       </year>) 
+       <article-title>
+        Thermal acclimation more extensive for behavioral parameters than for oxygen consumption in the nematode 
+        <italic>
+         Caenorhabditis elegans
+        </italic>
+       </article-title>. 
+       <source>Journal of Experimental Zoology 
+       <volume>
+        206
+       </volume>: 
+       <fpage>
+        191
+       </fpage>–
+       <lpage>
+        198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-DeJonge1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De Jonge
+        </surname>
+        <given-names>
+         VN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bouwman
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name> (
+       <year>
+        1977
+       </year>) 
+       <article-title>
+        A simple density separation technique for quantitative isolation of meiobenthos using the colloidal silica Ludox.TM
+       </article-title>. 
+       <source>Marine Biology 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        143
+       </fpage>–
+       <lpage>
+        148
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Platt1">
+      <label>29</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Platt HM, Warwick RM (1983) Free-living Marine Nematodes Part I. British Enoplids. Synopses of the British fauna. Cambridge: Cambridge University Press. 307 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Platt2">
+      <label>30</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Platt HM, Warwick RM (1988) Free-living marine nematodes. Part II. British Chromadorids. Synopses of the British Fauna (New Series); Kermack DM, Barnes RSK, editors. Leiden: E.J.Brill/W. Backhuys. 510 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Warwick1">
+      <label>31</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Warwick RM, Platt HM, Somerfield PJ (1998) Free-living marine nematodes Part III: Monhysterids. Synopses of the British fauna (new series). Shrewsbury: Field studies council.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Wieser1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wieser
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        1953
+       </year>) 
+       <article-title>
+        Die Beziehung zwischen Mundhöhlengestalt, Ernährungsweise und Vorkommen bei freilebenden marinen Nematoden
+       </article-title>. 
+       <source>Arkiv för Zoologi 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        439
+       </fpage>–
+       <lpage>
+        484
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Heip1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heip
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vranken
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        The Ecology of Marine Nematodes
+       </article-title>. 
+       <source>Oceanography and Marine Biology: An Annual Review 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        399
+       </fpage>–
+       <lpage>
+        489
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-VanderMeer1">
+      <label>34</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Van der Meer J, Heip CHR, Herman PMJ, Moens T, Van Oevelen D (2005) Measuring the flow of energy and matter in marine benthic animal populations. In: Eleftheriou A, McInyre A, editors. Methods for the study of marine benthos. Third ed. Oxford: Blackwell Science Ltd.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Franco1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Franco
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vanaverbeke
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Oevelen
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soetaert
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Costa
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Respiration partitioning in contrasting subtidal sediments: seasonality and response to a spring phytoplankton deposition
+       </article-title>. 
+       <source>Marine Ecology - An Evolutionary Perspective 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        276
+       </fpage>–
+       <lpage>
+        290
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Andrassy1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Andrassy
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name> (
+       <year>
+        1956
+       </year>) 
+       <article-title>
+        The determination of volume and weight of nematodes
+       </article-title>. 
+       <source>Acta Zoologica (Hungarian Academy of Science 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        15
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Somerfield1">
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Somerfield PJ, Warwick RM, Moens T (2005) Meiofauna Techniques. In: Eleftheriou A, McIntyre A, editors. Methods for the Study of Marine Benthos: Blackwell Science Ltd. pp. 229–272.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Bale1">
+      <label>38</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Bale AJ, Kenny AJ (2005) Sediment Analysis and Seabed Characterisation. In: Eleftheriou A, McIntyre A, editors. Methods for the Study of Marine Benthos: Blackwell Science Ltd. pp. 43–86.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Froelich1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Froelich
+        </surname>
+        <given-names>
+         PN
+        </given-names>
+       </name> (
+       <year>
+        1980
+       </year>) 
+       <article-title>
+        Analysis of organic carbon in marine sediments
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        564
+       </fpage>–
+       <lpage>
+        572
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Dean1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dean
+        </surname>
+        <given-names>
+         WEJ
+        </given-names>
+       </name> (
+       <year>
+        1974
+       </year>) 
+       <article-title>
+        Determination of carbonate and organic matter in calcareous sediments and sedimentary rocks by loss of ignition: comparison with other methods
+       </article-title>. 
+       <source>Journal of Sedimentary Petrology 
+       <volume>
+        44
+       </volume>: 
+       <fpage>
+        242
+       </fpage>–
+       <lpage>
+        248
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Lorenzen1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lorenzen
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name> (
+       <year>
+        1967
+       </year>) 
+       <article-title>
+        Determination of Chlorophyll and Pheo-Pigments: Spectrophotometric Equations
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        343
+       </fpage>–
+       <lpage>
+        346
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Colijn1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Colijn
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dijkema
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name> (
+       <year>
+        1981
+       </year>) 
+       <article-title>
+        Species Composition of Benthic Diatoms and Distribution of Chlorophyll a on an Intertidal Flat in the Dutch Wadden Sea
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        9
+       </fpage>–
+       <lpage>
+        21
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Zar1">
+      <label>43</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Zar JH (1984) Biostatistical Analysis. New Jersey: Simon &amp; Schuster Company. 718 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Sokal1">
+      <label>44</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Sokal RR, Rohlf FJ (1995) Biometry the principles and practice of statistics in biological research. New York: W.H. Freeman and Company. 887 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Clarke1">
+      <label>45</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Clarke KR, Gorley RN (2001) PRIMER v6 PRIMER-E Ltd. v6 ed. Plymouth, UK.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Clarke2">
+      <label>46</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Clarke KR, Warwick RM (1994) Change in marine communities: An approach to Statistical Analysis and Interpretation. Plymouth UK: Plymouth Marine Laboratory.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-StatSoft1">
+      <label>47</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       StatSoft (1993) STATISTICA for the Windows Operating System Release 4.5. Tulsa OK, USA.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Austen1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Austen
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Warwick
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Effects of manipulation of food supply on estuarine meiobenthos
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        311
+       </volume>: 
+       <fpage>
+        175
+       </fpage>–
+       <lpage>
+        184
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-dosSantos1">
+      <label>49</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       dos Santos GAP (2009) Top-down and bottom-up controls on populations and assemblages of marine nematodes, and their effects on benthic ecosystem functioning: and experimental approach [PhD Thesis]. Ghent: Ghent University. 254 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Rodriguez1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rodriguez
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lastra
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lopez
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Meiofauna distribution along a gradient of sandy beaches in northern Spain
+       </article-title>. 
+       <source>Estuarine Coastal and Shelf Science 
+       <volume>
+        585
+       </volume>: 
+       <fpage>
+        63
+       </fpage>–
+       <lpage>
+        69
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Rodriguez2">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rodriguez
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lopez
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jaramillo
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Community structure of the intertidal meiofauna along a gradient of morphodynamic sandy beach types in southern Chile
+       </article-title>. 
+       <source>Revista Chilena de Historia Natural 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        885
+       </fpage>–
+       <lpage>
+        897
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Gheskiere1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gheskiere
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hoste
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vanaverbeke
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Degraer
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Horizontal zonation patterns and feeding structure of marine nematode assemblages on a macrotidal, ultra-dissipative sandy beach (De Panne, Belgium)
+       </article-title>. 
+       <source>Journal of Sea Research 
+       <volume>
+        52
+       </volume>: 
+       <fpage>
+        211
+       </fpage>–
+       <lpage>
+        226
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Schratzberger1">
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schratzberger
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Warwick
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Effects of the intensity and frequency of organic enrichment on two estuarine nematode communities
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        164
+       </volume>: 
+       <fpage>
+        83
+       </fpage>–
+       <lpage>
+        94
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Tilman1">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        The Ecological Consequences of Changes in Biodiversity: A Search for General Principles
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        80
+       </volume>: 
+       <fpage>
+        1455
+       </fpage>–
+       <lpage>
+        1474
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Bongers1">
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bongers
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alkemade
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yeates
+        </surname>
+        <given-names>
+         GW
+        </given-names>
+       </name> (
+       <year>
+        1991
+       </year>) 
+       <article-title>
+        Interpretation of disturbance-induced maturity decrease in marine nematode assemblages by means of the Maturity Index
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        76
+       </volume>: 
+       <fpage>
+        135
+       </fpage>–
+       <lpage>
+        142
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Danovaro1">
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Danovaro
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gambi
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Biodiversity and trophic structure of nematode assemblages in seagrass systems: evidence for a coupling with changes in food availability
+       </article-title>. 
+       <source>Marine Biology 
+       <volume>
+        141
+       </volume>: 
+       <fpage>
+        667
+       </fpage>–
+       <lpage>
+        677
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Moens1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Observations on the feeding ecology of estuarine nematodes
+       </article-title>. 
+       <source>Journal of the Marine Biological Association of the United Kingdom 
+       <volume>
+        77
+       </volume>: 
+       <fpage>
+        211
+       </fpage>–
+       <lpage>
+        227
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066653-Blaxter1">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blaxter
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Counting angels with DNA
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        421
+       </volume>: 
+       <fpage>
+        122
+       </fpage>–
+       <lpage>
+        124
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

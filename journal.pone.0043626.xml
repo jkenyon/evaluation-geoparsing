@@ -1,0 +1,3532 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-02952
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0043626
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Community assembly
+          </subject> 
+          <subject>
+           Community structure
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Freshwater environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological metrics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Species diversity
+          </subject> 
+          <subject>
+           Species richness
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Bioindicators
+         </subject> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Freshwater ecology
+         </subject> 
+         <subject>
+          Spatial and landscape ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       A Metacommunity Framework for Enhancing the Effectiveness of Biological Monitoring Strategies
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Effectiveness of Indicator Taxa in Metacommunities
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Siqueira
+        </surname> 
+        <given-names>
+         Tadeu
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bini
+        </surname> 
+        <given-names>
+         Luis M.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Roque
+        </surname> 
+        <given-names>
+         Fabio O.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Cottenie
+        </surname> 
+        <given-names>
+         Karl
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       Departamento de Ecologia, Universidade Estadual Paulista – UNESP, Rio Claro, São Paulo, Brazil
+      </addr-line> 
+     </aff>
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       Departamento de Ecologia, Universidade Federal de Goiás, Goiânia, Goiás, Brazil
+      </addr-line> 
+     </aff>
+     <aff id="aff3"> 
+      <label>3</label> 
+      <addr-line>
+       Departamento de Biologia, Universidade Federal de Mato Grosso do Sul, Campo Grande, Mato Grosso do Sul, Brazil
+      </addr-line> 
+     </aff>
+     <aff id="aff4"> 
+      <label>4</label> 
+      <addr-line>
+       Department of Integrative Biology, University of Guelph, Guelph, Ontario, Canada
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Siepielski
+        </surname> 
+        <given-names>
+         Adam
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1"> 
+      <addr-line>
+       University of San Diego, United States of America
+      </addr-line> 
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        tsiqueira@rc.unesp.br
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: TS LMB KC. Performed the experiments: TS LMB KC. Analyzed the data: TS LMB FOR KC. Contributed reagents/materials/analysis tools: TS LMB KC. Wrote the paper: TS LMB FOR KC.</p> 
+      </fn> 
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       24
+      </day> 
+      <month>
+       8
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      8
+     </issue>
+     <elocation-id>
+      e43626
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        24
+       </day> 
+       <month>
+        1
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        26
+       </day> 
+       <month>
+        7
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history>
+     <permissions> 
+      <copyright-holder>
+       Siqueira et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions>
+     <abstract> 
+      <p>Because of inadequate knowledge and funding, the use of biodiversity indicators is often suggested as a way to support management decisions. Consequently, many studies have analyzed the performance of certain groups as indicator taxa. However, in addition to knowing whether certain groups can adequately represent the biodiversity as a whole, we must also know whether they show similar responses to the main structuring processes affecting biodiversity. Here we present an application of the metacommunity framework for evaluating the effectiveness of biodiversity indicators. Although the metacommunity framework has contributed to a better understanding of biodiversity patterns, there is still limited discussion about its implications for conservation and biomonitoring. We evaluated the effectiveness of indicator taxa in representing spatial variation in macroinvertebrate community composition in Atlantic Forest streams, and the processes that drive this variation. We focused on analyzing whether some groups conform to environmental processes and other groups are more influenced by spatial processes, and on how this can help in deciding which indicator group or groups should be used. We showed that a relatively small subset of taxa from the metacommunity would represent 80% of the variation in community composition shown by the entire metacommunity. Moreover, this subset does not have to be composed of predetermined taxonomic groups, but rather can be defined based on random subsets. We also found that some random subsets composed of a small number of genera performed better in responding to major environmental gradients. There were also random subsets that seemed to be affected by spatial processes, which could indicate important historical processes. We were able to integrate in the same theoretical and practical framework, the selection of biodiversity surrogates, indicators of environmental conditions, and more importantly, an explicit integration of environmental and spatial processes into the selection approach.</p> 
+     </abstract>
+     <funding-group> 
+      <funding-statement>
+       TS was supported by a CNPq postdoctoral grant (process 150922/2010-8). FOR receives a productivity grant from the CNPq (process 303293/2009-8). KC was supported by a NSERC discovery grant. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group>
+     <counts> 
+      <page-count count="12" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Planning for biodiversity monitoring and conservation strategies is challenging, not only because biodiversity is threatened by multiple factors (e.g., habitat fragmentation, climate change, and invasive species 
+     <xref ref-type="bibr" rid="pone.0043626-CBDConventiononBiological1">
+      [1]
+     </xref>), but also because biodiversity itself is maintained by multiple factors 
+     <xref ref-type="bibr" rid="pone.0043626-Chesson1">
+      [2]
+     </xref>. Therefore, conservation strategies should ideally be based on information derived from varying levels of complexity. However, due to the paucity of funds, time, and knowledge, and because it is not possible to survey the distribution of all organisms, the use of biodiversity indicators and surrogates is often suggested as a way to reconcile these opposing forces of complexity and practicality 
+     <xref ref-type="bibr" rid="pone.0043626-Margules1">
+      [3]
+     </xref>.</p> 
+    <p>The use of biological indicators is essential in tropical regions, where estimates of species richness are uncertain. Also, these regions are plagued by the lack of knowledge of species’ identity and geographical distribution, the so-called Linnean and Wallacean shortfalls, respectively 
+     <xref ref-type="bibr" rid="pone.0043626-Brown1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Bini1">
+      [5]
+     </xref>. The rationale for using indicators is to reduce the complexity associated with biodiversity into practical, less costly, and more quickly obtainable measures that can be used for biodiversity conservation and monitoring. This approach is mainly based on two key assumptions: (i) that an indicator group represents a major component of the entire biodiversity of an area 
+     <xref ref-type="bibr" rid="pone.0043626-McGeoch1">
+      [6]
+     </xref>, and (ii) that an indicator responds to the same ecological processes that generate and maintain overall biodiversity 
+     <xref ref-type="bibr" rid="pone.0043626-Pressey1">
+      [7]
+     </xref>. To date, most studies on the performance of surrogacy approaches have addressed the first assumption, and have analyzed the effectiveness of using the species richness of certain groups as indicators of overall biological diversity and environmental changes 
+     <xref ref-type="bibr" rid="pone.0043626-Feld1">
+      [8]
+     </xref>. Within these groups, several have been regarded as good indicators, including butterflies, some aquatic insects, birds, and primates 
+     <xref ref-type="bibr" rid="pone.0043626-Loyola1">
+      [9]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0043626-Roque1">
+      [11]
+     </xref>. However, indicator-species richness is not informative about patterns of community composition within and between assemblages 
+     <xref ref-type="bibr" rid="pone.0043626-Su1">
+      [12]
+     </xref>. Thus, there has been a shift toward the use of multiple indicators 
+     <xref ref-type="bibr" rid="pone.0043626-Johnson1">
+      [13]
+     </xref>, complementarity-based analyses 
+     <xref ref-type="bibr" rid="pone.0043626-Howard1">
+      [14]
+     </xref>, and more recently, multivariate methods aiming to measure patterns of community concordance among different taxonomic groups 
+     <xref ref-type="bibr" rid="pone.0043626-Pawar1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Lamoreux1">
+      [16]
+     </xref>. Community concordance (or congruence) exists when two or more groups of taxa exhibit similar spatial patterns of variation in community structure. When a strong pattern of congruence is found, one can use a given group as a surrogate for others. The resources saved could then, for example, be used to increase the spatial coverage of a biodiversity inventory program 
+     <xref ref-type="bibr" rid="pone.0043626-Vellend1">
+      [17]
+     </xref>.</p> 
+    <p>One fundamental problem of all these surrogacy approaches is the lack of information on whether indicator taxa respond similarly to the main processes that structure overall biodiversity. A recent synthesis suggested the use of the metacommunity framework to study these structuring processes 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold1">
+      [18]
+     </xref>. A metacommunity consists of groups of local communities that are linked by dispersal of multiple, potentially interacting species, and are structured by both environmental and spatial processes 
+     <xref ref-type="bibr" rid="pone.0043626-Holyoak1">
+      [19]
+     </xref>. Metacommunity theory is organized in the following four frameworks, depending on the relative influence of these processes on community structure: species sorting, patch dynamics, neutral model, and mass effects 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold1">
+      [18]
+     </xref>. These frameworks, however, may represent processes that act simultaneously in some communities, and cannot be viewed independently of each other, but rather as points along a continuum 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold2">
+      [20]
+     </xref>. At one extreme, it is assumed that individuals are identical in their fitness, and that variation in community composition is driven mainly by stochastic processes (the neutral model 
+     <xref ref-type="bibr" rid="pone.0043626-Hubbell1">
+      [21]
+     </xref>); and at the other extreme, variation in the metacommunity is determined by the responses of different species to environmental gradients. The other two frameworks can be seen as special cases of the species sorting framework 
+     <xref ref-type="bibr" rid="pone.0043626-Winegardner1">
+      [22]
+     </xref>. In patch dynamics, the interacting species differ from each other in their abilities as either good competitors or good colonizers within a uniform environment 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold1">
+      [18]
+     </xref>. Within a heterogeneous environment, strong priority effects caused by dispersal limitation can lead to different and stable communities. For the mass effects framework, intensive dispersal allows species to exist at sites that are normally considered marginal or outside of their environmental range 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold1">
+      [18]
+     </xref>. Following this reasoning, one could hypothesize that some communities are composed of groups of species that conform to environmental processes, and others are more influenced by spatial processes (e.g., 
+     <xref ref-type="bibr" rid="pone.0043626-Pandit1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Siqueira1">
+      [24]
+     </xref>). Despite the recent interest in empirical tests of metacommunity theory (see review by Logue 
+     <xref ref-type="bibr" rid="pone.0043626-Logue1">
+      [25]
+     </xref>), there is still unexploited potential for the metacommunity approach to inform conservation approaches 
+     <xref ref-type="bibr" rid="pone.0043626-Economo1">
+      [26]
+     </xref>. We argue that beyond analyzing whether certain taxonomic groups can be used as indicators of overall biological diversity, we need to know whether indicator taxa also show similar responses to the main structuring processes affecting the entire metacommunity.</p> 
+    <p>In this study, we evaluated the effectiveness of indicator taxa in representing spatial variation in the macroinvertebrate community composition in Atlantic Forest streams, and the processes that drive this variation. We focused on analyzing whether some groups respond better to environmental factors and others are more influenced by spatial processes, and on how this can help in deciding which indicator taxa should be used in biomonitoring programs. We specifically investigated (i) whether indicator taxa are good surrogates of the variation in community composition of entire metacommunities. More importantly, we also investigated (ii) whether indicator taxa respond congruently to structuring processes affecting the entire metacommunity, and (iii) whether the performance of an indicator taxon depends on its identity or on the amount that it contributes to the completeness of the dataset. This is worthwhile because previous studies suggested that, after controlling for the effect of species richness, random subsets of species may perform better than indicator taxa 
+     <xref ref-type="bibr" rid="pone.0043626-Tognelli1">
+      [27]
+     </xref>. Therefore, comparing the performance of predetermined indicators against random subsets of taxa in representing biological diversity is a necessary step toward the acceptance of their effectiveness 
+     <xref ref-type="bibr" rid="pone.0043626-Larsen1">
+      [28]
+     </xref>. Finally, if random subsets perform better than classical indicator taxa, we would be able to (iv) define potential indicator groups by choosing those subsets that best respond to environmental gradients.</p> 
+   </sec> 
+   <sec id="s2" sec-type="methods"> 
+    <title>Methods</title> 
+    <sec id="s2a"> 
+     <title>Study Area and Dataset Analyzed</title> 
+     <p>The dataset that we used was extracted from the “Macroinvertebrate database” compiled by the research group in aquatic entomology of the Universidade Federal de São Carlos, Brazil (see details in 
+      <xref ref-type="bibr" rid="pone.0043626-Roque1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Suriano1">
+       [29]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Siqueira2">
+       [30]
+      </xref>). Thirty-nine sites located in the Atlantic Forest (state of São Paulo; see 
+      <xref ref-type="bibr" rid="pone.0043626-Ribeiro1">
+       [31]
+      </xref> for a discussion on the ecological importance and high level of threat of this biome) were selected. Of these, 20 were located in protected areas and 19 in areas fragmented by agricultural activities.</p> 
+     <p>This dataset includes information on abundances of genera, together with local and landscape environmental variables. Sampling and measured environmental variables are detailed elsewhere 
+      <xref ref-type="bibr" rid="pone.0043626-Roque1">
+       [11]
+      </xref>. Although several studies have focused on how local and landscape environmental factors influence the distribution and abundance of macroinvertebrates in streams 
+      <xref ref-type="bibr" rid="pone.0043626-Roque1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Heino1">
+       [32]
+      </xref>, there is no consensus about which scales and factors are the most influential, especially for tropical streams 
+      <xref ref-type="bibr" rid="pone.0043626-Siqueira2">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Siqueira3">
+       [33]
+      </xref>. Therefore, we included predictors from different scales to increase the probability that at least some variables might account for different species’ niche requirements. Within each scale (i.e., local, landscape or regional), these variables are considered important determinants of aquatic macroinvertebrate distribution in streams 
+      <xref ref-type="bibr" rid="pone.0043626-Vinson1">
+       [34]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Heino2">
+       [35]
+      </xref>. Examples include physical (water temperature, stream depth and width) and chemical (pH, dissolved oxygen, electrical conductivity) variables, as well as sediment texture (percentage of silt, sand and gravel), landscape characteristics (percentage of the watershed covered by forest or sugar cane) and regional variables (altitude, rainfall; details in 
+      <xref ref-type="supplementary-material" rid="pone.0043626.s003">
+       Table S1
+      </xref>). Most specimens were identified to genus level, bearing in mind the limited taxonomic knowledge available for Neotropical fauna. Although we used genus-level data, many studies on stream macroinvertebrates have demonstrated that general community patterns hold for different taxonomic resolutions (e.g., species, genus, and family levels: 
+      <xref ref-type="bibr" rid="pone.0043626-Melo1">
+       [36]
+      </xref> and references therein). The reliability of the higher-taxa approach to detect general ecological patterns depends on how species within higher taxa respond to environmental gradients. If congeners are ecologically similar to one another, ecological patterns can be detected using genus-level resolution 
+      <xref ref-type="bibr" rid="pone.0043626-Terlizzi1">
+       [37]
+      </xref>. In general, we believe that our results would be qualitatively similar if we had utilized species-level data (see also 
+      <xref ref-type="bibr" rid="pone.0043626-Leibold2">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Landeiro1">
+       [38]
+      </xref>).</p> 
+     <p>From the full dataset, which contained 242 genera, we chose five taxa to be used as predetermined indicator groups in our analyses: chironomids (non-biting flies; 52 genera), ephemeropterans (mayflies; 26 genera), trichopterans (caddisflies; 34 genera), and coleopterans (beetles; 54 genera). For different reasons, these taxa are usually regarded as reliable indicators in biomonitoring of freshwater ecosystems 
+      <xref ref-type="bibr" rid="pone.0043626-Rosenberg1">
+       [39]
+      </xref>. The remaining taxa include mainly odonates, lepidopterans, plecopterans, other dipterans, and annelids. Although chironomids are one of the most speciose groups in any tropical aquatic environment, they also require difficult and time-consuming analysis for identification to genus level or lower. Also, there is much debate on the importance of including chironomid data in biomonitoring and conservation programs 
+      <xref ref-type="bibr" rid="pone.0043626-Rabeni1">
+       [40]
+      </xref>. On the other hand, ephemeropterans, trichopterans, and coleopterans are believed to be good indicators of water quality, and are more easily and quickly identified 
+      <xref ref-type="bibr" rid="pone.0043626-Rosenberg1">
+       [39]
+      </xref>. Although stoneflies (Plecoptera) are also used as indicator taxa in many studies, we did not consider this group individually in our analyses because of the low number of genera (7) in our dataset. We performed our analyses with these groups individually, and also with some of them combined: EPT (ephemeropterans, plecopterans and trichopterans; 67 genera) and EPTC (ephemeropterans, plecopterans, trichopterans, coleopterans; 120 genera). These groups, especially EPT, have been used extensively in biomonitoring programs in North America, Europe and Australia 
+      <xref ref-type="bibr" rid="pone.0043626-Rosenberg1">
+       [39]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Bonada1">
+       [41]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Spatial Predictors</title> 
+     <p>We created spatial variables following Borcard et al. 
+      <xref ref-type="bibr" rid="pone.0043626-Borcard1">
+       [42]
+      </xref>. This approach, formerly called Principal Coordinates of Neighbor Matrices (PCNM), is similar to other spatial eigenfunction analyses that are now called MEM (Moran’s Eigenvector Maps 
+      <xref ref-type="bibr" rid="pone.0043626-Dray1">
+       [43]
+      </xref>). MEM were based on a Euclidean distance matrix between sampling sites. This distance matrix was then submitted to a Principal Coordinates Analysis, in which axes (eigenvectors) are linearly uncorrelated 
+      <xref ref-type="bibr" rid="pone.0043626-Griffith1">
+       [44]
+      </xref>. From the entire set of eigenvectors, we selected those associated with positive eigenvalues and with significant Moran’s 
+      <italic>
+       I
+      </italic> because they represent positive spatial autocorrelation 
+      <xref ref-type="bibr" rid="pone.0043626-Griffith1">
+       [44]
+      </xref>. These eigenvectors (from now on termed spatial variables) were used as explanatory variables in our analyses (see 
+      <xref ref-type="bibr" rid="pone.0043626-Borcard1">
+       [42]
+      </xref> for further detail). Spatial variables associated with high eigenvalues represent broad-scale patterns of relationships among sampling sites, whereas those associated with low eigenvalues represent fine-scale patterns 
+      <xref ref-type="bibr" rid="pone.0043626-Griffith1">
+       [44]
+      </xref>. There has been recent criticism on the use of MEM in canonical ordinations, especially regarding using them as a direct representation of dispersal limitation 
+      <xref ref-type="bibr" rid="pone.0043626-Gilbert1">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0043626-Smith1">
+       [46]
+      </xref>. Thus, although we estimated both pure environmental and spatial components in variation partitioning (see details below), our main intention was to use spatial variables as a way to control for inflated type I error in assessing the environmental component. That is why we used MEM and interpreted pure spatial components cautiously.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Statistical Analysis</title> 
+     <sec id="s2c1"> 
+      <title>Hypothesis 1: Indicator taxa are reliable surrogates of the entire metacommunity composition</title> 
+      <p>To evaluate the congruence (similarity in patterns of community composition) between predetermined indicator taxa and the entire metacommunity, we computed two Principal Coordinates Analyses (PCoA), one for the indicator taxa and another for the entire metacommunity. All PCoAs were computed using the Bray-Curtis dissimilarity as the distance measure. The configurations of the site scores on the ordination axes represent the main patterns in community composition. We then compared the ordination patterns generated by a given indicator taxa and the entire metacommunity with a Procrustes rotation analysis (
+       <xref ref-type="bibr" rid="pone.0043626-PeresNeto1">
+        [47]
+       </xref>; see step 1 in 
+       <xref ref-type="supplementary-material" rid="pone.0043626.s001">
+        Figure S1
+       </xref>). In Procrustes analysis, a rotational-fit algorithm is used to minimize the sum of squared residuals between the pair of matrices under comparison 
+       <xref ref-type="bibr" rid="pone.0043626-Jackson1">
+        [48]
+       </xref>. The resultant statistic, called 
+       <italic>
+        m
+       </italic><sup>2</sup>, was transformed into the 
+       <italic>
+        r
+       </italic> statistic (
+       <italic>
+        r
+       </italic> = square-root of 1-
+       <italic>
+        m
+       </italic><sup>2</sup>) and this last statistic is a measure of the level of community congruence, indicating the strength of the match between ordinations. For this comparison, we used the first three PCoA axes, which accounted for a substantial proportion of the variation in the data (
+       <xref ref-type="supplementary-material" rid="pone.0043626.s004">
+        Table S2
+       </xref>). The statistical significance of each 
+       <italic>
+        r
+       </italic> statistic was assessed by randomization tests (999 permutations 
+       <xref ref-type="bibr" rid="pone.0043626-Jackson1">
+        [48]
+       </xref>).</p> 
+     </sec> 
+     <sec id="s2c2"> 
+      <title>Hypothesis 2: Indicator taxa respond to the same factors that affect the entire metacommunity</title> 
+      <p>We evaluated whether the response matrices, defined either for the metacommunity or for each of the predetermined indicator groups, were correlated similarly with environmental and spatial predictors. For this task, we also used Procrustes analysis, but instead of using site scores derived from a PCoA, we computed two-dimensional site scores that are associated with (or constrained by) “pure environmental” [E/S], and “pure spatial” [S/E] components from a partial redundancy analysis (pRDA 
+       <xref ref-type="bibr" rid="pone.0043626-Legendre1">
+        [49]
+       </xref>). Whereas with the PCoA we obtained the main patterns in community composition for this metacommunity, with the RDA scores we obtained the main patterns in community composition constrained by either environmental or spatial variables (step 2 in 
+       <xref ref-type="supplementary-material" rid="pone.0043626.s001">
+        Figure S1
+       </xref>).</p> 
+      <p>A second way to measure the congruence among patterns associated with structuring processes is to examine the relative importance of environmental and spatial variables in driving variation in community composition, of either the entire metacommunity or the indicator taxa. We used variation partitioning 
+       <xref ref-type="bibr" rid="pone.0043626-Borcard2">
+        [50]
+       </xref>, 
+       <xref ref-type="bibr" rid="pone.0043626-PeresNeto2">
+        [51]
+       </xref> to estimate and test the fractions of total variation explained purely by environmental variables, and purely by spatial variables (step 3 in 
+       <xref ref-type="supplementary-material" rid="pone.0043626.s001">
+        Figure S1
+       </xref>). Partial RDA is a multivariate extension of multiple linear regression with corresponding 
+       <italic>
+        R
+       </italic><sup>2</sup> that measures the amount of variation that can be attributed exclusively to each set of explanatory variables included in a RDA model. The different resulting components are: total explained variation [E+S], environmental variation [E], spatial variation [S], environmental variation without a spatial component [E|S], and spatial variation without the environmental component [S|E] (for details see 
+       <xref ref-type="bibr" rid="pone.0043626-PeresNeto2">
+        [51]
+       </xref>). For this analysis, the response variables were the biological composition, and the explanatory groups of variables were the environmental and PCNM variables. We transformed the compositional matrices using Hellinger transformation 
+       <xref ref-type="bibr" rid="pone.0043626-Legendre2">
+        [52]
+       </xref> prior to analyses. The results of the variation partitioning were based on adjusted fractions of variation 
+       <xref ref-type="bibr" rid="pone.0043626-PeresNeto2">
+        [51]
+       </xref>. Significance levels were computed by randomization tests (999 permutations 
+       <xref ref-type="bibr" rid="pone.0043626-Legendre1">
+        [49]
+       </xref>).</p> 
+     </sec> 
+     <sec id="s2c3"> 
+      <title>Hypothesis 3: The performance of indicator taxa depends on the amount that they contribute to the completeness of the community data</title> 
+      <p>To investigate whether the performance of a predetermined indicator taxon depends more on its intrinsic indicator ability than on the number of genera that it possesses (for instance, an indicator taxon can be regarded as a good indicator simply because its number of genera approaches the total number of genera in the entire metacommunity), we repeated the above analyses using null models. In these null models, we created 1,000 subsets by selecting a given number of genera (from 10 to 240 with intervals of 10) at random from the metacommunity (see the total number of possible combinations in 
+       <xref ref-type="supplementary-material" rid="pone.0043626.s005">
+        Table S3
+       </xref>). Thus, for each of the 1,000 datasets generated for each number of genera (with sites on the lines, and a given number of randomly selected genera from the genus pool in the columns), we repeated the analysis of congruence described above (i.e., PCoA followed by Procrustes analysis). Also, we compared the Procrustes 
+       <italic>
+        r
+       </italic> obtained with the analysis of a particular indicator taxon matrix (e.g., ephemeropterans with 26 genera, trichopterans with 34, and so on for the other groups) with the distribution of 1,000 
+       <italic>
+        r
+       </italic>-values obtained with the Procrustes analysis of the random subsets with the same genus richness (
+       <xref ref-type="supplementary-material" rid="pone.0043626.s001">
+        Figure S1
+       </xref>). Similarly, we used the same random subsets as response matrices in a partial RDA. Thus, we analyzed the 1,000 datasets (for each genus richness) with a partial RDA, and used the estimated fractions to create the reference distributions (one for each fraction). These analyses allowed us to test the surrogacy power and the responsiveness to environmental gradients of particular indicator taxa when compared to random subsets with the same number of genera.</p> 
+      <p>The above analyses can be interpreted, in general, as follows. Although Procrustes’ 
+       <italic>
+        r
+       </italic> may be statistically significant, it may not represent the highest value of congruence that can be obtained within a community. Similarly, although a pure environmental component [E/S] may be statistically significant, indicating the importance of environmental gradients, other subsets with the same number of genera may respond more strongly than the indicator taxon to these environmental gradients. However, these analyses do not indicate that a certain predetermined indicator taxon is not able to represent the ordination patterns that are generated by the entire metacommunity, or that this group is unrelated to environmental gradients. The analyses do indicate that this group may be the best possible compared to other subsets from the metacommunity. All analyses were performed in the R-language environment 
+       <xref ref-type="bibr" rid="pone.0043626-R1">
+        [53]
+       </xref>.</p> 
+     </sec> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>Some groups (e.g., chironomids) showed higher congruence in community similarity with the entire metacommunity (i.e., the full dataset) than others (e.g., ephemeropterans), but all correlations were higher than 0.5 (
+     <xref ref-type="fig" rid="pone-0043626-g001">
+      Figure 1A
+     </xref>). Except for trichopterans and chironomids, most random subsets had a higher correlation with the entire metacommunity than with indicator taxa with exactly the same number of genera (
+     <xref ref-type="fig" rid="pone-0043626-g002">
+      Figure 2
+     </xref>). An interesting finding here was that by using a relatively small number of genera, for example 70 genera chosen randomly from 242 (less than 1/3 of the total), in general, we would have a strong chance of reaching a correlation higher than 0.8, and in most cases higher than the congruence of the predetermined indicator taxon (
+     <xref ref-type="fig" rid="pone-0043626-g001">
+      Figure 1A
+     </xref>).</p> 
+    <fig id="pone-0043626-g001" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0043626.g001
+     </object-id> 
+     <label>Figure 1</label>  
+     <title>Congruence between predetermined indicator taxa and random subsets with the entire metacommunity.</title> 
+     <p>(A) In the main patterns in community composition; (B) Constrained by environmental variables; (C) Constrained by spatial variables. Gray triangle: ephemeropterans; gray square: trichopterans; inverted gray triangle: chironomids; black triangle: coleopterans; black square: EPT; inverted black triangle: EPTC.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.g001" xlink:type="simple" /> 
+    </fig> 
+    <fig id="pone-0043626-g002" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0043626.g002
+     </object-id> 
+     <label>Figure 2</label>  
+     <title>Congruence in community composition between each predetermined indicator taxon (indicated by the arrow) and between the 1,000 random subsets with the entire metacommunity.</title> 
+     <p>Random subsets have the same genus richness as the predetermined indicator taxon under comparison.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.g002" xlink:type="simple" /> 
+    </fig> 
+    <p>The analysis of constrained ordination axes (resulting from pRDA) yielded similar results to those found in the previous, unconstrained analysis (
+     <xref ref-type="fig" rid="pone-0043626-g001">
+      Figure 1B–1C
+     </xref>). Except for Trichoptera and Ephemeroptera, most random subsets had a higher correlation with the entire metacommunity than did the indicator taxon with an equivalent number of genera (
+     <xref ref-type="fig" rid="pone-0043626-g003">
+      Figure 3
+     </xref>). In other words, the constrained ordination scores obtained with the use of random subsets were more closely correlated with the constrained ordination scores obtained with the use of the entire metacommunity as a response matrix, than with those scores derived from a particular indicator taxon.</p> 
+    <fig id="pone-0043626-g003" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0043626.g003
+     </object-id> 
+     <label>Figure 3</label>  
+     <title>Congruence in environmentally constrained ordination axes (extracted from a pRDA) between each predetermined indicator taxon (indicated by the arrow) and between the 1,000 random subsets with the entire metacommunity.</title> 
+     <p>Random subsets have the same genus richness as the predetermined indicator taxon under comparison. Results regarding the congruence in spatially constrained ordination axes were very similar to that shown in this figure, and are not presented because of considerations of space.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.g003" xlink:type="simple" /> 
+    </fig> 
+    <p>Adjusted coefficients of determination (
+     <italic>
+      R
+     </italic><sup>2</sup><sub>adj</sub>) resulting from pRDA varied from 0 to almost 0.6 for the pure environmental component, and from 0 to around 0.4 for the pure spatial component (
+     <xref ref-type="fig" rid="pone-0043626-g004">
+      Figure 4A–4B
+     </xref>). We found the highest amounts of variation explained for trichopterans: 
+     <italic>
+      R
+     </italic><sup>2</sup><sub>adj</sub> = 0.31 for the pure environmental component [E/S] and 
+     <italic>
+      R
+     </italic><sup>2</sup><sub>adj</sub> = 0.24 for the pure spatial component [S/E]. Also, Trichoptera had a higher correlation with the entire metacommunity than most random sets with an equivalent number of genera (
+     <xref ref-type="fig" rid="pone-0043626-g005">
+      Figure 5
+     </xref>). Two general patterns emerged when we used the random subsets as response matrices in variation partitioning. First, the average amount of variation explained (ca. 20% for [E/S] and 10% for [S/E]) was unrelated to the number of genera, and similar to that obtained for the metacommunity as a whole (
+     <xref ref-type="fig" rid="pone-0043626-g004">
+      Figure 4A–4B
+     </xref>). Second, for random subsets with fewer genera, especially 10 (4.12% of the total number of genera), we found the highest amount of variation explained, but the results were also more variable.</p> 
+    <fig id="pone-0043626-g004" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0043626.g004
+     </object-id> 
+     <label>Figure 4</label>  
+     <title>Adjusted canonical coefficients of determination associated with the “pure effects” of predictors on the predetermined indicator taxa and random subsets.</title> 
+     <p>(A) Pure environmental fraction; (B) Pure spatial fraction. Gray triangle: ephemeropterans; gray square: trichopterans; inverted gray triangle: chironomids; black triangle: coleopterans; black square: EPT; inverted black triangle: EPTC.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.g004" xlink:type="simple" /> 
+    </fig> 
+    <fig id="pone-0043626-g005" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0043626.g005
+     </object-id> 
+     <label>Figure 5</label>  
+     <title>Adjusted canonical coefficients of determination associated with the “pure effects” of environmental predictors on each predetermined indicator taxon (indicated by the arrow) and random subsets.</title> 
+     <p>Random subsets have the same genus richness as the predetermined indicator taxon under comparison. Results regarding “pure effects” of spatial predictors were very similar to the one shown in this figure, and are not presented because of considerations of space.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.g005" xlink:type="simple" /> 
+    </fig> 
+    <p>Considering this result, we decided to scrutinize in detail the 1,000 random subsets composed of 10 genera (first boxplot in 
+     <xref ref-type="fig" rid="pone-0043626-g004">
+      Figure 4A
+     </xref>). We found that in 340 random subsets (of 1,000), the variation in community composition was not significantly explained by the pure environmental component [E/S]. We also found that in 78 subsets (of 1,000), the amount of variation in community composition significantly explained by the pure environmental component [E/S] was higher than 40% (ranging from 40 to 58%). These subsets are potentially the best ones for use as indicators (hereafter called species sorting sets), as their composition varied widely according to the environmental gradients.</p> 
+    <p>What aspects make those 78 random subsets good indicators? Was it because of the presence of certain genera, from one of the predetermined taxonomic groups? To answer these questions, we used a Kruskal-Wallis analysis to test whether the number of times in which a given genus was classified as belonging to species sorting sets depended on the taxonomic group (chironomids, ephemeropterans, plecopterans, trichopterans, coleopterans, or others). We found that whether a subset could be characterized as a species sorting set did not depend on the taxonomic group (Kruskal-Wallis’ 
+     <italic>
+      H
+     </italic> = 2.33; 
+     <italic>
+      P
+     </italic> = 0.802). The use of different subsets of taxa from the metacommunity inevitably altered the number of local communities used in the analyses. However, we found no relationship between the number of sites (of subsets composed of the fewest genera) and the adjusted 
+     <italic>
+      R
+     </italic><sup>2</sup> values (
+     <italic>
+      r
+     </italic> = −0.007; 
+     <italic>
+      P
+     </italic> = 0.879). Therefore, we believe that our results were robust for the spatial structures of local communities used in the analyses. Finally, we also evaluated whether patterns of commonness and rareness influenced these results, by inspecting the rank-abundance plots of, for example, 20 species sorting sets (
+     <xref ref-type="supplementary-material" rid="pone.0043626.s002">
+      Figure S2
+     </xref>). We verified that these subsets well represented the general pattern found elsewhere, where many taxa were rare and few taxa were common. These results indicate, first, that higher taxonomic groups that are usually used as ecological indicators did not predominate in any of the subsets (as indicated by the Kruskal-Wallis test); and second, our inferences are not biased toward common taxa.</p> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Due to severe human-induced impacts, ideally, all existing species in these environments should be regarded as targets for conservation and monitoring actions. The Brazilian Atlantic Forest is one of the most emblematic examples of this challenge, as this biome ranks among the top five biodiversity hotspots in the world. Taking our dataset as an example, if there were no financial, practical or personal constraints, we could recommend to decision-makers that all the 242 macroinvertebrates that we analyzed here should be monitored across these streams. However, this is not feasible because of the shortage of time, money, and personnel with taxonomic skills. Opportunely, our results indicate that highly diverse groups can be monitored using a few selected groups. A relatively small subset (a number between 1/4 and 1/3 of the total) would represent around 80% of the total variation in metacommunity composition. By using this subset, we would also obtain similar environmental and spatial models to those obtained by using the entire metacommunity. Surprisingly, this subset does not have to be composed of certain predetermined (in general, taxonomically defined) indicator taxa; on the contrary, it could be defined with an intensive computational search. Moreover, we show that certain random subsets composed of even fewer genera (around 5% of the total richness) could perform much better in responding to environmental (species sorting sets) and spatial gradients than the indicator taxa.</p> 
+    <p>The number of taxa is expected to influence the effectiveness of indicator groups 
+     <xref ref-type="bibr" rid="pone.0043626-Larsen1">
+      [28]
+     </xref>. In order to avoid analytical artifacts when selecting bioindicators, it is important to evaluate the performance of indicator groups by taking the number of taxa into account. For example, except for Trichoptera, all commonly used indicator taxa showed levels of concordance with the entire metacommunity that were lower than or similar to (chironomids) random subsets, after controlling for the effect of genus richness. The performance of indicator groups will depend on the patterns of ecological complementarity between species. Therefore, groups composed of taxa that differ in their ecological requirements are expected to perform better than others. A high performance of Trichoptera can be explained by its restricted ecological niches in terms of feeding types 
+     <xref ref-type="bibr" rid="pone.0043626-Hering1">
+      [54]
+     </xref> and adaptations to environmental gradients 
+     <xref ref-type="bibr" rid="pone.0043626-Statzner1">
+      [55]
+     </xref>. The group has been suggested to reflect the intensity of different stressors on aquatic ecosystems, and has been used as indicators in many biomonitoring programs around the world 
+     <xref ref-type="bibr" rid="pone.0043626-Hering1">
+      [54]
+     </xref>. Moreover, trichopterans have other features that make them reliable biological indicators (good implementation characteristics). For example, the taxonomy of tropical Trichoptera is relatively well resolved (Trichoptera Checklist Coordinating Committee: Trichoptera World-Checklist; 
+     <ext-link ext-link-type="uri" xlink:href="http://entweb.clemson.edu/database/trichopt/" xlink:type="simple">
+      http://entweb.clemson.edu/database/trichopt/
+     </ext-link>), and a relatively high number of trichopteran species is likely to be present per stream 
+     <xref ref-type="bibr" rid="pone.0043626-Holzenthal1">
+      [56]
+     </xref>.</p> 
+    <p>The responses of the entire metacommunity, indicator taxa, and random subsets to environmental and spatial gradients were partially similar to the results discussed above. Random subsets performed better in representing the constrained ordinations of the entire metacommunity than did the indicator taxa with similar numbers of genera. This was unexpected, because EPTC includes taxa that are believed to be good indicators of water quality, and are extensively used in biomonitoring programs in North America, Europe and Australia 
+     <xref ref-type="bibr" rid="pone.0043626-Rosenberg1">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Bonada1">
+      [41]
+     </xref>. These findings reinforce our view that it is the combination of certain taxa, independent of their taxonomic group, which makes a good indicator group. An ideal indicator group for environmental monitoring should have the potential to discriminate human impacts from different levels of natural variability. It is unlikely that any given taxonomic group will satisfy all these requirements in different threat scenarios. For instance, the streams that we investigated are impacted by conversion of the natural habitat for different uses, such as 
+     <italic>
+      Eucalyptus
+     </italic> and sugar-cane plantations and cattle ranching. Because close relatives tend to be ecologically similar 
+     <xref ref-type="bibr" rid="pone.0043626-Wiens1">
+      [57]
+     </xref> and because we were dealing with a broad taxonomic representation, as we increased the number of genera in a random subset, we also increased the probability of including genera from different taxonomic groups, with different environmental requirements and, therefore, more responsive to different environmental gradients. These random subsets with a larger number of less closely related genera would also be the most complementary subsets, showing the highest levels of concordance with the entire metacommunity. Future studies should investigate whether high concordance between the entire metacommunity and random subsets also appear in datasets with a narrow taxonomic representation.</p> 
+    <p>Understanding the response of biodiversity to environmental and spatial gradients is fundamental for planning sound biological monitoring programs and for the establishment of protected areas. We showed that more than 30% of the variation in community composition of trichopterans was explained by environmental factors and 24% by spatial variables; whereas for the entire metacommunity and other indicator taxa, these values were around 20% and 10% respectively. Although, on the one hand, these findings only reinforce the view that both deterministic and stochastic processes drive variation in community composition 
+     <xref ref-type="bibr" rid="pone.0043626-Logue1">
+      [25]
+     </xref>, on the other hand, these findings suggest the possibility of using groups of taxa that better respond to these processes for monitoring and conservation purposes. The analysis of the random subsets composed of 10 genera showed that some subsets had a pure environmental component close to 60% (species sorting sets), whereas others showed no response to the environmental gradient. The theoretical scope that underpins the use of indicators was derived from a deterministic view of ecology, particularly based on the niche concept. Among current metacommunity frameworks, the species sorting model represents this deterministic view, in which metacommunity structure is determined by species’ responses to environmental factors; whereas the neutral model represents the other extreme, in which metacommunity structure is mainly determined by dispersal limitation, speciation and ecological drift, rather than by ecological differences among species 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold2">
+      [20]
+     </xref>. Integrating these ideas into the scope of environmental monitoring, we suggest that in a continuum between environmental and spatial processes, the closer to the environmental extreme, the better the indicator. However, our approach can be refined further by searching for taxa – within the species sorting sets – that have specific relationships with one or another environmental variable, as this search can be informative when one is interested in selecting indicators for a particular impact. At the moment, it is important to emphasize that these subsets are composed of both common and rare taxa, and that there is no predominance of any particular higher taxon.</p> 
+    <p>On the other hand, the message becomes less clear when we move to a discussion about indicators and spatial variables. Although the recognition of dispersal limitation as a fundamental process in structuring metacommunities has contributed to a better understanding of biodiversity patterns 
+     <xref ref-type="bibr" rid="pone.0043626-Logue1">
+      [25]
+     </xref> and species extinctions after habitat loss 
+     <xref ref-type="bibr" rid="pone.0043626-Halley1">
+      [58]
+     </xref>, there is still limited discussion about the implications of this process for management, conservation and biomonitoring 
+     <xref ref-type="bibr" rid="pone.0043626-Economo1">
+      [26]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Lopes1">
+      [59]
+     </xref>. Moreover, the only available method to include space in canonical ordinations (Moran’s Eigenvector Maps – MEM 
+     <xref ref-type="bibr" rid="pone.0043626-Dray1">
+      [43]
+     </xref>), either as a way to understand spatial related processes or as a way to filter out spatial variation, has been the focus of recent criticism 
+     <xref ref-type="bibr" rid="pone.0043626-Gilbert1">
+      [45]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Smith1">
+      [46]
+     </xref>. We suggest three implications that need careful investigation, bearing in mind the current limitations of MEM. First, if the random subsets that did not respond to the environmental gradient are mainly affected by dispersal limitation, then they may be very susceptible to the spatial configuration of habitat patches (spatial component 
+     <italic>
+      per se
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0043626-Economo1">
+      [26]
+     </xref>). In that case, these sets would provide a powerful indication that, although different parts of the landscape are environmentally equivalent, due to historical, regional, or random processes, they support unique community compositions, and this uniqueness in itself could be a reason for conservation. Second, when one is interested in selecting indicators of habitat conditions, then monitoring these subsets (i.e., those unrelated to environmental gradients) is unnecessary, as they only introduce noise into the analysis of community-environment relationships. Although we cannot exclude the possibility that the lack of relationship between these groups and the environmental gradient may simply reflect the fact that some environmental variables are missing, from our experience in working with Atlantic Forest streams 
+     <xref ref-type="bibr" rid="pone.0043626-Roque1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Siqueira1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Suriano1">
+      [29]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Siqueira2">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Siqueira3">
+      [33]
+     </xref> and based on reviews on the subject 
+     <xref ref-type="bibr" rid="pone.0043626-Vinson1">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0043626-Heino2">
+      [35]
+     </xref>, most of the important environmental variables were measured. Third, spatial processes can further negatively affect the performance of indicators. For example, intense dispersal (i.e., mass effects) can mask the influence of environmental factors on species distribution (e.g., 
+     <xref ref-type="bibr" rid="pone.0043626-Hitt1">
+      [60]
+     </xref>). The mass-effects paradigm assumes that frequent dispersal from a source habitat enhances the persistence of a species in a sink habitat from which it would otherwise be absent 
+     <xref ref-type="bibr" rid="pone.0043626-Leibold2">
+      [20]
+     </xref>. In short, although mass effects are mainly documented in experimental systems (but see 
+     <xref ref-type="bibr" rid="pone.0043626-Ng1">
+      [61]
+     </xref>), their occurrence could lead to inaccurate use of indicator taxa in a biomonitoring program.</p> 
+    <p>Previous attempts to use subsamples in biomonitoring were based on counting a minimum number of specimens 
+     <xref ref-type="bibr" rid="pone.0043626-Rosenberg1">
+      [39]
+     </xref> – a laboratory procedure in which one counts and identifies only a random subsample taken from the entire sample during the sorting process. Our method focuses on a random subset of taxa taken from the entire metacommunity. Thus, all genera had the same chance of being chosen. Although it could be initially time-consuming, because it involves the identification of the entire metacommunity before establishing the best subsets, it has the advantage of avoiding phylogenetic autocorrelation and capturing complex information about variation in community composition (i.e., beta-diversity). The numbers that we found in our study –1/4 of the entire metacommunity for biodiversity surrogacy and random subsets of 10 genera for environmental assessment – are not cutoff points for any biomonitoring program. Each program should run its own analysis, because the output will be dependent on the regional pool. Thus, to apply the strategy that we are proposing, one should first perform a comprehensive biological survey of the region of interest. Second, after running the protocol described above, one can select the subset of taxa that best fulfills one of the objectives targeted in this paper (i.e., subsets representing ordination patterns depicted by the entire metacommunity or responding to major environmental gradients). Setting clear objectives is a fundamental step in the development of an effective monitoring program 
+     <xref ref-type="bibr" rid="pone.0043626-Lindenmayer1">
+      [62]
+     </xref>. For instance, let us suppose that a high level of community congruence is required (i.e., the relationship between an indicator group and the entire metacommunity should be close to 1.0). According to our protocol, one should select approximately 120 genera, and because different combinations of 120 genera are possible, one can select, for surrogacy purposes, the combination (i.e., a genera list) that maximizes the match with the entire metacommunity. Interestingly, our approach offers flexibility in terms of choosing the best subset, because different combinations of taxa might be similarly effective in representing the entire community. We must emphasize that the use of our protocol, besides the inevitable work of sorting and counting samples, comes with the extra (computational) cost of searching for the best subsets. We envisage that in the long term this cost can be rewarding, given the small amount of time and expertise needed to analyze the samples. We advise, however, that from time to time a new complete evaluation should be carried out to assess the effectiveness of a particular subset, considering that as new data become available the goals of monitoring programs might change 
+     <xref ref-type="bibr" rid="pone.0043626-Lindenmayer1">
+      [62]
+     </xref>. Thus, in terms of rationality and implementation, our approach seems to be adequate to accomplish the purpose of selecting bioindicators – it can be considered an effective method. However, studies of cost-effectiveness and cost-efficiency are necessary to know whether it performs in the best possible way and with acceptable financial and personnel costs in comparison with other approaches 
+     <xref ref-type="bibr" rid="pone.0043626-Gardner1">
+      [63]
+     </xref>. In addition, it would be highly desired, especially considering the transferability of our approach, if we could perform a temporal verification of the whole procedure using the same landscape.</p> 
+    <p>In conclusion, the approach that we propose here, exemplified by macroinvertebrates in Atlantic Forest streams, places in the same theoretical and practical framework the selection of surrogates of biodiversity, indicators of environmental conditions, and, more importantly, it explicitly incorporates environmental and spatial processes into the selection approach. It recognizes that both the existence and lack of community-environment relationships, and relationships with spatial variables are relevant because they provide different information about the phenomenon of interest. Also, our work adds to the growing efforts 
+     <xref ref-type="bibr" rid="pone.0043626-Logue1">
+      [25]
+     </xref> to apply the theoretical foundations of the metacommunity perspective.</p> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0043626.s001" mimetype="application/pdf" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Diagram showing the step-by-step statistical methodology.
+      </bold> Step 1: 
+      <bold>
+       M
+      </bold> represents the entire metacommunity matrix, with all 242 macroinvertebrate genera; 
+      <bold>
+       I
+      </bold> represents a matrix composed of predetermined indicator taxa: chironomids, ephemeropterans, trichopterans, coleopterans, EPT or EPTC; 
+      <bold>
+       R
+      </bold> represents a matrix of genera randomly selected from 
+      <bold>
+       M
+      </bold>. 
+      <bold>
+       B
+      </bold> represents a matrix computed using the Bray-Curtis dissimilarity as the distance measure for each of the previous matrices 
+      <bold>
+       B
+       <sub>M</sub>
+      </bold>, 
+      <bold>
+       B
+       <sub>I</sub>
+      </bold>, 
+      <bold>
+       B
+       <sub>R</sub>
+      </bold>. PCoA: Principal Coordinates Analysis. Step 2: 
+      <bold>
+       E
+      </bold> represents a matrix of environmental predictors; RDA: redundancy analysis. Step 3: 
+      <bold>
+       S
+      </bold> represents a matrix of spatial predictors; Variation components: [a] unique fraction of variation explained by environmental predictors, [c] unique fraction of variation explained by spatial predictors, [b] the common fraction of variation shared by environmental and spatial predictors, [d] the residual fraction of variation.</p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0043626.s002" mimetype="application/pdf" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.s002" xlink:type="simple"> 
+     <label>Figure S2</label>  
+     <p> 
+      <bold>
+       Rank-abundance plot for 20 of the 78 random subsets with the highest 
+      </bold> 
+      <bold> 
+       <italic>
+        R
+       </italic> 
+      </bold> 
+      <bold>
+       <sup>2</sup>
+       <sub>adj</sub> values of the pure environmental component.
+      </bold> </p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0043626.s003" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.s003" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p> 
+      <bold>
+       Summarized description of the dataset analyzed.
+      </bold> </p> 
+     <p>(XLSX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0043626.s004" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.s004" xlink:type="simple"> 
+     <label>Table S2</label>  
+     <p> 
+      <bold>
+       Proportion of the variation in the data explained by PCoA.
+      </bold> </p> 
+     <p>(XLSX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0043626.s005" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0043626.s005" xlink:type="simple"> 
+     <label>Table S3</label>  
+     <p> 
+      <bold>
+       Total number of possible combinations of random genera.
+      </bold> </p> 
+     <p>(XLSX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Amanda Winegardner, Ingrid Ng and Rafael Loyola for providing valuable comments during the preparation of this study. Adam Siepielski and three anonymous referees also made important suggestions that greatly enhanced the quality of this manuscript. Janet Reid made a detailed grammatical revision.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0043626-CBDConventiononBiological1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       CBD - Convention on Biological Diversity (2006) Secretariat of the CBD, Montreal, Quebec. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.biodiv.org" xlink:type="simple">
+        http://www.biodiv.org
+       </ext-link>. Accessed 2011 Dec 13.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Chesson1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chesson
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Mechanisms of Maintenance of Species Diversity
+       </article-title>. 
+       <source>Annu Rev Ecol Syst 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        343
+       </fpage>–
+       <lpage>
+        366
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Margules1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Margules
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pressey
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Systematic conservation planning
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        405
+       </volume>: 
+       <fpage>
+        243
+       </fpage>–
+       <lpage>
+        253
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Brown1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Brown JH, Lomolino MV (1998) Biogeography, 2nd edn. Massachusetts : Sinauer Press. 691 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Bini1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Diniz-Filho
+        </surname>
+        <given-names>
+         JAF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rangel
+        </surname>
+        <given-names>
+         TFLVB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bastos
+        </surname>
+        <given-names>
+         RP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pinto
+        </surname>
+        <given-names>
+         MP
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Challenging Wallacean and Linnean shortfalls: knowledge gradients and conservation planning in a biodiversity hotspot
+       </article-title>. 
+       <source>Divers Distrib 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        475
+       </fpage>–
+       <lpage>
+        482
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-McGeoch1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McGeoch
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        The selection, testing and application of terrestrial insects as bioindicators
+       </article-title>. 
+       <source>Biol Rev Camb Philos 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        181
+       </fpage>–
+       <lpage>
+        201
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Pressey1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pressey
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Conservation Planning and Biodiversity: Assembling the Best Data for the Job
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        1677
+       </fpage>–
+       <lpage>
+        1681
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Feld1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feld
+        </surname>
+        <given-names>
+         CK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         da Silva
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sousa
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bugter
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Indicators of biodiversity and ecosystem services: a synthesis across ecosystems and spatial scales
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        1862
+       </fpage>–
+       <lpage>
+        1871
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Loyola1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Loyola
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kubota
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewinsohn
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Endemic vertebrates are the most effective surrogate for identifying conservation priorities among Brazilian ecoregions
+       </article-title>. 
+       <source>Divers Distrib 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        389
+       </fpage>–
+       <lpage>
+        396
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Fleishman1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fleishman
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Murphy
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        A Realistic Assessment of the Indicator Potential of Butterflies and Other Charismatic Taxonomic Groups
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        1109
+       </fpage>–
+       <lpage>
+        1116
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Roque1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roque
+        </surname>
+        <given-names>
+         FO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tambosi
+        </surname>
+        <given-names>
+         LR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Untangling associations between chironomid taxa in Neotropical streams using local and landscape filters
+       </article-title>. 
+       <source>Freshwater Biol 
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        847
+       </fpage>–
+       <lpage>
+        865
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Su1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Su
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Debinski
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jakubauskas
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kindscher
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Beyond Species Richness: Community Similarity as a Measure of Cross-Taxon Congruence for Coarse-Filter Conservation
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        167
+       </fpage>–
+       <lpage>
+        173
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Johnson1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Johnson
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hering
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Furse
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clarke
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Detection of ecological change using multiple organism groups: metrics and uncertainty
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        566
+       </volume>: 
+       <fpage>
+        115
+       </fpage>–
+       <lpage>
+        137
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Howard1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Howard
+        </surname>
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Viskanic
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davenport
+        </surname>
+        <given-names>
+         TRB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kigenyi
+        </surname>
+        <given-names>
+         FW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baltzer
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Complementarity and the use of indicator groups for reserve selection in Uganda
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        394
+       </volume>: 
+       <fpage>
+        472
+       </fpage>–
+       <lpage>
+        475
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Pawar1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pawar
+        </surname>
+        <given-names>
+         SS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Birand
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ahmed
+        </surname>
+        <given-names>
+         MF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sengupta
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raman
+        </surname>
+        <given-names>
+         TR
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Conservation biogeography in North-east India: hierarchical analysis of cross-taxon distributional congruence
+       </article-title>. 
+       <source>Divers Distrib 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        53
+       </fpage>–
+       <lpage>
+        65
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Lamoreux1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lamoreux
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morrison
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ricketts
+        </surname>
+        <given-names>
+         TH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Olson
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dinerstein
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Global tests of biodiversity concordance and the importance of endemism
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        440
+       </volume>: 
+       <fpage>
+        212
+       </fpage>–
+       <lpage>
+        214
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Vellend1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lilley
+        </surname>
+        <given-names>
+         PL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Starzomski
+        </surname>
+        <given-names>
+         BM
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Using subsets of species in biodiversity surveys
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        161
+       </fpage>–
+       <lpage>
+        169
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Leibold1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leibold
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holyoak
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouquet
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amarasekare
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The metacommunity concept: a framework for multi-scale community ecology
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        601
+       </fpage>–
+       <lpage>
+        613
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Holyoak1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Holyoak M, Leibold MA, Holt RD (2005) Metacommunities: spatial dynamics and ecological communities. Chicago: University of Chicago Press. 513 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Leibold2"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leibold
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McPeek
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Coexistence of the niche and neutral perspectives in community ecology
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        1399
+       </fpage>–
+       <lpage>
+        1410
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Hubbell1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Hubbell SP (2001) The unified neutral theory of biodiversity and biogeography. New Jersey: Princeton University Press. 375 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Winegardner1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Winegardner
+        </surname>
+        <given-names>
+         AK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         BK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ng
+        </surname>
+        <given-names>
+         ISY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cottenie
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The terminology of metacommunity ecology
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        253
+       </fpage>–
+       <lpage>
+        254
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Pandit1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pandit
+        </surname>
+        <given-names>
+         SN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kolasa
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cottenie
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Contrasts between habitat generalists and specialists: an empirical extension to the basic metacommunity framework
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        2253
+       </fpage>–
+       <lpage>
+        2262
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Siqueira1"> 
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roque
+        </surname>
+        <given-names>
+         FO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Couceiro
+        </surname>
+        <given-names>
+         SRM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trivinho-Strixino
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Common and rare species respond to similar niche processes in macroinvertebrate metacommunities
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        35
+       </volume>: 
+       <fpage>
+        183
+       </fpage>–
+       <lpage>
+        192
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Logue1"> 
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Logue
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouquet
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peter
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hillebrand
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Empirical approaches to metacommunities: a review and comparison with theory
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        482
+       </fpage>–
+       <lpage>
+        491
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Economo1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Economo
+        </surname>
+        <given-names>
+         EP
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Biodiversity Conservation in Metacommunity Networks: Linking Pattern and Persistence
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        177
+       </volume>: 
+       <fpage>
+        E167
+       </fpage>–
+       <lpage>
+        E180
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Tognelli1"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tognelli
+        </surname>
+        <given-names>
+         MF
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Assessing the utility of indicator groups for the conservation of South American terrestrial mammals
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        121
+       </volume>: 
+       <fpage>
+        409
+       </fpage>–
+       <lpage>
+        417
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Larsen1"> 
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname>
+        <given-names>
+         FW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bladt
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rahbek
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Indicator taxa revisited: useful for conservation planning
+       </article-title>? 
+       <source>Divers Distrib 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        70
+       </fpage>–
+       <lpage>
+        79
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Suriano1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Suriano
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fonseca-Gessner
+        </surname>
+        <given-names>
+         AA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roque
+        </surname>
+        <given-names>
+         FO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Froehlich
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Choice of macroinvertebrate metrics to evaluate stream conditions in Atlantic Forest, Brazil
+       </article-title>. 
+       <source>Environ Monit Assess 
+       <volume>
+        175
+       </volume>: 
+       <fpage>
+        87
+       </fpage>–
+       <lpage>
+        101
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Siqueira2"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cianciaruso
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roque
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trivinho-Strixino
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The role of niche measures in explaining the abundance–distribution relationship in tropical lotic chironomids
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        636
+       </volume>: 
+       <fpage>
+        163
+       </fpage>–
+       <lpage>
+        172
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Ribeiro1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ponzoni
+        </surname>
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hirota
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The Brazilian Atlantic Forest: How much is left, and how is the remaining forest distributed? Implications for conservation
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        1141
+       </fpage>–
+       <lpage>
+        1153
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Heino1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heino
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mykrä
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kotanen
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Weak relationships between landscape characteristics and multiple facets of stream macroinvertebrate biodiversity in a boreal drainage basin
+       </article-title>. 
+       <source>Landscape Ecol 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        417
+       </fpage>–
+       <lpage>
+        426
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Siqueira3"> 
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roque
+        </surname>
+        <given-names>
+         FO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trivinho-Strixino
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Phenological patterns of neotropical lotic chironomids: Is emergence constrained by environmental factors
+       </article-title>? 
+       <source>Austral Ecol 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        902
+       </fpage>–
+       <lpage>
+        910
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Vinson1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vinson
+        </surname>
+        <given-names>
+         MR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hawkins
+        </surname>
+        <given-names>
+         CP
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Biodiversity of Stream Insects: Variation at Local, Basin, and Regional Scales
+       </article-title>. 
+       <source>Annu Rev Entomol 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        271
+       </fpage>–
+       <lpage>
+        293
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Heino2"> 
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heino
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Biodiversity of aquatic insects: spatial gradients and environmental correlates of assemblage-level measures at large scales
+       </article-title>. 
+       <source>Freshwater Rev 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        29
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Melo1"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Melo
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Effects of taxonomic and numeric resolution on the ability to detect ecological patterns at a local scale using stream macroinvertebrates
+       </article-title>. 
+       <source>Arch Hydrobiol 
+       <volume>
+        164
+       </volume>: 
+       <fpage>
+        309
+       </fpage>–
+       <lpage>
+        323
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Terlizzi1"> 
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Terlizzi
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bevilacqua
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fraschetti
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boero
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Taxonomic sufficiency and the increasing insufficiency of taxonomic expertise
+       </article-title>. 
+       <source>Mar Pollut Bull 
+       <volume>
+        46
+       </volume>: 
+       <fpage>
+        556
+       </fpage>–
+       <lpage>
+        561
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Landeiro1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Landeiro
+        </surname>
+        <given-names>
+         VL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Costa
+        </surname>
+        <given-names>
+         FRC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Franklin
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nogueira
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        How far can we go in simplifying biomonitoring assessments? An integrated analysis of taxonomic surrogacy, taxonomic sufficiency and numerical resolution in a megadiverse region
+       </article-title>. 
+       <source>Ecol Indic 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        366
+       </fpage>–
+       <lpage>
+        373
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Rosenberg1"> 
+      <label>39</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Rosenberg DM, Resh VH (1993) Freshwater biomonitoring and benthic macroinvertebrates. New York: Chapman &amp; Hall. 488 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Rabeni1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rabeni
+        </surname>
+        <given-names>
+         CF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Bioassessment of streams using macroinvertebrates: are the chironomidae necessary
+       </article-title>? 
+       <source>Environ Monit Assess 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        177
+       </fpage>–
+       <lpage>
+        185
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Bonada1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bonada
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prat
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Resh
+        </surname>
+        <given-names>
+         VH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Statzner
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Developments in aquatic insect biomonitoring: a comparative analysis of recent approaches
+       </article-title>. 
+       <source>Annu Rev Entomol 
+       <volume>
+        51
+       </volume>: 
+       <fpage>
+        495
+       </fpage>–
+       <lpage>
+        523
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Borcard1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Borcard D, Gillet F, Legendre P (2011) Numerical ecology with R. New York: Springer. 306 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Dray1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dray
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peres-Neto
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Spatial modelling: a comprehensive framework for principal coordinate analysis of neighbour matrices (PCNM)
+       </article-title>. 
+       <source>Ecol Model 
+       <volume>
+        196
+       </volume>: 
+       <fpage>
+        483
+       </fpage>–
+       <lpage>
+        493
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Griffith1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Griffith
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peres-Neto
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Spatial modeling in ecology: the flexibility of eigenfunction spatial analyses
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        2603
+       </fpage>–
+       <lpage>
+        2613
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Gilbert1"> 
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gilbert
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Partitioning variation in ecological communities: do the numbers add up
+       </article-title>? 
+       <source>J Appl Ecol 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        1071
+       </fpage>–
+       <lpage>
+        1082
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Smith1"> 
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname>
+        <given-names>
+         TW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lundholm
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Variation partitioning as a tool to distinguish between niche and neutral processes
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        648
+       </fpage>–
+       <lpage>
+        655
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-PeresNeto1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peres-Neto
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jackson
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        How well do multivariate data sets match? The advantages of a Procrustean superimposition approach over the Mantel test
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        129
+       </volume>: 
+       <fpage>
+        169
+       </fpage>–
+       <lpage>
+        178
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Jackson1"> 
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jackson
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        PROTEST: a PROcrustean Randomization TEST of community environment concordance
+       </article-title>. 
+       <source>Ecoscience 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        297
+       </fpage>–
+       <lpage>
+        303
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Legendre1"> 
+      <label>49</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Legendre P, Legendre L (1998) Numerical ecology. Amsterdam: Elsevier. 853 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Borcard2"> 
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Drapeau
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Partialling out the Spatial Component of Ecological Variation
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        1045
+       </fpage>–
+       <lpage>
+        1055
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-PeresNeto2"> 
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peres-Neto
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dray
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Variation partitioning of species data matrices: estimation and comparison of fractions
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        2614
+       </fpage>–
+       <lpage>
+        2625
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Legendre2"> 
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gallagher
+        </surname>
+        <given-names>
+         ED
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Ecologically meaningful transformations for ordination of species data
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        129
+       </volume>: 
+       <fpage>
+        271
+       </fpage>–
+       <lpage>
+        280
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-R1"> 
+      <label>53</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team (2011). R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. ISBN 3-900051-07-0, URL 
+       <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org/" xlink:type="simple">
+        http://www.R-project.org/
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Hering1"> 
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hering
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmidt-Kloiber
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Murphy
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lücke
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zamora-Muñoz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Potential impact of climate change on aquatic insects: A sensitivity analysis for European caddisflies (Trichoptera) based on distribution patterns and ecological preferences
+       </article-title>. 
+       <source>Aquat Sci 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        14
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Statzner1"> 
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Statzner
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dolédec
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Phylogenetic, Spatial, and Species-Trait Patterns across Environmental Gradients: the Case of Hydropsyche (Trichoptera) along the Loire River
+       </article-title>. 
+       <source>Int Rev Hydrobiol 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        121
+       </fpage>–
+       <lpage>
+        140
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Holzenthal1"> 
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Holzenthal
+        </surname>
+        <given-names>
+         RW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blahnik
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prather
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kjer
+        </surname>
+        <given-names>
+         KM
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Order Trichoptera Kirby, 1813 (Insecta), caddisflies
+       </article-title>. 
+       <source>Zootaxa 
+       <volume>
+        1668
+       </volume>: 
+       <fpage>
+        639
+       </fpage>–
+       <lpage>
+        698
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Wiens1"> 
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wiens
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Niche conservatism: Integrating Evolution, Ecology, and Conservation Biology
+       </article-title>. 
+       <source>Annu Rev Ecol Evol Syst 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        519
+       </fpage>–
+       <lpage>
+        539
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Halley1"> 
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Halley
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Iwasa
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Neutral theory as a predictor of avifaunal extinctions after habitat loss
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        108
+       </volume>: 
+       <fpage>
+        2316
+       </fpage>–
+       <lpage>
+        2321
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Lopes1"> 
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lopes
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caliman
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carneiro
+        </surname>
+        <given-names>
+         LS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Esteves
+        </surname>
+        <given-names>
+         FA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Concordance among assemblages of upland Amazonian lakes and the structuring role of spatial and environmental factors
+       </article-title>. 
+       <source>Ecol Indic 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        1171
+       </fpage>–
+       <lpage>
+        1176
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Hitt1"> 
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hitt
+        </surname>
+        <given-names>
+         NP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Angermeier
+        </surname>
+        <given-names>
+         PL
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Fish community and bioassessment responses to stream network position
+       </article-title>. 
+       <source>J N Am Benthol Soc 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        296
+       </fpage>–
+       <lpage>
+        309
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Ng1"> 
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ng
+        </surname>
+        <given-names>
+         ISY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carr
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cottenie
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Hierarchical zooplankton metacommunities: distinguishing between high and limiting dispersal mechanisms
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        619
+       </volume>: 
+       <fpage>
+        133
+       </fpage>–
+       <lpage>
+        143
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Lindenmayer1"> 
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lindenmayer
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Likens
+        </surname>
+        <given-names>
+         GE
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Adaptive monitoring: a new paradigm for long-term research and monitoring
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        482
+       </fpage>–
+       <lpage>
+        486
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0043626-Gardner1"> 
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gardner
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Araujo
+        </surname>
+        <given-names>
+         IS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ávila-Pires
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonaldo
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The cost-effectiveness of biodiversity surveys in tropical forests
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        139
+       </fpage>–
+       <lpage>
+        150
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

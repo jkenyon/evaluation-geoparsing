@@ -1,0 +1,2883 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-09013
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0047192
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Agriculture
+       </subject> 
+       <subj-group> 
+        <subject>
+         Agricultural production
+        </subject> 
+        <subj-group> 
+         <subject>
+          Environmental impacts
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Agroecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ecosystems agroecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Crops
+        </subject> 
+        <subj-group> 
+         <subject>
+          Crop management
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Forestry
+        </subject> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Sustainable agriculture
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Agroecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystems agroecology
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Biogeochemistry
+         </subject> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Global change ecology
+         </subject> 
+         <subject>
+          Soil ecology
+         </subject> 
+         <subject>
+          Spatial and landscape ecology
+         </subject> 
+         <subject>
+          Species extinction
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Plant science
+        </subject> 
+        <subj-group> 
+         <subject>
+          Plant ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Plant-environment interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Zoology
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Plant Biology
+       </subject> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Can Joint Carbon and Biodiversity Management in Tropical Agroforestry Landscapes Be Optimized?
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Carbon and Biodiversity in Agroforests
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Kessler
+        </surname> 
+        <given-names>
+         Michael
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hertel
+        </surname> 
+        <given-names>
+         Dietrich
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Jungkunst
+        </surname> 
+        <given-names>
+         Hermann F.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Kluge
+        </surname> 
+        <given-names>
+         Jürgen
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Abrahamczyk
+        </surname> 
+        <given-names>
+         Stefan
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff5"> 
+        <sup>5</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bos
+        </surname> 
+        <given-names>
+         Merijn
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff6"> 
+        <sup>6</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff7"> 
+        <sup>7</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Buchori
+        </surname> 
+        <given-names>
+         Damayanti
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff8"> 
+        <sup>8</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Gerold
+        </surname> 
+        <given-names>
+         Gerhard
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff9"> 
+        <sup>9</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Gradstein
+        </surname> 
+        <given-names>
+         S. Robbert
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff10"> 
+        <sup>10</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Köhler
+        </surname> 
+        <given-names>
+         Stefan
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff11"> 
+        <sup>11</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Leuschner
+        </surname> 
+        <given-names>
+         Christoph
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Moser
+        </surname> 
+        <given-names>
+         Gerald
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff12"> 
+        <sup>12</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Pitopang
+        </surname> 
+        <given-names>
+         Ramadhanil
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff13"> 
+        <sup>13</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Saleh
+        </surname> 
+        <given-names>
+         Shahabuddin
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff14"> 
+        <sup>14</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Schulze
+        </surname> 
+        <given-names>
+         Christian H.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff15"> 
+        <sup>15</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Sporn
+        </surname> 
+        <given-names>
+         Simone G.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff16"> 
+        <sup>16</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Steffan-Dewenter
+        </surname> 
+        <given-names>
+         Ingolf
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff17"> 
+        <sup>17</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Tjitrosoedirdjo
+        </surname> 
+        <given-names>
+         Sri S.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff18"> 
+        <sup>18</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Tscharntke
+        </surname> 
+        <given-names>
+         Teja
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff6"> 
+        <sup>6</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       Systematic Botany, University of Zurich, Zurich, Switzerland
+      </addr-line> 
+     </aff>
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       Plant Ecology, University of Göttingen, Göttingen, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff3"> 
+      <label>3</label> 
+      <addr-line>
+       Geoecology/Physical Geography, Institute for Environmental Sciences, University of Koblenz-Landau, Landau, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff4"> 
+      <label>4</label> 
+      <addr-line>
+       Faculty of Geography, University of Marburg, Marburg, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff5"> 
+      <label>5</label> 
+      <addr-line>
+       Systematic Botany and Mycology, Department of Biology, University of Munich, Munich, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff6"> 
+      <label>6</label> 
+      <addr-line>
+       Agroecology, University of Göttingen, Göttingen, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff7"> 
+      <label>7</label> 
+      <addr-line>
+       Louis Bolk Institute, LA Driebergen, The Netherlands
+      </addr-line> 
+     </aff>
+     <aff id="aff8"> 
+      <label>8</label> 
+      <addr-line>
+       Department of Plant Protection, Faculty of Agriculture, IPB, Bogor Agricultural University, Kampus Darmaga, Bogor, Indonesia
+      </addr-line> 
+     </aff>
+     <aff id="aff9"> 
+      <label>9</label> 
+      <addr-line>
+       Landscape Ecology, Institute of Geography, University of Göttingen, Göttingen, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff10"> 
+      <label>10</label> 
+      <addr-line>
+       Muséum National d’Histoire Naturelle, Departement Systématique et Evolution (UMS 602), C.P. 39, Paris, France
+      </addr-line> 
+     </aff>
+     <aff id="aff11"> 
+      <label>11</label> 
+      <addr-line>
+       Landscape Ecology and Land Evaluation, Faculty for Agricultural and Environmental Sciences, University of Rostock, Rostock, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff12"> 
+      <label>12</label> 
+      <addr-line>
+       Department of Plant Ecology, University of Giessen, Giessen, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff13"> 
+      <label>13</label> 
+      <addr-line>
+       Department of Biology, Faculty of Mathematics and Natural Sciences, Tadulako University, Palu, Indonesia
+      </addr-line> 
+     </aff>
+     <aff id="aff14"> 
+      <label>14</label> 
+      <addr-line>
+       Department of Agrotechnology, Faculty of Agriculture, University of Tadulako, Palu, Indonesia
+      </addr-line> 
+     </aff>
+     <aff id="aff15"> 
+      <label>15</label> 
+      <addr-line>
+       Department of Animal Biodiversity, Faculty of Life Sciences, University of Vienna, Vienna, Austria
+      </addr-line> 
+     </aff>
+     <aff id="aff16"> 
+      <label>16</label> 
+      <addr-line>
+       FEMS Central Office, CL Delft, The Netherlands
+      </addr-line> 
+     </aff>
+     <aff id="aff17"> 
+      <label>17</label> 
+      <addr-line>
+       Department of Animal Ecology and Tropical Biology, Biocenter, University of Würzburg, Würzburg, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff18"> 
+      <label>18</label> 
+      <addr-line>
+       Department of Biology, Faculty of Mathematics and Natural Sciences, IPB, Bogor Agricultural University, Kampus Darmaga, Bogor, Indonesia
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bond-Lamberty
+        </surname> 
+        <given-names>
+         Ben
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1"> 
+      <addr-line>
+       DOE Pacific Northwest National Laboratory, United States of America
+      </addr-line> 
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        Dietrich.Hertel@biologie.uni-goettingen.de
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: CL GG TT. Performed the experiments: SA MB DB SRG SK GM RP SS CHS SGS IS-D SST. Analyzed the data: MK DH HFJ JK GM. Contributed reagents/materials/analysis tools: GG SK TT MK. Wrote the paper: MK DH HFJ JK.</p> 
+      </fn> 
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       15
+      </day> 
+      <month>
+       10
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      10
+     </issue>
+     <elocation-id>
+      e47192
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        26
+       </day> 
+       <month>
+        3
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        12
+       </day> 
+       <month>
+        9
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history>
+     <permissions> 
+      <copyright-holder>
+       Kessler et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions>
+     <abstract> 
+      <p>Managing ecosystems for carbon storage may also benefit biodiversity conservation, but such a potential ‘win-win’ scenario has not yet been assessed for tropical agroforestry landscapes. We measured above- and below-ground carbon stocks as well as the species richness of four groups of plants and eight of animals on 14 representative plots in Sulawesi, Indonesia, ranging from natural rainforest to cacao agroforests that have replaced former natural forest. The conversion of natural forests with carbon stocks of 227–362 Mg C ha<sup>−1</sup> to agroforests with 82–211 Mg C ha<sup>−1</sup> showed no relationships to overall biodiversity but led to a significant loss of forest-related species richness. We conclude that the conservation of the forest-related biodiversity, and to a lesser degree of carbon stocks, mainly depends on the preservation of natural forest habitats. In the three most carbon-rich agroforestry systems, carbon stocks were about 60% of those of natural forest, suggesting that 1.6 ha of optimally managed agroforest can contribute to the conservation of carbon stocks as much as 1 ha of natural forest. However, agroforestry systems had comparatively low biodiversity, and we found no evidence for a tight link between carbon storage and biodiversity. Yet, potential win-win agroforestry management solutions include combining high shade-tree quality which favours biodiversity with cacao-yield adapted shade levels.</p> 
+     </abstract>
+     <funding-group> 
+      <funding-statement>
+       This study was funded by the German Research Foundation (DFG), grant SFB-552 (Collaborative Research Centre ‘Stability of Rainforest Margins in Indonesia’). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group>
+     <counts> 
+      <page-count count="7" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Carbon storage in above- and belowground forest vegetation and in the soil plays a crucial role in the terrestrial greenhouse gas balance 
+     <xref ref-type="bibr" rid="pone.0047192-Houghton1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Lal1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-IPCCGuidelinesforNationalGreenhouseGas1">
+      [3]
+     </xref>. After fossil fuel use, tropical deforestation and forest degradation represent the second largest source of carbon emissions, contributing about 12–20% of the annually released CO<sub>2</sub> 
+     <xref ref-type="bibr" rid="pone.0047192-Houghton2">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Sala1">
+      [5]
+     </xref>. Accordingly, conservation of tropical forests and reforestation of formerly forested habitats are viewed as important components of global strategies to reduce CO<sub>2</sub> emissions 
+     <xref ref-type="bibr" rid="pone.0047192-Lewis1">
+      [6]
+     </xref>. At the same time, tropical forests harbour some of the highest levels of biodiversity on Earth as well as the largest number of species threatened with global extinction 
+     <xref ref-type="bibr" rid="pone.0047192-Sodhi1">
+      [7]
+     </xref>. This dual role of tropical forests as carbon and biodiversity repositories presents a potential win-win situation, in which management of habitats for carbon storage may in parallel result in biodiversity conservation 
+     <xref ref-type="bibr" rid="pone.0047192-Bekessy1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Ebeling1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Venter1">
+      [10]
+     </xref>. Over the last decade, there have been several moves towards establishing payment schemes, in which tropical forest conservation or reforestation initiatives are remunerated 
+     <xref ref-type="bibr" rid="pone.0047192-Campbell1">
+      [11]
+     </xref>. Politically, such proposals are hotly debated, as both the controlling mechanisms and the potential benefits are unclear 
+     <xref ref-type="bibr" rid="pone.0047192-ATBCGT1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Grainger1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Ghazoul1">
+      [14]
+     </xref>.</p> 
+    <p>There is little doubt that the preservation of large tracts of natural tropical forests will safeguard both large carbon stocks and the habitats of much threatened fauna and flora, especially for those species dependent on undisturbed habitats and with low population densities, therefore requiring large habitat tracts to persist 
+     <xref ref-type="bibr" rid="pone.0047192-Fischer1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Strassburg1">
+      [16]
+     </xref>. However, human-impacted ecosystems, including logged natural forest and secondary forests as well as agricultural areas, cover ever-increasing areas and play a crucial role both in carbon and biodiversity management 
+     <xref ref-type="bibr" rid="pone.0047192-Miles1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Dent1">
+      [18]
+     </xref>. Indeed, several of the proposed carbon payment schemes exclusively focus on the management of impacted ecosystems as carbon sinks 
+     <xref ref-type="bibr" rid="pone.0047192-Hardner1">
+      [19]
+     </xref>. The Kyoto Protocol, for example, explicitly excluded the reduction of emissions by avoiding deforestation because of both political and technical obstacles.</p> 
+    <p>In agricultural systems, the relationship of carbon stocks and biodiversity is far from clear 
+     <xref ref-type="bibr" rid="pone.0047192-Strassburg1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Matthews1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Huston1">
+      [21]
+     </xref>. Globally, 46% of the agricultural area has at least 10% tree cover, and can thus be classified as agroforests 
+     <xref ref-type="bibr" rid="pone.0047192-Zomer1">
+      [22]
+     </xref>. Amongst them, agroforests holding a substantial tree cover (at least 30%) still account for as much as 374 million hectares 
+     <xref ref-type="bibr" rid="pone.0047192-Zomer1">
+      [22]
+     </xref>. In 2007, agroforests for coffee and cacao production in tropical landscapes, which are the second- and third-largest international trade commodities after petroleum, covered no less than 17.7 million hectares worldwide 
+     <xref ref-type="bibr" rid="pone.0047192-FAOSTAT1">
+      [23]
+     </xref>. Because agroforests are tree-dominated ecosystems, they potentially play an important role for carbon management 
+     <xref ref-type="bibr" rid="pone.0047192-Clough1">
+      [24]
+     </xref>. At the same time, agroforests can harbour significant levels of biodiversity 
+     <xref ref-type="bibr" rid="pone.0047192-Perfecto1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-SteffanDewenter1">
+      [26]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Clough2">
+      [27]
+     </xref>. Yet, the potential links between carbon stocks and biodiversity levels in tropical agroforests as a basis for environmentally optimized agroforestry management remain unexplored.</p> 
+    <p>In the present study, we assessed the potential to optimize carbon management in agroforests while at the same time safeguarding high levels of biodiversity. Because natural forest-based biodiversity is commonly considered to be the most threatened in tropical forest ecosystems 
+     <xref ref-type="bibr" rid="pone.0047192-Sala1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Sodhi2">
+      [28]
+     </xref>, we placed a special focus on the richness of species that we recorded in the natural forest habitats.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <p>Our study complies with the current laws of Indonesia and Germany and with international rules. Permissions for fieldwork in Indonesia and collecting and exporting samples have been provided by national and local authorities.</p> 
+    <sec id="s2a"> 
+     <title>Study Area and Site Selection</title> 
+     <p>The study took place around the village of Toro (1°30′24′′ S, 120°2′11′′ E) located at the western border of Lore Lindu National Park, about 100 km south of Palu, the capital city of Central Sulawesi, Indonesia. The natural vegetation around the village is submontane rainforest. The agricultural landscape in the region consists of pastures, paddy fields and cacao-dominated agroforests. Cacao production in the region increased strongly in the 1990s. The cacao agroforests are managed by small-scale farmers. Shade tree management in the region is dynamic and farmers tend to remove shade trees in mature agroforestry systems to increase cacao production 
+      <xref ref-type="bibr" rid="pone.0047192-SteffanDewenter1">
+       [26]
+      </xref>.</p> 
+     <p>We defined four habitat types with different shade tree diversity 
+      <xref ref-type="bibr" rid="pone.0047192-Kessler1">
+       [29]
+      </xref>: (1) natural forest sites, situated at least 300 m away from forest sites where selective logging occurred; (2) cacao agroforests with diverse, natural shade trees, retained after thinning of the previous forest cover, underplanted with cacao trees and few fruit trees (high shade agroforests); (3) cacao agroforests with shade tree stands dominated by various species of planted fruit and timber trees (medium shade); (4) cacao agroforests with a low diversity of planted shade trees, predominantly non-indigenous, nitrogen-fixing leguminous trees and a few native fruit tree species (low shade).</p> 
+     <p>We randomly selected 3–4 replicates from a larger subset of each habitat type. Natural forest sites were chosen that were representative for rain forests in this region and elevation belt in terms of forest structure and tree species composition. Agroforest sites were selected based on the age of the cacao trees, which was at all sites 4–17 years. At the time of this study, farmers regularly pruned trees and weeded the plantations and only rarely treated them with fertilizers and pesticides.</p> 
+     <p>Distance between study sites ranged between 0.3–5 km. All sites were at 850–1100 m above sea level. The agroforests did not have sharp borders, but gradually changed into other forms of land-use and at the landscape scale formed a continuous band along the forest margin. We marked core areas of 50×50 m<sup>2</sup> in the middle of each site, whose land-use and shade tree composition was as constant as possible. Sites belonging to the different habitat types were not spatially clustered, but geographically interspersed.</p> 
+     <p>As for all observational studies regarding natural forest conversion, our comparative study approach could have been affected by confounding effects such as that the chosen natural forest plots were not typical for the area and therefore not representative for those forest stands that have been converted prior to the recent farmer agroforest management or that farmers preferentially converted low-biodiversity forest for some reasons. However, recent conversion of former natural forest into agroforestry systems is still common in the study area, and there are no apparent biases in where clearing takes place (except that more accessible and less steep sites are preferred, but this was taken into account by our sampling design). This together with the fact that the natural forest structure and composition is quite homogenous in the entire study area (rather species-rich with comparable carbon stocks) makes it unlikely that our results have been affected by such confounding effects.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Carbon Stock Estimation in Above- and Belowground Tree Biomass</title> 
+     <p>The estimation of above-ground tree biomass of the natural forest trees was conducted according to the methods described in 
+      <xref ref-type="bibr" rid="pone.0047192-Hertel1">
+       [30]
+      </xref>. The procedure followed common standard procedures and is based on stand inventories of above-ground tree dimensions, data on wood-specific density of the present genera, and the application of allometric equation models from the literature [e.g. 31,32]. The below-ground biomass of all forest trees in each plot was estimated using the root/shoot ratio from 
+      <xref ref-type="bibr" rid="pone.0047192-Mokany1">
+       [33]
+      </xref> for tropical-subtropical moist forest and plantations. For trees in plots with an above-ground biomass (AGB) &lt;125 Mg ha<sup>−1</sup>, the applied root:shoot ratio was 0.205, while for trees from plots with AGB &gt;125 Mg ha<sup>−1</sup> it was 0.235. Above- and belowground biomass of cacao and planted 
+      <italic>
+       Gliricidia
+      </italic> trees were estimated from stem diameter records using allometric relationships for above-ground biomass as well as root/shoot ratios established in the nearby plots 
+      <xref ref-type="bibr" rid="pone.0047192-Smiley1">
+       [34]
+      </xref>. The root/shoot ratios in this study were 0.394 for 
+      <italic>
+       Theobroma
+      </italic> and 0.488 for 
+      <italic>
+       Gliricidia
+      </italic>. For the calculation of the above- and below-ground biomass of 
+      <italic>
+       Coffea
+      </italic> trees, we used the allometric equation from 
+      <xref ref-type="bibr" rid="pone.0047192-Rahayu1">
+       [35]
+      </xref>.</p> 
+     <p>The above- and below-ground biomass sums of all inclined plots were transformed to the horizontal projection and are given as Mg ha<sup>−1</sup>. Carbon stock sizes were calculated from the biomass data applying data on carbon contents of 42% for above-ground and 46% for below-ground biomass that were measured in nearby forest plots 
+      <xref ref-type="bibr" rid="pone.0047192-Hertel1">
+       [30]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Soil Carbon Stock Estimation</title> 
+     <p>We sampled each plot at least six times and excavated representative soil pits. Soils were sampled per horizon until the depth of 1 m. Soil analyses were performed on the fine earth fraction (&lt;2 mm). Stone contents (vol%) were estimated in the field. Bulk densities were measured using undisturbed soil cores (100 cm<sup>3</sup>) after drying at 105°C. The carbon content (g carbon per kg soil) was determined for each horizon by analyzing air dried soil samples with a Vario El CN Analyser (Elementar, Hanau, Germany) in the laboratory in Palu, Indonesia. For each horizon the carbon stock (C<sub>stock</sub>, in Mg ha<sup>−1</sup>) was calculated using the equation C<sub>stock</sub> = C<sub>conc</sub> × BD × d × a × CF<sub>stones</sub> following 
+      <xref ref-type="bibr" rid="pone.0047192-Baritz1">
+       [36]
+      </xref>, where C<sub>conc</sub> represents the carbon content (in g kg<sup>−1</sup>), BD is the soil bulk density of the respective horizon (in kg m<sup>−3</sup>), d is the thickness of the horizon (in m), the related plot area a (one ha = 10,000 m<sup>2</sup>), and a correction factor for the stone content of the soil samples (CFstones, (100–%stones)/100). The calculated soil carbon stocks per horizon were summed up to one meter depth and given as Mg ha<sup>−1</sup> for each plot.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Quantification of Biodiversity</title> 
+     <p>We assessed the species richness of trees, lianas and herbs, epiphytic liverworts from lower canopy trees, birds, butterflies, ants and beetles from lower canopy trees, dung beetles, bees, wasps, and their parasitoids for each 50×50 m<sup>2</sup> plot according to the methods described in 
+      <xref ref-type="bibr" rid="pone.0047192-Kessler1">
+       [29]
+      </xref> and briefly summarized here. In the largely aseasonal climate of our study region (mean monthly precipitation is &gt;100 mm for each month; mean monthly temperatures vary &lt;2°C over the year) no marked seasonal variations of species composition and abundance were detected over several years of field work [e.g. 26,37]. Accordingly, timing of the sampling should not have influenced main patterns of our results. 
+      <italic>
+       Trees:
+      </italic> All trees dbh ≥10 cm were mapped and individually numbered with aluminum tags, their dbh was measured, and their trunk height and total height were estimated. 
+      <italic>
+       Lianas and herbs:
+      </italic> In each study plot of 50×50 m<sup>2</sup> ten subplots of 2×2 m<sup>2</sup> each were randomly placed. Within these, all herb and liana species were inventoried, collected, and determined. 
+      <italic>
+       Epiphytic liverworts from lower canopy trees:
+      </italic> Two trees with a height up to 8 m, a dbh ranging of 20–60 cm, and comparable bark texture were selected in each study plot. Each tree was divided into zone 1 (treebase up to the first ramification), zone 2 (inner crown) and zone 3 (outer crown) according to modified Johansson zones for small trees. Within subplots of 200 cm<sup>2</sup>, liverworts were sampled from each cardinal direction in all three zones. 
+      <italic>
+       Birds:
+      </italic> Each plot was visited on two mornings from 05∶30 to 10∶30 am. Birds were recorded visually and acoustically, and by systematic tape recordings. 
+      <italic>
+       Butterflies:
+      </italic> Butterflies were captured alive in traps baited with rotten mashed bananas in traps suspended from tree branches with strings about 1.5 m above the ground. 
+      <italic>
+       Ants and beetles from lower canopy trees:
+      </italic> Within each study plot, four trees were selected, which were of similar age and size. The insect fauna was sampled using canopy knockdown fogging, using a SwingFog TF35 to blow a fog of 1% pyrethroid insecticide (Permethrin) Killed arthropods were collected from a 4 m<sup>2</sup> sheet of white canvas placed directly under each tree. 
+      <italic>
+       Dung beetles:
+      </italic> Dung beetles were collected using baited pitfall traps baited with ca. 20 g of fresh cattle (
+      <italic>
+       Bos taurus
+      </italic>) dung. 
+      <italic>
+       Bees, wasps, and their parasitoids:
+      </italic> Trap nests offer standardized nesting sites for above-ground nesting bees and wasps and can therefore be used to experimentally study these insects. They were constructed from PVC tubes with a length of 28 cm and a diameter of 14 cm. Internodes of the reed 
+      <italic>
+       Saccharum spontaneum
+      </italic> with varying diameter (3–25 mm) and a length of 20 cm were inserted into these tubes to provide nesting sites. Twelve trap nests (four in each stratum) were installed in three different heights from understorey and intermediate tree height to the canopy. Trap nests were checked every month and bee and wasp larvae were reared for later identification.</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Correlations of Carbon Stocks and Biodiversity</title> 
+     <p>To arrive at a comprehensive measure of biodiversity for each plot, we combined all groups. In order to weight all groups similarly, we first standardized the richness values of each group by setting the maximum plot count at 100% and all other counts respectively. We then averaged the standardized values for all 12 groups for each plot. This approach has previously been used to obtain generalized biodiversity patterns when numerous taxa have been sampled 
+      <xref ref-type="bibr" rid="pone.0047192-Westphal1">
+       [38]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0047192-Kessler2">
+       [39]
+      </xref>. We then calculated simple, linear determination values (R<sup>2</sup>) to relate carbon stocks to biodiversity. This was done for the entire carbon stocks as well as separately for above- and below-ground (soil + root) carbon stocks. Because relationships may be driven by the marked contrasts between natural forests and agroforests, both for biodiversity 
+      <xref ref-type="bibr" rid="pone.0047192-Kessler1">
+       [29]
+      </xref> and carbon stocks 
+      <xref ref-type="bibr" rid="pone.0047192-Don1">
+       [40]
+      </xref>, in a second step we only included the 11 agroforestry plots in the analyses. Finally, because forest-based biodiversity is considered to be the most threatened in tropical forest ecosystems 
+      <xref ref-type="bibr" rid="pone.0047192-Sala1">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0047192-Sodhi2">
+       [28]
+      </xref>, we repeated all analyses by only including those species recorded in the natural forests of the study region 
+      <xref ref-type="bibr" rid="pone.0047192-Kessler1">
+       [29]
+      </xref>. In order to also be able to assess group-specific patterns, we repeated the above analyses for all groups independently (
+      <xref ref-type="supplementary-material" rid="pone.0047192.s001">
+       Figures S1
+      </xref>, 
+      <xref ref-type="supplementary-material" rid="pone.0047192.s002">
+       S2
+      </xref>, 
+      <xref ref-type="supplementary-material" rid="pone.0047192.s003">
+       S3
+      </xref>). All statistical analyses have been done using the statistical platform R 
+      <xref ref-type="bibr" rid="pone.0047192-R1">
+       [41]
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>In natural forests, carbon stocks were on average over twice as high as in the agroforests (
+     <xref ref-type="fig" rid="pone-0047192-g001">
+      Figure 1
+     </xref>). The above-ground vegetation in natural forests held on average 54% of the total carbon stocks, with the root and soil components each contributing 14% and 32%, respectively. In agroforests, in contrast, the soil component on average included about 66% of the carbon stocks, followed by the above-ground vegetation (26%) and roots (7%). Perhaps the most striking result was that soil carbon stocks did not differ significantly between natural forests and agroforests (t-test, t = 0.68, P = 0.51), on average declining only from 87 Mg C ha<sup>−1</sup> to 80 Mg C ha<sup>−1</sup>, although a single agroforest plot had a value of 40 Mg C ha<sup>−1</sup>.</p> 
+    <fig id="pone-0047192-g001" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0047192.g001
+     </object-id> 
+     <label>Figure 1</label>  
+     <title>Carbon stocks in natural rainforests and cacao agroforests of varying tree density and shade levels.</title> 
+     <p>Shade levels were defined as: high shade: cacao agroforests with diverse, natural shade trees, retained after thinning of the previous forest cover, underplanted with cacao trees and few fruit trees; medium shade: cacao agroforests with shade tree stands dominated by various species of planted fruit and timber trees; low shade: cacao agroforests with a low diversity of planted shade trees, predominantly non-indigenous, nitrogen-fixing leguminous trees and a few native fruit tree species. Columns show mean carbon stocks (+1 SD) in the above-ground (AG) and below-ground (BG) plant components as well as in the soil. Also shown is the mean stem density (+1 SD) of trees with diameters ≥10 cm at breast height.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0047192.g001" xlink:type="simple" /> 
+    </fig> 
+    <p>The relationship of the species richness of all species to carbon stocks showed no or only marginally significant patterns, both when all plots and only the agroforest plots were considered (
+     <xref ref-type="fig" rid="pone-0047192-g002">
+      Figure 2
+     </xref>, 
+     <xref ref-type="supplementary-material" rid="pone.0047192.s001">
+      Figures S1
+     </xref>, 
+     <xref ref-type="supplementary-material" rid="pone.0047192.s002">
+      S2
+     </xref>, 
+     <xref ref-type="supplementary-material" rid="pone.0047192.s003">
+      S3
+     </xref>). In contrast, when we only considered the forest-related species, we obtained highly significant relationships between species richness and carbon stocks when all plots were included. When we restricted this analysis to the agroforest plots, relationships were weaker but still significant for total and above-ground carbon stocks.</p> 
+    <fig id="pone-0047192-g002" orientation="portrait" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0047192.g002
+     </object-id> 
+     <label>Figure 2</label>  
+     <title>Relationships of species richness to carbon stocks.</title> 
+     <p>Relationships of species richness to carbon stocks, separated for all species and only those species recorded in the natural forest (forest species), for total, above-ground and below-ground carbon stocks as well as for all 14 study plots and only the 11 agroforest plots. To summarize the species richness patterns of the 12 focal plant and animal groups, richness values were all standardized to 100% relative to the highest plot values of each group and then averaged across all taxa. All individual relationships are shown in 
+      <xref ref-type="supplementary-material" rid="pone.0047192.s001">
+       Figs. S1
+      </xref>–
+      <xref ref-type="supplementary-material" rid="pone.0047192.s003">
+       3
+      </xref>. Numbers in each graph are coefficients of determination (R<sup>2</sup>-values), trend lines are shown for significant relationships only. *p&lt;0.05, **p&lt;0.01, ***p&lt;0.001.</p>  
+     <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0047192.g002" xlink:type="simple" /> 
+    </fig> 
+    <p>When we analyzed the species groups individually, only 1–3 groups showed significant positive or negative relationships to total carbon stocks, particularly trees, bryophytes and dung beetles (positive) as well as herbs, wasps, and their parasitoids (negative) (
+     <xref ref-type="supplementary-material" rid="pone.0047192.s001">
+      Figures S1
+     </xref>, 
+     <xref ref-type="supplementary-material" rid="pone.0047192.s002">
+      S2
+     </xref>, 
+     <xref ref-type="supplementary-material" rid="pone.0047192.s003">
+      S3
+     </xref>). When we restricted the same analyses to the agroforestry plots, only a single relationship (lianas) was significant. When we restricted the analysis to forest species, no less than 23 of 36 (64%) of the relationships were significant. When the forest plots were excluded, median r-values decreased to 0.4–0.5 and only 8 (22%) relationships remained significant. In all cases except the analyses with all species across all plots, R<sup>2</sup> values were slightly higher when considering above-ground carbon stocks than below-ground stocks, with overall values intermediate.</p> 
+    <p>Because trees are directly managed by the local farmers aiming to manipulate the shading level of cacao plantations, we explored the relationships of trees and biodiversity in more detail. Tree species richness was significantly positively correlated to the species richness of only four of the other eleven study groups (
+     <xref ref-type="table" rid="pone-0047192-t001">
+      Table 1
+     </xref>). However, when we only considered the richness of tree species from the natural forests, the regression values between tree species richness and richness of the other groups were significantly higher, both across all study plots and in the agroforest plots only.</p> 
+    <table-wrap id="pone-0047192-t001" orientation="portrait" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0047192.t001
+     </object-id>
+     <label>Table 1</label> 
+     <title>Results of Wilcoxon’s tests for matched pairs, comparing (a) the linear correlation (r-)values of the species richness of various study groups against tree species richness with (b) the r-values of the species richness of the same study groups against the species richness of natural forest trees, either in all study plots (upper half of the table) or only in the agroforest study plots (lower half).</title> 
+     <alternatives> 
+      <graphic id="pone-0047192-t001-1" mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0047192.t001" xlink:type="simple" /> 
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="2" rowspan="1">All study groups(N = 11)</td> 
+         <td align="left" colspan="2" rowspan="1">Only animal groups(N = 8)</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1">W</td> 
+         <td align="left" colspan="1" rowspan="1">P</td> 
+         <td align="left" colspan="1" rowspan="1">W</td> 
+         <td align="left" colspan="1" rowspan="1">P</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">All plots (N = 14)</td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">All species</td> 
+         <td align="left" colspan="1" rowspan="1">22</td> 
+         <td align="left" colspan="1" rowspan="1">n.s.</td> 
+         <td align="left" colspan="1" rowspan="1">12</td> 
+         <td align="left" colspan="1" rowspan="1">n.s.</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Forest-adapted species</td> 
+         <td align="left" colspan="1" rowspan="1">10</td> 
+         <td align="left" colspan="1" rowspan="1">&lt;0.05</td> 
+         <td align="left" colspan="1" rowspan="1">7</td> 
+         <td align="left" colspan="1" rowspan="1">&lt;0.05</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Only agroforest plots (N = 11)</td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">All species</td> 
+         <td align="left" colspan="1" rowspan="1">31</td> 
+         <td align="left" colspan="1" rowspan="1">n.s.</td> 
+         <td align="left" colspan="1" rowspan="1">14</td> 
+         <td align="left" colspan="1" rowspan="1">n.s.</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Forest-adapted species</td> 
+         <td align="left" colspan="1" rowspan="1">11</td> 
+         <td align="left" colspan="1" rowspan="1">&lt;0.05</td> 
+         <td align="left" colspan="1" rowspan="1">0</td> 
+         <td align="left" colspan="1" rowspan="1">&lt;0.01</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot> 
+      <fn id="nt101"> 
+       <label></label> 
+       <p>W  =  test statistic, P  =  probability.</p> 
+      </fn> 
+     </table-wrap-foot>
+    </table-wrap> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Overall, we found that the relationship between carbon stocks and biodiversity was fairly weak and most pronounced when considering only forest-based biodiversity as well as when contrasting forest plots with agroforest plots. One may argue that the fact that carbon storage in the above-ground biomass of the agroforestry systems (being less bio-diverse) is less than that in the natural forest (harbouring higher biodiversity) are to be expected due to the large differences in stand structure. However, we also found that there is no simple, linear relationship between forest structure and biodiversity. While the simplistic assumption that more tree biomass automatically leads to higher biodiversity only holds true when we contrast natural forest with agroforestry systems, no such simple relationship is evident in different types of the latter. We therefore conclude that the conservation of carbon stocks and in particular of the forest-related biodiversity mainly depends on the preservation of natural forest habitats. Reduction of canopy tree density and cover within agroforestry systems leads to substantial carbon losses of around 50 Mg C ha<sup>−1</sup>, but only to limited and taxon-specific biodiversity losses. Our study thus suggests that remuneration schemes aimed at preserving or increasing carbon stocks in tropical forest regions should focus on maintaining natural forest ecosystems, in support of current political initiatives for Reducing Emissions from Deforestation and forest Degradation (REDD) 
+     <xref ref-type="bibr" rid="pone.0047192-ATBCGT1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Grainger1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0047192-Ghazoul1">
+      [14]
+     </xref>.</p> 
+    <p>On the other hand, carbon storage of the three most carbon-rich agroforest systems was about 60% of that of the three natural forest plots (181 
+     <italic>
+      versus
+     </italic> 284 Mg C ha<sup>−1</sup>), suggesting that 1.6 ha of optimally managed agroforest could contribute to the conservation of carbon stocks as much as 1 ha of natural forest. As for all observational studies, this result is only valid if the studied natural forest plots were typical for the whole study area and therefore representative for those forest stands that have been converted prior to the recent farmer agroforest management, which was the case in our study (Steffan-Dewenter et al. 2007). In particular, we found that land use change towards agroforests did not lead to excessive losses of the long-term soil carbon stocks, unlike observed in ploughed arable land-use systems, where up to 25–30% of the soil carbon is commonly lost in the tropics 
+     <xref ref-type="bibr" rid="pone.0047192-Don1">
+      [40]
+     </xref>. Agroforests may, in terms of soil organic carbon, thus be closer to secondary forests, which on average have 9% less soil carbon than primary forests 
+     <xref ref-type="bibr" rid="pone.0047192-Don1">
+      [40]
+     </xref>. We suspect that the reason for the limited loss of carbon stocks in the soil is that in our study region the creation of agroforests usually is not achieved via total removal of tree cover that leads to strong erosion and decomposition, but rather through the partial removal of natural trees and gradual replacement by other tree species 
+     <xref ref-type="bibr" rid="pone.0047192-SteffanDewenter1">
+      [26]
+     </xref>, thus preserving much of the root systems and preventing erosion and decomposition. From the point of view of carbon stock management, such a gradual transition is therefore preferable to the wholesale removal of natural tree cover and replacement by agroforest trees. However, since the carbon flux to the soil via leaf and root litter is markedly lower in agroforestry systems than in the natural forest 
+     <xref ref-type="bibr" rid="pone.0047192-Hertel2">
+      [42]
+     </xref>, the soil carbon stocks might become lower in the long run.</p> 
+    <p>In agroforests, we failed to detect a close relationship between carbon stocks and the species richness of most taxa. Thus, management strategies to maximise carbon storage, as supported by the Kyoto Protocol, do not automatically enhance biodiversity in agroforests. This raises the need to identify promising solutions to optimise both carbon and biodiversity management in these economically and ecologically important agricultural systems. We explored this option by contrasting the carbon-biodiversity relationships when considering native versus non-native trees and found that biodiversity was more closely linked to the former. This suggests that carbon-biodiversity win-win solutions can be achieved when not all natural trees are removed during forest conversion. This may be further optimized by focussing on the identity of the tree species through shade-tree management that combines shade levels allowing for both high yield and low cacao stress with a selection of diverse shade-tree species from natural forests that enhance the biodiversity of other taxa 
+     <xref ref-type="bibr" rid="pone.0047192-Tscharntke1">
+      [43]
+     </xref>. This, and possibly other similar relationships involving functional traits of the shade trees such as fruit quantity and quality, opens promising perspectives for optimised joint carbon-biodiversity management strategies in agroforests.</p> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0047192.s001" mimetype="image/tiff" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0047192.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Species richness of selected organisms in relation to total carbon stocks in the 14 plots.
+      </bold> Species richness (number of species per plot) of 12 groups of organisms in relation to total carbon stocks in 14 plots of natural forest and cacao agroforests. Large black circles denote natural forest plots, small circles agroforests of varying tree density (white: 0–79 trees &gt;20 cm dbh/ha; medium: 80–159 trees/ha; dark: 160–240 trees/ha) with blue symbols showing total species richness and red symbols richness of species also recorded in the natural forest. Coefficients of determination values (R<sup>2</sup> values) including all plots are given in normal font and for significant relationships are illustrated by continuous lines, values only including the agroforests are given in italics and illustrated by dashed lines. *p&lt;0.05, **p&lt;0.01, ***p&lt;0.001.</p> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0047192.s002" mimetype="image/tiff" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0047192.s002" xlink:type="simple"> 
+     <label>Figure S2</label>  
+     <p>
+      <bold>
+       Species richness in the study plots in relation to below-ground carbon stocks.
+      </bold> Species richness of 12 groups of organisms in relation to below-ground (soil + root) carbon stocks in 14 plots of natural forest and cacao agroforests. Symbols as in 
+      <xref ref-type="supplementary-material" rid="pone.0047192.s001">
+       Fig. S1
+      </xref>.</p> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0047192.s003" mimetype="image/tiff" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0047192.s003" xlink:type="simple"> 
+     <label>Figure S3</label>  
+     <p>
+      <bold>
+       Species richness in the study plots in relation to above-ground carbon stocks.
+      </bold> Species richness of 12 groups of organisms in relation to above-ground carbon stocks in 14 plots of natural forest and cacao agroforests. Symbols as in 
+      <xref ref-type="supplementary-material" rid="pone.0047192.s001">
+       Fig. S1
+      </xref>.</p> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We are very grateful to the Lore Lindu National Park administration for the permission to conduct the study. We furthermore thank P. Mann, Arifin, D. Stietenroth, A. Malik, W. Lorenz, S. Tarigan, P. Höhn, F. Orend, and all plantation owners for their help in this work.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0047192-Houghton1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Houghton
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Aboveground forest biomass and the global carbon balance
+       </article-title>. 
+       <source>Global Change Biol 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        945
+       </fpage>–
+       <lpage>
+        958
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Lal1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lal
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Forest soils and carbon sequestration
+       </article-title>. 
+       <source>For Ecol Manage 
+       <volume>
+        220
+       </volume>: 
+       <fpage>
+        242
+       </fpage>–
+       <lpage>
+        258
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-IPCCGuidelinesforNationalGreenhouseGas1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       IPCC Guidelines for National Greenhouse Gas Inventories (2006) [IPCC website. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ipcc-nggip.iges.or.jp/public/2006gl/index.html" xlink:type="simple">
+        http://www.ipcc-nggip.iges.or.jp/public/2006gl/index.html
+       </ext-link>. Accessed 2012 Sept 19.]. Institute for Global Environmental Strategies for the Intergovernmental Panel on Climate Change.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Houghton2"> 
+      <label>4</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Houghton RA (2008) Carbon Flux to the Atmosphere from Land-use Changes: 1850–2005. Carbon Dioxide Information Analysis Center, OakRidge National Loratory, U.S. Department of Energy.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Sala1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sala
+        </surname>
+        <given-names>
+         OE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapin III
+        </surname>
+        <given-names>
+         FS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Armesto
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berlow
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bloomfield
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Global biodiversity scenarios for the year 2100
+       </article-title>. 
+       <source>Science 
+       <volume>
+        287
+       </volume>: 
+       <fpage>
+        1770
+       </fpage>–
+       <lpage>
+        1774
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Lewis1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Phillips
+        </surname>
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baker
+        </surname>
+        <given-names>
+         TR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lloyd
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Malhi
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Increasing carbon storage in intact African tropical forests
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        457
+       </volume>: 
+       <fpage>
+        1003
+       </fpage>–
+       <lpage>
+        1006
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Sodhi1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Sodhi NS, Ehrlich PR (2010) Conservation Biology for All. Oxford University Press, Oxford.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Bekessy1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bekessy
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wintle
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Using carbon investment to grow the biodiversity bank
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        510
+       </fpage>–
+       <lpage>
+        513
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Ebeling1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ebeling
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yasué
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Generating carbon finance through avoided deforestation and its potential to create climatic, conservation and human development benefits
+       </article-title>. 
+       <source>Phil Trans R Soc B 
+       <volume>
+        363
+       </volume>: 
+       <fpage>
+        1917
+       </fpage>–
+       <lpage>
+        1924
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Venter1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Venter
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meijaard
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Possingham
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dennis
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheil
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Carbon payments as a safeguard for threatened tropical mammals
+       </article-title>. 
+       <source>Conserv Lett 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        123
+       </fpage>–
+       <lpage>
+        129
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Campbell1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Campbell
+        </surname>
+        <given-names>
+         BM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Beyond Copenhagen: REDD+, agriculture, adaptation strategies and poverty
+       </article-title>. 
+       <source>Global Environ Change 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        397
+       </fpage>–
+       <lpage>
+        399
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-ATBCGT1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       ATBC/GTÖ Marburg declaration (2009) The urgent need to maximize biodiversity conservation in forest carbon-trading. A joint communiqué of the Association for Tropical Biology and Conservation (ATBC) and the Society for Tropical Ecology (GTÖ) during their joint annual meeting in Marburg, Germany, 26–29 July 2009. (Marburg University website. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.uni-marburg.de/aktuelles/news/2009b/0735.pdf" xlink:type="simple">
+        http://www.uni-marburg.de/aktuelles/news/2009b/0735.pdf
+       </ext-link>. Accessed 2012 Sept 19.).
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Grainger1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grainger
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boucher
+        </surname>
+        <given-names>
+         DH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Frumhoff
+        </surname>
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Laurance
+        </surname>
+        <given-names>
+         WF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lovejoy
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Biodiversity and REDD at Copenhagen
+       </article-title>. 
+       <source>Current Biol 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        974
+       </fpage>–
+       <lpage>
+        976
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Ghazoul1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ghazoul
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buttler
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mateo-Vega
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pin Koh
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        REDD: a reckoning of environmental and development implications
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        396
+       </fpage>–
+       <lpage>
+        402
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Fischer1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brosi
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daily
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ehrlich
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goldman
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Should agricultural policies encourage land sparing or wildlife-friendly farming?
+       </article-title> 
+       <source>Front Ecol Environ 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        380
+       </fpage>–
+       <lpage>
+        385
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Strassburg1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Strassburg
+        </surname>
+        <given-names>
+         BBN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kelly
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Balmford
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname>
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gibbs
+        </surname>
+        <given-names>
+         HK
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Global congruence of carbon storage and biodiversity in terrestrial ecosystems
+       </article-title>. 
+       <source>Conserv Lett 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        98
+       </fpage>–
+       <lpage>
+        105
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Miles1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Miles
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kapos
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Reducing greenhouse gas emissions from deforestation and forest degradation: global land-use implications
+       </article-title>. 
+       <source>Science 
+       <volume>
+        320
+       </volume>: 
+       <fpage>
+        1454
+       </fpage>–
+       <lpage>
+        1455
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Dent1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dent
+        </surname>
+        <given-names>
+         DH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The future of tropical species in secondary forests. A quantitative review
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        2833
+       </fpage>–
+       <lpage>
+        2843
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Hardner1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hardner
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Frumhoff
+        </surname>
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goetze
+        </surname>
+        <given-names>
+         DC
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Prospects for mitigating carbon, conserving biodiversity, and promoting socioeconomic development objectives through the clean development mechanism
+       </article-title>. 
+       <source>Mitig Adapt Strat Glob Change 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        60
+       </fpage>–
+       <lpage>
+        81
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Matthews1"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Matthews
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         O’Connor
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Plantinga
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Quantifying the impact on biodiversity of policies for carbon sequestration in forests
+       </article-title>. 
+       <source>Ecol Econ 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        71
+       </fpage>–
+       <lpage>
+        87
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Huston1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huston
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marland
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Carbon management and biodiversity
+       </article-title>. 
+       <source>J Environ Manage 
+       <volume>
+        67
+       </volume>: 
+       <fpage>
+        77
+       </fpage>–
+       <lpage>
+        86
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Zomer1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Zomer RJ, Trabucco A, Coe R, Place F (2009) Trees on Farm: Analysis of Global Extent and Geographical Patterns of Agroforestry. ICRAF Working Paper no. 89. World Agroforestry Centre, Nairobi, Kenya.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-FAOSTAT1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       FAOSTAT (2009) Statistical databases [FAOSTAT website. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://faostat.fao.org/default.aspx" xlink:type="simple">
+        http://faostat.fao.org/default.aspx
+       </ext-link>. Accessed 2011 Jun 12.].
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Clough1"> 
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clough
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Faust
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Cacao boom and bust: sustainability of agroforests and opportunities for biodiversity conservation
+       </article-title>. 
+       <source>Conserv Lett 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        197
+       </fpage>–
+       <lpage>
+        205
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Perfecto1"> 
+      <label>25</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Perfecto I, Armbrecht I, Philpott SM, Soto-Pinto L, Dietsch TV (2007) Shaded coffee and the stability of rainforest margins in northern Latin America. In: Tscharntke T, 
+       <etal>
+        et al
+       </etal>.., editors. Stability of Tropical Rainforest Margins: Linking Ecological, Economic and Social Constraints of Land Use and Conservation. Springer Verlag, Berlin, 227–264.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-SteffanDewenter1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Steffan-Dewenter
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kessler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barkmann
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bos
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchori
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Tradeoffs between income, biodiversity, and ecosystem function during rainforest conversion and agroforestry intensification
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        4973
+       </fpage>–
+       <lpage>
+        4978
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Clough2"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clough
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dwi Putra
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pitopang
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Local and landscape factors determine functional bird diversity in Indonesian cacao agroforestry
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        1032
+       </fpage>–
+       <lpage>
+        1041
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Sodhi2"> 
+      <label>28</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Sodhi NS, Brook BW, Bradshaw CJA (2007) Tropical Conservation Biology. Blackwell Publishing, Oxford.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Kessler1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kessler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abrahamczyk
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bos
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchori
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Putra
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Alpha and beta diversity of plants and animals along a tropical land-use gradient
+       </article-title>. 
+       <source>Ecol Appl 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        2142
+       </fpage>–
+       <lpage>
+        2156
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Hertel1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hertel
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moser
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Culmsee
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Erasmi
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Horna
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Below- and above-ground biomass and carbon partitioning in a palaeotropical natural forest – an in-depth study from Central Sulawesi (Indonesia)
+       </article-title>. 
+       <source>For Ecol Manage 
+       <volume>
+        258
+       </volume>: 
+       <fpage>
+        1904
+       </fpage>–
+       <lpage>
+        1912
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Chave1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chave
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Andalo
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cairns
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname>
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Tree allometry and improved estimation of carbon stocks and balance in tropical forests
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        145
+       </volume>: 
+       <fpage>
+        87
+       </fpage>–
+       <lpage>
+        99
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Clark1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kicklighter
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname>
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thomlinson
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Measuring net primary production in forests: concepts and field methods
+       </article-title>. 
+       <source>Ecol Appl 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        356
+       </fpage>–
+       <lpage>
+        370
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Mokany1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raison
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prokushkin
+        </surname>
+        <given-names>
+         AS
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Critical analysis of root: shoot ratios in terrestrial biomes
+       </article-title>. 
+       <source>Global Change Biol 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        84
+       </fpage>–
+       <lpage>
+        96
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Smiley1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smiley
+        </surname>
+        <given-names>
+         GL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kroschel
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Temporal change in carbon stocks of cocoa-
+        <italic>
+         Gliricidia
+        </italic> agroforests in Central Sulawesi, Indonesia
+       </article-title>. 
+       <source>Agrofor Syst 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        219
+       </fpage>–
+       <lpage>
+        231
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Rahayu1"> 
+      <label>35</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Rahayu S, Lusiana B, van Noordwijk M (2005) Aboveground carbon stock assessment for various land use systems in Nunukan District, Kalimantan. In: Lusiana B, 
+       <etal>
+        et al
+       </etal>.., editors. Carbon Stocks in Nunukan: a spatial monitoring and modeling approach. Carbon Monitoring Team of Forest Resource Management and Carbon Sequestration (FORMACS) Project, Bogor, Indonesia. World Agroforestry Centre - ICRAF, SEA Regional Office, 21–33.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Baritz1"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baritz
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Seufert
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montanarella
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Ranst
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Carbon concentrations and stocks in forest soils of Europe
+       </article-title>. 
+       <source>For Ecol Manage 
+       <volume>
+        260
+       </volume>: 
+       <fpage>
+        262
+       </fpage>–
+       <lpage>
+        277
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Clough3"> 
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clough
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barkmann
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Juhrbandt
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kessler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wanger
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Combining high biodiversity with high yields in tropical agroforests
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        108
+       </volume>: 
+       <fpage>
+        8311
+       </fpage>–
+       <lpage>
+        8316
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Westphal1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Westphal
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bommarco
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carré
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lamborn
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morison
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Measuring bee diversity in different European habitats and biogeographical regions
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        78
+       </volume>: 
+       <fpage>
+        653
+       </fpage>–
+       <lpage>
+        671
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Kessler2"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kessler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abrahamczyk
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bos
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchori
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Putra
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Cost-effectiveness of plant and animal biodiversity indicators in tropical forest and agroforest habitats
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        330
+       </fpage>–
+       <lpage>
+        339
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Don1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Don
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schuhmacher
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Freibauer
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Impact of tropical land-use change on soil organic carbon stocks – a meta-analysis
+       </article-title>. 
+       <source>Global Change Biol 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        1658
+       </fpage>–
+       <lpage>
+        1670
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-R1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team (2011) R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. ISBN 3-900051-07-0 [The R project website. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org/" xlink:type="simple">
+        http://www.R-project.org/
+       </ext-link>. Assessed 2012 Sept 21.]
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Hertel2"> 
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hertel
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harteveld
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leuschner
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Conversion of a tropical forest into agroforest alters the fine root-related carbon flux to the soil
+       </article-title>. 
+       <source>Soil Biol Biochem 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        481
+       </fpage>–
+       <lpage>
+        490
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0047192-Tscharntke1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clough
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bhagwat
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchori
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Faust
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Ecological principles of multifunctional shade-tree management in cacao agroforestry landscapes
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        619
+       </fpage>–
+       <lpage>
+        629
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

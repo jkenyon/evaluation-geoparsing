@@ -1,0 +1,4064 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-03655
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0070547
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subject>
+          Ecological environments
+         </subject>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subject>
+          Ecosystems
+         </subject>
+         <subject>
+          Marine ecology
+         </subject>
+         <subject>
+          Restoration ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Marine biology
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Marine and aquatic sciences
+        </subject>
+        <subj-group>
+         <subject>
+          Coastal ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Ecosystem Health Assessment in the Pearl River Estuary of China by Considering Ecosystem Coordination
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Ecosystem Health Assessment in the Estuary
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Xiaoyan
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gao
+        </surname>
+        <given-names>
+         Huiwang
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yao
+        </surname>
+        <given-names>
+         Xiaohong
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Zhenhua
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fang
+        </surname>
+        <given-names>
+         Hongda
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ye
+        </surname>
+        <given-names>
+         Shufeng
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Key Laboratory of Marine Environment and Ecology (OceanUniversity of China), Ministry of Education of China, Qingdao, China
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       College of Physical and Environmental Oceanography, Ocean University of China, Qingdao, China
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       South China Sea Environmental Monitoring Center, South China Sea Branch of the State Oceanic Administration, Guangzhou, China
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       East China Sea Environmental Monitoring Center, East China Sea Branch of the State Oceanic Administration, Shanghai, China
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         Simon
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       National Institute of Water &amp; Atmospheric Research, New Zealand
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        hwgao@ouc.edu.cn
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: XC HG XY. Performed the experiments: HF. Analyzed the data: XC HG XY ZC SY. Contributed reagents/materials/analysis tools: HF. Wrote the paper: XC HG XY.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2013
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       23
+      </day>
+      <month>
+       7
+      </month>
+      <year>
+       2013
+      </year>
+     </pub-date> 
+     <volume>
+      8
+     </volume> 
+     <issue>
+      7
+     </issue> 
+     <elocation-id>
+      e70547
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        25
+       </day>
+       <month>
+        1
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        20
+       </day>
+       <month>
+        6
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2013
+      </copyright-year> 
+      <copyright-holder>
+       Chen et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Marine ecosystem is a complex nonlinear system. However, ecosystem health assessment conventionally builds on a linear superposition of changes in ecosystem components and probably fails to evaluate nonlinear interactions among various components. To better reflect the intrinsic interactions and their impacts on ecosystem health, an ecosystem coordination index, defined as the matching level of ecosystem structure/services, is proposed and incorporated into the ecosystem health index for a systematic diagnosis in the Pearl River Estuary, China. The analysis results show that the ecosystem health index over the last three decades decreased from 0.91 to 0.50, indicating deteriorating from healthy to unhealthy status. The health index is 3–16% lower than that calculated using the common method without considering ecosystem coordination. Ecosystem health degradation in the Pearl River Estuary manifested as significant decreases in structure/services and somewhat mismatching among them. Overall, the introduction of coordination in ecosystem health assessment could improve the understanding of the mechanism of marine ecosystem change and facilitate effective restoration of ecosystem health.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       Marine Public Welfare Research Project of China (201205001, 200905010-6, 201105010) 
+       <ext-link ext-link-type="uri" xlink:href="http://www.soa.gov.cn/" xlink:type="simple">
+        http://www.soa.gov.cn/
+       </ext-link>. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="10" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>One of the global changes in ecosystem is that human activities usually have impaired ecosystem structure/services to different extents 
+     <xref ref-type="bibr" rid="pone.0070547-Millennium1">
+      [1]
+     </xref>, especially at those estuaries where intensive exploitations were performed. The changes have raised increasing concerns and the critical question is how to holistically evaluate their impacts on ecosystem health. So far, ecosystem health assessment (EHA) at estuary focused on examining health deviation 
+     <xref ref-type="bibr" rid="pone.0070547-Jo1">
+      [2]
+     </xref> from original/desired status. A relatively simple EHA is to examine the health deviation of several indicator species 
+     <xref ref-type="bibr" rid="pone.0070547-Depledge1">
+      [3]
+     </xref>.More comprehensive EHA extends to examine the deviation of multiple ecosystem parameters including nutrient, primary productivity, biodiversity, and/or habitat 
+     <xref ref-type="bibr" rid="pone.0070547-Rapport1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0070547-Solimini1">
+      [5]
+     </xref>. Even so, the EHA still might not reflect the holistic health of a whole system. Because the estuarine ecosystem is a nonlinear system, of which the structure/services are interacting in complex dynamic ways
+     <xref ref-type="bibr" rid="pone.0070547-Worm1">
+      [6]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0070547-Bennett1">
+      [8]
+     </xref>.When the ecosystem structure/services are damaged to different extents, consequent mismatching among them tends to result in dysfunction, even a sudden collapse of ecosystem 
+     <xref ref-type="bibr" rid="pone.0070547-Carpenter1">
+      [9]
+     </xref>.However, previous EHA is mostly based on a linear superposition of changes in the selected ecosystem parameters and probably fails to evaluate the nonlinear interactions within ecosystem.</p> 
+    <p>In fact, understanding the complex relationship within an ecosystem is one of the priorities and major challenges in the earth system research today 
+     <xref ref-type="bibr" rid="pone.0070547-Reid1">
+      [10]
+     </xref>. Given that ecosystem degradation often occurs as syndromes of simultaneous declines in multiple structure and services 
+     <xref ref-type="bibr" rid="pone.0070547-Carpenter2">
+      [11]
+     </xref>, a holistic evaluation of the health deviation of ecosystem structure/services from the desired status could be taken as prerequisites to quantify their interactions 
+     <xref ref-type="bibr" rid="pone.0070547-Millennium1">
+      [1]
+     </xref>. Further, an overall measure on the interactions among these structure/services, instead of between two or few services, is highly required. In socioeconomic researches 
+     <xref ref-type="bibr" rid="pone.0070547-Wang1">
+      [12]
+     </xref>, a coordination index is widely used to assess the matching level of population and economy. Referred to those studies, an ecosystem coordination index (ECI) is calculated to quantify the matching level of ecosystem structure/services and is incorporated into EHA. The new approach is an effort to obtain a holistic diagnosis of ecosystem health, which could avoid insufficient evaluations which may mislead decision-makers.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Methodology</title> 
+    <sec id="s2a"> 
+     <title>1) Study Area</title> 
+     <p>The Pearl River Estuary (PRE) is one of the three ecological monitoring zones in China estuary (established by China’s State Oceanic Administration in 2004). During the monitoring project at this estuary permitted and implemented by the State Oceanic Administration, environment and species protection have been well considered. The field studies did not involve endangered or protected species. No specific permissions were required for the data collection.This study is conducted in the PRE (114°37′21″–113°06′48″E, 22°49′00″–22°48′53″N), covering ∼8,000 km2 area with a coastline of about 1059 km (
+      <xref ref-type="fig" rid="pone-0070547-g001">
+       Fig. 1
+      </xref>). The Pearl River is the second largest river in China in terms of fresh water discharges of about 3.3×10<sup>11</sup> m<sup>3</sup>a<sup>−1</sup>. Its annual sediment flux is approximately 8.5×10<sup>7</sup> tons. The Pearl River consists of three major tributaries, forming a complex river network system, which discharges into PRE from eight outlets, i.e. Yamen (YAM), Hutiaomen (HTM), Jitimen (JTM), Modaomen (MDM), Hengmen (HEM), Hongqimen (HQM), and Jiaomen (JOM). The PRE is shallow (mean depth &lt;15 m, inner bay &lt;5 m), with annual average surface sea temperatures (SST) ranging between 15.57 and 30.88°C, surface sea salinity (SSS) values between 21.34 and 30.62, and ratios of tidal ranges between 0.53 and 1.41. In August (wet season), the residual currents of upper and bottom estuary reach 77 cms<sup>−1</sup> and 51 cms<sup>−1</sup>, respectively 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref>. This estuary is a national nature reserve of 
+      <italic>
+       Sousa chinensis
+      </italic> (Chinese White Dolphin) that frequented by500–1000 dolphins 
+      <xref ref-type="bibr" rid="pone.0070547-Chen1">
+       [14]
+      </xref>. Futian national reserves of mangrove swamp and Ao’qi provincial reserves of mangrove swamp are distributed in this estuary, which are an important habitat for creatures in South China Sea.</p> 
+     <fig id="pone-0070547-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0070547.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Map of Pearl River Estuary.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0070547.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The PRE is suffering great pressures from the socioeconomic development of the Pearl River Delta (PRD). The PRD, accounted for 9.6% of the Gross Domestic Product (2009) in China, has become a key economic zone of electronic and automobile manufacturing, petroleum, and shipping as pillar industries over the past three decades. Meanwhile, ecological changes were drastic in this estuary, e.g. shrinking by 50% of natural mangrove wetland around Futian 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref>, large influx of pollutants including dissolve inorganic nitrogen, total petroleum hydrocarbon (TPH) and heavy metals etc. (786,149 tons a<sup>−1</sup> in 2009) 
+      <xref ref-type="bibr" rid="pone.0070547-The1">
+       [15]
+      </xref>, frequent harmful algal blooms 
+      <xref ref-type="bibr" rid="pone.0070547-Wang2">
+       [16]
+      </xref> and declining seafood quality 
+      <xref ref-type="bibr" rid="pone.0070547-Jiang1">
+       [17]
+      </xref>. To mitigate such degradation, a series of measures such as mangroves replantation, water cleaning, and the control on pollutant discharge had been taken. However, the PRD’s plan to urbanize 85% of area with an expected Gross Domestic Product of 72,500 billion in 2020 could further stress this estuary over the coming decades. A challenge in the PRE is to reinstate the ecosystem and ensure its’ sustainable development. To reach this goal, a scientific health assessment is needed to understand the past, current, and trends of ecosystem health, which could facilitate the effective stewardship for its mitigation and restoration.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>2) Data Collection</title> 
+     <p>Ecological monitoring data during 1980–2009 at the PRE, mainly including biodiversity, and water and sediment quality, were collected to study the state of the ecosystem health of PRE. Data used were mostly from internal research reports and the literature (
+      <xref ref-type="supplementary-material" rid="pone.0070547.s001">
+       Table S1 in File S1
+      </xref>). The starting point of datasets was 1980 because of its special historic and ecological significance: 1) the ecosystem was affected by little anthropogenic disturbance and remained relatively stable before rapid development of the PRD since 1985, 2) the investigation of ecosystem at the PRE conducted in 1980–1981 was the first comparatively systematic monitoring program and the data are available.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>3) Ecosystem Health Assessment Indicators System</title> 
+     <p>Based on the researches on interactions within marine ecosystem, we construct a conceptual model for ecosystem health assessment (
+      <xref ref-type="fig" rid="pone-0070547-g002">
+       Fig. 2
+      </xref>). According to this model, a set of ecosystem health indexes (EHI) were devised and summarized in 
+      <xref ref-type="table" rid="pone-0070547-t001">
+       Table 1
+      </xref>. The EHI consists of two top sections and is expressed by Formula 1. One section is defined as the ecosystem variability index (EVI), to measure the health deviation of structure and services from the desired state, including six sub-indexes based on the frame work of Millennium Ecosystem Assessment 
+      <xref ref-type="bibr" rid="pone.0070547-Millennium1">
+       [1]
+      </xref>, i.e., Biotic structure index (BI), Habitat structure index (HI), Supporting services index (SI), Provisioning services index (PI), Regulating services index (RI), and Cultural services index (CI). The EVI is calculated using a weighted summation method (Formula 2). The weight of 30 indicators listed in 
+      <xref ref-type="table" rid="pone-0070547-t001">
+       table 1
+      </xref> is determined by a BP (back propagation) algorithm of artificial neural networks (
+      <xref ref-type="supplementary-material" rid="pone.0070547.s001">
+       Fig. S1 in File S1
+      </xref>). The BP networks are a widely recommended tool in ecological models, which have advantages of dealing with information through interactions among neurons, and advantages of self-learning, self-organizing and self-adapting to uncertain system 
+      <xref ref-type="bibr" rid="pone.0070547-Tang1">
+       [18]
+      </xref>. So the weight of each indicator determined by the BP algorithm tends to reflect the complex relationship among ecosystem structure/services and is relatively rational.</p> 
+     <fig id="pone-0070547-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0070547.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Relationship between ecosystem coordination and health assessment.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0070547.g002" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0070547-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0070547.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Metrics for ecosystem health assessment in the Pearl River Estuary.</title> 
+      <alternatives>
+       <graphic id="pone-0070547-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0070547.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Objective (A)</td> 
+          <td align="left" rowspan="1" colspan="1">Sub-objective (B)</td> 
+          <td align="left" rowspan="1" colspan="1">Theme (C)</td> 
+          <td align="left" rowspan="1" colspan="1">Sub-theme (D)</td> 
+          <td align="left" rowspan="1" colspan="1">Indicator (E)</td> 
+          <td colspan="4" align="left" rowspan="1">Ranking of indicators in layer E</td> 
+          <td align="left" rowspan="1" colspan="1">unit</td> 
+          <td align="left" rowspan="1" colspan="1">weight</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">better</td> 
+          <td align="left" rowspan="1" colspan="1">good</td> 
+          <td align="left" rowspan="1" colspan="1">bad</td> 
+          <td align="left" rowspan="1" colspan="1">worse</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ecosystem Health index (EHI)</td> 
+          <td align="left" rowspan="1" colspan="1">1 Ecosystem variability Index(EVI)</td> 
+          <td align="left" rowspan="1" colspan="1">1.Biotic structure index (BI)</td> 
+          <td align="left" rowspan="1" colspan="1">1.Species diversity</td> 
+          <td align="left" rowspan="1" colspan="1">1. Phytoplankton diversity</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;3</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Jo1">
+            [2]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Depledge1">
+            [3]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">[1, 2)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;1</td> 
+          <td align="left" rowspan="1" colspan="1">–</td> 
+          <td align="left" rowspan="1" colspan="1">0.036528</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2. Zooplankton diversity</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;4</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Jo1">
+            [2]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Rapport1">
+            [4]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">[1, 2)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;1</td> 
+          <td align="left" rowspan="1" colspan="1">–</td> 
+          <td align="left" rowspan="1" colspan="1">0.030013</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">3. Benthos diversity</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;4</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Jo1">
+            [2]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Rapport1">
+            [4]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">[1, 2)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;1</td> 
+          <td align="left" rowspan="1" colspan="1">–</td> 
+          <td align="left" rowspan="1" colspan="1">0.033557</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">4. Species of pelagic egg</td> 
+          <td align="left" rowspan="1" colspan="1">≥80</td> 
+          <td align="left" rowspan="1" colspan="1">(80, 60]</td> 
+          <td align="left" rowspan="1" colspan="1">(60, 40]</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;40</td> 
+          <td align="left" rowspan="1" colspan="1">ind</td> 
+          <td align="left" rowspan="1" colspan="1">0.039545</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2.Habitat structure index (HI)</td> 
+          <td align="left" rowspan="1" colspan="1">2.Habitat diversity</td> 
+          <td align="left" rowspan="1" colspan="1">5. Area of mangrove swamps</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;450</td> 
+          <td align="left" rowspan="1" colspan="1">[400, 450]</td> 
+          <td align="left" rowspan="1" colspan="1">[270, 400)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;270</td> 
+          <td align="left" rowspan="1" colspan="1">km<sup>2</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.040061</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">6. Water area</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;920</td> 
+          <td align="left" rowspan="1" colspan="1">[828, 920)</td> 
+          <td align="left" rowspan="1" colspan="1">[368, 828)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;368</td> 
+          <td align="left" rowspan="1" colspan="1">km<sup>2</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.060285</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">7.Area under marine culture</td> 
+          <td align="left" rowspan="1" colspan="1">≤7000</td> 
+          <td align="left" rowspan="1" colspan="1">(7000,7800]</td> 
+          <td align="left" rowspan="1" colspan="1">(7800,12000]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;12000</td> 
+          <td align="left" rowspan="1" colspan="1">hm<sup>2</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.040061</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">8. Volume of freight handled in ports</td> 
+          <td align="left" rowspan="1" colspan="1">≤2000</td> 
+          <td align="left" rowspan="1" colspan="1">(2000,3000]</td> 
+          <td align="left" rowspan="1" colspan="1">(3000,4500]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;4500</td> 
+          <td align="left" rowspan="1" colspan="1">10000 tons</td> 
+          <td align="left" rowspan="1" colspan="1">0.004206</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">3.Supporting services index (SI)</td> 
+          <td align="left" rowspan="1" colspan="1">3.Productivity</td> 
+          <td align="left" rowspan="1" colspan="1">9.Primary Productivity</td> 
+          <td align="left" rowspan="1" colspan="1">≥300</td> 
+          <td align="left" rowspan="1" colspan="1">[270, 300)</td> 
+          <td align="left" rowspan="1" colspan="1">[180, 270)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;180</td> 
+          <td align="left" rowspan="1" colspan="1">mg.C/m<sup>2</sup>d</td> 
+          <td align="left" rowspan="1" colspan="1">0.036936</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">4.Water quality</td> 
+          <td align="left" rowspan="1" colspan="1">10.Concentration of dissolved oxygen</td> 
+          <td align="left" rowspan="1" colspan="1">≥6</td> 
+          <td align="left" rowspan="1" colspan="1">[4, 6)</td> 
+          <td align="left" rowspan="1" colspan="1">[3, 4)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;3</td> 
+          <td align="left" rowspan="1" colspan="1">mg/l</td> 
+          <td align="left" rowspan="1" colspan="1">0.055355</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">11. Dissolved inorganic nitrogen</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.20</td> 
+          <td align="left" rowspan="1" colspan="1">[0.20,0.30]</td> 
+          <td align="left" rowspan="1" colspan="1">(0.30,0.40]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;0.40</td> 
+          <td align="left" rowspan="1" colspan="1">mg/l</td> 
+          <td align="left" rowspan="1" colspan="1">0.037449</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">12. Surface sea temperature</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Worm2">
+            [22]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Ives1">
+            [23]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">(24, 25]</td> 
+          <td align="left" rowspan="1" colspan="1">(24, 26]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;26</td> 
+          <td align="left" rowspan="1" colspan="1">°C</td> 
+          <td align="left" rowspan="1" colspan="1">0.03143</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">13. Concentration of suspended substance</td> 
+          <td align="left" rowspan="1" colspan="1">≤20</td> 
+          <td align="left" rowspan="1" colspan="1">(20–50)</td> 
+          <td align="left" rowspan="1" colspan="1">[50, 100]</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;100</td> 
+          <td align="left" rowspan="1" colspan="1">mg/l</td> 
+          <td align="left" rowspan="1" colspan="1">0.027769</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">14 Concentration of dissolved silicates</td> 
+          <td align="left" rowspan="1" colspan="1">[1, 0.80]</td> 
+          <td align="left" rowspan="1" colspan="1">(0.80, 0.50]</td> 
+          <td align="left" rowspan="1" colspan="1">(0.50, 0.30]</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.30</td> 
+          <td align="left" rowspan="1" colspan="1">mg/l</td> 
+          <td align="left" rowspan="1" colspan="1">0.026203</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">15. Chemical oxygen demand</td> 
+          <td align="left" rowspan="1" colspan="1">≤2</td> 
+          <td align="left" rowspan="1" colspan="1">(2, 3]</td> 
+          <td align="left" rowspan="1" colspan="1">(3, 4]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;4</td> 
+          <td align="left" rowspan="1" colspan="1">mg/l</td> 
+          <td align="left" rowspan="1" colspan="1">0.037362</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">5.sediment quality</td> 
+          <td align="left" rowspan="1" colspan="1">16. Total organic carbon</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;1</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Millennium1">
+            [1]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Jo1">
+            [2]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">(2, 4)</td> 
+          <td align="left" rowspan="1" colspan="1">≥4</td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1">0.008474</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">17. Acid volatile sulfide</td> 
+          <td align="left" rowspan="1" colspan="1">≤300</td> 
+          <td align="left" rowspan="1" colspan="1">(300, 500]</td> 
+          <td align="left" rowspan="1" colspan="1">(500, 600]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;600</td> 
+          <td align="left" rowspan="1" colspan="1">10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.013044</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">4. Provisioning services index(PI)</td> 
+          <td align="left" rowspan="1" colspan="1">6. Biomass</td> 
+          <td align="left" rowspan="1" colspan="1">18. Phytoplankton biomass</td> 
+          <td align="left" rowspan="1" colspan="1">≥15</td> 
+          <td align="left" rowspan="1" colspan="1">[13, 15)</td> 
+          <td align="left" rowspan="1" colspan="1">[9, 13)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;9</td> 
+          <td align="left" rowspan="1" colspan="1">10<sup>6</sup>cell/m<sup>3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.024226</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">19. Zooplankton biomass</td> 
+          <td align="left" rowspan="1" colspan="1">≥200</td> 
+          <td align="left" rowspan="1" colspan="1">[180, 200)</td> 
+          <td align="left" rowspan="1" colspan="1">[120, 180)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;120</td> 
+          <td align="left" rowspan="1" colspan="1">mg/m<sup>3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.035187</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">20. Benthos biomass</td> 
+          <td align="left" rowspan="1" colspan="1">≥17</td> 
+          <td align="left" rowspan="1" colspan="1">[15, 17)</td> 
+          <td align="left" rowspan="1" colspan="1">[10, 15)</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;10</td> 
+          <td align="left" rowspan="1" colspan="1">g/m<sup>2</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.042976</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">7. Seafood quality</td> 
+          <td align="left" rowspan="1" colspan="1">21. Residual level of Hg in benthic molluscs</td> 
+          <td align="left" rowspan="1" colspan="1">≤0.01</td> 
+          <td align="left" rowspan="1" colspan="1">[0.01, 0.05]</td> 
+          <td align="left" rowspan="1" colspan="1">(0.01, 0.3]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;0.3</td> 
+          <td align="left" rowspan="1" colspan="1">10<sup>−6</sup>ww</td> 
+          <td align="left" rowspan="1" colspan="1">0.030892</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">22.Residuallevel of polychlorinated biphenylsin benthic molluscs</td> 
+          <td align="left" rowspan="1" colspan="1">≤5</td> 
+          <td align="left" rowspan="1" colspan="1">(5, 60]</td> 
+          <td align="left" rowspan="1" colspan="1">(60, 90]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;90</td> 
+          <td align="left" rowspan="1" colspan="1">10<sup>−9</sup>ww</td> 
+          <td align="left" rowspan="1" colspan="1">0.032775</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">23. Residual level of Pb in benthic molluscs</td> 
+          <td align="left" rowspan="1" colspan="1">≤0.1</td> 
+          <td align="left" rowspan="1" colspan="1">[0.1, 2]</td> 
+          <td align="left" rowspan="1" colspan="1">(2, 6]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;6</td> 
+          <td align="left" rowspan="1" colspan="1">10<sup>−6</sup>ww</td> 
+          <td align="left" rowspan="1" colspan="1">0.037894</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">24. Residual level of total petroleumhydrocarbon in benthic molluscs</td> 
+          <td align="left" rowspan="1" colspan="1">≤8</td> 
+          <td align="left" rowspan="1" colspan="1">(8, 50]</td> 
+          <td align="left" rowspan="1" colspan="1">(50, 75]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;75</td> 
+          <td align="left" rowspan="1" colspan="1">10<sup>−6</sup>ww</td> 
+          <td align="left" rowspan="1" colspan="1">0.026601</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">5.Regulating services index (RI)</td> 
+          <td align="left" rowspan="1" colspan="1">8. Water regulation</td> 
+          <td align="left" rowspan="1" colspan="1">25. Annual runoff of Pearl River</td> 
+          <td align="left" rowspan="1" colspan="1">[3300–3630]</td> 
+          <td align="left" rowspan="1" colspan="1">[2900, 3300)</td> 
+          <td align="left" rowspan="1" colspan="1">(2000, 2900]</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;2000</td> 
+          <td align="left" rowspan="1" colspan="1">billion m<sup>3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.038739</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">26. Rise in sea level</td> 
+          <td align="left" rowspan="1" colspan="1">≤10</td> 
+          <td align="left" rowspan="1" colspan="1">(10, 20]</td> 
+          <td align="left" rowspan="1" colspan="1">(20, 30]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;30</td> 
+          <td align="left" rowspan="1" colspan="1">mm</td> 
+          <td align="left" rowspan="1" colspan="1">0.029668</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">9.Disease regulation</td> 
+          <td align="left" rowspan="1" colspan="1">27. Occurrence of harmful algal blooms</td> 
+          <td align="left" rowspan="1" colspan="1">≤1</td> 
+          <td align="left" rowspan="1" colspan="1">(1, 2]</td> 
+          <td align="left" rowspan="1" colspan="1">(2, 3]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;3</td> 
+          <td align="left" rowspan="1" colspan="1">times/year</td> 
+          <td align="left" rowspan="1" colspan="1">0.071971</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">28.Percentage of harmful algal blooms causative species</td> 
+          <td align="left" rowspan="1" colspan="1">≤0.25</td> 
+          <td align="left" rowspan="1" colspan="1">(0.25,1]</td> 
+          <td align="left" rowspan="1" colspan="1">(1, 3]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;3</td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1">0.040674</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">6.Cultural services index (CI)</td> 
+          <td align="left" rowspan="1" colspan="1">10.Cultural heritage</td> 
+          <td align="left" rowspan="1" colspan="1">29. Conserve of endangered species (Amount of aground 
+           <italic>
+            Sousa chinensis
+           </italic> )</td> 
+          <td align="left" rowspan="1" colspan="1">[0, 1]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Millennium1">
+            [1]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Jo1">
+            [2]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref ref-type="bibr" rid="pone.0070547-Jo1">
+            [2]
+           </xref>, 
+           <xref ref-type="bibr" rid="pone.0070547-Depledge1">
+            [3]
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">&gt;3</td> 
+          <td align="left" rowspan="1" colspan="1">%</td> 
+          <td align="left" rowspan="1" colspan="1">0.002628</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">11. Recreation</td> 
+          <td align="left" rowspan="1" colspan="1">30.Concentration of total petroleum hydrocarbon in seawater</td> 
+          <td align="left" rowspan="1" colspan="1">≤0.05</td> 
+          <td align="left" rowspan="1" colspan="1">(0.05, 0.3]</td> 
+          <td align="left" rowspan="1" colspan="1">(0.3, 0.5]</td> 
+          <td align="left" rowspan="1" colspan="1">&gt;0.5</td> 
+          <td align="left" rowspan="1" colspan="1">mg/l</td> 
+          <td align="left" rowspan="1" colspan="1">0.026276</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2.Ecosystem coordination index(ECI)</td> 
+          <td align="left" rowspan="1" colspan="1">7. Coordination index (CoI)</td> 
+          <td align="left" rowspan="1" colspan="1">12. Coordination of ecosystem structure and services</td> 
+          <td align="left" rowspan="1" colspan="1">31. Dispersion coefficient of indices of BI, HI, SI, PI, RI and CI</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.4</td> 
+          <td align="left" rowspan="1" colspan="1">(0.6,0.4]</td> 
+          <td align="left" rowspan="1" colspan="1">(0.9,0.6]</td> 
+          <td align="left" rowspan="1" colspan="1">[1,0.9]</td> 
+          <td align="left" rowspan="1" colspan="1">_</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>The other top section is defined as the ecosystem coordination index (ECI) to measure the matching level among structure/services. There are many algorithms for calculating the ECI, e.g. order parameter functions, fuzzy subordinate functions and coefficients of variation (CV) 
+      <xref ref-type="bibr" rid="pone.0070547-Tang1">
+       [18]
+      </xref>. The CV algorithm is good at quantifying the overall mismatching among multiple parameters and is selected to calculate the ECI of structure/services listed in section EVI (Formula 3). The ECI at 1980 is taken as health state. Lower ECI means more mismatching and lower harmony among ecosystem structure/services. Referred to the previous health assessment at estuary 
+      <xref ref-type="bibr" rid="pone.0070547-Stokstad1">
+       [19]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0070547-Chen2">
+       [20]
+      </xref>, each indicator in the range of [0, 0.4], (0.4, 0.6], (0.6, 0.9] and (0.9, 1] means ill, unhealthy, sub-healthy and healthy state of ecosystem, respectively. After measuring the ecosystem health in terms of ecosystem coordination, we quantify the contribution of each structure/services to incoordination, and identify the incoordination factors influencing ecosystem health.
+      <disp-formula id="pone.0070547.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0070547.e001" xlink:type="simple" />
+       <label>(1)</label>
+      </disp-formula>
+      <disp-formula id="pone.0070547.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0070547.e002" xlink:type="simple" />
+       <label>(2)</label>
+      </disp-formula>
+      <disp-formula id="pone.0070547.e003">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0070547.e003" xlink:type="simple" />
+       <label>(3)</label>
+      </disp-formula>where 
+      <italic>
+       EI
+      </italic> is the indexes in the EVI section, i.e. BI, HI, SI, PI, RI, and CI. 
+      <italic>
+       n
+      </italic> is the number of the indexes, i. e. 6. 
+      <italic>
+       CV
+      </italic> is the coefficients of variation among the six 
+      <italic>
+       EI
+      </italic>.</p> 
+     <p>Many of these indicators were assessed by national standards, i.e. Marine Water Quality Standard (GB3097–1997), Marine Sediment Quality Standard (GB18668–2002), and Marine Biological Quality Standard (GB18421–2001). For the indicators that lack of criteria, e.g. biodiversity, biomass and cultural services, data closest to 1980 or the best state (defined as the maximum of the positive indicators or the minimum of the negative indicators) of the existing dataset were used as healthy state. The computation methods are detailed in Supporting Information.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results and Discussion</title> 
+    <p>The EHI indexes and corresponding 31 indicators at the PRE during the period of 1980–2009 are examined and shown below (
+     <xref ref-type="fig" rid="pone-0070547-g003">
+      Fig. 3
+     </xref>).</p> 
+    <fig id="pone-0070547-g003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0070547.g003
+     </object-id>
+     <label>Figure 3</label> 
+     <title>Trends of ecosystem health index in the Pearl River Estuary.</title> 
+     <p>(a) the ecosystem variability indexes from 1980 to 2005, (b) the ecosystem variability indexes from 2005 to 2009, (c) the ecosystem health index from 1980 to 2009.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0070547.g003" position="float" xlink:type="simple" />
+    </fig>
+    <sec id="s3a"> 
+     <title>1) Ecosystem Variability Index</title> 
+     <p>a) The Biotic structure index (BI) in this study included species diversities of phytoplankton, zooplankton, and benthos. These species were selected as the key indicators because the species loss is related to the degeneration of community structure and ecosystem services 
+      <xref ref-type="bibr" rid="pone.0070547-Midgley1">
+       [21]
+      </xref>.</p> 
+     <p>The BI generally decreased from 1 to 0.44, indicating the biotic structure had been disturbed and in ill-status. Despite of a short-term recovery to healthy state (scored by 0.90) during 1998–2006, phytoplankton diversity (Shannon-Wiener) dropped to unhealthy level, e.g. 1.73 in 2009. The diversity of benthos fluctuated at sub-healthy state by 2008 but decreased to unhealthy state in 2009. The biodiversity loss could decline a bundle of ecosystem services 
+      <xref ref-type="bibr" rid="pone.0070547-Worm2">
+       [22]
+      </xref>, leading to instability in ecosystem health 
+      <xref ref-type="bibr" rid="pone.0070547-Ives1">
+       [23]
+      </xref>. Nevertheless, remediation measures had produced certain gains in biodiversity. The zooplankton diversity started to restore from unhealthy- to sub-healthy states since 2000. After a significant decline to ill-status between 1980 and 2004, pelagic eggs caught a slight recovery in species number since 2007, suggesting an improving habitat for estuarine creatures.</p> 
+     <p>b) Habitat destruction was considered among the most important stressors to biodiversity and ecosystem services. The Habitat structure index included four factors in this study, i.e., the area of mangrove swamps, water areas, areas under mariculture, and the volume of freight handled in ports.</p> 
+     <p>Mangrove that destroyed in the process of reclamations was replanted. In year 2000, 2004 and the period of 2008–2009, mangrove reverted to its size in 1980, but declined almost by half in 1990 and during 2005–2007 
+      <xref ref-type="bibr" rid="pone.0070547-Li1">
+       [24]
+      </xref>. These fluctuations might be related to the on-going reclamation, to monoculture afforestation with lower diversity 
+      <xref ref-type="bibr" rid="pone.0070547-Peng1">
+       [25]
+      </xref>, and mismatching among structure and services, suggesting that habitat restoration has yet to succeed. Mainly due to the reclamation 
+      <xref ref-type="bibr" rid="pone.0070547-Jia1">
+       [26]
+      </xref>, the water surface has been dwindled by 15% since 2000 
+      <xref ref-type="bibr" rid="pone.0070547-Chen3">
+       [27]
+      </xref> and it scored as sub-health. The habitat loss is considered a great threat to biodiversity. Narrow and shallow waters have been causing a substantial change in original physical environments, e.g., changes in SST, salinity, and nutrients 
+      <xref ref-type="bibr" rid="pone.0070547-Ma1">
+       [28]
+      </xref>.</p> 
+     <p>As a major factor to habitat transformation in the PRE 
+      <xref ref-type="bibr" rid="pone.0070547-Gao1">
+       [29]
+      </xref>, the area under mariculture has increased by seven times to 4.7×10<sup>4</sup> hm<sup>2</sup> (1990–2006) and ranked as ill level. The increasing farms resulted in not only habitat fragmentation (e.g. breeding raft frames interrupt migration routes), but also habitat simplification (e.g. reduce wildlife habitats). However, farming areas has decreased by 14% during 2007–2009 when habitat transformation might be mitigated accordingly.</p> 
+     <p>In this busy port, the volume of freight handled in ports could reflect habitat-altering for sound-sensitive organisms such as 
+      <italic>
+       Sousa chinensis
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0070547-Wursig1">
+       [30]
+      </xref>. The port’s throughput has increased about thirty times over the past three decades and scored as unhealthy state, suggesting great changes in habitat and an increasing risk to 
+      <italic>
+       Sousa chinensis
+      </italic> etc.</p> 
+     <p>Overall, the HI decreased from 1 to 0.58, indicating that the HI was approaching unhealthy level. Restoration actions having been taken did not change the decreasing trend. However, they did prevent HI from decreasing straightforward.</p> 
+     <p>c) Supporting services are essential to the other services 
+      <xref ref-type="bibr" rid="pone.0070547-Millennium1">
+       [1]
+      </xref> and measured by productivity, water quality and sediment quality in this study.</p> 
+     <p>i) Primary productivity (PP) is one of the indictors that measure the energy and substance flow in the estuary ecosystem and the annual PP changed markedly and was in an unhealthy state. This result is in accordance with previous observations, e.g. PP increased from 309 (1985) 
+      <xref ref-type="bibr" rid="pone.0070547-Huang1">
+       [31]
+      </xref> to 510.8 mg.C/m<sup>2</sup>.d (2006–2008) 
+      <xref ref-type="bibr" rid="pone.0070547-Wanxiang1">
+       [32]
+      </xref>. The variation in PP might be associated with the changing habitat, biodiversity, and parameters of water quality, e.g. transparency, SST 
+      <xref ref-type="bibr" rid="pone.0070547-Doney1">
+       [33]
+      </xref>, and nutrients 
+      <xref ref-type="bibr" rid="pone.0070547-Huang2">
+       [34]
+      </xref>.</p> 
+     <p>ii) Water quality contains six parameters, i.e., dissolved oxygen (DO), dissolved inorganic nitrogen (DIN), surface sea temperature (SST), suspended substance (SS), dissolved silicate (DSi), and chemical oxygen demand (COD) in the seawater. Most of these are commonly used in evaluating water quality, e.g. in Marine Water Quality Standard GB 3097–1997.</p> 
+     <p>Concentrations and durations of exposure of DO are key factors in determining the degree of ecosystem degradation 
+      <xref ref-type="bibr" rid="pone.0070547-Diaz1">
+       [35]
+      </xref>. UNEP listed the PRE as “dead zones” (generally with DO below 2 mg/l) in 2006. However, we observed that hypoxia in the PRE tends to be localized, temporal and less severe. The reason is detailed as below: 1) During 2004–2009, hypoxic water (DO &lt;2 mg/l) was seldom found, which is consistent with previous studies 
+      <xref ref-type="bibr" rid="pone.0070547-Yin1">
+       [36]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0070547-Harrison1">
+       [37]
+      </xref>; 2) average DO exceeded 6 mg/l during springs, fail below 6 mg/l but above 4 mg/l in summer. During the summer, low oxygen waters(3–4 mg/l) occurred but reduced from 12% to 8% of our 26 sampling stations near the bottom of the estuary; 3) it is usual that the response of ecosystem to oxygen depletion is mortality of benthic organisms 
+      <xref ref-type="bibr" rid="pone.0070547-Diaz1">
+       [35]
+      </xref>, while the diversity and biomass of benthos generally remained at sub-healthy level at the PRE during 1980–2008; 4) No significant influence on PP by hypoxia was found 
+      <xref ref-type="bibr" rid="pone.0070547-Jiang2">
+       [38]
+      </xref>. We proposed that the disappearance of hypoxia events might be due to the regulating services provided by the PRE. In this shallow and well-mixing estuary, the strong bottom current (25–50 cms<sup>−1</sup>), the short residence time (3–5d) 
+      <xref ref-type="bibr" rid="pone.0070547-Rabouille1">
+       [39]
+      </xref>, freshwaters and upwelling that intermittently disrupted stratification and aerated bottom waters 
+      <xref ref-type="bibr" rid="pone.0070547-Zhang1">
+       [40]
+      </xref>, jointly reduced the hypoxia. Unlike PRE, the regulations at the Mississippi estuary were poor because of the weak bottom current (2–5 cm s<sup>−1</sup>) and the long residence time (95d), leading to frequent and severe hypoxia (DO &lt;2 mg/l) 
+      <xref ref-type="bibr" rid="pone.0070547-Rabouille2">
+       [41]
+      </xref>, which has affected benthic communities 
+      <xref ref-type="bibr" rid="pone.0070547-Diaz1">
+       [35]
+      </xref>. Moreover, at the Yangtze River estuary which was considered as a “dead zone”, severe hypoxia events were resulted from stronger seasonal stratification and enhanced by the plume and Taiwan warm current 
+      <xref ref-type="bibr" rid="pone.0070547-Li2">
+       [42]
+      </xref>.</p> 
+     <p>It is interesting that mechanisms of hypoxia at the PRE have been changing. The PR runoffs dropped but with more nutrients and oxygen-poor waters probably expanding hypoxia areas at the PRE. As a result, most of the low oxygen areas are located in the upper reach 
+      <xref ref-type="bibr" rid="pone.0070547-Dai1">
+       [43]
+      </xref> and the vicinity of HUM, JIM, HQM, HEM, or YAM outlets 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref> in recent years across all seasons 
+      <xref ref-type="bibr" rid="pone.0070547-Dai1">
+       [43]
+      </xref>, but the hypoxic areas were mainly distributed at bottom estuary during summers of 1980s and 1990s 
+      <xref ref-type="bibr" rid="pone.0070547-Yin1">
+       [36]
+      </xref>.</p> 
+     <p>Eutrophication is a challenge for ecosystem protection at the PRE. DIN is used to indicate eutrophication status. The mean level of DIN exceeded 0.50 mg/l (the worst grade in GB 3097–1997), referring to ill level. In the surface layer, the DIN was obviously higher than that at bottom in recent years 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref>, and the DIN was higher especially at nearshore and river outlets in 2004–2009, suggesting river runoffs adversely acts as a stressor to this eutrophic estuary. The direct consequences, e.g. algal blooms, eutrophication-induced hypoxia, could alter the ecosystem’s state and prevent full recovery 
+      <xref ref-type="bibr" rid="pone.0070547-Diaz1">
+       [35]
+      </xref>.</p> 
+     <p>It is worth noting that the DSi was reduced by ∼ 70% over the past three decades, mainly because that ∼ 65% of sediment fluxes carried by the PR had deposited in reservoirs since 1990s. New dams planned in the future might add to the decrease. Dominants could gradually shift from diatoms to pyrrophytas with a large decrease of Dsi 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref> and lead to great changes in the community structure. Consequently, PP and biomass might be changing at the PRE since diatoms make up∼78.27% of the species and ∼99.80% of the biomass 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref>.</p> 
+     <p>The SS and COD recovered to healthy state in 2008. The maximum interannual change in SST was 3.5°C during 1980–2009 at the PRE. This change was associated with global warming(
+      <italic>
+       r
+      </italic> &gt;0.75) 
+      <xref ref-type="bibr" rid="pone.0070547-Tang2">
+       [44]
+      </xref> and reclamation that shallows waters 
+      <xref ref-type="bibr" rid="pone.0070547-Jia1">
+       [26]
+      </xref>.</p> 
+     <p>iii) The total organic carbon (TOC) and acid volatile sulfide (AVS) in the sediment were used to measure the accumulated organic matters (OM) in this study. TOC recovered from sub-healthy (1990) to health state since 2004. This recovery might be due to the reduction of the two major sources of OM (52% from land and 48% from aquatic 
+      <xref ref-type="bibr" rid="pone.0070547-Zhang2">
+       [45]
+      </xref>). For instance, the COD from the PR had decreased by 32% and TPH had decreased by 33% during 1985–2008. The drop of phytoplankton biomass 
+      <xref ref-type="bibr" rid="pone.0070547-Reports1">
+       [13]
+      </xref> contributed less to organic detritus.</p> 
+     <p>The AVS maintained at healthy level, but it increased from 29×10<sup>−6</sup> to 130×10<sup>−6</sup> (dry weight), ranking as medium-high level among semi-closed seas in China 
+      <xref ref-type="bibr" rid="pone.0070547-Gan1">
+       [46]
+      </xref>. In the case that major OM sources decreased, the AVS likely came from submarine outfalls of adjacent cities 
+      <xref ref-type="bibr" rid="pone.0070547-Peng2">
+       [47]
+      </xref> or resuspension of sediment and those transported by sea current. As a combination of toxic heavy metals, the increasing AVS could pose potential risk to estuary health.</p> 
+     <p>Overall, the SI ranged from 1 to 0.69, indicating a sub-healthy level.</p> 
+     <p>d) Provisioning services was measured by biomass and sea food quality in this study, which can assess ecosystem changes and threats to human health 
+      <xref ref-type="bibr" rid="pone.0070547-Knap1">
+       [48]
+      </xref>. Changes in biomass of phytoplankton, zooplankton and benthos were observed at the PRE. Considering that electronic, automobile and petroleum manufacturing, and shipping are main stressors from industries in the PRE, concentrations of heavy metals, polychlorinated biphenyls (PCBs), and TPH in benthic molluscas were examined. Given the higher toxic coefficient (TC) and enrichment coefficient (EC) in this estuary, the selected metals were Hg (TC = 40, EC = 4.1×10) and Pb (TC = 5, EC = 8.2×100).</p> 
+     <p>The biomass of benthos and zooplankton approached their original state. However, phytoplankton experienced two decreases to ill level in 2000 and during 2008–2009, likely because of and the fluctuating factors, e.g., COD, salinity 
+      <xref ref-type="bibr" rid="pone.0070547-Zhang3">
+       [49]
+      </xref>, DSi, and SST.</p> 
+     <p>As to residual pollutants in benthic molluscas, PCBs evidently returned from unhealthy to healthy state since 2005.Hg returned from unhealthy to healthy state during 1990–2007, but fell to sub-healthy state between 2008 and 2009. TPH increased and was in sub-healthy state since 2000. Pb fluctuated between unhealthy and sub-healthy states for nearly thirty years. These results suggested a certain extent of success in controlling release of heavy metals and persistent organic pollutants to the PRE.</p> 
+     <p>However, the amount of heavy metals in the PRE sediment, especially Hg 
+      <xref ref-type="bibr" rid="pone.0070547-Shi1">
+       [50]
+      </xref> Pb 
+      <xref ref-type="bibr" rid="pone.0070547-Zhou1">
+       [51]
+      </xref> and PCBs 
+      <xref ref-type="bibr" rid="pone.0070547-Chen4">
+       [52]
+      </xref> was still higher than those in the Yellow River and Yangtze Estuary. These metals could increase potential risk to seafood safety.</p> 
+     <p>Overall, the PI ranged from 0.83 to 0.79, indicating as sub-healthy level.</p> 
+     <p>e) Regulating services can drive significant effects on multiple services through interacting ecosystem processes 
+      <xref ref-type="bibr" rid="pone.0070547-Bennett1">
+       [8]
+      </xref>, which mainly contain water regulation and disease regulation in this study.</p> 
+     <p>i) Water regulation was analyzed as below: 1) the PR diluted water plays an important role in dealing with excessive nutriments and pollutants, maintaining suitable condition (SST, salinity 
+      <xref ref-type="bibr" rid="pone.0070547-You1">
+       [53]
+      </xref>etc) for estuarine organisms; 2) annual PR runoffs dropped to unhealthy level, suggesting that self-purification capacity of the PRE was poor; 3) sea-level rise could cause seawater intrusion that has been a great stress to the habitat in the PRE and adjacent delta 
+      <xref ref-type="bibr" rid="pone.0070547-You1">
+       [53]
+      </xref>, and was used to reflect the estuary’s ability to regulate water-saline balance. Response to global warming, sea-level increased about 3.0 ∼ 3.6 mm a<sup>−1</sup>in the PRE during 1975–2006 
+      <xref ref-type="bibr" rid="pone.0070547-Shi2">
+       [54]
+      </xref>. In 2009, the relative sea-level was 88 mm higher than the average value 
+      <xref ref-type="bibr" rid="pone.0070547-Sealevelbulletinof1">
+       [55]
+      </xref>, ranking as ill level. It is forecast that this rise will exceed 0.3 and 0.5 m by 2030 and 2050 
+      <xref ref-type="bibr" rid="pone.0070547-Shi2">
+       [54]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0070547-Meier1">
+       [56]
+      </xref>, respectively, which might alter biotic community and its distribution.</p> 
+     <p>ii) For disease regulation, occurrence of HABs and percentage of HABs causative species were ranked as ill status, indicating a compromised ecosystem to diseases. The eutrophication-driven HABs were frequent and appeared to be in line with economic growth in the PRD 
+      <xref ref-type="bibr" rid="pone.0070547-Liu1">
+       [57]
+      </xref>. The increase of HABs causative species might be responsible by biodiversity loss 
+      <xref ref-type="bibr" rid="pone.0070547-Worm2">
+       [22]
+      </xref>.</p> 
+     <p>Overall, the RI ranged from 0.95 to 0.32, suggesting a vulnerable ecosystem with weak regulating functions.</p> 
+     <p>f) Cultural services, usually outside ecosystem assessment, yet affecting human-being in multidimensional way, are gradually considered as the important lever for restoring other services 
+      <xref ref-type="bibr" rid="pone.0070547-Carpenter1">
+       [9]
+      </xref>. In this case, the CI involving conservation of endangered species and recreation, were quantified by the amount of aground 
+      <italic>
+       Sousa chinensis
+      </italic> and the concentration of TPH in sea water (USEPA 2007). Aground 
+      <italic>
+       Sousa chinensis
+      </italic>increased from 1∼2 per year to about 40 in total from 2003 to 2009 
+      <xref ref-type="bibr" rid="pone.0070547-PRECWDNNR1">
+       [58]
+      </xref> and scored as ill level, indicating that the lethal factors to dolphins, such as deteriorated water quality 
+      <xref ref-type="bibr" rid="pone.0070547-Chen5">
+       [59]
+      </xref>, confliction with ships 
+      <xref ref-type="bibr" rid="pone.0070547-Wursig1">
+       [30]
+      </xref>, or marine engineering blasting, should still be concerned. During the past thirty years, TPH fluctuated at sub-healthy status because of continuous inputs from shipping, sediment 
+      <xref ref-type="bibr" rid="pone.0070547-Kang1">
+       [60]
+      </xref> and river. These declines might reduce attractions and opportunities for public being close to water for sightseeing or swimming. The CI decreased from 0.88 to 0.60, referring to an unhealthy state.</p> 
+     <p>Over the last three decades, the EVI ranged from 0.94 to 0.57, suggesting an unstable and sometimes unhealthy ecosystem. Although the habitat structure restored to some extents, supporting services and providing services maintained at relatively better level, biotic structure, regulating abilities and cultural services decreased.</p> 
+    </sec>
+    <sec id="s3b"> 
+     <title>2) Ecosystem Coordination Index</title> 
+     <p>The EVI mentioned above is a linear superposition of changes in ecosystem structure/services and often used in common EHA. Yet the common assessment has overlooked the fact that ecosystem structure/services are nonlinearly interacting. The interactions can be found from the correlations between ecosystem parameters in the PRE. For example, the reduction of species of pelagic eggs strongly depended on variables of SST, TPH and areas under mariculture (
+      <italic>
+       r
+      </italic><sup>2</sup> = 0.86, 
+      <italic>
+       p
+      </italic>&lt;0.05).The TOC and the occurrence of HABs determined the zooplankton diversity (
+      <italic>
+       r
+       <sup>2</sup>
+      </italic> = 0.92, 
+      <italic>
+       p
+      </italic>&lt;0.01). In addition, the phytoplankton diversity varied with SST(
+      <italic>
+       r
+      </italic> = −0.70, 
+      <italic>
+       p
+      </italic>&lt;0.05)and DSi(
+      <italic>
+       r
+      </italic> = 0.70, 
+      <italic>
+       p
+      </italic>&lt;0.05). Also, the diversity of zooplankton and phytoplankton, the COD and the area of mangrove swamps were found to be determinants of frequent HABs (
+      <italic>
+       r
+      </italic><sup>2</sup> = 0.95, 
+      <italic>
+       p
+      </italic>&lt;0.01), and the increase of causative species of HABs was associated with the TPH (
+      <italic>
+       r
+      </italic> = 0.60, 
+      <italic>
+       p
+      </italic>&lt;0.05).Additionally, it has been reported that changes in COD and salinity could decrease the biomass of phytoplankton and benthos 
+      <xref ref-type="bibr" rid="pone.0070547-Zhang3">
+       [49]
+      </xref> in the PRE. TPH 
+      <xref ref-type="bibr" rid="pone.0070547-Gan2">
+       [61]
+      </xref>, PCBs 
+      <xref ref-type="bibr" rid="pone.0070547-Huang3">
+       [62]
+      </xref>, Hg, and Pb 
+      <xref ref-type="bibr" rid="pone.0070547-Chen5">
+       [59]
+      </xref> enriched in dolphins lead to a high mortality of newborn dolphin.</p> 
+     <p>These correlations revealed that the complex interactions within ecosystem could also be associated with health degradation. It appears that one decreasing structure/services can impair multiple structure/services. For instance, the deteriorating water (caused by the increasing COD) lead to frequent HABs and biodiversity loss. It can also be speculated that a decrease in multiple structure/services can synergize the drop of a kind of structure/services, e.g., the habitat destruction (caused by increasing areas under mariculture), and the worse water quality (caused by increasing SST and TPH) can together decrease the species of pelagic eggs. Moreover, the interactions among ecosystem structure/services could be bidirectional 
+      <xref ref-type="bibr" rid="pone.0070547-Bennett1">
+       [8]
+      </xref>. For example, the weak disease regulation (indicated by the occurrence of HABs) might decrease the zooplankton diversity. In turn, the loss of zooplankton diversity, implying a decline phagocytosis to harmful species, could further weaken disease regulation. Such positive feedback loops generally exist in the interdependent structure/services, e.g. habitat/species diversity, and supporting services, which is tightly related to health changes. These nonlinear dynamic and feedbacks suggest that ecosystem degradation is initiated by environmental perturbations, and automatically enhanced by the mismatching among ecosystem structure/services. Ecosystem degradation could occur as a decrease in structure/services, or as a mismatching among them. To what extent they match was expressed by the ECI proposed in this study, which could be a prediction of health trends from interior profile.</p> 
+     <p>During the period of 1980–2009, the ECI ranging from 1 to 0.86 showed a certain extent of discordance of ecosystem. To obtain the contribution of each structure/services to mismatching, we compared the ecosystem coordination including and excluding a certain structure/services, respectively. Approaches are detailed in the supporting information. The results (
+      <xref ref-type="fig" rid="pone-0070547-g004">
+       Fig. 4
+      </xref>) showed that the contribution of habitat structure (in 1990), providing services (in 2000, 2004, 2006–2008), and regulating services (in 2009) could reach 38%, 42%, and 42%, respectively, which in sequence acted as the most uncoordinated factor during 1980–2009. During these decades, the biodiversity accounted for 1–22% of incoordination, and the supporting services’ contributions to mismatching ranged from 3 to 13%, which were relatively minor contributors. Cultural services’ contributions were steady at about 17%. The contribution of providing services to mismatching markedly reduced from 42% to 8%, and that of habitat structure reduced from 38 to 17%. While the regulating services that contributed 42% to incoordination were the most uncoordinated factor at present. To obtain the overall harmony of ecosystem, the PRE should give priority to restoration of regulating ability.</p> 
+     <fig id="pone-0070547-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0070547.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Contributions of ecosystem structure and services to coordination.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0070547.g004" position="float" xlink:type="simple" />
+     </fig> 
+     <p>On the whole, the EHI ranging from 0.91 to 0.50 was scored, suggesting an unhealthy state (
+      <xref ref-type="fig" rid="pone-0070547-g003">
+       Fig. 3c
+      </xref>). Healthy status of ecosystem at the PRE manifested as a significant decrease in structure/services and somewhat mismatching among them. Compared to the common EHI based on linear superposition of changes in ecosystem parameters (i.e. just considering EVI), the EHI calculated by our approach in view of ecosystem coordination is 3–16% lower. The lower EHI in this study might provide a new perspective to understand the ecosystem degradation caused by internal interactions.</p> 
+    </sec>
+    <sec id="s3c"> 
+     <title>Summary</title> 
+     <p>In this study, ecosystem health assessment is extended to include the nonlinear interactions within the ecosystem. By incorporating the ecosystem coordination index into a health diagnosis of ecosystem structure/services, we attempted to assess ecosystem health from external and internal perspectives, and to illustrate the past, state, and trends of ecosystem health and their causes systematically in the PRE. Moreover, by comparing contributions of each factor to ecosystem incoordination, our study could identify the most important uncoordinated factor influencing ecosystem health, thereby provide a suitable option to prioritize restoration and sustainably managing ecosystem.</p> 
+     <p>Particularly, being affected by anthropogenic perturbations that superposed on natural changes, the ecosystem in the PRE was found swinging from healthy to unhealthy state during the past three decades. Ecosystem structure/services decreased to various extents, i.e. ranging from sub- to un-healthy states. Additionally, the mismatching level of structure/services was at sub-healthy level, which is also an important sign of ecosystem degradation which should not be neglected.</p> 
+     <p>Overall, assessing ecosystem health focused on interactions among structure/services might raise some urgent research questions for future EHA. For instance, how different ecosystem structure/services dynamically coordinate with others at different scales (spatial and time); and to what extent they are affecting ecosystem health.</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0070547.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0070547.s001" position="float" xlink:type="simple">
+     <label>File S1</label> 
+     <p>
+      <bold>
+       Table S1. Data collection and sources.
+      </bold> Data sets on biodiversity, water quality and sediment quality were derived from ecological surveys during 1980–2009 at Pearl River Estuary. 
+      <bold>
+       Figure S1. A conceptual model of BP algorithm.
+      </bold> A standard feed-forward back-propagation artificial neural network consists three layers, i.e. an input layer, a hidden layer and an output layer, by which the weights of assessment indicators were determined.</p> 
+     <p>(DOC)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We are grateful to Prof. Dewen Ding for his useful advice. We sincerely thank Ms. Xiuqin Li, Prof. Dongsheng Ke, Prof. Yuejin Jiang and Dr. Zhongyuan Wang from South China Sea Environmental Monitoring Center (SCSEMC) for providing data. Thanks to Jie Chen from SCSEMC and Ms. Jinling Chen from OUC for their help in drawing. Thanks to Prof. Lian Xie from North Carolina State University for his helpful comments. And the authors would like to thank the reviewers for their valuable comments.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0070547-Millennium1">
+      <label>1</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Millennium Ecosystem Assessment Program (2005) Ecosystems and human well-being: our human planet: summary for decision-makers: Island Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Jo1">
+      <label>2</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Jo T (1999) Ecological Impact Assessment: Blackwell Science.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Depledge1">
+      <label>3</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Depledge MH, Galloway TS (2005) Healthy animals, healthy ecosystems. Front Ecol Environ: 251–258.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Rapport1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rapport
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Costanza
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McMichael
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Assessing ecosystem health
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        13(10)
+       </volume>: 
+       <fpage>
+        397
+       </fpage>–
+       <lpage>
+        402
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Solimini1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Solimini
+        </surname>
+        <given-names>
+         AG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ptacnik
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardoso
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Towards holistic assessment of the functioning of ecosystems under the Water Framework Directive
+       </article-title>. 
+       <source>Trac-Trend Anal Chem 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        143
+       </fpage>–
+       <lpage>
+        149
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Worm1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Worm
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barbier
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beaumont
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Impacts of biodiversity loss on ocean ecosystem services
+       </article-title>. 
+       <source>Science 
+       <volume>
+        314
+       </volume>: 
+       <fpage>
+        787
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Tylianakis1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tylianakis
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         OT
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Habitat modification alters the structure of tropical host–parasitoid food webs
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        445
+       </volume>: 
+       <fpage>
+        202
+       </fpage>–
+       <lpage>
+        205
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Bennett1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peterson
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gordon
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Understanding relationships among multiple ecosystem services
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        1394
+       </fpage>–
+       <lpage>
+        1404
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Carpenter1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mooney
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Agard
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Capistrano
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeFries
+        </surname>
+        <given-names>
+         RS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Science for managing ecosystem services: Beyond the Millennium Ecosystem Assessment
+       </article-title>. 
+       <source>Proc Natl Acad Sci USA 
+       <volume>
+        106
+       </volume>: 
+       <fpage>
+        1305
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Reid1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reid
+        </surname>
+        <given-names>
+         WV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Br ì chignac
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tseh Lee
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Earth system research priorities
+       </article-title>. 
+       <source>Science 
+       <volume>
+        325
+       </volume>: 
+       <fpage>
+        245
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Carpenter2">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeFries
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dietz
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mooney
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Polasky
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Millennium ecosystem assessment: research needs
+       </article-title>. 
+       <source>Science 
+       <volume>
+        314
+       </volume>: 
+       <fpage>
+        257
+       </fpage>–
+       <lpage>
+        258
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Wang1">
+      <label>12</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Wang C, Zhang X, He L (2007) Review on Coordination Degree of Population, Economic Development and Ecological Environment System. Prod Res.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Reports1">
+      <label>13</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Reports of the Pearl River Estuary Ecological Monitoring Zone(2009). Guangzhou: South China Sea Environmental Monitoring Center.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Chen1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hung
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qiu
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jefferson
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Distribution, abundance, and individual movements of Indo-Pacific humpback dolphins (Sousa chinensis) in the Pearl River Estuary, China
+       </article-title>. 
+       <source>Mammalia 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        117
+       </fpage>–
+       <lpage>
+        125
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-The1">
+      <label>15</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       The Marine environment quality bulletin in Guangdong province. (2009). Guangzhou: Guangdong Marine and fisheries environment monitoring center.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Wang2">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tang
+        </surname>
+        <given-names>
+         DL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         FL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fukuyo
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Azanza
+        </surname>
+        <given-names>
+         RV
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Occurrences of harmful algal blooms (HABs) associated with ocean environments in the South China Sea
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        596
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        93
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Jiang1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qiu
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Assessment of Content of Heavy Metals in Seafood from Sea Area of Guangdong Province
+       </article-title>. 
+       <source>J Environ Heal 
+       <volume>
+        26(9)
+       </volume>: 
+       <fpage>
+        814
+       </fpage>–
+       <lpage>
+        816
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Tang1">
+      <label>18</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Tang QYAF (2007) DPS Data processing system: Experimental design, statistical analysis, and data mining. Beijing: Science Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Stokstad1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stokstad
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Obama moves to revitalize Chesapeake Bay restoration
+       </article-title>. 
+       <source>Science 
+       <volume>
+        324
+       </volume>: 
+       <fpage>
+        1138
+       </fpage>–
+       <lpage>
+        1139
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Chen2">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gao
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yao
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Ecosystem-Based Assessment Indices of Restoration for Daya Bay near a Nuclear Power Plant in South China
+       </article-title>. 
+       <source>Environ Sci Technol 
+       <volume>
+        44(19)
+       </volume>: 
+       <fpage>
+        7589
+       </fpage>–
+       <lpage>
+        7595
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Midgley1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Midgley
+        </surname>
+        <given-names>
+         GF
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Biodiversity and Ecosystem Function
+       </article-title>. 
+       <source>Science 
+       <volume>
+        335
+       </volume>: 
+       <fpage>
+        174
+       </fpage>–
+       <lpage>
+        175
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Worm2">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Worm
+        </surname>
+        <given-names>
+         BBEB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lotze
+        </surname>
+        <given-names>
+         HMFP
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Impacts of biodiversity loss on ocean ecosystem services
+       </article-title>. 
+       <source>Science 
+       <volume>
+        314
+       </volume>: 
+       <fpage>
+        787
+       </fpage>–
+       <lpage>
+        790
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Ives1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ives
+        </surname>
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Stability and diversity of ecosystems
+       </article-title>. 
+       <source>Science 
+       <volume>
+        317
+       </volume>: 
+       <fpage>
+        58
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Li1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Mangrove Wetland Changes in the Pearl River Estuary Using Remote Sensing
+       </article-title>. 
+       <source>Acta Geogr Sin-Chinese Edition 
+       <volume>
+        61(1)
+       </volume>: 
+       <fpage>
+        26
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Peng1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peng
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tian
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Niches of plant populations in mangrove reserve of Qi’ao Island, Pearl River Estuary
+       </article-title>. 
+       <source>Acta Ecol Sin 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        357
+       </fpage>–
+       <lpage>
+        361
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Jia1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xia
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhu
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yan
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Dynamic Analyses of Coastal Land Use Structure in the Inner Lingdingyang Frith of the Pearl River Estuary
+       </article-title>. 
+       <source>Mar Sci Bull 
+       <volume>
+        26(3)
+       </volume>: 
+       <fpage>
+        66
+       </fpage>–
+       <lpage>
+        71
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Chen3">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tan
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Remote sensing and GIS-based integrated analysis of coastal changes and their environmental impacts in Lingding Bay, Pearl River Estuary, South China
+       </article-title>. 
+       <source>Ocean Coast Manage 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        83
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Ma1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ma
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xia
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        History change and influence factor of nutrient in Lingdinyang sea area of Zhujiang River Eestuary
+       </article-title>. 
+       <source>Acta Oceanol Sin 
+       <volume>
+        31(2)
+       </volume>: 
+       <fpage>
+        69
+       </fpage>–
+       <lpage>
+        78
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Gao1">
+      <label>29</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Gao Y, Su F, Sun X, Xue Z, He Y(2010) A study on spatial and temporal variations of coastal wetland in Pearl River Estuary. IEEE, 429–432.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Wursig1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wursig
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Greene
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Underwater sounds near a fuel receiving facility in western Hong Kong: relevance to dolphins
+       </article-title>. 
+       <source>Mari Environ Res 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        145
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Huang1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Basic organisms composition and environment status of the Zhujiang estuary and adjacent waters. Mar. Environ. Sci
+       </article-title>. 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        7
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Wanxiang1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wanxiang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zini
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shixun
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Spatio-Temporal Distribution of Chlorophyll-a and Primary Productivity in the Pearl River Estuary
+       </article-title>. 
+       <source>J Ecol Rural Environ 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        132
+       </fpage>–
+       <lpage>
+        136
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Doney1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Doney
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Plankton in a warmer world
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        444
+       </volume>: 
+       <fpage>
+        695
+       </fpage>–
+       <lpage>
+        696
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Huang2">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         XP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yue
+        </surname>
+        <given-names>
+         WZ
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        The characteristics of nutrients and eutrophication in the Pearl River estuary, South China
+       </article-title>. 
+       <source>Mar Pollut Bull 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        30
+       </fpage>–
+       <lpage>
+        36
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Diaz1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Diaz
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rosenberg
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Spreading dead zones and consequences for marine ecosystems
+       </article-title>. 
+       <source>Science 
+       <volume>
+        321
+       </volume>: 
+       <fpage>
+        926
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Yin1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ke
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Temporal and spatial distribution of dissolved oxygen in the Pearl River Estuary and adjacent coastal waters
+       </article-title>. 
+       <source>Cont Shelf Res 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        1935
+       </fpage>–
+       <lpage>
+        1948
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Harrison1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Harrison
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gan
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Physical-biological coupling in the Pearl River Estuary
+       </article-title>. 
+       <source>Cont Shelf Res 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        1405
+       </fpage>–
+       <lpage>
+        1415
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Jiang2">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lai
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shixun
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Spatio-Temporal Distribution of Chlorophyll-a and Primary Productivity in the Pearl River Estuary
+       </article-title>. 
+       <source>J Ecol Rural Environ 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        132
+       </fpage>–
+       <lpage>
+        136
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Rabouille1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rabouille
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Conley
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dai
+        </surname>
+        <given-names>
+         MH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cai
+        </surname>
+        <given-names>
+         WJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         CTA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Comparison of hypoxia among four river-dominated ocean margins: The Changjiang (Yangtze), Mississippi, Pearl, and Rhône rivers
+       </article-title>. 
+       <source>Cont Shelf Res 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        1527
+       </fpage>–
+       <lpage>
+        1537
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Zhang1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Effects of physical and biochemical processes on the dissolved oxygen budget for the Pearl River Estuary during summer
+       </article-title>. 
+       <source>J Mar Syst 
+       <volume>
+        79
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        88
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Rabouille2">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rabouille
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Conley
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dai
+        </surname>
+        <given-names>
+         MH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cai
+        </surname>
+        <given-names>
+         WJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Comparison of hypoxia among four river-dominated ocean margins: The Changjiang (Yangtze), Mississippi, Pearl, and Rhone rivers
+       </article-title>. 
+       <source>Cont Shelf Res 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        1527
+       </fpage>–
+       <lpage>
+        1537
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Li2">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Oxygen depletion off the Changjiang (Yangtze River) estuary
+       </article-title>. 
+       <source>Science in China Series D: Earth Sci 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        1137
+       </fpage>–
+       <lpage>
+        1146
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Dai1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dai
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guo
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhai
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yuan
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Oxygen depletion in the upper reach of the Pearl River estuary during a winter drought
+       </article-title>. 
+       <source>Mar Chem 
+       <volume>
+        102(1–2)
+       </volume>: 
+       <fpage>
+        159
+       </fpage>–
+       <lpage>
+        169
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Tang2">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tang
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zheng
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         You
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Deng
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Analysis of SST variation in recent 30 years in the Zhujiang River estuary
+       </article-title>. 
+       <source>J Oceanogr Taiwan Strait 
+       <volume>
+        25(1)
+       </volume>: 
+       <fpage>
+        101
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Zhang2">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The sources and accumulation rate of sedimentary organic matter in the Pearl River Estuary and adjacent coastal area, Southern China
+       </article-title>. 
+       <source>Estuarine, Coast Shelf Sci 
+       <volume>
+        85(2)
+       </volume>: 
+       <fpage>
+        190
+       </fpage>–
+       <lpage>
+        196
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Gan1">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gan
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Du
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Distribution characteristic and quality assessment of sulfide in sediments of Pearl River Estuary
+       </article-title>. 
+       <source>Mar Environ Sci 
+       <volume>
+        27(2)
+       </volume>: 
+       <fpage>
+        149
+       </fpage>–
+       <lpage>
+        152
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Peng2">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peng
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mai
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hu
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Tracing anthropogenic contamination in the Pearl River estuarine and marine environment of South China Sea using sterols and other organic molecular markers
+       </article-title>. 
+       <source>Mar Pollut Bull 
+       <volume>
+        50(8)
+       </volume>: 
+       <fpage>
+        856
+       </fpage>–
+       <lpage>
+        865
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Knap1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Knap
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dewailly, Furgal
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galvin
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baden
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Indicators of ocean health and human health: developing a research and monitoring framework
+       </article-title>. 
+       <source>Environ Health Persp 
+       <volume>
+        110(9)
+       </volume>: 
+       <fpage>
+        839
+       </fpage>–
+       <lpage>
+        845
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Zhang3">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bai
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Characters of macrobenthic community in southeast sea of the Pearl River Estuary
+       </article-title>. 
+       <source>Mar Sci Bull 
+       <volume>
+        28(6)
+       </volume>: 
+       <fpage>
+        26
+       </fpage>–
+       <lpage>
+        33
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Shi1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shi
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rueckert
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leipe
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harff
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Distribution and contamination assessment of Hg in the sediments of the Pearl River Estuary
+       </article-title>. 
+       <source>Mar Environ Sci 
+       <volume>
+        26(6)
+       </volume>: 
+       <fpage>
+        553
+       </fpage>–
+       <lpage>
+        556
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Zhou1">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peng
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pan
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Distribution, source and enrichment of some chemical elements in sediments of the Pearl River Estuary, China
+       </article-title>. 
+       <source>Cont Shelf Res 
+       <volume>
+        24(16)
+       </volume>: 
+       <fpage>
+        1857
+       </fpage>–
+       <lpage>
+        1875
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Chen4">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hong
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Persistent Organochlorine Pollutant s in Surface Sediment s and Suspended Particulate Matter of Zhujiang River Estuary
+       </article-title>. 
+       <source>J Xiamen Univ (Natural Science) 
+       <volume>
+        43(s)
+       </volume>: 
+       <fpage>
+        230
+       </fpage>–
+       <lpage>
+        236
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-You1">
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         You
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tang
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Deng
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheng
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The Characteristics of Sea Level Change around the Pearl River Estuary in Recent 15 Years and the related Severe Saline Water Intrusion
+       </article-title>. 
+       <source>Guangdong 
+       <volume>
+        Meteorology
+       </volume> (
+       <issue>
+        31(3)
+       </issue>) 
+       <fpage>
+        4
+       </fpage>–
+       <lpage>
+        5
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Shi2">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shi
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Sea-level changes in Zhujiang estuary over last 40 years
+       </article-title>. 
+       <source>Mar Geol Quatern Geol 
+       <volume>
+        28(1)
+       </volume>: 
+       <fpage>
+        127
+       </fpage>–
+       <lpage>
+        134
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Sealevelbulletinof1">
+      <label>55</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Sea level bulletin of China. (2009) Beijing: State Oceanic Administration.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Meier1">
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meier
+        </surname>
+        <given-names>
+         MF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dyurgerov
+        </surname>
+        <given-names>
+         MB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rick
+        </surname>
+        <given-names>
+         UK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         O’Neel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pfeffer
+        </surname>
+        <given-names>
+         WT
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Glaciers dominate eustatic sea-level rise in the 21st century
+       </article-title>. 
+       <source>Science 
+       <volume>
+        317(5841)
+       </volume>: 
+       <fpage>
+        1064
+       </fpage>–
+       <lpage>
+        1067
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Liu1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        A relationship between red tide outbreaks and urban development along the coasts of Guangdong Province
+       </article-title>. 
+       <source>J Geogr Sci 
+       <volume>
+        14(2)
+       </volume>: 
+       <fpage>
+        219
+       </fpage>–
+       <lpage>
+        225
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-PRECWDNNR1">
+      <label>58</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       PRECWDNNR (2010) Heavey polluted area at South China Sea increased by 3800 km
+       <sup>2</sup> within four years and the increasing dead Chinese white dolphin: Pearl River Estuary Chinese white dolphin national nature reserve.
+       <ext-link ext-link-type="uri" xlink:href="http://cwd.gov.cn/content.asp?id=180" xlink:type="simple">
+        http://cwd.gov.cn/content.asp?id=180
+       </ext-link>. Accessed 2012 Oct 30.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Chen5">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ning
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhai
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Trace element concentrations in Chinese white dolphins (Sousa chinensis) from water of Pearl River Estuary
+       </article-title>. 
+       <source>Mar Environ Sci 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        580
+       </fpage>–
+       <lpage>
+        583
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Kang1">
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheng
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fu
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Depositional history record of polycyclic aromatic hydrocarbons in core sediments from Pearl River estuary, China
+       </article-title>. 
+       <source>Acta Sci Circum 
+       <volume>
+        25(1)
+       </volume>: 
+       <fpage>
+        45
+       </fpage>–
+       <lpage>
+        51
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Gan2">
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gan
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Petroleum Hydrocarbons in Dolphins from Pearl River Estuary and Dapeng Bay
+       </article-title>. 
+       <source>Mar Environ Sci 
+       <volume>
+        29(1)
+       </volume>: 
+       <fpage>
+        36
+       </fpage>–
+       <lpage>
+        39
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0070547-Huang3">
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gan
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Polychlorinated biphenyls in the blubber of the Pearl River Estuary bottlenose dolphin (
+        <italic>
+         Tursiops truncates
+        </italic>)
+       </article-title>. 
+       <source>China Environ Sci 
+       <volume>
+        27(4)
+       </volume>: 
+       <fpage>
+        461
+       </fpage>–
+       <lpage>
+        466
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

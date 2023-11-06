@@ -1,0 +1,3930 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-35608
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0060756
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Energy flow
+          </subject> 
+          <subject>
+           Food web structure
+          </subject> 
+          <subject>
+           Trophic interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Terrestrial environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Terrestrial ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Zoology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Entomology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Impacts of Intensive Logging on the Trophic Organisation of Ant Communities in a Biodiversity Hotspot
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Selective Logging and Trophic Organisation
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Woodcock
+        </surname> 
+        <given-names>
+         Paul
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Edwards
+        </surname> 
+        <given-names>
+         David P.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Newton
+        </surname> 
+        <given-names>
+         Rob J.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Vun Khen
+        </surname> 
+        <given-names>
+         Chey
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bottrell
+        </surname> 
+        <given-names>
+         Simon H.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hamer
+        </surname> 
+        <given-names>
+         Keith C.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       School of Biology, University of Leeds, Leeds, United Kingdom
+      </addr-line> 
+     </aff> 
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       School of Tropical and Marine Biology, James Cook University, Cairns, Australia
+      </addr-line> 
+     </aff> 
+     <aff id="aff3"> 
+      <label>3</label> 
+      <addr-line>
+       School of Earth and Environment, University of Leeds, Leeds, United Kingdom
+      </addr-line> 
+     </aff> 
+     <aff id="aff4"> 
+      <label>4</label> 
+      <addr-line>
+       Sepilok Forest Research Centre, Sabah Forestry Department, Sandakan, Malaysia
+      </addr-line> 
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Smith
+        </surname> 
+        <given-names>
+         M. Alex
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1"> 
+      <addr-line>
+       University of Guelph, Canada
+      </addr-line> 
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        p.woodcock@bangor.ac.uk
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: KCH SHB PW DPE CVK. Performed the experiments: PW RJN DPE. Analyzed the data: PW DPE KCH. Wrote the paper: PW DPE KCH.</p> 
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2013
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="epub"> 
+      <day>
+       10
+      </day> 
+      <month>
+       4
+      </month> 
+      <year>
+       2013
+      </year> 
+     </pub-date> 
+     <volume>
+      8
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e60756
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        9
+       </day> 
+       <month>
+        11
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        2
+       </day> 
+       <month>
+        3
+       </month> 
+       <year>
+        2013
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2013
+      </copyright-year> 
+      <copyright-holder>
+       Woodcock et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <abstract> 
+      <p>Trophic organisation defines the flow of energy through ecosystems and is a key component of community structure. Widespread and intensifying anthropogenic disturbance threatens to disrupt trophic organisation by altering species composition and relative abundances and by driving shifts in the trophic ecology of species that persist in disturbed ecosystems. We examined how intensive disturbance caused by selective logging affects trophic organisation in the biodiversity hotspot of Sabah, Borneo. Using stable nitrogen isotopes, we quantified the positions in the food web of 159 leaf-litter ant species in unlogged and logged rainforest and tested four predictions: (i) there is a negative relationship between the trophic position of a species in unlogged forest and its change in abundance following logging, (ii) the trophic positions of species are altered by logging, (iii) disturbance alters the frequency distribution of trophic positions within the ant assemblage, and (iv) disturbance reduces food chain length. We found that ant abundance was 30% lower in logged forest than in unlogged forest but changes in abundance of individual species were not related to trophic position, providing no support for prediction (i). However, trophic positions of individual species were significantly higher in logged forest, supporting prediction (ii). Consequently, the frequency distribution of trophic positions differed significantly between unlogged and logged forest, supporting prediction (iii), and food chains were 0.2 trophic levels 
+       <italic>
+        longer
+       </italic> in logged forest, the opposite of prediction (iv). Our results demonstrate that disturbance can alter trophic organisation even without trophically-biased changes in community composition. Nonetheless, the absence of any reduction in food chain length in logged forest suggests that species-rich arthropod food webs do not experience trophic downgrading or a related collapse in trophic organisation despite the disturbance caused by logging. These food webs appear able to bend without breaking in the face of some forms of anthropogenic disturbance.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       PW was supported by an Earth and Biosphere Institute studentship from the University of Leeds and the work was additionally supported by a grant from the Leverhulme Trust. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <page-count count="7" /> 
+     </counts> 
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Trophic organisation defines the flow of energy through ecosystems 
+     <xref ref-type="bibr" rid="pone.0060756-Duffy1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Rooney1">
+      [2]
+     </xref> and can have far-reaching effects on ecosystem properties and processes, and on the conservation of biodiversity 
+     <xref ref-type="bibr" rid="pone.0060756-Schindler1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Terborgh1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Balvanera1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Estes1">
+      [6]
+     </xref>. Describing and understanding how anthropogenic disturbance affects trophic organisation is therefore a major concern 
+     <xref ref-type="bibr" rid="pone.0060756-McCann1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Reiss1">
+      [8]
+     </xref>. The impacts of disturbance depend upon any differences in the relative abundance of each species between undisturbed and disturbed ecosystems, combined with any shifts in the position of each species within the food web. However, evidence for such changes is ambiguous and incomplete. For example, large-bodied vertebrates with high trophic positions (species at the top of the food chain) tend to have small population sizes and require large areas for foraging, and are also influenced by variation in prey populations, making them particularly susceptible to anthropogenic pressure 
+     <xref ref-type="bibr" rid="pone.0060756-Duffy2">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Duffy3">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Voigt1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Eklof1">
+      [12]
+     </xref>. This prediction is supported by analyses on the threat status of mammals 
+     <xref ref-type="bibr" rid="pone.0060756-Purvis1">
+      [13]
+     </xref>, but smaller-bodied organisms can also attain high trophic positions (e.g. compare 
+     <xref ref-type="bibr" rid="pone.0060756-Blthgen1">
+      [14]
+     </xref> with 
+     <xref ref-type="bibr" rid="pone.0060756-Urton1">
+      [15]
+     </xref>), and a negative relationship between trophic position and susceptibility to disturbance may not occur when these other taxa and different forms of disturbance are considered 
+     <xref ref-type="bibr" rid="pone.0060756-Gray1">
+      [16]
+     </xref>. Studies comparing the trophic positions of species in disturbed and undisturbed ecosystems have generated similarly ambiguous results, with decreases 
+     <xref ref-type="bibr" rid="pone.0060756-McHugh1">
+      [17]
+     </xref>, increases 
+     <xref ref-type="bibr" rid="pone.0060756-Blthgen1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Power1">
+      [18]
+     </xref> and no difference in trophic position found between habitats 
+     <xref ref-type="bibr" rid="pone.0060756-Takimoto1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Walters1">
+      [20]
+     </xref>.</p> 
+    <p>By collecting data on both the relative abundances and the trophic positions of species, several recent studies have tested community-level hypotheses concerning the impacts of disturbance. The dynamic constraints hypothesis, which predicts that disturbance should reduce food chain length 
+     <xref ref-type="bibr" rid="pone.0060756-Pimm1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Morin1">
+      [22]
+     </xref>, has received particular attention because variation in food chain length influences key ecological processes 
+     <xref ref-type="bibr" rid="pone.0060756-Post1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Srivastava1">
+      [24]
+     </xref>. Again, however, evidence for a link between disturbance and food chain length is conflicting (see 
+     <xref ref-type="bibr" rid="pone.0060756-Sabo1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Takimoto2">
+      [26]
+     </xref> for reviews). Moreover, this evidence comes largely from freshwater ecosystems: in a recent meta-analysis, only one study quantified the effects of disturbance on food chain length in a terrestrial habitat, emphasising the need to broaden the scope of research into the causes and extent of variation in food chain length 
+     <xref ref-type="bibr" rid="pone.0060756-Takimoto2">
+      [26]
+     </xref>.</p> 
+    <p>Here, we focus on selective logging, which represents the most widespread form of forest disturbance in the tropics, with over 400 million hectares of forest in the permanent timber estate and at least 20% of the tropical forest biome selectively logged between 2000 and 2005 
+     <xref ref-type="bibr" rid="pone.0060756-Asner1">
+      [27]
+     </xref>. Selective logging involves the removal of commercially valuable trees above a threshold size, and the process of felling and extracting trees can cause severe residual damage via the labyrinth of logging roads 
+     <xref ref-type="bibr" rid="pone.0060756-Laporte1">
+      [28]
+     </xref>, soil compaction, and high mortality of non-harvested trees 
+     <xref ref-type="bibr" rid="pone.0060756-Pinard1">
+      [29]
+     </xref>. These changes lead to significant shifts in abundance across a range of taxa 
+     <xref ref-type="bibr" rid="pone.0060756-Vasconcelos1">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Peters1">
+      [31]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Berry1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Edwards1">
+      [33]
+     </xref> and have prompted urgent calls for a greater understanding of the impacts of logging on the structure and functioning of rainforest ecosystems 
+     <xref ref-type="bibr" rid="pone.0060756-Gardner1">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Schleuning1">
+      [35]
+     </xref>. We investigate how selective logging affects the relative abundance of species within a tropical rainforest, and we use the numerical measures of trophic positions provided by stable isotope ratios (expressed as δ<sup>15</sup>N; 
+     <xref ref-type="bibr" rid="pone.0060756-Ponsard1">
+      [36]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Post2">
+      [37]
+     </xref>) to quantify any shifts in the trophic positions of species. We then combine these pieces of species-level information to evaluate any shifts in trophic organisation that are associated with logging disturbance.</p> 
+    <p>Our study region is the Sundaland biodiversity hotspot in Southeast Asia 
+     <xref ref-type="bibr" rid="pone.0060756-Myers1">
+      [38]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Hoffmann1">
+      [39]
+     </xref>, which has experienced some of the highest timber extraction intensities globally 
+     <xref ref-type="bibr" rid="pone.0060756-ITTO1">
+      [40]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Fisher1">
+      [41]
+     </xref>. We focused on the leaf-litter ant assemblage, because it is highly abundant and diverse, and because ants exert a key influence on ecosystem functioning through several types of trophic interaction that are reflected in the trophic positions of each species (e.g. as seed dispersers and predators 
+     <xref ref-type="bibr" rid="pone.0060756-Passos1">
+      [42]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Wilson1">
+      [43]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0060756-Milton1">
+      [44]
+     </xref>). Furthermore, the assemblage has undergone significant shifts in composition following logging, and although many species currently persist 
+     <xref ref-type="bibr" rid="pone.0060756-Woodcock1">
+      [45]
+     </xref>, the consequences of these changes in composition for trophic organisation have not been studied. Accordingly, we first investigated species-level changes by testing two predictions: (i) there is a negative relationship between the trophic position of a species in unlogged forest and its change in abundance following logging, and (ii) changes in community composition and habitat structure that follow logging are accompanied by shifts in the trophic positions of species that persist in logged forest. We then examined community-level changes by testing two further predictions: (iii) the frequency distribution of trophic positions differs between unlogged and logged forests, and (iv) disturbance reduces food chain length.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>All necessary permits were obtained for the described field studies. Approval and permits were provided by Yayasan Sabah, the Danum Valley Management Committee, Sabah Chief Minister’s Department, the Economic Planning Unit of the Prime Minister’s Department and the Sabah Forestry Department.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Study Site</title> 
+     <p>Fieldwork was conducted within the 1 million ha Yayasan Sabah logging concession in Sabah, Borneo (4° 58′N, 117° 48′E) which is one of the most biologically important areas of lowland rainforest in Borneo 
+      <xref ref-type="bibr" rid="pone.0060756-Lambert1">
+       [46]
+      </xref>. We compared the unlogged forests of the Danum Valley Conservation Area and Palum Tambun Watershed Reserve (45,200 ha) with the contiguous Ulu Segama-Malua Forest Reserve, which is a 238,000 ha area of production forest. Unlogged forests in the concession are dominated by commercially valuable trees of the family 
+      <italic>
+       Dipterocarpaceae
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0060756-Reynolds1">
+       [47]
+      </xref>. Production forests in the concession have undergone two rounds of selective logging (first rotation: 1987–1991, second rotation: 2001–2007), producing total timber yields of ∼145 m<sup>3</sup> ha<sup>−1</sup>, some of the highest rates of timber removal globally (see 
+      <xref ref-type="bibr" rid="pone.0060756-Fisher1">
+       [41]
+      </xref> for further details).</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Sampling</title> 
+     <p>In unlogged forest, we established eight transects ≥500 m apart (
+      <xref ref-type="supplementary-material" rid="pone.0060756.s001">
+       Figure S1
+      </xref>). In logged forest, we grouped transects into four sites, each comprising two transects separated by 500–800 m and spaced such that the unlogged forest was central between two logged sites to the south-east and two logged sites to the north-west. Distances between logged forest transects (28.3±3.7 km) were similar to those between logged and unlogged forest transects (23.6±0.5 km). Ants were sampled from seven 1 m<sup>2</sup> census points separated by 25 m and on alternate sides of each transect (56 sampling points in each type of forest) using the Winkler method (
+      <xref ref-type="bibr" rid="pone.0060756-Bestelmeyer1">
+       [48]
+      </xref>, see 
+      <xref ref-type="bibr" rid="pone.0060756-Woodcock1">
+       [45]
+      </xref> for details). The Winkler method is unreliable when the leaf litter and soil are damp, so we did not sample for two days following any heavy rainfall. Minor workers were stored in 95% ethanol, identified to genus using online keys 
+      <xref ref-type="bibr" rid="pone.0060756-Fayle1">
+       [49]
+      </xref>, and pre-sorted to morphospecies based on external characteristics. Where possible, morphospecies were assigned species names using published keys, online image resources (
+      <ext-link ext-link-type="uri" xlink:href="http://www.antbase.net" xlink:type="simple">
+       www.antbase.net
+      </ext-link>, 
+      <ext-link ext-link-type="uri" xlink:href="http://www.antweb.org" xlink:type="simple">
+       www.antweb.org
+      </ext-link>), and reference collections at the Natural History Museum (London) and Universiti Malaysia Sabah (Kota Kinabalu). Voucher specimens of each species and morphospecies are housed at the Forest Research Centre, Sabah.</p> 
+     <p>To establish baseline δ<sup>15</sup>N values for each transect 
+      <xref ref-type="bibr" rid="pone.0060756-Post2">
+       [37]
+      </xref>, pairs of leaves were collected from two understorey plants every 15 m along the transect ( = 20 plants per transect), dried in a plant press, and stored in a sealed dry room 
+      <xref ref-type="bibr" rid="pone.0060756-Woodcock2">
+       [50]
+      </xref>. All fieldwork took place between May and September 2007 and May and September 2008: three transects in unlogged forest were sampled for ants and baseline material in 2007 and the remaining 13 transects were sampled for ants and baselines in 2008. There is little seasonal variation in climate within the study region 
+      <xref ref-type="bibr" rid="pone.0060756-Walsh1">
+       [51]
+      </xref>, and sampling years were similar in terms of environmental conditions (no mast-fruiting, droughts or floods). Repeat sampling from the same locations also indicates that annual variation in ant community composition is low 
+      <xref ref-type="bibr" rid="pone.0060756-Brhl1">
+       [52]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Stable Isotope Analysis</title> 
+     <p>A single isotope analysis was conducted to represent all conspecific worker ants from the same sampling point, because these were considered to be from the same colony and therefore non-independent, and because variation in nitrogen isotope ratio values amongst conspecifics from the same point was low 
+      <xref ref-type="bibr" rid="pone.0060756-Blthgen1">
+       [14]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Woodcock2">
+       [50]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Brhl1">
+       [52]
+      </xref>. Ants were prepared by removing gasters 
+      <xref ref-type="bibr" rid="pone.0060756-Blthgen1">
+       [14]
+      </xref> and oven-drying at 50°C to a constant mass, and plant material was dried in a plant press and ground into a fine powder using a mixer mill. Samples were analysed on a Eurovector 3028HT elemental analyser coupled to a GV Isoprime continuous flow mass spectrometer. Samples and standards were combusted in pure oxygen (N5.0, BOC, UK) injected into a stream of helium at 1020°C. Water and carbon dioxide were removed from the gas stream using magnesium perchlorate and Carbosorb respectively (Elemental Microanalysis, UK). δ<sup>15</sup>N was calculated as ([R<sub>sample</sub>/R<sub>standard</sub>]−1)×10<sup>3</sup>, where R<sub>sample</sub> is the <sup>15</sup>N:<sup>14</sup>N ratio of the sample and R<sub>standard</sub> is the <sup>15</sup>N:<sup>14</sup>N ratio of the N<sub>2</sub> reference gas. Sample δ<sup>15</sup>N values were calibrated against the international δ<sup>15</sup>N<sub>air</sub> scale using the ammonium sulphate standards USGS-25 (−30.4‰) and USGS-26 (+53.7‰) interspersed every 8–12 samples. In addition, an internal yeast check standard was repeated several times in each column and produced standard deviations of 0.1–0.3‰, with a long-term average of −0.55±0.28‰ (1SD) from 265 analyses across all columns. Ant δ<sup>15</sup>N<sub>air</sub> values were corrected for baseline variation 
+      <xref ref-type="bibr" rid="pone.0060756-Post2">
+       [37]
+      </xref> by subtracting the mean δ<sup>15</sup>N of leaf samples collected from the same transect to give a baseline-corrected value (δ<sup>15</sup>N<sub>BC</sub>): δ<sup>15</sup>N<sub>BC</sub> = δ<sup>15</sup>N<sub>sample</sub> – δ<sup>15</sup>N<sub>plant mean for transect</sub> (see 
+      <xref ref-type="bibr" rid="pone.0060756-Woodcock2">
+       [50]
+      </xref> for further details).</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Calculation of Stable Isotope Metrics</title> 
+     <p>Trophic position was calculated as λ+(δ<sup>15</sup>N<sub>BC/</sub>E), where λ is the trophic position of the organism used as the baseline (λ = 1 for plants) and E is the enrichment in δ<sup>15</sup>N per trophic level (for ants, E = 3.0; 
+      <xref ref-type="bibr" rid="pone.0060756-Feldhaar1">
+       [53]
+      </xref>). Leaf-litter ants span almost the full range of trophic positions within the soil food web, from granivores to specialised predators 
+      <xref ref-type="bibr" rid="pone.0060756-BrownJr1">
+       [54]
+      </xref>, and so we used the colonies with the highest trophic positions in each forest type (top 5% of colonies) as a measure of the realised food chain length 
+      <xref ref-type="bibr" rid="pone.0060756-Post1">
+       [23]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Post3">
+       [55]
+      </xref>. Although specialised predatory ants might occasionally be consumed, the definition of realised food chain length integrates all energy flow pathways through the food web 
+      <xref ref-type="bibr" rid="pone.0060756-Post1">
+       [23]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Sabo1">
+       [25]
+      </xref> so such infrequent events have little effect on estimates of food chain length.</p> 
+    </sec> 
+    <sec id="s2f"> 
+     <title>Statistical Analysis</title> 
+     <p>We first tested for a relationship between the trophic position of a species in unlogged forest and its change in abundance by using Linear Mixed Effects models (LME) with ‘ant subfamily’ as a random effect to account for phylogeny 
+      <xref ref-type="bibr" rid="pone.0060756-Koh1">
+       [56]
+      </xref>. We then investigated whether or not the trophic positions of ants differed between unlogged and logged forest by using a LME (including all isotope analyses) with ‘subfamily’ as a random effect, and ‘species’ nested within subfamily to account for repeated measures. We also used General Linear Models to test for differences in trophic position between unlogged and logged forest in each of the commonest species (n≥10 in both types of forest).</p> 
+     <p>Differences between unlogged and logged forest in the trophic organisation of the assemblage were investigated by using Kolmogorov-Smirnov tests to compare the frequency distribution of trophic positions of colonies in each type of forest. We first examined the location and shape of the distributions, and then focused only on the shape by centring each distribution around a mean of zero. Changes in the location of the distribution would indicate a systematic increase or decrease in trophic positions of the assemblage, whilst changes in the shape of the distribution would indicate that colonies become more or less concentrated within the food web. This approach compares differences in trophic structure without considering species identity. It is thus focused on summarising how each colony contributes to the overall trophic structure of the assemblage. Lastly, we used a LME to compare food chain lengths – defined from the 5% of colonies with the highest trophic positions in each type of forest – between unlogged and logged forest. As with previous analyses, each sample was used as a separate measure of trophic position, and ‘subfamily’ and ‘species’ were treated as nested random effects.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>We obtained trophic positions for 1427 samples of 159 ant species, comprising 841 samples of 142 species in unlogged forest and 586 samples of 125 species in logged forest. The assemblage was largely carnivorous (mean trophic position of all species = 3.07±0.01 S.E.) but trophic positions of individual species ranged from 2.00–4.43 (
+     <xref ref-type="fig" rid="pone-0060756-g001">
+      Figure 1
+     </xref>; 
+     <xref ref-type="supplementary-material" rid="pone.0060756.s002">
+      Figure S2
+     </xref>; 
+     <xref ref-type="supplementary-material" rid="pone.0060756.s003">
+      Table S1
+     </xref>). Trophic positions for ant species sampled in 2007 in unlogged forest did not differ from those for species sampled in 2008 in unlogged forest (2007<sub>mean</sub> = 3.02±0.02, 2008<sub>mean</sub> = 3.04±0.02; LME: F<sub>6, 831</sub> = 0.03, p&gt;0.5). We found no relationship between the trophic position of a species in unlogged forest and its change in relative or absolute abundance (LME: F<sub>1, 44</sub> = 0.1, p&gt;0.5 in both cases). Furthermore, the mean trophic position of species found only in unlogged forest did not differ from the shared species mean for unlogged forest (LME: F<sub>1, 132</sub> = 0.05, p&gt;0.5; 
+     <xref ref-type="fig" rid="pone-0060756-g002">
+      Figure 2
+     </xref>). However, the mean trophic position of species found only in logged forest was marginally significantly lower than the shared species mean for logged forest (LME: F<sub>1, 116</sub> = 2.76, p = 0.099), suggesting a slight influx of species with trophic positions below the average for logged forest.</p> 
+    <fig id="pone-0060756-g001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0060756.g001
+     </object-id> 
+     <label>Figure 1</label>  
+     <title>Trophic organisation of ant communities in unlogged and logged forest.</title> 
+     <p>Trophic positions of (a) colonies and (b) species in unlogged and logged forest are grouped into trophic categories of 0.5 trophic levels (&lt;2.25, 2.25–2.75, 3.25–3.75 etc.). Bubble sizes represent the proportion of colonies or species in each trophic category for each type of forest (i.e. expressed as a percentage of the total number of colonies [a] or species richness [b] for each forest type).</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0060756.g001" position="float" xlink:type="simple" /> 
+    </fig> 
+    <fig id="pone-0060756-g002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0060756.g002
+     </object-id> 
+     <label>Figure 2</label>  
+     <title>Causes of differences in trophic organisation of ant communities between unlogged and logged forest.</title> 
+     <p>Mean trophic positions±S.E. are shown for species found in both unlogged (UL) and logged (L) forest, for species found only in logged forest, and for species found only in logged forest. Means are based on all samples and presented for all species, and for the two commonest ant subfamilies (Myrmicinae and Ponerinae).</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0060756.g002" position="float" xlink:type="simple" /> 
+    </fig> 
+    <p>With respect to prediction (ii), we found strong evidence for increases in trophic positions amongst species that were shared between both types of forest (mean <sub>unlogged forest</sub> = 3.03±0.01, mean <sub>logged forest</sub> = 3.13±0.02; LME: F<sub>1, 1197</sub> = 43.9, p&lt;0.0001; 
+     <xref ref-type="fig" rid="pone-0060756-g002">
+      Figure 2
+     </xref>). In addition, the trophic positions of four of the 14 most prevalent shared species (n≥10 occurrences in each forest type) were significantly higher in logged forest than in unlogged forest. These four species combined accounted for 12% of all ant occurrences, and we also found a marginally significant increase in a fifth species (
+     <xref ref-type="fig" rid="pone-0060756-g003">
+      Figure 3
+     </xref>). As a consequence, the mean trophic position of ants was significantly higher in logged forest than in unlogged forest (LME: F<sub>1, 1261</sub> = 41.2, p&lt;0.0001) by an average of 0.1±0.03 trophic levels.</p> 
+    <fig id="pone-0060756-g003" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0060756.g003
+     </object-id> 
+     <label>Figure 3</label>  
+     <title>Trophic position of species commonly sampled in unlogged and logged forest.</title> 
+     <p>Mean trophic position±S.E. are shown for all species sampled at least 10 times in both types of forest. p values are: *≤0.05, **≤0.01, ***≤0.001. From left to right, species are: 
+      <italic>
+       Lophomyrmex bedoti, Hypoponera
+      </italic> sp1, 
+      <italic>
+       Ponera
+      </italic> sp4, 
+      <italic>
+       Anochetus graeffei, Pachycondyla
+      </italic> sp3, 
+      <italic>
+       Pheidole rabo, Tetramorium
+      </italic> sp2, 
+      <italic>
+       Oligomyrmex
+      </italic> sp1, 
+      <italic>
+       Hypoponera
+      </italic> sp7, 
+      <italic>
+       Pheidole tjibodana, Paratrechina
+      </italic> sp2, 
+      <italic>
+       Strumigenys
+      </italic> sp1, 
+      <italic>
+       Strumigenys fuarda, Eurhopalothrix jennya
+      </italic>.</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0060756.g003" position="float" xlink:type="simple" /> 
+    </fig> 
+    <p>The higher trophic positions of species in logged forest translated into shifts in overall trophic organisation, with a significant difference between forest types in the frequency distribution of the trophic positions of colonies (z = 1.86, p = 0.002). When distributions were centred around zero, trophic organisation was marginally significantly different between forest types (z = 1.29, p = 0.071). We also found a significant increase in mean food chain length in logged forest based on the trophic positions of the top 5% of colonies (mean <sub>unlogged forest</sub> = 3.89±0.04, n = 42 colonies; mean <sub>logged forest</sub> = 4.10±0.04, n = 29 colonies; LME F <sub>1, 29</sub> = 10.3, p = 0.0032). This finding was repeatable using the top 10% of colonies (mean <sub>unlogged forest</sub> = 3.73±0.03, n = 84 colonies; mean <sub>logged forest</sub> = 3.93±0.03, n = 58 colonies; LME: F<sub> 1, 91</sub> = 22.6, p&lt;0.001).</p> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Our results indicate that selective logging significantly alters the trophic organisation of the leaf-litter ant community in tropical rainforests. The change in trophic organisation was not caused by shifts in the relative abundance of different species, but instead was the result of increases in trophic positions amongst species found in both unlogged and logged forest. Higher trophic positions in logged forest resulted in food chains that were 0.2 trophic levels longer and in significant differences between forest types in the distribution of ant colonies through the food web (
+     <xref ref-type="fig" rid="pone-0060756-g001">
+      Figure 1
+     </xref>).</p> 
+    <sec id="s4a"> 
+     <title>Species-Level Responses to Disturbance</title> 
+     <p>The trophic ecology of most leaf-litter ant species found in tropical rainforests is poorly known, but our results are consistent with knowledge for better-studied species (e.g. 
+      <italic>
+       Anochetus graeffei
+      </italic>, 
+      <italic>
+       Mystrium camillae
+      </italic>, and 
+      <italic>
+       Cerapachys
+      </italic> spp. were highly carnivorous 
+      <xref ref-type="bibr" rid="pone.0060756-BrownJr1">
+       [54]
+      </xref>). Also as would be expected, the Ponerinae generally had higher mean trophic positions than the Myrmicinae (
+      <xref ref-type="fig" rid="pone-0060756-g002">
+       Figure 2
+      </xref>). We are thus confident that our stable isotope protocol has measured trophic positions accurately, and consequently that the information provided for the many small and cryptic leaf-litter ant species for which diets are largely unknown is also reliable (
+      <xref ref-type="supplementary-material" rid="pone.0060756.s003">
+       Table S1
+      </xref>).</p> 
+     <p>Increases in trophic positions may result directly from changes in diet or indirectly from changes in the diet of prey species 
+      <xref ref-type="bibr" rid="pone.0060756-Post4">
+       [57]
+      </xref>. Both mechanisms probably operate to some degree, although changes in prey diet cannot explain increased trophic positions in ant species that feed exclusively on plant material and/or obligate herbivores. Direct changes in diet are therefore the most likely explanation for the elevation in trophic positions of ant species with a position of &lt;3 in unlogged forest (48 species: 
+      <xref ref-type="supplementary-material" rid="pone.0060756.s003">
+       Table S1
+      </xref>). Although 
+      <xref ref-type="bibr" rid="pone.0060756-Gibb1">
+       [58]
+      </xref> found no difference in the trophic positions of ant genera between forest remnants and pastures, increases in trophic positions in disturbed forest have been detected for weaver ants (
+      <italic>
+       Oecophylla smaragdina
+      </italic>), which switched from the consumption of homopteran exudates and nectar in primary forest to a greater dependency on predation and scavenging in secondary forest regrowth 
+      <xref ref-type="bibr" rid="pone.0060756-Blthgen1">
+       [14]
+      </xref>. Furthermore, the higher trophic positions of small mammals in disturbed ecosystems 
+      <xref ref-type="bibr" rid="pone.0060756-Nakagawa1">
+       [59]
+      </xref> suggest that our findings may be mirrored in other taxa.</p> 
+     <p>Species with high trophic positions are thought to be more susceptible to anthropogenic disturbances such as fragmentation 
+      <xref ref-type="bibr" rid="pone.0060756-Terborgh1">
+       [4]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Didham1">
+       [60]
+      </xref> because high trophic position is intrinsically linked to factors such as low population size, high population variability and high dependence on prey populations 
+      <xref ref-type="bibr" rid="pone.0060756-Duffy2">
+       [9]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Duffy3">
+       [10]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Eklof1">
+       [12]
+      </xref>. However, we found no evidence for a negative relationship between the trophic position of a species in unlogged forest and its change in abundance following logging. This implies that for leaf-litter ants, either the above factors do not influence susceptibility to intensive logging disturbance and/or these factors are not linked to trophic position. Whilst the potential for cascading effects following the loss of large-bodied top predators is a cause for serious concern 
+      <xref ref-type="bibr" rid="pone.0060756-Estes1">
+       [6]
+      </xref>, the prediction that trophic position is an important determinant of susceptibility to anthropogenic impacts thus may not hold generally 
+      <xref ref-type="bibr" rid="pone.0060756-Gray1">
+       [16]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Brashares1">
+       [61]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Collen1">
+       [62]
+      </xref>. This has important conservation implications in terms of understanding what makes a species vulnerable to anthropogenic disturbance, as well as for informing simulations that model the consequences of realistic extinction sequences on food webs (e.g. 
+      <xref ref-type="bibr" rid="pone.0060756-Srinivasan1">
+       [63]
+      </xref>).</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Community-Level Responses to Disturbance</title> 
+     <p>The differences in trophic positions of individual species translated into significant differences in food chain length between unlogged and logged forests. However, our results are in the opposite direction from that predicted by the dynamic constraints hypothesis 
+      <xref ref-type="bibr" rid="pone.0060756-Pimm1">
+       [21]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Morin1">
+       [22]
+      </xref>, with food chains approximately 0.2 trophic levels 
+      <italic>
+       longer
+      </italic> in disturbed forest. Nonetheless, our estimates of food chain length for the soil food web in both types of forest (3.73–4.10) are similar to those for other ecosystems (2.70–4.35; 
+      <xref ref-type="bibr" rid="pone.0060756-McHugh1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Takimoto1">
+       [19]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Walters1">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Hoeinghaus1">
+       [64]
+      </xref>). Moreover, the magnitude of change in food chain length falls within the range of values documented by studies used in a recent meta-analysis to test the effects of disturbance 
+      <xref ref-type="bibr" rid="pone.0060756-Takimoto2">
+       [26]
+      </xref>. While disturbance can reduce food chain length in some circumstances 
+      <xref ref-type="bibr" rid="pone.0060756-McHugh1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Sabo2">
+       [65]
+      </xref>, our study thus supports previous research 
+      <xref ref-type="bibr" rid="pone.0060756-Takimoto1">
+       [19]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Walters1">
+       [20]
+      </xref> indicating that disturbance does not have a consistent negative impact on food chain length in complex communities (see also 
+      <xref ref-type="bibr" rid="pone.0060756-Takimoto2">
+       [26]
+      </xref>).</p> 
+     <p>Previously documented positive effects of disturbance on food chain length have been attributed to increases in the abundance of early successional organisms 
+      <xref ref-type="bibr" rid="pone.0060756-Power1">
+       [18]
+      </xref>. Life history trade-offs mean that these organisms are often more palatable and experience higher herbivory rates 
+      <xref ref-type="bibr" rid="pone.0060756-Cates1">
+       [66]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Poorter1">
+       [67]
+      </xref>, and so more energy is available at the base of the food web, which then cascades upwards to lengthen food chains 
+      <xref ref-type="bibr" rid="pone.0060756-Power1">
+       [18]
+      </xref>. A similar mechanism could explain our results, with the flush of fast-growing understory plants in regenerating forest 
+      <xref ref-type="bibr" rid="pone.0060756-Berry1">
+       [32]
+      </xref> providing greater energy to support species at higher trophic positions. In this hypothesis, disturbance is, effectively, influencing food chains by causing changes in local productivity, reflecting the more consistently documented positive relationship between productivity and food chain length 
+      <xref ref-type="bibr" rid="pone.0060756-Takimoto2">
+       [26]
+      </xref>.</p> 
+     <p>Shifts in trophic organisation also occurred through the rest of the food web, with fewer colonies at low-intermediate trophic levels in logged forest (
+      <xref ref-type="fig" rid="pone-0060756-g001">
+       Figure 1
+      </xref>; 
+      <xref ref-type="supplementary-material" rid="pone.0060756.s002">
+       Figure S2
+      </xref>). Whilst inferences of changes in ecosystem functioning following disturbance should be made with caution when direct measurements of the relevant processes are lacking, these results nonetheless imply that the balance between low trophic level functions (e.g. seed dispersal) and high trophic level functions (e.g. predation) in leaf-litter ant communities is modified by anthropogenic disturbance.</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Conclusion</title> 
+     <p>Our results provide strong evidence that trophic structure differs between unlogged forest and forest regenerating from intensive selective logging, and that this difference is caused by changes in the trophic positions of ant species common to both types of forest. Combined with the significant reduction in colony abundance and shifts in community composition detected in heavily logged forest 
+      <xref ref-type="bibr" rid="pone.0060756-Woodcock1">
+       [45]
+      </xref>, our findings provide further evidence for anthropogenic disruption of the structure and functioning of rainforest ecosystems. Longer-term research will be necessary to determine if and how these changes influence the vulnerability of rainforest food webs to future disturbance (e.g. fire or subsequent logging cycles) and whether or not they are part of a recovery trajectory towards the trophic organisation of undisturbed forests. Importantly, however, there was no evidence for a collapse in trophic organisation similar to that documented following some other forms of anthropogenic disturbance 
+      <xref ref-type="bibr" rid="pone.0060756-Terborgh1">
+       [4]
+      </xref>. Our results therefore add empirical evidence to a body of theoretical research 
+      <xref ref-type="bibr" rid="pone.0060756-deRuiter1">
+       [68]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0060756-Staniczenko1">
+       [69]
+      </xref> suggesting that complex food webs possess a degree of flexibility in the face of some types of anthropogenic disturbance, in this instance effectively bending without breaking.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0060756.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0060756.s001" position="float" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>Map of study sites.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0060756.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0060756.s002" position="float" xlink:type="simple"> 
+     <label>Figure S2</label>  
+     <p>Abundance distributions for ant colonies and ant species in unlogged and logged forest.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0060756.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0060756.s003" position="float" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p>Mean trophic positions for ant species in unlogged and logged forest.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank staff at the Danum Valley Field Centre, especially Adam, Dedy Mustapha and Anthony Karolus for fieldwork assistance, and Glen Reynolds and Apech Karolus for logistical support and advice. Tom Fayle, Noel Tawatao and Sukarman Sukimin helped with the identification of ants, and Elly van der Linde assisted with sample preparation and isotope analysis. We also thank Owen Lewis, Mahesh Sankaran and two anonymous reviewers for helpful and constructive comments. We are grateful to Yayasan Sabah, the Danum Valley Management Committee, the State Secretary, Sabah Chief Minister’s Department, the Prime Minister’s Department (EPU) and the Sabah Forestry Department for permission to conduct research. This study is part of the Royal Society’s Southeast Asia Rainforest Research Programme (Project No. RS266).</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0060756-Duffy1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         France
+        </surname>
+        <given-names>
+         KE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McIntyre
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thebault
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        The functional role of biodiversity in ecosystems: incorporating trophic complexity
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        522
+       </fpage>–
+       <lpage>
+        538
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Rooney1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rooney
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCann
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moore
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        A landscape theory for food web architecture
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        867
+       </fpage>–
+       <lpage>
+        881
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Schindler1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schindler
+        </surname>
+        <given-names>
+         DE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cole
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kitchell
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pace
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Influence of food web structure on carbon exchange between lakes and the atmosphere
+       </article-title>. 
+       <source>Science 
+       <volume>
+        277
+       </volume>: 
+       <fpage>
+        248
+       </fpage>–
+       <lpage>
+        251
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Terborgh1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Terborgh
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lopez
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nunez
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rao
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shahabuddin
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Ecological meltdown in predator-free forest fragments
+       </article-title>. 
+       <source>Science 
+       <volume>
+        294
+       </volume>: 
+       <fpage>
+        1923
+       </fpage>–
+       <lpage>
+        1926
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Balvanera1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Balvanera
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pfisterer
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchmann
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         J-S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nakashizuka
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Quantifying the evidence for biodiversity effects on ecosystem functioning and services
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        1146
+       </fpage>–
+       <lpage>
+        1156
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Estes1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Estes
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Terborgh
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brashares
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Power
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berger
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Trophic downgrading of planet Earth
+       </article-title>. 
+       <source>Science 
+       <volume>
+        333
+       </volume>: 
+       <fpage>
+        306
+       </fpage>–
+       <lpage>
+        306
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-McCann1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McCann
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rooney
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The more food webs change, the more they stay the same
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B: Biol Sci 
+       <volume>
+        364
+       </volume>: 
+       <fpage>
+        1789
+       </fpage>–
+       <lpage>
+        1801
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Reiss1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reiss
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bridle
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montoya
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Woodward
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Emerging horizons in biodiversity and ecosystem functioning research
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        505
+       </fpage>–
+       <lpage>
+        514
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Duffy2"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Biodiversity and ecosystem function: the consumer connection
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        201
+       </fpage>–
+       <lpage>
+        219
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Duffy3"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Biodiversity loss, trophic skew and ecosystem functioning
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        680
+       </fpage>–
+       <lpage>
+        687
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Voigt1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Voigt
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Perner
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Egger
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schumacher
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Trophic levels are differentially sensitive to climate
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        84
+       </volume>: 
+       <fpage>
+        2444
+       </fpage>–
+       <lpage>
+        2453
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Eklof1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Eklof
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kaneryd
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Munger
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Climate change in meta-communities: dispersal gives double-sided effects on persistence
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B: Biol Sci 
+       <volume>
+        367
+       </volume>: 
+       <fpage>
+        2945
+       </fpage>–
+       <lpage>
+        2954
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Purvis1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Purvis
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gittleman
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cowlishaw
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mace
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Predicting extinction risk in declining species
+       </article-title>. 
+       <source>Proc R Soc Lond B: Biol Sci 
+       <volume>
+        267
+       </volume>: 
+       <fpage>
+        1947
+       </fpage>–
+       <lpage>
+        1952
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Blthgen1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blüthgen
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gebauer
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fiedler
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Disentangling a rainforest food web using stable isotopes: dietary diversity in a species-rich ant community
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        137
+       </volume>: 
+       <fpage>
+        426
+       </fpage>–
+       <lpage>
+        435
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Urton1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Urton
+        </surname>
+        <given-names>
+         EJM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hobson
+        </surname>
+        <given-names>
+         KA
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Intrapopulation variation in gray wolf isotope (δ
+        <sup>15</sup>N and δ
+        <sup>13</sup>C) profiles: implications for the ecology of individuals
+       </article-title>. 
+       <volume>
+        Oecologia145
+       </volume>: 
+       <fpage>
+        317
+       </fpage>–
+       <lpage>
+        326
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Gray1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gray
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baldauf
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mayhew
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hill
+        </surname>
+        <given-names>
+         JK
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        The response of avian feeding guilds to tropical forest disturbance
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        133
+       </fpage>–
+       <lpage>
+        141
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-McHugh1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McHugh
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McIntosh
+        </surname>
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jellyman
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Dual influences of ecosystem size and disturbance on food chain length in streams
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        881
+       </fpage>–
+       <lpage>
+        890
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Power1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Power
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Parker
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dietrich
+        </surname>
+        <given-names>
+         WE
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Seasonal reassembly of a river food web: floods, droughts, and impacts of fish
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        78
+       </volume>: 
+       <fpage>
+        263
+       </fpage>–
+       <lpage>
+        282
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Takimoto1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Takimoto
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spiller
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Ecosystem size, but not disturbance, determines food-chain length on islands of the Bahamas
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        3001
+       </fpage>–
+       <lpage>
+        3007
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Walters1"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walters
+        </surname>
+        <given-names>
+         AW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        An experimental disturbance alters fish size structure but not food chain length in streams
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        3261
+       </fpage>–
+       <lpage>
+        3267
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Pimm1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pimm
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawton
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        1977
+       </year>) 
+       <article-title>
+        Number of trophic levels in ecological communities
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        268
+       </volume>: 
+       <fpage>
+        329
+       </fpage>–
+       <lpage>
+        331
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Morin1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Morin
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawler
+        </surname>
+        <given-names>
+         SP
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Food web architecture and populations dynamics: theory and empirical evidence
+       </article-title>. 
+       <source>Annu Rev Ecol Syst 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        505
+       </fpage>–
+       <lpage>
+        529
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Post1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        The long and short of food-chain length
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        269
+       </fpage>–
+       <lpage>
+        277
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Srivastava1"> 
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Srivastava
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bell
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Reducing horizontal and vertical trophic diversity in a food web triggers extinctions and impacts functions
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        1016
+       </fpage>–
+       <lpage>
+        1028
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Sabo1"> 
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sabo
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Findlay
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Food chains in freshwaters
+       </article-title>. 
+       <source>Ann N Y Acad Sci 
+       <volume>
+        1162
+       </volume>: 
+       <fpage>
+        187
+       </fpage>–
+       <lpage>
+        220
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Takimoto2"> 
+      <label>26</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Takimoto G, Post DM (2012) Environmental determinants of food-chain length: a meta-analysis. Ecol Res DOI 10.1007/s11284–012–0943–7.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Asner1"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rudel
+        </surname>
+        <given-names>
+         TK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aide
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeFries
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emerson
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        A contemporary assessment of change in humid tropical forests
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        1386
+       </fpage>–
+       <lpage>
+        1395
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Laporte1"> 
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Laporte
+        </surname>
+        <given-names>
+         NT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stabach
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grosch
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         TS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goetz
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Expansion of industrial logging in Central Africa
+       </article-title>. 
+       <source>Science 
+       <volume>
+        316
+       </volume>: 
+       <fpage>
+        1451
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Pinard1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pinard
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Putz
+        </surname>
+        <given-names>
+         FE
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Retaining forest biomass by reducing logging damage
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        278
+       </fpage>–
+       <lpage>
+        295
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Vasconcelos1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vasconcelos
+        </surname>
+        <given-names>
+         HL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vilhena
+        </surname>
+        <given-names>
+         JMS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caliri
+        </surname>
+        <given-names>
+         GJA
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Responses of ants to selective logging of a central Amazonian forest
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        508
+       </fpage>–
+       <lpage>
+        514
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Peters1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peters
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Malcolm
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zimmerman
+        </surname>
+        <given-names>
+         BL
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Effects of selective logging on bat communities in the Southeastern Amazon
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        1410
+       </fpage>–
+       <lpage>
+        1421
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Berry1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Berry
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Phillips
+        </surname>
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hill
+        </surname>
+        <given-names>
+         JK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         DP
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The high value of logged tropical forests: lessons from northern Borneo
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        985
+       </fpage>–
+       <lpage>
+        997
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Edwards1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         DP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname>
+        <given-names>
+         TH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Docherty
+        </surname>
+        <given-names>
+         TDS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ansell
+        </surname>
+        <given-names>
+         FA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hsu
+        </surname>
+        <given-names>
+         WW
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Degraded lands worth protecting: The biological importance of Southeast Asia’s repeatedly logged forests
+       </article-title>. 
+       <source>Proc R Soc Lond B: Biol Sci 
+       <volume>
+        278
+       </volume>: 
+       <fpage>
+        82
+       </fpage>–
+       <lpage>
+        90
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Gardner1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gardner
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chazdon
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harvey
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Prospects for tropical biodiversity in a human-modified world
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        561
+       </fpage>–
+       <lpage>
+        582
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Schleuning1"> 
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schleuning
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Farwig
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peters
+        </surname>
+        <given-names>
+         MK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bergsdorf
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bleher
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Forest fragmentation and selective logging have inconsistent effects on multiple animal-mediated ecosystem processes in a tropical forest
+       </article-title>. 
+       <source>PLOS One 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        e27785
+       </fpage> 
+       <comment>
+        DOI:
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0027785" xlink:type="simple">
+         10.1371/journal.pone.0027785
+        </ext-link>
+       </comment>
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Ponsard1"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ponsard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arditi
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        What can stable isotopes (δ
+        <sup>15</sup>N and δ
+        <sup>13</sup>C) tell about the food web of soil macro-invertebrates?
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        852
+       </fpage>–
+       <lpage>
+        864
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Post2"> 
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Using stable isotopes to estimate trophic position: models, methods and assumptions
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        83
+       </volume>: 
+       <fpage>
+        703
+       </fpage>–
+       <lpage>
+        718
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Myers1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Myers
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         da Fonseca
+        </surname>
+        <given-names>
+         GAB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kent
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Biodiversity hotspots for conservation priorities
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        403
+       </volume>: 
+       <fpage>
+        853
+       </fpage>–
+       <lpage>
+        858
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Hoffmann1"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hoffmann
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hilton-Taylor
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Angulo
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Böhm
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The impact of conservation on the status of the world’s vertebrates
+       </article-title>. 
+       <source>Science 
+       <volume>
+        330
+       </volume>: 
+       <fpage>
+        1503
+       </fpage>–
+       <lpage>
+        1509
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-ITTO1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       ITTO (2008) Annual review and assessment of the world timber situation. Yokohama, Japan: International Tropical Timber Association (ITTO). Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.itto.int/en/annual_review" xlink:type="simple">
+        http://www.itto.int/en/annual_review
+       </ext-link>. Accessed November 2009.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Fisher1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         DP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Giam
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilcove
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        The high costs of conserving Southeast Asia’s lowland rainforest
+       </article-title>. 
+       <source>Front Ecol Environ 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        329
+       </fpage>–
+       <lpage>
+        334
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Passos1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Passos
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oliveira
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Ants affect the distribution and performance of seedlings of 
+        <italic>
+         Clusia criuva
+        </italic>, a primarily bird-dispersed rain forest tree
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        517
+       </fpage>–
+       <lpage>
+        528
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Wilson1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         EO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holldobler
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        The rise of the ants: A phylogenetic and ecological explanation
+       </article-title>. 
+       <source>P Natl Acad Sci USA 
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        7411
+       </fpage>–
+       <lpage>
+        7414
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Milton1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Milton
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kaspari
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Bottom-up and top-down regulation of decomposition in a tropical forest
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        153
+       </volume>: 
+       <fpage>
+        163
+       </fpage>–
+       <lpage>
+        172
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Woodcock1"> 
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Woodcock
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         DP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fayle
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Newton
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chey
+        </surname>
+        <given-names>
+         V-K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        The conservation value of South East Asia’s highly degraded forests: evidence from leaf-litter ants
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B: Biol Sci 
+       <volume>
+        366
+       </volume>: 
+       <fpage>
+        3256
+       </fpage>–
+       <lpage>
+        3264
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Lambert1"> 
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lambert
+        </surname>
+        <given-names>
+         FR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Collar
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        The future for Sundaic lowland forest birds: long-term effects of commercial logging
+       </article-title>. 
+       <source>Forktail 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        127
+       </fpage>–
+       <lpage>
+        146
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Reynolds1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reynolds
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Payne
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sinun
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mosigil
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walsh
+        </surname>
+        <given-names>
+         RPD
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Changes in forest land use and management in Sabah, Malaysian Borneo, 1990–2010, with a focus on the Danum Valley region
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B: Biol Sci 
+       <volume>
+        366
+       </volume>: 
+       <fpage>
+        3168
+       </fpage>–
+       <lpage>
+        3176
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Bestelmeyer1"> 
+      <label>48</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Bestelmeyer BT, Agosti D, Alonso LE, Brandão CRF, Brown Jr WL, 
+       <etal>
+        et al
+       </etal>.. (2000) Field techniques for the study of ground-dwelling ants: an overview, description and evaluation. In: Agosti D, Maier JD, Alonso LE, Schultz TR, editors. Ants – standard methods for measuring and monitoring biodiversity. Washington DC: Smithsonian Institution Press. 122–144.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Fayle1"> 
+      <label>49</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Fayle TM (2011) Key to the ant genera of Borneo. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.antbase.net/english/ants-of-southeast-asia/keys.html" xlink:type="simple">
+        http://www.antbase.net/english/ants-of-southeast-asia/keys.html
+       </ext-link>. Accessed October 2012.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Woodcock2"> 
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Woodcock
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         DP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Newton
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         FA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chey
+        </surname>
+        <given-names>
+         V-K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Assessing trophic position from nitrogen isotope ratios: effective calibration against spatially varying baselines
+       </article-title>. 
+       <source>Naturwissenschaften 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        275
+       </fpage>–
+       <lpage>
+        283
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Walsh1"> 
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walsh
+        </surname>
+        <given-names>
+         RPD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Newberry
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        The ecoclimatology of Danum, Sabah, in the context of the world’s rainforest regions, with particular reference to dry periods and their impact
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B: Biol Sci 
+       <volume>
+        354
+       </volume>: 
+       <fpage>
+        1869
+       </fpage>–
+       <lpage>
+        1883
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Brhl1"> 
+      <label>52</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Brühl CA (2001) Leaf litter ant communities in tropical lowland rainforests in Sabah, Malaysia: effects of forest disturbance and fragmentation. PhD Thesis. Würzburg: University of Würzburg.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Feldhaar1"> 
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feldhaar
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gebauer
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blüthgen
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Stable isotopes: past and future in exposing secrets of ant nutrition (Hymenoptera:Formicidae)
+       </article-title>. 
+       <source>Myrmecol News 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        13
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-BrownJr1"> 
+      <label>54</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Brown Jr WL (2000) Diversity of ants. In: Agosti D, Maier JD, Alonso LE, Schultz TR, editors. Ants – standard methods for measuring and monitoring biodiversity. Washington DC: Smithsonian Institution Press. 45–79.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Post3"> 
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Ecosystem size determines food-chain length in lakes
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        405
+       </volume>: 
+       <fpage>
+        1047
+       </fpage>–
+       <lpage>
+        1049
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Koh1"> 
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Koh
+        </surname>
+        <given-names>
+         LP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sodhi
+        </surname>
+        <given-names>
+         NS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brook
+        </surname>
+        <given-names>
+         BW
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Ecological correlates of extinction proneness in tropical butterflies
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        1571
+       </fpage>–
+       <lpage>
+        1578
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Post4"> 
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Takimoto
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Proximate structural mechanisms for variation in food-chain length
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        775
+       </fpage>–
+       <lpage>
+        782
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Gibb1"> 
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gibb
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cunningham
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Habitat contrasts reveal a shift in the trophic position of ant assemblages
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        80
+       </volume>: 
+       <fpage>
+        119
+       </fpage>–
+       <lpage>
+        127
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Nakagawa1"> 
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nakagawa
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hyodo
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nakashizuka
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Effects of forest use on trophic levels of small mammals: an analysis using stable isotopes
+       </article-title>. 
+       <source>Can J Zool 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        472
+       </fpage>–
+       <lpage>
+        478
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Didham1"> 
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Didham
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawton
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hammond
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eggleton
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Trophic structure stability and extinction dynamics of beetles (Coleoptera) in tropical forest fragments
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B: Biol Sci 
+       <volume>
+        353
+       </volume>: 
+       <fpage>
+        437
+       </fpage>–
+       <lpage>
+        451
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Brashares1"> 
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brashares
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Ecological, behavioural, and life-history correlates of mammal extinctions in West Africa
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        733
+       </fpage>–
+       <lpage>
+        743
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Collen1"> 
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Collen
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bykova
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ling
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Milner-Gulland
+        </surname>
+        <given-names>
+         EJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Purvis
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Extinction risk: a comparative analysis of Central Asian vertebrates
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        1859
+       </fpage>–
+       <lpage>
+        1871
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Srinivasan1"> 
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Srinivasan
+        </surname>
+        <given-names>
+         UT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dunne
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harte
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martinez
+        </surname>
+        <given-names>
+         ND
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Response of complex food webs to realistic extinction sequences
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        671
+       </fpage>–
+       <lpage>
+        682
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Hoeinghaus1"> 
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hoeinghaus
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Winemiller
+        </surname>
+        <given-names>
+         KO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Agostinho
+        </surname>
+        <given-names>
+         AA
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Hydrogeomorphology and river impoundment affect food-chain length of diverse Neotropical food webs
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        117
+       </volume>: 
+       <fpage>
+        984
+       </fpage>–
+       <lpage>
+        995
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Sabo2"> 
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sabo
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Finlay
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kennedy
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Post
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The role of discharge variation in scaling of drainage area and food chain length in rivers
+       </article-title>. 
+       <source>Science 
+       <volume>
+        330
+       </volume>: 
+       <fpage>
+        965
+       </fpage>–
+       <lpage>
+        967
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Cates1"> 
+      <label>66</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cates
+        </surname>
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Orians
+        </surname>
+        <given-names>
+         GH
+        </given-names>
+       </name> (
+       <year>
+        1975
+       </year>) 
+       <article-title>
+        Successional status and the palatability of plants to generalized herbivores
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        56
+       </volume>: 
+       <fpage>
+        410
+       </fpage>–
+       <lpage>
+        418
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Poorter1"> 
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Poorter
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         van de Plassche
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Willems
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boot
+        </surname>
+        <given-names>
+         RGA
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Leaf traits and herbivory rates of tropical tree species differing in successional status
+       </article-title>. 
+       <source>Plant Biol 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        746
+       </fpage>–
+       <lpage>
+        754
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-deRuiter1"> 
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         de Ruiter
+        </surname>
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wolters
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moore
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Winemiller
+        </surname>
+        <given-names>
+         KO
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Food web ecology: playing Jenga and beyond
+       </article-title>. 
+       <source>Science 
+       <volume>
+        309
+       </volume>: 
+       <fpage>
+        68
+       </fpage>–
+       <lpage>
+        71
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0060756-Staniczenko1"> 
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Staniczenko
+        </surname>
+        <given-names>
+         PPA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         OT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         NS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reed-Tsochas
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Structural dynamics and robustness of food webs
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        891
+       </fpage>–
+       <lpage>
+        899
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

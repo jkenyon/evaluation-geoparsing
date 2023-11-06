@@ -1,0 +1,4271 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-31675
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0059356
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Species interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Terrestrial environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Population ecology
+         </subject> 
+         <subject>
+          Restoration ecology
+         </subject> 
+         <subject>
+          Spatial and landscape ecology
+         </subject> 
+         <subject>
+          Systems ecology
+         </subject> 
+         <subject>
+          Terrestrial ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Population biology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Population ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Forest Restoration and Parasitoid Wasp Communities in Montane Hawai’i
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Wasps and Restoration in Hawai’i
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Gould
+        </surname> 
+        <given-names>
+         Rachelle K.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Pejchar
+        </surname> 
+        <given-names>
+         Liba
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bothwell
+        </surname> 
+        <given-names>
+         Sara G.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Brosi
+        </surname> 
+        <given-names>
+         Berry
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff5"> 
+        <sup>5</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Wolny
+        </surname> 
+        <given-names>
+         Stacie
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff6"> 
+        <sup>6</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Mendenhall
+        </surname> 
+        <given-names>
+         Chase D.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff7"> 
+        <sup>7</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Daily
+        </surname> 
+        <given-names>
+         Gretchen
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff7"> 
+        <sup>7</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       Emmett Interdisciplinary Program in Environment and Resources, Stanford University, Stanford, California, United States of America
+      </addr-line> 
+     </aff> 
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       Center for Conservation Biology, Stanford University, Stanford, California, United States of America
+      </addr-line> 
+     </aff> 
+     <aff id="aff3"> 
+      <label>3</label> 
+      <addr-line>
+       Department of Fish, Wildlife, and Conservation Biology, Colorado State University, Fort Collins, Colorado, United States of America
+      </addr-line> 
+     </aff> 
+     <aff id="aff4"> 
+      <label>4</label> 
+      <addr-line>
+       Department of Environmental Studies, University of California Santa Cruz, Santa Cruz, California, United States of America
+      </addr-line> 
+     </aff> 
+     <aff id="aff5"> 
+      <label>5</label> 
+      <addr-line>
+       Department of Environmental Studies, Emory University, Atlanta, Georgia, United States of America
+      </addr-line> 
+     </aff> 
+     <aff id="aff6"> 
+      <label>6</label> 
+      <addr-line>
+       Natural Capital Project, Stanford University, Stanford, California, United States of America
+      </addr-line> 
+     </aff> 
+     <aff id="aff7"> 
+      <label>7</label> 
+      <addr-line>
+       Department of Biology, Stanford University, Stanford, California, United States of America
+      </addr-line> 
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Chen
+        </surname> 
+        <given-names>
+         Han Y.H.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1"> 
+      <addr-line>
+       Lakehead University, Canada
+      </addr-line> 
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        rgould@stanford.edu
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: LP GCD. Performed the experiments: LP. Analyzed the data: RKG SGB BB SW CDM. Contributed reagents/materials/analysis tools: RKG GCD SGB. Wrote the paper: RKG GCD LP.</p> 
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2013
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="epub"> 
+      <day>
+       19
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2013
+      </year> 
+     </pub-date> 
+     <volume>
+      8
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e59356
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        12
+       </day> 
+       <month>
+        10
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        13
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2013
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2013
+      </copyright-year> 
+      <copyright-holder>
+       Gould et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <abstract> 
+      <p>Globally, most restoration efforts focus on re-creating the physical structure (flora or physical features) of a target ecosystem with the assumption that other ecosystem components will follow. Here we investigate that assumption by documenting biogeographical patterns in an important invertebrate taxon, the parasitoid wasp family Ichneumonidae, in a recently reforested Hawaiian landscape. Specifically, we test the influence of (1) planting configurations (corridors versus patches), (2) vegetation age, (3) distance from mature native forest, (4) surrounding tree cover, and (5) plant community composition on ichneumonid richness, abundance, and composition. We sampled over 7,000 wasps, 96.5% of which were not native to Hawai’i. We found greater relative richness and abundance of ichneumonids, and substantially different communities, in restored areas compared to mature forest and abandoned pasturelands. Non-native ichneumonids drive these differences; restored areas and native forest did not differ in native ichneumonid abundance. Among restored areas, ichneumonid communities did not differ by planting age or configuration. As tree cover increased within 120 m of a sampling point, ichneumonid community composition increasingly resembled that found in native forest. Similarly, native ichneumonid abundance increased with proximity to native forest. Our results suggest that restoration plantings, if situated near target forest ecosystems and in areas with higher local tree cover, can facilitate restoration of native fauna even in a highly invaded system.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       This study was funded by the Moore Family Foundation, the Stanford Center for Conservation Biology, the Winslow Foundation, and Peter and Helen Bing. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <page-count count="11" /> 
+     </counts> 
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Ecological restoration efforts to conserve both biodiversity and ecosystem services are increasingly common 
+     <xref ref-type="bibr" rid="pone.0059356-ReyBenayas1">
+      [1]
+     </xref>. The success of restoration remains poorly known, however, because of tendencies to monitor only a few ecosystem components 
+     <xref ref-type="bibr" rid="pone.0059356-Young1">
+      [2]
+     </xref> and for only a few years after restoration activity 
+     <xref ref-type="bibr" rid="pone.0059356-Goldstein1">
+      [3]
+     </xref>. The majority of projects are evaluated on progress towards restoring physical structure (flora or physical features) or vertebrate species of concern, while rarely measuring effects on other taxa or ecosystem processes 
+     <xref ref-type="bibr" rid="pone.0059356-Stewart1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Hilderbrand1">
+      [5]
+     </xref>. Among more systematically monitored projects, many fail to achieve the targeted ecosystem’s species composition, structure, or function 
+     <xref ref-type="bibr" rid="pone.0059356-Zedler1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Lockwood1">
+      [7]
+     </xref>.</p> 
+    <p>Arthropods play important roles in ecosystems as pollinators, predators, parasites, and prey 
+     <xref ref-type="bibr" rid="pone.0059356-Williams1">
+      [8]
+     </xref>. Their small size, short life cycles, and large numbers facilitate use as indicators of overall biodiversity and ecosystem stability 
+     <xref ref-type="bibr" rid="pone.0059356-Longcore1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Maleque1">
+      [10]
+     </xref>. The use of arthropods to monitor restoration progress, however, also has a notable disadvantage: the scarcity of life history and ecological data on most arthropod species make some ecological analyses difficult 
+     <xref ref-type="bibr" rid="pone.0059356-Longcore1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Majer1">
+      [11]
+     </xref>. Among studies of arthropod response to restoration of native plants, some report successful arthropod community restoration compared to the reference ecosystem in the long term (30 years) 
+     <xref ref-type="bibr" rid="pone.0059356-Majer1">
+      [11]
+     </xref>, and even in the short term (&lt;6 years 
+     <xref ref-type="bibr" rid="pone.0059356-Williams1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Jansen1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Burger1">
+      [13]
+     </xref>). The definition of “success” varies 
+     <xref ref-type="bibr" rid="pone.0059356-Allison1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Choi1">
+      [15]
+     </xref>. One of these studies, for example, found common arthropods in similar densities on planted and naturally occurring shrubs in California scrubland, but that planted shrubs were less likely to support rare species 
+     <xref ref-type="bibr" rid="pone.0059356-Burger1">
+      [13]
+     </xref>. Other studies have found markedly dissimilar communities between restored and reference sites in both the short and long term 
+     <xref ref-type="bibr" rid="pone.0059356-Longcore1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Majer1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Parmenter1">
+      [16]
+     </xref>; one documented greater butterfly richness and abundance in restored areas than in control areas 
+     <xref ref-type="bibr" rid="pone.0059356-Waltz1">
+      [17]
+     </xref>.</p> 
+    <p>Driven by mixed results from past analyses of arthropods in restoration, we explore the effect of efforts to restore pasturelands to montane Hawaiian forest on the parasitoid wasp family Ichneumonidae. This family, with ca. 60,000 species 
+     <xref ref-type="bibr" rid="pone.0059356-Goulet1">
+      [18]
+     </xref>, is one of the most biologically diverse insect families in the world. We chose to focus on ichneumonids for a number of reasons. First, the native Hawaiian ichneumonid fauna includes at least three subfamilies and 38 species 
+     <xref ref-type="bibr" rid="pone.0059356-Peck1">
+      [19]
+     </xref>. Second, Ichneumonids are relatively host-specific parasitoids whose diversity is thought to reflect that of their hosts 
+     <xref ref-type="bibr" rid="pone.0059356-Shaw1">
+      [20]
+     </xref> and sometimes other arthropod groups 
+     <xref ref-type="bibr" rid="pone.0059356-Anderson1">
+      [21]
+     </xref>; relatedly, their complex trophic roles can lead to substantial impacts on other species when icheumonids are introduced into new ecosystems 
+     <xref ref-type="bibr" rid="pone.0059356-Snyder1">
+      [22]
+     </xref>. Third, they appear to disperse readily to suitable habitat 
+     <xref ref-type="bibr" rid="pone.0059356-Nouhuys1">
+      [23]
+     </xref> and to indicate environmental change 
+     <xref ref-type="bibr" rid="pone.0059356-Shaw2">
+      [24]
+     </xref>.</p> 
+    <p>Another important reason for selecting this taxon is that many native and non-native ichneumonids in Hawai’i parasitize Lepidoptera 
+     <xref ref-type="bibr" rid="pone.0059356-Peck1">
+      [19]
+     </xref>. Biologists working in Hawai’i have suggested that non-native dominance of ichneumonid communities may impact threatened native birds by depleting their prey through parasitism 
+     <xref ref-type="bibr" rid="pone.0059356-Peck2">
+      [25]
+     </xref>. The fairly well-known dominance of Hawaii’s ichneumonid fauna by non-natives 
+     <xref ref-type="bibr" rid="pone.0059356-Peck1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Henneman1">
+      [26]
+     </xref> does not detract from the taxon’s relevance to restoration due to the extraordinary role played in Hawai’i by non-native species 
+     <xref ref-type="bibr" rid="pone.0059356-Pimentel1">
+      [27]
+     </xref>, including flora 
+     <xref ref-type="bibr" rid="pone.0059356-Litton1">
+      [28]
+     </xref>, arthropods 
+     <xref ref-type="bibr" rid="pone.0059356-Pimentel1">
+      [27]
+     </xref>, and birds 
+     <xref ref-type="bibr" rid="pone.0059356-Freed1">
+      [29]
+     </xref>. Hawai’i provides a rich example of a system for which restoration cannot proceed without accounting for non-native species. We thus seek to understand the impacts of restoration on a biologically informative taxon despite the high proportion of non-native species in its Hawaiian populations.</p> 
+    <p>In this study we explore whether planting of a dominant native tree species (
+     <italic>
+      Acacia koa
+     </italic>), along with a number of native understory trees and shrubs, yields an ichneumonid wasp fauna resembling communities found in nearby native Hawaiian forest. We investigated an ongoing, large-scale restoration effort in the Hakalau Forest National Wildlife Refuge in Hawai’i, focusing on distance to native forest, planting configuration, and time since planting. We frame our habitat restoration study around both native and non-native species to address the following questions: 1) Do Ichneumonidae use reforested 
+     <italic>
+      A. koa
+     </italic> stands?; 2) How do ichneumonid communities in restored habitats compare with those in native forest, the target ecosystem?; and 3) Does ichneumonid community composition, particularly with respect to native species, vary as a function of a) age of planting, b) planting configuration (patches versus corridors), c) distance from native forest, d) surrounding tree cover, or e) components of the understory plant community?</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>We received permission to conduct this study and to collect insect samples in the form of Special Use Permits issued by the U.S. Fish and Wildlife Service in 2007 (SUP# 12516-07018) and 2008 (SUP#12516-08022). No protected species were sampled.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Study Site</title> 
+     <p>We sampled ichneumonids in the Hakalau Forest National Wildlife Refuge (HFNWR), a United States government-owned 10,500 ha reserve on the eastern slope of Hawai’i Island (
+      <xref ref-type="fig" rid="pone-0059356-g001">
+       Fig. 1
+      </xref>). Native, mature forest covers ca. 7,000 ha of the reserve (the portion below ca. 1,750–1,900 m elevation). Dominant canopy species in this forest are 
+      <italic>
+       Acacia koa
+      </italic> (koa) and 
+      <italic>
+       Metrosideros polymorpha
+      </italic> (‘ōhi’a); the understory is comprised mostly of native trees and ferns, with some non-native trees, forbs, and lianas. The remaining 3,500 ha at higher elevations, although originally forested, were cleared for cattle pasture in the early to mid-1800’s and are now dominated by non-native grasses. The U.S. Fish and Wildlife Service acquired this land in 1986, primarily to protect and restore prime habitat for Hawaii’s highly endangered forest bird species. The HFNWR initiated reforestation in former pastureland in 1987 
+      <xref ref-type="bibr" rid="pone.0059356-Wass1">
+       [30]
+      </xref>, 20 years before we conducted this study, and reforestation efforts continue today. We sampled within stands that were planted from the late 1980s through the early 2000s and were 5–20 years old at the time of this study.</p> 
+     <fig id="pone-0059356-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0059356.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Map of study site, Hakalau National Forest Wildlife Refuge.</title> 
+      <p>Geometric figures indicate sampling points and corresponding habitat types. Sampling points and a designation of the approximate boundary of the native forest (dotted white line) are overlaid on a 0.5 m-resolution aerial photograph showing tree cover (dark areas are the forest, corridors, and patches).</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.g001" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Habitat Types</title> 
+     <p>HFNWR’s reforestation program involved planting primarily koa seedlings. Koa was selected for its rapid growth and ability to survive in high-light, non-forest conditions at high elevations. Planting was conducted in two designs: linear corridors stretching uphill from within the mature forest, and roughly rectangular patches of trees in the middle of pasture. Planting locations were selected without reference to soils or geomorphology (see 
+      <xref ref-type="fig" rid="pone-0059356-g001">
+       Fig. 1
+      </xref>). Since 2003 there has been regular planting of native understory trees and shrubs within these koa corridors and patches. At the time of this study, natural regeneration under planted koa was limited to several fern species (personal observations) and the shrub 
+      <italic>
+       Vaccinium reticulatum
+      </italic>. Corridors are approximately 40 m wide and range from 0.5 to 2.5 km in length. Patches are roughly rectangular, with sides of 70–125 m.</p> 
+     <p>The landscape now comprises a variety of different habitat types, referenced here as:</p> 
+     <list list-type="order"> 
+      <list-item> 
+       <p>
+        <italic>
+         Native forest
+        </italic> – contiguous native forest; the target system of the restoration effort.</p> 
+      </list-item> 
+      <list-item> 
+       <p>
+        <italic>
+         Remnant corridors
+        </italic> – corridors of mature (unplanted), native trees persisting in former pasturelands in steep gulches, somewhat protected from former cattle disturbance.</p> 
+      </list-item> 
+      <list-item> 
+       <p>
+        <italic>
+         Old planted corridors
+        </italic> – corridors planted with koa 11–20 years before this study; these corridors were planted on relatively flat land.</p> 
+      </list-item> 
+      <list-item> 
+       <p>
+        <italic>
+         Young planted corridors
+        </italic> – corridors planted with koa 5–10 years before this study; these corridors were planted on relatively flat land.</p> 
+      </list-item> 
+      <list-item> 
+       <p>
+        <italic>
+         Patches
+        </italic> – stands of koa planted 5–20 years before this study.</p> 
+      </list-item> 
+      <list-item> 
+       <p>
+        <italic>
+         Grassland
+        </italic> – former pastureland, dominated by non-native grasses.</p> 
+      </list-item> 
+     </list> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Ichneumonid and Vegetation Sampling</title> 
+     <p>We sampled plants and arthropods at HFNWR from June–August 2007 and June–August 2008. We surveyed 12 corridors (four remnant corridors, four young planted corridors, and four old planted corridors), five patches of restored koa, and four grassland sites. We identified suitable replicate corridors and stands using aerial images, historical records, and expert field-based knowledge. The entire study site (
+      <xref ref-type="fig" rid="pone-0059356-g001">
+       Fig. 1
+      </xref>) extends about 6 km north-south, and 3 km east-west. All sampling points are between 1,650 and 2,000 m elevation.</p> 
+     <p>For each corridor, we surveyed fixed points starting 300 m within the native forest adjacent to the corridor and continuing at 150 m intervals along each corridor’s length. The first points, at 300 m and 150 m inside the native forest, constitute our native forest sampling (
+      <xref ref-type="fig" rid="pone-0059356-g001">
+       Fig. 1
+      </xref>). At each patch and grassland site, our goal was to collect a representative sample of wasps from the area. In patches, we determined center points using aerial photographs in a Geographic Information System; we measured the length and width of patches, identified the center point, and subsequently found these points in the field using UTM coordinates. We selected sites for grassland sampling by using these same tools to identify the points on the Refuge furthest from the nearest tree cover. We established survey locations at the patch center or grassland site ‘center’ and 50 m from those points at 0°, 120°, and 240°. We combined data from all four sampling locations in each patch and grassland; we situated survey points in three different directions 50 m away simply as a non-biased method for increasing sampling coverage.</p> 
+     <sec id="s2d1"> 
+      <title>Ichneumonid sampling</title> 
+      <p>We surveyed arthropods using six pan traps at each point. Pan traps were 20-cm-diameter plastic bowls 
+       <xref ref-type="bibr" rid="pone.0059356-Abrahamczyk1">
+        [31]
+       </xref>, placed on the ground 1–2 m apart in the vicinity of each sampling point. We used three colors (two blue, two yellow, and two white at each point) to attract a diversity of invertebrates, since species may respond differently to the color spectrum. We filled traps approximately 2/3 full of water; to decrease surface tension we added biodegradable soap (1 ml per liter of water). We left the traps out 24 hours (12 hours of daylight) unless weather conditions during part or all of that time were such that wasps were unlikely to be active (e.g., high humidity or high wind conditions 
+       <xref ref-type="bibr" rid="pone.0059356-GonzlezMoreno1">
+        [32]
+       </xref>). In those cases we left the traps out longer in order to ensure 12 hours of “effective” trapping time. We combined samples from all six traps at each point. We repeated this survey twice in Summer 2007 and three times in Summer 2008, for a total of five summer sampling days at each point.</p> 
+      <p>We built a reference collection of Ichneumonidae and identified them to subfamily using Goulet and Huber (1993) and then to genus or species using the “Key to the Ichneumonids of Hawaii” 
+       <xref ref-type="bibr" rid="pone.0059356-Beardsley1">
+        [33]
+       </xref>. For one species not in the key, we consulted an expert 
+       <xref ref-type="bibr" rid="pone.0059356-Peck3">
+        [34]
+       </xref>. We followed the native/non-native descriptions of Hawaii’s Bishop Museum 
+       <xref ref-type="bibr" rid="pone.0059356-Nishida1">
+        [35]
+       </xref>. Our data are publicly available in the Dryad database at 
+       <ext-link ext-link-type="uri" xlink:href="http://www.datadryad.org" xlink:type="simple">
+        www.datadryad.org
+       </ext-link>, 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.dr6s2" xlink:type="simple">
+        http://dx.doi.org/10.5061/dryad.dr6s2
+       </ext-link>.</p> 
+     </sec> 
+     <sec id="s2d2"> 
+      <title>Vegetation sampling</title> 
+      <p>In all but remnant corridors, we recorded the abundance and size class of all vegetation in a 10×10 m<sup>2</sup> square centered on the sampling point. In the excessively steep terrain of remnant corridors, which typically had woody vegetation that extended only 5 m away from a deep gulch, we sampled vegetation in a 5×10 m<sup>2</sup> rectangle centered on the sampling point.</p> 
+     </sec> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Data Analysis</title> 
+     <p>We tested the effects of habitat type, surrounding tree cover, and distance to forest on ichneumonids using a number of analyses. First, we compared ichneumonid richness and abundance across habitat types (section 2.4.1). Second, we analyzed ichneumonid community composition variation across habitat types (section 2.4.1). Third, we examined whether three response variables [(a) ichneumonid species richness, (b) native ichneumonid abundance, and (c) the similarity of individual sites to the pooled community of ichneumonids in forest habitats] varied with respect to three explanatory variables [(a) distance to forest, (b) tree cover, and (c) for abundance of native ichneumonids only, the non-koa plant community] (section 2.4.2).</p> 
+     <p>We do not consider samples within the same corridor, patch, or grassland independent from one another; nor did we consider the temporal replicates from each point independent. We minimize the risk of pseudoreplication using the techniques described below and detailed in the Supporting Information (S1. Elaboration of Methods).</p> 
+     <sec id="s2e1"> 
+      <title>Comparison of wasp communities across the landscape</title> 
+      <p>To assess whether ichneumonids visit restoration plantings differently than they do adjacent unrestored areas, we calculated sampled species richness and individual abundance. To determine statistical significance of observed differences, we used a Generalized Linear Mixed Model, a method described in more detail below and in the Supporting Information (S1).</p> 
+      <p>To compare wasp communities across habitats, we used permutational, nonparametric multivariate analysis of variance tests (“PerMANOVA”) 
+       <xref ref-type="bibr" rid="pone.0059356-Anderson2">
+        [36]
+       </xref>. We conducted one global analysis, and then pairwise analyses for habitat pairs of interest. We conducted PerMANOVA analyses using the “adonis” function in R 
+       <xref ref-type="bibr" rid="pone.0059356-R1">
+        [37]
+       </xref>. To prevent pseudoreplication in the PerMANOVA tests, we pooled temporal replicates and used only one sampling point from each corridor, patch, and grassland. The Supporting Information (S1) details the points used in each habitat type and two alternative verifications of the results. We conducted non-metric multidimensional scaling to aid in visualization of relationships presented below.</p> 
+      <p>We based community similarity tests on Chao similarity coefficients 
+       <xref ref-type="bibr" rid="pone.0059356-Chao1">
+        [38]
+       </xref> to account for our many rarely encountered species (
+       <xref ref-type="table" rid="pone-0059356-t001">
+        Table 1
+       </xref>). We also developed a similarity-to-forest index based on Chao similarity coefficients; the index quantifies community composition similarity of each sampling point in the corridors with a set of sampling locations in the target ecosystem (12 points, each 300 m inside the forest edge; see 
+       <xref ref-type="fig" rid="pone-0059356-g001">
+        Figure 1
+       </xref>). We calculated this index for each point by calculating Chao similarity coefficients (denoted as 
+       <italic>
+        C
+       </italic>) for each planted point (denoted as 
+       <italic>
+        k
+       </italic>) compared with each forest point (denoted as 
+       <italic>
+        f
+        <sub>i</sub>
+       </italic>) (see Eq. 1). We then calculated the arithmetic mean of those 12 Chao similarity coefficients for each planted point (denoted as 
+       <italic>
+        Mp
+       </italic>):
+       <disp-formula id="pone.0059356.e001">
+        <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0059356.e001" xlink:type="simple" />
+        <label>(1)</label>
+       </disp-formula></p> 
+      <table-wrap id="pone-0059356-t001" position="float"> 
+       <object-id pub-id-type="doi">
+        10.1371/journal.pone.0059356.t001
+       </object-id> 
+       <label>Table 1</label>  
+       <title>The scientific name, status (native or introduced) and abundance of all ichneumonids sampled in this study.</title>  
+       <alternatives> 
+        <graphic id="pone-0059356-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.t001" xlink:type="simple" /> 
+        <table> 
+         <colgroup span="1"> 
+          <col align="left" span="1"> 
+          <col align="center" span="1"> 
+          <col align="center" span="1"> 
+         </colgroup> 
+         <thead> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Species</td> 
+           <td align="left" rowspan="1" colspan="1">Native or introduced?</td> 
+           <td align="left" rowspan="1" colspan="1">Abundance</td> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Agasthenes swezyzi</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">3127</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Barichneumon californicum</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">7</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Diadegma blackburni</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">336</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Diadegma insularis</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">53</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Diplazon laetatorius</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">23</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Enicospilus sp.1</td> 
+           <td align="left" rowspan="1" colspan="1">Native</td> 
+           <td align="left" rowspan="1" colspan="1">2</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Gelis sp.1</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">60</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Gelis tenellus</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">8</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Hyposoter exiguae</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">213</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Ichneumon cupitus</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">204</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Ichnuemon purpuripennis</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">74</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Ichnuemon lugubrator</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">2</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Ichnuemon near laetus</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">31</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Ichnuemon sp.1 (near lugubrator)</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">99</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Megastylus flavopictus</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">2</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Pimpla punicipes</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">395</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Pristomerus hawaiiensis</td> 
+           <td align="left" rowspan="1" colspan="1">Native</td> 
+           <td align="left" rowspan="1" colspan="1">6</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Rubicundiella perturbatrix</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">56</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Spolas sp.1</td> 
+           <td align="left" rowspan="1" colspan="1">Native</td> 
+           <td align="left" rowspan="1" colspan="1">265</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Vulgichneumon diminutus</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">1381</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Woldstedtius flavolineatus</td> 
+           <td align="left" rowspan="1" colspan="1">Introduced</td> 
+           <td align="left" rowspan="1" colspan="1">1380</td> 
+          </tr> 
+         </tbody> 
+        </table> 
+       </alternatives> 
+      </table-wrap> 
+      <p>To convert the results into a more easily interpretable 0–1 format, we standardized values by dividing each 
+       <italic>
+        Mp
+       </italic> value by the maximum 
+       <italic>
+        Mp
+       </italic> value in the dataset (
+       <italic>
+        Mp
+        <sub>max</sub>
+       </italic>):
+       <disp-formula id="pone.0059356.e002">
+        <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0059356.e002" xlink:type="simple" />
+        <label>(2)</label>
+       </disp-formula></p> 
+      <p>Because the similarity-to-forest index was created from proportional data, we transformed the data using the logit transform so that they closely fit normality assumptions 
+       <xref ref-type="bibr" rid="pone.0059356-Warton1">
+        [39]
+       </xref>.</p> 
+     </sec> 
+     <sec id="s2e2"> 
+      <title>Effects of distance to forest, tree cover, and plant community</title> 
+      <p>We used Generalized Linear Mixed-Effects Models (GLMM) 
+       <xref ref-type="bibr" rid="pone.0059356-Bolker1">
+        [40]
+       </xref> to quantify the impact of three explanatory variables [distance from forest, tree cover, and presence/absence of non-koa plants (
+       <xref ref-type="table" rid="pone-0059356-t002">
+        Table 2
+       </xref> and 
+       <xref ref-type="supplementary-material" rid="pone.0059356.s001">
+        Table S1
+       </xref>)] on three response variables [ichneumonid species richness, similarity-to-forest index, and abundance of native Ichneumonids]. All response variables exhibited spatial autocorrelation as measured by Moran’s I (Appendix A). The GLMM addressed this autocorrelation by grouping spatially proximate observations (through the specification of corridor as a random effect); sampling points within corridors were not considered independent from one another (spatially or otherwise). Similarly, when all temporal replicates were used in analyses, the GLMM addressed the non-independence of data from the same sampling point (through the specification of sampling point as a random effect). That is, the GLMM approach avoided pseudoreplication by accounting for the non-independence of sampling points while using all spatial and temporal replicates 
+       <xref ref-type="bibr" rid="pone.0059356-Crawley1">
+        [41]
+       </xref>, 
+       <xref ref-type="bibr" rid="pone.0059356-Zuur1">
+        [42]
+       </xref>.</p> 
+      <table-wrap id="pone-0059356-t002" position="float"> 
+       <object-id pub-id-type="doi">
+        10.1371/journal.pone.0059356.t002
+       </object-id> 
+       <label>Table 2</label>  
+       <title>Summary of GLMM Analyses.</title>  
+       <alternatives> 
+        <graphic id="pone-0059356-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.t002" xlink:type="simple" /> 
+        <table> 
+         <colgroup span="1"> 
+          <col align="left" span="1"> 
+          <col align="center" span="1"> 
+          <col align="center" span="1"> 
+          <col align="center" span="1"> 
+          <col align="center" span="1"> 
+          <col align="center" span="1"> 
+         </colgroup> 
+         <thead> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Question</td> 
+           <td align="left" rowspan="1" colspan="1">Response Variable(s)</td> 
+           <td align="left" rowspan="1" colspan="1">Explanatory Variable(s)</td> 
+           <td align="left" rowspan="1" colspan="1">Random Effects Structure</td> 
+           <td align="left" rowspan="1" colspan="1">Error Structure</td> 
+           <td align="left" rowspan="1" colspan="1">Notes</td> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Do richness andabundance of ichneumonidsvary between pastureandrestoration sites?</td> 
+           <td align="left" rowspan="1" colspan="1">Ichneumonid richnessIchneumonid abundance</td> 
+           <td align="left" rowspan="1" colspan="1">Habitat type (grassland vs. planted sites)</td> 
+           <td align="left" rowspan="1" colspan="1">Point nested within corridor</td> 
+           <td align="left" rowspan="1" colspan="1">Poisson</td> 
+           <td align="left" rowspan="1" colspan="1">(1) Forest and remnant corridors excluded (interest was in whether ichneumonids were found in restoration plantings)</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Is the similarity-to-forest index correlated with distance to forest or tree cover?</td> 
+           <td align="left" rowspan="1" colspan="1">Similarity-to-forest index</td> 
+           <td align="left" rowspan="1" colspan="1">Distance to forestTree cover</td> 
+           <td align="left" rowspan="1" colspan="1">Point nested within corridor</td> 
+           <td align="left" rowspan="1" colspan="1">Normal (Gaussian)</td> 
+           <td align="left" rowspan="1" colspan="1">(1) Only forest and corridor points used (distance gradient only present in corridors) (2) All points 300 m into forest omitted (because involved in similarity-to-forest calculation) (3) Points &gt;1.5 km from forest omitted (because at distances &gt;1.5 km sample sizes are too low)</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Is native ichneumonid abundance correlatedwith distance fromforest or tree cover?</td> 
+           <td align="left" rowspan="1" colspan="1">Abundance of all three native ichneumonidspecies found</td> 
+           <td align="left" rowspan="1" colspan="1">Distance from forestTree cover</td> 
+           <td align="left" rowspan="1" colspan="1">Point nested within corridor</td> 
+           <td align="left" rowspan="1" colspan="1">Poisson</td> 
+           <td align="left" rowspan="1" colspan="1">(1) Only forest and corridor points used (distance gradient only present in corridors) (2) Points &gt;1.5 km from forest omitted (because at distances &gt;1.5 km sample sizes are too low).</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Does native ichneumonid presence differ by habitat type?</td> 
+           <td align="left" rowspan="1" colspan="1">Abundance of all three native ichneumonidspecies found</td> 
+           <td align="left" rowspan="1" colspan="1">Habitat type</td> 
+           <td align="left" rowspan="1" colspan="1">Point nested within corridor</td> 
+           <td align="left" rowspan="1" colspan="1">Poisson</td> 
+           <td align="left" rowspan="1" colspan="1"></td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Is the presence of 
+            <italic>
+             Spolas
+            </italic> sp.1 correlated with plant community composition?</td> 
+           <td align="left" rowspan="1" colspan="1">Presence/absence of
+            <italic>
+             Spolas
+            </italic> sp.1</td> 
+           <td align="left" rowspan="1" colspan="1">Presence/absence of plant species</td> 
+           <td align="left" rowspan="1" colspan="1">Corridor</td> 
+           <td align="left" rowspan="1" colspan="1">Binomial</td> 
+           <td align="left" rowspan="1" colspan="1">(1) Only 
+            <italic>
+             Spolas
+            </italic> sp.1 used in this analysis, due to the host-specific nature of plant-invertebrate host-parasitoid interactions (2) Temporal replicates pooled</td> 
+          </tr> 
+         </tbody> 
+        </table> 
+       </alternatives> 
+      </table-wrap> 
+      <p>We specified a Poisson error structure for count data, a binomial error structure for presence/absence data, and a Gaussian error structure for proportional data. All count and presence/absence data were neither overdispersed nor underdispersed, and proportional data fit normality assumptions after logit transformation 
+       <xref ref-type="bibr" rid="pone.0059356-Warton1">
+        [39]
+       </xref>. We conducted GLMM analyses in R, using the “lmer” function in the “lme4” package. 
+       <xref ref-type="table" rid="pone-0059356-t002">
+        Table 2
+       </xref> details all GLMM analyses conducted.</p> 
+      <p>We calculated local tree cover using ArcMap10.0 and a 2010 WorldView II satellite image with 0.5 m-resolution 
+       <xref ref-type="bibr" rid="pone.0059356-DigitalGlobe1">
+        [43]
+       </xref>. We performed a supervised classification to define a tree cover layer, and validated the tree cover classification through GPS-based ground-truthing. We used this tree cover layer to calculate tree cover within a 120 m radius about each survey location (this distance avoids overlap of radii between points; see Appendix A).</p> 
+     </sec> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>We collected 7,724 ichneumonid individuals, and identified 96% (7,399) to species and the rest (4%) to genus (
+     <xref ref-type="table" rid="pone-0059356-t001">
+      Table 1
+     </xref>). Our reference collection of 21 morphospecies comprised 17 species-level identifications, and four morphospecies identified to genus. Of all individuals sampled, 3.5% by abundance (273 individuals) were identified as native to Hawai’i and 97% (265) of these natives were in the genus 
+     <italic>
+      Spolas
+     </italic> (we identified these as a single morphospecies, 
+     <italic>
+      Spolas
+     </italic> sp.1). The other natives sampled were 
+     <italic>
+      Pristomerus hawaiiensis
+     </italic> (six individuals) and 
+     <italic>
+      Enicospilus sp.1
+     </italic> (two individuals). Unless otherwise indicated, we pool abundances of the three native species in analyses of native ichneumonids below. We found 18 non-native morphospecies, three of which were numerically dominant – 
+     <italic>
+      Agasthenes swezyzii
+     </italic> (3,127 individuals, 41% of total catch), 
+     <italic>
+      Vulgichneumon diminutus (
+     </italic>1,381, 18%) and 
+     <italic>
+      Woldstedtius flavolineatus
+     </italic> (1,380, 18%). The next most abundant species were an order of magnitude less common.</p> 
+    <sec id="s3a"> 
+     <title>Comparison of the Abundance and Species Richness of Ichneumonidae</title> 
+     <p>We found that the richness and abundance of ichneumonid communities were both higher in reforested areas (both patches and corridors) than in grassland (GLMM: z = 5.50; 
+      <italic>
+       p
+      </italic>&lt;0.0001 (richness) and z = 6.08; 
+      <italic>
+       p
+      </italic>&lt;0.001 (abundance)) and forest (GLMM: z = −3.54; 
+      <italic>
+       p
+      </italic>&lt;0.0001 (richness) and z = −4.54; 
+      <italic>
+       p
+      </italic>&lt;0.001 (abundance)). Richness values were about twice as great in reforested areas, and abundance values were 5–10 times higher (
+      <xref ref-type="fig" rid="pone-0059356-g002">
+       Fig. 2
+      </xref>).</p> 
+     <fig id="pone-0059356-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0059356.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Wasp community characteristics in different habitat types.</title> 
+      <p>Panel A represents abundance; panel B represents richness. Habitat types are forest (
+       <bold>
+        F
+       </bold>), grasslands (
+       <bold>
+        G
+       </bold>), old and young planted corridors (
+       <bold>
+        OPC
+       </bold> and 
+       <bold>
+        YPC
+       </bold>, respectively), and planted patches (
+       <bold>
+        PP
+       </bold>). Open circles represent outliers.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.g002" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Comparison of Wasp Communities</title> 
+     <p>Most of the Ichneumonidae collected in all habitat types were non-native to Hawai’i; non-native wasps comprised 100% of wasps sampled in grassland (74 individuals), 97% of wasps sampled in reforested corridors and patches (5,423, of a total of 5,584), and 92% (971 of 1,059) of wasps sampled in forest.</p> 
+     <p>Differences in the ichneumonid communities existed among all six habitat types (F = 4.17, 
+      <italic>
+       p = 
+      </italic>0.001, df = 4,24) (
+      <xref ref-type="table" rid="pone-0059356-t003">
+       Table 3
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0059356-g003">
+       Fig. 3
+      </xref>). We focus our pairwise comparisons on reforested areas, grassland, and forest, since these habitat types are most relevant for restoration. Ichneumonid community composition differed between the grassland and reforested areas (corridors and patches) (F = 8.6, 
+      <italic>
+       p = 
+      </italic>0.001, df = 1,19). Ichneumonid communities in the native forest were significantly different from those in all planted sites (patches and planted corridors) (F = 13.49, 
+      <italic>
+       p = 
+      </italic>0.001, df = 1,23). This difference held for comparisons between native forest and planted corridors alone (F = 16.64, 
+      <italic>
+       p = 
+      </italic>0.001, df = 1,18) and between native forest and patches alone (F = 5.77, 
+      <italic>
+       p = 
+      </italic>0.003, df = 1,15). We found higher abundances of native ichneumonids in native forest than in all corridors (z = −2.00, 
+      <italic>
+       p = 
+      </italic>0.045), in forest than in remnant corridors (z = −2.832, 
+      <italic>
+       p
+      </italic> = 0.004), and in planted than in remnant corridors (z = 2.48, 
+      <italic>
+       p = 
+      </italic>0.013). We found no difference in native ichneumonid abundance between native forest and planted corridors (z = −0.913, 
+      <italic>
+       p = 
+      </italic>0.361), nor between young and old planted corridors (z = −0.890, 
+      <italic>
+       p = 
+      </italic>0.373).</p> 
+     <fig id="pone-0059356-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0059356.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Multi-dimensional scaling plot.</title> 
+      <p>Plot demonstrates similarities in ichneumonid community composition in different habitat types.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.g003" position="float" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0059356-t003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0059356.t003
+      </object-id> 
+      <label>Table 3</label>  
+      <title>Community similarity of all ichneumonids among habitat types of interest in this study.</title>  
+      <alternatives> 
+       <graphic id="pone-0059356-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.t003" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Analysis</td> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <italic>
+            df
+           </italic> </td> 
+          <td align="left" rowspan="1" colspan="1">SS</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <italic>
+            F
+           </italic> </td> 
+          <td align="left" rowspan="1" colspan="1">R<sup>2</sup></td> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <italic>
+            p
+           </italic> </td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Grassland v. restoration plantings
+           </bold> (old planted corridors, young planted corridors,and patches)</td> 
+          <td align="left" rowspan="1" colspan="1">1,19</td> 
+          <td align="left" rowspan="1" colspan="1">1.60</td> 
+          <td align="left" rowspan="1" colspan="1">1.60</td> 
+          <td align="left" rowspan="1" colspan="1">8.6</td> 
+          <td align="left" rowspan="1" colspan="1">0.31</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Grassland v. restored corridors
+           </bold> (old planted corridors and young planted corridors)</td> 
+          <td align="left" rowspan="1" colspan="1">1,10</td> 
+          <td align="left" rowspan="1" colspan="1">1.85</td> 
+          <td align="left" rowspan="1" colspan="1">1.85</td> 
+          <td align="left" rowspan="1" colspan="1">23.84</td> 
+          <td align="left" rowspan="1" colspan="1">0.70</td> 
+          <td align="left" rowspan="1" colspan="1">0.005</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <bold>
+            Grassland v. patches
+           </bold> </td> 
+          <td align="left" rowspan="1" colspan="1">1,7</td> 
+          <td align="left" rowspan="1" colspan="1">1.13</td> 
+          <td align="left" rowspan="1" colspan="1">1.13</td> 
+          <td align="left" rowspan="1" colspan="1">6.32</td> 
+          <td align="left" rowspan="1" colspan="1">0.47</td> 
+          <td align="left" rowspan="1" colspan="1">0.007</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            All habitats
+           </bold> (native forest, native forest remnant corridors, old planted corridors,young planted corridors, patches, and grassland)</td> 
+          <td align="left" rowspan="1" colspan="1">4,24</td> 
+          <td align="left" rowspan="1" colspan="1">2.57</td> 
+          <td align="left" rowspan="1" colspan="1">0.64</td> 
+          <td align="left" rowspan="1" colspan="1">4.17</td> 
+          <td align="left" rowspan="1" colspan="1">0.41</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Native forest v. restoration plantings
+           </bold> (old planted corridors, young plantedcorridors, and patches)</td> 
+          <td align="left" rowspan="1" colspan="1">1,23</td> 
+          <td align="left" rowspan="1" colspan="1">1.85</td> 
+          <td align="left" rowspan="1" colspan="1">1.85</td> 
+          <td align="left" rowspan="1" colspan="1">13.49</td> 
+          <td align="left" rowspan="1" colspan="1">0.37</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Native forest v. restored corridors
+           </bold> (old planted corridorsand young planted corridors)</td> 
+          <td align="left" rowspan="1" colspan="1">1,18</td> 
+          <td align="left" rowspan="1" colspan="1">1.83</td> 
+          <td align="left" rowspan="1" colspan="1">1.83</td> 
+          <td align="left" rowspan="1" colspan="1">16.64</td> 
+          <td align="left" rowspan="1" colspan="1">0.48</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <bold>
+            Native forest v. patches
+           </bold> </td> 
+          <td align="left" rowspan="1" colspan="1">1,15</td> 
+          <td align="left" rowspan="1" colspan="1">0.80</td> 
+          <td align="left" rowspan="1" colspan="1">0.80</td> 
+          <td align="left" rowspan="1" colspan="1">5.77</td> 
+          <td align="left" rowspan="1" colspan="1">0.28</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Native forest remnant corridors v. restored forest corridors
+           </bold> (old plantedcorridors and young planted corridors)</td> 
+          <td align="left" rowspan="1" colspan="1">1,10</td> 
+          <td align="left" rowspan="1" colspan="1">0.41</td> 
+          <td align="left" rowspan="1" colspan="1">0.41</td> 
+          <td align="left" rowspan="1" colspan="1">2.29</td> 
+          <td align="left" rowspan="1" colspan="1">0.19</td> 
+          <td align="left" rowspan="1" colspan="1">0.078</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <bold>
+            Old planted corridors v. young planted corridors
+           </bold> </td> 
+          <td align="left" rowspan="1" colspan="1">1,10</td> 
+          <td align="left" rowspan="1" colspan="1">0.16</td> 
+          <td align="left" rowspan="1" colspan="1">0.16</td> 
+          <td align="left" rowspan="1" colspan="1">1.67</td> 
+          <td align="left" rowspan="1" colspan="1">0.22</td> 
+          <td align="left" rowspan="1" colspan="1">0.313</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Restored forest corridors
+           </bold> (old planted corridors and young planted corridors)
+           <bold>
+            v. patches
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1,11</td> 
+          <td align="left" rowspan="1" colspan="1">0.34</td> 
+          <td align="left" rowspan="1" colspan="1">0.34</td> 
+          <td align="left" rowspan="1" colspan="1">2.33</td> 
+          <td align="left" rowspan="1" colspan="1">0.17</td> 
+          <td align="left" rowspan="1" colspan="1">0.130</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>These PerMANOVA analyses can be viewed as statistical representation of the relationships expressed in the MDS plot (
+         <xref ref-type="fig" rid="pone-0059356-g003">
+          Fig. 3
+         </xref>). Higher R<sup>2</sup> and F values indicate greater dissimilarity. Degrees of freedom are given for the variable and then the residuals.</p> 
+       </fn> 
+      </table-wrap-foot> 
+     </table-wrap> 
+     <p>Ichneumonid communities did not differ by planting configuration (F = 2.33, 
+      <italic>
+       p = 
+      </italic>0.130, df = 1,11). In addition, communities found in remnant corridors were not significantly different from those in planted corridors (F = 2.29, 
+      <italic>
+       p = 
+      </italic>0.078, df = 1,10). Nor did ichneumonid communities differ by planting age (F = 1.67, 
+      <italic>
+       p = 
+      </italic>0.313, df = 1,6).</p> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Effects of Tree Cover</title> 
+     <p>The community similarity-to-forest index was significantly correlated with tree cover within a 120 m radius of each sampling point (t = 10.61; 
+      <italic>
+       p
+      </italic>&lt;0.001; 
+      <xref ref-type="fig" rid="pone-0059356-g004">
+       Fig. 4
+      </xref>). We found no relationship between native ichneumonid abundance and tree cover (z = 1.33; 
+      <italic>
+       p = 
+      </italic>0.183). Despite a lack of statistical significance, we observed three general patterns (
+      <xref ref-type="fig" rid="pone-0059356-g004">
+       Fig. 4
+      </xref>): (1) when surrounding tree cover within 120 m was higher than 90%, native ichneumonids were present about 90% of the time; (2) native ichneumonids were encountered about 60% of the time when surrounding tree cover was between 38 and 90%; and (3) native ichneumonids were not found when surrounding tree cover was less than 38%.</p> 
+     <fig id="pone-0059356-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0059356.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Relationship between similarity-to-forest index and percent tree cover.</title> 
+      <p>At points represented by a circle we found no native individuals; at points indicated by a triangle we found at least one native individual. Tree cover is calculated within a circle of 120 m radius surrounding each sampling point in all corridors. Our GLMM analysis found the trend of increasing similarity to forest with increasing tree cover significant.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.g004" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3d"> 
+     <title>Effects of Distance to Native Forest</title> 
+     <p>We found a positive relationship between native ichneumonid abundance and proximity to forest (
+      <xref ref-type="fig" rid="pone-0059356-g005">
+       Fig. 5
+      </xref>, z = −4.33, 
+      <italic>
+       p
+      </italic>&lt;0.001). We found no significant relationship between distance to forest and ichneumonid communities, however, presumably because native ichneumonid individuals are so few; the community similarity-to-forest index was not correlated with distance to forest (t = 0.855, 
+      <italic>
+       p = 
+      </italic>0.393).</p> 
+     <fig id="pone-0059356-g005" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0059356.g005
+      </object-id> 
+      <label>Figure 5</label>  
+      <title>Abundance of native Ichneumonidae with increasing distance from native forest.</title> 
+      <p>Our GLMM analysis found the trend of decreasing abundance of native species with increasing distance to forest significant. Values less than zero on the 
+       <italic>
+        x
+       </italic>-axis indicate points within the native forest.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0059356.g005" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3e"> 
+     <title>Effects of Non-koa Plant Community Composition</title> 
+     <p>Among understory plant species surveyed (Appendix B), two were significantly correlated with the presence of 
+      <italic>
+       Spolas
+      </italic> sp.1 (we used only 
+      <italic>
+       Spolas
+      </italic> sp.1 in understory analyses because no other native (morpho)species was sufficiently abundant for analysis). Presence of the native understory tree 
+      <italic>
+       Myrsine lessertiana
+      </italic> (kōlea) was positively correlated with presence of 
+      <italic>
+       Spolas
+      </italic> sp.1 (z = 2.77; 
+      <italic>
+       p = 
+      </italic>0.006); conversely, presence of the native fern 
+      <italic>
+       Pteridium aquilinum var. decompositum
+      </italic> (bracken fern) was negatively correlated with 
+      <italic>
+       Spolas
+      </italic> sp.1 presence (z = −2.31; 
+      <italic>
+       p = 
+      </italic>0.021).</p> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>The Hakalau Forest National Wildlife Refuge restoration effort aims to re-create in former pasturelands a forest that supports the same species that occurred prior to cattle ranching and still occur in adjacent mature forest. HFNWR is particularly concerned with aiding in the recovery of endangered flora and fauna 
+     <xref ref-type="bibr" rid="pone.0059356-Horiuchi1">
+      [44]
+     </xref>. Although restoring ichneumonid populations is not an explicit management objective for HFNWR, the refuge’s goal of providing habitat for Hawaii’s native species 
+     <xref ref-type="bibr" rid="pone.0059356-US1">
+      [45]
+     </xref> encompasses native ichneumonids. Refuge scientists are also particularly interested in ichneumonid populations because non-native parasitoid wasps may contribute to the decline of bird populations through reduction of important insect prey 
+     <xref ref-type="bibr" rid="pone.0059356-Peck2">
+      [25]
+     </xref>. Non-native species are an important consideration for most Hawaiian restoration efforts 
+     <xref ref-type="bibr" rid="pone.0059356-Litton1">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Ostertag1">
+      [46]
+     </xref>; in HFNWR, particular non-natives species of concern include feral pigs (
+     <italic>
+      Sus scrofa
+     </italic>) 
+     <xref ref-type="bibr" rid="pone.0059356-Hess1">
+      [47]
+     </xref>, several highly invasive plant species, and the approximately 25% of the avian population comprised of non-native birds 
+     <xref ref-type="bibr" rid="pone.0059356-Camp1">
+      [48]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0059356-Freed2">
+      [49]
+     </xref>.</p> 
+    <sec id="s4a"> 
+     <title>Non-native Species and ‘Novel Ecosystems’</title> 
+     <p>Given that 96.5% of our ichneumonid samples comprised non-native species, at least the arthropod component of our study area could be considered a novel ecosystem 
+      <xref ref-type="bibr" rid="pone.0059356-Hobbs1">
+       [50]
+      </xref>. In such novel ecosystems, management approaches that recognize and account for novel species assemblages are needed because complete eradication of non-native species is likely infeasible 
+      <xref ref-type="bibr" rid="pone.0059356-Hobbs2">
+       [51]
+      </xref>. While most restoration approaches in Hawai’i are attuned to the roles of non-native species, they often lack important knowledge (for example, of population levels and species interactions) that could guide management decisions.</p> 
+     <p>Ecological restoration could be considered a sub-field of “intervention ecology,” a moniker alluding to both the human agency in restoration and the unlikelihood, in many circumstances, of fully re-creating a pre-existing system 
+      <xref ref-type="bibr" rid="pone.0059356-Hobbs3">
+       [52]
+      </xref>. The high proportion of non-native species found in our study begets many questions about restoration trajectories and how human “interventions” impact ecological interactions. In the context of a restoration intervention such as this one, for instance, it is possible that the dominance of non-native species may decline as the ecosystem responds to restoration efforts 
+      <xref ref-type="bibr" rid="pone.0059356-Ruhl1">
+       [53]
+      </xref>. If and how interactions between native and non-native species change over time in restoration projects, however, are important questions that warrant further inquiry, because detailed information on ecological interactions is often lacking, as it is in our study system. Our analysis did not include lepidopteran larval rearing studies, an important step in determining ichneumonid impact on ecological communities 
+      <xref ref-type="bibr" rid="pone.0059356-Henneman1">
+       [26]
+      </xref>. Given that HFNWR was created to protect increasingly rare native birds whose diets comprise lepidopteran larvae, and given the overwhelming dominance of non-native Ichneumonidae in this system, such studies are especially important. To add to the complexity, we do not know if the overall abundance of ichneumonids is now higher due to the influx of non-natives. Higher populations would likely negatively impact prey species populations, at least in the short term. Conversely, it is possible that non-native ichneumonids are filling niches left vacant by extirpated or rare native ichneumonid species 
+      <xref ref-type="bibr" rid="pone.0059356-DAntonio1">
+       [54]
+      </xref>. Further study of this novel ecosystem would help to illuminate these interactions and impacts.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Patterns Important for Restoration Efforts</title> 
+     <p>We found significantly higher abundances and greater species diversity of ichneumonids in planted sites than in adjacent grasslands and in the target ecosystem. We found that ichneumonid communities in all planted sites differed from the target system, which is consistent with many past studies of arthropod communities and restoration, for instance in Wyoming 
+      <xref ref-type="bibr" rid="pone.0059356-Parmenter1">
+       [16]
+      </xref>, Arizona 
+      <xref ref-type="bibr" rid="pone.0059356-Waltz1">
+       [17]
+      </xref>, and California 
+      <xref ref-type="bibr" rid="pone.0059356-Longcore1">
+       [9]
+      </xref>. Other past research in agricultural landscapes (as opposed to lands undergoing native habitat restoration) has found greater species richness of bees and wasps in agricultural systems than in protected forest 
+      <xref ref-type="bibr" rid="pone.0059356-Schepp1">
+       [55]
+      </xref>. The consistency of our results with these previous findings leads to questions about the mechanisms underlying higher diversity of arthropod communities in agricultural and restored habitats compared with arthropod communities in native forest.</p> 
+     <p>As in other studies 
+      <xref ref-type="bibr" rid="pone.0059356-Grimbacher1">
+       [56]
+      </xref> investigation of the relationship between different aspects of ichneumonid community composition and site characteristics yields information pertinent to restoration and management. Although plantings had greater overall (native and non-native) ichneumonid abundance and species richness than native forest, the abundance of native ichneumonids did not differ significantly between plantings and native forest. This is an important distinction that is encouraging for native-focused restoration efforts. We found that restoration of native forest may help to increase the abundance of native Ichneumonidae with respect to non-natives. Specifically, we found native ichneumonids only in native habitat and restored areas (not grasslands), and these individuals were more abundant in areas with higher surrounding tree cover. Further studies are needed to explore the effect of restoration on interactions between native and non-native members of this ecological community.</p> 
+     <p>In corridors, we found a positive relationship between native ichneumonid abundance and proximity to forest. This result, combined with the lack of a difference in native ichneumonid abundance between forests and planted corridors, confirms that the majority of native ichneumonids in corridors are found closer to the forest. The implication of this finding (that native ichneumonids are venturing from the forest into corridors) is an important consideration for restoration, especially in non-native-dominated systems. This result is consistent with past work, which has found that connectivity to target habitat can increase restoration success 
+      <xref ref-type="bibr" rid="pone.0059356-Woodcock1">
+       [57]
+      </xref>.</p> 
+     <p>We also found that, in corridors, overall tree cover at a relatively fine scale (120 m) is related to the similarity between a given point’s ichneumonid community and the community in the target native forest ecosystem. Research on other highly mobile taxa, such as birds 
+      <xref ref-type="bibr" rid="pone.0059356-Haslem1">
+       [58]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Mendenhall1">
+       [59]
+      </xref>, flying beetles 
+      <xref ref-type="bibr" rid="pone.0059356-Woodcock1">
+       [57]
+      </xref>, butterflies, and moths 
+      <xref ref-type="bibr" rid="pone.0059356-Williams2">
+       [60]
+      </xref>, similarly found that total area of native vegetation is a strong determinant of target species presence in restoration sites.</p> 
+     <p>These two findings, that ichneumonid communities are related to both proximity to native forest and the proportion of tree cover in the surrounding landscape, are consistent with prior work on the distribution of wasps in heterogeneous human-modified landscapes 
+      <xref ref-type="bibr" rid="pone.0059356-Schepp2">
+       [61]
+      </xref> and suggest that landscape context is a critical concern for restoration planning 
+      <xref ref-type="bibr" rid="pone.0059356-Lamb1">
+       [62]
+      </xref>. Our results related to tree cover suggest the importance of trees in particular to ichneumonids. Although we found ichneumonids throughout restoration corridors (up to 1.5 km from native forest), we do not know how far they will fly over non-preferred habitat (in this case, former pastureland) to reach preferred habitat (in this case, trees). Restoration in general should consider that the distance between a restoration site and ‘source’ habitat may be a critical factor for colonization by many taxa, and particularly arthropods 
+      <xref ref-type="bibr" rid="pone.0059356-Debinski1">
+       [63]
+      </xref>. Other factors, however, may outweigh distance, especially for highly mobile arthropods such as butterflies and moths 
+      <xref ref-type="bibr" rid="pone.0059356-Cunningham1">
+       [64]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Summerville1">
+       [65]
+      </xref>. Each species’ colonization ability will interact with distance between habitats, and for arthropods, as with many other taxa, that interaction will be critical to restoration success 
+      <xref ref-type="bibr" rid="pone.0059356-Grimbacher1">
+       [56]
+      </xref>. Our results do not address these issues directly, but raise important questions for future research.</p> 
+     <p>That neither native wasp abundance nor overall community composition differ by age of planting is not surprising given ichneumonids’ mobility 
+      <xref ref-type="bibr" rid="pone.0059356-Nouhuys1">
+       [23]
+      </xref> and the relative maturity of even our youngest sites. This result nevertheless demonstrates that ichneumonids visit restoration plantings within 10 years (this study does not reveal whether the ichneumonids were feeding, reproducing, or passing through the restoration sites). Although a past study found arthropod communities more similar to the target ecosystem in older plantings (6–17 years as opposed to 2–4 years) 
+      <xref ref-type="bibr" rid="pone.0059356-Grimbacher1">
+       [56]
+      </xref>, rapid colonization (in &lt;5 years) is possible even for taxa with relatively low mobility, such as wingless arthropods 
+      <xref ref-type="bibr" rid="pone.0059356-Woodcock2">
+       [66]
+      </xref>. It is possible that plantings in our study are in a slower-growth stage of a non-linear transformation process; that is, major changes may have occurred within the first five years (as in 
+      <xref ref-type="bibr" rid="pone.0059356-Grimbacher1">
+       [56]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Woodcock2">
+       [66]
+      </xref>), but subsequent changes (e.g., in years 5–20 after restoration) occur more slowly.</p> 
+     <p>Just as age of planting did not seem to impact ichneumonid communities, our results do not suggest that the configuration of planted trees (i.e. patches versus corridors) impacts ichneumonid community composition. This finding is consistent with the scarce past work on arthropods and restoration configurations. Ingham and Samways 
+      <xref ref-type="bibr" rid="pone.0059356-Ingham1">
+       [67]
+      </xref> found that Hymenopterans (wasps, bees, and ants) in South Africa were not restricted to forest fragments and patches; their distributions had no relationship to obvious landscape boundaries.</p> 
+     <p>Native 
+      <italic>
+       Spolas
+      </italic> sp.1 were widespread at HFNWR, and their occurrence was positively and negatively correlated with a native sub-canopy tree species (
+      <italic>
+       Myrsine lessertiana
+      </italic>) and native bracken fern (
+      <italic>
+       Pteridium aquilinum var. decompositum
+      </italic>), respectively. Future research could focus on understanding the potential for certain plant species in this system to facilitate the return of particular invertebrate species, for example through provision of native host insects. Previous work has demonstrated this role for plants in other systems. In one site in southwest Australia, for instance, most restored plant species supported distinct assemblages of hemiptera (‘true bugs’) 
+      <xref ref-type="bibr" rid="pone.0059356-Moir1">
+       [68]
+      </xref>. In a site in the United Kingdom, insect assemblages in native tree plantations with understory restoration plantings were more similar to target habitat than assemblages in native tree plantations lacking understory plantings 
+      <xref ref-type="bibr" rid="pone.0059356-Moffatt1">
+       [69]
+      </xref>. In a third site in California, not only plant species composition but also genotype composition affected arthropod community composition 
+      <xref ref-type="bibr" rid="pone.0059356-Bangert1">
+       [70]
+      </xref>. These past findings suggest important considerations for restoration efforts and, combined with our results, inspire questions about plant-arthropod interactions in our study system. For example, does 
+      <italic>
+       Spolas
+      </italic> sp.1 parasitize a species hosted by 
+      <italic>
+       M. lessertiana
+      </italic>? Conversely, are other plants (in this case 
+      <italic>
+       P. aquilinum
+      </italic>, which spontaneously colonized our study area) associated with factors that make an area less hospitable to native Ichneumonidae?</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Limitations</title> 
+     <p>We sampled only in summer months; variations in multiple domains (e.g., floral resource availability; weather) suggest that results could differ with year-round sampling 
+      <xref ref-type="bibr" rid="pone.0059356-Pearson1">
+       [71]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Poulin1">
+       [72]
+      </xref>. Inter-annual variation (e.g., droughts or major storm events) could also impact ichneumonid communities 
+      <xref ref-type="bibr" rid="pone.0059356-Ovadia1">
+       [73]
+      </xref>. Further, findings might well change with a longer temporal scale than our 16-month period. Additional limitations arise from the spatial arrangement of habitat types. Remnant corridors follow gulches, and thus have different geomorphological characteristics than planted corridors. Young planted corridors are all on the northern edge of the study area and grasslands are nearer the western edge of the study area, while the other habitat types are more evenly distributed. We do not perceive these limitations as great because overall biotic and abiotic conditions in the study area are quite similar.</p> 
+     <p>An additional limitation may stem from the likely impact of edge effects (the variation in species populations at the nexus of two habitat types separated by an abrupt edge 
+      <xref ref-type="bibr" rid="pone.0059356-Murcia1">
+       [74]
+      </xref>). Because planted corridors in our study were approximately 40 m wide, entire corridors could be considered edge habitat 
+      <xref ref-type="bibr" rid="pone.0059356-Ries1">
+       [75]
+      </xref>. While a number of studies have found edge effects for invertebrates between forest and grassland 
+      <xref ref-type="bibr" rid="pone.0059356-Magura1">
+       [76]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Didham1">
+       [77]
+      </xref>, others have not 
+      <xref ref-type="bibr" rid="pone.0059356-Cunningham1">
+       [64]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Kotze1">
+       [78]
+      </xref>. Our forest sampling sites that were farthest from an edge were 300 m into the forest; it is possible, and perhaps likely, that edge effects impact these areas as well. One study, for instance, found that edge effects for arthropods (beetles) extended as far as 1 km 
+      <xref ref-type="bibr" rid="pone.0059356-Ewers1">
+       [79]
+      </xref>. Because all corridors were roughly the same width, the likely effect of habitat edges does not jeopardize our results. As restoration proceeds and the corridors widen and eventually meet, these edge effects will be greatly reduced.</p> 
+    </sec> 
+    <sec id="s4d"> 
+     <title>Conclusions</title> 
+     <p>The results of this study can inform restoration action and future restoration research. Although most land stewards do not manage explicitly for ichneumonids, these insects may serve as indicators of various ecological processes 
+      <xref ref-type="bibr" rid="pone.0059356-Shaw1">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Anderson1">
+       [21]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0059356-Shaw2">
+       [24]
+      </xref> and may play critical roles in inter-specific interactions such as parasitism. A better understanding of the effects of time, design (corridor or patch), and landscape context (surrounding tree cover and distance from native, mature forest) on these ecologically important organisms will help landowners, public agencies, and conservation organizations to understand more about the benefits of restoration projects to a broad array of species and will aid efforts to maximize the conservation value of planted forests. Our study suggests that restoration plantings attracted native ichneumonids in numbers similar to native forest, and they also attracted a diversity of non-native wasps. Future restoration interventions may consider implementing restoration plantings in areas with higher surrounding tree cover and biotic connections (e.g., corridors) to native forest, and/or 
+      <italic>
+       creating
+      </italic> surrounding tree cover and connections to native forest through restoration plantings, to increase the chance that ichneumonid communities will more closely resemble those of existing native ecosystems. Our findings also reinforce the need for future restoration efforts, especially those in novel ecosystems, to consider the role of non-native species in recently restored ecosystems.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0059356.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0059356.s001" position="float" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p> 
+      <bold>
+       All plant species identified during vegetation sampling.
+      </bold> </p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0059356.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0059356.s002" position="float" xlink:type="simple"> 
+     <label>File S1</label>  
+     <p> 
+      <bold>
+       Elaboration of Methods.
+      </bold> </p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We appreciate the many individuals who helped with this project: Pete Oboyski and Paul Ehrlich for providing guidance on project design and specimen identification; Robert Peck for frequent consultation on Hawaiian Ichneumonidae; Susan Culliney, Peter Olson, Ahn Nguyet Vu, and Annie Wattles for collecting the data in the field; Daniel Karp and Benjamin Woodcock for helpful comments on the manuscript; and Akhila Bettadapur, Japna Sethi, Varshini Cherukupalli, Eugene Lee, and Lindley Mease for their hours of microscope work sorting Ichneumonidae from other arthropods.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0059356-ReyBenayas1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rey Benayas
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Newton
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Diaz
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bullock
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Enhancement of Biodiversity and Ecosystem Services by Ecological Restoration: A Meta-Analysis
+       </article-title>. 
+       <source>Science 
+       <volume>
+        325
+       </volume>: 
+       <fpage>
+        1121
+       </fpage>–
+       <lpage>
+        1124
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Young1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Young
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Restoration ecology and conservation biology
+       </article-title>. 
+       <source>Biological conservation 
+       <volume>
+        92
+       </volume>: 
+       <fpage>
+        73
+       </fpage>–
+       <lpage>
+        83
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Goldstein1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Goldstein
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pejchar
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daily
+        </surname>
+        <given-names>
+         GC
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Using return-on-investment to guide restoration: a case study from Hawaii
+       </article-title>. 
+       <source>Conservation Letters 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        236
+       </fpage>–
+       <lpage>
+        243
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Stewart1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Stewart A, New T, Lewis O. Insect Conservation Biology: Proceedings of the Royal Entomological Society’s 23rd Symposium. In; 2007. The Royal Entomological Society.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Hilderbrand1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hilderbrand
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Watts
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Randle
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        The myths of restoration ecology
+       </article-title>. 
+       <source>Ecology and Society 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        30
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Zedler1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zedler
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Callaway
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Tracking wetland restoration: do mitigation sites follow desired trajectories?
+       </article-title> 
+       <source>Restoration Ecology 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        69
+       </fpage>–
+       <lpage>
+        73
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Lockwood1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Lockwood JL, Pimm SL (1999) When does restoration succeed? In: Weiher E, Keddy P, editors. Ecological assembly rules: perspectives, advances, retreats. New York, NY: Cambridge University Press. 363–392.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Williams1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        Use of Terrestrial Arthropods to Evaluate Restored Riparian Woodlands
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        107
+       </fpage>–
+       <lpage>
+        116
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Longcore1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Longcore
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Terrestrial arthropods as indicators of ecological restoration success in coastal sage scrub (California, USA)
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        397
+       </fpage>–
+       <lpage>
+        409
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Maleque1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Maleque
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ishii
+        </surname>
+        <given-names>
+         HT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Maeto
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        The use of arthropods as indicators of ecosystem integrity in forest management
+       </article-title>. 
+       <source>Journal of Forestry 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        113
+       </fpage>–
+       <lpage>
+        117
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Majer1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Majer
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brennan
+        </surname>
+        <given-names>
+         KEC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moir
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Invertebrates and the restoration of a forest ecosystem: 30 years of research following bauxite mining in Western Australia
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        104
+       </fpage>–
+       <lpage>
+        115
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Jansen1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jansen
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Terrestrial invertebrate community structure as an indicator of the success of a tropical rainforest restoration project
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        115
+       </fpage>–
+       <lpage>
+        124
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Burger1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Burger
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Redak
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rotenberry
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         MF
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Restoring arthropod communities in coastal sage scrub
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        460
+       </fpage>–
+       <lpage>
+        467
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Allison1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allison
+        </surname>
+        <given-names>
+         SK
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        You Can’t Not Choose: Embracing the Role of Choice in Ecological Restoration
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        601
+       </fpage>–
+       <lpage>
+        605
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Choi1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Choi
+        </surname>
+        <given-names>
+         YD
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Restoration Ecology to the Future: A Call for New Paradigm
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        351
+       </fpage>–
+       <lpage>
+        353
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Parmenter1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Parmenter
+        </surname>
+        <given-names>
+         RR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         MacMahon
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        1987
+       </year>) 
+       <article-title>
+        Early Successional Patterns Of Arthropod Recolonization On Reclaimed Strip Mines In Southwestern Wyoming - The Ground-Dwelling Beetle Fauna (Coleoptera)
+       </article-title>. 
+       <source>Environmental Entomology 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        168
+       </fpage>–
+       <lpage>
+        177
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Waltz1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Waltz
+        </surname>
+        <given-names>
+         AEM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Covington
+        </surname>
+        <given-names>
+         WW
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Ecological restoration treatments increase butterfly richness and abundance: Mechanisms of response
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        85
+       </fpage>–
+       <lpage>
+        96
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Goulet1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Goulet H, Huber J, editors (1993) Hymenoptera of the world: an identification guide to families. Ottawa, Canada: Agriculture Canada. 668 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Peck1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peck
+        </surname>
+        <given-names>
+         RW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Banko
+        </surname>
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schwarzfeld
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Euaparadorn
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brinck
+        </surname>
+        <given-names>
+         KW
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Alien dominance of the parasitoid wasp community along an elevation gradient on Hawai’i Island
+       </article-title>. 
+       <source>Biological Invasions 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        15
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Shaw1"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shaw
+        </surname>
+        <given-names>
+         MR
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Habitat considerations for parasitic wasps (Hymenoptera)
+       </article-title>. 
+       <source>Journal of Insect Conservation 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        117
+       </fpage>–
+       <lpage>
+        127
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Anderson1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCormack
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Helden
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheridan
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kinsella
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        The potential of parasitoid Hymenoptera as bioindicators of arthropod diversity in agricultural grasslands
+       </article-title>. 
+       <source>Journal of Applied Ecology 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        382
+       </fpage>–
+       <lpage>
+        390
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Snyder1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Snyder WE, Evans EW (2006) Ecological effects of invasive arthropod generalist predators. Annual Review of Ecology, Evolution, and Systematics: 95–122.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Nouhuys1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nouhuys
+        </surname>
+        <given-names>
+         SV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hanski
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Colonization Rates and Distances of a Host Butterfly and Two Specific Parasitoids in a Fragmented Landscape
+       </article-title>. 
+       <source>The Journal of Animal Ecology 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        639
+       </fpage>–
+       <lpage>
+        650
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Shaw2"> 
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shaw
+        </surname>
+        <given-names>
+         MR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hochberg
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        The neglect of parasitic hymenoptera in insect conservation strategies: the British fauna as a prime example
+       </article-title>. 
+       <source>Journal of Insect Conservation 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        253
+       </fpage>–
+       <lpage>
+        263
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Peck2"> 
+      <label>25</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Peck RW, Banko PC, Leonard DL, Brinck KW (2009) Diet of Endangered Forest Birds at Hakalau Forest National Wildlife Refuge (conference poster). Hawai’i Conservation Conference. Honolulu, Hawai’i.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Henneman1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Henneman
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Memmott
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Infiltration of a Hawaiian Community by Introduced Biological Control Agents
+       </article-title>. 
+       <source>Science 
+       <volume>
+        293
+       </volume>: 
+       <fpage>
+        1314
+       </fpage>–
+       <lpage>
+        1316
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Pimentel1"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pimentel
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zuniga
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morrison
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Update on the environmental and economic costs associated with alien-invasive species in the United States
+       </article-title>. 
+       <source>Ecological Economics 
+       <volume>
+        52
+       </volume>: 
+       <fpage>
+        273
+       </fpage>–
+       <lpage>
+        288
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Litton1"> 
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Litton
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sandquist
+        </surname>
+        <given-names>
+         DR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cordell
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Effects of non-native grass invasion on aboveground carbon pools and tree population structure in a tropical dry forest of Hawaii
+       </article-title>. 
+       <source>Forest ecology and management 
+       <volume>
+        231
+       </volume>: 
+       <fpage>
+        105
+       </fpage>–
+       <lpage>
+        113
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Freed1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Freed
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cann
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Negative effects of an introduced bird species on growth and survival in a native bird community
+       </article-title>. 
+       <source>Current Biology 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        1736
+       </fpage>–
+       <lpage>
+        1740
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Wass1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Wass RC (1988) Hakalau Forest NWR Annual Narrative Report (Calendar Year 1986). Hilo, Hawai’i: Hakalau Forest National Wildlife Refuge.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Abrahamczyk1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Abrahamczyk
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steudel
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kessler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Sampling Hymenoptera along a precipitation gradient in tropical forests: the effectiveness of different coloured pan traps
+       </article-title>. 
+       <source>Entomologia Experimentalis et Applicata 
+       <volume>
+        137
+       </volume>: 
+       <fpage>
+        262
+       </fpage>–
+       <lpage>
+        268
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-GonzlezMoreno1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         González-Moreno
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bordera
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leirana-Alcocer
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Delfín-González
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Diurnal Flight Behavior of Ichneumonoidea (Insecta: Hymenoptera) Related to Environmental Factors in a Tropical Dry Forest
+       </article-title>. 
+       <source>Environmental Entomology 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        587
+       </fpage>–
+       <lpage>
+        593
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Beardsley1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Beardsley JW (1998) Key to Hawaiian Ichneumonidae. Bishop Museum.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Peck3"> 
+      <label>34</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Peck RW (personal communication) In: Gould R, editor. E-mail ed.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Nishida1"> 
+      <label>35</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nishida GM (2002) Bishop Museum - Hawaiian arthropod checklist. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www2.bishopmuseum.org/HBS/checklist/query.asp?grp=Arthropod" xlink:type="simple">
+        http://www2.bishopmuseum.org/HBS/checklist/query.asp?grp=Arthropod
+       </ext-link>. Accessed 1 May 2008.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Anderson2"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        A new method for non-parametric multivariate analysis of variance
+       </article-title>. 
+       <source>Austral Ecology 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        32
+       </fpage>–
+       <lpage>
+        46
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-R1"> 
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team (2011) R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Chao1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chao
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chazdon
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shen
+        </surname>
+        <given-names>
+         T-J
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        A new statistical approach for assessing similarity of species composition with incidence and abundance data
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        148
+       </fpage>–
+       <lpage>
+        159
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Warton1"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Warton
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hui
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        The arcsine is asinine: the analysis of proportions in ecology
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        92
+       </volume>: 
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        10
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Bolker1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bolker
+        </surname>
+        <given-names>
+         BM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Geange
+        </surname>
+        <given-names>
+         SW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poulsen
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Generalized linear mixed models: a practical guide for ecology and evolution
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        127
+       </fpage>–
+       <lpage>
+        135
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Crawley1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Crawley MJ (2007) Generalized Linear Models. The R Book. San Francisco, CA: John Wiley &amp; Sons, Ltd.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Zuur1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Zuur AF, Ieno EN, Walker N, Saveliev AA, Smith GM (2009) GLMM and GAMM. Mixed Effects Models and Extensions in Ecology with R. New York: Springer Science+Business Media, LLC.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-DigitalGlobe1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       DigitalGlobe (2010) WorldView II sattelite image.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Horiuchi1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Horiuchi B, Jeffrey J. Native plant propagation and habitat restoration at Hakalau Forest National Wildlie Refuge, Hawaii. In: National proceedings, Conference of Forest and Conservation Nursery Associations. Dumroese RK, Riley LE, Landis TD, editors; 2002; Ogden, UT. U.S. Department of Agriculture Forest Service, Rocky Mountain Research Station. 233.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-US1"> 
+      <label>45</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       U.S. Fish &amp; Wildlife Service (2010) Hakalau Forest National Wildlife Refuge Comprehensive Conservation Plan. Big Island National Wildlife Refuge Complex. Hilo, Hawai’i: USFWS Pacific Islands Planning Team.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Ostertag1"> 
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ostertag
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cordell
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Michaud
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cole
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schulten
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Ecosystem and Restoration Consequences of Invasive Woody Species Removal in Hawaiian Lowland Wet Forest
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        503
+       </fpage>–
+       <lpage>
+        515
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Hess1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hess
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jeffrey
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pratt
+        </surname>
+        <given-names>
+         LW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ball
+        </surname>
+        <given-names>
+         DL
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Effects of Ungulate Management on Vegetation at Hakalau Forest National Wildlife Refuge, Hawai’i Island
+       </article-title>. 
+       <source>Pacific Conservation Biology 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        144
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Camp1"> 
+      <label>48</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Camp RJ, Pratt TK, Gorresen PM, Jeffrey JJ, Woodworth BL (2009) Passerine bird trends at Hakalau Forest National Wildlife Refuge, Hawai’i (Hawai’i Cooperative Studies Unit Technical Report HCSU-011). Hilo, Hawai’i: University of Hawai’i at Hilo.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Freed2"> 
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Freed
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cann
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bodner
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Incipient extinction of a major population of the Hawaii akepa owing to introduced species
+       </article-title>. 
+       <source>Evolutionary Ecology Research 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        931
+       </fpage>–
+       <lpage>
+        965
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Hobbs1"> 
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hobbs
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arico
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aronson
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baron
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bridgewater
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Novel ecosystems: theoretical and management aspects of the new ecological world order
+       </article-title>. 
+       <source>Global Ecology and Biogeography 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        7
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Hobbs2"> 
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hobbs
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Higgs
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harris
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Novel ecosystems: implications for conservation and restoration
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        599
+       </fpage>–
+       <lpage>
+        605
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Hobbs3"> 
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hobbs
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hallett
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ehrlich
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mooney
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Intervention ecology: applying ecological science in the twenty-first century
+       </article-title>. 
+       <source>Bioscience 
+       <volume>
+        61
+       </volume>: 
+       <fpage>
+        442
+       </fpage>–
+       <lpage>
+        450
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Ruhl1"> 
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ruhl
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rybicki
+        </surname>
+        <given-names>
+         NB
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Long-term reductions in anthropogenic nutrients link to improvements in Chesapeake Bay habitat
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences 
+       <volume>
+        107
+       </volume>: 
+       <fpage>
+        16566
+       </fpage>–
+       <lpage>
+        16570
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-DAntonio1"> 
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         D’Antonio
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meyerson
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Exotic plant species as problems and solutions in ecological restoration: a synthesis
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        703
+       </fpage>–
+       <lpage>
+        713
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Schepp1"> 
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schüepp
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rittiner
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Entling
+        </surname>
+        <given-names>
+         MH
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        High Bee and Wasp Diversity in a Heterogeneous Tropical Farming System Compared to Protected Forest
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        e52109
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Grimbacher1"> 
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grimbacher
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Catterall
+        </surname>
+        <given-names>
+         CP
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        How much do site age, habitat structure and spatial isolation influence the restoration of rainforest beetle species assemblages?
+       </article-title> 
+       <source>Biological Conservation 
+       <volume>
+        135
+       </volume>: 
+       <fpage>
+        107
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Woodcock1"> 
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Woodcock
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vogiatzakis
+        </surname>
+        <given-names>
+         IN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Westbury
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawson
+        </surname>
+        <given-names>
+         CS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The role of management and landscape context in the restoration of grassland phytophagous beetles
+       </article-title>. 
+       <source>Journal of Applied Ecology 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        366
+       </fpage>–
+       <lpage>
+        376
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Haslem1"> 
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Haslem
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname>
+        <given-names>
+         AF
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Birds in agricultural mosaics: The influence of landscape pattern and countryside heterogeneity
+       </article-title>. 
+       <source>Ecological Applications 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        185
+       </fpage>–
+       <lpage>
+        196
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Mendenhall1"> 
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mendenhall
+        </surname>
+        <given-names>
+         CD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sekercioglu
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brenes
+        </surname>
+        <given-names>
+         FO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ehrlich
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daily
+        </surname>
+        <given-names>
+         GC
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Predictive model for sustaining biodiversity in tropical countryside
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences 
+       <volume>
+        108
+       </volume>: 
+       <fpage>
+        16313
+       </fpage>–
+       <lpage>
+        16316
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Williams2"> 
+      <label>60</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Williams MR (2010) Habitat resources, remnant vegetation condition and area determine distribution patterns and abundance of butterflies and day-flying moths in a fragmented urban landscape, south-west Western Australia. Journal of Insect Conservation: 1–18.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Schepp2"> 
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schüepp
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herrmann
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herzog
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmidt-Entling
+        </surname>
+        <given-names>
+         MH
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Differential effects of habitat isolation and landscape composition on wasps, bees, and their enemies
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        165
+       </volume>: 
+       <fpage>
+        713
+       </fpage>–
+       <lpage>
+        721
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Lamb1"> 
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lamb
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Erskine
+        </surname>
+        <given-names>
+         PD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Parrotta
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Restoration of degraded tropical forest landscapes
+       </article-title>. 
+       <source>Science 
+       <volume>
+        310
+       </volume>: 
+       <fpage>
+        1628
+       </fpage>–
+       <lpage>
+        1632
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Debinski1"> 
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Debinski
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holt
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        A survey and overview of habitat fragmentation experiments
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        342
+       </fpage>–
+       <lpage>
+        355
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Cunningham1"> 
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cunningham
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Floyd
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weir
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Do 
+        <italic>
+         Eucalyptus
+        </italic> plantations host an insect community similar to remnant 
+        <italic>
+         Eucalyptus
+        </italic> forest?
+       </article-title> 
+       <source>Austral Ecology 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        103
+       </fpage>–
+       <lpage>
+        117
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Summerville1"> 
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Summerville
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Restoring lepidopteran communities to oak savannas: contrasting influences of habitat quantity and quality
+       </article-title>. 
+       <source>Restoration ecology 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        120
+       </fpage>–
+       <lpage>
+        128
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Woodcock2"> 
+      <label>66</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Woodcock
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawson
+        </surname>
+        <given-names>
+         CS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Westbury
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brook
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The Restoration of Phytophagous Beetles in Species Rich Chalk Grasslands
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        638
+       </fpage>–
+       <lpage>
+        644
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Ingham1"> 
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ingham
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Samways
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Application of fragmentation and variegation models to epigaeic invertebrates in South Africa
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        1353
+       </fpage>–
+       <lpage>
+        1358
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Moir1"> 
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moir
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brennan
+        </surname>
+        <given-names>
+         KEC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Majer
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Koch
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fletcher
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Plant Species Redundancy and the Restoration of Faunal Habitat: Lessons from Plant-Dwelling Bugs
+       </article-title>. 
+       <source>Restoration Ecology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        136
+       </fpage>–
+       <lpage>
+        147
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Moffatt1"> 
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moffatt
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morton
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McNeill
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Has Botanical Enhancement of Broad Leaved Plantations in Milton Keynes, United Kingdom, Resulted in More Woodland-Like Insect Assemblages?
+       </article-title> 
+       <source>Restoration Ecology 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        50
+       </fpage>–
+       <lpage>
+        58
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Bangert1"> 
+      <label>70</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Bangert R, Ferrier SM, Evans L, Kennedy K, Grady KC, 
+       <etal>
+        et al
+       </etal>.. (2012) The Proportion of Three Foundation Plant Species and Their Genotypes Influence an Arthropod Community: Restoration Implications for the Endangered Southwestern Willow Flycatcher. Restoration Ecology. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1526-100X.2012.00910.x" xlink:type="simple">
+        http://dx.doi.org/10.1111/j.1526-100X.2012.00910.x
+       </ext-link>. Accessed 20 October 2012.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Pearson1"> 
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pearson
+        </surname>
+        <given-names>
+         DL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Derr
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        1986
+       </year>) 
+       <article-title>
+        Seasonal patterns of lowland forest floor arthropod abundance in southeastern Peru
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        244
+       </fpage>–
+       <lpage>
+        256
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Poulin1"> 
+      <label>72</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Poulin
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lefebvre
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McNeil
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Tropical avian phenology in relation to abundance and exploitation of food resources
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        2295
+       </fpage>–
+       <lpage>
+        2309
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Ovadia1"> 
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ovadia
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmitz
+        </surname>
+        <given-names>
+         OJ
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Weather variation and trophic interaction strength: sorting the signal from the noise
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        140
+       </volume>: 
+       <fpage>
+        398
+       </fpage>–
+       <lpage>
+        406
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Murcia1"> 
+      <label>74</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Murcia
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Edge effects in fragmented forests: implications for conservation
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        58
+       </fpage>–
+       <lpage>
+        62
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Ries1"> 
+      <label>75</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Ries L, Fletcher Jr RJ, Battin J, Sisk TD (2004) Ecological responses to habitat edges: mechanisms, models, and variability explained. Annual Review of Ecology, Evolution, and Systematics: 491–522.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Magura1"> 
+      <label>76</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Magura
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tóthmérész
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Molnár
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Forest edge and diversity: carabids along forest-grassland transects
+       </article-title>. 
+       <source>Biodiversity and Conservation 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        287
+       </fpage>–
+       <lpage>
+        300
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Didham1"> 
+      <label>77</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Didham RK (1997) An overview of invertebrate responses to forest fragmentation. In: Watt AD, Stork NE, Hunter MD, editors. Forests and Insects. London: Chapman &amp; Hall. 303–320.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Kotze1"> 
+      <label>78</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kotze
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Samways
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        No general edge effects for invertebrates at Afromontane forest/grassland ecotones
+       </article-title>. 
+       <source>Biodiversity and Conservation 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        443
+       </fpage>–
+       <lpage>
+        466
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0059356-Ewers1"> 
+      <label>79</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Didham
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Pervasive impact of large-scale edge effects on a beetle community
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences 
+       <volume>
+        105
+       </volume>: 
+       <fpage>
+        5426
+       </fpage>–
+       <lpage>
+        5429
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

@@ -1,0 +1,5138 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-19927
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0049795
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Community assembly
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Biogeochemistry
+         </subject> 
+         <subject>
+          Marine ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Marine biology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Coastal ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Earth sciences
+       </subject> 
+       <subj-group> 
+        <subject>
+         Marine and aquatic sciences
+        </subject> 
+        <subj-group> 
+         <subject>
+          Marine geology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Sediment
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Marine and Aquatic Sciences
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Organism-Sediment Interactions Govern Post-Hypoxia Recovery of Ecosystem Functioning
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Hypoxia, Bioturbation and Recovery of Functioning
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Van Colen
+        </surname> 
+        <given-names>
+         Carl
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Rossi
+        </surname> 
+        <given-names>
+         Francesca
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Montserrat
+        </surname> 
+        <given-names>
+         Francesc
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Andersson
+        </surname> 
+        <given-names>
+         Maria G. I.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Gribsholt
+        </surname> 
+        <given-names>
+         Britta
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Herman
+        </surname> 
+        <given-names>
+         Peter M. J.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Degraer
+        </surname> 
+        <given-names>
+         Steven
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Vincx
+        </surname> 
+        <given-names>
+         Magda
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Ysebaert
+        </surname> 
+        <given-names>
+         Tom
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff5"> 
+        <sup>5</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Middelburg
+        </surname> 
+        <given-names>
+         Jack J.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff6"> 
+        <sup>6</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       Department of Biology, Marine Biology Section, Ghent University, Ghent, Belgium
+      </addr-line> 
+     </aff> 
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       Netherlands Institute for Sea Research (NIOZ-Yerseke), Yerseke, The Netherlands
+      </addr-line> 
+     </aff> 
+     <aff id="aff3"> 
+      <label>3</label> 
+      <addr-line>
+       Ecologie des systèmes marins côtiers (Ecosysm) UMR 5119 CNRS-Université Montpellier 2-IRD-Ifremer Place Eugène Bataillon, Université Montpellier II, Case 093, F-34095 Montpellier, France
+      </addr-line> 
+     </aff> 
+     <aff id="aff4"> 
+      <label>4</label> 
+      <addr-line>
+       Management Unit of the of the North Sea Mathematical Model, Marine Ecosystem Management Section, Royal Belgian Institute of Natural Sciences, Brussels, Belgium
+      </addr-line> 
+     </aff> 
+     <aff id="aff5"> 
+      <label>5</label> 
+      <addr-line>
+       Wageningen University, Institute for Marine Resources &amp; Ecosystem Studies, Yerseke, The Netherlands
+      </addr-line> 
+     </aff> 
+     <aff id="aff6"> 
+      <label>6</label> 
+      <addr-line>
+       Faculty of Geosciences, Utrecht University, Utrecht, The Netherlands
+      </addr-line> 
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Browman
+        </surname> 
+        <given-names>
+         Howard
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1"> 
+      <addr-line>
+       Institute of Marine Research, Norway
+      </addr-line> 
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        carl.vancolen@ugent.be
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: CVC FM MGIA SD TY MV JJM. Performed the experiments: CVC FR FM MGIA BG. Analyzed the data: CVC FM MGIA FR BG. Wrote the paper: CVC FR PMJH JJM.</p> 
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="epub"> 
+      <day>
+       21
+      </day> 
+      <month>
+       11
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date> 
+     <volume>
+      7
+     </volume> 
+     <issue>
+      11
+     </issue> 
+     <elocation-id>
+      e49795
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        6
+       </day> 
+       <month>
+        7
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        12
+       </day> 
+       <month>
+        10
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2012
+      </copyright-year> 
+      <copyright-holder>
+       Van Colen et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <abstract> 
+      <p>Hypoxia represents one of the major causes of biodiversity and ecosystem functioning loss for coastal waters. Since eutrophication-induced hypoxic events are becoming increasingly frequent and intense, understanding the response of ecosystems to hypoxia is of primary importance to understand and predict the stability of ecosystem functioning. Such ecological stability may greatly depend on the recovery patterns of communities and the return time of the system properties associated to these patterns. Here, we have examined how the reassembly of a benthic community contributed to the recovery of ecosystem functioning following experimentally-induced hypoxia in a tidal flat. We demonstrate that organism-sediment interactions that depend on organism size and relate to mobility traits and sediment reworking capacities are generally more important than recovering species richness to set the return time of the measured sediment processes and properties. Specifically, increasing macrofauna bioturbation potential during community reassembly significantly contributed to the recovery of sediment processes and properties such as denitrification, bedload sediment transport, primary production and deep pore water ammonium concentration. Such bioturbation potential was due to the replacement of the small-sized organisms that recolonised at early stages by large-sized bioturbating organisms, which had a disproportionately stronger influence on sediment. This study suggests that the complete recovery of organism-sediment interactions is a necessary condition for ecosystem functioning recovery, and that such process requires long periods after disturbance due to the slow growth of juveniles into adult stages involved in these interactions. Consequently, repeated episodes of disturbance at intervals smaller than the time needed for the system to fully recover organism-sediment interactions may greatly impair the resilience of ecosystem functioning.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       CVC acknowledges a postdoctoral fellowship provided by the Flemish Fund for Scientific Research (FWO-1.2.380.11.N.00). Additional funding was provided by the Research fund and the institute for the Promotion of Innovation through Science and Technology in Flanders, Belgium (IWT Vlaanderen), the Special Research Fund of Ghent University, the Netherlands Organisation of Scientific Research, the Dutch Technology Foundation, the Darwin Center for Biogeosciences and by the Danish Agency for Science, Technology and Innovation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <page-count count="10" /> 
+     </counts> 
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>To date most ecosystems are profoundly affected by multiple human activities that alter the systems’ diversity, functioning and delivered services, e.g. 
+     <xref ref-type="bibr" rid="pone.0049795-Crain1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Worm1">
+      [2]
+     </xref>. These activities range from single and recurring disturbances to continuous stress of which the consequences for ecosystem resilience (i.e. movement within and between stability domains) may depend on the magnitude of induced change and the diversity-stability relationships that occur during recovery 
+     <xref ref-type="bibr" rid="pone.0049795-Ives1">
+      [3]
+     </xref>. In order to assess ecosystem resilience, it is useful to measure community dynamics from disturbance-recovery experiments, as recovery reveals the processes determining the response of ecological systems to changes in disturbance regime 
+     <xref ref-type="bibr" rid="pone.0049795-Thrush1">
+      [4]
+     </xref>. Ecological theory indicates that increased levels of biodiversity often result in increased ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0049795-Loreau1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Stachowicz1">
+      [6]
+     </xref>, which may insure stability against environmental change via compensatory processes and species performance-enhancing effects 
+     <xref ref-type="bibr" rid="pone.0049795-Yachi1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Langenheder1">
+      [8]
+     </xref>. Nonetheless, the magnitude and direction of the biodiversity-ecosystem function relationship was also shown to be idiosyncratic and depending on the disturbance context 
+     <xref ref-type="bibr" rid="pone.0049795-Allison1">
+      [9]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Hicks1">
+      [12]
+     </xref>. Moreover, often one or few particular species have a disproportionate influence on ecosystem properties 
+     <xref ref-type="bibr" rid="pone.0049795-Waldbusser1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Bolam1">
+      [14]
+     </xref>, depending on its functional traits 
+     <xref ref-type="bibr" rid="pone.0049795-Braeckman1">
+      [15]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Solan1">
+      [18]
+     </xref>. Additionally, changes in species interactions and population dynamics during the recovery process are likely to affect the performances of particular ecosystem functions. Consequently, ecosystem resilience may depend on the time needed to restore ecosystem functioning by post-disturbance reassembling of those species with particular functional traits that have distinct effects on ecosystem processes.</p> 
+    <p>Depleted oxygen conditions are becoming increasingly common in coastal areas and represent an important problem for the present coastal benthic environments 
+     <xref ref-type="bibr" rid="pone.0049795-Diaz1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Halpern1">
+      [20]
+     </xref>. Hypoxia occurs naturally in some bottom waters due to limited circulation (e.g. fjords), riverine inputs of organic matter in coastal embayments (e.g. estuaries), or up-welling of subsurface oxygen depleted waters (e.g. shelf systems) 
+     <xref ref-type="bibr" rid="pone.0049795-Zhang1">
+      [21]
+     </xref>. In addition, there is strong evidence for a global increase in the frequency, extent, and intensity of hypoxic events owing to predicted future increases in eutrophication and water-column stratification resulting from sea water temperature rise 
+     <xref ref-type="bibr" rid="pone.0049795-Diaz1">
+      [19]
+     </xref>. For example, nutrient enrichment results in an enhanced occurrence of algal blooms which are known to cause hypoxic conditions in sheltered coastal habitats, such as tidal flats, through decompositional processes and a reduced exchange of oxygen with the water column 
+     <xref ref-type="bibr" rid="pone.0049795-Lavery1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Valiela1">
+      [23]
+     </xref>. Consequences of hypoxia are multiple, including changes in organisms’ behavior and physiology, a loss in biodiversity and altered ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0049795-Diaz2">
+      [24]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Middelburg1">
+      [27]
+     </xref>. However, it is unclear how hypoxic events will affect ecosystem resilience because knowledge on synergistic recovery mechanisms and their time scales is lacking, e.g. how recovering benthic diversity interacts with the stock of reduced compounds that accumulate during oxygen depletion 
+     <xref ref-type="bibr" rid="pone.0049795-Middelburg1">
+      [27]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Morse1">
+      [29]
+     </xref>.</p> 
+    <p>Macrofaunal organisms affect sediment functioning in coastal benthic soft-sediment systems through bio-irrigation and bioturbation activities 
+     <xref ref-type="bibr" rid="pone.0049795-Aller1">
+      [30]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Volkenborn1">
+      [33]
+     </xref>. These activities mainly depend on size, mobility, and species’ sediment reworking traits which are often associated with feeding activities 
+     <xref ref-type="bibr" rid="pone.0049795-Solan1">
+      [18]
+     </xref>, and are known to alter sediment properties and structure, thereby creating spatial heterogeneity which may facilitate or inhibit other species and hence affect diversity (i.e. ecosystem engineering, 
+     <xref ref-type="bibr" rid="pone.0049795-Jones1">
+      [34]
+     </xref>). Fore example, these organism-sediment interactions greatly modify sediment biogeochemistry and affect microbial organisms 
+     <xref ref-type="bibr" rid="pone.0049795-Gilbertson1">
+      [35]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Laverock1">
+      [36]
+     </xref> that are the primary remineralizers of organic matter and the main drivers of biogeochemical processes in coastal sediments 
+     <xref ref-type="bibr" rid="pone.0049795-Middelburg2">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0049795-Wuchter1">
+      [38]
+     </xref>.</p> 
+    <p>In order to assess benthic community responses to hypoxia, the present study aims at understanding the dynamics of the relationship between reassembling macrobenthos communities and sediment properties determining ecosystem functioning following hypoxia. We therefore evaluate the relation between the time scale of returning community traits (i.e. diversity, abundance, biomass, bioturbation potential 
+     <italic>
+      sensu
+     </italic> Solan et al. 
+     <xref ref-type="bibr" rid="pone.0049795-Solan1">
+      [18]
+     </xref>) and the return rates of several ecosystem processes following experimentally-induced hypoxia in a coastal tidal flat. Macrofaunal recovery typically involves successional dynamics which are strongly determined by the temporal and spatial scale of disturbance 
+     <xref ref-type="bibr" rid="pone.0049795-Zajac1">
+      [39]
+     </xref> with slowest return rates (i.e. years-decades) in the largest disturbed areas with limited ecological connectivity 
+     <xref ref-type="bibr" rid="pone.0049795-Thrush2">
+      [40]
+     </xref>. In contrast, return rates of microbial communities are fast, ranging from hours to a few months, depending on the type of disturbance 
+     <xref ref-type="bibr" rid="pone.0049795-Plante1">
+      [41]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0049795-Watling1">
+      [43]
+     </xref>. However, if indirect sediment modifications by macrofaunal bioturbation and bio-irrigation activities are important, we expected that the return rate of typically microbial-mediated ecosystem processes would differ from the ‘microbial’ time scale and rather follow the macrofaunal return rate instead.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Site Description and Experimental Design</title> 
+     <p>The experiment was conducted at an intertidal mudflat (Paulinapolder, 51° 21′ 24′′ N, 3° 42′ 51′′ E) located within the polyhaline part of the Westerschelde estuary, SW the Netherlands. Permission for the field work was issued by the Provincie Zeeland, the Netherlands (Directie Ruimte, Milieu en Water). The study site has a semi-diurnal tidal regime with a mean tidal range of 3.9 m and a yearly average salinity of 24. Experimental patches were randomly installed at a distance of at least 5 m from each other within a 50×50 m area at the middle, homogeneous, part of the flat (tidal elevation = +17.9 cm MSL, median particle size = 74.5 µm, mud content = 42%, sediment water content = 62%, sediment total organic matter = 3.9%). Five patches of sediment (16 m<sup>2</sup>) were covered with a polyethylene (1 mm) and tarpaulin (140 g. m-2) sheet 
+      <xref ref-type="bibr" rid="pone.0049795-Norkko1">
+       [44]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Thrush3">
+       [45]
+      </xref> for 40 days which mimicked the effects of algal mats covering the substratum, i.e. reduced exchange of oxygen with the water column and reduced light penetration. Our manipulation significantly depleted pore water oxygen and ammonium conditions, without affecting other sediment properties like water and mud content and the bulk availability of organic matter (One-way analysis of variance between undisturbed and disturbed sediments at opening of the plots on March 30th, 2005: p&gt;0.05; 
+      <xref ref-type="supplementary-material" rid="pone.0049795.s003">
+       Table S1
+      </xref>). Oxygen penetration was very shallow, ranging between 0 and 1000 µm, with dissolved oxygen pore water concentration &lt;2 mg.L-1, i.e. hypoxia (
+      <xref ref-type="supplementary-material" rid="pone.0049795.s001">
+       Figure S1
+      </xref>). In addition, five patches were left undisturbed and used as controls to compare the recovery status of the disturbed sediments over the course of the experiment.</p> 
+     <p>Three hypoxic patches were used to track the post-hypoxia variation in ecosystem properties and reassembling of the macrofauna community into detail, i.e. weekly during the first two weeks and subsequently biweekly until 25 weeks after hypoxia at the end of September 2005. In addition, the macrofauna community composition was determined in September 2006 (i.e. 78 weeks) as well. The analysed ecosystem properties were sediment bed level height (laser altimetry, n = 6.patch<sup>−1</sup>), sediment oxygen pore water concentration and penetration (Unisense OX 25 microelectrode, n = 2.patch<sup>−1</sup>), ammonium pore water concentration (SANplus segmented flow analyser, SKALAR, n = 2.patch<sup>−1</sup>), total organic matter (loss on ignition at 500°C for 2 hours, n = 2.patch<sup>−1</sup>) from the upper 10 cm of sediment, and chlorophyll a (Chl a) concentration (n = 2.patch<sup>−1</sup>). Chlorophyll a samples were collected with 3.6 cm inner diameter (i.d.) corers and stored in the dark on dry ice and subsequent at –80°C in the laboratory awaiting further analyses. Chlorophyll a concentrations were determined by HPLC analysis of the supernatant, extracted from the lyophilised sediment by adding 10 ml 90% acetone. The two other hypoxic patches were sampled one, 10 and 22 weeks after re-oxygenation to determine the recovery of rates of organic matter mineralization, sediment oxygen consumption, and denitrification. These three times reflect the major shifts in macrofauna diversity, community composition and dominant functional traits during post-hypoxia succession (see 
+      <xref ref-type="sec" rid="s3">
+       results
+      </xref>). Furthermore, samples collected during these three occasions indicated that the temporal variation in macrofaunal communities did not differ among the five hypoxic patches.</p> 
+     <p>In order to avoid disturbance in the plots due to repetitive sampling, samples were collected from a bridge, and sampling holes were filled with closed PVC tubes, pushed flush with the sediment surface. Furthermore, to minimise possible edge effects, sampling only occurred in the inner 3×3 m.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Benthic Macrofauna Community</title> 
+     <p>Macrofauna samples were randomly collected from each replicate patch during low tide with a corer (i.d. 12.5 cm) to a depth of 40 cm, fixed with a neutralized 8% formalin solution and subsequently washed over a 500 µm sieve. All individuals were sorted, counted, identified and grouped according to their feeding, motility and sediment reworking traits (
+      <xref ref-type="supplementary-material" rid="pone.0049795.s004">
+       Table S2
+      </xref>). Bivalve biomass were obtained by determination of the ash free dry weight (4 h combustion at 450°C of dried individuals) and the biomass of other species was calculated by multiplying the organisms’ blotted wet weight with a species-specific ISO certified wet weight-ash free dry weight conversion factor 
+      <xref ref-type="bibr" rid="pone.0049795-Sistermans1">
+       [46]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Measures of Ecosystem Processes</title> 
+     <sec id="s2c1"> 
+      <title>Nutrient flux rates</title> 
+      <p>In order to determine nutrient flux rates, triplicate plexiglas cores of sediment (i.d. 10 cm) were randomly withdrawn without disturbing the sediment surface. The cores were pre-incubated for 48 hours in the dark at field temperature in a climate room within one hour after sampling. Preceding incubation, water was carefully added to the cores without creating suspension of the sediment (water constituted two thirds of the core) and cores were placed uncapped and submerged in an open tank containing aerated water from the Westerschelde estuary. Teflon coated magnets, rotated by a central magnet, were placed approximately 5 cm above the sediment surface to stir the water in order to avoid oxygen depletion at the sediment-water interface. All equipment used for the incubations was pre-incubated in Westerschelde water to avoid introduction of new surfaces for O<sub>2</sub>, N<sub>2</sub> and Argon adsorption and desorption 
+       <xref ref-type="bibr" rid="pone.0049795-Kana1">
+        [47]
+       </xref>. Sediment oxygen consumption and organic matter mineralization (i.e. dissolved inorganic carbon (DIC) release rates) were calculated as the difference in concentration between the start and end of incubation which lasted for 6–10 h, depending on the decrease of oxygen in the overlying water. Dissolved oxygen was determined using Winkler titration 
+       <xref ref-type="bibr" rid="pone.0049795-Parsons1">
+        [48]
+       </xref>, samples for DIC were analyzed within 24 h by flow injection 
+       <xref ref-type="bibr" rid="pone.0049795-Hall1">
+        [49]
+       </xref>. Samples for N<sub>2</sub> and Argon concentrations were collected at 1.5–2 h time intervals during incubation and preserved in 20 µl HgCl<sub>2</sub>. Denitrification rates (i.e. N<sub>2</sub> gas production rates) were determined within one week using membrane inlet mass spectrometry, normalized by those of Argon and calculated by linear regression, corrected for the refill water 
+       <xref ref-type="bibr" rid="pone.0049795-Na1">
+        [50]
+       </xref>.</p> 
+     </sec> 
+     <sec id="s2c2"> 
+      <title>Bio-irrigation, primary production and bed load sediment transport</title> 
+      <p>The bio-irrigation of the sediments was indirectly inferred from vertical sediment ammonium pore water profiles 
+       <xref ref-type="bibr" rid="pone.0049795-Aller2">
+        [51]
+       </xref>. Therefore, two 6.2 cm i.d. corers, containing about 15 cm of sediment, were extracted from each patch without disturbing the sediment surface. Corers were sliced upon arrival in the laboratory and frozen at −20°C awaiting analysis. Recovery of deep irrigation of the sediment (5–10 cm) was assessed 0, 1, 6, 14 and 25 weeks after hypoxia. Bedload sediment transport rates (erosion, accretion) were calculated as the difference in bed level height between sampling occasions. The microalgal biomass, measured as Chl a concentration in the first 0.3 cm, was used as a proxy for benthic primary production 
+       <xref ref-type="bibr" rid="pone.0049795-Kromkamp1">
+        [52]
+       </xref>.</p> 
+     </sec> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Data Analysis and Statistics</title> 
+     <p>Temporal changes in ecosystem properties and processes in recovering and undisturbed sediments were assessed with Repeated Measures Analysis of Variance of transformed data, in which both Treatment (i.e. recovering vs. undisturbed sediments) and Time (i.e. weeks after hypoxia) were used as fixed factors. Proportional data were arcsine-squareroot transformed whereas a logarithmic (log<sub>e</sub>) transformation was applied to all other data. The homogeneity of the variance-covariance structure was analyzed using the Mauchley test of sphericity (
+      <xref ref-type="supplementary-material" rid="pone.0049795.s005">
+       Table S3
+      </xref>), and Bartlett’s and Cochran’s tests were used to verify homogeneity of variances. If sphericity was not met, adjusted 
+      <italic>
+       F
+      </italic>-tests were applied based on the Greenhouse-Geisser corrections in order to interpret the significance of the within subject (i.e. repeated measure) effect. Replicated samples of variables per plot were pooled to avoid pseudoreplication. In order to evaluate recovery status of ecosystem processes and properties, planned contrasts between recovering and undisturbed sediments were performed at one, 10 and 22 weeks post-hypoxia, which encompass the time prior (April), during (June) and after (September) the natural recruitment period at our study site. These sampling occasions were thus deliberately chosen a priori since we anticipated that the structure and functional traits of the recolonizing community would differ among these three occasions. In this respect, we applied paired t-tests with separate error terms based on the two levels being compared, as is recommended for planned comparisons of repeated measures of properties over time in the same plots 
+      <xref ref-type="bibr" rid="pone.0049795-Quinn1">
+       [53]
+      </xref>. Since subsurface pore water ammonium concentrations (5–10 cm) were not available at 10 and 22 weeks post-hypoxia, recovery status for this property corresponding to the timing during and after the natural recruitment period was assessed respectively 14 and 25 weeks after hypoxia.</p> 
+     <p>In order to understand how recovering macrofaunal assemblages contribute to post-disturbance ecosystem functioning, the role of species richness, community total biomass and abundance, and community-wide impact on sediment mixing (i.e. bioturbation) in explaining variation in ecosystem processes (i.e. denitrification, oxygen consumption, organic matter mineralization, bed load sediment transport, primary production, and bio-irrigation) among recovery stages was inferred using Distance based Linear Models (DistLM, 
+      <xref ref-type="bibr" rid="pone.0049795-Anderson1">
+       [54]
+      </xref>). The community potential to bioturbate (BPc) was calculated according to Solan et al. 
+      <xref ref-type="bibr" rid="pone.0049795-Solan1">
+       [18]
+      </xref> taking into account the population biomass of each species based on the macrofauna samples and the species’ impact on sediment bioturbation through its specific mobility and sediment reworking traits (
+      <xref ref-type="supplementary-material" rid="pone.0049795.s004">
+       Table S2
+      </xref>). The most reliable predictor for the variation in each ecosystem process in recovering and undisturbed sediments was inferred by applying the Akaike’s information criterion (AIC, 
+      <xref ref-type="bibr" rid="pone.0049795-Johnson1">
+       [55]
+      </xref>).</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Macrofauna Community Recovery</title> 
+     <p>Repeated measures analysis of variance revealed that macrofaunal diversity, total abundance, biomass and functional group composition significantly differed over time between recovering and undisturbed sediments (
+      <xref ref-type="table" rid="pone-0049795-t001">
+       Table 1
+      </xref>). Specifically, surface deposit feeding species that only modify the surface sediment layer abundantly colonized the disturbed sediments and dominated the community during the first 14 weeks following hypoxia. Afterwards, dominance shifted to head-down feeders and regenerators that actively transport sediment from depth to the surface, and to biodiffusors that randomly transport sediment particles over short distances (
+      <xref ref-type="fig" rid="pone-0049795-g001">
+       Figure 1
+      </xref>). In contrast, deposit feeding and biodiffusing species always dominated the undisturbed community, indicating that the changes observed after hypoxia reflected successional dynamics imputable to recolonisation after disturbance (
+      <xref ref-type="fig" rid="pone-0049795-g001">
+       Figure 1
+      </xref>). All species had successfully colonized the sediment and both species number and total abundance were restored after 22 weeks (species richness: 
+      <italic>
+       t
+      </italic> = 3.18, d.f. = 2, p = 0.086; total abundance: 
+      <italic>
+       t
+      </italic> = 0.34, d.f. = 2, p = 0.767). However, the recovering communities had significantly lower biomass (
+      <italic>
+       t
+      </italic> = 6.37, d.f. = 2, 
+      <italic>
+       p
+      </italic> = 0.024) and less effects on sediment mixing (
+      <italic>
+       t
+      </italic> = 6.36, d.f. = 2, p = 0.024) after 22 weeks of recovery as compared to the undisturbed communities (
+      <xref ref-type="fig" rid="pone-0049795-g001">
+       Figure 1
+      </xref>).</p> 
+     <fig id="pone-0049795-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0049795.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Temporal variation in macrofauna community properties in recovering and undisturbed sediments.</title> 
+      <p>Top panel; trophic group composition, abundance and species richness. Bottom panel; sediment reworking trait group composition, biomass and community bioturbation potential. Error bars represent ±95% confidence intervals.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0049795.g001" position="float" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0049795-t001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0049795.t001
+      </object-id> 
+      <label>Table 1</label>  
+      <title>Results of Repeated Measures Analysis of Variance on ecosystem properties and processes during the experiment.</title>  
+      <alternatives> 
+       <graphic id="pone-0049795-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0049795.t001" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ecosystem property or process</td> 
+          <td colspan="4" align="left" rowspan="1">Treatment</td> 
+          <td colspan="4" align="left" rowspan="1">Time</td> 
+          <td colspan="4" align="left" rowspan="1">Treatment × Time</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">d.f.</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <italic>
+            F
+           </italic> </td> 
+          <td align="left" rowspan="1" colspan="1">P</td> 
+          <td align="left" rowspan="1" colspan="1">d.f.</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <italic>
+            F
+           </italic> </td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1">d.f.</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1"> 
+           <italic>
+            F
+           </italic> </td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">1.029</td> 
+          <td align="left" rowspan="1" colspan="1">556.60</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.150</td> 
+          <td align="left" rowspan="1" colspan="1">48.40</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.130</td> 
+          <td align="left" rowspan="1" colspan="1">41.97</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">7.678</td> 
+          <td align="left" rowspan="1" colspan="1">156.21</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">2.382</td> 
+          <td align="left" rowspan="1" colspan="1">123.31</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">2.192</td> 
+          <td align="left" rowspan="1" colspan="1">113.47</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">23.820</td> 
+          <td align="left" rowspan="1" colspan="1">1502.66</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.323</td> 
+          <td align="left" rowspan="1" colspan="1">7.21</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.412</td> 
+          <td align="left" rowspan="1" colspan="1">9.22</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">10.442</td> 
+          <td align="left" rowspan="1" colspan="1">4867.18</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.339</td> 
+          <td align="left" rowspan="1" colspan="1">30.71</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.358</td> 
+          <td align="left" rowspan="1" colspan="1">32.46</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional biomass surficial modifiers</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2.411</td> 
+          <td align="left" rowspan="1" colspan="1">250.78</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.257</td> 
+          <td align="left" rowspan="1" colspan="1">23.13</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.341</td> 
+          <td align="left" rowspan="1" colspan="1">30.72</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional biomass head-down feeders</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.652</td> 
+          <td align="left" rowspan="1" colspan="1">161.61</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.016</td> 
+          <td align="left" rowspan="1" colspan="1">1.33</td> 
+          <td align="left" rowspan="1" colspan="1">0.221</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.028</td> 
+          <td align="left" rowspan="1" colspan="1">2.26</td> 
+          <td align="left" rowspan="1" colspan="1">0.016</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional biomass biodiffusors</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">20.059</td> 
+          <td align="left" rowspan="1" colspan="1">1047.82</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.094</td> 
+          <td align="left" rowspan="1" colspan="1">5.28</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.073</td> 
+          <td align="left" rowspan="1" colspan="1">4.09</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional biomass regenerators</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.020</td> 
+          <td align="left" rowspan="1" colspan="1">0.83</td> 
+          <td align="left" rowspan="1" colspan="1">0.415</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.059</td> 
+          <td align="left" rowspan="1" colspan="1">4.51</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.043</td> 
+          <td align="left" rowspan="1" colspan="1">3.32</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional abundance surface deposit feeders</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">1.219</td> 
+          <td align="left" rowspan="1" colspan="1">308.18</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.258</td> 
+          <td align="left" rowspan="1" colspan="1">20.81</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.129</td> 
+          <td align="left" rowspan="1" colspan="1">10.41</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional abundance subsurface deposit feeders</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">3.584</td> 
+          <td align="left" rowspan="1" colspan="1">616.97</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.138</td> 
+          <td align="left" rowspan="1" colspan="1">7.41</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.099</td> 
+          <td align="left" rowspan="1" colspan="1">5.32</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional abundance suspension feeders</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.254</td> 
+          <td align="left" rowspan="1" colspan="1">179.07</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.020</td> 
+          <td align="left" rowspan="1" colspan="1">11.02</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.004</td> 
+          <td align="left" rowspan="1" colspan="1">1.95</td> 
+          <td align="left" rowspan="1" colspan="1">0.040</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional abundance omnivores</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.066</td> 
+          <td align="left" rowspan="1" colspan="1">19.39</td> 
+          <td align="left" rowspan="1" colspan="1">0.012</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.037</td> 
+          <td align="left" rowspan="1" colspan="1">5.76</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.011</td> 
+          <td align="left" rowspan="1" colspan="1">1.75</td> 
+          <td align="left" rowspan="1" colspan="1">0.070</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Proportional abundance predators and scavengers</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.789</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.016</td> 
+          <td align="left" rowspan="1" colspan="1">2.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.027</td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">0.010</td> 
+          <td align="left" rowspan="1" colspan="1">1.34</td> 
+          <td align="left" rowspan="1" colspan="1">0.214</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Chlorophyll a content</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.485</td> 
+          <td align="left" rowspan="1" colspan="1">19.60</td> 
+          <td align="left" rowspan="1" colspan="1">0.011</td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">0.172</td> 
+          <td align="left" rowspan="1" colspan="1">17.77</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">0.073</td> 
+          <td align="left" rowspan="1" colspan="1">7.57</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">% Total organic matter</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+          <td align="left" rowspan="1" colspan="1">0.26</td> 
+          <td align="left" rowspan="1" colspan="1">0.637</td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">1.25</td> 
+          <td align="left" rowspan="1" colspan="1">0.275</td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">1.66</td> 
+          <td align="left" rowspan="1" colspan="1">0.099</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Pore water ammonium 0–1 cm</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2.867</td> 
+          <td align="left" rowspan="1" colspan="1">7.93</td> 
+          <td align="left" rowspan="1" colspan="1">0.048</td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">0.320</td> 
+          <td align="left" rowspan="1" colspan="1">1.80</td> 
+          <td align="left" rowspan="1" colspan="1">0.069</td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">0.338</td> 
+          <td align="left" rowspan="1" colspan="1">1.90</td> 
+          <td align="left" rowspan="1" colspan="1">0.052</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Pore water ammonium 5–10 cm</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">3.015</td> 
+          <td align="left" rowspan="1" colspan="1">41.73</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">0.158</td> 
+          <td align="left" rowspan="1" colspan="1">14.06</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">0.040</td> 
+          <td align="left" rowspan="1" colspan="1">3.55</td> 
+          <td align="left" rowspan="1" colspan="1">0.030</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Bed level height</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.039</td> 
+          <td align="left" rowspan="1" colspan="1">22.37</td> 
+          <td align="left" rowspan="1" colspan="1">0.009</td> 
+          <td align="left" rowspan="1" colspan="1">11</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+          <td align="left" rowspan="1" colspan="1">11.27</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">11</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+          <td align="left" rowspan="1" colspan="1">13.56</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Oxygen penetration depth</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.014</td> 
+          <td align="left" rowspan="1" colspan="1">0.15</td> 
+          <td align="left" rowspan="1" colspan="1">0.722</td> 
+          <td align="left" rowspan="1" colspan="1">12</td> 
+          <td align="left" rowspan="1" colspan="1">0.084</td> 
+          <td align="left" rowspan="1" colspan="1">1.05</td> 
+          <td align="left" rowspan="1" colspan="1">0.420</td> 
+          <td align="left" rowspan="1" colspan="1">12</td> 
+          <td align="left" rowspan="1" colspan="1">0.112</td> 
+          <td align="left" rowspan="1" colspan="1">1.41</td> 
+          <td align="left" rowspan="1" colspan="1">0.192</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Denitrification</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.284</td> 
+          <td align="left" rowspan="1" colspan="1">50.37</td> 
+          <td align="left" rowspan="1" colspan="1">0.019</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.019</td> 
+          <td align="left" rowspan="1" colspan="1">10.51</td> 
+          <td align="left" rowspan="1" colspan="1">0.026</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.020</td> 
+          <td align="left" rowspan="1" colspan="1">10.99</td> 
+          <td align="left" rowspan="1" colspan="1">0.024</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Total oxygen consumption</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.153</td> 
+          <td align="left" rowspan="1" colspan="1">3.10</td> 
+          <td align="left" rowspan="1" colspan="1">0.220</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.057</td> 
+          <td align="left" rowspan="1" colspan="1">3.88</td> 
+          <td align="left" rowspan="1" colspan="1">0.116</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+          <td align="left" rowspan="1" colspan="1">0.17</td> 
+          <td align="left" rowspan="1" colspan="1">0.847</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Re-oxidation of reduced compounds</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.801</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.016</td> 
+          <td align="left" rowspan="1" colspan="1">1.47</td> 
+          <td align="left" rowspan="1" colspan="1">0.333</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+          <td align="left" rowspan="1" colspan="1">0.20</td> 
+          <td align="left" rowspan="1" colspan="1">0.830</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Organic matter mineralisation
+           <xref ref-type="table-fn" rid="nt101">
+            *
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.051</td> 
+          <td align="left" rowspan="1" colspan="1">1.05</td> 
+          <td align="left" rowspan="1" colspan="1">0.413</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.098</td> 
+          <td align="left" rowspan="1" colspan="1">4.35</td> 
+          <td align="left" rowspan="1" colspan="1">0.172</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.018</td> 
+          <td align="left" rowspan="1" colspan="1">0.80</td> 
+          <td align="left" rowspan="1" colspan="1">0.466</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label>*</label> 
+        <p>denotes adapted significance levels deduced from Greenhouse-Geisser corrections when sphericity assumption for repeated measures was not met. Data of bed level height were occasionally lacking for week 0 and week 12 and data of oxygen penetration depth for week 4.</p> 
+       </fn> 
+      </table-wrap-foot> 
+     </table-wrap> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Recovery of Ecosystem Processes</title> 
+     <p>Repeated measures analysis of variance indicated that denitrification, Chl a concentration, deep porewater ammonium concentration, and bed level height significantly differed over time between recovering and undisturbed sediments (
+      <xref ref-type="table" rid="pone-0049795-t001">
+       Table 1
+      </xref>). Oxygen consumption rates and removal rates of bioavailable nitrogen from the sediment as a consequence of denitrification were, respectively, only 42–56% and 29–52% of the rates recorded in the undisturbed sediments throughout the experiment (
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Figure 2b,c
+      </xref>). Deep ammonium pore water concentrations in the sediment were enhanced in the disturbed sediments whereas dissolved inorganic carbon release rates from the sediment did not differ among recovering and undisturbed sediments at all times (
+      <xref ref-type="table" rid="pone-0049795-t001">
+       Table 1
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Figure 2a,g
+      </xref>). Planned contrasts indicate that deep pore water ammonium concentrations and denitrification rates were still significantly reduced in recovering sediments after the natural recruitment period in September (pore water ammonium 5–10 cm: 
+      <italic>
+       t
+      </italic> = 19.98, d.f. = 2, p = 0.003; denitrification: 
+      <italic>
+       t
+      </italic> = 131.05, d.f. = 2, p = 0.005). Chlorophyll a concentration was significantly higher after 10 weeks in the recovering sediments (
+      <italic>
+       t
+      </italic> = 4.57, d.f. = 2, 
+      <italic>
+       p
+      </italic> = 0.045) but differed no longer from the undisturbed sediment after 22 weeks in September (
+      <italic>
+       t
+      </italic> = 2.79, d.f. = 2, 
+      <italic>
+       p
+      </italic> = 0.108) (
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Figure 2h
+      </xref>). Using surface sediment Chl a concentrations and the regression equation provided for the Westerschelde estuary 
+      <xref ref-type="bibr" rid="pone.0049795-Dejong1">
+       [56]
+      </xref>, average primary production is estimated to be 1.42 g C.m<sup>−2</sup>.day<sup>−1</sup> during the first 12 weeks of recovery which is 78% higher than in the undisturbed sediments during the same period. Further, a net sediment bed erosion of 0.3±0.05 SD mm.day<sup>−1</sup> took place in the undisturbed sediments from week 4 onwards until week 25, while the bed level remained more or less stable in the recovering sediments during that period (
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Figure 2i
+      </xref>).</p> 
+     <fig id="pone-0049795-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0049795.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Variation in ecosystem processes and properties among recovery stages and in undisturbed sediments.</title> 
+      <p>(a) organic matter mineralization (DIC), (b) total sediment oxygen consumption, (c) denitrification, (d) percentage of total organic matter, (e) oxygen penetration, (f) pore water ammonium concentration in surface sediment, (g) ammonium pore concentration in deep sediments, (h) chlorophyll a concentration, and (i) sediment bed level height. Error bars represent ±95% confidence intervals.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0049795.g002" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Biodiversity – Ecosystem Process Relationships</title> 
+     <p>Distance based linear models demonstrated that the variation in ecosystem processes in the recovering and undisturbed sediments was significantly explained by the macrofauna community for four out of the six processes that were measured and assessed: denitrification, primary production, deep bio-irrigation and bed load sediment transport (
+      <xref ref-type="table" rid="pone-0049795-t002">
+       Table 2
+      </xref>). Akaike’s information criterion identified BPc to be the best predictor of the variability in denitrification, bed level height, Chl a concentration, and deep porewater ammonium concentration. In contrast, higher AIC values show that species richness and community total abundance were in general of minor importance in explaining process variability among recovery stages as compared to community total biomass and BPc (
+      <xref ref-type="table" rid="pone-0049795-t002">
+       Table 2
+      </xref>, 
+      <xref ref-type="supplementary-material" rid="pone.0049795.s002">
+       Figure S2
+      </xref>). Species richness only significantly explained the variation in bed level height and deep porewater ammonium concentration in the recovering and undisturbed sediments, though clearly to a lesser extent than BPc. Especially a high proportion of the variation in subsurface processes, i.e. deep irrigation (78%) and denitrification (96%) was explained by BPc.</p> 
+     <table-wrap id="pone-0049795-t002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0049795.t002
+      </object-id> 
+      <label>Table 2</label>  
+      <title>Influence of macrofauna species richness, abundance, biomass, and bioturbation on the variability in ecosystem processes and properties in recovering and undisturbed sediments.</title>  
+      <alternatives> 
+       <graphic id="pone-0049795-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0049795.t002" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ecosystem process</td> 
+          <td align="left" rowspan="1" colspan="1">Macrofauna property</td> 
+          <td align="left" rowspan="1" colspan="1">SS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1">R<sup>2</sup></td> 
+          <td align="left" rowspan="1" colspan="1">AIC</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Denitrification<sup>*</sup></td> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">147.06</td> 
+          <td align="left" rowspan="1" colspan="1">105.41</td> 
+          <td align="left" rowspan="1" colspan="1">0.0068</td> 
+          <td align="left" rowspan="1" colspan="1">0.96344</td> 
+          <td align="left" rowspan="1" colspan="1">3.57</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">146.05</td> 
+          <td align="left" rowspan="1" colspan="1">88.619</td> 
+          <td align="left" rowspan="1" colspan="1">0.004</td> 
+          <td align="left" rowspan="1" colspan="1">0.95681</td> 
+          <td align="left" rowspan="1" colspan="1">4.56</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">69.353</td> 
+          <td align="left" rowspan="1" colspan="1">33.306</td> 
+          <td align="left" rowspan="1" colspan="1">0.0416</td> 
+          <td align="left" rowspan="1" colspan="1">0.45434</td> 
+          <td align="left" rowspan="1" colspan="1">19.78</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">34.69</td> 
+          <td align="left" rowspan="1" colspan="1">11.764</td> 
+          <td align="left" rowspan="1" colspan="1">0.3734</td> 
+          <td align="left" rowspan="1" colspan="1">0.22726</td> 
+          <td align="left" rowspan="1" colspan="1">21.87</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Sediment oxygen consumption<sup>†</sup></td> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">4277</td> 
+          <td align="left" rowspan="1" colspan="1">99.403</td> 
+          <td align="left" rowspan="1" colspan="1">0.0526</td> 
+          <td align="left" rowspan="1" colspan="1">0.71306</td> 
+          <td align="left" rowspan="1" colspan="1">37.954</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">2872.7</td> 
+          <td align="left" rowspan="1" colspan="1">36.766</td> 
+          <td align="left" rowspan="1" colspan="1">0.0754</td> 
+          <td align="left" rowspan="1" colspan="1">0.47894</td> 
+          <td align="left" rowspan="1" colspan="1">41.533</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">2734.7</td> 
+          <td align="left" rowspan="1" colspan="1">33.519</td> 
+          <td align="left" rowspan="1" colspan="1">0.1554</td> 
+          <td align="left" rowspan="1" colspan="1">0.45593</td> 
+          <td align="left" rowspan="1" colspan="1">41.793</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">66.055</td> 
+          <td align="left" rowspan="1" colspan="1">4.45E+02</td> 
+          <td align="left" rowspan="1" colspan="1">0.8908</td> 
+          <td align="left" rowspan="1" colspan="1">1.10E+02</td> 
+          <td align="left" rowspan="1" colspan="1">45.378</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Organic matter mineralisation<sup>‡</sup></td> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">2990.9</td> 
+          <td align="left" rowspan="1" colspan="1">1.019</td> 
+          <td align="left" rowspan="1" colspan="1">0.4394</td> 
+          <td align="left" rowspan="1" colspan="1">0.20303</td> 
+          <td align="left" rowspan="1" colspan="1">49.474</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">2851.2</td> 
+          <td align="left" rowspan="1" colspan="1">0.95998</td> 
+          <td align="left" rowspan="1" colspan="1">0.3424</td> 
+          <td align="left" rowspan="1" colspan="1">0.19354</td> 
+          <td align="left" rowspan="1" colspan="1">49.545</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">1759.1</td> 
+          <td align="left" rowspan="1" colspan="1">0.54242</td> 
+          <td align="left" rowspan="1" colspan="1">0.4804</td> 
+          <td align="left" rowspan="1" colspan="1">0.11941</td> 
+          <td align="left" rowspan="1" colspan="1">50.073</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">1069.8</td> 
+          <td align="left" rowspan="1" colspan="1">0.31324</td> 
+          <td align="left" rowspan="1" colspan="1">0.7154</td> 
+          <td align="left" rowspan="1" colspan="1">7.26E+02</td> 
+          <td align="left" rowspan="1" colspan="1">50.384</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Primary production<sup>**</sup></td> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">12485</td> 
+          <td align="left" rowspan="1" colspan="1">55.427</td> 
+          <td align="left" rowspan="1" colspan="1">0.0254</td> 
+          <td align="left" rowspan="1" colspan="1">0.17572</td> 
+          <td align="left" rowspan="1" colspan="1">218.08</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">12259</td> 
+          <td align="left" rowspan="1" colspan="1">54.213</td> 
+          <td align="left" rowspan="1" colspan="1">0.0262</td> 
+          <td align="left" rowspan="1" colspan="1">0.17254</td> 
+          <td align="left" rowspan="1" colspan="1">218.19</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">1230.4</td> 
+          <td align="left" rowspan="1" colspan="1">0.4582</td> 
+          <td align="left" rowspan="1" colspan="1">0.5252</td> 
+          <td align="left" rowspan="1" colspan="1">1.73E+02</td> 
+          <td align="left" rowspan="1" colspan="1">223</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">843.23</td> 
+          <td align="left" rowspan="1" colspan="1">0.31228</td> 
+          <td align="left" rowspan="1" colspan="1">0.5804</td> 
+          <td align="left" rowspan="1" colspan="1">1.19E+02</td> 
+          <td align="left" rowspan="1" colspan="1">223.16</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Deep bio-irrigation<sup>††</sup></td> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">7.98E+12</td> 
+          <td align="left" rowspan="1" colspan="1">28.256</td> 
+          <td align="left" rowspan="1" colspan="1">0.0004</td> 
+          <td align="left" rowspan="1" colspan="1">0.77934</td> 
+          <td align="left" rowspan="1" colspan="1">173.33</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">5.96E+12</td> 
+          <td align="left" rowspan="1" colspan="1">11.128</td> 
+          <td align="left" rowspan="1" colspan="1">0.025</td> 
+          <td align="left" rowspan="1" colspan="1">0.58178</td> 
+          <td align="left" rowspan="1" colspan="1">179.73</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">5.91E+12</td> 
+          <td align="left" rowspan="1" colspan="1">10.939</td> 
+          <td align="left" rowspan="1" colspan="1">0.0122</td> 
+          <td align="left" rowspan="1" colspan="1">0.57759</td> 
+          <td align="left" rowspan="1" colspan="1">179.83</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">9.88E+11</td> 
+          <td align="left" rowspan="1" colspan="1">0.85438</td> 
+          <td align="left" rowspan="1" colspan="1">0.3822</td> 
+          <td align="left" rowspan="1" colspan="1">9.65E+02</td> 
+          <td align="left" rowspan="1" colspan="1">187.43</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Bed load sediment transport<sup>‡‡</sup></td> 
+          <td align="left" rowspan="1" colspan="1">Community bioturbation potential</td> 
+          <td align="left" rowspan="1" colspan="1">16.908</td> 
+          <td align="left" rowspan="1" colspan="1">96.715</td> 
+          <td align="left" rowspan="1" colspan="1">0.0062</td> 
+          <td align="left" rowspan="1" colspan="1">0.30537</td> 
+          <td align="left" rowspan="1" colspan="1">15.318</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">14.012</td> 
+          <td align="left" rowspan="1" colspan="1">74.539</td> 
+          <td align="left" rowspan="1" colspan="1">0.0094</td> 
+          <td align="left" rowspan="1" colspan="1">0.25307</td> 
+          <td align="left" rowspan="1" colspan="1">17.06</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total biomass</td> 
+          <td align="left" rowspan="1" colspan="1">12.423</td> 
+          <td align="left" rowspan="1" colspan="1">63.639</td> 
+          <td align="left" rowspan="1" colspan="1">0.0198</td> 
+          <td align="left" rowspan="1" colspan="1">0.22437</td> 
+          <td align="left" rowspan="1" colspan="1">17.965</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+          <td align="left" rowspan="1" colspan="1">4.59E-03</td> 
+          <td align="left" rowspan="1" colspan="1">1.82E+01</td> 
+          <td align="left" rowspan="1" colspan="1">0.9658</td> 
+          <td align="left" rowspan="1" colspan="1">8.29E-01</td> 
+          <td align="left" rowspan="1" colspan="1">24.061</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+      <table-wrap-foot> 
+       <fn id="nt102"> 
+        <p>All distance based models were performed with 4999 random permutations. SS, explained sum of squares of the model; F, pseudo-
+         <italic>
+          F
+         </italic> statistic; p, significance level; R<sup>2</sup>, the proportion of variance in the model which is explained by the predictor; AIC, Akaike’s information criterion. The best model for each process according to AIC is shown on top. Total model sum of squares: <sup>*</sup>152.64, <sup>†</sup>5998, <sup>‡</sup>14732, <sup>**</sup>71049, <sup>††</sup>1.024 10<sup>9</sup>, <sup>‡‡</sup>55.369; unexplained sum of squares of the model = SS<sub>total</sub> – SS<sub>model</sub>. For details on the process measurements and assessments: see 
+         <xref ref-type="sec" rid="s2">
+          Methods
+         </xref>.</p> 
+       </fn> 
+      </table-wrap-foot> 
+     </table-wrap> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>Engineering Macrofauna</title> 
+     <p>Although our deliberately created hypoxic conditions were caused artificially, the patterns of species recolonisation and community assembly followed those observed for similar environments where hypoxia occurred naturally (for more details see 
+      <xref ref-type="bibr" rid="pone.0049795-VanColen1">
+       [57]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0049795-Montserrat1">
+       [61]
+      </xref>). Following re-oxygenation, the macrofaunal community increased in species richness and functional diversity along with increasing organism-sediment interactions by bioturbating large animals, as observed for large-scale organically-enriched sediments 
+      <xref ref-type="bibr" rid="pone.0049795-Pearson1">
+       [62]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Rhoads1">
+       [63]
+      </xref>. Moreover, hypoxia did not change sediment metabolism; i.e. sediment organic matter and mineralization rates did not differ significantly among recovering and undisturbed sediments throughout the experiment (
+      <xref ref-type="table" rid="pone-0049795-t001">
+       Table 1
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Fig. 2a,d
+      </xref>). Hence, we are convinced that our findings are not biased by our method of inducing hypoxia, nor by the effects of sediment metabolism on macrofauna and, consequently, enables us to properly investigate the relation between macrofaunal reassembling diversity and functional traits (i.e. bioturbation) and the recovery of ecosystem processes.</p> 
+     <p>Four out of the six ecosystem processes that were measured and assessed were related to the variability in macrofaunal community characteristics: denitrification, bio-irrigation, primary production and bed load sediment transport. Both denitrification rates and deep pore water ammonium concentrations were not recovered after six months of recovery when all species had recolonised the disturbed sediments. The variability in denitrification and deep pore water ammonium concentrations, as a proxy for deep bio-irrigation, was mainly explained by the changes in bioturbation potential, while species richness and total abundance were in general of minor importance in statistically explaining these process variabilities. Several studies have shown that bioturbation activity increases denitrification, e.g. 
+      <xref ref-type="bibr" rid="pone.0049795-Gilbert1">
+       [64]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Webb1">
+       [65]
+      </xref>. At an early stage of recovery, the lack of irrigation and particle mixing to deep sediment layers due to the absence of large bioturbating animals very likely impaired the development of aerobic zones and redox interfaces needed for coupled nitrification-denitrification which may explain the slow recovery of fixed nitrogen removal from the sediment. Furthermore, the rapid recovery of oxygen penetration depth and surface pore-water ammonium concentrations (
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Figure 2e,f
+      </xref>) due to molecular oxygen diffusion into the upper surface layer, in comparison with the slow recovery of pore water ammonium concentrations at depth, suggest that the recovery of benthic oxygen consumption was mainly hampered by the limited re-oxydation of reduced compounds that have accumulated at depth. Moreover, the low respiratory coefficient (ratio between O<sub>2</sub> consumption and dissolved inorganic carbon (DIC) release) in early recovering sediments (&lt;0.4, and respectively 45 and 38% lower in comparison with the undisturbed sediments after one and 10 weeks of recovery) further illustrates a limited re-oxydation of reduced compounds at early stages of recovery 
+      <xref ref-type="bibr" rid="pone.0049795-Berner1">
+       [66]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Thamdrup1">
+       [67]
+      </xref>. In addition, the variability in primary production and bed load transport was also best explained by the community bioturbation potential, though to a lesser extent as for subsurface processes, i.e. denitrification and bio-irrigation. The observed resistance to sediment erosion and enhanced primary production in early recovering sediments likely relates to the absence of intense bioturbation. Intense bioturbation, as did occur in the undisturbed sediments, increases bottom roughness and enhances erosion of the sediment and attached benthic microalgae 
+      <xref ref-type="bibr" rid="pone.0049795-Nowell1">
+       [68]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Orvain1">
+       [69]
+      </xref>. This inhibits the positive feedback interactions between growth of benthic microalgae (i.e. primary production) and sediment stability 
+      <xref ref-type="bibr" rid="pone.0049795-VanDeKoppel1">
+       [70]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Successional States and Ecosystem Resilience</title> 
+     <p>Multiple human pressures have resulted in a significant and rapid decline in biodiversity on a global scale 
+      <xref ref-type="bibr" rid="pone.0049795-Sala1">
+       [71]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Vitousek1">
+       [72]
+      </xref>, which has stimulated the research of the relationship between diversity and ecosystem functioning over the past 15 years. Species diversity seems particularly instrumental to ecosystem functioning in more diverse systems 
+      <xref ref-type="bibr" rid="pone.0049795-Balvanera1">
+       [73]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Godbold2">
+       [74]
+      </xref> where environmental factors become less important in modifying ecosystem processes 
+      <xref ref-type="bibr" rid="pone.0049795-Balvanera1">
+       [73]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0049795-Romanuk1">
+       [75]
+      </xref>. In this study, macrofauna species richness was relatively low and organism-sediment interactions (i.e. bioturbation) were particularly important in mediating return rates of several ecosystem processes. For example, the return rates of mainly microbial-mediated processes such as denitrification and oxygen consumption relate to the slow return rate of macrofaunal bioturbation of the sediment, despite the limited effect of hypoxia on bacterial activities (assessed as DIC rates, 
+      <xref ref-type="fig" rid="pone-0049795-g002">
+       Figure 2a
+      </xref>). Large organisms that create environmental heterogeneity in deep layers through bioturbation –and bio-irrigation activities 
+      <xref ref-type="bibr" rid="pone.0049795-Meysman1">
+       [32]
+      </xref> are typically present during late recovery stages. This study indicates that these organisms influence ecosystem processes disproportionately more than their juvenile and highly abundant, smaller life-stages during early recovery stages or community-wide species richness. Similarly, Bolam et al. 
+      <xref ref-type="bibr" rid="pone.0049795-Bolam1">
+       [14]
+      </xref> found that particularly the abundance of the active and largest species at their study site, 
+      <italic>
+       Nepthys hombergii
+      </italic>, drove the relation between the benthos community and oxygen consumption in a field experiment where benthos diversity and biomass was manipulated.</p> 
+     <p>Hypoxia occurs on different time and spatial scales, ranging from large areas with persistent oxygen deficiency (e.g. oceanic oxygen minimum zones) to small-scale, localized single events, but recurring episodic, periodic or seasonal events are a common feature 
+      <xref ref-type="bibr" rid="pone.0049795-Rabalais1">
+       [76]
+      </xref>. Due to the slow growth of species with strong effects on sediment particle reworking, macrofaunal bioturbation only restored in September 2006; i.e. after two growing seasons (
+      <xref ref-type="fig" rid="pone-0049795-g001">
+       Figure 1
+      </xref>). Consequently, the slow re-instalment of such organism-sediment interactions is very likely to impair the resilience of systems that are prone to seasonal or recurring hypoxic events because such iterative events do not allow complete recovery of the functionally important large, strong bioturbating and bio-irrigating species before hypoxia reoccurs. The different return rates of hypoxic events and ecosystem engineering activities may therefore lock the system in a state where only small opportunistic species persist that have rather limited effects on biogeochemical cycling (reviewed in 
+      <xref ref-type="bibr" rid="pone.0049795-Levin1">
+       [25]
+      </xref>), in particular re-oxidation of anoxic sediments and consumption of organic matter. Such conditions likely invoke oxygen depletion through enhanced respiratory demands and such legacy effects have been suggested to contribute to increased hypoxia in Chesapeake Bay, the Gulf of Mexico and the Baltic Sea 
+      <xref ref-type="bibr" rid="pone.0049795-Conley1">
+       [77]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0049795-Turner1">
+       [79]
+      </xref>. Our results indicate that this degraded state will only be reversed if the re-supply of oxygen rich water lasts long enough to re-establish large-sized macrofaunal organisms with strong engineering effects on the reduced sediment.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0049795.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0049795.s001" position="float" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Top panel: Oxygen penetration in the undisturbed sediments and the disturbed sediments at opening of the plots on March 30
+       <sup>th</sup>, 2005.
+      </bold> Bottom panel: Temporal variation of pore water oxygen concentration at 500 µm depth in the recovering and undisturbed sediments. Error bars represent one standard error.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0049795.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0049795.s002" position="float" xlink:type="simple"> 
+     <label>Figure S2</label>  
+     <p>
+      <bold>
+       Scatterplots showing relationships between species richness, total abundance, total biomass and community bioturbation potential and ecosystem processes.
+      </bold> Filled symbols indicate significant relations at p&lt;0.05, as deduced from Distance based Linear Models.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0049795.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0049795.s003" position="float" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p>
+      <bold>
+       Effects of the applied defaunation method on abiotic properties.
+      </bold> Significance levels of comparisons between undisturbed and disturbed sediments (n = 3) at day 0 after removing of the sheets are obtained from One-way Analysis of Variance (ANOVA).</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0049795.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0049795.s004" position="float" xlink:type="simple"> 
+     <label>Table S2</label>  
+     <p>
+      <bold>
+       Macrobenthos species present in the recovering and undisturbed sediments at the study site (Paulinapolder, 51° 21′ 24′′ N, 3° 42′ 51′′ E).
+      </bold> Feeding traits (surface deposit feeder (SDF), subsurface deposit feeder (SSDF), suspension feeder (SF), omnivores (O), predators/scavengers (P), motility traits (living in a fixed tube (T), limited movement (L), slow movement through the sediment (S) and free movement via burrow system (F)) and sediment reworking traits (surficial modifiers (SM), head-down feeders that actively transport sediment to the surface (HD), biodiffusors that randomly transport sediment over short distances (B), and regenerators that excavate holes and transfer sediment from depth to the surface (R)) are indicated. Species traits were retrieved from Fauchauld and Jumars (1979) Oceanography and Marine Biology an Annual Review 17∶193–284, Gerino et al. (2003) Vie et Milieu 53∶221–232, Volkenborn and Reise (2007) Journal of Sea Research 57∶78–88, 
+      <ext-link ext-link-type="uri" xlink:href="http://www.marlin.ac.uk" xlink:type="simple">
+       www.marlin.ac.uk
+      </ext-link>, and own observations from stable isotope and luminophore tracer studies; e.g. Rossi et al. (2009) Oikos 118∶503–512, Montserrat et al. (2009) Estuarine Coastal and Shelf Science 83∶379–391</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0049795.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0049795.s005" position="float" xlink:type="simple"> 
+     <label>Table S3</label>  
+     <p> 
+      <bold>
+       Results of Mauchley tests for sphericity.
+      </bold> </p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We would like to thank B. Beuselinck, D. Peelaers, J. van Soelen and B. Koutstaal for their assistance during the field work, and D. Van Gansbeke, D. Schram, M. Houtekamer, C. Kleppe, H. Francke and Y. van der Maas for their assistance during the processing of the samples. At the time of writing, NIOZ-Yerseke was part of the Netherlands Institute of Ecology (NIOO-KNAW); this is publication 5366 of the Netherlands Institute of Ecology (NIOO-KNAW)</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0049795-Crain1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Crain
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kroeker
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Halpern
+        </surname>
+        <given-names>
+         BS
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Interactive and cumulative effects of multiple human stressors in marine systems
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        1304
+       </fpage>–
+       <lpage>
+        1315
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Worm1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Worm
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barbier
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beaumont
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Impacts of biodiversity loss on ocean ecosystem services
+       </article-title>. 
+       <source>Science 
+       <volume>
+        314
+       </volume>: 
+       <fpage>
+        787
+       </fpage>–
+       <lpage>
+        790
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Ives1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ives
+        </surname>
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Stability and diversity of ecosystems
+       </article-title>. 
+       <source>Science 
+       <volume>
+        317
+       </volume>: 
+       <fpage>
+        58
+       </fpage>–
+       <lpage>
+        62
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Thrush1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hewitt
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dayton
+        </surname>
+        <given-names>
+         PK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coco
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lohrer
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Forecasting the limits of resilience: integrating empirical research with theory
+       </article-title>. 
+       <source>Proceedings of the Royal Society B-Biological Sciences 
+       <volume>
+        276
+       </volume>: 
+       <fpage>
+        3209
+       </fpage>–
+       <lpage>
+        3217
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Loreau1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Loreau M, Naeem S, Inchausti P (2002) Biodiversity and ecosystem functioning: synthesis and perspectives. Oxford: Oxford University Press. 294 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Stachowicz1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stachowicz
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruno
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Understanding the effects of marine biodiversity on communities and ecosystems
+       </article-title>. 
+       <source>Annual Review of Ecology Evolution and Systematics 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        739
+       </fpage>–
+       <lpage>
+        766
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Yachi1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yachi
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Biodiversity and ecosystem productivity in a fluctuating environment
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        488
+       </fpage>–
+       <lpage>
+        494
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Langenheder1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Langenheder
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bulling
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prosser
+        </surname>
+        <given-names>
+         JU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Role of functionally important dominant species in varying environmental regimes: evidence for the performance-enhancing effect of biodiversity
+       </article-title>. 
+       <source>BMC Ecology 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        14
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Allison1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allison
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The influence of species diversity and stress intensity on community resistance and resilience
+       </article-title>. 
+       <source>Ecological Monographs 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        117
+       </fpage>–
+       <lpage>
+        134
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Emmerson1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Emmerson
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emes
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paterson
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Consistent patterns and the idiosyncratic effects of biodiversity in marine ecosystems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        411
+       </volume>: 
+       <fpage>
+        73
+       </fpage>–
+       <lpage>
+        77
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Godbold1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Godbold
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bulling
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Habitat structure mediates biodiversity effects on ecosystem properties
+       </article-title>. 
+       <source>Proceedings of the Royal Society B-Biological Sciences 
+       <volume>
+        278
+       </volume>: 
+       <fpage>
+        2510
+       </fpage>–
+       <lpage>
+        2518
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Hicks1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hicks
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bulling
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         White
+        </surname>
+        <given-names>
+         PCL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Impact of biodiversity-climate futures on primary production and metabolism in a model benthic estuarine system
+       </article-title>. 
+       <source>BMC Ecology 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        7
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Waldbusser1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Waldbusser
+        </surname>
+        <given-names>
+         GG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marinelli
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whitlatch
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Visscher
+        </surname>
+        <given-names>
+         PT
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The effects of infaunal biodiversity on biogeochemistry of coastal marine sediments
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        1482
+       </fpage>–
+       <lpage>
+        1492
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Bolam1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bolam
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fernandes
+        </surname>
+        <given-names>
+         TF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huxham
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Diversity, biomass, and ecosystem processes in the marine benthos
+       </article-title>. 
+       <source>Ecological Monographs 
+       <volume>
+        72
+       </volume>: 
+       <fpage>
+        599
+       </fpage>–
+       <lpage>
+        615
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Braeckman1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Braeckman
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Colen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soetaert
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vanaverbeke
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Contrasting macrobenthic activities differentially affect nematode density and diversity in a shallow subtidal marine sediment
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        422
+       </volume>: 
+       <fpage>
+        179
+       </fpage>–
+       <lpage>
+        191
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Emmerson2"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Emmerson
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         DG
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Detecting the effects of diversity on measures of ecosystem function: experimental design, null models and empirical observations
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        195
+       </fpage>–
+       <lpage>
+        203
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Ieno1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ieno
+        </surname>
+        <given-names>
+         EN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Batty
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pierce
+        </surname>
+        <given-names>
+         GJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        How biodiversity affects ecosystem functioning: roles of infaunal species richness, identity and density in the marine benthos
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        311
+       </volume>: 
+       <fpage>
+        263
+       </fpage>–
+       <lpage>
+        271
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Solan1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Downing
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Engelhardt
+        </surname>
+        <given-names>
+         KAM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ruesink
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Extinction and ecosystem function in the marine benthos
+       </article-title>. 
+       <source>Science 
+       <volume>
+        306
+       </volume>: 
+       <fpage>
+        1177
+       </fpage>–
+       <lpage>
+        1180
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Diaz1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Diaz
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rosenberg
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Spreading dead zones and consequences for marine ecosystems
+       </article-title>. 
+       <source>Science 
+       <volume>
+        321
+       </volume>: 
+       <fpage>
+        926
+       </fpage>–
+       <lpage>
+        929
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Halpern1"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Halpern
+        </surname>
+        <given-names>
+         BS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Selkoe
+        </surname>
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Micheli
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kappel
+        </surname>
+        <given-names>
+         CV
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Evaluating and ranking the vulnerability of global marine ecosystems to anthropogenic threats
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        1301
+       </fpage>–
+       <lpage>
+        1315
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Zhang1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gilbert
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gooday
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levin
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Naqvi
+        </surname>
+        <given-names>
+         SWA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Natural and human-induced hypoxia and consequences for coastal areas: synthesis and future development
+       </article-title>. 
+       <source>Biogeosciences 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        1443
+       </fpage>–
+       <lpage>
+        1467
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Lavery1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavery
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mccomb
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        1991
+       </year>) 
+       <article-title>
+        Macroalgal Sediment Nutrient Interactions and Their Importance to Macroalgal Nutrition in a Eutrophic Estuary
+       </article-title>. 
+       <source>Estuarine Coastal and Shelf Science 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        281
+       </fpage>–
+       <lpage>
+        295
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Valiela1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Valiela
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McClelland
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hauxwell
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Behr
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hersh
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Macroalgal blooms in shallow estuaries: Controls and ecophysiological and ecosystem consequences
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        1105
+       </fpage>–
+       <lpage>
+        1118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Diaz2"> 
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Diaz
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rosenberg
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Marine benthic hypoxia: A review of its ecological effects and the behavioural responses of benthic macrofauna
+       </article-title>. 
+       <source>Oceanography and Marine Biology - an Annual Review, Vol 33 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        245
+       </fpage>–
+       <lpage>
+        303
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Levin1"> 
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Levin
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ekau
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gooday
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jorissen
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Effects of natural and human-induced hypoxia on coastal benthos
+       </article-title>. 
+       <source>Biogeosciences 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        2063
+       </fpage>–
+       <lpage>
+        2098
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Soetaert1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Soetaert
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        A model of early diagenetic processes from the shelf to abyssal depths
+       </article-title>. 
+       <source>Geochimica Et Cosmochimica Acta 
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        1019
+       </fpage>–
+       <lpage>
+        1040
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Middelburg1"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levin
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Coastal hypoxia and sediment biogeochemistry
+       </article-title>. 
+       <source>Biogeosciences 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        1273
+       </fpage>–
+       <lpage>
+        1293
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Katsev1"> 
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Katsev
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chaillou
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sundby
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mucci
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Effects of progressive oxygen depletion on sediment diagenesis and fluxes: A model for the lower St. Lawrence River Estuary
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        52
+       </volume>: 
+       <fpage>
+        2555
+       </fpage>–
+       <lpage>
+        2568
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Morse1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Morse
+        </surname>
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eldridge
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        A non-steady state diagenetic model for changes in sediment biogeochemistry in response to seasonally hypoxic/anoxic conditions in the “dead zone” of the Louisiana shelf
+       </article-title>. 
+       <source>Marine Chemistry 
+       <volume>
+        106
+       </volume>: 
+       <fpage>
+        239
+       </fpage>–
+       <lpage>
+        255
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Aller1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Aller
+        </surname>
+        <given-names>
+         RC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aller
+        </surname>
+        <given-names>
+         JY
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        The effect of biogenic irrigation intensity and solute exchange on diagenetic reaction rates in marine sediments
+       </article-title>. 
+       <source>Journal of Marine Research 
+       <volume>
+        56
+       </volume>: 
+       <fpage>
+        905
+       </fpage>–
+       <lpage>
+        936
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Herman1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van de Koppel
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heip
+        </surname>
+        <given-names>
+         CHR
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Ecology of estuarine macrobenthos
+       </article-title>. 
+       <source>Advances in Ecological Research, Vol 29 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        195
+       </fpage>–
+       <lpage>
+        240
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Meysman1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meysman
+        </surname>
+        <given-names>
+         FJR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heip
+        </surname>
+        <given-names>
+         CHR
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Bioturbation: a fresh look at Darwin's last idea
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        688
+       </fpage>–
+       <lpage>
+        695
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Volkenborn1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Volkenborn
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Polerecky
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wethey
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Woodin
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Oscillatory porewater bioadvection in marine sediments induced by hydraulic activities of Arenicola marina
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        1231
+       </fpage>–
+       <lpage>
+        1247
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Jones1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawton
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shachak
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Organisms as Ecosystem Engineers
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        69
+       </volume>: 
+       <fpage>
+        373
+       </fpage>–
+       <lpage>
+        386
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Gilbertson1"> 
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gilbertson
+        </surname>
+        <given-names>
+         WW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prosser
+        </surname>
+        <given-names>
+         JI
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Differential aspects of microorganism-invertebrate interactions on benthic nitrogen cycling
+       </article-title>. 
+       <source>FEMS Microbiology Ecology 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        11
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Laverock1"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Laverock
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tait
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Osborn
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Widdicombe
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Bioturbating shrimp alter the structure and diversity of bacterial communities in coastal marine sediments
+       </article-title>. 
+       <source>Isme Journal 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        1531
+       </fpage>–
+       <lpage>
+        1544
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Middelburg2"> 
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Middelburg JJ, Duarte CM, Gatusso JP (2004) Respiration in coastal benthic communities. In: del Giorgio PA, Williams PJIB, editors. Respiration in aquatic ecosystems. Oxford University Press, Oxford. Pp. 206–224.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Wuchter1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wuchter
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abbas
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coolen
+        </surname>
+        <given-names>
+         MJL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herfort
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         van Bleijswijk
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Archaeal nitrification in the ocean (vol 103, pg 12317, 2006)
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        5704
+       </fpage>–
+       <lpage>
+        5704
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Zajac1"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zajac
+        </surname>
+        <given-names>
+         RN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whitlatch
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Recolonization and succession in soft-sediment infaunal communities: the spatial scale of controlling factors
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        375–76
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        240
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Thrush2"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Halliday
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hewitt
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lohrer
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The effects of habitat loss, fragmentation, and community homogenization on resilience in estuaries
+       </article-title>. 
+       <source>Ecological Applications 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        12
+       </fpage>–
+       <lpage>
+        21
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Plante1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Plante
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilde
+        </surname>
+        <given-names>
+         SB
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Biotic disturbance, recolonization, and early succession of bacterial assemblages in intertidal sediments
+       </article-title>. 
+       <source>Microbial Ecology 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        154
+       </fpage>–
+       <lpage>
+        166
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Slocum1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Slocum
+        </surname>
+        <given-names>
+         ET
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Plante
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        The effect of artificial defaunation on bacterial assemblages of intertidal sediments
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        337
+       </volume>: 
+       <fpage>
+        147
+       </fpage>–
+       <lpage>
+        158
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Watling1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Watling
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Findlay
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mayer
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schick
+        </surname>
+        <given-names>
+         DF
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Impact of a scallop drag on the sediment chemistry, microbiota, and faunal assemblages of a shallow subtidal marine benthic community
+       </article-title>. 
+       <source>Journal of Sea Research 
+       <volume>
+        46
+       </volume>: 
+       <fpage>
+        309
+       </fpage>–
+       <lpage>
+        324
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Norkko1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Norkko
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rosenberg
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whitlatch
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Scale- and intensity-dependent disturbance determines the magnitude of opportunistic response
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        330
+       </volume>: 
+       <fpage>
+        195
+       </fpage>–
+       <lpage>
+        207
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Thrush3"> 
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whitlatch
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         PridmoreRD, Hewitt
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cummings
+        </surname>
+        <given-names>
+         VJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Scale-dependent recolonization: the role of sediment stability in a dynamic sandflat habitat
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        77
+       </volume>: 
+       <fpage>
+        2472
+       </fpage>–
+       <lpage>
+        2487
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Sistermans1"> 
+      <label>46</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Sistermans WCH, Escaravage V, Hummel H, Bergmeije MA, Engelberts AGM, 
+       <etal>
+        et al
+       </etal>. (2007) Het macrobenthos van de Westerschelde, de Oosterschelde, het Veerse Meer en het Grevelingenmeer in het voor- en najaar van 2006. KNAW Netherlands Institute of Ecology - Centre for Estuarine and Marine Ecology, Yerseke.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Kana1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kana
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Darkangelo
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hunt
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oldham
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname>
+        <given-names>
+         GE
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Membrane Inlet Mass-Spectrometer for Rapid High-Precision Determination of N-2, O-2, and Ar in Environmental Water Samples
+       </article-title>. 
+       <source>Analytical Chemistry 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        4166
+       </fpage>–
+       <lpage>
+        4170
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Parsons1"> 
+      <label>48</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Parsons TR, Maita Y, Lalli CM (1984) A manual of biological and chemical methods for seawater analysis. Pergamon, Oxford.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Hall1"> 
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hall
+        </surname>
+        <given-names>
+         PO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aller
+        </surname>
+        <given-names>
+         RC
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Rapid, Small-Volume, Flow-Injection Analysis for Sigma-Co2 and Nh4+ in Marine and Fresh-Waters
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        1113
+       </fpage>–
+       <lpage>
+        1119
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Na1"> 
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Na
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gribsholt
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galaktionov
+        </surname>
+        <given-names>
+         OS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meysman
+        </surname>
+        <given-names>
+         FJR
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Influence of advective bio-irrigation on carbon and nitrogen cycling in sandy sediments
+       </article-title>. 
+       <source>Journal of Marine Research 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        691
+       </fpage>–
+       <lpage>
+        722
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Aller2"> 
+      <label>51</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Aller RC (1982) The effect of macorbenthos on chemical properties of marine sediment and overlying water. In: McCall PL, Tevesz MJS, editors. Animal-sediment relations: the biogenic alteration of sediments. Prenum Press, New York. Pp. 53–89.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Kromkamp1"> 
+      <label>52</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Kromkamp JC, Forster RM (2003) Developments in microphytobenthos primary productivity studies. In: Kromkamp JC, de Brouwer JFC, Blanchard GF, Forster RM, Creach V, editors. Functioning of microphtyobenthos in estuaries. Royal Netherlands Academy of Arts &amp; Sciences (KNAW), Amsterdam. Pp 9–30.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Quinn1"> 
+      <label>53</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Quinn QP, Keough MJ (2002) Experimental design and data analysis for biologists. Cambridge University Press, Cambridge.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Anderson1"> 
+      <label>54</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Anderson MJ, Gorley RN, Clarke KR (2008) Permanova+ for primer: guide to software and statistical methods. Primer-e: Plymouth, UK.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Johnson1"> 
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Johnson
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Omland
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Model selection in ecology and evolution
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        101
+       </fpage>–
+       <lpage>
+        108
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Dejong1"> 
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dejong
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dejonge
+        </surname>
+        <given-names>
+         VN
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Dynamics and Distribution of Microphytobenthic Chlorophyll-a in the Western Scheldt Estuary (Sw Netherlands)
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        311
+       </volume>: 
+       <fpage>
+        21
+       </fpage>–
+       <lpage>
+        30
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-VanColen1"> 
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Van Colen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montserrat
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ysebaert
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Macrobenthos recruitment success in a tidal flat: feeding trait dependent effects of disturbance history
+       </article-title>. 
+       <source>Jorunal of Experimental Marine Biology and Ecology 
+       <volume>
+        385
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        84
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-VanColen2"> 
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Van Colen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montserrat
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ysebaert
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Macrobenthic recovery from hypoxia in an estuarine tidal mudflat
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        372
+       </volume>: 
+       <fpage>
+        31
+       </fpage>–
+       <lpage>
+        42
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-VanColen3"> 
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Van Colen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montserrat
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Verbist
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steyaert
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Tidal flat nematode response to hypoxia and subsequent macrofauna-mediated altered sediment properties
+       </article-title>. 
+       <source>Marine ecology progress series 
+       <volume>
+        381
+       </volume>: 
+       <fpage>
+        189
+       </fpage>–
+       <lpage>
+        197
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-VanColen4"> 
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Van Colen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montserrat
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vincx
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ysebaert
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Long-term divergent tidal flat benthic community recovery following hypoxia-induced mortality
+       </article-title>. 
+       <source>Marine Pollution Bulletin 
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        178
+       </fpage>–
+       <lpage>
+        186
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Montserrat1"> 
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Montserrat
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Colen
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Degraer
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ysebaert
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Benthic community-mediated sediment dynamics
+       </article-title>. 
+       <source>Marine ecology progress series 
+       <volume>
+        372
+       </volume>: 
+       <fpage>
+        43
+       </fpage>–
+       <lpage>
+        59
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Pearson1"> 
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pearson
+        </surname>
+        <given-names>
+         TH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rosenberg
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1978
+       </year>) 
+       <article-title>
+        Macrobenthic succession in relation to organic enrichment and pollution of the marine environment
+       </article-title>. 
+       <source>Oceanography and Marine Biology an Annual Review 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        229
+       </fpage>–
+       <lpage>
+        311
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Rhoads1"> 
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rhoads
+        </surname>
+        <given-names>
+         DC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Germano
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name> (
+       <year>
+        1982
+       </year>) 
+       <article-title>
+        Characterization of Organism-Sediment Relations Using Sediment Profile Imaging - an Efficient Method of Remote Ecological Monitoring of the Seafloor (Remotstm System
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        115
+       </fpage>–
+       <lpage>
+        128
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Gilbert1"> 
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gilbert
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stora
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonin
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Influence of bioturbation on denitrification activity in Mediterranean coastal sediments: an in situ experimental approach
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        163
+       </volume>: 
+       <fpage>
+        99
+       </fpage>–
+       <lpage>
+        107
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Webb1"> 
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Webb
+        </surname>
+        <given-names>
+         AP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eyre
+        </surname>
+        <given-names>
+         BD
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Effect of natural populations of burrowing thalassinidean shrimp on sediment irrigation, benthic metabolism, nutrient fluxes and denitrification
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        268
+       </volume>: 
+       <fpage>
+        205
+       </fpage>–
+       <lpage>
+        220
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Berner1"> 
+      <label>66</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Berner
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Westrich
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        Bioturbation and the Early Diagenesis of Carbon and Sulfur
+       </article-title>. 
+       <source>American Journal of Science 
+       <volume>
+        285
+       </volume>: 
+       <fpage>
+        193
+       </fpage>–
+       <lpage>
+        206
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Thamdrup1"> 
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thamdrup
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fossing
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jorgensen
+        </surname>
+        <given-names>
+         BB
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Manganese, Iron, and Sulfur Cycling in a Coastal Marine Sediment, Aarhus Bay, Denmark
+       </article-title>. 
+       <source>Geochimica Et Cosmochimica Acta 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        5115
+       </fpage>–
+       <lpage>
+        5129
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Nowell1"> 
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nowell
+        </surname>
+        <given-names>
+         ARM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jumars
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eckman
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        1981
+       </year>) 
+       <article-title>
+        Effects of Biological-Activity on the Entrainment of Marine-Sediments
+       </article-title>. 
+       <source>Marine Geology 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        133
+       </fpage>–
+       <lpage>
+        153
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Orvain1"> 
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Orvain
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sauriau
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sygut
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Joassard
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Le Hir
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Interacting effects of Hydrobia ulvae bioturbation and microphytobenthos on the erodibility of mudflat sediments
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        278
+       </volume>: 
+       <fpage>
+        205
+       </fpage>–
+       <lpage>
+        223
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-VanDeKoppel1"> 
+      <label>70</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Van De Koppel
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thoolen
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heip
+        </surname>
+        <given-names>
+         CHR
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Do alternate stable states occur in natural ecosystems? Evidence from a tidal flat
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        3449
+       </fpage>–
+       <lpage>
+        3461
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Sala1"> 
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sala
+        </surname>
+        <given-names>
+         OE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapin
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Armesto
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berlow
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bloomfield
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Global biodiversity scenarios for the year 2100
+       </article-title>. 
+       <source>Science 
+       <volume>
+        287
+       </volume>: 
+       <fpage>
+        1770
+       </fpage>–
+       <lpage>
+        1774
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Vitousek1"> 
+      <label>72</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Vitousek PM, Mooney HA, Lubchenco J, Melillo JM (1997) Human domination of Earth’s ecosystems. Science 277–494–499.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Balvanera1"> 
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Balvanera
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pfisterer
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchmann
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nakashizuka
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Quantifying the evidence for biodiversity effects on ecosystem functioning and services
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        1146
+       </fpage>–
+       <lpage>
+        1156
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Godbold2"> 
+      <label>74</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Godbold
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Relative importance of biodiversity and the abiotic environment in mediating an ecosystem process
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        396
+       </volume>: 
+       <fpage>
+        273
+       </fpage>–
+       <lpage>
+        282
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Romanuk1"> 
+      <label>75</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Romanuk
+        </surname>
+        <given-names>
+         TN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vogt
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kolasa
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Ecological realism and mechanisms by which diversity begets stability
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        819
+       </fpage>–
+       <lpage>
+        828
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Rabalais1"> 
+      <label>76</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rabalais
+        </surname>
+        <given-names>
+         NN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Diaz
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levin
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Turner
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gilbert
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Dynamics and distribution of natural and human-caused hypoxia
+       </article-title>. 
+       <source>Biogeosciences 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        585
+       </fpage>–
+       <lpage>
+        619
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Conley1"> 
+      <label>77</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Conley
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carstensen
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vaquer-Sunyer
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duarte
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Ecosystem thresholds with hypoxia
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        629
+       </volume>: 
+       <fpage>
+        21
+       </fpage>–
+       <lpage>
+        29
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Kemp1"> 
+      <label>78</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kemp
+        </surname>
+        <given-names>
+         WM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boynton
+        </surname>
+        <given-names>
+         WR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adolf
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boesch
+        </surname>
+        <given-names>
+         DF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boicourt
+        </surname>
+        <given-names>
+         WC
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Eutrophication of Chesapeake Bay: historical trends and ecological interactions
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        303
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        29
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0049795-Turner1"> 
+      <label>79</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Turner
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rabalais
+        </surname>
+        <given-names>
+         NN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Justic
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Gulf of Mexico hypoxia: Alternate states and a legacy
+       </article-title>. 
+       <source>Environmental Science &amp; Technology 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        2323
+       </fpage>–
+       <lpage>
+        2327
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

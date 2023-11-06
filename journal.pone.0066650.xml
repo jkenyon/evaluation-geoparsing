@@ -1,0 +1,3779 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-29410
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0066650
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem engineering
+          </subject>
+          <subject>
+           Ecosystem functioning
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Biogeochemistry
+         </subject>
+         <subject>
+          Coastal ecology
+         </subject>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Marine and aquatic sciences
+        </subject>
+        <subj-group>
+         <subject>
+          Coastal ecology
+         </subject>
+         <subject>
+          Marine biology
+         </subject>
+         <subject>
+          Marine ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Complex Effects of Ecosystem Engineer Loss on Benthic Ecosystem Response to Detrital Macroalgae
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Complex Effects of Ecosystem Engineer Loss
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rossi
+        </surname>
+        <given-names>
+         Francesca
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gribsholt
+        </surname>
+        <given-names>
+         Britta
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gazeau
+        </surname>
+        <given-names>
+         Frederic
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Di Santo
+        </surname>
+        <given-names>
+         Valentina
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff5">
+        <sup>5</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         Jack J.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff6">
+        <sup>6</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Laboratoire Ecologie des Systèmes marins côtiers, Université Montpellier 2, Montpellier, France
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Department of Ecosystems, Royal Netherlands Institute for Sea Research, Yerseke, the Netherlands
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Centre National de la Recherche Scientifique-Institut National des Sciences de l’Univers, Laboratoire d’ Oceanographie de Villefranche, Villefranche-sur-mer, France
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Université Pierre et Marie Curie, Observatoire Océanologique de Villefranche, Villefranche-sur-mer, France
+      </addr-line>
+     </aff> 
+     <aff id="aff5">
+      <label>5</label>
+      <addr-line>
+       Department of Biology, Boston University, Boston, Massachusetts, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff6">
+      <label>6</label>
+      <addr-line>
+       Department of Earth Sciences – Geochemistry, Faculty of Geosciences, Utrecht University, Utrecht, The Netherlands
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname>
+        <given-names>
+         Andrew
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Bangor University, United Kingdom
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        francesca.rossi@univ-montp2
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interest exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: FR BG. Performed the experiments: FR BG FG VDS. Analyzed the data: FR BG FG VDS. Contributed reagents/materials/analysis tools: JJM. Wrote the paper: FR BG FG VDS JJM.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2013
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       21
+      </day>
+      <month>
+       6
+      </month>
+      <year>
+       2013
+      </year>
+     </pub-date> 
+     <volume>
+      8
+     </volume> 
+     <issue>
+      6
+     </issue> 
+     <elocation-id>
+      e66650
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        25
+       </day>
+       <month>
+        9
+       </month>
+       <year>
+        2012
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        10
+       </day>
+       <month>
+        5
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2013
+      </copyright-year> 
+      <copyright-holder>
+       Rossi et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Ecosystem engineers change abiotic conditions, community assembly and ecosystem functioning. Consequently, their loss may modify thresholds of ecosystem response to disturbance and undermine ecosystem stability. This study investigates how loss of the bioturbating lugworm 
+       <italic>
+        Arenicola marina
+       </italic> modifies the response to macroalgal detrital enrichment of sediment biogeochemical properties, microphytobenthos and macrofauna assemblages. A field manipulative experiment was done on an intertidal sandflat (Oosterschelde estuary, The Netherlands). Lugworms were deliberately excluded from 1× m sediment plots and different amounts of detrital 
+       <italic>
+        Ulva
+       </italic> (0, 200 or 600 g Wet Weight) were added twice. Sediment biogeochemistry changes were evaluated through benthic respiration, sediment organic carbon content and porewater inorganic carbon as well as detrital macroalgae remaining in the sediment one month after enrichment. Microalgal biomass and macrofauna composition were measured at the same time. Macroalgal carbon mineralization and transfer to the benthic consumers were also investigated during decomposition at low enrichment level (200 g WW). The interaction between lugworm exclusion and detrital enrichment did not modify sediment organic carbon or benthic respiration. Weak but significant changes were instead found for porewater inorganic carbon and microalgal biomass. Lugworm exclusion caused an increase of porewater carbon and a decrease of microalgal biomass, while detrital enrichment drove these values back to values typical of lugworm-dominated sediments. Lugworm exclusion also decreased the amount of macroalgae remaining into the sediment and accelerated detrital carbon mineralization and CO<sub>2</sub> release to the water column. Eventually, the interaction between lugworm exclusion and detrital enrichment affected macrofauna abundance and diversity, which collapsed at high level of enrichment only when the lugworms were present. This study reveals that in nature the role of this ecosystem engineer may be variable and sometimes have no or even negative effects on stability, conversely to what it should be expected based on current research knowledge.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This work was funded by a PIONIER grant of the Netherlands Organization for Scientific Research to JJM. The funders had no role in study design, data analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="11" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>It is widely recognized that species loss may affect ecosystem stability and, in turn, have important social and ecological consequences 
+     <xref ref-type="bibr" rid="pone.0066650-Grime1">
+      [1]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-Worm1">
+      [3]
+     </xref>. Overall, when more species are present in a community, ecosystem functions are more stable in time and increase their resistance or resilience against disturbance, due to an increased variety of life strategies, functional traits and responses to environmental disturbance 
+     <xref ref-type="bibr" rid="pone.0066650-Tilman1">
+      [4]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-Downing1">
+      [6]
+     </xref>. Different species contributing to similar ecosystem functions can occur under different environmental conditions and ensure that functions are performed even when some other species are displaced 
+     <xref ref-type="bibr" rid="pone.0066650-Tilman1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Yachi1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Ives1">
+      [7]
+     </xref>.</p> 
+    <p>Empirical evidence has shown that sometimes species loss can have complex, often idiosyncratic effects on the stability of ecosystem functions and on both their resistance and resilience against disturbance 
+     <xref ref-type="bibr" rid="pone.0066650-Pfisterer1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Allison1">
+      [9]
+     </xref>. This is especially true for the marine coastal ecosystem, where species identity, functional traits and environmental context may rule ecosystem functions and their response to disturbances 
+     <xref ref-type="bibr" rid="pone.0066650-Emmerson1">
+      [10]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-Rossi1">
+      [12]
+     </xref>. One or few species can be key contributors to ecosystem functions to the extent that their loss can outweigh the effect of species richness on ecosystem functions, resilience or resistance 
+     <xref ref-type="bibr" rid="pone.0066650-Emmerson1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Solan1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Bolam1">
+      [14]
+     </xref>. Such overwhelming effect can, however, vary with the environmental context and change with increasing ecological complexity 
+     <xref ref-type="bibr" rid="pone.0066650-Romanuk1">
+      [15]
+     </xref>. It seems thus evident that understanding the role of species loss in marine systems might require a large body of knowledge of the functional role of individual species and of the consequences of losing particular species for ecosystem functions and for their response to disturbance.</p> 
+    <p>Ecosystem engineer species strongly modify resource availability and environmental conditions, which in turn can alter communities and ecosystem functions 
+     <xref ref-type="bibr" rid="pone.0066650-Jones1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Berke1">
+      [17]
+     </xref>. These species are thus ideal candidates to test hypotheses on how local extinction of key contributors to ecosystem functions can modulate the response of ecosystems to disturbance. In marine sediments and terrestrial soils, ecosystem engineers are often species that contribute to particle mixing and solute penetration into the sediment through the process of bioturbation, which includes sediment reworking and burrow ventilation 
+     <xref ref-type="bibr" rid="pone.0066650-Kristensen1">
+      [18]
+     </xref>. These bioturbating engineer species can be great contributors to diagenetic reactions, to the recycling of sedimentary organic matter, and to benthic community structure and biodiversity 
+     <xref ref-type="bibr" rid="pone.0066650-Kristensen1">
+      [18]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-Lohrer1">
+      [21]
+     </xref>. They also have the potential to strongly modify the response to disturbance of benthic communities and functions 
+     <xref ref-type="bibr" rid="pone.0066650-Eklof1">
+      [22]
+     </xref>. For instance bioturbation by 
+     <italic>
+      Marenzellaria viridis
+     </italic> has been found to decrease hypoxic crises in the Baltic Sea 
+     <xref ref-type="bibr" rid="pone.0066650-Norkko1">
+      [23]
+     </xref>. It has also been found that in soil, reworking activity of dominant contributors to bioturbation, such as earthworms, modulates the response of plant communities to invasions 
+     <xref ref-type="bibr" rid="pone.0066650-Eisenhauer1">
+      [24]
+     </xref>. Surprisingly, however, ecosystem engineer loss has been poorly considered in studies investigating ecosystem response to disturbance.</p> 
+    <p>In marine coastal systems, a large portion of seaweeds and seagrasses is not consumed by herbivores but returns to the environment as decaying organic matter 
+     <xref ref-type="bibr" rid="pone.0066650-Cebrian1">
+      [25]
+     </xref>. In shallow-water coastal habitats, detrital seaweeds and seagrasses can supply important amounts of organic matter to benthic ecosystems. They represent an important source of disturbance because during decomposition they can alter sediment biogeochemistry and, in turn, benthic communities of consumers. Despite detrital seaweed and seagrass supply is often a natural event, proliferation and blooms of seaweeds as a consequence of eutrophication can dramatically increase detrital seaweed biomass and exacerbate the effects on benthic ecosystems 
+     <xref ref-type="bibr" rid="pone.0066650-Raffaelli1">
+      [26]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-Kelaher1">
+      [29]
+     </xref>. Biomass decomposition can induce hypoxia followed by the release of reduced toxic compounds such as sulphides, which are toxic for several benthic species and can therefore strongly reduce species abundance and diversity 
+     <xref ref-type="bibr" rid="pone.0066650-Raffaelli1">
+      [26]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Ford1">
+      [27]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Kelaher1">
+      [29]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-Thrush1">
+      [33]
+     </xref>. Detrital decomposition can also provide food, directly for detritivores or indirectly, by stimulating bacterial metabolism, thereby altering the benthic food web 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi2">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi4">
+      [34]
+     </xref>. These effects strongly depend on the amount of detrital inputs and on its decomposition patterns, which may strongly vary as a consequence of benthic invertebrate composition and identity 
+     <xref ref-type="bibr" rid="pone.0066650-Godbold1">
+      [35]
+     </xref>.</p> 
+    <p>Bioturbating fauna can modulate the recycling of detrital macroalgae enhancing organic matter mineralization and microbial activity 
+     <xref ref-type="bibr" rid="pone.0066650-Hansen1">
+      [36]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0066650-DAndrea1">
+      [38]
+     </xref>. Some burrowing bioturbating species, such as certain crabs or polychaetes, can also incorporate detritus into their burrow wall lining and represent important sinks for detrital macroalgae 
+     <xref ref-type="bibr" rid="pone.0066650-Vonk1">
+      [39]
+     </xref>. In addition, often bioturbating infauna are also detritivores that can consume directly detritus and contribute to its recycling in the food web. In a laboratory experiment, for instance, it was found that nitrogen and carbon fluxes at the sediment-water interface changed following both the addition of the detrital green macroalgae 
+     <italic>
+      Chaetomorpha linum
+     </italic> and the presence of the bioturbating polychaete 
+     <italic>
+      Nereis diversicolor.
+     </italic> This polychaete ingested macroalgal fragments, enhanced microbial metabolism and contributed to diffuse solutes in the interstitial sediment and at the sediment-water interface 
+     <xref ref-type="bibr" rid="pone.0066650-Hansen1">
+      [36]
+     </xref>.</p> 
+    <p>One common well-recognized bioturbating species typical of temperate waters is the burrowing lugworm 
+     <italic>
+      Arenicola marina.
+     </italic> This worm lives head down in J-shaped burrows where it ingests sediment and defecates on the surface. Its activity has been recognized to destabilize sediment and counteract the effect of microphytobenthos, increase sediment microhabitats and alter sediment biogeochemistry, by enhancing solute penetration into sediment depth and re-distributing organic material along the vertical profile 
+     <xref ref-type="bibr" rid="pone.0066650-Meysman1">
+      [40]
+     </xref>. Consequently, this species may alter other fauna and vegetation 
+     <xref ref-type="bibr" rid="pone.0066650-Hansen1">
+      [36]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-OBrien1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Volkenborn1">
+      [41]
+     </xref>. This study reports on how the loss of this bioturbating lugworm may alter the response to detrital macroalgae of intertidal benthic macrofauna and sediment biogeochemistry. It was hypothesized that the deliberate exclusion of lugworms would increase the magnitude of changes caused by the disturbance of macroalgal detritus for (i) carbon availability and benthic respiration; (ii) microalgal biomass and (iii) macrofauna assemblages. Recycling of the organic carbon derived from detrital decomposition was also investigated to explore some of the mechanisms that might regulate the effect of 
+     <italic>
+      A. marina
+     </italic> on benthic responses to macroalgal detritus.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study Site and Experimental Design</title> 
+     <p>Two manipulative experiments were done on an intertidal flat of the Oosterschelde estuary (The Netherlands) dominated by the bioturbating lugworm 
+      <italic>
+       Arenicola marina,
+      </italic> during summer 2006. The study intertidal flat, named Slikken van Viane (51° 37′ 00′′ N, 4° 01′ 00′′ E), was a sheltered area situated on the upper intertidal close to a salt marsh. Sediment grain-size was 65% fine sand and 35% very fine sand (Rossi F., unpublished data). The Oosterschelde estuary is a national park designated as zone VI by the International Union for Conservation of Nature (IUCN). This IUCN classification has among its objectives the facilitation of scientific research and environmental monitoring, mainly related to the conservation and sustainable use of natural resources (
+      <ext-link ext-link-type="uri" xlink:href="http://www.iucn.org" xlink:type="simple">
+       http://www.iucn.org
+      </ext-link>). No specific permits were therefore required for performing these scientific experiments, which did not involve endangered or protected species. The first experiment tested the effect of 
+      <italic>
+       A. marina
+      </italic> exclusion on the response of macrofauna assemblages and sediment biogeochemistry to different amounts of detrital macroalgae. The second experiment measured the changes in detrital recycling following 
+      <italic>
+       A. marina
+      </italic> exclusion. For the first experiment (
+      <xref ref-type="fig" rid="pone-0066650-g001">
+       Fig. 1
+      </xref>), all lugworms were excluded from 15 randomly chosen sediment plots of 1×1 m, some meters apart, by burying mosquito nets to the depth of approximately 7 cm (hereafter exclusion A− treatment), following the method proposed by 
+      <xref ref-type="bibr" rid="pone.0066650-Volkenborn1">
+       [41]
+      </xref> in a more extensive area. A procedural control for the effect of the net and of the burial was done for other 15 sediment plots of 1×1 m by burying mosquito nets with 10×10 cm holes (hereafter procedural control A+ treatment).</p> 
+     <fig id="pone-0066650-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Schematic experimental design for experiment 1.</title> 
+      <p>Each rectangle corresponds to 1 m<sup>2</sup> plot. Numbers refers to the detrital enrichment. (0: no addition; 200∶200 g WW were added twice at a 1 week interval; 600∶600 g WW were added twice with a 1 week interval). Distance among plots are not in scale.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>One month after lugworm exclusion, the sediment plots were organically-enriched by addition of detrital 
+      <italic>
+       Ulva
+      </italic> spp. Fresh 
+      <italic>
+       Ulva
+      </italic> thalli were previously collected in the Oosterschelde estuary and washed to remove animals and sediment. Thalli were then weighted and frozen in separate plastic bags. Freezing is commonly used in experiments that aims at testing effects of detrital macroalgae and decomposition patterns. This treatment is necessary in order to create detritus and ensure that 
+      <italic>
+       Ulva
+      </italic> is dead when buried since this seaweed can survive for very long periods in the dark 
+      <xref ref-type="bibr" rid="pone.0066650-Rossi3">
+       [30]
+      </xref>. The thalli were left defrosting at air temperature and then added to the top 1 cm of the sediment by gently hand-churning the detritus with the sediment. Enrichment was done twice, on July 3 and July 10, 2006. Each time either 200 or 600 g of wet weighted 
+      <italic>
+       Ulva
+      </italic> (hereafter treatments 200 and 600, respectively) were added to 10 exclusion (A−) and 10 procedural control (A−) plots. These amounts corresponded to 40 and 120 g dry weight. Other 10 plots (5 A− and 5 A+) were not enriched (hereafter treatment 0), but the sediment was hand-churned to control for the manipulation. There was no procedural control for the physical presence of detritus as previous experiments had demonstrated no effects 
+      <xref ref-type="bibr" rid="pone.0066650-Rossi2">
+       [28]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0066650-Rossi3">
+       [30]
+      </xref>. The amount of 
+      <italic>
+       Ulva
+      </italic> spp. was based on the available literature to cause medium and high levels of disturbance (e.g. 
+      <xref ref-type="bibr" rid="pone.0066650-Ford1">
+       [27]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066650-Rossi3">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066650-Hull1">
+       [32]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066650-Thrush1">
+       [33]
+      </xref>).</p> 
+     <p>The second experiment was run at the same time of experiment 1. Two additional procedural control plots for burial and 2 exclusion plots were enriched with 200 g <sup>13</sup>C-labelled 
+      <italic>
+       Ulva
+      </italic> twice, resembling the treatment “200”. These four plots were used to trace the fate of the carbon released from detrital 
+      <italic>
+       Ulva
+      </italic>. The labeling of 
+      <italic>
+       Ulva
+      </italic> was done in the laboratory. Leaves were washed and carefully cleaned to eliminate epiphytes and animals. Then, thalli were transferred to aquaria containing filtered seawater supplemented with NaH<sup>13</sup>CO<sub>3</sub> (99% <sup>13</sup>C) to the concentration of 0.2 g L<sup>−1</sup>. The aquaria were oxygenated and covered with transparent PVC to limit <sup>13</sup>C bacterial respiration.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Field Sampling</title> 
+     <p>For the first experiment, sampling was done on July 30 and August 1, 2006, one month after detrital enrichment. This timing was chosen because previous studies suggested that effects of algal mats on macrofauna occur within 2 to 10 weeks from the deposition 
+      <xref ref-type="bibr" rid="pone.0066650-Bolam2">
+       [31]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0066650-Thrush1">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066650-Norkko2">
+       [42]
+      </xref> and that decomposition of 
+      <italic>
+       Ulva
+      </italic> occurs within a month (e.g. 
+      <xref ref-type="bibr" rid="pone.0066650-Buchsbaum1">
+       [43]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0066650-Nedergaard1">
+       [44]
+      </xref>).</p> 
+     <p>Sediment samples were taken for organic carbon (hereafter OC), porewater total inorganic carbon (DIC = H2CO<sub>3</sub>+ HCO<sub>3</sub><sup>−</sup>+CO<sub>3</sub><sup>2−</sup>), microalgal biomass (chlorophyll 
+      <italic>
+       a
+      </italic>) and macrofauna species composition, abundance and diversity. The sediment for chlorophyll 
+      <italic>
+       a
+      </italic> and OC was collected using a cut syringe of 3 mm inner diameter (i.d.). For chlorophyll 
+      <italic>
+       a
+      </italic>, the sediment was collected to 1 cm depth, kept in the dark and preserved at −80°C. The sediment for OC was collected to the depth of 6 cm, sectioned into 0–1, 1–2 and 2–6 cm depths and preserved freeze-dried. 
+      <italic>
+       Ulva
+      </italic> detritus was removed from this sediment under the stereo-microscope. The sediment for porewater DIC extraction was collected with cores of 5 cm i.d. and sectioned into 0–1, 1–2 and 2–6 cm depth intervals at the lowest and highest levels of organic enrichment (0 and 600) in both the control and the exclusion treatments. Two cores were collected from each plot and then pooled to reach the amount of water needed for the analyses. Porewater was extracted by centrifugation (1344 g, 15 min) and the supernatant was filtered on Millipore 45 µm. The extracted water was stored in glass vials, sealed, immediately poisoned with saturated HgCl<sub>2</sub> to stop bacterial activity and analyzed within 3 d. Only 3 out of 5 randomly-chosen replicate plots were sampled for OC and TCO<sub>2</sub>.</p> 
+     <p>The sediment for macrofauna was collected using 11 cm i.d. PVC core. This sediment was sieved (0.5 mm mesh) and macrofauna fixed in 4% buffered formol. Before sampling, all plots were photographed to estimate the abundance of 
+      <italic>
+       A. marina
+      </italic> using visible mounds. In the laboratory, all plots were independently examined by four researchers to reduce estimate bias. Five randomly-chosen natural plots were also photographed and then sampled using 11 cm i.d. cores to test for the effect of the procedural control A+ on the natural abundance of 
+      <italic>
+       A. marina
+      </italic> and of the other benthic macrofauna. No differences were detected between natural and procedural control treatments (see Results section) and this latter was used for evaluating the effect of detrital enrichment and lugworm exclusion.</p> 
+     <p>Sediment cores were also used to measure fluxes of inorganic carbon (TCO<sub>2</sub>) and oxygen (O<sub>2</sub>) at the sediment-water interface. Intact sediment cores were collected by pushing Plexiglas cores (11 cm i.d.) into the sediment to a depth of 20 cm at each of three replicate plots for the lowest and the highest levels of organic enrichment (0 and 600) in both the control and the exclusion treatments. The net was carefully cut around the cores to allow the core penetration into the sediment. Cores were sealed with rubber stoppers and dug out of the sediment. All cores were brought to a climate controlled room within 2 h, and kept in the dark at 
+      <italic>
+       in situ
+      </italic> temperature (10°C) before further handling. The same day, the cores were incubated in the dark for 12 h. Incubation in the dark did not allow to gather additional information concerning the (auto)trophic state of the sediment, which would need a light incubations of other sediment cores. Our system was however limited to carry 12 cores at a time and no further analyses could be done. Prior to incubations, cores were inundated with well-oxygenated Oosterschelde water collected the same day ([NH<sub>4</sub><sup>+</sup>] = 20 µmol L<sup>-</sup>, [NO<sub>3</sub><sup>−</sup>] = 110 µmol L<sup>−1</sup>, salinity = 22) and left to acclimatize in the dark for 6–8 h. During incubation, the overlying water-column (25–30 cm) was continuously stirred with a magnetic stirrer, maintaining continuous water circulation at a rate well below the resuspension limit. Dissolved O<sub>2</sub> never decreased below 65% of saturation. Water samples for TCO<sub>2</sub> and O<sub>2</sub> were collected in glass vials and sealed avoiding air bubbles. All samples were immediately poisoned with saturated HgCl<sub>2</sub> to stop bacterial activity and then analyzed within 3 d.</p> 
+     <p>For experiment 2, sediment samples were taken from the four plots with labelled 
+      <italic>
+       Ulva.
+      </italic> Sampling was done on four occasions, 6, 8, 15 and 17 days after detrital enrichment. Each time, one plexiglass intact sediment core (11 cm i.d.) was collected to 20 cm depth, following the modality used to sample the cores for estimating benthic respiration. To reduce plot damage during core collection, the central part of the plot (20 cm from the edges) was divided into 4 quadrants of 30×30 cm. Each sampling occasion, a sediment core was taken from a different quadrant. An area of 15×15 cm was thus damages each time, corresponding to 2.25% of the entire plot area. The sampled sediment was replaced with plexiglass tubes to avoid any collapse and to leave the remaining part of the plots undisturbed. The cores were handled like the cores used for evaluating oxygen and carbon exchange at the sediment-water interface for the experiment 1. However, before incubating for wet respiration and determining release of T<sup>13</sup>CO<sub>2</sub> in the water column, the labelled cores were incubated for dry fluxes during 6 h. At the beginning and at the end of the incubation, air samples were collected using syringes and pumped into tubes containing soda lime to trap CO<sub>2</sub> and measure the <sup>13</sup>CO<sub>2</sub> derived from 
+      <italic>
+       Ulva
+      </italic> decomposition. A LICOR automated CO<sub>2</sub> analyzer was used to quantify CO<sub>2</sub> release every hour. Sediment-water exchange rate and macrofauna data were generated as for experiment 1 (see “Analytical measures” section).</p> 
+     <p>Following flux incubations for both experiments, the cores were sieved at 0.5 mm to collect the macrofauna. No lugworm was included in the cores, meaning that any observed pattern represented the result of sediment and macrofauna alteration due to 
+      <italic>
+       Arenicola
+      </italic>, but not the direct activity of the lugworm during incubation.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Analytical Measures</title> 
+     <p>In the laboratory, macrofauna were identified to the species level, counted and dried at 60°C for 48 h to obtain dry weight biomass to be used for stable isotope analyses relative to the experiment 2. The detrital 
+      <italic>
+       Ulva
+      </italic> remaining in the samples was also collected, dried and weighed. Chlorophyll 
+      <italic>
+       a
+      </italic> was extracted in darkness for 24 h at 0–4°C using a 90% acetone solution. The sediment was homogenized and sub-samples of about 1 g dry weight were taken. Pigments were measured spectrophotometrically before and after 0.1 N HCl acidification. Pre-combusted (450°C for 3 h) sediment was used as a blank. Measurements for bulk sediment OC were made using a Perkin-Elmer CHN element analyzer on freeze-dried material, after carbonate removal with HCl.</p> 
+     <p>Flux rates of TCO<sub>2</sub> and O<sub>2</sub> between the sediment and the overlying water were estimated as difference between the initial and the final TCO<sub>2</sub> or O<sub>2</sub> concentrations during dark incubation, assuming constant solute exchange with time. The oxygen dissolved into the water samples was analyzed using the standard method of Winkler titration, while water TCO<sub>2</sub> and porewater DIC were determined by the flow injection/diffusion cell technique, which is based on the diffusion of CO<sub>2</sub> through a hydrophobic membrane into a flow of deionized water, thus generating a gradient of conductivity proportional to the concentration of CO<sub>2</sub>.</p> 
+     <p>Water TCO<sub>2</sub> (wet fluxes), gaseous CO<sub>2</sub> (dry flux), bulk sediment and macrofauna collected in the labelled plots were analyzed for carbon isotope composition (δ<sup>13</sup>C). The gaseous <sup>13</sup>CO<sub>2</sub> (dry flux) captured using soda lime was analyzed after acidification. The <sup>13</sup>C isotope signature for TCO<sub>2</sub> dry and wet fluxes was analyzed using a GC column coupled to a Finningan delta S mass spectrometer IRMS. The carbon isotopic composition for sediment, residual detritus and animals was determined using a Fisons elemental analyzer coupled to a Finningan delta S mass spectrometer. <sup>13</sup>C to <sup>12</sup>C ratio was referred to Vienna PDB and expressed in units of ‰. Reproducibility of the measurements is better than 0.2‰ 
+      <xref ref-type="bibr" rid="pone.0066650-Herman1">
+       [45]
+      </xref>. The excess of the heavy isotope of carbon (above background) was expressed as total uptake (I) in milligrams of <sup>13</sup>C. I was calculated as the product of excess <sup>13</sup>C (E) and carbon or biomass (C):
+      <disp-formula id="pone.0066650.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0066650.e001" xlink:type="simple" />
+      </disp-formula>where F indicates the fraction of isotope added and it is calculated as:</p> 
+     <p>
+      <disp-formula id="pone.0066650.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0066650.e002" xlink:type="simple" />
+      </disp-formula>where R can be calculated from the measured δ<sup>13</sup>C using R <sub>reference</sub> of 0.0112372:</p> 
+     <p>
+      <disp-formula id="pone.0066650.e003">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0066650.e003" xlink:type="simple" />
+      </disp-formula></p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Statistical Analyses</title> 
+     <p>For experiment 1, data were analyzed with two-way orthogonal mixed model of analysis of variance (ANOVA), with exclusion (2 levels: procedural control A+ and exclusion of 
+      <italic>
+       A. marina,
+      </italic> A−) and detrital enrichment (3 or 2 levels: 0, 200 and 600) as fixed and random factors, respectively. Detrital enrichment was considered a random factor because the amount of detritus to add was chosen within a range of values to simulate conditions of low and high enrichment, but no specific hypothesis concerned the chosen amounts. A significant interaction between exclusion and detrital enrichment was expected if the exclusion of 
+      <italic>
+       A. marina
+      </italic> changed the response to detrital enrichment. These analyses were done for the total abundance of macrofauna individuals, number of macrofauna species, chlorophyll 
+      <italic>
+       a
+      </italic>, sediment OC, porewater DIC, water O<sub>2</sub> and TCO<sub>2</sub> exchange rate. 
+      <italic>
+       C-cochran
+      </italic> test was used to test for residual variance homogeneity before running the analyses. When this test was significant (
+      <italic>
+       P
+      </italic>&lt;0.05), data were transformed. Pooling was done when 
+      <italic>
+       P
+      </italic>&gt;0.25. 
+      <italic>
+       A posteriori
+      </italic> multiple comparison SNK test was run when interaction term was significant.</p> 
+     <p>The variables collected for evaluating the recycling of detrital <sup>13</sup>C (experiment 2) were analyzed with repeated measure ANOVA, with time (6, 8, 15 and 17 sampling days from the end of detrital addition) as the repeated measure random factor and 
+      <italic>
+       A. marina
+      </italic> exclusion as fixed factor. Plots (2 levels) was nested in exclusion. The interaction of time with the exclusion treatment was measured over the interaction time×plot. When significant interaction was found, the main effect exclusion was not interpreted. Assumption about the correlation among the different observations of the repeated measure factor (time) was tested with Mauchley’s sphericity test.</p> 
+     <p>Decomposition rate of macroalgal detritus was estimated by fitting the first-order model:
+      <disp-formula id="pone.0066650.e004">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0066650.e004" xlink:type="simple" />
+      </disp-formula>Where B<sub>t</sub> is the g of detrital biomass at time t (days), B<sub>0</sub> is the initial biomass, at time 0, at the moment of the second detrital addition and k is the specific decomposition constant. The two detrital additions were done at a distance of one week, which may greatly affect the estimates of B<sub>0</sub>. We therefore considered the estimates of residual 
+      <italic>
+       Ulva
+      </italic> as the sum of two decomposition curves, with the same constant k but different decomposing time:</p> 
+     <p>
+      <disp-formula id="pone.0066650.e005">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0066650.e005" xlink:type="simple" />
+      </disp-formula></p> 
+     <p>The curves of <sup>13</sup>C benthic incorporation (including loss due to respiration) were fitted to the logistic curve:
+      <disp-formula id="pone.0066650.e006">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0066650.e006" xlink:type="simple" />
+      </disp-formula>Where Y is the <sup>13</sup>C loss from macroalgal decomposition and r is the capacity of benthos to incorporate <sup>13</sup>C.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>After the exclusion of 
+     <italic>
+      A. marina
+     </italic>, no burrows were visible in the excluded plots (
+     <xref ref-type="fig" rid="pone-0066650-g002">
+      Fig. 2
+     </xref>) and the number of burrows in the procedural control (treatment A+) was comparable to that of natural sediment (mean±SE, n = 5∶8.72±1.77 and 10.33±1.17 burrows m<sup>−2</sup> for the natural and the procedural control, respectively). Overall, there were no differences in macrofauna species composition between the natural sediment and the procedural control plots. Macrofauna abundance (mean±SE, n = 5) was 294±42 and 220±53 individual m<sup>2</sup>, whereas the number of species was 10±0.2 and 10±0.5 for A+ and natural sediment, respectively. Therefore, A+ could be used as a control for the effect of lugworm exclusion and detrital macroalgae.</p> 
+    <fig id="pone-0066650-g002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0066650.g002
+     </object-id>
+     <label>Figure 2</label> 
+     <title>Comparison of sediment surface appearance after &lt;italic&gt;Arenicola marina&lt;/italic&gt; exclusion at low tide.</title> 
+     <p>A− represent the sediment after 1 month from the burial of net to exclude burrowing species. A+ is the procedural control treatment (see Materials and Methods for details).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g002" position="float" xlink:type="simple" />
+    </fig> 
+    <p>Overall, in the natural sediments and in the A+ plots the gastropod 
+     <italic>
+      Hydrobia ulvae
+     </italic> was numerically dominant, representing 90% of macrofauna abundance. The remaining 10% was made up by oligochaetes (3%), deposit feeder polychaetes (3%) such as spionids, nereids, capitellids and cirratulids and bivalves (3%), mainly 
+     <italic>
+      Macoma balthica
+     </italic> and 
+     <italic>
+      Cerastoderma edule
+     </italic>.</p> 
+    <sec id="s3a"> 
+     <title>Carbon Availability and Benthic Respiration</title> 
+     <p>At the time of sampling, sediment organic carbon (OC) did not vary following detrital enrichment, the exclusion of 
+      <italic>
+       A. marina
+      </italic> or their interactions (
+      <xref ref-type="table" rid="pone-0066650-t001">
+       Table 1
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0066650-g003">
+       Fig. 3a
+      </xref>; ANOVA, 
+      <italic>
+       P
+      </italic>&gt;0.05). Macroalgal debris was still present in the sediment where detrital macroalgae were added at the highest enrichment level (treatment 600). The biomass of this macroalgal debris was smaller in the lugworm-excluded sediment than in procedural controls (mean±SE: lugworm exclusion, treatment A−: 2.3±1.4 gDW m<sup>−2</sup>; A+: 12.0±6.6 gDW m<sup>−2</sup>; ANOVA: 
+      <italic>
+       F
+      </italic><sub>1, 8</sub> = 6.19, 
+      <italic>
+       P
+      </italic> = 0.038).</p> 
+     <fig id="pone-0066650-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Mean (+1SE) for (a) bulk sediment organic carbon (OC) and (b) porewater dissolved inorganic carbon (DIC) at different sediment depths (&lt;italic&gt;1 cm&lt;/italic&gt;: surface sediment to 1 cm depth; &lt;italic&gt;2 cm&lt;/italic&gt;: from the depth of 1 to 2 cm; &lt;italic&gt;6 cm:&lt;/italic&gt; from the depth of 2 to 6 cm).</title> 
+      <p>In the graphs, A−: 
+       <italic>
+        A. marina
+       </italic> excluded; A+: procedural control for burial; the legend indicate the levels of detrital addition (0: no addition; 200∶200 g WW were added twice at a 1 week interval; 600∶600 g WW were added twice with a 1 week interval). Data were sampled one month after detrital addition. Asterisk indicates significant differences.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g003" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0066650-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Two-way analyses of variance for sediment organic carbon (OC) and porewater DIC at different sediment depths one month after detrital enrichment.</title> 
+      <alternatives>
+       <graphic id="pone-0066650-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0–1 cm</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1–2 cm</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2–6 cm</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Sediment OC</td> 
+          <td align="left" rowspan="1" colspan="1">df</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Exclusion = E</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.67 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.40</td> 
+          <td align="left" rowspan="1" colspan="1">1.60 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3.80</td> 
+          <td align="left" rowspan="1" colspan="1">0.09 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.52</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Detrital enrichment = D</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.61 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.96</td> 
+          <td align="left" rowspan="1" colspan="1">0.09 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.40</td> 
+          <td align="left" rowspan="1" colspan="1">0.62 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2.22</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E×D</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">1.7 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2.64</td> 
+          <td align="left" rowspan="1" colspan="1">0.42 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1.90</td> 
+          <td align="left" rowspan="1" colspan="1">0.17 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.62</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Residual</td> 
+          <td align="left" rowspan="1" colspan="1">12</td> 
+          <td align="left" rowspan="1" colspan="1">0.63 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.22 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.28 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Porewater DIC
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Exclusion = E</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">1.89</td> 
+          <td align="left" rowspan="1" colspan="1">17.50</td> 
+          <td align="left" rowspan="1" colspan="1">5.06</td> 
+          <td align="left" rowspan="1" colspan="1">1.03</td> 
+          <td align="left" rowspan="1" colspan="1">10.15</td> 
+          <td align="left" rowspan="1" colspan="1">4.80</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Detrital enrichment = D</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.06</td> 
+          <td align="left" rowspan="1" colspan="1">2.00</td> 
+          <td align="left" rowspan="1" colspan="1">1.28</td> 
+          <td align="left" rowspan="1" colspan="1">5.12</td> 
+          <td align="left" rowspan="1" colspan="1">0.15</td> 
+          <td align="left" rowspan="1" colspan="1">0.28</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E×D</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.11</td> 
+          <td align="left" rowspan="1" colspan="1">3.43</td> 
+          <td align="left" rowspan="1" colspan="1">4.93</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            19.71
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.30</td> 
+          <td align="left" rowspan="1" colspan="1">0.57*</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Residual</td> 
+          <td align="left" rowspan="1" colspan="1">8</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1.00</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2.11</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>Significant values (
+         <italic>
+          P
+         </italic>&lt;0.05) are in bold. Data were not-transformed (
+         <italic>
+          P
+         </italic><sub>C-cochran</sub> &gt;0.05). Asterisk indicates pooling of interaction when 
+         <italic>
+          P
+         </italic>&gt;0.25.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>There was a significant effect of the interaction between lugworm exclusion and detrital enrichment on porewater DIC to the depth of 1–2 cm (
+      <xref ref-type="table" rid="pone-0066650-t001">
+       Table 1
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0066650-g003">
+       Fig. 3b
+      </xref>). In the non-enriched sediment, porewater DIC concentration was higher in the lugworm exclusion than in the control plots (SNK test at 
+      <italic>
+       P
+      </italic> = 0.05: non-enriched plots, treatment 0: A−&gt;A+). Moreover, in the lugworm-exclusion plots, porewater DIC was lower in the enriched than in the non-enriched plots (SNK test at 
+      <italic>
+       P
+      </italic> = 0.05: 
+      <italic>
+       Arenicola
+      </italic> exclusion, A−: 0&gt;600). Values in detrital-enriched, lugworm-excluded sediment were similar to those measured for the A+ treatment (
+      <xref ref-type="fig" rid="pone-0066650-g003">
+       Fig. 3b
+      </xref>). A similar pattern was observed for superficial (0–1 cm) and deeper sediment (2–6 cm in 
+      <xref ref-type="fig" rid="pone-0066650-g003">
+       Fig. 3b
+      </xref>), but no significant changes were measured.</p> 
+     <p>Both 
+      <italic>
+       A. marina
+      </italic> exclusion and detrital enrichment or their interaction did not significantly change sediment-water exchanges of TCO<sub>2</sub> and O<sub>2</sub> nor the RQ respiration coefficient (TCO<sub>2</sub>:O<sub>2</sub> ratio) (
+      <xref ref-type="table" rid="pone-0066650-t002">
+       Table 2
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0066650-g004">
+       Fig. 4
+      </xref>).</p> 
+     <fig id="pone-0066650-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Mean (+1SE) for (a) benthic oxygen (O&lt;sub&gt;2&lt;/sub&gt;) consumption and total carbon dioxide (TCO&lt;sub&gt;2&lt;/sub&gt;) released during 12 hours dark incubation; (b) Respiratory quotient (RQ).</title> 
+      <p>In the graphs, A−: 
+       <italic>
+        A. marina
+       </italic> excluded; A+: procedural control for burial; the legend indicate the levels of detrital addition (0: no addition; 200∶200 g WW were added twice at a 1 week interval; 600∶600 g WW were added twice with a 1 week interval). Data were sampled one month after detrital addition.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g004" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0066650-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Two-way analyses of variance for sediment-water exchanges of O&lt;sub&gt;2&lt;/sub&gt; and TCO&lt;sub&gt;2&lt;/sub&gt; and for the benthic respiratory coefficient RQ.</title> 
+      <alternatives>
+       <graphic id="pone-0066650-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">O<sub>2</sub></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">TCO<sub>2</sub></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">RQ</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">df</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Exclusion = E</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">8.8 10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2.38</td> 
+          <td align="left" rowspan="1" colspan="1">252.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.78</td> 
+          <td align="left" rowspan="1" colspan="1">0.29</td> 
+          <td align="left" rowspan="1" colspan="1">2.39</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Detrital enrichment = D</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">8.0 10<sup>−9</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">102.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.31</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.18</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E×D</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">4.38 1<sup>−7</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.11*</td> 
+          <td align="left" rowspan="1" colspan="1">70.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.22*</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">0.01*</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Residual</td> 
+          <td align="left" rowspan="1" colspan="1">8</td> 
+          <td align="left" rowspan="1" colspan="1">4.10 1<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">325.08</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.14</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt102">
+        <label></label>
+        <p>Significant values (
+         <italic>
+          P
+         </italic>&lt;0.05) are in bold. Data were not-transformed (
+         <italic>
+          P
+         </italic><sub>C-cochran</sub> &gt;0.05), except for O<sub>2,</sub> which was arc-tangent transformed to homogenise the residual variances. Asterisk indicates pooling of interaction when 
+         <italic>
+          P
+         </italic>&gt;0.25.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>Microalgal Biomass and Macrofauna</title> 
+     <p>There was a significant interaction between 
+      <italic>
+       A. marina
+      </italic> exclusion and detrital enrichment for microalgal biomass (
+      <xref ref-type="table" rid="pone-0066650-t003">
+       Table 3
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0066650-g005">
+       Fig. 5
+      </xref>). Lugworm exclusion had a negative effect on microalgal biomass in the non-enriched plots (SNK test: 0: A+&gt;A−). In the lugworm-excluded sediment, detrital enrichment enhanced microalgal biomass (SNK test: A−: 0&lt;200 = 600). Values were similar to those measured for the A+ control plots (treatments 200 and 600 in 
+      <xref ref-type="fig" rid="pone-0066650-g005">
+       Fig. 5
+      </xref>).</p> 
+     <fig id="pone-0066650-g005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g005
+      </object-id>
+      <label>Figure 5</label> 
+      <title>Mean (+1SE) for chlorophyll &lt;italic&gt;a&lt;/italic&gt; concentration at the surface sediment (1 cm depth).</title> 
+      <p>In the graphs, A−: 
+       <italic>
+        A. marina
+       </italic> excluded; A+: procedural control for burial; the legend indicate the levels of detrital addition (0: no addition; 200∶200 g WW were added twice at a 1 week interval; 600∶600 g WW were added twice with a 1 week interval). Data were sampled one month after detrital addition. Asterisk indicates significant differences.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g005" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0066650-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>Two-way analyses of variance for chlorophyll &lt;italic&gt;a,&lt;/italic&gt; macrofauna abundance and number (N) of species.</title> 
+      <alternatives>
+       <graphic id="pone-0066650-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.t003" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Chlorophyll a</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Abundance</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">N of species</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">df</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Exclusion = E</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">72.23</td> 
+          <td align="left" rowspan="1" colspan="1">1.27</td> 
+          <td align="left" rowspan="1" colspan="1">0.48</td> 
+          <td align="left" rowspan="1" colspan="1">0.69</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Detrital enrichment = D</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">53.74</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.02
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.29</td> 
+          <td align="left" rowspan="1" colspan="1">0.56</td> 
+          <td align="left" rowspan="1" colspan="1">30.00</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            7.11
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E×D</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">56.80</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.25
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">2.34</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.81
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">17.73</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.21
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Residual</td> 
+          <td align="left" rowspan="1" colspan="1">24</td> 
+          <td align="left" rowspan="1" colspan="1">13.37</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.49</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">4.22</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt103">
+        <label></label>
+        <p>Significant values (
+         <italic>
+          P
+         </italic>&lt;0.05) are in bold. Data were sqrt-transformed for macrofauna abundance.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>A significant interaction between 
+      <italic>
+       A. marina
+      </italic> exclusion and detrital enrichment was also found for macrofauna abundance and number of species (
+      <xref ref-type="table" rid="pone-0066650-t003">
+       Table 3
+      </xref>). Abundance was lowered by the highest level of detrital enrichment in the plots where 
+      <italic>
+       A. marina
+      </italic> was present (
+      <xref ref-type="fig" rid="pone-0066650-g006">
+       Fig. 6a
+      </xref>; SNK test: A+: 0 = 200&gt;600). Overall, both the dominant gastropod 
+      <italic>
+       Hydrobia ulvae
+      </italic> and all other remaining macrofauna decreased in abundance, especially nereids, spionids and bivalves (ANOVA: F<sub>2, 24</sub> = 4.26, 
+      <italic>
+       P
+      </italic> = 0.026 for 
+      <italic>
+       H. ulvae,
+      </italic> 
+      <xref ref-type="fig" rid="pone-0066650-g006">
+       Fig. 6b
+      </xref>; F<sub>2, 24</sub> = 4.65, 
+      <italic>
+       P
+      </italic> = 0.019 for remaining taxa, data were square-root transformed; SNK tests for both: A+: 0 = 200&gt;600). Number of species showed a similar pattern, decreasing in response to the highest level of enrichment in the A+ plots (Fi. 6C; SNK test: A+: 0 = 200&gt;600). Detrital enrichment seemed to not affect the abundance of the lugworms as the number of 
+      <italic>
+       Arenicola
+      </italic> burrows remained relatively stable at different levels of detrital enrichment (2 way ANOVA: 
+      <italic>
+       F
+      </italic><sub>2, 12</sub> = 0.88, 
+      <italic>
+       P
+      </italic> = 0.34, 
+      <xref ref-type="fig" rid="pone-0066650-g006">
+       Fig. 6d
+      </xref>).</p> 
+     <fig id="pone-0066650-g006" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g006
+      </object-id>
+      <label>Figure 6</label> 
+      <title>Mean (+1SE) for (a) total number of macrofauna individuals, (b) abundance of &lt;italic&gt;Hydrobia ulvae&lt;/italic&gt;, (c) number of macrofauna species and (d) numbers of &lt;italic&gt;Arenicola marina&lt;/italic&gt; burrows in the plots where the mosquito net was buried (A−) and in the procedural control plots (A+) at the end of the experiment, e.g; 1 month from the second addition of detrital &lt;italic&gt;Ulva&lt;/italic&gt; (0: no addition; 200∶200 g WW were added twice at a 1 week interval; 600∶600 g WW were added twice with a 1 week interval).</title> 
+      <p>Data were sampled one month after detrital addition. Asterisk indicates significant differences.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g006" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+    <sec id="s3c"> 
+     <title>The Fate of Detrital Carbon</title> 
+     <p>There were differences in the rate of 
+      <italic>
+       Ulva
+      </italic> decomposition following 
+      <italic>
+       A. marina
+      </italic> exclusion. The decomposition constant k was −0.2 for the detritus added to the 
+      <italic>
+       A. marina
+      </italic> excluded sediment (A− plots in 
+      <xref ref-type="fig" rid="pone-0066650-g007">
+       Fig. 7
+      </xref>). Interestingly, the A+ plots did not fit well the exponential curve using the same constant k through the decomposition. Rather, at the beginning of decomposition, they fitted k values between −0.06 and −0.08, whereas at the end they fitted a K constant of −0.1 (
+      <xref ref-type="fig" rid="pone-0066650-g007">
+       Fig. 7
+      </xref>). There was a significant interaction between exclusion treatment and time after detrital enrichment for the flux rate of T<sup>13</sup>CO<sub>2</sub> from the sediment to the water column (
+      <xref ref-type="table" rid="pone-0066650-t004">
+       Table 4
+      </xref>). More T<sup>13</sup>CO<sub>2</sub> was released by the sediment in the exclusion treatment within 6 days from burial (
+      <xref ref-type="fig" rid="pone-0066650-g008">
+       Fig. 8a
+      </xref>). Respiration rates were (mean ± SE) 0.84±0.25 and 0.12±0.03 mg <sup>13</sup>C m<sup>−2</sup> day<sup>−1</sup> for dry and wet fluxes, respectively.</p> 
+     <fig id="pone-0066650-g007" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g007
+      </object-id>
+      <label>Figure 7</label> 
+      <title>Decomposing curves for &lt;italic&gt;Ulva&lt;/italic&gt; detritus in lugworm excluded (treatment A−; square symbols in the graphs) or procedural control sediments (treatment A+; triangle symbols in the graph).</title> 
+      <p>Symbols indicate mean (± SE) for macroalgal biomass and are relative to experiments 2.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g007" position="float" xlink:type="simple" />
+     </fig>
+     <fig id="pone-0066650-g008" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.g008
+      </object-id>
+      <label>Figure 8</label> 
+      <title>Mean ± SE for (a) T&lt;sup&gt;13&lt;/sup&gt;CO&lt;sub&gt;2&lt;/sub&gt; released from the sediment to the water column (sum of dry and wet fluxes); (b) amount of &lt;sup&gt;13&lt;/sup&gt;C organic carbon in the bulk sediment (averaged over depth profile) and (c) amount of &lt;sup&gt;13&lt;/sup&gt;C carbon incorporated by macrofauna.</title> 
+      <p>Data are fitted to the LOESS smoothing with an interval of 4 and 1 polynomial degree. Values are averaged over the two plots where 
+       <italic>
+        A. marina
+       </italic> was excluded (treatment A−; square symbols in the graphs) and the two procedural control plots (treatment A+; triangle symbols in the graph). Data refers to the experiment 2. Asterisk indicates significant differences.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.g008" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0066650-t004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0066650.t004
+      </object-id>
+      <label>Table 4</label> 
+      <title>Repeated measure analyses of variance and sphericity tests for the &lt;sup&gt;13&lt;/sup&gt;C incorporation in macrofauna and bulk sediment, and for the &lt;sup&gt;13&lt;/sup&gt;CO&lt;sub&gt;2&lt;/sub&gt; released from the benthos (benthic respiration) during detrital decomposition at an intermediate level of detrital enrichment (200 gWW plot&lt;sup&gt;−1&lt;/sup&gt;added twice).</title> 
+      <alternatives>
+       <graphic id="pone-0066650-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0066650.t004" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Macrofauna</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Bulk sediment</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Benthic respiration</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">df</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">MS</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Exclusion = E</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">5.97 10<sup>−7</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.12</td> 
+          <td align="left" rowspan="1" colspan="1">4.27 10<sup>−4</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.22</td> 
+          <td align="left" rowspan="1" colspan="1">1.52 10<sup>−5</sup></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.73
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Time = T</td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">3.13 10<sup>−7</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.60</td> 
+          <td align="left" rowspan="1" colspan="1">8.78 10<sup>−4</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1.02</td> 
+          <td align="left" rowspan="1" colspan="1">1.84 10<sup>−5</sup></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            14.45
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Residual (Plots)</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">4.96 10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1.96 10<sup>−3</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1.56 10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">T×E</td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">6.21 10<sup>−7</sup></td> 
+          <td align="left" rowspan="1" colspan="1">0.12</td> 
+          <td align="left" rowspan="1" colspan="1">8.79 10<sup>−4</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1.02</td> 
+          <td align="left" rowspan="1" colspan="1">8.98 10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            7.07
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Residual (T×Plots)</td> 
+          <td align="left" rowspan="1" colspan="1">6</td> 
+          <td align="left" rowspan="1" colspan="1">5.21 10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">8.59 10<sup>−4</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1.27 10<sup>−6</sup></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Sphericity test (χ<sup>2</sup>) n = 6</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">7.80</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">4.83</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">8.06</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt104">
+        <label></label>
+        <p>Significant values (P&lt;0.05) are in bold. Sphericity test was not significant.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>Part of the <sup>13</sup>C remained in the benthos and it was incorporated in the bulk sediment and in the macrofauna. The amount incorporated was variable among plots, but it did not significantly vary between exclusion treatments or time (
+      <xref ref-type="table" rid="pone-0066650-t004">
+       Table 4
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0066650-g008">
+       Fig. 8
+      </xref> b–c). 
+      <italic>
+       H. ulvae
+      </italic> incorporated the largest amount of <sup>13</sup>C among all macrofauna taxa (mean ± SE: 3.2±0.8 and 1.2±0.4 mg <sup>13</sup>C m<sup>−2</sup>, for 
+      <italic>
+       H. ulvae
+      </italic> and remaining fauna, respectively).</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Bioturbation can enhance solute penetration in deeper sediments, their exchange between the sediment and the overlying water and re-distribute organic material along the vertical profile 
+     <xref ref-type="bibr" rid="pone.0066650-Hansen1">
+      [36]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-OBrien1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Volkenborn1">
+      [41]
+     </xref>. As such, the loss of species that are important contributors to bioturbation may greatly change the response to detrital decomposition of sediment biogeochemistry. In laboratory experiments, for instance, 
+     <italic>
+      A. marina
+     </italic> and the polychaete 
+     <italic>
+      Nereis diversicolor
+     </italic> were found to increase turnover of carbon and nutrients during detrital macroalgal decomposition 
+     <xref ref-type="bibr" rid="pone.0066650-Kristensen2">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Hansen1">
+      [36]
+     </xref>. The exclusion of 
+     <italic>
+      A. marina
+     </italic> from intertidal sediments was thus expected to modify the biogeochemical response to macroalgal detrital enrichment. Conversely, at the end of decomposition (1 month after the second enrichment) benthic respiration (O<sub>2</sub> and TCO<sub>2</sub> sediment-water exchanges) and sediment organic carbon content did not change as an effect of lugworm exclusion.</p> 
+    <p>
+     <italic>
+      Ulva
+     </italic> amount and time of sampling (one month after enrichment) allowed decomposition and release of a large quantity of organic matter, which could be mineralized or accumulated in the sediment, thereby modifying sediment organic carbon, inorganic carbon dissolved in the interstitial water and fluxes at the sediment-water interface. 
+     <italic>
+      Ulva
+     </italic> halftime decomposition rate is within 15 days 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi3">
+      [30]
+     </xref>. By considering the range of k constant calculated for this study (between −0.06 and −0.2), at least 85% 
+     <italic>
+      Ulva
+     </italic> would be decomposed at the time of sampling for both enrichment levels. If one considers that dried sediment weighs about 1600 g l<sup>−1</sup> and 
+     <italic>
+      Ulva
+     </italic> organic carbon content is around 40% of dried tissues 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi4">
+      [34]
+     </xref>, this decomposed detritus corresponds to organic carbon concentrations ranging between 0.15 and 1.2% sediment dry weight for the top first cm, roughly 2–10 times the concentration of organic carbon found in natural sediments for low and high enrichment, respectively (see the non-enriched sediment in 
+     <xref ref-type="fig" rid="pone-0066650-g002">
+      Fig. 2a
+     </xref>). The lack of sediment carbon accumulation and changes in TCO<sub>2</sub> fluxes at the sediment-water interface indicated that the benthic system was able to remove the carbon derived from 
+     <italic>
+      in situ
+     </italic> decomposition and that bioturbation did not play a central role in detrital carbon recycling.</p> 
+    <p>It is important to re-iterate that fluxes were measured during 12 h dark incubation of sediment cores without lugworms, which indicated the overall indirect effect of lugworms on detrital benthic mineralization, but did not include any direct effects of lugworms due to burrow ventilation during the period of incubation. The importance of ventilation was instead assessed in the field by measuring porewater DIC, which increased after lugworm removal, indicating a decreased solute exchange due to 
+     <italic>
+      A. marina
+     </italic> loss. Interestingly, these changes were variable along the vertical sediment profile and were offset by the addition of detrital macroalgae, which supported the idea that fast mineralization of detrital carbon in these sediments is only in part due to bioturbation. The complexity of the relationships between species, functions and response to disturbance can increase with increasing ecological realism 
+     <xref ref-type="bibr" rid="pone.0066650-Romanuk1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Mckie1">
+      [46]
+     </xref>. Our experiments were done 
+     <italic>
+      in situ
+     </italic> and they were designed to test effects of 
+     <italic>
+      A. marina
+     </italic> under natural environmental conditions. Detrital macroalgae were deliberately added to the sediment, without using artificial nets that could limit detrital loss. This method exposed decomposing detritus to tides and waves, especially when detritus remained at the sediment surface. The role of bioturbation on sediment biogeochemistry has been mainly assessed through laboratory studies. The few field studies on the role of 
+     <italic>
+      Arenicola
+     </italic> on porewater, fluxes and organic matter decomposition have revealed that its role may vary and decrease considerably in nature 
+     <xref ref-type="bibr" rid="pone.0066650-Kristensen2">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-OBrien1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Papaspyrou1">
+      [47]
+     </xref>. By comparing field to laboratory experiments, it was found, for instance, that solute exchange was more variable in the field because it was not only ruled by bioturbation but also by advection related to waves and tides and by differences in the reactivity of sediment organic matter related to the complexity of biological communities of primary producers and consumers 
+     <xref ref-type="bibr" rid="pone.0066650-Papaspyrou1">
+      [47]
+     </xref>. This is particularly true when experiments are done in permeable sediment, where 
+     <italic>
+      A. marina
+     </italic> is often a dominant species 
+     <xref ref-type="bibr" rid="pone.0066650-Needham1">
+      [48]
+     </xref>. In these sediments, hydrodynamics can enhance advective flow from the porewater to the overlying water column, rule the exchange of solutes and organic matter at the sediment-water interface and overwhelm the biological effect of bioturbation 
+     <xref ref-type="bibr" rid="pone.0066650-Huettel1">
+      [49]
+     </xref>. Although our experiments were done in a relatively sheltered sand flat, as indicated by the dominance of fine-grained sand, numerous ripple marks were visible at low tide (
+     <xref ref-type="fig" rid="pone-0066650-g002">
+      Fig. 2
+     </xref>) and they probably indicated strong hydrodynamics generated by waves and tides. In these sediments, hydrodynamics could accelerate the exchange of solutes produced during decomposition, the removal of macroalgal detritus from the sediment and override the effect of bioturbation on the response of sediment biogeochemistry to detrital macroalgae.</p> 
+    <p>The decomposition rate of 
+     <italic>
+      Ulva
+     </italic> in these sediments was fast, as indicated by the estimated k constants (k = −0.2 and −0.1 for A− and A+, respectively; 
+     <xref ref-type="fig" rid="pone-0066650-g007">
+      Fig. 7
+     </xref>). These values were at the limit or even exceeded the range of values typical of 
+     <italic>
+      Ulva
+     </italic> detritus, which varies between −0.04 and −0.1 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi4">
+      [34]
+     </xref>. More importantly, the estimated k constant for the lugworm-exclusion sediment was twice that of the control plots. In addition, the biomass of macroalgal debris was, on average, 6 times larger in controls than in lugworm-excluded sediments (2 and 12 g DW per plot<sup>−1</sup> for A+ and A−, respectively). This may bring to the conclusion that despite hydrodynamics could play an important role in determining benthic response to detrital macroalgae, 
+     <italic>
+      A. marina
+     </italic> could represent an important sink for detritus and it could modify 
+     <italic>
+      in situ
+     </italic> decomposition rate, as found for other burrowing bioturbators 
+     <xref ref-type="bibr" rid="pone.0066650-Vonk1">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Retraubun1">
+      [50]
+     </xref>. These species can mechanically bury macroalgae in their funnels, thereby decreasing detritus availability to surface sediment and slowing down decomposition rate, while maintaining a pool of organic matter in the sediment. Buried detritus and slowed decomposition rate could, in turn, modify mineralization processes. In this study, a peak in T<sup>13</sup>CO<sub>2</sub> release to the water column was identified at an early stage of decomposition in 
+     <italic>
+      A. marina
+     </italic>-excluded sediment plots, suggesting that the loss of 
+     <italic>
+      A. marina
+     </italic> accelerated the mineralization of detrital 
+     <italic>
+      Ulva
+     </italic> at an early stage of decomposition. This explanation of increased mineralization following 
+     <italic>
+      A. marina
+     </italic> loss was supported by the finding that porewater DIC decreased in response to detrital addition in 
+     <italic>
+      A. marina
+     </italic> excluded sediments. In addition, simultaneously to this decrease, macroalgal biomass increased. Probably, without the mechanical action of burying macroalgal fragments by 
+     <italic>
+      Arenicola
+     </italic>, detrital macroalgae remaining on sediment surface and decomposing faster released nutrients that enhanced bacterial metabolism and their carbon consumption. Evidence for increased carbon consumption during biomass decomposition has been found for plant litter in freshwater ecosystems 
+     <xref ref-type="bibr" rid="pone.0066650-Fontaine1">
+      [51]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Lennon1">
+      [52]
+     </xref>. In addition, benthic microalgae are often regulated by bottom-up processes 
+     <xref ref-type="bibr" rid="pone.0066650-Hillebrand1">
+      [53]
+     </xref> and they could greatly benefit from nutrient release, thereby contributing to recycling the mineralized detrital carbon. Interestingly, detrital enrichment and lugworms had similar effects on microalgal biomass. Probably, both lugworm bioirrigation and detrital decomposition can provide nutrients necessary to regulate microalgal growth 
+     <xref ref-type="bibr" rid="pone.0066650-Kristensen2">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi2">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-OBrien1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Papaspyrou1">
+      [47]
+     </xref>.</p> 
+    <p>
+     <italic>
+      A. marina
+     </italic> is believed to influence the assembly rules and the distribution of macrofauna and, as such, their patterns of response to disturbances by altering the sedimentary habitat (e. g. 
+     <xref ref-type="bibr" rid="pone.0066650-OBrien1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Volkenborn1">
+      [41]
+     </xref>). Our results showed a negative effect of 
+     <italic>
+      A. marina
+     </italic> on macrofauna response to detrital addition since both macrofauna abundance and diversity decreased following the highest level of enrichment in presence of lugworms. The increased detrital burial by 
+     <italic>
+      A. marina
+     </italic> could play a central role in determining this response. Patches of detrital macroalgae in sediments can govern the spatial and temporal variability of macrofauna patterns of distribution. The presence of detritus may decrease numbers of individuals and diversity because of hypoxia during decomposition. Once detritus has decomposed, fast recolonizing taxa can promptly occupy the previously disturbed patches and benefit from increased food supply 
+     <xref ref-type="bibr" rid="pone.0066650-Kelaher1">
+      [29]
+     </xref>. Detrital burial due to lugworm activity probably prolonged hypoxic conditions and slowed down macrofauna recovery. The decrease in abundance common to all taxa and the loss of diversity could corroborate this explanation as anoxic conditions related to detrital decomposition deplete most taxa abundance and diversity 
+     <xref ref-type="bibr" rid="pone.0066650-Kelaher1">
+      [29]
+     </xref>. Moreover, burial could decrease detrital availability to surface consumers and therefore prevent their colonization, once hypoxia ceases. Macroalgal supply to sediment surface can represent an important source of food for surface grazers and detritivores, such as the gastropod 
+     <italic>
+      Hydrobia ulvae
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi4">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0066650-Riera1">
+      [54]
+     </xref>. Part of detrital carbon was transferred to macrofauna, especially to 
+     <italic>
+      H. ulvae
+     </italic> (experiment 2, 
+     <xref ref-type="fig" rid="pone-0066650-g007">
+      Fig. 7c
+     </xref>), which was the numerically dominant species in these area. Its important role for detrital carbon transport to the food web was found previously in the surrounding area 
+     <xref ref-type="bibr" rid="pone.0066650-Rossi4">
+      [34]
+     </xref>. This species is highly mobile and it crawls on sediment surface for feeding. Its local abundance might thus vary rapidly following food availability on surface sediment.</p> 
+    <p>In summary, our field experiment showed that 
+     <italic>
+      A. marina
+     </italic> can be an important sink for detrital 
+     <italic>
+      Ulva.
+     </italic> However, conversely to what it should be expected based on current research knowledge, this species has moderate, sometimes negative effects on the response to detrital enrichment of sediment biogeochemistry and macrofauna. 
+     <italic>
+      A. marina
+     </italic> loss causes the sedimentary ecosystem to become a faster recycler of detrital macroalgae, enhancing detrital loss, carbon consumption and mineralization. This may bring to the conclusion that the loss of this species might be unimportant or somewhat beneficial for certain intertidal ecosystems. However, fast recycling and detrital dispersal could undermine carbon storage capacity of benthos and, in turn, the stability of whole estuarine ecosystem facing organic enrichment and eutrophication.</p> 
+    <p>These findings clearly demonstrate that under natural conditions, the local extinction of an ecosystem engineer may have complex effects on the ecological stability of marine sediment biogeochemistry and benthic communities of consumers. They also highlight the importance of performing experiments under natural conditions if we are to understand and predict the response of ecosystems to perturbation and species loss.</p> 
+   </sec> 
+   <back> 
+    <ack> 
+     <p>The authors wish to thank the technicians for their invaluable help in the chemical analyses and E. Weerman, JJ Jansen and F Montserrat and numerous other students for their help in the field. S. Thrush is kindly thanked for his critical revision of an early version of this MS. This study is part of the BIOFUSE project, within the MARBEF network of excellence.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0066650-Grime1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Ecology - Biodiversity and ecosystem function: The debate deepens
+       </article-title>. 
+       <source>Science 
+       <volume>
+        277
+       </volume>: 
+       <fpage>
+        1260
+       </fpage>–
+       <lpage>
+        1261
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-McCann1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McCann
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        The diversity-stability debate
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        405
+       </volume>: 
+       <fpage>
+        228
+       </fpage>–
+       <lpage>
+        233
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Worm1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Worm
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barbier
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beaumont
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Impacts of biodiversity loss on ocean ecosystem services
+       </article-title>. 
+       <source>Science 
+       <volume>
+        314
+       </volume>: 
+       <fpage>
+        787
+       </fpage>–
+       <lpage>
+        790
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Tilman1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Downing
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Biodiversity and stability in grasslands
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        367
+       </volume>: 
+       <fpage>
+        363
+       </fpage>–
+       <lpage>
+        365
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Yachi1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yachi
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Biodiversity and ecosystem productivity in a fluctating environment: The insurance hypothesis
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        1463
+       </fpage>–
+       <lpage>
+        1468
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Downing1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Downing
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leibold
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Species richness facilitates ecosystem resilience in aquatic food webs
+       </article-title>. 
+       <source>Freshwater Biology 
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        2123
+       </fpage>–
+       <lpage>
+        2137
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Ives1">
+      <label>7</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Ives A, Carpenter S (2007) Stability and diversity of ecosystems. Science: 58–62.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Pfisterer1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pfisterer
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmid
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Diversity-dependent production can decrease the stability of ecosystem functioning
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        416
+       </volume>: 
+       <fpage>
+        84
+       </fpage>–
+       <lpage>
+        86
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Allison1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allison
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The influence of species diversity and stress intensity on community resistance and resilience
+       </article-title>. 
+       <source>Ecological Monographs 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        117
+       </fpage>–
+       <lpage>
+        134
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Emmerson1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Emmerson
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emes
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paterson
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Consistent patterns and the idiosyncratic effects of biodiversity in marine ecosystems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        411
+       </volume>: 
+       <fpage>
+        73
+       </fpage>–
+       <lpage>
+        77
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Goodsell1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Goodsell
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Underwood
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Complexity and idiosyncrasy in the responses of algae to disturbance in mono- and multi-species assemblages
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        157
+       </volume>: 
+       <fpage>
+        509
+       </fpage>–
+       <lpage>
+        519
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Rossi1">
+      <label>12</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Rossi F, Vos M, Middelburg J (2009) Species identity, diversity and microbial carbon flow in reassembling macrobenthic communities. Oikos: 503–512.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Solan1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Downing
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Engelhardt
+        </surname>
+        <given-names>
+         KAM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ruesink
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Extinction and ecosystem function in the marine benthos
+       </article-title>. 
+       <source>Science 
+       <volume>
+        306
+       </volume>: 
+       <fpage>
+        1177
+       </fpage>–
+       <lpage>
+        1180
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Bolam1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bolam
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fernandes
+        </surname>
+        <given-names>
+         TF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huxham
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Diversity, biomass, and ecosystem processes in the marine benthos
+       </article-title>. 
+       <source>Ecological Monographs 
+       <volume>
+        72
+       </volume>: 
+       <fpage>
+        599
+       </fpage>–
+       <lpage>
+        615
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Romanuk1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Romanuk
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vogt
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kolasa
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Ecological realism and mechanisms by which diversity begets stability
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        819
+       </fpage>–
+       <lpage>
+        828
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Jones1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawton
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shachak
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Organisms as ecosystem engneers
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        69
+       </volume>: 
+       <fpage>
+        373
+       </fpage>–
+       <lpage>
+        386
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Berke1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Berke
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Functional Groups of Ecosystem Engineers: A Proposed Classification with Comments on Current Issues
+       </article-title>. 
+       <source>Integrative and Comparative Biology 
+       <volume>
+        50
+       </volume>: 
+       <fpage>
+        147
+       </fpage>–
+       <lpage>
+        157
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Kristensen1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kristensen
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Penha-Lopes
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Delefosse
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Valdemarsen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quintana
+        </surname>
+        <given-names>
+         CO
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        What is bioturbation? The need for a precise definition for fauna in aquatic sciences
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        446
+       </volume>: 
+       <fpage>
+        285
+       </fpage>–
+       <lpage>
+        302
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Kristensen2">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kristensen
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Impact of polychaetes (Nereis and Arenicola) on sediment biogeochemistry in coastal areas: Past, present, and future developments
+       </article-title>. 
+       <source>Abstracts of Papers of the American Chemical Society 
+       <volume>
+        221
+       </volume>: 
+       <fpage>
+        U538
+       </fpage>–
+       <lpage>
+        U538
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Braeckman1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Braeckman
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Provoost
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moens
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soetaert
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Biological vs. Physical Mixing Effects on Benthic Food Web Dynamics
+       </article-title>. 
+       <source>Plos One 
+       <volume>
+        6
+       </volume> 
+       <lpage>
+        e18078
+       </lpage> 
+       <comment>
+        doi:
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0018078" xlink:type="simple">
+         10.1371/journal.pone.0018078
+        </ext-link>
+       </comment>
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Lohrer1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lohrer
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gibbs
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Bioturbators enhance ecosystem function through complex biogeochemical interactions
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        431
+       </volume>: 
+       <fpage>
+        1092
+       </fpage>–
+       <lpage>
+        1095
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Eklof1">
+      <label>22</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Eklof J, van der Heide T, Donadi S, van der Zee E, O’Hara R, 
+       <etal>
+        et al
+       </etal>.. (2011) Habitat-Mediated Facilitation and Counteracting Ecosystem Engineering Interactively Influence Ecosystem Responses to Disturbance. Plos One 6: e23229.–doi:10.1371/journal.pone.0023229.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Norkko1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Norkko
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reed
+        </surname>
+        <given-names>
+         DC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Timmermann
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Norkko
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gustafsson
+        </surname>
+        <given-names>
+         BG
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        A welcome can of worms? Hypoxia mitigation by an invasive species
+       </article-title>. 
+       <source>Global Change Biology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        422
+       </fpage>–
+       <lpage>
+        434
+       </lpage> 
+       <comment>
+        doi:–
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.13652486.2011.02513.x" xlink:type="simple">
+         10.1111/j.1365–2486.2011.02513.x
+        </ext-link>
+       </comment>
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Eisenhauer1">
+      <label>24</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Eisenhauer N, Milcu A, Sabais A, Scheu S (2008) Animal Ecosystem Engineers Modulate the Diversity-Invasibility Relationship. Plos One 3.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Cebrian1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cebrian
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Role of first-order consumers in ecosystem carbon flow
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        232
+       </fpage>–
+       <lpage>
+        240
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Raffaelli1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         DG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raven
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poole
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Ecological impact of green macroalgal blooms
+       </article-title>. 
+       <source>Oceanography and Marine Biology, an Annual Review 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        97
+       </fpage>–
+       <lpage>
+        125
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Ford1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ford
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Probert
+        </surname>
+        <given-names>
+         PK
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Macrobenthic colonisation of disturbances on an intertidal sandflat: the influence of season and buried algae
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        191
+       </volume>: 
+       <fpage>
+        163
+       </fpage>–
+       <lpage>
+        174
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Rossi2">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rossi
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Underwood
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Small-scale disturbance and increased nutrients as influences on intertidal macrobenthic assemblages: experimental burial of wrack in different intertidal environments
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        241
+       </volume>: 
+       <fpage>
+        29
+       </fpage>–
+       <lpage>
+        39
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Kelaher1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kelaher
+        </surname>
+        <given-names>
+         BP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levinton
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Variation in detrital enrichment causes spatio-temporal variation in soft-sediment assemblages
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        261
+       </volume>: 
+       <fpage>
+        85
+       </fpage>–
+       <lpage>
+        97
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Rossi3">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rossi
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Small-scale burial of macroalgal detritus in marine sediments: Effects of Ulva spp. on the spatial distribution of macrofauna assemblages
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        332
+       </volume>: 
+       <fpage>
+        84
+       </fpage>–
+       <lpage>
+        95
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Bolam2">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bolam
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fernandez
+        </surname>
+        <given-names>
+         TF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Read
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Effects of macroalgal mats on intertidal sandflats: an experimental study
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        249
+       </volume>: 
+       <fpage>
+        123
+       </fpage>–
+       <lpage>
+        137
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Hull1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hull
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name> (
+       <year>
+        1987
+       </year>) 
+       <article-title>
+        Macroalgal mats and species abundance: a field experiment
+       </article-title>. 
+       <source>Estuarine Coastal and Shelf Science 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        519
+       </fpage>–
+       <lpage>
+        532
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Thrush1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         SF
+        </given-names>
+       </name> (
+       <year>
+        1986
+       </year>) 
+       <article-title>
+        The sublittoral macrobenthic communtiy structure of an irish sea-lough: effect of decomposing accumulatoins of seaweed
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        199
+       </fpage>–
+       <lpage>
+        212
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Rossi4">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rossi
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Recycle of buried macroalgal detritus in sediments: use of dual-labelling experiments in the field
+       </article-title>. 
+       <source>Marine Biology 
+       <volume>
+        150
+       </volume>: 
+       <fpage>
+        1073
+       </fpage>–
+       <lpage>
+        1081
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Godbold1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Godbold
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Killham
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Consumer and resource diversity effects on marine macroalgal decomposition
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        77
+       </fpage>–
+       <lpage>
+        86
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Hansen1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hansen
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kristensen
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        The impact of the polychaete Nereis diversicolor and enrichment with macroalgal (Chaetomorpha linum) detritus on benthic metabolism and nutrient dynamics in organic-poor and organic-rich sediment
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        231
+       </volume>: 
+       <fpage>
+        201
+       </fpage>–
+       <lpage>
+        223
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-OBrien1">
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       O’Brien A, Volkenborn N, van Beusekom J, Morris L, Keough M (2009) Interactive effects of porewater nutrient enrichment, bioturbation and sediment characteristics on benthic assemblages in sandy sediments. Journal of Experimental Marine Biology and Ecology: 51–59.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-DAndrea1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         D’Andrea
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeWitt
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Geochemical ecosystem engineering by the mud shrimp Upogebia pugettensis (Crustacea: Thalassinidae) in Yaquina Bay, Oregon: Density-dependent effects on organic matter remineralization and nutrient cycling
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        1911
+       </fpage>–
+       <lpage>
+        1932
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Vonk1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vonk
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kneer
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stapel
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asmus
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Shrimp burrow in tropical seagrass meadows: An important sink for litter
+       </article-title>. 
+       <source>Estuarine Coastal and Shelf Science 
+       <volume>
+        79
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        85
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Meysman1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meysman
+        </surname>
+        <given-names>
+         FJR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galaktionov
+        </surname>
+        <given-names>
+         ES
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gribsholt
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Bioirrigation in permeable sediments: Advective pore-water transport induced by burrow ventilation
+       </article-title>. 
+       <source>Limnology and Oceanography 
+       <volume>
+        51
+       </volume>: 
+       <fpage>
+        142
+       </fpage>–
+       <lpage>
+        156
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Volkenborn1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Volkenborn
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reise
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Lugworm exclusion experiment: Responses by deposit feeding worms to biogenic habitat transformations
+       </article-title>. 
+       <source>Journal Of Experimental Marine Biology And Ecology 
+       <volume>
+        330
+       </volume>: 
+       <fpage>
+        169
+       </fpage>–
+       <lpage>
+        179
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Norkko2">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Norkko
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonsdorff
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Population responses of coastal zoobenthos to stress induced by drifting algal mats
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        140
+       </volume>: 
+       <fpage>
+        141
+       </fpage>–
+       <lpage>
+        151
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Buchsbaum1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Buchsbaum
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Valiela
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Swain
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dzierzeski
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        1991
+       </year>) 
+       <article-title>
+        Available And Refractory Nitrogen In Detritus Of Coastal Vascular Plants And Macroalgae
+       </article-title>. 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        72
+       </volume>: 
+       <fpage>
+        131
+       </fpage>–
+       <lpage>
+        143
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Nedergaard1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nedergaard
+        </surname>
+        <given-names>
+         RI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Risgaard-Peterson
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Finster
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        The importance of sulfate reduction associated with Ulva lactuca thalli during decomposition: a mesocosm experiment
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        275
+       </volume>: 
+       <fpage>
+        15
+       </fpage>–
+       <lpage>
+        29
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Herman1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         PMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Middelburg
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Widdows
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lucas
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heip
+        </surname>
+        <given-names>
+         CHR
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Stable isotopes as trophic tracers: combining field sampling and manipulative labelling of food resources for macrobenthos
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        204
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        92
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Mckie1">
+      <label>46</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Mckie B, Schindler M, Gessner M, Malmqvist B (2009) Placing biodiversity and ecosystem functioning in context: environmental perturbations and the effects of species richness in a stream field experiment. Oecologia: 757–770.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Papaspyrou1">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Papaspyrou
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kristensen
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Christensen
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Arenicola marina (Polychaeta) and organic matter mineralisation in sandy marine sediments: In situ and microcosm comparison
+       </article-title>. 
+       <source>Estuarine Coastal and Shelf Science 
+       <volume>
+        72
+       </volume>: 
+       <fpage>
+        213
+       </fpage>–
+       <lpage>
+        222
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Needham1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Needham
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pilditch
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lohrer
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Context-Specific Bioturbation Mediates Changes to Ecosystem Functioning
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        1096
+       </fpage>–
+       <lpage>
+        1109
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Huettel1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huettel
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roy
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Precht
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ehrenhauss
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Hydrodynamical impact on biogeochemical processes in aquatic sediments
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        494
+       </volume>: 
+       <fpage>
+        231
+       </fpage>–
+       <lpage>
+        236
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Retraubun1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Retraubun
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dawson
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Evans
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        The role of the burrow funnel in feeding processes in the lugworm Arenicola marina (L)
+       </article-title>. 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        202
+       </volume>: 
+       <fpage>
+        107
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Fontaine1">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fontaine
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bardoux
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abbadie
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mariotti
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Carbon input to soil may decrease soil carbon content
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        314
+       </fpage>–
+       <lpage>
+        320
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Lennon1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lennon
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Experimental evidence that terrestrial carbon subsidies increase CO2 flux from lake ecosystems
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        138
+       </volume>: 
+       <fpage>
+        584
+       </fpage>–
+       <lpage>
+        591
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Hillebrand1">
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hillebrand
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Worm
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lotze
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Marine microbenthic community structure regulated by nitrogen loading and grazing pressure
+       </article-title>. 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        204
+       </volume>: 
+       <fpage>
+        27
+       </fpage>–
+       <lpage>
+        38
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0066650-Riera1">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Riera
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Trophic plasticity of the gastropod Hydrobia ulvae within an intertidal bay (Roscoff, France): A stable isotope evidence
+       </article-title>. 
+       <source>Journal of Sea Research 
+       <volume>
+        63
+       </volume>: 
+       <fpage>
+        78
+       </fpage>–
+       <lpage>
+        83
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

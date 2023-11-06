@@ -1,0 +1,3088 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-27881
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0053009
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Community assembly
+          </subject> 
+          <subject>
+           Community structure
+          </subject> 
+          <subject>
+           Food web structure
+          </subject> 
+          <subject>
+           Species interactions
+          </subject> 
+          <subject>
+           Trophic interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Evolutionary ecology
+         </subject> 
+         <subject>
+          Global change ecology
+         </subject> 
+         <subject>
+          Terrestrial ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Evolutionary biology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Evolutionary ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Evolutionary Biology
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Resilience in Plant-Herbivore Networks during Secondary Succession
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Resilience in Plant-Herbivore Networks
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Villa-Galaviz
+        </surname> 
+        <given-names>
+         Edith
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Boege
+        </surname> 
+        <given-names>
+         Karina
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         del-Val
+        </surname> 
+        <given-names>
+         Ek
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1"> 
+      <label>1</label> 
+      <addr-line>
+       Centro de Investigaciones en Ecosistemas, Universidad Nacional Autónoma de México, Morelia, Michoacán, México
+      </addr-line> 
+     </aff> 
+     <aff id="aff2"> 
+      <label>2</label> 
+      <addr-line>
+       Instituto de Ecología, Universidad Nacional Autónoma de México, México D. F., México
+      </addr-line> 
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Thrush
+        </surname> 
+        <given-names>
+         Simon
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1"> 
+      <addr-line>
+       National Institute of Water &amp; Atmospheric Research, New Zealand
+      </addr-line> 
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        ekdelval@oikos.unam.mx
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: EdV KB. Performed the experiments: EdV KB EVG. Analyzed the data: EVG. Wrote the paper: EdV EVG KB.</p> 
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="epub"> 
+      <day>
+       27
+      </day> 
+      <month>
+       12
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date> 
+     <volume>
+      7
+     </volume> 
+     <issue>
+      12
+     </issue> 
+     <elocation-id>
+      e53009
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        11
+       </day> 
+       <month>
+        9
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        26
+       </day> 
+       <month>
+        11
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2012
+      </copyright-year> 
+      <copyright-holder>
+       Villa-Galaviz et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <abstract> 
+      <p>Extensive land-use change in the tropics has produced a mosaic of successional forests within an agricultural and cattle-pasture matrix. Post-disturbance biodiversity assessments have found that regeneration speed depends upon propagule availability and the intensity and duration of disturbance. However, reestablishment of species interactions is still poorly understood and this limits our understanding of the anthropogenic impacts upon ecosystem resilience. This is the first investigation that evaluates plant-herbivore interaction networks during secondary succession. In particular we investigated succession in a Mexican tropical dry forest using data of caterpillar associations with plants during 2007–2010. Plant-herbivore networks showed high resilience. We found no differences in most network descriptors between secondary and mature forest and only recently abandoned fields were found to be different. No significant nestedness or modularity network structure was found. Plant-herbivore network properties appear to quickly reestablish after perturbation, despite differences in species richness and composition. This study provides some valuable guidelines for the implement of restoration efforts that can enhance ecological processes such as the interaction between plants and their herbivores.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       This study was supported by PAPIIT-UNAM- IN208610 and PAPIIT-UNAM- IN208610, EVG received a grant from Conacyt for graduate studies and acknowledges the academic support provided by the Posgrado en Ciencias Biológicas-UNAM. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <page-count count="6" /> 
+     </counts> 
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>At the global scale, a large proportion of land has been modified for agriculture and cattle production (21.8% transformation worldwide) 
+     <xref ref-type="bibr" rid="pone.0053009-Hoekstra1">
+      [1]
+     </xref>. The subsequent abandonment of this land following soil depletion is a common practice, and gives rise to a mosaic of secondary forests of varying successional status. One of the most threatened ecosystems is the tropical dry forest (TDF) 
+     <xref ref-type="bibr" rid="pone.0053009-Hoekstra1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Trejo1">
+      [2]
+     </xref>. In Latin America, 66% of the original land cover of this ecosystem has been lost 
+     <xref ref-type="bibr" rid="pone.0053009-PortilloQuintero1">
+      [3]
+     </xref> and in Mexico 73% of the original TDF have disappeared 
+     <xref ref-type="bibr" rid="pone.0053009-Trejo1">
+      [2]
+     </xref>, highlighting the conservation relevance of secondary forests left 
+     <xref ref-type="bibr" rid="pone.0053009-SnchezAzofeifa1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Dent1">
+      [5]
+     </xref>.</p> 
+    <p>During secondary succession, resource availability varies along the successional gradient, influencing species population dynamics as well as community structure and diversity at all trophic levels 
+     <xref ref-type="bibr" rid="pone.0053009-Jeffries1">
+      [6]
+     </xref>. Most studies of the effects of secondary succession on biodiversity have concentrated on plant communities, particularly those of the TDF (but see Chazdon et al. 2011 
+     <xref ref-type="bibr" rid="pone.0053009-Chazdon1">
+      [7]
+     </xref>)and therefore our understanding of forests succession for the other components of this ecosystem and its species interactions remains poorly known 
+     <xref ref-type="bibr" rid="pone.0053009-LebrijaTrejos1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Quesada1">
+      [9]
+     </xref>.</p> 
+    <p>Lack of information regarding the different biotic components across succession in tropical ecosystems 
+     <xref ref-type="bibr" rid="pone.0053009-Novotny1">
+      [10]
+     </xref>, together with the difficulty of extrapolating information of successional studies in different ecosystems 
+     <xref ref-type="bibr" rid="pone.0053009-Leps1">
+      [11]
+     </xref>, limit our ability to predict different scenarios of deforestation and land use change in TDF, for the purposes of biodiversity conservation 
+     <xref ref-type="bibr" rid="pone.0053009-SnchezAzofeifa1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-LebrijaTrejos1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Quesada1">
+      [9]
+     </xref>. Biotic interactions may respond differently to land use changes in TDF compared to other ecosystems, due to the high annual climatic variability and the presence of seasonal climatic extremes. In TDF, plants lose their foliage during the dry season (6 to 8 months per year), leaving insects without food 
+     <xref ref-type="bibr" rid="pone.0053009-Quesada1">
+      [9]
+     </xref> and impelling specific evolutive strategies in the herbivores. Colonization and establishment of plant propagules is often challenged by the long dry season, during which small seedlings face extreme drought 
+     <xref ref-type="bibr" rid="pone.0053009-Wright1">
+      [12]
+     </xref>.</p> 
+    <p>In order to study the repercussions of land-use change for the biota and the process of community recovery and restoration, we must go beyond the commonly used community descriptors of species richness and diversity as these fail to consider species interactions and ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0053009-Tylianakis1">
+      [13]
+     </xref>. How fast do ecological processes recover after anthropogenic perturbation? A useful tool with which to address this question is the assessment of ecological networks to evaluate and predict of the consequences of ecosystem perturbation on the characteristics of ecological processes such as the interaction among species 
+     <xref ref-type="bibr" rid="pone.0053009-Bascompte1">
+      [14]
+     </xref>.</p> 
+    <p>The structure and topology of ecological networks affects community response to perturbations in mutualistic and antagonistic networks 
+     <xref ref-type="bibr" rid="pone.0053009-Thbault1">
+      [15]
+     </xref>. For example, some intrinsic characteristics observed in ecological networks, such as high nestedness and modularity, confer a greater resilience against species extinction 
+     <xref ref-type="bibr" rid="pone.0053009-Krause1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Stouffer1">
+      [17]
+     </xref> and allow the development of ecological indices with which to evaluate global network resilience 
+     <xref ref-type="bibr" rid="pone.0053009-Memmott1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Burgos1">
+      [19]
+     </xref>. Recently Passmore 
+     <italic>
+      et al.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0053009-Passmore1">
+      [20]
+     </xref> investigated the response of a ant-plant mutualistic network in the Amazonian forest fragments and found high resilience suggesting that networks can resist biotic and abiotic consequences of fragmentation.</p> 
+    <p>Despite this useful feature, ecological networks have not been widely utilized in applied ecological studies where they have great potential value addressing questions concerning the restoration of community structure and function 
+     <xref ref-type="bibr" rid="pone.0053009-Memmott2">
+      [21]
+     </xref>. This is the first investigation that evaluates the utility of ecological networks parameters as an indicator of ecological processes recovery after anthropogenic perturbation, in particular assessing the resilience of plant-herbivore interactions along a secondary successional gradient in a TDF. We demonstrate that plant-caterpillar networks recover their properties very quickly during the natural regeneration of TDF, and that the secondary succession stages and mature forest networks are similar in terms of the ecological network structure descriptors, although some differences in lepidopterous community composition were found.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study site</title> 
+     <p>This study was carried in the Chamela-Cuixmala Biosphere Reserve (CCBR, 19°22′–19°39′N, 104°56′–105°10′W) and its surroundings, in Jalisco, Mexico. Average annual rainfall is 748 mm but varies greatly from year to year (from 453 to 1393 mm), and is concentrated (80%) within a rainy season from July to October 
+      <xref ref-type="bibr" rid="pone.0053009-GarcaOliva1">
+       [22]
+      </xref>. The vegetation within the 13,142 hectares of the reserve consists primarily of tropical dry forest (1149 plant species with an average canopy height of 6 m), and semi-deciduous forest established along the larger streams (average canopy height of 10 m) 
+      <xref ref-type="bibr" rid="pone.0053009-Lott1">
+       [23]
+      </xref>. The TDF found at Chamela-Cuixmala is considered one of the most diverse of its kind, comprising a high percentage of endemic plant species 
+      <xref ref-type="bibr" rid="pone.0053009-Trejo1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0053009-Lott1">
+       [23]
+      </xref>. The invertebrate inventory is quite small; however, 1877 species have been described in the reserve, 583 of which are lepidopteran species 
+      <xref ref-type="bibr" rid="pone.0053009-PescadorRubio1">
+       [24]
+      </xref>.</p> 
+     <p>Land use around the reserve has been transformed by human activity, mainly related to agriculture and livestock production, leading to 16–17% deforestation in the buffer zone. Consequently, the landscape of the region is now a mosaic of intact original vegetation, agricultural fields and secondary forests at different stages of succession 
+      <xref ref-type="bibr" rid="pone.0053009-SnchezAzofeifa2">
+       [25]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Experimental design</title> 
+     <p>The study sites are integrated into the experimental design of the CIECO-UNAM Tropical Forest Management project (MABOTRO) which features a successional chronosequence of abandoned agricultural sites 
+      <xref ref-type="bibr" rid="pone.0053009-AvilaCabadilla1">
+       [26]
+      </xref>. This chronosequence is formed by four stages of secondary succession: Initial (fields abandoned for four years), early secondary forest (6–9 years of abandonment), late secondary forest (13–16 years of abandonment) and mature forest. There were three replicates of each successional stage with the exception of the initial stage, which only had two due to a fire in one location. Each replicate consisted in 20×50 m plots, with four transects of 2×20 m established every 10 m within each plot. Excluding lianas, all woody plants ≥1 cm in diameter and ≥50 cm within these transects were labeled. Plot size was 1 ha at least (mature forests are immersed in the biosphere reserve therefore they are greater in size) and the distance between plots of the same successional stage was 3 km.</p> 
+     <p>During the rainy season of each year in the period 2007–2010, surveys were carried out in labeled plants searching for caterpillars on all leaves and stems. A total of 19 surveys were conducted. In order to search for caterpillars on adult trees, a subsample of three branches - comprising approximately 100 leaves - was taken per individual tree. Caterpillars were recorded and raised in the laboratory to procure adults for subsequent taxonomic identification. Plant material was also collected and identified to at least family level.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Network topology</title> 
+     <p>For each successional stage replicate, a bipartite network was constructed and the following network structure descriptors were calculated: network size, connectance, nestedness, extinction curve, robustness, number of compartments, network specialization and modularity, the data from all samplings was incorporated to create a single network per plot. 1) Network size was defined as the total richness of species, 2) connectance (
+      <italic>
+       C
+      </italic>) as the fraction of recorded interactions relative to the total possible interactions 
+      <xref ref-type="bibr" rid="pone.0053009-Dunne1">
+       [27]
+      </xref>, 3) nestedness (
+      <italic>
+       N
+      </italic>) is a topological pattern in which the majority of the specialist species interact exclusively with more generalist species that also interact with them in return 
+      <xref ref-type="bibr" rid="pone.0053009-Bascompte2">
+       [28]
+      </xref>. This descriptor was calculated with the nested overlap and decreasing fill (NODF) metric 
+      <xref ref-type="bibr" rid="pone.0053009-AlmeidaNeto1">
+       [29]
+      </xref> using Aninhado 3.0 software 
+      <xref ref-type="bibr" rid="pone.0053009-Guimaraes1">
+       [30]
+      </xref>, while the significance was estimated with a Monte Carlo procedure, performing 1000 randomizations created from the null model 
+      <italic>
+       Ce
+      </italic>, in which the probability of an interaction between an animal and a plant is proportional to the total observed number of their interactions. The measure itself is unsuitable for drawing comparisons between different networks due to the fact that it is affected by network size and connectance 
+      <xref ref-type="bibr" rid="pone.0053009-Bascompte2">
+       [28]
+      </xref>. Thus, the relative nestedness (
+      <italic>
+       N
+      </italic>*) is defined as
+      <disp-formula id="pone.0053009.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0053009.e001" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       N
+      </italic> is the value of nestedness of the current matrix while 
+      <italic>
+       Ñr
+      </italic> refers to the average value of nestedness of the random replicates. 4) Number of compartments: these are network subgroups that are not connected to another subgroup 
+      <xref ref-type="bibr" rid="pone.0053009-Tylianakis1">
+       [13]
+      </xref>, related to 5) the modularity (
+      <italic>
+       M
+      </italic>) that measures the level at which the species tend to be organized in subgroups of species that interact more frequently among themselves than with other members of the network 
+      <xref ref-type="bibr" rid="pone.0053009-Stouffer1">
+       [17]
+      </xref>. This value was calculated with the index 
+      <italic>
+       M
+      </italic> (range 0–1) in the program NETCARTO 
+      <xref ref-type="bibr" rid="pone.0053009-Guimera1">
+       [31]
+      </xref>, based on the algorithm of Newman &amp; Girvan 
+      <xref ref-type="bibr" rid="pone.0053009-Newman1">
+       [32]
+      </xref>, while its significance was estimated using a Monte Carlo procedure of 1000 randomizations. Random matrices were generated with the 
+      <italic>
+       vaznull
+      </italic> function of the bipartite package of the program R 
+      <xref ref-type="bibr" rid="pone.0053009-Team1">
+       [33]
+      </xref>, and were generated from the characteristics of the networks of each plot of each successional stage. This function is based on the algorithm of Vazquez 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0053009-Vzquez1">
+       [34]
+      </xref>, and observes both the marginal totals as well as the connectance of the matrix. This latter criterion represents the ecological restrictions of the network interactions 
+      <xref ref-type="bibr" rid="pone.0053009-Dormann1">
+       [35]
+      </xref>. To carry out comparisons between networks, relative modularity (
+      <italic>
+       M*
+      </italic>) was calculated as
+      <disp-formula id="pone.0053009.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0053009.e002" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       M
+      </italic> is the value of nestedness of the current matrix, while MR refers to the average value of modularity of the random replicates.</p> 
+     <p>To evaluate changes in network specialization, the metric 
+      <italic>
+       H
+       <sub>2</sub>
+      </italic>′ was calculated 
+      <xref ref-type="bibr" rid="pone.0053009-Blthgen1">
+       [36]
+      </xref>. This is a measure of specialization at the network level that is based on the deviation between the number of interactions of a species and the expected total of interactions for each network, assuming that all species interact with their partners in proportion to their observed frequency totals. This metric has the advantage that it is not affected by sampling effort, network size or symmetry, allowing robust and reliable comparisons among networks 
+      <xref ref-type="bibr" rid="pone.0053009-Blthgen1">
+       [36]
+      </xref>.</p> 
+     <p>Similarly, robustness was calculated to evaluate vulnerability to extinction in the lepidopterous community within each successional stage 
+      <xref ref-type="bibr" rid="pone.0053009-Burgos1">
+       [19]
+      </xref>. This descriptor refers to the area below the extinction curve 
+      <xref ref-type="bibr" rid="pone.0053009-Memmott1">
+       [18]
+      </xref> created by the fraction of species that survive following the removal of a given species, calculated as the exponent 
+      <italic>
+       a
+      </italic> of the function 
+      <italic>
+       y = 1-x
+       <sup>a</sup>
+      </italic>. Extinctions were carried out by randomly removing plants from the network. When a lepidopterous species was connected exclusively to the removed species, it was also removed from the network. In this way, an extinction curve was generated by plotting the number of species that remained within the network against the accumulated number of removed species (1000 randomizations).</p> 
+     <p>Linear mixed effect models were used in order to determine whether there were differences between the network parameters in each different successional stage 
+      <xref ref-type="bibr" rid="pone.0053009-Crawley1">
+       [37]
+      </xref>. For these models, the successional stage was the fixed effect while the years of study within the same plot were the random effects. In all cases, successional stage was the independent variable. For the measurements of connectance, extinction curve and robustness, network size was also used as a cofactor. This was because of the correlation between this factor and the other descriptors. Number of compartments was incorporated as a cofactor in the connectance model.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>We found 140 tree species (
+     <xref ref-type="supplementary-material" rid="pone.0053009.s001">
+      Appendix S1
+     </xref>) interacting with 471 Lepidopteran species along secondary succession (
+     <xref ref-type="supplementary-material" rid="pone.0053009.s002">
+      Appendix S2
+     </xref>). The size of the plant-caterpillar network differed between successional stages (
+     <xref ref-type="fig" rid="pone-0053009-g001">
+      Fig. 1
+     </xref>). The initial succession network in particular was significantly smaller (y¯ = 18±3.62, standard deviations from hereafter) than the other successional stages (y¯ = 46.08±2.8; 
+     <italic>
+      F
+     </italic><sub>3,37</sub> = 19.71, 
+     <italic>
+      p
+     </italic> = 8.43 e<sup>−08</sup>). Number of compartments also differed between successional stages, with the pasture networks presenting an average of 4.12±0.24 compartments for the initial successional stage in comparison to 7.94±0.18 in the later stages (F<sub>3,36</sub> = 5.573, 
+     <italic>
+      p
+     </italic> = 0.00019). Connectance of the interaction network presented the same pattern, grouping the early and late succession stages together with the mature forest (y¯ = 0.08±0.003 which differed from the initial stage that had greater connectance (y¯ = 0.22±0.021; F<sub>3, 36</sub> = 51.477, 
+     <italic>
+      p
+     </italic> = 4.21 e<sup>−13</sup>; 
+     <xref ref-type="table" rid="pone-0053009-t001">
+      Tables 1
+     </xref> and 
+     <xref ref-type="table" rid="pone-0053009-t002">
+      2
+     </xref>). Robustness was different between stages (F<sub>3,36</sub> = 3.666, 
+     <italic>
+      p
+     </italic> = 0.02104), given that robustness in the initial stage was lower than than in older stages (y¯ = 0.53±0.041 [see 
+     <xref ref-type="table" rid="pone-0053009-t001">
+      Table 1
+     </xref> and 
+     <xref ref-type="table" rid="pone-0053009-t002">
+      2
+     </xref>]).</p> 
+    <fig id="pone-0053009-g001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0053009.g001
+     </object-id> 
+     <label>Figure 1</label>  
+     <title>Plant-herbivore networks in different successional stages.</title> 
+     <p>Each network represents all the interactions observed in all the sampling times and in all replicates of the same successional stage. Species bar size represents the number of interactions it has. 
+      <bold>
+       Plants are represented in green
+      </bold>: 1) 
+      <italic>
+       Acacia farnesiana
+      </italic>, 2) 
+      <italic>
+       Acacia macracantha
+      </italic>, 3) 
+      <italic>
+       Lonchocarpus
+      </italic> sp. L, 4) 
+      <italic>
+       Apoplanesia paniculata
+      </italic>, 5) 
+      <italic>
+       Ayenia micrantha
+      </italic>, 6) 
+      <italic>
+       Coccoloba liebmannii
+      </italic>, 7) 
+      <italic>
+       Caesalpinia caladenia
+      </italic>, 8) 
+      <italic>
+       Casearia nitida
+      </italic>, 9) 
+      <italic>
+       Colubrina triflora
+      </italic>, 10) 
+      <italic>
+       Coursetia caribaea
+      </italic>, 11) 
+      <italic>
+       Croton pseudoniveus
+      </italic>, 12) 
+      <italic>
+       Dalbergia congestiflora
+      </italic>, 13) 
+      <italic>
+       Guapira macrocarpa
+      </italic>, 14) 
+      <italic>
+       Gyrocarpus jatrophifolius
+      </italic>, 15) 
+      <italic>
+       Heliocarpus pallidus
+      </italic>, 16) 
+      <italic>
+       Hintonia latiflora
+      </italic>, 17) 
+      <italic>
+       Justicia candicans
+      </italic>, 18) 
+      <italic>
+       Leucaena lanceolata
+      </italic>, 19) 
+      <italic>
+       Lonchocarpus
+      </italic> sp. 2, 20) 
+      <italic>
+       Lonchocarpus eriocarinalis
+      </italic>, 21) 
+      <italic>
+       Lonchocarpus
+      </italic> sp. F, 22) 
+      <italic>
+       Lonchocarpus
+      </italic> sp. A, 23) 
+      <italic>
+       Lonchocarpus
+      </italic> sp. K, 24) 
+      <italic>
+       Mimosa arenosa
+      </italic>, 25) 
+      <italic>
+       Mimosa pigra
+      </italic>, 26) 
+      <italic>
+       Phyllanthus mocinianus
+      </italic>, 27) 
+      <italic>
+       Piptadenia constricta
+      </italic>, 28) 
+      <italic>
+       Rauvolfia tetraphylla
+      </italic>, 29) 
+      <italic>
+       Spondias purpurea
+      </italic>, 30) 
+      <italic>
+       Stemmadenia donnell-smithii
+      </italic>, 31) 
+      <italic>
+       Thouinia paucidentata
+      </italic>, 32) 
+      <italic>
+       Trichilia trifolia
+      </italic>. 
+      <bold>
+       Lepidopterans are represented in blue
+      </bold>: 1) 
+      <italic>
+       Agraulis vanillae incarnate, 2) Anomis editrix, 3)Apatelodes pudefacta, 4) Automeris io, 5)Dasylophia eminens, 6) Eutelia auratrix, 7) Geometridae sp. 10, 8) Geometridae sp. 12, 9) Geometridae sp. 7, 10) Geometridae sp. 9, 11) Gonodonta pyrgo, 12) Norape tenera, 13) Orgya sp., 14) Polygonus manueli manueli, 15) Syllepsis hortalis, 16) Wockia chewbacca, 17) Arctiidae sp. 1, 18) O114, 19)O14, 20) O18, 21)O190, 22 Geometridae sp. 34, 23)O3, 24)O32, 25) Geometridae sp. 59, 26)O67, 27)O80
+      </italic>.</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0053009.g001" position="float" xlink:type="simple" /> 
+    </fig> 
+    <table-wrap id="pone-0053009-t001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0053009.t001
+     </object-id> 
+     <label>Table 1</label>  
+     <title>Network measurements in four successional stages (Mean ± SD) of the tropical dry forest in the Chamela region.</title>  
+     <alternatives> 
+      <graphic id="pone-0053009-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0053009.t001" xlink:type="simple" /> 
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           Network descriptor
+          </italic> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           Pasture
+          </italic> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           Initial
+          </italic> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           Intermediate
+          </italic> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           Mature
+          </italic> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           F value
+          </italic> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           p
+          </italic> </td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Network size
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">18±3.61</td> 
+         <td align="left" rowspan="1" colspan="1">45.9±7.16</td> 
+         <td align="left" rowspan="1" colspan="1">41.34±3.37</td> 
+         <td align="left" rowspan="1" colspan="1">51±4.96</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>3, 37</sub> = 19.71</td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           8.43 e
+           <sup>−08</sup>
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Connectance
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">0.22±0.02</td> 
+         <td align="left" rowspan="1" colspan="1">0.085±0.009</td> 
+         <td align="left" rowspan="1" colspan="1">0.09±0.009</td> 
+         <td align="left" rowspan="1" colspan="1">0.08±0.004</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>3, 36</sub> = 51.47</td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           4.21 e
+           <sup>−13</sup>
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Nestedness
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">0.575 0.0344</td> 
+         <td align="left" rowspan="1" colspan="1">0.364±0.08</td> 
+         <td align="left" rowspan="1" colspan="1">0.329±0.058</td> 
+         <td align="left" rowspan="1" colspan="1">0.33±0.052</td> 
+         <td align="left" rowspan="1" colspan="1">--------</td> 
+         <td align="left" rowspan="1" colspan="1">ns</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Modularity
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">0.044±0.09</td> 
+         <td align="left" rowspan="1" colspan="1">0.18±0.056</td> 
+         <td align="left" rowspan="1" colspan="1">0.31±0.12</td> 
+         <td align="left" rowspan="1" colspan="1">0.15±0.032</td> 
+         <td align="left" rowspan="1" colspan="1">-------</td> 
+         <td align="left" rowspan="1" colspan="1">ns</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Number of compartments
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">4.125±0.24</td> 
+         <td align="left" rowspan="1" colspan="1">8.166±0.75</td> 
+         <td align="left" rowspan="1" colspan="1">8.08±1.32</td> 
+         <td align="left" rowspan="1" colspan="1">7.58±0.64</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>3, 36</sub> = 5.573</td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           1.9 e
+           <sup>−04</sup>
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Extinction curve
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">1.2±0.20</td> 
+         <td align="left" rowspan="1" colspan="1">1.44±0.043</td> 
+         <td align="left" rowspan="1" colspan="1">1.52±0.05</td> 
+         <td align="left" rowspan="1" colspan="1">1.57±0.12</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>3, 36</sub> = 2.066</td> 
+         <td align="left" rowspan="1" colspan="1">0.13</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Robustness
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">0.53±0.04</td> 
+         <td align="left" rowspan="1" colspan="1">0.6±0.02</td> 
+         <td align="left" rowspan="1" colspan="1">0.6±0.009</td> 
+         <td align="left" rowspan="1" colspan="1">0.56±0.043</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>3, 36</sub> = 3.666</td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           0.021
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Network specialization
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">0.81±0.02</td> 
+         <td align="left" rowspan="1" colspan="1">0.74±0.06</td> 
+         <td align="left" rowspan="1" colspan="1">0.792±0.05</td> 
+         <td align="left" rowspan="1" colspan="1">0.735±0.061</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>3</sub> = 0.55</td> 
+         <td align="left" rowspan="1" colspan="1">0.648</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Caterpillars (no. spp)
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">12.25±3.04</td> 
+         <td align="left" rowspan="1" colspan="1">29.75±5.9</td> 
+         <td align="left" rowspan="1" colspan="1">26.25±2.44</td> 
+         <td align="left" rowspan="1" colspan="1">33.58±4.13</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>(3,8)</sub> = 6.07</td> 
+         <td align="left" rowspan="1" colspan="1">0.02</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold> 
+           <italic>
+            Plants (no. spp)
+           </italic> 
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">5.75±0 .63</td> 
+         <td align="left" rowspan="1" colspan="1">16.17±1.5</td> 
+         <td align="left" rowspan="1" colspan="1">15.08±0.956</td> 
+         <td align="left" rowspan="1" colspan="1">17.41±0.88</td> 
+         <td align="left" rowspan="1" colspan="1">F<sub>(3,8)</sub> = 27.29</td> 
+         <td align="left" rowspan="1" colspan="1">0.0001</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+    </table-wrap> 
+    <table-wrap id="pone-0053009-t002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0053009.t002
+     </object-id> 
+     <label>Table 2</label>  
+     <title>Significant &lt;italic&gt;a posteriori&lt;/italic&gt; contrasts.</title>  
+     <alternatives> 
+      <graphic id="pone-0053009-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0053009.t002" xlink:type="simple" /> 
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Descriptor</td> 
+         <td align="left" rowspan="1" colspan="1">Model</td> 
+         <td align="left" rowspan="1" colspan="1">Contrast</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           t
+          </italic> values</td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <italic>
+           p
+          </italic> </td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           Network size
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           lme
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">Mature forest-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = 5.40</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Late-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = 4.33</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0034</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Early-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = 4.841</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0019</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           Connectance
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           lme
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">Mature forest-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −5.068</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0015</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Late-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −6.036</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0005</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Early-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −8.19</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           Robustness
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           lme
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">Mature forest-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −3.28</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0135</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Late-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −5.8</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0008</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Early-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −5.6</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0006</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           Number of compartments
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1"> 
+          <bold>
+           lme
+          </bold> </td> 
+         <td align="left" rowspan="1" colspan="1">Mature forest-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −4.84</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0019</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Late-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −4.75</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0021</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">Early-pasture</td> 
+         <td align="left" rowspan="1" colspan="1">t<sub>7</sub> = −4.279</td> 
+         <td align="left" rowspan="1" colspan="1">p = 0.0037</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+    </table-wrap> 
+    <p>No significant differences were found between the nestedness values (NODF) of the random and studied matrices (
+     <italic>
+      p
+     </italic>&gt;0.05). For this reason, the NODF values of all matrices did not differ significantly from those obtained at random. Notably, the observed values were very low on average (&lt;15), likewise for the parameter of modularity. Only some plots in certain years had values that were significantly different to those expected by chance, while these remained non-significant for the majority (
+     <italic>
+      p
+     </italic>&gt;0.05). Moreover, no significant differences were observed in the value of specificity of the network (H<sup>2</sup>) between successional stages (F<sub>3,36</sub> = 0.55, 
+     <italic>
+      p
+     </italic> = 0.648).</p> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Considering that the gradual increase in species is intrinsic to any secondary succession process, it is intuitive that the network of biotic interactions should differ in sites featuring different identities and time since perturbation. Although various studies have reported such increase of diversity in plant 
+     <xref ref-type="bibr" rid="pone.0053009-Guariguata1">
+      [38]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-LebrijaTrejos2">
+      [39]
+     </xref> and herbivore species across forest succession 
+     <xref ref-type="bibr" rid="pone.0053009-Kitchin1">
+      [40]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Lewinsohn1">
+      [41]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-LpezCarretero1">
+      [42]
+     </xref>, the relevant and novel aspect of this study is the finding of a rapid recovery of network size and properties after a perturbation of TDF. Six to 13 years after abandonment, succession plots had already network properties equivalent to mature forest plots, which emphasize the importance of secondary forest for the conservation of species but also of ecological processes such as herbivory.</p> 
+    <p>Secondary forests in TDF's usually do not appear to differ widely from primary forests in terms of richness and composition of plant 
+     <xref ref-type="bibr" rid="pone.0053009-Dent1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-LebrijaTrejos2">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Kitchin1">
+      [40]
+     </xref> and animal species 
+     <xref ref-type="bibr" rid="pone.0053009-Dunn1">
+      [43]
+     </xref>. In the case of the TDF in this area, a recent investigation has demonstrated that, whereas abundance of herbivores was different only at the initial succession stage, species richness, diversity and composition was different across succession 
+     <xref ref-type="bibr" rid="pone.0053009-LpezCarretero1">
+      [42]
+     </xref>. Despite these differences, network size across succession was similar for the last three successional stages, which suggest that the rapid recovery of structure and diversity of vegetation seems to similarly promote a speedy reintegration of caterpillars to the system, as has been observed in other forests 
+     <xref ref-type="bibr" rid="pone.0053009-LebrijaTrejos2">
+      [39]
+     </xref>.</p> 
+    <p>One interesting aspect is how changes in network size during secondary succession can affect the functionality of the system. Ecosystems are capable of regaining function long before completing the recovery of all their structural attributes 
+     <xref ref-type="bibr" rid="pone.0053009-Guariguata1">
+      [38]
+     </xref>. Compared to the tropical humid forest, tropical deciduous forests are considered by Murphy &amp; Lugo 
+     <xref ref-type="bibr" rid="pone.0053009-Murphy1">
+      [44]
+     </xref> to be resilient to environmental perturbations because of its relative simplicity and structure. Although there is no consensus regarding this point of view, evidence of early recovery of TDF has been found in terms of structure and plant diversity 
+     <xref ref-type="bibr" rid="pone.0053009-Chazdon1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-LebrijaTrejos2">
+      [39]
+     </xref>, as well as in the diversity of birds and bats 
+     <xref ref-type="bibr" rid="pone.0053009-Chazdon1">
+      [7]
+     </xref> and caterpillars 
+     <xref ref-type="bibr" rid="pone.0053009-LpezCarretero1">
+      [42]
+     </xref>, although with significantly different species composition. A recent study in fragmented humid rainforests 
+     <xref ref-type="bibr" rid="pone.0053009-Passmore1">
+      [20]
+     </xref> showed that ant-plant mutualistic networks are resilient to abiotic and biotic changes caused by fragmentation. Accordingly our investigation in a tropical dry forest showed high resilience in plant-herbivore network across succession, given that differences in network size, connectivity and number of compartments between successional stages were significant only between the initial and the older successional stages (
+     <xref ref-type="fig" rid="pone-0053009-g001">
+      Fig. 1
+     </xref>).</p> 
+    <p>Connectance in the studied networks was generally low (0.12±0.034), but higher in the initial succession stage relative to older stages and mature forest. Low connectance is characteristic of antagonistic networks, and can be promoted by high competition between herbivores restricting the exchange of interacting factors, or by the arms race evolutionary dynamics between plants and their consumers. Such low connectance has the advantage of conferring a high stability to the network by reducing the propagation of negative effects throughout the network in the case of punctual extinctions 
+     <xref ref-type="bibr" rid="pone.0053009-Thbault1">
+      [15]
+     </xref>. This suggests a greater resilience in later successional stages, compared to initial successional stages. In this context, restoration efforts should provide particular attention to reduce the factors driving local extinctions in early successional stages, which seem to be the most vulnerable to suffer indirect extinction events, as suggested by their high connectance.</p> 
+    <p>Contrary to our expectation, the networks studied did not present a pattern of significant modular layout and values of modularity were lower than those expected in a network of equal size and connectance 
+     <xref ref-type="bibr" rid="pone.0053009-Vzquez1">
+      [34]
+     </xref>. This seemingly random pattern could be the result of several factors: a) skewed representatively of the lepidopterous community, given that the present study only included caterpillar species found in trees and shrubs, thus potentially excluding part of the community specialized to feed on lianas or herbaceous plants 
+     <xref ref-type="bibr" rid="pone.0053009-Nylin1">
+      [45]
+     </xref>, b) the high turnover of species (70% turnover between different successional stages and between the two years studied 
+     <xref ref-type="bibr" rid="pone.0053009-LpezCarretero1">
+      [42]
+     </xref>), c) high variation in environmental conditions; rainfall is a key factor in the TDF's biodiversity, and as might be expected, varies from year to year depending on the incidence of hurricanes, which would not favor the presence of modules.</p> 
+    <p>It has been suggested that one of the factors causing an increase in species richness of insects during succession is a greater food specificity as forest mature, allowing the coexistence of a greater number of species 
+     <xref ref-type="bibr" rid="pone.0053009-Lewinsohn1">
+      [41]
+     </xref>. However, studies conducted in tropical rainforests indicate that host specificity by herbivores does not change significantly during succession 
+     <xref ref-type="bibr" rid="pone.0053009-Leps1">
+      [11]
+     </xref>. In the case of tropical rain forests, this can be explained by the abundance of pioneer trees with chemical defenses, which increase host specificity even in the early successional stages, as occurs in humid tropical forest 
+     <xref ref-type="bibr" rid="pone.0053009-Leps1">
+      [11]
+     </xref>. In the case of tropical dry forests, however, the boundaries between pioneer and mature forest species are less defined and some late succession species can colonize quite soon recently perturbed areas, whereas pioneer species can be also found in mature forest 
+     <xref ref-type="bibr" rid="pone.0053009-Chazdon1">
+      [7]
+     </xref>. This should promote, in turn, a higher range of host species occurrence across forest succession for both specialized and generalist herbivores.</p> 
+    <p>In terms of robustness, the greater fragility of the initial successional stage might be caused by a reduced plant community structure and increased connectance in the network. However, this result is inconsistent with the random pattern found in all the networks, since random networks are more susceptible to extinction than a network with modulated pattern 
+     <xref ref-type="bibr" rid="pone.0053009-Krause1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Stouffer1">
+      [17]
+     </xref>. We did find modules in our networks, although their arrangement did not seem to be determined by any biological factor. This also merits further study to determine whether other cluster models could better explain the observed pattern.</p> 
+    <p>One important aspect of this study is that greater fragility in the interaction network, measured as reduced robustness, as well as greater connectance 
+     <xref ref-type="bibr" rid="pone.0053009-Dunne1">
+      [27]
+     </xref> and a lower number of compartments (which entails greater dispersion of extinctions within the network 
+     <xref ref-type="bibr" rid="pone.0053009-Krause1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Stouffer1">
+      [17]
+     </xref>), were all seen in the initial succession stage. This pattern highlights the importance of the rapid establishment of tree species in recently abandoned sites in order to increase the natural regeneration of the forest and to consolidate plant-herbivore networks. It is clear that caution must be used when considering the conclusions of the indices in management decision-making 
+     <xref ref-type="bibr" rid="pone.0053009-Burgos1">
+      [19]
+     </xref> because ecological networks can be highly robust in the face of random removal of species, but also extremely fragile when attacks are selective, e.g. the removal of highly connected species, which are often those most abundant 
+     <xref ref-type="bibr" rid="pone.0053009-Sol1">
+      [46]
+     </xref>.</p> 
+    <p>Exploitation of plant species by local people in Chamela is uncommon. In general, useful plant species are little appreciated by the local inhabitants 
+     <xref ref-type="bibr" rid="pone.0053009-Godnez1">
+      [47]
+     </xref>. However, the loss of abundant timber species such as 
+     <italic>
+      Apoplanesia paniculata
+     </italic> Persl, which is highly connected to various species of caterpillars in both mature and secondary forest, could have a large impact on the lepidopterous community. For this reason, it is suggested that the number of interactions should be considered as a criterion for protection or selection of species in restoration programs, given that the introduction of highly connected plant species 
+     <xref ref-type="bibr" rid="pone.0053009-MartnezGarza1">
+      [48]
+     </xref> can conserve the properties of the system and promote the establishment of other groups of organisms 
+     <xref ref-type="bibr" rid="pone.0053009-Thbault1">
+      [15]
+     </xref>.</p> 
+    <p>Our results contrast with the conclusions of Quesada 
+     <italic>
+      et al.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0053009-Quesada1">
+      [9]
+     </xref> and coincide with Murphy and Lugo that proposed that the ecological succession of the TDF can reach a state of maturity very rapidly 
+     <xref ref-type="bibr" rid="pone.0053009-Murphy1">
+      [44]
+     </xref>. The fact that the index values that describe the fragility of the trophic networks in this study, such as those of the extinction curve, connectance and number of compartments 
+     <xref ref-type="bibr" rid="pone.0053009-Krause1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Memmott1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-Dunne1">
+      [27]
+     </xref> were no different between secondary and mature forests suggests that despite the differences in species abundance and composition across forest sucessional stages, the properties of plant-herbivore networks are quikly restored. This result is encouraging, given the large number of secondary forests in the tropics 
+     <xref ref-type="bibr" rid="pone.0053009-SnchezAzofeifa2">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0053009-FAO1">
+      [49]
+     </xref>. One important aspect to be considered and that should be further investigated, is that the fast recovery of ecological processes in these perturbed areas has been likely influenced by their relative close distance to the main source of both plants and herbivores colonizers in the Chamela Cuixmala Biological Reserve comprising 13,142 ha of continuous forest 
+     <xref ref-type="bibr" rid="pone.0053009-AvilaCabadilla1">
+      [26]
+     </xref>. Other studies have also shown that in tropical rainforest, when the land has been subjected to low intensity use and sources of propagules of the woody species recover rapidly 
+     <xref ref-type="bibr" rid="pone.0053009-Guariguata1">
+      [38]
+     </xref>, animal species richness can approach that of mature forests between 20 and 30 years after abandonment 
+     <xref ref-type="bibr" rid="pone.0053009-Dunn1">
+      [43]
+     </xref>. Recovery of ecological processes, however, is likely to be quite different if source well conserved areas are not available close to the secondary forest succession matrix.</p> 
+    <p>The present study is an example of how the use of ecological networks allows us to analyze the resilience of biotic interactions in the face of environmental perturbations and to devise strategies for ecosystem conservation. We observed that the properties characterizing plant-herbivore networks can be recovered quite soon during secondary succession of the TDF. Despite differences in species richness and composition 
+     <xref ref-type="bibr" rid="pone.0053009-LpezCarretero1">
+      [42]
+     </xref>, the size and connectance of their networks are restored together with the recovery of the forest structure, without this affecting the specificity of the network or its susceptibility to extinction once the initial succession stage has been left behind. These results give a small glimpse into the way in which interspecific interactions occur during secondary succession and we therefore suggest that more complex studies should be carried out, considering all herbivore guilds as well as other trophic levels and species interactions, such as pollination and dispersal. Likewise, studies should be conducted to identify key species of a system, in order to carry out management and conservation actions that are appropriate to ensure the maintenance of greatest level of biodiversity within an ecosystem.</p> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0053009.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0053009.s001" position="float" xlink:type="simple"> 
+     <label>Appendix S1</label>  
+     <p>Incidence of plant species in different successional stages of tropical dry forest in the Chamela region. Numbers indicate the number of Lepidopteran species found associated with that plant species. * indicates absence, 0 indicates that the plant is present in the successional stage but has no interaction with Lepidopterans.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0053009.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0053009.s002" position="float" xlink:type="simple"> 
+     <label>Appendix S2</label>  
+     <p>Incidence of Lepidopteran species in different successional stages of tropical dry forest in the Chamela region. Numbers indicate the number of plant species where that Lepidopteran species was found. 0 indicates absence.</p> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We would like to thank the students of the biotic interactions ecology laboratory of CIECO, UNAM, Eloy Castro, Antonio López-Carretero, César Manrique, and Irais Medina and Rubén Pérez for their logistic support. Francisco Mora helped with plant identification and M. Ibarra provided lepidopteran identification. Lucero Sevillano, Martha Lopezaraiza-Mikel, Juan Núñez-Farfán, Heberto Ferreira, Carsten Dorman and Ernesto Vega helped with data analysis. We especially wish to acknowledge the integrative ecology lab of Doñana biological station, especially Jordi Bascompte and Miguel Angel Fortuna for their advice for data analysis. Héctor Arita's comments significantly improve the manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0053009-Hoekstra1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hoekstra
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ricketts
+        </surname>
+        <given-names>
+         TH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Confronting a biome crisis, global disparities of habitat loss and protection
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        23
+       </fpage>–
+       <lpage>
+        29
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Trejo1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Trejo
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dirzo
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Deforestation of seasonally dry tropical forest: a national and local analysis in Mexico
+       </article-title>. 
+       <source>Biological Conservation 
+       <volume>
+        94
+       </volume>: 
+       <fpage>
+        133
+       </fpage>–
+       <lpage>
+        142
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-PortilloQuintero1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Portillo-Quintero
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname>
+        <given-names>
+         GA
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Extent and conservaton of tropical dry forests in the Americas
+       </article-title>. 
+       <source>Biological Conservation 
+       <volume>
+        143
+       </volume>: 
+       <fpage>
+        144
+       </fpage>–
+       <lpage>
+        155
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-SnchezAzofeifa1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname>
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kalacska
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quesada
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Calvo-Alvarado
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nassar
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Need for Integrated research for a sustainable of tropical dry forests
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        285
+       </fpage>–
+       <lpage>
+        286
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Dent1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dent
+        </surname>
+        <given-names>
+         HD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The future of tropical species in secondary forests, A quantitative review
+       </article-title>. 
+       <source>Biological Conservation 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        2833
+       </fpage>–
+       <lpage>
+        2843
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Jeffries1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jeffries
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marquis
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Forkner
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Forest age influence oak insect herbivore community structure, richness, and density
+       </article-title>. 
+       <source>Ecological Applications 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        901
+       </fpage>–
+       <lpage>
+        912
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Chazdon1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Chazdon R, Harvey CA, Martínez-Ramos M, Balvanera P, Stoner KE, 
+       <etal>
+        et al
+       </etal>.. (2011) Seasonally Dry Tropical Forest Biodiversity and Conservation Value in Agricultural Landscapes of Mesoamerica. In: Dirzo R, Mooney HA, editors. Seasonally dry tropical forests: ecology and conservation: Island Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-LebrijaTrejos1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lebrija-Trejos
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pérez-García
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meave
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bongers
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poorter
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Functional traits and environmental filtering drive community assembly in a species-rich tropical system
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        386
+       </fpage>–
+       <lpage>
+        398
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Quesada1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Quesada
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname>
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alvarez-Añorve
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stoner
+        </surname>
+        <given-names>
+         KE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Avila-Cabadilla
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Succession and Management of tropical dry forests in the Americas, Review and perspectives
+       </article-title>. 
+       <source>Forest Ecology and Management 
+       <volume>
+        258
+       </volume>: 
+       <fpage>
+        1014
+       </fpage>–
+       <lpage>
+        1024
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Novotny1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Novotny
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Basset
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Miller
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kitching
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Laidlaw
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Local species richness of leaf-chewing insects feeding on woody plants one hectare of a lowland rainforest
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        237
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Leps1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leps
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Novotny
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Basset
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Habitat and succesional status of plants in relation to the communities of their leaf-chewing herbivores in Papua New Guinea
+       </article-title>. 
+       <source>Journal of Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        186
+       </fpage>–
+       <lpage>
+        199
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Wright1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Seasonal drought, soil fertility and the species density of tropical forest plant communities
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        260
+       </fpage>–
+       <lpage>
+        263
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Tylianakis1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tylianakis
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         OT
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Habitat modification alters th estructure of tropical host-parasitoid food webs
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        445
+       </volume>: 
+       <fpage>
+        202
+       </fpage>–
+       <lpage>
+        205
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Bascompte1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bascompte
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Structure and Dynamics of ecological networks
+       </article-title>. 
+       <source>Science 
+       <volume>
+        329
+       </volume>: 
+       <fpage>
+        765
+       </fpage>–
+       <lpage>
+        766
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Thbault1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thébault
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fontaine
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Stability of ecological communities and the architecture of mutualistic and trophic networks
+       </article-title>. 
+       <source>Science 
+       <volume>
+        329
+       </volume>: 
+       <fpage>
+        853
+       </fpage>–
+       <lpage>
+        856
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Krause1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Krause
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Frank
+        </surname>
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         MAson
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ulanowicz
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Taylor
+        </surname>
+        <given-names>
+         WW
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Compartments revealed in food-web structure
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        426
+       </volume>: 
+       <fpage>
+        282
+       </fpage>–
+       <lpage>
+        285
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Stouffer1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stouffer
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bascompte
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Compartmentalization increases food-web persistence
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        3648
+       </fpage>–
+       <lpage>
+        3652
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Memmott1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Memmott
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Waser
+        </surname>
+        <given-names>
+         NM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         MV
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Tolerance of pollination networks to species extinctions
+       </article-title>. 
+       <source>Proceedings of the Royal Society of London Series B-Biological Sciences 
+       <volume>
+        271
+       </volume>: 
+       <fpage>
+        2605
+       </fpage>–
+       <lpage>
+        2611
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Burgos1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Burgos
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ceva
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Perazzo
+        </surname>
+        <given-names>
+         RPJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Devoto
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Medan
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Why nestedness in mutualistic networks?
+       </article-title> 
+       <source>Journal of Theoretical Biology 
+       <volume>
+        249
+       </volume>: 
+       <fpage>
+        307
+       </fpage>–
+       <lpage>
+        313
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Passmore1"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Passmore
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruna
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heredia
+        </surname>
+        <given-names>
+         SM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vasconcelos
+        </surname>
+        <given-names>
+         HL
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Resilient Networks of Ant-Plant Mutualists in Amazonian Forest Fragments
+       </article-title>. 
+       <source>PloS ONE 
+       <volume>
+        7
+       </volume>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Memmott2"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Memmott
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Food webs, a ladder for picking strawberries or a practical tool for practical problems?
+       </article-title> 
+       <source>Philosophical Transactions of the Royal Society of London Series B-Biological Sciences 
+       <volume>
+        364
+       </volume>: 
+       <fpage>
+        1693
+       </fpage>–
+       <lpage>
+        1699
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-GarcaOliva1"> 
+      <label>22</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       García Oliva F, Camou A, Maass JM (2002) El clima de la region central de la costa del pacific mexicano. In: Noguera-Alderte AN, Vega-Rivera JH, Garcia-Aldrete AN, Quesada M, editors. Historia natural de Chamela: Instituto de Biología, UNAM. pp. 3–10.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Lott1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lott
+        </surname>
+        <given-names>
+         EJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bullock
+        </surname>
+        <given-names>
+         SH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solís-Magallanes
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        1987
+       </year>) 
+       <article-title>
+        Floristic diversity and structure of upland and arroyo forests in coastal Jalisco
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        228
+       </fpage>–
+       <lpage>
+        235
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-PescadorRubio1"> 
+      <label>24</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Pescador-Rubio A, Rodríguez-Palafox A, Noguera FA (2002) Diversidad y estacionalidad de Arthropoda. In: Noguera-Alderte AN, Vega-Rivera JH, Quesada M, editors. Historia natural de Chamela. Mexico DF: Insituto de Biología, UNAM.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-SnchezAzofeifa2"> 
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname>
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quesada
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cuevas-Reyes
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Castillo
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sánchez-Montoya
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Land cover and conservation in the area of influence of the Chamela-Cuixmala Biosphera Reserve, Mexico
+       </article-title>. 
+       <source>Forest Ecology and Management 
+       <volume>
+        258
+       </volume>: 
+       <fpage>
+        907
+       </fpage>–
+       <lpage>
+        912
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-AvilaCabadilla1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Avila-Cabadilla
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stoner
+        </surname>
+        <given-names>
+         KE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Henry
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alvarez-Añorve
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Composition, structure and diversity of phyllostomid bat assemblages in different successional stages of a tropical dry forest
+       </article-title>. 
+       <source>Forest Ecology and Management 
+       <volume>
+        258
+       </volume>: 
+       <fpage>
+        986
+       </fpage>–
+       <lpage>
+        996
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Dunne1"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dunne
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martinez
+        </surname>
+        <given-names>
+         ND
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Food-web structure and network theory, the role of connectance and size
+       </article-title>. 
+       <source>Proceedings of the National Academy of Science, USA 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        12917
+       </fpage>–
+       <lpage>
+        12922
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Bascompte2"> 
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bascompte
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jordano
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meian
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Olesen
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        The nested assembly of plant-animal mutualistic networks
+       </article-title>. 
+       <source>Proceedings of the National Academy of Science, USA 
+       <volume>
+        100
+       </volume>: 
+       <fpage>
+        9383
+       </fpage>–
+       <lpage>
+        9387
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-AlmeidaNeto1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Almeida-Neto
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guimaraes
+        </surname>
+        <given-names>
+         P
+        </given-names>
+        <suffix>
+         Jr
+        </suffix>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loyola
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ulrich
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        A consistent metric for nestedness analysis in ecological systems reconciling concept and measurement
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        117
+       </volume>: 
+       <fpage>
+        1227
+       </fpage>–
+       <lpage>
+        1239
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Guimaraes1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Guimaraes
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guimaraes
+        </surname>
+        <given-names>
+         P
+        </given-names>
+        <suffix>
+         Jr
+        </suffix>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Improving the analyses of nestedness for large sets of matrices
+       </article-title>. 
+       <source>EMS 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        1512
+       </fpage>–
+       <lpage>
+        1513
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Guimera1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Guimera
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amaral
+        </surname>
+        <given-names>
+         LAN
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Cartography of complex networks, modules and universal roles
+       </article-title>. 
+       <source>Journal of Statistical Mechanics: Theory and Experiment
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Newman1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Newman
+        </surname>
+        <given-names>
+         MEJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Girvan
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Finding and evaluating community structure in networks
+       </article-title>. 
+       <source>Physical Review 
+       <volume>
+        69
+       </volume>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Team1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Team RDC (2008) R, A language and environment for statistical computing. Viena, Austria: R Foundation for Statistical Computing.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Vzquez1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vázquez
+        </surname>
+        <given-names>
+         DP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Melina
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         NM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blüthgen
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Krasnov
+        </surname>
+        <given-names>
+         BR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Species abundance and asymmetric interaction strength in ecological networks
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        1120
+       </fpage>–
+       <lpage>
+        1127
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Dormann1"> 
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dormann
+        </surname>
+        <given-names>
+         CF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gruber
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fründ
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Introducing the bipartite package, analyzing ecological networks
+       </article-title>. 
+       <source>R News 
+       <volume>
+        8
+       </volume>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Blthgen1"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blüthgen
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Menzel
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blüthgen
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Measuring specialization in species interaction networks
+       </article-title>. 
+       <source>BMC Ecology 
+       <volume>
+        6
+       </volume>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Crawley1"> 
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Crawley MJ (2002) Statistical computing. An introduction to data analysis using S-Plus. Chichester, UK: John Wiley &amp; Sons, Ltd.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Guariguata1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Guariguata MR, Ostertag R (2002) Sucesión secundaria. In: Guariguata MR, Kattan GH, editors. Ecología y conservación de los bosques neotropicales. Costa Rica: Ediciones LUR.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-LebrijaTrejos2"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lebrija-Trejos
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         MEave
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poorter
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pérez-García
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bongers
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Pathways, mechanism and predictability of vegetation change during tropical dry forest succession
+       </article-title>. 
+       <source>Perspectives in Plant Ecology, Evolution and Systematics 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        267
+       </fpage>–
+       <lpage>
+        275
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Kitchin1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kitchin
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Orr
+        </surname>
+        <given-names>
+         AG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thalib
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mitchell
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hopkings
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Moth assemblages as indicators of environmental quality in remnants of upland Australian rain forest
+       </article-title>. 
+       <source>Journal of Applied Ecology 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        284
+       </fpage>–
+       <lpage>
+        297
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Lewinsohn1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lewinsohn
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jordano
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bascompte
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Structure in plant-animal interaction assemblages
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        174
+       </fpage>–
+       <lpage>
+        184
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-LpezCarretero1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       López-Carretero A (2010) Composición y diversidad de lepidópteros en la cronosecuencia sucesional del bosque tropical caducifolio, consecuencias sobre la herbivoría de Casearia nitida. Mexico DF: UNAM. 86 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Dunn1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dunn
+        </surname>
+        <given-names>
+         RR
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Recovery of tropical faunal communities
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        302
+       </fpage>–
+       <lpage>
+        309
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Murphy1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Murphy
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lugo
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name> (
+       <year>
+        1986
+       </year>) 
+       <article-title>
+        Ecology of tropical dry forest
+       </article-title>. 
+       <source>Annual Review of Ecology and Systematics 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        67
+       </fpage>–
+       <lpage>
+        88
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Nylin1"> 
+      <label>45</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nylin S, Janz N (1999) The ecology and evolution of host plant range: butterflies as a model group. In: Olff H, Brown VK, Drent RH, editors. Herbivores: Between plants and predators. Oxford, UK: Blackwell Science. pp. 175–204.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Sol1"> 
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Solé
+        </surname>
+        <given-names>
+         RV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Montoya
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Complexity and fragility in ecological Networks
+       </article-title>. 
+       <source>Proceedings of the Royal Society of London Series B-Biological Sciences 
+       <volume>
+        268
+       </volume>: 
+       <fpage>
+        2039
+       </fpage>–
+       <lpage>
+        2045
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-Godnez1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Godínez MC (2011) Plantas útiles y potencialmente útiles del bosque tropical seco presentes en Chamela, Jalisco, México. Mexico DF: UNAM. 89 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-MartnezGarza1"> 
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martínez-Garza
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Howe
+        </surname>
+        <given-names>
+         HF
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Floristic diversity and structure of upland and arroyo forests in coastal Jalisco
+       </article-title>. 
+       <source>Journal of Applied Ecology 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        423
+       </fpage>–
+       <lpage>
+        429
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0053009-FAO1"> 
+      <label>49</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       FAO (2010) Global forest resources assessment.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>
