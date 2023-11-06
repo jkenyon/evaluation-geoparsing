@@ -1,0 +1,3858 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-11581
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0093733
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Biomass (ecology)
+          </subject>
+          <subject>
+           Productivity (ecology)
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant-environment interactions
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Chemical ecology
+         </subject>
+         <subject>
+          Community ecology
+         </subject>
+         <subject>
+          Restoration ecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Plant science
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geochemistry
+        </subject>
+        <subj-group>
+         <subject>
+          Biogeochemistry
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Soil science
+        </subject>
+        <subj-group>
+         <subject>
+          Soil ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Facilitation Drives the Positive Effects of Plant Richness on Trace Metal Removal in a Biodiversity Experiment
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Species Richness Promotes Heavy Metal Removal
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         Jiang
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ge
+        </surname>
+        <given-names>
+         Yuan
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Tong
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bai
+        </surname>
+        <given-names>
+         Yi
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Qian
+        </surname>
+        <given-names>
+         Bao Ying
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         Chong Bang
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       School of Life Science, Taizhou University, Linhai, China
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Bren School of Environmental Science and Management/Earth Research Institute, University of California Santa Barbara, Santa Barbara, California, United States of America
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Jin
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Key Laboratory of Tropical Forest Ecology, Xishuangbanna Tropical Botanical Garden, Chinese Academy of Sciences, China
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        gyuan@bren.ucsb.edu
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: JW, YG. Performed the experiments: TC, YB, BYQ, CBZ. Analyzed the data: JW. Wrote the paper: JW, YG.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       2
+      </day>
+      <month>
+       4
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e93733
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        20
+       </day>
+       <month>
+        3
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        8
+       </day>
+       <month>
+        3
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract>
+      <sec> 
+       <title>Background</title> 
+       <p>Phytoextraction is an environmentally acceptable and inexpensive technique for mine tailing rehabilitation that uses metallophyte plants. These plants reduce the soil trace metal contents to environmentally acceptable levels by accumulating trace metals. Recently, whether more trace metals can be removed by species-rich communities of these plants received great attention, as species richness has been reported having positive effects on ecosystem functions. However, how the species richness affects trace metals removal of plant communities of mine tailing is rarely known.</p> 
+      </sec>
+      <sec> 
+       <title>Methodology/Principal Findings</title> 
+       <p>We examined the effects of species richness on soil trace metal removal in both natural and experimental plant communities. The root lengths and stem heights of each plant species were measured in order to calculate the functional diversity indices. Our results showed that trace metal (Cu, Cd, Pb and Zn) concentrations in mine tailing soil declined as species richness increased in both the natural and experimental plant communities. Species richness, rather than functional diversity, positively affected the mineralomass of the experimental plant communities. The intensity of plant-plant facilitation increased with the species richness of experimental communities. Due to the incremental role of plant-plant facilitation, most of the species had higher biomasses, higher trace metal concentrations in their plant tissues and lower malondialdehyde concentrations in their leaves. Consequently, the positive effects of species richness on mineralomass were mostly attributable to facilitation among plants.</p> 
+      </sec>
+      <sec> 
+       <title>Conclusions/Significance</title> 
+       <p>Our results provide clear evidence that, due to plant-plant facilitation, species richness positively affects the removal of trace metals from mine tailing soil through phytoextraction and provides further information on diversity conservation and environmental remediation in a mine tailing environment.</p> 
+      </sec>
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This research was financially supported by the National Natural Science Foundation of China (Project 31000256), the Natural Science Foundation of Zhejiang Province, China (Y13C030015) and the Ecology Key Disciplines of Zhejiang Province in Taizhou University (EKD2013-04). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="9" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Research into understanding how species diversity affects ecosystem function has increased over the past two decades 
+     <xref ref-type="bibr" rid="pone.0093733-Hooper1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0093733-Midgley1">
+      [2]
+     </xref>. Many studies have shown that species richness has positive effects on ecosystem functions and services, particularly in stressful environments 
+     <xref ref-type="bibr" rid="pone.0093733-Kennedy1">
+      [3]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Thompson1">
+      [9]
+     </xref>. Mine tailings are stressful environments characterized by high concentrations of trace metals and low pH, fertility and water retention capacity 
+     <xref ref-type="bibr" rid="pone.0093733-Meeinkuirt1">
+      [10]
+     </xref>. Phytoextraction is an environmentally friendly and inexpensive technique for mine tailing rehabilitation that uses metallophyte plants. They accumulate trace metals through their roots, which reduces trace metal content in the soil to environmentally accepted levels 
+     <xref ref-type="bibr" rid="pone.0093733-Novo1">
+      [11]
+     </xref>. Li et al 
+     <xref ref-type="bibr" rid="pone.0093733-Li1">
+      [12]
+     </xref> found that increased algal species richness led to a rise in cadmium removal in an algal microcosm experiment. However, surprisingly few studies have investigated whether species-rich plant communities remove soil trace metals more efficiently than species-poor communities on mine tailing sites.</p> 
+    <p>Previous studies have suggested that the positive effects of species richness on ecosystem functions generally arise through three primary mechanisms: selection effect, niche complementarity and facilitation 
+     <xref ref-type="bibr" rid="pone.0093733-Hector1">
+      [13]
+     </xref>. Selection effect refers to the increased probability that a randomly assembled species-rich community will contain a species or combinations of species that have the higher than average biomass trait 
+     <xref ref-type="bibr" rid="pone.0093733-Cardinale2">
+      [14]
+     </xref>. Niche complementarity and facilitation affect the collective performance of a community through either resource partitioning or positive interactions between species 
+     <xref ref-type="bibr" rid="pone.0093733-Tilman1">
+      [15]
+     </xref>. The two latter mechanisms are called the niche complementarity effect 
+     <xref ref-type="bibr" rid="pone.0093733-Loreau1">
+      [16]
+     </xref>. The selection and complementarity effects are not exclusive and operate simultaneously to bring about changes in ecosystem functions 
+     <xref ref-type="bibr" rid="pone.0093733-pakov1">
+      [17]
+     </xref>. The principal mechanism behind the positive effects of biodiversity on ecosystem function has been actively debated 
+     <xref ref-type="bibr" rid="pone.0093733-Huston1">
+      [18]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Fargione1">
+      [20]
+     </xref>.</p> 
+    <p>Severely polluted environments, such as mine tailing sites, put ecosystems under constant stress 
+     <xref ref-type="bibr" rid="pone.0093733-Kondratyev1">
+      [21]
+     </xref>. The central role of facilitation among higher plants in maintaining ecosystem functions in stressful environments has been widely recognized 
+     <xref ref-type="bibr" rid="pone.0093733-Baumeister1">
+      [22]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-He1">
+      [25]
+     </xref>. However, the importance of this facilitative role may depend, to a large degree, on the characteristics of the species being tested, the stress intensity and the ecosystem function measure being considered 
+     <xref ref-type="bibr" rid="pone.0093733-Maestre2">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0093733-Maestre3">
+      [26]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Kawai1">
+      [27]
+     </xref>. Moreover, recent studies suggest that the role of facilitation may actually decrease in exceptionally severe environments 
+     <xref ref-type="bibr" rid="pone.0093733-Bruno1">
+      [28]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Michalet1">
+      [29]
+     </xref>. So far, the role played by facilitation in plant communities growing on mine tailings and the underlying mechanism driving it remains unknown.</p> 
+    <p>In a recent study, we found that more diverse natural plant communities led to lower trace metal (Cu, Cd, Pb and Zn) concentrations in mine tailing soil 
+     <xref ref-type="bibr" rid="pone.0093733-Wang1">
+      [30]
+     </xref>. The results suggested that species-rich plant communities would be more efficient at removing toxic trace metals from mine tailing soils than those with fewer species. Although natural plant communities are more realistic, they hardly allow identifing why the species-rich plant communities having high efficiency as natural plant communities have non-uniform initial conditions, such as different seed pools, soil trace metal concentrations and other soil characteristics. Compared to the natural plant communities, experimental plant communities are more suitable for exploring the underlying mechanism. In this study, we combined both approaches. We aimed to determine: (1) whether plant species richness has a positive effect on the removal of trace metals in mine tailing soil; (2) if a positive effect exists, whether it is mainly attributable to facilitation among plants and (3) what is the mechanism driving the facilitation effects.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>No specific permissions were required for this research. The natural plant community experiment was conducted on Huangyan Pb/Zn mine tailings. The exploitation and processing of minerals from the Huangyan Pb/Zn mine stopped about 20 years ago and now plants spontaneously grow on the mine tailings. Consequently, this site is open and no permissions were required to conduct the experiment. The experimental plant community experiment was located at Taizhou University. Some of the authors of the manuscript are Taizhou University staff and the site used for the study was at the authors' experimental research center. Consequently, no specific permissions were needed to conduct the experimental trial on this site. The plant species used in this study were not endangered or protected species.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Natural Plant Communities</title> 
+     <p>A plant species survey was conducted at the Huangyan Pb/Zn mine tailing site (28°34′23″N, 120°53′44″E) on April 14, 2008 (Table S1 in 
+      <xref ref-type="supplementary-material" rid="pone.0093733.s001">
+       File S1
+      </xref>). Based on the natural species composition data, we designed four species richness levels (1, 2, 4 and 8) for the natural plant communities on the Huangyan Pb/Zn mine tailings. For each species richness level, five plots (1 m×1 m) with different species compositions were randomly selected (
+      <xref ref-type="table" rid="pone-0093733-t001">
+       Table 1
+      </xref>). In each plot, the aboveground and belowground plant material was collected and sorted into species. The plant materials were thoroughly washed with running tap water and rinsed with distilled water to remove any soil particles attached to the plant surfaces. The aboveground and belowground plant materials were separated and oven dried (80°C) to a constant weight and then weighed.</p> 
+     <table-wrap id="pone-0093733-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0093733.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>The species composition of each plot at the four different species richness levels for the natural communities growing on the Huangyan Pb/Zn mine tailings.</title> 
+      <alternatives>
+       <graphic id="pone-0093733-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td colspan="4" align="left" rowspan="1">Species richness</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">8</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">MF</td> 
+          <td align="left" rowspan="1" colspan="1">MF+RB</td> 
+          <td align="left" rowspan="1" colspan="1">LC+RB+RP+SC</td> 
+          <td align="left" rowspan="1" colspan="1">GP+PA+XS+CC+MF+BP+SC+RP</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">RB</td> 
+          <td align="left" rowspan="1" colspan="1">RP+SN</td> 
+          <td align="left" rowspan="1" colspan="1">SC+RL+XS+MF</td> 
+          <td align="left" rowspan="1" colspan="1">VH+LP+DL+RP+MF+XS+LF+RL</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">LC</td> 
+          <td align="left" rowspan="1" colspan="1">MF+WJ</td> 
+          <td align="left" rowspan="1" colspan="1">SC+MF+CP+LC</td> 
+          <td align="left" rowspan="1" colspan="1">SC+RL+XS+RP+LF+RC+MF+RB</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">XS</td> 
+          <td align="left" rowspan="1" colspan="1">GP+RB</td> 
+          <td align="left" rowspan="1" colspan="1">LC+MF+GP+LF</td> 
+          <td align="left" rowspan="1" colspan="1">XS+RP+LJ+AE+LC+MF+RB+CA</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">DL</td> 
+          <td align="left" rowspan="1" colspan="1">SC+GP</td> 
+          <td align="left" rowspan="1" colspan="1">MF+RL+GP+XS</td> 
+          <td align="left" rowspan="1" colspan="1">SC+LC+WJ+VH+RP+MF+LF+RB</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>Footnotes: Species abbreviations and their corresponding full names are listed in Table S1.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>In each plot, five soil samples were randomly collected using a soil core sampler (64 mm in diameter×100 mm in length). Each soil sample was collected at a depth of 0–20 cm, air-dried at room temperature, homogenized and sieved (&lt;2 mm). They were then used to determine the soil trace metal concentrations (Cu, Cd, Pb and Zn) and total N. After digestion with HCl and HClO<sub>4</sub> (4∶1, v/v) 
+      <xref ref-type="bibr" rid="pone.0093733-Mcgrath1">
+       [31]
+      </xref>, the soil trace metal concentrations were measured using an Inductively Coupled Plasma Optical Emission Spectrometer (ICP/OES, Optima 2100DV, Perkin Elmer, USA). Total N in the filtrates was determined using the Berthelot reaction method 
+      <xref ref-type="bibr" rid="pone.0093733-Page1">
+       [32]
+      </xref>. Briefly, 1.0 g of K<sub>2</sub>SO<sub>4</sub> catalyst mixture and 5 ml of concentrated H<sub>2</sub>SO<sub>4</sub> were added to 0.5 g of air-dried ground tailings in 10 ml digestion tubes. Exactly 20 ml of distilled water was then added to the tubes, which were then filtered. After full digestion, the filtrate and the contents of the tubes were transferred to 50 ml volumetric flasks for the Berthelot reaction.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Experimental Plant Communities</title> 
+     <p>In order to construct the parallel experimental plant communities, eight species (
+      <italic>
+       Bidens pilosa
+      </italic> Linn, 
+      <italic>
+       Phytolacca americana
+      </italic> Linn, 
+      <italic>
+       Commelina communis
+      </italic> Linn, 
+      <italic>
+       Mirabilis jalapa
+      </italic> Linn, 
+      <italic>
+       Chenopodium ambrosioides
+      </italic> Linn, 
+      <italic>
+       Solanum nigrum
+      </italic> Linn, 
+      <italic>
+       Brassica campestris
+      </italic> Linn and 
+      <italic>
+       Xanthium sibiricum
+      </italic> Patrin ex Widder) were randomly selected from the species pool of plants found growing on Huangyan Pb/Zn mine tailings (Table S1 in 
+      <xref ref-type="supplementary-material" rid="pone.0093733.s001">
+       File S1
+      </xref>). 
+      <italic>
+       P. americana
+      </italic> is a perennial herbaceous plant and the other seven species are annual herbaceous plants. Seeds from the eight species were collected from the plants growing on the Huangyan Pb/Zn mine tailings, then sown in trays between the 5<sup>th</sup> and 7<sup>th</sup> April, 2009 and transplanted about two months after germination. Mine tailing soil samples were randomly collected from the Huangyan Pb/Zn mine tailings and then mixed together to make a composite sample (Tailing properties: organic matter, 330±71.2 mg·kg<sup>−1</sup>; total P, 50.3±10.6 mg·kg<sup>−1</sup>; total N, 120.7±41.4 mg·kg<sup>−1</sup>; Cu, 31.29±3.81 mg·kg<sup>−1</sup>, Cd, 8.92±2.32 mg·kg<sup>−1</sup>; Pb, 924.57±61.23 mg·kg<sup>−1</sup> and Zn, 1312.45±52.44 mg·kg<sup>−1</sup>).</p> 
+     <p>The seedlings from the eight species were transplanted into plastic containers (pots, 80×80×60 cm<sup>3</sup>) filled with mine tailing soil between June 2<sup>nd</sup> and 4<sup>th</sup>, 2009 and placed outdoors. We constructed 23 different communities and created four species richness levels (
+      <xref ref-type="table" rid="pone-0093733-t002">
+       Table 2
+      </xref>): eight monocultures, five polycultures of two species, five polycultures of four species and five polycultures of eight species, which were replicated five times. Thirty-two plant seedlings were transplanted into each pot. The plant density was similar to that of the natural plant communities growing on Huangyan Pb/Zn mine tailings. The species in the polycultures were planted at equal densities. A random selection of species from the total pool was not used because, with a limited number of communities, equal representation of the species at each species richness level was not guaranteed. Instead, the species compositions were chosen to guarantee that every species would be selected at least once at each of the four species richness levels. The pots were weeded weekly. In addition to natural rainfall, water was added by spraying the pots during dry periods.</p> 
+     <table-wrap id="pone-0093733-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0093733.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>The species composition of each pot at the four species richness levels for the experimental plant communities.</title> 
+      <alternatives>
+       <graphic id="pone-0093733-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td colspan="4" align="left" rowspan="1">Species richness</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">8</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">BP</td> 
+          <td align="left" rowspan="1" colspan="1">BP+XS</td> 
+          <td align="left" rowspan="1" colspan="1">BP+CC+CA+SN</td> 
+          <td align="left" rowspan="1" colspan="1">BP+PA+CC+MJ+CA+SN+BC+XS</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">PA</td> 
+          <td align="left" rowspan="1" colspan="1">PA+MJ</td> 
+          <td align="left" rowspan="1" colspan="1">PA+MJ+CA+BC</td> 
+          <td align="left" rowspan="1" colspan="1">BP+PA+CC+MJ+CA+SN+BC+XS</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">CC</td> 
+          <td align="left" rowspan="1" colspan="1">CC+CA</td> 
+          <td align="left" rowspan="1" colspan="1">XS+PA+SN+MJ</td> 
+          <td align="left" rowspan="1" colspan="1">BP+PA+CC+MJ+CA+SN+BC+XS</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">MJ</td> 
+          <td align="left" rowspan="1" colspan="1">BP+PA</td> 
+          <td align="left" rowspan="1" colspan="1">PA+BP+CC+BC</td> 
+          <td align="left" rowspan="1" colspan="1">BP+PA+CC+MJ+CA+SN+BC+XS</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">CA</td> 
+          <td align="left" rowspan="1" colspan="1">SN+BC</td> 
+          <td align="left" rowspan="1" colspan="1">BP+CC+MJ+CA</td> 
+          <td align="left" rowspan="1" colspan="1">BP+PA+CC+MJ+CA+SN+BC+XS</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SN</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">BC</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">XS</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt102">
+        <label></label>
+        <p>Footnotes: Species abbreviations and their corresponding full names are listed in Table S1.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>The experimental plant communities were harvested on May 10<sup>th</sup>, 2010. All the aboveground and belowground biomasses (living plants) were sorted into species, dried and weighed separately. Before biomass harvesting, a water treatment experiment was conducted. The water content of each pot was determined 5 days after it received the same amount of water through artificial spraying (no water was added during the final 5 days before harvesting). Five soil cores, to a depth of 0–20 cm, were randomly collected from each pot and then combined into one sample. Soil water content was calculated by comparing the wet and dry soil masses (mass of wet soil − mass of dry soil)/mass of dry soil). A proportion of each soil sample was air-dried at room temperature, homogenized and sieved (&lt;2 mm) in order to determine the soil trace metal concentrations (Cu, Cd, Pb and Zn) and total N. The soil trace metal concentrations and total N were measured using the same method employed in the natural plant communities experiment.</p> 
+     <p>At each species richness level, five surviving plants were chosen to determine the malondialdehyde (MDA) concentration in the leaves and the trace metal (Cu, Cd, Pb and Zn) concentrations in plant tissues. Generally, one surviving plant of each species was selected in each pot. However, because some species were not present in all the pots, two or three surviving plants were selected from one pot to guarantee five surviving plants per species richness level. Three surviving plants of 
+      <italic>
+       X. sibiricum
+      </italic> were selected at species richness levels two and four, as only three plants of 
+      <italic>
+       X. sibiricum
+      </italic> survived. 
+      <italic>
+       B. campestris
+      </italic> was not involved in the MDA and trace metal analyses because it did not survive in most of the pots. MDA concentration is an indicator of lipid peroxidation, which reflects the damage to plant tissues caused by oxidative stress 
+      <xref ref-type="bibr" rid="pone.0093733-Dhir1">
+       [33]
+      </xref>. The uppermost five leaves of each surviving plant were used to determine the MDA concentration by using the method followed by Heath and Packer 
+      <xref ref-type="bibr" rid="pone.0093733-Heath1">
+       [34]
+      </xref>. The dried plant tissues were ground and mixed fully in order to determine the trace metal concentrations. After digestion with HNO<sub>3</sub> 
+      <xref ref-type="bibr" rid="pone.0093733-Mcgrath1">
+       [31]
+      </xref>, the trace metal concentrations in the plant tissues were measured using an Inductively Coupled Plasma Optical Emission Spectrometer (ICP/OES, Optima 2100DV, Perkin Elmer, USA). The biomass used to measure the MDA was included in the plant biomass of each pot during data analysis.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Statistical Analysis</title> 
+     <p>The total trace metal content accumulated in the plants (mineralomass) was used to reflect the trace metal removal efficiency by the plants. The mineralomass of a species in one pot was calculated as follows:</p> 
+     <p>
+      <disp-formula id="pone.0093733.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0093733.e001" xlink:type="simple" />
+      </disp-formula></p> 
+     <p>The mineralomass of the plant communities in each pot was the sum of the mineralomasses of all the component species.</p> 
+     <p>Functional diversity indices were represented by the community-weighted mean trait values 
+      <xref ref-type="bibr" rid="pone.0093733-Garnier1">
+       [35]
+      </xref> and the functional diversity Q index 
+      <xref ref-type="bibr" rid="pone.0093733-Rao1">
+       [36]
+      </xref>. For each species, five plants in monoculture were randomly selected and their root lengths and stem heights were measured with a ruler. The community-weighted mean trait values for each trait were calculated for every pot (
+      <italic>
+       n
+      </italic> = 15) using species trait values and species relative abundances (calculated from the species biomass) following Garnier et al. 
+      <xref ref-type="bibr" rid="pone.0093733-Garnier1">
+       [35]
+      </xref>:
+      <disp-formula id="pone.0093733.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0093733.e002" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       n
+      </italic> is the number of species in the pot, 
+      <italic>
+       p
+       <sub>i</sub>
+      </italic> is the relative abundance of species 
+      <italic>
+       i
+      </italic> and trait
+      <italic>
+       <sub>i</sub>
+      </italic> is the trait value of species 
+      <italic>
+       i
+      </italic>.</p> 
+     <p>The average values of the root lengths and stem heights for each species were used to calculate the Euclidean distance between species 
+      <xref ref-type="bibr" rid="pone.0093733-Walker1">
+       [37]
+      </xref>. 
+      <italic>
+       B. campestris
+      </italic> disappeared from all the plots so its root lengths and stem heights were not measured. Following the method used by Heemsbergen et al. 
+      <xref ref-type="bibr" rid="pone.0093733-Heemsbergen1">
+       [38]
+      </xref>, the trait values of seven species were put into a number of classes (the highest value was defined as the seventh class and the lowest value was defined as the first class). The Euclidean distance was calculated as follows:
+      <disp-formula id="pone.0093733.e003">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0093733.e003" xlink:type="simple" />
+      </disp-formula>where 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e004" xlink:type="simple" />
+      </inline-formula> and 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e005" xlink:type="simple" />
+      </inline-formula> are the class number of species 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e006" xlink:type="simple" />
+      </inline-formula> and 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e007" xlink:type="simple" />
+      </inline-formula> for trait 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e008" xlink:type="simple" />
+      </inline-formula> and
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e009" xlink:type="simple" />
+      </inline-formula> is the number of traits measured (
+      <italic>
+       K
+      </italic> = 2).</p> 
+     <p>The functional diversity Q index was calculated as follows:
+      <disp-formula id="pone.0093733.e010">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0093733.e010" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       S
+      </italic> is the number of species observed in the plot and 
+      <italic>
+       p
+       <sub>i</sub>
+      </italic> and 
+      <italic>
+       p
+      </italic><sub>j</sub> are the relative abundance of species 
+      <italic>
+       i
+      </italic> and 
+      <italic>
+       j
+      </italic>, respectively.</p> 
+     <p>We used the additive partitioning method to quantify the selection and complementarity effects 
+      <xref ref-type="bibr" rid="pone.0093733-Loreau1">
+       [16]
+      </xref>. The complementarity effect and the selection effect were calculated as follows:
+      <disp-formula id="pone.0093733.e011">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0093733.e011" xlink:type="simple" />
+      </disp-formula>where 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e012" xlink:type="simple" />
+      </inline-formula> is the net diversity effect, 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e013" xlink:type="simple" />
+      </inline-formula> is the complementarity effect and 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e014" xlink:type="simple" />
+      </inline-formula> is the selection effect. 
+      <italic>
+       N
+      </italic> is the number of species in the polyculture, 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e015" xlink:type="simple" />
+      </inline-formula>is the average change in relative mineralomass for all species in the mixture and 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e016" xlink:type="simple" />
+      </inline-formula> is the average mineralomass of the monocultures. The 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e017" xlink:type="simple" />
+      </inline-formula> term is the covariance between the mineralomass of the species grown in monocultures (
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0093733.e018" xlink:type="simple" />
+      </inline-formula>) and the change in their relative mineralomass when grown in polycultures.</p> 
+     <p>The relative interaction intensity index (RII) was defined as follows 
+      <xref ref-type="bibr" rid="pone.0093733-Armas1">
+       [39]
+      </xref>:
+      <disp-formula id="pone.0093733.e019">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0093733.e019" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       Bo
+      </italic> is the mass potentially achieved by the target plant growing in the absence of inter- or intraspecific interactions, i.e. the expected biomass which is the monoculture biomass divided by the species richness of the polycultures. and 
+      <italic>
+       Bw
+      </italic> is the mass observed when the target plant was growing with other plants, i.e. the observed biomass of species in the polycultures. This index represents the ratio of the net mass loss/gain due to the interaction relative to the mass affected by only facilitative interaction and competitive interactions. RII has values ranging from −1 to 1, is symmetrical around zero and is negative for competition and positive for facilitation.</p> 
+     <p>The data of soil trace metal concentration in the natural communities were log transformed to meet the assumptions for linear regression. We first used simple linear regression to examine the effect of species richness on soil trace metal concentrations (Cu, Cd, Pb and Zn) in the natural and experimental plant communities, respectively, and to examine the effect of species richness on the RII. Correlation analysis (Spearman coefficient) was used to determine the dependence of the complementarity effect, the selection effect or the MDA concentrations of each species in the experimental plant communities on the actual species richness, and to determine the dependence of biomass on the actual species richness, FD<sub>Q</sub>, CWM<sub>root</sub> or CWM<sub>stem</sub>. These analyses were performed using the SPSS 11.5 program (SPSS Inc, Chicago, IL, USA) for Windows and significance levels for all analyses were set at 
+      <italic>
+       P
+      </italic>&lt;0.05. The multiple stepwise regressions were performed to examine the effects of actual species richness, FD<sub>Q</sub>, CWM<sub>root</sub> and CWM<sub>stem</sub> on mineralomass in the polycultures. The optimal model was selected with respect to its value of AIC (Akaike Information Criterion). The model with the lowest value of AIC was selected as the optimal model. For the selected optimal model, the normality of residuals (Shapiro-Wilk test), homosedasticity (Breusch-Pagan test) and multicollinearity among predictors (Variance Inflation Factors) were tested to check for multiple regressions preliminary assumptions. The multiple stepwise regressions were performed using R 2.11.1.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>In the natural plant communities growing on the Huangyan Pb/Zn mine tailings, soil trace metal (Cu, Cd, Pb and Zn) concentrations were negatively correlated with species richness (
+     <xref ref-type="fig" rid="pone-0093733-g001">
+      Fig. 1
+     </xref>). In the experimental plant communities, even if some plants disappeared in some pots due to the oxidative stress caused by trace metal toxicity, the actual species richness was still significantly and positively correlated with the initial species richness (
+     <italic>
+      r
+     </italic> = 0.966, 
+     <italic>
+      n
+     </italic> = 23, 
+     <italic>
+      P
+     </italic>&lt;0.001). The trace metal (Cu, Cd, Pb and Zn) concentrations in the soils from the experimental plant communities were negatively correlated with the actual species richness, which was consistent with the results from the natural plant communities (
+     <xref ref-type="fig" rid="pone-0093733-g002">
+      Fig. 2
+     </xref>). These results indicated that more diverse plant communities led to lower soil trace metals in the mine tailings.</p> 
+    <fig id="pone-0093733-g001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.g001
+     </object-id>
+     <label>Figure 1</label> 
+     <title>The dependence of soil trace metal concentration on the actual species richness (SR) in the natural plant communities.</title> 
+     <p>(a) Fitted line: Log (Cu) = 1.180−0.688 SR, 
+      <italic>
+       n
+      </italic> = 25, 
+      <italic>
+       P
+      </italic> = 0.001. (b) Fitted line: Log (Cd) = 1.058−0.832 SR, 
+      <italic>
+       n
+      </italic> = 25, 
+      <italic>
+       P
+      </italic>&lt;0.001. (c) Fitted line: Log (Pb) = 2.981−0.862 SR, 
+      <italic>
+       n
+      </italic> = 25, 
+      <italic>
+       P
+      </italic>&lt;0.001. (d) Fitted line: Log (Zn) = 3.115−0.815 SR, 
+      <italic>
+       n
+      </italic> = 25, 
+      <italic>
+       P
+      </italic>&lt;0.001.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.g001" position="float" xlink:type="simple" />
+    </fig>
+    <fig id="pone-0093733-g002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.g002
+     </object-id>
+     <label>Figure 2</label> 
+     <title>The dependence of soil trace metal concentration (TY) on the actual species richness (SR) in the experimental plant communities.</title> 
+     <p>(a) Fitted line: TY<sub>Cu</sub> = 12.655−0.610 SR, 
+      <italic>
+       n
+      </italic> = 23, 
+      <italic>
+       P
+      </italic>&lt;0.001. (b) Fitted line: TY<sub>Cd</sub> = 4.547−0.796 SR, 
+      <italic>
+       n
+      </italic> = 23, 
+      <italic>
+       P
+      </italic>&lt;0.001. (c) Fitted line: TY<sub>Pb</sub> = 496.414−0.735 SR, 
+      <italic>
+       n
+      </italic> = 23, 
+      <italic>
+       P
+      </italic>&lt;0.001. (d) Fitted line TY<sub>Zn</sub> = 703.839−0.818 SR, 
+      <italic>
+       n
+      </italic> = 23, 
+      <italic>
+       P
+      </italic>&lt;0.001.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.g002" position="float" xlink:type="simple" />
+    </fig> 
+    <p>Actual species richness was always included in the optimal regression model in the multiple stepwise regressions analysis (
+     <xref ref-type="table" rid="pone-0093733-t003">
+      Table 3
+     </xref>), while FD<sub>Q</sub> was always excluded. CWM<sub>root</sub> was included for Cu, Cd and Zn, and CWM<sub>stem</sub> was included for Cd and Pb. Moreover, actual species richness was positively correlated with the biomass of the polycultures (
+     <italic>
+      r
+     </italic> = 0.876, 
+     <italic>
+      n
+     </italic> = 15, 
+     <italic>
+      P
+     </italic>&lt;0.001). However, FD<sub>Q</sub> (
+     <italic>
+      r
+     </italic> = 0.430, 
+     <italic>
+      n
+     </italic> = 15, 
+     <italic>
+      P
+     </italic> = 0.110), CWM<sub>root</sub> (
+     <italic>
+      r
+     </italic> = 0.494, 
+     <italic>
+      n
+     </italic> = 15, 
+     <italic>
+      P
+     </italic> = 0.061) and CWM<sub>stem</sub> (
+     <italic>
+      r
+     </italic> = 0.485, 
+     <italic>
+      n
+     </italic> = 15, 
+     <italic>
+      P
+     </italic> = 0.067) had no significant relationship with biomass. These results suggested that the significant effect of actual species richness on mineralomass was probably closely linked to biomass production.</p> 
+    <table-wrap id="pone-0093733-t003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.t003
+     </object-id>
+     <label>Table 3</label> 
+     <title>Multiple stepwise regression analyses between mineralomass and explanatory variables from a model that initially contained four variables (actual species richness (SR), FD&lt;sub&gt;Q&lt;/sub&gt;, CWM&lt;sub&gt;root&lt;/sub&gt; and CWM&lt;sub&gt;stem&lt;/sub&gt; values for Cu, Cd, Pb and Zn).</title> 
+     <alternatives>
+      <graphic id="pone-0093733-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.t003" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Mineralomass</td> 
+         <td align="left" rowspan="1" colspan="1">Included variables</td> 
+         <td align="left" rowspan="1" colspan="1">VIF</td> 
+         <td align="left" rowspan="1" colspan="1">AIC</td> 
+         <td align="left" rowspan="1" colspan="1">W</td> 
+         <td align="left" rowspan="1" colspan="1">BP</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Mineralomass<sub>Cu</sub></td> 
+         <td align="left" rowspan="1" colspan="1">SR</td> 
+         <td align="left" rowspan="1" colspan="1">1.13</td> 
+         <td align="left" rowspan="1" colspan="1">−55.514</td> 
+         <td align="left" rowspan="1" colspan="1">0.919(0.188)</td> 
+         <td align="left" rowspan="1" colspan="1">3.706(0.157)</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">CWM<sub>root</sub></td> 
+         <td align="left" rowspan="1" colspan="1">1.13</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Mineralomass<sub>Cd</sub></td> 
+         <td align="left" rowspan="1" colspan="1">SR</td> 
+         <td align="left" rowspan="1" colspan="1">1.14</td> 
+         <td align="left" rowspan="1" colspan="1">−49.798</td> 
+         <td align="left" rowspan="1" colspan="1">0.944(0.437)</td> 
+         <td align="left" rowspan="1" colspan="1">5.429(0.143)</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">CWM<sub>root</sub></td> 
+         <td align="left" rowspan="1" colspan="1">4.86</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">CWM<sub>stem</sub></td> 
+         <td align="left" rowspan="1" colspan="1">4.53</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Mineralomass<sub>Pb</sub></td> 
+         <td align="left" rowspan="1" colspan="1">SR</td> 
+         <td align="left" rowspan="1" colspan="1">1.13</td> 
+         <td align="left" rowspan="1" colspan="1">−52.161</td> 
+         <td align="left" rowspan="1" colspan="1">0.912(0.145)</td> 
+         <td align="left" rowspan="1" colspan="1">5.902(0.118)</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">CWM<sub>stem</sub></td> 
+         <td align="left" rowspan="1" colspan="1">1.13</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Mineralomass<sub>Zn</sub></td> 
+         <td align="left" rowspan="1" colspan="1">SR</td> 
+         <td align="left" rowspan="1" colspan="1">1.13</td> 
+         <td align="left" rowspan="1" colspan="1">−52.667</td> 
+         <td align="left" rowspan="1" colspan="1">0.903(0.094)</td> 
+         <td align="left" rowspan="1" colspan="1">6.032(0.096)</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">CWM<sub>root</sub></td> 
+         <td align="left" rowspan="1" colspan="1">1.13</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt103">
+       <label></label>
+       <p>Footnotes: the values in the brackets are p-value.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>We also investigated whether the complementarity effect or the selection effect led to the positive effects that an increase in actual species richness had on the mineralomasses of Cu, Cd, Pb and Zn. The selection effect had no significant relationship with actual species richness in the polycultures (
+     <xref ref-type="fig" rid="pone-0093733-g003">
+      Fig. 3
+     </xref>). The selection effect values varied, ranging from positive to negative across all the experimental plant communities. In contrast, the complementarity effect significantly rose with the increase in actual species richness in the polycultures, compared to the other cultures. Moreover, the complementarity effect values were positive across all the experimental plant communities. Our results suggested that the positive effects of species richness on trace metal accumulations by plants were mainly attributable to the complementarity effect.</p> 
+    <fig id="pone-0093733-g003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.g003
+     </object-id>
+     <label>Figure 3</label> 
+     <title>The dependence of the complementarity/selection effect on the actual species richness in the experimental plant communities.</title> 
+     <p>a) Cu, b) Cd, c) Pb and d) Zn. The relevant Spearman's correlation coefficient and 
+      <italic>
+       P
+      </italic>-value are shown in each panel.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.g003" position="float" xlink:type="simple" />
+    </fig> 
+    <p>The relative interaction intensity index (RII) was used to reflect interactions among plants. RII was positive in most polycultures (
+     <xref ref-type="fig" rid="pone-0093733-g004">
+      Fig. 4
+     </xref>). Moreover, they significantly increased when actual species richness rose. Moreover, with the exception of 
+     <italic>
+      B. campestris
+     </italic>, the increase of survival ratio of other seven plant species increased with the actual species richness (
+     <xref ref-type="table" rid="pone-0093733-t004">
+      Table 4
+     </xref>). The results proved that plant-plant facilitation dominated in the polycultures and increased when the actual species richness rose.</p> 
+    <fig id="pone-0093733-g004" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.g004
+     </object-id>
+     <label>Figure 4</label> 
+     <title>The dependence of relative interaction intensity index (RII) on the actual species richness (SR) in the experimental plant communities.</title> 
+     <p>Fitted line: RII = 0.032+0.519 SR, 
+      <italic>
+       n
+      </italic> = 57, 
+      <italic>
+       P
+      </italic>&lt;0.001.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.g004" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0093733-t004" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.t004
+     </object-id>
+     <label>Table 4</label> 
+     <title>The survival ratio of each planted species in certain species richness level.</title> 
+     <alternatives>
+      <graphic id="pone-0093733-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.t004" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td colspan="4" align="left" rowspan="1">Planted species richness</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1">8</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Bidens pilosa
+          </italic> Linn</td> 
+         <td align="left" rowspan="1" colspan="1">0.531</td> 
+         <td align="left" rowspan="1" colspan="1">0.563</td> 
+         <td align="left" rowspan="1" colspan="1">0.667</td> 
+         <td align="left" rowspan="1" colspan="1">0.800</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Phytolacca americana
+          </italic> L.</td> 
+         <td align="left" rowspan="1" colspan="1">0.156</td> 
+         <td align="left" rowspan="1" colspan="1">0.188</td> 
+         <td align="left" rowspan="1" colspan="1">0.250</td> 
+         <td align="left" rowspan="1" colspan="1">0.500</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Commelina communis
+          </italic> Linn.</td> 
+         <td align="left" rowspan="1" colspan="1">0.438</td> 
+         <td align="left" rowspan="1" colspan="1">0.563</td> 
+         <td align="left" rowspan="1" colspan="1">0.625</td> 
+         <td align="left" rowspan="1" colspan="1">0.900</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Mirabilis jalapa
+          </italic> L.</td> 
+         <td align="left" rowspan="1" colspan="1">0.219</td> 
+         <td align="left" rowspan="1" colspan="1">0.438</td> 
+         <td align="left" rowspan="1" colspan="1">0.500</td> 
+         <td align="left" rowspan="1" colspan="1">0.750</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Chenopodium ambrosioides
+          </italic> L.</td> 
+         <td align="left" rowspan="1" colspan="1">0.344</td> 
+         <td align="left" rowspan="1" colspan="1">0.563</td> 
+         <td align="left" rowspan="1" colspan="1">0.500</td> 
+         <td align="left" rowspan="1" colspan="1">0.700</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Solanum nigrum
+          </italic> L.</td> 
+         <td align="left" rowspan="1" colspan="1">0.156</td> 
+         <td align="left" rowspan="1" colspan="1">0.500</td> 
+         <td align="left" rowspan="1" colspan="1">0.563</td> 
+         <td align="left" rowspan="1" colspan="1">0.650</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Brassica campestris
+          </italic> L.</td> 
+         <td align="left" rowspan="1" colspan="1">0.125</td> 
+         <td align="left" rowspan="1" colspan="1">0.125</td> 
+         <td align="left" rowspan="1" colspan="1">0.063</td> 
+         <td align="left" rowspan="1" colspan="1">0.100</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Xanthium sibiricum
+          </italic> Patrin ex Widder</td> 
+         <td align="left" rowspan="1" colspan="1">0.250</td> 
+         <td align="left" rowspan="1" colspan="1">0.188</td> 
+         <td align="left" rowspan="1" colspan="1">0.500</td> 
+         <td align="left" rowspan="1" colspan="1">0.550</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt104">
+       <label></label>
+       <p>Survival ratio  =  the survival number of plants in a certain species richness level/the total planted number in the corresponding species richness level.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>The malondialdehyde (MDA) concentration directly reflects the oxidative damage to plant tissues caused by trace metals. In the experimental communities, the MDA concentration in the leaves of seven species consistently decreased as actual species richness rose (
+     <xref ref-type="table" rid="pone-0093733-t005">
+      Table 5
+     </xref>). Moreover, the trace metal (Cu, Cd, Pb and Zn) concentrations in the plant tissues consistently increased as actual species richness rose (Figure S1 in 
+     <xref ref-type="supplementary-material" rid="pone.0093733.s001">
+      File S1
+     </xref>). These results suggested that a reduction in oxidative damage to plant tissues probably promoted the accumulation of trace metals.</p> 
+    <table-wrap id="pone-0093733-t005" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0093733.t005
+     </object-id>
+     <label>Table 5</label> 
+     <title>The correlations between malondialdehyde (MDA) concentration for each species and the actual species richness in the experimental communities.</title> 
+     <alternatives>
+      <graphic id="pone-0093733-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0093733.t005" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Species</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           r
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           n
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic></td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">BP</td> 
+         <td align="left" rowspan="1" colspan="1">−0.900</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>&lt;0.001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">PA</td> 
+         <td align="left" rowspan="1" colspan="1">−0.660</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic> = 0.002</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">CC</td> 
+         <td align="left" rowspan="1" colspan="1">−0.886</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>&lt;0.001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">MJ</td> 
+         <td align="left" rowspan="1" colspan="1">−0.829</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>&lt;0.001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">CA</td> 
+         <td align="left" rowspan="1" colspan="1">−0.744</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>&lt;0.001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">SN</td> 
+         <td align="left" rowspan="1" colspan="1">−0.935</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>&lt;0.001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">XS</td> 
+         <td align="left" rowspan="1" colspan="1">−0.892</td> 
+         <td align="left" rowspan="1" colspan="1">16</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>&lt;0.001</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt105">
+       <label></label>
+       <p>Footnotes: Species abbreviations and their corresponding full names are listed in Table S1.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Our results demonstrated that species-rich plant communities had lower soil trace metal (Cu, Cd, Pb and Zn) concentrations in both the natural and the experimental plant communities than the species-poor communities. More importantly, we found that species richness had significantly positive effects on mineralomass in the experimental plant communities. Consequently, it is almost certain that the positive effects of species richness on mineralomass led to the lower soil trace metal concentrations seen in the more diverse plant communities.</p> 
+    <p>In theory, the observed positive biodiversity effect could be further partitioned into the selection effect and the complementarity effect 
+     <xref ref-type="bibr" rid="pone.0093733-Loreau1">
+      [16]
+     </xref>. Across all the experimental plant communities, the grand mean value of the selection effect was nearly zero and made little contribution to the positive effect. However, the grand mean value of the complementarity effect was significantly positive and positively correlated with actual species richness. Therefore, the positive effect of actual species richness on mineralomass can mainly be attributed to the complementarity effect. Our results suggest that the positive complementarity effect could be attributed to the increase in biomass (see 
+     <xref ref-type="bibr" rid="pone.0093733-Wang2">
+      [40]
+     </xref> for more details) and the increases in trace metal concentrations in plant tissues (Figure S1 in 
+     <xref ref-type="supplementary-material" rid="pone.0093733.s001">
+      File S1
+     </xref>) could be due to the increase in actual species richness.</p> 
+    <p>Distinguishing the effects of niche differentiation and facilitation is very difficult in practice 
+     <xref ref-type="bibr" rid="pone.0093733-Loreau1">
+      [16]
+     </xref>. Niche complementarity or facilitation may have important roles in driving the positive complementarity effect seen in the polycultures. Niche differentiation directly linked to interspecific trait differences that are determined by the functional diversity of communities 
+     <xref ref-type="bibr" rid="pone.0093733-Petchey1">
+      [41]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Petchey2">
+      [42]
+     </xref>. In this study, the pot experimental design limited environmental fluctuations and spatial heterogeneity, which are important for resource partitioning between species 
+     <xref ref-type="bibr" rid="pone.0093733-pakov1">
+      [17]
+     </xref>. Consequently, in this study, functional diversity probably made only a limited contribution to the increased mineralomass. However, environmental fluctuations and spatial heterogeneity are ubiquitous in natural conditions 
+     <xref ref-type="bibr" rid="pone.0093733-pakov1">
+      [17]
+     </xref>. Consequently, we speculate that niche complementarity may provide more contribution to the positive effect of species richness on mineralomass in natural communities of mine tailings. In the experimental communities, most of species in the polycultures had positive RII values; Most of the polycultures had a larger biomass than their most productive component species in the monocultures (see 
+     <xref ref-type="bibr" rid="pone.0093733-Heemsbergen1">
+      [38]
+     </xref> for more details); Most of plant species (with the exception of 
+     <italic>
+      B. campestris
+     </italic>) had higher survival ratio in the polycultures. All of the above results proved plant-plant facilitation dominated in the polycultures, as overyielding 
+     <xref ref-type="bibr" rid="pone.0093733-Drake1">
+      [43]
+     </xref> and the increase of survival ratio 
+     <xref ref-type="bibr" rid="pone.0093733-Mulder1">
+      [44]
+     </xref> are strong indicators of facilitation. Moreover, the yield and survival ratio increased with the actual species richness. Consequently, the positive complementarity effect seen in the polycultures should be ascribed to the facilitation.</p> 
+    <p>The plants used in the experimental communities are all the established species of the Huangyan Pb/Zn mine tailing. Moreover, their seeds were also collected from the Huangyan Pb/Zn mine tailings. Consequently, the plants used should have high tolerance to the stress of mine tailing. Although mine tailings are characterized by high concentrations of trace metals and low pH, fertility and water retention capacities 
+     <xref ref-type="bibr" rid="pone.0093733-Meeinkuirt1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0093733-Wang1">
+      [30]
+     </xref> and mechanically, physically, chemically and biologically restrict plant growth 
+     <xref ref-type="bibr" rid="pone.0093733-Meeinkuirt1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0093733-Wang1">
+      [30]
+     </xref>, the experimental mine tailing environment may not exert the exceptionally severe stress for these plants. Choler et al. 
+     <xref ref-type="bibr" rid="pone.0093733-Choler1">
+      [45]
+     </xref> also found, due to lack the experiment at the altitude of &gt;3000 m where should be exceptionally severe for nival communities, the facilitation of the nival communities consistent increased with altitude. Consequently, the role of facilitation decreasing in exceptionally severe environments 
+     <xref ref-type="bibr" rid="pone.0093733-Bruno1">
+      [28]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Michalet1">
+      [29]
+     </xref> was not seen in this experiment.</p> 
+    <p>In this study, the main driving mechanism behind the facilitative processes could be the amelioration of mine tailing soil by the collective performance of all plant species, as soil total N and soil water increased as species richness rose in the experimental communities (see 
+     <xref ref-type="bibr" rid="pone.0093733-Wang2">
+      [40]
+     </xref> for more details). Plants can improve the soil physical, chemical and biological properties of mine tailings by preventing erosion, adding nutrients and promoting microbial growth and activity 
+     <xref ref-type="bibr" rid="pone.0093733-GmezSagasti1">
+      [46]
+     </xref>. The species-rich experimental communities showed increased biomass production and surface area coverage (data not shown), which likely decreased light penetration and water evaporation and enhance water retention capacity. The root biomass increased as species richness rose (see 
+     <xref ref-type="bibr" rid="pone.0093733-Wang2">
+      [40]
+     </xref> for more details), which likely increased soil nitrogen due to root exudates. Additionally, soil microbial biomass and activity increased as species richness rose (data not shown), which likely accelerated the decomposition of plant litter and increase the soil nitrogen levels.</p> 
+    <p>Trace metals stress leads to the production of free radicals in plants, which causes lipid peroxidation and tissue damage 
+     <xref ref-type="bibr" rid="pone.0093733-uran1">
+      [47]
+     </xref>. MDA is a cytotoxic product of lipid peroxidation 
+     <xref ref-type="bibr" rid="pone.0093733-Choudhary1">
+      [48]
+     </xref>. The ameliorated soil properties probably reduced the trace metal stresses, which led to a decrease in MDA concentrations in the plant tissues. Consequently, as actual species richness increased, the plant stress caused by trace metals declined, which may be the reason why trace metal concentrations in plant tissues increased as actual species richness rose.</p> 
+    <p>Taken together, our results provide clear evidence that increased species richness in plant communities exerts a positive effect on soil trace metal removal through increased facilitation among plants present. In comparison to conventional techniques for mine tailing remediation, phytoextraction is cost-effective, safe for humans and environmentally friendly 
+     <xref ref-type="bibr" rid="pone.0093733-Meeinkuirt1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0093733-Novo1">
+      [11]
+     </xref>. However, the factors limiting the wider application of this technology involve its relatively low trace metal removal efficiency 
+     <xref ref-type="bibr" rid="pone.0093733-Cooke1">
+      [49]
+     </xref> and the small biomass of most of the hyper-accumulators identified so far 
+     <xref ref-type="bibr" rid="pone.0093733-ParragaAguado1">
+      [50]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0093733-Sheng1">
+      [52]
+     </xref>. Our results indicated that diverse plant communities can promote biomass production and trace metal accumulation by plants. However, the selection of species to be used in the construction of plant communities for phytoremediation should be prudent. In this study, 
+     <italic>
+      B. campestris
+     </italic> was sensitive to the mine tailing environment and the facilitative effect was not beneficial. Although similar results were found in our natural and experimental plant communities, future studies should be expanded to include realistic plant communities established on different mine tailings in order to determine whether the implications of our results can be extrapolated to realistic phytoremediation programs for mine tailings.</p> 
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0093733.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0093733.s001" position="float" xlink:type="simple">
+     <label>File S1</label> 
+     <p>
+      <bold>
+       This includes Table S1 and Figure S1.
+      </bold> Table S1 The name of species identified in the species survey of Huangyan Pb/Zn mine tailing. Figure S1 The heavy metal concentrations in plant tissues of seven species in pots with different actual sepcies richness. a) Cu, b) Cd, c) Pb and d) Zn. Species abbreviations are seen in Table S1. The lines shown in each panel are the regression lines (All the P values of Cu, Cd, Pb and Zn for seven species are lower than 0.05).</p> 
+     <p>(DOC)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We thank Xiu Bai and Xing Luo for help in the field and two anonymous referees for their helpful comments.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0093733-Hooper1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hooper
+        </surname>
+        <given-names>
+         DU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adair
+        </surname>
+        <given-names>
+         EC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Byrnes
+        </surname>
+        <given-names>
+         JEK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hungate
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        A global synthesis reveals biodiversity loss as a major driver of ecosystem change
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        486
+       </volume>: 
+       <fpage>
+        105
+       </fpage>–
+       <lpage>
+        108
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Midgley1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Midgley
+        </surname>
+        <given-names>
+         GF
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Biodiversity and ecosystem function
+       </article-title>. 
+       <source>Science 
+       <volume>
+        335
+       </volume>: 
+       <fpage>
+        174
+       </fpage>–
+       <lpage>
+        175
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Kennedy1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kennedy
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Naeem
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Howe
+        </surname>
+        <given-names>
+         KM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knops
+        </surname>
+        <given-names>
+         JMH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Biodiversity as a barrier to ecological invasion
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        417
+       </volume>: 
+       <fpage>
+        636
+       </fpage>–
+       <lpage>
+        638
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Cardinale1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Srivastava
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Downing
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Effects of biodiversity on the functioning of trophic groups and ecosystems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        443
+       </volume>: 
+       <fpage>
+        989
+       </fpage>–
+       <lpage>
+        992
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Cadotte1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cadotte
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oakley
+        </surname>
+        <given-names>
+         TH
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Evolutionary history and the effect of biodiversity on plant productivity
+       </article-title>. 
+       <source>PNAS 
+       <volume>
+        105
+       </volume>: 
+       <fpage>
+        17012
+       </fpage>–
+       <lpage>
+        17017
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Kaneryd1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kaneryd
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Borrvall
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berg1
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtsdotter
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eklöf
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Species-rich ecosystems are vulnerable to cascading extinctions in an increasingly variable world
+       </article-title>. 
+       <source>Ecol Evol 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        858
+       </fpage>–
+       <lpage>
+        872
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Lei1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lei
+        </surname>
+        <given-names>
+         PF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Scherer-Lorenzen
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bauhus
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The effect of tree species diversity on fine-root production in a young temperate forest
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        169
+       </volume>: 
+       <fpage>
+        1105
+       </fpage>–
+       <lpage>
+        1115
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Maestre1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Maestre
+        </surname>
+        <given-names>
+         FT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quero
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gotelli
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Escudero
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ochoa
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Plant species richness and ecosystem multifunctionality in global drylands
+       </article-title>. 
+       <source>Science 
+       <volume>
+        335
+       </volume>: 
+       <fpage>
+        214
+       </fpage>–
+       <lpage>
+        217
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Thompson1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thompson
+        </surname>
+        <given-names>
+         PL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shurin
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Regional zooplankton biodiversity provides limited buffering of pond ecosystems against climate change
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        251
+       </fpage>–
+       <lpage>
+        259
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Meeinkuirt1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meeinkuirt
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pokethitiyook
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kruatrachue
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tanhan
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chaiyarat
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Phytostabilization of a Pb-contaminated mine tailing by various tree species in pot and field trial experiments
+       </article-title>. 
+       <source>Int J Phytoremediat 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        925
+       </fpage>–
+       <lpage>
+        938
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Novo1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Novo
+        </surname>
+        <given-names>
+         LAB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Covelo
+        </surname>
+        <given-names>
+         EF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         González
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Phytoremediation of amended copper mine tailings with Brassica juncea,
+       </article-title>. 
+       <source>Int J Min, Reclamat &amp; Environ 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        215
+       </fpage>–
+       <lpage>
+        226
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Li1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         SP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kuang
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duan
+        </surname>
+        <given-names>
+         HN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zeng
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Effects of species richness on cadmium removal efficiencies of algal microcosms
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        261
+       </fpage>–
+       <lpage>
+        267
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Hector1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hector
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bazeley-White
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Otway
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmid
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Overyielding in grassland communities: testing the sampling effect hypothesis with replicated biodiversity experiments
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        502
+       </fpage>–
+       <lpage>
+        511
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Cardinale2">
+      <label>14</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Cardinale BJ, Gross K, Fritschie K, Flombaum P, Fox JW, 
+       <etal>
+        et al
+       </etal>.. (2013) Biodiversity simultaneously enhances the production and stability of community biomass, but the effects are independent. Ecology. In press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Tilman1">
+      <label>15</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Tilman D, Lehman C (2001) Biodiversity, composition, and ecosystem processes: theory and concepts. In: Kinzig AP, Pacala SW, Tilman D, editors. The functional consequences of biodiversity. Princeton: Princeton University Press. pp. 9–41.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Loreau1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hector
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Partitioning selection and complementarity in biodiversity experiments
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        412
+       </volume>: 
+       <fpage>
+        72
+       </fpage>–
+       <lpage>
+        76
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-pakov1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Špaèková
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lepš
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Procedure for separating the selection effect from other effects in diversity–productivity relationship
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        585
+       </fpage>–
+       <lpage>
+        594
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Huston1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huston
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aarssen
+        </surname>
+        <given-names>
+         LW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Austin
+        </surname>
+        <given-names>
+         MP
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        No consistent effect of plant diversity on productivity
+       </article-title>. 
+       <source>Science 
+       <volume>
+        289
+       </volume>: 
+       <fpage>
+        1255a
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Naeem1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Naeem
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Reply to Wardle et al
+       </article-title>. 
+       <source>Bull Ecol Soc Am 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        241
+       </fpage>–
+       <lpage>
+        246
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Fargione1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fargione
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dybzinski
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lambers
+        </surname>
+        <given-names>
+         JHR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        From selection to complementarity: shifts in the causes of biodiversity–productivity relationships in a long-term biodiversity experiment
+       </article-title>. 
+       <source>Proc R Soc B 
+       <volume>
+        274
+       </volume>: 
+       <fpage>
+        871
+       </fpage>–
+       <lpage>
+        876
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Kondratyev1">
+      <label>21</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Kondratyev KY, Krapivin VF, Phillips GW (2002) Global Environmental Change: Modeling and Monitoring. Springer, Berlin.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Baumeister1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baumeister
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Callaway
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Facilitative effects of 
+        <italic>
+         Pinus flexilis
+        </italic> during succession: a hierarchy of mechanisms benefits other plant species
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        1816
+       </fpage>–
+       <lpage>
+        1830
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Maestre2">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Maestre
+        </surname>
+        <given-names>
+         FT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bowker1
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Escolar
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Puche
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soliveres
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Do biotic interactions modulate ecosystem functioning along stress gradients? Insights from semi-arid plant and biological soil crust communities
+       </article-title>. 
+       <source>Phil Trans R Soc B 
+       <volume>
+        365
+       </volume>: 
+       <fpage>
+        2057
+       </fpage>–
+       <lpage>
+        2070
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Odadi1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Odadi
+        </surname>
+        <given-names>
+         WO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Karachi
+        </surname>
+        <given-names>
+         MK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abdulrazak
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Young
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        African wild ungulates compete with or facilitate cattle depending on season
+       </article-title>. 
+       <source>Science 
+       <volume>
+        333
+       </volume>: 
+       <fpage>
+        1753
+       </fpage>–
+       <lpage>
+        1755
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-He1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bertness
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Altieri
+        </surname>
+        <given-names>
+         AH
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Global shifts towards positive species interactions with increasing environmental stress
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        695
+       </fpage>–
+       <lpage>
+        706
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Maestre3">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Maestre
+        </surname>
+        <given-names>
+         FT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Valladares
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reynolds
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Is the change of plant-plant interactions with abiotic stress predictable? A meta-analysis of field results in arid environments
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        93
+       </volume>: 
+       <fpage>
+        748
+       </fpage>–
+       <lpage>
+        757
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Kawai1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kawai
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tokeshi
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Testing the facilitation-competition paradigm under the stress-gradient hypothesis: decoupling multiple stress factors
+       </article-title>. 
+       <source>Proc Royal Soc B 
+       <volume>
+        274
+       </volume>: 
+       <fpage>
+        2503
+       </fpage>–
+       <lpage>
+        2508
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Bruno1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bruno
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stachowicz
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bertness
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Inclusion of facilitation into ecological theory
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        119
+       </fpage>–
+       <lpage>
+        125
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Michalet1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Michalet
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brooker
+        </surname>
+        <given-names>
+         RW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cavieres
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kikvidze
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lortie
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Do biotic interactions shape both sides of the humped-back model of species richness in plant communities?
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        767
+       </fpage>–
+       <lpage>
+        773
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Wang1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         CB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ke
+        </surname>
+        <given-names>
+         SS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qian
+        </surname>
+        <given-names>
+         BY
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Different spontaneous plant communities in Sanmen Pb/Zn mine tailing and their effects on mine tailing physico-chemical properties
+       </article-title>. 
+       <source>Environ Earth Sci 
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        779
+       </fpage>–
+       <lpage>
+        786
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Mcgrath1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mcgrath
+        </surname>
+        <given-names>
+         SP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cunliffe
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        A simplified method for the extraction of the metals Fe, Zn, Cu, Ni, Cd, Pb Cr, Co and Mn from soils and sewage sludges
+       </article-title>. 
+       <source>J Sci food Agr 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        794
+       </fpage>–
+       <lpage>
+        798
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Page1">
+      <label>32</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Page AL, Miller RH, Keeney DR (1982) Methods of Soil Analysis, Chemical and Microbiological Properties. Wisconsin: Madison.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Dhir1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dhir
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sharmila
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Saradhi
+        </surname>
+        <given-names>
+         PP
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Hydrophytes lack potential to exhibit cadmium stress induced enhancement in lipid peroxidation and accumulation of praline
+       </article-title>. 
+       <source>Aquat Toxicol 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        141
+       </fpage>–
+       <lpage>
+        147
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Heath1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heath
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Packer
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        1968
+       </year>) 
+       <article-title>
+        Photoperoxidation in isolated chloroplasts 1 kinetics and stoichiometry of fatty acid peroxidation
+       </article-title>. 
+       <source>Arch Biochem Biophys 
+       <volume>
+        125
+       </volume>: 
+       <fpage>
+        189
+       </fpage>–
+       <lpage>
+        198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Garnier1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garnier
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cortez
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Billès
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navas
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roumet
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Plant functional markers capture ecosystem properties during secondary succession
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        2630
+       </fpage>–
+       <lpage>
+        2637
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Rao1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rao
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name> (
+       <year>
+        1982
+       </year>) 
+       <article-title>
+        Diversity and dissimilarity coefficients – a unified approach
+       </article-title>. 
+       <source>Theor Popul Biol 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        24
+       </fpage>–
+       <lpage>
+        43
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Walker1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walker
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kinzig
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Langridge
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Plant attribute diversity, resilience, and ecosystem function: the nature and significance of dominant and minor species
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        95
+       </fpage>–
+       <lpage>
+        113
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Heemsbergen1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heemsbergen
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berg
+        </surname>
+        <given-names>
+         MP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         van
+        </surname>
+        <given-names>
+         HalJR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Faber
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Biodiversity effects on soil processes explained by interspecific functional dissimilarity
+       </article-title>. 
+       <source>Science 
+       <volume>
+        306
+       </volume>: 
+       <fpage>
+        1019
+       </fpage>–
+       <lpage>
+        1020
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Armas1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Armas
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ordiales
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pugnaire
+        </surname>
+        <given-names>
+         FI
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Measuring plant interactions: anew comparative index
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        2682
+       </fpage>–
+       <lpage>
+        2686
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Wang2">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         CB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         WH
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        From selection to complementarity: the shift along the abiotic stress gradient in a controlled biodiversity experiment
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        171
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        235
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Petchey1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname>
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Functional diversity (FD), species richness and community composition
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        402
+       </fpage>–
+       <lpage>
+        411
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Petchey2">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname>
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Functional diversity: back to basics and looking forward
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        741
+       </fpage>–
+       <lpage>
+        758
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Drake1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Drake
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Why does grassland productivity increase with species richness? Disentangling species richness and composition with tests for overyielding and superyielding in biodiversity experiments
+       </article-title>. 
+       <source>PNAS 
+       <volume>
+        270
+       </volume>: 
+       <fpage>
+        1713
+       </fpage>–
+       <lpage>
+        1719
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Mulder1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mulder
+        </surname>
+        <given-names>
+         CPH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Uliassi
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Doak
+        </surname>
+        <given-names>
+         DF
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Physical stress and diversity-productivity relationships: the role of positive interactions
+       </article-title>. 
+       <source>Proc Natl Acad Sci USA 
+       <volume>
+        98
+       </volume>: 
+       <fpage>
+        6704
+       </fpage>–
+       <lpage>
+        6708
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Choler1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Choler
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Michalet
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Callaway
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Facilitation and competition on gradients in alpine plant communities
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        3295
+       </fpage>–
+       <lpage>
+        3308
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-GmezSagasti1">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gómez-Sagasti
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alkorta
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Becerril
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Epelde
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anza
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Microbial Monitoring of the Recovery of Soil Quality During Heavy Metal Phytoremediation
+       </article-title>. 
+       <source>Water Air Soil Pollut (2012) 
+       <volume>
+        223
+       </volume>: 
+       <fpage>
+        3249
+       </fpage>–
+       <lpage>
+        3262
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-uran1">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Šuran
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prišć
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rašić
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Srebočan
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Crnić A
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Malondialdehyde and heavy metal concentrations in tissues of wild boar (
+        <italic>
+         Sus scrofa
+        </italic> L.) from central Croatia
+       </article-title>. 
+       <source>J Environ Sci Heal Part B 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        147
+       </fpage>–
+       <lpage>
+        152
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Choudhary1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Choudhary
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jetley
+        </surname>
+        <given-names>
+         UK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Khan
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zutshi
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fatma
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Effect of heavy metal stress on proline, malondialdehyde, and superoxide dismutase activity in the cyanobacterium Spirulina platensis-S5
+       </article-title>. 
+       <source>Ecotoxicology and Environmental Safety 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        204
+       </fpage>–
+       <lpage>
+        209
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Cooke1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cooke
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Suski
+        </surname>
+        <given-names>
+         CD
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Ecological restoration and physiology: an overdue integration
+       </article-title>. 
+       <source>BioScience 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        957
+       </fpage>–
+       <lpage>
+        968
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-ParragaAguado1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Parraga-Aguado
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gonzalez-Alcaraz
+        </surname>
+        <given-names>
+         MN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alvarez-Rogel
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jimenez-Carceles
+        </surname>
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Conesa
+        </surname>
+        <given-names>
+         HM
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        The importance of edaphic niches and pioneer plant species succession for the phytomanagement of mine tailings
+       </article-title>. 
+       <source>Environ Pollut 
+       <volume>
+        176
+       </volume>: 
+       <fpage>
+        134
+       </fpage>–
+       <lpage>
+        143
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Zhang1">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         TX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         HG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zou
+        </surname>
+        <given-names>
+         TJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         XZ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Cd accumulation and phytostabilization potential of dominant plants surrounding mining tailings
+       </article-title>. 
+       <source>Environ Sci Pollut Res 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        3879
+       </fpage>–
+       <lpage>
+        3888
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0093733-Sheng1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sheng
+        </surname>
+        <given-names>
+         XF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         LY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         QY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ye
+        </surname>
+        <given-names>
+         HS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname>
+        <given-names>
+         CY
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Effects of inoculation of biosurfactant-producing 
+        <italic>
+         Bacillus
+        </italic> sp. J119 on plant growth and cadmium uptake in cadmium-amended soil
+       </article-title>. 
+       <source>J Hazard Mater 
+       <volume>
+        155
+       </volume>: 
+       <fpage>
+        17
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

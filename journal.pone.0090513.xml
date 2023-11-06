@@ -1,0 +1,3077 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-35582
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0090513
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Agriculture
+       </subject>
+       <subj-group>
+        <subject>
+         Forestry
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Food web structure
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Conservation science
+         </subject>
+         <subject>
+          Ecological environments
+         </subject>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subject>
+          Macroecology
+         </subject>
+         <subject>
+          Restoration ecology
+         </subject>
+         <subject>
+          Systems ecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Land Planarian Assemblages in Protected Areas of the Interior Atlantic Forest: Implications for Conservation
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Land Planarians of the Interior Atlantic Forest
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Negrete
+        </surname>
+        <given-names>
+         Lisandro
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Colpo
+        </surname>
+        <given-names>
+         Karine D.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brusa
+        </surname>
+        <given-names>
+         Francisco
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       División Zoología Invertebrados, Facultad de Ciencias Naturales y Museo, Universidad Nacional de La Plata, La Plata, Buenos Aires, Argentina
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Laboratorio de Biología de la Reproducción y el Crecimiento de Crustáceos Decápodos. Departamento de Biodiversidad y Biología Experimental, Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires, Buenos Aires, Argentina
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Consejo Nacional de Investigaciones Científicas y Técnicas
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moya-Larano
+        </surname>
+        <given-names>
+         Jordi
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Estacion Experimental de Zonas Áridas (CSIC), Spain
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        fbrusa@fcnym.unlp.edu.ar
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: LN KC FB. Performed the experiments: LN KC FB. Analyzed the data: LN KC FB. Contributed reagents/materials/analysis tools: LN KC FB. Wrote the paper: LN KC FB.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       5
+      </day>
+      <month>
+       3
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e90513
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        29
+       </day>
+       <month>
+        8
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        1
+       </day>
+       <month>
+        2
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Negrete et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Land planarians are an interesting group of free-living flatworms that can be useful as bioindicators because of their high sensitivity to environmental changes and low dispersal capacity. In this study, we describe and compare assemblages of land planarians from areas with different conservation degrees of the Interior Atlantic Forest (Misiones, Argentina), and assess factors that could be related to their abundance and richness. Eight sites were tracked in search of land planarians in Reserva de Vida Silvestre Urugua-í (RVSU) and Campo Anexo Manuel Belgrano (CAMB). Diurnal and nocturnal surveys were performed in each site along nine sampling campaigns. We collected 237 individuals belonging to 18 species of the subfamily Geoplaninae. All sites were dominated by 
+       <italic>
+        Geoplana
+       </italic> sp. 1 and 
+       <italic>
+        Pasipha hauseri
+       </italic>. The richness estimators showed that there would be more species in RVSU than in CAMB. The abundance and richness of land planarians was high during the night and after rainfalls, suggesting an increased activity of flatworms under such conditions. The abundance and richness of land planarians were also related to the conservation condition of the sites. Disturbed sites showed less abundance and richness, and were segregated from non-disturbed ones by nmMDS analysis. Beta diversity between sites was higher than expected, indicating that the species turnover between sites contributed more to the total richness (gamma diversity) than the alpha diversity.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This work was financed by CONICET (Consejo Nacional de Investigaciones Científicas y Técnicas), Agencia Nacional de Promoción Científica y Tecnológica (FONCyT) PICT 2007-01287, and UNLP (Universidad Nacional de La Plata) 11/N600. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="9" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Land planarians (Platyhelminthes: Geoplanidae) successfully colonized the terrestrial environment millions of years ago 
+     <xref ref-type="bibr" rid="pone.0090513-Sluys1">
+      [1]
+     </xref>. However, they have not been able to develop mechanisms for water conservation and are thus unable to withstand desiccation 
+     <xref ref-type="bibr" rid="pone.0090513-Kawaguti1">
+      [2]
+     </xref>. In addition, land planarians have low vagility and cannot endure long periods of immersion in water, so they can be considered stenoic organisms regarding their habitat requirements, i.e., they are very sensitive to the moisture conditions of the environment 
+     <xref ref-type="bibr" rid="pone.0090513-Kawaguti1">
+      [2]
+     </xref>. Land planarians are ‘top predators’ of the soil fauna 
+     <xref ref-type="bibr" rid="pone.0090513-Sluys2">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Estes1">
+      [4]
+     </xref>. They can feed on a wide range of soil invertebrates, mainly earthworms, snails, lugs, leeches, insects, isopods, and arachnids 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0090513-Winsor1">
+      [10]
+     </xref>. Therefore, they may be good environmental indicators, particularly in tropical and subtropical rainforests, where they are abundant 
+     <xref ref-type="bibr" rid="pone.0090513-Sluys2">
+      [3]
+     </xref>.</p> 
+    <p>Land planarians exhibit the highest diversity in the Atlantic Forest, with about 180 species described for its Brazilian portion 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo2">
+      [11]
+     </xref>. The Atlantic Forest is one of the world's 25 recognized biodiversity hotspots 
+     <xref ref-type="bibr" rid="pone.0090513-Myers1">
+      [12]
+     </xref>. It is a complex of ecosystems which extends along the Atlantic coast of Brazil and inland as far as eastern Paraguay and north-eastern Argentina, constituting the Interior Atlantic Forest. The original coverage of the Atlantic Forest remains in small fragments and under some kind of conservation status 
+     <xref ref-type="bibr" rid="pone.0090513-GalindoLeal1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Ribeiro1">
+      [14]
+     </xref>. In Argentina, there are still large extensions of the original Atlantic Forest, mainly under some kind of legal protection. This ecosystem has been suffering from human impact that has modified the original landscape, due to uncontrolled deforestation (which has been the primary cause of forest degradation), the burning of the land to prepare it for farming or grazing, and the introduction of exotic species with commercial purposes 
+     <xref ref-type="bibr" rid="pone.0090513-GalindoLeal1">
+      [13]
+     </xref>.</p> 
+    <p>Several researches have study the diversity of land planarians in the Atlantic Forest of Brazil 
+     <xref ref-type="bibr" rid="pone.0090513-LealZanchet1">
+      [15]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0090513-Fick1">
+      [18]
+     </xref>, and some have compared different assemblages in man-disturbed areas 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo3">
+      [19]
+     </xref>. At present, the diversity of land planarians in the Argentine portion of the Atlantic Forest is unknown. Recently, we have started to describe the diversity of these flatworms in this region 
+     <xref ref-type="bibr" rid="pone.0090513-Negrete1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Negrete2">
+      [21]
+     </xref>. In order to improve our knowledge about land planarians, in this work we describe and compare assemblages from areas of the Interior Atlantic Forest of Argentina with different conservation degrees, and assess factors that could be related to their abundance and richness. Additionally, we determine the contribution of species richness (alpha) and species turnover (beta) to the gamma diversity.</p> 
+   </sec>
+   <sec id="s2" sec-type="methods"> 
+    <title>Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>The research has been conducted according to the Argentine law.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Study area and sampling design</title> 
+     <p>Our study took place in the southern portion of the Interior Atlantic Forest. In Argentina, this region covers about 25,700 km<sup>2</sup> and is part of the Paranaense Subregion (Neotropical Region), where two biogeographical provinces are recognized: the Paranaense Forest and the Moist Forest with the coniferous tree 
+      <italic>
+       Araucaria angustifolia
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0090513-Morrone1">
+       [22]
+      </xref>. These provinces are characterized as semi-deciduous subtropical rainforest. The climate is warm and humid, with an annual temperature of 16–22°C and a total annual precipitation of 1,600–2,000 mm 
+      <xref ref-type="bibr" rid="pone.0090513-DiBitetti1">
+       [23]
+      </xref>.</p> 
+     <p>The surveys were performed in two reserves of Misiones province, separated by about 40 km: Reserva de Vida Silvestre Urugua-í (RVSU) (25° 59′ S, 54° 05′ W) and Campo Anexo Manuel Belgrano (CAMB) (26° 02′ S, 53° 47′ W), each representing the Paranaense Forest and Moist Forest with 
+      <italic>
+       A. angustifolia
+      </italic>, respectively (
+      <xref ref-type="fig" rid="pone-0090513-g001">
+       Figure 1
+      </xref>). The reserves are differentiated by conserved surface, altitude, management degree, and vegetation type. RVSU is a private natural reserve that covers 3,423 ha at ∼200 m a.s.l. It was created in 1997 and previously used for selective logging until the 1970s. This reserve, now under strict protection, is part of one of the largest corridors of continuous original rainforest in the southern portion of the Atlantic Forest, a ‘green block’ of almost 6,000 km<sup>2</sup> 
+      <xref ref-type="bibr" rid="pone.0090513-Giraudo1">
+       [24]
+      </xref>. It is characterized by diversified forests, although trees of 
+      <italic>
+       Balfourodendron riedelianum
+      </italic> and 
+      <italic>
+       Nectandra
+      </italic> spp. dominate plant formations. CAMB is a governmental forest reserve that covers 2,136 ha at ∼600 m a.s.l. It was created in 1948 to protect native and planted populations of 
+      <italic>
+       A. angustifolia
+      </italic>. This rainforest is also characterized by an undergrowth of tree ferns (
+      <italic>
+       Alsophyla
+      </italic> sp., 
+      <italic>
+       Dicksonia
+      </italic> sp., 
+      <italic>
+       Trichipteris
+      </italic> sp.) 
+      <xref ref-type="bibr" rid="pone.0090513-Giraudo1">
+       [24]
+      </xref>. However, in CAMB there are also plantations with exotic conifers (
+      <italic>
+       Pinus taeda
+      </italic>). Therefore, this reserve is a mosaic of preserved and disturbed areas, isolated from other protected areas and surrounded mainly by small farms (
+      <xref ref-type="fig" rid="pone-0090513-g001">
+       Figure 1
+      </xref>).</p> 
+     <fig id="pone-0090513-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0090513.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Study area, in the Argentine portion of the Interior Atlantic Forest (Misiones province).</title> 
+      <p>1, Reserva de Vida Silvestre Urugua-í (RVSU), with four undisturbed sampling sites (U1–U4), and 2, Campo Anexo Manuel Belgrano (CAMB), with two undisturbed sampling sites (B1 and B3), and two disturbed sampling sites (B2 and B4). Maps modified from Di Bitetti et al. (2003), Galindo-Leal and Câmara (2003), and Google Earth.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>In each reserve, four sites were tracked in search of land planarians. All sites were selected for their accessibility, using existing paths. In RVSU, the four sites (U1–U4) were located in undisturbed areas with a condition of native vegetation and with the same physiognomy. In CAMB, the four sites (B1–B4) were situated in heterogeneous land use areas. Sites B1 and B3 were situated in undisturbed areas with 
+      <italic>
+       A. angustifolia
+      </italic>, while B2 and B4 were located in disturbed areas with exotic vegetation (
+      <italic>
+       P. taeda
+      </italic>) (
+      <xref ref-type="fig" rid="pone-0090513-g001">
+       Figure 1
+      </xref>).</p> 
+     <p>In both reserves, land planarians were collected with the same sampling procedure along nine campaigns, between 2008 and 2010. In each site, samplings were performed by one person walking along the paths (1,000–1,500 m long) for 2 h during the day and another 2 h during the night. Therefore, 36 hours of sampling (2 h diurnal ×2 h nocturnal ×9 campaigns) were carried out in each site, totaling 144 hours of sampling effort for each reserve. During the day, the collector searched for planarians beneath and inside fallen logs, leaf litter and stones, whereas during the night, when planarians are more active, the collector performed the direct observation of the soil by means of a headlamp. Land planarians were manually collected and placed in plastic recipients with humid leaf litter, to avoid dehydration stress.</p> 
+     <p>Environmental data were obtained from climatological stations near the reserves. The mean temperature of each sampling day and the cumulative rainfall (sum of millimeters of the ten days previous to each sampling day) were recorded.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Morphological analysis</title> 
+     <p>The external features of each specimen were observed in live. Planarians were then killed by throwing boiling water on them to avoid distortions of their tissues and then fixed in 10% formaldehyde and preserved in 70% ethanol. Fragments of different body regions (anterior region, pre-pharyngeal region, pharynx and copulatory apparatus) were dehydrated and embedded in Paraplast, serially sectioned at 6–10 µm thick with a microtome, and stained with hematoxylin-eosin and the Masson's trichrome method 
+      <xref ref-type="bibr" rid="pone.0090513-Romeis1">
+       [25]
+      </xref>. The histological preparations were observed by optical microscope and the copulatory apparatus reconstructed for identification purposes. The specimens were studied by two specialists on free living flatworms (LN and FB). Some specimens were identified at species level and others as morphospecies because they are in description process.</p> 
+     <p>The material studied was deposited in the Invertebrate Collection at Museo de La Plata (MLP), Argentina.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Data analysis</title> 
+     <p>Species richness is the simplest way to describe the diversity of a community and to make comparisons 
+      <xref ref-type="bibr" rid="pone.0090513-Magurran1">
+       [26]
+      </xref>. We disaggregated species richness in (a) punctual alpha diversity, for the number of land planarian species recorded in each site, and (b) cumulative alpha diversity, for the total number of species in each reserve. We constructed species accumulation curves using sample-based rarefaction, with the expected richness function Mau Tau (with 95% confidence intervals), to compare cumulative alpha diversity curves between reserves 
+      <xref ref-type="bibr" rid="pone.0090513-Colwell1">
+       [27]
+      </xref>. We used the species accumulation curves with the number of individuals instead of the number of samples to avoid biases in comparison due to differences in the abundance of land planarians 
+      <xref ref-type="bibr" rid="pone.0090513-Gotelli1">
+       [28]
+      </xref>. Since all inventories have unrecorded species 
+      <xref ref-type="bibr" rid="pone.0090513-Chao1">
+       [29]
+      </xref>, to analyze and compare the completeness of the species inventory in each reserve, we tested the performance of eight richness estimators, based on abundance (Chao 1, ACE) and incidence (Chao 2, ICE, jacknife 1, jacknife 2, bootstrap, and Michaelis-Menten), and the number of singletons and doubletons. Species accumulation curves and richness estimators were computed using Estimates v.9.0 
+      <xref ref-type="bibr" rid="pone.0090513-Colwell2">
+       [30]
+      </xref>, performing 100 randomizations in each analysis. To analyze the dissimilarity among reserves, we performed the calculation as 1 – Bray-Curtis index, using Chao's procedure, with Estimates v.9.0, because it compensates the effect of unseen shared species 
+      <xref ref-type="bibr" rid="pone.0090513-Chao2">
+       [31]
+      </xref>.</p> 
+     <p>Abundance and species richness are interesting parameters to assess the structure of assemblages, since they are simple and fast to measure. Furthermore, these parameters can change according to environmental conditions. Besides the effects of mean temperature and cumulative rainfall on abundance and richness of land planarians, we also evaluated the relationship of these parameters with the conservation condition of each site. Therefore, we performed a multiple regression analysis (GLM), including data of both reserves (2 reserves ×4 sites ×9 campaigns), to test the effects of three independent variables: mean temperature, cumulative rainfall (continuous predictor variables), and conservation condition (categorical predictor variable: disturbed/undisturbed) on two dependent variables (abundance and richness).</p> 
+     <p>To assess whether we had found more land planarians in diurnal or nocturnal surveys, we used a non-parametric Wilcoxon test, for dependent samples. We compared the abundance of planarians collected in 36 diurnal and nocturnal samplings (4 sites ×9 campaigns) in each reserve. After this comparison, we pooled diurnal and nocturnal sampling data, summarizing nine replicates (campaigns) per site. This procedure ensured that the actual richness and abundance of each site was well estimated.</p> 
+     <p>We then used a two-way ANOVA to tested the effect of the reserves (fixed, orthogonal factor, with two levels: RVSU and CAMB) and sites (random, nested factor, with U1–U4 nested in RVSU level, and B1–B4 nested in CAMB level) on the abundance and richness of land planarians. Data were log-transformed to fulfill ANOVA assumptions. Post-hoc Student-Newman-Keuls (SNK) tests were applied for multiple comparisons.</p> 
+     <p>We built rank-abundance (dominance-diversity) curves as indicators of the structure of the planarian assemblages of each site in both reserves. The relative abundance of each taxon on a logarithmic scale (log<sub>10</sub>) was plotted against the rank order of the taxa, from the most to the least abundant. These curves constitute a useful tool to visualize some aspects of the assemblages such as species richness (number of points), evenness (slope), number of rare species (tail of curves) and relative abundance of each species (order of the species in curves) 
+      <xref ref-type="bibr" rid="pone.0090513-Feinsinger1">
+       [32]
+      </xref>. The composition of land planarian assemblages was compared among sites of RVSU and CAMB by the non-metric multidimensional scaling (nmMDS), using the Bray-Curtis coefficient, to evaluate the similarities based on the abundance matrix (log-transformed).</p> 
+     <p>Additionally, we determined the degree of contribution of species richness (alpha) and species turnover (beta) between sites to landscape scale diversity (gamma diversity). We adopted the framework of Jost 
+      <xref ref-type="bibr" rid="pone.0090513-Jost1">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0090513-Jost2">
+       [34]
+      </xref> to calculate alpha (diversity within samples) and beta (diversity among samples), in which gamma diversity (total amount of diversity) is partitioned according to the formula H<sub>α</sub> *H<sub>β</sub> = H<sub>γ</sub> (H: Shannon-Wiener entropy). Entropies, like the Shannon-Wiener index, are not themselves diversities, and their use may obscure differences in diversity because indices differ only by small magnitudes 
+      <xref ref-type="bibr" rid="pone.0090513-Pfeiffer1">
+       [35]
+      </xref>. Therefore, we used a transformation that allows an intuitive interpretation of species diversity by using the effective number of species, named 
+      <italic>
+       <sup>q</sup>D
+      </italic> by Jost 
+      <xref ref-type="bibr" rid="pone.0090513-Jost1">
+       [33]
+      </xref>, as a measure of “true diversity”. We computed the diversity with 
+      <italic>
+       q
+      </italic> = 0, where diversity is completely insensitive to the abundances of species and the value obtained is thus equivalent to species richness (
+      <italic>
+       <sup>0</sup>D
+      </italic> = S<sub>obs</sub>), and 
+      <italic>
+       q
+      </italic> = 1, the exponential Shannon entropy, where each species is included with a weight proportional to its abundance (
+      <italic>
+       <sup>1</sup>D
+      </italic> = exp H′) 
+      <xref ref-type="bibr" rid="pone.0090513-Moreno1">
+       [36]
+      </xref>. We used Partition v.3.0 
+      <xref ref-type="bibr" rid="pone.0090513-Veech1">
+       [37]
+      </xref>, using 1000 randomizations (Monte Carlo resampling method) to derive the expected values of alpha and beta diversity that would be obtained if individuals or samples were randomly distributed.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>We found 237 individuals (150 in RVSU and 87 in CAMB), representing 18 land planarian species distributed in six genera of the subfamily Geoplaninae. We found 12 species in RVSU and 13 species in CAMB (
+     <xref ref-type="table" rid="pone-0090513-t001">
+      Table 1
+     </xref>). For cumulative alpha diversity, the species rarefaction curves were not different between reserves (
+     <xref ref-type="fig" rid="pone-0090513-g002">
+      Figure 2
+     </xref>). However, singleton and doubleton curves showed different trends. In CAMB but not in RVSU, singleton and doubleton curves reached the intersection with each other (
+     <xref ref-type="fig" rid="pone-0090513-g002">
+      Figure 2
+     </xref>). Among the richness estimators analyzed, bootstrap was the most conservative one, while Chao 2 estimated the highest number of species in RVSU (
+     <xref ref-type="table" rid="pone-0090513-t002">
+      Table 2
+     </xref>). In CAMB, Chao 1 and bootstrap estimated the lowest number of species, similar to that recorded, whereas ICE estimated the highest number of species. On average, taking into account the eight estimators, we reached 65% of completeness of the inventory of species for RVSU and 77% of that for CAMB (
+     <xref ref-type="table" rid="pone-0090513-t002">
+      Table 2
+     </xref>). Five species were unique to RVSU, whereas six species were unique to CAMB, being seven species shared by both reserves (
+     <xref ref-type="table" rid="pone-0090513-t001">
+      Table 1
+     </xref>). According to Chao estimation, we found a dissimilarity of 38% between reserves (Bray-Curtis similarity index = 0.62).</p> 
+    <fig id="pone-0090513-g002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.g002
+     </object-id>
+     <label>Figure 2</label> 
+     <title>Land planarian species rarefaction curves, singleton and doubleton curves for reserves.</title> 
+     <p>Solid lines show the rarefaction curves (bars delineate 95% confidence intervals). Dashed and dotted lines represent the singleton and doubleton curves, respectively. RVSU (squares) and CAMB (circles).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.g002" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0090513-t001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.t001
+     </object-id>
+     <label>Table 1</label> 
+     <title>Abundance and richness (alpha diversity) of land planarian species collected in each sampling site. Letters (A–R) identify the species in &lt;xref ref-type="fig" rid="pone-0090513-g004"&gt;Figure 4&lt;/xref&gt;.</title> 
+     <alternatives>
+      <graphic id="pone-0090513-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.t001" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Reserves</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td colspan="5" align="left" rowspan="1">RVSU</td> 
+         <td colspan="5" align="left" rowspan="1">CAMB</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Taxa/Sampling sites</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">U1</td> 
+         <td align="left" rowspan="1" colspan="1">U2</td> 
+         <td align="left" rowspan="1" colspan="1">U3</td> 
+         <td align="left" rowspan="1" colspan="1">U4</td> 
+         <td align="left" rowspan="1" colspan="1">Total</td> 
+         <td align="left" rowspan="1" colspan="1">B1</td> 
+         <td align="left" rowspan="1" colspan="1">B2</td> 
+         <td align="left" rowspan="1" colspan="1">B3</td> 
+         <td align="left" rowspan="1" colspan="1">B4</td> 
+         <td align="left" rowspan="1" colspan="1">Total</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Choeradoplana crassiphalla
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">A</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">5</td> 
+         <td align="left" rowspan="1" colspan="1">8</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">11</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 1</td> 
+         <td align="left" rowspan="1" colspan="1">B</td> 
+         <td align="left" rowspan="1" colspan="1">18</td> 
+         <td align="left" rowspan="1" colspan="1">38</td> 
+         <td align="left" rowspan="1" colspan="1">7</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">75</td> 
+         <td align="left" rowspan="1" colspan="1">10</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">13</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">27</td> 
+         <td align="left" rowspan="1" colspan="1">102</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 2</td> 
+         <td align="left" rowspan="1" colspan="1">C</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">6</td> 
+         <td align="left" rowspan="1" colspan="1">7</td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">7</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">19</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 3</td> 
+         <td align="left" rowspan="1" colspan="1">D</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 4</td> 
+         <td align="left" rowspan="1" colspan="1">E</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 5</td> 
+         <td align="left" rowspan="1" colspan="1">F</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 6</td> 
+         <td align="left" rowspan="1" colspan="1">G</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Geoplana
+          </italic> sp. 7</td> 
+         <td align="left" rowspan="1" colspan="1">H</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Gigantea
+          </italic> sp. 1</td> 
+         <td align="left" rowspan="1" colspan="1">I</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Matuxia
+          </italic> cf. 
+          <italic>
+           matuta
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">J</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Pasipha hauseri
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">K</td> 
+         <td align="left" rowspan="1" colspan="1">31</td> 
+         <td align="left" rowspan="1" colspan="1">5</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1">42</td> 
+         <td align="left" rowspan="1" colspan="1">11</td> 
+         <td align="left" rowspan="1" colspan="1">9</td> 
+         <td align="left" rowspan="1" colspan="1">10</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">30</td> 
+         <td align="left" rowspan="1" colspan="1">72</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Pasipha
+          </italic> sp. 1</td> 
+         <td align="left" rowspan="1" colspan="1">L</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Pasipha
+          </italic> sp. 2</td> 
+         <td align="left" rowspan="1" colspan="1">M</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Pasipha
+          </italic> sp. 3</td> 
+         <td align="left" rowspan="1" colspan="1">N</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Pasipha
+          </italic> sp. 4</td> 
+         <td align="left" rowspan="1" colspan="1">O</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Pasipha
+          </italic> sp. 5</td> 
+         <td align="left" rowspan="1" colspan="1">P</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Supramontana argentina
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">Q</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">5</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           Xerapoa
+          </italic> cf. 
+          <italic>
+           pseudorhynchodemus
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">R</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">5</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">3</td> 
+         <td align="left" rowspan="1" colspan="1">8</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Total abundance</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">59</td> 
+         <td align="left" rowspan="1" colspan="1">46</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">33</td> 
+         <td align="left" rowspan="1" colspan="1">150</td> 
+         <td align="left" rowspan="1" colspan="1">29</td> 
+         <td align="left" rowspan="1" colspan="1">10</td> 
+         <td align="left" rowspan="1" colspan="1">42</td> 
+         <td align="left" rowspan="1" colspan="1">6</td> 
+         <td align="left" rowspan="1" colspan="1">87</td> 
+         <td align="left" rowspan="1" colspan="1">237</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Punctual alpha diversity</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">8</td> 
+         <td align="left" rowspan="1" colspan="1">5</td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1">7</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">6</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1">11</td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Cumulative alpha diversity</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td colspan="4" align="left" rowspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td colspan="4" align="left" rowspan="1">13</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+    </table-wrap>
+    <table-wrap id="pone-0090513-t002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.t002
+     </object-id>
+     <label>Table 2</label> 
+     <title>Land planarian richness, singletons and doubletons observed in each reserve.</title> 
+     <alternatives>
+      <graphic id="pone-0090513-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.t002" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td colspan="2" align="left" rowspan="1">RVSU</td> 
+         <td colspan="2" align="left" rowspan="1">CAMB</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Cumulative alpha diversity</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">13</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Number of singletons</td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Number of doubletons</td> 
+         <td align="left" rowspan="1" colspan="1">2</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">4</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Chao 1</td> 
+         <td align="left" rowspan="1" colspan="1">17</td> 
+         <td align="left" rowspan="1" colspan="1">71%</td> 
+         <td align="left" rowspan="1" colspan="1">15</td> 
+         <td align="left" rowspan="1" colspan="1">87%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">ACE</td> 
+         <td align="left" rowspan="1" colspan="1">16</td> 
+         <td align="left" rowspan="1" colspan="1">75%</td> 
+         <td align="left" rowspan="1" colspan="1">16</td> 
+         <td align="left" rowspan="1" colspan="1">81%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Chao 2</td> 
+         <td align="left" rowspan="1" colspan="1">28</td> 
+         <td align="left" rowspan="1" colspan="1">43%</td> 
+         <td align="left" rowspan="1" colspan="1">16</td> 
+         <td align="left" rowspan="1" colspan="1">81%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">ICE</td> 
+         <td align="left" rowspan="1" colspan="1">19</td> 
+         <td align="left" rowspan="1" colspan="1">63%</td> 
+         <td align="left" rowspan="1" colspan="1">20</td> 
+         <td align="left" rowspan="1" colspan="1">65%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Jacknife 1</td> 
+         <td align="left" rowspan="1" colspan="1">17</td> 
+         <td align="left" rowspan="1" colspan="1">71%</td> 
+         <td align="left" rowspan="1" colspan="1">17</td> 
+         <td align="left" rowspan="1" colspan="1">76%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Jacknife 2</td> 
+         <td align="left" rowspan="1" colspan="1">21</td> 
+         <td align="left" rowspan="1" colspan="1">57%</td> 
+         <td align="left" rowspan="1" colspan="1">19</td> 
+         <td align="left" rowspan="1" colspan="1">68%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Bootstrap</td> 
+         <td align="left" rowspan="1" colspan="1">15</td> 
+         <td align="left" rowspan="1" colspan="1">80%</td> 
+         <td align="left" rowspan="1" colspan="1">15</td> 
+         <td align="left" rowspan="1" colspan="1">87%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Michaelis Menten</td> 
+         <td align="left" rowspan="1" colspan="1">19</td> 
+         <td align="left" rowspan="1" colspan="1">63%</td> 
+         <td align="left" rowspan="1" colspan="1">19</td> 
+         <td align="left" rowspan="1" colspan="1">68%</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Average of inventory completeness</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">65%</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">77%</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt101">
+       <label></label>
+       <p>Number of species expected and percentages of inventory completeness according to different richness estimators.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>During the study, the mean temperature varied between 9.6°C and 27.9°C, and the cumulative rainfall varied between 6.5 mm and 130 mm. The cumulative rainfall showed a positive effect on the abundance (p = 0.037) and richness (p = 0.020) of land planarians, while the temperature was not related. The conservation condition also affected the abundance and richness (
+     <xref ref-type="table" rid="pone-0090513-t003">
+      Table 3
+     </xref>). In both reserves, we found a greater abundance of land planarians during the nocturnal samplings (RVSU: T = 33.5, p&lt;0.0001 and CAMB: T = 14.5, p&lt;0.001) (
+     <xref ref-type="fig" rid="pone-0090513-g003">
+      Figure 3
+     </xref>). Approximately 90% of the individuals collected in RVSU (N = 137) and 80% of those collected in CAMB (N = 70) were recorded during the nocturnal surveys.</p> 
+    <fig id="pone-0090513-g003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.g003
+     </object-id>
+     <label>Figure 3</label> 
+     <title>Comparison of land planarian abundance between 36 pairs of diurnal and nocturnal surveys, in each reserve (RVSU and CAMB).</title> 
+     <p>Non-parametric Wilcoxon test, for dependent samples was used. Mean (dot), median (line inside the box), 25–75% (box), min-max (whiskers), and N =  total abundance of land planarians.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.g003" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0090513-t003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.t003
+     </object-id>
+     <label>Table 3</label> 
+     <title>Summary results of a GLM - multiple regression analysis, testing the relationship between independent variables (continuous: mean temperature, cumulative rainfall; and categorical: conservation condition) and two dependent variables (abundance and richness of land planarians).</title> 
+     <alternatives>
+      <graphic id="pone-0090513-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.t003" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td colspan="2" align="left" rowspan="1"></td> 
+         <td colspan="6" align="left" rowspan="1">Dependent variables</td> 
+        </tr> 
+        <tr> 
+         <td colspan="2" align="left" rowspan="1"></td> 
+         <td colspan="3" align="left" rowspan="1">Abundance</td> 
+         <td colspan="3" align="left" rowspan="1">Richness</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Independent variables</td> 
+         <td align="left" rowspan="1" colspan="1">df</td> 
+         <td align="left" rowspan="1" colspan="1">MS</td> 
+         <td align="left" rowspan="1" colspan="1">F</td> 
+         <td align="left" rowspan="1" colspan="1">p</td> 
+         <td align="left" rowspan="1" colspan="1">MS</td> 
+         <td align="left" rowspan="1" colspan="1">F</td> 
+         <td align="left" rowspan="1" colspan="1">p</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Mean temperature</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">2.67</td> 
+         <td align="left" rowspan="1" colspan="1">0.184</td> 
+         <td align="left" rowspan="1" colspan="1">0.669</td> 
+         <td align="left" rowspan="1" colspan="1">2.53</td> 
+         <td align="left" rowspan="1" colspan="1">1.123</td> 
+         <td align="left" rowspan="1" colspan="1">0.293</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Cumulative rainfall</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">65.15</td> 
+         <td align="left" rowspan="1" colspan="1">4.493</td> 
+         <td align="left" rowspan="1" colspan="1">0.037</td> 
+         <td align="left" rowspan="1" colspan="1">12.75</td> 
+         <td align="left" rowspan="1" colspan="1">5.653</td> 
+         <td align="left" rowspan="1" colspan="1">0.020</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Conservation condition</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">110.2</td> 
+         <td align="left" rowspan="1" colspan="1">7.602</td> 
+         <td align="left" rowspan="1" colspan="1">0.007</td> 
+         <td align="left" rowspan="1" colspan="1">22.16</td> 
+         <td align="left" rowspan="1" colspan="1">9.817</td> 
+         <td align="left" rowspan="1" colspan="1">0.002</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Error</td> 
+         <td align="left" rowspan="1" colspan="1">68</td> 
+         <td colspan="3" align="left" rowspan="1">14.5</td> 
+         <td colspan="3" align="left" rowspan="1">2.25</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+    </table-wrap> 
+    <p>
+     <italic>
+      Geoplana
+     </italic> sp. 1 and 
+     <italic>
+      Pasipha hauseri
+     </italic> (Froehlich, 1959) together represented 74% of the total collected planarians (
+     <xref ref-type="table" rid="pone-0090513-t001">
+      Table 1
+     </xref>). 
+     <italic>
+      Geoplana
+     </italic> sp. 2, 
+     <italic>
+      Choeradoplana crassiphalla
+     </italic> (Negrete &amp; Brusa, 2012) and 
+     <italic>
+      Xerapoa
+     </italic> cf. 
+     <italic>
+      pseudorhynchodemus
+     </italic> showed an intermediate level of abundance, totaling 16% of the land planarians collected. The remaining species showed low abundance (
+     <xref ref-type="table" rid="pone-0090513-t001">
+      Table 1
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0090513-g004">
+      Figure 4
+     </xref>). The general abundance of land planarians varied from 12 to 59 individuals in RVSU, and from 6 to 42 in CAMB. In RVSU, the richness ranged from four species in U3 to eight species in U1. 
+     <italic>
+      Geoplana
+     </italic> sp. 1 was dominant in sites U2–U4 and 
+     <italic>
+      Pasipha hauseri
+     </italic> was dominant in U1. Only these two species were common to U1–U4. In CAMB, the number of species varied from two in B2 to 11 in B3. Only 
+     <italic>
+      Geoplana
+     </italic> sp. 1 was recorded in the four sites, being dominant in B3 and B4, and B1 together with 
+     <italic>
+      P. hauseri
+     </italic>, while the latter was dominant in B2 (
+     <xref ref-type="table" rid="pone-0090513-t001">
+      Table 1
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0090513-g004">
+      Figure 4
+     </xref>).</p> 
+    <fig id="pone-0090513-g004" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.g004
+     </object-id>
+     <label>Figure 4</label> 
+     <title>Rank-abundance curves of land planarian assemblages in each sampling site.</title> 
+     <p>Species codes are given in 
+      <xref ref-type="table" rid="pone-0090513-t001">
+       Table 1
+      </xref>. 
+      <italic>
+       Geoplana
+      </italic> sp. 1 (B) and 
+      <italic>
+       Pasipha hauseri
+      </italic> (K) were the most abundant species in all sites.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.g004" position="float" xlink:type="simple" />
+    </fig> 
+    <p>The reserves were not an important factor on the abundance (F = 1.789, p = 0.229) or on the richness (F = 0.789, p = 0.409) of land planarians. However, the abundance and the richness were sensitive to the different sites (
+     <xref ref-type="table" rid="pone-0090513-t004">
+      Table 4
+     </xref>). The disturbed sites B2 and B4 showed a lower abundance and richness than the undisturbed sites (U1–U4, B1 and B3) (
+     <xref ref-type="fig" rid="pone-0090513-g005">
+      Figure 5
+     </xref>). Based on the composition of land planarian assemblages, the nmMDS analysis clustered sites with undisturbed condition at 54% similarity (Bray–Curtis coefficient). This analysis also segregated B2 and B4, which are disturbed sites (
+     <xref ref-type="fig" rid="pone-0090513-g006">
+      Figure 6
+     </xref>).</p> 
+    <fig id="pone-0090513-g005" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.g005
+     </object-id>
+     <label>Figure 5</label> 
+     <title>Comparison of abundance and richness of land planarians between sampling sites (U1–U4 and B1–B4).</title> 
+     <p>Means and standard errors. Different labels represent significant differences (Student-Newman-Keuls; α = 0.05).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.g005" position="float" xlink:type="simple" />
+    </fig>
+    <fig id="pone-0090513-g006" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.g006
+     </object-id>
+     <label>Figure 6</label> 
+     <title>Non-metric multidimensional scaling (nmMDS) analysis based on the composition of land planarian assemblages of each sampling site.</title> 
+     <p>Sites with undisturbed condition (U1–U4, B1 and B3) were clustered at 54% similarity (Bray–Curtis coefficient), while disturbed sites B2 and B4 were segregated.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.g006" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0090513-t004" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.t004
+     </object-id>
+     <label>Table 4</label> 
+     <title>Summary results of a two-way ANOVA model, testing effects of the reserves (fixed; RVSU and CAMB) and sites (random, U1 to U4 nested in RVSU and B1 to B4 nested in CAMB) on the abundance and richness of land planarians.</title> 
+     <alternatives>
+      <graphic id="pone-0090513-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.t004" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td colspan="3" align="left" rowspan="1"></td> 
+         <td colspan="3" align="left" rowspan="1">Abundance</td> 
+         <td colspan="3" align="left" rowspan="1">Richness</td> 
+        </tr> 
+        <tr> 
+         <td colspan="3" align="left" rowspan="1"></td> 
+         <td colspan="3" align="left" rowspan="1">C = 0.218 (NS)</td> 
+         <td colspan="3" align="left" rowspan="1">C = 0.208 (NS)</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">df</td> 
+         <td align="left" rowspan="1" colspan="1">MS</td> 
+         <td align="left" rowspan="1" colspan="1">F</td> 
+         <td align="left" rowspan="1" colspan="1">p</td> 
+         <td align="left" rowspan="1" colspan="1">QM</td> 
+         <td align="left" rowspan="1" colspan="1">F</td> 
+         <td align="left" rowspan="1" colspan="1">p</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Reserves</td> 
+         <td align="left" rowspan="1" colspan="1">Fixed</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">0.681</td> 
+         <td align="left" rowspan="1" colspan="1">1.789</td> 
+         <td align="left" rowspan="1" colspan="1">0.229</td> 
+         <td align="left" rowspan="1" colspan="1">0.154</td> 
+         <td align="left" rowspan="1" colspan="1">0.789</td> 
+         <td align="left" rowspan="1" colspan="1">0.409</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Sites (Reserves)</td> 
+         <td align="left" rowspan="1" colspan="1">Random</td> 
+         <td align="left" rowspan="1" colspan="1">6</td> 
+         <td align="left" rowspan="1" colspan="1">0.381</td> 
+         <td align="left" rowspan="1" colspan="1">3.6</td> 
+         <td align="left" rowspan="1" colspan="1">0.004</td> 
+         <td align="left" rowspan="1" colspan="1">0.196</td> 
+         <td align="left" rowspan="1" colspan="1">3.648</td> 
+         <td align="left" rowspan="1" colspan="1">0.003</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Error</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">64</td> 
+         <td align="left" rowspan="1" colspan="1">0.106</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">0.054</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt102">
+       <label></label>
+       <p>C = Cochran's test, NS  =  not significant.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>Partitioning of the gamma diversity revealed that alpha species richness and alpha exponential Shannon diversity were not different from expected. However, beta diversity between sites was higher than expected for both measurements (
+     <xref ref-type="table" rid="pone-0090513-t005">
+      Table 5
+     </xref>).</p> 
+    <table-wrap id="pone-0090513-t005" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0090513.t005
+     </object-id>
+     <label>Table 5</label> 
+     <title>Partitioning of gamma diversity in alpha and beta components for species richness (&lt;italic&gt;&lt;sup&gt;0&lt;/sup&gt;D&lt;/italic&gt;) and exponential Shannon diversity (&lt;italic&gt;&lt;sup&gt;1&lt;/sup&gt;D&lt;/italic&gt;) compared to null models (expected values) calculated between sites.</title> 
+     <alternatives>
+      <graphic id="pone-0090513-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0090513.t005" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td colspan="3" align="left" rowspan="1">Species richness</td> 
+         <td colspan="3" align="left" rowspan="1">D = exp H′</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Diversity</td> 
+         <td align="left" rowspan="1" colspan="1">Observed</td> 
+         <td align="left" rowspan="1" colspan="1">Expected</td> 
+         <td align="left" rowspan="1" colspan="1">p</td> 
+         <td align="left" rowspan="1" colspan="1">Observed</td> 
+         <td align="left" rowspan="1" colspan="1">Expected</td> 
+         <td align="left" rowspan="1" colspan="1">p</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">α</td> 
+         <td align="left" rowspan="1" colspan="1">12.5</td> 
+         <td align="left" rowspan="1" colspan="1">13.53 [11.5; 15]</td> 
+         <td align="left" rowspan="1" colspan="1">0.907</td> 
+         <td align="left" rowspan="1" colspan="1">2.03</td> 
+         <td align="left" rowspan="1" colspan="1">2.23 [1.84; 2.34]</td> 
+         <td align="left" rowspan="1" colspan="1">0.953</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">β</td> 
+         <td align="left" rowspan="1" colspan="1">1.44</td> 
+         <td align="left" rowspan="1" colspan="1">1.33 [1.2; 1.57]</td> 
+         <td align="left" rowspan="1" colspan="1">0.015</td> 
+         <td align="left" rowspan="1" colspan="1">1.23</td> 
+         <td align="left" rowspan="1" colspan="1">1.05 [1; 1.27]</td> 
+         <td align="left" rowspan="1" colspan="1">0.002</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">γ</td> 
+         <td align="left" rowspan="1" colspan="1">18</td> 
+         <td align="left" rowspan="1" colspan="1">17.99</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">2.49</td> 
+         <td align="left" rowspan="1" colspan="1">2.34</td> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+    </table-wrap>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>We observed no differences in cumulative species richness curves between reserves, and rising curves imply incomplete inventories. However, the singletons curve in CAMB reached the asymptote, tended to zero and intersected the doubletons curve, indicating that the species inventory in this reserve would be close to completeness 
+     <xref ref-type="bibr" rid="pone.0090513-Colwell3">
+      [38]
+     </xref>. The species richness estimators are consistent with this assumption. In contrast, in RVSU, the singleton and doubleton curves suggest that the species inventory is still far from being complete. The species richness estimators for RVSU were more variable than those for CAMB. With Chao 1, which is sensitive to rare species 
+     <xref ref-type="bibr" rid="pone.0090513-Colwell4">
+      [39]
+     </xref>, we reached about 70% of the species inventory in RVSU and almost 90% in CAMB. Nevertheless, according to Chao 2, which takes into account presence/absence data, we reached about 40% of the species inventory in RVSU and over 80% in CAMB. Therefore, it would be expected that not observed-species are recorded in new surveys. Other contributions on land planarian diversity did not reach the completeness of the species inventory either. Carbayo et al. 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>, using Chao 1, and Leal-Zanchet et al. 
+     <xref ref-type="bibr" rid="pone.0090513-LealZanchet1">
+      [15]
+     </xref>, using Chao 2, obtained 60% of the species inventory for different land planarian assemblages. Considering that RVSU is part of the largest corridor of continuous preserved rainforest, it would be expected that this area would have higher species richness than CAMB. However, we found similar richness in both reserves, but according to Chao 2, which is unbiased for small samples 
+     <xref ref-type="bibr" rid="pone.0090513-Colwell3">
+      [38]
+     </xref>, 16 species were not recorded in RVSU and only three species were not recorded in CAMB.</p> 
+    <p>Studying different land planarian assemblages, Antunes et al. 
+     <xref ref-type="bibr" rid="pone.0090513-Antunes1">
+      [16]
+     </xref> recorded a similarity of ∼10% in species composition among two peri-urban forest areas, distant each other by about 60 kilometers. Baptista et al. 
+     <xref ref-type="bibr" rid="pone.0090513-Baptista2">
+      [40]
+     </xref> recorded 30% of similarity between two land planarian assemblages separated by over 260 kilometers in southern Brazil. Compared to these results, the similarity estimated between RVSU and CAMB (∼60%) is rather high. This similarity can be a consequence of a short distance between reserves, and due to the fact that RVSU is located on the eastern limit of the Paranaense Forest, very close to the Moist Forest of 
+     <italic>
+      Araucaria
+     </italic>, which would allow the sharing of species.</p> 
+    <p>The cumulative rainfall, but not the temperature, affected the abundance and richness of flatworms. It is probable that the high moisture available everywhere makes unnecessary for land planarians to retreat to refuges (e.g. under fallen logs, leaf litter, and stones) 
+     <xref ref-type="bibr" rid="pone.0090513-Froehlich1">
+      [41]
+     </xref>. Most individuals in both reserves were collected during nocturnal samplings. Although the behavior of land planarians is still poorly understood, our findings may indicate an increased activity of planarians during the night and after rainfalls, which would explain the high abundance and richness recorded under such conditions. In other studies, in which the samplings were carried out only during the day, no relationship was observed between abundance and richness of land planarians with environmental conditions 
+     <xref ref-type="bibr" rid="pone.0090513-LealZanchet1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Antunes2">
+      [42]
+     </xref>.</p> 
+    <p>The pattern of species abundances observed in both reserves, in which a few species are very abundant (
+     <italic>
+      Geoplana
+     </italic> sp. 1 and 
+     <italic>
+      Pasipha hauseri
+     </italic>), others are moderately represented, and many are rare species, seems to be common for land planarian assemblages, in agreement with that previously reported 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Baptista1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Fick1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Castro1">
+      [43]
+     </xref>. The high abundance of 
+     <italic>
+      Geoplana
+     </italic> sp. 1 and 
+     <italic>
+      P. hauseri
+     </italic> in all sites surveyed can be due to the fact that these species are generalists, with the ability to colonize undisturbed habitats and habitats with different disturbance degrees, being more tolerant or with better capacity to thrive in environments under different conditions. Moreover, we found these species in pine plantations and gardens in small towns close to the reserves. Similarly, other geoplanid species, such as 
+     <italic>
+      Choeradoplana iheringi
+     </italic> Graff, 1899, 
+     <italic>
+      Obama ladislavii
+     </italic> (Graff, 1899) and 
+     <italic>
+      Paraba franciscana
+     </italic> (Leal-Zanchet &amp; Carbayo, 2001), which are the most abundant flatworms recorded in different assemblages of southern Brazil 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Fick1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo3">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Baptista3">
+      [44]
+     </xref>, have been also found in preserved and man-disturbed areas, even close to human settlements, such as small gardens in cities and dump deposits 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Baptista3">
+      [44]
+     </xref>.</p> 
+    <p>The abundance and richness of flatworms were related to the conservation condition of the sites. The lower abundance and richness in the disturbed sites (B2 and B4), is probably a consequence of the human intervention in these areas. Carbayo et al. 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref> also found lower abundance of land planarians in areas reforested with 
+     <italic>
+      Pinus
+     </italic> sp. than in native forests. Baptista and Leal-Zanchet 
+     <xref ref-type="bibr" rid="pone.0090513-Baptista1">
+      [17]
+     </xref> recorded lower abundance of flatworms in forests under some kind of anthropogenic influence. Furthermore, the composition of assemblages of planarians of the undisturbed sites of CAMB (B1 and B3) was similar to that of the conserved sites of RVSU (U1–U4). These six sites possibly provide greater availability of microhabitats to be colonized by land planarians 
+     <xref ref-type="bibr" rid="pone.0090513-Antunes2">
+      [42]
+     </xref>. In sites B2 and B4, the factors that would limit the presence of land planarians are the low complexity of the forest, the low availability of refuges in the soil, and the high incidence of sunlight on the soil owing to the absence of forest strata and subsequent moisture loss and compaction of the soil 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Carbayo3">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0090513-Fonseca1">
+      [45]
+     </xref>.</p> 
+    <p>The beta diversity between sites was higher than expected, indicating that the species turnover between sites contributed more to the total richness (gamma diversity) than the alpha diversity. The high beta diversity evidences that the sampling sites share few species 
+     <xref ref-type="bibr" rid="pone.0090513-Moreno2">
+      [46]
+     </xref>, probably as a consequence of the particular characteristics of each site of RVSU and CAMB, which harbor different species of land planarians and restrict many of them to certain areas.</p> 
+    <p>Our results suggest that land planarian assemblages are sensitive to the conservation degree of the rainforest. Our study also evidence that not only continuous areas with native forest (e.g., RVSU) but also fragmented landscapes in which the original rainforest is conserved as patches (e.g., B1 and B3 in CAMB) may harbor similar levels of land planarian diversity. Considering the high levels of beta diversity between sites and the low vagility of land flatworms, we suggest that conservation policies should promote the connectivity between fragmented areas.</p> 
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We thank Fundación Vida Silvestre Argentina and Ministerio de Ecología, Recursos Naturales Renovables de Misiones (Misiones, Argentina) for permission to perform surveys at Reserva de Vida Silvestre Urugua-í. We also thank the park rangers Ariel Tombo, Laura Aréjola and Marcelo Rivero for their support during the fieldwork. We are thankful to Administración de Parques Nacionales (APN) and Instituto de Tecnología Agropecuaria (INTA) from San Antonio (Misiones, Argentina) for permission to conduct sampling at the Campo Anexo M. Belgrano. Our gratitude is also due to the park rangers from APN, Luciano Giménez, Jorge Mackoviak and Sandra Muñoz, for their important collaboration in the surveys.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0090513-Sluys1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sluys
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Global diversity of land planarians (Platyhelminthes, Tricladida, Terricola): a new indicator-taxon in biodiversity and conservation studies
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        1663
+       </fpage>–
+       <lpage>
+        1681
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Kawaguti1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kawaguti
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        1932
+       </year>) 
+       <article-title>
+        On the physiology of land planarians
+       </article-title>. 
+       <source>Mem Fac Sci Agr Taihoku Imp Univ 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        15
+       </fpage>–
+       <lpage>
+        55
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Sluys2">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sluys
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Land planarians (Platyhelminthes, Tricladida, Terricola) in bio-diversity and conservation studies
+       </article-title>. 
+       <source>Pedobiologia 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        490
+       </fpage>–
+       <lpage>
+        494
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Estes1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Estes
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Terborgh
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brashares
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Power
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berger
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Trophic downgrading of planet Earth
+       </article-title>. 
+       <source>Science 
+       <volume>
+        333
+       </volume>: 
+       <fpage>
+        301
+       </fpage>–
+       <lpage>
+        306
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Carbayo1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carbayo
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vieira
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Terrestrial flatworm (Platyhelminthes: Tricladida: Terricola) diversity versus man-induced disturbance in an ombrophilous forest in southern Brazil
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        1091
+       </fpage>–
+       <lpage>
+        1104
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Ogren1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ogren
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Predation behaviour of land planarians
+       </article-title>. 
+       <source>Hydrobiologia 
+       <volume>
+        305
+       </volume>: 
+       <fpage>
+        105
+       </fpage>–
+       <lpage>
+        111
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Prasniski1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Prasniski
+        </surname>
+        <given-names>
+         MET
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Predatory behaviour of the land flatworm 
+        <italic>
+         Notogynaphallia abundans
+        </italic> (Platyhelminthes: Tricladida)
+       </article-title>. 
+       <source>Zoologia 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        606
+       </fpage>–
+       <lpage>
+        612
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Terrace1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Terrace
+        </surname>
+        <given-names>
+         TE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baker
+        </surname>
+        <given-names>
+         GH
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        The blue land planarian, 
+        <italic>
+         Caenoplana coerulea
+        </italic> Moseley (Tricladida: Geoplanidae), a predator of 
+        <italic>
+         Ommatoiulus moreleti
+        </italic> (Lucas) (Diplopoda: Julidae) in Southern Australia
+       </article-title>. 
+       <source>Aust J Entomol 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        371
+       </fpage>–
+       <lpage>
+        372
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Terrace2">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Terrace
+        </surname>
+        <given-names>
+         TE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baker
+        </surname>
+        <given-names>
+         GH
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Predation of earthworms by the land planarian, 
+        <italic>
+         Australoplana sanguinea
+        </italic> (Moseley) var. 
+        <italic>
+         alba
+        </italic> (Dendy) sensu Jones, 1981 (Tricladida: Geoplanidae)
+       </article-title>. 
+       <source>Tran R Soc S Aust 
+       <volume>
+        120
+       </volume>: 
+       <fpage>
+        177
+       </fpage>–
+       <lpage>
+        178
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Winsor1">
+      <label>10</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Winsor L, Johns PM, Barker GM (2004) Terrestrial planarians (Platyhelminthes: Tricladida: Terricola) predaceous on terrestrial gastropods. In: Barker GM, editor. Natural enemies of terrestrial molluscs. Wallingford: CAB International.pp. 227–277.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Carbayo2">
+      <label>11</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Carbayo F, Froehlich EM, Leal-Zanchet AM, Amato SB (2009) Turbelários (Platyhelminthes). In: Moreira da Rocha R, Pereira Boeger WA, editors. Estado da arte e perspectivas para a Zoologia no Brasil. Paraná: Editora da Universidade Federal do Paraná. pp. 49–64.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Myers1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Myers
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         da Fonseca
+        </surname>
+        <given-names>
+         GAB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kent
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Biodiversity hotspots for conservation priorities
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        403
+       </volume>: 
+       <fpage>
+        853
+       </fpage>–
+       <lpage>
+        858
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-GalindoLeal1">
+      <label>13</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Galindo-Leal C, Câmara IG (2003) The Atlantic Forest of South America: biodiversity status, threats, and outlook. Washington DC: Center for Applied Biodiversity Science and Island Press. 489 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Ribeiro1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ponzoni
+        </surname>
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hirota
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The Brazilian Atlantic Forest: How much is left, and how is the remaining forest distributed? Implications for conservation
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        1141
+       </fpage>–
+       <lpage>
+        1153
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-LealZanchet1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baptista
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Miranda Campos
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fraga Raffo
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Spatial and temporal patterns of land flatworm assemblages in Brazilian Araucaria forests
+       </article-title>. 
+       <source>Invertebr Biol 
+       <volume>
+        130
+       </volume>: 
+       <fpage>
+        25
+       </fpage>–
+       <lpage>
+        33
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Antunes1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Antunes
+        </surname>
+        <given-names>
+         MB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marques
+        </surname>
+        <given-names>
+         DIL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Composição das comunidades de planárias terrestres (Platyhelminthes, Tricladida, Terricola) em duas áreas de floresta estacional semidecidual do sul do Brasil
+       </article-title>. 
+       <source>Neotrop Biol Conserv 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        34
+       </fpage>–
+       <lpage>
+        38
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Baptista1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baptista
+        </surname>
+        <given-names>
+         VA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Land flatworm community structure in a subtropical deciduous forest in Southern Brazil
+       </article-title>. 
+       <source>Belg J Zool 
+       <volume>
+        140
+       </volume>: 
+       <fpage>
+        83
+       </fpage>–
+       <lpage>
+        90
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Fick1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fick
+        </surname>
+        <given-names>
+         IA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vieira
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Community structure of land flatworms (Platyhelminthes, Terricola): comparisons between Araucaria and Atlantic forest in Southern Brazil
+       </article-title>. 
+       <source>Invertebr Biol 
+       <volume>
+        125
+       </volume>: 
+       <fpage>
+        306
+       </fpage>–
+       <lpage>
+        313
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Carbayo3">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carbayo
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vieira
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Land planarians (Platyhelminthes, Tricladida, Terricola) as indicators of man-induced disturbance in a South Brazilian rainforest
+       </article-title>. 
+       <source>Belg J Zool 
+       <volume>
+        131
+       </volume>: 
+       <fpage>
+        223
+       </fpage>–
+       <lpage>
+        224
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Negrete1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Negrete
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brusa
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        <italic>
+         Choeradoplana crassiphalla
+        </italic> sp. nov. (Platyhelminthes: Tricladida: Geoplanidae): a new species of land planarian from the Atlantic Forest of Argentina
+       </article-title>. 
+       <source>Stud Neotrop Fauna Environ 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        237
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Negrete2">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Negrete
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brusa
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        A new species of 
+        <italic>
+         Supramontana
+        </italic> Carbayo &amp; Leal-Zanchet (Platyhelminthes, Continenticola, Geoplanidae) from the Interior Atlantic Forest
+       </article-title>. 
+       <source>Zootaxa 
+       <volume>
+        3753
+       </volume>: 
+       <fpage>
+        177
+       </fpage>–
+       <lpage>
+        186
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Morrone1">
+      <label>22</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Morrone JJ (2001) Biogeografía de América Latina y el Caribe. Zaragosa: M&amp;T Manuales y Tesis SEA. 148 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-DiBitetti1">
+      <label>23</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Di Bitetti MS, Placci G, Dietz LA (2003) Una visión de biodiversidad para la Ecorregión del Bosque Atlántico del Alto Paraná: diseño de un paisaje para la conservación de la biodiversidad y prioridades para las acciones de conservación. Washington DC: World Wildlife Fund. 154 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Giraudo1">
+      <label>24</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Giraudo AR, Povedano H, Belgrano MJ, Krauczuk E, Pardiñas U, 
+       <etal>
+        et al
+       </etal>.. (2003) Biodiversity Status of the Interior Atlantic Forest of Argentina. In: Galindo-Leal C, Câmara IG, editors. The Atlantic Forest of South America: biodiversity status, threats, and outlook. Washington DC: Center for Applied Biodiversity Science e Island Press. pp. 160–180.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Romeis1">
+      <label>25</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Romeis B (1989) Mikroskopische Technik. München: Urban und Schwarzenberg. 697 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Magurran1">
+      <label>26</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Magurran AE (2004) Measuring biological diversity. Oxford: Blackwell Science Ltd. 256 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Colwell1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mao
+        </surname>
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Interpolating, extrapolating, and comparing incidence-based species accumulation curves
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        2717
+       </fpage>–
+       <lpage>
+        2727
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Gotelli1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gotelli
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Quantifying biodiversity: Procedures and pitfalls in the measurement and comparison of species richness
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        379
+       </fpage>–
+       <lpage>
+        391
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Chao1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chao
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hwang
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kuo
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Estimating the number of shared species in two communities
+       </article-title>. 
+       <source>Stat Sin 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        246
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Colwell2">
+      <label>30</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Colwell RK (2013) EstimateS: Statistical Estimation of species richness and shared species from samples. Version 9.0. Available at: 
+       <ext-link ext-link-type="uri" xlink:href="http://purl.oclc.org/estimates" xlink:type="simple">
+        http://purl.oclc.org/estimates
+       </ext-link> (accessed 2013 Nov 28).
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Chao2">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chao
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chazdon
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shen
+        </surname>
+        <given-names>
+         T-J
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        A new statistical approach for assessing similarity of species composition with incidence and abundance data
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        148
+       </fpage>–
+       <lpage>
+        159
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Feinsinger1">
+      <label>32</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Feinsinger P (2001) Designing field studies for biodiversity conservation. Washington DC: Island Press. 212 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Jost1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jost
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Entropy and diversity
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        363
+       </fpage>–
+       <lpage>
+        375
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Jost2">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jost
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Partitioning diversity into independent alpha and beta components
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        2427
+       </fpage>–
+       <lpage>
+        2439
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Pfeiffer1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pfeiffer
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mezger
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Biodiversity assessment in incomplete inventories: leaf litter ant communities in several types of bornean rain forest
+       </article-title>. 
+       <source>PloS ONE 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        9
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Moreno1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moreno
+        </surname>
+        <given-names>
+         CE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barragán
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pineda
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pavón
+        </surname>
+        <given-names>
+         NP
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Reanálisis de la diversidad alfa: alternativas para interpretar y comparar información sobre comunidades ecológicas
+       </article-title>. 
+       <source>Rev Mex Biodiv 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        1249
+       </fpage>–
+       <lpage>
+        1261
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Veech1">
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Veech JA, Crist TO (2009) Partition: software for hierarchical partitioning of species diversity, version 3.0. Available at: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.users.muohio.edu/cristto/partition.htm" xlink:type="simple">
+        http://www.users.muohio.edu/cristto/partition.htm
+       </ext-link> (accessed 2013 Nov 28).
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Colwell3">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coddington
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Estimating the extent of terrestrial biodiversity through extrapolation
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B Biol Sci 
+       <volume>
+        345
+       </volume>: 
+       <fpage>
+        101
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Colwell4">
+      <label>39</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Colwell RK, Coddington JA (1996) Estimating terrestrial biodiversity through extrapolation. In: Hawksworth DL, editor. Biodiversity.Measurement and estimation. London: Chapman &amp; Hall. pp. 101–118.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Baptista2">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baptista
+        </surname>
+        <given-names>
+         VA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oliveira
+        </surname>
+        <given-names>
+         SM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Inventário de planárias terrestres (Platyhelminthes, Tricladida) em remanescente de Floresta Estacional Decidual do Sul do Brasil
+       </article-title>. 
+       <source>Biota Neotrop 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        247
+       </fpage>–
+       <lpage>
+        252
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Froehlich1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Froehlich
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name> (
+       <year>
+        1955
+       </year>) 
+       <article-title>
+        On the biology of land planarians
+       </article-title>. 
+       <source>Bol Fac Fil Ciênc Letr Zoologia 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        263
+       </fpage>–
+       <lpage>
+        271
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Antunes2">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Antunes
+        </surname>
+        <given-names>
+         MB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fonseca
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Habitat structure, soil properties, and food availability do not predict terrestrial flatworms occurrence in Araucaria Forest sites
+       </article-title>. 
+       <source>Pedobiologia 
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        25
+       </fpage>–
+       <lpage>
+        31
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Castro1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Castro
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Composição de comunidades de planárias terrestres (Platyhelminthes) em áreas de floresta estacional e de campo na região central do Rio Grande do Sul, Brasil
+       </article-title>. 
+       <source>Acta Biol Leopold 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        147
+       </fpage>–
+       <lpage>
+        150
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Baptista3">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baptista
+        </surname>
+        <given-names>
+         VA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Matos
+        </surname>
+        <given-names>
+         LB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fick
+        </surname>
+        <given-names>
+         IA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal-Zanchet
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Composição das comunidades de planárias terrestres (Platyhelminthes, Tricladida, Terricola) do Parque Nacional dos Aparados da Serra, Brasil
+       </article-title>. 
+       <source>Iheringia Ser Zool 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        293
+       </fpage>–
+       <lpage>
+        297
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Fonseca1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fonseca
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ganade
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baldissera
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Becker
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boelter
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Towards an ecologically-sustainable forestry in the Atlantic Forest
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        1209
+       </fpage>–
+       <lpage>
+        1219
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0090513-Moreno2">
+      <label>46</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Moreno CE (2001) Métodos para medir la biodiversidad. Zaragosa: M&amp;T Manuales y Tesis SEA. 84 p.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

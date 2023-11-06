@@ -1,0 +1,4696 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-50704
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0095890
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Computational biology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystem modeling
+         </subject>
+         <subject>
+          Population modeling
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Community ecology
+         </subject>
+         <subject>
+          Ecosystems
+         </subject>
+         <subject>
+          Population ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Population biology
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Computer and information sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geoinformatics
+        </subject>
+        <subj-group>
+         <subject>
+          Environmental systems modeling
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geography
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Social sciences
+       </subject>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Which Models Are Appropriate for Six Subtropical Forests: Species-Area and Species-Abundance Models
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       SAR and SAD Models for Six Subtropical Forests
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname>
+        <given-names>
+         Shi Guang
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         Lin
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Zhen Cheng
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lian
+        </surname>
+        <given-names>
+         Ju Yu
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         Guo Jun
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         Zhong Liang
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         Zuo Yun
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Guilin University of Electronic Technology, GuiLin 541004, China
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       South China Botanical Garden, the Chinese Academy of Sciences, GuangZhou, 510650, China
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Changjiang Water Resources Protection Institute, WuHan, 430051, China
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Guangdong Forest Research Institute, GuangZhou, 510520, China
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ma
+        </surname>
+        <given-names>
+         Keping
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Institute of Botany, Chinese Academy of Sciences, China
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        lilinwsg@163.com
+       </email> (LL); 
+       <email xlink:type="simple">
+        huangzl@scbg.ac.cn
+       </email> (ZLH)
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: LL ZLH. Performed the experiments: JYL ZCC. Analyzed the data: SGW GJL. Wrote the paper: SGW ZYY.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       22
+      </day>
+      <month>
+       4
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e95890
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        2
+       </day>
+       <month>
+        12
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        1
+       </day>
+       <month>
+        4
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Wei et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>The species-area relationship is one of the most important topic in the study of species diversity, conservation biology and landscape ecology. The species-area relationship curves describe the increase of species number with increasing area, and have been modeled by various equations. In this paper, we used detailed data from six 1-ha subtropical forest communities to fit three species-area relationship models. The coefficient of determination and 
+       <italic>
+        F
+       </italic> ratio of ANOVA showed all the three models fitted well to the species-area relationship data in the subtropical communities, with the logarithm model performing better than the other two models. We also used the three species-abundance distributions, namely the lognormal, logcauchy and logseries model, to fit them to the species-abundance data of six communities. In this case, the logcauchy model had the better fit based on the coefficient of determination. Our research reveals that the rare species always exist in the six communities, corroborating the neutral theory of Hubbell. Furthermore, we explained why all species-abundance figures appeared to be left-side truncated. This was due to subtropical forests have high diversity, and their large species number includes many rare species.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       The authors thank the National Natural Science Foundation of China(NSFC grant no.31200412,31200326), and the Knowledge Innovation Project of the Chinese Academy of Sciences (KSCX2-EW-Z), the Project of Scientific Research and Technological Development of Guilin(20130105-8). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="9" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>The species-area relationship (SAR) is among the well known and most studied patterns in ecology 
+     <xref ref-type="bibr" rid="pone.0095890-Jaccard1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Jaccard2">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Pielou1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Rosenzweig1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Shen1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Wang1">
+      [6]
+     </xref>, and it is important to both our basic understanding of biodiversity and ability to conserve biodiversity 
+     <xref ref-type="bibr" rid="pone.0095890-Turner1">
+      [7]
+     </xref>. The SAR describes the increasing number of species (
+     <italic>
+      S
+     </italic>) as area (
+     <italic>
+      A
+     </italic>) increases; when plotted, the SAR is, in theory, a monotonically increasing curve whose slope is steep at first but gradually becomes nearly flat. In reality, SAR curves have a variety of shapes depending on different sampling strategies, biases, and community parameters. The SAR has been used to determine the minimal sampling size of a particular community 
+     <xref ref-type="bibr" rid="pone.0095890-Barkman1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Hopkins1">
+      [9]
+     </xref>, to estimate species richness 
+     <xref ref-type="bibr" rid="pone.0095890-Hubbell1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Palmer1">
+      [11]
+     </xref> or species extinction as a result of habitat loss and fragmentation 
+     <xref ref-type="bibr" rid="pone.0095890-Obeso1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Brooks1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Brooks2">
+      [14]
+     </xref> and to calculate the effective size of natural reserves for long-term conservation of biodiversity 
+     <xref ref-type="bibr" rid="pone.0095890-MacArthur1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Williamson1">
+      [16]
+     </xref>.</p> 
+    <p>The SAR has been explained by two ecological hypotheses: (1) the habitat heterogeneity hypothesis predicts that, as area increases, habitat heterogeneity increases, and the total number of species also increases; (2) the area 
+     <italic>
+      per se
+     </italic> or equilibrium hypothesis invokes colonization–extinction dynamics which postulates that, as area increases, relative rates of colonization increases while rates of extinction decreases, and therefore the total number of species increase with area 
+     <xref ref-type="bibr" rid="pone.0095890-Rosenzweig1">
+      [4]
+     </xref>. However, habitat heterogeneity and area are often closely interdependent, and therefore their relative influences are difficult to disentangle 
+     <xref ref-type="bibr" rid="pone.0095890-Kohn1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Kchy1">
+      [18]
+     </xref>. Equal sample sizes, such as sampling equally sized areas, should reduce effects of area, which, in turn, may be correlated with habitat heterogeneity 
+     <xref ref-type="bibr" rid="pone.0095890-Kelly1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Kchy1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Krauss1">
+      [20]
+     </xref>.</p> 
+    <p>Traditionally, the functional forms of the SAR have been modeled with convex-upward functions lacking an asymptote, such as the power 
+     <xref ref-type="bibr" rid="pone.0095890-Arrhenius1">
+      [21]
+     </xref>, exponential 
+     <xref ref-type="bibr" rid="pone.0095890-Gleason1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Gleason2">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Fisher1">
+      [24]
+     </xref>, logarithmic 
+     <xref ref-type="bibr" rid="pone.0095890-Gleason1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Gleason2">
+      [23]
+     </xref>, and logistic 
+     <xref ref-type="bibr" rid="pone.0095890-Archibald1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-He1">
+      [26]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-He2">
+      [27]
+     </xref> functions, as well as the random-placement model 
+     <xref ref-type="bibr" rid="pone.0095890-Plotkin1">
+      [28]
+     </xref>. More convex and asymptotic models as well as sigmoid models have also been used 
+     <xref ref-type="bibr" rid="pone.0095890-Walther1">
+      [29]
+     </xref>. Overall, it seems that the power model represents a reasonably good approximation of the SAR, and for intermediate spatial scales 
+     <xref ref-type="bibr" rid="pone.0095890-Arrhenius1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Rosenzweig1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Sizling1">
+      [30]
+     </xref>.</p> 
+    <p>Conventional reasoning behind the SAR is based on another fundamental ecological pattern, the species–abundance distribution (SAD), which describes how individuals are distributed among species 
+     <xref ref-type="bibr" rid="pone.0095890-Ovaskainen1">
+      [31]
+     </xref>. He and Legendre 
+     <xref ref-type="bibr" rid="pone.0095890-He2">
+      [27]
+     </xref>pointed out that area, species-abundance (SA), spatial distribution, and species richness have been central components of community ecology, and mathematically explore the interrelationships among these components. Among these, the SA pattern is so fundamental that Sugihara referred to it as “minimal community structure” 
+     <xref ref-type="bibr" rid="pone.0095890-Sugihara1">
+      [32]
+     </xref>.</p> 
+    <p>There are two main types of models that have been suggested to characterize the SA pattern in biological communities 
+     <xref ref-type="bibr" rid="pone.0095890-May1">
+      [33]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Plotkin2">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Yin1">
+      [35]
+     </xref>. One type is the rank-abundance curve 
+     <xref ref-type="bibr" rid="pone.0095890-Molles1">
+      [36]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Jackson1">
+      [37]
+     </xref>, or dominance-diversity curve 
+     <xref ref-type="bibr" rid="pone.0095890-Whittaker1">
+      [38]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Guo1">
+      [39]
+     </xref>, which is described mainly by the broken stick model or the random niche-boundary hypothesis of MacArthur and Wilson 
+     <xref ref-type="bibr" rid="pone.0095890-MacArthur1">
+      [15]
+     </xref> as well as the geometric series 
+     <xref ref-type="bibr" rid="pone.0095890-Whittaker2">
+      [40]
+     </xref>. The second type is the SA distribution, which has been commonly modeled by the logseries distribution 
+     <xref ref-type="bibr" rid="pone.0095890-Fisher1">
+      [24]
+     </xref> or the lognormal distribution 
+     <xref ref-type="bibr" rid="pone.0095890-Preston1">
+      [41]
+     </xref>. Fisher 
+     <italic>
+      et al.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0095890-Fisher1">
+      [24]
+     </xref>found the logseries distribution by assuming that the parameter 
+     <italic>
+      k
+     </italic> of the negative binomial distribution is close to zero; it was subsequently found that a great deal of data also fitted the logseries model 
+     <xref ref-type="bibr" rid="pone.0095890-Cohen1">
+      [42]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Kempton1">
+      [43]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Pielou1">
+      [3]
+     </xref>. The lognormal distribution has been derived through multiple routes, most recently from neutral community theory assuming identical species 
+     <xref ref-type="bibr" rid="pone.0095890-Bell1">
+      [44]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Hubbell2">
+      [45]
+     </xref>. The lognormal model is a more general model of SA patterns in natural communities 
+     <xref ref-type="bibr" rid="pone.0095890-Krebs1">
+      [46]
+     </xref> and can therefore be fitted to all data that also fit the logseries model well. Hubbell’s 
+     <xref ref-type="bibr" rid="pone.0095890-Hubbell2">
+      [45]
+     </xref> theory suggested that Fisher’s logseries describes the SAD of a metacomunity, while Preston’s lognormal model describes the SAD of a local community. Yin 
+     <italic>
+      et al.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0095890-Yin1">
+      [35]
+     </xref> tested two alternative models, the so-called logcauchy and log-sech models which have simpler functional forms than the commonly used lognormal model 
+     <xref ref-type="bibr" rid="pone.0095890-Stohlgren1">
+      [47]
+     </xref>; these two alternative models fitted the observed SADs better than the lognormal model.</p> 
+    <p>Tropical forests are generally considered to be ecological systems well suited for species-area and spatial-aggregation research 
+     <xref ref-type="bibr" rid="pone.0095890-Batista1">
+      [48]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095890-Plotkin1">
+      [28]
+     </xref>. Subtropical forests display a relatively high diversity of tree species, therefore providing suitable conditions for ecological analyses. Moreover, it is urgent to study their ecology, because the area of subtropical forests has recently been rapidly reduced while the survived forests have been degraded and fragmented 
+     <xref ref-type="bibr" rid="pone.0095890-Laurance1">
+      [49]
+     </xref>. Studying trees has the obvious advantage, because their sedentary life history makes them relatively easy to relocate, and most them can also be identified because their taxonomy is rather well-resolved.</p> 
+    <p>Based on a detailed data set from six subtropical forests, in this study we intend (1) to examine the validity of the random-placement, power law and logarithm model for subtropical forests, to fit the corresponding SAR relationships and then compare their fitted results to find the appropriate model to express the SAR of subtropical forests; (2) to focus on the second type of SAD models, i.e., to fit the lognormal, logseries and logcauchy distributions, and to find the suitable SAD models for subtropical forests; and (3) to compare species richness among different communities, and based on SAR models to explain ecological changing processes of the subtropical forests based on fitted SAR models. We also discuss the influence of different sampling sizes and sampling methods on model fitting. This study thus contributes to our understanding of SAR and SAD in subtropical forests.</p> 
+   </sec>
+   <sec id="s2" sec-type="methods"> 
+    <title>Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>No specific permits were required for the described field studies. Our study site (six 1-ha plots in the subtropical forests of southern China) is owned by the Chinese government and managed by South China Botanical Garden, Chinese Academy of Sciences. We can do our research works freely in these plots under the Regulations of the People’s Republic of China on Nature Reserves. Our field studies did not involve endangered or protected species.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Sampling Tree Communities</title> 
+     <p>For this study, we censused trees in six 1-ha plots in the subtropical forests of southern China (
+      <xref ref-type="table" rid="pone-0095890-t001">
+       Table 1
+      </xref>). In each community, each woody stem ≥1 cm diameter at breast height (DBH) was identified to species. Community A was sampled within the Maoershan National Nature Reserve (110°30′E, 25°56′N), which belongs to the monsoon evergreen broad-leaved forest. Community B was sampled within Nanling Nature Reserve (112°56′–113°4′E, 24°30′–24°48′N), which belongs to broad-leaved forest. Communities C and D were sampled within the Dinghushan Biosphere Reserve (112°30′39″–112°33′41″E,23°09′21″–23°11′30″ N), which contains monsoon evergreen broad-leaved, needle and broad-leaved mixed forests. Communities E and F were sampled within the Jinggangshan Nature Reserve (114°05′–114°23′E,26°22′–26°48′ N), which contains broad-leaved, needle and broad-leaved mixed forests.</p> 
+     <table-wrap id="pone-0095890-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>A list of the six 1-ha communities of subtropical forest (see Methods for details), listing tree density measured as stem density and tree diversity measured as observed and estimated species richness for each community.</title> 
+      <alternatives>
+       <graphic id="pone-0095890-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Community</td> 
+          <td align="left" rowspan="1" colspan="1">Plot name</td> 
+          <td align="left" rowspan="1" colspan="1">Forest type</td> 
+          <td align="left" rowspan="1" colspan="1">Stemdensity</td> 
+          <td align="left" rowspan="1" colspan="1">Observed speciesrichness</td> 
+          <td align="left" rowspan="1" colspan="1">Estimated speciesrichness</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">Maoershan</td> 
+          <td align="left" rowspan="1" colspan="1">Monsoon evergreen broad-leaved forest</td> 
+          <td align="left" rowspan="1" colspan="1">2894</td> 
+          <td align="left" rowspan="1" colspan="1">89</td> 
+          <td align="left" rowspan="1" colspan="1">93.6</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">Nanling</td> 
+          <td align="left" rowspan="1" colspan="1">Broad-leaved forest</td> 
+          <td align="left" rowspan="1" colspan="1">3326</td> 
+          <td align="left" rowspan="1" colspan="1">165</td> 
+          <td align="left" rowspan="1" colspan="1">229.7</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">Dinghushan plot 1</td> 
+          <td align="left" rowspan="1" colspan="1">Monsoon evergreen broad-leaved forest</td> 
+          <td align="left" rowspan="1" colspan="1">3609</td> 
+          <td align="left" rowspan="1" colspan="1">95</td> 
+          <td align="left" rowspan="1" colspan="1">139.7</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">Dinghushan plot 2</td> 
+          <td align="left" rowspan="1" colspan="1">Needle and broad-leaved mixed forest</td> 
+          <td align="left" rowspan="1" colspan="1">4003</td> 
+          <td align="left" rowspan="1" colspan="1">63</td> 
+          <td align="left" rowspan="1" colspan="1">99.1</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">Jinggangshan plot 1</td> 
+          <td align="left" rowspan="1" colspan="1">Broad-leaved forest</td> 
+          <td align="left" rowspan="1" colspan="1">3950</td> 
+          <td align="left" rowspan="1" colspan="1">117</td> 
+          <td align="left" rowspan="1" colspan="1">160.7</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">Jinggangshan plot 2</td> 
+          <td align="left" rowspan="1" colspan="1">Needle and broad-leaved mixed forest</td> 
+          <td align="left" rowspan="1" colspan="1">2440</td> 
+          <td align="left" rowspan="1" colspan="1">95</td> 
+          <td align="left" rowspan="1" colspan="1">121.8</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>Estimated species richness was calculated by randomized sampling order of each sample using the software 
+         <italic>
+          EstimateS
+         </italic> (see Methods for details). We assume that the estimated species richness is close to the total, or true, species richness 
+         <xref ref-type="bibr" rid="pone.0095890-Walther1">
+          [29]
+         </xref>.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s2c"> 
+     <title>SAR Models</title> 
+     <p>The empirical study of SAR dates back to H. C. Watson, who presented the first known species-area curve for Great Britain’s vascular plants in 1859 
+      <xref ref-type="bibr" rid="pone.0095890-Williams1">
+       [50]
+      </xref>. Watson found a linear relationship between the logarithm of the number of species present and the logarithm of the area sampled, over areas ranging from a square mile to all of Great Britain. This is the most common pattern found on regional scales within relative homogeneous landscapes 
+      <xref ref-type="bibr" rid="pone.0095890-Gleason1">
+       [22]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Rosenzweig1">
+       [4]
+      </xref>. The relationship is given by the so-called 
+      <italic>
+       power
+      </italic> function:
+      <disp-formula id="pone.0095890.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e001" xlink:type="simple" />
+       <label>(1)</label>
+      </disp-formula>where 
+      <italic>
+       S
+      </italic> is the total number of species encountered in the geographical area 
+      <italic>
+       A
+      </italic>, 
+      <italic>
+       c
+      </italic> is the parameter characterizing the specific biogeographical region and 
+      <italic>
+       z
+      </italic> is the parameter which is specific to the sampled community.</p> 
+     <p>The second SAR model is the 
+      <italic>
+       logarithm
+      </italic> model, which is transformed from the model mentioned by Buys 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0095890-Buys1">
+       [51]
+      </xref>. Liu 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0095890-Liu1">
+       [52]
+      </xref> used the data of five plots located in the temperate zone to fit ten species-area models and showed that the following logarithm model provided excellent fits:
+      <disp-formula id="pone.0095890.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e002" xlink:type="simple" />
+       <label>(2)</label>
+      </disp-formula>where 
+      <italic>
+       S
+      </italic> (
+      <italic>
+       A
+      </italic>) is the total number of species encountered in the geographical area 
+      <italic>
+       A
+      </italic>, 
+      <italic>
+       a
+      </italic> is the species number in the area unit, 
+      <italic>
+       b
+      </italic> is a parameter independent from area, which is considered a measure of spatial heterogeneity and 
+      <italic>
+       c
+      </italic> is a fitted constant.</p> 
+     <p>The third model is Coleman’s “zeroth-order”, 
+      <italic>
+       random-placement
+      </italic> theory of species-area curves. The random-placement model is suite for natural random distribution that is underlying processes. It describes the slow-rapid-slow accumulation of new species in a region. In other words, it is of the logistic type 
+      <xref ref-type="bibr" rid="pone.0095890-Coleman1">
+       [53]
+      </xref>. Consider a region of total area 
+      <italic>
+       A
+      </italic><sub>0</sub> within which individuals of various species are located. Assume that there are 
+      <italic>
+       N
+      </italic> species in the area 
+      <italic>
+       A
+      </italic><sub>0</sub>, and that the 
+      <italic>
+       i
+      </italic>-th species is represented by 
+      <italic>
+       n
+       <sub>i</sub>
+      </italic> individuals. Consider any sub-region of area 
+      <italic>
+       A
+      </italic>&lt;
+      <italic>
+       A
+       <sub>0</sub>
+      </italic>. Under the assumption of independent, random placement of individuals, the probability that a given member of the 
+      <italic>
+       i
+      </italic>-th species does not reside in a sub-region of size 
+      <italic>
+       A
+      </italic> is simply (1-
+      <italic>
+       A
+      </italic>/
+      <italic>
+       A
+       <sub>0</sub>
+      </italic>). Similarly, the probability that all members of species 
+      <italic>
+       i
+      </italic> lie outside of 
+      <italic>
+       A
+      </italic> is given by
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0095890.e003" xlink:type="simple" />
+      </inline-formula>. Thus, the probability that at least one member of the 
+      <italic>
+       i
+      </italic>-th species resides in the sub-region 
+      <italic>
+       A
+      </italic> is 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0095890.e004" xlink:type="simple" />
+      </inline-formula> which, in turn, yields an expression for the mean number of species in 
+      <italic>
+       A
+      </italic>, denoted 
+      <italic>
+       S
+      </italic>(
+      <italic>
+       A
+      </italic>) 
+      <xref ref-type="bibr" rid="pone.0095890-Coleman1">
+       [53]
+      </xref>:
+      <disp-formula id="pone.0095890.e005">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e005" xlink:type="simple" />
+       <label>(3)</label>
+      </disp-formula></p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>SAD Models</title> 
+     <p>Preston 
+      <xref ref-type="bibr" rid="pone.0095890-Preston1">
+       [41]
+      </xref> adopted the 
+      <italic>
+       lognormal
+      </italic> model to describe a biological community with few dominant and rare species, but with numerous medium-abundant species. His model is:
+      <disp-formula id="pone.0095890.e006">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e006" xlink:type="simple" />
+       <label>(4)</label>
+      </disp-formula>where 
+      <italic>
+       S
+      </italic>(
+      <italic>
+       R
+      </italic>) is the species number of the 
+      <italic>
+       R
+      </italic>th octaves; 
+      <italic>
+       R
+      </italic><sub>m</sub> the modal (peak) octave; 
+      <italic>
+       S
+      </italic><sub>m</sub> the number of species in the 
+      <italic>
+       R
+      </italic><sub>m</sub>th octave (or “height” of the distribution curve) while 
+      <italic>
+       a
+      </italic> is a constant describing the amount of spread of the distribution 
+      <xref ref-type="bibr" rid="pone.0095890-Preston1">
+       [41]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Preston2">
+       [54]
+      </xref>. In order to fit the field data to the lognormal distribution, we adopted the linear regression model 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0095890.e007" xlink:type="simple" />
+      </inline-formula> to calculate the parameters.</p> 
+     <p>The second SAD model is the 
+      <italic>
+       Logcauchy
+      </italic> distribution model 
+      <xref ref-type="bibr" rid="pone.0095890-Yin1">
+       [35]
+      </xref>:
+      <disp-formula id="pone.0095890.e008">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e008" xlink:type="simple" />
+       <label>(5)</label>
+      </disp-formula></p> 
+     <p>The means of parameters are the same as in the lognormal model.</p> 
+     <p>The third SAD model is the 
+      <italic>
+       logseries
+      </italic> model. Fisher 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0095890-Fisher1">
+       [24]
+      </xref> first used the logseries model to fit the SAD of Malayan butterflies and Lepidoptera. It is one of the two well known SAD models (the other one being the lognormal model). The number of species with 
+      <italic>
+       n
+      </italic> individuals in a community is:
+      <disp-formula id="pone.0095890.e009">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e009" xlink:type="simple" />
+       <label>(6)</label>
+      </disp-formula>where 
+      <italic>
+       a
+      </italic> and 
+      <italic>
+       x
+      </italic> are two parameters, 
+      <italic>
+       a
+      </italic>&gt;0 and 0&lt;
+      <italic>
+       x
+      </italic>&lt;1 (in most cases 
+      <italic>
+       x
+      </italic>&gt;0.9). However, these two parameters are not independent. The parameter 
+      <italic>
+       a
+      </italic> is called Fisher’s 
+      <italic>
+       α
+      </italic> diversity index. It was widely used in 1960’s and 1970’s as a diversity index and has found renewed interest through the recently developed neutral theory of biodiversity 
+      <xref ref-type="bibr" rid="pone.0095890-Hubbell2">
+       [45]
+      </xref>. In Hubbell’s theory, 
+      <italic>
+       a
+      </italic> is a fundamental biodiversity parameter. He and Hu 
+      <xref ref-type="bibr" rid="pone.0095890-He3">
+       [55]
+      </xref> further showed that Hubbell’s fundamental biodiversity parameter is a function of Simpson’s diversity.</p> 
+    </sec>
+    <sec id="s2e"> 
+     <title>Data Analysis</title> 
+     <p>When we calculated the SADs, we adopted the octave method to divide groups of 
+      <italic>
+       R
+      </italic> values. We let each octave’s midpoint to be equal to twice that of the preceding octave’s midpoint. That is 
+      <italic>
+       R
+      </italic> = 2
+      <italic>
+       <sup>x</sup>
+      </italic> (
+      <italic>
+       x
+      </italic> = 0, 1, 2, …),e.g., 1, 2, 4, 8, …. In this way, the midpoint of each group is 1.5, 3, 6, …. If the individual number of a species is found on the edge of both group’s octaves, that is to say it has 2
+      <italic>
+       <sup>x</sup>
+      </italic> individual, then we included it in the(2
+      <italic>
+       <sup>x</sup>
+      </italic><sup>-1</sup>, 2
+      <italic>
+       <sup>x</sup>
+      </italic>)octave, otherwise in the (2
+      <italic>
+       <sup>x</sup>
+      </italic>, 2
+      <italic>
+       <sup>x</sup>
+      </italic><sup>+1</sup>) octave. This method is equal to calculating the logarithm of the individual number of each species using the base 2.</p> 
+     <p>The total (or true) species richness of each community was calculated using the software 
+      <italic>
+       EstimateS
+      </italic> 8.2 
+      <xref ref-type="bibr" rid="pone.0095890-Colwell1">
+       [56]
+      </xref>. Based on the research done by Walther and Moore 
+      <xref ref-type="bibr" rid="pone.0095890-Walther1">
+       [29]
+      </xref>, Wei 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0095890-Wei1">
+       [57]
+      </xref> found that, for areas below 7 ha, the least biased estimator is the second-order jackknife estimator (
+      <italic>
+       Jack2
+      </italic>). Using the default settings of 
+      <italic>
+       EstimateS
+      </italic> to calculate Jack2, which are 50 randomized runs to estimate species richness, i.e. using 50 different, randomly chosen sampling orders to calculate the estimate of total species richness.</p> 
+     <p>Curve fitting and significance tests were performed in the R2.3.1 platform downloaded from the R Foundation for Statistical Computing, Vienna, Austria (ISBN 3-900051-07-0, 
+      <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org" xlink:type="simple">
+       http://www.R-project.org
+      </ext-link>). The Levenberg-Marquardt least squares nonlinear regression was used to fit the power, logarithm, lognormal, logseries and logcauchy models. The 
+      <italic>
+       F
+      </italic> ratio of ANOVA was used as the best-fit criterion of the SAR models. The better model is the one with the lowest 
+      <italic>
+       P
+      </italic>-value (i.e., probability under the null hypothesis) 
+      <xref ref-type="bibr" rid="pone.0095890-He1">
+       [26]
+      </xref>.</p> 
+     <p>we also computed the adjusted coefficient of determination (
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>) for the goodness-of-fit of SAR and SAD models, the larger 
+      <italic>
+       R
+       <sub>a</sub>
+      </italic><sup>2</sup> was, the better the fitted model was 
+      <xref ref-type="bibr" rid="pone.0095890-Boecklen1">
+       [58]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Loehle1">
+       [59]
+      </xref>. This coefficient was calculated as:
+      <disp-formula id="pone.0095890.e010">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0095890.e010" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       RSS
+      </italic> is the residual sum of squares, 
+      <italic>
+       TSS
+      </italic> is the total sum of squares, 
+      <italic>
+       N
+       <sub>S</sub>
+      </italic> is the number of sampling intensities, and 
+      <italic>
+       k
+      </italic> is the number of parameters in a model. This coefficient is more suitable than the usual coefficient of determination 
+      <italic>
+       R
+       <sup>2</sup>
+      </italic> in that it takes into account the respective numbers of degrees of freedom of the numerator and denominator 
+      <xref ref-type="bibr" rid="pone.0095890-He4">
+       [60]
+      </xref>.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Tree Density and Diversity</title> 
+     <p>Measures of tree density and diversity per hectare varied widely between the six communities (
+      <xref ref-type="table" rid="pone-0095890-t001">
+       Table 1
+      </xref>), ranging from 2440 to 4003 stems (mean ± S.E. = 3370.3±250.8), 63 to 165 observed species (mean ± S.E. = 104.0±14.1), and 93.6 to 229.7 estimated species (mean ± S.E. = 140.8±20.5).</p> 
+     <p>Observed and estimated species richness resulted in broadly similar rankings of the six communities which is reflected in these two diversity measures being significantly correlated (Spearman rank correlation, 
+      <italic>
+       n = 
+      </italic>6, 
+      <italic>
+       Z
+      </italic>-value = 2.08, 
+      <italic>
+       P
+      </italic>-value = 0.04). However, there were interesting exceptions: first, communities C and F were tied in observed species richness, but community C had a much higher estimated species richness than community F and, second, community A had a higher observed species richness but lower estimated species richness than community D. These inconsistencies and the fact that the estimated values are significantly higher than the observed values (One-sample sign test, 
+      <italic>
+       n
+      </italic> = 6, 
+      <italic>
+       P
+      </italic>-value = 0.03) further support the view that observed species richness is a negatively biased measure of total species richness (see Discussion). Therefore, we do not consider observed species richness from hereupon.</p> 
+     <p>Ranking of communities by estimated species richness was not associated with forest type, with the ranking from lowest to highest estimated species richness being: monsoon evergreen broad-leaved forest, needle and broad-leaved mixed forest, needle and broad-leaved mixed forest, monsoon evergreen broad-leaved forest, broad-leaved forest and broad-leaved forest. Given this particular sequence and the same sample size, no trend can possibly be discerned between forest types.</p> 
+     <p>Likewise, ranking of communities by number of stems per ha was not associated with forest type, with the ranking from lowest to highest tree density being: needle and broad-leaved mixed forest, monsoon evergreen broad-leaved forest, monsoon evergreen broad-leaved forest, monsoon evergreen broad-leaved forest, broad-leaved forest and needle and broad-leaved mixed forest. Given this particular sequence and the same sample size, no trend can possibly be discerned between forest types.</p> 
+     <p>Finally, there was no correlation between number of stems and estimated species richness (Spearman rank correlation, 
+      <italic>
+       n
+      </italic> = 6, 
+      <italic>
+       Z
+      </italic>-value = 0.32, 
+      <italic>
+       P
+      </italic>-value = 0.75).</p> 
+    </sec>
+    <sec id="s3b"> 
+     <title>Species-area Relationships</title> 
+     <p>Using the 
+      <italic>
+       F
+      </italic>-test, each of the three SAR models fitted highly significantly with the observed numbers by randomized sampling as well as sequential sampling (
+      <xref ref-type="table" rid="pone-0095890-t002">
+       Tables 2
+      </xref> and 
+      <xref ref-type="table" rid="pone-0095890-t003">
+       3
+      </xref>, respectively). This good fit can also be observed graphically for each of the plotted species-area relationships (
+      <xref ref-type="fig" rid="pone-0095890-g001">
+       Fig. 1
+      </xref>).</p> 
+     <fig id="pone-0095890-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Species-area relationships in six subtropical forest communities (see &lt;xref ref-type="table" rid="pone-0095890-t001"&gt;Table 1&lt;/xref&gt;), shown in successive rows (observed number of species: red diamonds; fitted model curves: green line).</title> 
+      <p>The left column (a) is simulated using the power model, the middle column (b) using the random-placement model, and the right column (c) using the logarithm model (for parameter values, see 
+       <xref ref-type="table" rid="pone-0095890-t002">
+        Tables 2
+       </xref> and 
+       <xref ref-type="table" rid="pone-0095890-t003">
+        3
+       </xref>). The 
+       <italic>
+        x
+       </italic>-axis represents the area (m<sup>2</sup>), and the 
+       <italic>
+        y
+       </italic>-axis represents the number of species.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.g001" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0095890-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>The fitted results of SAR models for each of the six communities (see &lt;xref ref-type="table" rid="pone-0095890-t001"&gt;Table 1&lt;/xref&gt;) using sequential sampling order of each sample (see Methods for details).</title> 
+      <alternatives>
+       <graphic id="pone-0095890-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Model</td> 
+          <td align="left" rowspan="1" colspan="1">Community</td> 
+          <td align="left" rowspan="1" colspan="1">Simulative equations</td> 
+          <td align="left" rowspan="1" colspan="1">F-value</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            P
+           </italic>-value</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            R
+            <sub>a</sub>
+            <sup>2</sup>
+           </italic></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Power</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>6.862
+           <italic>
+            ×A
+           </italic><sup>0.285</sup></td> 
+          <td align="left" rowspan="1" colspan="1">337.4609</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9362</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>11.614
+           <italic>
+            ×A
+           </italic><sup>0.293</sup></td> 
+          <td align="left" rowspan="1" colspan="1">315.9296</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9321</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>7.518
+           <italic>
+            ×A
+           </italic><sup>0.278</sup></td> 
+          <td align="left" rowspan="1" colspan="1">12535.55</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9774</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>5.549
+           <italic>
+            ×A
+           </italic><sup>0.281</sup></td> 
+          <td align="left" rowspan="1" colspan="1">605.3688</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9634</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>8.825
+           <italic>
+            ×A
+           </italic><sup>0.281</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2789.154</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9918</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>8.731
+           <italic>
+            ×A
+           </italic><sup>0.260</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1276.937</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9823</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Logarithm</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−1199.062+218.530×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.673</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1296.167</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9844</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−1016.356+193.021×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.772</sup></td> 
+          <td align="left" rowspan="1" colspan="1">404.593</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9735</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−112.961+25.192×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.952</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1883.335</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9942</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−51.339+12.067×ln(
+           <italic>
+            A
+           </italic>))<sup>1.046</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1292.309</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9787</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−4.155+2.188×ln(
+           <italic>
+            A
+           </italic>)) <sup>1.713</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3590.790</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9969</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−117.760+27.171×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.93</sup></td> 
+          <td align="left" rowspan="1" colspan="1">9144.175</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9988</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+     <table-wrap id="pone-0095890-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>The fitted results of SAR models for each of the six communities (see &lt;xref ref-type="table" rid="pone-0095890-t001"&gt;Table 1&lt;/xref&gt;) using randomized sampling order of each sample (see Methods for details).</title> 
+      <alternatives>
+       <graphic id="pone-0095890-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.t003" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Model</td> 
+          <td align="left" rowspan="1" colspan="1">Community</td> 
+          <td align="left" rowspan="1" colspan="1">Simulative equations</td> 
+          <td align="left" rowspan="1" colspan="1">F-value</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            P
+           </italic>-value</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            R
+            <sub>a</sub>
+            <sup>2</sup>
+           </italic></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Power</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>6.228
+           <italic>
+            ×A
+           </italic><sup>0.294</sup></td> 
+          <td align="left" rowspan="1" colspan="1">561.376</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9606</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>3.166
+           <italic>
+            ×A
+           </italic><sup>0.433</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2481.539</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9908</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>3.678
+           <italic>
+            ×A
+           </italic><sup>0.355</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2890.841</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9921</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>2.377
+           <italic>
+            ×A
+           </italic><sup>0.357</sup></td> 
+          <td align="left" rowspan="1" colspan="1">5835.481</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9961</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>9.097
+           <italic>
+            ×A
+           </italic><sup>0.278</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1328.496</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9830</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S = 
+           </italic>8.777
+           <italic>
+            ×A
+           </italic><sup>0.259</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1274.382</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9823</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Logarithm</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−374.208+72.061×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.795</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3264.962</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9966</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−9.287+2.539×ln(
+           <italic>
+            A
+           </italic>)) <sup>1.934</sup></td> 
+          <td align="left" rowspan="1" colspan="1">14226.910</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9992</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−7.909+2.431×ln(
+           <italic>
+            A
+           </italic>))<sup>1.703</sup></td> 
+          <td align="left" rowspan="1" colspan="1">56109.664</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9998</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−0.778+0.665×ln(
+           <italic>
+            A
+           </italic>))<sup>2.470</sup></td> 
+          <td align="left" rowspan="1" colspan="1">33600.000</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9997</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−118.654+26.893×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.977</sup></td> 
+          <td align="left" rowspan="1" colspan="1">31513.588</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9997</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic> = (−127.169+29.088×ln(
+           <italic>
+            A
+           </italic>)) <sup>0.918</sup></td> 
+          <td align="left" rowspan="1" colspan="1">81634.628</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9999</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Random-placement</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">46.165</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.8543</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">141.806</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9623</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1109.576</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9899</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">10.669</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9678</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">81.376</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9006</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">349.647</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.9739</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>Using the adjusted coefficient of determination (
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-value) for comparison (
+      <xref ref-type="table" rid="pone-0095890-t002">
+       Tables 2
+      </xref> and 
+      <xref ref-type="table" rid="pone-0095890-t003">
+       3
+      </xref>), the logarithm model had the better fit among the three models (mean = 0.9878 for sequential sampling, mean = 0.9992 for randomized sampling), with three out of six of its 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values above 0.99 for randomized sampling. The power model was the second better model (mean = 0.9639 for sequential sampling, mean = 0.9842 for randomized sampling) while the random-placement model performed worst (no sequential sampling performed, mean = 0.9415 for randomized sampling). Because the random-placement model performed worst, if we average over all results, randomized sampling (
+      <italic>
+       n
+      </italic> = 18, mean = 0.9749) performed worse than sequential sampling (n = 12, mean = 0.9758). However, once we exclude the random-placement model because it was not used for sequential sampling, we can compare the results from only the logarithm and power models; we then observe that randomized sampling (
+      <italic>
+       n = 
+      </italic>12, mean = 0.9917) performed better than sequential sampling (
+      <italic>
+       n
+      </italic> = 12, mean = 0.9758). We argue that this better performance is due to randomized sampling smoothing the resulting SA curves (see Discussion).</p> 
+     <p>The SARs (
+      <xref ref-type="fig" rid="pone-0095890-g001">
+       Fig. 1
+      </xref>) illustrate that communities D, E and F were fitted very well beyond area sizes of about 4000–5000 m<sup>2</sup>. Communities C and F fitted well using the random-placement model at all area sizes while the communities C, E and F were fitted well with the logarithm model. Community A fitted worse than the other communities for all three models. All communities fitted well to the random-placement model beyond area sizes of about 7000 m<sup>2</sup>, suggesting that the random-placement model describes SARs better at larger scales.</p> 
+    </sec>
+    <sec id="s3c"> 
+     <title>Species-abundance Distributions</title> 
+     <p>All the SA data sets were statistically fitted using the three SAD models (
+      <xref ref-type="table" rid="pone-0095890-t004">
+       Tables 4
+      </xref>–
+      <xref ref-type="table" rid="pone-0095890-t005">
+       5
+      </xref>) with each fit also displayed graphically in 
+      <xref ref-type="fig" rid="pone-0095890-g002">
+       Fig. 2
+      </xref>. Using the coefficient of determination (
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>) for comparison, the mean 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values over the six communities were 0.738, 0.648 and 0.586 for the logcauchy, lognormal and logseries model, respectively. This ranking is also evident in that the logcauchy had two 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values above 0.8 and two above 0.7, while the lognormal only had two above 0.8 and the logseries one above 0.8 and one above 0.7. Therefore, using 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values as criteria, the logcauchy model performed better than other two models.</p> 
+     <fig id="pone-0095890-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>The species-abundance relationships simulated by the lognormal, logcauchy and logseries model (for parameter values, see &lt;xref ref-type="table" rid="pone-0095890-t004"&gt;Tables 4&lt;/xref&gt; and &lt;xref ref-type="table" rid="pone-0095890-t005"&gt;5&lt;/xref&gt;) for each of the six communities (see &lt;xref ref-type="table" rid="pone-0095890-t001"&gt;Table 1&lt;/xref&gt;).</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.g002" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0095890-t004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.t004
+      </object-id>
+      <label>Table 4</label> 
+      <title>The fitted parameters and results for the lognormal and logcauchy models (see Methods for details).</title> 
+      <alternatives>
+       <graphic id="pone-0095890-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.t004" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Model</td> 
+          <td align="left" rowspan="1" colspan="1">Community</td> 
+          <td colspan="3" align="left" rowspan="1">Parameter</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            R
+            <sub>a</sub>
+            <sup>2</sup>
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            S
+           </italic><sub>m</sub></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            a
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            R
+           </italic><sub>m</sub></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Lognormal</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">18.220</td> 
+          <td align="left" rowspan="1" colspan="1">1.103</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">0.805</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">37.521</td> 
+          <td align="left" rowspan="1" colspan="1">0.756</td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">0.895</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">16.516</td> 
+          <td align="left" rowspan="1" colspan="1">0.869</td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">0.653</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">10.121</td> 
+          <td align="left" rowspan="1" colspan="1">0.879</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.453</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">19.527</td> 
+          <td align="left" rowspan="1" colspan="1">1.045</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">0.602</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">17.067</td> 
+          <td align="left" rowspan="1" colspan="1">0.988</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">0.481</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Logcauchy</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">16.789</td> 
+          <td align="left" rowspan="1" colspan="1">0.373</td> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">0.709</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">39.7640</td> 
+          <td align="left" rowspan="1" colspan="1">0.420</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.942</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">20.693</td> 
+          <td align="left" rowspan="1" colspan="1">0.230</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.838</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">16.681</td> 
+          <td align="left" rowspan="1" colspan="1">0.344</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.727</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">18.224</td> 
+          <td align="left" rowspan="1" colspan="1">0.168</td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.620</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">15.204</td> 
+          <td align="left" rowspan="1" colspan="1">0.219</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.591</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+     <table-wrap id="pone-0095890-t005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0095890.t005
+      </object-id>
+      <label>Table 5</label> 
+      <title>The fitted parameters and results of the &lt;italic&gt;χ&lt;/italic&gt;&lt;sup&gt;2&lt;/sup&gt; tests for the logseries model (see Methods for details).</title> 
+      <alternatives>
+       <graphic id="pone-0095890-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095890.t005" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Model</td> 
+          <td align="left" rowspan="1" colspan="1">Community</td> 
+          <td colspan="2" align="left" rowspan="1">Parameter</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            R
+            <sub>a</sub>
+            <sup>2</sup>
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            x
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            a
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Logseries</td> 
+          <td align="left" rowspan="1" colspan="1">A</td> 
+          <td align="left" rowspan="1" colspan="1">0.994</td> 
+          <td align="left" rowspan="1" colspan="1">17.379</td> 
+          <td align="left" rowspan="1" colspan="1">0.223</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">B</td> 
+          <td align="left" rowspan="1" colspan="1">0.989</td> 
+          <td align="left" rowspan="1" colspan="1">37.889</td> 
+          <td align="left" rowspan="1" colspan="1">0.833</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">C</td> 
+          <td align="left" rowspan="1" colspan="1">0.995</td> 
+          <td align="left" rowspan="1" colspan="1">17.883</td> 
+          <td align="left" rowspan="1" colspan="1">0.697</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">D</td> 
+          <td align="left" rowspan="1" colspan="1">0.997</td> 
+          <td align="left" rowspan="1" colspan="1">12.335</td> 
+          <td align="left" rowspan="1" colspan="1">0.463</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">0.996</td> 
+          <td align="left" rowspan="1" colspan="1">21.477</td> 
+          <td align="left" rowspan="1" colspan="1">0.704</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">0.993</td> 
+          <td align="left" rowspan="1" colspan="1">18.811</td> 
+          <td align="left" rowspan="1" colspan="1">0.595</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>The mean 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values of the six communities A–F were 0.579, 0.890, 0.729, 0.548, 0.642 and 0.556, respectively; thus, the best average fit for three SAD models was for community B and the worst for community D.</p> 
+     <p>The three SAD models were graphically fitted using the SA data sets (
+      <xref ref-type="fig" rid="pone-0095890-g002">
+       Fig. 2
+      </xref>). The results showed that the left side of each of the three distributions was apparently truncated for each of the six communities, which suggests that many rare species exist within these communities which were not detected within our samples.</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>Tree Density and Diversity</title> 
+     <p>The six sub-tropical forest communities displayed a wide range for stem density and estimated species richness (by a factor of 1.64 and 2.45, respectively). For comparison, species richness in three 1- ha plots of tropical seasonal rainforest in south-west China varied only by a factor of 1.26 and 1.61 for trees and treelets, respectively 
+      <xref ref-type="bibr" rid="pone.0095890-L1">
+       [61]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-L2">
+       [62]
+      </xref>. This large variation among the six plots cannot be explained by forest type as the largest variation for stem density is within the needle and broad-leaved mixed forest type (
+      <xref ref-type="table" rid="pone-0095890-t001">
+       Table 1
+      </xref>). Currently, we cannot ascribe any factors responsible for such large variation, but latitude, altitude, topography and development history of each community is different, therefore, a combination of habitat heterogeneity and/or evolutionary- historical factors may be responsible for these differences 
+      <xref ref-type="bibr" rid="pone.0095890-Ricklefs1">
+       [63]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Ricklefs2">
+       [64]
+      </xref>.</p> 
+     <p>Surprisingly, neither stem density nor estimated species richness seemed to be influenced in any way by forest type. However, given the insufficient sample sizes for each forest type, not much should be read into this result. We are surprised that no correlation was found between stem density and estimated species richness, as there is often such a positive relationship between the number of individuals and the number of species 
+      <xref ref-type="bibr" rid="pone.0095890-Gotelli1">
+       [65]
+      </xref>.</p> 
+     <p>Our results further support the view that observed species richness is a negatively biased measure of total species richness. This is the logical consequence of the shape of the SA curve if area is substituted for sampling effort. As sampling effort increases, species richness will increase, so it logically follows that insufficient sampling effort will lead to a negatively biased estimate of total species richness (also called observed species richness). Therefore, species richness estimators (as, for example, implemented in the program 
+      <italic>
+       EstimateS
+      </italic> or 
+      <italic>
+       SPADE
+      </italic>) need to be used to correct for this inherent sampling bias 
+      <xref ref-type="bibr" rid="pone.0095890-Walther2">
+       [66]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Walther1">
+       [29]
+      </xref>. The resulting estimated species richness is generally much closer to the total species richness than the observed species richness.</p> 
+    </sec>
+    <sec id="s4b"> 
+     <title>Species-area Relationships</title> 
+     <p>The question of the relationship between area and number of species is one of the oldest questions ecologists have posed 
+      <xref ref-type="bibr" rid="pone.0095890-Connor1">
+       [67]
+      </xref>, and the SAR is one of the most important relationships when investigating this relationship as well as related problems involving species diversity, conservation biology and landscape ecology 
+      <xref ref-type="bibr" rid="pone.0095890-Schoener1">
+       [68]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Lomolino1">
+       [69]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Palmer2">
+       [70]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Rosenzweig1">
+       [4]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Lomolino2">
+       [71]
+      </xref>. Many models have been put forward to describe the SAR 
+      <xref ref-type="bibr" rid="pone.0095890-Walther1">
+       [29]
+      </xref>, three of which we applied in this study.</p> 
+     <p>Every one of the tested three SAR models (power, logarithm, random-placement) fitted very well to the subtropical community data, with minor differences (see Results). Comparing the fits of these three models using mean 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values showed slightly better average fits for the logarithm model than for the power and the random-placement model, a result supported by Wei 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0095890-Wei1">
+       [57]
+      </xref>.</p> 
+     <p>Plotting the SAR for each community and visually comparing the fitted models gives us some interesting insights into the effect of sampling size (in our case, size of sampled area) on the goodness of fit of each model (
+      <xref ref-type="fig" rid="pone-0095890-g001">
+       Fig. 1
+      </xref>). While there are examples where the respective model fits the real data very well for all sampling sizes (e.g., community F fitted by the logarithm model), which is reflected by very high corresponding 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values, other examples reveal that the fit is only good for some sampling sizes, with 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values also varying among different communities. In most cases, the fit is better for intermediate to high sampling sizes and worse for small sampling sizes. Random sampling effects usually have a greater proportional effect at small sampling sizes, which may explain why the real data curves do not conform so well to the model curves at lower sampling sizes. Randomization of sampling order usually removes these sampling effects, and therefore the resulting smoothed curves usually display better model fits even at low sampling sizes.</p> 
+     <p>Several authors have argued that the performance of SAR models is dependent on the sampling size 
+      <xref ref-type="bibr" rid="pone.0095890-He1">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Rosenzweig2">
+       [72]
+      </xref>. For example, He &amp;Legendre 
+      <xref ref-type="bibr" rid="pone.0095890-He2">
+       [27]
+      </xref> suggested the power model best fits for small to intermediate sampling sizes, the exponential model best fits for small samples, and the logistic model is the best for small to large scales (250,000 m<sup>2</sup>). And consequently, that there is no model that is universally best, but that each model’s performance depends on sampling scales and SADs 
+      <xref ref-type="bibr" rid="pone.0095890-He1">
+       [26]
+      </xref>. Because the underlying SADs are different for different communities, Tjørve 
+      <xref ref-type="bibr" rid="pone.0095890-Tjrve1">
+       [73]
+      </xref> claims that one should not expect the same SAR model to be the best fit for both sample area (census patches) data sets and isolate (habitat patches or islands) data sets 
+      <xref ref-type="bibr" rid="pone.0095890-Tjrve1">
+       [73]
+      </xref>, or across different scales (see also 
+      <xref ref-type="bibr" rid="pone.0095890-Lande1">
+       [74]
+      </xref>).</p> 
+     <p>The SAR curves in this study showed similarity to those in Condit’s 
+      <xref ref-type="bibr" rid="pone.0095890-Condit1">
+       [75]
+      </xref>study of tropical forests in that there was no asymptote in the SAR curves (
+      <xref ref-type="fig" rid="pone-0095890-g001">
+       Fig. 1
+      </xref>). Though, former studies found the distribution of 90% species (abundance≥20) in Dinhu plot (200000 m<sup>2</sup>) were affected by the terrain factors 
+      <xref ref-type="bibr" rid="pone.0095890-Wang2">
+       [76]
+      </xref>. However, based on the habitat partitioning theory, there should be an asymptote in the SAR curve, so our results show the habitat partitioning theory is not play leading role in the subtropical forest for small to intermediate scales. We think the lack of an asymptote is the prediction of a spatially explicit, zero-sum, and community drift model that is incorporated with the speciation and the SAR pattern 
+      <xref ref-type="bibr" rid="pone.0095890-Hubbell3">
+       [77]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Hubbell4">
+       [78]
+      </xref>. According to Hubbell’s description of the community, there will always be rare species 
+      <xref ref-type="bibr" rid="pone.0095890-Condit1">
+       [75]
+      </xref>, as, for example, illustrated by the SAD graphs in 
+      <xref ref-type="fig" rid="pone-0095890-g002">
+       Fig. 2
+      </xref>. As a result, the number of species in the first octaves (number of rare species) are always larger than 1. As in Hubbell’s description 
+      <xref ref-type="bibr" rid="pone.0095890-Condit1">
+       [75]
+      </xref>], rare species exist in our communities, this also corroborating Hubbell’s theory. But our study can’t approve relative rate of colonization increases while rate of extinction decreases when area increases. So our result can’t prove area 
+      <italic>
+       per se
+      </italic> or equilibrium hypothesis.</p> 
+    </sec>
+    <sec id="s4c"> 
+     <title>Species-abundance Distributions</title> 
+     <p>Preston 
+      <xref ref-type="bibr" rid="pone.0095890-Preston1">
+       [41]
+      </xref> first formulated the lognormal equation of the SAD by the method of “octaves”, using it to explain the division of resource use by species coexisting in the same community. Whittaker 
+      <xref ref-type="bibr" rid="pone.0095890-Whittaker2">
+       [40]
+      </xref> also suggested that certain communities accorded with certain models. The lognormal model is supposed to describe communities where the total number of species is large, and the abundance is determined by many independent factors multiplicatively, whereas the logseries model describes the abundance of species whose diversity is lower or in which the species compete for a single resource 
+      <xref ref-type="bibr" rid="pone.0095890-Whittaker1">
+       [38]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-May1">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095890-Yin1">
+       [35]
+      </xref>. The lognormal model can estimate the theoretical total number of species in the whole community using a truncated distribution 
+      <xref ref-type="bibr" rid="pone.0095890-Preston2">
+       [54]
+      </xref>, while the logseries model cannot be used for this purpose 
+      <xref ref-type="bibr" rid="pone.0095890-Pielou1">
+       [3]
+      </xref>. Using mean 
+      <italic>
+       R
+       <sub>a</sub>
+       <sup>2</sup>
+      </italic>-values for comparative performance evaluation, the logcauchy model had the better fit among the three models. Moreover, subtropical forests have high diversity, and their large species number includes many rare species (see Discussion above), which explains why all six communities appeared to be left-side truncated (
+      <xref ref-type="fig" rid="pone-0095890-g002">
+       Fig. 2
+      </xref>).</p> 
+    </sec>
+   </sec>
+   <sec id="s5"> 
+    <title>Conclusions</title> 
+    <p>To conclude, we found that our measures of tree density and diversity varied widely among the three forestry types, with the reasons remaining unclear, which should be subjected of further study. The three SAR models fitted most real data of subtropical forest trees very well for most sampling sizes. But due to intermediate sampling sizes, the logarithm model had the better fit among the three models, especially using randomized sampling. When fitting SADs, the logcauchy model had the better fit among the three tested models. Furthermore, our results suggest that many rare and undiscovered species remain undetected.</p> 
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We thank Dinghushan Forest Ecosystem Research Station (DFERS), Nanling Nature Reserve, Maoershan Nature Reserve and Jinggangshan Nature Reserve bureau for supporting our field investigations. We thank Bruno A. Walther for his helpful revision and good suggestion. We thank Professor Fangliang He of University of Alberta, Dr. I Fang Sun of National Dong Hwa University, Dr. Richard Condit of CTFS, Dr. Pierre Legendre of University of Montreal for training of data analysis. We also thank Dr. Wan hui Ye, Hong lin Cao, Jun Hui Shi, Xiao Yong Zhou, Qian Mei Zhang and Jiong Li for their help in field work.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0095890-Jaccard1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jaccard
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1902
+       </year>) 
+       <article-title>
+        Lois de distribution florale dans la zone alpine
+       </article-title>. 
+       <source>Bull Soc Vaudoise Sci Nat 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        69
+       </fpage>–
+       <lpage>
+        130
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Jaccard2">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jaccard
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1908
+       </year>) 
+       <article-title>
+        Nouvelles recherches sur la distribution florale
+       </article-title>. 
+       <source>Bull Soc Vaudoise Sci Nat 
+       <volume>
+        44
+       </volume>: 
+       <fpage>
+        223
+       </fpage>–
+       <lpage>
+        270
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Pielou1">
+      <label>3</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Pielou EC (1977) Mathematics Ecology. New York: Wiley-Interscience. 320 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Rosenzweig1">
+      <label>4</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Rosenzweig ML (1995) Species diversity in space and time. Cambridge: Cambridge Univ. Press. 436 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Shen1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shen
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hu
+        </surname>
+        <given-names>
+         XS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mi
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ren
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Species-area relationships explained by the joint effects of dispersal limitation and habitat heterogeneity
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        3033
+       </fpage>–
+       <lpage>
+        3041
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Wang1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         XG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wiegand
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wolf
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Howe
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Spatial patterns of tree species richness in two temperate forests
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        1382
+       </fpage>–
+       <lpage>
+        1393
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Turner1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Turner
+        </surname>
+        <given-names>
+         WR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tjørve
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Scale-dependence in species-area relationships
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        721
+       </fpage>–
+       <lpage>
+        730
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Barkman1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Barkman
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name> (
+       <year>
+        1989
+       </year>) 
+       <article-title>
+        A critical evaluation of minimum area concepts
+       </article-title>. 
+       <source>Plant Ecol 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        89
+       </fpage>–
+       <lpage>
+        104
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Hopkins1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hopkins
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        The concept of minimal area
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        441
+       </fpage>–
+       <lpage>
+        449
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Hubbell1">
+      <label>10</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Hubbell SP, Foster RB (1983) Diversity of canopy trees in a Neotropical forest and implications to conservation. Oxford: Blackwell Scientific Publications. 254 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Palmer1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Palmer
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name> (
+       <year>
+        1990
+       </year>) 
+       <article-title>
+        The estimation of species richness by extrapolation
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        1195
+       </fpage>–
+       <lpage>
+        1198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Obeso1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Obeso
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aedo
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Plant-Species Richness and Extinction on Isolated Dunes along the Rocky Coast of Northwestern Spain
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        132
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Brooks1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pimm
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oyugi
+        </surname>
+        <given-names>
+         JO
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Time lag between deforestation and bird extinction in tropical forest fragments
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        1140
+       </fpage>–
+       <lpage>
+        1150
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Brooks2">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tobias
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Balmford
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Deforestation and bird extinctions in the Atlantic forest
+       </article-title>. 
+       <source>Anim Conserv 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        211
+       </fpage>–
+       <lpage>
+        222
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-MacArthur1">
+      <label>15</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       MacArthur RH, Wilson EO (1967) The Theory of Island Biogeography. Princeton, NJ: Princeton University Press. 203 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Williamson1">
+      <label>16</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Williamson MH (1981) Island populations. Oxford: Oxford University Press. 286 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Kohn1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kohn
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walsh
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Plant species richness -the effect of island size and habitat diversity
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        367
+       </fpage>–
+       <lpage>
+        377
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Kchy1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Köchy
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rydin
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Biogeography of vascular plants on habitat islands, peninsulas and mainlands in an east-central Swedish agricultural landscape
+       </article-title>. 
+       <source>Nord J Bot 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        215
+       </fpage>–
+       <lpage>
+        223
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Kelly1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kelly
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bastow
+        </surname>
+        <given-names>
+         WJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mark
+        </surname>
+        <given-names>
+         AF
+        </given-names>
+       </name> (
+       <year>
+        1989
+       </year>) 
+       <article-title>
+        Causes of the species–area relation:a study of islands in lake Manapouri, New Zealand
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        77
+       </volume>: 
+       <fpage>
+        1021
+       </fpage>–
+       <lpage>
+        1028
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Krauss1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Krauss
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Klein
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steffan-Dewenter
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Effects of habitat area, isolation, and landscape diversity on plant species richness of calcareous grasslands
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        1427
+       </fpage>–
+       <lpage>
+        1439
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Arrhenius1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arrhenius
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        1921
+       </year>) 
+       <article-title>
+        Species and area
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        95
+       </fpage>–
+       <lpage>
+        99
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Gleason1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gleason
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name> (
+       <year>
+        1922
+       </year>) 
+       <article-title>
+        On the relation between species and area
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        158
+       </fpage>–
+       <lpage>
+        162
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Gleason2">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gleason
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name> (
+       <year>
+        1925
+       </year>) 
+       <article-title>
+        Species and area
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        66
+       </fpage>–
+       <lpage>
+        74
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Fisher1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Corbet
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1943
+       </year>) 
+       <article-title>
+        The relation between the number of species and the number of individuals in random sample of an animal population
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        42
+       </fpage>–
+       <lpage>
+        58
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Archibald1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Archibald
+        </surname>
+        <given-names>
+         EEA
+        </given-names>
+       </name> (
+       <year>
+        1949
+       </year>) 
+       <article-title>
+        The Specific Character of Plant Communities: II. A Quantitative Approach
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        274
+       </fpage>–
+       <lpage>
+        288
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-He1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         FL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        On Species-Area Relations
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        148
+       </volume>: 
+       <fpage>
+        719
+       </fpage>–
+       <lpage>
+        737
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-He2">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         FL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Species diversity patterns derived from species-area models
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        83
+       </volume>: 
+       <fpage>
+        1185
+       </fpage>–
+       <lpage>
+        1198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Plotkin1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Plotkin
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Potts
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manokaran
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lafrankie
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ashton
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Species-area curves, spatial aggregation, and habitat specialization in tropical forests
+       </article-title>. 
+       <source>J Theor Biol 
+       <volume>
+        207
+       </volume>: 
+       <fpage>
+        81
+       </fpage>–
+       <lpage>
+        99
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Walther1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walther
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moore
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        The concepts of bias, precision and accuracy, and their use in testing the performance of species richness estimators, with a literature review of estimator performance
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        815
+       </fpage>–
+       <lpage>
+        829
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Sizling1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sizling
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Storch
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Power-law species-area relationships and self-similar species distributions within finite areas
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        60
+       </fpage>–
+       <lpage>
+        68
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Ovaskainen1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ovaskainen
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hanski
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        The species-area relationship derived from species-specific incidence functions
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        903
+       </fpage>–
+       <lpage>
+        909
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Sugihara1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sugihara
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        1980
+       </year>) 
+       <article-title>
+        Minimal community structure: an explanation of species abundance patterns
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        770
+       </fpage>–
+       <lpage>
+        787
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-May1">
+      <label>33</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       May RM (1975) Patterns of species abundance and diversity. In: Cody ML, Diamond JM, editors. Ecology and Evolution of Communities. Cambridge, MA: Belknap Press of Harvard University. 81–120.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Plotkin2">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Plotkin
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Muller-Landau
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Sampling the species composition of a landscape
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        83
+       </volume>: 
+       <fpage>
+        3344
+       </fpage>–
+       <lpage>
+        3356
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Yin1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         ZY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peng
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ren
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guo
+        </surname>
+        <given-names>
+         QF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         ZH
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        LogCauchy, log -sech and lognormal distributions of species abundances in forest communities
+       </article-title>. 
+       <source>Ecol Model 
+       <volume>
+        184
+       </volume>: 
+       <fpage>
+        329
+       </fpage>–
+       <lpage>
+        340
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Molles1">
+      <label>36</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Molles MC (1999) Ecology:Concepts&amp;Applications. New York: McGraw-Hill Science Engineering. 572 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Jackson1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jackson
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Churchill
+        </surname>
+        <given-names>
+         PF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roden
+        </surname>
+        <given-names>
+         EE
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Successional development
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        555
+       </fpage>–
+       <lpage>
+        556
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Whittaker1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Whittaker
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name> (
+       <year>
+        1965
+       </year>) 
+       <article-title>
+        Dominance and diversity in land plant communities
+       </article-title>. 
+       <source>Science 
+       <volume>
+        147
+       </volume>: 
+       <fpage>
+        250
+       </fpage>–
+       <lpage>
+        260
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Guo1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Guo
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Valone
+        </surname>
+        <given-names>
+         TJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Long-term dynamics of winter and summer annual communities in the Chihuahuan Desert
+       </article-title>. 
+       <source>JVeg Sci 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        575
+       </fpage>–
+       <lpage>
+        584
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Whittaker2">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Whittaker
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name> (
+       <year>
+        1972
+       </year>) 
+       <article-title>
+        Evolution and measurement of species diversity
+       </article-title>. 
+       <source>Taxon 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        213
+       </fpage>–
+       <lpage>
+        251
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Preston1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Preston
+        </surname>
+        <given-names>
+         FW
+        </given-names>
+       </name> (
+       <year>
+        1948
+       </year>) 
+       <article-title>
+        The Commonness, And Rarity, of Species
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        254
+       </fpage>–
+       <lpage>
+        283
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Cohen1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cohen
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        1968
+       </year>) 
+       <article-title>
+        An alternative derivation of a species abundance relation
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        165
+       </fpage>–
+       <lpage>
+        171
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Kempton1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kempton
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Taylor
+        </surname>
+        <given-names>
+         LR
+        </given-names>
+       </name> (
+       <year>
+        1974
+       </year>) 
+       <article-title>
+        Log-series and log-normal parameters as diversity discriminants for the Lepidoptera
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        381
+       </fpage>–
+       <lpage>
+        399
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Bell1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bell
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Neutral macroecology
+       </article-title>. 
+       <source>Science 
+       <volume>
+        293
+       </volume>: 
+       <fpage>
+        2413
+       </fpage>–
+       <lpage>
+        2418
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Hubbell2">
+      <label>45</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Hubbell SP (2001) The unified neutral theory of biodiversity and biogeography. Princeton: Princeton University Press. 34–36 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Krebs1">
+      <label>46</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Krebs CJ (2009) Ecology: the experimental analysis of distribution and abundance. San Francisco: Pearson Benjamin Cummings.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Stohlgren1">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stohlgren
+        </surname>
+        <given-names>
+         TJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Otsuki
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Villa
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Belnap
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Patterns of Plant Invasions: A Case Example in Native Species Hotspots and Rare Habitats
+       </article-title>. 
+       <source>Biol Invasions 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        37
+       </fpage>–
+       <lpage>
+        50
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Batista1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Batista
+        </surname>
+        <given-names>
+         JLF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Maguire
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Modeling the spatial structure of tropical forests
+       </article-title>. 
+       <source>Forest Ecol Manag 
+       <volume>
+        110
+       </volume>: 
+       <fpage>
+        293
+       </fpage>–
+       <lpage>
+        314
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Laurance1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Laurance
+        </surname>
+        <given-names>
+         WF
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Forest destruction in tropical Asia
+       </article-title>. 
+       <source>Curr Sci India 
+       <volume>
+        93
+       </volume>: 
+       <fpage>
+        1544
+       </fpage>–
+       <lpage>
+        1550
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Williams1">
+      <label>50</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Williams CB (1964) Patterns in balance of nature and related problems in quantitative ecology. New York: Academic Press. 324 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Buys1">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Buys
+        </surname>
+        <given-names>
+         MH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Maritz
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boucher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        A model for species-area relationships in plant communities
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        63
+       </fpage>–
+       <lpage>
+        66
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Liu1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ma
+        </surname>
+        <given-names>
+         KP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Plant community diversity in Dongling Mountain, Beijing, China – the fiting and assessment of species-area curves
+       </article-title>. 
+       <source>Acta Phytoecol Sin 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        490
+       </fpage>–
+       <lpage>
+        500
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Coleman1">
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Coleman
+        </surname>
+        <given-names>
+         BD
+        </given-names>
+       </name> (
+       <year>
+        1981
+       </year>) 
+       <article-title>
+        On random placement and species-area relations
+       </article-title>. 
+       <source>Math Biosci 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        191
+       </fpage>–
+       <lpage>
+        215
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Preston2">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Preston
+        </surname>
+        <given-names>
+         FW
+        </given-names>
+       </name> (
+       <year>
+        1962
+       </year>) 
+       <article-title>
+        The canonical distribution of commonness and rarity
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        185
+       </fpage>–
+       <lpage>
+        215
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-He3">
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         FL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hu
+        </surname>
+        <given-names>
+         XS
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Hubbell’s fundamental biodiversity parameter and the Simpson diversity index
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        386
+       </fpage>–
+       <lpage>
+        390
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Colwell1">
+      <label>56</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Colwell RK (2009) EstimateS: Statistical estimation of species richness and shared species from samples. Version 8.2. User’s Guide and application. 
+       <ext-link ext-link-type="uri" xlink:href="http://purl.oclc.org/estimates" xlink:type="simple">
+        http://purl.oclc.org/estimates
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Wei1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walther
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ye
+        </surname>
+        <given-names>
+         WH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         ZL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Comparative performance of species-richness estimators using data from a subtropical forest tree community
+       </article-title>. 
+       <source>Ecol Res 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        93
+       </fpage>–
+       <lpage>
+        101
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Boecklen1">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Boecklen
+        </surname>
+        <given-names>
+         WJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gotelli
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name> (
+       <year>
+        1984
+       </year>) 
+       <article-title>
+        Island biogeographic theory and conservation practice: Species-area or specious-area relationships?
+       </article-title> 
+       <source>Biol Conserv 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        63
+       </fpage>–
+       <lpage>
+        80
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Loehle1">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Loehle
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1990
+       </year>) 
+       <article-title>
+        Home range: A fractal approach
+       </article-title>. 
+       <source>Landscape Ecology (Historical Archive) 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        39
+       </fpage>–
+       <lpage>
+        52
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-He4">
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         FL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         LaFrankie
+        </surname>
+        <given-names>
+         JV
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Spatial Pattern of Diversity in a Tropical Rain Forest in Malaysia
+       </article-title>. 
+       <source>J Biogeogr 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        57
+       </fpage>–
+       <lpage>
+        74
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-L1">
+      <label>61</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Lü X-T, Tang J-W (2010) Structure and composition of the understory treelets in a non-dipterocarp forest of tropical Asia. Forest Ecol Manag 260.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-L2">
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lü
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yin
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Structure, tree species diversity and composition of tropical seasonal rainforests in Xishuangbanna, south-west China
+       </article-title>. 
+       <source>J Trop For Sci 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        260
+       </fpage>–
+       <lpage>
+        270
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Ricklefs1">
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricklefs
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Latham
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qian
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Global patterns of tree species richness in moist forests: distinguishing ecological influences and historical contingency
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        86
+       </volume>: 
+       <fpage>
+        369
+       </fpage>–
+       <lpage>
+        373
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Ricklefs2">
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricklefs
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qian
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         White
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The region effect on mesoscale plant species richness between eastern Asia and eastern North America
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        136
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Gotelli1">
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gotelli
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Quantifying biodiversity:Procedures and pitfalls in the measurement and comparison of species richness
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        379
+       </fpage>–
+       <lpage>
+        391
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Walther2">
+      <label>66</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walther
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cotgreave
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gregory
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clayton
+        </surname>
+        <given-names>
+         DH
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Sampling Effort and Parasite Species Richness
+       </article-title>. 
+       <source>Parasitol Today 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        306
+       </fpage>–
+       <lpage>
+        310
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Connor1">
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Connor
+        </surname>
+        <given-names>
+         EF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCoy
+        </surname>
+        <given-names>
+         ED
+        </given-names>
+       </name> (
+       <year>
+        1979
+       </year>) 
+       <article-title>
+        The statistics and biology of the species-area relationship
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        791
+       </fpage>–
+       <lpage>
+        833
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Schoener1">
+      <label>68</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Schoener TW (1976) The species–area relations within archipelagoes: models and evidence from island land birds. Proceedings of the XVI International Ornithological Congress: 629–642.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Lomolino1">
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lomolino
+        </surname>
+        <given-names>
+         MV
+        </given-names>
+       </name> (
+       <year>
+        1989
+       </year>) 
+       <article-title>
+        Interpretations and comparisons of constants in the species–area relationships: an additional caution
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        133
+       </volume>: 
+       <fpage>
+        277
+       </fpage>–
+       <lpage>
+        280
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Palmer2">
+      <label>70</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Palmer
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         White
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Scale dependence and the species-area relationship
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        144
+       </volume>: 
+       <fpage>
+        717
+       </fpage>–
+       <lpage>
+        740
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Lomolino2">
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lomolino
+        </surname>
+        <given-names>
+         MV
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Ecology’s most general, yet protean pattern: the species–area relationship
+       </article-title>. 
+       <source>J Biogeogr 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        17
+       </fpage>–
+       <lpage>
+        26
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Rosenzweig2">
+      <label>72</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rosenzweig
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ziv
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        The echo pattern of species diversity: pattern and process
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        614
+       </fpage>–
+       <lpage>
+        628
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Tjrve1">
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tjørve
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Shapes and functions of species-area curves: a review of possible models
+       </article-title>. 
+       <source>J Biogeogr 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        827
+       </fpage>–
+       <lpage>
+        835
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Lande1">
+      <label>74</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lande
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeVries
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walla
+        </surname>
+        <given-names>
+         TR
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        When species accumulation curves intersect: implications for ranking diversity using small samples
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        601
+       </fpage>–
+       <lpage>
+        605
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Condit1">
+      <label>75</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Condit
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hubbell
+        </surname>
+        <given-names>
+         SP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lafrankie
+        </surname>
+        <given-names>
+         JV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sukumar
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manokaran
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Species-Area and Species-Individual Relationships for Tropical Trees: A Comparison of Three 50-ha Plots
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        84
+       </volume>: 
+       <fpage>
+        549
+       </fpage>–
+       <lpage>
+        562
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Wang2">
+      <label>76</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         ZG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ye
+        </surname>
+        <given-names>
+         WH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cao
+        </surname>
+        <given-names>
+         HL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huang
+        </surname>
+        <given-names>
+         ZL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lian
+        </surname>
+        <given-names>
+         JY
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Species-topography association in a species-rich subtropical forest of China
+       </article-title>. 
+       <source>Basic Appl Ecol 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        648
+       </fpage>–
+       <lpage>
+        655
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Hubbell3">
+      <label>77</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Hubbell SP, Foster RB (1986) Commonness and rarity in a neotropical rain forest: implications for tropical tree conservation. In: Soule ME, editor. Conservation biology: the science of scarcity and diversity. Sunderland, MA.: Sinauer Association, Inc. 205–231.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095890-Hubbell4">
+      <label>78</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Hubbell SP (1995) Towards a theory of biodiversity and biogeography on continuous landscapes. In: Carmichael GR, Folk GE, Schnoor JL, editors. Preparing for global change: A Midwestern perspective. Amsterdam: SPB Academic Publishing. 171–199.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

@@ -1,0 +1,4076 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-40893
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0095938
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Computational biology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystem modeling
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subject>
+          Ecosystems
+         </subject>
+         <subject>
+          Plant ecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+         <subject>
+          Theoretical ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Plants
+         </subject>
+         <subj-group>
+          <subject>
+           Trees
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Plant science
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Scaling Relationships between Leaf Mass and Total Plant Mass across Chinese Forests
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Scaling of Leaf Mass and Total Mass
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Xu
+        </surname>
+        <given-names>
+         Shanshan
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1" />
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         Yan
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1" />
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         Genxuan
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1" />
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <addr-line>
+       The state key laboratory of plant physiology and biochemistry, Institute of ecology, College of Life Sciences, Zhejiang University, Hangzhou, China
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hui
+        </surname>
+        <given-names>
+         Dafeng
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Tennessee State University, United States of America
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        fzstsys2@zju.edu.cn
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: SX YL GW. Performed the experiments: SX YL GW. Analyzed the data: SX. Contributed reagents/materials/analysis tools: SX YL GW. Wrote the paper: SX YL GW.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       23
+      </day>
+      <month>
+       4
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e95938
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        27
+       </day>
+       <month>
+        9
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        1
+       </day>
+       <month>
+        4
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Xu et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Biomass partitioning is important for illustrating terrestrial ecosystem carbon flux. West, Brown and Enquist (WBE) model predicts that an optimal 3/4 allometric scaling of leaf mass and total biomass of individual plants will be applied in diverse communities. However, amount of scientific evidence suggests an involvement of some biological and environmental factors in interpreting the variation of scaling exponent observed in empirical studies. In this paper, biomass information of 1175 forested communities in China was collected and categorized into groups in terms of leaf form and function, as well as their locations to test whether the allocation pattern was conserved or variable with internal and/or environmental variations. Model Type II regression protocol was adopted to perform all the regressions. The results empirically showed that the slopes varied significantly across diverse forested biomes, between conifer and broadleaved forests, and between evergreen and deciduous forests. Based on the results, leaf form and function and their relations to environments play a significant role in the modification of the WBE model to explore more accurate laws in nature.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This work was supported by the National High-Tech R &amp; D Program (863 Program) for the 12th Five-Year Plan (2011AA100503), Natural Science Fund of China (31330010), and Zhejiang Provincial Natural Science Foundation of China (LZ13C030002). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="8" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Metabolism, which dictates material and energy fluxes through organisms, is a fundamental process in plant life 
+     <xref ref-type="bibr" rid="pone.0095938-Brown1">
+      [1]
+     </xref>. As the basis for many life-history strategies and ecological theories interested in ecological dynamics and global change, the scaling exponent for the partitioning of total body biomass among metabolic organs is of major interest in basic and applied ecology 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist1">
+      [2]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0095938-Poorter1">
+      [6]
+     </xref>. Foliar leaves are the principle or sole light-harvesting organs for metabolic reactions in photosynthesis, which is the primary metabolic activity involved in carbon fluxes. Therefore, a quantitative understanding of biomass patterns of leaf biomass to total mass is of fundamental importance to terrestrial carbon cycle. WBE model (West, Brown and Enquist, hence WBE) has outlined a set of allometric derivations interrelating individual plant growth as well as vegetative organ biomass partitioning, covering the broadest allometric phenomena at multiply scales of ecological organizations 
+     <xref ref-type="bibr" rid="pone.0095938-Brown1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-West1">
+      [7]
+     </xref>. Based on the constraints of maximizing photosynthetic harvesting capacity and resource transport while minimizing hydrodynamic resistance and transport times, the allometric partitioning model predicts that allometric relationships are governed by 1/4 power rules and leaf mass should scale to the 3/4<sup>th</sup> power of total mass 
+     <xref ref-type="bibr" rid="pone.0095938-Brown1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Niklas1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-West1">
+      [7]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0095938-Enquist2">
+      [12]
+     </xref>. Extensive data for conifers, monocots and dicots spanning 12 orders of magnitude fit the predicted relationships remarkably well, with two empirical exponents of 0.739 (95% CIs: 0.646–0.831) for angiosperms and 0.756 (95% CIs: 0.664–0.846) for gymnosperms, both of which were very close to 3/4 
+     <xref ref-type="bibr" rid="pone.0095938-Cannell1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist3">
+      [14]
+     </xref>. Although the 3/4 scaling exponent has been sustained in many theoretical and empirical studies, an extension of WBE model based on the “fractal continuum” theory predicts that the intraspecific allometry of plant biomass partitioning should fall along a continuum of variation rather than being a single optimal exponent 
+     <xref ref-type="bibr" rid="pone.0095938-Price1">
+      [15]
+     </xref>. Nevertheless, deviated from the predictions, a lot of variations in plant allometry have been observed in empirical studies 
+     <xref ref-type="bibr" rid="pone.0095938-Li1">
+      [16]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0095938-Mori1">
+      [28]
+     </xref> and discussed in reviews 
+     <xref ref-type="bibr" rid="pone.0095938-Coomes1">
+      [29]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0095938-Price2">
+      [31]
+     </xref>. These variations are assumed to result from altering multiple and/or different physiological and morphological factors in response to ontogeny 
+     <xref ref-type="bibr" rid="pone.0095938-Reich1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Cheng1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Peng1">
+      [27]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Mori1">
+      [28]
+     </xref>, environmental variability 
+     <xref ref-type="bibr" rid="pone.0095938-Deng1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Dai1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Deng2">
+      [26]
+     </xref> and species specificity 
+     <xref ref-type="bibr" rid="pone.0095938-Li1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Pretzsch1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Pretzsch2">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Isaac1">
+      [30]
+     </xref>. The universal applications of the WBE are challenged 
+     <xref ref-type="bibr" rid="pone.0095938-Kozowski1">
+      [33]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0095938-Glazier1">
+      [35]
+     </xref>.</p> 
+    <p>In contrast to the central assumption of WBE model that leaf properties keep consistent with whole-plant size across orders of magnitude of plant size 
+     <xref ref-type="bibr" rid="pone.0095938-West1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-West4">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Price3">
+      [36]
+     </xref>, leaves do vary in form and function with species variety and environmental heterogeneity. As both cause and consequence for plant adaptive strategy, leaves always have different chlorophyll concentrations, light compensation points and light use efficiencies in response to environmental variation or phyletic affiliation 
+     <xref ref-type="bibr" rid="pone.0095938-Chen1">
+      [20]
+     </xref>. These variations in leaf properties are commonly present in nature and influence plant behavior at a variety of levels of complexity. In addition, leaves are more variable when compared with other component biomass, ascribed to the high sensitivity of leaf mass to light, water, nutrient and soil conditions 
+     <xref ref-type="bibr" rid="pone.0095938-Wang1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-BondLamberty1">
+      [38]
+     </xref>. Therefore, variability in allometry of plant biomass partitioning can be understood by considering specific leaf growth forms or functional groups. Leaf habit and leaf form are vital leaf properties, the substantial difference of which could exert profound impact on populations and communities with interactions of heterogeneous environmental availability. For example, plants in harsh environments prefer relatively high ratio of photosynthetic mass to body mass as a consequence of thicker leaves and relatively smaller body size 
+     <xref ref-type="bibr" rid="pone.0095938-Deng1">
+      [21]
+     </xref>; in tropical dry forests, broadleaved deciduous trees tend to have greater nutrient resorption efficiencies, specific leaf area and photosynthetic rate compared with broadleaved evergreen trees 
+     <xref ref-type="bibr" rid="pone.0095938-Powers1">
+      [39]
+     </xref>; boreal coniferous forests are prone to show lower scaling law of 
+     <italic>
+      M
+     </italic><sub>L</sub> with 
+     <italic>
+      M
+     </italic><sub>T</sub> than deciduous forests ascribed to lower light transmittance of the denser canopy in conifers, in which asymmetric competition for light is dominant 
+     <xref ref-type="bibr" rid="pone.0095938-Lin1">
+      [40]
+     </xref>.</p> 
+    <p>Despite the progress made so far, our quantitative understanding of the allocation patterns of 
+     <italic>
+      M
+     </italic><sub>L</sub> and 
+     <italic>
+      M
+     </italic><sub>T</sub> in relation to leaf form and function in trees still remains limited. By analyzing long-term data collected from 1175 tree-dominant large plots located across the Chinese, we address several important questions to the trees growing in Chinese forests: 1) whether there is a general pattern of biomass partitioning for 
+     <italic>
+      M
+     </italic><sub>L</sub> and 
+     <italic>
+      M
+     </italic><sub>T</sub> across diverse forestry biomes in terms of location, leaf habit and leaf form; 2) whether there are different allometric scaling exponents between conifer and broadleaved forest; 3) whether the allocation patterns of leaf biomass and total mass vary across evergreen and deciduous forest. Although our contribution here to the ongoing debate about allometry of biomass partitioning is more empirical evidence rather than theories, the answers to the questions will help understand the biomass partitioning pattern in tree-dominant biomes, which is important to future inquiries to mechanisms underlying these scaling exponents appearing to govern important ecological and evolutionary phenomena.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Data resource and collection</title> 
+     <p>In this research, we used a Chinese forest biomass dataset complied from continuous forest-inventory plots of the Forestry Ministry of China in different time-periods during 1970–1994, published forest reports in over 60 Chinese journals and additional investigations by the author himself 
+      <xref ref-type="bibr" rid="pone.0095938-Luo1">
+       [41]
+      </xref>. The dataset provides standing biomass and production estimates for all plant components (including stem, branch, leaf, root and total plant mass) associated with climatic characters and age information for the selected 1,266 forest plots covering 17 forest types representative of the entire forest vegetation across China. The database has been applied to abundant researches ascribed to its great contribution to biomass estimation in the past decade. More detailed information describing the dataset can be traced in Luo 
+      <xref ref-type="bibr" rid="pone.0095938-Luo1">
+       [41]
+      </xref>, Ni et al. 
+      <xref ref-type="bibr" rid="pone.0095938-Ni1">
+       [42]
+      </xref> and Zhang et al. 
+      <xref ref-type="bibr" rid="pone.0095938-Zhang1">
+       [43]
+      </xref>. Here, we described only information relevant to the current analysis.</p> 
+     <p>In the field investigations, “allometric equation method” was widely used. Plant biomass of these forest communities were determined by harvesting quadrates 
+      <xref ref-type="bibr" rid="pone.0095938-Luo2">
+       [44]
+      </xref>. In the forest plots (0.04–0.5 ha), tree height (
+      <italic>
+       H
+      </italic>, m) and diameter at breast height (
+      <italic>
+       D
+      </italic>, cm) were measured for all trees with 
+      <italic>
+       D
+      </italic> greater than 2.5 cm. Six to eight trees of different diameters in a plot were cut down as samples (authorized and approved by Changbai Mountain Forest Ecosystem Research Station, Chinese Academy of Sciences and Huitong Forest Ecosystem Research Station in Changbai Mountain and Guangping, respectively; no endangered or protected species included); the separated stem, branch, leaf and root organs, the combination of whose biomass equaled to plant total mass (
+      <italic>
+       M
+      </italic><sub>T</sub>), were given a direct measurement. The biomass of the rest trees were estimated by species-specific allometric equations derived from these harvested trees based on 
+      <italic>
+       H
+      </italic> and 
+      <italic>
+       D
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0095938-Luo2">
+       [44]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095938-Luo3">
+       [45]
+      </xref>. The equations are always expressed as 
+      <italic>
+       M
+      </italic> = a
+      <italic>
+       D
+      </italic><sup>b</sup> or 
+      <italic>
+       M
+      </italic> = a(
+      <italic>
+       D
+      </italic><sup>2</sup>
+      <italic>
+       H
+      </italic>)<sup>b</sup> 
+      <xref ref-type="bibr" rid="pone.0095938-Luo1">
+       [41]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0095938-Zhang1">
+       [43]
+      </xref>. Leaf biomass (
+      <italic>
+       M
+      </italic><sub>L</sub>) estimation was conducted in the growing seasons with fully expanded leaves in early July or August across evergreen and deciduous species 
+      <xref ref-type="bibr" rid="pone.0095938-Luo2">
+       [44]
+      </xref>. Trees with diameter at breast height (
+      <italic>
+       D
+      </italic>, cm) smaller than 2.5 cm were excluded in the dataset. This method was widely immersed in the database. Moreover, “mean tree method” (chose “mean trees” in plots as samples) and “clear-cutting method” (all trees were cut and measured) were used for biomass estimation as well. Further detailed information about data collection was described in Luo 
+      <italic>
+       et al
+      </italic>. 
+      <xref ref-type="bibr" rid="pone.0095938-Luo3">
+       [45]
+      </xref> and Zhang 
+      <italic>
+       et al
+      </italic>. 
+      <xref ref-type="bibr" rid="pone.0095938-Zhang1">
+       [43]
+      </xref>.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Data grouping</title> 
+     <sec id="s2b1"> 
+      <title>Group 1</title> 
+      <p>Leaf morphology and physiology are closely associated with environmental variation and species specification. To test whether the 
+       <italic>
+        M
+       </italic><sub>L</sub> versus 
+       <italic>
+        M
+       </italic><sub>T</sub> scaling exponents were conserved or varied with these factors, we divided the dataset into five biomes. The biomes were defined according to temperature- and precipitation-based biome classifications in addition to leaf habit and leaf form. Not all observations in the original dataset of Luo 
+       <xref ref-type="bibr" rid="pone.0095938-Luo1">
+        [41]
+       </xref> had sufficient information to be placed into a biome category. Sufficient data were available only to evaluate relationships for the temperate (including boreal) and subtropical biomes. Therefore, 1175 selected plots of forests in the database were sorted into the following five biomes based on the combination of latitude (temperate/subtropical), leaf habit (evergreen/deciduous) and leaf form (conifer/broadleaf): Biome 1, Temperature Deciduous Coniferous Forest (TDCF), consisting of 48 plots of Temperature 
+       <italic>
+        Larix
+       </italic> Forest; Biome 2, Temperature Evergreen Coniferous Forest (TECF), consisting of 168 plots of Boreal/alpine 
+       <italic>
+        Picea
+       </italic>-
+       <italic>
+        Abies
+       </italic> Forest, 10 plots of Boreal 
+       <italic>
+        Pinus sylvestris
+       </italic> var. 
+       <italic>
+        mongolica
+       </italic> Forest, 154 plots of Temperate 
+       <italic>
+        Pinus tabulaeformis
+       </italic> Forest; Biome 3, Temperature Deciduous Broadleaved Forest (TDBF), consisting of 165 plots of Temperate Typical Deciduous Broadleaved Forest, 127 plots of Temperate/subtropical Montane 
+       <italic>
+        Populus-Betula
+       </italic> Deciduous Forest; Biome 4, Subtropical Evergreen Broadleaved Forest (SEBF), consisting of 238 plots of Subtropical Evergreen Broadleaved Forest (without detailed species information); Biome 5, Subtropical Evergreen Coniferous Forest (SECF), consisting of 66 plots of Subtropical 
+       <italic>
+        Pinus massoniana
+       </italic> Forest, 98 plots of Subtropical 
+       <italic>
+        Cunninghamia lanceolata
+       </italic> Forest, 46 plots of Subtropical Montane 
+       <italic>
+        Pinus yunnanensis
+       </italic> and 
+       <italic>
+        P. khasya
+       </italic> Forest, 55 plots of Subtropical montane 
+       <italic>
+        Pinus armandii
+       </italic>, 
+       <italic>
+        P. taiwanensis
+       </italic> and 
+       <italic>
+        P. densada
+       </italic> Forest. Detail information about the biomes, including vegetation, location, climate characters and ages could be traced in 
+       <xref ref-type="table" rid="pone-0095938-t001">
+        Table 1
+       </xref>.</p> 
+      <table-wrap id="pone-0095938-t001" position="float">
+       <object-id pub-id-type="doi">
+        10.1371/journal.pone.0095938.t001
+       </object-id>
+       <label>Table 1</label> 
+       <title>Vegetation, climatic characteristics and ages of biomes in Luo (1996).</title> 
+       <alternatives>
+        <graphic id="pone-0095938-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.t001" xlink:type="simple" /> 
+        <table>
+         <colgroup span="1">
+          <col align="left" span="1">
+          <col align="center" span="1">
+          <col align="center" span="1">
+          <col align="center" span="1">
+          <col align="center" span="1">
+          <col align="center" span="1">
+          <col align="center" span="1">
+          <col align="center" span="1">
+         </colgroup> 
+         <thead> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Biome</td> 
+           <td align="left" rowspan="1" colspan="1">Altitude (m)</td> 
+           <td align="left" rowspan="1" colspan="1">Longitude (°)</td> 
+           <td align="left" rowspan="1" colspan="1">Latitude (°)</td> 
+           <td align="left" rowspan="1" colspan="1">MAT (°C)</td> 
+           <td align="left" rowspan="1" colspan="1">MAP (mm)</td> 
+           <td align="left" rowspan="1" colspan="1">PET (mm)</td> 
+           <td align="left" rowspan="1" colspan="1">Age (years)</td> 
+          </tr> 
+         </thead> 
+         <tbody> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">TDCF</td> 
+           <td align="left" rowspan="1" colspan="1">441–4,240</td> 
+           <td align="left" rowspan="1" colspan="1">86.4–131.8</td> 
+           <td align="left" rowspan="1" colspan="1">28.6–52.6</td> 
+           <td align="left" rowspan="1" colspan="1">−6.2–4.2</td> 
+           <td align="left" rowspan="1" colspan="1">370.9–1274.1</td> 
+           <td align="left" rowspan="1" colspan="1">340.3–522.9</td> 
+           <td align="left" rowspan="1" colspan="1">30–195</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">TECF</td> 
+           <td align="left" rowspan="1" colspan="1">240–4,200</td> 
+           <td align="left" rowspan="1" colspan="1">81.1–131.8</td> 
+           <td align="left" rowspan="1" colspan="1">26.14–53.0</td> 
+           <td align="left" rowspan="1" colspan="1">−6.6–13.9</td> 
+           <td align="left" rowspan="1" colspan="1">369.6–1937.3</td> 
+           <td align="left" rowspan="1" colspan="1">328.7–820.5</td> 
+           <td align="left" rowspan="1" colspan="1">15–350</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">TDBF</td> 
+           <td align="left" rowspan="1" colspan="1">150–3,640</td> 
+           <td align="left" rowspan="1" colspan="1">85.2–134.0</td> 
+           <td align="left" rowspan="1" colspan="1">25.75–52.5</td> 
+           <td align="left" rowspan="1" colspan="1">−5.5–16.0</td> 
+           <td align="left" rowspan="1" colspan="1">241.0–1282.8</td> 
+           <td align="left" rowspan="1" colspan="1">358.3–939.9</td> 
+           <td align="left" rowspan="1" colspan="1">20–222</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">SEBF</td> 
+           <td align="left" rowspan="1" colspan="1">80–4,160</td> 
+           <td align="left" rowspan="1" colspan="1">85.2–120.17</td> 
+           <td align="left" rowspan="1" colspan="1">20.7–30.25</td> 
+           <td align="left" rowspan="1" colspan="1">3.5–24.2</td> 
+           <td align="left" rowspan="1" colspan="1">636.6–2323.1</td> 
+           <td align="left" rowspan="1" colspan="1">386.4–1131.7</td> 
+           <td align="left" rowspan="1" colspan="1">3–200</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">SECF</td> 
+           <td align="left" rowspan="1" colspan="1">10–3,558</td> 
+           <td align="left" rowspan="1" colspan="1">85.2–121.57</td> 
+           <td align="left" rowspan="1" colspan="1">18.7–36.4</td> 
+           <td align="left" rowspan="1" colspan="1">5.7–24.0</td> 
+           <td align="left" rowspan="1" colspan="1">369.7–2989.1</td> 
+           <td align="left" rowspan="1" colspan="1">503.8–1130.3</td> 
+           <td align="left" rowspan="1" colspan="1">15–160</td> 
+          </tr> 
+          <tr> 
+           <td align="left" rowspan="1" colspan="1">Total</td> 
+           <td align="left" rowspan="1" colspan="1">10–4,240</td> 
+           <td align="left" rowspan="1" colspan="1">81.1–134.0</td> 
+           <td align="left" rowspan="1" colspan="1">18.7–53.0</td> 
+           <td align="left" rowspan="1" colspan="1">−6.6–24.2</td> 
+           <td align="left" rowspan="1" colspan="1">241.0–2989.1</td> 
+           <td align="left" rowspan="1" colspan="1">328.7–1131.7</td> 
+           <td align="left" rowspan="1" colspan="1">3–350</td> 
+          </tr> 
+         </tbody> 
+        </table> 
+       </alternatives>
+       <table-wrap-foot>
+        <fn id="nt101">
+         <label></label>
+         <p>
+          <italic>
+           TDCF
+          </italic> Temperate Deciduous Coniferous Forest, 
+          <italic>
+           TECF
+          </italic> Temperate Evergreen Coniferous Forest, 
+          <italic>
+           TDBF
+          </italic> Temperate Deciduous Broadleaved Forest, 
+          <italic>
+           SEBF
+          </italic> Subtropical Evergreen Broadleaved Forest, 
+          <italic>
+           SECF
+          </italic> Subtropical Evergreen Cniferous Forest. MAT (°C) stands for Mean Annual Temperature (°C). MAP (mm) stands for Mean Annual Precipitation (mm). PET (mm) stands for Potential Evapotransporation (mm).</p>
+        </fn>
+       </table-wrap-foot>
+      </table-wrap>
+     </sec>
+     <sec id="s2b2"> 
+      <title>Group 2</title> 
+      <p>To illustrate the effect of leaf form on biomass partitioning pattern of 
+       <italic>
+        M
+       </italic><sub>L</sub> and 
+       <italic>
+        M
+       </italic><sub>T</sub>, we divided the dataset (the same as in Group 1) into two categories: conifer and broadleaved forests. Conifer Forest (CF) consisted of 48 plots of Temperature 
+       <italic>
+        Larix
+       </italic> Forest, 168 plots of Boreal/alpine 
+       <italic>
+        Picea
+       </italic>-
+       <italic>
+        Abies
+       </italic> Forest, 10 plots of Boreal 
+       <italic>
+        Pinus sylvestris
+       </italic> var. 
+       <italic>
+        mongolica
+       </italic> Forest, 154 plots of Temperate 
+       <italic>
+        Pinus tabulaeformis
+       </italic> Forest, 66 plots of Subtropical 
+       <italic>
+        Pinus massoniana
+       </italic> Forest, 98 plots of Subtropical 
+       <italic>
+        Cunninghamia lanceolata
+       </italic> Forest, 46 plots of Subtropical Montane 
+       <italic>
+        Pinus yunnanensis
+       </italic> and 
+       <italic>
+        P. khasya
+       </italic> Forest, 55 plots of Subtropical montane 
+       <italic>
+        Pinus armandii
+       </italic>, 
+       <italic>
+        P. taiwanensis
+       </italic> and 
+       <italic>
+        P. densada
+       </italic> Forest. Broadleaved Forest (BF) consisted of 165 plots of Temperate Typical Deciduous Broadleaved Forest, 127 plots of Temperate/subtropical Montane 
+       <italic>
+        Populus-Betula
+       </italic> Deciduous Forest, 238 plots of Subtropical Evergreen Broadleaved Forest (without detailed species information).</p> 
+     </sec>
+     <sec id="s2b3"> 
+      <title>Group 3</title> 
+      <p>To test the influence of leaf habit on the biomass partitioning of 
+       <italic>
+        M
+       </italic><sub>L</sub> and 
+       <italic>
+        M
+       </italic><sub>T</sub>, we divided the dataset (the same as in Group 1) into two categories: evergreen and deciduous forest. Evergreen Forest (EF) consisted of 168 plots of Boreal/alpine 
+       <italic>
+        Picea
+       </italic>-
+       <italic>
+        Abies
+       </italic> Forest, 10 plots of Boreal 
+       <italic>
+        Pinus sylvestris
+       </italic> var. 
+       <italic>
+        mongolica
+       </italic> Forest, 154 plots of Temperate 
+       <italic>
+        Pinus tabulaeformis
+       </italic> Forest, 238 plots of Subtropical Evergreen Broadleaved Forest (without detailed species information), 66 plots of Subtropical 
+       <italic>
+        Pinus massoniana
+       </italic> Forest, 98 plots of Subtropical 
+       <italic>
+        Cunninghamia lanceolata
+       </italic> Forest, 46 plots of Subtropical Montane 
+       <italic>
+        Pinus yunnanensis
+       </italic> and 
+       <italic>
+        P. khasya
+       </italic> Forest, 55 plots of Subtropical montane 
+       <italic>
+        Pinus armandii
+       </italic>, 
+       <italic>
+        P. taiwanensis
+       </italic> and 
+       <italic>
+        P. densada
+       </italic> Forest. Deciduous Forest (DF) consisted of 48 plots of Temperature 
+       <italic>
+        Larix
+       </italic> Forest, 165 plots of Temperate Typical Deciduous Broadleaved Forest, 127 plots of Temperate/subtropical Montane 
+       <italic>
+        Populus-Betula
+       </italic> Deciduous Forest.</p> 
+     </sec>
+    </sec>
+    <sec id="s2c"> 
+     <title>Statistical protocols</title> 
+     <p>As was common in cross-species analysis, data for analyzing the scaling relations of mean individual 
+      <italic>
+       M
+      </italic><sub>L</sub> and 
+      <italic>
+       M
+      </italic><sub>T</sub> (Tons/individual), which were obtained as stand mass/density in plots, were log<sub>10</sub>-transformed to normalize the distributions and minimize patterns in residuals 
+      <xref ref-type="bibr" rid="pone.0095938-Reich3">
+       [46]
+      </xref>. Because functional rather than predictive relationships were sought 
+      <xref ref-type="bibr" rid="pone.0095938-Niklas3">
+       [47]
+      </xref>, Model Type II (RMA) regression was used to determine the slope (scaling exponent, 
+      <italic>
+       β
+      </italic>) and y-intercept (allometric constant, 
+      <italic>
+       K
+      </italic>) of log-log linear functions. A standardized major axis (RMA) fit was the line minimizing sums of squares in X and Y dimensions simultaneously; and these routines were run using the ‘Standardized Major Axis Tests and Routines’ (SMTR) computer package 
+      <xref ref-type="bibr" rid="pone.0095938-Falster1">
+       [48]
+      </xref>. The software package SMTR was also used to determine whether the numerical values of 
+      <italic>
+       β
+      </italic> for log<sub>10</sub> 
+      <italic>
+       M
+      </italic><sub>L</sub> vs. 
+      <italic>
+       M
+      </italic><sub>T</sub> differed between contrasted data subsets. Heterogeneity between SMA slopes within and among biomes was tested via a permutation test in SMATR 
+      <xref ref-type="bibr" rid="pone.0095938-Falster1">
+       [48]
+      </xref>.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>For all the forest plots pooled (n = 1175), 
+     <italic>
+      M
+     </italic><sub>L</sub> increased with 
+     <italic>
+      M
+     </italic><sub>T</sub> (
+     <italic>
+      P
+     </italic>&lt;0.001, R<sup>2</sup> = 0.806; 
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref> and 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>) with the scaling exponent of 0.873 (95% CIs: 0.851–0.895), which was statistically higher than a predicted 2/3 or 3/4 and lower than 1.This exponents varied significantly in diverse biomes, with a range of 0.655 to 1.016. TDBF and TDCF had the highest scaling exponents, which were very close to 1. SEBF and SECF had the medium exponents, the values of which were significantly higher than 3/4. TECF shared a value of 0.655, which was close to 2/3 (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>). The average exponents of the five biomes were 0.885, which deviated from 3/4.</p> 
+    <fig id="pone-0095938-g001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0095938.g001
+     </object-id>
+     <label>Figure 1</label> 
+     <title>Scaling relations of leaf mass (&lt;italic&gt;M&lt;/italic&gt;&lt;sub&gt;L&lt;/sub&gt;, Ton/individual) and total biomass (&lt;italic&gt;M&lt;/italic&gt;&lt;sub&gt;T&lt;/sub&gt;, Ton/individual) in differing forested biomes.</title> 
+     <p>
+      <italic>
+       M
+      </italic><sub>T</sub> includes leaves, branches, stems and roots. The lines are linear RMA fits to the log-transformed data. For each biome, data include dominant trees from stands of variable age: (A) TDCF, (B) TECF, (C) TDBF, (D) SEBF, (E) SECF. All data are pooled in (F).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.g001" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0095938-t002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0095938.t002
+     </object-id>
+     <label>Table 2</label> 
+     <title>Allometric scaling relationships of leaf mass and total mass across biomes as estimated by standardized Major Axis Estimation and Testing Routines (SMATR).</title> 
+     <alternatives>
+      <graphic id="pone-0095938-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.t002" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Biome</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           β
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">SE</td> 
+         <td align="left" rowspan="1" colspan="1">95%CIs</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           K
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">SE</td> 
+         <td align="left" rowspan="1" colspan="1">95%CIs</td> 
+         <td align="left" rowspan="1" colspan="1">R<sup>2</sup></td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>-value</td> 
+         <td align="left" rowspan="1" colspan="1">No.</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">TDCF</td> 
+         <td align="left" rowspan="1" colspan="1">0.968<sup>ab</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.017</td> 
+         <td align="left" rowspan="1" colspan="1">0.935, 1.003</td> 
+         <td align="left" rowspan="1" colspan="1">−1.540</td> 
+         <td align="left" rowspan="1" colspan="1">0.020</td> 
+         <td align="left" rowspan="1" colspan="1">−1.581, −1.500</td> 
+         <td align="left" rowspan="1" colspan="1">0.986</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">48</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">TECF</td> 
+         <td align="left" rowspan="1" colspan="1">0.655<sup>d</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.013</td> 
+         <td align="left" rowspan="1" colspan="1">0.630, 0.681</td> 
+         <td align="left" rowspan="1" colspan="1">−1.500</td> 
+         <td align="left" rowspan="1" colspan="1">0.012</td> 
+         <td align="left" rowspan="1" colspan="1">−1.524, −1.476</td> 
+         <td align="left" rowspan="1" colspan="1">0.869</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">332</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">TDBF</td> 
+         <td align="left" rowspan="1" colspan="1">1.016<sup>a</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.030</td> 
+         <td align="left" rowspan="1" colspan="1">0.959, 1.077</td> 
+         <td align="left" rowspan="1" colspan="1">−1.293</td> 
+         <td align="left" rowspan="1" colspan="1">0.033</td> 
+         <td align="left" rowspan="1" colspan="1">−1.357, −1.229</td> 
+         <td align="left" rowspan="1" colspan="1">0.749</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">292</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">SEBF</td> 
+         <td align="left" rowspan="1" colspan="1">0.941<sup>b</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.015</td> 
+         <td align="left" rowspan="1" colspan="1">0.912, 0.972</td> 
+         <td align="left" rowspan="1" colspan="1">−1.431</td> 
+         <td align="left" rowspan="1" colspan="1">0.015</td> 
+         <td align="left" rowspan="1" colspan="1">−1.461, −1.402</td> 
+         <td align="left" rowspan="1" colspan="1">0.940</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">238</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">SECF</td> 
+         <td align="left" rowspan="1" colspan="1">0.847<sup>c</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.021</td> 
+         <td align="left" rowspan="1" colspan="1">0.807, 0.889</td> 
+         <td align="left" rowspan="1" colspan="1">−1.324</td> 
+         <td align="left" rowspan="1" colspan="1">0.023</td> 
+         <td align="left" rowspan="1" colspan="1">−1.369, −1.278</td> 
+         <td align="left" rowspan="1" colspan="1">0.841</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">265</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Total</td> 
+         <td align="left" rowspan="1" colspan="1">0.873</td> 
+         <td align="left" rowspan="1" colspan="1">0.011</td> 
+         <td align="left" rowspan="1" colspan="1">0.851, 0.895</td> 
+         <td align="left" rowspan="1" colspan="1">−1.396</td> 
+         <td align="left" rowspan="1" colspan="1">0.012</td> 
+         <td align="left" rowspan="1" colspan="1">−1.419, −1.374</td> 
+         <td align="left" rowspan="1" colspan="1">0.806</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">1175</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt102">
+       <label></label>
+       <p>
+        <italic>
+         β
+        </italic> is the exponent as a consequence of individual 
+        <italic>
+         M
+        </italic><sub>L</sub> (leaf mass, tons/individual) scales with 
+        <italic>
+         M
+        </italic><sub>T</sub> (total mass, tons/individual). 95%CIs and SE are confidence intervals and standard error for 
+        <italic>
+         β
+        </italic> and 
+        <italic>
+         K
+        </italic>, respectively. No. is the number of plots. 
+        <italic>
+         TDCF
+        </italic>, 
+        <italic>
+         TECF
+        </italic>, 
+        <italic>
+         TDBF
+        </italic>, 
+        <italic>
+         SEBF
+        </italic>, 
+        <italic>
+         SECF
+        </italic> are defined as in 
+        <xref ref-type="table" rid="pone-0095938-t001">
+         Table 1
+        </xref>.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>Regressions performed in Group 2 showed that the biomass allocation pattern of 
+     <italic>
+      M
+     </italic><sub>L</sub> and 
+     <italic>
+      M
+     </italic><sub>T</sub> varied from conifer to broadleaved forests. The exponent of CF (0.795<sup>b</sup>) was lower than BF (0.964<sup>a</sup>). (
+     <xref ref-type="table" rid="pone-0095938-t003">
+      Table 3
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g002">
+      Fig. 2
+     </xref>)These results were mostly consistent with the findings in Group 1 that in both temperate and subtropical forests, the scaling exponents of broadleaved biomes (TDBF, 1.016<sup>a</sup>; SEBF, 0.941<sup>b</sup>) were commonly higher than the conifer ones (SECF, 0.847<sup>c</sup>, TECF, 0.655<sup>d</sup>; except TDCF, 0.968<sup>ab</sup>) (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>). Regressions assessed in Group 3 suggested that the scaling exponents of leaf mass and total mass of deciduous forests (1.012<sup>b</sup>) were higher than evergreen forests (0.805<sup>a</sup>) (
+     <xref ref-type="table" rid="pone-0095938-t004">
+      Table 4
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g003">
+      Fig. 3
+     </xref>). These findings agreed with the observation that the scaling exponents in deciduous forests (TDBF, 1.016; TDCF, 0.968) were higher than in evergreen forests (SEBF, 0.941; SECF, 0.847; TECF, 0.655) (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>).</p> 
+    <fig id="pone-0095938-g002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0095938.g002
+     </object-id>
+     <label>Figure 2</label> 
+     <title>Scaling relations of leaf mass (&lt;italic&gt;M&lt;/italic&gt;&lt;sub&gt;L&lt;/sub&gt;, Ton/individual) and total biomass (&lt;italic&gt;M&lt;/italic&gt;&lt;sub&gt;T&lt;/sub&gt;, Ton/individual) in conifer forest (CF) and broadleaved forest (BF).</title> 
+     <p>
+      <italic>
+       M
+      </italic><sub>T</sub> includes leaves, branches, stems and roots. The lines are linear RMA fits to the log-transformed data.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.g002" position="float" xlink:type="simple" />
+    </fig>
+    <fig id="pone-0095938-g003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0095938.g003
+     </object-id>
+     <label>Figure 3</label> 
+     <title>Scaling relations of leaf mass (&lt;italic&gt;M&lt;/italic&gt;&lt;sub&gt;L&lt;/sub&gt;, Ton/individual) and total biomass (&lt;italic&gt;M&lt;/italic&gt;&lt;sub&gt;T&lt;/sub&gt;, Ton/individual) in evergreen forest (EF) and deciduous forest (DF).</title> 
+     <p>
+      <italic>
+       M
+      </italic><sub>T</sub> includes leaves, branches, stems and roots. The lines are linear RMA fits to the log-transformed data.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.g003" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0095938-t003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0095938.t003
+     </object-id>
+     <label>Table 3</label> 
+     <title>Allometric scaling relationships of leaf mass and total mass between conifer and broadleaved forests as estimated by standardized Major Axis Estimation and Testing Routines (SMATR).</title> 
+     <alternatives>
+      <graphic id="pone-0095938-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.t003" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Category</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           β
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">SE</td> 
+         <td align="left" rowspan="1" colspan="1">95%CIs</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           K
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">SE</td> 
+         <td align="left" rowspan="1" colspan="1">95%CIs</td> 
+         <td align="left" rowspan="1" colspan="1">R<sup>2</sup></td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>-value</td> 
+         <td align="left" rowspan="1" colspan="1">No.</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">CF</td> 
+         <td align="left" rowspan="1" colspan="1">0.795<sup>b</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.018</td> 
+         <td align="left" rowspan="1" colspan="1">0.770, 0.821</td> 
+         <td align="left" rowspan="1" colspan="1">−1.409</td> 
+         <td align="left" rowspan="1" colspan="1">0.014</td> 
+         <td align="left" rowspan="1" colspan="1">−1.436, −1.383</td> 
+         <td align="left" rowspan="1" colspan="1">0.823</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">645</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">BF</td> 
+         <td align="left" rowspan="1" colspan="1">0.964<sup>a</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.015</td> 
+         <td align="left" rowspan="1" colspan="1">0.932, 0.998</td> 
+         <td align="left" rowspan="1" colspan="1">−1.376</td> 
+         <td align="left" rowspan="1" colspan="1">0.017</td> 
+         <td align="left" rowspan="1" colspan="1">−1.410, −1.341</td> 
+         <td align="left" rowspan="1" colspan="1">0.842</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">530</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt103">
+       <label></label>
+       <p>
+        <italic>
+         β
+        </italic> is the exponent as a consequence of individual 
+        <italic>
+         M
+        </italic><sub>L</sub> (leaf mass, tons/individual) scales with 
+        <italic>
+         M
+        </italic><sub>T</sub> (total mass, tons/individual). 95%CIs and SE are confidence intervals and standard error for 
+        <italic>
+         β
+        </italic> and 
+        <italic>
+         K
+        </italic>, respectively. No. is the number of plots. 
+        <italic>
+         CF
+        </italic> and 
+        <italic>
+         BF
+        </italic> represent Conifer Forest and Broadleaved Forest, respectively.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+    <table-wrap id="pone-0095938-t004" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0095938.t004
+     </object-id>
+     <label>Table 4</label> 
+     <title>Allometric scaling relationships of leaf mass and total mass between evergreen and deciduous forests as estimated by standardized Major Axis Estimation and Testing Routines (SMATR).</title> 
+     <alternatives>
+      <graphic id="pone-0095938-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0095938.t004" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Category</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           β
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">SE</td> 
+         <td align="left" rowspan="1" colspan="1">95%CIs</td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           K
+          </italic></td> 
+         <td align="left" rowspan="1" colspan="1">SE</td> 
+         <td align="left" rowspan="1" colspan="1">95%CIs</td> 
+         <td align="left" rowspan="1" colspan="1">R<sup>2</sup></td> 
+         <td align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic>-value</td> 
+         <td align="left" rowspan="1" colspan="1">No.</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">EF</td> 
+         <td align="left" rowspan="1" colspan="1">0.805<sup>b</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.012</td> 
+         <td align="left" rowspan="1" colspan="1">0.782, 0.828</td> 
+         <td align="left" rowspan="1" colspan="1">−1.427</td> 
+         <td align="left" rowspan="1" colspan="1">0.012</td> 
+         <td align="left" rowspan="1" colspan="1">−1.450, −1.404</td> 
+         <td align="left" rowspan="1" colspan="1">0.824</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">835</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">DF</td> 
+         <td align="left" rowspan="1" colspan="1">1.012<sup>a</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.023</td> 
+         <td align="left" rowspan="1" colspan="1">0.965, 1.061</td> 
+         <td align="left" rowspan="1" colspan="1">−1.326</td> 
+         <td align="left" rowspan="1" colspan="1">0.027</td> 
+         <td align="left" rowspan="1" colspan="1">−1.379, −1.272</td> 
+         <td align="left" rowspan="1" colspan="1">0.802</td> 
+         <td align="left" rowspan="1" colspan="1">0.000</td> 
+         <td align="left" rowspan="1" colspan="1">340</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt104">
+       <label></label>
+       <p>
+        <italic>
+         β
+        </italic> is the exponent as a consequence of individual 
+        <italic>
+         M
+        </italic><sub>L</sub> (leaf mass, tons/individual) scales with 
+        <italic>
+         M
+        </italic><sub>T</sub> (total mass, tons/individual). 95%CIs and SE are confidence intervals and standard error for 
+        <italic>
+         β
+        </italic> and 
+        <italic>
+         K
+        </italic>, respectively. No. is the number of plots. 
+        <italic>
+         EF
+        </italic> and 
+        <italic>
+         DF
+        </italic> represent Evergreen Forest and Deciduous Forest, respectively.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Scaling has been treated as a particularly powerful tool in physical sciences for revealing “emergent” phenomena in complex systems 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist4">
+      [49]
+     </xref>. WBE theory aims to provide the broadest coverage of allometric phenomena with 1/4 rules. West 
+     <italic>
+      et al
+     </italic>. 
+     <xref ref-type="bibr" rid="pone.0095938-West3">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-West4">
+      [10]
+     </xref> and Enquist and Niklas 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist2">
+      [12]
+     </xref> and Niklas 
+     <xref ref-type="bibr" rid="pone.0095938-Niklas1">
+      [4]
+     </xref> predicted that the leaf mass scaled as the 3/4 power of body mass based on an internalized fractal delivery networks for energy and mass transfer. Although their predictions were validated with a global database 
+     <xref ref-type="bibr" rid="pone.0095938-Niklas2">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist3">
+      [14]
+     </xref>, it was not the same case in our results. Our results showed that the biomass partitioning of leaf organs and total plants were much variable across diverse forested biomes. The discrepancy may partly result from the different scale-levels of investigations. The data cited by Enquist 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist3">
+      [14]
+     </xref> spans over 20 orders of magnitude of body size from unicellular to multi-cellular plants. The large-scale process tends to show relative independence of phylogenetic affiliation, growth habit and abiotic environmental features 
+     <xref ref-type="bibr" rid="pone.0095938-Deng3">
+      [50]
+     </xref>. In contrast, the tight clustering of our data covers only three orders of magnitude in standing tree mass 
+     <xref ref-type="bibr" rid="pone.0095938-Luo1">
+      [41]
+     </xref>, which necessarily accentuate the biological or environmental characters in local sample 
+     <xref ref-type="bibr" rid="pone.0095938-Cheng2">
+      [51]
+     </xref>. Despite the potential statistical weakness in local-sample regression 
+     <xref ref-type="bibr" rid="pone.0095938-Niklas2">
+      [11]
+     </xref>, the limitation is of minor relevance to our result, as all the regressions in our report have high r<sup>2</sup> values (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>) 
+     <xref ref-type="bibr" rid="pone.0095938-Price2">
+      [31]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Dodds1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Kozowski2">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-MullerLandau1">
+      [52]
+     </xref>. However, the distribution of the exponents in our result (from 0.655 to 1.016) was similar to the combining 95% CIs of scaling exponents regressed for angiosperms and gymnosperms from the global database (from 0.646 to 0.946) 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist3">
+      [14]
+     </xref>. These ranges were consistent with the intra-specific scaling relationships predicted by Kozlowski 
+     <italic>
+      et al
+     </italic>. 
+     <xref ref-type="bibr" rid="pone.0095938-Kozlowski1">
+      [53]
+     </xref>, which was from 2/3 to 1, addressing the impact of species specification on the biomass partitioning pattern. In fact, WBE has been modified with the consideration of ontogeny and taxonoxy 
+     <xref ref-type="bibr" rid="pone.0095938-Enquist5">
+      [54]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Price4">
+      [55]
+     </xref>. Price et al.
+     <xref ref-type="bibr" rid="pone.0095938-Price1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Price4">
+      [55]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Price5">
+      [56]
+     </xref> suggested a signigicant variability between speceis and predicted that the the scaling exponent should fall along a continuum of variation based on more extension models of WBE, such as leaf venation networks. All these attempts have greatly promoted WBE theories to embrace more varibable emperical findings.</p> 
+    <p>As sessile organisms, plants have to be evolved with highly variable leaf form and function as both cause and consequence for adaptive strategy in response to species variety and environmental heterogeneity. In our research, the differing leaf mass and total mass partitioning relationships within groups indicated that leaf form and leaf habit played essential roles in adjusting the biomass allocation patterns (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>, 
+     <xref ref-type="table" rid="pone-0095938-t003">
+      3
+     </xref>, 
+     <xref ref-type="table" rid="pone-0095938-t004">
+      4
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0095938-g002">
+      2
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0095938-g003">
+      3
+     </xref>). The conifer forests always produced needle-like leaves with lower special leaf area (SLA). SLA is positively correlated with potential photosynthetic rate, decomposition rate, leaf toughness and relative leaf growth rate 
+     <xref ref-type="bibr" rid="pone.0095938-CastroDez1">
+      [57]
+     </xref>. Broadleaves with higher SLA can provide high metabolism (gas change rates) and energy capture (light harvesting and CO<sub>2</sub> fixation) per unit leaf mass 
+     <xref ref-type="bibr" rid="pone.0095938-Powers1">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0095938-Reich3">
+      [46]
+     </xref>. The discrepancy of SLA is consistent with the different resource consumption strategies adapted by CF and BF, which are resource-conserving and resource-demanding, respectively 
+     <xref ref-type="bibr" rid="pone.0095938-Rahman1">
+      [58]
+     </xref>. That may explain why the scaling exponent of leaf mass and total mass was lower in CF than in BF (
+     <xref ref-type="table" rid="pone-0095938-t003">
+      Table 3
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g002">
+      Fig. 2
+     </xref>). In addition, the conifer trees commonly achieve their growing space by more lateral and less vertical oriented expansion, leading to a broom-like crown. In contrast, the broadleaved trees always arrange their leaf area in an umbrella-like shape, which demands more space compared to broom-like crowns 
+     <xref ref-type="bibr" rid="pone.0095938-Pretzsch3">
+      [59]
+     </xref>. The different crown structure challenges the assumption by WBE that leaf area ∝ leaf mass, which may as well cause a failure of universal biomass partitioning. We also observed that the 
+     <italic>
+      M
+     </italic><sub>L</sub> versus 
+     <italic>
+      M
+     </italic><sub>T</sub> scaling exponents were commonly lower in evergreen forest biomes than those in deciduous ones (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>, 
+     <xref ref-type="table" rid="pone-0095938-t004">
+      4
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      Fig. 1
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0095938-g003">
+      3
+     </xref>). These phenomena are consistent with the adaptive strategies of evergreen and deciduous functional types in warm temperate to tropical regions. Evergreen trees always produce leaves that have a longer lifespan, lower SLA and higher tensile strength than deciduous trees. A longer lifespan of leaves requires investment in structural integrity and/or defense against disturbances, especially with resource constraint, such as sun light 
+     <xref ref-type="bibr" rid="pone.0095938-Pan1">
+      [60]
+     </xref>. Thereby the evergreen plant promotes greater allocation of biomass to structural rather than metabolic components 
+     <xref ref-type="bibr" rid="pone.0095938-Reich4">
+      [61]
+     </xref>, resulting in lower scaling exponents of 
+     <italic>
+      M
+     </italic><sub>L</sub> and 
+     <italic>
+      M
+     </italic><sub>T</sub> as plant grows. These phenomena explicate the patterns of leaf mass and total mass partitioning occurring in deciduous and evergreen forests. Noticeably, the scaling exponents of leaf mass and total mass are higher deciduous forests than in evergreen forests, in spite of conifer or broadleaved species (
+     <xref ref-type="table" rid="pone-0095938-t002">
+      Table 2
+     </xref>; 
+     <xref ref-type="fig" rid="pone-0095938-g001">
+      fig. 1
+     </xref>), suggesting the importance of leaf lifespan in determining biomass allocation patterns. Although the forests we selected commonly distribute in temperature or subtropical area, the variation of allocation patterns keeps consistent with forests in tropical dry forests 
+     <xref ref-type="bibr" rid="pone.0095938-Powers1">
+      [39]
+     </xref>. Therefore, the influence of leaf form and functions could not be neglected in metabolism and the construction of biomass allocation patterns.</p> 
+    <p>Forest is the most important carbon pool in terrestrial ecosystem. Given the common perception of leaves as engines of metabolic activity, scaling relation of 
+     <italic>
+      M
+     </italic><sub>L</sub> with 
+     <italic>
+      M
+     </italic><sub>T</sub> performs as a consequence of the synergy between physiological, biophysical and evolutionary constraints on leaf phenotypes of all species in terrestrial ecosystems. In the present research, the majority of regression curves failed the test for slope homogeneity, suggesting there is hardly a uniform pattern of biomass partitioning for the differing forests in terms of leaf form and function. Although the numerical values do not conform to a WBE prediction, a simple right or wrong is not our intention. Our analysis in this research mainly focused on the variations within the sorted forests, while in-depth understanding of mechanism underlying the allometric biomass patterns, especially the relations with leaf morphological, physiological and anatomical traits, will be explored in future work.</p> 
+   </sec>
+   <sec id="s5"> 
+    <title>Conclusions</title> 
+    <p>Biomass partitioning is considered a strong driver of the capacity of plants to take up carbon, water and nutrients for future use. A visual and statistical examination of our collective data from a Chinese forest biomass dataset empirically reveals a striking heterogeneity in scaling laws of 
+     <italic>
+      M
+     </italic><sub>L</sub> with 
+     <italic>
+      M
+     </italic><sub>T</sub> across diverse tree-dominated biomes, between conifer and broadleaved forests, and between evergreen and deciduous forests. The results of the present study highlight the effects of leaf form and function on the behavior of individuals and consequently on populations and communities, questioning the application of unique scaling law of biomass partitioning to all terrestrial plants. Many details of plant morphology, physiology as well as ecology characters (just like light, water and nutrient availability, plant density) can be incorporated into the allometric coefficients to link pattern and process across multiple scales and biological organization. This work may invoke further research about the morphological, physiological, biochemical and phylogenic mechanism underlying scaling.</p> 
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We thank Dr. Tianxiang Luo (Institute of Geographic Sciences and Natural Resources Research, the Chinese Academy of Sciences, Beijing, China) for providing valuable information for this study. We thank Dr. Xiaowei Wang, Dr. Yanyuan Bai and Dr. Weiping Zhang for comments and suggestions in organizing this manuscript. Finally, we are grateful to the anonymous reviewers for their helpful comments.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0095938-Brown1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gillooly
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         AP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Savage
+        </surname>
+        <given-names>
+         VM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         West
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Toward a metabolic theory of ecology
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        1771
+       </fpage>–
+       <lpage>
+        1789
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Enquist1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Economo
+        </surname>
+        <given-names>
+         EP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huxman
+        </surname>
+        <given-names>
+         TE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         AP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ignace
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Scaling metabolism from organisms to ecosystems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        423
+       </volume>: 
+       <fpage>
+        639
+       </fpage>–
+       <lpage>
+        642
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Denny1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Denny
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Benedetti-Cecchi
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Scaling up in ecology: mechanistic approaches
+       </article-title>. 
+       <source>Annu Rev Ecol Evol Syst 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Niklas1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Plant allometry: is there a grand unifying theory?
+       </article-title> 
+       <source>Biol Rev 
+       <volume>
+        79
+       </volume>: 
+       <fpage>
+        871
+       </fpage>–
+       <lpage>
+        889
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Hui1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hui
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jackson
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Geographical and interannual variability in biomass partitioning in grassland ecosystems: a synthesis of field data
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        169
+       </volume>: 
+       <fpage>
+        85
+       </fpage>–
+       <lpage>
+        93
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Poorter1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Poorter
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oleksyn
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poot
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Biomass allocation to leaves, stems and roots: meta-analyses of interspecific variation and environmental control
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        193
+       </volume>: 
+       <fpage>
+        30
+       </fpage>–
+       <lpage>
+        50
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-West1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         West
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        A general model for the structure, function, and allometry of plant vascular systems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        400
+       </volume>: 
+       <fpage>
+        664
+       </fpage>–
+       <lpage>
+        667
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-West2">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         West
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Life's universal scaling laws
+       </article-title>. 
+       <source>Phys Today 
+       <volume>
+        57
+       </volume>: 
+       <fpage>
+        36
+       </fpage>–
+       <lpage>
+        43
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-West3">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         West
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        A general model for the origin of allometric scaling laws in biology
+       </article-title>. 
+       <source>Science 
+       <volume>
+        276
+       </volume>: 
+       <fpage>
+        122
+       </fpage>–
+       <lpage>
+        126
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-West4">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         West
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        The fourth dimension of life: fractal geometry and allometric scaling of organisms
+       </article-title>. 
+       <source>Science 
+       <volume>
+        284
+       </volume>: 
+       <fpage>
+        1677
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Niklas2">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Invariant scaling relationships for interspecific plant biomass production rates and body size
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        98
+       </volume>: 
+       <fpage>
+        2922
+       </fpage>–
+       <lpage>
+        2927
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Enquist2">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Global allocation rules for patterns of biomass partitioning in seed plants
+       </article-title>. 
+       <source>Science 
+       <volume>
+        295
+       </volume>: 
+       <fpage>
+        1517
+       </fpage>–
+       <lpage>
+        1520
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Cannell1">
+      <label>13</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Cannell MG (1982) World forest biomass and primary production data: Academic Press London.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Enquist3">
+      <label>14</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Enquist BJ (2003) Scaling the macroecological and evolutionary implications of size and metabolism within and across plant taxa. In: Blackburn TM, Gaston KJ, editors. Macroecology: Concepts and Consequences. London: Cambridge University Press. pp. 321–341.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Price1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Scaling mass and morphology in leaves: an extension of the WBE model
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        1132
+       </fpage>–
+       <lpage>
+        1141
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Li1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         HT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Han
+        </surname>
+        <given-names>
+         XG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Lack of evidence for 3/4 scaling of metabolism in terrestrial plants
+       </article-title>. 
+       <source>J Integr Plant Biol 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        1173
+       </fpage>–
+       <lpage>
+        1183
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Reich1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tjoelker
+        </surname>
+        <given-names>
+         MG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Machado
+        </surname>
+        <given-names>
+         J-L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oleksyn
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Universal scaling of respiratory metabolism, size and nitrogen in plants
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        439
+       </volume>: 
+       <fpage>
+        457
+       </fpage>–
+       <lpage>
+        461
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Finkel1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Finkel
+        </surname>
+        <given-names>
+         ZV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Irwin
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schofield
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Resource limitation alters the 3/4 size scaling of metabolic rates in phytoplankton
+       </article-title>. 
+       <source>Mar Ecol Prog Ser 
+       <volume>
+        273
+       </volume>: 
+       <fpage>
+        269
+       </fpage>–
+       <lpage>
+        279
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Reich2">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tjoelker
+        </surname>
+        <given-names>
+         MG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Machado
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oleksyn
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Universal scaling of respiratory metabolism, size and nitrogen in plants
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        439
+       </volume>: 
+       <fpage>
+        457
+       </fpage>–
+       <lpage>
+        461
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Chen1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         BL
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Testing the allometric scaling relationships with seedlings of two tree species
+       </article-title>. 
+       <source>Acta Oecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        125
+       </fpage>–
+       <lpage>
+        129
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Deng1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Deng
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         GX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         ZL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Trade-offs between the metabolic rate and population density of plants
+       </article-title>. 
+       <source>PloS ONE 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        e1799
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Pretzsch1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pretzsch
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Species-specific allometric scaling under self-thinning: evidence from long-term plots in forest stands
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        146
+       </volume>: 
+       <fpage>
+        572
+       </fpage>–
+       <lpage>
+        583
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Pretzsch2">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pretzsch
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mette
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Linking stand-level self-thinning allometry to the tree-level leaf biomass allometry
+       </article-title>. 
+       <source>Trees 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        611
+       </fpage>–
+       <lpage>
+        622
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Cheng1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cheng
+        </surname>
+        <given-names>
+         DL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhong
+        </surname>
+        <given-names>
+         QL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         GX
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Scaling relationship between tree respiration rates and biomass
+       </article-title>. 
+       <source>Biol Lett 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        715
+       </fpage>–
+       <lpage>
+        717
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Dai1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dai
+        </surname>
+        <given-names>
+         XF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         WP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bai
+        </surname>
+        <given-names>
+         YY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Plant height-crown radius and canopy coverage-density relationships determine above-ground biomass-density relationship in stressful environments
+       </article-title>. 
+       <source>Biol Lett 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        571
+       </fpage>–
+       <lpage>
+        573
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Deng2">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Deng
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         GX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morris
+        </surname>
+        <given-names>
+         EC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname>
+        <given-names>
+         XP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         DX
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Plant mass-density relationship along a moisture gradient in north-west China
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        94
+       </volume>: 
+       <fpage>
+        953
+       </fpage>–
+       <lpage>
+        958
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Peng1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peng
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sun
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Ontogenetic shift in the scaling of dark respiration with whole-plant mass in seven shrub species
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        502
+       </fpage>–
+       <lpage>
+        512
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Mori1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mori
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yamaji
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ishida
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prokushkin
+        </surname>
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Masyagina
+        </surname>
+        <given-names>
+         OV
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Mixed-power scaling of whole-plant respiration from seedlings to giant trees
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        107
+       </volume>: 
+       <fpage>
+        1447
+       </fpage>–
+       <lpage>
+        1451
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Coomes1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Coomes
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Challenges to the generality of WBE theory
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        593
+       </fpage>–
+       <lpage>
+        596
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Isaac1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Isaac
+        </surname>
+        <given-names>
+         NJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carbone
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Why are metabolic scaling exponents so controversial? Quantifying variance and testing hypotheses
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        728
+       </fpage>–
+       <lpage>
+        735
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Price2">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weitz
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Savage
+        </surname>
+        <given-names>
+         VM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stegen
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clarke
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Testing the metabolic theory of ecology
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        1465
+       </fpage>–
+       <lpage>
+        1474
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Dodds1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dodds
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rothman
+        </surname>
+        <given-names>
+         DH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weitz
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Re-examination of the “3/4-law” of metabolism
+       </article-title>. 
+       <source>J Theor Biol 
+       <volume>
+        209
+       </volume>: 
+       <fpage>
+        9
+       </fpage>–
+       <lpage>
+        27
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Kozowski1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kozłowski
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Konarzewski
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Is West, Brown and Enquist's model of allometric scaling mathematically correct and biologically relevant?
+       </article-title> 
+       <source>Funct Ecol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        283
+       </fpage>–
+       <lpage>
+        289
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Kozowski2">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kozłowski
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Konarzewski
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        West, Brown and Enquist's model of allometric scaling again: the same questions remain
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        739
+       </fpage>–
+       <lpage>
+        743
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Glazier1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Glazier
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        The 3/4-power law is not universal: evolution of isometric, ontogenetic metabolic scaling in pelagic animals
+       </article-title>. 
+       <source>Bioscience 
+       <volume>
+        56
+       </volume>: 
+       <fpage>
+        325
+       </fpage>–
+       <lpage>
+        332
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Price3">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Scaling of mass and morphology in plants with minimal branching: an extension of the WBE model
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        11
+       </fpage>–
+       <lpage>
+        20
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Wang1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Biomass allometric equations for 10 co-occurring tree species in Chinese temperate forests
+       </article-title>. 
+       <source>For Ecol Manage 
+       <volume>
+        222
+       </volume>: 
+       <fpage>
+        9
+       </fpage>–
+       <lpage>
+        16
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-BondLamberty1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bond-Lamberty
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gower
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Norman
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Leaf area dynamics of a boreal black spruce fire chronosequence
+       </article-title>. 
+       <source>Tree physiol 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        993
+       </fpage>–
+       <lpage>
+        1001
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Powers1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Powers
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tiffin
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Plant functional type classifications in tropical dry forests in Costa Rica: leaf habit versus taxonomic approaches
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        927
+       </fpage>–
+       <lpage>
+        936
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Lin1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berger
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grimm
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huth
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weiner
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Plant interactions alter the predictions of metabolic scaling theory
+       </article-title>. 
+       <source>PloS ONE 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        e57612
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Luo1">
+      <label>41</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Luo TX (1996) Patterns of biological production and its mathematical models for main forest types of China (in Chinese with English abstract). PhD Dissertation. Committee of SynthesisInvestigation of Natural Resources. Chinese Academy of Sciences, Beijing.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Ni1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ni
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         XS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Scurlock
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Synthesis and analysis of biomass and net primary productivity in Chinese forests
+       </article-title>. 
+       <source>Ann For Sci 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        351
+       </fpage>–
+       <lpage>
+        384
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Zhang1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         WP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bai
+        </surname>
+        <given-names>
+         YY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         GX
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        The difference between above-and below-ground self-thinning lines in forest communities
+       </article-title>. 
+       <source>Ecol Res 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        819
+       </fpage>–
+       <lpage>
+        825
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Luo2">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         TX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhu
+        </surname>
+        <given-names>
+         HZ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daly
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Correlations between net primary productivity and foliar carbon isotope ratio across a Tibetan ecosystem transect
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        526
+       </fpage>–
+       <lpage>
+        538
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Luo3">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         TX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         WH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhu
+        </surname>
+        <given-names>
+         HZ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Estimated biomass and productivity of natural vegetation on the Tibetan Plateau
+       </article-title>. 
+       <source>Ecol Appl 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        980
+       </fpage>–
+       <lpage>
+        997
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Reich3">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oleksyn
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         IJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hedin
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Evidence of a general 2/3-power law of scaling leaf nitrogen to phosphorus among major plant groups and biomes
+       </article-title>. 
+       <source>Proc R Soc B: Biol Sci 
+       <volume>
+        277
+       </volume>: 
+       <fpage>
+        877
+       </fpage>–
+       <lpage>
+        883
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Niklas3">
+      <label>47</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Niklas KJ (1994) Plant allometry: the scaling of form and process. Chicago: University of Chicago Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Falster1">
+      <label>48</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Falster D, Warton D, Wright I (2006) User's guide to SMATR: standardised major axis tests and routines version 2.0, copyright 2006. 
+       <ext-link ext-link-type="uri" xlink:href="http://www.bio.mq.edu.au/ecology/SMATR/" xlink:type="simple">
+        http://www.bio.mq.edu.au/ecology/SMATR/
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Enquist4">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tiffney
+        </surname>
+        <given-names>
+         BH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Metabolic scaling and the evolutionary dynamics of plant size, form, and diversity: toward a synthesis of ecology, evolution, and paleontology
+       </article-title>. 
+       <source>Int J Plant Sci 
+       <volume>
+        168
+       </volume>: 
+       <fpage>
+        729
+       </fpage>–
+       <lpage>
+        749
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Deng3">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Deng
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zuo
+        </surname>
+        <given-names>
+         WY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         ZQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fan
+        </surname>
+        <given-names>
+         ZX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ji
+        </surname>
+        <given-names>
+         MF
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Insights into plant size-density relationships from models and agricultural crops
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        8600
+       </fpage>–
+       <lpage>
+        8605
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Cheng2">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cheng
+        </surname>
+        <given-names>
+         DL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Niklas
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Above-and below-ground biomass relationships across 1534 forested communities
+       </article-title>. 
+       <source>Ann Bot 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        95
+       </fpage>–
+       <lpage>
+        102
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-MullerLandau1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Muller-Landau
+        </surname>
+        <given-names>
+         HC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Condit
+        </surname>
+        <given-names>
+         RS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chave
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thomas
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohlman
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Testing metabolic ecology theory for allometric scaling of tree size, growth and mortality in tropical forests
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        575
+       </fpage>–
+       <lpage>
+        588
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Kozlowski1">
+      <label>53</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Kozlowski J, Konarzewski M, Gawelczyk AT (2003) Intraspecific body size optimization produces interspecific allometries. In: Blackburn TM, Gaston KJ, editors. Macroecology: Concepts and Consequences. London: Cambridge University Press. pp. 299–320.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Enquist5">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         West
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Extensions and evaluations of a general quantitative theory of forest structure and dynamics
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        106
+       </volume>: 
+       <fpage>
+        7046
+       </fpage>–
+       <lpage>
+        7051
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Price4">
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Scaling mass and morphology in leaves: an extension of the WBE model
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        1132
+       </fpage>–
+       <lpage>
+        1141
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Price5">
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wing
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weitz
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Scaling and structure of dicotyledonous leaf venation networks
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        87
+       </fpage>–
+       <lpage>
+        95
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-CastroDez1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Castro-Díez
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Puyravaud
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cornelissen
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Leaf structure and anatomy as related to leaf mass per area variation in seedlings of a wide range of woody plant species and types
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        124
+       </volume>: 
+       <fpage>
+        476
+       </fpage>–
+       <lpage>
+        486
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Rahman1">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rahman
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tsukamoto
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Leaf traits, litter decomposability and forest floor dynamics in an evergreen- and a deciduous-broadleaved forest in warm temperate Japan
+       </article-title>. 
+       <source>Forestry 
+       <volume>
+        86
+       </volume>: 
+       <fpage>
+        441
+       </fpage>–
+       <lpage>
+        451
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Pretzsch3">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pretzsch
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dieler
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Evidence of variant intra-and interspecific scaling of tree crown structure and relevance for allometric theory
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        169
+       </volume>: 
+       <fpage>
+        637
+       </fpage>–
+       <lpage>
+        649
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Pan1">
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pan
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         WP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xu
+        </surname>
+        <given-names>
+         SS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        The Scaling Relationships between Leaf Mass and Leaf Area of Vascular Plant Species Change with Altitude
+       </article-title>. 
+       <source>PloS ONE 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        e76872
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0095938-Reich4">
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ellsworth
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walters
+        </surname>
+        <given-names>
+         MB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vose
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gresham
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Generality of leaf trait relationships: a test across six biomes
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        80
+       </volume>: 
+       <fpage>
+        1955
+       </fpage>–
+       <lpage>
+        1969
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

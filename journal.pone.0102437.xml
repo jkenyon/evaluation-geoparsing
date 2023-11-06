@@ -1,0 +1,2695 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-49997
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0102437
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Biogeography
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem engineering
+          </subject>
+          <subject>
+           Ecosystem functioning
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Industrial ecology
+         </subject>
+         <subject>
+          Spatial and landscape ecology
+         </subject>
+         <subject>
+          Urban ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Computer and information sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geoinformatics
+        </subject>
+        <subj-group>
+         <subject>
+          Spatial analysis
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geography
+        </subject>
+        <subj-group>
+         <subject>
+          Human geography
+         </subject>
+         <subj-group>
+          <subject>
+           Cultural geography
+          </subject>
+          <subject>
+           Social geography
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Conservation science
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Environmental protection
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Nature-society interactions
+        </subject>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Combining Aesthetic with Ecological Values for Landscape Sustainability
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Assessing Landscape Values for Sustainability
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         Dewei
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         Tao
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lin
+        </surname>
+        <given-names>
+         Tao
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Qiu
+        </surname>
+        <given-names>
+         Quanyi
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         Yunjian
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Key Lab of Urban Environment and Health, Institute of Urban Environment, Chinese Academy of Sciences, Xiamen, China
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Xiamen Key Lab of Urban Metabolism, Xiamen, China
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bond-Lamberty
+        </surname>
+        <given-names>
+         Ben
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       DOE Pacific Northwest National Laboratory, United States of America
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        tluo@iue.ac.cn
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: DY T. Luo. Performed the experiments: DY T. Luo. Analyzed the data: DY. Contributed reagents/materials/analysis tools: DY T. Luo T. Lin QQ YL. Wrote the paper: DY.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       22
+      </day>
+      <month>
+       7
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      7
+     </issue> 
+     <elocation-id>
+      e102437
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        27
+       </day>
+       <month>
+        11
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        19
+       </day>
+       <month>
+        6
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Yang et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Humans receive multiple benefits from various landscapes that foster ecological services and aesthetic attractiveness. In this study, a hybrid framework was proposed to evaluate ecological and aesthetic values of five landscape types in Houguanhu Region of central China. Data from the public aesthetic survey and professional ecological assessment were converted into a two-dimensional coordinate system and distribution maps of landscape values. Results showed that natural landscapes (i.e. water body and forest) contributed positively more to both aesthetic and ecological values than semi-natural and human-dominated landscapes (i.e. farmland and non-ecological land). The distribution maps of landscape values indicated that the aesthetic, ecological and integrated landscape values were significantly associated with landscape attributes and human activity intensity. To combine aesthetic preferences with ecological services, the methods (i.e. field survey, landscape value coefficients, normalized method, a two-dimensional coordinate system, and landscape value distribution maps) were employed in landscape assessment. Our results could facilitate to identify the underlying structure-function-value chain, and also improve the understanding of multiple functions in landscape planning. The situation context could also be emphasized to bring ecological and aesthetic goals into better alignment.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This study was supported by the National Natural Science Foundation of China (41371535, 41001098, 41371192 and 40971111) and the Fujian Provincial S&amp;T Programme (2013Y0083 and 2011J01280). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="8" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Various landscapes continually provide human society with multiple benefits, which are derived from ecological services and aesthetic attractiveness 
+     <xref ref-type="bibr" rid="pone.0102437-Daniel1">
+      [1]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0102437-Luo1">
+      [5]
+     </xref>. However, few researches gave consideration to aesthetic preferences in ecological assessment of landscapes 
+     <xref ref-type="bibr" rid="pone.0102437-Wu1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Musacchio1">
+      [7]
+     </xref>, and thus efforts towards landscape sustainability encounter the dilemma of making eco-aesthetically appealing landscapes 
+     <xref ref-type="bibr" rid="pone.0102437-Parsons1">
+      [8]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0102437-Porto1">
+      [12]
+     </xref>.</p> 
+    <p>Studies on landscape aesthetics have revealed two contrasting paradigms, which were either from an objective perspective (intrinsic attribute of the landscape) or a subjective point of view (human preferences) 
+     <xref ref-type="bibr" rid="pone.0102437-Daniel1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Frank1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Lothian1">
+      [14]
+     </xref>. The employed methods varied from formalized indicators to aesthetic surveys 
+     <xref ref-type="bibr" rid="pone.0102437-Frank1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Roth1">
+      [15]
+     </xref>. In the urban and regional planning, it still remains challengeable to construct eco-aesthetically appealing landscapes that meet multiple human needs 
+     <xref ref-type="bibr" rid="pone.0102437-Musacchio1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Naveh1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Wu2">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Forman1">
+      [16]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0102437-Mikusiski1">
+      [19]
+     </xref>.</p> 
+    <p>In attempt to combine aesthetic with ecological values, a number of models and/or indicators have been employed in landscape assessment 
+     <xref ref-type="bibr" rid="pone.0102437-Musacchio1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Junker1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Norton1">
+      [21]
+     </xref>. Some studies have found that people appreciate aesthetically appealing landscapes that tend to be natural in ecological assessment 
+     <xref ref-type="bibr" rid="pone.0102437-Daniel1">
+      [1]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0102437-Tyrvinen1">
+      [3]
+     </xref>, while some studies have indicated that ecologically sound landscapes may not be aesthetically pleasing 
+     <xref ref-type="bibr" rid="pone.0102437-Gobster1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Hands1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Williams1">
+      [23]
+     </xref>. This contradiction poses a challenge for efforts to combine aesthetic preferences and ecological service using a reliable assessment framework 
+     <xref ref-type="bibr" rid="pone.0102437-Musacchio1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Fry1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Hale1">
+      [25]
+     </xref>. Moreover, the scale and spatial patterns of various landscape types need to be taken into account for both ecologically vital and aesthetically attractive.</p> 
+    <p>Land use/cover change is a key socio-economic footprint of human activity and potentially affects aesthetic and ecological functions of landscapes 
+     <xref ref-type="bibr" rid="pone.0102437-Fry1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Bastian1">
+      [26]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Zhao1">
+      [27]
+     </xref>. The ecological services vary with different land-use types 
+     <xref ref-type="bibr" rid="pone.0102437-Costanza1">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Xie1">
+      [29]
+     </xref>, while the spatial patterns of land-use types give rise to various aesthetic experiences. Thus, to what extent do landscape types meet human needs in terms of ecological services and aesthetic attractiveness 
+     <xref ref-type="bibr" rid="pone.0102437-Tyrvinen1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Mozingo1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Williams1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Nassauer2">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Purcell1">
+      [31]
+     </xref>? This would be useful to determine what measures of both ecological and aesthetic landscapes are potentially positive 
+     <xref ref-type="bibr" rid="pone.0102437-Junker1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0102437-Hale1">
+      [25]
+     </xref>.</p> 
+    <p>Therefore, the aims of the present study included that: (1) a hybrid framework, which combine aesthetic and ecological landscape values, were proposed to assess integrated functional performances of different landscape types; (2) the framework was used to examine integrated functional performances and interrelationships of different landscape types in the Houguanhu Region of Wuhan City, central China; and (3) potential strategies for landscape planning were discussed. Our results could encourage an attempt of interdisciplinary research in a shared vision of landscape sustainability.</p> 
+   </sec>
+   <sec id="s2" sec-type="methods"> 
+    <title>Methodology</title> 
+    <sec id="s2a"> 
+     <title>Case study</title> 
+     <p>The Houguanhu Region (113°41′–114°13′E, 30°15′–30°41′N) lies within the southwestern Wuhan city of Hubei Province in central China. Houguanhu Region covers an area of approximately 148.18 km<sup>2</sup>, and is mainly comprised of lakes and flatlands with a height of less than 100 m. The average annual temperature is 16.5°C and the total annual precipitation is 1,100–1,450 mm. Houguanhu Region has a population of approximately 63,300 people living in 78 settlements, and 79% of residents are classified as rural population. Regional planning for Houguanhu currently classifies it as an emerging “Ecological Livable Area” and “Tourist Resort”, and this region is experiencing rapid changes in landscape structures 
+      <xref ref-type="bibr" rid="pone.0102437-Luo1">
+       [5]
+      </xref>.</p> 
+     <p>The Houguanhu Region has a variety of diverse landscape resources and a rich historical culture. Five general landscape types, consisting of forest, farmland, grassland, water body and non-ecological land (i.e., desert in 
+      <xref ref-type="bibr" rid="pone.0102437-Costanza1">
+       [28]
+      </xref>), are shown in 
+      <xref ref-type="fig" rid="pone-0102437-g001">
+       Figure 1
+      </xref>, where the classification criteria follow Costanza et al. 
+      <xref ref-type="bibr" rid="pone.0102437-Costanza1">
+       [28]
+      </xref>. Non-ecological land includes rural settlement, built-up areas, roads, mines, industry zones and historic areas. The water body covers 30.56% of the total area of the Houguanhu Region, where the Zhiyin Lake and the Houguan Lake are the two largest lakes in this region. Farmland and scattered non-ecological land cover 46.75% and 15.98% of total area, respectively. Forest mainly in hilly areas and scattered grasslands occupy 0.21% of the total area. Forest and grasslands are mainly distributed in the south region, while farmland and non-ecological land are scattered across the entire area. The water body is mainly located in the central region.</p> 
+     <fig id="pone-0102437-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Landscape type map in Houguanhu Region.</title> 
+      <p>This Figure and following 
+       <xref ref-type="fig" rid="pone-0102437-g003">
+        Figure 3a
+       </xref> are redrawn according to Luo et al. 
+       <xref ref-type="bibr" rid="pone.0102437-Luo1">
+        [5]
+       </xref> and Yang et al. 
+       <xref ref-type="bibr" rid="pone.0102437-Yang1">
+        [32]
+       </xref>.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>In recent years, diverse landscapes have attracted a large number of tourists from outside the region. At the same time, however, rapid population growth and urban expansion have exerted intensive pressures on the natural environment and landscape. In response, since 2009 the local government has developed a series of regional landscape planning for sustainable development 
+      <xref ref-type="bibr" rid="pone.0102437-Luo1">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Yang1">
+       [32]
+      </xref>. Since cultural functions of landscapes usually receive less attention in landscape planning in China, this study may also benefit ongoing landscape planning in other similar regions.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Field survey</title> 
+     <p>The perception-based aesthetic landscape value evaluation method 
+      <xref ref-type="bibr" rid="pone.0102437-Daniel1">
+       [1]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-VonHaaren1">
+       [33]
+      </xref> was employed in this study. A revised survey instrument of Von Haaren 
+      <xref ref-type="bibr" rid="pone.0102437-VonHaaren1">
+       [33]
+      </xref> was used to evaluate the landscape aesthetic value. The survey instrument consists of basic information, an aesthetic landscape value score and a viewshed map. Basic information (i.e. survey date, survey site coordinate, and site description) provided a landscape background for the 146 sample sites. The aesthetic landscape value score (
+      <italic>
+       Vt = V1−V2+V3
+      </italic>) for each site included a positive score (
+      <italic>
+       V1
+      </italic>), negative score (
+      <italic>
+       V2
+      </italic>), and positive impact score of surrounding landscapes (
+      <italic>
+       V3
+      </italic>). In each site, the biophysical landscape components (e.g., lakes, grassland, forest, hedgerows, electricity pylons, mines, and unsightly isolated buildings) were considered in the evaluation process. Landscape features (e.g., naturalness, openness, uniqueness, diversity, accessibility and visual comfort) also contributed to evaluation scores. The aesthetic landscape value was coded from 1 (lowest) to 5 (highest) on a 5-point rating scale. The viewshed map was sketched on each site for further revision using ArcGIS 9.2. Each viewshed map would be assigned an aesthetic landscape value score.</p> 
+     <p>A total of 146 grid samples of 1 km<sup>2</sup> were established within the study area using the uniform-grid-square sampling method. Basic maps (e.g., topographical map, landscape type map, administrative map) and socio-economic data (e.g., regional planning documents, and regional eco-economic statistic materials) were collected for spatial analysis using ArcGIS 9.2 tools.</p> 
+     <p>The site survey of aesthetic landscape value was conducted from June 9th to 15th, 2010. Six surveyors from Institute of Urban Environment participated in a 3-hour field training program, and then conducted the formal survey as three two-person groups. During the survey, surveyors compared each other’s score and discussed until an agreement on a final score. After a 7-day survey, 141 valid viewshed maps with corresponding aesthetic scores were obtained. Blind viewshed areas without field aesthetic scores and five invalid survey samples were given aesthetic scores using spatial interpolation and joint method in ArcGIS 9.2. Consequently, a distribution map of aesthetic landscape value with 146 assigned samples was established. In this map, the study area was divided into graded aesthetic landscape value units based on a 5-point rating scale, with 5 being the highest value. The higher value will be more aesthetic attractive. Yang et al. 
+      <xref ref-type="bibr" rid="pone.0102437-Yang1">
+       [32]
+      </xref> discussed in detail the survey instrument and data processes.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Aesthetic landscape value coefficients</title> 
+     <p>The landscape type map and the aesthetic landscape value distribution map were overlaid in ArcGIS 9.2 to identify the aesthetic value of different landscape types. Then the area of each landscape type was extracted for each graded aesthetic landscape value region. The aesthetic landscape value coefficient, which refers to the aesthetic landscape value of unit area per landscape type, was calculated as:
+      <disp-formula id="pone.0102437.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0102437.e001" xlink:type="simple" />
+       <label>(1)</label>
+      </disp-formula>Where 
+      <italic>
+       Q
+       <sub>i</sub>
+      </italic> is the aesthetic landscape value coefficient (point/hm<sup>2</sup>) of the 
+      <italic>
+       i
+      </italic>th land type (forest, grassland, farmland, water body, and non-ecological land); 
+      <italic>
+       P
+       <sub>i</sub>
+      </italic> is the aesthetic landscape value of the 
+      <italic>
+       i
+      </italic>th landscape types; 
+      <italic>
+       M
+       <sub>i</sub>
+      </italic> is the aesthetic landscape value score of the 
+      <italic>
+       i
+      </italic>th landscape type; 
+      <italic>
+       N
+       <sub>i</sub>
+      </italic> is the area of the 
+      <italic>
+       i
+      </italic>th landscape type in 5-grade aesthetic landscape value units; 
+      <italic>
+       A
+       <sub>i</sub>
+      </italic> is total area of the 
+      <italic>
+       i
+      </italic>th landscape type.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Ecological landscape value coefficients</title> 
+     <p>According to the ecological service valuation framework of Costanza et al. 
+      <xref ref-type="bibr" rid="pone.0102437-Costanza1">
+       [28]
+      </xref>, ecological service values of Chinese terrestrial ecosystems were evaluated by export judgment, which were developed by Xie et al. 
+      <xref ref-type="bibr" rid="pone.0102437-Xie1">
+       [29]
+      </xref>. Ecological landscape value coefficients were calculated for five landscape types based on the sum of the eight ecosystem service values (see 
+      <xref ref-type="table" rid="pone-0102437-t001">
+       Table 1
+      </xref>). The ecological landscape value coefficients were added up, where the recreation and cultural service were excluded, because they were inappropriate to simply add and subtract when comparing with monetary value. Based on the ecological value coefficients and the areas of the five landscape types, an ecological landscape value distribution map was calculated using 
+      <xref ref-type="disp-formula" rid="pone.0102437.e002">
+       Equation (2
+      </xref>):
+      <disp-formula id="pone.0102437.e002">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0102437.e002" xlink:type="simple" />
+       <label>(2)</label>
+      </disp-formula>Where 
+      <italic>
+       H
+       <sub>i</sub>
+      </italic> is the ecological landscape value ($/hm<sup>2</sup>) of the 
+      <italic>
+       i
+      </italic>th landscape type (forest, grassland, farmland, water body and non-ecological land); 
+      <italic>
+       U
+       <sub>i</sub>
+      </italic> is the ecological landscape value of the 
+      <italic>
+       i
+      </italic>th landscape type on a scale of 1–5; 
+      <italic>
+       V
+       <sub>i</sub>
+      </italic> is the area of the 
+      <italic>
+       i
+      </italic>th landscape type.</p> 
+     <table-wrap id="pone-0102437-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Ecosystem service values of Chinese terrestrial ecosystems (based on Xie et al. &lt;xref ref-type="bibr" rid="pone.0102437-Xie1"&gt;[29]&lt;/xref&gt; and ecological landscape value coefficients of the five landscape types.</title> 
+      <alternatives>
+       <graphic id="pone-0102437-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ecosystemservices</td> 
+          <td align="left" rowspan="1" colspan="1">Forest ($/hm<sup>2</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">Grassland ($/hm<sup>2</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">Farmland ($/hm<sup>2</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">Water body ($/hm<sup>2</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">Non-ecological land ($/hm<sup>2</sup>)</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Atmospheric regulation</td> 
+          <td align="left" rowspan="1" colspan="1">463.62</td> 
+          <td align="left" rowspan="1" colspan="1">105.97</td> 
+          <td align="left" rowspan="1" colspan="1">66.23</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Climate regulation</td> 
+          <td align="left" rowspan="1" colspan="1">357.65</td> 
+          <td align="left" rowspan="1" colspan="1">117.12</td> 
+          <td align="left" rowspan="1" colspan="1">115.81</td> 
+          <td align="left" rowspan="1" colspan="1">59.85</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Water conservation</td> 
+          <td align="left" rowspan="1" colspan="1">423.88</td> 
+          <td align="left" rowspan="1" colspan="1">104.10</td> 
+          <td align="left" rowspan="1" colspan="1">78.07</td> 
+          <td align="left" rowspan="1" colspan="1">2651.94</td> 
+          <td align="left" rowspan="1" colspan="1">3.90</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Soil formation and protection</td> 
+          <td align="left" rowspan="1" colspan="1">516.60</td> 
+          <td align="left" rowspan="1" colspan="1">253.75</td> 
+          <td align="left" rowspan="1" colspan="1">189.99</td> 
+          <td align="left" rowspan="1" colspan="1">1.30</td> 
+          <td align="left" rowspan="1" colspan="1">2.60</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Waste treatment</td> 
+          <td align="left" rowspan="1" colspan="1">173.53</td> 
+          <td align="left" rowspan="1" colspan="1">170.47</td> 
+          <td align="left" rowspan="1" colspan="1">213.41</td> 
+          <td align="left" rowspan="1" colspan="1">2365.68</td> 
+          <td align="left" rowspan="1" colspan="1">1.30</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Biodiversity conservation</td> 
+          <td align="left" rowspan="1" colspan="1">431.83</td> 
+          <td align="left" rowspan="1" colspan="1">141.84</td> 
+          <td align="left" rowspan="1" colspan="1">92.38</td> 
+          <td align="left" rowspan="1" colspan="1">324.01</td> 
+          <td align="left" rowspan="1" colspan="1">44.24</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Food production</td> 
+          <td align="left" rowspan="1" colspan="1">13.25</td> 
+          <td align="left" rowspan="1" colspan="1">39.04</td> 
+          <td align="left" rowspan="1" colspan="1">130.13</td> 
+          <td align="left" rowspan="1" colspan="1">13.01</td> 
+          <td align="left" rowspan="1" colspan="1">1.29</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Raw materials</td> 
+          <td align="left" rowspan="1" colspan="1">344.40</td> 
+          <td align="left" rowspan="1" colspan="1">6.50</td> 
+          <td align="left" rowspan="1" colspan="1">13.01</td> 
+          <td align="left" rowspan="1" colspan="1">1.29</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ecological landscape value coefficients</td> 
+          <td align="left" rowspan="1" colspan="1">2724.76</td> 
+          <td align="left" rowspan="1" colspan="1">938.80</td> 
+          <td align="left" rowspan="1" colspan="1">899.04</td> 
+          <td align="left" rowspan="1" colspan="1">5417.10</td> 
+          <td align="left" rowspan="1" colspan="1">53.33</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+    </sec>
+    <sec id="s2e"> 
+     <title>Integrated evaluation of landscape values</title> 
+     <p>The coefficients of ecological and aesthetic landscape value were normalized to evaluate integrated landscape values. The ecological and aesthetic landscape value coefficients of five landscape types were converted into values from −2 to 2 using 
+      <xref ref-type="disp-formula" rid="pone.0102437.e003">
+       Equation (3
+      </xref>):
+      <disp-formula id="pone.0102437.e003">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0102437.e003" xlink:type="simple" />
+       <label>(3)</label>
+      </disp-formula>Where 
+      <italic>
+       K
+      </italic> is the normalized aesthetic or normalized ecological landscape value coefficient of each landscape type; 
+      <italic>
+       X
+      </italic> is the aesthetic or ecological landscape value coefficient of each landscape type; 
+      <italic>
+       X
+       <sub>max</sub>
+      </italic> and 
+      <italic>
+       X
+       <sub>mi</sub>
+      </italic><sub>n</sub> are the maximum and minimum value of the aesthetic or ecological landscape value coefficient.</p> 
+     <p>We assumed that the aesthetic and ecological landscape values contributed equally to the integrated landscape value. In order to quantify the functional roles of different landscape types in the integrated landscape values, the two normalized coefficients were visually displayed in a two-dimension coordinate system. The distribution maps of the aesthetic and ecological landscape value were overlapped into an integrated one of landscape value in ArcGIS 9.2, which were used to identify spatial characteristics of landscapes.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Landscape value coefficients</title> 
+     <p>Functional performances and value contribution of the five landscape types were quantified using a 5-point Likert Scale with 5 being the highest value. Aesthetic landscape value per unit area was in decreasing order: grassland, water body, forest, farmland, and non-ecological land (
+      <xref ref-type="table" rid="pone-0102437-t002">
+       Table 2
+      </xref>). The natural landscapes performed better than the artificial landscapes in terms of aesthetic functional performance.</p> 
+     <table-wrap id="pone-0102437-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Aesthetic landscape value scores (P, point&lt;sub&gt;*&lt;/sub&gt;hm&lt;sup&gt;2&lt;/sup&gt;) of five landscape types.</title> 
+      <alternatives>
+       <graphic id="pone-0102437-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Aesthetic landscapevalue units</td> 
+          <td align="left" rowspan="1" colspan="1">Forest</td> 
+          <td align="left" rowspan="1" colspan="1">Grassland</td> 
+          <td align="left" rowspan="1" colspan="1">Farmland</td> 
+          <td align="left" rowspan="1" colspan="1">Water body</td> 
+          <td align="left" rowspan="1" colspan="1">Non-ecological land</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">34.32</td> 
+          <td align="left" rowspan="1" colspan="1">4.80</td> 
+          <td align="left" rowspan="1" colspan="1">20.82</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+          <td align="left" rowspan="1" colspan="1">313.94</td> 
+          <td align="left" rowspan="1" colspan="1">112.48</td> 
+          <td align="left" rowspan="1" colspan="1">160.72</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">144.76</td> 
+          <td align="left" rowspan="1" colspan="1">0.82</td> 
+          <td align="left" rowspan="1" colspan="1">2239.91</td> 
+          <td align="left" rowspan="1" colspan="1">670.59</td> 
+          <td align="left" rowspan="1" colspan="1">1350.75</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">4</td> 
+          <td align="left" rowspan="1" colspan="1">2672.88</td> 
+          <td align="left" rowspan="1" colspan="1">47.30</td> 
+          <td align="left" rowspan="1" colspan="1">16046.76</td> 
+          <td align="left" rowspan="1" colspan="1">8326.75</td> 
+          <td align="left" rowspan="1" colspan="1">5069.18</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">5</td> 
+          <td align="left" rowspan="1" colspan="1">1238.10</td> 
+          <td align="left" rowspan="1" colspan="1">98.48</td> 
+          <td align="left" rowspan="1" colspan="1">9884.85</td> 
+          <td align="left" rowspan="1" colspan="1">10807.28</td> 
+          <td align="left" rowspan="1" colspan="1">2743.78</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Total</td> 
+          <td align="left" rowspan="1" colspan="1">4055.74</td> 
+          <td align="left" rowspan="1" colspan="1">146.60</td> 
+          <td align="left" rowspan="1" colspan="1">28519.77</td> 
+          <td align="left" rowspan="1" colspan="1">19921.89</td> 
+          <td align="left" rowspan="1" colspan="1">9345.24</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Aesthetic landscape value coefficients</td> 
+          <td align="left" rowspan="1" colspan="1">4.21</td> 
+          <td align="left" rowspan="1" colspan="1">4.61</td> 
+          <td align="left" rowspan="1" colspan="1">4.12</td> 
+          <td align="left" rowspan="1" colspan="1">4.40</td> 
+          <td align="left" rowspan="1" colspan="1">3.95</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>The normalized aesthetic and ecological value coefficients were obtained using 
+      <xref ref-type="disp-formula" rid="pone.0102437.e003">
+       Equation (3
+      </xref>) (
+      <xref ref-type="table" rid="pone-0102437-t003">
+       Table 3
+      </xref>). The aesthetic landscape value per unit area of water bodies was highest, followed by forest, grassland, farmland, and non-ecological land. Similarly to the aesthetic landscape values, natural landscapes had higher ecological values than cultivated or man-made landscapes.</p> 
+     <table-wrap id="pone-0102437-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>Normalized aesthetic and ecological landscape value coefficients.</title> 
+      <alternatives>
+       <graphic id="pone-0102437-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.t003" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Forest</td> 
+          <td align="left" rowspan="1" colspan="1">Grassland</td> 
+          <td align="left" rowspan="1" colspan="1">Farmland</td> 
+          <td align="left" rowspan="1" colspan="1">Water body</td> 
+          <td align="left" rowspan="1" colspan="1">Non-ecological land</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ecological landscape value coefficients ($/hm<sup>2</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">2724.76</td> 
+          <td align="left" rowspan="1" colspan="1">938.80</td> 
+          <td align="left" rowspan="1" colspan="1">899.04</td> 
+          <td align="left" rowspan="1" colspan="1">5417.10</td> 
+          <td align="left" rowspan="1" colspan="1">53.33</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Normalized ecological value coefficients</td> 
+          <td align="left" rowspan="1" colspan="1">−0.01</td> 
+          <td align="left" rowspan="1" colspan="1">−1.34</td> 
+          <td align="left" rowspan="1" colspan="1">−1.37</td> 
+          <td align="left" rowspan="1" colspan="1">2.00</td> 
+          <td align="left" rowspan="1" colspan="1">−2.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Aesthetic landscape value coefficients (point/hm<sup>2</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">4.21</td> 
+          <td align="left" rowspan="1" colspan="1">4.61</td> 
+          <td align="left" rowspan="1" colspan="1">4.12</td> 
+          <td align="left" rowspan="1" colspan="1">4.40</td> 
+          <td align="left" rowspan="1" colspan="1">3.95</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Normalized aesthetic value coefficients</td> 
+          <td align="left" rowspan="1" colspan="1">−0.44</td> 
+          <td align="left" rowspan="1" colspan="1">2.00</td> 
+          <td align="left" rowspan="1" colspan="1">−0.97</td> 
+          <td align="left" rowspan="1" colspan="1">0.73</td> 
+          <td align="left" rowspan="1" colspan="1">−2.00</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>Combination of Landscape values</title> 
+     <p>We identified aesthetic, ecological and integrated functional performances of the five landscape types using a two-dimension coordinate system (
+      <xref ref-type="fig" rid="pone-0102437-g002">
+       Figure 2
+      </xref>). In the two-dimension coordinate system, the five landscape types contributed unevenly, or even in opposite directions, to both landscape values. Water body was the only type where both landscape values were positive. Grassland was aesthetically attractive, but it was not ecologically valuable. The other three landscape types (i.e. forest, farmland, and non-ecological land) showed a positive relationship on aesthetic and ecological landscape value, respectively, but made a negative contribution to aesthetic and ecological landscape value.</p> 
+     <fig id="pone-0102437-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Two-dimensional coordinate system for landscape values.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.g002" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+    <sec id="s3c"> 
+     <title>Distribution of landscape values</title> 
+     <p>We drew the aesthetic landscape value distribution map after the aesthetic landscape survey (
+      <xref ref-type="fig" rid="pone-0102437-g003">
+       Figure 3a
+      </xref>), and the ecological landscape value distribution map based on 
+      <xref ref-type="disp-formula" rid="pone.0102437.e002">
+       Equation (2
+      </xref>) (
+      <xref ref-type="fig" rid="pone-0102437-g003">
+       Figure 3b
+      </xref>). The integrated landscape value distribution map was obtained from the overlay of the aesthetic and ecological landscape value distribution maps in ArcGIS 9.2 (
+      <xref ref-type="fig" rid="pone-0102437-g004">
+       Figure 4
+      </xref>). The landscape value scores ranged from 1 (lowest) to 5 (highest).</p> 
+     <fig id="pone-0102437-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>(a) Aesthetic landscape value distribution map and (b) ecological landscape value distribution map in Houguanhu Region.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.g003" position="float" xlink:type="simple" />
+     </fig>
+     <fig id="pone-0102437-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0102437.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Integrated landscape value distribution map.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0102437.g004" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The aesthetic, ecological and integrated landscape values varied with the human activity intensity, and gradually decreased from the external water body to the transitional farmland and central non-ecological land. Central water body and adjacent areas received the highest values, the lowest was in northeastern built-up areas, and the moderate scores were in most other areas.</p> 
+     <p>The distribution of aesthetic landscape value showed a large-scale spatial continuity, with the exception of the northeastern region. The central water body with visual characteristics of broad sight, good order and naturalness obtained higher aesthetic landscape value scores, while scattered non-ecological land and farmland with disorderliness, high-intensity buildings and fragmentation received lower evaluation scores. In contrast, the distribution of ecological landscape values exhibited a mosaic distribution with an unclear spatial trend. However, water body and their adjacent areas received higher ecological value scores.</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>Metrics for evaluating landscape values</title> 
+     <p>The functional performances and interrelationships between the five landscape types were depicted as the integrated landscape value in a two-dimension coordinate system and displayed in landscape value distribution maps. In contrast to objective aesthetic approaches 
+      <xref ref-type="bibr" rid="pone.0102437-Tyrvinen1">
+       [3]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Frank1">
+       [13]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Fry1">
+       [24]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Dandy1">
+       [34]
+      </xref>, the subjective landscape aesthetics in this study reflects the intrinsic perception of the forms and spatial configuration of landscape elements. Compared with conceptual models 
+      <xref ref-type="bibr" rid="pone.0102437-Musacchio1">
+       [7]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-GmezSal1">
+       [35]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Termorshuizen1">
+       [36]
+      </xref>, our metrics (i.e., survey, coefficients, the two-dimension coordinate system and scopes) may quantitatively capture the functional performance of different landscape types.</p> 
+    </sec>
+    <sec id="s4b"> 
+     <title>Landscape functions/values and landscape attributes</title> 
+     <p>Our results showed that landscape values were strongly related to landscape attributes and the human activity intensity. Unlike semi-natural and human-induced landscapes, such as farmland and non-ecological land, the natural landscapes (i.e., water bodies and forest) contributed positively to both aesthetic and ecological functions. The controversial relationships (i.e., coincidence or disjuncture) between aesthetic performances and ecological quality have raised wide concerns 
+      <xref ref-type="bibr" rid="pone.0102437-Gobster1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Musacchio1">
+       [7]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Parsons1">
+       [8]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Junker1">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Yang2">
+       [37]
+      </xref>. These relationships can be quantified from the two-dimension coordinate system and distribution maps in this study, e.g., the negative or positive contribution level of landscape types in landscape values.</p> 
+     <p>Human activities can result in the decrease of landscape values by changing natural landscapes into semi-natural and artificial landscapes. It was found that the landscape values increase from the human-dominated and semi-natural landscapes to more natural landscapes. The underlying structure-function-value chain can be induced from the modified landscape gradient influenced by human activities, which has been discussed in some landscape assessments 
+      <xref ref-type="bibr" rid="pone.0102437-Wu1">
+       [6]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Termorshuizen1">
+       [36]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Yang3">
+       [38]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Yang4">
+       [39]
+      </xref>.</p> 
+    </sec>
+    <sec id="s4c"> 
+     <title>Implications for landscape planning</title> 
+     <p>The functional performances and distribution of landscape values were identified in present study, which may help optimize landscape planning in terms of developing priorities and intensity. The two-dimension coordinate system indicated that replacing one landscape type with another may result in a positive or negative change in the comprehensive landscape value. For example, more value would decrease if the water body was replaced by the non-ecological land than by the farmland. Thus, in order to bring aesthetic needs and ecological goals into better alignment, a functional compromise may encounter in landscape planning. In the landscape value distribution maps, the gradients of inherent landscape values and the concerns of underlying landscape value can be used to identify appropriate strategies, such as protection, restoration, and reconstruction. The protection and restoration measures may be taken to expand natural landscape spaces, while human-influenced landscapes should be reconstructed in an orderly way. The reconstruction measures (e.g., building hedgerow buffer zones, reducing the cutting effect of a road network on the overall landscape, or increasing accessibility between landscapes) may be involve in landscape planning.</p> 
+     <p>The situational context (e.g. the social phase, indigenous culture and stakeholder demands) should also be incorporated into landscape planning in response to various concerns regarding the landscape functions 
+      <xref ref-type="bibr" rid="pone.0102437-Gobster1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Fry1">
+       [24]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0102437-Aretano1">
+       [40]
+      </xref>. Tourists are likely to care more about farmland aesthetics, while farmers put a higher value on agricultural productivity. However, both farmland attractiveness enjoyed by tourists and production features valued by farmers are likely to undermine ecological functions. Therefore, it was recommended for policy makers to align aesthetic features to better support ecological health. It was also recommended that the disorderly non-scenic regions which were important to the overall landscape (e.g. rural settlements, roads, and historic sites) should be carefully enhanced using green corridors and an ordered appearance to foster a more positive aesthetic experience.</p> 
+    </sec>
+    <sec id="s4d"> 
+     <title>Limitations and future improvements</title> 
+     <p>Some limitations and possible improvements of this study included:</p> 
+     <list list-type="order">
+      <list-item> 
+       <p>In order to make the survey easier, site aesthetic evaluation was kept simple, and only five major landscape types were identified. It is recommended that the subdivisions of landscapes should be adopted for future research to convey more detailed information. In addition, surveyors from a variety of cultural backgrounds could be involved to incorporate a greater diversity of perspectives into landscape planning.</p> 
+      </list-item>
+      <list-item> 
+       <p>More comprehensive aspects of cultural landscape values (e.g. knowledge systems, social relations, and aesthetic values) could be incorporated into future studies to address the overall performance of landscape resources in the decision-makings.</p> 
+      </list-item>
+      <list-item> 
+       <p>Subjective aesthetic landscape coefficients can only convey information related to the relative importance of landscape values of the five landscape types. This may limit the use of aesthetic landscape coefficients when comparing with ecological evaluations.</p> 
+      </list-item>
+     </list> 
+    </sec>
+   </sec>
+   <sec id="s5"> 
+    <title>Conclusions</title> 
+    <p>Due to the difficulties in integrating different data types, quantitative models and interdisciplinary studies, it was a far-reaching challenge to connect subjective (aesthetic) and objective (ecological) aspects in an integrated landscape assessment. Nevertheless, the landscape sustainability requires a careful investigation of the relationship between ecology and aesthetics. Compared to conventional conceptual frameworks, the metrics (i.e. field survey, normalized landscape value coefficients, and a two-dimensional coordinate system) were employed in this study in order to quantify the functional performances of landscape types and to present an integrated landscape value. The results bring aesthetic and ecological goals into a better alignment in landscape planning. The interdisciplinary approach may lead to a revolution in landscape designing and planning, because it balances ecological and aesthetic functions for landscape sustainability.</p> 
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We would like to express our gratitude to the people and institutions in Wuhan who assisted us during the field survey. We sincerely thank the editor and anonymous reviewers for their useful comments and suggestions on our paper. We are grateful to Yan Zhu and Jonathan Vause for improving the written quality of the paper.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0102437-Daniel1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Daniel
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Whither scenic beauty? Visual landscape quality assessment in the 21st century
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        267
+       </fpage>–
+       <lpage>
+        281
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Gobster1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gobster
+        </surname>
+        <given-names>
+         PH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nassauer
+        </surname>
+        <given-names>
+         JI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daniel
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fry
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        The shared landscape: What does aesthetics have to do with ecology?
+       </article-title> 
+       <source>Landscape Ecol 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        959
+       </fpage>–
+       <lpage>
+        972
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Tyrvinen1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tyrväinen
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Silvennoinen
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kolehmainen
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Ecological and aesthetic values in urban forest management
+       </article-title>. 
+       <source>Urban Forestry Urban Green 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        135
+       </fpage>–
+       <lpage>
+        149
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Klein1">
+      <label>4</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Klein LR (2013) Quantifying relationships between ecology and aesthetics in agricultural landscapes. Washington State University. 70–98.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Luo1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qiu
+        </surname>
+        <given-names>
+         QY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         ZY
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Assessment of non-ecological landscape functions in environmental impact assessment for plan
+       </article-title>. 
+       <source>Res Environ Sci 
+       <volume>
+        23(10)
+       </volume>: 
+       <fpage>
+        1320
+       </fpage>–
+       <lpage>
+        1327
+       </lpage> (in Chinese)..
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Wu1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Landscape of culture and culture of landscape: does landscape ecology need culture?
+       </article-title> 
+       <source>Landscape Ecol 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        1147
+       </fpage>–
+       <lpage>
+        1150
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Musacchio1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Musacchio
+        </surname>
+        <given-names>
+         LR
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The ecology and culture of landscape sustainability: emerging knowledge and innovation in landscape research and practice
+       </article-title>. 
+       <source>Landscape Ecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        989
+       </fpage>–
+       <lpage>
+        992
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Parsons1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Parsons
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Conflict between ecological sustainability and environmental aesthetics: conundrum, canärd or curiosity
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        244
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Tress1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tress
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tress
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Décamps
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         D’Hauteserre
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Bridging human and natural sciences in landscape research
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        57
+       </volume>: 
+       <fpage>
+        137
+       </fpage>–
+       <lpage>
+        141
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Naveh1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Naveh
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Landscape ecology and sustainability
+       </article-title>. 
+       <source>Landscape Ecol 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        1437
+       </fpage>–
+       <lpage>
+        1440
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Wu2">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Landscape sustainability science: ecosystem services and human well-being in changing landscapes
+       </article-title>. 
+       <source>Landscape Ecol 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        999
+       </fpage>–
+       <lpage>
+        1023
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Porto1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Porto
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Correia
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beja
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Optimization of landscape services under uncoordinated management by multiple landowners
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        9(1)
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        16
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Frank1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Frank
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fürst
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Koschke
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Witt
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Makeschin
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Assessment of landscape aesthetics–Validation of a landscape metrics-based assessment by visual estimation of the scenic beauty
+       </article-title>. 
+       <source>Ecol Indic 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        222
+       </fpage>–
+       <lpage>
+        231
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Lothian1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lothian
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Landscape and the philosophy of aesthetics: is landscape quality inherent in the landscape or in the eye of the beholder?
+       </article-title> 
+       <source>Landsc Urban Plan 
+       <volume>
+        44
+       </volume>: 
+       <fpage>
+        177
+       </fpage>–
+       <lpage>
+        198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Roth1">
+      <label>15</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Roth M, Gruehn D (2012) Visual landscape assessment for large areas–using GIS, internet surveys and statistical methodologies in participatory landscape planning for the Federal State of Mecklenburg-Western Pomerania, Germany. Latvian Acad Sci A: Humanit Soc Sci 129–142.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Forman1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Forman
+        </surname>
+        <given-names>
+         RTT
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The urban region: natural systems in our place, our nourishment, our home range, our future
+       </article-title>. 
+       <source>Landscape Ecol 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        251
+       </fpage>–
+       <lpage>
+        253
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Mozingo1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mozingo
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        The aesthetics of ecological design: seeing science as culture
+       </article-title>. 
+       <source>Landscape J 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        46
+       </fpage>–
+       <lpage>
+        59
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Nassauer1">
+      <label>18</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nassauer JI (1997) Cultural sustainability: aligning aesthetics and ecology. In: Nassauer JI (Eds.) Placing Nature: Culture and Landscape Ecology. Washington, DC: Island Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Mikusiski1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mikusiński
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blicharska
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Antonson
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Henningsson
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Göransson
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Integrating ecological, social and cultural dimensions in the implementation of the landscape convention
+       </article-title>. 
+       <source>Landscape Res 
+       <volume>
+        38(3)
+       </volume>: 
+       <fpage>
+        384
+       </fpage>–
+       <lpage>
+        393
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Junker1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Junker
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchecker
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Aesthetic preferences versus ecological objectives in river restorations
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        141
+       </fpage>–
+       <lpage>
+        154
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Norton1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Norton
+        </surname>
+        <given-names>
+         LR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Inwood
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Crowe
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baker
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Trialing a method to quantify the ‘cultural services’ of the English landscape using Countryside Survey data
+       </article-title>. 
+       <source>Land Use Policy 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        449
+       </fpage>–
+       <lpage>
+        455
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Hands1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hands
+        </surname>
+        <given-names>
+         DE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Enhancing visual preference of ecological rehabilitation sites
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        57
+       </fpage>–
+       <lpage>
+        70
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Williams1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         KJH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cary
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Landscape preferences, ecological quality, and biodiversity protection
+       </article-title>. 
+       <source>Environ Behav 
+       <volume>
+        34
+       </volume>: 
+       <fpage>
+        257
+       </fpage>–
+       <lpage>
+        274
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Fry1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fry
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tveit
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ode
+        </surname>
+        <given-names>
+         Å
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Velarde
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The ecology of visual landscapes: Exploring the conceptual common ground of visual and ecological landscape indicators
+       </article-title>. 
+       <source>Ecol Indic 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        933
+       </fpage>–
+       <lpage>
+        947
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Hale1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hale
+        </surname>
+        <given-names>
+         BW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steen-Adams
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Predick
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Ecological conservation through aesthetic landscape planning: A case study of the Lower Wisconsin State Riverway
+       </article-title>. 
+       <source>Environ Manage 
+       <volume>
+        35
+       </volume>: 
+       <fpage>
+        381
+       </fpage>–
+       <lpage>
+        395
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Bastian1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bastian
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lütz
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Landscape functions as indicators for the development of local agri-environmental measures
+       </article-title>. 
+       <source>Ecol Indic 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        215
+       </fpage>–
+       <lpage>
+        227
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Zhao1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhao
+        </surname>
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cai
+        </surname>
+        <given-names>
+         YL
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Correlations between aesthetic preferences of river and landscape characters
+       </article-title>. 
+       <source>J Environ Eng Landscape Manag 
+       <volume>
+        21(2)
+       </volume>: 
+       <fpage>
+        123
+       </fpage>–
+       <lpage>
+        132
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Costanza1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Costanza
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         d’Arge
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Groot
+        </surname>
+        <given-names>
+         DR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Farber
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Monica
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        The values of the world’s ecosystem services and natural capital
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        387
+       </volume>: 
+       <fpage>
+        253
+       </fpage>–
+       <lpage>
+        260
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Xie1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Xie
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lu
+        </surname>
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leng
+        </surname>
+        <given-names>
+         YF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zheng
+        </surname>
+        <given-names>
+         DU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Ecological assets valuation of the Tibetan Plateau
+       </article-title>. 
+       <source>J Nat Resour 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        189
+       </fpage>–
+       <lpage>
+        196
+       </lpage> (in Chinese)..
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Nassauer2">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nassauer
+        </surname>
+        <given-names>
+         JI
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Monitoring the success of metropolitan wetland restorations: cultural sustainability and ecological function
+       </article-title>. 
+       <source>Wetlands 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        756
+       </fpage>–
+       <lpage>
+        765
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Purcell1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Purcell
+        </surname>
+        <given-names>
+         AT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lamb
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Preference and naturalness: an ecological approach
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        57
+       </fpage>–
+       <lpage>
+        66
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Yang1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         ZY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luo
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhu
+        </surname>
+        <given-names>
+         ZC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Song
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Landscape aesthetic assessment based on experiential paradigm assessment technology
+       </article-title>. 
+       <source>Environ Sci Technol 
+       <volume>
+        35(3)
+       </volume>: 
+       <fpage>
+        187
+       </fpage>–
+       <lpage>
+        205
+       </lpage> (in Chinese)..
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-VonHaaren1">
+      <label>33</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Von Haaren C (2004) Landschaftsplanung. Stattgart: Eugen GmbH &amp; Co. 245–272. (in German).
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Dandy1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dandy
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Der Wal
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Shared appreciation of woodland landscapes by land management professionals and lay people: An exploration through field-based interactive photo-elicitation
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        43
+       </fpage>–
+       <lpage>
+        53
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-GmezSal1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gómez-Sal
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Belmontes
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nicolau
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Assessing landscape values: a proposal for a multidimensional conceptual model
+       </article-title>. 
+       <source>Ecol Model 
+       <volume>
+        168
+       </volume>: 
+       <fpage>
+        319
+       </fpage>–
+       <lpage>
+        341
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Termorshuizen1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Termorshuizen
+        </surname>
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Opdam
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Landscape services as a bridge between landscape ecology and sustainable development
+       </article-title>. 
+       <source>Landscape Ecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        1037
+       </fpage>–
+       <lpage>
+        1052
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Yang2">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        A cross-cultural comparison of preferences for landscape styles and landscape elements
+       </article-title>. 
+       <source>Environ Behav 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        471
+       </fpage>–
+       <lpage>
+        507
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Yang3">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kao
+        </surname>
+        <given-names>
+         WTM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         GQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         NY
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Evaluating spatiotemporal differences and sustainability of Xiamen urban metabolism using emergy synthesis
+       </article-title>. 
+       <source>Ecol Model 
+       <volume>
+        272
+       </volume>: 
+       <fpage>
+        40
+       </fpage>–
+       <lpage>
+        48
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Yang4">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Qiu
+        </surname>
+        <given-names>
+         QY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         WJ
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Complementary zoning frameworks for sustainable management of eco-economic capital: a case study of Lijiang, China
+       </article-title>. 
+       <source>J MT Sci 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        760
+       </fpage>–
+       <lpage>
+        769
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0102437-Aretano1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Aretano
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petrosillo
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zaccarelli
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Semeraro
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zurlini
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        People perception of landscape change effects on ecosystem services in small Mediterranean islands: A combination of subjective and objective assessments
+       </article-title>. 
+       <source>Landscape Urban Plan 
+       <volume>
+        112
+       </volume>: 
+       <fpage>
+        63
+       </fpage>–
+       <lpage>
+        73
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

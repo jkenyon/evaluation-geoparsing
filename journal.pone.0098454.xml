@@ -1,0 +1,5570 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-48211
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0098454
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Agriculture
+        </subject>
+        <subj-group>
+         <subject>
+          Agricultural production
+         </subject>
+         <subject>
+          Agroecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subject>
+          Ecological metrics
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Microbiology
+        </subject>
+        <subj-group>
+         <subject>
+          Plant microbiology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Mycology
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Fungi
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Plant science
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Species interactions
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Diversity and Communities of Foliar Endophytic Fungi from Different Agroecosystems of 
+       <italic>
+        Coffea arabica
+       </italic> L. in Two Regions of Veracruz, Mexico
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Diversity of Endophytic Fungi in Coffee Plants
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Saucedo-García
+        </surname>
+        <given-names>
+         Aurora
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Anaya
+        </surname>
+        <given-names>
+         Ana Luisa
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Espinosa-García
+        </surname>
+        <given-names>
+         Francisco J.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         González
+        </surname>
+        <given-names>
+         María C.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Posgrado en Ciencias Biológicas, Instituto de Ecología, Universidad Nacional Autónoma de México, Distrito Federal, México
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Departamento de Ecología Funcional, Instituto de Ecología, Universidad Nacional Autónoma de México, Distrito Federal, México
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Laboratorio de Ecología Química, Centro de Investigaciones en Ecosistemas, Universidad Nacional Autónoma de México, Morelia, Michoacán, México
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Departamento de Botánica, Instituto de Biología, Universidad Nacional Autónoma de México, Distrito Federal, México
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Treseder
+        </surname>
+        <given-names>
+         Kathleen
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       UC Irvine, United States of America
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        analanaya@ecologia.unam.mx
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: ASG ALA FJEG. Performed the experiments: ASG. Analyzed the data: ASG ALA FJEG MCG. Contributed reagents/materials/analysis tools: ALA. Wrote the paper: ASG ALA.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       2
+      </day>
+      <month>
+       6
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      6
+     </issue> 
+     <elocation-id>
+      e98454
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        16
+       </day>
+       <month>
+        11
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        2
+       </day>
+       <month>
+        5
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Saucedo-García et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Over the past 20 years, the biodiversity associated with shaded coffee plantations and the role of diverse agroforestry types in biodiversity conservation and environmental services have been topics of debate. Endophytic fungi, which are microorganisms that inhabit plant tissues in an asymptomatic manner, form a part of the biodiversity associated with coffee plants. Studies on the endophytic fungi communities of cultivable host plants have shown variability among farming regions; however, the variability in fungal endophytic communities of coffee plants among different coffee agroforestry systems is still poorly understood. As such, we analyzed the diversity and communities of foliar endophytic fungi inhabiting 
+       <italic>
+        Coffea arabica
+       </italic> plants growing in the rustic plantations and simple polycultures of two regions in the center of Veracruz, Mexico. The endophytic fungi isolates were identified by their morphological traits, and the majority of identified species correspond to species of fungi previously reported as endophytes of coffee leaves. We analyzed and compared the colonization rates, diversity, and communities of endophytes found in the different agroforestry systems and in the different regions. Although the endophytic diversity was not fully recovered, we found differences in the abundance and diversity of endophytes among the coffee regions and differences in richness between the two different agroforestry systems of each region. No consistent pattern of community similarity was found between the coffee agroforestry systems, but we found that rustic plantations shared the highest number of morphospecies. The results suggest that endophyte abundance, richness, diversity, and communities may be influenced predominantly by coffee region, and to a lesser extent, by the agroforestry system. Our results contribute to the knowledge of the relationships between agroforestry systems and biodiversity conservation and provide information regarding some endophytic fungi and their communities as potential management tools against coffee plant pests and pathogens.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       The present research received the financial support from PAPIIT-DGAPA (UNAM) Project IN209611 given to ALA. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="11" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Commercial coffee production relies mainly on the plant species 
+     <italic>
+      Coffea arabica
+     </italic> L. 
+     <xref ref-type="bibr" rid="pone.0098454-VanHilten1">
+      [1]
+     </xref>, a species native to the highlands of Ethiopia and Sudan 
+     <xref ref-type="bibr" rid="pone.0098454-Lashermes1">
+      [2]
+     </xref>. In Mexico, this plant was introduced at the end of the eighteenth century and was incorporated into the local agrosystems, where coffee plants were cultivated under shade in diverse polycultures 
+     <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Rice1">
+      [4]
+     </xref>. At the end of the 1970s, the Instituto Mexicano del Café promoted the transformation of traditional coffee polycultures into technified plantations 
+     <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+      [3]
+     </xref>, and at least five coffee production systems have been recognized in Mexico according to their vegetation structures, floristic composition, and management level 
+     <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez1">
+      [5]
+     </xref>. Four of these five coffee agrosystems are shaded plantations: rustic or traditional, diverse polyculture, simple polyculture, and shaded monoculture. The fifth agrosystem is unshaded coffee monoculture 
+     <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez1">
+      [5]
+     </xref>. These systems represent a gradient from the most traditional agroforestry system, with reduced management and a high proportion of native tree canopy, to a lower proportion of native trees and a higher percentage of commercial shade trees. Unshaded coffee monoculture is at the end of the gradient of intensive management 
+     <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Toledo1">
+      [6]
+     </xref>.</p> 
+    <p>The relationship between coffee agroforestry types and their biodiversity has been attracting attention over the past two decades 
+     <xref ref-type="bibr" rid="pone.0098454-Toledo1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Gordon1">
+      [7]
+     </xref>. In general, studies on this topic have shown that shaded coffee plantations contain a higher level of associated biodiversity than unshaded coffee plantations 
+     <xref ref-type="bibr" rid="pone.0098454-Gordon1">
+      [7]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0098454-Perfecto2">
+      [10]
+     </xref>. In particular, it has been proposed that traditional shaded coffee systems can act as refuges for many species in regions where deforestation has drastically affected the original forests. This function could be decisive in biogeographically important areas where habitats have been severely transformed 
+     <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Toledo1">
+      [6]
+     </xref>. From a landscape perspective, the shaded plantations and their associated biodiversity preserve regional ecological processes and provide important ecosystem services 
+     <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-valosSartorio1">
+      [11]
+     </xref>, as opposed to the highly intensified unshaded plantations with reduced biodiversity. However, the conservation value of the different shaded coffee systems varies widely, depending on the taxonomic group of organisms that constitutes a part of the biotic community of coffee plantations 
+     <xref ref-type="bibr" rid="pone.0098454-Perfecto1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Perfecto3">
+      [12]
+     </xref>.</p> 
+    <p>Studies on the fungal diversity associated with Mexican coffee plantations, especially arbuscular mycorrhizal fungi (AMF) 
+     <xref ref-type="bibr" rid="pone.0098454-Heredia1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Arias1">
+      [14]
+     </xref> and saprotrophic fungi 
+     <xref ref-type="bibr" rid="pone.0098454-Heredia1">
+      [13]
+     </xref>, have reported no significant differences in fungal richness or fungal communities among different coffee plantations with a gradient of management intensity.</p> 
+    <p>Other studies on the foliar endophytic fungi (EF) associated with coffee plants have been conducted in abandoned coffee plantations in Puerto Rico 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>; in various locations in Colombia, Hawai'i, Mexico, and Puerto Rico 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>; and in plantations in the center of Veracruz 
+     <xref ref-type="bibr" rid="pone.0098454-Carrin1">
+      [17]
+     </xref>. However, no studies have been conducted to investigate the effects of the different coffee agroforestry systems on the diversity of EF found on coffee leaves.</p> 
+    <p>Endophytic fungi are microorganisms that live in plant tissues without causing apparent harm to the host 
+     <xref ref-type="bibr" rid="pone.0098454-Petrini1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Stone1">
+      [19]
+     </xref>; therefore, plants with EF are asymptomatic 
+     <xref ref-type="bibr" rid="pone.0098454-Schulz1">
+      [20]
+     </xref>. These fungi have been found inhabiting healthy tissues in all plants in natural ecosystems 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold1">
+      [21]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0098454-Rodriguez1">
+      [23]
+     </xref>, and they represent, individually and collectively, a continuum of variable associations with their host plants, from mutualism to latent pathogenicity 
+     <xref ref-type="bibr" rid="pone.0098454-Schulz1">
+      [20]
+     </xref>. In woody plants, such as 
+     <italic>
+      Coffea arabica
+     </italic>, the fungal endophytes are transmitted horizontally 
+     <xref ref-type="bibr" rid="pone.0098454-Rodriguez1">
+      [23]
+     </xref>; the growth of these fungi is highly localized within particular plant tissues 
+     <xref ref-type="bibr" rid="pone.0098454-Lodge1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Gamboa1">
+      [25]
+     </xref>. With time, the EF accumulate in plant tissues, producing a heterogeneous mosaic of different species of endophytes in every plant organ 
+     <xref ref-type="bibr" rid="pone.0098454-EspinosaGarca1">
+      [26]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold3">
+      [27]
+     </xref>.</p> 
+    <p>The EF communities (EFC) may be influenced by the traits of a given host plant 
+     <xref ref-type="bibr" rid="pone.0098454-EspinosaGarca1">
+      [26]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0098454-SanchezAzofeifa1">
+      [31]
+     </xref>, distribution of the host plant 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold2">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Fisher1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Hoffman1">
+      [33]
+     </xref>, and characteristics of the locality in which the plant grows 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold3">
+      [27]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Mller1">
+      [34]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0098454-Herre1">
+      [36]
+     </xref>. Studies on the EFC of cultivable host plants have shown variability among these communities based on the regions in which the plants are cultivated 
+     <xref ref-type="bibr" rid="pone.0098454-Pancher1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-EkRamos1">
+      [38]
+     </xref>; however, the variability in EFC among management systems is still poorly understood.</p> 
+    <p>The aim of the present study was to analyze whether the coffee agroforestry system and the region where the coffee is cultivated could influence EF diversity and the EFC associated with 
+     <italic>
+      Coffea arabica
+     </italic> leaves. We analyzed and compared the colonization rates (CR), richness, diversity, and fungal communities of the EF inhabiting the leaves of 
+     <italic>
+      Coffea arabica
+     </italic> in different agroforestry systems in two different coffee regions, Huatusco and Coatepec, in the center of the state of Veracruz, Mexico. We selected coffee plants from a rustic plantation and from a simple polyculture in each of the coffee regions. We isolated 471 foliar endophytes, which we assigned to 31 morphospecies, from the four selected coffee plantations. We found differences in CR and EF diversity between the coffee regions, as well as differences in richness between the two different agroforestry systems of each region. The analysis of EFC similarity revealed that the endophytic communities in the two coffee plantations in Coatepec did not vary, while the EFC of the coffee plantations in Huatusco were different. There were similarities in the EFC of the rustic plantations and in the EFC of the simple plantations.</p> 
+    <p>Studying the fungi associated with the phyllosphere of coffee plants enable us to recognize the presence of coffee pathogens and to evaluate, in future studies, the potentiality of some EF and EFC in controlling pathogens or pests of this important cultivated plant.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>No specific permits were required for the described field studies. This work did not involve endangered or protected species.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Study sites</title> 
+     <p>Four shaded coffee plantations from the central coffee-growing region of Veracruz, Mexico were selected as field study sites (
+      <xref ref-type="fig" rid="pone-0098454-g001">
+       Fig. 1
+      </xref>). Two plantations were located in the Coatepec region and two were located in the Huatusco region. Although both of these regions are located in the tropical montane cloud forest, there are some differences between them. Both regions have a humid climate (A) C according to the classification of Köppen modified by García (1998) 
+      <xref ref-type="bibr" rid="pone.0098454-Garca1">
+       [39]
+      </xref>, but Coatepec experiences rainfall all year round (A) C (fm), whereas precipitation is seasonal in Huatusco (A) C (m). Another difference between the two regions is that the Coatepec region is located in the montane cloud forest, whereas the Huatusco region is located at the border of the montane cloud forest and the tropical deciduous forest 
+      <xref ref-type="bibr" rid="pone.0098454-Instituto1">
+       [40]
+      </xref>. In each region (
+      <xref ref-type="fig" rid="pone-0098454-g001">
+       Fig. 1
+      </xref>), we selected one rustic plantation and one simple polyculture plantation according to a classification based on the vegetation structure of each plantation 
+      <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez1">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez2">
+       [41]
+      </xref>.</p> 
+     <fig id="pone-0098454-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Map of survey area: geographical locations of the four coffee plantations, Veracruz, Mexico.</title> 
+      <p>RP-C: rustic plantation Coatepec, SP-C: simple polyculture Coatepec. RP-H: rustic plantation Huatusco, SP-H: simple polyculture Huatusco.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>In rustic plantations, coffee is grown under the shade of native vegetation, such as 
+      <italic>
+       Heliocarpus
+      </italic> sp., 
+      <italic>
+       Quercus sartorii, Myrsine coriacea
+      </italic>, and 
+      <italic>
+       Trema micrantha
+      </italic>, with some selected shade trees, such as 
+      <italic>
+       Inga
+      </italic> spp. and 
+      <italic>
+       Citrus
+      </italic> spp. The canopy has a high degree of vertical stratification, and the vegetation contains abundant epiphytes 
+      <xref ref-type="bibr" rid="pone.0098454-Moguel1">
+       [3]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez1">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez2">
+       [41]
+      </xref>. These rustic plantations have low management intensity; the farmers predominantly use alternative management techniques, such as manual weed control and occasional pruning of coffee plants, with no addition of fertilizer.</p> 
+     <p>In simple polyculture coffee plantations, the canopy of the native trees of the forest are removed and replaced with selected shade trees, such as legumes (
+      <italic>
+       Inga
+      </italic> spp.), and crop species with commercial value, such as 
+      <italic>
+       Citrus
+      </italic> spp. and 
+      <italic>
+       Musa
+      </italic> sp. 
+      <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez1">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-HernndezMartnez2">
+       [41]
+      </xref>. In this management system, the farmers apply agrochemicals, such as fertilizers and pesticides, to the coffee plants.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Sample collection and endophyte isolation</title> 
+     <p>In November 2009, ten coffee plants, spaced at least 2 m apart, were chosen from each of the four plantations. To homogenize the sample collection, healthy, mature leaves from north-facing branches growing in the middle of the selected coffee plants were collected. Four coffee leaves from the middle part of the selected branches were collected, stored in a cool box above ice, and processed within 48 h.</p> 
+     <p>Isolation of the EF was performed using the surface sterilization method for coffee leaves 
+      <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+       [15]
+      </xref>, washing them in running water and surface sterilizing them with sequential solutions of 70% ethanol (1 min), 2.6% sodium hypochlorite (3 min), and 70% ethanol (1 min). The leaves were then rinsed with sterilized, distilled water. Two round fragments (2 mm in diameter) were cut from the base, middle, and apex of the lamina of each leaf with a sterile leaf punch. Each surface-sterilized fragment was placed separately in a Petri dish with oatmeal agar (OA: 30 g oatmeal, 20 g agar, and 1 L distilled water) supplemented with chloramphenicol (50 mg/L). The leaf fragments were pressed briefly into the surface agar in the margins of the Petri dishes to create leaf prints and determine whether the superficial sterilization was successful. The Petri dishes were incubated at room temperature under natural light. The growth of the fungi and the leaf imprints were checked every three days for one month. The tips of hyphae from different fungi emerging from the same leaf fragment were subcultured on OA plates.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Morphological identification of endophytic fungi</title> 
+     <p>All fungi isolates were examined after five and ten days and were grouped into morphotypes based on the following morphological traits: shape of the mycelium, texture of the mycelium surface, color of the fungi, production of pigments and their diffusion into the medium, production of spores, and mycelium growth rates in the OA plates.</p> 
+     <p>To enable morphological identification, 1 to 15 isolates were selected from each morphotype, depending on abundance of each morphotype. Selected isolates were cultured on OA and potato dextrose agar (PDA: 200 g scrubbed and diced potatoes, 15 g dextrose, 20 g agar, and 1 L distilled water) plates. The EF that did not sporulate on these media were transferred to PDA, OA, and malt extract agar (MEA 2%) plates and to plates with leaf extracts of healthy, mature coffee leaves (10% wt/vol) to activate sporulation.</p> 
+     <p>We examined the above-mentioned traits of the mycelium morphology of the fungi isolates and their microscopic characteristics. The characteristics evaluated for the anamorph type were conidiomata, conidiogenous cells, conidiophores, and conidia morphology (e.g., size, color, shape, ornamentation), and the characteristics evaluated for the teleomorph type were sporomata, their associated structures, and spore morphology. The strains of isolated and identified endophytic fungi are part of a fungal collection of the Laboratorio de Alelopatía, Departamento de Ecología Funcional, Instituto de Ecología, Universidad Nacional Autónoma de México; the strains are freely available.</p> 
+     <p>Following the method described in Waller et al. (1993) 
+      <xref ref-type="bibr" rid="pone.0098454-Waller1">
+       [42]
+      </xref>, the fungi belonging to the 
+      <italic>
+       Colletotrichum
+      </italic> genus were cultured in basal media supplemented with a different carbon source (i.e., ammonium tartrate or citric acid). Using that media enabled us to evaluate the substrate utilization of the isolated 
+      <italic>
+       Colletotrichum
+      </italic> strains and differentiate among species, as some species, such as the coffee pathogen 
+      <italic>
+       Colletotrichum kahawae
+      </italic>, cannot metabolize tartrate and citric acid 
+      <xref ref-type="bibr" rid="pone.0098454-Waller1">
+       [42]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-Prihastuti1">
+       [43]
+      </xref>.</p> 
+     <p>The fungi were classified into morphospecies based on their growth rates and morphological and microscopic characteristics. Isolates that did not sporulate were identified as morphotypes (Mycelia sterilia), based on their morphological characteristics. The relative frequency of EF for each coffee plantation was calculated as the abundance of a given species divided by the total number of fungi isolated from each coffee plantation.</p> 
+    </sec>
+    <sec id="s2e"> 
+     <title>Colonization and isolation rates</title> 
+     <p>Colonization rate (CR) was calculated as the number of fragments from which one or more EF was isolated, divided by the total number of incubated fragments 
+      <xref ref-type="bibr" rid="pone.0098454-Petrini2">
+       [44]
+      </xref>. The isolation rate (IR) was defined as the number of EF isolated, divided by the total number of fragments incubated 
+      <xref ref-type="bibr" rid="pone.0098454-Frhlich1">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-Wang1">
+       [46]
+      </xref>.</p> 
+     <p>CR and IR were analyzed using a two-way ANOVA test, with regions (Huatusco and Coatepec) and agroforestry category (rustic and simple polycultures) as the factors. The difference between mean values was evaluated using Tukey's honestly significant differences (HSD) test. The statistical analysis was performed using Statistica software 8.0.</p> 
+    </sec>
+    <sec id="s2f"> 
+     <title>Diversity analysis</title> 
+     <p>Because leaves serve as largely discrete, relatively uniform, bounded habitats to the microbes that inhabit them 
+      <xref ref-type="bibr" rid="pone.0098454-Zimmerman1">
+       [47]
+      </xref>, we considered each leaf as a sampling unit, and the EF isolated from each leaf was considered to represent an EFC. To assess species richness and evaluate the sampling intensity, the observed and Jackknife 1 expected richness of EF for each coffee plantation were calculated with EstimateS software 
+      <xref ref-type="bibr" rid="pone.0098454-Colwell1">
+       [48]
+      </xref>, using 1000 runs of bootstrapping with replacement. Jackknife 1 has proven to be a reliable estimator for various organisms 
+      <xref ref-type="bibr" rid="pone.0098454-Magurran1">
+       [49]
+      </xref>, including fungi 
+      <xref ref-type="bibr" rid="pone.0098454-Gamboa2">
+       [35]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0098454-Unterseher1">
+       [50]
+      </xref>. The observed and expected species accumulation curves were plotted using individual leaves as the unit for each plantation.</p> 
+     <p>The richness and distribution of EF found in each coffee plantation were examined using the range diversity (RD) analysis developed by Arita et al. (2012) 
+      <xref ref-type="bibr" rid="pone.0098454-Arita1">
+       [51]
+      </xref>. Using this method enabled us to analyze the richness and distribution of EF found in the coffee leaves of each plantation, as well as to evaluate the association and co-occurrence of morphospecies. The RD analysis was performed following the R script of Arita et al. (2012) 
+      <xref ref-type="bibr" rid="pone.0098454-Arita1">
+       [51]
+      </xref>, using the R program 
+      <xref ref-type="bibr" rid="pone.0098454-R1">
+       [52]
+      </xref>. Analysis of variance was used to test for differences in endophyte richness between coffee plantations and coffee regions.</p> 
+     <p>Following the R script of RD analysis 
+      <xref ref-type="bibr" rid="pone.0098454-Arita1">
+       [51]
+      </xref>, we computed the variance–covariance matrices among morphospecies and among leaves from each coffee plantation. Using the matrices enabled us to analyze the co-occurrence patterns of morphospecies in the coffee leaves from each plantation.</p> 
+     <p>To test a possible association among species and a possible clustering of leaves in terms of shared species in each coffee plantation, we computed the ratio of variance for species (V<sub>sp</sub>) and for leaves (V<sub>lv</sub>) according to the method of Arita et al. (2012) 
+      <xref ref-type="bibr" rid="pone.0098454-Arita1">
+       [51]
+      </xref>. If the ratio–variance value is higher than 1, there is a positive association among morphospecies or a greater similarity in morphospecies composition among leaves. If the ratio–variance value is less than 1, there is a negative association among morphospecies or no similarity in EFC among the leaves from each coffee plantation. We contrasted the values of ratio–variance obtained in the RD analysis (empirical values) with the values obtained with null models, which contrast real world assemblages against hypothetical patterns generated by randomizing some variables of a model 
+      <xref ref-type="bibr" rid="pone.0098454-Arita1">
+       [51]
+      </xref>. The empirical values of V<sub>sp</sub> were contrasted with null models in which we maintained the original frequency of EF richness found in every coffee plantation, but we assigned leaves to species randomly. The empirical values of V<sub>lv</sub> were contrasted with null models in where we maintained the original frequency of number of species found in each coffee leaf, but we generate permutations to simulate the random assignment of species to leaves.</p> 
+     <p>The Fisher's alpha and Shannon diversity (H') indexes of fungal endophyte species found in each coffee leaf were calculated with EstimateS software 
+      <xref ref-type="bibr" rid="pone.0098454-Colwell1">
+       [48]
+      </xref>, using 1000 runs of bootstrapping with replacement to generate 95% confidence intervals for each diversity value. The statistical differences in foliar EF diversity between coffee plantations and regions were analyzed using an ANOVA test of two factors, and the differences between mean values were evaluated using Tukey's HSD test.</p> 
+     <p>EFC similarities found among the coffee plants from the four plantations were analyzed using non-metric multidimensional scaling (NMDS) plots. The NMDS plots display the dissimilarities among EF communities graphically, and the distances between them on the plot represent their relative dissimilarity 
+      <xref ref-type="bibr" rid="pone.0098454-Quinn1">
+       [53]
+      </xref>. Three NMDS plots were constructed, each based on a different calculated ecological similarity index: Jaccard's index, based on the presence/absence of taxa among trees 
+      <xref ref-type="bibr" rid="pone.0098454-Anderson1">
+       [54]
+      </xref>; Bray–Curtis coefficient, based on the incidence and abundance of taxa found in the trees 
+      <xref ref-type="bibr" rid="pone.0098454-Anderson1">
+       [54]
+      </xref>; and Euclidean distance, a dissimilarity measure based in quantitative abundance data and the joint absences of taxa isolated among trees 
+      <xref ref-type="bibr" rid="pone.0098454-Anderson1">
+       [54]
+      </xref>. For each ecological similarity index calculated, a one-way analysis of similarity (ANOSIM) and a Bonferroni-corrected pair-wise comparison were performed to test for significant differences in the EFC of the coffee plants among plantations. The ANOSIM test uses a statistic (R) that ranges from 0 to 1. A zero R value represents a similarity between objects in different groups, and R values greater than zero indicate that objects are more dissimilar between groups than within groups 
+      <xref ref-type="bibr" rid="pone.0098454-Quinn1">
+       [53]
+      </xref>. The NMDS plots and ANOSIM analysis were performed using PAST software 
+      <xref ref-type="bibr" rid="pone.0098454-Hammer1">
+       [55]
+      </xref>.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Abundance and diversity of endophytic fungi</title> 
+     <p>A total of 479 EF were isolated from the 80 
+      <italic>
+       Coffea arabica
+      </italic> leaves collected. At least one EF was isolated in each the leaves examined, with one exception: no fungi were isolated from one coffee leaf from the simple polyculture plantation in Coatepec (SP-C). Therefore, that leaf was not included in the statistical analysis. The ANOVA test showed significant differences in CR and IR between the two regions (CR: F = 15.1249, p = 0.0002; IR: F = 14.523, p = 0.0003) and between the two agroforestry types (CR: F = 6.4181, p = 0.0134; IR: F = 8.3885, p = 0.0049). According to the post-hoc tests (
+      <xref ref-type="table" rid="pone-0098454-t001">
+       Table 1
+      </xref>), CR was significantly higher in Huatusco's rustic plantation (RP-H) and simple polyculture (SP-H) than in SP-C. In addition, significant differences in IR were found between the coffee leaves from RP-H and both Coatepec plantations, rustic (RP-C) and SP-C. There were no significant differences in CR or IR between the two agroforestry systems of each coffee region.</p> 
+     <table-wrap id="pone-0098454-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Colonization rate (CR) and isolation rate (IR) of endophytic fungi in the four coffee plantations.</title> 
+      <alternatives>
+       <graphic id="pone-0098454-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="2" align="left" rowspan="1">Huatusco</td> 
+          <td colspan="2" align="left" rowspan="1">Coatepec</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Rustic plantation</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+          <td align="left" rowspan="1" colspan="1">Rustic plantation</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">CR</td> 
+          <td align="left" rowspan="1" colspan="1">0.88±0.04
+           <bold>
+            <sup>a</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.80±0.05
+           <bold>
+            <sup>a</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.73±0.05
+           <bold>
+            <sup>ab</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.57±0.05
+           <bold>
+            <sup>b</sup>
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">IR</td> 
+          <td align="left" rowspan="1" colspan="1">1.30±0.09
+           <bold>
+            <sup>a</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1.01±0.07
+           <bold>
+            <sup>ab</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.93±0.07
+           <bold>
+            <sup>b</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">0.75±0.09
+           <bold>
+            <sup>b</sup>
+           </bold></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>Mean of CR ± standard error and mean of IR ± standard error of fungal endophytes isolated from the four coffee plantations. Different letters indicate significant difference between coffee plantations at the p&lt;0.05 level.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>The 479 isolated EF were assigned to 31 morphospecies, including both identified genera and unidentified types. The relative frequencies of isolation of these fungi are shown in 
+      <xref ref-type="table" rid="pone-0098454-t002">
+       Table 2
+      </xref>, and their descriptions are shown in 
+      <xref ref-type="supplementary-material" rid="pone.0098454.s001">
+       Table S1
+      </xref>. The particularly common EF genera were 
+      <italic>
+       Colletotrichum
+      </italic> and 
+      <italic>
+       Xylaria
+      </italic>.</p> 
+     <table-wrap id="pone-0098454-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Morphospecies of endophytic fungi from the four coffee plantations and their frequencies.</title> 
+      <alternatives>
+       <graphic id="pone-0098454-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="2" align="left" rowspan="1">Huatusco</td> 
+          <td align="left" rowspan="1" colspan="1">Coatepec</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Taxon</td> 
+          <td align="left" rowspan="1" colspan="1">Rustic</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+          <td align="left" rowspan="1" colspan="1">Rustic</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Alternaria citri
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Beauveria brongniartii
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Colletotrichum
+           </italic> aff 
+           <italic>
+            brassicicola
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.06</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Colletotrichum gloeosporioides
+           </italic> 1</td> 
+          <td align="left" rowspan="1" colspan="1">0.21</td> 
+          <td align="left" rowspan="1" colspan="1">0.32</td> 
+          <td align="left" rowspan="1" colspan="1">0.36</td> 
+          <td align="left" rowspan="1" colspan="1">0.33</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Colletotrichum gloeosporioides
+           </italic> 2</td> 
+          <td align="left" rowspan="1" colspan="1">0.13</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Colletotrichum musae
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.04</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Colletotrichum
+           </italic> sp. 1</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.04</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Coniosporium
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.10</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Cryptopsoriopsis corticola
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.00</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Cryptopsoriopsis
+           </italic> sp. 1</td> 
+          <td align="left" rowspan="1" colspan="1">0.04</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Diplodia
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.12</td> 
+          <td align="left" rowspan="1" colspan="1">0.09</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Glomerella cingulate
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.15</td> 
+          <td align="left" rowspan="1" colspan="1">0.12</td> 
+          <td align="left" rowspan="1" colspan="1">0.04</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Guignardia mangiferae
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.06</td> 
+          <td align="left" rowspan="1" colspan="1">0.09</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Hyphomicete 1</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Hyphomicete 2</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mycelia esterilia 1</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.04</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mycelia esterilia 2</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mycelia esterilia 3</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mycelia esterilia 3</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mycelia esterilia 4</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mycelia esterilia 5</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Paecilomyces
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Phomopsis arnoldiae
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Phomopsis
+           </italic> sp.</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylaria
+           </italic> 1.</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.05</td> 
+          <td align="left" rowspan="1" colspan="1">0.03</td> 
+          <td align="left" rowspan="1" colspan="1">0.04</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylaria
+           </italic> 2.</td> 
+          <td align="left" rowspan="1" colspan="1">0.06</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.07</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylaria
+           </italic> 3</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylaria
+           </italic> 4.</td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylaria
+           </italic> 5.</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylaria
+           </italic> 6</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.01</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>The 
+      <italic>
+       Colletotrichum gloeosporioides
+      </italic> morphospecies was separated into two types (1 and 2) based on spore and conidiogenous cell size and mycelium traits. In the 
+      <italic>
+       Xylaria
+      </italic> genus, we recognized six morphotypes according to their morphological characteristics. Due to a lack of spore production, eight EF morphotypes, which represented only 5% of the isolated fungi, could not be identified; they were named Mycelia sterilia 1–8.</p> 
+     <p>Interestingly, we observed changes in the appearance of the fresh leaf fragments cultured in the Petri plates according to the fungi isolated from them. The leaf segments in which the genus 
+      <italic>
+       Xylaria
+      </italic> was isolated withered after a few days of culture, while the leaf segments colonized by 
+      <italic>
+       Coniosporium
+      </italic> remained green in the Petri plates for almost one month.</p> 
+     <p>Accumulation curves of observed species richness (gray triangles and circles) and Jackknife 1 estimated richness (open triangles and circles) are shown in 
+      <xref ref-type="fig" rid="pone-0098454-g002">
+       Figure 2
+      </xref>. Observed and estimated richness were higher in RP-H (circles in 
+      <xref ref-type="fig" rid="pone-0098454-g002">
+       Fig. 2A
+      </xref>) than in SP-H (triangles in 
+      <xref ref-type="fig" rid="pone-0098454-g002">
+       Fig. 2A
+      </xref>). Estimated richness (open circles and triangles) was higher than observed richness (gray circles and triangles) in all four coffee plantations.</p> 
+     <fig id="pone-0098454-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Rarefaction curves for fungal endophytes isolated from coffee leaves from the four coffee plantations.</title> 
+      <p>Species accumulation curves (gray circles and gray triangles) and Jackknife 1 estimated richness (open circles and open triangles) of rustic plantations (circles) and simple polycultures (triangles) of Huatusco region (A) and Coatepec (B). RP-H: rustic plantation Huatusco; RP-C: rustic plantation Coatepec; SP-H: simple polyculture Huatusco; SP-C: simple polyculture Coatepec.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.g002" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The only coffee plantation in which the rarefaction curve reached the saturation point was the SP-C (
+      <xref ref-type="fig" rid="pone-0098454-g002">
+       Fig. 2B
+      </xref>). Richness estimator analysis of this plantation showed that the estimated morphospecies richness was similar to the observed richness, indicating sufficient sampling work in SP-C.</p> 
+     <p>The rarefaction curves of the other three plantations did not reach the saturation point, suggesting that endophyte richness was not fully recovered. The Jackknife 1 expected richness for those locations was higher than the observed richness, indicating that species richness was not exhaustively sampled.</p> 
+     <p>The results of the RD analysis summarized in 
+      <xref ref-type="table" rid="pone-0098454-t003">
+       Table 3
+      </xref> show the total EF richness isolated from each coffee plantation and the number of leaves from which at least one EF was isolated. Analysis of variance showed that EF richness was higher in the coffee leaves from the Huatusco region than in the coffee leaves from Coatepec (F = 11.7512, p = 0.0009). In each region EF richness was higher in the rustic plantation than in the simple polyculture (F = 4.1639, p = 0.0448). There were coffee leaves from Coatepec from which only one EF morphospecies was isolated, and the maximum was six morphospecies per leaf. In contrast, the Huatusco coffee leaves had a minimum of two or three morphospecies per leaf, with a maximum of nine different morphospecies per leaf.</p> 
+     <table-wrap id="pone-0098454-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>Richness-distribution analysis of the endophytic fungi isolated from each coffee plantation.</title> 
+      <alternatives>
+       <graphic id="pone-0098454-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.t003" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="2" align="left" rowspan="1">Huatusco</td> 
+          <td colspan="2" align="left" rowspan="1">Coatepec</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Rustic plantation</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+          <td align="left" rowspan="1" colspan="1">Rustic plantation</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Total Richness</td> 
+          <td align="left" rowspan="1" colspan="1">21</td> 
+          <td align="left" rowspan="1" colspan="1">17</td> 
+          <td align="left" rowspan="1" colspan="1">19</td> 
+          <td align="left" rowspan="1" colspan="1">16</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Leaves with endophytes (EF)</td> 
+          <td align="left" rowspan="1" colspan="1">20</td> 
+          <td align="left" rowspan="1" colspan="1">20</td> 
+          <td align="left" rowspan="1" colspan="1">20</td> 
+          <td align="left" rowspan="1" colspan="1">19</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mean of EF richness in coffee leaves</td> 
+          <td align="left" rowspan="1" colspan="1">5.10±0.40</td> 
+          <td align="left" rowspan="1" colspan="1">4.15±0.26</td> 
+          <td align="left" rowspan="1" colspan="1">3.70±0.26</td> 
+          <td align="left" rowspan="1" colspan="1">3.32±0.35</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Min-Max of EF richness by leaf</td> 
+          <td align="left" rowspan="1" colspan="1">3–9</td> 
+          <td align="left" rowspan="1" colspan="1">2–6</td> 
+          <td align="left" rowspan="1" colspan="1">1–5</td> 
+          <td align="left" rowspan="1" colspan="1">1–6</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Mean of distribution of EF</td> 
+          <td align="left" rowspan="1" colspan="1">4.86±0.82</td> 
+          <td align="left" rowspan="1" colspan="1">4.88±1.21</td> 
+          <td align="left" rowspan="1" colspan="1">3.84±0.81</td> 
+          <td align="left" rowspan="1" colspan="1">3.94±0.86</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Min-Max distribution of EF</td> 
+          <td align="left" rowspan="1" colspan="1">1–15 leaves</td> 
+          <td align="left" rowspan="1" colspan="1">1–20 leaves</td> 
+          <td align="left" rowspan="1" colspan="1">1–14 leaves</td> 
+          <td align="left" rowspan="1" colspan="1">1–16 leaves</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ratio–variance for species (V<sub>sp</sub>)</td> 
+          <td align="left" rowspan="1" colspan="1">0.949</td> 
+          <td align="left" rowspan="1" colspan="1">0.621</td> 
+          <td align="left" rowspan="1" colspan="1">0.641</td> 
+          <td align="left" rowspan="1" colspan="1">1.311</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Ratio–variance for leaves (V<sub>lv</sub>)</td> 
+          <td align="left" rowspan="1" colspan="1">3.826</td> 
+          <td align="left" rowspan="1" colspan="1">6.535</td> 
+          <td align="left" rowspan="1" colspan="1">3.949</td> 
+          <td align="left" rowspan="1" colspan="1">3.792</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt102">
+        <label></label>
+        <p>Values of total richness, media of richness ± standard error, distribution, media of distribution ± standard error, and ratio–variance of endophytic fungi in the four coffee plantations.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>On average, each EF morphospecies was isolated in five leaves from the Huatusco plantations and in four leaves from the Coatepec plantations. The minimum number of leaves in which a given morphospecies was isolated was one leaf, and the maximum was 14–20 leaves. The most widespread EF species in all four coffee plantations was 
+      <italic>
+       Colletotrichum gloeosporioides
+      </italic> 1.</p> 
+     <p>The V<sub>sp</sub> value, which indicates the degree of association among different species 
+      <xref ref-type="bibr" rid="pone.0098454-Arita2">
+       [56]
+      </xref>, was 1 in RP-H and SP-C (
+      <xref ref-type="table" rid="pone-0098454-t003">
+       Table 3
+      </xref>). Those values were similar to the V<sub>sp</sub> of null models with 10 iterations (RP-H: V<sub>sp</sub> = 1.01±0.04; SP-C: V<sub>sp</sub> = 1.02±0.28). Empirical and null models showed no association among morphospecies in those plantations. In RP-C and SP-H, the empirical V<sub>sp</sub> values were less than 1, while in the simulations values V<sub>sp</sub> were 1 (RP-C: V<sub>sp</sub> = 1.00±0.16; SP-H: V<sub>sp</sub> = 1.10±0.07). Those results indicate negative associations among EF species in RP-C and in SP-H. Negative covariances were observed between 
+      <italic>
+       Colletotrichum gloeosporioides
+      </italic> and 
+      <italic>
+       Xylaria
+      </italic>, 
+      <italic>
+       Xylaria
+      </italic> and 
+      <italic>
+       Coniosporium
+      </italic> sp., and 
+      <italic>
+       Colletotrichum gloeosporioides
+      </italic> and 
+      <italic>
+       Coniosporium
+      </italic> sp. In general, positive covariances were found among fungi isolated in low frequencies, such as 
+      <italic>
+       Paecilomyces
+      </italic> sp., which was only isolated from leaves in the presence of one Coelomycete endophyte. The V<sub>lv</sub> value, which indicates EFC similarity among leaves from the same coffee plantation, was higher than 1 in all four coffee plantations (
+      <xref ref-type="table" rid="pone-0098454-t003">
+       Table 3
+      </xref>). Those results contrast with the V<sub>lv</sub> values obtained with the null models (RP-H: V<sub>lv</sub> = 0.87±0.18; RP-C: V<sub>lv</sub> = 0.95±0.02; SP-H: V<sub>lv</sub> = 1.29±0.16; SP-C: V<sub>lv</sub> = 0.93±0.07), and indicates considerable similarity in the shared species of the leaves of each coffee plantation. The highest EFC similarity was found in the coffee leaves from SP-H.</p> 
+     <p>The ANOVA test of diversity indexes of EF isolated from the coffee leaves showed significant differences in diversity between agroforestry systems (Fisher's alpha: F = 40.4381, p&lt;0.0001; Shannon's diversity: F = 22.8818, p&lt;0.0001) and with the interaction between coffee region and agroforestry system (Fisher's alpha: F = 43.9388, p&lt;0.0001; Shannon's diversity: F = 40.3883, p&lt;0.0001). The Shannon's diversity was different between coffee regions (F = 19.7207, p&lt;0.0005), while the Fisher's alpha was not different between them (F = 0.4303, p = 0.5140) due to the variability in Fisher's alpha diversity in Huatusco region. Fisher's alpha EF diversity (
+      <xref ref-type="table" rid="pone-0098454-t004">
+       Table 4
+      </xref>) was significantly higher in the RP-H leaves than in the coffee leaves of the other three plantations; SP-H leaves had the lowest Fisher's alpha diversity value. Shannon's index of EF diversity was significantly higher in RP-H than in RP-C, SP-H, and SP-C; there were no significant differences in Shannon's index of EF diversity among RP-C, SP-H, and SP-C.</p> 
+     <table-wrap id="pone-0098454-t004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.t004
+      </object-id>
+      <label>Table 4</label> 
+      <title>Fisher's alpha and Shannon's diversity index of endophytic fungi in the four coffee plantations.</title> 
+      <alternatives>
+       <graphic id="pone-0098454-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.t004" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="2" align="left" rowspan="1">Huatusco</td> 
+          <td colspan="2" align="left" rowspan="1">Coatepec</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Rustic</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+          <td align="left" rowspan="1" colspan="1">Rustic</td> 
+          <td align="left" rowspan="1" colspan="1">Simple polyculture</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Fisher's alpha</td> 
+          <td align="left" rowspan="1" colspan="1">6.53±0.15 <sup>a</sup></td> 
+          <td align="left" rowspan="1" colspan="1">5.05±0.10 <sup>c</sup></td> 
+          <td align="left" rowspan="1" colspan="1">5.70±0.08 <sup>b</sup></td> 
+          <td align="left" rowspan="1" colspan="1">5.73±0.11 <sup>b</sup></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Shannon</td> 
+          <td align="left" rowspan="1" colspan="1">2.40±0.03<sup> a</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2.07±0.03<sup> b</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2.08±0.03<sup> b</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2.13±0.03<sup> b</sup></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt103">
+        <label></label>
+        <p>Mean ± standard error. Different letters indicate significant difference between coffee plantations at the p&lt;0.05 level with ANOVA test of interaction between coffee region and agroforestry system.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>Analysis of EFC similarity among coffee plantations</title> 
+     <p>The NMDS plots (
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3
+      </xref>) with Jaccard's index had a stress (S) value of 0.34, the NMDS plots with the Bray–Curtis coefficient had a 0.24 S value, and the Euclidean distance NMDS plots had a 0.16 S value. In NMDS plots, S values higher than 0.3 indicate a poor configuration of dissimilarities among the EFC in a multidimensional space, while S values lower than 0.2 indicate a better configuration of the dissimilarities 
+      <xref ref-type="bibr" rid="pone.0098454-Quinn1">
+       [53]
+      </xref>. Regardless of the ecological similarity index analyzed, there was not a clear clustering of EFC isolated from the coffee plants among the different plantations.</p> 
+     <fig id="pone-0098454-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Non-metric multidimensional scaling (NMDS) plots of fungal endophytic communities from the four coffee plantations.</title> 
+      <p>NMDS plots based in Jaccard's index (A), Bray–Curtis coefficient (B), and Euclidean distance (C). Fungal endophytic communities of each coffee plantation are indicated by different colors: blue circles  =  rustic plantation Huatusco; pink circles  =  rustic plantation Coatepec; red circles  =  simple polyculture Huatusco; and green circles  =  simple polyculture Coatepec.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.g003" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The results of the similarity analysis summarized in 
+      <xref ref-type="table" rid="pone-0098454-t005">
+       Table 5
+      </xref> indicate a significant difference in the EFC of RP-H and SP-H analyzed with Jaccard's index (R = 0.356), the Bray–Curtis coefficient (R = 0.324), and Euclidean distance (R  =  0.258). Those results are better observed in the NMDS plots based on the Bray–Curtis coefficient (
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3B
+      </xref>) and Euclidean distance (
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3C
+      </xref>). Those figures show that the EFC of the different SP-H coffee plants are very similar (red circles in 
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3
+      </xref>) and that those communities are different from the EFC isolated from the RP-H coffee plants (blue circles in 
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3
+      </xref>).</p> 
+     <table-wrap id="pone-0098454-t005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0098454.t005
+      </object-id>
+      <label>Table 5</label> 
+      <title>ANOSIM pairwise test of EFC isolated from the four coffee plantations.</title> 
+      <alternatives>
+       <graphic id="pone-0098454-t005-5" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0098454.t005" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Pairwise test</td> 
+          <td align="left" rowspan="1" colspan="1">R (Jaccard's index)</td> 
+          <td align="left" rowspan="1" colspan="1">R (Bray-Curtis coefficient)</td> 
+          <td align="left" rowspan="1" colspan="1">R (Euclidean distance)</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">RPH - RPC</td> 
+          <td align="left" rowspan="1" colspan="1">0.211</td> 
+          <td align="left" rowspan="1" colspan="1">0.164</td> 
+          <td align="left" rowspan="1" colspan="1">0.145</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">RPH - SPH</td> 
+          <td align="left" rowspan="1" colspan="1">0.356*</td> 
+          <td align="left" rowspan="1" colspan="1">0.324*</td> 
+          <td align="left" rowspan="1" colspan="1">0.258*</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">RPH - SPC</td> 
+          <td align="left" rowspan="1" colspan="1">0.181</td> 
+          <td align="left" rowspan="1" colspan="1">0.124</td> 
+          <td align="left" rowspan="1" colspan="1">0.186*</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">RPC - SPH</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+          <td align="left" rowspan="1" colspan="1">0.111</td> 
+          <td align="left" rowspan="1" colspan="1">0.110</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">RPC - SPC</td> 
+          <td align="left" rowspan="1" colspan="1">0.060</td> 
+          <td align="left" rowspan="1" colspan="1">0.004</td> 
+          <td align="left" rowspan="1" colspan="1">0.111</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SPH - SPC</td> 
+          <td align="left" rowspan="1" colspan="1">0.183</td> 
+          <td align="left" rowspan="1" colspan="1">0.141</td> 
+          <td align="left" rowspan="1" colspan="1">0.169</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt104">
+        <label></label>
+        <p>The ANOSIM test was based on three different ecological similarity indexes: Jaccard's index, Bray–Curtis coefficient, and Euclidean distance. RPH: rustic plantation Huatusco; RPC: rustic plantation Coatepec; SPH: simple polyculture Huatusco; SPC: simple polyculture Coatepec; R  =  rank similarities; *significant difference p&gt;0.05.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>The ANOSIM analyzed with the Euclidean distances also showed significant differences between the RP-H EFC and the SP-C EFC (R = 0.186). The NMDS plot based on Euclidean distance shows that the circles representing EFC from SP-C (green circles in 
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3C
+      </xref>) are different to EFC from RP-H (blue circles in 
+      <xref ref-type="fig" rid="pone-0098454-g003">
+       Fig. 3C
+      </xref>).</p> 
+     <p>The NMDS plots and ANOSIM based on the three ecological similarity indexes indicate that the EFC of the trees inhabiting the Coatepec region were similar, independent of the coffee agroforestry system. The similarity analysis also showed that the EFC isolated from each type of agroforestry system, rustic and simple polyculture, were similar, independent of the coffee region. There were similarities in the EFC of the rustic plantations (RP-H and RP-C) and in the EFC of the simple plantations (SP-H and SP-C).</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>In this study, we identified 31 morphotaxa from the 479 isolated endophytic fungi. The number of morphospecies found in our study is lower than the number found in the study by Santamaría and Bayman (2005) 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>, who studied the EF of coffee leaves from Puerto Rico and collected the same number of coffee leaves as in the current study. This difference might be due to the number of sites sampled; we sampled four sites, while Santamaría and Bayman sampled six sites. Because the interpretation of EF richness is method-dependent 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold1">
+      [21]
+     </xref>, the difference in the number of sites could affect the number of morphospecies recovered. However, it is far more likely that the difference is due to the type of management practiced at the sites studied. We isolated EF from coffee leaves in producing plantations, while Santamaría and Bayman isolated foliar EF from coffee plants growing in a secondary forest and a botanical garden. The traits of the ecological environment of the site strongly influence EF diversity 
+     <xref ref-type="bibr" rid="pone.0098454-Qi1">
+      [57]
+     </xref>.</p> 
+    <p>The species reported in the present study are ubiquitous taxa isolated mainly from plants inhabiting tropical regions 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold2">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Gamboa1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Gamboa2">
+      [35]
+     </xref>, woody cultured plants 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold4">
+      [58]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-DouanlaMeli1">
+      [59]
+     </xref>, and plants growing outside their native distribution areas 
+     <xref ref-type="bibr" rid="pone.0098454-Fisher1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Hoffman1">
+      [33]
+     </xref>. The most common genera found in our study were 
+     <italic>
+      Colletotrichum
+     </italic> and 
+     <italic>
+      Xylaria
+     </italic>, which have often been isolated from coffee plants in American coffee-growing regions 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>. Other EF genera reported in the present study have also been isolated from coffee plants growing in different countries; these genera include 
+     <italic>
+      Phomopsis
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Sette1">
+      [60]
+     </xref>, 
+     <italic>
+      Beauveria
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Posada1">
+      [61]
+     </xref>, 
+     <italic>
+      Alternaria
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Fernandes1">
+      [62]
+     </xref>, 
+     <italic>
+      Coniosporium
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Carrin1">
+      [17]
+     </xref>, 
+     <italic>
+      Guignardia
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>, 
+     <italic>
+      Paecilomyces
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>, and the teleomorph of 
+     <italic>
+      Diplodia
+     </italic>, 
+     <italic>
+      Botryosphaeria
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>.</p> 
+    <p>Knowledge of the diversity of EF in coffee leaves is very important in identifying phytopathogenic fungi that might live as endophytes during part of their life cycle 
+     <xref ref-type="bibr" rid="pone.0098454-Saikkonen1">
+      [63]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Junker1">
+      [64]
+     </xref>. Of the EF isolated in the present study, the 
+     <italic>
+      Colletotrichum gloeosporioides
+     </italic> complex includes strongly aggressive pathogens, opportunistic pathogens 
+     <xref ref-type="bibr" rid="pone.0098454-Phoulivong1">
+      [65]
+     </xref>, and endophytes 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>. In Latin America, 
+     <italic>
+      Colletotrichum gloeosporioides
+     </italic> is associated with blister spot, or “mancha mantecosa,” in leaves 
+     <xref ref-type="bibr" rid="pone.0098454-Waller2">
+      [66]
+     </xref>. The tartrate and citric acid biochemical tests conducted on isolates 1 and 2 of 
+     <italic>
+      Colletotrichum gloeosporioides
+     </italic> in this study, as well as the successful inoculation of these fungi in coffee plants without causing evident damage or disease (Velázquez-Bermudez, in preparation), show the endophytic nature of this species isolated from coffee leaves.</p> 
+    <p>The genus 
+     <italic>
+      Xylaria
+     </italic> is recognized as a saprotrophic fungus 
+     <xref ref-type="bibr" rid="pone.0098454-Petrini3">
+      [67]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Osono1">
+      [68]
+     </xref> and as an endophytic fungus of many plants 
+     <xref ref-type="bibr" rid="pone.0098454-Davis1">
+      [69]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Unterseher2">
+      [70]
+     </xref>, included coffee plants 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>. We observed that the coffee leaf segments in which the genus 
+     <italic>
+      Xylaria
+     </italic> was isolated withered in a few days of Petri dish cultures, and some of them produced stromata only over the dead leaf segment. This phenomenon might be evidence of the saprobic phase of the xylariaceous fungus 
+     <xref ref-type="bibr" rid="pone.0098454-Osono2">
+      [71]
+     </xref>. According to Vega et al. (2010) 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>, the endophytes of this genus might play a saprotrophic role in coffee plants after their senescence.</p> 
+    <p>Some genera, such as 
+     <italic>
+      Beauveria
+     </italic>, which was only isolated from RP-H leaves, and 
+     <italic>
+      Paecilomyces
+     </italic>, are recognized as entomopathogenic fungi and have been isolated and tested on some coffee pests 
+     <xref ref-type="bibr" rid="pone.0098454-Vega2">
+      [72]
+     </xref>. Further studies on the entomopathogenic role of these genera will be very important in elucidating their possible ecological relation in each agrosystem.</p> 
+    <p>The analysis of EF abundance in the coffee plantations in the two regions studied indicated higher CR and IR values in the Huatusco plantations than in the Coatepec plantations. This finding indicates that the geographical region (with its respective vegetation, climate, and soil characteristics) exerts an important influence on the colonization and abundance of foliar EF in coffee plants. Other studies have also shown differences in the abundance of EF between different localities in agrosystems 
+     <xref ref-type="bibr" rid="pone.0098454-EkRamos1">
+      [38]
+     </xref> and natural systems 
+     <xref ref-type="bibr" rid="pone.0098454-Johnston1">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Angelini1">
+      [73]
+     </xref>.</p> 
+    <p>On the other hand, we found no significant differences in CR or IR between the two agroforestry systems of each coffee region; however, we found higher CR and IR values in the rustic plantations than in the simple polycultures. Coffee plants in rustic plantations, as opposed to simple polycultures, are grown under a higher diversity of shade trees species, representing a more complex canopy. However, as shown in other studies, the canopy does not seem to influence the colonization and abundance of EF in plants growing in the understory 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold3">
+      [27]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Hata1">
+      [74]
+     </xref>. In agreement with our results, Arnold and Herre (2003) 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold3">
+      [27]
+     </xref> found no differences in the CR of EF in plants growing under different canopy conditions (beneath the forest canopy and under cleared sites), although they found a higher number of fungal colony-forming units in the forest than in the cleared sites.</p> 
+    <p>Besides the differences in canopy, the two coffee agroforestry systems also differ in their farming practices. However, the differences in management systems also do not seem to affect the colonization and abundance of EF. Similarly, Pancher et al. (2012) 
+     <xref ref-type="bibr" rid="pone.0098454-Pancher1">
+      [37]
+     </xref> found no differences in the number of EF isolated from grapevines (
+     <italic>
+      Vitis vinifera
+     </italic>) cultivated in vineyards following different farming practices.</p> 
+    <p>We found that the CR and IR of EF are not necessarily related to the diversity found in each sampling site. For example, Matsumura and Fukuda (2013) 
+     <xref ref-type="bibr" rid="pone.0098454-Matsumura1">
+      [75]
+     </xref> reported higher frequencies of colonization of EF in trees inhabiting rural forests than in trees growing in a suburban forest in Japan. However, they did not find significant differences in Shannon's diversity index between these two forests. In contrast, we found similar colonization rates and abundance of EF in the Huatusco plantations, but the diversity values in the rustic plantation were higher than in the simple polyculture. On the other hand, we did not find significant differences in the EF diversity of the two Coatepec coffee plantations. Nevertheless, it is important to mention that the rarefaction curves for RP-C, RP-H, and SP-H did not reach saturation of morphospecies. This finding suggests that additional sampling efforts are needed in those plantations in order to obtain an accurate idea of the endophytic richness; the species that were not isolated might raise the diversity levels in those locations.</p> 
+    <p>We found a higher total EF richness, a higher mean richness by leaf, and a higher expected richness in the rustic plantation than in the simple polyculture of each region. As mentioned previously, these results suggest that the complexity of the canopy and the alternative management techniques used in rustic plantations might influence the EF richness and diversity. Some studies have shown that the canopy might influence the richness and diversity of foliar EF growing in the understory 
+     <xref ref-type="bibr" rid="pone.0098454-Gamboa2">
+      [35]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Unterseher3">
+      [76]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Scholtysik1">
+      [77]
+     </xref>. A complex canopy could produce microclimatic conditions that promote a higher diversity of EF 
+     <xref ref-type="bibr" rid="pone.0098454-Unterseher3">
+      [76]
+     </xref>. In rustic plantations, the complex canopy might also produce a higher diversity of litter types, and as those dead leaves appear to be a primary source of EF inoculum 
+     <xref ref-type="bibr" rid="pone.0098454-Herre1">
+      [36]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Osono2">
+      [71]
+     </xref>, the diversity of litter types might also produce a higher diversity of EF propagules.</p> 
+    <p>Various studies have been conducted on biodiversity conservation in different coffee production systems in the central region of Veracruz, where Huatusco and Coatepec are located 
+     <xref ref-type="bibr" rid="pone.0098454-Manson1">
+      [78]
+     </xref>. Contrary to our findings, studies regarding the fungi associated with different coffee agroforestry systems, particularly arbuscular mycorrhizal fungi (AMF) and saprotrophic fungi, showed no differences in richness or diversity among the different agrosystems 
+     <xref ref-type="bibr" rid="pone.0098454-Heredia1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Arias1">
+      [14]
+     </xref>. It is possible that EF is more sensitive to agroforestry type than AMF and saprophytic fungi are.</p> 
+    <p>In addition to the variability in richness and diversity of EF between coffee agrosystems, we found higher EF richness and diversity in RP-H than in the other three plantations, and a higher mean richness by leaf in the Huatusco plantations than in the Coatepec plantations. One reason for this finding is the difference in EF distribution in the two regions. Although we observed the typical distribution of EF reported in many studies on tropical and temperate forest trees 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Gamboa2">
+      [35]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Unterseher4">
+      [79]
+     </xref>, in which few EF morphospecies were frequent and the majority of morphospecies were found in low frequencies, we found some differences between regions. In general, the morphospecies in the Huatusco plantations had a broad distribution among the leaves, while the Coatepec morphospecies had a narrow distribution among the leaves. The differences in species distribution might influence the mean richness and diversity values of the coffee leaves. Furthermore, the Huatusco region (
+     <xref ref-type="fig" rid="pone-0098454-g001">
+      Fig. 1
+     </xref>) is located at a lower longitude than Coatepec, and although it is immersed in a montane cloud forest, it runs adjacent to a tropical deciduous forest. These differences could influence the EF diversity of those plantations. Some studies have reported that Shannon's diversity index of EF increases when the longitude decreases 
+     <xref ref-type="bibr" rid="pone.0098454-Wu1">
+      [80]
+     </xref>; this finding is consistent with our results for Huatusco and Coatepec. In the other hand, in Veracruz, there is also a higher diversity of other organisms, such as small- and medium-sized mammals 
+     <xref ref-type="bibr" rid="pone.0098454-Gallina1">
+      [81]
+     </xref> in the rustic Huatusco plantations than in the simple polycultures of Huatusco, and in the different agroforestry systems of Coatepec.</p> 
+    <p>The Fisher's alpha and Shannon's index diversity analysis results differed in the present study. Both indexes consider the number of EF species (richness) and relative abundance of the individuals present in a given sample, but Fisher's alpha is not influenced by the sample size and is less affected by the abundance of the most common species than Shannon's index 
+     <xref ref-type="bibr" rid="pone.0098454-Schulte1">
+      [82]
+     </xref>. As such, Shannon's index indicated low variability among the four coffee plantations, whereas Fisher's alpha showed differences in diversity between the two regions and between agroforestry systems.</p> 
+    <p>Although the total EF diversity found in the coffee plantations was not fully recovered, we found similar diversity values in other studies about EF diversity. In the present study, the mean of Fisher's alpha diversity of morphospecies (5.1–6.5) is similar to the mean of genotypic diversity (Fisher's alpha diversity of 5.2) of coffee plants in Mexico 
+     <xref ref-type="bibr" rid="pone.0098454-Vega1">
+      [16]
+     </xref>. The similarity in diversity index values between the present study and other studies shows that morphotypes and morphospecies are valid taxonomic units 
+     <xref ref-type="bibr" rid="pone.0098454-Lacap1">
+      [83]
+     </xref> and that comparing the results of studies using different taxonomic units might be valid. The similitude in richness species estimators using morphotypes and genotypes has also been reported on foliar endophytes from beech trees (
+     <italic>
+      Fagus sylvatica
+     </italic>) 
+     <xref ref-type="bibr" rid="pone.0098454-Unterseher4">
+      [79]
+     </xref>.</p> 
+    <p>The Shannon's diversity values varied around 2 in the four coffee plantations. According to Gazis and Chaverri (2010) 
+     <xref ref-type="bibr" rid="pone.0098454-Gazis1">
+      [84]
+     </xref>, the Shannon's index values in studies on EF are usually between 1.5 and 3.5; therefore, the Shannon's index for each coffee plantation in the present study is similar to those reported by other studies on EF.</p> 
+    <p>In the analysis of association between species, the interactions between fungi are apparently different in each coffee plantation, but in general, the fungi isolated in high frequencies, such as 
+     <italic>
+      Colletotrichum gloeosporioides
+     </italic> 1 and 
+     <italic>
+      Xylaria
+     </italic> 1, have more negative co-occurrences than species isolated in low frequencies. The negative covariances between 
+     <italic>
+      Colletotrichum gloeosporioides
+     </italic> and 
+     <italic>
+      Xylaria
+     </italic> spp. have been reported previously for endophytes inhabiting coffee leaves 
+     <xref ref-type="bibr" rid="pone.0098454-Santamara1">
+      [15]
+     </xref>.</p> 
+    <p>Species found in high frequencies co-occur with a low number of species, whereas the species isolated in low frequencies co-occur with a high number of species. Our results are consistent with those of Pan and May (2009) 
+     <xref ref-type="bibr" rid="pone.0098454-Pan1">
+      [85]
+     </xref>, who reported higher negative species co-occurrences between dominant EF and higher positive covariances between less common fungal species in maize plants. The positive covariances between EF could be attributed to a lack of competitive exclusion between those fungi or to a phenomenon known as facilitation. Fungal facilitation in endophytic communities can occur when infection of a plant host by one fungus species makes that host more vulnerable to infection by another fungus species 
+     <xref ref-type="bibr" rid="pone.0098454-Pan1">
+      [85]
+     </xref>. The interspecific interactions of EF could influence the diversity and assemblage of EFC found in each coffee plantation.</p> 
+    <p>The NMDS plots based on the different ecological indexes showed variation in EFC among the different plants of each coffee plantation. In addition, there was no EFC clustering among coffee plantations. When the EFC similarities of the coffee plantations were compared with an ANOSIM test, we found that the geographically closest plantations, the ones in the Coatepec region, were similar in their EFC, independent of their agroforestry systems. In agreement with this result, some studies have shown that EFC similarity is a function of the distance between sites, and thus, nearby sites have similar EFC 
+     <xref ref-type="bibr" rid="pone.0098454-Arnold3">
+      [27]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Gange1">
+      [86]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Joshee1">
+      [87]
+     </xref>. The geographical condition of this region (microclimate and surrounding vegetation) could influence the assemblage of the EFC.</p> 
+    <p>In contrast, we found dissimilarities in the EFC of the two Huatusco plantations, even though they were near each other. The ANOSIM test showed that the EFC of RP-H and SP-H were different according to the three ecological indexes of similarity that were analyzed. The EFC of RP-H and SP-C were also different as analyzed using Euclidean distance. Those results suggest that agroforestry system could influence the assemblage of EFC of coffee plants. Our results also showed that the EFC of the rustic plantations and the EFC of the simple polycultures were similar; in fact, the rustic plantations shared a higher number of morphospecies than the simple polycultures did.</p> 
+    <p>Studies on the EF of herbaceous cultivable plants, such as cotton and maize, have shown no similarities in EFC based on farming practice 
+     <xref ref-type="bibr" rid="pone.0098454-EkRamos1">
+      [38]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Seghers1">
+      [88]
+     </xref>. However, in agreement with our results, Pancher et al. (2012) 
+     <xref ref-type="bibr" rid="pone.0098454-Pancher1">
+      [37]
+     </xref> reported dissimilarity in EFC isolated from 
+     <italic>
+      Vitis vinifera
+     </italic> plants under different vineyard management practices. These results indicate that the plantation management techniques in agroforestry systems, such as coffee plantations and vineyards, might influence the assemblage of EFC.</p> 
+    <p>More sampling will help elucidate the factors that influence the EFC, but as shown in this study, some of those factors might be the geographical location and agroforestry system of the coffee plantations. Further studies evaluating the ecological roles of the different EFC found in the diverse coffee agroforestry systems will contribute to the knowledge of the role of the system of agroforestry management in the regulation of pest and pathogen populations 
+     <xref ref-type="bibr" rid="pone.0098454-Teodoro1">
+      [89]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0098454-Vandermeer1">
+      [90]
+     </xref>.</p> 
+    <p>The results of the present study show that the coffee agroforestry system produces variability in the colonization, richness, diversity, and composition of EFC in coffee plants. In addition, they demonstrate that the region in which coffee is cultivated is an important factor that influences these parameters. Future studies on the biodiversity conservation value of different coffee agroforestry systems will need to consider the coffee region as a determinant factor that affects biodiversity. In further studies, the use of molecular and physiological tools to identify, individually and collectively, the functional and ecological significance of EF in coffee plants under diverse ecological and geographical conditions will be equally significant. These studies will also provide an opportunity to understand the potential use of some EF as producers of relevant precursor substances in the regulation of different pests and pathogens, to discover new drugs, and to understand the potential role of EFC as potential controls of pest populations.</p> 
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0098454.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0098454.s001" position="float" xlink:type="simple">
+     <label>Table S1</label> 
+     <p>Description of morphospecies of foliar endophytic fungi isolated from the four coffee plantations.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>This paper constitutes a partial fulfillment of the Graduate Program in Biological Sciences of the Universidad Nacional Autónoma de México (UNAM), and a requisite to obtain the doctorate degree. A. Saucedo-García acknowledges the fellowship provided by Consejo Nacional de Ciencia y Tecnología (CONACyT) and PAPIIT-DGAPA UNAM. We are grateful to Q.A. Blanca E. Hernández-Bautista and Biol. Gabriel del Ángel García for their valuable technical assistance. We also thank Gloria Carrión and Brewster Philip John from Instituto Nacional de Ecología (INECOL) in Xalapa, Veracruz for their help with the location of the study sites. We thank the editor and two anonymous reviewers for their valuable comments, which helped us to improve the manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0098454-VanHilten1">
+      <label>1</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Van Hilten HJ, Fisher PJ, Wheeler MA (2011) The Coffee Exporter's Guide. Geneva International Trade Centre. UNCTAD/GATT. 247 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Lashermes1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lashermes
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Combes
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Robert
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trouslot
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         D' Hont
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Molecular characterisation and origin of the 
+        <italic>
+         Coffea arabica
+        </italic> L. genome
+       </article-title>. 
+       <source>Mol Gen Genet 
+       <volume>
+        261
+       </volume>: 
+       <fpage>
+        259
+       </fpage>–
+       <lpage>
+        266
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Moguel1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moguel
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Toledo
+        </surname>
+        <given-names>
+         VM
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Biodiversity conservation in traditional coffee systems of Mexico
+       </article-title>. 
+       <source>Conserv Biol 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        11
+       </fpage>–
+       <lpage>
+        21
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Rice1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rice
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        A place unbecoming: The coffee farm of Northern Latin America
+       </article-title>. 
+       <source>Geogr Rev 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        554
+       </fpage>–
+       <lpage>
+        579
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-HernndezMartnez1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hernández-Martínez
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manson
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Contreras
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Quantitative classification of coffee agroecosystems spanning a range of production intensities in central Veracruz, Mexico
+       </article-title>. 
+       <source>Agric Ecosyst Environ 
+       <volume>
+        134
+       </volume>: 
+       <fpage>
+        89
+       </fpage>–
+       <lpage>
+        98
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Toledo1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Toledo
+        </surname>
+        <given-names>
+         VM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moguel
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Coffee and sustainability: the multiple values of traditional shaded coffee
+       </article-title>. 
+       <source>J Sustain Agr 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        353
+       </fpage>–
+       <lpage>
+        377
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Gordon1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gordon
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manson
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sundberg
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cruz-Angón
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Biodiversity, profitability, and vegetation structure in a Mexican coffee agroecosystem
+       </article-title>. 
+       <source>Agric Ecosyst Environ 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        256
+       </fpage>–
+       <lpage>
+        266
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Perfecto1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Perfecto
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vandermeer
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mas
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soto-Pinto
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Biodiversity, yield, and shade coffee certification
+       </article-title>. 
+       <source>Ecol Econ 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        435
+       </fpage>–
+       <lpage>
+        446
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-LpezGmez1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         López-Gómez
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams-Linera
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manson
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Tree species diversity and vegetation structure in shade coffee farms in Veracruz, Mexico
+       </article-title>. 
+       <source>Agric Ecosyst Environ 
+       <volume>
+        124
+       </volume>: 
+       <fpage>
+        160
+       </fpage>–
+       <lpage>
+        172
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Perfecto2">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Perfecto
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vandermeer
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Biodiversity conservation in tropical agroecosystems: a new conservation paradigm
+       </article-title>. 
+       <source>Ann N Y Acad Sci 
+       <volume>
+        1134
+       </volume>: 
+       <fpage>
+        173
+       </fpage>–
+       <lpage>
+        200
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-valosSartorio1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ávalos-Sartorio
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blackman
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Agroforestry price supports as a conservation tool: Mexican shade coffee
+       </article-title>. 
+       <source>Agroforest Syst 
+       <volume>
+        78
+       </volume>: 
+       <fpage>
+        169
+       </fpage>–
+       <lpage>
+        183
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Perfecto3">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Perfecto
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mas
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dietsch
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vandermeer
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Conservation of biodiversity in coffee agroecosystems: a tri-taxa comparison in southern Mexico
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        1239
+       </fpage>–
+       <lpage>
+        1252
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Heredia1">
+      <label>13</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Heredia AG, Arias RM (2008) Hongos saprobios y endomicorrizógenos en suelos. In: Manson RH, Hernández-Ortiz V, Gallina S, Mehltreter K, editors. Agroecosistemas cafetaleros de Veracruz: biodiversidad, manejo y conservación. México: INECOL INE-SEMARNAT. pp. 193–212.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arias1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arias
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heredia-Abarca
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sosa
+        </surname>
+        <given-names>
+         VJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fuentes-Ramírez
+        </surname>
+        <given-names>
+         LE
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Diversity and abundance of arbuscular mycorrhizal fungi spores under different coffee production systems and in a tropical montane cloud forest patch in Veracruz, Mexico
+       </article-title>. 
+       <source>Agroforest Syst 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        179
+       </fpage>–
+       <lpage>
+        193
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Santamara1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Santamaría
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bayman
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Fungal epiphytes and endophytes of coffee leaves (
+        <italic>
+         Coffea arabica
+        </italic>)
+       </article-title>. 
+       <source>Microb Ecol 
+       <volume>
+        50
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        8
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Vega1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vega
+        </surname>
+        <given-names>
+         FE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Simpkins
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aime
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Posada
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peterson
+        </surname>
+        <given-names>
+         SW
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Fungal endophyte diversity in coffee plants from Colombia, Hawai'i, Mexico and Puerto Rico
+       </article-title>. 
+       <source>Fungal Ecol 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        122
+       </fpage>–
+       <lpage>
+        138
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Carrin1">
+      <label>17</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Carrión G (2006) La naturaleza de las interacciones entre la roya del cafeto y sus hongos hiperparásitos [PhD]. México: Universidad Nacional Autónoma de México. 110 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Petrini1">
+      <label>18</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Petrini O (1991) Fungal endophytes of tree leaves. In: Andrews JH, Hirano SS, editors. Microbial ecology of leaves. New York: Springer-Verlag. pp. 179–197.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Stone1">
+      <label>19</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Stone JK, Bacon CW, White JF (2000) An overview of endophytic microbes: endophytism defined. In: Bacon CW, White JF, editors. Microbial endophytes. New York: Marcel Dekker. pp. 3–30.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Schulz1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schulz
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boyle
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        The endophytic continuum
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        661
+       </fpage>–
+       <lpage>
+        687
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arnold1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Understanding the diversity of foliar endophytic fungi: progress, challenges, and frontiers
+       </article-title>. 
+       <source>Fungal Biol Rev 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        51
+       </fpage>–
+       <lpage>
+        66
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arnold2">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lutzoni
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Diversity and host range of foliar fungal endophytes: are tropical leaves biodiversity hotspots?
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        541
+       </fpage>–
+       <lpage>
+        549
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Rodriguez1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rodriguez
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         White Jr
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Redman
+        </surname>
+        <given-names>
+         RS
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Fungal endophytes: diversity and functional roles
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        182
+       </volume>: 
+       <fpage>
+        314
+       </fpage>–
+       <lpage>
+        330
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Lodge1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lodge
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sutton
+        </surname>
+        <given-names>
+         BC
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Endophytic fungi of 
+        <italic>
+         Manilkara bidentata
+        </italic> leaves in Puerto Rico
+       </article-title>. 
+       <source>Mycologia 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        733
+       </fpage>–
+       <lpage>
+        738
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Gamboa1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gamboa
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Laureano
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bayman
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Measuring diversity of endophytic fungi in leaf fragments: does size matter?
+       </article-title> 
+       <source>Mycopathologia 
+       <volume>
+        156
+       </volume>: 
+       <fpage>
+        41
+       </fpage>–
+       <lpage>
+        45
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-EspinosaGarca1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Espinosa-García
+        </surname>
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Langenheim
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        1990
+       </year>) 
+       <article-title>
+        The endophytic fungal community in leaves of a coastal redwood population - diversity and spatial patterns
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        89
+       </fpage>–
+       <lpage>
+        97
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arnold3">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herre
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Canopy cover and leaf age affect colonization by tropical fungal endophytes: ecological pattern and process in 
+        <italic>
+         Theobroma cacao
+        </italic> (Malvaceae)
+       </article-title>. 
+       <source>Mycologia 
+       <volume>
+        95
+       </volume>: 
+       <fpage>
+        388
+       </fpage>–
+       <lpage>
+        398
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Higgins1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Higgins
+        </surname>
+        <given-names>
+         KL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coley
+        </surname>
+        <given-names>
+         PD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kursar
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Culturing and direct PCR suggest prevalent host generalism among diverse fungal endophytes of tropical forest grasses
+       </article-title>. 
+       <source>Mycologia 
+       <volume>
+        103
+       </volume>: 
+       <fpage>
+        247
+       </fpage>–
+       <lpage>
+        260
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Jiang1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shi
+        </surname>
+        <given-names>
+         YT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         ZX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yang
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         YJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Leaf chemistry and co-occurring species interactions affecting the endophytic fungal composition of 
+        <italic>
+         Eupatorium adenophorum
+        </italic>
+       </article-title>. 
+       <source>Ann Microbiol 
+       <volume>
+        61
+       </volume>: 
+       <fpage>
+        655
+       </fpage>–
+       <lpage>
+        662
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Johnston1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Johnston
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Johansen
+        </surname>
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         AF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paula Wikie
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Park
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Patterns of fungal diversity in New Zealand 
+        <italic>
+         Nothofagus
+        </italic> forests
+       </article-title>. 
+       <source>Fungal Biol 
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        401
+       </fpage>–
+       <lpage>
+        412
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-SanchezAzofeifa1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sanchez-Azofeifa
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oki
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fernandes
+        </surname>
+        <given-names>
+         GW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ball
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gamon
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Relationships between endophyte diversity and leaf optical properties
+       </article-title>. 
+       <source>Tress 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        291
+       </fpage>–
+       <lpage>
+        299
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Fisher1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petrini
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petrini
+        </surname>
+        <given-names>
+         LE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sutton
+        </surname>
+        <given-names>
+         BC
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Fungal endophytes from the leaves and twigs of 
+        <italic>
+         Quercus ilex
+        </italic> L. from England, Majorca and Switzerland
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        127
+       </volume>: 
+       <fpage>
+        133
+       </fpage>–
+       <lpage>
+        137
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Hoffman1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hoffman
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Geographic locality and host identity shape fungal endophyte communities in cupressaceous trees
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        112
+       </volume>: 
+       <fpage>
+        331
+       </fpage>–
+       <lpage>
+        344
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Mller1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Müller
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hallaksela
+        </surname>
+        <given-names>
+         A-M
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Diversity of Norway spruce needle endophytes in various mixed and pure Norway spruce stands
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        1183
+       </fpage>–
+       <lpage>
+        1189
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Gamboa2">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gamboa
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bayman
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Communities of endophytic fungi in leaves of a tropical timber tree (
+        <italic>
+         Guarea guidonia
+        </italic>: Meliaceae)
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        352
+       </fpage>–
+       <lpage>
+        360
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Herre1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Herre
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mejía
+        </surname>
+        <given-names>
+         LC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kyllo
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rojas
+        </surname>
+        <given-names>
+         EI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Maynard
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Ecological implications of anti-pathogen effects of tropical fungal endophytes and mycorrhizae
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        550
+       </fpage>–
+       <lpage>
+        558
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Pancher1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pancher
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ceol
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Corneo
+        </surname>
+        <given-names>
+         PE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Longa
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yousaf
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Fungal endophytic communities in grapevines (
+        <italic>
+         Vitis vinifera
+        </italic> L.)
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        78
+       </volume>: 
+       <fpage>
+        4308
+       </fpage>–
+       <lpage>
+        4317
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-EkRamos1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ek-Ramos
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Valencia
+        </surname>
+        <given-names>
+         CU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Antwi
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kalns
+        </surname>
+        <given-names>
+         LL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Spatial and temporal variation in fungal endophyte communities isolated from cultivated cotton (
+        <italic>
+         Gossypium hirsutum
+        </italic>)
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        e66049
+       </fpage> 
+       <comment>
+        doi:
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0066049" xlink:type="simple">
+         10.1371/journal.pone.0066049
+        </ext-link>
+       </comment>
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Garca1">
+      <label>39</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       García E (1998) Carta Climas (Clasificación de Koppen, modificada por García). Scale 1:1000 000). Mexico: CONABIO.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Instituto1">
+      <label>40</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Instituto Nacional de Estadística, Geografía e Informática (INEGI) (2008) Carta de uso de suelo y vegetación IV. Scale 1:250 000. Mexico: INEGI.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-HernndezMartnez2">
+      <label>41</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Hernández-Martínez G (2008) Clasificación Agroecológica In: Manson RH, Hernández-Ortiz V, Gallina S, Mehltreter K, editors. Agroecosistemas cafetaleros de Veracruz: biodiversidad, manejo y conservación. México: INECOL INE-SEMARNAT. pp. 15–34.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Waller1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Waller
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bridge
+        </surname>
+        <given-names>
+         PD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Black
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hakiza
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        Characterization of the coffee berry disease pathogen, 
+        <italic>
+         Colletotrichum kahawae
+        </italic> sp. nov
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        97
+       </volume>: 
+       <fpage>
+        989
+       </fpage>–
+       <lpage>
+        994
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Prihastuti1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Prihastuti
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cai
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McKenzie
+        </surname>
+        <given-names>
+         EHC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hyde
+        </surname>
+        <given-names>
+         KD
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Characterization of 
+        <italic>
+         Colletotrichum
+        </italic> species associated with coffee berries in northern Thailand
+       </article-title>. 
+       <source>Fungal Divers 
+       <volume>
+        39
+       </volume>: 
+       <fpage>
+        89
+       </fpage>–
+       <lpage>
+        109
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Petrini2">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petrini
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stone
+        </surname>
+        <given-names>
+         JK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carroll
+        </surname>
+        <given-names>
+         FE
+        </given-names>
+       </name> (
+       <year>
+        1982
+       </year>) 
+       <article-title>
+        Endophytic fungi in evergreen shrubs in western Oregon: a preliminary study
+       </article-title>. 
+       <source>Can J Bot 
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        789
+       </fpage>–
+       <lpage>
+        796
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Frhlich1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fröhlich
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hyde
+        </surname>
+        <given-names>
+         KD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petrini
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Endophytic fungi associated with palms
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        1202
+       </fpage>–
+       <lpage>
+        1212
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Wang1">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guo
+        </surname>
+        <given-names>
+         L-D
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        A comparative study of endophytic fungi in needles, bark, and xylem of 
+        <italic>
+         Pinus tabulaeformis
+        </italic>
+       </article-title>. 
+       <source>Can J Bot 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        911
+       </fpage>–
+       <lpage>
+        917
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Zimmerman1">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zimmerman
+        </surname>
+        <given-names>
+         NB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vitousek
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Fungal endophyte communities reflect environmental structuring across a Hawaiian landscape
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        13022
+       </fpage>–
+       <lpage>
+        13027
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Colwell1">
+      <label>48</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Colwell RK (2013) EstimateS: Statistical estimation of species richness and shared species from samples. Version 9.1. User's Guide and application. 
+       <ext-link ext-link-type="uri" xlink:href="http://purl.oclc.org/estimates" xlink:type="simple">
+        http://purl.oclc.org/estimates
+       </ext-link>. Accessed 3 February.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Magurran1">
+      <label>49</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Magurran AE (2004) Measuring biological diversity. Oxford. Blackwell Publising. 256 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Unterseher1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Unterseher
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schnittler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Dilution-to-extinction cultivation of leaf-inhabiting endophytic fungi in beech (
+        <italic>
+         Fagus sylvatica
+        </italic> L.) – different cultivation techniques influence fungal biodiversity assessment
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        645
+       </fpage>–
+       <lpage>
+        654
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arita1">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arita
+        </surname>
+        <given-names>
+         HT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Christen
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rodríguez
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soberón
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The presence–absence matrix reloaded: the use and interpretation of range–diversity plots
+       </article-title>. 
+       <source>Glob Ecol Biogeogr 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        282
+       </fpage>–
+       <lpage>
+        292
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-R1">
+      <label>52</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Core Team (2013) R: A language and environment for statistical computing. Vienna: R Foundation for Statistical Computing.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Quinn1">
+      <label>53</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Quinn GP, Keough MJ (2002) Experimental design and data analysis for biologists. Cambridge. Cambridge University Press. 537 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Anderson1">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Crist
+        </surname>
+        <given-names>
+         TO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Inouye
+        </surname>
+        <given-names>
+         BD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Navigating the multiple meanings of β diversity: a roadmap for the practicing ecologist
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        28
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Hammer1">
+      <label>55</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Hammer Ø, Harper DAT, Ryan PD (2001) PAST: Paleontological statistics software package for education and data analysis. Palaeontol Electronica 4: 9. Available 
+       <ext-link ext-link-type="uri" xlink:href="http://palaeo-electronica.org/2001_1/past/issue1_01.htm" xlink:type="simple">
+        http://palaeo-electronica.org/2001_1/past/issue1_01.htm
+       </ext-link>. Accessed 3 February 2014.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arita2">
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arita
+        </surname>
+        <given-names>
+         HT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Christen
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rodriguez
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soberón
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Species diversity and distribution in presence-absence matrices: mathematical relationships and biological implications
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        172
+       </volume>: 
+       <fpage>
+        519
+       </fpage>–
+       <lpage>
+        532
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Qi1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Qi
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jing
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhan
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Characterization of endophytic fungi from 
+        <italic>
+         Acer ginnala
+        </italic> Maxim. in an artificial plantation: media effect and tissue-dependent variation
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        e46785
+       </fpage> 
+       <comment>
+        doi:
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0046785" xlink:type="simple">
+         10.1371/journal.pone.0046785
+        </ext-link>
+       </comment>
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Arnold4">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arnold
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mejía
+        </surname>
+        <given-names>
+         LC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kyllo
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rojas
+        </surname>
+        <given-names>
+         EI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Maynard
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Fungal endophytes limit pathogen damage in a tropical tree
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        100
+       </volume>: 
+       <fpage>
+        15649
+       </fpage>–
+       <lpage>
+        15654
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-DouanlaMeli1">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Douanla-Meli
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Langer
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Talontsi
+        </surname>
+        <given-names>
+         MF
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Fungal endophyte diversity and community patterns in healthy and yellowing leaves of 
+        <italic>
+         Citrus limon
+        </italic>
+       </article-title>. 
+       <source>Fungal Ecol 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        212
+       </fpage>–
+       <lpage>
+        222
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Sette1">
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sette
+        </surname>
+        <given-names>
+         LD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Passarini
+        </surname>
+        <given-names>
+         MRZ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Delarmelina
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Salati
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duarte
+        </surname>
+        <given-names>
+         MCT
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Molecular characterization and antimicrobial activity of endophytic fungi from coffee plants
+       </article-title>. 
+       <source>World J Microbiol Biotechnol 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        1185
+       </fpage>–
+       <lpage>
+        1195
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Posada1">
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Posada
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vega
+        </surname>
+        <given-names>
+         FE
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Inoculation and colonization of coffee seedlings (
+        <italic>
+         Coffea arabica
+        </italic> L.) with the fungal entomopathogen 
+        <italic>
+         Beauveria bassiana
+        </italic> (Ascomycota: Hypocreales)
+       </article-title>. 
+       <source>Mycoscience 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        284
+       </fpage>–
+       <lpage>
+        289
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Fernandes1">
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fernandes
+        </surname>
+        <given-names>
+         MDRV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pfenning
+        </surname>
+        <given-names>
+         LH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Costa-Neto
+        </surname>
+        <given-names>
+         CMD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heinrich
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alencar
+        </surname>
+        <given-names>
+         SMD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Biological activities of the fermentation extract of the endophytic fungus 
+        <italic>
+         Alternaria alternata
+        </italic> isolated from 
+        <italic>
+         Coffea arabica
+        </italic> L
+       </article-title>. 
+       <source>Braz J Pharmaceutical Sciences 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        677
+       </fpage>–
+       <lpage>
+        685
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Saikkonen1">
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Saikkonen
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Faeth
+        </surname>
+        <given-names>
+         SH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Helander
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sullivan
+        </surname>
+        <given-names>
+         TJ
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Fungal endophytes: a continuum of interactions with host plants
+       </article-title>. 
+       <source>Ann Rev Ecol Syst 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        319
+       </fpage>–
+       <lpage>
+        343
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Junker1">
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Junker
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Draeger
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schulz
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        A fine line–endophytes or pathogens in 
+        <italic>
+         Arabidopsis thaliana
+        </italic>
+       </article-title>. 
+       <source>Fungal Ecol 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        657
+       </fpage>–
+       <lpage>
+        662
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Phoulivong1">
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Phoulivong
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cai
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McKenzie
+        </surname>
+        <given-names>
+         EHC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abdelsalam
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        <italic>
+         Colletotrichum gloeosporioides
+        </italic> is not a common pathogen on tropical fruits
+       </article-title>. 
+       <source>Fungal Divers 
+       <volume>
+        44
+       </volume>: 
+       <fpage>
+        33
+       </fpage>–
+       <lpage>
+        43
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Waller2">
+      <label>66</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Waller JM, Bigger M, Hillocks RJ (2007) Coffee pests, diseases and their management. Wallingford. CABI. 434 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Petrini3">
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petrini
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petrini
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        Xylariaceous fungi as endophytes
+       </article-title>. 
+       <source>Sydowia 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        216
+       </fpage>–
+       <lpage>
+        234
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Osono1">
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Osono
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Takeda
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Comparison of litter decomposing ability among diverse fungi in a cool temperate deciduous forest in Japan
+       </article-title>. 
+       <source>Mycologia 
+       <volume>
+        94
+       </volume>: 
+       <fpage>
+        421
+       </fpage>–
+       <lpage>
+        427
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Davis1">
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         EC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Franklin
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shaw
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vilgalys
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Endophytic 
+        <italic>
+         Xylaria
+        </italic> (Xylariaceae) among liverworts and angiosperms: phylogenetics, distribution, and symbiosis
+       </article-title>. 
+       <source>Am J Bot 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        1661
+       </fpage>–
+       <lpage>
+        1667
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Unterseher2">
+      <label>70</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Unterseher
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peršoh
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schnittler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Leaf-inhabiting endophytic fungi of European beech (
+        <italic>
+         Fagus sylvatica
+        </italic> L.) co-occur in leaf litter but are rare on decaying wood of the same host
+       </article-title>. 
+       <source>Fungal Divers 
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        43
+       </fpage>–
+       <lpage>
+        54
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Osono2">
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Osono
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tateno
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Masuya
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Diversity and ubiquity of xylariaceous endophytes in live and dead leaves of temperate forest trees
+       </article-title>. 
+       <source>Mycoscience 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        54
+       </fpage>–
+       <lpage>
+        61
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Vega2">
+      <label>72</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vega
+        </surname>
+        <given-names>
+         FE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Posada
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Catherine Aime
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pava-Ripoll
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Infante
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Entomopathogenic fungal endophytes
+       </article-title>. 
+       <source>Biol Control 
+       <volume>
+        46
+       </volume>: 
+       <fpage>
+        72
+       </fpage>–
+       <lpage>
+        82
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Angelini1">
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Angelini
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rubini
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gigante
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reale
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pagiotti
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The endophytic fungal communities associated with the leaves and roots of the common reed (
+        <italic>
+         Phragmites australis
+        </italic>) in Lake Trasimeno (Perugia, Italy) in declining and healthy stands
+       </article-title>. 
+       <source>Fungal Ecol 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        683
+       </fpage>–
+       <lpage>
+        693
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Hata1">
+      <label>74</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hata
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sone
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Isolation of endophytes from leaves of 
+        <italic>
+         Neolitsea sericea
+        </italic> in broadleaf and conifer stands
+       </article-title>. 
+       <source>Mycoscience 
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        229
+       </fpage>–
+       <lpage>
+        232
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Matsumura1">
+      <label>75</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Matsumura
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fukuda
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        A comparison of fungal endophytic community diversity in tree leaves of rural and urban temperate forests of Kanto district, eastern Japan
+       </article-title>. 
+       <source>Fungal Biol 
+       <volume>
+        117
+       </volume>: 
+       <fpage>
+        191
+       </fpage>–
+       <lpage>
+        201
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Unterseher3">
+      <label>76</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Unterseher
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reiher
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Finstermeier
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Otto
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morawetz
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Species richness and distribution patterns of leaf-inhabiting endophytic fungi in a temperate forest canopy
+       </article-title>. 
+       <source>Mycol Prog 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        201
+       </fpage>–
+       <lpage>
+        212
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Scholtysik1">
+      <label>77</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Scholtysik
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Unterseher
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Otto
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wirth
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Spatio-temporal dynamics of endophyte diversity in the canopy of European ash (
+        <italic>
+         Fraxinus excelsior
+        </italic>)
+       </article-title>. 
+       <source>Mycol Prog 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        291
+       </fpage>–
+       <lpage>
+        304
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Manson1">
+      <label>78</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Manson RH, Hernández-Ortiz V, Gallina S, Mehltreter K, editors (2008) In: Manson RH, Agroecosistemas cafetaleros de Veracruz: biodiversidad, manejo y conservación. México: INECOL INE-SEMARNAT. 330 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Unterseher4">
+      <label>79</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Unterseher
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schnittler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Species richness analysis and ITS rDNA phylogeny revealed the majority of cultivable foliar endophytes from beech (
+        <italic>
+         Fagus sylvatica
+        </italic>)
+       </article-title>. 
+       <source>Fungal Ecol 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        366
+       </fpage>–
+       <lpage>
+        378
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Wu1">
+      <label>80</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Han
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jia
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xue
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Geographic and tissue influences on endophytic fungal communities of 
+        <italic>
+         Taxus chinensis
+        </italic> var. 
+        <italic>
+         mairei
+        </italic> in China
+       </article-title>. 
+       <source>Curr Microbiol 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        40
+       </fpage>–
+       <lpage>
+        48
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Gallina1">
+      <label>81</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Gallina S, González-Romero A, Manson R (2008) Mamíferos pequeños y medianos. In: Manson RH, Hernández-Ortiz V, Gallina S, Mehltreter K, editors. Agroecosistemas cafetaleros de Veracruz: biodiversidad, manejo y conservación. México: INECOL INE-SEMARNAT. pp. 161–180.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Schulte1">
+      <label>82</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schulte
+        </surname>
+        <given-names>
+         RP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lantinga
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hawkins
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        A new family of Fisher-curves estimates Fisher's alpha more accurately
+       </article-title>. 
+       <source>J Theor Biol 
+       <volume>
+        232
+       </volume>: 
+       <fpage>
+        305
+       </fpage>–
+       <lpage>
+        313
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Lacap1">
+      <label>83</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lacap
+        </surname>
+        <given-names>
+         DC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hyde
+        </surname>
+        <given-names>
+         KD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liew
+        </surname>
+        <given-names>
+         ECY
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        An evaluation of the fungal ‘morphotype’ concept based on ribosomal DNA sequences
+       </article-title>. 
+       <source>Fungal Divers 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        53
+       </fpage>–
+       <lpage>
+        66
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Gazis1">
+      <label>84</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gazis
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chaverri
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Diversity of fungal endophytes in leaves and stems of wild rubber trees (
+        <italic>
+         Hevea brasiliensis
+        </italic>) in Peru
+       </article-title>. 
+       <source>Fungal Ecol 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        240
+       </fpage>–
+       <lpage>
+        254
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Pan1">
+      <label>85</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pan
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         May
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Fungal-fungal associations affect the assembly of endophyte communities in maize (
+        <italic>
+         Zea mays
+        </italic>)
+       </article-title>. 
+       <source>Microb Ecol 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        668
+       </fpage>–
+       <lpage>
+        678
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Gange1">
+      <label>86</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gange
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dey
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Currie
+        </surname>
+        <given-names>
+         AF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sutton
+        </surname>
+        <given-names>
+         BC
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Site- and species-specific differences in endophyte occurrence in two herbaceous plants
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        95
+       </volume>: 
+       <fpage>
+        614
+       </fpage>–
+       <lpage>
+        622
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Joshee1">
+      <label>87</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Joshee
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paulus
+        </surname>
+        <given-names>
+         BC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Park
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Johnston
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Diversity and distribution of fungal foliar endophytes in New Zealand Podocarpaceae
+       </article-title>. 
+       <source>Mycol Res 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        1003
+       </fpage>–
+       <lpage>
+        1015
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Seghers1">
+      <label>88</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Seghers
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wittebolle
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Top
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Verstraete
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Siciliano
+        </surname>
+        <given-names>
+         SD
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Impact of agricultural practices on the 
+        <italic>
+         Zea mays
+        </italic> L. endophytic community
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        1475
+       </fpage>–
+       <lpage>
+        1482
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Teodoro1">
+      <label>89</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Teodoro
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Klein
+        </surname>
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Environmentally mediated coffee pest densities in relation to agroforestry management, using hierarchical partitioning analyses
+       </article-title>. 
+       <source>Agric Ecosyst Environ 
+       <volume>
+        125
+       </volume>: 
+       <fpage>
+        120
+       </fpage>–
+       <lpage>
+        126
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0098454-Vandermeer1">
+      <label>90</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vandermeer
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Perfecto
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Philpott
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Ecological complexity and pest control in organic coffee production: uncovering an autonomous ecosystem service
+       </article-title>. 
+       <source>BioScience 
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        527
+       </fpage>–
+       <lpage>
+        537
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

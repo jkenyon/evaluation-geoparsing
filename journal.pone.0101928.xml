@@ -1,0 +1,3573 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-52999
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0101928
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Community assembly
+          </subject>
+          <subject>
+           Niche construction
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem functioning
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Different Assembly Processes Drive Shifts in Species and Functional Composition in Experimental Grasslands Varying in Sown Diversity and Community History
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Community Assembly in Experimental Grasslands
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         Christiane
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schumacher
+        </surname>
+        <given-names>
+         Jens
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gerighausen
+        </surname>
+        <given-names>
+         Uta
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schmid
+        </surname>
+        <given-names>
+         Bernhard
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Department of Community Ecology, Helmholtz Centre for Environmental Research, UFZ, Halle, Germany
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Institute of Stochastics, Friedrich Schiller University Jena, Germany
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Max Planck Institute for Biogeochemistry, Jena, Germany
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Institute of Evolutionary Biology and Environmental Studies and Zurich-Basel Plant Science Center, University of Zurich, Zurich, Switzerland
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ollerton
+        </surname>
+        <given-names>
+         Jeff
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       University of Northampton, United Kingdom
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        christiane.roscher@ufz.de
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: CR BS. Performed the experiments: CR UG. Analyzed the data: CR JS UG. Contributed reagents/materials/analysis tools: CR BS. Wrote the paper: CR BS JS.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       16
+      </day>
+      <month>
+       7
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      7
+     </issue> 
+     <elocation-id>
+      e101928
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        19
+       </day>
+       <month>
+        12
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        13
+       </day>
+       <month>
+        6
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Roscher et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract>
+      <sec> 
+       <title>Background</title> 
+       <p>The prevalence of different biotic processes (limiting similarity, weaker competitor exclusion) and historical contingency due to priority effects are in the focus of ongoing discussions about community assembly and non-random functional trait distributions.</p> 
+      </sec>
+      <sec> 
+       <title>Methodology/Principal Findings</title> 
+       <p>We experimentally manipulated assembly history in a grassland biodiversity experiment (Jena Experiment) by applying two factorially crossed split-plot treatments to all communities: (i) duration of weeding (never weeded since sowing or cessation of weeding after 3 or 6 years); (ii) seed addition (control vs. seed addition 4 years after sowing). Spontaneous colonization of new species in the control treatment without seed addition increased realized species richness and functional richness (FRic), indicating continuously denser packing of niches. Seed addition resulted in forced colonization and increased realized species richness, FRic, functional evenness (FEve) and functional divergence (FDiv), i.e. higher abundances of species with extreme trait values. Furthermore, the colonization of new species led to a decline in FEve through time, suggesting that weaker competitors were reduced in abundance or excluded. Communities with higher initial species richness or with longer time since cessation of weeding were more restricted in the entry of new species and showed smaller increases in FRic after seed addition than other communities. The two assembly-history treatments caused a divergence of species compositions within communities originally established with the same species. Communities originally established with different species converged in species richness and functional trait composition over time, but remained more distinct in species composition.</p> 
+      </sec>
+      <sec> 
+       <title>Conclusions/Significance</title> 
+       <p>Contrasting biotic processes (limiting similarity, weaker competitor exclusion) increase functional convergence between communities initially established with different species. Historical contingency with regard to realized species compositions could not be eradicated by cessation of weeding or forced colonization and was still detectable 5 years after application of these treatments, providing evidence for the role of priority effects in community assembly.</p> 
+      </sec>
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This study was supported by the German Science Foundation (FOR 456 and RO2397/3) with additional support from the Max Planck Society and the Friedrich Schiller University of Jena. BS was additionally supported by the Swiss National Science Foundation (310030E-131193). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="12" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>A deeper insight into the mechanisms which control community assembly is central to understand ecosystem functioning and the maintenance of biodiversity. Functional diversity, i.e. the extent of trait differences among co-occurring species 
+     <xref ref-type="bibr" rid="pone.0101928-Tilman1">
+      [1]
+     </xref>, has been proposed as an important characteristic of biological assemblages. The intimate link between traits and the functioning of organisms 
+     <xref ref-type="bibr" rid="pone.0101928-Lavorel1">
+      [2]
+     </xref> suggests that patterns of functional trait distributions within and between communities may provide insights into the operation of non-neutral community assembly rules 
+     <xref ref-type="bibr" rid="pone.0101928-Weiher1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0101928-deBello1">
+      [4]
+     </xref>. Given a regional species pool with unlimited dispersal, community assembly is often assumed to result from two distinct non-random processes of species sorting: environmental filtering (abiotic filters) and species interactions (biotic filters). Environmental filtering is likely to reduce functional diversity by selecting species with similar ecological characteristics ( = trait convergence) which are able to tolerate the local environment 
+     <xref ref-type="bibr" rid="pone.0101928-Daz1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0101928-Grime1">
+      [6]
+     </xref>. Biotic processes may produce different patterns of trait distribution. Niche differentiation through resource partitioning prevents coexisting species from being too similar (i.e. limiting similarity 
+     <xref ref-type="bibr" rid="pone.0101928-MacArthur1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0101928-Chesson1">
+      [8]
+     </xref>) and is expected to select for species with different ecological characteristics ( = trait divergence). However, it also has been discussed that competition may increase similarity among species ( = trait convergence), when species with similar traits compete relatively equally, while excluding weaker competitors with different traits (i.e. equalizing fitness processes 
+     <xref ref-type="bibr" rid="pone.0101928-Chesson1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0101928-HilleRisLambers1">
+      [9]
+     </xref>). This niche-based view of community assembly has been challenged by the “neutral theory” 
+     <xref ref-type="bibr" rid="pone.0101928-Hubbell1">
+      [10]
+     </xref> assuming that functional differences do not play a role in community assembly and that the fitness of all species in a community is equivalent. Different community histories, i.e. priority effects due to differences in the initial floristic composition, the order of arrival of new species and their initial establishment, may also impact the outcome of community assembly and prevent convergence in species and functional trait composition under uniform environmental conditions 
+     <xref ref-type="bibr" rid="pone.0101928-Drake1">
+      [11]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0101928-Fukami1">
+      [13]
+     </xref>.</p> 
+    <p>In natural ecosystems, the importance of biotic processes causing trait convergence and divergence in community assembly is difficult to disentangle because abiotic processes may also cause trait convergence or counterbalance biotic trait divergence 
+     <xref ref-type="bibr" rid="pone.0101928-Mayfield1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0101928-Gtzenberger1">
+      [15]
+     </xref>. In addition, long-term effects due to priority effects and the role of dispersal limitation are hard to identify in communities with unknown assembly history. Biodiversity experiments, where abiotic effects are controlled for by randomizing plots with different plant diversity under relatively homogeneous environmental conditions are an opportunity to study biotic processes of community assembly 
+     <xref ref-type="bibr" rid="pone.0101928-Allan1">
+      [16]
+     </xref>. In previous experiments it has been shown that, when experimental communities of different species richness are opened to colonization of new species, realized species richness can converge rapidly to similar levels 
+     <xref ref-type="bibr" rid="pone.0101928-Pfisterer1">
+      [17]
+     </xref>. Convergence can be reached even faster when dispersal limitation is reduced by seed addition 
+     <xref ref-type="bibr" rid="pone.0101928-Petermann1">
+      [18]
+     </xref>. However, convergence of species richness may not be paralleled by convergence of functional trait distribution or species composition and thus provides only limited insight into community assembly. Community-wide use of available niche space encompasses the following components: (i) the amount of niche space spanned out by species in a community (functional richness; FRic), (ii) the evenness of abundance distribution of functionally different species (functional evenness; FEve), and (iii) the degree to which the abundance distribution of functionally different species maximizes divergence in functional trait distributions within a community (functional divergence; FDiv) 
+     <xref ref-type="bibr" rid="pone.0101928-Mason1">
+      [19]
+     </xref>.</p> 
+    <p>In the present study, we used experimental plots of a grassland biodiversity experiment (Jena Experiment 
+     <xref ref-type="bibr" rid="pone.0101928-Roscher1">
+      [20]
+     </xref>) initially established with different species richness (1, 2, 4, 8, and 16 species) and functional group number and composition (1 to 4) to study community assembly processes in response to two factorially crossed split-plot treatments 
+     <xref ref-type="bibr" rid="pone.0101928-Roscher2">
+      [21]
+     </xref>: (i) duration of weeding leading to different colonization periods of communities (cessation of weeding 6 years after sowing &lt; cessation of weeding 3 years after sowing &lt; never weeded since sowing); (ii) seed addition (control vs. seed addition 4 years after establishment of initial species compositions). During a 5-year study period following the seed addition we monitored species richness and composition and different components of functional diversity (FRic, FEve, FDiv 
+     <xref ref-type="bibr" rid="pone.0101928-Villger1">
+      [22]
+     </xref>). We assume that our experimental approach controls for abiotic processes of community assembly and that seed addition removes dispersal limitation. We test the following hypothesis: (1) functional richness (FRic) increases in parallel to realized species richness during colonization due to limiting similarity; (2) increasing functional richness is succeeded by a decline in functional evenness (FEve) and functional divergence (FDiv) due to weaker competitor exclusion; (3) the removal of dispersal limitation due to seed addition increases the chance for the establishment of more species with traits advantageous in competition and weaker competitor exclusion, thus reducing realized species richness and FRic in the longer term; (4) historical contingency, i.e. priority effects due to initial species diversity and longer colonization periods, decelerate species gain and increase in FRic; (5) contrasting biotic processes during community assembly increase similarity in functional trait composition between communities through time, but historical contingency remains visible in distinct realized species compositions of communities initially established with different species richness and composition.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study site and experimental design</title> 
+     <p>The study was conducted on plots of the Jena Experiment, a large grassland biodiversity experiment established in 2002 on former agricultural land 
+      <xref ref-type="bibr" rid="pone.0101928-Roscher1">
+       [20]
+      </xref>. The experimental site is situated in the floodplain of the river Saale north to the city of Jena (Thuringia, Germany, 50°55′ N, 11°35′ E, 130 m a.s.l.), where a Eutric Fluvisol developed from up to 2 m thick fluvial sediments. A gradient in soil texture ranging from sandy loam in the vicinity of the river to silty clay with increasing distance from the river is due to fluvial dynamics. Mean annual air temperature is 9.3 °C and mean annual precipitation is 587 mm in the area around Jena 
+      <xref ref-type="bibr" rid="pone.0101928-Kluge1">
+       [23]
+      </xref>. The field site was rented by the research consortium of the Jena Experiment from an agricultural collective for the duration of the research grant. No specific permission was required for the described field study. The Jena Experiment field is not subject to protection for nature conservation and the study did not involve endangered or protected species.</p> 
+     <p>The species pool of the experiment consisted of 60 Central European plant species common in semi-natural grasslands (Arrhenatherion community 
+      <xref ref-type="bibr" rid="pone.0101928-Ellenberg1">
+       [24]
+      </xref>). The species were categorized into four functional groups: grasses (16 species), legumes (12 species), tall herbs (20 species), and small herbs (12 species). The Jena Experiment comprises 78 plots of 20×20 m size. The design combines the factors species richness (1, 2, 4, 8, and 16) and functional group number (1, 2, 3, and 4) in a close-to-orthogonal way with the restriction that plant functional group number cannot exceed species number in a given mixture. Each species-richness level had 16 replicates, except for 14 replicates of the 16-species mixtures because pure legume and small herb mixtures with 16 species were not possible 
+      <xref ref-type="bibr" rid="pone.0101928-Roscher1">
+       [20]
+      </xref>. Mixture compositions were determined by random drawing with replacement. Plots were assigned to four experimental blocks parallel to the river to account for the gradient in soil texture. Each species-richness level was represented in equal numbers across the four blocks. Sowing density amounted to 1000 viable seeds per m<sup>2</sup> where constant total density was achieved by reducing sowing densities per species proportionally to the number of species in the mixture (for details see 
+      <xref ref-type="bibr" rid="pone.0101928-Roscher1">
+       [20]
+      </xref>).</p> 
+     <p>Within each large plot of the biodiversity experiment, three pairs of 2.00×2.25 m subplots were established separated by 0.3 m distance from each other and at 0.5 m distance from the plot margin. One pair of these subplots was never weeded since the establishment of the experiment in 2002, while all species not included in the initially established species combinations were removed in the other subplots twice per year. Three years after sowing, one pair of the regularly weeded subplots was chosen randomly to stop weeding, while weeding was continued in the other subplot-pair. At the same time, one subplot of each weeding treatment was selected at random for seed addition. A mixture with seeds of all 60 species of the experimental pool at equal proportions was assembled for the seed addition treatment. Subplots were sown with a density of 1000 germinable seeds per m<sup>2</sup> in April 2005 (for details see 
+      <xref ref-type="bibr" rid="pone.0101928-Roscher2">
+       [21]
+      </xref>). All non-experimental species were removed in the seed addition subplot of the continuous-weeding treatment during two yearly weeding campaigns (early April, July). Six years after establishment of the biodiversity experiment, weeding was also stopped in the subplot-pair with continuous weeding resulting in the following assembly-history treatments (
+      <xref ref-type="fig" rid="pone-0101928-g001">
+       Fig. 1
+      </xref>):</p> 
+     <fig id="pone-0101928-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Summary of studied colonization period × seed addition treatments across initial species-richness levels.</title> 
+      <p>Vertical arrows indicate the time, when weeding was stopped in different treatments: (S0−)  =  never weeded, no seed addition, (S0+)  =  never weeded, seed addition (2005), (S3−)  =  cessation of weeding after three years (2004), no seed addition, (S3+)  =  cessation of weeding after three years (2004), seed addition (2005), (S6−)  =  cessation of weeding after six years (2007), no seed addition, and (S6+)  =  cessation of weeding after six years (2007), seed addition (2005).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <list list-type="simple">
+      <list-item> 
+       <p>(S6−) cessation of weeding after six years (2007), no seed addition,</p> 
+      </list-item>
+      <list-item> 
+       <p>(S6+) cessation of weeding after six years (2007), seed addition (2005),</p> 
+      </list-item>
+      <list-item> 
+       <p>(S3−) cessation of weeding after three years (2004), no seed addition,</p> 
+      </list-item>
+      <list-item> 
+       <p>(S3+) cessation of weeding after three years (2004), seed addition (2005),</p> 
+      </list-item>
+      <list-item> 
+       <p>(S0−) never weeded, no seed addition, and</p> 
+      </list-item>
+      <list-item> 
+       <p>(S0+) never weeded, seed addition (2005).</p> 
+      </list-item>
+     </list> 
+     <p>Plots were mown twice per year (June, September) and the mown plant material was removed.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Data collection</title> 
+     <p>Species richness, species identities and visually estimated species cover using a decimal scale 
+      <xref ref-type="bibr" rid="pone.0101928-Londo1">
+       [25]
+      </xref> were recorded twice per year shortly before mowing in May and August from 2005 to 2009. In addition, species cover of colonizing species was estimated in all subplots in early April (start of the growing season) and July (re-growth after mowing) to get information on the cover of colonizing species, which were weeded in some treatments until 2007 (S6−, S6+) and to obtain reliable data on short-living spring or annual plants not belonging to the experimental species pool in other treatments. All species inventories per subplot (including the removed species in S6− and S6+) were summarized per year using the maximum observed cover.</p> 
+     <p>A trait matrix comprising species mean traits related to spatial and temporal niche dimensions and to strategies of regeneration was compiled for all observed species ( = 236 species in total) based on information in the floristic literature 
+      <xref ref-type="bibr" rid="pone.0101928-Rothmaler1">
+       [26]
+      </xref>, original literature (see 
+      <xref ref-type="supplementary-material" rid="pone.0101928.s002">
+       Text S1
+      </xref>) and databases (LEDA 
+      <xref ref-type="bibr" rid="pone.0101928-Kleyer1">
+       [27]
+      </xref>; BiolFlor 
+      <xref ref-type="bibr" rid="pone.0101928-Klotz1">
+       [28]
+      </xref>). Additional data on specific leaf area were collected in 2009 for missing species at the field site or in surrounding habitats. Trait information was available for &gt;90% of all species for every trait (
+      <xref ref-type="table" rid="pone-0101928-t001">
+       Table 1
+      </xref>).</p> 
+     <table-wrap id="pone-0101928-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Overview of plant traits used in analyses of functional trait diversity and community-weighted mean traits.</title> 
+      <alternatives>
+       <graphic id="pone-0101928-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Trait</td> 
+          <td align="left" rowspan="1" colspan="1">Type of variable</td> 
+          <td align="left" rowspan="1" colspan="1">Availability</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Growth height</td> 
+          <td align="left" rowspan="1" colspan="1">continuous (cm)</td> 
+          <td align="left" rowspan="1" colspan="1">99%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Specific leaf area</td> 
+          <td align="left" rowspan="1" colspan="1">continuous (mm<sup>2</sup><sub>leaf</sub> mg<sup>−1</sup><sub>leaf</sub>)</td> 
+          <td align="left" rowspan="1" colspan="1">95%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Growth form</td> 
+          <td align="left" rowspan="1" colspan="1">ordinal (1 =  rosulate; 2 =  semirosulate; 3 =  without basal leaf rosette)</td> 
+          <td align="left" rowspan="1" colspan="1">100%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Seasonality of foliage</td> 
+          <td align="left" rowspan="1" colspan="1">ordinal (1 =  summergreen; 2 =  overwintering green; 3 =  evergreen)</td> 
+          <td align="left" rowspan="1" colspan="1">100%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Life cycle</td> 
+          <td align="left" rowspan="1" colspan="1">ordinal (1 =  annual; 2 =  biennial or monocarpic perennial; 3 =  perennial)</td> 
+          <td align="left" rowspan="1" colspan="1">100%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Seed mass</td> 
+          <td align="left" rowspan="1" colspan="1">continuous (mg)</td> 
+          <td align="left" rowspan="1" colspan="1">90%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Start of flowering period</td> 
+          <td align="left" rowspan="1" colspan="1">ordinal (1 =  before May; 2 =  May; 3 =  June; 4 =  July)</td> 
+          <td align="left" rowspan="1" colspan="1">98%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Duration of flowering period</td> 
+          <td align="left" rowspan="1" colspan="1">ordinal (1 =  two months or less; 2 =  three months; 3 =  four months; 4 =  more than 4 months)</td> 
+          <td align="left" rowspan="1" colspan="1">98%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Symbiotic N<sub>2</sub> fixation</td> 
+          <td align="left" rowspan="1" colspan="1">binary (0 =  non, 1 =  yes)</td> 
+          <td align="left" rowspan="1" colspan="1">100%</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Type of reproduction</td> 
+          <td align="left" rowspan="1" colspan="1">ordinal (1 =  by seed; 2 =  mostly by seed, rarely vegetative; 3 =  by seed and vegetative; 4 =  mostly vegetative)</td> 
+          <td align="left" rowspan="1" colspan="1">98%</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+    </sec>
+    <sec id="s2c"> 
+     <title>Data analyses</title> 
+     <p>Bray-Curtis dissimilarities 
+      <xref ref-type="bibr" rid="pone.0101928-Bray1">
+       [29]
+      </xref> using cover abundances per species derived from repeated inventories (see above) were calculated for each year (1) across communities initially established with 1 to 16 species (plots of the biodiversity experiment) for each treatment combination (subplots varying in seed addition × colonization period; S0+, S0−, S3+, S3−, S6+, S6−), and (2) within communities across treatment combinations (between subplots within the large plots). Similarly, Bray-Curtis dissimilarities were derived from community-weighted means of trait values (CWM) (
+      <xref ref-type="table" rid="pone-0101928-t001">
+       Table 1
+      </xref>) to test for dissimilarities in functional trait composition. CWMs were derived for each trait as the average of trait values weighted by the proportional abundance of species with the respective trait value 
+      <xref ref-type="bibr" rid="pone.0101928-Garnier1">
+       [30]
+      </xref>. CWMs were scaled to values between 0 and 1 before calculating Bray-Curtis dissimilarities. Because Bray-Curtis dissimilarity is based on pair-wise comparisons, all possible combinations were computed and averaged to get a mean value for each subplot.</p> 
+     <p>Measures of functional trait diversity quantify the distribution of species in a multidimensional space whose axes are defined by functional characteristics. Three components of functional trait diversity were calculated separately: functional richness (FRic), functional evenness (FEve) and functional divergence (FDiv) 
+      <xref ref-type="bibr" rid="pone.0101928-Villger1">
+       [22]
+      </xref>, which have been identified to be more sensitive to community assembly rules than species richness 
+      <xref ref-type="bibr" rid="pone.0101928-Mouchet1">
+       [31]
+      </xref>. FRic represents the amount of multidimensional trait space spanned out by a community and is quantified as the smallest convex set ( =  minimum convex hull) enclosing the volume of the 
+      <italic>
+       n
+      </italic>-dimensional trait space occupied by the species in a community 
+      <xref ref-type="bibr" rid="pone.0101928-Cornwell1">
+       [32]
+      </xref>. FEve describes how regular the functional trait space is filled by species, weighted by their abundances. The calculation was based on the minimum spanning tree and represents the sum of branch length of all points contained in the 
+      <italic>
+       n
+      </italic>-dimensional trait space 
+      <xref ref-type="bibr" rid="pone.0101928-Villger1">
+       [22]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Petchey1">
+       [33]
+      </xref>. FDiv estimates how abundance-weighted species diverge from the centre of gravity in the volume of the 
+      <italic>
+       n
+      </italic>-dimensional trait space 
+      <xref ref-type="bibr" rid="pone.0101928-Villger1">
+       [22]
+      </xref>. Analyses of functional trait composition were based on ten functional traits (
+      <xref ref-type="table" rid="pone-0101928-t001">
+       Table 1
+      </xref>). Prior to analyses seed mass was log-transformed to reduce the influence of species with large trait values. A Gower dissimilarity matrix 
+      <xref ref-type="bibr" rid="pone.0101928-Gower1">
+       [34]
+      </xref> was calculated to account for different types of trait data (numeric, ordinal, binary) and missing trait values 
+      <xref ref-type="bibr" rid="pone.0101928-Lalibert1">
+       [35]
+      </xref>. Axes derived from a principal coordinate analysis (PCoA) and corrected by a method described by Cailliez 
+      <xref ref-type="bibr" rid="pone.0101928-Cailliez1">
+       [36]
+      </xref> served to calculate the different indices of functional trait diversity 
+      <xref ref-type="bibr" rid="pone.0101928-Lalibert1">
+       [35]
+      </xref>. To evaluate whether species richness and functional trait diversity converged through time, the coefficient of variation (CV) of these variables was computed across communities and within communities across treatment combinations for each year.</p> 
+     <p>Linear mixed-effects models were applied to test for effects of the experimental factors on the response variables measured in the 5-year study period in the split-split-plot colonization experiment. Block and plot identity, subplot pair (S0, S3, S6) and subplot were treated as random factors in a nested sequence. Although the factors species richness and number of functional groups are nearly orthogonal in the Jena Experiment, the design of the experiment is not completely balanced because it is not possible to vary species richness and functional group number completely independently. Starting from a constant null model the fitting sequence of fixed terms followed the a-priori hypotheses of the biodiversity experiment starting with the number of initially established species (log-linear term), the number of functional groups (linear term), factors for the split-plot variables colonization period (with three factor levels) and seed addition (with two factor levels) and their interactions with the main experimental factors. Finally, a term for the different study years (as linear term to focus on directed temporal changes) and its interaction with the previously mentioned experimental factors was entered. The maximum likelihood method was used and likelihood ratio tests were applied to assess the statistical significance of model improvement. The statistical software R (Version 2.11.2, 
+      <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org" xlink:type="simple">
+       http://www.r-project.org
+      </ext-link>) including the packages 
+      <italic>
+       FD
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0101928-Lalibert2">
+       [37]
+      </xref> and 
+      <italic>
+       nlme
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0101928-Pinheiro1">
+       [38]
+      </xref> and PC-ORD 4.25 
+      <xref ref-type="bibr" rid="pone.0101928-McCune1">
+       [39]
+      </xref> were used for calculations and statistical analyses.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Realized species richness</title> 
+     <p>A total of 176 species in addition to the 60 experimental species were observed during the study period. An increased number of initially established species and functional groups allowed fewer species to colonize and thus resulted in lower realized species richness after colonization (
+      <xref ref-type="fig" rid="pone-0101928-g002">
+       Fig. 2
+      </xref>, 
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>). The overall positive effect of seed addition on realized species richness was strongest when the initially established communities had a low number of species (significant interaction “SR × ADD”, 
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0101928-g002">
+       Fig. 2A
+      </xref>). Although colonization period did not directly affect realized species richness, seed addition was most efficient when weeding of other than seed-added species was carried out for 3 years after seed addition (significant interaction “C × ADD”, 
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0101928-g002">
+       Fig. 2B
+      </xref>). A continuous species gain through time was found in split-plots without seed addition, while seed-enriched split-plots did not assemble more species after an initial enrichment in the first two years after seed addition (
+      <xref ref-type="fig" rid="pone-0101928-g002">
+       Fig. 2
+      </xref>). Coefficient of variation (CV) between communities reached peak values in the year after seed addition and declined in the subsequent years indicating an increasing convergence in realized species richness (
+      <xref ref-type="supplementary-material" rid="pone.0101928.s001">
+       Fig. S1A
+      </xref>).</p> 
+     <fig id="pone-0101928-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Realized species richness.</title> 
+      <p>Realized species richness as a function of time (A) as mean values (±1SE) per sown species-richness level across colonization periods, and (B) as mean values (±1SE) per colonization period across species-richness levels. For symbols see 
+       <xref ref-type="fig" rid="pone-0101928-g003">
+        Figs. 3
+       </xref> and 
+       <xref ref-type="fig" rid="pone-0101928-g004">
+        4
+       </xref>.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.g002" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0101928-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Summary of mixed-effects model analyses for realized species richness, functional richness (FRic), functional evenness (FEve) and functional divergence (FDiv) based on a five-year study period from 2005–2009.</title> 
+      <alternatives>
+       <graphic id="pone-0101928-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Source of variation</td> 
+          <td colspan="2" align="left" rowspan="1">Species richness</td> 
+          <td colspan="2" align="left" rowspan="1">FRic</td> 
+          <td align="left" rowspan="1" colspan="1">FEve</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">FDiv</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear)</td> 
+          <td align="left" rowspan="1" colspan="1">8.53</td> 
+          <td align="left" rowspan="1" colspan="1">0.004↓</td> 
+          <td align="left" rowspan="1" colspan="1">11.75</td> 
+          <td align="left" rowspan="1" colspan="1">0.001↓</td> 
+          <td align="left" rowspan="1" colspan="1">41.27</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↓</td> 
+          <td align="left" rowspan="1" colspan="1">5.17</td> 
+          <td align="left" rowspan="1" colspan="1">0.023↓</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear)</td> 
+          <td align="left" rowspan="1" colspan="1">5.71</td> 
+          <td align="left" rowspan="1" colspan="1">0.017↓</td> 
+          <td align="left" rowspan="1" colspan="1">4.78</td> 
+          <td align="left" rowspan="1" colspan="1">0.029↓</td> 
+          <td align="left" rowspan="1" colspan="1">1.26</td> 
+          <td align="left" rowspan="1" colspan="1">0.261</td> 
+          <td align="left" rowspan="1" colspan="1">0.52</td> 
+          <td align="left" rowspan="1" colspan="1">0.470</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Colonization period (C)</td> 
+          <td align="left" rowspan="1" colspan="1">2.69</td> 
+          <td align="left" rowspan="1" colspan="1">0.261</td> 
+          <td align="left" rowspan="1" colspan="1">1.23</td> 
+          <td align="left" rowspan="1" colspan="1">0.540</td> 
+          <td align="left" rowspan="1" colspan="1">36.92</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↓</td> 
+          <td align="left" rowspan="1" colspan="1">1.45</td> 
+          <td align="left" rowspan="1" colspan="1">0.485</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × C</td> 
+          <td align="left" rowspan="1" colspan="1">2.37</td> 
+          <td align="left" rowspan="1" colspan="1">0.305</td> 
+          <td align="left" rowspan="1" colspan="1">0.87</td> 
+          <td align="left" rowspan="1" colspan="1">0.648</td> 
+          <td align="left" rowspan="1" colspan="1">11.11</td> 
+          <td align="left" rowspan="1" colspan="1">0.004</td> 
+          <td align="left" rowspan="1" colspan="1">0.59</td> 
+          <td align="left" rowspan="1" colspan="1">0.744</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × C</td> 
+          <td align="left" rowspan="1" colspan="1">0.34</td> 
+          <td align="left" rowspan="1" colspan="1">0.845</td> 
+          <td align="left" rowspan="1" colspan="1">1.46</td> 
+          <td align="left" rowspan="1" colspan="1">0.481</td> 
+          <td align="left" rowspan="1" colspan="1">0.21</td> 
+          <td align="left" rowspan="1" colspan="1">0.903</td> 
+          <td align="left" rowspan="1" colspan="1">0.74</td> 
+          <td align="left" rowspan="1" colspan="1">0.690</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Seed addition (ADD)</td> 
+          <td align="left" rowspan="1" colspan="1">416.89</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↑</td> 
+          <td align="left" rowspan="1" colspan="1">396.65</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↑</td> 
+          <td align="left" rowspan="1" colspan="1">59.23</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↑</td> 
+          <td align="left" rowspan="1" colspan="1">15.99</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↑</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">54.55</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">19.42</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">9.41</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+          <td align="left" rowspan="1" colspan="1">3.31</td> 
+          <td align="left" rowspan="1" colspan="1">0.069</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">3.36</td> 
+          <td align="left" rowspan="1" colspan="1">0.067</td> 
+          <td align="left" rowspan="1" colspan="1">0.22</td> 
+          <td align="left" rowspan="1" colspan="1">0.640</td> 
+          <td align="left" rowspan="1" colspan="1">0.56</td> 
+          <td align="left" rowspan="1" colspan="1">0.454</td> 
+          <td align="left" rowspan="1" colspan="1">0.10</td> 
+          <td align="left" rowspan="1" colspan="1">0.752</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">22.17</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">16.06</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">12.94</td> 
+          <td align="left" rowspan="1" colspan="1">0.002</td> 
+          <td align="left" rowspan="1" colspan="1">4.30</td> 
+          <td align="left" rowspan="1" colspan="1">0.116</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × C × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">9.98</td> 
+          <td align="left" rowspan="1" colspan="1">0.007</td> 
+          <td align="left" rowspan="1" colspan="1">3.44</td> 
+          <td align="left" rowspan="1" colspan="1">0.179</td> 
+          <td align="left" rowspan="1" colspan="1">9.77</td> 
+          <td align="left" rowspan="1" colspan="1">0.008</td> 
+          <td align="left" rowspan="1" colspan="1">8.46</td> 
+          <td align="left" rowspan="1" colspan="1">0.015</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × C × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">0.76</td> 
+          <td align="left" rowspan="1" colspan="1">0.685</td> 
+          <td align="left" rowspan="1" colspan="1">1.70</td> 
+          <td align="left" rowspan="1" colspan="1">0.427</td> 
+          <td align="left" rowspan="1" colspan="1">2.05</td> 
+          <td align="left" rowspan="1" colspan="1">0.358</td> 
+          <td align="left" rowspan="1" colspan="1">1.19</td> 
+          <td align="left" rowspan="1" colspan="1">0.551</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Year</td> 
+          <td align="left" rowspan="1" colspan="1">583.18</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↑</td> 
+          <td align="left" rowspan="1" colspan="1">369.99</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↑</td> 
+          <td align="left" rowspan="1" colspan="1">175.34</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001↓</td> 
+          <td align="left" rowspan="1" colspan="1">0.66</td> 
+          <td align="left" rowspan="1" colspan="1">0.417</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × Year</td> 
+          <td align="left" rowspan="1" colspan="1">35.73</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">51.56</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">144.75</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.70</td> 
+          <td align="left" rowspan="1" colspan="1">0.403</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × Year</td> 
+          <td align="left" rowspan="1" colspan="1">0.84</td> 
+          <td align="left" rowspan="1" colspan="1">0.359</td> 
+          <td align="left" rowspan="1" colspan="1">6.52</td> 
+          <td align="left" rowspan="1" colspan="1">0.011</td> 
+          <td align="left" rowspan="1" colspan="1">2.75</td> 
+          <td align="left" rowspan="1" colspan="1">0.097</td> 
+          <td align="left" rowspan="1" colspan="1">4.39</td> 
+          <td align="left" rowspan="1" colspan="1">0.036</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C × Year</td> 
+          <td align="left" rowspan="1" colspan="1">4.28</td> 
+          <td align="left" rowspan="1" colspan="1">0.118</td> 
+          <td align="left" rowspan="1" colspan="1">1.44</td> 
+          <td align="left" rowspan="1" colspan="1">0.486</td> 
+          <td align="left" rowspan="1" colspan="1">47.91</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">0.11</td> 
+          <td align="left" rowspan="1" colspan="1">0.948</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">ADD × Year</td> 
+          <td align="left" rowspan="1" colspan="1">18.80</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">39.37</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">3.83</td> 
+          <td align="left" rowspan="1" colspan="1">0.051</td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.900</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>Models were fitted by stepwise inclusion of fixed effects. Listed are the results of likelihood ratio tests (L ratio) that were applied to assess model improvement and the statistical significance of the fixed effects (p values). Arrows indicate increase (↑) or decrease (↓) of the variables with species richness, functional group number, after seed addition, with increasing colonization period or with time; SR  =  initial species richness, FG  =  functional group number, ADD  =  seed addition in 2005, C  =  colonization period.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>Functional richness (FRic)</title> 
+     <p>The higher resistance of communities with an increased number of initially established species and functional groups against colonization by new species resulted in a smaller increase in functional richness (FRic) after colonization of new species (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3A–C
+      </xref>, 
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>). Seed addition had positive effects on FRic at all levels of initially sown species richness, but the efficiency of seed addition was reduced through the higher colonization resistance of more diverse initially established species combinations (significant interaction “SR × ADD”, 
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3A
+      </xref>). Colonization period did not directly impact FRic, but the increment of FRic after seed addition was higher when weeding of species not added as seeds was continued for 3 years after seed addition (significant interaction “C × ADD”, 
+      <xref ref-type="fig" rid="pone-0101928-g004">
+       Fig. 4A–C
+      </xref>). FRic increased over the 5-year study period in subplots without seed addition and a low number of initially sown species (1 to 4 species), while FRic in subplots without seed addition and a higher number of initially sown species (8 and 16 species) remained unchanged at lower levels after an initial increment (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3B
+      </xref>). Seed-enrichment resulted in peak values of FRic one year after seed addition, and declined again in the subsequent two years (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3C
+      </xref>). Coefficient of variation (CV) decreased through time suggesting that FRic became more similar between communities (
+      <xref ref-type="supplementary-material" rid="pone.0101928.s001">
+       Fig. S1B
+      </xref>).</p> 
+     <fig id="pone-0101928-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Functional richness (FRic), functional evenness (FEve) and functional divergence (FDiv) per initial species-richness level.</title> 
+      <p>FRic as a function of time (A), and plotted against realized species richness (B, C), FEve as a function of time (D), and plotted against realized species richness (E, F), and FDiv as a function of time (G), and plotted against realized species richness (H, I) as mean values (±1SE) per initial species-richness level across colonization periods. Treatments without seed addition are shown in (B, E, H), and treatments with seed addition are shown in (C, F, I).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.g003" position="float" xlink:type="simple" />
+     </fig>
+     <fig id="pone-0101928-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Functional richness (FRic), functional evenness (FEve) and functional divergence (FDiv) per colonization period.</title> 
+      <p>FRic as a function of time (A), and plotted against realized species richness (B, C), FEve as a function of time (D), and plotted against realized species richness (E, F), and FDiv as a function of time (G), and plotted against realized species richness (H, I) as mean values (±1SE) per colonization period across initial species-richness levels. Treatments without seed addition are shown in (B, E, H), and treatments with seed addition are shown in (C, F, I).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.g004" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+    <sec id="s3c"> 
+     <title>Functional evenness (FEve)</title> 
+     <p>Realized functional evenness (FEve) after colonization declined with an increased number of initially established species (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3D–F
+      </xref>, 
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>). A longer duration of weeding, i.e. a shorter colonization period, and seed addition increased FEve and had the largest positive effects in communities with a lower number of initially established species (significant interactions “SR × C” and “SR × ADD”; 
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Figs. 3D–F
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0101928-g004">
+       4D–F
+      </xref>) or when seeds were added in subplots where weeding of species was continued for 3 years after seed addition (significant interaction “C × ADD”). FEve decreased over the 5-year study period. Starting at higher levels, the loss of FEve was larger, when initially a lower number of species was established (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3E–F
+      </xref>), as well as in split-plots with a longer continuation of weeding (
+      <xref ref-type="fig" rid="pone-0101928-g004">
+       Fig. 4E–F
+      </xref>). FEve converged between communities with different initial species richness (decreasing CV) over the 5-year study period, but did not become more similar between treatments with different assembly history (
+      <xref ref-type="supplementary-material" rid="pone.0101928.s001">
+       Fig. S1C
+      </xref>).</p> 
+    </sec>
+    <sec id="s3d"> 
+     <title>Functional divergence (FDiv)</title> 
+     <p>Realized functional divergence (FDiv) after colonization decreased with an increased number of initially established species (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3G–I
+      </xref>, 
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>). Seed addition increased FDiv (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3G
+      </xref>), while a longer continuation of weeding did not affect FDiv (
+      <xref ref-type="fig" rid="pone-0101928-g004">
+       Fig. 4G–I
+      </xref>). Two years after seed addition, FDiv declined to similar values as in split-plots without seed addition (
+      <xref ref-type="table" rid="pone-0101928-t002">
+       Table 2
+      </xref>). Coefficient of variation (CV) in FDiv decreased over time between communities (
+      <xref ref-type="supplementary-material" rid="pone.0101928.s001">
+       Fig. S1D
+      </xref>).</p> 
+    </sec>
+    <sec id="s3e"> 
+     <title>Between-community dissimilarity in species and functional trait composition</title> 
+     <p>Average between-community dissimilarity in species composition was highest for communities initially established with a large number of species. Average between-community dissimilarity in functional trait composition did not depend on the initially established plant diversity (
+      <xref ref-type="table" rid="pone-0101928-t003">
+       Table 3
+      </xref>). Between-community dissimilarity in species and functional trait composition decreased through time (
+      <xref ref-type="fig" rid="pone-0101928-g005">
+       Fig. 5
+      </xref>, 
+      <xref ref-type="table" rid="pone-0101928-t003">
+       Table 3
+      </xref>). A lower number of initially established species, seed addition and earlier cessation of weeding (i.e. a longer colonization period) accelerated between-community convergence in functional trait composition and to a lesser extent in species composition. While between-community dissimilarity in functional trait composition decreased by 29.8% (±0.7 SE) during the study period of 5 years, between-community dissimilarity in species composition decreased by 22.2% (±0.3 SE).</p> 
+     <fig id="pone-0101928-g005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.g005
+      </object-id>
+      <label>Figure 5</label> 
+      <title>Between- and within-community dissimilarities in species and functional trait composition.</title> 
+      <p>Dissimilarities based on species composition (A, C), and functional trait composition (B, D) as a function of time. Between-community dissimilarities were calculated as mean pair-wise Bray-Curtis distances between all communities per colonization period × seed addition treatment, and within-community dissimilarities between split-plots with different assembly histories were calculated as mean pair-wise Bray-Curtis distances between colonization period × seed addition treatments per community. Mean values (±1SE) per initial species-richness level across colonization period × seed addition treatments (A, B), and mean values (±1SE) per colonization period × seed addition treatment across sown species-richness levels (C, D) are shown.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.g005" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0101928-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0101928.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>Summary of mixed-effects model analyses for dissimilarity (Bray-Curtis distances) based on species composition and functional trait composition: (A) between-community dissimilarity per colonization period × seed addition treatment, (B) within-community dissimilarity across colonization period × seed addition treatments.</title> 
+      <alternatives>
+       <graphic id="pone-0101928-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0101928.t003" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Source of variation</td> 
+          <td colspan="3" align="left" rowspan="1">Species composition</td> 
+          <td colspan="3" align="left" rowspan="1">Functional trait composition</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td colspan="7" align="left" rowspan="1">(A) Between-community dissimilarity</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear)</td> 
+          <td align="left" rowspan="1" colspan="1">25.17</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↑</td> 
+          <td align="left" rowspan="1" colspan="1">0.46</td> 
+          <td align="left" rowspan="1" colspan="1">0.496</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear)</td> 
+          <td align="left" rowspan="1" colspan="1">0.29</td> 
+          <td align="left" rowspan="1" colspan="1">0.591</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.28</td> 
+          <td align="left" rowspan="1" colspan="1">0.597</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Colonization period (C)</td> 
+          <td align="left" rowspan="1" colspan="1">44.00</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+          <td align="left" rowspan="1" colspan="1">97.20</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × C</td> 
+          <td align="left" rowspan="1" colspan="1">0.81</td> 
+          <td align="left" rowspan="1" colspan="1">0.669</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.92</td> 
+          <td align="left" rowspan="1" colspan="1">0.632</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × C</td> 
+          <td align="left" rowspan="1" colspan="1">1.06</td> 
+          <td align="left" rowspan="1" colspan="1">0.587</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.52</td> 
+          <td align="left" rowspan="1" colspan="1">0.770</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Seed addition (ADD)</td> 
+          <td align="left" rowspan="1" colspan="1">139.37</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+          <td align="left" rowspan="1" colspan="1">210.33</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">2.68</td> 
+          <td align="left" rowspan="1" colspan="1">0.102</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">5.37</td> 
+          <td align="left" rowspan="1" colspan="1">0.020</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">0.65</td> 
+          <td align="left" rowspan="1" colspan="1">0.419</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.78</td> 
+          <td align="left" rowspan="1" colspan="1">0.378</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">31.73</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">63.48</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × C × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">0.06</td> 
+          <td align="left" rowspan="1" colspan="1">0.970</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">1.37</td> 
+          <td align="left" rowspan="1" colspan="1">0.504</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × C × ADD</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.961</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.991</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Year</td> 
+          <td align="left" rowspan="1" colspan="1">3595.11</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+          <td align="left" rowspan="1" colspan="1">1660.62</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × Year</td> 
+          <td align="left" rowspan="1" colspan="1">44.56</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">45.86</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × Year</td> 
+          <td align="left" rowspan="1" colspan="1">0.08</td> 
+          <td align="left" rowspan="1" colspan="1">0.781</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.66</td> 
+          <td align="left" rowspan="1" colspan="1">0.418</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C × Year</td> 
+          <td align="left" rowspan="1" colspan="1">68.84</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">189.82</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">ADD × Year</td> 
+          <td align="left" rowspan="1" colspan="1">49.15</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">11.76</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td colspan="7" align="left" rowspan="1">(B) Within-community dissimilarity</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">L</td> 
+          <td align="left" rowspan="1" colspan="1">p</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear)</td> 
+          <td align="left" rowspan="1" colspan="1">77.34</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+          <td align="left" rowspan="1" colspan="1">85.19</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear)</td> 
+          <td align="left" rowspan="1" colspan="1">8.66</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+          <td align="left" rowspan="1" colspan="1">8.53</td> 
+          <td align="left" rowspan="1" colspan="1">0.004</td> 
+          <td align="left" rowspan="1" colspan="1">↓</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Year</td> 
+          <td align="left" rowspan="1" colspan="1">104.39</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↑</td> 
+          <td align="left" rowspan="1" colspan="1">22.20</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1">↑</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">SR (log-linear) × Year</td> 
+          <td align="left" rowspan="1" colspan="1">12.11</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">26.53</td> 
+          <td align="left" rowspan="1" colspan="1">&lt;0.001</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">FG (linear) × Year</td> 
+          <td align="left" rowspan="1" colspan="1">0.53</td> 
+          <td align="left" rowspan="1" colspan="1">0.468</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.53</td> 
+          <td align="left" rowspan="1" colspan="1">0.466</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt102">
+        <label></label>
+        <p>Models were fitted by stepwise inclusion of fixed effects. Listed are the results of likelihood ratio tests (L ratio) that were applied to assess model improvement and the statistical significance of the fixed effects (p values). Arrows indicate increase (↑) or decrease (↓) of the variables with species richness, functional group number, after seed addition, with increasing colonization period or with time; SR  =  initial species richness, FG  =  functional group number, ADD  =  seed addition in 2005, C  =  colonization period.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3f"> 
+     <title>Dissimilarity in species and functional trait composition caused by assembly-history treatments</title> 
+     <p>The average within-plot dissimilarities (between different seed addition × colonization period combinations) in species and functional trait composition were smaller than between communities (
+      <xref ref-type="fig" rid="pone-0101928-g005">
+       Fig. 5A–B
+      </xref>). Within-community dissimilarity in species and functional trait composition decreased with a higher number of initially established species and functional groups (
+      <xref ref-type="table" rid="pone-0101928-t003">
+       Table 3
+      </xref>). Species and functional trait composition in split-plots with different colonization period × seed addition treatments diverged in the first 3 years after seed addition. Divergence did not increase further in later years, and functional trait composition in communities initially established as monocultures or with two species even turned to convergence.</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>In spite of sustained efforts to understand patterns of community assembly, the importance of different biotic processes is poorly disentangled so far. We used the opportunity to study biotic processes of community assembly under relatively homogeneous environmental conditions in split-plots of a large grassland biodiversity experiment opened for colonization by new species and removed dispersal limitation through a seed addition treatment 
+     <xref ref-type="bibr" rid="pone.0101928-Roscher2">
+      [21]
+     </xref>.</p> 
+    <sec id="s4a"> 
+     <title>Species richness and functional trait diversity</title> 
+     <p>Species gain and increase in functional richness (FRic) after the opening of experimental communities for colonization by new species was reduced by a higher number of initially established species and a longer colonization period (shorter duration of weeding). The negative effects of a higher initially sown plant diversity on the spontaneous colonization of new species may be attributable to the lower stability of low-diverse communities even in the absence of weeding 
+      <xref ref-type="bibr" rid="pone.0101928-Roscher3">
+       [40]
+      </xref>, while disturbance through weeding and the removal of competitors in communities with a shorter colonization period may have accelerated the colonization success of new species. The long-term effects of higher initial plant diversity in reducing the number of colonizer species are in line with previous short-term studies in the Jena Experiment and other biodiversity experiments (e.g. 
+      <xref ref-type="bibr" rid="pone.0101928-vanderPutten1">
+       [41]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0101928-Roscher4">
+       [43]
+      </xref>). In our experiment, communities established with a lower number of species even exceeded realized species richness of communities established with a higher number of species after communities were opened for colonization (
+      <xref ref-type="fig" rid="pone-0101928-g002">
+       Fig. 2A
+      </xref>). Seed addition led to a higher species gain and FRic increase than without seed addition, and the efficiency of seed addition was increased, when weeding was continued for a longer period. Higher levels of realized species richness after seed addition are commonly found because plant communities are often under-saturated with species due to a limited species pool or dispersal constraints 
+      <xref ref-type="bibr" rid="pone.0101928-Clark1">
+       [44]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Myers1">
+       [45]
+      </xref>. Although none of the species added as seed failed to establish completely after seed addition 
+      <xref ref-type="bibr" rid="pone.0101928-Roscher2">
+       [21]
+      </xref> and single communities accumulated indeed up to 60 species one or two years after seed addition, average species richness in the seed addition treatments declined again and did not exceed 35 species in the last year of the study (
+      <xref ref-type="fig" rid="pone-0101928-g002">
+       Fig. 2A
+      </xref>). This upper limit of realized species richness is close to the realized species number in plots initially established with all 60 experimental species in the Jena Experiment (unpubl. data) and indicates that the seed addition led to forced colonization with a short-term over-saturation with species followed by species loss.</p> 
+     <p>Functional richness (FRic), which quantifies the volume of functional space filled by a community, increased in parallel to species gain in sub-plots without seed addition, but the increment of FRic was flattened in subplots with a higher number of initially sown species (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3B
+      </xref>). The concurrent increase in species richness and FRic indicated that newly colonizing species were functionally different from residents, which is in line with the view that complementary resource requirements of resident and colonizer species select for a maximization of functional richness (indicating limiting similarity). In contrast, FRic reached maximum values in the year after the seed addition in sub-plots with seed addition (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3C
+      </xref>), followed by maximum values of functional divergence (FDiv) in the third year (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3I
+      </xref>) before both measures of functional trait diversity declined more strongly than realized species richness in subsequent years. Functional evenness was also higher after seed addition, but decreased continuously through time (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3F
+      </xref>). Decreasing FEve in parallel to species gain (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3E
+      </xref>) and a minor trend in FDiv (
+      <xref ref-type="fig" rid="pone-0101928-g003">
+       Fig. 3H
+      </xref>) through time, however, occurred in subplots without seed addition. FDiv describes how abundance is spread along functional trait axes, where large values of FDiv are expected to indicate a high degree of niche differentiation 
+      <xref ref-type="bibr" rid="pone.0101928-Mason1">
+       [19]
+      </xref>. Our analysis of functional trait diversity was based on multiple traits. Although different functional traits may be associated with different processes during community assembly and relate to different niche axes 
+      <xref ref-type="bibr" rid="pone.0101928-Spasojevic1">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Mason2">
+       [47]
+      </xref>, plants have to balance different functions which is often reflected in fundamental functional trade-offs. Probably, the short-term increase in FDiv and maximum levels of FRic after seed addition were due to the advantage of species with traits associated with rapid establishment followed by weaker competitor exclusion. Weaker competitor exclusion (related to equalizing fitness processes) in grasslands at high productivity levels is discussed as a biotic process resulting in niche reduction in favour of perennial species with higher ability for resource competition 
+      <xref ref-type="bibr" rid="pone.0101928-Grime1">
+       [6]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-BernardVerdier1">
+       [48]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Gerhold1">
+       [49]
+      </xref>. Decreasing FEve may be either due to abundances less evenly distributed among species or to less regular functional distances among species 
+      <xref ref-type="bibr" rid="pone.0101928-Villger1">
+       [22]
+      </xref>. The decline in FEve through time as well as a reduced FEve in subplots with a longer colonization period (
+      <xref ref-type="fig" rid="pone-0101928-g004">
+       Fig. 4D–F
+      </xref>) indicated again that equalizing fitness processes favoured species with more similar trait combinations during community assembly.</p> 
+    </sec>
+    <sec id="s4b"> 
+     <title>Convergence in species and functional trait composition</title> 
+     <p>Previous studies have reported that experimental communities initially sown with different plant diversity and opened to colonization converged in species richness and functional or phylogenetic composition while keeping different species composition 
+      <xref ref-type="bibr" rid="pone.0101928-Fukami1">
+       [13]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Cadotte1">
+       [50]
+      </xref>. Our results based on a 5-year study period starting 4 years after establishing communities with different plant diversity also showed stronger between-community convergence in functional trait composition than in species composition. In subplots with a different assembly history, however, we found a divergence in communities initially established with higher plant diversity (4 and more species, 
+      <xref ref-type="fig" rid="pone-0101928-g005">
+       Fig. 5B
+      </xref>), while communities initially established as monocultures or 2-species mixtures maintained their initial convergent state. Probably, this divergence at higher species-richness levels was due to the stochasticity in colonization processes and the persistence of priority effects, which may cause high variability in community structure among similar sites 
+      <xref ref-type="bibr" rid="pone.0101928-Chase2">
+       [51]
+      </xref>.</p> 
+     <p>It becomes increasingly apparent that multiple processes are involved in community assembly. A number of recent studies have shown that patterns of functional trait composition depend on environmental conditions and the traits considered 
+      <xref ref-type="bibr" rid="pone.0101928-Spasojevic1">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-BernardVerdier1">
+       [48]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Gerhold1">
+       [49]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0101928-Price1">
+       [52]
+      </xref>. Our study based on multiple traits provided evidence that contrasting biotic processes govern shifts of functional community composition in experimental grasslands with relatively homogeneous environmental conditions. Limiting similarity played a larger role during early phases of colonization. Colonization of new species went in parallel with an increase in FRic indicating that the newly colonizing species were functionally different from residents (hypothesis 1). Increasing FRic was succeeded by a decline in FEve suggesting weaker competitor exclusion in the longer run (hypothesis 2). These processes were accelerated when seed limitation was removed through seed addition resulting in peak values of FRic and larger values of FEve, which declined again in subsequent years (hypothesis 3). Nevertheless, FRic and FEve remained at higher levels in subplots with seed addition compared to those without seed addition during the 5-year study period, indicating that the removal of seed limitation improved the chance for assembling communities with a higher number of species with traits advantageous in competition. However, in addition to the series of assembly processes related to limiting similarity and weaker competitor exclusion, our study has clearly shown that historical contingency in assembly processes due to priority effects may be traceable over longer time (hypothesis 4). First, species gain and increase in FRic were considerably reduced when plant communities were initially established with greater diversity such that, realized species richness and FRic of initially low-diverse communities were even greater than in initially high-diverse communities after opening for colonization. Second, a longer duration of the colonization period decreased the accelerated species gain and the increase in FRic in initially low-diverse communities and maintained FEve at lower levels. In addition, the prominent role of priority effects becomes visible by the lagged convergence of species composition relative to functional trait composition of communities initially established with different species compositions (hypothesis 5).</p> 
+    </sec>
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0101928.s001" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0101928.s001" position="float" xlink:type="simple">
+     <label>Figure S1</label> 
+     <p>Between- and within-community coefficients of variation of realized species richness, FRic, FEve and FDiv.</p> 
+     <p>(DOC)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0101928.s002" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0101928.s002" position="float" xlink:type="simple">
+     <label>Text S1</label> 
+     <p>Reference list for data on specific leaf area of particular plant species included in the matrix of functional traits.</p> 
+     <p>(DOC)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We thank E.-D. Schulze for discussion on the experimental results. We acknowledge W.W. Weisser for coordination of the Jena Experiment, and A. Weigelt for coordination of the field site. We thank U. Wehmeier, A. Enke and several student helpers for their support with the establishment and maintenance of the split-plot experiment.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0101928-Tilman1">
+      <label>1</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Tilman D (2001) Functional diversity. In: Levin SA (ed) Encyclopedia of biodiversity. San Diego: Academic Press. pp. 109–120.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Lavorel1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Garnier
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Predicting changes in community composition and ecosystem functioning from plant traits: revisiting the Holy Grail
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        545
+       </fpage>–
+       <lpage>
+        556
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Weiher1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Weiher
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clarke
+        </surname>
+        <given-names>
+         GDP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Keddy
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Community assembly rules, morphological dispersion, and the coexistence of plant species
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        309
+       </fpage>–
+       <lpage>
+        322
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-deBello1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thuiller
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lepš
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Choler
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clément
+        </surname>
+        <given-names>
+         J-C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Partitioning of functional diversity reveals the scale and extent of trait convergence and divergence
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        475
+       </fpage>–
+       <lpage>
+        486
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Daz1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Díaz
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cabido
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Casanoves
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Plant functional traits and environmental filters at a regional scale
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        113
+       </fpage>–
+       <lpage>
+        122
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Grime1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Trait convergence and trait divergence in herbaceous plant communities: mechanisms and consequences
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        255
+       </fpage>–
+       <lpage>
+        260
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-MacArthur1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         MacArthur
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levins
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1967
+       </year>) 
+       <article-title>
+        The limiting similarity, convergence, and divergence of coexisting species
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        101
+       </volume>: 
+       <fpage>
+        377
+       </fpage>–
+       <lpage>
+        385
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Chesson1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chesson
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Mechanisms of maintenance of species diversity
+       </article-title>. 
+       <source>Annu Rev Ecol Syst 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        343
+       </fpage>–
+       <lpage>
+        366
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-HilleRisLambers1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hille Ris Lambers
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adler
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harpole
+        </surname>
+        <given-names>
+         WS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levine
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mayfield
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Rethinking community assembly through the lens of coexistence theory
+       </article-title>. 
+       <source>Annu Rev Ecol Syst 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        248
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Hubbell1">
+      <label>10</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Hubbell SP (2001) The unified neutral theory of biodiversity and biogeography. Princeton: Princeton University Press, Princeton. 448 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Drake1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Drake
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        1991
+       </year>) 
+       <article-title>
+        Community-assembly mechanics and the structure of an experimental species ensemble
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        137
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        26
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Chase1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Community assembly: when should history matter?
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        136
+       </volume>: 
+       <fpage>
+        489
+       </fpage>–
+       <lpage>
+        498
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Fukami1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fukami
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bezemer
+        </surname>
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mortimer
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         van der Putten
+        </surname>
+        <given-names>
+         WH
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Species divergence and trait convergence in experimental plant community assembly
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        1283
+       </fpage>–
+       <lpage>
+        1290
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Mayfield1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mayfield
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levine
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Opposing effects of competitive exclusion on the phylogenetic structure of communities
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        1085
+       </fpage>–
+       <lpage>
+        1093
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Gtzenberger1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Götzenberger
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bråthen
+        </surname>
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davison
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubuis
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Ecological assembly rules in plant communities - approaches, patterns and prospects
+       </article-title>. 
+       <source>Biol Rev 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        111
+       </fpage>–
+       <lpage>
+        127
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Allan1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allan
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jenkins
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fergus
+        </surname>
+        <given-names>
+         AJF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Experimental plant communities develop phylogenetically overdispersed abundance distributions during assembly
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        94
+       </volume>: 
+       <fpage>
+        465
+       </fpage>–
+       <lpage>
+        477
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Pfisterer1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pfisterer
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Joshi
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmid
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Rapid decay of diversity-productivity relationships after invasion of experimental plant communities
+       </article-title>. 
+       <source>Basic Appl Ecol 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        5
+       </fpage>–
+       <lpage>
+        14
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Petermann1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petermann
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fergus
+        </surname>
+        <given-names>
+         AJF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Turnbull
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weigelt
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Biology, chance or history? The predictable re-assembly of temperate grassland communities
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        408
+       </fpage>–
+       <lpage>
+        421
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Mason1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         WG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Functional richness, functional evenness and functional divergence: the primary components of functional diversity
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        111
+       </volume>: 
+       <fpage>
+        112
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Roscher1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schumacher
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baade
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilcke
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gleixner
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The role of biodiversity for element cycling and trophic interactions: an experimental approach in a grassland community
+       </article-title>. 
+       <source>Basic Appl Ecol 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        107
+       </fpage>–
+       <lpage>
+        121
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Roscher2">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmid
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schulze
+        </surname>
+        <given-names>
+         E-D
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Non-random recruitment of invader species in experimental grasslands
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        1425
+       </fpage>–
+       <lpage>
+        1440
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Villger1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Villéger
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        New multidimensional functional diversity indices for a multifaceted framework in functional ecology
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        2290
+       </fpage>–
+       <lpage>
+        2301
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Kluge1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kluge
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Müller-Westermeier
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Das Klima ausgewählter Orte der Bundesrepublik Deutschland: Jena
+       </article-title>. 
+       <source>Ber Deutsch Wetterdienstes 
+       <volume>
+        213
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        290
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Ellenberg1">
+      <label>24</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Ellenberg H (1988) Vegetation ecology of Central Europe. Cambridge: Cambridge University Press. 731 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Londo1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Londo
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        1976
+       </year>) 
+       <article-title>
+        The decimal scale for releves of permanent quadrats
+       </article-title>. 
+       <source>Vegetatio 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        61
+       </fpage>–
+       <lpage>
+        64
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Rothmaler1">
+      <label>26</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Rothmaler R (2005) Exkursionsflora von Deutschland. Bd. 4. Kritischer Band. (eds. EJ Jäger, Werner K), Heidelberg: Spektrum. 980 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Kleyer1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kleyer
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bekker
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knevel
+        </surname>
+        <given-names>
+         IC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bakker
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thompson
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The LEDA traitbase: a database of life-history traits of the Northwest European flora
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        1266
+       </fpage>–
+       <lpage>
+        1274
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Klotz1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Klotz
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kühn
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Durka
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        BIOLFLOR – eine Datenbank mit biologisch-ökologischen Merkmalen zur Flora von Deutschland
+       </article-title>. 
+       <source>SchrReihe Vegkd 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        334
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Bray1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bray
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        1957
+       </year>) 
+       <article-title>
+        An ordination of the upland forest communities of Southern Wisconsin
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        326
+       </fpage>–
+       <lpage>
+        349
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Garnier1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garnier
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cortez
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Billès
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navas
+        </surname>
+        <given-names>
+         M-L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roumet
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Plant functional markers capture ecosystem properties during secondary succession
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        2630
+       </fpage>–
+       <lpage>
+        2637
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Mouchet1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mouchet
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Villéger
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Functional diversity measures: an overview of their redundancy and their ability to discriminate community assembly rules
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        867
+       </fpage>–
+       <lpage>
+        876
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Cornwell1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cornwell
+        </surname>
+        <given-names>
+         WK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schwilk
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ackerly
+        </surname>
+        <given-names>
+         DD
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        A trait-based test for habitat-filtering: convex hull volume
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        1465
+       </fpage>–
+       <lpage>
+        1471
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Petchey1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname>
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Functional diversity (FD), species richness, and community composition
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        402
+       </fpage>–
+       <lpage>
+        411
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Gower1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gower
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name> (
+       <year>
+        1971
+       </year>) 
+       <article-title>
+        A general coefficient of similarity and some of its properties
+       </article-title>. 
+       <source>Biometrics 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        857
+       </fpage>–
+       <lpage>
+        871
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Lalibert1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Laliberté
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        A distance-based framework for measuring functional diversity from multiple traits
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        299
+       </fpage>–
+       <lpage>
+        305
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Cailliez1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cailliez
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        1983
+       </year>) 
+       <article-title>
+        The analytical solution of the additive constant problem
+       </article-title>. 
+       <source>Psychometrika 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        305
+       </fpage>–
+       <lpage>
+        310
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Lalibert2">
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Laliberté E, Shipley B (2010) 
+       <italic>
+        FD
+       </italic>: Measuring functional diversity (FD) from multiple traits, and other tools for functional ecology. R package version 1.0-9. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org" xlink:type="simple">
+        http://www.r-project.org
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Pinheiro1">
+      <label>38</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Pinheiro J, Bates D, DebRoy S, Sakar D, R Core Team (2009) 
+       <italic>
+        nlme
+       </italic>: linear and nonlinear mixed effects models. R package version 3.1-96. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org" xlink:type="simple">
+        http://www.r-project.org
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-McCune1">
+      <label>39</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       McCune B, Mefford MJ (1997) PC-ORD. Multivariate analysis of ecological data. MjM Software Design, Gleneden Beach, OR.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Roscher3">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fergus
+        </surname>
+        <given-names>
+         AJF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petermann
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchmann
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmid
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        What happens to the sown species if a biodiversity experiment is not weeded?
+       </article-title> 
+       <source>Basic Appl Ecol 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        187
+       </fpage>–
+       <lpage>
+        198
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-vanderPutten1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         van der Putten
+        </surname>
+        <given-names>
+         WH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mortimer
+        </surname>
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hedlund
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         van Dijk
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         VK
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Plant species diversity as a driver of early succession in abandoned fields: a multi-site approach
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        124
+       </volume>: 
+       <fpage>
+        91
+       </fpage>–
+       <lpage>
+        99
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Fargione1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fargione
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         CS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Community assembly and invasion: an experimental test of neutral versus niche processes
+       </article-title>. 
+       <source>Proc Natl Acad Sci USA 
+       <volume>
+        100
+       </volume>: 
+       <fpage>
+        8916
+       </fpage>–
+       <lpage>
+        8920
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Roscher4">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Roscher
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beβler
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oelmann
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Engels
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilcke
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Resources, recruitment limitation and invader species identity determine pattern of spontaneous invasion in experimental grasslands
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        97
+       </volume>: 
+       <fpage>
+        32
+       </fpage>–
+       <lpage>
+        47
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Clark1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poulsen
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levey
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Osenberg
+        </surname>
+        <given-names>
+         CW
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Are plant populations seed limited? A critique and meta-analysis of seed addition experiments
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        170
+       </volume>: 
+       <fpage>
+        128
+       </fpage>–
+       <lpage>
+        142
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Myers1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Myers
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harms
+        </surname>
+        <given-names>
+         KE
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Seed arrival, ecological filters, and plant species richness: a meta-analysis
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        1250
+       </fpage>–
+       <lpage>
+        1260
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Spasojevic1">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Spasojevic
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Suding
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Inferring community assembly mechanisms from functional diversity patterns: the importance of multiple assembly processes
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        100
+       </volume>: 
+       <fpage>
+        652
+       </fpage>–
+       <lpage>
+        661
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Mason2">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Doležal
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lepš
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Niche overlap reveals the effects of competition, disturbance and contrasting assembly processes in experimental grassland communities
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        788
+       </fpage>–
+       <lpage>
+        796
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-BernardVerdier1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bernard-Verdier
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navas
+        </surname>
+        <given-names>
+         M-L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Violle
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fayolle
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Community assembly along a soil depth gradient: contrasting patterns of plant trait convergence and divergence in a Mediterranean rangeland
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        100
+       </volume>: 
+       <fpage>
+        1422
+       </fpage>–
+       <lpage>
+        1433
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Gerhold1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gerhold
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         JN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Püssa
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kalamees
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aher
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Functional and phylogenetic community assembly linked to changes in species diversity in a long-term resource manipulation experiment
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        843
+       </fpage>–
+       <lpage>
+        852
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Cadotte1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cadotte
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Strauss
+        </surname>
+        <given-names>
+         SY
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Phylogenetic patterns of colonization and extinction in experimentally assembled plant communities
+       </article-title>. 
+       <source>PlosOne 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        e19363
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Chase2">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Stochastic community assembly causes higher biodiversity in more productive environments
+       </article-title>. 
+       <source>Science 
+       <volume>
+        328
+       </volume>: 
+       <fpage>
+        1388
+       </fpage>–
+       <lpage>
+        1391
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0101928-Price1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         JN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gazol
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tamme
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hiiesalu
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pärtel
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        The functional assembly of experimental grasslands in relation to fertility and resource heterogeneity
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        509
+       </fpage>–
+       <lpage>
+        519
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

@@ -1,0 +1,4409 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-35071
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0092517
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Agriculture
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant-environment interactions
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Community ecology
+         </subject>
+         <subject>
+          Ecosystems
+         </subject>
+         <subject>
+          Global change ecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Plant science
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Soil science
+        </subject>
+        <subj-group>
+         <subject>
+          Soil ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Physical sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Chemistry
+        </subject>
+        <subj-group>
+         <subject>
+          Environmental chemistry
+         </subject>
+         <subj-group>
+          <subject>
+           Soil chemistry
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Ammonium as a Driving Force of Plant Diversity and Ecosystem Functioning: Observations Based on 5 Years' Manipulation of N Dose and Form in a Mediterranean Ecosystem
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       N, Plant Diversity and Ecosystem Functioning
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         Teresa
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clemente
+        </surname>
+        <given-names>
+         Adelaide
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martins-Loução
+        </surname>
+        <given-names>
+         Maria Amélia
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sheppard
+        </surname>
+        <given-names>
+         Lucy
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bobbink
+        </surname>
+        <given-names>
+         Roland
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cruz
+        </surname>
+        <given-names>
+         Cristina
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Centro de Biologia Ambiental, Faculdade de Ciências da Universidade de Lisboa, Lisboa, Portugal
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Museu Nacional de História Natural e da Ciência, Jardim Botânico, Lisboa, Portugal
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Centre for Ecology and Hydrology – Edinburgh, Bush Estate, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       B-Ware Research Centre, Radboud University Nijmegen, Nijmegen, The Netherlands
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hu
+        </surname>
+        <given-names>
+         Shuijin
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       North Carolina State University, United States of America
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        mtdias@fc.ul.pt
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: TD MAML LS CC. Performed the experiments: TD AC. Analyzed the data: TD AC MAML LS RB CC. Contributed reagents/materials/analysis tools: TD AC MAML CC. Wrote the paper: TD AC MAML LS RB CC. Obtained permission for use of field site: TD CC.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       2
+      </day>
+      <month>
+       4
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e92517
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        25
+       </day>
+       <month>
+        8
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        23
+       </day>
+       <month>
+        2
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Dias et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Enhanced nitrogen (N) availability is one of the main drivers of biodiversity loss and degradation of ecosystem functions. However, in very nutrient-poor ecosystems, enhanced N input can, in the short-term, promote diversity. Mediterranean Basin ecosystems are nutrient-limited biodiversity hotspots, but no information is available on their medium- or long-term responses to enhanced N input. Since 2007, we have been manipulating the form and dose of available N in a Mediterranean Basin maquis in south-western Europe that has low ambient N deposition (&lt;4 kg N ha<sup>−1</sup> yr<sup>−1</sup>) and low soil N content (0.1%). N availability was modified by the addition of 40 kg N ha<sup>−1</sup> yr<sup>−1</sup> as a 1∶1 NH<sub>4</sub>Cl to (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub> mixture, and 40 and 80 kg N ha<sup>−1</sup> yr<sup>−1</sup> as NH<sub>4</sub>NO<sub>3</sub>. Over the following 5 years, the impacts on plant composition and diversity (richness and evenness) and some ecosystem characteristics (soil extractable N and organic matter, aboveground biomass and % of bare soil) were assessed. Plant species richness increased with enhanced N input and was more related to ammonium than to nitrate. Exposure to 40 kg NH<sub>4</sub><sup>+</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> (alone and with nitrate) enhanced plant richness, but did not increase aboveground biomass; soil extractable N even increased under 80 kg NH<sub>4</sub>NO<sub>3</sub>-N ha<sup>−1</sup> yr<sup>−1</sup> and the % of bare soil increased under 40 kg NH<sub>4</sub><sup>+</sup>-N ha<sup>−1</sup> yr<sup>−1</sup>. The treatment containing less ammonium, 40 kg NH<sub>4</sub>NO<sub>3</sub>-N ha<sup>−1</sup> yr<sup>−1</sup>, did not enhance plant diversity but promoted aboveground biomass and reduced the % of bare soil. Data suggest that enhanced NH<sub>y</sub> availability affects the structure of the maquis, which may promote soil erosion and N leakage, whereas enhanced NO<sub>x</sub> availability leads to biomass accumulation which may increase the fire risk. These observations are relevant for land use management in biodiverse and fragmented ecosystems such as the maquis, especially in conservation areas.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This study was supported by the Fundação para a Ciência e Tecnologia (FCT) through the projects PTDC/BIA-BEC/099323/2008 and PTDC/BIA-ECS/122214/2010. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="10" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>High biodiversity can stabilize ecosystems through functional complementarities, which can buffer the impacts of environmental change 
+     <xref ref-type="bibr" rid="pone.0092517-Hooper1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-MacDougall1">
+      [2]
+     </xref>. Biodiversity and ecosystem functions are influenced by several drivers (
+     <italic>
+      e.g.
+     </italic> land use change, increased nutrient availability), but ecosystem responses (and mechanisms) to those drivers remain unclear 
+     <xref ref-type="bibr" rid="pone.0092517-Forest1">
+      [3]
+     </xref>, especially responses of ecosystems under persistent anthropogenic influence such as enhanced nitrogen (N) deposition.</p> 
+    <p>Enhanced N availability has been acknowledged as a global and increasing threat to biodiversity 
+     <xref ref-type="bibr" rid="pone.0092517-Sala1">
+      [4]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0092517-DeSchrijver1">
+      [7]
+     </xref> and ecosystem function 
+     <xref ref-type="bibr" rid="pone.0092517-Phoenix2">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-Southon1">
+      [9]
+     </xref>. However, most of our knowledge of the impacts of increased N availability on ecosystems comes from northern Europe and America 
+     <xref ref-type="bibr" rid="pone.0092517-Bobbink1">
+      [6]
+     </xref>. Mediterranean-type ecosystems appear on the ‘neglected ecosystems list’ 
+     <xref ref-type="bibr" rid="pone.0092517-Bobbink1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-OchoaHueso1">
+      [10]
+     </xref> despite being a global conservation priority 
+     <xref ref-type="bibr" rid="pone.0092517-Myers1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-Klausmeyer1">
+      [12]
+     </xref>, rivalling tropical rainforests 
+     <xref ref-type="bibr" rid="pone.0092517-Klausmeyer1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-Cowling1">
+      [13]
+     </xref>. In fact, not much is known about the impacts of increased N availability on Mediterranean-type ecosystems, other than those found in California 
+     <xref ref-type="bibr" rid="pone.0092517-OchoaHueso1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-Fenn1">
+      [14]
+     </xref>. Ecosystems in the Mediterranean Basin that have experienced intensive human development and impact for millennia 
+     <xref ref-type="bibr" rid="pone.0092517-Blondel1">
+      [15]
+     </xref>, and where N deposition is expected to increase threefold by 2050 
+     <xref ref-type="bibr" rid="pone.0092517-Phoenix1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-Galloway1">
+      [16]
+     </xref> are particularly deserving of study.</p> 
+    <p>The most distinctive features of Mediterranean-type ecosystems likely to influence responses to increased N availability are: climate (highly seasonal, with warm dry summers that contrast with cool rainy winters); soils (low nutrient levels and organic matter and high contents of bases such as carbonates); dominance of dry N deposition; asynchrony between N availability and biological activity 
+     <xref ref-type="bibr" rid="pone.0092517-OchoaHueso1">
+      [10]
+     </xref>; and spatial and temporal heterogeneity 
+     <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+      [17]
+     </xref>. On the basis of these distinguishing features, it seems likely that Mediterranean-type ecosystems could respond rather differently from north temperate ones. Even within Mediterranean-type ecosystems, differences in soil fertility 
+     <xref ref-type="bibr" rid="pone.0092517-Cowling1">
+      [13]
+     </xref> and phosphorus (P) availability in particular can undermine extrapolations from Californian ecosystems to those in the Mediterranean Basin 
+     <xref ref-type="bibr" rid="pone.0092517-OchoaHueso1">
+      [10]
+     </xref>. For these reasons, in 2007 an N-manipulation (dose and form) field experiment was established in a severely nutrient-limited Mediterranean Basin maquis. Contrasting with most studies (north temperate systems 
+     <xref ref-type="bibr" rid="pone.0092517-Bobbink1">
+      [6]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0092517-Southon1">
+      [9]
+     </xref> and Mediterranean Basin 
+     <xref ref-type="bibr" rid="pone.0092517-Bonanomi1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-OchoaHueso2">
+      [19]
+     </xref>), within one year plant richness increased and changes in plant community composition were observed 
+     <xref ref-type="bibr" rid="pone.0092517-Dias1">
+      [20]
+     </xref>. Recently, Forest et al. 
+     <xref ref-type="bibr" rid="pone.0092517-Forest1">
+      [3]
+     </xref> provided data supporting the hypothesis that long-term impacts of N enrichment on ecosystem functioning depend strongly on biodiversity changes, especially non-random changes in species composition. As a result, our observation raises key questions:</p> 
+    <list list-type="roman-lower">
+     <list-item> 
+      <p>Is this N-driven increase in plant richness transient? This is especially relevant since N deposition in most European ecosystems has already reached a threshold, beyond which diversity has declined 
+       <xref ref-type="bibr" rid="pone.0092517-Stevens1">
+        [21]
+       </xref>. Accordingly, given our N doses, we expected that after 5 years, plant diversity would have stabilized or be in decline.</p> 
+     </list-item>
+     <list-item> 
+      <p>Are there consistent plant responders to increased N availability in Mediterranean maquis? We hypothesized that the changes in plant cover and species composition along the ecological succession 
+       <xref ref-type="bibr" rid="pone.0092517-Trabaud1">
+        [22]
+       </xref> may confound the identification of consistent plant responders to enhanced N availability.</p> 
+     </list-item>
+     <list-item> 
+      <p>Are the N-driven changes in diversity linked with plant productivity? Experiments that directly manipulate species diversity often report a positive impact on productivity, whereas observations of natural communities reveal more complex relationships 
+       <xref ref-type="bibr" rid="pone.0092517-MacDougall1">
+        [2]
+       </xref>, and nutrient additions generally increase productivity but decrease diversity 
+       <xref ref-type="bibr" rid="pone.0092517-Jiang1">
+        [23]
+       </xref>. In our case, because we expected that the N-benefited species would be small, short-lived plants 
+       <xref ref-type="bibr" rid="pone.0092517-Suding1">
+        [24]
+       </xref>, 
+       <xref ref-type="bibr" rid="pone.0092517-Allen1">
+        [25]
+       </xref> that contribute little to ecosystem functioning, even if plant richness continued to increase, we did not expect an increase in productivity.</p> 
+     </list-item>
+    </list> 
+    <p>Inherent to all these questions is the need to understand whether the form of N matters more than the dose. This is especially relevant since the co-existing plant species occupy distinct N niches, with ammonium (NH<sub>4</sub><sup>+</sup>) availability as a determinant 
+     <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0092517-Dias2">
+      [26]
+     </xref>, so that the plant's response to enhanced N availability may vary according to the N form irrespective of the dose.</p> 
+    <p>We report 5 years of results from an N-manipulation field experiment, focusing on N-driven changes among the plant community and soil characteristics in a Mediterranean Basin maquis. Specifically, we focused on the following ecosystem features: vascular plant community (composition, richness and evenness), aboveground biomass (standing biomass and litter production), soil extractable N (NH<sub>4</sub><sup>+</sup> and nitrate – NO<sub>3</sub><sup>−</sup>) and organic matter, and percentage of bare soil.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study site</title> 
+     <p>We are grateful to Arrábida Natural Park for making the experimental site available and allowing the N manipulation experiment to which this paper refers. The study site (38°29′N - 9°1′W) is located in Serra da Arrábida in the Arrábida Natural Park, Portugal (a Natura 2000 site - PTCON0010 Arrábida/Espichel), which is within the sub-humid thermomediterranean bioclimatic domain 
+      <xref ref-type="bibr" rid="pone.0092517-RivasMartnez1">
+       [27]
+      </xref>. According to records (1971–2000 - Instituto Nacional de Meteorologia e Geofísica), mean annual precipitation is 730 mm; mean maximum temperature, 27.8°C (August); and mean minimum temperature, 8.1°C (January). Over the experimental period (2007–2011), mean annual precipitation was 870 mm (±231 mm, SE); mean maximum temperature, 21.6°C (±0.7°C, SE); and mean minimum temperature, 12.9°C (±0.5°C, SE). Total monthly precipitation and mean monthly temperatures over the experimental period are shown in 
+      <xref ref-type="fig" rid="pone-0092517-g001">
+       Figure 1
+      </xref>.</p> 
+     <fig id="pone-0092517-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Weather conditions and main experimental events over the experimental period.</title> 
+      <p>Mean monthly temperature (light grey) and total monthly precipitation (black). Arrows represent the time of N additions from January 2007 to June 2011. Asterisks refers to the occasions of plant community assessments (2007, 2008 and 2011). Litterfall was collected from April to December 2010. “#B” refers to the time of aboveground biomass sampling (June 2011).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The site is located on a southeast-facing slope (5%) at 130 m altitude, which is protected from public access and has not been managed in recent decades. The soils of Serra da Arrábida are classified, according to the FAO system, as calcic rhodo-chromic luvisols and calcareous chromic cambisols 
+      <xref ref-type="bibr" rid="pone.0092517-Specht1">
+       [28]
+      </xref>. The soil is skeletal (topsoil layer of approximately 15 cm) with a bulk density of 1.3 g cm<sup>−3</sup>. Silt predominates (50%), while sand and clay contents are 32% and 18% (silt-sand-loam texture).</p> 
+     <p>Mediterranean maquis vegetation dominates the site, comprising closed vegetation: mainly shrubs with few annuals and some geophytes and normally with some trees, some of which may be in shrub form (Eunis class F5.2 – Mediterranean maquis). The standing community developed after a fire event in summer 2003, four years before the first N addition of this experiment. The dominant plant species was a Cistaceae, 
+      <italic>
+       Cistus ladanifer
+      </italic> L. 
+      <xref ref-type="bibr" rid="pone.0092517-Dias1">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Dias3">
+       [29]
+      </xref>. Other abundant plant species were 
+      <italic>
+       Erica scoparia
+      </italic> L. (Ericaceae), 
+      <italic>
+       Calluna vulgaris
+      </italic> (L.) Hull (Ericaceae), 
+      <italic>
+       Genista triacanthos
+      </italic> Brot. (Fabaceae), 
+      <italic>
+       Ulex densus
+      </italic> Welw. ex Webb (Fabaceae), 
+      <italic>
+       Dittrichia viscosa
+      </italic> L. (Asteraceae) and 
+      <italic>
+       Myrtus communis
+      </italic> L. (Myrtaceae). Herbaceous species, of which many were annual plants, comprised ≈10% of the total plant cover 
+      <xref ref-type="bibr" rid="pone.0092517-Dias1">
+       [20]
+      </xref>.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Experimental design and fertilization schedule</title> 
+     <p>During the experimental period (2007–2011), estimated background N deposition ranged between 2.9 kg ha<sup>−1</sup> yr<sup>−1</sup> (1.8 kg NO<sub>x</sub>+1.1 kg NH<sub>y</sub>) in 2008 and 3.8 kg ha<sup>−1</sup> yr<sup>−1</sup> (2.2 kg NO<sub>x</sub>+1.6 kg NH<sub>y</sub>) in 2010. These values were estimated based on the model used by the European Monitoring and Evaluation Programme (grid location: x = 53 and y = 4 - 
+      <ext-link ext-link-type="uri" xlink:href="http://www.emep.int/mscw/index_mscw.html" xlink:type="simple">
+       http://www.emep.int/mscw/index_mscw.html
+      </ext-link>). The chosen N doses were high enough to simulate ‘worst case’ scenarios of N enrichment in this type of habitat, but lower than the N deposition reported for highly N polluted areas in Mediterranean-type ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Fenn2">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Meixner1">
+       [31]
+      </xref>. The N forms mimicked the most likely N pollution scenarios within the Mediterranean Basin (
+      <italic>
+       e.g.
+      </italic> agricultural sources alone or combined with urban/industrial sources). Control plots received no added N, while there were three N treatments: 
+      <bold>
+       40A
+      </bold> received 40 kg NH<sub>4</sub><sup>+</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> as a 1∶1 mixture of NH<sub>4</sub>Cl and (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>; 
+      <bold>
+       40AN
+      </bold> received 20 kg NH<sub>4</sub><sup>+</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> and 20 kg NO<sub>3</sub><sup>−</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> as NH<sub>4</sub>NO<sub>3</sub>; and 
+      <bold>
+       80AN
+      </bold> received 40 kg NH<sub>4</sub><sup>+</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> and 40 kg NO<sub>3</sub><sup>−</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> as NH<sub>4</sub>NO<sub>3</sub>. Thus the 40A and 40AN treatments provided the same N dose, while 40A and 80AN provided the same NH<sub>4</sub><sup>+</sup> dose. To prevent N ‘contamination’ through runoff from the N-plots, the experimental plots were randomly distributed in three rows across the slope, with the controls being located in the top row.</p> 
+     <p>Beginning in January 2007, the dry N salts were homogenously added, by hand, sprinkled over the soil surface, in three equal applications over the year: mid-autumn/winter, spring and summer (
+      <xref ref-type="fig" rid="pone-0092517-g001">
+       Fig. 1
+      </xref>). Each treatment was replicated three times (3 plots of 400 m<sup>2</sup> each). To restrict boundary effects and dilution processes, all measurements, analyses and sample collection were performed within the central 100 m<sup>2</sup> square.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Plant diversity and % of bare soil</title> 
+     <p>The composition of the vascular plant community was assessed in June 2007, May 2008 
+      <xref ref-type="bibr" rid="pone.0092517-Dias1">
+       [20]
+      </xref> and June 2011 within one 5×5 m square per experimental plot (within the internal 100 m<sup>2</sup>). Percentages of species cover calculated from the total projected crown area and of bare soil (as a measure of erosion potential) were recorded. Plant species observed in the three community assessments are grouped by life form in 
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref> using the Flora Digital de Portugal database (
+      <ext-link ext-link-type="uri" xlink:href="http://jb.utad.pt/pesquisa" xlink:type="simple">
+       http://jb.utad.pt/pesquisa
+      </ext-link>). This classification was considered more informative than others (
+      <italic>
+       e.g.
+      </italic> by forb, grass, shrub and tree) because it provides some clues to plant size and life cycle. From the vascular plant community assessments in 2007 and 2011, it was possible to calculate plant richness and evenness 
+      <xref ref-type="bibr" rid="pone.0092517-Krebs1">
+       [32]
+      </xref> for the first and fifth springs of the experiment.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Soil extractable N and organic matter</title> 
+     <p>Soil inorganic N pools were measured to estimate soil N retention (the lower the soil inorganic N pools, the higher the N retention and vice versa), and organic matter was measured as a proxy for belowground C sequestration. Soil was sampled from the four corners and the centre of the central 100 m<sup>2</sup> square of each plot. Soil samples (2 cm diameter and 15 cm depth) were removed, sieved (2 mm) and stored at 4°C until analysis. Sampling took place in May 2007 (first spring) and 2011 (fifth spring of the N additions). Individual soil samples (five per plot) were analysed for nitrate (NO<sub>3</sub><sup>−</sup>-N 
+      <xref ref-type="bibr" rid="pone.0092517-Matsumura1">
+       [33]
+      </xref>), ammonium (NH<sub>4</sub><sup>+</sup>-N 
+      <xref ref-type="bibr" rid="pone.0092517-Cruz2">
+       [34]
+      </xref>), pH (H<sub>2</sub>O extract) and organic matter 
+      <xref ref-type="bibr" rid="pone.0092517-Dias1">
+       [20]
+      </xref>. Soil inorganic N (N<sub>in</sub>) was the sum of the water-extracted NH<sub>4</sub><sup>+</sup> and NO<sub>3</sub><sup>−</sup>. NO<sub>3</sub><sup>−</sup>, NH<sub>4</sub><sup>+</sup> and N<sub>in</sub> were expressed as μg N per gram of dry soil. Bulk soil samples (equal mixtures of the five soil samples from each experimental plot) were dried (at 60°C until constant mass), ground (MM 2000) and used for quantifying total soil N and C, and hence the C/N ratio, by dry combustion using an elemental analyser (EuroVector, Italy).</p> 
+    </sec>
+    <sec id="s2e"> 
+     <title>Aboveground biomass</title> 
+     <p>Aboveground biomass included standing biomass and leaf litter production. The standing plant biomass was determined in June 2011 (the fifth spring of N additions – shown in 
+      <xref ref-type="fig" rid="pone-0092517-g001">
+       Fig. 1
+      </xref>) by removing all aboveground plant biomass within three randomly located 1 m<sup>2</sup> squares per plot. Plant biomass was dried to constant mass at 60°C. Litterfall was assessed using litter traps (1.5 mm mesh screen with 0.04 m<sup>2</sup> collecting surface; at ca. 15 cm above the ground) placed under the canopy of five 
+      <italic>
+       C. ladanifer
+      </italic> shrubs (located close to the four corners and at the centre of the internal 100 m<sup>2</sup> square) in each plot. Litter was collected fortnightly from April to December 2010 (shown in 
+      <xref ref-type="fig" rid="pone-0092517-g001">
+       Fig. 1
+      </xref>) and weighed after drying to constant mass at 60°C. Given that the vegetation is dominated by summer semi-deciduous species that shed most of their leaves and twigs in the summer 
+      <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Clemente1">
+       [35]
+      </xref>, the litterfall collected between April and December 2010 was considered to represent the annual fall (
+      <xref ref-type="fig" rid="pone-0092517-g004">
+       Fig. 4-b
+      </xref>). Since 
+      <italic>
+       C. ladanifer
+      </italic>'s aboveground biomass did not respond to the N addition treatments (data not shown) and litterfall in Californian ecosystems was not significantly affected by five years of 50 kg NH<sub>4</sub>NO<sub>3</sub>-N ha<sup>−1</sup> y<sup>−1</sup> additions 
+      <xref ref-type="bibr" rid="pone.0092517-Vourlitis1">
+       [36]
+      </xref>, no changes in litterfall were also assumed in our study. The amount of biomass that was produced and ‘lost’ every year through litterfall was estimated by multiplying this annual value by four, representing years 2007 to 2010 (2011 was not considered since most leaf shedding occurs in summer/autumn). The sum of this value and the standing aboveground plant biomass was considered to correspond to the total aboveground biomass produced by the plant community during the experiment.</p> 
+    </sec>
+    <sec id="s2f"> 
+     <title>Derived variables and statistics</title> 
+     <p>The cumulative N, NH<sub>4</sub><sup>+</sup> and NO<sub>3</sub><sup>−</sup> load (estimated N deposition +N additions) at each plant assessment were calculated using the above-mentioned EMEP estimates and assuming that N, NH<sub>y</sub> and NO<sub>x</sub> were deposited homogenously over the year (
+      <xref ref-type="fig" rid="pone-0092517-g003">
+       Fig. 3
+      </xref>).</p> 
+     <p>Summary statistics of soil properties, plant species and community responses (richness, evenness, cover, biomass and litterfall) of the various N additions were compared. Two-way ANOVA was applied to determine if there were significant interactions between time and treatment for soil and plant variables. Differences per treatment in biomass and litterfall were analysed by a one-way ANOVA. Both types of ANOVA were followed by a Bonferroni test (
+      <italic>
+       p
+      </italic>&lt;0.05 or 
+      <italic>
+       p
+      </italic>&lt;0.1), or by a Games-Howell test whenever homogeneity of variances was not confirmed by the Levene's test. Between treatment differences for change in plant cover were analysed by a one-way ANOVA (followed by a Bonferroni test 
+      <italic>
+       p
+      </italic>&lt;0.1) and a Kruskal-Wallis test (
+      <italic>
+       p
+      </italic>&lt;0.1) for normal and non-normal samples respectively (
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref>). Linear correlations between plant richness and cumulative N, NH<sub>4</sub><sup>+</sup> and NO<sub>3</sub><sup>−</sup> were also studied (Pearson's correlations). Correlation between plant richness and cumulative NH<sub>4</sub><sup>+</sup> and that between plant richness and cumulative NO<sub>3</sub><sup>−</sup> were compared using the Steiger's Z test (
+      <italic>
+       p
+      </italic>&lt;0.05). In all cases, analyses were performed to ensure that the assumptions regarding the tests' application were not violated. SPSS software, version 20.0, was used for all tests.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Impacts of the N treatments on plant diversity</title> 
+     <p>As usual in the Mediterranean region, the annual rainfall was highly variable (ranging from 513 mm in 2007 and 1541 mm in 2010), with rainfall being greatest during the last two rainy seasons of the experiment (2009/2010 and 2010/2011) (
+      <xref ref-type="fig" rid="pone-0092517-g001">
+       Fig. 1
+      </xref>). Initially (spring 2007), richness and evenness were similar in all treatments (
+      <xref ref-type="fig" rid="pone-0092517-g002">
+       Fig. 2
+      </xref>). Between treatment differences were, however, evident after one year 
+      <xref ref-type="bibr" rid="pone.0092517-Dias1">
+       [20]
+      </xref>, and remained throughout (
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref> and 
+      <xref ref-type="fig" rid="pone-0092517-g002">
+       Fig. 2
+      </xref>). Richness and composition changed the most (≈60% in relation to the control) in treatments receiving 40 kg NH<sub>4</sub><sup>+</sup>-N ha<sup>−1</sup> yr<sup>−1</sup> (40A and 80AN – 
+      <xref ref-type="fig" rid="pone-0092517-g002">
+       Fig. 2
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref>). In contrast, between 2007 and 2011, plant species richness (
+      <xref ref-type="fig" rid="pone-0092517-g002">
+       Fig. 2-a
+      </xref>) did not change in the control or 40AN plots. Linear, positive and significant correlations were found between plant richness and cumulative N, NH<sub>4</sub><sup>+</sup> and NO<sub>3</sub><sup>−</sup> (
+      <xref ref-type="fig" rid="pone-0092517-g003">
+       Fig. 3
+      </xref>). However, the correlation between plant richness and cumulative NH<sub>4</sub><sup>+</sup> addition was higher than that between plant richness and cumulative NO<sub>3</sub><sup>−</sup>. During the same period, plant evenness decreased with time, decreasing least in the 40AN plots (
+      <xref ref-type="fig" rid="pone-0092517-g002">
+       Fig. 2-b
+      </xref>).</p> 
+     <fig id="pone-0092517-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Impacts of the N treatments on vascular plant diversity.</title> 
+      <p>Response of the vascular plant community to the N treatments (Control, 40A, 40AN and 80AN), in terms of plant richness (a) and evenness (b). Community assessments were performed in the first and fifth springs of N additions: 2007 and 2011 respectively. Different letters refer to statistically significant differences between treatments (two-way ANOVA 
+       <italic>
+        p
+       </italic>&lt;0.05 followed by a Bonferroni test; there were no significant interactions between treatment and time). Bars represent the mean (n = 3 experimental plots per treatment) ±SE.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.g002" position="float" xlink:type="simple" />
+     </fig>
+     <fig id="pone-0092517-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Relation between cumulative N and plant richness.</title> 
+      <p>Pearson's correlations between plant richness (number of vascular plant species per 25 m<sup>2</sup>) and cumulative N (a), NH<sub>4</sub><sup>+</sup> (b) and NO<sub>3</sub><sup>−</sup> (c) over the experiment, accounting for estimated background deposition (EMEP- see material and methods). Correlation between plant richness and cumulative NH<sub>4</sub><sup>+</sup> differed significantly from that between plant richness and cumulative NO<sub>3</sub><sup>−</sup> [Steiger's Z test (
+       <italic>
+        p
+       </italic>&lt;0.05)]. Symbols represent the mean (n = 3 experimental plots per treatment and per year) ±SE, but correlations were based on the individual values (n = 36).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.g003" position="float" xlink:type="simple" />
+     </fig>
+     <fig id="pone-0092517-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Impacts of the N treatments on plant biomass.</title> 
+      <p>Aboveground plant biomass (a), estimated litterfall production per year (b) and total aboveground biomass (sum of the standing biomass and the cumulative litterfall produced on the previous four years - c) according to the N treatments (Control, 40A, 40AN and 80AN). Aboveground plant biomass was harvested in June 2011 (the fifth spring of the experiment) from three 1-m<sup>2</sup> squares per experimental plot. Litterfall was collected from April to December 2010 using litter traps (five 0.04 m<sup>2</sup> per experimental plot). Different letters refer to statistically significant differences between treatments (ANOVA 
+       <italic>
+        p
+       </italic>&lt;0.05 followed by a Bonferroni test). Bars represent the mean (n = 3 experimental plots per treatment) ±SE.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.g004" position="float" xlink:type="simple" />
+     </fig> 
+     <p>Plant community composition changed (between 2007 and 2011) as a result of both the ongoing post-fire ecological succession, indicated by the changes in the controls, and the N additions (
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref>). The life forms that were most responsive to N, and to NH<sub>4</sub><sup>+</sup> in particular, were small and ephemeral plants (geophytes, hemicryptophytes and therophytes, 
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref>). Initially (2007–2008), 
+      <italic>
+       Dittrichia viscosa
+      </italic> benefited most from the increased N (irrespective of dose and form), while 
+      <italic>
+       Cistus ladanifer
+      </italic> was affected (negatively impacted) by 80AN. In the longer-term (2007–2011), 
+      <italic>
+       C. ladanifer
+      </italic> continued to respond negatively to 80AN, while 
+      <italic>
+       Ulex densus
+      </italic> was affected by 40A. These N-affected (negatively impacted by N) species were perennial shrubs. Small species with short life cycles benefited most from N (
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref>): 
+      <italic>
+       Hypericum
+      </italic> sp (hemicryptophytes), 
+      <italic>
+       Gastridium ventricosum
+      </italic> (annual) and 
+      <italic>
+       Sonchus
+      </italic> sp (annual).</p> 
+     <p>Based on a consistent response over 5 years of N addition (
+      <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+       Table S1
+      </xref>), groups of species that responded similarly to the N dose or form were identified (
+      <xref ref-type="table" rid="pone-0092517-t001">
+       Tables 1
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0092517.s002">
+       S2
+      </xref>). No species showed a preference for low N availability, 
+      <italic>
+       i.e.
+      </italic> none significantly reduced its cover or disappeared from all the N treatments while remaining in the control plots. The covers of 
+      <italic>
+       D. viscosa
+      </italic> and 
+      <italic>
+       Sonchus
+      </italic> sp. decreased in all plots, although N appeared to offset some of the cover loss that was observed in the controls. The presence of 
+      <italic>
+       Carlina corymbosa
+      </italic>, 
+      <italic>
+       Gladiolus illyricus
+      </italic> ssp. 
+      <italic>
+       reuteri
+      </italic> and 
+      <italic>
+       Galium
+      </italic> sp. may indicate increased N availability, while that of 
+      <italic>
+       Salvia sclareoides
+      </italic>, 
+      <italic>
+       Asphodelus ramosus
+      </italic>, 
+      <italic>
+       Blackstonia perfoliata
+      </italic> and 
+      <italic>
+       Dactylis glomerata
+      </italic> may indicate high N availability (associated with the 80AN treatment). In terms of response to the form of N, 
+      <italic>
+       Pulicaria odora
+      </italic> appears to prefer NO<sub>3</sub><sup>−</sup> (only present in 40AN and 80AN plots), while 
+      <italic>
+       Sanguisorba hybrida
+      </italic> appears to avoid NO<sub>3</sub><sup>−</sup> (decreased cover in 40AN and 80AN), consistent with being characteristic of later phases of succession. Finally, 
+      <italic>
+       Rubia peregrina
+      </italic> and 
+      <italic>
+       Brachypodium phoenicoides
+      </italic> appear to prefer high NH<sub>4</sub><sup>+</sup> availability (associated with 40A and 80AN), whereas 
+      <italic>
+       Anemone palmate
+      </italic> appears to be rather sensitive to NH<sub>4</sub><sup>+</sup> (found in neither 40A nor 80AN).</p> 
+     <table-wrap id="pone-0092517-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Plant species potentially indicative of the N dose and form.</title> 
+      <alternatives>
+       <graphic id="pone-0092517-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Benefited</td> 
+          <td align="left" rowspan="1" colspan="1">Affected</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            N dose
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            40 kg N ha
+            <sup>−1</sup> yr
+            <sup>−1</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Carlina corymbosa
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Gladiolus illyricus ssp reuteri
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Galium sp
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            80 kg N ha
+            <sup>−1</sup> yr
+            <sup>−1</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Salvia sclareoides
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Cistus ladanifer
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Asphodelus ramosus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Blackstonia perfoliata
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Dactylis glomerata
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            N form
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            NO
+            <sub>3</sub>
+            <sup>−</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Pulicaria odora
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Sanguisorba hybrida
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            NH
+            <sub>4</sub>
+            <sup>+</sup>
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Rubia peregrina
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Anemone palmata
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            - Brachypodium phoenicoides
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>Plant species that responded consistently (over 5 years of N addition treatments) to the N dose and/or form (
+         <xref ref-type="supplementary-material" rid="pone.0092517.s001">
+          Tables S1
+         </xref> and 
+         <xref ref-type="supplementary-material" rid="pone.0092517.s002">
+          S2
+         </xref>).</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>Impacts of N on ecosystem processes</title> 
+     <p>N additions did not affect total N or C concentrations after one and five years (
+      <xref ref-type="table" rid="pone-0092517-t002">
+       Tables 2
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0092517.s003">
+       S3
+      </xref>). Soils contained very little N (0.1%) or C (∼2%), resulting in a C/N ratio &lt;20. N treatments did increase soil available N and organic matter. In relation to the N dose, control plots contained significantly lower concentrations than the 80AN treatment plots, and plots receiving 40 kg N ha<sup>−1</sup> yr<sup>−1</sup> (40A and 40AN) showed intermediate levels. Soil NO<sub>3</sub><sup>−</sup> and soil inorganic N (these two variables were highly correlated, r = 0.98, 
+      <italic>
+       p
+      </italic>&lt;0.001) increased over time. The soil also acidified over the course of the experiment, independent of treatment (
+      <xref ref-type="table" rid="pone-0092517-t002">
+       Tables 2
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0092517.s003">
+       S3
+      </xref>).</p> 
+     <table-wrap id="pone-0092517-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Impact of the N treatments on soil properties.</title> 
+      <alternatives>
+       <graphic id="pone-0092517-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td colspan="2" align="left" rowspan="1">Soil properties</td> 
+          <td align="left" rowspan="1" colspan="1">Control</td> 
+          <td align="left" rowspan="1" colspan="1">40A</td> 
+          <td align="left" rowspan="1" colspan="1">40AN</td> 
+          <td align="left" rowspan="1" colspan="1">80AN</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">N (%)</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.1±0.0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C (%)</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">1.6±0.2</td> 
+          <td align="left" rowspan="1" colspan="1">1.6±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">1.8±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">2.0±0.6</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">1.8±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.9±0.2</td> 
+          <td align="left" rowspan="1" colspan="1">2.1±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">2.2±0.3</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C/N ratio</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">18.5±0.8</td> 
+          <td align="left" rowspan="1" colspan="1">16.6±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">17.4±1.9</td> 
+          <td align="left" rowspan="1" colspan="1">16.6±1.0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">18.6±0.4</td> 
+          <td align="left" rowspan="1" colspan="1">17.4±0.7</td> 
+          <td align="left" rowspan="1" colspan="1">18.1±0.5</td> 
+          <td align="left" rowspan="1" colspan="1">17.6±0.8</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">*</td> 
+          <td align="left" rowspan="1" colspan="1">b</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">a</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">N<sub>in</sub></td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">5.9±0.9</td> 
+          <td align="left" rowspan="1" colspan="1">9.4±2.0</td> 
+          <td align="left" rowspan="1" colspan="1">9.6±2.1</td> 
+          <td align="left" rowspan="1" colspan="1">10.5±1.9</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">(μg g<sup>−1</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">7.9±1.3</td> 
+          <td align="left" rowspan="1" colspan="1">12.2±1.9</td> 
+          <td align="left" rowspan="1" colspan="1">12.9±1.6</td> 
+          <td align="left" rowspan="1" colspan="1">19.2±2.5</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">*</td> 
+          <td align="left" rowspan="1" colspan="1">b</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">a</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">NO<sub>3</sub><sup>−</sup>-N</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">5.6±0.8</td> 
+          <td align="left" rowspan="1" colspan="1">8.3±1.9</td> 
+          <td align="left" rowspan="1" colspan="1">8.9±2.2</td> 
+          <td align="left" rowspan="1" colspan="1">8.1±1.7</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">(μg g<sup>−1</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">7.3±1.3</td> 
+          <td align="left" rowspan="1" colspan="1">9.8±1.1</td> 
+          <td align="left" rowspan="1" colspan="1">12.0±1.5</td> 
+          <td align="left" rowspan="1" colspan="1">17.4±2.3</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">*</td> 
+          <td align="left" rowspan="1" colspan="1">b</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">a</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">NH<sub>4</sub><sup>+</sup>-N</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">0.3±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.1±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">0.7±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">2.4±0.3</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">(μg g<sup>−1</sup>)</td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">0.6±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">2.3±1.0</td> 
+          <td align="left" rowspan="1" colspan="1">0.9±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">1.8±0.5</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">*</td> 
+          <td align="left" rowspan="1" colspan="1">b</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">ab</td> 
+          <td align="left" rowspan="1" colspan="1">a</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">OM (%)</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">5.7±0.7</td> 
+          <td align="left" rowspan="1" colspan="1">5.8±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">6.4±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">7.0±1.2</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">4.9±0.5</td> 
+          <td align="left" rowspan="1" colspan="1">6.5±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">7.0±0.5</td> 
+          <td align="left" rowspan="1" colspan="1">7.8±0.5</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">*</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">pH (H<sub>2</sub>O)</td> 
+          <td align="left" rowspan="1" colspan="1">2007</td> 
+          <td align="left" rowspan="1" colspan="1">5.8±0.2</td> 
+          <td align="left" rowspan="1" colspan="1">6.5±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">6.4±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">6.6±0.4</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">2011</td> 
+          <td align="left" rowspan="1" colspan="1">5.1±0.2</td> 
+          <td align="left" rowspan="1" colspan="1">4.9±0.3</td> 
+          <td align="left" rowspan="1" colspan="1">5.1±0.1</td> 
+          <td align="left" rowspan="1" colspan="1">5.6±0.3</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt102">
+        <label></label>
+        <p>Soil surface (0–15 cm) properties [total N and C, C/N ratio, concentrations of N<sub>in</sub> – extractable inorganic N, NO<sub>3</sub><sup>−</sup> – nitrate, and NH<sub>4</sub><sup>+</sup> – ammonium, OM – organic matter, and pH (H<sub>2</sub>O)], in the first (May 2007) and fifth (May 2011) springs of the experiment, according to the N addition treatment (Control, 40A, 40AN and 80AN). Different letters refer to significant differences between treatments (ANOVA 
+         <italic>
+          p
+         </italic>&lt;0.05 followed by a Bonferroni test), while * refers to significant differences between 2007 and 2011 (there were no significant interactions between time and treatment, 
+         <italic>
+          p
+         </italic>&lt;0.05 – 
+         <xref ref-type="supplementary-material" rid="pone.0092517.s003">
+          Table S3
+         </xref>). Values represent the mean (n = 3 experimental plots per treatment) ±SE.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>The addition of 40AN and 80AN increased aboveground standing biomass over the control (
+      <xref ref-type="fig" rid="pone-0092517-g004">
+       Fig. 4-a
+      </xref>). When estimated leaf litter (
+      <xref ref-type="fig" rid="pone-0092517-g004">
+       Fig. 4-b
+      </xref>) produced between 2007 and 2011 is taken into account, aboveground biomass produced by the 40AN plants also exceeded controls (
+      <xref ref-type="fig" rid="pone-0092517-g004">
+       Fig. 4-c
+      </xref>).</p> 
+     <p>Initially control plots had most bare ground (
+      <xref ref-type="fig" rid="pone-0092517-g005">
+       Fig. 5
+      </xref>), but by the fifth spring of the experiment, differences between treatments were visible: addition of 40AN reduced the area of bare ground whereas 40A increased it.</p> 
+     <fig id="pone-0092517-g005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0092517.g005
+      </object-id>
+      <label>Figure 5</label> 
+      <title>Impact of the N treatments on the % of bare soil.</title> 
+      <p>Response of the % of bare soil to the N treatments (Control, 40A, 40AN and 80AN) on the first and fifth springs of N additions (2007 and 2011). Different letters refer to statistically significant differences between treatments (two-way ANOVA 
+       <italic>
+        p
+       </italic>&lt;0.1 followed by a Bonferroni test; there were no significant interactions between treatment and time). Bars represent the mean (n = 3 experimental plots per treatment) ±SE.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0092517.g005" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>N-driven enhanced plant richness: is the impact transient?</title> 
+     <p>To our knowledge, this is the first integrated study of the impacts of different N doses and forms on a Mediterranean Basin ecosystem. In this post-fire successional ecosystem, addition of N continued to promote vascular plant richness, even after 5 years. Assuming that, in this ecosystem, N availability is a severe environmental limitation, the N-driven increase in richness may be explained by the revised Grime's humped-back model 
+      <xref ref-type="bibr" rid="pone.0092517-Grime1">
+       [37]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Michalet1">
+       [38]
+      </xref>. The richness increment would reflect the initial alleviation of the stress condition (N limitation), allowing the coexistence of the characteristic site species 
+      <xref ref-type="bibr" rid="pone.0092517-Clemente1">
+       [35]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Casals1">
+       [39]
+      </xref> with the incoming exploitative ones 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel1">
+       [40]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel2">
+       [41]
+      </xref>. The sustained increase in plant richness during the 5 years of N additions may be due to four non-exclusive causes:</p> 
+     <list list-type="roman-lower">
+      <list-item> 
+       <p>The difference in life span between the N-benefited (with short life cycles, including annuals) and the N-affected species (perennials), which would allow the detection of the incomers but only drastic impacts on the losers;</p> 
+      </list-item>
+      <list-item> 
+       <p>The ecology of the N-benefited species would allow them to colonize the increased bare soil left by the death of some perennial N-affected plants (
+        <italic>
+         e.g. C. ladanifer
+        </italic> 
+        <xref ref-type="bibr" rid="pone.0092517-Dias3">
+         [29]
+        </xref>);</p> 
+      </list-item>
+      <list-item> 
+       <p>The ecosystem is also limited by lack of water and phosphorus (P), so that the most aggressive/competitive species do not have the best conditions for their development. Not surprisingly, most N-benefited species were annuals that avoid summer drought as seeds but are highly dependent on adequate supplies of N and P 
+        <xref ref-type="bibr" rid="pone.0092517-Fanelli1">
+         [42]
+        </xref>, which can become more available with an improved N supply 
+        <xref ref-type="bibr" rid="pone.0092517-Dias1">
+         [20]
+        </xref>. Even though it rained most in years 4 and 5 of the experiment, water alone cannot explain the enhanced plant richness as it did not increase in the control or 40AN plots;</p> 
+      </list-item>
+      <list-item> 
+       <p>A large part of the added N is being lost from the ecosystem. This is an obvious hypothesis but one for which there is no supporting data (
+        <italic>
+         i.e.
+        </italic> runoff, nitrate leaching, ammonia volatilization and denitrification were not measured). Although NO<sub>3</sub><sup>−</sup> leaching is considered to be an early indicator of N ‘saturation’ 
+        <xref ref-type="bibr" rid="pone.0092517-Phoenix2">
+         [8]
+        </xref> in Mediterranean ecosystems, it has only been measured in Californian chaparral 
+        <xref ref-type="bibr" rid="pone.0092517-Fenn3">
+         [43]
+        </xref> and even then the N loss was less than expected due to immobilisation by the rapidly growing vegetation 
+        <xref ref-type="bibr" rid="pone.0092517-Meixner2">
+         [44]
+        </xref>. N accumulation in vegetation in that system was estimated to be 73 kg N ha<sup>−1</sup> yr<sup>−1</sup> 
+        <xref ref-type="bibr" rid="pone.0092517-Riggan1">
+         [45]
+        </xref>, which is similar to our high N dose (80 kg N ha<sup>−1</sup> yr<sup>−1</sup>). To quantify how much N the system could potentially ‘process’ before entering the descending phase of the humped model, longer-term studies are necessary.</p> 
+      </list-item>
+     </list> 
+     <p>The observed reduction in 
+      <italic>
+       C. ladanifer
+      </italic>'s cover 
+      <xref ref-type="bibr" rid="pone.0092517-Dias3">
+       [29]
+      </xref> in this experiment probably resulted from its sensitivity to increased NH<sub>4</sub><sup>+</sup> availability 
+      <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Dias2">
+       [26]
+      </xref>, even in the presence of high NO<sub>3</sub><sup>−</sup> availability 
+      <xref ref-type="bibr" rid="pone.0092517-Dias2">
+       [26]
+      </xref>. The reduction of its canopy will have greatly increased light availability near the soil surface, allowing ‘exploitative’ species to establish themselves, increasing plant richness. In the presence of NO<sub>3</sub><sup>−</sup> but not too much NH<sub>4</sub><sup>+</sup> (40AN treatment), the overshading by 
+      <italic>
+       C. ladanifer
+      </italic> is likely to have excluded these small exploitative species. Keeping in mind that the range in NO<sub>3</sub><sup>−</sup> in our experiment is smaller than that of NH<sub>4</sub><sup>+</sup>, the sensitivity of 
+      <italic>
+       C. ladanifer
+      </italic> to increased NH<sub>4</sub><sup>+</sup> availability would explain why plant richness was more related to the cumulative ammonium inputs than to the cumulative nitrate inputs.</p> 
+     <p>This NH<sub>4</sub><sup>+</sup>-driven increase in plant richness is unlikely to be observed when ecosystems are, or become, dominated by late successional species as these are more NH<sub>4</sub><sup>+</sup> tolerant 
+      <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Dias2">
+       [26]
+      </xref>. However, it is possible that climbing plants already present in the community (
+      <italic>
+       e.g. Lonicera implexa
+      </italic>, 
+      <italic>
+       Rubia peregrina
+      </italic>, 
+      <italic>
+       Rubus ulmifolius
+      </italic>, etc.) may become dominant in later stages of succession, as in tropical ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Bobbink1">
+       [6]
+      </xref>. In conclusion, even though there are no data on the impacts of long-term enhanced N availability on Mediterranean Basin ecosystems, we consider that the N-driven increase in plant richness is transient.</p> 
+    </sec>
+    <sec id="s4b"> 
+     <title>Are there consistent plant responders to increased N availability in Mediterranean maquis?</title> 
+     <p>The composition of the plant community found at the experimental site was consistent with that expected in a Mediterranean maquis regenerating after a fire event 
+      <xref ref-type="bibr" rid="pone.0092517-Thompson1">
+       [46]
+      </xref>. After a fire, there is a ‘window of opportunity’, 
+      <italic>
+       i.e.
+      </italic>, a period of reduced competition for light, nutrients and water 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel1">
+       [40]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel2">
+       [41]
+      </xref>, which favours the establishment of many annuals, hemicryptophytes, geophytes and subshrubs as well as ruderal species colonizing from the surroundings 
+      <xref ref-type="bibr" rid="pone.0092517-Thompson1">
+       [46]
+      </xref>. In a post-fire succession, as the ‘window of opportunity’ passes (∼5 years after the fire), some plant species tend to disappear from the community 
+      <xref ref-type="bibr" rid="pone.0092517-Trabaud2">
+       [47]
+      </xref>. This natural dynamic of the plant community 
+      <xref ref-type="bibr" rid="pone.0092517-Trabaud1">
+       [22]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Thompson1">
+       [46]
+      </xref> has to be taken into account as the background over which the population dynamics associated with the N additions have to be superimposed.</p> 
+     <p>After one year, 
+      <italic>
+       D. viscosa
+      </italic> was the only species which had benefited from N addition (irrespective of dose and form). In subsequent years, its cover, together with that of 
+      <italic>
+       Sonchus
+      </italic> sp., began to decrease, which is consistent with their disappearance in late succession 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel1">
+       [40]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel2">
+       [41]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Bonet1">
+       [48]
+      </xref>. However, N additions appeared to offset some of the cover loss observed in the control, suggesting that increasing N availability extends the ‘window of opportunity’ for more nutrient-demanding plants. Other plant species responded more consistently to the N dose and/or form over the 5-year study period suggesting that they could be used as indicators of the N status of the ecosystem for at least a period of 5 years.</p> 
+    </sec>
+    <sec id="s4c"> 
+     <title>Are the N-driven changes in diversity linked with functional alterations?</title> 
+     <p>N-addition treatments failed to change soil C and N concentrations, or the C/N ratio, which remained within the range reported for the Mediterranean Basin 
+      <xref ref-type="bibr" rid="pone.0092517-Sardans1">
+       [49]
+      </xref>. In contrast to most studies 
+      <xref ref-type="bibr" rid="pone.0092517-Bobbink1">
+       [6]
+      </xref>, soil acidity was unaffected by the N additions, possibly due to the high soil calcium carbonate content 
+      <xref ref-type="bibr" rid="pone.0092517-Schultz1">
+       [50]
+      </xref>. However, after 5 years, application of the highest N dose (80AN) had increased soil extractable N, possibly indicating the transition from a closed N cycle to an open and leaky one where N may be lost through NO<sub>3</sub><sup>−</sup> leaching 
+      <xref ref-type="bibr" rid="pone.0092517-DeSchrijver2">
+       [51]
+      </xref>. However, NO<sub>3</sub><sup>−</sup> leaching can occur much later than many diversity and internal N cycle changes 
+      <xref ref-type="bibr" rid="pone.0092517-Phoenix2">
+       [8]
+      </xref>. On the other hand, and in contrast to observations of several studies 
+      <xref ref-type="bibr" rid="pone.0092517-Knorr1">
+       [52]
+      </xref>, high N (80AN) addition does appear to have increased soil organic matter, most likely reflecting a decrease in decomposition 
+      <xref ref-type="bibr" rid="pone.0092517-Dias4">
+       [53]
+      </xref>. This is of particular importance for Mediterranean Basin soils due to their naturally low organic matter concentration and hence higher susceptibility to erosion and desertification 
+      <xref ref-type="bibr" rid="pone.0092517-Jones1">
+       [54]
+      </xref>. Altogether, it can be concluded that the cumulative N inputs have increased the ‘N status’ of the ecosystem 
+      <xref ref-type="bibr" rid="pone.0092517-DeSchrijver1">
+       [7]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Padgett1">
+       [55]
+      </xref>.</p> 
+     <p>The aboveground biomass accumulated under control conditions was within the range of the equivalent Californian habitat – coastal sage scrub 
+      <xref ref-type="bibr" rid="pone.0092517-Vourlitis1">
+       [36]
+      </xref>. Under increased N availability, and in agreement with reports of other temperate 
+      <xref ref-type="bibr" rid="pone.0092517-Bobbink1">
+       [6]
+      </xref> and Mediterranean ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Bonanomi1">
+       [18]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Fenn2">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Allen2">
+       [56]
+      </xref>, aboveground plant biomass increased. Positive relationships between plant richness and productivity have been reported for Mediterranean 
+      <xref ref-type="bibr" rid="pone.0092517-Caldeira1">
+       [57]
+      </xref> and several other ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Tilman1">
+       [58]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Cardinale1">
+       [59]
+      </xref>. However, in this study, plant richness and plant productivity were not related, as these were promoted by different N sources. The treatments with more NH<sub>4</sub><sup>+</sup> (40A and 80AN) promoted species richness, but the incomers were small plants that contributed very little to productivity or to protect the soil from erosion that may result from the increased % of bare soil. Given that the non-random N-driven loss of the dominant plant species has been shown to reduce productivity 
+      <xref ref-type="bibr" rid="pone.0092517-Forest1">
+       [3]
+      </xref>, the NH<sub>4</sub><sup>+</sup>-driven reduction in the cover of the most abundant plant species (
+      <italic>
+       e.g. Cistus ladanifer
+      </italic>, 
+      <italic>
+       Ulex densus
+      </italic>) would explain the absence of a productivity increase.</p> 
+     <p>In general, N-enhanced plant richness was not linked with functional alterations, mainly because the N-benefited species were small short-lived plants, providing a minor contribution to ecosystem functions while the N-affected plants were perennial shrubs, which underpin ecosystem functions.</p> 
+    </sec>
+    <sec id="s4d"> 
+     <title>Is the form of N more important than the dose?</title> 
+     <p>The data suggest that plant community composition is driven by the amount of NH<sub>4</sub><sup>+</sup>-N, highlighting the importance of NH<sub>4</sub><sup>+</sup> as a driving force in Mediterranean ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Dias2">
+       [26]
+      </xref>. Given the characteristics of the Mediterranean climate (long dry periods interspersed with torrential rain events), which facilitates both rainfall and wind erosion 
+      <xref ref-type="bibr" rid="pone.0092517-Pimentel1">
+       [60]
+      </xref>, plant cover and the spatial structure of vegetation play a significant role in preventing soil loss and erosion in Mediterranean areas 
+      <xref ref-type="bibr" rid="pone.0092517-LpezBermdez1">
+       [61]
+      </xref>. Due to the likely loss of cover with increasing NH<sub>4</sub><sup>+</sup> deposition, agricultural emissions are likely to increase erosion in the maquis. This suggests that enhanced NH<sub>y</sub> availability (resulting mainly from agriculture) may affect the structure of the surrounding maquis, decrease soil protection (as a consequence of an increase in bare soil) and promote N leakage (as a consequence of an increase in soil extractable N).</p> 
+     <p>In contrast, the lower NH<sub>4</sub><sup>+</sup>-N dose applied to the combined N treatment (40AN) plots, with fewer plant species, improved aboveground biomass and soil protection most effectively by almost fully covering the soil with plants. Erosion can also be increased indirectly as a result of NO<sub>3</sub><sup>−</sup> deposition increasing aboveground biomass and the risk of wildfires, indicating that increasing urbanisation also threatens these ecosystems. Land managers and planners need to be aware of these effects before they authorise expansion of such N sources close to these ecosystems.</p> 
+     <p>Overall, these results highlight the importance of cumulative N and enhanced N availability, particularly of NH<sub>4</sub><sup>+</sup>, as a driving force behind the dynamics and stability in plant community structure and composition of Mediterranean ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Cruz1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0092517-Dias2">
+       [26]
+      </xref>. The high resilience to disturbance of plant communities in the Mediterranean Basin has been related to their evolutionary history of disturbance, namely anthropogenic pressure 
+      <xref ref-type="bibr" rid="pone.0092517-Lavorel3">
+       [62]
+      </xref>. Also, biodiversity may have its greatest impact on the functioning of diverse, naturally heterogeneous ecosystems 
+      <xref ref-type="bibr" rid="pone.0092517-Tylianakis1">
+       [63]
+      </xref>, so it is possible that patchiness and heterogeneity may confer higher resilience to increased N availability (and hence higher reliability on ecosystem functions) than homogeneous un-fragmented ecosystems. Finally, the effectiveness of the critical N loads 
+      <xref ref-type="bibr" rid="pone.0092517-Nilsson1">
+       [64]
+      </xref> established for this European habitat, at between 20 and 30 kg N ha<sup>−1</sup> yr<sup>−1</sup> 
+      <xref ref-type="bibr" rid="pone.0092517-Bobbink2">
+       [65]
+      </xref> would be improved by inclusion of the impact of the N form.</p> 
+    </sec>
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0092517.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0092517.s001" position="float" xlink:type="simple">
+     <label>Table S1</label> 
+     <p>
+      <bold>
+       Effect of the N treatments on plant community composition and cover.
+      </bold> List of the vascular plant species observed in the three assessments, and their respective changes in cover (2008–2007/2011–2007) according to the N additions.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0092517.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0092517.s002" position="float" xlink:type="simple">
+     <label>Table S2</label> 
+     <p>
+      <bold>
+       List of the plant species that responded consistently (after one and 5 years of N addition treatments) to the N dose and/or form.
+      </bold> The species' most common habitats and, when available, their responses to N enrichment in other studies are shown in the right column.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0092517.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0092517.s003" position="float" xlink:type="simple">
+     <label>Table S3</label> 
+     <p>
+      <bold>
+       Statistical analyses of soil surface properties.
+      </bold></p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We are grateful to Steve Houghton for help with the manuscript's preparation and to the two reviewers for the comments and suggestions, which greatly improved the present paper.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0092517-Hooper1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hooper
+        </surname>
+        <given-names>
+         DU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adair
+        </surname>
+        <given-names>
+         EC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Byrnes
+        </surname>
+        <given-names>
+         JEK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hungate
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        A global synthesis reveals biodiversity loss as a major driver of ecosystem change
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        486
+       </volume>: 
+       <fpage>
+        105
+       </fpage>–
+       <lpage>
+        108
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-MacDougall1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         MacDougall
+        </surname>
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCann
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gellner
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Turkington
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Diversity loss with persistent human disturbance increases vulnerability to ecosystem collapse
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        494
+       </volume>: 
+       <fpage>
+        86
+       </fpage>–
+       <lpage>
+        89
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Forest1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Forest
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname>
+        <given-names>
+         PB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hobbie
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Polasky
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Nutrient enrichment, biodiversity loss, and consequent declines in ecosystem productivity
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        110
+       </volume>: 
+       <fpage>
+        11911
+       </fpage>–
+       <lpage>
+        11916
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Sala1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sala
+        </surname>
+        <given-names>
+         OE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapin
+        </surname>
+        <given-names>
+         FS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Armesto
+        </surname>
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berlow
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bloomfield
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Biodiversity - Global biodiversity scenarios for the year 2100
+       </article-title>. 
+       <source>Science 
+       <volume>
+        287
+       </volume>: 
+       <fpage>
+        1770
+       </fpage>–
+       <lpage>
+        1774
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Phoenix1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Phoenix
+        </surname>
+        <given-names>
+         GK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hicks
+        </surname>
+        <given-names>
+         WK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cinderby
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kuylenstierna
+        </surname>
+        <given-names>
+         JCI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stock
+        </surname>
+        <given-names>
+         WD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Atmospheric nitrogen deposition in world biodiversity hotspots: the need for a greater global perspective in assessing N deposition impacts
+       </article-title>. 
+       <source>Global Change Biology 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        470
+       </fpage>–
+       <lpage>
+        476
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Bobbink1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bobbink
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hicks
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galloway
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spranger
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alkemade
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Global assessment of nitrogen deposition effects on terrestrial plant diversity: a synthesis
+       </article-title>. 
+       <source>Ecological Applications 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        30
+       </fpage>–
+       <lpage>
+        59
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-DeSchrijver1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De Schrijver
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         De Frenne
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ampoorter
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Nevel
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Demey
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Cumulative nitrogen input drives species loss in terrestrial ecosystems
+       </article-title>. 
+       <source>Global Ecology and Biogeography 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        803
+       </fpage>–
+       <lpage>
+        816
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Phoenix2">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Phoenix
+        </surname>
+        <given-names>
+         GK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emmett
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Britton
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caporn
+        </surname>
+        <given-names>
+         SJM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dise
+        </surname>
+        <given-names>
+         NB
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Impacts of atmospheric nitrogen deposition: responses of multiple plant and soil parameters across contrasting ecosystems in long-term field experiments
+       </article-title>. 
+       <source>Global Change Biology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        1197
+       </fpage>–
+       <lpage>
+        1215
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Southon1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Southon
+        </surname>
+        <given-names>
+         GE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Field
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caporn
+        </surname>
+        <given-names>
+         SJM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Britton
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Power
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Nitrogen deposition reduces plant diversity and alters ecosystem functioning: field-scale evidence from a nationwide survey of UK heathlands
+       </article-title>. 
+       <source>PLoS one 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        e59031
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-OchoaHueso1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ochoa-Hueso
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Branquinho
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cruz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Nitrogen deposition effects on Mediterranean-type ecosystems: An ecological assessment
+       </article-title>. 
+       <source>Environmental Pollution 
+       <volume>
+        159
+       </volume>: 
+       <fpage>
+        2265
+       </fpage>–
+       <lpage>
+        2279
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Myers1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Myers
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         da Fonseca
+        </surname>
+        <given-names>
+         GAB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kent
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Biodiversity hotspots for conservation priorities
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        403
+       </volume>: 
+       <fpage>
+        853
+       </fpage>–
+       <lpage>
+        858
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Klausmeyer1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Klausmeyer
+        </surname>
+        <given-names>
+         KR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shaw
+        </surname>
+        <given-names>
+         MR
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Climate change, habitat loss, protected areas and the climate adaptation potential of species in Mediterranean ecosystems worldwide
+       </article-title>. 
+       <source>PLoS One 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        e6392
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Cowling1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cowling
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rundel
+        </surname>
+        <given-names>
+         PW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lamont
+        </surname>
+        <given-names>
+         BB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arroyo
+        </surname>
+        <given-names>
+         MK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arianoutsou
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Plant diversity in Mediterranean-climate regions
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        362
+       </fpage>–
+       <lpage>
+        366
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Fenn1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fenn
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weiss
+        </surname>
+        <given-names>
+         SB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jovan
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Geiser
+        </surname>
+        <given-names>
+         LH
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Nitrogen critical loads and management alternatives for N-impacted ecosystems in California
+       </article-title>. 
+       <source>Journal of Environmental Management 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        2404
+       </fpage>–
+       <lpage>
+        2423
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Blondel1">
+      <label>15</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Blondel J, Aronson J (1999) Biology and wildlife of the Mediterranean region. Biology and wildlife of the Mediterranean region: i–xxii, 1–328.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Galloway1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Galloway
+        </surname>
+        <given-names>
+         JN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dentener
+        </surname>
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Capone
+        </surname>
+        <given-names>
+         DG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boyer
+        </surname>
+        <given-names>
+         EW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Howarth
+        </surname>
+        <given-names>
+         RW
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Nitrogen cycles: past, present, and future
+       </article-title>. 
+       <source>Biogeochemistry 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        153
+       </fpage>–
+       <lpage>
+        226
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Cruz1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cruz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bio
+        </surname>
+        <given-names>
+         AMF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jullioti
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tavares
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Heterogeneity of soil surface ammonium concentration and other characteristics, related to plant specific variability in a Mediterranean-type ecosystem
+       </article-title>. 
+       <source>Environmental Pollution 
+       <volume>
+        154
+       </volume>: 
+       <fpage>
+        414
+       </fpage>–
+       <lpage>
+        423
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Bonanomi1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bonanomi
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caporaso
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allegrezza
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Short-term effects of nitrogen enrichment, litter removal and cutting on a Mediterranean grassland
+       </article-title>. 
+       <source>Acta Oecologica-International Journal of Ecology 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        419
+       </fpage>–
+       <lpage>
+        425
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-OchoaHueso2">
+      <label>19</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Ochoa-Hueso R (2011) Efectos de la deposición atmosférica de nitrógeno en ecosistemas Mediterráneos. Madrid: Universidad Autonoma de Madrid. 412 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Dias1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Malveiro
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martins-Loucao
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheppard
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cruz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Linking N-driven biodiversity changes with soil N availability in a Mediterranean ecosystem
+       </article-title>. 
+       <source>Plant and Soil 
+       <volume>
+        341
+       </volume>: 
+       <fpage>
+        125
+       </fpage>–
+       <lpage>
+        136
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Stevens1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stevens
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gowing
+        </surname>
+        <given-names>
+         DJG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wotherspoon
+        </surname>
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aarrestad
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Addressing the impact of atmospheric Nitrogen deposition on western European grasslands
+       </article-title>. 
+       <source>Environmental Management 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        885
+       </fpage>–
+       <lpage>
+        894
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Trabaud1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Trabaud
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Postfire plant community dynamics in the Mediterranean basin
+       </article-title>. 
+       <source>Ecological Studies; The role of fire in Mediterranean-type ecosystems 
+       <volume>
+        107
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        15
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Jiang1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wan
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Species diversity and productivity: why do results of diversity-manipulation experiments differ from natural patterns
+       </article-title>? 
+       <source>Journal of Ecology 
+       <volume>
+        97
+       </volume>: 
+       <fpage>
+        603
+       </fpage>–
+       <lpage>
+        608
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Suding1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Suding
+        </surname>
+        <given-names>
+         KN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Collins
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gough
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cleland
+        </surname>
+        <given-names>
+         EE
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Functional- and abundance-based mechanisms explain diversity loss due to N fertilization
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        4387
+       </fpage>–
+       <lpage>
+        4392
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Allen1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Temple
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bytnerowicz
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arbaugh
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sirulnik
+        </surname>
+        <given-names>
+         AG
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Patterns of understory diversity in mixed coniferous forests of southern California impacted by air pollution
+       </article-title>. 
+       <source>Thescientificworldjournal 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        247
+       </fpage>–
+       <lpage>
+        263
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Dias2">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Neto
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martins-Loucao
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheppard
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cruz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Patterns of nitrate reductase activity vary according to the plant functional group in a Mediterranean maquis
+       </article-title>. 
+       <source>Plant and Soil 
+       <volume>
+        347
+       </volume>: 
+       <fpage>
+        363
+       </fpage>–
+       <lpage>
+        376
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-RivasMartnez1">
+      <label>27</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Rivas-Martínez S, Penas A, Díaz TE (2004) Bioclimatic map of Europe-Thermoclimatic belts.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Specht1">
+      <label>28</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Specht RL, Rundel PW, Westman WE, Catling PC, Majer JD, et al. (1988) Mediterranean type ecosystems. A data source book. Dordrecht: Kluwer Academic Publishers.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Dias3">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martins-Loucao
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheppard
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cruz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The strength of the biotic compartment in retaining nitrogen additions prevents nitrogen losses from a Mediterranean maquis
+       </article-title>. 
+       <source>Biogeosciences 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        193
+       </fpage>–
+       <lpage>
+        201
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Fenn2">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fenn
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baron
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rueth
+        </surname>
+        <given-names>
+         HM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nydick
+        </surname>
+        <given-names>
+         KR
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Ecological effects of nitrogen deposition in the western United States
+       </article-title>. 
+       <source>Bioscience 
+       <volume>
+        53
+       </volume>: 
+       <fpage>
+        404
+       </fpage>–
+       <lpage>
+        420
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Meixner1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meixner
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fenn
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Biogeochemical budgets in a Mediterranean catchment with high rates of atmospheric N deposition - importance of scale and temporal asynchrony
+       </article-title>. 
+       <source>Biogeochemistry 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        331
+       </fpage>–
+       <lpage>
+        356
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Krebs1">
+      <label>32</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Krebs CJ (1989) Ecological methodology. Ecological methodology: i–xii, 1–654.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Matsumura1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Matsumura
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Witjaksono
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Modification of the Cataldo method for the determination of nitrate in soil extracts by potassium chloride
+       </article-title>. 
+       <source>Soil Science and Plant Nutrition 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        231
+       </fpage>–
+       <lpage>
+        235
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Cruz2">
+      <label>34</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Cruz C, Martins-Loução MA (2000) Determination of ammonium concentrations in soils and plant extracts. In: Martins-Loução MA, Lips SH, editors. Nitrogen in a Sustainable Ecosystem. The Netherlands: Leiden: Backhuys Publishers. pp. 291–297.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Clemente1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clemente
+        </surname>
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rego
+        </surname>
+        <given-names>
+         FC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Correia
+        </surname>
+        <given-names>
+         OA
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Growth, water relations and photosynthesis of seedlings and resprouts after fire
+       </article-title>. 
+       <source>Acta Oecologica-International Journal of Ecology 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        233
+       </fpage>–
+       <lpage>
+        243
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Vourlitis1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vourlitis
+        </surname>
+        <given-names>
+         GL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pasquini
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mustard
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Effects of dry-season N input on the productivity and N storage of Mediterranean-type shrublands
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        473
+       </fpage>–
+       <lpage>
+        488
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Grime1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name> (
+       <year>
+        1973
+       </year>) 
+       <article-title>
+        Competitive exclusion in herbaceous vegetation
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        242
+       </volume>: 
+       <fpage>
+        344
+       </fpage>–
+       <lpage>
+        347
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Michalet1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Michalet
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brooker
+        </surname>
+        <given-names>
+         RW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cavieres
+        </surname>
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kikvidze
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lortie
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Do biotic interactions shape both sides of the humped-back model of species richness in plant communities
+       </article-title>? 
+       <source>Ecology Letters 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        767
+       </fpage>–
+       <lpage>
+        773
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Casals1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Casals
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Romanya
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vallejo
+        </surname>
+        <given-names>
+         VR
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Short-term nitrogen fixation by legume seedlings and resprouts after fire in Mediterranean old-fields
+       </article-title>. 
+       <source>Biogeochemistry 
+       <volume>
+        76
+       </volume>: 
+       <fpage>
+        477
+       </fpage>–
+       <lpage>
+        501
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Lavorel1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lepart
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Debussche
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lebreton
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beffy
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Small-scale disturbances and the maintenance of species-diversity in Mediterranean old fields
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        455
+       </fpage>–
+       <lpage>
+        473
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Lavorel2">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oneill
+        </surname>
+        <given-names>
+         RV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gardner
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Spatio temporal dispersal strategies and annual plant-species coexistence in a structured landscape
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        75
+       </fpage>–
+       <lpage>
+        88
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Fanelli1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fanelli
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lestini
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sauli
+        </surname>
+        <given-names>
+         AS
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Floristic gradients of herbaceous vegetation and P/N ratio in soil in a Mediterranean area
+       </article-title>. 
+       <source>Plant Ecology 
+       <volume>
+        194
+       </volume>: 
+       <fpage>
+        231
+       </fpage>–
+       <lpage>
+        242
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Fenn3">
+      <label>43</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Fenn ME, Allen EB, Geiser LH (2011) Mediterranean California. In: Pardo LH, Robin-Abbott MJ, Driscoll CT, editors. Assessment of N deposition effects and empirical critical loads of N for ecoregions of the United States: General Technical Report, USDA Forest Service, Northern Research Station, Newtown Square, PA. pp. 143–170.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Meixner2">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meixner
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fenn
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wohlgemuth
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oxford
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Riggan
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        N saturation symptoms in chaparral catchments are not reversed by prescribed fire
+       </article-title>. 
+       <source>Environmental Science &amp; Technology 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        2887
+       </fpage>–
+       <lpage>
+        2894
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Riggan1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Riggan
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goode
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jacks
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lockwood
+        </surname>
+        <given-names>
+         RN
+        </given-names>
+       </name> (
+       <year>
+        1988
+       </year>) 
+       <article-title>
+        Interaction of fire and community-development in chaparral of southern-California
+       </article-title>. 
+       <source>Ecological Monographs 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        155
+       </fpage>–
+       <lpage>
+        176
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Thompson1">
+      <label>46</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Thompson JD (2005) Plant evolution in the Mediterranean. New York: Oxford University Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Trabaud2">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Trabaud
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        1987
+       </year>) 
+       <article-title>
+        Dynamics after fire of sclerophyllous plant communities in the Mediterranean Basin
+       </article-title>. 
+       <source>Ecologia Mediterranea 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        25
+       </fpage>–
+       <lpage>
+        37
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Bonet1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bonet
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pausas
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Species richness and cover along a 60-year chronosequence in old-fields of southeastern Spain
+       </article-title>. 
+       <source>Plant Ecology 
+       <volume>
+        174
+       </volume>: 
+       <fpage>
+        257
+       </fpage>–
+       <lpage>
+        270
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Sardans1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sardans
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Penuelas
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Estiarte
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prieto
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Warming and drought alter C and N concentration, allocation and accumulation in a Mediterranean shrubland
+       </article-title>. 
+       <source>Global Change Biology 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        2304
+       </fpage>–
+       <lpage>
+        2316
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Schultz1">
+      <label>50</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Schultz J (1995) The ecozones of the world: the ecological divisions of the geosphere. The ecozones of the world: the ecological divisions of the geosphere: i–x, 1–449.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-DeSchrijver2">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De Schrijver
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Verheyen
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mertens
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Staelens
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wuyts
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Nitrogen saturation and net ecosystem production
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        451
+       </volume>: 
+       <fpage>
+        E1
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Knorr1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Knorr
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Frey
+        </surname>
+        <given-names>
+         SD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Nitrogen additions and litter decomposition: A meta-analysis
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        86
+       </volume>: 
+       <fpage>
+        3252
+       </fpage>–
+       <lpage>
+        3257
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Dias4">
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oakley
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alarcon-Gutierrez
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ziarelli
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trindade
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        N-driven changes in a plant community affect leaf-litter traits and may delay organic matter decomposition in a Mediterranean maquis
+       </article-title>. 
+       <source>Soil Biology &amp; Biochemistry 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        163
+       </fpage>–
+       <lpage>
+        171
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Jones1">
+      <label>54</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Jones A, Panagos P, Barcelo S, Bouraqui F, Bosco C, et al. (2012) The state of soil in Europe.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Padgett1">
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Padgett
+        </surname>
+        <given-names>
+         PE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         EB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bytnerowicz
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Minich
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Changes in soil inorganic nitrogen as related to atmospheric nitrogenous pollutants in southern California
+       </article-title>. 
+       <source>Atmospheric Environment 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        769
+       </fpage>–
+       <lpage>
+        781
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Allen2">
+      <label>56</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Allen EB, Sirulnik AG, Egerton-Warburton L, Kee SN, Bytnerowicz A, et al. (2005) Air pollution and vegetation change in southern California coastal sage scrub: a comparison with chaparral and coniferous forest. Albany: U.S. Department of Agriculture, Forest Service, Pacific Southwest Research Station. 79–96 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Caldeira1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Caldeira
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hector
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pereira
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Species richness, temporal variability and resistance of biomass production in a Mediterranean grassland
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        110
+       </volume>: 
+       <fpage>
+        115
+       </fpage>–
+       <lpage>
+        123
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Tilman1">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wedin
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knops
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Productivity and sustainability influenced by biodiversity in grassland ecosystems
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        379
+       </volume>: 
+       <fpage>
+        718
+       </fpage>–
+       <lpage>
+        720
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Cardinale1">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cadotte
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carroll
+        </surname>
+        <given-names>
+         IT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hector
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Impacts of plant diversity on biomass production increase through time because of species complementarity
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        18123
+       </fpage>–
+       <lpage>
+        18128
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Pimentel1">
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pimentel
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harvey
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Resosudarmo
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sinclair
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kurz
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Environmental and economic costs of soil erosion and conservation benefits
+       </article-title>. 
+       <source>Science 
+       <volume>
+        267
+       </volume>: 
+       <fpage>
+        1117
+       </fpage>–
+       <lpage>
+        1123
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-LpezBermdez1">
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         López-Bermúdez
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         García-Gómez
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Desertification in the arid and semiarid Mediterranean regions. A food security issue
+       </article-title>. 
+       <source>Desertification in the Mediterranean Region A Security Issue 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        401
+       </fpage>–
+       <lpage>
+        428
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Lavorel3">
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Ecological diversity and resilience of Mediterranean vegetation to disturbance
+       </article-title>. 
+       <source>Diversity and Distributions 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        13
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Tylianakis1">
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tylianakis
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rand
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kahmen
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Klein
+        </surname>
+        <given-names>
+         A-M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchmann
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Resource heterogeneity moderates the biodiversity-function relationship in real world ecosystems
+       </article-title>. 
+       <source>Plos Biology 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        947
+       </fpage>–
+       <lpage>
+        956
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Nilsson1">
+      <label>64</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nilsson J, Grennfelt P (1988) Critical loads for sulphur and nitrogen. Sweden.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0092517-Bobbink2">
+      <label>65</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Bobbink R, Hettelingh J-P (2011) Review and revision of empirical Critical Loads and dose-response relationships. In: Effects CCf, editor. Netherlands: National Institute for Public Health and the Environment (RIVM).
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

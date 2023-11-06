@@ -1,0 +1,2594 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-14-10502
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0104060
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Community assembly
+          </subject>
+          <subject>
+           Community structure
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant communities
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Theoretical ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       A New Measure of Functional Evenness and Some of Its Properties
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       A New Measure of Functional Evenness and Some of Its Properties
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         Carlo
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bacaro
+        </surname>
+        <given-names>
+         Giovanni
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moretti
+        </surname>
+        <given-names>
+         Marco
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Department of Environmental Biology, University of Rome ‘La Sapienza’, Rome, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       CNR, Istituto di Ricerca per la Protezione Idrogeologica, Perugia, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       BIOCONNET, Biodiversity and Conservation Network, Department of Life Science, University of Siena, Siena, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Swiss Federal Research Institute WSL, Birmensdorf, Switzerland
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fukami
+        </surname>
+        <given-names>
+         Tadashi
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Stanford University, United States of America
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        carlo.ricotta@uniroma1.it
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: CR. Analyzed the data: CR GB MM. Wrote the paper: CR GB MM. Collected the data: MM. Designed the software used in analysis: GB.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       8
+      </day>
+      <month>
+       8
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      8
+     </issue> 
+     <elocation-id>
+      e104060
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        7
+       </day>
+       <month>
+        3
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        9
+       </day>
+       <month>
+        7
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Ricotta et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Functional evenness is increasingly considered an important facet of functional diversity that sheds light on the complex relationships between community assembly and ecosystem functioning. Nonetheless, in spite of its relevant role for ecosystem functioning, only a few measures of functional evenness have been proposed. In this paper we introduce a new measure of functional evenness that reflects the regularity in the distribution of species abundances, together with the evenness in their pairwise functional dissimilarities. To show how the proposed measure works, we focus on changes in functional evenness calculated from Grime’s classification of plant strategies as competitors (C), stress-tolerators (S) and ruderals (R) along a post-fire successional gradient in temperate chestnut forests of southern Switzerland.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       Funding was provided by the University of Rome ‘La Sapienza’. The funder had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="6" />
+     </counts>
+     <custom-meta-group>
+      <custom-meta id="data-availability" xlink:type="simple">
+       <meta-name>
+        Data Availability
+       </meta-name>
+       <meta-value>
+        The authors confirm that all data underlying the findings are fully available without restriction. The data used in this study are available as supporting information to this paper.
+       </meta-value>
+      </custom-meta>
+     </custom-meta-group>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Biological diversity is a central concept in ecology, which has been extensively studied for over 50 years, with the aim of understanding the relationships between community composition and ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0104060-Grassle1">
+      [1]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0104060-Magurran1">
+      [2]
+     </xref>. More recently, the concept of functional diversity has received considerable attention because it captures information on species functional traits, which is absent in traditional measures of species diversity.</p> 
+    <p>Functional traits are morphological, physiological, and phenological attributes, which impact individual fitness via their effects on growth, reproduction and survival 
+     <xref ref-type="bibr" rid="pone.0104060-Violle1">
+      [3]
+     </xref>. Therefore, measures of functional diversity tend to correlate more strongly than those of traditional species-diversity with ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0104060-Petchey1">
+      [4]
+     </xref>. The observed relationships between functional diversity and ecosystem functioning raise the question of how to measure functional diversity in meaningful ways 
+     <xref ref-type="bibr" rid="pone.0104060-Lavorel1">
+      [5]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0104060-Ricotta1">
+      [7]
+     </xref>. For instance, when we look for a suitable numerical definition, we find that no single index adequately summarizes functional diversity. This is because the functional organization of communities cannot be assessed by a single measure but rather needs a multi-faceted approach 
+     <xref ref-type="bibr" rid="pone.0104060-Ricotta1">
+      [7]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0104060-Podani1">
+      [9]
+     </xref>. According to 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref> and 
+     <xref ref-type="bibr" rid="pone.0104060-Mason1">
+      [10]
+     </xref>, functional diversity can be summarized mainly by three complementary families of measures: functional richness, functional evenness, and functional divergence. Functional richness represents the volume of the functional space occupied by the community, functional evenness measures the regularity of the distribution of species abundances and dissimilarities in functional space and functional divergence quantifies how species diverge in their (abundance-weighted) distances from their center of gravity in functional space. For more details on the definition of functional richness, functional evenness, and functional divergence see 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref>.</p> 
+    <p>Like the distinction between species richness and evenness in traditional diversity studies, taken together, these three components of functional diversity summarize distinct facets of the extent of trait differences among coexisting species that are expected to express different mechanisms of community assembly and species coexistence 
+     <xref ref-type="bibr" rid="pone.0104060-Poos1">
+      [11]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0104060-Mouchet1">
+      [12]
+     </xref>. However, while the definition of functional richness is widely accepted among ecologists, the definitions of trait divergence and trait evenness are more controversial. For instance, in 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref> the calculation of functional evenness is based on the minimum spanning tree, which links the 
+     <italic>
+      N
+     </italic> species of a given community in multidimensional functional space such that the total length of its 
+     <italic>
+      N
+     </italic>-1 branches is minimized. Then, functional evenness quantifies the regularity with which species are distributed along the tree, together with the evenness in their abundances.</p> 
+    <p>One potential problem with the calculation of the minimum spanning tree from a species dissimilarity matrix is that if more species pairs have equal functional distances, the minimum spanning tree may not be unique. Also, according to 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref>, only the dissimilarity values that contribute to the construction of the minimum spanning tree, that is to say, to the ‘backbone’ of the pairwise species dissimilarity matrix, are used for the calculation of functional evenness, whereas the remaining portion of the dissimilarity matrix does not contribute to the calculation of functional evenness. As an alternative to this ‘minimum-subgraph measure’, in this paper we propose a new measure of functional evenness that takes into account all interspecies dissimilarities in a given community. To show how the proposed measure works we focus on changes in Grime’s 
+     <xref ref-type="bibr" rid="pone.0104060-Grime1">
+      [13]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0104060-Grime2">
+      [14]
+     </xref> CSR functional classification of plant assemblages as competitors (C), stress-tolerators (S) and ruderals (R) along a secondary post-fire successional gradient.</p> 
+   </sec>
+   <sec id="s2"> 
+    <title>A New Measure of Functional Evenness</title> 
+    <p>In most cases the information available for summarizing the functional organization of a given species assemblage is a vector of relative abundances of each of 
+     <italic>
+      N
+     </italic> species 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic>  =  (
+     <italic>
+      p
+      <sub>1</sub>
+     </italic>, 
+     <italic>
+      p
+      <sub>2</sub>
+     </italic>,…, 
+     <italic>
+      p
+      <sub>N</sub>
+     </italic>), together with an 
+     <italic>
+      N
+     </italic>×
+     <italic>
+      T
+     </italic> matrix with values for 
+     <italic>
+      T
+     </italic> selected functional traits for each species 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref>. As most functional diversity indices are built on pairwise functional dissimilarities between species, this latter matrix is first transformed to an 
+     <italic>
+      N
+     </italic>×
+     <italic>
+      N
+     </italic> matrix of species functional dissimilarities. Given species relative abundance and dissimilarity data, we next define the average community uniqueness 
+     <italic>
+      U
+     </italic> as the expected dissimilarity between one individual of species 
+     <italic>
+      i
+     </italic> chosen at random from a given community and all other 
+     <italic>
+      j
+     </italic>-th species in the community:</p> 
+    <p>
+     <disp-formula id="pone.0104060.e001">
+      <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0104060.e001" xlink:type="simple" />
+      <label>(1)</label>
+     </disp-formula></p> 
+    <p>where 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic> is the functional dissimilarity between species 
+     <italic>
+      i
+     </italic> and 
+     <italic>
+      j
+     </italic> (with 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic>  =  
+     <italic>
+      d
+      <sub>ji</sub>
+     </italic> and 
+     <italic>
+      d
+      <sub>ii</sub>
+     </italic>  =  0), the ratio 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e002" xlink:type="simple" />
+     </inline-formula> is the relative abundance of species 
+     <italic>
+      j
+     </italic> with 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e003" xlink:type="simple" />
+     </inline-formula>, and 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e004" xlink:type="simple" />
+     </inline-formula> is the expected (i.e. weighted) dissimilarity between species 
+     <italic>
+      i
+     </italic> and all other species in the community (see also 
+     <xref ref-type="bibr" rid="pone.0104060-Warwick1">
+      [15]
+     </xref>). This quantity may be seen as the fraction of functional characters of species 
+     <italic>
+      i
+     </italic> that is not shared with other community species. 
+     <italic>
+      U
+      <sub>i</sub>
+     </italic> is therefore a measure of the ‘functional uniqueness’ of species 
+     <italic>
+      i
+     </italic>. If all species in the community are functionally similar, the functional dissimilarity 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic> tends to be low and 
+     <italic>
+      U
+      <sub>i</sub>
+     </italic> tends to be close to zero; on the other hand, if species 
+     <italic>
+      i
+     </italic> has unique functional characters, 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic> tends to be high and hence 
+     <italic>
+      U
+      <sub>i</sub>
+     </italic> tends to be high too. Average community uniqueness 
+     <italic>
+      U
+     </italic> is then obtained as the summation of the single-species uniqueness 
+     <italic>
+      U
+      <sub>i</sub>
+     </italic> weighted by their relative abundances 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic> (see Eq. 1). If the interspecies dissimilarities 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic> used for calculating 
+     <italic>
+      U
+     </italic> are in the range [0, 1] we have: 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e005" xlink:type="simple" />
+     </inline-formula>. Accordingly, since 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e006" xlink:type="simple" />
+     </inline-formula>, the complement of average community uniqueness 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e007" xlink:type="simple" />
+     </inline-formula> may be used for measuring the community functional redundancy 
+     <xref ref-type="bibr" rid="pone.0104060-Loreau1">
+      [16]
+     </xref>.</p> 
+    <p>Starting from average community uniqueness 
+     <italic>
+      U
+     </italic>, a straightforward measure of functional evenness consists in calculating the regularity in the distribution of single species contributions to 
+     <italic>
+      U
+     </italic>. First, the quantities 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e008" xlink:type="simple" />
+     </inline-formula> are transformed to a finite probability space by dividing each term by 
+     <italic>
+      U
+     </italic>:
+     <disp-formula id="pone.0104060.e009">
+      <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0104060.e009" xlink:type="simple" />
+      <label>(2)</label>
+     </disp-formula></p> 
+    <p>where 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e010" xlink:type="simple" />
+     </inline-formula> is the relative contribution of species 
+     <italic>
+      i
+     </italic> to 
+     <italic>
+      U
+     </italic> such that 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e011" xlink:type="simple" />
+     </inline-formula> and 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e012" xlink:type="simple" />
+     </inline-formula>. Next, like in 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref>, the regularity in the distribution of the quantities 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e013" xlink:type="simple" />
+     </inline-formula> is calculated with the index of Bulla 
+     <xref ref-type="bibr" rid="pone.0104060-Bulla1">
+      [17]
+     </xref>:
+     <disp-formula id="pone.0104060.e014">
+      <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0104060.e014" xlink:type="simple" />
+      <label>(3)</label>
+     </disp-formula></p> 
+    <p>For 
+     <italic>
+      N
+     </italic> species, the index of Bulla has a minimum value not greater than 1/
+     <italic>
+      N
+     </italic> (in case 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e015" xlink:type="simple" />
+     </inline-formula>for all 
+     <italic>
+      i  = 1,…, N
+     </italic>) and a maximum value of 1. Therefore, in order to compare functional evenness between communities with a different number of species, 
+     <italic>
+      E
+      <sub>U</sub>
+     </italic> must be transformed onto the unit interval. The simplest way to rescale 
+     <italic>
+      E
+      <sub>U</sub>
+     </italic> between zero and one is to use the linear transformation (
+     <italic>
+      E
+      <sub>U</sub>
+     </italic> − 
+     <italic>
+      E
+      <sub>min</sub>
+     </italic>)/(
+     <italic>
+      E
+      <sub>max</sub>
+     </italic> − 
+     <italic>
+      E
+      <sub>min</sub>
+     </italic>), which gives a relative evenness index:
+     <disp-formula id="pone.0104060.e016">
+      <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0104060.e016" xlink:type="simple" />
+      <label>(4)</label>
+     </disp-formula></p> 
+    <p>This way of calculating functional evenness is in agreement with 
+     <xref ref-type="bibr" rid="pone.0104060-Hillebrand1">
+      [18]
+     </xref>, which defined functional evenness as ‘the evenness of species contribution to certain ecosystem functions within ecosystems’.</p> 
+   </sec>
+   <sec id="s3"> 
+    <title>Case Study: Vegetation Secondary Succession along a Post-Fire Gradient</title> 
+    <sec id="s3a"> 
+     <title>Study area</title> 
+     <p>To illustrate the strengths and the weaknesses of the newly proposed measure we analyzed changes in functional evenness along a post-fire successional gradient in temperate chestnut forests of southern Switzerland 
+      <xref ref-type="bibr" rid="pone.0104060-Moretti1">
+       [19]
+      </xref>. The study area (11×15 km<sup>2</sup>) is located in Ticino near Locarno (southern Switzerland). The elevation ranges from 450 to 850 m a.s.l. along a uniform south-facing slope dominated by coppice stands of 
+      <italic>
+       Castanea sativa
+      </italic>. Due to the mild climate with wet summers and relatively dry winters, the study area is prone to fast-spreading winter surface fires of low–medium intensity that assume an important function in maintaining a mosaic of vegetation patches with different successional stages 
+      <xref ref-type="bibr" rid="pone.0104060-Moretti2">
+       [20]
+      </xref>. Further details on the study area are given in 
+      <xref ref-type="bibr" rid="pone.0104060-Moretti3">
+       [21]
+      </xref>. Vegetation was sampled at 21 sites selected according to the time elapsed since the last fire event, varying from 0 to 35 years. At each site, species abundances were visually estimated in May–June and August 1997 within 10×10 m<sup>2</sup> quadrats using a seven-point ordinal scale according to 
+      <xref ref-type="bibr" rid="pone.0104060-BraunBlanquet1">
+       [22]
+      </xref>.</p> 
+    </sec>
+    <sec id="s3b"> 
+     <title>Data and Methods</title> 
+     <p>We classified plant species according to Grime’s 
+      <xref ref-type="bibr" rid="pone.0104060-Grime1">
+       [13]
+      </xref> theoretical triangular scheme of competitor, stress tolerator and ruderal plant strategies using fuzzy coded values such that C+S+R  =  100. Grime 
+      <xref ref-type="bibr" rid="pone.0104060-Grime1">
+       [13]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0104060-Grime2">
+       [14]
+      </xref> identified two categories of external factors limiting plant performance: stress (restrictions to plant production imposed by the environment, such as shortages of water and nutrients) and disturbance (events that destroy plant production, such as herbivory, burning, or extreme climatic conditions). Therefore, based on a number of different functional traits that are diagnostic of the species adaptive strategies to different combinations of stress and disturbance, plants can be classified into competitor, stress-tolerator and ruderal strategists 
+      <xref ref-type="bibr" rid="pone.0104060-Hodgson1">
+       [23]
+      </xref>. For most species the CSR values were assigned according to 
+      <xref ref-type="bibr" rid="pone.0104060-Grime2">
+       [14]
+      </xref>, while for species not occurring in the British Isles the CSR values were calculated according to the protocol in 
+      <xref ref-type="bibr" rid="pone.0104060-Hodgson1">
+       [23]
+      </xref>.</p> 
+     <p>To assess community-level changes in CSR strategies along the post-fire successional gradient, we calculated the mean (abundance-weighted) values of single CSR strategies at each plot 
+      <inline-formula>
+       <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e017" xlink:type="simple" />
+      </inline-formula>, where 
+      <italic>
+       CWM
+      </italic> is the community-weighted mean value of trait 
+      <italic>
+       T
+       <sub>i</sub>
+      </italic> for species 
+      <italic>
+       i
+      </italic> (i.e. the fuzzy-coded values of single C, S, and R strategies, such that 0 &lt; 
+      <italic>
+       T
+       <sub>i</sub>
+      </italic> &lt; 100). This index is usually viewed as a measure of the dominant traits in a community and is directly related to the mass-ratio hypothesis 
+      <xref ref-type="bibr" rid="pone.0104060-Grime3">
+       [24]
+      </xref>, which considers the functional characters of the dominant species as the main drivers of ecosystem processes 
+      <xref ref-type="bibr" rid="pone.0104060-Ricotta1">
+       [7]
+      </xref>.</p> 
+     <p>To assess changes in functional evenness along the post-fire successional gradient, we first calculated the values of 
+      <italic>
+       R
+       <sub>U</sub>
+      </italic> of each plot using the Marczewski–Steinhaus coefficient of dissimilarity, which is the complement of the Ruzicka similarity index 
+      <xref ref-type="bibr" rid="pone.0104060-Ruzicka1">
+       [25]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0104060-Podani2">
+       [26]
+      </xref>. For throughout discussion on the treatment of ordinal data with metric dissimilarity measures see 
+      <xref ref-type="bibr" rid="pone.0104060-Ricotta2">
+       [27]
+      </xref> and references therein. Next, we fitted a linear regression model for 
+      <italic>
+       R
+       <sub>U</sub>
+      </italic> vs. the time since last fire. Statistical significance for the regression estimate (two-tailed test) is based on 9999 randomizations.</p> 
+     <p>For the calculation of functional evenness, functionally identical species were grouped into single ‘functional species’ according to 
+      <xref ref-type="bibr" rid="pone.0104060-Ricotta3">
+       [28]
+      </xref>. The reason for this operation will be clear in the following sections, when we discuss the properties of functional evenness; only 20 plots with at least three functional species were used in this study (see 
+      <xref ref-type="supplementary-material" rid="pone.0104060.s001">
+       Appendix S1
+      </xref>). The index 
+      <italic>
+       R
+       <sub>U</sub>
+      </italic> was calculated with the new R function ‘FeveR’ 
+      <xref ref-type="bibr" rid="pone.0104060-R1">
+       [29]
+      </xref> that is made available as electronic appendix to this paper (
+      <xref ref-type="supplementary-material" rid="pone.0104060.s002">
+       Appendix S2
+      </xref>).</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Results</title> 
+    <p>Overall, thermophilous species were preferentially associated with recently burned sites, while shade-tolerant plant species increased in unburned sites. Recently burned sites were characterized by open canopies and dense understory cover dominated by 
+     <italic>
+      Teucrium scorodonia
+     </italic>, 
+     <italic>
+      Rubus
+     </italic> sp. and 
+     <italic>
+      Cytisus scoparius
+     </italic>. Late successional stages had closer canopies dominated by 
+     <italic>
+      Castanea sativa
+     </italic>, 
+     <italic>
+      Prunus avium
+     </italic>, 
+     <italic>
+      Tilia cordata
+     </italic> and 
+     <italic>
+      Sorbus aria
+     </italic>. 
+     <italic>
+      Betula pendula
+     </italic> and 
+     <italic>
+      Quercus petraea
+     </italic> were typical subdominant tree species of unburned sites. From a functional perspective, early successional stages were typically associated to annual therophytes and geophytes with light seeds dispersed by wind and pollinated by insects that were able to exploit the longer flowering duration of ruderal species. Late successional stages were mostly characterized by perennial forest species, pollinated by wind, with short flowering duration, and with large seeds dispersed by animals 
+     <xref ref-type="bibr" rid="pone.0104060-Moretti1">
+      [19]
+     </xref>.</p> 
+    <p>Post-fire vegetation dynamics was characterized by a significant decrease of the ruderal component along the successional gradient (
+     <xref ref-type="fig" rid="pone-0104060-g001">
+      Figure 1
+     </xref>). At early successional stages (&lt;10 years after fire), the contribution of the ruderal component to the average community functional spectrum was 9.2% (C:S:R  =  51.5%:39.3%:9.2%; mean of eight plots). At later-successional stages (≥10 years after fire), ruderal species decreased to 3.5% (C:S:R  =  53.8%:42.7%:3.5%; 12 plots). The observed decrease in the ruderal component during the post-fire vegetation recovery is associated with a moderate, though significant decrease of functional evenness with the time since last fire (R<sup>2</sup>  =  0.306, p &lt; 0.05; see 
+     <xref ref-type="fig" rid="pone-0104060-g002">
+      Figure 2
+     </xref>).</p> 
+    <fig id="pone-0104060-g001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0104060.g001
+     </object-id>
+     <label>Figure 1</label> 
+     <title>Ternary diagram of the community-weighted mean trait values of Grime’s classification of plant strategies as competitors (C), stress-tolerators (S) and ruderals (R) for 20 vegetation plots along a post-fire successional gradient.</title> 
+     <p>To ease the visualization of post-fire successional dynamics the plots are grouped into early- (&lt; 10 years after fire), and late-successional stages (≥ 10 years after fire).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0104060.g001" position="float" xlink:type="simple" />
+    </fig>
+    <fig id="pone-0104060-g002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0104060.g002
+     </object-id>
+     <label>Figure 2</label> 
+     <title>Correlation plots between functional evenness R&lt;sub&gt;U&lt;/sub&gt; and the time since last fire.</title> 
+     <p>R<sup>2</sup>  =  0.306; p&lt;0.05 (two-tailed test, 9999 randomizations).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0104060.g002" position="float" xlink:type="simple" />
+    </fig>
+   </sec>
+   <sec id="s5"> 
+    <title>Discussion</title> 
+    <p>The proposed evenness measure R<sub>U</sub> quantifies an important aspect of the relationship between community composition and functioning. As shown by our results, changes in community composition between early-successional and late-successional stages were functionally supported. That is, along the secondary succession, the species contributions to average community uniqueness 
+     <italic>
+      U
+     </italic> became increasingly uneven.</p> 
+    <p>Note that average community uniqueness is very similar to the Rao 
+     <xref ref-type="bibr" rid="pone.0104060-Rao1">
+      [30]
+     </xref> quadratic diversity 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e018" xlink:type="simple" />
+     </inline-formula>(i.e. the expected dissimilarity between two individuals chosen at random with replacement from a given community). The main difference is that in Eq. (1) expected dissimilarity is calculated imposing the restriction 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e019" xlink:type="simple" />
+     </inline-formula>, whereas in the calculation of 
+     <italic>
+      Q
+     </italic> this restriction is relaxed, such that both randomly selected individuals may belong to the same species. This is an important distinction, as for the calculation of functional evenness, it does not make sense to compare a species with itself. Note also that in accordance with the proposal of 
+     <xref ref-type="bibr" rid="pone.0104060-Villger1">
+      [6]
+     </xref>, we constructed our measure of functional evenness based on the index of Bulla. However, for calculating the regularity in the distribution of the quantities 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e020" xlink:type="simple" />
+     </inline-formula>, each other meaningful measure of evenness may be equally used. For review, see e.g. 
+     <xref ref-type="bibr" rid="pone.0104060-Smith1">
+      [31]
+     </xref>–.</p> 
+    <p>Average community uniqueness 
+     <italic>
+      U
+     </italic> offers ample flexibility in the selection of the dissimilarity measure. This is a desirable property, since in the measurement of functional diversity the issue of data type becomes a major factor. As emphasized by 
+     <xref ref-type="bibr" rid="pone.0104060-Pavoine1">
+      [34]
+     </xref>, trait matrices usually contain a mixture of nominal, ordinal, interval or ratio-scale data types 
+     <xref ref-type="bibr" rid="pone.0104060-Podani3">
+      [35]
+     </xref>. Therefore, to calculate functional dissimilarities in a meaningful manner, a measure that is adequate to the statistical type(s) of selected variables should be used. Although several criteria have been proposed for choosing a suitable dissimilarity coefficient, none of them is really conclusive. As stated by Gower and Legendre 
+     <xref ref-type="bibr" rid="pone.0104060-Gower1">
+      [36]
+     </xref> “a coefficient has to be considered in the context of the descriptive statistical study of which it is a part, including the nature of the data and the intended type of analysis”. In this framework, a concise ‘identification key’ for guiding the researcher in selecting an appropriate dissimilarity measure for the problem at hand can be found in 
+     <xref ref-type="bibr" rid="pone.0104060-Podani4">
+      [37]
+     </xref>, pp. 105–106.</p> 
+    <p>Likewise, many authors have proposed a set of basic criteria that an index of evenness should meet to reasonably behave in ecological research 
+     <xref ref-type="bibr" rid="pone.0104060-Smith1">
+      [31]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0104060-Tuomisto1">
+      [33]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0104060-Taillie1">
+      [38]
+     </xref>. As it is usually the case in multivariate analysis, these criteria are sometimes in contrast with each other and cannot be met all at once. Among them, unlike 
+     <xref ref-type="bibr" rid="pone.0104060-Jost1">
+      [39]
+     </xref> we believe that the foremost requirement for a measure of functional evenness is its independence from species richness. If richness and evenness are independent, then knowing the value of one component would put no mathematical constraints on the value of the other. For traditional evenness measures analytical methods were derived for testing their independence from species richness 
+     <xref ref-type="bibr" rid="pone.0104060-Jost1">
+      [39]
+     </xref>. However, unlike traditional evenness measures that are computed solely from the relative species abundances of a given assemblage, functional evenness depends on two variables: the species dissimilarities and the frequency distribution of these species. Therefore, we empirically explored the possibility for getting the extreme evenness values of zero and one (denoting maximal unevenness and maximal evenness) irrespective of the number of species in the assemblage.</p> 
+    <p>For 
+     <italic>
+      N
+     </italic> ≥ 2, 
+     <italic>
+      R
+      <sub>U</sub>
+     </italic> takes its maximum value of one when all species relative abundances are perfectly evenly distributed 
+     <italic>
+      and
+     </italic> all interspecies dissimilarities 
+     <inline-formula>
+      <inline-graphic xlink:href="info:doi/10.1371/journal.pone.0104060.e021" xlink:type="simple" />
+     </inline-formula> are equal to each other (denoting perfect evenness in the distribution of the 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic> values, with 
+     <italic>
+      d
+      <sub>ii</sub>
+     </italic>  =  0 by definition). That is, to get maximal functional evenness, we need maximal evenness in the distribution of species relative abundances 
+     <italic>
+      and
+     </italic> of interspecies dissimilarities. On the other hand, the minimum value 
+     <italic>
+      R
+      <sub>U</sub>
+     </italic>  =  0 is attained when the species relative abundances 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic> reach maximum unevenness (i.e. one term 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic> approaches one, while all remaining terms 
+     <italic>
+      p
+      <sub>j</sub>
+     </italic> are close to zero), irrespective of how interspecies dissimilarities are distributed. In a sense, species relative abundances are thus weighted more than interspecies dissimilarities in the calculation of 
+     <italic>
+      R
+      <sub>U</sub>
+     </italic>. Although this may seem disappointing, the mass-ratio hypothesis 
+     <xref ref-type="bibr" rid="pone.0104060-Grime3">
+      [24]
+     </xref> proposes that immediate controls on ecosystem functioning are mainly determined by the traits of the dominant species and are relatively insensitive to less abundant species. Hence, intuitively, if species abundances are maximally uneven, the contribution of the dominant species to ecosystem functioning is maximal, regardless of the traits of the very minor species.</p> 
+    <p>In this context, a major drawback of most evenness measures, such as the index of Bulla, is that evenness does not depend continuously on the species relative abundance at 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic> → 0 
+     <xref ref-type="bibr" rid="pone.0104060-Ricotta4">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0104060-Routledge1">
+      [40]
+     </xref>. This means that a community with relative abundances (
+     <italic>
+      p
+      <sub>i</sub>
+     </italic>  =  0.5-ε, 
+     <italic>
+      p
+      <sub>j</sub>
+     </italic>  =  0.5-ε, 
+     <italic>
+      p
+      <sub>k</sub>
+     </italic>  =  2ε) with 
+     <italic>
+      ε
+     </italic> tending to zero has an evenness that is much less than that of community (
+     <italic>
+      p
+      <sub>i</sub>
+     </italic>  =  0.5, 
+     <italic>
+      p
+      <sub>j</sub>
+     </italic>  =  0.5). This discontinuity is related to Pielou’s 
+     <xref ref-type="bibr" rid="pone.0104060-Pielou1">
+      [41]
+     </xref> distinction between a fully censused community and a sampled community and implies inestimability of evenness if we consider our plots as a collection of samples from a larger community. However, we agree with 
+     <xref ref-type="bibr" rid="pone.0104060-Smith2">
+      [42]
+     </xref> that “the concept of a sample from a community is unrealistic, because it assumes that communities have reality as discrete units, which very few ecologists believe”. At least for sessile individuals, such as plants, it is more realistic to view our plots as fully censused pieces of biotic space at a given scale 
+     <xref ref-type="bibr" rid="pone.0104060-Wilson1">
+      [43]
+     </xref>. Nonetheless, those who agree with Pielou’s distinction between a fully censused and a sampled community should restrict the calculation of evenness to measures that are continuous at 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic> → 0 (see e.g. 
+     <xref ref-type="bibr" rid="pone.0104060-Ricotta4">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0104060-Gregorius1">
+      [44]
+     </xref>-
+     <xref ref-type="bibr" rid="pone.0104060-Ricotta5">
+      [45]
+     </xref>.</p> 
+    <p>Also, dealing with evenness measures that are calculated from species relative abundances 
+     <italic>
+      and
+     </italic> dissimilarities, such as 
+     <italic>
+      R
+      <sub>U</sub>
+     </italic>, we face a similar problem at 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic> → 0. For instance, a community with species relative abundances (
+     <italic>
+      p
+      <sub>i</sub>
+     </italic>  =  0.5, 
+     <italic>
+      p
+      <sub>j</sub>
+     </italic>  =  0.25, 
+     <italic>
+      p
+      <sub>k</sub>
+     </italic>  =  0.25) and interspecies dissimilarities (
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic>  =  1, 
+     <italic>
+      d
+      <sub>ik</sub>
+     </italic>  =  1, 
+     <italic>
+      d
+      <sub>jk</sub>
+     </italic>  =  0) has an evenness that is much less than that of community (
+     <italic>
+      p
+      <sub>i</sub>
+     </italic>  =  0.5, 
+     <italic>
+      p
+      <sub>j</sub>
+     </italic>  =  0.5; 
+     <italic>
+      d
+      <sub>ij</sub>
+     </italic>  =  1). However, as species 
+     <italic>
+      j
+     </italic> and 
+     <italic>
+      k
+     </italic> are functionally identical, for the calculation of functional evenness they should be treated as they were one single entity, and there should be no difference between the evenness of the first and the second community. Therefore, to avoid problems with the presence of two or more species with identical functional traits, we introduced the additional constraint that functionally identical species are grouped into one single functional species. The meaning of this operation is that the number of species itself is not relevant to 
+     <italic>
+      R
+      <sub>U</sub>
+     </italic> unless these species possess distinct functional characters 
+     <xref ref-type="bibr" rid="pone.0104060-Ricotta3">
+      [28]
+     </xref>.</p> 
+    <p>To conclude, changes in functional evenness may be induced by changes in interspecies dissimilarities and/or in species abundances, as both of them contribute in shaping community functioning. Accordingly, a ‘perfect’ measure of functional evenness probably does not exist. Rather, several ‘tailored’ measures of functional evenness may be developed that result from how abundances and dissimilarities are weighted in the calculation of the index, and their specific relevance must be judged on the basis of their ability to fit the given problem of application.</p> 
+   </sec>
+   <sec id="s6"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0104060.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0104060.s001" position="float" xlink:type="simple">
+     <label>Appendix S1</label> 
+     <p>
+      <bold>
+       Relative abundances and CSR values of the functional species used in this study.
+      </bold> The time since last fire (yrs) of each plot is also shown.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0104060.s002" mimetype="application/msword" xlink:href="info:doi/10.1371/journal.pone.0104060.s002" position="float" xlink:type="simple">
+     <label>Appendix S2</label> 
+     <p>
+      <bold>
+       R function ‘FeveR’ for calculating the functional evenness of a species’ assemblage.
+      </bold></p> 
+     <p>(DOC)</p> 
+    </supplementary-material>
+   </sec> 
+   <back>
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0104060-Grassle1">
+      <label>1</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Grassle JF, Patil GP, Smith W, Taillie C (1979) Ecological diversity in theory and practice. Fairland: International Cooperative Publishing House.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Magurran1">
+      <label>2</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Magurran AE, McGill BJ (2010) Biological diversity: frontiers in measurement and assessment. Oxford: Oxford University Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Violle1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Violle
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navas
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vile
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kazakou
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fortunel
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Let the concept of trait be functional! Oikos
+       </article-title>. 
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        882
+       </fpage>–
+       <lpage>
+        892
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Petchey1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname>
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Functional diversity: back to basics and looking forward
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        741
+       </fpage>–
+       <lpage>
+        758
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Lavorel1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grigulis
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McIntyre
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         NSG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Garden
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Assessing functional diversity in the field – methodology matters! Funct Ecol
+       </article-title>. 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        134
+       </fpage>–
+       <lpage>
+        147
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Villger1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Villéger
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        New multidimensional functional diversity indices for a multifaceted framework in functional ecology
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        2290
+       </fpage>–
+       <lpage>
+        2301
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Ricotta1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moretti
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        CWM and Rao’s quadratic diversity: a unified framework for functional ecology
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        167
+       </volume>: 
+       <fpage>
+        181
+       </fpage>–
+       <lpage>
+        188
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-deBello1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavergne
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boulangeat
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Hierarchical effects of environmental filters on the functional structure of plant communities: a case study in the French Alps
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        393
+       </fpage>–
+       <lpage>
+        402
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Podani1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Podani
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pausas
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmera
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Combinatorial functional diversity: an information theoretical approach
+       </article-title>. 
+       <source>Comm Ecol 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        180
+       </fpage>–
+       <lpage>
+        188
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Mason1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         WG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Functional richness, functional evenness and functional divergence: the primary components of functional diversity
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        111
+       </volume>: 
+       <fpage>
+        112
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Poos1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Poos
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walker
+        </surname>
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jackson
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Functional–diversity indices can be driven by methodological choices and species richness
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        341
+       </fpage>–
+       <lpage>
+        347
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Mouchet1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mouchet
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Villéger
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname>
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Functional diversity measures: an overview of their redundancy and their ability to discriminate community assembly rules
+       </article-title>. 
+       <source>Funct Ecol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        867
+       </fpage>–
+       <lpage>
+        876
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Grime1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name> (
+       <year>
+        1974
+       </year>) 
+       <article-title>
+        Vegetation classification by reference to strategies
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        250
+       </volume>: 
+       <fpage>
+        26
+       </fpage>–
+       <lpage>
+        31
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Grime2">
+      <label>14</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Grime JP, Hodgson JG, Hunt R (1996) Comparative plant ecology: a functional approach to common British species. London: Chapman &amp; Hall.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Warwick1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Warwick
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clarke
+        </surname>
+        <given-names>
+         KR
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        New ‘biodiversity’ measures reveal a decrease in taxonomic distinctness with increasing stress
+       </article-title>. 
+       <source>Mar Ecol Prog Ser 
+       <volume>
+        129
+       </volume>: 
+       <fpage>
+        301
+       </fpage>–
+       <lpage>
+        305
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Loreau1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Does functional redundancy exist?
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        606
+       </fpage>–
+       <lpage>
+        611
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Bulla1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bulla
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        An index of evenness and its associated diversity measure
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        167
+       </fpage>–
+       <lpage>
+        171
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Hillebrand1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hillebrand
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cadotte
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Consequences of dominance: a review of evenness effects on local and regional ecosystem processes
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        1510
+       </fpage>–
+       <lpage>
+        1520
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Moretti1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moretti
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legg
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Combining plant and animal traits to assess community functional responses to disturbance
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        299
+       </fpage>–
+       <lpage>
+        309
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Moretti2">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moretti
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duelli
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Obrist
+        </surname>
+        <given-names>
+         MK
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Biodiversity and resilience of arthropod communities after fire disturbance in temperate forests
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        149
+       </volume>: 
+       <fpage>
+        312
+       </fpage>–
+       <lpage>
+        327
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Moretti3">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moretti
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Conedera
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duelli
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        The effects of wildfire on ground–active spiders (Arthropoda: Araneae) in deciduous forests on the southern slope of the Alps
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        39
+       </volume>: 
+       <fpage>
+        321
+       </fpage>–
+       <lpage>
+        336
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-BraunBlanquet1">
+      <label>22</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Braun–Blanquet J (1964) Pflanzensoziologie. Vienna: Springer.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Hodgson1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hodgson
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hunt
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thompson
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Allocating CSR plant functional types: a soft approach to a hard problem
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        282
+       </fpage>–
+       <lpage>
+        294
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Grime3">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Benefits of plant diversity to ecosystems: immediate, filter and founder effects
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        86
+       </volume>: 
+       <fpage>
+        902
+       </fpage>–
+       <lpage>
+        910
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Ruzicka1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ruzicka
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        1958
+       </year>) 
+       <article-title>
+        Anwendung mathematisch–statisticher Methoden in der Geobotanik (synthetische Bearbeitung von Aufnahmen)
+       </article-title>. 
+       <source>Biologia, Bratislava 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        647
+       </fpage>–
+       <lpage>
+        661
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Podani2">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Podani
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmera
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        A general framework for analyzing beta diversity, nestedness and related community–level phenomena based on abundance data
+       </article-title>. 
+       <source>Ecol Complex 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        52
+       </fpage>–
+       <lpage>
+        61
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Ricotta2">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Feoli
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Does ordinal cover estimation offer reliable quality data structures in vegetation ecological studies?
+       </article-title> 
+       <source>Folia Geobot 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        437
+       </fpage>–
+       <lpage>
+        447
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Ricotta3">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        A note on functional diversity measures
+       </article-title>. 
+       <source>Bas Appl Ecol 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        479
+       </fpage>–
+       <lpage>
+        486
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-R1">
+      <label>29</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team (2013) R: a language and environment for statistical computing. Vienna: R Foundation for Statistical Computing. 
+       <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org" xlink:type="simple">
+        http://www.R-project.org
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Rao1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rao
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name> (
+       <year>
+        1982
+       </year>) 
+       <article-title>
+        Diversity and dissimilarity coefficients: a unified approach
+       </article-title>. 
+       <source>Theor Popul Biol 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        24
+       </fpage>–
+       <lpage>
+        43
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Smith1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        A consumer’s guide to evenness indices
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        76
+       </volume>: 
+       <fpage>
+        70
+       </fpage>–
+       <lpage>
+        82
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Ricotta4">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        On parametric evenness measures
+       </article-title>. 
+       <source>J Theor Biol 
+       <volume>
+        222
+       </volume>: 
+       <fpage>
+        189
+       </fpage>–
+       <lpage>
+        197
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Tuomisto1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tuomisto
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        An updated consumer’s guide to evenness and related indices
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        121
+       </volume>: 
+       <fpage>
+        1203
+       </fpage>–
+       <lpage>
+        1218
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Pavoine1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pavoine
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vallet
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dufour
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gachet
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daniel
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        On the challenge of treating various types of variables: application for improving the measurement of functional diversity
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        391
+       </fpage>–
+       <lpage>
+        402
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Podani3">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Podani
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmera
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        On dendrogram–based measures of functional diversity
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        115
+       </volume>: 
+       <fpage>
+        179
+       </fpage>–
+       <lpage>
+        185
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Gower1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gower
+        </surname>
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1986
+       </year>) 
+       <article-title>
+        Metric and Euclidean properties of dissimilarity coefficients
+       </article-title>. 
+       <source>J Classif 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        5
+       </fpage>–
+       <lpage>
+        48
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Podani4">
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Podani J (2000) Introduction to the exploration of multivariate biological data. Leiden: Backhuys Publishers.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Taillie1">
+      <label>38</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Taillie C (1979) Species equitability: a comparative approach. In: Grassle JF, Patil GP, Smith WK, Taillie C, editors. Ecological diversity in theory and practice. Fairland: International Cooperative Publishing House. pp 51–62.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Jost1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jost
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The relationship between evenness and diversity
+       </article-title>. 
+       <source>Diversity 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        207
+       </fpage>–
+       <lpage>
+        232
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Routledge1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Routledge
+        </surname>
+        <given-names>
+         RD
+        </given-names>
+       </name> (
+       <year>
+        1983
+       </year>) 
+       <article-title>
+        Evenness indices: are any admissible?
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        149
+       </fpage>–
+       <lpage>
+        151
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Pielou1">
+      <label>41</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Pielou EC (1975) Ecological diversity. New York: Wiley.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Smith2">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        A consumer’s guide to evenness indices
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        76
+       </volume>: 
+       <fpage>
+        70
+       </fpage>–
+       <lpage>
+        82
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Wilson1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steel
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         King
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gitay
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        The effect of spatial scale on evenness
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        463
+       </fpage>–
+       <lpage>
+        468
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Gregorius1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gregorius
+        </surname>
+        <given-names>
+         HR
+        </given-names>
+       </name> (
+       <year>
+        1990
+       </year>) 
+       <article-title>
+        A diversity-independent measure of evenness
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        136
+       </volume>: 
+       <fpage>
+        701
+       </fpage>–
+       <lpage>
+        711
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0104060-Ricotta5">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        A recipe for unconventional evenness measures
+       </article-title>. 
+       <source>Acta Biotheor 
+       <volume>
+        52
+       </volume>: 
+       <fpage>
+        95
+       </fpage>–
+       <lpage>
+        104
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

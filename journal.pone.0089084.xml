@@ -1,0 +1,2912 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-23521
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0089084
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Community structure
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+          <subject>
+           Species richness
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem modeling
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant-environment interactions
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Conservation science
+         </subject>
+         <subject>
+          Macroecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Identifying Priority Areas for Conservation and Management in Diverse Tropical Forests
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Conserving Tropical Forests
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         Karel
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Westcott
+        </surname>
+        <given-names>
+         David A.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Prasad
+        </surname>
+        <given-names>
+         Soumya
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ford
+        </surname>
+        <given-names>
+         Andrew J.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Metcalfe
+        </surname>
+        <given-names>
+         Daniel J.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Ecosystem Sciences, Commonwealth Scientific and Industrial Research Organisation, Canberra, ACT, Australia
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Ecosystem Sciences, Commonwealth Scientific and Industrial Research Organisation, Atherton, QLD, Australia
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Centre for Ecological Sciences, Indian Institute of Science, Bangalore, India
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Ecosystem Sciences, Commonwealth Scientific and Industrial Research Organisation, Dutton Park, QLD, Australia
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hérault
+        </surname>
+        <given-names>
+         Bruno
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Cirad, France
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        Karel.Mokany@csiro.au
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: KM DAW SP. Performed the experiments: KM AJF DJM. Analyzed the data: KM. Wrote the paper: KM DAW SP AJF DJM.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       14
+      </day>
+      <month>
+       2
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      2
+     </issue> 
+     <elocation-id>
+      e89084
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        6
+       </day>
+       <month>
+        6
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        20
+       </day>
+       <month>
+        1
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Mokany et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>The high concentration of the world’s species in tropical forests endows these systems with particular importance for retaining global biodiversity, yet it also presents significant challenges for ecology and conservation science. The vast number of rare and yet to be discovered species restricts the applicability of species-level modelling for tropical forests, while the capacity of community classification approaches to identify priorities for conservation and management is also limited. Here we assessed the degree to which macroecological modelling can overcome shortfalls in our knowledge of biodiversity in tropical forests and help identify priority areas for their conservation and management. We used 527 plant community survey plots in the Australian Wet Tropics to generate models and predictions of species richness, compositional dissimilarity, and community composition for all the 4,313 vascular plant species recorded across the region (&gt;1.3 million communities (grid cells)). We then applied these predictions to identify areas of tropical forest likely to contain the greatest concentration of species, rare species, endemic species and primitive angiosperm families. Synthesising these alternative attributes of diversity into a single index of conservation value, we identified two areas within the Australian wet tropics that should be a high priority for future conservation actions: the Atherton Tablelands and Daintree rainforest. Our findings demonstrate the value of macroecological modelling in identifying priority areas for conservation and management actions within highly diverse systems, such as tropical forests.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This research was supported by a grant from the Australia-India Strategic Research Fund. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="10" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Tropical rainforests contain more than 60% of all known species, despite covering only 7% of the earth’s surface 
+     <xref ref-type="bibr" rid="pone.0089084-Dirzo1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Bradshaw1">
+      [2]
+     </xref>. The concentration of diversity in tropical forests endows these ecosystems with particular importance for retaining global biodiversity, yet also presents significant challenges for ecology and conservation science. Understanding patterns in tropical forest diversity and subsequently identifying priorities for conservation is severely hampered by the vast numbers of species present, many of which are rare (or yet to be discovered) and for most of which we have little information regarding their attributes or current distributions 
+     <xref ref-type="bibr" rid="pone.0089084-Lomolino1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Carson1">
+      [4]
+     </xref>. The combination of high diversity and major shortfalls in our knowledge of tropical forest biodiversity limits the applicability of commonly applied species-level modelling approaches 
+     <xref ref-type="bibr" rid="pone.0089084-Elith1">
+      [5]
+     </xref> in improving our understanding of current patterns in diversity.</p> 
+    <p>As a consequence of the challenges faced in understanding diversity in tropical forests, ecologists have often relied upon community-level approaches to improve our knowledge of these systems. This trend is typified in the Australian Wet Tropics, the largest area of tropical rainforest in Australia 
+     <xref ref-type="bibr" rid="pone.0089084-Metcalfe1">
+      [6]
+     </xref>. Here, a long history of ecological research has applied and refined structural and compositional classification of tropical plant diversity into forest “types”, “categories”, or “regional ecosystems” 
+     <xref ref-type="bibr" rid="pone.0089084-Webb1">
+      [7]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0089084-Stanton1">
+      [12]
+     </xref>. Across the entire Australian Wet Tropics, these forest categories have been mapped at a fine spatial resolution 
+     <xref ref-type="bibr" rid="pone.0089084-Stanton1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Tracey2">
+      [13]
+     </xref>, and subsequently related to underlying environmental variables 
+     <xref ref-type="bibr" rid="pone.0089084-Nix1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Hilbert1">
+      [15]
+     </xref>.</p> 
+    <p>In the Australian Wet Tropics, simplifying the significant plant diversity into forest categories has enabled valuable research which has greatly improved our knowledge of these systems. For example, a number of studies have applied correlative modelling to project the distribution of different forest categories back in time, using reconstructed climate conditions, identifying possible rainforest refugia at the last glacial maximum 
+     <xref ref-type="bibr" rid="pone.0089084-Nix1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Hilbert2">
+      [16]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0089084-Graham1">
+      [18]
+     </xref>. Other research has projected the future distribution of forest categories under alternative scenarios of climate change, to identify the likely threat posed by global warming for these tropical forests 
+     <xref ref-type="bibr" rid="pone.0089084-Hilbert3">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Ostendorf1">
+      [20]
+     </xref>. Projections for the Australian Wet Tropics under both past and future climates in general show dramatic reductions in the spatial extent of most tropical rainforest categories as precipitation decreases 
+     <xref ref-type="bibr" rid="pone.0089084-Hilbert2">
+      [16]
+     </xref>.</p> 
+    <p>Despite the insights provided, there are limits in the utility of a community classification approach to understand patterns and identify conservation priorities within diverse tropical forests. A community-level classification approach inherently ignores any variation in diversity within a community category, whilst assuming significant and uniform changes in diversity between categories 
+     <xref ref-type="bibr" rid="pone.0089084-Ferrier1">
+      [21]
+     </xref>. Applying community-level categorical data to identify conservation and management priorities could therefore be heavily influenced by the number of categories applied, the relative differences between categories and the basis for the categorisation (e.g. structural v.s. compositional).</p> 
+    <p>In moving beyond community classification approaches, macroecological modelling offers significant potential to both overcome shortfalls in our knowledge of biodiversity in tropical forests, while providing new insight into core patterns of diversity. Specifically, models of species richness (
+     <italic>
+      α
+     </italic>-diversity) and pairwise compositional dissimilarity (
+     <italic>
+      β
+     </italic>-diversity) can provide unique insight, by relating community diversity in a continuous manner to underlying environmental gradients 
+     <xref ref-type="bibr" rid="pone.0089084-Currie1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Ferrier2">
+      [23]
+     </xref>. Models of species richness and compositional dissimilarity already have demonstrated utility in improving our understanding of current diversity patterns within tropical forests 
+     <xref ref-type="bibr" rid="pone.0089084-TerSteege1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Jones1">
+      [25]
+     </xref>. These models of core elements of diversity can also be combined in a new approach (
+     <italic>
+      Dynamic
+     </italic>FOAM), that predicts the composition of every community (i.e. grid cell) over a region, even where available knowledge is limited 
+     <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+      [26]
+     </xref>. Application of these continuous macroecological modelling approaches provides significant potential to improve both our knowledge of the key drivers of tropical forest diversity and our capacity to identify priorities for conservation within these diverse systems.</p> 
+    <p>Here we apply macroecological modelling to identify priority areas for conservation and management of plant diversity within the Australian Wet Tropics. We develop models of species richness and compositional dissimilarity for the 4,313 vascular plant species, then apply the 
+     <italic>
+      Dynamic
+     </italic>FOAM algorithm 
+     <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+      [26]
+     </xref> to predict the composition of every community (grid cell) across the region (&gt;1.3 million communities). We analyse these macroecological predictions in a number of novel ways to identify areas of high importance for conservation and management within these diverse tropical forests.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Spatial Information</title> 
+     <p>Our study region (
+      <xref ref-type="fig" rid="pone-0089084-g001">
+       Fig. 1
+      </xref>) was defined as the spatial domain including the Wet Tropics Bioregion in Queensland, Australia (from IBRA, 2012), and a 100 km buffer around it (approximately 14°39′S to 20°24′S and 143°54′E to 147°30′E). This region comprises an area of 87,365 km<sup>2</sup>, of which 95.2% is natural vegetation (as classified by Queensland Land Use Mapping, 1999), while the area protected for conservation is 17.6% of the study region and 44.2% of the Wet Tropics Bioregion (as defined by CAPAD, 2010). Our analyses were carried out on a 250 m resolution spatial grid over this region, as defined by the Australian GEODATA 9 Second Digital Elevation Model – V3.</p> 
+     <fig id="pone-0089084-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0089084.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>The study region.</title> 
+      <p>The study region, being the Wet Tropics Bioregion (blue line) and 100 km of surrounding area, in Queensland, Australia (inset). Protected areas (dark green), unprotected natural habitat (pale green) and modified habitat (grey) are shown, along with the locations of the 527 plant community surveys used in our analyses (black dots).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.g001" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+    <sec id="s2b"> 
+     <title>Biological Data</title> 
+     <p>Plant community survey data over the study region were obtained from two sources: the Queensland Herbarium’s CORVEG survey data 
+      <xref ref-type="bibr" rid="pone.0089084-Neldner1">
+       [27]
+      </xref>, and; plant community surveys conducted by CSIRO. The methods applied by the Queensland Herbarium in surveying plant community composition are described in detail in Neldner 
+      <italic>
+       et al
+      </italic>. 
+      <xref ref-type="bibr" rid="pone.0089084-Neldner1">
+       [27]
+      </xref>, and involved identifying all vascular plant species within a 10×50 m survey plot. In total, 517 Queensland Herbarium survey plots occurred within the study region, however, many of these plots contained species which were only identified to family or genus level, which is inappropriate for accurately quantifying species richness and compositional dissimilarity. We therefore removed those 298 survey plots where more than 10% of taxa that were not identified to the species level. There were no obvious spatial biases in the locations of the survey plots removed (
+      <xref ref-type="supplementary-material" rid="pone.0089084.s001">
+       Fig. S1
+      </xref>). For the remaining 219 Queensland Herbarium survey plots, those taxa not identified to species level were removed from the analysis. This equated to an average of 1.97 records (range: 1–7) removed across 136 sites containing unidentified taxa. Again, there was no obvious spatial bias in the proportion of records removed from the retained Queensland Herbarium plots, though there was a slight trend for plots with more records to contain a larger proportion of unidentified taxa (
+      <xref ref-type="supplementary-material" rid="pone.0089084.s002">
+       Fig. S2
+      </xref>).</p> 
+     <p>Plant community surveys conducted by CSIRO between 2004 and 2012 followed a similar methodology to the Queensland Herbarium surveys, but were located in areas that would complement the Queensland Herbarium surveys, and were comprised of 20×50 m plots 
+      <xref ref-type="bibr" rid="pone.0089084-Mayfield1">
+       [28]
+      </xref>. Survey data were obtained by CSIRO for 308 sites, and as with the Queensland Herbarium data, we removed those taxa not identified to species level. Almost all taxa in the CSIRO surveys were identified to species level (or to recognised HISPID names where specifies are yet to be formally described), therefore no sites needed to be removed due to coarse taxonomic identification.</p> 
+     <p>Combining community surveys from the Queensland Herbarium and CSIRO gave a total of 527 community survey plots used to generate models of vascular plant species richness and compositional dissimilarity (
+      <xref ref-type="fig" rid="pone-0089084-g001">
+       Fig. 1
+      </xref>). We standardised taxonomic nomenclature across these two data sets to be consistent with the Australian Plant Name Index. For both the Queensland Herbarium and CSIRO plant community surveys, we removed all non-native species, as defined by the Census of the Queensland Flora 
+      <xref ref-type="bibr" rid="pone.0089084-Bostock1">
+       [29]
+      </xref> and the Australian Plant Name Index. The analyses we present are therefore relevant to native plant biodiversity only.</p> 
+     <p>For application of the 
+      <italic>
+       Dynamic
+      </italic>FOAM procedure (see below), we supplemented the community survey data described above with 104,831 plant species occurrence records, obtained from the Atlas of Living Australia on May 16, 2012. All plant occurrence records obtained were recent (recorded since 1990), spatially accurate (&lt;300 m uncertainty), and consistent with the taxonomic nomenclature applied for the plant community survey data. For the 
+      <italic>
+       Dynamic
+      </italic>FOAM procedure, we also included the records of the identified species from the 298 Queensland Herbarium survey plots that were excluded from the community modelling analyses.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Environmental Data</title> 
+     <p>For the correlative modelling of plant community species richness and compositional dissimilarity, we utilised complete spatial environmental data across the study region. We applied the 250 m digital elevation model of the study region in ANUCLIM 
+      <xref ref-type="bibr" rid="pone.0089084-Xu1">
+       [30]
+      </xref> to obtain climate data (precipitation, evaporation, temperature, radiation (adjusted for slope &amp; aspect)) and bioclimatic variables (plant growth indices) across the spatial grid (averages for the period 1976 to 2005). We also applied a range of spatial geological (mean geological age, weathering index) and soil (depth, nutrients, bulk density, water holding capacity) data layers, obtained from various sources 
+      <xref ref-type="bibr" rid="pone.0089084-McKenzie1">
+       [31]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0089084-Wilford1">
+       [34]
+      </xref>.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Scaling Community Diversity from Plot to Grid Cell</title> 
+     <p>It is possible and commonly practised to generate models of species richness and compositional dissimilarity that are relevant to smaller ecological survey plots occurring within larger spatial grid cells. However, for the purposes of the present study, our objective was to generate predictions of species richness and compositional dissimilarity that are relevant to the spatial grain of the 250 m grid cells (62,500 m<sup>2</sup>) rather than the much smaller area that the survey plots occupy (500–1,000 m<sup>2</sup>). To transform our community diversity data so that they were relevant to the spatial grid cell resolution, we applied a recently developed biodiversity scaling method 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany2">
+       [35]
+      </xref>.</p> 
+     <p>Briefly, this approach applies the species-area power model (
+      <italic>
+       S
+      </italic> = 
+      <italic>
+       cA
+       <sup>z</sup>
+      </italic>) to scale both species richness and compositional dissimilarity from small sample areas to larger areas. Under this approach, the species richness of a grid cell (
+      <italic>
+       S
+      </italic>) is predicted from the observed richness of the community survey (
+      <italic>
+       c
+      </italic>) and the area of the grid cell relative to the survey area (e.g. 
+      <italic>
+       A
+      </italic> = 62,500 m<sup>2</sup>/500 m<sup>2</sup> for the Queensland herbarium data). To scale pair-wise compositional dissimilarity from the community surveys to the grid cells they occurred within, we first predict the number of species in common between the two grid cells 
+      <italic>
+       i
+      </italic> and 
+      <italic>
+       j
+      </italic> (
+      <italic>
+       S
+       <sub>com,ij</sub>
+      </italic>) from the observed number of species in common between the two community surveys (
+      <italic>
+       c
+       <sub>com,ij</sub>
+      </italic>) using the species area power relationship (
+      <italic>
+       S
+       <sub>com,ij</sub>
+      </italic> = 
+      <italic>
+       c
+       <sub>com,ij</sub>A
+       <sup>zcom</sup>
+      </italic>). We then calculate the predicted Sorensen’s compositional dissimilarity between the two grid cells (
+      <italic>
+       β
+       <sub>ij</sub>
+      </italic> = 1– [2
+      <italic>
+       S
+       <sub>com,ij</sub>
+      </italic>/(
+      <italic>
+       S
+       <sub>i</sub>
+      </italic>+
+      <italic>
+       S
+       <sub>j</sub>
+      </italic>)]) using the predicted species richness of each grid cell (
+      <italic>
+       S
+       <sub>i</sub>
+      </italic>, 
+      <italic>
+       S
+       <sub>j</sub>
+      </italic>) and the predicted number of species in common between the two grid cells (
+      <italic>
+       S
+       <sub>com,ij</sub>
+      </italic>). We applied a single scaling factor for species richness (
+      <italic>
+       z
+      </italic> = 0.25) and for the number of species shared between a pair of communities (
+      <italic>
+       z
+       <sub>com</sub>
+      </italic> = 0.42), as derived previously 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany2">
+       [35]
+      </xref>. This scaling approach retains the underlying gradients in species richness and compositional dissimilarity that are observed across the community survey plots, but scales the absolute values so that they better represent those of the grid cells being modelled.</p> 
+    </sec>
+    <sec id="s2e"> 
+     <title>Species Richness Modelling</title> 
+     <p>We generated a model of plant species richness using the Generalized Regression and Spatial Prediction package (GRASP 
+      <xref ref-type="bibr" rid="pone.0089084-Lehmann1">
+       [36]
+      </xref>) in R 
+      <xref ref-type="bibr" rid="pone.0089084-R1">
+       [37]
+      </xref>. GRASP applies a generalised additive modelling framework, and for the current implementation we used a Poisson link function with 3 degrees of freedom for each independent variable. We applied an interactive backward variable selection process, using a range of environmental variables that we hypothesised could be important in influencing plant community species richness in the study region. Candidate environmental variables were gradually omitted based on model Bayesian Information Criterion values, variable significance, and variable contribution to deviance reduction. Plant community species richness for each cell on the spatial grid of the region was predicted using the final model and the environmental variables for every grid cell.</p> 
+    </sec>
+    <sec id="s2f"> 
+     <title>Compositional Dissimilarity Modelling</title> 
+     <p>We generated a model of pair-wise plant community compositional dissimilarity (Sorensen’s dissimilarity) using Generalised Dissimilarity Modelling (GDM) which is an extension of matrix regression, designed to accommodate both the curvilinear relationship of observed compositional dissimilarity with increasing ecological distance between sites, and the variation in the rate of compositional turnover at different positions along environmental gradients 
+      <xref ref-type="bibr" rid="pone.0089084-Ferrier2">
+       [23]
+      </xref>. We applied an interactive backward variable selection process, using a range of environmental variables that we hypothesised could be important in influencing plant community compositional dissimilarity in the study region. We applied custom written code in R 
+      <xref ref-type="bibr" rid="pone.0089084-R1">
+       [37]
+      </xref> to implement a permutation test of variable and model significance. Using this procedure with 1,000 permutations, candidate environmental variables were gradually omitted based on variable significance and contribution to deviance reduction. We used the final model of compositional dissimilarity to generate spatially complete transformed environmental layers, which allow prediction of compositional dissimilarity between any pair of communities (i.e. pairs of cells on the spatial grid) 
+      <xref ref-type="bibr" rid="pone.0089084-Overton1">
+       [38]
+      </xref>.</p> 
+    </sec>
+    <sec id="s2g"> 
+     <title>Predicting Community Composition with &lt;italic&gt;Dynamic&lt;/italic&gt;FOAM</title> 
+     <p>We applied the 
+      <italic>
+       Dynamic
+      </italic>FOAM procedure to generate predictions of the composition of each community (i.e. grid cell) across the region. 
+      <italic>
+       Dynamic
+      </italic>FOAM is an optimisation algorithm that constructs species lists for each community which best meet the constraints of modelled estimates of the number of species present, the predicted dissimilarity in species composition between each pair of communities and any available data on the occurrences of specific species at specific sites 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+       [26]
+      </xref>. When predicting the composition of all communities using 
+      <italic>
+       Dynamic
+      </italic>FOAM, it is possible to include a specified number of hypothetical species (e.g. undescribed species) 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+       [26]
+      </xref>, however, for the current implementation we applied only the 4,313 native species whose occurrences had been recorded within the study region. Given the stochastic nature of the 
+      <italic>
+       Dynamic
+      </italic>FOAM algorithm, we generated 10 replicate solutions, with the results presented here being summaries over these replicates.</p> 
+    </sec>
+    <sec id="s2h"> 
+     <title>Analysing Predictions of Community Composition</title> 
+     <p>We applied a number of analytical approaches in examining our predictions of community composition across the study region. The median area of occurrence of species within each community (grid cell) was quantified by combining the predicted composition of each community and the predicted area of occurrence of each species over the study region. We also determined the predicted number of species within each community that were endemic to a circular area of radius 30 km centred on that community. We calculated the predicted number of “primitive” angiosperm families represented in each community by combining predicted community composition with family-level taxonomic affinity. Primitive angiosperm families were defined as phylogenetically near-basal, and included the families Austrobaileyaceae, Myristicaceae, Himantandraceae, Eupomatiaceae, Annonaceae, Atherospermataceae, Calycanthaceae, Hernandiaceae, Lauraceae, Monimiaceae, Winteraceae, Aristolochiaceae and Piperaceae 
+      <xref ref-type="bibr" rid="pone.0089084-Metcalfe1">
+       [6]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Metcalfe2">
+       [39]
+      </xref>. Each of the above indices provide alternative measures of the conservation value of each community (grid cell), and many additional measures of conservation value could also have been obtained from our analyses. Here we simply demonstrate how these four alternative measures of conservation value can be synthesised into a single index of conservation value, by first normalising each to a 0–1 range (where 1 = highest conservation value), then calculating the mean value across all four normalised conservation attributes for each community.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>The model of plant species richness in the Australian Wet Tropics explained 40.7% of the total deviance (D<sup>2</sup>), and included nine independent variables of climate and substrate (
+     <xref ref-type="table" rid="pone-0089084-t001">
+      Table 1
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0089084-g002">
+      Fig. 2
+     </xref>). The strongest relationships with individual environmental variables were for species richness to increase with annual precipitation (D<sup>2</sup> = 25.1%; 
+     <italic>
+      P
+     </italic>&lt;0.001), soil plant available water holding capacity (D<sup>2</sup> = 22.5%; 
+     <italic>
+      P
+     </italic>&lt;0.001), C3 megaphyll plant growth index (D<sup>2</sup> = 19.5%; 
+     <italic>
+      P
+     </italic>&lt;0.001) and decrease with annual mean radiation (D<sup>2</sup> = 21.9%; 
+     <italic>
+      P
+     </italic>&lt;0.001) (
+     <xref ref-type="table" rid="pone-0089084-t001">
+      Table 1
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0089084-g002">
+      Fig. 2
+     </xref>). Spatial projection of the species richness model showed moist coastal mountainous areas as having the greatest predicted species richness, while communities where predicted richness was lowest occurred in the drier inland areas in the south of the region (
+     <xref ref-type="fig" rid="pone-0089084-g003">
+      Fig. 3A
+     </xref>).</p> 
+    <fig id="pone-0089084-g002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0089084.g002
+     </object-id>
+     <label>Figure 2</label> 
+     <title>Species richness model response functions.</title> 
+     <p>Plant species richness as a function of each of the nine explanatory variables included in the model of plant species richness ((
+      <italic>
+       A
+      </italic>)–(
+      <italic>
+       I
+      </italic>)). The line shows the fitted relationship in the model, while observed data for the 527 community survey sites are shown by the open circles (richness scaled to grid cell area).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.g002" position="float" xlink:type="simple" />
+    </fig>
+    <fig id="pone-0089084-g003" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0089084.g003
+     </object-id>
+     <label>Figure 3</label> 
+     <title>Predicted plant diversity attributes.</title> 
+     <p>Predictions across the study region of: (
+      <italic>
+       A
+      </italic>) species richness; (
+      <italic>
+       B
+      </italic>) median area of occurrence of species within each community; (
+      <italic>
+       C
+      </italic>) the number of species present that are endemic to a circular area of radius 30 km centred on each community, and; (
+      <italic>
+       D
+      </italic>) the number of primitive angiosperm families represented in each community (250 m grid cell).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.g003" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0089084-t001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0089084.t001
+     </object-id>
+     <label>Table 1</label> 
+     <title>Variable contribution to the Generalised Additive Model of plant species richness for the Australian Wet Tropics.</title> 
+     <alternatives>
+      <graphic id="pone-0089084-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.t001" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">All variable model</td> 
+         <td align="left" rowspan="1" colspan="1">Single variable model</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Variable</td> 
+         <td align="left" rowspan="1" colspan="1">% deviance lost</td> 
+         <td align="left" rowspan="1" colspan="1">% deviance explained</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Annual mean radiation</td> 
+         <td align="left" rowspan="1" colspan="1">0.8
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">21.9
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Annual precipitation</td> 
+         <td align="left" rowspan="1" colspan="1">0.4
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">25.1
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Isothermality</td> 
+         <td align="left" rowspan="1" colspan="1">0.4
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">5.0
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Minimum temp. coldest period</td> 
+         <td align="left" rowspan="1" colspan="1">2.5
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">11.7
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">C3 megaphyll growth index</td> 
+         <td align="left" rowspan="1" colspan="1">3.4
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">19.5
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">C3 mesophyll growth index</td> 
+         <td align="left" rowspan="1" colspan="1">3.4
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">12.7
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Soil depth</td> 
+         <td align="left" rowspan="1" colspan="1">5.0
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">17.9
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Soil PAW holding capacity</td> 
+         <td align="left" rowspan="1" colspan="1">9.0
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">22.5
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Weathering index</td> 
+         <td align="left" rowspan="1" colspan="1">6.1
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">6.8
+          <xref ref-type="table-fn" rid="nt101">
+           **
+          </xref></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt101">
+       <label></label>
+       <p>**
+        <italic>
+         P
+        </italic>&lt;0.001; PAW = Plant available water; temp. = temperature.</p>
+      </fn>
+      <fn id="nt102">
+       <label></label>
+       <p>For the full model of plant species richness (all variable model), the null deviance = 44,424, the residual deviance = 26,359, the residual degrees of freedom = 499, the deviance explained = 40.7% and the model 
+        <italic>
+         P
+        </italic>-value &lt;0.001.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>The model of compositional dissimilarity for plant communities in the Australian Wet Tropics included seven independent climate and substrate variables, plus geographic distance, and explained 34.2% of the total deviance (
+     <xref ref-type="table" rid="pone-0089084-t002">
+      Table 2
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0089084-g004">
+      Fig. 4
+     </xref>). The strongest relationships between compositional dissimilarity and individual environmental variables were for annual precipitation (D<sup>2</sup> = 23.8%; 
+     <italic>
+      P
+     </italic>&lt;0.001), annual mean radiation (D<sup>2</sup> = 16.6%; 
+     <italic>
+      P
+     </italic>&lt;0.001) and C3 megaphyll plant growth index (D<sup>2</sup> = 16.7%; 
+     <italic>
+      P
+     </italic>&lt;0.001) (
+     <xref ref-type="table" rid="pone-0089084-t002">
+      Table 2
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0089084-g004">
+      Fig. 4
+     </xref>). In the full model with all eight variables, the amount of deviance in compositional dissimilarity explained solely by geographic distance was relatively low (lost D<sup>2</sup> when removed = 0.3%; 
+     <xref ref-type="table" rid="pone-0089084-t002">
+      Table 2
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0089084-g004">
+      Fig. 4H
+     </xref>).</p> 
+    <fig id="pone-0089084-g004" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0089084.g004
+     </object-id>
+     <label>Figure 4</label> 
+     <title>Compositional dissimilarity model response functions.</title> 
+     <p>GDM transformed environmental values as a function of the original environmental values for each of the eight explanatory variables included in the model of community compositional dissimilarity ((
+      <italic>
+       A
+      </italic>) – (
+      <italic>
+       H
+      </italic>)). The relative y-axis (transformed) range for the response of each variable indicates the relative strength of that variable in determining compositional dissimilarity, while the nonlinearity of the response indicates which sections of the environmental gradient have steeper predicted compositional dissimilarity.</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.g004" position="float" xlink:type="simple" />
+    </fig>
+    <table-wrap id="pone-0089084-t002" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0089084.t002
+     </object-id>
+     <label>Table 2</label> 
+     <title>Variable contribution to the Generalised Dissimilarity Model of pairwise community compositional dissimilarity for plants in the Australian Wet Tropics.</title> 
+     <alternatives>
+      <graphic id="pone-0089084-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.t002" xlink:type="simple" /> 
+      <table>
+       <colgroup span="1">
+        <col align="left" span="1">
+        <col align="center" span="1">
+        <col align="center" span="1">
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1"></td> 
+         <td align="left" rowspan="1" colspan="1">All variable model</td> 
+         <td align="left" rowspan="1" colspan="1">Single variable model</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Variable</td> 
+         <td align="left" rowspan="1" colspan="1">% deviance lost</td> 
+         <td align="left" rowspan="1" colspan="1">% deviance explained</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Annual precipitation</td> 
+         <td align="left" rowspan="1" colspan="1">3.1
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">23.8
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Maximum temp. warmest period</td> 
+         <td align="left" rowspan="1" colspan="1">0.5
+          <xref ref-type="table-fn" rid="nt103">
+           *
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">3.4
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Annual mean radiation</td> 
+         <td align="left" rowspan="1" colspan="1">0.6
+          <xref ref-type="table-fn" rid="nt103">
+           *
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">16.6
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">C3 megaphyll growth index</td> 
+         <td align="left" rowspan="1" colspan="1">0.5
+          <xref ref-type="table-fn" rid="nt103">
+           *
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">16.7
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">C3 mesophyll growth index</td> 
+         <td align="left" rowspan="1" colspan="1">0.7
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">11.9
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Soil PAW holding capacity</td> 
+         <td align="left" rowspan="1" colspan="1">2.0
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">10.1
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Soil nutrient status</td> 
+         <td align="left" rowspan="1" colspan="1">0.3
+          <xref ref-type="table-fn" rid="nt103">
+           *
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">4.8
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Geographic distance</td> 
+         <td align="left" rowspan="1" colspan="1">0.3
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+         <td align="left" rowspan="1" colspan="1">7.7
+          <xref ref-type="table-fn" rid="nt104">
+           **
+          </xref></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives>
+     <table-wrap-foot>
+      <fn id="nt103">
+       <label></label>
+       <p>*
+        <italic>
+         P
+        </italic>&lt;0.01;</p>
+      </fn>
+      <fn id="nt104">
+       <label></label>
+       <p>**
+        <italic>
+         P
+        </italic>&lt;0.001; PAW = Plant available water; temp. = temperature.</p>
+      </fn>
+      <fn id="nt105">
+       <label></label>
+       <p>For the full model of plant community compositional dissimilarity, the number of site pairs = 138,601, the intercept = 0.349, the null deviance = 48,010, the residual deviance = 31,568, the deviance explained = 34.2% and the model 
+        <italic>
+         P
+        </italic>-value &lt;0.001.</p>
+      </fn>
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>We combined the model predictions of species richness for all 1,397,833 communities (grid cells) across the region with the model predictions of compositional dissimilarity between each pair of communities, to predict the current composition of every community using the 
+     <italic>
+      Dynamic
+     </italic>FOAM algorithm 
+     <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+      [26]
+     </xref>. Across the ten replicate 
+     <italic>
+      Dynamic
+     </italic>FOAM solutions generated for the region, the proportion of species occurrences correctly predicted was 0.406 (±5.2×10<sup>−3</sup>) with correctly predicted occurrences significantly (
+     <italic>
+      P
+     </italic>&lt;0.01) more frequent than random, while the mean absolute error in predicted Sorensen’s dissimilarity between site pairs was 0.050 (±1.9×10<sup>−4</sup>) (
+     <xref ref-type="supplementary-material" rid="pone.0089084.s003">
+      Fig. S3
+     </xref>).</p> 
+    <p>Applying the predictions of the composition of every community (i.e. grid cell) across the region, we calculated three biodiversity metrics. First, we found that communities predicted to contain the rarest species (lowest median area of occurrence) were located in high altitude locations within the tropical forests (
+     <xref ref-type="fig" rid="pone-0089084-g003">
+      Fig. 3B
+     </xref>). However, communities with the greatest predicted density of species endemic to the surrounding area of 30 km radius were concentrated in two locations: (1) the North Johnstone River in the Atherton Tablelands area, and (2) the Daintree rainforest around Thornton Peak (
+     <xref ref-type="fig" rid="pone-0089084-g003">
+      Fig. 3C
+     </xref>). Finally, communities containing the largest number of “primitive” angiosperm families (described in 
+     <xref ref-type="bibr" rid="pone.0089084-Metcalfe1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0089084-Metcalfe2">
+      [39]
+     </xref>) were predicted to occur more evenly across the area of wet tropical forest (
+     <xref ref-type="fig" rid="pone-0089084-g003">
+      Fig. 3D
+     </xref>). When the three attributes of plant biodiversity considered here (
+     <xref ref-type="fig" rid="pone-0089084-g003">
+      Fig. 3
+     </xref>) were combined with species richness (
+     <xref ref-type="fig" rid="pone-0089084-g003">
+      Fig. 3A
+     </xref>) in a single index of conservation value, habitat within two areas (Atherton Tablelands, Daintree rainforest) were predicted to have the greatest overall value for conserving plant diversity in the Australian Wet Tropics (
+     <xref ref-type="fig" rid="pone-0089084-g005">
+      Fig. 5
+     </xref>).</p> 
+    <fig id="pone-0089084-g005" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0089084.g005
+     </object-id>
+     <label>Figure 5</label> 
+     <title>Predicted conservation value.</title> 
+     <p>Predictions of the overall conservation value for plant diversity of each community (grid cell) in the Australian Wet Tropics, as synthesised across the four different elements of diversity we considered (from Fig. 3).</p> 
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0089084.g005" position="float" xlink:type="simple" />
+    </fig>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>Drivers of Diversity</title> 
+     <p>To identify conservation and management actions that are likely to best retain the diversity of tropical forests over time, we need to rapidly improve our understanding of current biodiversity in these systems. Here we have demonstrated how macroecological modelling can overcome shortfalls in our knowledge of diversity in tropical forests 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany3">
+       [40]
+      </xref>, providing valuable new insight into current patterns plus identifying priority areas for conservation and management. Although the Australian Wet Tropics are some of the world’s best studied tropical rain forest, the same macroecological modelling approaches can be successfully applied in systems where biological information is much more limited, as the proportion of occurrences correctly predicted by the method is relatively insensitive to the amount of community survey data included in the analyses, at all but extremely low levels of input data 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+       [26]
+      </xref>.</p> 
+     <p>For the Australian Wet Tropics, our continuous predictions of species richness, compositional dissimilarity and community composition for the 4,313 vascular plant species recorded in the region highlight which areas are likely to contain the greatest species richness (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3A
+      </xref>), the most rare species (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3B
+      </xref>), the greatest concentration of endemic species (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3C
+      </xref>), and the greatest representation of “primitive” angiosperm families (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3D
+      </xref>).These continuous predictions of plant diversity offer substantial advances over previous categorical assessment of vegetation patterns in the Australian Wet Tropics 
+      <xref ref-type="bibr" rid="pone.0089084-Stanton1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Tracey2">
+       [13]
+      </xref>.</p> 
+     <p>For both the models of species richness and compositional dissimilarity, annual precipitation was the most important individual predictor (
+      <xref ref-type="table" rid="pone-0089084-t001">
+       Tables 1
+      </xref>,
+      <xref ref-type="table" rid="pone-0089084-t002">
+       2
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0089084-g002">
+       Figs. 2B
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0089084-g004">
+       4A
+      </xref>), supporting substantial previous research in both the Australian Wet Tropics and other tropical forests 
+      <xref ref-type="bibr" rid="pone.0089084-Carson1">
+       [4]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Hilbert1">
+       [15]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Engelbrecht1">
+       [41]
+      </xref>. Outcomes for these tropical forests under climate change are therefore likely to strongly depend upon the nature of any concomitant changes in precipitation 
+      <xref ref-type="bibr" rid="pone.0089084-Hilbert2">
+       [16]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Malhi1">
+       [42]
+      </xref>. Other important explanatory variables were also shared by the macroecological models of species richness and compositional dissimilarity, including annual mean radiation and C3 megaphyll plant growth index (
+      <xref ref-type="table" rid="pone-0089084-t001">
+       Tables 1
+      </xref>,
+      <xref ref-type="table" rid="pone-0089084-t002">
+       2
+      </xref>; 
+      <xref ref-type="fig" rid="pone-0089084-g002">
+       Fig. 2
+      </xref>,
+      <xref ref-type="fig" rid="pone-0089084-g004">
+       4
+      </xref>). Although both of these variables incorporate components of energy and temperature 
+      <xref ref-type="bibr" rid="pone.0089084-Xu1">
+       [30]
+      </xref>, they are also likely to be important through their relationship with moisture availability.</p> 
+    </sec>
+    <sec id="s4b"> 
+     <title>Spatial Projection of Plant Diversity</title> 
+     <p>Here we have demonstrated how the predictions of the species richness and compositional dissimilarity models can be combined using 
+      <italic>
+       Dynamic
+      </italic>FOAM 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany1">
+       [26]
+      </xref>, to predict the composition of every community across the region (n = 1,397,833). These complete metacommunity predictions can then be analysed in numerous ways to identify both major patterns in diversity and priorities for conservation or management. For example, in the Australian Wet Tropics, the communities predicted to contain the most rare species are not consistently those with the greatest species richness, but rather are areas with combinations of both moderately high species richness and high compositional dissimilarity to all other communities (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Figs. 3A,B
+      </xref>).</p> 
+     <p>Another useful application of the predictions of community composition is in identifying areas of high species endemism. Areas that possess large numbers of endemic species are of particularly high value for conservation, through minimising the threat of extinction for the endemic species occurring there and because these areas may be important refuges for many other species under climate change 
+      <xref ref-type="bibr" rid="pone.0089084-Moritz1">
+       [43]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Carnaval1">
+       [44]
+      </xref>. Our analyses of species endemism within surrounding areas of 30 km radius identified two major centres of endemism for vascular plants: the North Johnstone River in the Atherton Tablelands, and; the Daintree rainforest around Thornton Peak (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3C
+      </xref>). Interestingly, these predictions generally align with those of Nix &amp; Switzer 
+      <xref ref-type="bibr" rid="pone.0089084-Nix1">
+       [14]
+      </xref>, who identified two large rainforest refugia in the same areas of the Australian Wet Tropics, by modelling the distribution of “rainforest”, as a vegetation category, back to the last glacial maximum.</p> 
+     <p>The Australian Wet Tropics flora has particular value globally for the large representation of “primitive” angiosperm families (13 out of 28) as described by Metcalfe and Ford 
+      <xref ref-type="bibr" rid="pone.0089084-Metcalfe1">
+       [6]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Metcalfe2">
+       [39]
+      </xref>. Here we combined our predictions of plant community composition across the region with the identities of the 13 primitive angiosperm families, to quantify the predicted number of primitive angiosperm families occurring within each community (grid cell) (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3D
+      </xref>). While the density of primitive angiosperm families corresponds roughly with overall plant species richness (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3A
+      </xref>), communities in which primitive angiosperm families are best represented are not consistently those with the most species.</p> 
+    </sec>
+    <sec id="s4c"> 
+     <title>Conservation and Management Implications</title> 
+     <p>Identifying priority areas for conservation and management often requires consideration of a range of biodiversity features 
+      <xref ref-type="bibr" rid="pone.0089084-Moilanen1">
+       [45]
+      </xref>. These multiple features of biodiversity may be weighted in different ways for specific conservation applications, with a range of alternative algorithms and software available to achieve this 
+      <xref ref-type="bibr" rid="pone.0089084-Moilanen1">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Ball1">
+       [46]
+      </xref>. Here we demonstrate how the predictions for multiple attributes of diversity emerging from our macroecological analyses (
+      <xref ref-type="fig" rid="pone-0089084-g003">
+       Fig. 3
+      </xref>) can be simply synthesised into a single index of conservation value (
+      <xref ref-type="fig" rid="pone-0089084-g005">
+       Fig. 5
+      </xref>). For more specific applications, other attributes of diversity could be additionally considered, the importance of specific diversity attributes could be weighted, or our predictions of diversity could be used in iterative assessment of alternative conservation/management options to incorporate complementarity between areas. Here, however, we simply demonstrate the potential for deriving a single measure of conservation value that is clearly composed of different elements of biodiversity that are perceived to be important.</p> 
+     <p>For the Australian Wet Tropics, the Atherton Tablelands and Daintree rainforest areas were predicted to have the greatest overall conservation value for plant diversity (
+      <xref ref-type="fig" rid="pone-0089084-g005">
+       Fig. 5
+      </xref>), possessing combinations of high species richness, many rare and endemic species, plus many primitive angiosperm families. The prediction of high conservation value for the Atherton Tablelands is of particular relevance for conservation and management, given the high levels of habitat loss already incurred in this area (
+      <xref ref-type="fig" rid="pone-0089084-g001">
+       Fig. 1
+      </xref>). Indices of overall conservation value (
+      <xref ref-type="fig" rid="pone-0089084-g005">
+       Fig. 5
+      </xref>) could be used to identify priorities for new protected areas in the region, capturing any high-value tropical forest currently outside the reserve estate. Our predicted conservation value could also be applied in targeting priority locations for management actions such as alien invasive species control measures or habitat restoration efforts, so that they best contribute to the maintenance of native plant diversity.</p> 
+    </sec>
+    <sec id="s4d"> 
+     <title>Future Directions</title> 
+     <p>Here we have extended our knowledge of current patterns in plant diversity for the Australian Wet Tropics, through continuous modelling and prediction of species richness, compositional dissimilarity and complete metacommunity composition. We have applied these predictions to identify current priority areas for conservation and management, however, a thorough assessment of alternative management scenarios to retain biodiversity over time requires a more dynamic modelling approach. Indeed, the models and predictions of community composition generated here could form the basis for semi-mechanistic macroecological modelling to assess spatiotemporally explicit outcomes for biodiversity under specified climate and management scenarios 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany4">
+       [47]
+      </xref>. Such semi-mechanistic modelling can incorporate dynamic dispersal processes and could be applied to help identify adaptive management actions under climate change 
+      <xref ref-type="bibr" rid="pone.0089084-Mokany5">
+       [48]
+      </xref>. Improved projections for plant diversity under alternative climate and management scenarios could also contribute to improving our understanding of likely outcomes for the diverse fauna that inhabit these tropical forests 
+      <xref ref-type="bibr" rid="pone.0089084-Williams2">
+       [49]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0089084-Shoo1">
+       [50]
+      </xref>.</p> 
+    </sec>
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0089084.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0089084.s001" position="float" xlink:type="simple">
+     <label>Figure S1</label> 
+     <p>The proportion of QLD Herbarium Corveg survey sites that contain different proportions of taxa not identified to species level, and the spatial distribution of the retained and omitted data across the Australian Wet Tropics.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0089084.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0089084.s002" position="float" xlink:type="simple">
+     <label>Figure S2</label> 
+     <p>The proportion of records omitted from the retained QLD Herbarium survey sites as a function of the total number of taxa recorded, and the spatial distribution of sites.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0089084.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pone.0089084.s003" position="float" xlink:type="simple">
+     <label>Figure S3</label> 
+     <p>The difference between pairwise dissimilarity from the 
+      <italic>
+       Dynamic
+      </italic>FOAM predicted community compositions for the Australian Wet Tropics and both the pairwise dissimilarity predicted by the Generalised Dissimilarity Model and the observed dissimilarity from the community survey sites.</p> 
+     <p>(DOCX)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We thank the Queensland Herbarium and K.J Williams for providing biological and environmental data. The CSIRO survey data were collected under permits issued by the Queensland State Government.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0089084-Dirzo1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dirzo
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raven
+        </surname>
+        <given-names>
+         PH
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Global state of biodiversity and loss
+       </article-title>. 
+       <source>Annual Review of Environment and Resources 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        137
+       </fpage>–
+       <lpage>
+        167
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Bradshaw1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bradshaw
+        </surname>
+        <given-names>
+         CJA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sodhi
+        </surname>
+        <given-names>
+         NS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brook
+        </surname>
+        <given-names>
+         BW
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Tropical turmoil: a biodiversity tragedy in progress
+       </article-title>. 
+       <source>Frontiers in Ecology and the Environment 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        87
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Lomolino1">
+      <label>3</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Lomolino M (2004) Conservation biogeography. In: Lomolino M, Heaney L, editors. Frontiers of Biogeography: new directions in the geography of nature. Sunderland, Massachusetts: Sinauer Associates. 293–296.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Carson1">
+      <label>4</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Carson WP, Schnitzer SA, editors (2008) Tropical Forest Community Ecology. Chichester: Wiley-Blackwell. 536 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Elith1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Elith
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leathwick
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Species Distribution Models: Ecological Explanation and Prediction Across Space and Time
+       </article-title>. 
+       <source>Annual Review of Ecology Evolution and Systematics 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        677
+       </fpage>–
+       <lpage>
+        697
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Metcalfe1">
+      <label>6</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Metcalfe DJ, Ford AJ (2009) Floristics and Plant Biodiversity of the Rainforests of the Wet Tropics. In: Stork N, Turton SM, editors. Living in a Dynamic Tropical Forest Landscape: Blackwell Publishing. 123–132.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Webb1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Webb
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name> (
+       <year>
+        1959
+       </year>) 
+       <article-title>
+        A Physiognomic Classification of Australian Rain Forests
+       </article-title>. 
+       <source>Journal of Ecology 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        551
+       </fpage>–
+       <lpage>
+        570
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Webb2">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Webb
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name> (
+       <year>
+        1968
+       </year>) 
+       <article-title>
+        Environmental Relationships of the Structural Types of Australian Rain Forest Vegetation
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        296
+       </fpage>–
+       <lpage>
+        311
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Williams1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tracey
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1984
+       </year>) 
+       <article-title>
+        Network Analysis of Northern Queensland Tropical Rainforests
+       </article-title>. 
+       <source>Australian Journal of Botany 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        109
+       </fpage>–
+       <lpage>
+        116
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Tracey1">
+      <label>10</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Tracey J (1982) The vegetation of the humid tropical region of North Queensland. Melbourne: CSIRO Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Sattler1">
+      <label>11</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Sattler PS, Williams RD (1999) The Conservation Status of Queensland’s Bioregional Ecosystems. Brisbane: Environmental Protection Agency.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Stanton1">
+      <label>12</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Stanton P, Stanton D (2005) Vegetation of the Wet Tropics of Queensland Bioregion. Cairns: Wet Tropics Management Authority.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Tracey2">
+      <label>13</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Tracey J, Webb L (1975) Vegetation of the Humid Tropical Region of North Queensland. Indooroopilly, Australia: CSIRO.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Nix1">
+      <label>14</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nix H, Switzer M (1991) Rainforest animals: atlas of vertebrates endemic to Australia’s wet tropics. Canberra: Australian National Parks and Wildlife Service.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Hilbert1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hilbert
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Den Muyzenberg
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Using an artificial neural network to characterize the relative suitability of environments for forest types in a complex tropical vegetation mosaic
+       </article-title>. 
+       <source>Diversity and Distributions 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        263
+       </fpage>–
+       <lpage>
+        274
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Hilbert2">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hilbert
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hopkins
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Glacial and interglacial refugia within a long-term rainforest refugium: The wet tropics bioregion of NE Queensland, Australia
+       </article-title>. 
+       <source>Palaeogeography Palaeoclimatology Palaeoecology 
+       <volume>
+        251
+       </volume>: 
+       <fpage>
+        104
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-VanDerWal1">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         VanDerWal
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shoo
+        </surname>
+        <given-names>
+         LP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        New approaches to understanding late Quaternary climate fluctuations and refugial dynamics in Australian wet tropical rain forests
+       </article-title>. 
+       <source>Journal of Biogeography 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        291
+       </fpage>–
+       <lpage>
+        301
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Graham1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         VanDerWal
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Phillips
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moritz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Dynamic refugia and species persistence: tracking spatial shifts in habitat through time
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        1062
+       </fpage>–
+       <lpage>
+        1069
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Hilbert3">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hilbert
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ostendorf
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hopkins
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Sensitivity of tropical forests to climate change in the humid tropics of north Queensland
+       </article-title>. 
+       <source>Austral Ecology 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        590
+       </fpage>–
+       <lpage>
+        603
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Ostendorf1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ostendorf
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hilbert
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hopkins
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        The effect of climate change on tropical rainforest vegetation pattern
+       </article-title>. 
+       <source>Ecological Modelling 
+       <volume>
+        145
+       </volume>: 
+       <fpage>
+        211
+       </fpage>–
+       <lpage>
+        224
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Ferrier1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guisan
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Spatial modelling of biodiversity at the community level
+       </article-title>. 
+       <source>Journal of Applied Ecology 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        393
+       </fpage>–
+       <lpage>
+        404
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Currie1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Currie
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Projected effects of climate change on patterns of vertebrate and tree species richness in the conterminous United States
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        216
+       </fpage>–
+       <lpage>
+        225
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Ferrier2">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manion
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Elith
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Richardson
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Using generalized dissimilarity modelling to analyse and predict patterns of beta diversity in regional biodiversity assessment
+       </article-title>. 
+       <source>Diversity &amp; Distributions 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        252
+       </fpage>–
+       <lpage>
+        264
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-TerSteege1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ter Steege
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pitman
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sabatier
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Castellanos
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Der Hout
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        A spatial model of tree α-diversity and tree density for the Amazon
+       </article-title>. 
+       <source>Biodiversity &amp; Conservation 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        2255
+       </fpage>–
+       <lpage>
+        2277
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Jones1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Condit
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Manion
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aguilar
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Strong congruence in tree and fern community turnover in response to soils and climate in central Panama
+       </article-title>. 
+       <source>Journal of Ecology 
+       <volume>
+        101
+       </volume>: 
+       <fpage>
+        506
+       </fpage>–
+       <lpage>
+        516
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Mokany1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harwood
+        </surname>
+        <given-names>
+         TD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Overton
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barker
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Combining a- and B-diversity models to fill gaps in our knowledge of biodiversity
+       </article-title>. 
+       <source>Ecology Letters 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        1043
+       </fpage>–
+       <lpage>
+        1051
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Neldner1">
+      <label>27</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       Neldner VJ, Wilson BA, Thompson EJ, Dillewaard HA (2012) Methodology for Survey and Mapping of Regional Ecosystems and Vegetation Communities in Queensland. Brisbane: Queensland Herbarium, Queensland Department of Science, Information Technology, Innovation and the Arts. 124 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Mayfield1">
+      <label>28</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Mayfield MM, Dwyer JM, Chalmandrier L, Wells J, Bonser SP, 
+       <etal>
+        et al
+       </etal>.. (2013) Differences in forest plant functional trait distributions across land use and productivity gradients. American Journal of Botany: (in press).
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Bostock1">
+      <label>29</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Bostock PD, Holland AE (2010) Census of the Queensland Flora 2010. Brisbane: Queensland Herbarium, Department of Environment and Resource Management.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Xu1">
+      <label>30</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Xu T, Hutchinson M (2010) ANUClim Version 6.1 User Guide. Canberra: Fenner School of Environment and Society, The Australian National University.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-McKenzie1">
+      <label>31</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       McKenzie N, Jacquier D, Cresswell H (2000) Estimation of Soil Properties Using the Atlas of Australian Soils. Canberra: CSIRO.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Western1">
+      <label>32</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Western A, McKenzie N (2004) Soil hydrological properties of Australia. Melbourne: CRC for Catchment Hydrology.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Raymond1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Raymond
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        New digital geological map of Australia
+       </article-title>. 
+       <source>AusGeo News 
+       <volume>
+        93
+       </volume>: 
+       <fpage>
+        3
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Wilford1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wilford
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        A weathering intensity index for the Australian continent using airborne gamma-ray spectrometry and digital terrain analysis
+       </article-title>. 
+       <source>Geoderma 
+       <volume>
+        183–184
+       </volume>: 
+       <fpage>
+        124
+       </fpage>–
+       <lpage>
+        142
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Mokany2">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harwood
+        </surname>
+        <given-names>
+         TD
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Scaling pairwise 
+        <italic>
+         β
+        </italic>-diversity and 
+        <italic>
+         α
+        </italic>-diversity with area
+       </article-title>. 
+       <source>Journal of Biogeography 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        2299
+       </fpage>–
+       <lpage>
+        2309
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Lehmann1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lehmann
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Overton
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leathwick
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        GRASP: generalized regression analysis and spatial prediction
+       </article-title>. 
+       <source>Ecological Modelling 
+       <volume>
+        160
+       </volume>: 
+       <fpage>
+        165
+       </fpage>–
+       <lpage>
+        183
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-R1">
+      <label>37</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team (2012) R: A Language and Environment for Statistical Computing. Vienna, Austria: R Foundation for Statistical Computing.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Overton1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Overton
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barker
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Price
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Estimating and conserving patterns of invertebrate diversity: a test case of New Zealand land snails
+       </article-title>. 
+       <source>Diversity &amp; Distributions 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        731
+       </fpage>–
+       <lpage>
+        741
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Metcalfe2">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Metcalfe
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ford
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        A re-evaluation of Queensland’s Wet Tropics based on “primitive” plants
+       </article-title>. 
+       <source>Pacific Conservation Biology 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        80
+       </fpage>–
+       <lpage>
+        86
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Mokany3">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Predicting impacts of climate change on biodiversity: a role for semi-mechanistic community-level modelling
+       </article-title>. 
+       <source>Diversity &amp; Distributions 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        374
+       </fpage>–
+       <lpage>
+        380
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Engelbrecht1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Engelbrecht
+        </surname>
+        <given-names>
+         BMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Comita
+        </surname>
+        <given-names>
+         LS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Condit
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kursar
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tyree
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Drought sensitivity shapes species distribution patterns in tropical forests
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        447
+       </volume>: 
+       <fpage>
+        80
+       </fpage>–
+       <lpage>
+        82
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Malhi1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Malhi
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aragao
+        </surname>
+        <given-names>
+         LEOC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galbraith
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huntingford
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Exploring the likelihood and mechanism of a climate-change-induced dieback of the Amazon rainforest
+       </article-title>. 
+       <source>Proceedings of the National Academy of Sciences 
+       <volume>
+        106
+       </volume>: 
+       <fpage>
+        20610
+       </fpage>–
+       <lpage>
+        20615
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Moritz1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moritz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Richardson
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Monteith
+        </surname>
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stanisic
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Biogeographical concordance and efficiency of taxon indicators for establishing conservation priority in a tropical rainforest biota
+       </article-title>. 
+       <source>Proceedings of the Royal Society of London Series B: Biological Sciences 
+       <volume>
+        268
+       </volume>: 
+       <fpage>
+        1875
+       </fpage>–
+       <lpage>
+        1881
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Carnaval1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carnaval
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hickerson
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Haddad
+        </surname>
+        <given-names>
+         CFB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rodrigues
+        </surname>
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moritz
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Stability Predicts Genetic Diversity in the Brazilian Atlantic Forest Hotspot
+       </article-title>. 
+       <source>Science 
+       <volume>
+        323
+       </volume>: 
+       <fpage>
+        785
+       </fpage>–
+       <lpage>
+        789
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Moilanen1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moilanen
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Landscape Zonation, benefit functions and target-based planning: Unifying reserve selection strategies
+       </article-title>. 
+       <source>Biological Conservation 
+       <volume>
+        134
+       </volume>: 
+       <fpage>
+        571
+       </fpage>–
+       <lpage>
+        579
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Ball1">
+      <label>46</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Ball IR, Possingham HP, Watts M (2009) Marxan and relatives: Software for spatial conservation prioritisation. In: Moilanen A, Wilson K, Possingham H, editors. Spatial conservation prioritisation: Quantitative methods and computational tools. Oxford: Oxford University Press. 185–195.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Mokany4">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harwood
+        </surname>
+        <given-names>
+         TD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Dynamic macroecology and the future for biodiversity
+       </article-title>. 
+       <source>Global Change Biology 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        3149
+       </fpage>–
+       <lpage>
+        3159
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Mokany5">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mokany
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harwood
+        </surname>
+        <given-names>
+         TD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ferrier
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Comparing habitat configuration strategies for retaining biodiversity under climate change
+       </article-title>. 
+       <source>Journal of Applied Ecology 
+       <volume>
+        50
+       </volume>: 
+       <fpage>
+        519
+       </fpage>–
+       <lpage>
+        527
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Williams2">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bolitho
+        </surname>
+        <given-names>
+         EE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fox
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Climate change in Australian tropical rainforests: an impending environmental catastrophe
+       </article-title>. 
+       <source>Proceedings of the Royal Society of London Series B-Biological Sciences 
+       <volume>
+        270
+       </volume>: 
+       <fpage>
+        1887
+       </fpage>–
+       <lpage>
+        1892
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0089084-Shoo1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shoo
+        </surname>
+        <given-names>
+         LP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hero
+        </surname>
+        <given-names>
+         J-M
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Climate warming and the rainforest birds of the Australian Wet Tropics: Using abundance data as a sensitive predictor of change in total population size
+       </article-title>. 
+       <source>Biological Conservation 
+       <volume>
+        125
+       </volume>: 
+       <fpage>
+        335
+       </fpage>–
+       <lpage>
+        343
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>

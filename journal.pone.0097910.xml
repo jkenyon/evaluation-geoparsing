@@ -1,0 +1,4378 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-13-37099
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0097910
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subject>
+          Spatial and landscape ecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Computer and information sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geoinformatics
+        </subject>
+        <subj-group>
+         <subject>
+          Remote sensing imagery
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geography
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Conservation science
+        </subject>
+       </subj-group>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Biodiversity Mapping in a Tropical West African Forest with Airborne Hyperspectral Data
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Tropical Forest Biodiversity Mapping
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vaglio Laurin
+        </surname>
+        <given-names>
+         Gaia
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff6">
+        <sup>6</sup>
+       </xref>
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chan
+        </surname>
+        <given-names>
+         Jonathan Cheung-Wai
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff11">
+        <sup>11</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Qi
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff3">
+        <sup>3</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lindsell
+        </surname>
+        <given-names>
+         Jeremy A.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff4">
+        <sup>4</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff8">
+        <sup>8</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Coomes
+        </surname>
+        <given-names>
+         David A.
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff5">
+        <sup>5</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Guerriero
+        </surname>
+        <given-names>
+         Leila
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff6">
+        <sup>6</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Frate
+        </surname>
+        <given-names>
+         Fabio Del
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff6">
+        <sup>6</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Miglietta
+        </surname>
+        <given-names>
+         Franco
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff2">
+        <sup>2</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff9">
+        <sup>9</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff10">
+        <sup>10</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff12">
+        <sup>12</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Valentini
+        </surname>
+        <given-names>
+         Riccardo
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1">
+        <sup>1</sup>
+       </xref>
+       <xref ref-type="aff" rid="aff7">
+        <sup>7</sup>
+       </xref>
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Impacts on Agriculture, Forest, and Natural Ecosystems Division, Euro-Mediterranean Center on Climate Change, Viterbo, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Foxlab, Fondazione Edmund Mach, S. Michele all' Adige, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Department of Geography, University of Hawai'i at Mānoa, Honolulu, Hawaii, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       The Royal Society for the Protection of Birds, Sandy, Bedfordshire, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff5">
+      <label>5</label>
+      <addr-line>
+       Department of Plant Sciences, University of Cambridge, Cambridge, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff6">
+      <label>6</label>
+      <addr-line>
+       Department of Civil Engineering and Computer Sciences Engineering, Tor Vergata University, Rome, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff7">
+      <label>7</label>
+      <addr-line>
+       Department of Forest Resources and Environment, University of Tuscia, Viterbo, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff8">
+      <label>8</label>
+      <addr-line>
+       A Rocha International, Cambridge, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff9">
+      <label>9</label>
+      <addr-line>
+       Institute of Biometeorology, National Research Council, Firenze, Italy
+      </addr-line>
+     </aff> 
+     <aff id="aff10">
+      <label>10</label>
+      <addr-line>
+       Laboratory of Ecohydrology, Civil and Environmental Engineering, École Polytechnique Fédérale, Lausanne, Switzerland
+      </addr-line>
+     </aff> 
+     <aff id="aff11">
+      <label>11</label>
+      <addr-line>
+       Department of Electronics and Informatics, Vrije Universiteit Brussel, Brussels, Belgium
+      </addr-line>
+     </aff> 
+     <aff id="aff12">
+      <label>12</label>
+      <addr-line>
+       MountFor Project Centre European Forest Institute, Fondazione E.Mach, San Michele all' Adige, Italy
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sears
+        </surname>
+        <given-names>
+         Michael
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Clemson University, United States of America
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        gaia.vagliolaurin@cmcc.it
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: GVL RV QC FM. Performed the experiments: GVL JCC. Analyzed the data: GVL JCC FDF LG. Contributed reagents/materials/analysis tools: JCC DAC. Wrote the paper: GVL DAC QC. Field data collection: JAL.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       17
+      </day>
+      <month>
+       6
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      6
+     </issue> 
+     <elocation-id>
+      e97910
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        9
+       </day>
+       <month>
+        9
+       </month>
+       <year>
+        2013
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        26
+       </day>
+       <month>
+        4
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Vaglio Laurin et al
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Tropical forests are major repositories of biodiversity, but are fast disappearing as land is converted to agriculture. Decision-makers need to know which of the remaining forests to prioritize for conservation, but the only spatial information on forest biodiversity has, until recently, come from a sparse network of ground-based plots. Here we explore whether airborne hyperspectral imagery can be used to predict the alpha diversity of upper canopy trees in a West African forest. The abundance of tree species were collected from 64 plots (each 1250 m<sup>2</sup> in size) within a Sierra Leonean national park, and Shannon-Wiener biodiversity indices were calculated. An airborne spectrometer measured reflectances of 186 bands in the visible and near-infrared spectral range at 1 m<sup>2</sup> resolution. The standard deviations of these reflectance values and their first-order derivatives were calculated for each plot from the c. 1250 pixels of hyperspectral information within them. Shannon-Wiener indices were then predicted from these plot-based reflectance statistics using a machine-learning algorithm (Random Forest). The regression model fitted the data well (pseudo-R<sup>2</sup> = 84.9%), and we show that standard deviations of green-band reflectances and infra-red region derivatives had the strongest explanatory powers. Our work shows that airborne hyperspectral sensing can be very effective at mapping canopy tree diversity, because its high spatial resolution allows within-plot heterogeneity in reflectance to be characterized, making it an effective tool for monitoring forest biodiversity over large geographic scales.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       The authors acknowledge the ERC grant Africa GHG #247349 and the Cambridge Conservation Initiative for providing support to the investigation. This work is also supported by the Industry-Academia Partnerships and Pathways programme of the European Commission, Project AIRFORS, contract no: 286079. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="10" />
+     </counts>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Mapping biological diversity is a fundamental conservation priority 
+     <xref ref-type="bibr" rid="pone.0097910-Gaston1">
+      [1]
+     </xref> as threats from habitat loss, fragmentation and climate change 
+     <xref ref-type="bibr" rid="pone.0097910-Thomas1">
+      [2]
+     </xref> continue to increase, and international agreements to reduce biodiversity loss (e.g. the Aichi Biodiversity Targets, CBD 2010) require a basis for prioritizing their response 
+     <xref ref-type="bibr" rid="pone.0097910-Balmford1">
+      [3]
+     </xref>. The need is particularly great for tropical forests, because they are major repositories of plant diversity 
+     <xref ref-type="bibr" rid="pone.0097910-Chapin1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Foody1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Thomas1">
+      [2]
+     </xref>and play a critical role in the global carbon cycle and climate change mitigation, as recognized in international processes such as REDD 
+     <xref ref-type="bibr" rid="pone.0097910-Daz1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Paoli1">
+      [7]
+     </xref>. However, effective large-scale mapping of biodiversity in tropical forests has proven challenging and spatial information about tropical forest biodiversity is scarce.</p> 
+    <p>Airborne and spaceborne sensors are able measure land cover characteristics over large scales so have the potential to map plant biodiversity at these required scales 
+     <xref ref-type="bibr" rid="pone.0097910-Turner1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Oldeland1">
+      [9]
+     </xref>, perhaps because spectral variation of reflectance values are correlated with spatial variation in the environment by means of landscape structure and complexity 
+     <xref ref-type="bibr" rid="pone.0097910-Palmer1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Simonson1">
+      [11]
+     </xref>. The diversity of vegetation was found to relate to the NDVI 
+     <xref ref-type="bibr" rid="pone.0097910-Gould1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Nagendra1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Kerr1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Leyequien1">
+      [15]
+     </xref> and both the richness and evenness of tropical tree species were found to correlate with Landsat TM reflectance 
+     <xref ref-type="bibr" rid="pone.0097910-Foody2">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Foody3">
+      [17]
+     </xref> and spaceborne hyperspectral imagery 
+     <xref ref-type="bibr" rid="pone.0097910-Kalacska1">
+      [18]
+     </xref>. Both the alpha and beta diversity of temperate deciduous forest could be predicted using ASTER imagery 
+     <xref ref-type="bibr" rid="pone.0097910-Feilhauer1">
+      [19]
+     </xref>. In more specific applications, multi-temporal data have been used to discriminate areas occupied by native trees from those dominated by invasive alien species 
+     <xref ref-type="bibr" rid="pone.0097910-Somers1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Somers2">
+      [21]
+     </xref>. Given that canopy-tree diversity is often a good proxy for diversity of other taxonomic groups, remote sensing may have potential for mapping biodiversity in general 
+     <xref ref-type="bibr" rid="pone.0097910-Gentry1">
+      [22]
+     </xref>. Nonetheless, results using spaceborne sensors have so far shown only moderate to poor predictive power, even when using high resolution imagery 
+     <xref ref-type="bibr" rid="pone.0097910-Rocchini1">
+      [23]
+     </xref>, possibly due to low spatial and radiometric resolutions. Furthermore, most sensors on satellites are unable to capture fine-scale variation in biodiversity 
+     <xref ref-type="bibr" rid="pone.0097910-Foody2">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Gould1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Rocchini1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Rocchini2">
+      [24]
+     </xref>.</p> 
+    <p>Airborne hyperspectral sensors enable mapping at the fine scales desired by land managers 
+     <xref ref-type="bibr" rid="pone.0097910-Carlson1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Fret1">
+      [26]
+     </xref>. Hyperspectral data may provide information on how chemical and structural properties of vascular plants vary within and across ecosystems 
+     <xref ref-type="bibr" rid="pone.0097910-Martin1">
+      [27]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Ustin1">
+      [28]
+     </xref> and technological improvements now allow them to be used to monitor terrestrial ecosystem characteristics 
+     <xref ref-type="bibr" rid="pone.0097910-Kumar1">
+      [29]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Thenkabail1">
+      [30]
+     </xref>. Hyperspectral data allow individual tree species to be identified from their signatures collected at the forest scale when using airborne sensors 
+     <xref ref-type="bibr" rid="pone.0097910-Clark1">
+      [31]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Zhang1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Clark2">
+      [33]
+     </xref>. The addition of co-registered LiDAR data further improves performance by identifying intra and inter-canopy shadows which alter species signatures 
+     <xref ref-type="bibr" rid="pone.0097910-Asner1">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Feret1">
+      [35]
+     </xref>. 
+     <xref ref-type="bibr" rid="pone.0097910-Leutner1">
+      [36]
+     </xref> suggested that hyperspectral data reflects environmental conditions acting upon plants, such as soil pH, water availability, nitrogen availability and others, which are known to influence species distributions and community composition.</p> 
+    <p>Few maps of tree biodiversity are available for Africa 
+     <xref ref-type="bibr" rid="pone.0097910-Levin1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Nagendra2">
+      [38]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Jrgens1">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Townsend1">
+      [40]
+     </xref>, so our objective was to assess whether airborne hyperspectral data could be used for this purpose, focusing on canopy-tree biodiversity of a West African moist forest. We estimated alpha-diversity (Shannon-Wiener Index; 
+     <xref ref-type="bibr" rid="pone.0097910-Shannon1">
+      [41]
+     </xref>) in 64 permanently-marked plots in Gola National Park, Sierra Leone, which were also surveyed with a high-resolution airborne spectometer. Among the wide range of modeling tools, we selected Random Forests 
+     <xref ref-type="bibr" rid="pone.0097910-Breiman1">
+      [42]
+     </xref>, a machine learning algorithm which handles high dimensional input with ease and has been demonstrated to function robustly 
+     <xref ref-type="bibr" rid="pone.0097910-Clark2">
+      [33]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Leutner1">
+      [36]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Chan1">
+      [43]
+     </xref>. In previous studies using hyperspectral data, RF has been used by 
+     <xref ref-type="bibr" rid="pone.0097910-Clark2">
+      [33]
+     </xref> to discriminate tropical tree species and by 
+     <xref ref-type="bibr" rid="pone.0097910-Leutner1">
+      [36]
+     </xref> to analyze the species richness of a temperate montane forest in Germany.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>2.1 Study area and field data</title> 
+     <p>The study area is located at the westernmost end of the West African Upper Guinean Forest Belt, in Sierra Leone, covering the central portion of the Gola Rainforest National Park (GRNP) and some of the southern portion (
+      <xref ref-type="fig" rid="pone-0097910-g001">
+       Fig. 1
+      </xref>), and included in an area defined by UTM coordinates (WGS84, 29N) N307591, E858452 (northeast) and N253197, E807411(southwest). GRPN is collaboratively managed by the Royal Society for Protection of Birds, the Conservation Society of Sierra Leone, and the Forestry Division of the Government of Sierra Leone; they provided the permits to collect the field data used in this study, and to fly over the area during airborne data acquisition. Field study did not involve endangered or protected species.</p> 
+     <fig id="pone-0097910-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Gola Rainforest National Park, the study area in Sierra Leone.</title> 
+      <p>The strips of hyperspectral data which have been collected over the area are shown, together with the location of field plots overlapping the strips.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>The region is characterized by lowland moist evergreen forests, with some drier types in place, dominated by Fabaceae, Euphorbiaceae and Sterculiaceae families 
+      <xref ref-type="bibr" rid="pone.0097910-Cole1">
+       [44]
+      </xref>. The GRNP area has been protected through conservation programs since 1989 but commercial logging, most intensively in the southern block, was carried out in 1963–1965 and 1975–1989. Recent land cover mapping highlighted the importance of the GRNP in conserving this forest from anthropogenic pressure in the surrounding areas 
+      <xref ref-type="bibr" rid="pone.0097910-VaglioLaurin1">
+       [45]
+      </xref>. The climate is moist tropical, with annual rainfall around 2500–3000 mm, a dry season from November to April coincident with leaf-off condition of some semi-deciduous tree species, and an altitude of 70–410 m. Floristic information has been derived from a field survey carried out in 2006–2007 
+      <xref ref-type="bibr" rid="pone.0097910-Lindsell1">
+       [46]
+      </xref>. During that survey all trees with a Diameter at Breast Height (DBH) &gt;30 cm were recorded in circular plots sized 0.125 ha. We selected the plots surveyed by an hyperspectral airborne campaign, excluding those located less than 1 km from the park boundary and those affected by cloud shadow in the hyperspectral data, retaining a total of 64 ground truth plots.</p> 
+     <p>The biodiversity of a particular group of organisms in a location can be quantified in terms of richness and evenness 
+      <xref ref-type="bibr" rid="pone.0097910-Magurran1">
+       [47]
+      </xref>. An abundance-based measurement of plant diversity, like the Shannon-Wiener Index, should reflect the structural variability of a landscape much better than species richness, because it captures differences in composition and dominance structure of a given plant community 
+      <xref ref-type="bibr" rid="pone.0097910-Foody2">
+       [16]
+      </xref>. We calculated the Shannon-Wiener index for each plot, according to the formula:
+      <disp-formula id="pone.0097910.e001">
+       <graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0097910.e001" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       p
+       <sub>i</sub>
+      </italic> is the proportion of individuals belonging to the 
+      <italic>
+       i
+      </italic>th species in the plot data (R =  total number of species).</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>2.2 Hyperspectral data</title> 
+     <p>In March 2012 an airborne survey collected hyperspectral data over parts of the Gola GRNP, using an AISA Eagle sensor with FOV equal to 39.7°, set to record 244 bands with 2.3 nm spectral resolution in the 400–1000 nm range and spatial resolution of 1 m after radiometric correction and orthorectification (
+      <xref ref-type="fig" rid="pone-0097910-g002">
+       Fig. 2
+      </xref>). Atmospheric correction of the hyperspectral image strips was performed using the Fast Line-of-Sight Atmospheric Analysis of Spectral Hypercubes (FLAASH) algorithm 
+      <xref ref-type="bibr" rid="pone.0097910-Felde1">
+       [48]
+      </xref>. Due to high noise levels, all the bands out of the 450–900 nm range and four bands in the 759–766 nm range were removed, reducing the total number of bands to 186. Minimum Noise Fraction (MNF) transformation 
+      <xref ref-type="bibr" rid="pone.0097910-Green1">
+       [49]
+      </xref> was used to reduce noise further in the dataset. For each image strip, 9 to 15 MNF components were selected by visual screening and used to compute the inverse MNF and to transform the whole set of bands back to the original data space.</p> 
+     <fig id="pone-0097910-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>A strip of hyperspectral data (in false-color composite at 807.5 (R), 597.3 (G) and 467.3 (B) nm) showed as an example of available imagery, and with overlapped field plots areas, colored in yellow.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.g002" position="float" xlink:type="simple" />
+     </fig> 
+     <p>For each of the 0.125-hectare permanent plots, we extracted hyperspectral information from about 1250 pixels, and summarise these data in three ways: (a) the minimum, maximum, mean, and standard deviation of reflectances were calculated for the 186 hyperspectral bands remaining after data cleaning (n = 744; 186 bands ×4 metrics); (b) first-order derivatives of the hyperspectral reflectance curves can be useful for data analysis, as they allow small variations of the spectral curve to be enhanced and background noise to be suppressed 
+      <xref ref-type="bibr" rid="pone.0097910-Tsai1">
+       [50]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0097910-Gong1">
+       [51]
+      </xref>, so these were generated by dividing the difference between successive reflectance values by the wavelength interval, and then applying a seven-point moving filter to smooth results 
+      <xref ref-type="bibr" rid="pone.0097910-Han1">
+       [52]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0097910-DemetriadesShah1">
+       [53]
+      </xref>; we calculated the minimum, maximum, mean, and standard deviation of the derivative values obtained for each plot (n = 716; 179 derivatives × four metrics); and (c) we calculated the Photochemical Reflectance Index 
+      <xref ref-type="bibr" rid="pone.0097910-Gamon1">
+       [54]
+      </xref>, the Red Edge Normalized Difference Vegetation Index 
+      <xref ref-type="bibr" rid="pone.0097910-Sims1">
+       [55]
+      </xref>, the Atmospherically Resistant Vegetation Index 
+      <xref ref-type="bibr" rid="pone.0097910-Kaufman1">
+       [56]
+      </xref>, the Vogelmann Red Edge Index 
+      <xref ref-type="bibr" rid="pone.0097910-Vogelmann1">
+       [57]
+      </xref>, the Red Green Ratio 
+      <xref ref-type="bibr" rid="pone.0097910-Gamon2">
+       [58]
+      </xref>, the Simple Ratio 
+      <xref ref-type="bibr" rid="pone.0097910-Sellers1">
+       [59]
+      </xref>, and the Anthocyanin Reflectance Index 
+      <xref ref-type="bibr" rid="pone.0097910-Gitelson1">
+       [60]
+      </xref>. We refer to these three datasets as (a) reflectance-based metrics, (b) derivative-based metrics and (c) vegetation indices.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>2.3 Random Forests regression</title> 
+     <p>We predicted the Shannon diversity index from spectral information contained in the three alternative datasets using Random Forests (RF), a machine learning algorithm employed in many different application domains 
+      <xref ref-type="bibr" rid="pone.0097910-Genuer1">
+       [61]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0097910-Breiman1">
+       [42]
+      </xref>. RF is a tree-based ensemble algorithm that generates hundreds or even thousands of alternative models (hence, ‘forests’). In building a tree, instead of using the best split among all variables, the best split among a subset of randomly chosen variables is used (hence ‘Random’). To incorporate the results from the hundreds of models, RF regression uses averaging. The importance of “features” (i.e. explanatory variables) can be ranked in two ways. The first is the increase in OOB-MSE if a particular feature is removed. The second is the increase of purity among the splitting groups in the process of building a decision tree if a particular feature is used. We chose to use the first strategy to understand the relative importance of different spectral regions in correlating with biodiversity.</p> 
+     <p>RF was selected after careful consideration of its advantages and shortcomings. An advantage of RF is that it only has two parameters to tune - the number of random features for each split (
+      <italic>
+       mtry
+      </italic>), and the number of the trees/models to build (
+      <italic>
+       ntree
+      </italic>) – and having few parameters makes the result highly repeatable. Unlike some other tools, there is no assumption on data distribution. The embedded Out-of-Bag (OOB) strategy which separates one-third of the samples aside for evaluation each time when a model is built provides unbiased internal error estimation, and makes cross-validation unnecessary 
+      <xref ref-type="bibr" rid="pone.0097910-Genuer1">
+       [61]
+      </xref> 
+      <ext-link ext-link-type="uri" xlink:href="http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#ooberr" xlink:type="simple">
+       http://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm#ooberr
+      </ext-link>). The OBB strategy also makes feature (i.e. explanatory variable) ranking very straightforward. In our data set, there are only 64 plots, which represent a relatively small sample size considering the great variety of tree species and the vast areal coverage of the study area. Thus a tool using internal estimates is well-suited. However, RF does have some well-recognised limitations. Given that it is a non-linear statistical modelling approach based on empirical data, models derived in one study region cannot be generalized to any new data sets. Additionally, different airborne data acquisition characteristics and preprocessing steps such as atmospheric and radiometric corrections further complicates a direct reuse of certain model. We chose RF after careful consideration, but do not claim it is necessarily the best tool, nor has comparison been made with other regression methods to show that RF provides the most accurate results.</p> 
+     <p>RF was implemented within the R statistics framework (
+      <italic>
+       randomForest
+      </italic> package; 
+      <xref ref-type="bibr" rid="pone.0097910-Liaw1">
+       [62]
+      </xref>) using procedures followed in numerous other studies 
+      <xref ref-type="bibr" rid="pone.0097910-Walton1">
+       [63]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0097910-AbdelRahman1">
+       [64]
+      </xref>. 
+      <xref ref-type="bibr" rid="pone.0097910-Breiman1">
+       [42]
+      </xref> suggests 
+      <italic>
+       mtry
+      </italic> should be set at 1/3 of the number of input features, while 
+      <italic>
+       ntree
+      </italic> should not normally exceed 1000 
+      <xref ref-type="bibr" rid="pone.0097910-Genuer1">
+       [61]
+      </xref>. We varied 
+      <italic>
+       mtry
+      </italic> but found 1/3 was a good setting, and varied 
+      <italic>
+       ntree
+      </italic> between 100 and 1000 before settling on 200 after examining the goodness-of-fit statistics. RF regression provides an estimate of the mean squared error of residuals, but this is calculated from the OOB strategy so is different from the MSE generated by least-squares regression. For this reason we call it OOB-MSE. We calculated a pseudo-R<sup>2</sup> which is equal to 1- (OOB-MSE/% variability explained). Again, pseudo-R<sup>2</sup> is indicative, and cannot be compared directly with conventional R<sup>2</sup>.</p> 
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>3.1 Forest plot data</title> 
+     <p>The 64 plots contained a total of 133 species. In the cumulated sampled area (8.125 ha) the total number of recorded trees was 676. The 15 most common species (i.e. &gt;10 individuals) comprised &gt;50% of individuals (
+      <xref ref-type="table" rid="pone-0097910-t001">
+       Table 1
+      </xref>), with Caesalpinioideae being the most represented sub-family. The species-area curve showed that the sampled area was big enough to capture most of the large-tree diversity of the site 
+      <xref ref-type="bibr" rid="pone.0097910-Connor1">
+       [65]
+      </xref> (
+      <xref ref-type="fig" rid="pone-0097910-g003">
+       Fig. 3
+      </xref>). The Shannon-Wiener index ranged between 0 and 2.63, with a mean value of 1.68 and a standard deviation of 0.48.</p> 
+     <fig id="pone-0097910-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Species-area curve obtained from field data, illustrating the increase in species numbers resulting from the increase in the area of field data collection.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.g003" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0097910-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>List of most common trees (by individuals' number and % over all trees) found in the study area.</title> 
+      <alternatives>
+       <graphic id="pone-0097910-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Species name</td> 
+          <td align="left" rowspan="1" colspan="1"># of trees</td> 
+          <td align="left" rowspan="1" colspan="1">% of trees</td> 
+          <td align="left" rowspan="1" colspan="1">Family name</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Heritiera utilis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">61</td> 
+          <td align="left" rowspan="1" colspan="1">9.0</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Malvaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Protomegabaria stapfiana
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">57</td> 
+          <td align="left" rowspan="1" colspan="1">8.4</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Phyllanthaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Cynometra leonensis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">50</td> 
+          <td align="left" rowspan="1" colspan="1">7.4</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Caesalpinioideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Brachystegia leonensis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">28</td> 
+          <td align="left" rowspan="1" colspan="1">4.1</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Caesalpinioideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Gilbertiodendron bilineatum
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">28</td> 
+          <td align="left" rowspan="1" colspan="1">4.1</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Caesalpinioideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Stachyothyrsus stapfiana
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">24</td> 
+          <td align="left" rowspan="1" colspan="1">3.6</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Caesalpinioideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Phyllocosmus africanus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">20</td> 
+          <td align="left" rowspan="1" colspan="1">3.0</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Ixonanthaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Xylopia quintasii
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">18</td> 
+          <td align="left" rowspan="1" colspan="1">2.7</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Annonaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Parinari excelsa
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">18</td> 
+          <td align="left" rowspan="1" colspan="1">2.7</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Chrysobalanaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Calpocalyx brevibracteatus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">16</td> 
+          <td align="left" rowspan="1" colspan="1">2.4</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Mimosoideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Sacoglottis gabonensis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">14</td> 
+          <td align="left" rowspan="1" colspan="1">2.1</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Humiriaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Octoknema borealis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">1.9</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Olacaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Uapaca guineensis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">13</td> 
+          <td align="left" rowspan="1" colspan="1">1.9</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Euphorbiaceae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Berlinia confusa
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">10</td> 
+          <td align="left" rowspan="1" colspan="1">1.5</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Caesalpinioideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Bussea occidentalis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">10</td> 
+          <td align="left" rowspan="1" colspan="1">1.5</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Caesalpinioideae
+           </italic></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            Total
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            380
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            56.2
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap>
+    </sec>
+    <sec id="s3b"> 
+     <title>3.2 Regression results</title> 
+     <p>RF indicate that the Shannon-Wiener index can be predicted to a good level of accuracy using the plot-level statistics derived from hyperspectral bands (
+      <xref ref-type="fig" rid="pone-0097910-g004">
+       Figure 4
+      </xref> and 
+      <xref ref-type="table" rid="pone-0097910-t002">
+       Table 2
+      </xref>). Models fitted using the reflectance-based metrics (i.e. calculated directly from the hyperspectral reflectances) had pseudo-R<sup>2</sup> = 84.9% and OOB-RMSE  = 0.30. Models fitted using derivative-based metrics had lower explanatory power, with pseudo-R<sup>2</sup> = 71.4% and OOB-RMSE  = 0.35. Vegetation indices were very poor predictors of diversity, giving rise to negative pseudo-R<sup>2</sup> that indicate an inability of the models (on average) to explain any of the variability in biodiversity among plots The 
+      <italic>
+       mtry
+      </italic> and 
+      <italic>
+       ntree
+      </italic> for the HS metrics were set at 340 and 200, respectively. The 
+      <italic>
+       mtry
+      </italic> and 
+      <italic>
+       ntree
+      </italic> for the HS 1<sup>st</sup> derivatives were 280 and 200 respectively.</p> 
+     <fig id="pone-0097910-g004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.g004
+      </object-id>
+      <label>Figure 4</label> 
+      <title>Scatterplots of the predicted versus the expected Shannon-Wiener index values, obtained by two models, on the left the one based on hyperspectral reflectance band metrics, and on the right the model based on first-derivatives reflectance metrics.</title> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.g004" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0097910-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Random Forests models results using the three input sets.</title> 
+      <alternatives>
+       <graphic id="pone-0097910-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td colspan="2" align="left" rowspan="1">Random Forests Out-of-bag estimates</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Shannon index
+           </italic></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Hyperspectral band reflectance metrics</td> 
+          <td align="left" rowspan="1" colspan="1">pseudo-R<sup>2</sup> = 84.91%, OOB-RMSE  = 0.30</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">First derivatives reflectance metrics</td> 
+          <td align="left" rowspan="1" colspan="1">pseudo-R<sup>2</sup> = 71.42%, OOB-RMSE  = 0.35</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Vegetation indices</td> 
+          <td align="left" rowspan="1" colspan="1">pseudo-R<sup>2</sup>: -15.97%, OOB-RMSE  = 0.51</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>The rank importance of “features” (calculated from the percentage increase in OOB-MSE when features are removed one-by-one from the model) indicates that within-plot-variation in hyperspectral reflectances are strongly correlated with the biodiversity index. 
+      <xref ref-type="fig" rid="pone-0097910-g005">
+       Fig. 5
+      </xref> shows the ranking of hyperspectral reflectance-based metrics (maximum, minimum, mean, standard deviation of band reflectance) and 
+      <xref ref-type="fig" rid="pone-0097910-g006">
+       Fig. 6
+      </xref> for the same metrics derived from the derivative-based dataset. When hyperspectral band metrics were used, the most important inputs were standard deviations from the green region, but contributions came from across the spectrum and for other metrics. When the derivative-based dataset was used, standard deviations from the near infrared region provided by far the highest ranking inputs, possibly due to the ability of the derivatives to suppress background signals that are prevalent in this region. In both of these models, the most important statistical metric was standard deviation, indicating that within-plot spectral variation is most informative in explaining diversity variation.</p> 
+     <fig id="pone-0097910-g005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.g005
+      </object-id>
+      <label>Figure 5</label> 
+      <title>Ranking of hyperspectral metrics, a way to identify the regions most contributing to model success, with maximum, minimum, mean, standard deviation of band reflectance in the four different frames of the figure.</title> 
+      <p>The y-axis represents the percentage increase in OOB- MSE and the x-axis is the band region (in nm).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.g005" position="float" xlink:type="simple" />
+     </fig>
+     <fig id="pone-0097910-g006" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0097910.g006
+      </object-id>
+      <label>Figure 6</label> 
+      <title>Ranking of derivative metrics, a way to identify the regions most contributing to model success, with maximum, minimum, mean, standard deviation of first derivatives of band reflectance in the four different frames of the figure.</title> 
+      <p>The y-axis represents the percentage in increase in MSE and the x-axis is the band region (in nm).</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0097910.g006" position="float" xlink:type="simple" />
+     </fig>
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>The West African study is the latest in a series to shows that airborne imaging spectroscopy can be effective at mapping tree diversity, particularly when recorded at high resolution 
+     <xref ref-type="bibr" rid="pone.0097910-Fret1">
+      [26]
+     </xref>. The Random Forests algorithm found that within-plot variability in various hues of green was closely related to biodiversity (pseudo-R<sup>2</sup> = 84.9%). Spectral reflectance vary greatly within individual tree crowns, between tree crowns of the same species, and are influenced by viewing geometry soil characteristics, forest vigor and the presence of liana 
+     <xref ref-type="bibr" rid="pone.0097910-Clark1">
+      [31]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Zhang1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Lucas1">
+      [66]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Nagendra2">
+      [38]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Rocchini3">
+      [67]
+     </xref>. However, these statistical analyses seem to have picked up the same signal as the naked eye would – that species-rich plots have a greater number of subtly different canopy colors than species-poor plots.</p> 
+    <p>It is likely that the high resolution of our imagery (1 m pixel size vs &gt;5 m diameter for a typical tree crown) was important to characterizing variability in spectral reflectances. In another study using high resolution imagery, 
+     <xref ref-type="bibr" rid="pone.0097910-Carlson1">
+      [25]
+     </xref> related vascular plants species richness in lowland forest in Hawaii to hyperspectral data from NASA's Airborne Visible/Infrared Imaging Spectrometer (pixel size of 3.6 m). They found that a regression model using derivative reflectances in regions associated with upper-canopy pigments, water and nitrogen content had a high goodness of fit (R<sup>2</sup> = 0.85). In contrast, 
+     <xref ref-type="bibr" rid="pone.0097910-Leutner1">
+      [36]
+     </xref> had less success with lower resolution imagery in German montane forests. Using HyMap hyperspectral imaging (VIS-SWIR with 7 m spatial resolution), they obtained a maximum R<sup>2</sup> of only 0.29 between species richness and reflectances, even when full waveform lidar data were included in the model. A better fit was obtained by the same sensors, this time at 5 m pixel size, when mapping Shannon-Wiener index within a savanna ecosystem (R<sup>2</sup> of 0.41; 
+     <xref ref-type="bibr" rid="pone.0097910-Oldeland1">
+      [9]
+     </xref>).</p> 
+    <p>Among the studies based on satellite data at lower spatial resolution, one successful result has been obtained by 
+     <xref ref-type="bibr" rid="pone.0097910-Feilhauer1">
+      [19]
+     </xref> who retrieved the Shannon index with a coefficient of determination of 0.61 in a temperate forest using ASTER data. Another study directly estimating the Shannon-Wiener index in a tropical forest was realized by 
+     <xref ref-type="bibr" rid="pone.0097910-Kalacska1">
+      [18]
+     </xref> using the Hyperion sensor in Costa Rica with 30 m pixel size. Using wavelet decomposition followed by a stepwise regression they found that the Shannon index could be predicted with a R<sup>2</sup> of 0.84; vegetation indices were not such good predictors as wavelet features. The selected bands were those from the shortwave infrared region and one from the visible region of the spectra (621 nm). Our results are very similar to those obtained by 
+     <xref ref-type="bibr" rid="pone.0097910-Kalacska1">
+      [18]
+     </xref> with respect to the ecosystem under analysis, the ability to retrieve the Shannon-Wiener index, and the poor results obtained with vegetation indices.</p> 
+    <p>Together, these satellite and airborne based results suggest that spatial resolution is not the main key to successful mapping of biodiversity, and additional studies targeting different ecosystems are needed to clarify the relative importance of spatial and spectral resolution.</p> 
+    <p>Derivative analysis might not be optimal for our aims and data, resulting in a lower R<sup>2</sup> (
+     <xref ref-type="fig" rid="pone-0097910-g004">
+      Fig. 4
+     </xref>; 
+     <xref ref-type="table" rid="pone-0097910-t002">
+      Table 2
+     </xref>), similarly to what has been found by 
+     <xref ref-type="bibr" rid="pone.0097910-Zhang1">
+      [32]
+     </xref> in a tropical tree classification study. A possible explanation can be attributed to the fact that derivative is very sensitive to noise in the original spectrum. The residual noise is emphasized in the derivative spectra and this may vary according to the pixel location on the tree crown. In addition, environmental or stress factors such as moisture content and leaf age introduce subtle variations in crown reflectance that are enhanced by differentiation. Consequently, spectral variation within crowns can be unnecessarily boosted in the derivative domain, interfering with the identification of differences amongst crowns.</p> 
+    <p>Species richness and Shannon-Wiener index are both widely used as indices of diversity in the remote sensing literature, but we argue that the abundance weighted index is more valuable from an ecological perspective. 
+     <xref ref-type="bibr" rid="pone.0097910-Carlson1">
+      [25]
+     </xref> estimated species richness and Shannon-Wiener index in lowland Hawaii from AVIRIS, obtaining a better goodness-of-fit when using species richness. Similarly, 
+     <xref ref-type="bibr" rid="pone.0097910-Leutner1">
+      [36]
+     </xref> found that species richness was the better of the two response variables in terms of goodness-of-fit for German forests. The reason we recommend using the Shannon-Wiener index is that ecosystem processes, such as water balance and nutrient cycles, depends primarily on the functional characteristics of the most abundant species 
+     <xref ref-type="bibr" rid="pone.0097910-Grime1">
+      [68]
+     </xref>. The Shannon-Wiener index is weighted in favor of abundant-species, making it more useful for relating spectral signals to local ecological processes. However, a key open question in biodiversity studies is whether information on canopy biodiversity can be a surrogate for sub-canopy biodiversity; with this respect is of interest the 
+     <xref ref-type="bibr" rid="pone.0097910-Asner1">
+      [34]
+     </xref> research, which estimated the diversity of foliar chemicals within the canopy as a whole using hyperspectral data, and related this to faunal and floral distributions.</p> 
+    <p>There is currently great interest in using airborne remote sensing to go one step further, and map individual canopy species in tropical forests 
+     <xref ref-type="bibr" rid="pone.0097910-Fret1">
+      [26]
+     </xref>. Biophysical and functional attributes of forest canopies that can be used to distinguish among individual species 
+     <xref ref-type="bibr" rid="pone.0097910-Chambers1">
+      [69]
+     </xref>, and help in understanding the relationships among spectral response, foliar biochemical components and canopy geometry. For instance, 
+     <xref ref-type="bibr" rid="pone.0097910-Somers1">
+      [20]
+     </xref> used spaceborne hyperspectral data to map the spread of a nitrogen-fixing invasive trees in Hawaii, because the nitrogen-fixer was spectrally different from non-fixing trees. They also found that phenology is a key to distinguish species, and suggested the need for intense multi-temporal monitoring to maximize species separability. 
+     <xref ref-type="bibr" rid="pone.0097910-He1">
+      [70]
+     </xref> have also discussed the role of hyperspectral remote sensing in tracking plant invasions, highlighting that these data can inform predictive models of invasions and species habitat suitability analysis. Using AVIRIS data from Hawaii, 
+     <xref ref-type="bibr" rid="pone.0097910-Asner2">
+      [71]
+     </xref> found that differences in canopy spectral signatures were linked to differences measured in leaf pigment (chlorophyll, carotenoids), nutrient (N,P), and structural (specific leaf area, SLA) properties, as well as to canopy leaf area index. In a study addressing how leaf spectroscopy scales to canopy level reflectances, 
+     <xref ref-type="bibr" rid="pone.0097910-Fret2">
+      [72]
+     </xref> used a leaf optical radiative transfer model (PROSPECT-5) to explore the relationship linking classification accuracy at the leaf level to canopy biodiversity, and found that it showed an asymptotic trend which suggests the uniqueness of spectral signature for a significant proportion of the 188 studied tropical species. Detecting individual species from aircraft is more technically demanding than the analyses presented here, but the approaches hold great promise and may eventually dispense off the need for diversity-index mapping.</p> 
+   </sec>
+   <sec id="s5"> 
+    <title>Conclusions</title> 
+    <p>The present research demonstrates the ability of an airborne hyperspectral sensor to predict the canopy Shannon-Wiener index in African tropical forests, and is among those pioneer valuable efforts that could open the way to improved biodiversity monitoring. Airborne hyperspectral sensors represent today an important and cost-effective tool to target areas with high biodiversity, high vulnerability to change (e.g., occurring on deforestation fronts) and/or with tree species that are of particular importance 
+     <xref ref-type="bibr" rid="pone.0097910-Lucas1">
+      [66]
+     </xref>.</p> 
+    <p>However, data acquisition in remote and biodiversity rich study areas is still exceptionally challenging. Problems with data and ground truth gathering as those we faced, such as the time lag between field data collection and the airborne survey, or the difficulties in obtaining accurate geo-referencing of field plots, might affected the results and have to be carefully considered when planning hyperspectral-based biodiversity monitoring.</p> 
+    <p>Our experience shows that the use of standard devation of reflectance provides satisfactory results, in agreement with the spectral variation hypothesis. We find RF an effective regression tool which is fairly easy to use, and the OOB feature ranking a valuable source of info pertaining to the feature importance.</p> 
+    <p>Overall, considering other available studies and results, there is a clear need to further increase research on the use of airborne and spaceborne hyperspectral imagery in different ecosystems, to enhance our understanding of the optimal techniques to map the distribution of life on earth. This should be accompanied by quality biodiversity field information collected with proper sampling strategies. For future studies planning, the addition of SWIR spectral region should be considered, as well as of airborne laser scanner (ALS) data, recently reported as valuable source of information for biodiversity 
+     <xref ref-type="bibr" rid="pone.0097910-Dalponte1">
+      [73]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Feret1">
+      [35]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0097910-Jones1">
+      [74]
+     </xref>.</p> 
+   </sec> 
+   <back> 
+    <ack> 
+     <p>Gola National Park is managed collaboratively by the Royal Society for Protection of Birds, the Conservation Society of Sierra Leone, and the Forestry Division of the Government of Sierra Leone. These organizations provided permits to collect the field data used in this study, and to fly over the area during airborne data acquisition. Field plot data were collected by staff of the Gola Forest Programme, with funding from the UK's Darwin Initiative. We are very grateful to Mr. Alosine Fofana, Guy Marris, Dr. Annika Hillers and Dr. Aida Cuni Sanchez, and to “Wildlife” Mansary of the Forestry Department for their assistance for data collection. Field study did not involve endangered or protected species.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0097910-Gaston1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname>
+        <given-names>
+         KJ
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Global patterns in biodiversity
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        405
+       </volume>: 
+       <fpage>
+        220
+       </fpage>–
+       <lpage>
+        227
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Thomas1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thomas
+        </surname>
+        <given-names>
+         CD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cameron
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Green
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bakkenes
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beaumont
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Extinction risk from climate change
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        427
+       </volume>: 
+       <fpage>
+        145
+       </fpage>–
+       <lpage>
+        148
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Balmford1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Balmford
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whitten
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Who should pay for tropical conservation, and how could the costs be met?
+       </article-title>. 
+       <source>Oryx 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        238
+       </fpage>–
+       <lpage>
+        250
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Chapin1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chapin
+        </surname>
+        <given-names>
+         FS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zavaleta
+        </surname>
+        <given-names>
+         ES
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eviner
+        </surname>
+        <given-names>
+         VT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Naylor
+        </surname>
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vitousek
+        </surname>
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Consequences of changing biodiversity
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        405
+       </volume>: 
+       <fpage>
+        234
+       </fpage>–
+       <lpage>
+        242
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Foody1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Foody
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Remote sensing of tropical forest environments: towards the monitoring of environmental resources for sustainable development
+       </article-title>. 
+       <source>International Journal of Remote Sensing 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        4035
+       </fpage>–
+       <lpage>
+        4046
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Daz1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Díaz
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hector
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wardle
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Biodiversity in forest carbon sequestration initiatives: not just a side benefit
+       </article-title>. 
+       <source>Curr. Opin. Environ. Sustain 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        55
+       </fpage>–
+       <lpage>
+        60
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Paoli1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Paoli
+        </surname>
+        <given-names>
+         GD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wells
+        </surname>
+        <given-names>
+         PL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meijaard
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Struebig
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marshall
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Biodiversity Conservation in the REDD
+       </article-title>. 
+       <source>Carbon Balance and Management 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        5
+       </fpage>–
+       <lpage>
+        7
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Turner1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Turner
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spector
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gardiner
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fladeland
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sterling
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Remote sensing for biodiversity science and conservation
+       </article-title>. 
+       <source>Trends in ecology &amp; evolution 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        306
+       </fpage>–
+       <lpage>
+        314
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Oldeland1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Oldeland
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wesuls
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmidt
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jurgens
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Does using species abundance data improve estimates of species diversity from remotely sensed spectral heterogeneity?
+       </article-title> 
+       <source>Ecological Indicators 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        390
+       </fpage>–
+       <lpage>
+        396
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Palmer1">
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Palmer
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Earls
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hoagland
+        </surname>
+        <given-names>
+         BW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         White
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wohlgemuth
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Quantitative tools for perfecting species lists
+       </article-title>. 
+       <source>Environmetrics 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        121
+       </fpage>–
+       <lpage>
+        137
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Simonson1">
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Simonson
+        </surname>
+        <given-names>
+         WD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Allen
+        </surname>
+        <given-names>
+         HD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coomes
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Use of an airborne lidar system to model plant species composition and diversity of Mediterranean oak forests
+       </article-title>. 
+       <source>Conservation Biology 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        840
+       </fpage>–
+       <lpage>
+        850
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Gould1">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gould
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Remote Sensing of vegetation, plant species richness, and regional biodiversity hotspots
+       </article-title>. 
+       <source>Ecological Applications 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        1861
+       </fpage>–
+       <lpage>
+        1870
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Nagendra1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nagendra
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Using remote sensing to assess biodiversity
+       </article-title>. 
+       <source>International Journal of Remote Sensing 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        2377
+       </fpage>–
+       <lpage>
+        2400
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Kerr1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kerr
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ostrovsky
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        From space to species: ecological applications for remote sensing
+       </article-title>. 
+       <source>Trends Ecol. Evol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        299
+       </fpage>–
+       <lpage>
+        305
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Leyequien1">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leyequien
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Verrelst
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Slot
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schaepmanstrub
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heitkonig
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Capturing the fugitive: applying remote sensing to terrestrial animal distribution and diversity
+       </article-title>. 
+       <source>Int. J. Appl. Earth Obs. Geoinform 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        20
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Foody2">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Foody
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cutler
+        </surname>
+        <given-names>
+         MEJ
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Tree biodiversity in protected and logged Bornean tropical rain forests and its measurement by satellite remote sensing
+       </article-title>. 
+       <source>J. Biogeogr 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        1053
+       </fpage>–
+       <lpage>
+        1066
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Foody3">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Foody
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cutler
+        </surname>
+        <given-names>
+         MEJ
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Mapping the species richness and composition of tropical forests from remotely sensed data with neural networks
+       </article-title>. 
+       <source>Ecol. Model 
+       <volume>
+        195
+       </volume>: 
+       <fpage>
+        37
+       </fpage>–
+       <lpage>
+        42
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Kalacska1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kalacska
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sanchez-Azofeifa
+        </surname>
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rivard
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caelli
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peter White
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Ecological fingerprinting of ecosystem succession: Estimating secondary tropical dry forest structure and diversity using imaging spectroscopy, Remote Sensing of Environment
+       </article-title>. 
+       <volume>
+        108
+       </volume>: 
+       <fpage>
+        82
+       </fpage>–
+       <lpage>
+        96
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Feilhauer1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feilhauer
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmidtlein
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Mapping continuous fields of forest alpha and beta diversity
+       </article-title>. 
+       <source>Applied Vegetation Science 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        429
+       </fpage>–
+       <lpage>
+        439
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Somers1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Somers
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Hyperspectral time series analysis of native and invasive species in Hawaiian rainforests
+       </article-title>. 
+       <source>Remote Sensing 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        2510
+       </fpage>–
+       <lpage>
+        2529
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Somers2">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Somers
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Multi-temporal hyperspectral mixture analysis and feature selection for invasive species mapping in rainforests
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        136
+       </volume>: 
+       <fpage>
+        14
+       </fpage>–
+       <lpage>
+        27
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Gentry1">
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gentry
+        </surname>
+        <given-names>
+         AH
+        </given-names>
+       </name> (
+       <year>
+        1988
+       </year>) 
+       <article-title>
+        Changes in plant community diversity and floristic composition on environmental and geographic gradients
+       </article-title>. 
+       <source>Annals of the Missouri Botanical Garden 
+       <volume>
+        75
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        34
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Rocchini1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chiarucci
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loiselle
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Testing the spectral variation hypothesis by using satellite multispectral images
+       </article-title>. 
+       <source>Acta Oecologica 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        117
+       </fpage>–
+       <lpage>
+        120
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Rocchini2">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chiarucci
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Using remote sensing to assess plant species richness: the role of multispectral systems
+       </article-title>. 
+       <source>Applied Vegetation Science 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        325
+       </fpage>–
+       <lpage>
+        332
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Carlson1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carlson
+        </surname>
+        <given-names>
+         KM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hughes
+        </surname>
+        <given-names>
+         RF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ostertag
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Hyperspectral remote sensing of canopy biodiversity in Hawaiian lowland rainforests
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        536
+       </fpage>–
+       <lpage>
+        549
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Fret1">
+      <label>26</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Féret JB and Asner GP (2014) Mapping tropical forest canopy diversity using high-fidelity imaging spectroscopy. Ecological Applications in press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Martin1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aber
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        High spectral resolution remote sensing of forest canopy lignin, nitrogen, and ecosystem processes
+       </article-title>. 
+       <source>Ecological Applications 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        431
+       </fpage>–
+       <lpage>
+        443
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Ustin1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ustin
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gamon
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Green
+        </surname>
+        <given-names>
+         RO
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Using imaging spectroscopy to study ecosystem processes and properties
+       </article-title>. 
+       <source>BioScience 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        523
+       </fpage>–
+       <lpage>
+        534
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Kumar1">
+      <label>29</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Kumar L, Schmidt K, Dury S, Skidmore A (2001) Imaging spectrometry and vegetation science. In Imaging Spectrometry: Basic Principles and Prospective Applications. Van der Meer FD and De Jong SM eds. pp.111–155. Kluwer Academic Publishers.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Thenkabail1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thenkabail
+        </surname>
+        <given-names>
+         PS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enclona
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ashton
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Der Meer
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Accuracy assessments of hyperspectral waveband performance for vegetation analysis applications
+       </article-title>. 
+       <source>Remote sensing of environment 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        354
+       </fpage>–
+       <lpage>
+        376
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Clark1">
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Hyperspectral discrimination of tropical rain forest tree species at leaf to crown scales
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        375
+       </fpage>–
+       <lpage>
+        398
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Zhang1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rivard
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sanchez-Azofeifa
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Castroesau
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Intra- and inter-class spectral variability of tropical tree species at La Selva, Costa Rica: implications for species identification using HYDICE imagery
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        105
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        141
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Clark2">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Species-level differences in hyperspectral metrics among tropical rainforest trees as determined by a tree-based classifier
+       </article-title>. 
+       <source>Remote Sensing 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        1820
+       </fpage>–
+       <lpage>
+        1855
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Asner1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knapp
+        </surname>
+        <given-names>
+         DE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kennedy-Bowdoin
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         MO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008a
+       </year>) 
+       <article-title>
+        Invasive species detection in Hawaiian rainforests using airborne imaging spectroscopy and LiDAR
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        112
+       </volume>: 
+       <fpage>
+        1942
+       </fpage>–
+       <lpage>
+        1955
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Feret1">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feret
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Semi-supervised methods to identify individual crowns of lowland tropical canopy species using imaging spectroscopy and LiDAR.0
+       </article-title>. 
+       <source>Remote Sens 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        2457
+       </fpage>–
+       <lpage>
+        2476
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Leutner1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leutner
+        </surname>
+        <given-names>
+         BF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reineking
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Müller
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bachmann
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beierkuhnlein
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Modelling forest α-diversity and floristic composition— on the added value of LiDAR plus hyperspectral remote sensing
+       </article-title>. 
+       <source>Remote Sens 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        2818
+       </fpage>–
+       <lpage>
+        2845
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Levin1">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Levin
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shmida
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levanoni
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tamari
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kark
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Predicting mountain plant richness and rarity from space using satellite-derived vegetation indices
+       </article-title>. 
+       <source>Divers. Distrib 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        692
+       </fpage>–
+       <lpage>
+        703
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Nagendra2">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nagendra
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        High resolution satellite imagery for tropical biodiversity studies: the devil is in the detail
+       </article-title>. 
+       <source>Biodiversity Conservation 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        3431
+       </fpage>–
+       <lpage>
+        3442
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Jrgens1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jürgens
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmiedel
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Haarmeyer
+        </surname>
+        <given-names>
+         DH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dengler
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Finckh
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The BIOTA Biodiversity Observatories in Africa—a standardized framework for large-scale environmental monitoring
+       </article-title>. 
+       <source>Environmental monitoring and assessment 
+       <volume>
+        184
+       </volume>: 
+       <fpage>
+        655
+       </fpage>–
+       <lpage>
+        678
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Townsend1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Townsend
+        </surname>
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cleveland
+        </surname>
+        <given-names>
+         CC
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The biogeochemical heterogeneity of tropical forests
+       </article-title>. 
+       <source>Trends Ecol. Environ 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        424
+       </fpage>–
+       <lpage>
+        431
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Shannon1">
+      <label>41</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Shannon CE (1948) A mathematical theory of communication. The Bell System Technical Journal 
+       <volume>
+        27
+       </volume>: : 379–423 and 623–656.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Breiman1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Breiman
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Random Forests
+       </article-title>. 
+       <source>Machine Learning 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        5
+       </fpage>–
+       <lpage>
+        32
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Chan1">
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chan
+        </surname>
+        <given-names>
+         JC-W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paelinckx
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        An evaluation of Random Forest and Adaboost tree-based ensemble classifications and spectral band selections for ecotope mapping using airborne hyperspectral imagery
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        112
+       </volume>: 
+       <fpage>
+        2999
+       </fpage>–
+       <lpage>
+        3011
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Cole1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cole
+        </surname>
+        <given-names>
+         NHA
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        Floristic association in the Gola rain forests: a proposed biosphere reserve
+       </article-title>. 
+       <source>Journal of Pure and Applied Science 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        35
+       </fpage>–
+       <lpage>
+        50
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-VaglioLaurin1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vaglio Laurin
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liesenberg
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname>
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guerriero
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Del Frate
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Optical and SAR sensor synergies for forest and land cover mapping in a tropical site in West Africa
+       </article-title>. 
+       <source>International Journal of Applied Earth Observation and Geoinformation 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        7
+       </fpage>–
+       <lpage>
+        16
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Lindsell1">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lindsell
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Klop
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Spatial and temporal variation of carbon stocks in a lowland tropical forest in West Africa
+       </article-title>. 
+       <source>Forest Ecology and Management 
+       <volume>
+        289
+       </volume>: 
+       <fpage>
+        10
+       </fpage>–
+       <lpage>
+        17
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Magurran1">
+      <label>47</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Magurran AE (2004) Measuring Biological Diversity. Blackwells.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Felde1">
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Felde
+        </surname>
+        <given-names>
+         GW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cooley
+        </surname>
+        <given-names>
+         TW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Matthew
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adler-Golden
+        </surname>
+        <given-names>
+         SM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Analysis of Hyperion data with the FLAASH Atmospheric Correction Algorithm. In Geoscience and Remote Sensing Symposium 2003 IGARSS'03
+       </article-title>. 
+       <source>Proceedings 2003 IEEE International 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        90
+       </fpage>–
+       <lpage>
+        92
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Green1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Green
+        </surname>
+        <given-names>
+         AA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berman
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Switzer
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Craig
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name> (
+       <year>
+        1988
+       </year>) 
+       <article-title>
+        A transformation for ordering multispectradata in terms of image quality with implications for noise removal
+       </article-title>. 
+       <source>IEEE Transactions on Geoscience and Remote Sensing 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        74
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Tsai1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tsai
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Philpot
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Derivative analysis of hyperspectral data
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        41
+       </fpage>–
+       <lpage>
+        51
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Gong1">
+      <label>51</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gong
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ru
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Conifer species recognition: an exploratory analysis of insitu hyperspectral data
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        189
+       </fpage>–
+       <lpage>
+        200
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Han1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Han
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rundquist
+        </surname>
+        <given-names>
+         DC
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Comparison of NIR/RED ratio and first derivative of estimating algal-chlorophyll concentration: a case study in a turbid reservoir
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        253
+       </fpage>–
+       <lpage>
+        261
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-DemetriadesShah1">
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Demetriades-Shah
+        </surname>
+        <given-names>
+         TH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steven
+        </surname>
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1990
+       </year>) 
+       <article-title>
+        High resolution derivatives spectra in remote sensing
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        55
+       </fpage>–
+       <lpage>
+        64
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Gamon1">
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gamon
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Penuelas
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Field
+        </surname>
+        <given-names>
+         CB
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        A narrow-waveband spectral index that tracks diurnal changes in photosynthetic efficiency
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        35
+       </fpage>–
+       <lpage>
+        44
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Sims1">
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sims
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gamon
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        337
+       </fpage>–
+       <lpage>
+        354
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Kaufman1">
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kaufman
+        </surname>
+        <given-names>
+         YJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         D
+        </surname>
+        <given-names>
+         Tanre
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Strategy for direct and indirect methods for correcting the aerosol effect on remote sensing: from AVHRR to EOS-MODIS
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        79
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Vogelmann1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vogelmann
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rock
+        </surname>
+        <given-names>
+         BN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moss
+        </surname>
+        <given-names>
+         DM
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        Red edge spectral measurements from sugar maple leaves
+       </article-title>. 
+       <source>International Journal of Remote Sensing 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        1563
+       </fpage>–
+       <lpage>
+        1575
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Gamon2">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gamon
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Surfus
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Assessing leaf pigment content and activity with a reflectometer
+       </article-title>. 
+       <source>New Phytologist 
+       <volume>
+        143
+       </volume>: 
+       <fpage>
+        105
+       </fpage>–
+       <lpage>
+        117
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Sellers1">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sellers
+        </surname>
+        <given-names>
+         PJ
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        Canopy reflectance, photosynthesis and transpiration
+       </article-title>. 
+       <source>International Journal of Remote Sensing 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        1335
+       </fpage>–
+       <lpage>
+        1372
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Gitelson1">
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gitelson
+        </surname>
+        <given-names>
+         AA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Merzlyak
+        </surname>
+        <given-names>
+         MN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chivkunova
+        </surname>
+        <given-names>
+         OB
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Optical properties and non-destructive estimation of anthocyanin content in plant leaves
+       </article-title>. 
+       <source>Photochemistry and Photobiology 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        38
+       </fpage>–
+       <lpage>
+        45
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Genuer1">
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Genuer
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poggi
+        </surname>
+        <given-names>
+         J-M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tuleau-Malot
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Variable selection using Random Forests
+       </article-title>. 
+       <source>Pattern Recognition Letters 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        2225
+       </fpage>–
+       <lpage>
+        2236
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Liaw1">
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liaw
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wiener
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Classification and regression by Random Forest
+       </article-title>. 
+       <source>R news 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        18
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Walton1">
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walton
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Subpixel urban land cover estimation: comparing cubist, andom Forests, and Support Vector Regression
+       </article-title>. 
+       <source>Photogrammetric Engineering &amp; Remote Sensing 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        1213
+       </fpage>–
+       <lpage>
+        1222
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-AbdelRahman1">
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Abdel-Rahman
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ahmed
+        </surname>
+        <given-names>
+         FB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ismail
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Random forest regression and spectral band selection for estimating sugarcane leaf nitrogen concentration using EO-1 Hyperion hyperspectral data
+       </article-title>. 
+       <source>Int J Remote Sens 
+       <volume>
+        34
+       </volume>: 
+       <fpage>
+        712
+       </fpage>–
+       <lpage>
+        728
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Connor1">
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Connor
+        </surname>
+        <given-names>
+         EF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCoy
+        </surname>
+        <given-names>
+         ED
+        </given-names>
+       </name> (
+       <year>
+        1979
+       </year>) 
+       <article-title>
+        The statistics and biology of the species-area relationship
+       </article-title>. 
+       <source>American Naturalist 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        791
+       </fpage>–
+       <lpage>
+        833
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Lucas1">
+      <label>66</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Lucas R, Mitchell A, Bunting P (2008) Hyperspectral data for assessing carbon dynamics and biodiversity of forests. In: Hyperspectral Remote Sensing of Tropical and Sub-Tropical Forests. Edited by Kalacska M and Sanchez-Azofeifa GA. CRC Press.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Rocchini3">
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vannini
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        What's up? Testing spectral heterogeneity vs. NDVI relationship by quantile regression
+       </article-title>. 
+       <source>International Journal of Remote Sensing 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        2745
+       </fpage>–
+       <lpage>
+        2756
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Grime1">
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Benefits of plant diversity to ecosystems: immediate, filter and founder effects
+       </article-title>. 
+       <source>J. Ecol 
+       <volume>
+        86
+       </volume>: 
+       <fpage>
+        902
+       </fpage>–
+       <lpage>
+        910
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Chambers1">
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname>
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Morton
+        </surname>
+        <given-names>
+         DC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         LO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Saatchi
+        </surname>
+        <given-names>
+         SS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Regional ecosystem structure and function: ecological insights from remote sensing of tropical forests
+       </article-title>. 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        414
+       </fpage>–
+       <lpage>
+        423
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-He1">
+      <label>70</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         He
+        </surname>
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Neteler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nagendra
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Benefits of hyperspectral remote sensing for tracking plant invasions
+       </article-title>. 
+       <source>Diversity and Distributions 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        381
+       </fpage>–
+       <lpage>
+        392
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Asner2">
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         MO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knapp
+        </surname>
+        <given-names>
+         DE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hughes
+        </surname>
+        <given-names>
+         RF
+        </given-names>
+       </name> (
+       <year>
+        2008b
+       </year>) 
+       <article-title>
+        Remote sensing of native and invasive species in Hawaiian forests
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        112
+       </volume>: 
+       <fpage>
+        1912
+       </fpage>–
+       <lpage>
+        1926
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Fret2">
+      <label>72</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Féret
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Spectroscopic classification of tropical forest species using radiative transfer modeling
+       </article-title>. 
+       <source>Remote Sensing of Environment 
+       <volume>
+        115
+       </volume>: 
+       <fpage>
+        2415
+       </fpage>–
+       <lpage>
+        2422
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Dalponte1">
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dalponte
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruzzone
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gianelle
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Fusion of hyperspectral and LIDAR remote sensing data for classification of complex forest areas
+       </article-title>. 
+       <source>IEEE Trans. Geosci. Remote Sens 
+       <volume>
+        46
+       </volume>: 
+       <fpage>
+        1416
+       </fpage>–
+       <lpage>
+        1427
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0097910-Jones1">
+      <label>74</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         TG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coops
+        </surname>
+        <given-names>
+         NC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sharma
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Assessing the utility of airborne hyperspectral and LiDAR data for species distribution mapping in the coastal Pacific Northwest, Canada
+       </article-title>. 
+       <source>Remote Sens. Environ 
+       <volume>
+        114
+       </volume>: 
+       <fpage>
+        2841
+       </fpage>–
+       <lpage>
+        2852
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>
