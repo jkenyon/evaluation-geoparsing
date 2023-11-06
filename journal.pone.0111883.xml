@@ -1,0 +1,5433 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <journal-title-group> 
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc>
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-14-24588
+     </article-id> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0111883
+     </article-id> 
+     <article-categories>
+      <subj-group subj-group-type="heading">
+       <subject>
+        Research Article
+       </subject>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Community assembly
+          </subject>
+          <subject>
+           Community structure
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+         <subject>
+          Coastal ecology
+         </subject>
+         <subject>
+          Forest ecology
+         </subject>
+         <subject>
+          Spatial and landscape ecology
+         </subject>
+         <subject>
+          Terrestrial ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Computer and information sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geoinformatics
+        </subject>
+        <subj-group>
+         <subject>
+          Spatial analysis
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v2">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Local and Regional Effects on Community Structure of Dung Beetles in a Mainland-Island Scenario
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Local and Regional Effects on Dung Beetle Community
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Silva
+        </surname>
+        <given-names>
+         Pedro Giovâni da
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1" />
+       <xref ref-type="corresp" rid="cor1">
+        <sup>*</sup>
+       </xref>
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hernández
+        </surname>
+        <given-names>
+         Malva Isabel Medina
+        </given-names>
+       </name>
+       <xref ref-type="aff" rid="aff1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff1">
+      <addr-line>
+       Programa de Pós-Graduação em Ecologia, Departamento de Ecologia e Zoologia, Universidade Federal de Santa Catarina, Florianópolis, Santa Catarina, Brazil
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hewitt
+        </surname>
+        <given-names>
+         Judi
+        </given-names>
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" />
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       University of Waikato (National Institute of Water and Atmospheric Research), New Zealand
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        pedrogiovanidasilva@yahoo.com.br
+       </email>
+      </corresp> 
+      <fn fn-type="conflict">
+       <p>The authors have declared that no competing interests exist.</p>
+      </fn> 
+      <fn fn-type="con">
+       <p>Conceived and designed the experiments: PGS MIMH. Performed the experiments: PGS MIMH. Analyzed the data: PGS MIMH. Contributed reagents/materials/analysis tools: PGS MIMH. Contributed to the writing of the manuscript: PGS MIMH.</p>
+      </fn> 
+     </author-notes> 
+     <pub-date pub-type="collection">
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <pub-date pub-type="epub">
+      <day>
+       30
+      </day>
+      <month>
+       10
+      </month>
+      <year>
+       2014
+      </year>
+     </pub-date> 
+     <volume>
+      9
+     </volume> 
+     <issue>
+      10
+     </issue> 
+     <elocation-id>
+      e111883
+     </elocation-id> 
+     <history> 
+      <date date-type="received">
+       <day>
+        4
+       </day>
+       <month>
+        6
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+      <date date-type="accepted">
+       <day>
+        2
+       </day>
+       <month>
+        10
+       </month>
+       <year>
+        2014
+       </year>
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2014
+      </copyright-year> 
+      <copyright-holder>
+       Silva, Hernández
+      </copyright-holder>
+      <license xlink:type="simple">
+       <license-p>
+        This is an open-access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions> 
+     <abstract> 
+      <p>Understanding the ecological mechanisms driving beta diversity is a major goal of community ecology. Metacommunity theory brings new ways of thinking about the structure of local communities, including processes occurring at different spatial scales. In addition to new theories, new methods have been developed which allow the partitioning of individual and shared contributions of environmental and spatial effects, as well as identification of species and sites that have importance in the generation of beta diversity along ecological gradients. We analyzed the spatial distribution of dung beetle communities in areas of Atlantic Forest in a mainland-island scenario in southern Brazil, with the objective of identifying the mechanisms driving composition, abundance and biomass at three spatial scales (mainland-island, areas and sites). We sampled 20 sites across four large areas, two on the mainland and two on the island. The distribution of our sampling sites was hierarchical and areas are isolated. We used standardized protocols to assess environmental heterogeneity and sample dung beetles. We used spatial eigenfunctions analysis to generate the spatial patterns of sampling points. Environmental heterogeneity showed strong variation among sites and a mild increase with increasing spatial scale. The analysis of diversity partitioning showed an increase in beta diversity with increasing spatial scale. Variation partitioning based on environmental and spatial variables suggests that environmental heterogeneity is the most important driver of beta diversity at the local scale. The spatial effects were significant only at larger spatial scales. Our study presents a case where environmental heterogeneity seems to be the main factor structuring communities at smaller scales, while spatial effects are more important at larger scales. The increase in beta diversity that occurs at larger scales seems to be the result of limitation in species dispersal ability due to habitat fragmentation and the presence of geographical barriers.</p> 
+     </abstract> 
+     <funding-group>
+      <funding-statement>
+       This study is part of the Project “Biodiversidade de artrópodes terrestres e aquáticos em diferentes gradientes ambientais da Mata Atlântica do estado de Santa Catarina,” and was supported by Coordenação de Pessoal de Nível Superior (Proc. 001/2010 MEC/CAPES/PNPD). PGS received a post-graduate fellowship from Coordenação de Pessoal de Nível Superior. MIMH received a research grant from Conselho Nacional de Desenvolvimento Científico e Tecnológico (Research Productivity/PQ/2010, Proc. 303800/2010-0, Project “Comportamento de besouros Scarabaeinae e sua função no ciclo de decomposição da matéria orgânica”). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts>
+      <page-count count="12" />
+     </counts>
+     <custom-meta-group>
+      <custom-meta id="data-availability" xlink:type="simple">
+       <meta-name>
+        Data Availability
+       </meta-name>
+       <meta-value>
+        The authors confirm that all data underlying the findings are fully available without restriction. All relevant data are within the paper and its Supporting Information files.
+       </meta-value>
+      </custom-meta>
+     </custom-meta-group>
+    </article-meta> 
+   </front> 
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Community ecology aims to understand and explain the processes that influence the patterns of distribution, abundance and composition of species 
+     <xref ref-type="bibr" rid="pone.0111883-Leibold1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Vellend1">
+      [2]
+     </xref> over space and time 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre1">
+      [3]
+     </xref>, both locally and regionally 
+     <xref ref-type="bibr" rid="pone.0111883-Simberloff1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs1">
+      [5]
+     </xref>. Community structure may be influenced by several ecological processes that involve biotic and abiotic factors operating at different spatial and temporal scales 
+     <xref ref-type="bibr" rid="pone.0111883-Howeth1">
+      [6]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Wilson1">
+      [8]
+     </xref>. When we consider large scales, historical, evolutionary and stochastic processes become critical to the understanding of these patterns 
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Davis1">
+      [9]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs2">
+      [11]
+     </xref>. Further, studying only local processes may not be sufficient for understanding how communities are structured locally and regionally 
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs1">
+      [5]
+     </xref>, because local and regional processes may act in different ways in relation to the increase or decrease in species diversity 
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs2">
+      [11]
+     </xref>.</p> 
+    <p>Despite the large number of mechanisms (theories and models) proposed as drivers of patterns of species distribution, only four processes are fundamentally involved: selection, drift, speciation and dispersal 
+     <xref ref-type="bibr" rid="pone.0111883-Vellend1">
+      [2]
+     </xref>. Three main hypotheses are proposed to explain the origin of beta diversity (i.e., variation in the identities and relative abundance of species among sites) with respect to these processes 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. The first hypothesis suggests that the species composition may be stable over large areas, and that biological interactions (e.g., competition inter- and/or intraspecific) play an important role in maintaining beta diversity 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. The second hypothesis states that species composition varies in a random and autocorrelated way, emphasizing spatially limited dispersal 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. The last hypothesis suggests that species distribution is driven by environmental conditions, and that landscapes are mosaics in which local environmental drivers control species composition 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. These hypotheses seem to be somewhat related regardless of the organismal group or ecosystem, and testing them is crucial for elucidating issues on ecosystem functioning and biodiversity conservation initiatives 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>.</p> 
+    <p>In community ecology there exists a variety of concepts and methodologies commonly employed by ecologists to measure beta diversity and to identify the processes related to its generation 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Tuomisto2">
+      [17]
+     </xref>. Recent approaches have been based on the dependence of environmental, spatial and random processes, with the goal of explaining which processes have more influence on beta diversity, e.g., by using variation partitioning methods 
+     <xref ref-type="bibr" rid="pone.0111883-PeresNeto1">
+      [18]
+     </xref> on composition or abundance community data among groups of explanatory variables (e.g., environmental and spatial) 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. These methods are used to attempt to explain how beta diversity is influenced by environmental and/or spatial factors, or by random factors 
+     <xref ref-type="bibr" rid="pone.0111883-Borcard1">
+      [19]
+     </xref>. Despite being criticized 
+     <xref ref-type="bibr" rid="pone.0111883-Gilbert1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Smith1">
+      [21]
+     </xref>, variation partitioning has long been used in the context of metacommunity theory 
+     <xref ref-type="bibr" rid="pone.0111883-Leibold1">
+      [1]
+     </xref> and it highlights the importance of increasing the spatial scale in understanding the ecological processes structuring biological communities locally and regionally 
+     <xref ref-type="bibr" rid="pone.0111883-Holyoak1">
+      [22]
+     </xref>.</p> 
+    <p>A metacommunity is defined as a set of communities connected by the dispersal of multiple interacting species 
+     <xref ref-type="bibr" rid="pone.0111883-Leibold1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Holyoak1">
+      [22]
+     </xref>. There are four theoretical paradigms (models) to explain metacommunity dynamics (species sorting, mass effects, patch dynamics and neutral) and they take into account three (drift, selection and dispersal) of the four basic processes aforementioned 
+     <xref ref-type="bibr" rid="pone.0111883-Vellend1">
+      [2]
+     </xref>; differences in species dispersal ability and environmental characteristics are important factors for determining which model best describes the metacommunity 
+     <xref ref-type="bibr" rid="pone.0111883-Leibold1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Holyoak1">
+      [22]
+     </xref>. Mass effects (high dispersal) and patch dynamics (low dispersal) would be variations of species sorting (efficient dispersal), as there are different levels of dispersal ability of species in each metacommunity model 
+     <xref ref-type="bibr" rid="pone.0111883-Winegardner1">
+      [23]
+     </xref>. The adoption of metacommunity theory has led to substantial changes in the way that ecologists interpret ecological phenomena at both local and metacommunity (regional) scales 
+     <xref ref-type="bibr" rid="pone.0111883-Leibold1">
+      [1]
+     </xref>.</p> 
+    <p>A key point in assessing the relative importance of proposed metacommunity processes is the identification and use of environmental and/or spatial gradients as study scenarios 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. Direct gradient ordination techniques (e.g., redundancy analysis) followed by variation partitioning 
+     <xref ref-type="bibr" rid="pone.0111883-PeresNeto1">
+      [18]
+     </xref> allows determination of the fraction of beta diversity explained solely by environmental or spatial predictors, and by shared effects of both sets of predictors 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>. The prevalence of environmental effects indicates species sorting, the predominance of spatial effects indicates neutral processes, historical events and/or dispersal limitation, and shared effects of both environmental and spatial predictors indicate species sorting, dispersal limitation or a combination of both (mass effects and patch dynamics sensu 
+     <xref ref-type="bibr" rid="pone.0111883-Leibold1">
+      [1]
+     </xref>) 
+     <xref ref-type="bibr" rid="pone.0111883-Winegardner1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Cottenie1">
+      [24]
+     </xref>. The relative importance of metacommunity paradigms is still dependent on spatial scale, spatial extent or spatial distances between sites 
+     <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Heino1">
+      [26]
+     </xref>, and varies between environments and groups of species due to inherent differences of ecosystem type and species dispersal ability 
+     <xref ref-type="bibr" rid="pone.0111883-Logue1">
+      [27]
+     </xref>. Recent techniques have also allowed the identification of species and sites that may contribute to beta diversity along an ecological gradient by using community dataset total variance as an estimate of beta diversity 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre3">
+      [15]
+     </xref>.</p> 
+    <p>The Brazilian Atlantic Forest is one the most threatened biomes in terms of biodiversity conservation 
+     <xref ref-type="bibr" rid="pone.0111883-Myers1">
+      [28]
+     </xref>. About 12% of its original size, it is highly fragmented with a high degree of isolation, existing primarily in intermediate successional state 
+     <xref ref-type="bibr" rid="pone.0111883-Ribeiro1">
+      [29]
+     </xref>. Less than 2% of Atlantic Forest areas are located in protected zones 
+     <xref ref-type="bibr" rid="pone.0111883-Ribeiro1">
+      [29]
+     </xref>, despite being considered global biodiversity hotspots 
+     <xref ref-type="bibr" rid="pone.0111883-Tabarelli1">
+      [30]
+     </xref>. Historically, the coast of Brazil has always showed the highest population and industrial concentration, and thus, the Atlantic Forest has been affected by the growth and development of the country 
+     <xref ref-type="bibr" rid="pone.0111883-Ribeiro1">
+      [29]
+     </xref>. An understanding of how species respond to anthropogenic modifications to the structure or complexity of habitats is fundamental for the development of future conservation initiatives, especially for organisms that play key roles in the maintenance and/or restoration of ecosystems, such as dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae).</p> 
+    <p>Dung beetles feed on decaying organic matter (e.g., mammalian feces, animal carcasses, rotting vegetation) 
+     <xref ref-type="bibr" rid="pone.0111883-Simmons1">
+      [31]
+     </xref> and they play several ecosystem services 
+     <xref ref-type="bibr" rid="pone.0111883-Nichols1">
+      [32]
+     </xref>. In tropical ecosystems they are used as indicators of diversity, as well as for monitoring environmental changes, because they respond quickly in terms of species composition, richness, abundance and biomass to the effects caused by habitat destruction, fragmentation and/or isolation 
+     <xref ref-type="bibr" rid="pone.0111883-Barlow1">
+      [33]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Nichols2">
+      [37]
+     </xref>. These beetles are easily sampled using standardized, efficient and low-cost sampling methods 
+     <xref ref-type="bibr" rid="pone.0111883-Gardner1">
+      [34]
+     </xref>. They have wide distribution and are correlated with other taxa (e.g., mammals) 
+     <xref ref-type="bibr" rid="pone.0111883-Barlow1">
+      [33]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Gardner1">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Culot1">
+      [38]
+     </xref>. Therefore, community changes have potential to affect ecological functions performed by dung beetles and hence, ecosystem function 
+     <xref ref-type="bibr" rid="pone.0111883-Gardner2">
+      [35]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Andresen1">
+      [39]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Vulinec1">
+      [42]
+     </xref>. As such, dung beetles are an excellent model system 
+     <xref ref-type="bibr" rid="pone.0111883-Simmons1">
+      [31]
+     </xref> with which to investigate the main processes that influence community structure in Atlantic Forest regions.</p> 
+    <p>Therefore, the aim of our study was to investigate the effect of spatial scales on the patterns of species diversity of dung beetles in Brazilian Atlantic Forest and to identify the mechanisms that drive these patterns applying aspects of metacommunity theory. We tested the hypothesis that the distribution of dung beetles in the Atlantic Forest is associated with differences in forest structure and that high levels of beta diversity will be found with increasing spatial scale due to dispersal limitation. Our predictions are as follows: (i) because dung beetles are sensitive to environmental changes, environmental gradients should result in high beta diversity among sites via species sorting, (ii) due to differences in habitat structure of each site, environmental characteristics and dung beetle species distribution are spatially structured, (iii) because of dispersal limitation among areas (mainland-island and fragmented landscape), the spatial effect has high importance in structuring communities at increased spatial scales.</p> 
+   </sec>
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study area</title> 
+     <p>The study was conducted at four large Atlantic Forest areas in the state of Santa Catarina, Brazil, two on the island of Santa Catarina (Florianópolis city) and two on the mainland, both on the east coast (
+      <xref ref-type="fig" rid="pone-0111883-g001">
+       Figure 1
+      </xref>). The island of Santa Catarina is approximately 54 km north-south and maximally 18 km wide, with a total land area of 424.4 km<sup>2</sup>. The distance between the mainland and the island varies greatly, with minimum of 500 m and maximum around 10 km.</p> 
+     <fig id="pone-0111883-g001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0111883.g001
+      </object-id>
+      <label>Figure 1</label> 
+      <title>Map of the study region.</title> 
+      <p>Location of the four areas sampled in eastern Santa Catarina state, Brazil. ANH: Environmental Protection Area of Anhatomirim; ITA: Permanent Protection Area of Itapema; PER: Lagoa do Peri Municipal Park; RAT: Permanent Protection Area of Ratones.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0111883.g001" position="float" xlink:type="simple" />
+     </fig> 
+     <p>On the island, the study areas were within the Lagoa do Peri Municipal Park (PER, 27°43′30″S, 48°32′18″W) and the Permanent Protection Area of Ratones (RAT, 27°31′52″S, 48°30′45″W). On the mainland, the areas sampled were within the Environmental Protection Area of Anhatomirim in Governador Celso Ramos city (ANH, 27°25′1″S, 48°34′25″W), and in Permanent Protection Area in Itapema city (ITA, 27°05′13″S, 48°35′54″W). According to the Brazilian Forest Code (Law n°. 12.651/2012), permanent protection areas are sites with characteristics that have the environmental function of preserving water, biodiversity resources, and landscape and geological stability, and for facilitation floral and faunal gene flow. The distance among areas is approximately 21 km between PER and RAT, 34 km between PER and ANH, 71 km between PER and ITA, 13.5 km between ANH and RAT, 50 km between ITA and RAT, and 37 km between ANH and ITA. The altitude of the sampling sites ranged between 28 and 265 m. All sites sampled are near the Brazilian Atlantic coastline and have dense rain forest vegetation within the Atlantic Forest biome, with various levels of vegetation succession 
+      <xref ref-type="bibr" rid="pone.0111883-Veloso1">
+       [43]
+      </xref>. According Köeppen classification, the climate in the eastern region of Santa Catarina is Cfa, humid subtropical (mesothermal) without dry season, with hot summers (average of 25°C) and well distributed rainfall throughout the year, with annual average of 1500 mm approximately 
+      <xref ref-type="bibr" rid="pone.0111883-Veloso1">
+       [43]
+      </xref>. Santa Catarina shows four seasons of the year well defined.</p> 
+    </sec>
+    <sec id="s2b"> 
+     <title>Scarabaeinae sampling</title> 
+     <p>We sampled dung beetles using baited pitfall traps, as they are a highly efficient method to capture this group 
+      <xref ref-type="bibr" rid="pone.0111883-Lobo1">
+       [44]
+      </xref>. The traps were made with plastic containers (15 cm diameter×20 cm depth) buried with the top edge at ground level, allowing insects to fall in. To prevent overflow, the traps were protected against rain using a small sheet supported by wooden sticks, placed approximately 10 cm above the trap. A mixture (300 ml) of water and detergent (neutral) was added to each container to catch and kill insects. We used human feces and rotting flesh (aged in plastic container at room temperature three days prior to sampling) as bait to attract dung beetles, as both satisfy the two main eating habits of dung beetles – coprophagy and necrophagy, respectively 
+      <xref ref-type="bibr" rid="pone.0111883-Simmons1">
+       [31]
+      </xref>. Approximately 30 g of both baits were wrapped in thin cloth and tied in the central part of the rain protection above the traps.</p> 
+     <p>The insects collected were sorted, mounted on entomological pins and dried in an oven (60°C for 72 h), then weighed on a precision balance (0.0001 g). Species identities were confirmed by experts. The beetles were deposited in the Entomological Collection of the Centro de Ciências Biológicas at the Universidade Federal de Santa Catarina, Brazil. We thank the Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio/MMA) and Fundação do Meio Ambiente (FATMA-SC) for permission to collect (permit #32333-3 to MIMH). The field study did not involve endangered or protected species. 
+      <xref ref-type="supplementary-material" rid="pone.0111883.s003">
+       Dataset S1
+      </xref> provides the database of values for abundance and biomass of dung beetle species across the study sites.</p> 
+    </sec>
+    <sec id="s2c"> 
+     <title>Sampling design</title> 
+     <p>Samples were taken at five different forested (hillside) sites within each sampling area. Each site contained five pairs of traps spaced 5–10 m apart, each pair containing the two kinds of bait. The pairs were spaced 50 m apart, as a minimum distance of 50 m decreases the influence between sets of traps in sampling Scarabaeinae 
+      <xref ref-type="bibr" rid="pone.0111883-Larsen1">
+       [45]
+      </xref>. Each pair of traps was regarded as a sampling point, and remained in the field for 48 h prior to collection.</p> 
+     <p>The samplings were carried out during the summer of 2012 (January and February), because of high temperatures, and it being the period of greatest dung beetle abundance in subtropical regions in Brazil 
+      <xref ref-type="bibr" rid="pone.0111883-Hernndez1">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0111883-Silva1">
+       [47]
+      </xref>. Due to the spatial configuration of our sampling design, the large distance among the four areas, and the effect of spatial discontinuity between mainland-island, the sampling sites showed a hierarchical distribution. Thus, it was possible to investigate the variation in dung beetle communities at three spatial scales, i.e. mainland-island, areas, and sites. Sites represent the local spatial scale, i.e., the smallest spatial extent in our study that encompasses five sampling points. Areas represent the intermediate spatial scale with five sites per area. Mainland-island represents the regional spatial scale, i.e., the largest spatial extent in our study that encompasses two areas each one. Variation in dung beetle species composition, number of individuals, and dry biomass was used to assess the influence of environmental and spatial factors at each spatial scale.</p> 
+    </sec>
+    <sec id="s2d"> 
+     <title>Environmental variables</title> 
+     <p>We measured 20 environmental variables related to habitat structure to test their influence on dung beetle distribution. Differences in environmental conditions (environmental variables measured) among sampling sites is defined as environmental heterogeneity. Measurement was performed using the adapted point-centered quarter method 
+      <xref ref-type="bibr" rid="pone.0111883-Brower1">
+       [48]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0111883-Cottam1">
+       [49]
+      </xref>. This method was chosen for its simplicity and common use in phytosociological surveys 
+      <xref ref-type="bibr" rid="pone.0111883-Ramos1">
+       [50]
+      </xref>. Briefly, a plastic pipes crossing in an x-shape were placed in the center of each pair of traps (i.e., at each sampling point), dividing the sampling point into four quadrants (northwest, southwest, southeast and northeast). Tree, shrub and soil environmental variables were measured in each quadrant as follows: (1) circumference at breast height when diameter at breast height &gt;5 cm), (2) height, (3) top diameter and (4) distance away from the nearest tree to the center of cross, (5–8) same measures for the greater tree distant up to 10 m, (9–12) similar measures for shrubs (circumference at ankle height when &lt;5 cm and with a minimum height of 1 m), (13) land slope, (14) canopy cover, (15) percentage of leaf litter cover, (16) green cover and (17) exposed soil, (18) height and (19) dry biomass of leaf litter, and (20) altitude.</p> 
+     <p>The height of trees and shrubs was visually estimated with a ruler of 4 m length. Circumference and distance were measured with a millimeter tape measure. The percentage of litter, green cover, and exposed soil coverage in each quadrant was estimated in different classes (0–5, 6–25, 26–50, 51–75, 76–95, 96–100%) using a square of 1 m plastic pipes, placed about 20 cm away from the cross. Land slope was obtained at the center of the square using an inclinometer. Litter height was measured using a mm ruler at five points inside the square (near each corner and in the center). A five-inch square was constructed in the center of the 1 m square, and a portion of litter was removed. Litter was later dried in an oven (60°C for 72 hours) and weighed to obtain dry biomass. Using the same classes described above, the percentage of canopy cover was visually estimated using a hollow square of 10 cm side length, placed at a distance of 60 cm from the eye of the observer at a 20° angle in relation to the zenith 
+      <xref ref-type="bibr" rid="pone.0111883-Ramos1">
+       [50]
+      </xref>. Altitude was obtained using a hand-held GPS at ground level. The basal area of trees and shrubs was calculated from the trunk circumference (based on the area of the circle). For each variable, a measure of central tendency was calculated based on the Shapiro-Wilk normality test. Thus, each environmental variable represented a central value (mean or median, as appropriate) of the four measures of each point; this was done to minimize the effects of visual estimation. A subset of the variables analyzed (three basal area, three heights, DBH) is used by the Conselho Nacional do Meio Ambiente, the Brazilian Council of Environmental issues, to characterize successional stages of Atlantic Forest in the state of Santa Catarina 
+      <xref ref-type="bibr" rid="pone.0111883-ConselhoNacionaldoMeio1">
+       [51]
+      </xref>. 
+      <xref ref-type="supplementary-material" rid="pone.0111883.s003">
+       Dataset S1
+      </xref> provides the database of values for each environmental variable across the study sites.</p> 
+    </sec>
+    <sec id="s2e"> 
+     <title>Spatial variables</title> 
+     <p>Spatial predictors were created using a method called Principal Coordinates of Neighbour Matrices 
+      <xref ref-type="bibr" rid="pone.0111883-Borcard1">
+       [19]
+      </xref>, which is part of a set of spatial eigenfunction analyses called Moran’s Eigenvector Maps 
+      <xref ref-type="bibr" rid="pone.0111883-Dray1">
+       [52]
+      </xref>. The creation of spatial predictors was performed using 
+      <italic>
+       create.MEM.model
+      </italic> function 
+      <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+       [25]
+      </xref> for the program R 
+      <xref ref-type="bibr" rid="pone.0111883-R1">
+       [53]
+      </xref>, because the sampling sites in our study showed a spatial hierarchical structure 
+      <xref ref-type="bibr" rid="pone.0111883-Borcard2">
+       [54]
+      </xref> with large distances between sites in different areas. This function produces a staggered matrix arranged in blocks from the geographical coordinates, generating information on the number of blocks (or groups) and sampling sites in each block 
+      <xref ref-type="bibr" rid="pone.0111883-Borcard2">
+       [54]
+      </xref>. Each block represents the hierarchical spatial distribution of sampling points, and in the staggered matrix the blocks from another hierarchy receive value of zero (0) for each spatial variable created. These variables represent the spatial variation at different spatial scales and may be used as predictors in gradient analysis to model the spatial relationship of the community data 
+      <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+       [25]
+      </xref>. To create the spatial variables, we used data from geographic coordinates (Universal Transverse Mercator) obtained at each sampling point using a hand-held GPS. 
+      <xref ref-type="supplementary-material" rid="pone.0111883.s003">
+       Dataset S1
+      </xref> provides the database of geographic coordinates for each study site.</p> 
+    </sec>
+    <sec id="s2f"> 
+     <title>Data analysis</title> 
+     <sec id="s2f1"> 
+      <title>Beta diversity across spatial scales</title> 
+      <p>A recent approach called “true diversity” 
+       <xref ref-type="bibr" rid="pone.0111883-Jost2">
+        [55]
+       </xref> has been used to partition diversity into its different components in an additive or multiplicative way 
+       <xref ref-type="bibr" rid="pone.0111883-Jost1">
+        [14]
+       </xref>. The additive partitioning approach (γ = α+β1+β2+β3) was used to estimate the beta diversity at the different spatial scales. Alpha (α) is the average species richness in local communities, while gamma (γ) refers to the total richness observed in the entire set of samples. Each component of beta diversity refers to different spatial scales studied: β1 = between sampling sites, β2 = between areas, β3 = between mainland-island. We used data on species richness and individual abundance (i.e., true Shannon diversity) for the hierarchical analysis of diversity partitioning. Partitioned components of diversity based on abundance were natural log-transformed to make them additive (i.e., Shannon entropy 
+       <xref ref-type="bibr" rid="pone.0111883-Jost2">
+        [55]
+       </xref>). These analyses were performed in Partition 3.0 program 
+       <xref ref-type="bibr" rid="pone.0111883-Veech1">
+        [56]
+       </xref>.</p> 
+     </sec>
+     <sec id="s2f2"> 
+      <title>Species and local contributions to beta diversity</title> 
+      <p>The total beta diversity (BD<sub>Total</sub>) was analyzed by calculating the total variance of the species matrix using 
+       <italic>
+        beta.div
+       </italic> function 
+       <xref ref-type="bibr" rid="pone.0111883-Legendre3">
+        [15]
+       </xref> for R program 
+       <xref ref-type="bibr" rid="pone.0111883-R1">
+        [53]
+       </xref>. This method calculates the total sum of squares of the species matrix and from it, one may obtain an index of the total data variance that represents the total beta diversity, and it may be compared among sampling units. The BD<sub>Total</sub> may then be partitioned in Species Contribution to Beta Diversity (SCBD, or degree of variation of the species along the studied area) and Local Contribution to Beta Diversity (LCBD, or comparative indicators of ecological uniqueness of the sampling sites) 
+       <xref ref-type="bibr" rid="pone.0111883-Legendre3">
+        [15]
+       </xref>. The values of LCBD were tested using random and independent permutations (in columns) of the species matrix, testing whether species are randomly and independently distributed between sampling sites 
+       <xref ref-type="bibr" rid="pone.0111883-Legendre3">
+        [15]
+       </xref>. This approach was used to identify the species and sites that contributed most to the beta diversity index throughout the spatial gradient. Before running the analysis, species data (composition, abundance and biomass) were Hellinger-transformed, after which Euclidean distance was used in the execution of the analysis. We used Spearman correlation to assess the association between the values of LCBD and species richness, abundance and biomass, in order to determine whether sampling site contribution is related to the number of species, number of individuals, and total biomass. Analyses were performed in R 3.0.1 program 
+       <xref ref-type="bibr" rid="pone.0111883-R1">
+        [53]
+       </xref>.</p> 
+     </sec>
+     <sec id="s2f3"> 
+      <title>Variation partitioning explained by explanatory variables</title> 
+      <p>Double stopping criterion 
+       <xref ref-type="bibr" rid="pone.0111883-Blanchet1">
+        [57]
+       </xref> was used as forward selection procedure of explanatory variables in order to avoid type I error, and to avoid overestimating the amount of explained variance in the species matrix before variation partitioning 
+       <xref ref-type="bibr" rid="pone.0111883-Borcard2">
+        [54]
+       </xref>, 
+       <xref ref-type="bibr" rid="pone.0111883-Blanchet1">
+        [57]
+       </xref>. Variation partitioning allows partitioning the variation in the species data explained by pure environmental effects [a], spatially structured environmental variables [b], pure spatial effects [c], and unexplained variation (i.e., residuals or fraction [d]) 
+       <xref ref-type="bibr" rid="pone.0111883-PeresNeto1">
+        [18]
+       </xref>, 
+       <xref ref-type="bibr" rid="pone.0111883-Borcard3">
+        [58]
+       </xref>. This method estimates and tests the percentage of variation (R<sup>2</sup><sub>adj</sub>) attributed to each unique set of explanatory variables 
+       <xref ref-type="bibr" rid="pone.0111883-PeresNeto1">
+        [18]
+       </xref>. Three steps were necessary to perform the variation partitioning: (1) implementation of a redundancy analysis (RDA) with sets of environmental and spatial variables, (2) a second RDA with environmental data, controlling for spatial effects (E | S), (3) a third RDA with spatial data, controlling for environmental effects (S | E) 
+       <xref ref-type="bibr" rid="pone.0111883-PeresNeto1">
+        [18]
+       </xref>. Variation partitioning was performed for the composition, abundance and biomass of dung beetles at each spatial scale studied. Before running RDAs, species datasets were Hellinger-transformed in order to eliminate the disparity between values 
+       <xref ref-type="bibr" rid="pone.0111883-Legendre4">
+        [59]
+       </xref>. The proportion of variance explained by each set of explanatory variables is described by R<sup>2</sup><sub>adj</sub> according to the Ezekiel correction 
+       <xref ref-type="bibr" rid="pone.0111883-PeresNeto1">
+        [18]
+       </xref>, and significance levels are calculated by permutation tests (N = 999) 
+       <xref ref-type="bibr" rid="pone.0111883-Borcard2">
+        [54]
+       </xref>. We tested for a linear spatial trend and found a significant longitudinal trend for dung beetle composition data (F = 3.34; df = 2; p&lt;0.01), abundance (F = 6.77; df = 2; p&lt;0.01), and biomass (F = 7.35; df = 2; p&lt;0.01). Thus, all datasets were detrended prior to the analyses 
+       <xref ref-type="bibr" rid="pone.0111883-Borcard2">
+        [54]
+       </xref>. R<sup>2</sup><sub>adj</sub> values were indicated in percentage format in the text and tables. The analyses were conducted in R 3.0.1 program 
+       <xref ref-type="bibr" rid="pone.0111883-R1">
+        [53]
+       </xref> using Packfor 
+       <xref ref-type="bibr" rid="pone.0111883-RForge1">
+        [60]
+       </xref> and Vegan 
+       <xref ref-type="bibr" rid="pone.0111883-Oksanen1">
+        [61]
+       </xref> packages.</p> 
+     </sec>
+    </sec>
+   </sec>
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Species richness, abundance and biomass across spatial scales</title> 
+     <p>Regionally, we collected a total of 3,004 individuals of Scarabaeinae, belonging to 21 species (
+      <xref ref-type="supplementary-material" rid="pone.0111883.s002">
+       Table S1
+      </xref>). The mainland and the island had the same total number of species (16), sharing 11. On the island, the number of individuals was 2.5 higher, and total biomass was 2 times higher compared to the mainland. Among areas, RAT had the greatest number of species and individuals, and greatest biomass, followed by PER (both island areas). Only eight species (38.1%) were shared by all four areas.</p> 
+     <p>The number of species per site ranged between five and 14 (
+      <xref ref-type="supplementary-material" rid="pone.0111883.s002">
+       Table S1
+      </xref>). Only one species occurred in all sampling sites (
+      <italic>
+       Canthon rutilans cyanescens
+      </italic>). Three species were sampled at least 19 sites (
+      <italic>
+       Deltochilum morbillosum
+      </italic>, 
+      <italic>
+       Deltochilum multicolor
+      </italic>, and 
+      <italic>
+       Dichotomius sericeus
+      </italic>). Five species were responsible for 92.8% of the total dung beetle biomass (
+      <italic>
+       D. sericeus
+      </italic>, 
+      <italic>
+       Coprophanaeus saphirinus
+      </italic>, 
+      <italic>
+       C. rutilans cyanescens
+      </italic>, 
+      <italic>
+       D. multicolor
+      </italic> and 
+      <italic>
+       D. morbillosum
+      </italic>) (see 
+      <xref ref-type="supplementary-material" rid="pone.0111883.s001">
+       Figure S1
+      </xref> for a spatial comparison of species richness, abundance and biomass).</p> 
+    </sec>
+    <sec id="s3b"> 
+     <title>Beta diversity across spatial scales</title> 
+     <p>The hierarchical partitioning analysis of diversity based on species richness data showed a large contribution of regional (β3 = 5 species) and local (β1 = 4.4 species) spatial scales to gamma diversity (
+      <xref ref-type="fig" rid="pone-0111883-g002">
+       Figure 2
+      </xref>). Beta diversity among areas (β2 = 2.2 species) was relatively small when compared to other spatial scales. A similar pattern was observed for Shannon entropy based on species abundance. The hierarchical partitioning of diversity analysis also indicated a small contribution of β2, and a large relative contribution of β3 and β1, respectively.</p> 
+     <fig id="pone-0111883-g002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0111883.g002
+      </object-id>
+      <label>Figure 2</label> 
+      <title>Full hierarchical analysis of diversity partitioning.</title> 
+      <p>The partitioning was performed for species richness and Shannon entropy of dung beetles. α = local diversity, β1 = diversity among sites, β2 = diversity among areas, β3 = diversity among mainland-island.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0111883.g002" position="float" xlink:type="simple" />
+     </fig> 
+     <p>Our results show that there were five species found only on the mainland (
+      <italic>
+       Bdelyrus braziliensis
+      </italic>, 
+      <italic>
+       Coprophanaeus dardanus
+      </italic>, 
+      <italic>
+       Deltochilum furcatum
+      </italic>, 
+      <italic>
+       Dichotomius quadrinodosus
+      </italic>, and 
+      <italic>
+       Eurysternus cyanescens
+      </italic>), and five only found on the island (
+      <italic>
+       Dichotomius
+      </italic> sp., 
+      <italic>
+       Eurysternus parallelus
+      </italic>, 
+      <italic>
+       Paracanthon
+      </italic> aff. 
+      <italic>
+       rosinae
+      </italic>, 
+      <italic>
+       Uroxys
+      </italic> sp. 1, and 
+      <italic>
+       Uroxys
+      </italic> sp. 2). 
+      <italic>
+       Bdelyrus braziliensis
+      </italic> and 
+      <italic>
+       Eurysternus cyanescens
+      </italic> were found only in ANH, on the mainland. 
+      <italic>
+       Coprophanaeus dardanus
+      </italic>, 
+      <italic>
+       Deltochilum furcatum
+      </italic> and 
+      <italic>
+       Dichotomius quadrinodosus
+      </italic> occurred only in ITA, on the mainland. 
+      <italic>
+       Dichotomius
+      </italic> sp. and 
+      <italic>
+       Uroxys
+      </italic> sp. 2 occurred only in RAT, on the island. 
+      <italic>
+       Paracanthon
+      </italic> aff. 
+      <italic>
+       rosinae
+      </italic> and 
+      <italic>
+       Uroxys
+      </italic> sp. 1 were only shared between RAT and PER.</p> 
+    </sec>
+    <sec id="s3c"> 
+     <title>Species and local contributions to beta diversity index</title> 
+     <p>The partitioning of the total variance in components of the contribution of species and sites to beta diversity showed different results when data on composition, abundance and biomass of dung beetles were analyzed. For composition, the total sum of squares (SS<sub>Total</sub>) was 38.183 and the index of variance of beta diversity (BD<sub>Total</sub>) was 0.395 for dung beetle data across all sampling sites. SCBD values ranged between 0.002 and 0.145, and 10 species contributed above the mean (0.047) to beta diversity (
+      <xref ref-type="table" rid="pone-0111883-t001">
+       Table 1
+      </xref> left). The values of LCBD ranged between 0.003 and 0.032, indicating the uniqueness of the dung beetle community at each sampling site. Six sampling points were statistically significant to beta diversity (
+      <xref ref-type="fig" rid="pone-0111883-g003">
+       Figure 3A
+      </xref>), all within two ITA sites and one PER site. LCBD values were negatively correlated with species richness (r = −0.45, p&lt;0.001) indicating that, in general, sites with unique species composition have a low number of species.</p> 
+     <fig id="pone-0111883-g003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0111883.g003
+      </object-id>
+      <label>Figure 3</label> 
+      <title>Map of the sampling points showing significant values (red) of the local contribution to beta diversity (LCBD).</title> 
+      <p>LCBD analysis used composition, abundance and dry biomass data. ANH: Environmental Protection Area of Anhatomirim; ITA: Permanent Protection Area of Itapema; PER: Lagoa do Peri Municipal Park; RAT: Permanent Protection Area of Ratones. The circles are proportional to the total value of LCBD for each analysis.</p> 
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0111883.g003" position="float" xlink:type="simple" />
+     </fig>
+     <table-wrap id="pone-0111883-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0111883.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Partitioning of the total variance in species contribution to beta diversity (SCBD) based on the beta diversity index (BD&lt;sub&gt;Total&lt;/sub&gt;) and the total sum of squares (SS&lt;sub&gt;Total&lt;/sub&gt;).</title> 
+      <alternatives>
+       <graphic id="pone-0111883-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0111883.t001" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Species</td> 
+          <td align="left" rowspan="1" colspan="1">Composition</td> 
+          <td align="left" rowspan="1" colspan="1">Abundance</td> 
+          <td align="left" rowspan="1" colspan="1">Biomass</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">SS<sub>Total</sub> = 38.183</td> 
+          <td align="left" rowspan="1" colspan="1">SS<sub>Total</sub> = 35.691</td> 
+          <td align="left" rowspan="1" colspan="1">SS<sub>Total</sub> = 35.275</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">BD<sub>Total</sub> = 0.395</td> 
+          <td align="left" rowspan="1" colspan="1">BD<sub>Total</sub> = 0.360</td> 
+          <td align="left" rowspan="1" colspan="1">BD<sub>Total</sub> = 0.356</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Canthidium
+           </italic> aff. 
+           <italic>
+            trinodosum
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.121</td> 
+          <td align="left" rowspan="1" colspan="1">0.141</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Canthon luctuosus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.061</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Canthon rutilans cyanescens
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.055</td> 
+          <td align="left" rowspan="1" colspan="1">0.153</td> 
+          <td align="left" rowspan="1" colspan="1">0.113</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Coprophanaeus saphirinus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.100</td> 
+          <td align="left" rowspan="1" colspan="1">0.123</td> 
+          <td align="left" rowspan="1" colspan="1">0.235</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Deltochilum multicolor
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.145</td> 
+          <td align="left" rowspan="1" colspan="1">0.116</td> 
+          <td align="left" rowspan="1" colspan="1">0.155</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Deltochilum morbillosum
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.109</td> 
+          <td align="left" rowspan="1" colspan="1">0.101</td> 
+          <td align="left" rowspan="1" colspan="1">0.067</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Deltochilum rubripenne
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.068</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Dichotomius sericeus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.059</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.230</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Phanaeus splendidulus
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">0.063</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">0.49</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            Uroxys
+           </italic> sp. 1</td> 
+          <td align="left" rowspan="1" colspan="1">0.053</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+     </table-wrap> 
+     <p>For abundance data, the SS<sub>Total</sub> was 35.691 and the BD<sub>Total</sub> was 0.360. SCBD values ranged between 0.0003 and 0.179, and five species contributed above the mean (0.047) to beta diversity (
+      <xref ref-type="table" rid="pone-0111883-t001">
+       Table 1
+      </xref> center). LCBD values ranged between 0.002 and 0.040, and seven sampling points were statistically significant (
+      <xref ref-type="fig" rid="pone-0111883-g003">
+       Figure 3B
+      </xref>), all occurring in the same two ITA sites sampled for composition data. LCBD values were negatively correlated with abundance at each sampling point (r = −0.32, p&lt;0.001), demonstrating that sites with unique species composition, in general, have low abundance.</p> 
+     <p>For biomass data, the SS<sub>Total</sub> was 35.275 and the BD<sub>Total</sub> was 0.356. SCBD ranged between 6.915e<sup>−06</sup> and 0.235, and six species contributed above the mean (0.047) to beta diversity (
+      <xref ref-type="table" rid="pone-0111883-t001">
+       Table 1
+      </xref> right). LCBD values ranged between 0.002 and 0.042, and eight sampling points were statistically significant (
+      <xref ref-type="fig" rid="pone-0111883-g003">
+       Figure 3C
+      </xref>). LCBD values were negatively correlated with biomass of each sampling point (r = −0.49, p&lt;0.001), and as well as to species richness and abundance, suggesting that sites with unique species composition, in general, have low dung beetle biomass.</p> 
+     <p>Only four species (
+      <italic>
+       C. rutilans cyanescens
+      </italic>, 
+      <italic>
+       C. saphirinus
+      </italic>, 
+      <italic>
+       D. multicolor
+      </italic> and 
+      <italic>
+       D. morbillosum
+      </italic>) contributed to the beta diversity index taking into account the composition, abundance and biomass of dung beetles. Although these species are very common among the sampled sites, this result suggests that they had strong local spatial variation in terms of occurrence, number of individuals and total biomass between sites.</p> 
+    </sec>
+    <sec id="s3d"> 
+     <title>Environmental and spatial effects on community variation at different spatial scales</title> 
+     <p>The variation partitioning based on community composition, abundance and biomass showed different responses at each spatial scale when we analyzed each species dataset. The variation in species composition at mainland-island scale showed a greater and significant environmental effect (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2A
+      </xref> left). Altitude was the only environmental variable selected to compose the environmental model and it explained 4.5% of variation at this scale. When the spatial configuration was removed from the environmental model the explanation decreased to 4.4%. The spatial effect was not significant for variation in species composition, and after the environmental effect was removed the spatial model was still not significant. The variation explained by spatially structured environmental variables [b] explained only 0.02%.</p> 
+     <table-wrap id="pone-0111883-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0111883.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Partitioning of variation in dung beetle communities at three spatial scales using redundancy analysis on composition, abundance and biomass.</title> 
+      <alternatives>
+       <graphic id="pone-0111883-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0111883.t002" xlink:type="simple" /> 
+       <table>
+        <colgroup span="1">
+         <col align="left" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+         <col align="center" span="1">
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td colspan="4" align="left" rowspan="1">Composition</td> 
+          <td colspan="4" align="left" rowspan="1">Abundance</td> 
+          <td colspan="4" align="left" rowspan="1">Biomass</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">R<sup>2</sup><sub>adj</sub></td> 
+          <td align="left" rowspan="1" colspan="1">DF</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">P</td> 
+          <td align="left" rowspan="1" colspan="1">R<sup>2</sup><sub>adj</sub></td> 
+          <td align="left" rowspan="1" colspan="1">DF</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">P</td> 
+          <td align="left" rowspan="1" colspan="1">R<sup>2</sup><sub>adj</sub></td> 
+          <td align="left" rowspan="1" colspan="1">DF</td> 
+          <td align="left" rowspan="1" colspan="1">F</td> 
+          <td align="left" rowspan="1" colspan="1">P</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">A) Mainland-island</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">[a + b]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.5
+           </bold>
+           <xref ref-type="table-fn" rid="nt102">
+            a
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">5.62</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold><sup>e</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.62</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold><sup>e</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.61</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">S</td> 
+          <td align="left" rowspan="1" colspan="1">[b + c]</td> 
+          <td align="left" rowspan="1" colspan="1">0.4<sup>b</sup></td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">1.19</td> 
+          <td align="left" rowspan="1" colspan="1">0.268</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1.4
+           </bold><sup>f</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2.40</td> 
+          <td align="left" rowspan="1" colspan="1">0.016</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2.8
+           </bold><sup>b</sup></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">3.88</td> 
+          <td align="left" rowspan="1" colspan="1">0.003</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E | S</td> 
+          <td align="left" rowspan="1" colspan="1">[a]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.4
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">5.53</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            10.0
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.70</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.69</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">S | E</td> 
+          <td align="left" rowspan="1" colspan="1">[c]</td> 
+          <td align="left" rowspan="1" colspan="1">0.4</td> 
+          <td align="left" rowspan="1" colspan="1">2</td> 
+          <td align="left" rowspan="1" colspan="1">1.19</td> 
+          <td align="left" rowspan="1" colspan="1">0.242</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1.6
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2.68</td> 
+          <td align="left" rowspan="1" colspan="1">0.006</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            2.8
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">4.11</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">B) Areas</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">[a + b]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.5
+           </bold>
+           <xref ref-type="table-fn" rid="nt102">
+            a
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">5.62</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold><sup>e</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.62</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold><sup>e</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.61</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">S</td> 
+          <td align="left" rowspan="1" colspan="1">[b + c]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            13.2
+           </bold><sup>c</sup></td> 
+          <td align="left" rowspan="1" colspan="1">5</td> 
+          <td align="left" rowspan="1" colspan="1">4.02</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            17.4
+           </bold><sup>g</sup></td> 
+          <td align="left" rowspan="1" colspan="1">7</td> 
+          <td align="left" rowspan="1" colspan="1">3.98</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            16.6
+           </bold><sup>h</sup></td> 
+          <td align="left" rowspan="1" colspan="1">6</td> 
+          <td align="left" rowspan="1" colspan="1">4.28</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E | S</td> 
+          <td align="left" rowspan="1" colspan="1">[a]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            1.2
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">2.27</td> 
+          <td align="left" rowspan="1" colspan="1">0.012</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            7.3
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">3.97</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            8.4
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.45</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">S | E</td> 
+          <td align="left" rowspan="1" colspan="1">[c]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">5</td> 
+          <td align="left" rowspan="1" colspan="1">3.27</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">14.8</td> 
+          <td align="left" rowspan="1" colspan="1">7</td> 
+          <td align="left" rowspan="1" colspan="1">3.69</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            15.1
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">6</td> 
+          <td align="left" rowspan="1" colspan="1">4.21</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">C) Sites</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E</td> 
+          <td align="left" rowspan="1" colspan="1">[a + b]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            4.5
+           </bold>
+           <xref ref-type="table-fn" rid="nt102">
+            a
+           </xref></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">5.62</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold><sup>e</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.62</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.9
+           </bold><sup>e</sup></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.61</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">S</td> 
+          <td align="left" rowspan="1" colspan="1">[b + c]</td> 
+          <td align="left" rowspan="1" colspan="1">−11.2<sup>d</sup></td> 
+          <td align="left" rowspan="1" colspan="1">40</td> 
+          <td align="left" rowspan="1" colspan="1">0.75</td> 
+          <td align="left" rowspan="1" colspan="1">0.999</td> 
+          <td align="left" rowspan="1" colspan="1">−20.2<sup>d</sup></td> 
+          <td align="left" rowspan="1" colspan="1">40</td> 
+          <td align="left" rowspan="1" colspan="1">0.58</td> 
+          <td align="left" rowspan="1" colspan="1">1.000</td> 
+          <td align="left" rowspan="1" colspan="1">−22.9<sup>d</sup></td> 
+          <td align="left" rowspan="1" colspan="1">40</td> 
+          <td align="left" rowspan="1" colspan="1">0.53</td> 
+          <td align="left" rowspan="1" colspan="1">1.000</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">E | S</td> 
+          <td align="left" rowspan="1" colspan="1">[a]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            9.0
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">1</td> 
+          <td align="left" rowspan="1" colspan="1">6.19</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            15.8
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">3.98</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <bold>
+            17.2
+           </bold></td> 
+          <td align="left" rowspan="1" colspan="1">3</td> 
+          <td align="left" rowspan="1" colspan="1">4.20</td> 
+          <td align="left" rowspan="1" colspan="1">0.001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">S | E</td> 
+          <td align="left" rowspan="1" colspan="1">[c]</td> 
+          <td align="left" rowspan="1" colspan="1">−6.7</td> 
+          <td align="left" rowspan="1" colspan="1">40</td> 
+          <td align="left" rowspan="1" colspan="1">0.83</td> 
+          <td align="left" rowspan="1" colspan="1">0.976</td> 
+          <td align="left" rowspan="1" colspan="1">−14.2</td> 
+          <td align="left" rowspan="1" colspan="1">40</td> 
+          <td align="left" rowspan="1" colspan="1">0.67</td> 
+          <td align="left" rowspan="1" colspan="1">0.999</td> 
+          <td align="left" rowspan="1" colspan="1">−15.5</td> 
+          <td align="left" rowspan="1" colspan="1">40</td> 
+          <td align="left" rowspan="1" colspan="1">0.64</td> 
+          <td align="left" rowspan="1" colspan="1">0.999</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot>
+       <fn id="nt101">
+        <label></label>
+        <p>E: environmental model, S: spatial model, constructed from MEM variables, E | S: environmental model without spatial patterns within each spatial scale, S | E: spatial model without environmental patterns within each spatial scale, R<sup>2</sup><sub>adj</sub>: data variation explained by the model (values are in percentage), DF: degrees of freedom of model. Significant models are in bold.</p>
+       </fn>
+       <fn id="nt102">
+        <label>a</label>
+        <p>Environmental model constructed from the altitude variable; <sup>b</sup>Spatial model constructed from the MEM1 and MEM2 variables; <sup>c</sup>Spatial model constructed from the MEM4, MEM9, MEM5, MEM3, and MEM1 variables; <sup>d</sup>Spatial model constructed from all MEM variables; <sup>e</sup>Environmental model constructed from the altitude, green cover and land slope variables; <sup>f</sup>Spatial model constructed from the MEM1 variable; <sup>g</sup>Spatial model constructed from the MEM4, MEM9, MEM3, MEM7, MEM1, MEM2, and MEM5 variables; <sup>h</sup>constructed from the MEM4, MEM3, MEM2, MEM5, MEM7, and MEM1 variables.</p>
+       </fn>
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>At the scale of areas, spatial effects were stronger than environmental effects, and it explained 13.2% of the variation in species composition (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2B
+      </xref> left). After environmental effects were removed, the spatial model explained 9.9% of the variation in the data. The environmental model, which was composed of altitude only, explained only 1.2% after spatial effects were removed. Spatially structured environmental variables [b] explained 3.3% of the variation in the data. At the smallest scale, i.e. sites, only the environmental model was significant and explained 9.0% of the data variation after spatial effects were removed (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2C
+      </xref> left). At this scale, the spatial model showed no significant patterns. The variation explained by spatially structured environmental variables [b] showed negative values.</p> 
+     <p>Almost 10% of the variation in composition (using species abundance) at the scale of mainland-island was attributed to the environmental model, which included altitude, green cover and land slope (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2A
+      </xref> center). After spatial effects were removed, the environmental model explained 10.0% of the variation in the data. The spatial model was also significant, but explained only 1.4%. Both models were significant when only the pure effects were analyzed. Spatially structured environmental variables [b] showed negative values.</p> 
+     <p>At the area scale, the spatial effect was significant (explaining 17.4% of the variation) and greater than the environmental effect. Both models were significant when only the pure effects were analyzed, in which the spatial model explained 14.8% and the environmental model explained 7.3% of the variation (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2B
+      </xref> center). The variation explained by spatially structured environmental variables [b] explained 2.5% of the variation in the data. At the site scale, the environmental model had greatest relative importance for dung beetle abundance (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2C
+      </xref> center). After spatial effects were removed, the variables that composed the environmental model explained 15.8% of the variation in abundance data. The spatial model showed no significant spatial patterns at this scale. Spatially structured environmental variables [b] showed negative values.</p> 
+     <p>At the mainland-island scale, analysis of the variation in species composition based on biomass showed that both environmental and spatial effects were significant (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2A
+      </xref> right). The environmental model composed of altitude, green cover and land slope explained 9.9% of the variation, and spatial effects explained 2.8% of the variation in the data (after corrections). The variation explained by spatially structured environmental variables [b] explained 0.002% of the variation in the data.</p> 
+     <p>At the area scale, the spatial model was significant and explained the greatest amount of the variation in the biomass data (16.6%) followed by the environmental model (9.9%) (
+      <xref ref-type="table" rid="pone-0111883-t002">
+       Table 2B
+      </xref> right). After correction, the spatial and environmental models explained 15.1% and 8.4%, respectively, of the variation in the biomass data. Spatially structured environmental variables [b] explained 1.5%. At the local scale, the environmental model explained 9.9% of variation, and when spatial effects were removed the proportion increased to 17.2%. The spatial model showed no significance at this scale. Values for the variation explained by spatially structured environmental variables [b] were negative.</p> 
+    </sec>
+   </sec>
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>In recent decades, there has been increased interest in understanding scale-dependence of the structuring processes of biological communities, including studies of protozoa 
+     <xref ref-type="bibr" rid="pone.0111883-Cadotte1">
+      [62]
+     </xref>, zooplankton 
+     <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Forbes1">
+      [63]
+     </xref>, ichthyoplankton 
+     <xref ref-type="bibr" rid="pone.0111883-MacedoSoares1">
+      [64]
+     </xref>, dragonflies 
+     <xref ref-type="bibr" rid="pone.0111883-Heino2">
+      [65]
+     </xref>, coral reefs 
+     <xref ref-type="bibr" rid="pone.0111883-Cornell1">
+      [66]
+     </xref>, reef-fishes 
+     <xref ref-type="bibr" rid="pone.0111883-MacNeil1">
+      [67]
+     </xref>, freshwater fishes 
+     <xref ref-type="bibr" rid="pone.0111883-Heino2">
+      [65]
+     </xref>, plants 
+     <xref ref-type="bibr" rid="pone.0111883-Giladi1">
+      [68]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Meynard1">
+      [69]
+     </xref>, frogs 
+     <xref ref-type="bibr" rid="pone.0111883-Heino2">
+      [65]
+     </xref>, birds 
+     <xref ref-type="bibr" rid="pone.0111883-Heikkinen1">
+      [70]
+     </xref>, and mammals 
+     <xref ref-type="bibr" rid="pone.0111883-Kelt1">
+      [71]
+     </xref>, covering a wide variety of ecosystems. The unique biology of dung beetles makes them excellent models with which to explore general concepts in ecology 
+     <xref ref-type="bibr" rid="pone.0111883-Simmons1">
+      [31]
+     </xref>, including new approaches suggested by metacommunity theory. Our results represent a first step towards a better understanding of the relative importance of ecological processes on dung beetle community structure in a coastal mainland-island landscape across three different spatial scales.</p> 
+    <p>In this study, the environmental heterogeneity had greater importance at smaller scales, and may be the cause of high beta diversity in terms of species richness and abundance (i.e., Shannon entropy) found among sampling sites. Local environmental factors seem to be crucial in the structuring of local communities; such factors may be responsible for high beta diversity at the local scale, as has been demonstrated for several groups of organisms in a variety of ecosystems 
+     <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+      [25]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Cottenie2">
+      [72]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Tews1">
+      [77]
+     </xref>. Thus, the ecological gradient evaluated here appears to have a distribution defined by spatially structured environmental heterogeneity, which may have strong effects on dung beetle community structure locally.</p> 
+    <p>Beta diversity at the area scale was lower than at the site scale, despite the increase in geographic distance among the sampling points. At area scale, we found a significantly greater importance of spatial effects compared to environmental effects, even after the analysis of individual effects of the models. Beta diversity among areas appears to be mainly related to the spatial patterns of the sampling sites. The occurrence of shared environmental and spatial effects as drivers of beta diversity are very common with increasing spatial scale 
+     <xref ref-type="bibr" rid="pone.0111883-Cottenie1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Gianuca1">
+      [75]
+     </xref>, and these shared effects may suggest significant limitations in species dispersal ability between site and area scales. Besides environmental effects, spatial limitation may be related to geographic distance, lack of connectivity caused by fragmentation, or the landscape structure between the mainland and the island.</p> 
+    <p>Between the mainland and the island, beta diversity showed the highest values and at this scale only the environmental model was significant for species composition, while for abundance the environmental and spatial models were significant. The high beta diversity found between the mainland and the island has its origin at site and area scales, where environmental and spatial patterns have high relative importance. Thus, we observed that the distribution of dung beetles along an ecological gradient occurs in a spatially structured environment, where such patterns may be generated due to dispersal limitation at intermediate scales, and due to environmental heterogeneity at local scales.</p> 
+    <p>The distribution pattern of dung beetle species composition was associated with the altitude gradient. This variable was significant at all scales studied after spatial effects were removed, demonstrating its strong influence on the species composition of dung beetle communities. Altitude ranged between 28 and 265 m among sampling sites. A study performed in the Colombian Andes demonstrated that dung beetle composition varied along an altitude gradient between 1,000 and 2,250 m at intervals of roughly 250 m 
+     <xref ref-type="bibr" rid="pone.0111883-Escobar1">
+      [78]
+     </xref>; the differences found in this study were associated with different environmental adaptations of the species. Environmental and climatic differences are also important for dung beetle distribution at low altitudes. The proximity to the sea and the effect of wind on humidity 
+     <xref ref-type="bibr" rid="pone.0111883-Hernndez1">
+      [46]
+     </xref>, and soils with higher salt concentration, although not measured in our study, could also affect the relative success of some species. Thus, the environmental and spatial configuration of sampling sites evaluated in the mainland-island landscape may influence the distribution of dung beetle species.</p> 
+    <p>Except for at the mainland-island scale, in general species composition and abundance showed similar responses to the ecological gradient studied. However, the relative importance of the models was greater for abundance data. Although abundance may not sufficiently explain patterns of species distribution (i.e., due to confounding effects caused by highly abundant species), it may help to explain the responses of species across the environmental gradients, because it reflects changes in the relative success of each species against these gradients 
+     <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+      [25]
+     </xref>. In our study, abundance and biomass data were explained by the same set of environmental variables, and showed very similar responses to the ecological gradients. In general, dung beetle biomass was more influenced by individual spatial effects than abundance data. Thus, biomass may be an important descriptor of changes in the relative success of dung beetles along ecological gradients, because it is mainly derived from nutrients obtained from mammal feces 
+     <xref ref-type="bibr" rid="pone.0111883-Spector1">
+      [79]
+     </xref>, and availability of this resource may also be affected by environmental heterogeneity.</p> 
+    <p>In addition to altitude, the percentage of green cover and land slope were part of the environmental model describing the distribution of dung beetle abundance and biomass. Green cover has also been found to explain the distribution of dung beetles species in different-sized Atlantic forest fragments 
+     <xref ref-type="bibr" rid="pone.0111883-Campos1">
+      [80]
+     </xref>. Variation in the percentage of green cover illustrates the differences among sites with greater or fewer small plants and shrubs covering the soil. Sites with greater spacing between trees and less tree cover allow more sunlight, which may influence the microclimate and soil moisture, as shown to occur in forest edges 
+     <xref ref-type="bibr" rid="pone.0111883-Didham1">
+      [81]
+     </xref>. Land slope ranged between five and 36° degrees, and having some degree of slope is a common characteristic among our sampling sites, due to the fact that Atlantic Forest is typically located on hillsides with a large altitudinal range 
+     <xref ref-type="bibr" rid="pone.0111883-Ribeiro1">
+      [29]
+     </xref>. In another study of Atlantic Forest in Serra do Japi, located in the western region of São Paulo state’s Atlantic plateau, Brazil, dung beetle composition was shown to vary between the tops, hillsides and valleys, which are associated with differences in environmental structure 
+     <xref ref-type="bibr" rid="pone.0111883-Hernndez1">
+      [46]
+     </xref>. Sites with high degrees of land slope may be most affected by rainfall, and may present unfavorable soil features for some dung beetle species. These environmental characteristics may influence the distribution of dung beetles, and may have greater power to affect relative species success.</p> 
+    <p>Changes in the structural complexity of forested areas may modify the entire community associated with these habitats, diminishing the species richness of some taxonomic groups and increasing the others 
+     <xref ref-type="bibr" rid="pone.0111883-Barlow1">
+      [33]
+     </xref>. For example, the structure of the environment was more important in determining dung beetle community composition than resource availability in areas occupied by cattle in Mexico 
+     <xref ref-type="bibr" rid="pone.0111883-Halffter2">
+      [82]
+     </xref>. The distribution of dung beetles along different environmental characteristics may show discrete associations typical to particular biotypes within the landscape 
+     <xref ref-type="bibr" rid="pone.0111883-Davis2">
+      [83]
+     </xref>. Species richness, abundance and biomass of dung beetles were negatively affected in disturbed habitats (e.g., secondary forests and 
+     <italic>
+      Eucalyptus
+     </italic> plantations in the Brazilian Amazon) when compared to primary forest habitats 
+     <xref ref-type="bibr" rid="pone.0111883-Gardner2">
+      [35]
+     </xref>. Microclimatic variations in tropical forests related to canopy height and opening affected dung beetle communities in French Guiana 
+     <xref ref-type="bibr" rid="pone.0111883-Feer1">
+      [84]
+     </xref>. Thus, many species of dung beetles have relationships with certain habitat characteristics, likely to facilitate finding mates and/or food, or could be directly related to the presence of organisms that produce their food resource.</p> 
+    <p>High inter- and intraspecific competition, random distribution, and ephemeral nature of food resources together suggest, a priori, that dung beetles are probably good dispersers 
+     <xref ref-type="bibr" rid="pone.0111883-Roslin1">
+      [85]
+     </xref>. However, relatively few quantitative descriptions of dispersal in these beetles exist 
+     <xref ref-type="bibr" rid="pone.0111883-Roslin1">
+      [85]
+     </xref>. The dispersal ability of 
+     <italic>
+      Canthon acutus
+     </italic> was investigated in Venezuela using capture-mark-recapture technique 
+     <xref ref-type="bibr" rid="pone.0111883-Larsen1">
+      [45]
+     </xref>. The authors installed pitfall traps baited with feces at different distances in a semi-deciduous tropical forest, and they found that 95% of individuals were collected up to 25 m. In contrast, using similar techniques, other authors 
+     <xref ref-type="bibr" rid="pone.0111883-Arellano1">
+      [86]
+     </xref> evaluated the dispersal ability of 
+     <italic>
+      Canthon cyanellus cyanellus
+     </italic> across a Mexican landscape that contained different components such as forest fragments, hedgerows and pastures. They found a maximum movement distance among the different landscape components of 1,560 m for males (average 390 m) and 860 m for females (average 290 m), suggesting that landscape type change is not a barrier to dispersal for some species. In fact, some species from continuous Amazonian forest fragments do not extend their activities to adjacent open areas, and this effect is reduced when there is presence of secondary forest in these areas 
+     <xref ref-type="bibr" rid="pone.0111883-Klein1">
+      [40]
+     </xref>. We may expect a similar pattern in the Brazilian Atlantic Forest.</p> 
+    <p>Besides differences in dispersal ability, several species of dung beetles are associated with certain habitat types 
+     <xref ref-type="bibr" rid="pone.0111883-Gardner2">
+      [35]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Hernndez1">
+      [46]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Silva1">
+      [47]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Almeida1">
+      [87]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0111883-Larsen2">
+      [91]
+     </xref> due to microclimatic factors 
+     <xref ref-type="bibr" rid="pone.0111883-Feer1">
+      [84]
+     </xref> or resource availability 
+     <xref ref-type="bibr" rid="pone.0111883-Simmons1">
+      [31]
+     </xref>. Data on differences in dispersal ability in the species sampled in this study are still lacking. Based on our results, it is possible that the high beta diversity found among sites reflects low dispersal ability due to environmental and spatial effects. Many species of dung beetles that inhabit forests tend to not extend their range to open areas 
+     <xref ref-type="bibr" rid="pone.0111883-Klein1">
+      [40]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Spector2">
+      [92]
+     </xref>, which influences their ability to disperse and colonize new habitats when the matrix is not favorable. However, species that live in forest edges or in the matrix 
+     <xref ref-type="bibr" rid="pone.0111883-Davis2">
+      [83]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Arellano1">
+      [86]
+     </xref> may have a stronger ability to disperse and colonize new habitats compared to those living inside the forests.</p> 
+    <p>The high beta diversity of dung beetle communities found among our sampling sites throughout the ecological gradient could still be related to historical events 
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Ricklefs2">
+      [11]
+     </xref> or neutral processes 
+     <xref ref-type="bibr" rid="pone.0111883-Hubbell1">
+      [10]
+     </xref>. In a biogeographical context, the island of Santa Catarina shows similar physiographic and structural features to those of the mainland, since the island and the mainland were connected during past periods when the Atlantic Ocean level was low 
+     <xref ref-type="bibr" rid="pone.0111883-Klein2">
+      [93]
+     </xref>. During that time, the small minimum distance between mainland and island (minimum of 500 m) and low maximum depth between them (about 30 m) may have allowed a favorable environment for dispersal of the species from the mainland to the island. Site “C” of ITA is unique in that is separated from the continuous forest that occurs in each area due to fragmentation caused by a highway; it had the lowest values for species richness (five) and for number of individuals (49), and was the exclusive site of occurrence of 
+     <italic>
+      Coprophanaeus dardanus
+     </italic>. This site also showed the lowest average altitude, and like others, this site has significant contribution to the negative relationship between LCBD values and community descriptors (species richness, abundance and biomass).</p> 
+    <p>Due to the current fragmented structure of the landscape and the negative impacts on many coastal environments that urbanization has caused 
+     <xref ref-type="bibr" rid="pone.0111883-Klein2">
+      [93]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Caruso1">
+      [94]
+     </xref>, the Atlantic Forest landscape is highly fragmented and in different stages of succession, with each functioning as “islands”. The communities are isolated and dispersal and colonization rates are low 
+     <xref ref-type="bibr" rid="pone.0111883-May1">
+      [95]
+     </xref> due to insertion in a matrix of inhospitable environments 
+     <xref ref-type="bibr" rid="pone.0111883-Nouhuys1">
+      [96]
+     </xref> for forest-inhabiting dung beetle species. Our results show that there were five species found only on the mainland, and five only found on the island. On the mainland, three species occurred only in ITA, and two only in ANH. On the island, two species occurred only in RAT, and two others were shared between RAT and PER. These results, as well as the analysis of the local contribution to beta diversity (significant sampling points occurred only near the ends of the spatial gradient, 
+     <xref ref-type="fig" rid="pone-0111883-g003">
+      Figure 3
+     </xref>) reflect the high importance of large-scale spatial effects in structuring dung beetle communities. The distinct occurrence of species between mainland-island may be result of isolation processes 
+     <xref ref-type="bibr" rid="pone.0111883-May1">
+      [95]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-MacArthur1">
+      [97]
+     </xref>, or local extinction due to lack of certain food sources (e.g., presence of certain mammals 
+     <xref ref-type="bibr" rid="pone.0111883-Culot1">
+      [38]
+     </xref>) or simple inability to colonize 
+     <xref ref-type="bibr" rid="pone.0111883-Andrewartha1">
+      [98]
+     </xref>. Alternatively, species may persist at a given location due to biotic and/or abiotic conditions in spatially structured environmental conditions 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre5">
+      [99]
+     </xref>. We propose that the processes listed above act as joint drivers of the current distribution of dung beetle species in the landscape studied, and our result suggest that the relative importance of each process depends on the spatial scale.</p> 
+    <p>Environmental control (i.e., the species sorting paradigm) seems to be the dominant structuring process in the metacommunity at the local scale. However, environment was also important at larger scales, and environmental factors were spatially structured along the ecological gradient studied. Spatial effects were more important at larger scales, where there was an increase in beta diversity that appears to be due to limitation in dispersal ability of the species due to geographic barriers and fragmented landscape. Contrary to what was found in other studies 
+     <xref ref-type="bibr" rid="pone.0111883-Declerck1">
+      [25]
+     </xref>, our results suggest that the increase in the spatial scale was related to increased environmental heterogeneity, although only mildly, agreeing with the general findings for stream insect communities 
+     <xref ref-type="bibr" rid="pone.0111883-Heino1">
+      [26]
+     </xref>. We believe that our results, extrapolated with caution, represent general patterns that serve as the basis for other organisms with similar characteristics and requirements.</p> 
+    <p>Appropriate management of spatially heterogeneous ecosystems requires an understanding of both local and regional processes by which beta diversity is created and maintained, in order to preserve the spatial organization or species-environment relationships on which beta diversity is dependent 
+     <xref ref-type="bibr" rid="pone.0111883-Legendre2">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0111883-Mouquet1">
+      [100]
+     </xref>. Due to current scenario of fragmentation and isolation of remaining fragments of the Brazilian Atlantic Forest 
+     <xref ref-type="bibr" rid="pone.0111883-Ribeiro1">
+      [29]
+     </xref>, knowing these answers is of great interest to managers and decision makers to plan appropriate conservation strategies in an increasingly human-modified world.</p> 
+   </sec>
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0111883.s001" mimetype="application/postscript" xlink:href="info:doi/10.1371/journal.pone.0111883.s001" position="float" xlink:type="simple">
+     <label>Figure S1</label> 
+     <p>
+      <bold>
+       Map of the sampling sites showing the distribution of species richness, abundance and total biomass of dung beetles.
+      </bold> ANH: Environmental Protection Area of Anhatomirim; ITA: Permanent Protection Area of Itapema; PER: Lagoa do Peri Municipal Park; RAT: Permanent Protection Area of Ratones. The circles represent the proportion to the total for each analysis.</p> 
+     <p>(EPS)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0111883.s002" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" xlink:href="info:doi/10.1371/journal.pone.0111883.s002" position="float" xlink:type="simple">
+     <label>Table S1</label> 
+     <p>
+      <bold>
+       Dung beetle species sampled in Atlantic Forest in eastern Santa Catarina, Brazil.
+      </bold> ANH: Environmental Protection Area of Anhatomirim in Governador Celso Ramos; ITA: Permanent Protection Area of Itapema; PER: Lagoa do Peri Municipal Park, Florianópolis; RAT: Permanent Protection Area of Ratones, Florianópolis. Letters A to E depict the sampled sites in each area. T: total.</p> 
+     <p>(XLSX)</p> 
+    </supplementary-material>
+    <supplementary-material id="pone.0111883.s003" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" xlink:href="info:doi/10.1371/journal.pone.0111883.s003" position="float" xlink:type="simple">
+     <label>Dataset S1</label> 
+     <p>
+      <bold>
+       Dataset of abundance and dry biomass of dung beetle species, environmental variables, and geographical coordinates.
+      </bold> Samplings were performed in Brazilian Atlantic Forest, Santa Catarina, Brazil using baited pitfall traps from January to February 2012.</p> 
+     <p>(XLSX)</p> 
+    </supplementary-material>
+   </sec> 
+   <back> 
+    <ack> 
+     <p>We are grateful to Ana Siegloch, Franciéle Garcês, Javier Toso, Jéssica Pires, Juliano Bogoni, Rafael Schmitt, Renata Calixto and Tamyris Gregolini for help during the fieldwork. We thank Fernando Vaz de Mello and David Edmonds for dung beetle identification. We thank the Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio/MMA) and Fundação do Meio Ambiente (FATMA-SC) for permission to collect.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0111883-Leibold1">
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leibold
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holyoak
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouquet
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amarasekare
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The metacommunity concept: a framework for multi-scale community ecology
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        601
+       </fpage>–
+       <lpage>
+        613
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Vellend1">
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Conceptual synthesis in community ecology
+       </article-title>. 
+       <source>Q Rev Biol 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        183
+       </fpage>–
+       <lpage>
+        206
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Legendre1">
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         De Cáceres
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Community surveys through space and time: testing the space-time interaction in the absence of replication
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        262
+       </fpage>–
+       <lpage>
+        272
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Simberloff1">
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Simberloff
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Community ecology: is it time to move on?
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        163
+       </volume>: 
+       <fpage>
+        787
+       </fpage>–
+       <lpage>
+        799
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Ricklefs1">
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricklefs
+        </surname>
+        <given-names>
+         RE
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Disintegration of the ecological community
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        172
+       </volume>: 
+       <fpage>
+        741
+       </fpage>–
+       <lpage>
+        750
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Howeth1">
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Howeth
+        </surname>
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leibold
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Species dispersal rates alter diversity and ecosystem stability in pond metacommunities
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        91
+       </volume>: 
+       <fpage>
+        2727
+       </fpage>–
+       <lpage>
+        2741
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Tack1">
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tack
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ovaskainen
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harrison
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roslin
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Competition as a structuring force in leaf miner communities
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        118
+       </volume>: 
+       <fpage>
+        809
+       </fpage>–
+       <lpage>
+        818
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Wilson1">
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Complex interactions in metacommunities, with implications for biodiversity and higher levels of selection
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        1984
+       </fpage>–
+       <lpage>
+        2000
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Davis1">
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         ALV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Scholtz
+        </surname>
+        <given-names>
+         CH
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Historical vs. ecological factors influencing global patterns of Scarabaeine dung beetle diversity
+       </article-title>. 
+       <source>Divers Distrib 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        161
+       </fpage>–
+       <lpage>
+        174
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Hubbell1">
+      <label>10</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Hubbell SP (2001) The unified neutral theory of biodiversity and biogeography. Princeton: Princeton University Press. 448 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Ricklefs2">
+      <label>11</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Ricklefs RE, Schluter D (1993) Species diversity: regional and historical influences. In: Ricklefs RE, Schluter D, editors. Species diversity in ecological communities. Chicago: The University of Chicago Press. 350–363.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Legendre2">
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peres-Neto
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Analyzing beta diversity: partitioning the spatial variation of community composition data
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        75
+       </volume>: 
+       <fpage>
+        435
+       </fpage>–
+       <lpage>
+        450
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Anderson1">
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Crist
+        </surname>
+        <given-names>
+         TO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Inouye
+        </surname>
+        <given-names>
+         BD
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Navigating the multiple meanings of beta diversity: a roadmap for the practicing ecologist
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        28
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Jost1">
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jost
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeVries
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walla
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Greeney
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chao
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Partitioning diversity for conservation analyses
+       </article-title>. 
+       <source>Divers Distrib 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        76
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Legendre3">
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         De Cáceres
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Beta diversity as the variance of community data: dissimilarity coefficients and partitioning
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        951
+       </fpage>–
+       <lpage>
+        963
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Tuomisto1">
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tuomisto
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        A diversity of beta diversities: straightening up a concept gone awry. Part 1. Defining beta diversity as a function of alpha and gamma diversity
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        2
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Tuomisto2">
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tuomisto
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        A diversity of beta diversities: straightening up a concept gone awry. Part 2. Quantifying beta diversity and related phenomena
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        23
+       </fpage>–
+       <lpage>
+        45
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-PeresNeto1">
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peres-Neto
+        </surname>
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dray
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Variation partitioning of species data matrices: estimation and comparison of fractions
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        2614
+       </fpage>–
+       <lpage>
+        2625
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Borcard1">
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Avois-Jacquet
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tuomisto
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Dissecting the spatial structure of ecological data at multiple scales
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        1826
+       </fpage>–
+       <lpage>
+        1832
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Gilbert1">
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gilbert
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname>
+        <given-names>
+         JR
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Partitioning variation in ecological communities: do the numbers add up?
+       </article-title> 
+       <source>J Appl Ecol 
+       <volume>
+        47
+       </volume>: 
+       <fpage>
+        1071
+       </fpage>–
+       <lpage>
+        1082
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Smith1">
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname>
+        <given-names>
+         TW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lundholm
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Variation partitioning as a tool to distinguish between niche and neutral processes
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        33
+       </volume>: 
+       <fpage>
+        648
+       </fpage>–
+       <lpage>
+        655
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Holyoak1">
+      <label>22</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Holyoak M, Leibold MA, Holt RD (2005) Metacommunities: Spatial dynamics and ecological communities. Chicago: The University of Chicago Press. 520 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Winegardner1">
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Winegardner
+        </surname>
+        <given-names>
+         AK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         BK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ng
+        </surname>
+        <given-names>
+         IS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cottenie
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The terminology of metacommunity ecology
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        253
+       </fpage>–
+       <lpage>
+        254
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Cottenie1">
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cottenie
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Integrating environmental and spatial processes in ecological community dynamics
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        1175
+       </fpage>–
+       <lpage>
+        1182
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Declerck1">
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Declerck
+        </surname>
+        <given-names>
+         SAJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coronel
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brendonck
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Scale dependency of processes structuring metacommunities of cladocerans in temporary pools of High-Andes wetlands
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        34
+       </volume>: 
+       <fpage>
+        296
+       </fpage>–
+       <lpage>
+        305
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Heino1">
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heino
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peckarsky
+        </surname>
+        <given-names>
+         BL
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Integrating behavioral, population and large-scale approaches for understanding stream insect communities
+       </article-title>. 
+       <source>Curr Opin Insect Sci 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        7
+       </fpage>–
+       <lpage>
+        13
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Logue1">
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Logue
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouquet
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peter
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hillebrand
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <collab xlink:type="simple">
+        The Metacommunity Working Group
+       </collab> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Empirical approaches to metacommunities: a review and comparison with theory
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        482
+       </fpage>–
+       <lpage>
+        491
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Myers1">
+      <label>28</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Myers
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname>
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fonseca
+        </surname>
+        <given-names>
+         GAB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kent
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Biodiversity hotspots for conservation priorities
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        403
+       </volume>: 
+       <fpage>
+        853
+       </fpage>–
+       <lpage>
+        845
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Ribeiro1">
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname>
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname>
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ponzoni
+        </surname>
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hirota
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        The Brazilian Atlantic Forest: How much is left, and how is the remaining forest distributed? Implications for conservation
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        142
+       </volume>: 
+       <fpage>
+        1141
+       </fpage>–
+       <lpage>
+        1153
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Tabarelli1">
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tabarelli
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pinto
+        </surname>
+        <given-names>
+         LP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Silva
+        </surname>
+        <given-names>
+         JMC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hirota
+        </surname>
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bedê
+        </surname>
+        <given-names>
+         LC
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Desafios e oportunidades para a conservação da biodiversidade na Mata Atlântica brasileira
+       </article-title>. 
+       <source>Megadiversidade 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        132
+       </fpage>–
+       <lpage>
+        138
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Simmons1">
+      <label>31</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Simmons LW, Ridsdill-Smith TJ (2011) Reproductive competition and its impact on the evolution and ecology of dung beetles. In: Simmons LW, Ridsdill-Smith TJ, editors. Ecology and evolution of dung beetles. Oxford: Blackwell Publishing. 1–20.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Nichols1">
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nichols
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spector
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Louzada
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amezquita
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Ecological functions and ecosystem services provided by Scarabaeinae dung beetles
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        141
+       </volume>: 
+       <fpage>
+        1461
+       </fpage>–
+       <lpage>
+        1474
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Barlow1">
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gardner
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Araujo
+        </surname>
+        <given-names>
+         IS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Avila-Pires
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonaldo
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Quantifying the biodiversity value of tropical primary, secondary, and plantation forests
+       </article-title>. 
+       <source>Proc Natl Acad Sci USA 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        18555
+       </fpage>–
+       <lpage>
+        18560
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Gardner1">
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gardner
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Araujo
+        </surname>
+        <given-names>
+         IS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Avila-Pires
+        </surname>
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonaldo
+        </surname>
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The cost-effectiveness of biodiversity surveys in tropical forests
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        139
+       </fpage>–
+       <lpage>
+        150
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Gardner2">
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gardner
+        </surname>
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hernández
+        </surname>
+        <given-names>
+         MIM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peres
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Understanding the biodiversity consequences of habitat change: the value of secondary and plantation forests for neotropical dung beetles
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        883
+       </fpage>–
+       <lpage>
+        893
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Halffter1">
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Halffter
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Favila
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        The Scarabaeinae (Insecta: Coleoptera) an animal group for analysing, inventorying and monitoring biodiversity in Tropical Rainforest and modified landscapes
+       </article-title>. 
+       <source>Biol Int 
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        15
+       </fpage>–
+       <lpage>
+        21
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Nichols2">
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nichols
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spector
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Escobar
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Global dung beetle response to tropical forest modification and fragmentation: A quantitative literature review and meta-analysis
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        137
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        19
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Culot1">
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Culot
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bovy
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zagury Vaz-de-Mello
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guevara
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galetti
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Selective defaunation affects dung beetle communities in continuous Atlantic rainforest
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        163
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        89
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Andresen1">
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Andresen
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Effect of forest fragmentation on dung beetle communities and functional consequences for plant regeneration
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        87
+       </fpage>–
+       <lpage>
+        97
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Klein1">
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Klein
+        </surname>
+        <given-names>
+         BC
+        </given-names>
+       </name> (
+       <year>
+        1989
+       </year>) 
+       <article-title>
+        Effects of forest fragmentation on dung and carrion beetle communities in Central Amazonia
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        1715
+       </fpage>–
+       <lpage>
+        1725
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Slade1">
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Slade
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mann
+        </surname>
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Villanueva
+        </surname>
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname>
+        <given-names>
+         OT
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Experimental evidence for the effects of dung beetle functional group richness and composition on ecosystem function in a tropical forest
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        76
+       </volume>: 
+       <fpage>
+        1094
+       </fpage>–
+       <lpage>
+        1104
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Vulinec1">
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vulinec
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Dung beetle communities and seed dispersal in primary forest and disturbed land in Amazonia
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        34
+       </volume>: 
+       <fpage>
+        297
+       </fpage>–
+       <lpage>
+        309
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Veloso1">
+      <label>43</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Veloso HP, Rangel-Filho ALR, Lima JCA (1991) Classificação da vegetação brasileira, adaptada a um sistema universal. Rio de Janeiro: Instituto Brasileiro de Geografia e Estatística. 124 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Lobo1">
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lobo
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martín-Piera
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Veiga
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name> (
+       <year>
+        1988
+       </year>) 
+       <article-title>
+        Las trampas pitfall con sebo, sus posibilidades en el estudio de las comunidades coprófagas de Scarabaeoidea (Col.). I. Características determinantes de su capacidad de captura
+       </article-title>. 
+       <source>Rev Ecol Biol Sol 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        77
+       </fpage>–
+       <lpage>
+        100
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Larsen1">
+      <label>45</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Forsyth
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Trap spacing and transect design for dung beetle biodiversity studies
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        322
+       </fpage>–
+       <lpage>
+        325
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Hernndez1">
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hernández
+        </surname>
+        <given-names>
+         MIM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vaz-de-Mello
+        </surname>
+        <given-names>
+         FZ
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Seasonal and spatial species richness variation of dung beetle (Coleoptera, Scarabaeidae 
+        <italic>
+         s. str.
+        </italic>) in the Atlantic Forest of southeastern Brazil
+       </article-title>. 
+       <source>Rev Bras Entomol 
+       <volume>
+        53
+       </volume>: 
+       <fpage>
+        607
+       </fpage>–
+       <lpage>
+        613
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Silva1">
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Silva
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vaz-de-Mello
+        </surname>
+        <given-names>
+         FZ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Di Mare
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Diversity and seasonality of Scarabaeinae (Coleoptera: Scarabaeidae) in forest fragments in Santa Maria, Rio Grande do Sul, Brazil
+       </article-title>. 
+       <source>An Acad Bras Cienc 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        679
+       </fpage>–
+       <lpage>
+        697
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Brower1">
+      <label>48</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Brower JE, Zar JH (1984) Field and laboratory methods for general ecology. Dubuque: Wm. C. Brown Company. 226 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Cottam1">
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cottam
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        1956
+       </year>) 
+       <article-title>
+        The use of distance measures in phytosociological sampling
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        451
+       </fpage>–
+       <lpage>
+        460
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Ramos1">
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ramos
+        </surname>
+        <given-names>
+         FA
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Nymphalid butterfly communities in an amazonian forest fragment
+       </article-title>. 
+       <source>J Res Lepid 
+       <volume>
+        35
+       </volume>: 
+       <fpage>
+        29
+       </fpage>–
+       <lpage>
+        41
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-ConselhoNacionaldoMeio1">
+      <label>51</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Conselho Nacional do Meio Ambiente (1994) Resolução CONAMA n° 4, de 4 de maio de 1994. Publicada no DOU n° 114, de 17 de junho de 1994, Seção 1, páginas 8877–8878. Brasília: Ministério do Meio Ambiente. 2 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Dray1">
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dray
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pélissier
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Couteron
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fortin
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Community ecology in the age of multivariate multiscale spatial analysis
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        257
+       </fpage>–
+       <lpage>
+        275
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-R1">
+      <label>53</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Core Team (2013) R: A language and environment for statistical computing, Vienna, Austria. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org" xlink:type="simple">
+        http://www.R-project.org
+       </ext-link>. Accessed 2013 Apr 22.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Borcard2">
+      <label>54</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Borcard D, Gillet F, Legendre P (2011) Numerical ecology with R. New York: Springer. 306 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Jost2">
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jost
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Partitioning diversity into independent alpha and beta components
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        2427
+       </fpage>–
+       <lpage>
+        2439
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Veech1">
+      <label>56</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Veech JA, Crist TO (2009) Partition: software for hierarchical partitioning of species diversity. Program version 3.0, &lt;
+       <ext-link ext-link-type="uri" xlink:href="http://www.users.muohio.edu/cristto/partition.htm" xlink:type="simple">
+        http://www.users.muohio.edu/cristto/partition.htm
+       </ext-link>&gt;.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Blanchet1">
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blanchet
+        </surname>
+        <given-names>
+         FG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Forward selection of explanatory variables
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        2623
+       </fpage>–
+       <lpage>
+        2632
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Borcard3">
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Drapeau
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <article-title>
+        Partialling out the spatial component of ecological variation
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        1045
+       </fpage>–
+       <lpage>
+        1055
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Legendre4">
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gallagher
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Ecologically meaningful transformations for ordination of species data
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        129
+       </volume>: 
+       <fpage>
+        271
+       </fpage>–
+       <lpage>
+        280
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-RForge1">
+      <label>60</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R-Forge Administration and Development Team (2013) Spatial ecological data analysis with R. R Development Page, &lt;
+       <ext-link ext-link-type="uri" xlink:href="http://r-forge.r-project.org/R/?group_id=195" xlink:type="simple">
+        http://r-forge.r-project.org/R/?group_id=195
+       </ext-link>&gt;.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Oksanen1">
+      <label>61</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Oksanen J, Blanchet FG, Kindt R, Legendre P, O’Hara RG, et al. (2013) Vegan: community ecology package. R package version 2.0–7. 
+       <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org/web/packages/vegan/index.html" xlink:type="simple">
+        http://cran.r-project.org/web/packages/vegan/index.html
+       </ext-link>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Cadotte1">
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cadotte
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Metacommunity influences on community richness at multiple spatial scales: a microcosm experiment
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        87
+       </volume>: 
+       <fpage>
+        1008
+       </fpage>–
+       <lpage>
+        1016
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Forbes1">
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Forbes
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        The role of habitat connectivity and landscape geometry in experimental zooplankton metacommunities
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        433
+       </fpage>–
+       <lpage>
+        440
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-MacedoSoares1">
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Macedo-Soares
+        </surname>
+        <given-names>
+         LC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Garcia
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Freire
+        </surname>
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Muelbert
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Large-scale ichthyoplankton and water mass distribution along the South Brazil Shelf
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        e91241
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Heino2">
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heino
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        A macroecological perspective of diversity patterns in the freshwater realm
+       </article-title>. 
+       <source>Freshwater Biol 
+       <volume>
+        56
+       </volume>: 
+       <fpage>
+        1703
+       </fpage>–
+       <lpage>
+        1722
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Cornell1">
+      <label>66</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cornell
+        </surname>
+        <given-names>
+         HV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Karlson
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hughes
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Scale-dependent variation in coral community similarity across sites, islands, and island groups
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        1707
+       </fpage>–
+       <lpage>
+        1715
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-MacNeil1">
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         MacNeil
+        </surname>
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname>
+        <given-names>
+         NAJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Polunin
+        </surname>
+        <given-names>
+         NVC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kulbicki
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galzin
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Hierarchical drivers of reef-fish metacommunity structure
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        252
+       </fpage>–
+       <lpage>
+        264
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Giladi1">
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Giladi
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ziv
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         May
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jeltsch
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Scale-dependent determinants of plant species richness in a semi-arid fragmented agro-ecosystem
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        983
+       </fpage>–
+       <lpage>
+        996
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Meynard1">
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meynard
+        </surname>
+        <given-names>
+         CN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavergne
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boulangeat
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Garraud
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Es
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Disentangling the drivers of metacommunity structure across spatial scales
+       </article-title>. 
+       <source>J Biogeogr 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        1560
+       </fpage>–
+       <lpage>
+        1571
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Heikkinen1">
+      <label>70</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Heikkinen
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luoto
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Virkkala
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rainio
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Effects of habitat cover, landscape structure and spatial variables on the abundance of birds in an agricultural-forest mosaic
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        824
+       </fpage>–
+       <lpage>
+        835
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Kelt1">
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kelt
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meserve
+        </surname>
+        <given-names>
+         PL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Patterson
+        </surname>
+        <given-names>
+         BD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lang
+        </surname>
+        <given-names>
+         BK
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Scale dependence and scale independence in habitat associations of small mammals in southern temperate rainforest
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        320
+       </fpage>–
+       <lpage>
+        334
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Cottenie2">
+      <label>72</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cottenie
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         De Meester
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Metacommunity structure: synergy of biotic interactions as selective agents and dispersal as fuel
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        114
+       </fpage>–
+       <lpage>
+        119
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Davies1">
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname>
+        <given-names>
+         KF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Melbourne
+        </surname>
+        <given-names>
+         BA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Margules
+        </surname>
+        <given-names>
+         CR
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Effects of within- and between-patch processes on community dynamics in a fragmentation experiment
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        82
+       </volume>: 
+       <fpage>
+        1830
+       </fpage>–
+       <lpage>
+        1846
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Davies2">
+      <label>74</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Davies KF, Melbourne BA, Margules CR, Lawrence JF (2005) Metacommunity structure influences the stability of local beetle communities. In: Holyoak M, Leibold MA, Holt RD, editors. Metacommunities: Spatial dynamics and ecological communities. Chicago: The University of Chicago Press. 170–188.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Gianuca1">
+      <label>75</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gianuca
+        </surname>
+        <given-names>
+         AT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bastazini
+        </surname>
+        <given-names>
+         VAG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hernández
+        </surname>
+        <given-names>
+         MIM
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Independent and shared effects of environmental features and space driving avian community beta diversity across a coastal gradient in southern Brazil
+       </article-title>. 
+       <source>Austral Ecol 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        864
+       </fpage>–
+       <lpage>
+        873
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Siqueira1">
+      <label>76</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Siqueira
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bini
+        </surname>
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roque
+        </surname>
+        <given-names>
+         FO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marques
+        </surname>
+        <given-names>
+         CouceiroSR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trivinho-Strixino
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Common and rare species respond to similar niche processes in macroinvertebrate metacommunities
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        35
+       </volume>: 
+       <fpage>
+        183
+       </fpage>–
+       <lpage>
+        192
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Tews1">
+      <label>77</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tews
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brose
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grimm
+        </surname>
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tielbörger
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wichmann
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Animal species diversity driven by habitat heterogeneity/diversity: the importance of keystone structures
+       </article-title>. 
+       <source>J Biogeogr 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        79
+       </fpage>–
+       <lpage>
+        92
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Escobar1">
+      <label>78</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Escobar
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lobo
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Halffter
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Altitudinal variation of dung beetle (Scarabaeidae: Scarabaeinae) assemblages in the Colombian Andes
+       </article-title>. 
+       <source>Glob Ecol Biogeogr 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        327
+       </fpage>–
+       <lpage>
+        337
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Spector1">
+      <label>79</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Spector S, Forsyth AB (1998) Indicator taxa for biodiversity assessment in the vanishing tropics. In: Mace GM, Balmford A, Ginsberg JR, editors. Conservation in a changing world. Cambridge: Cambridge University Press. 181–209.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Campos1">
+      <label>80</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Campos
+        </surname>
+        <given-names>
+         RC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hernández
+        </surname>
+        <given-names>
+         MIM
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Dung beetle assemblages (Coleoptera, Scarabaeinae) in Atlantic forest fragments in southern Brazil
+       </article-title>. 
+       <source>Rev Bras Entomol 
+       <volume>
+        57
+       </volume>: 
+       <fpage>
+        47
+       </fpage>–
+       <lpage>
+        54
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Didham1">
+      <label>81</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Didham
+        </surname>
+        <given-names>
+         RR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawton
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Edge structure determines the magnitude of changes in microclimate and vegetation structure in tropical fragments
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        31
+       </volume>: 
+       <fpage>
+        17
+       </fpage>–
+       <lpage>
+        30
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Halffter2">
+      <label>82</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Halffter
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Arellano
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Response of dung beetle diversity to human-induced changes in a tropical landscape
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        34
+       </volume>: 
+       <fpage>
+        144
+       </fpage>–
+       <lpage>
+        154
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Davis2">
+      <label>83</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holloway
+        </surname>
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huijbregts
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Krikken
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kirk-Spriggs
+        </surname>
+        <given-names>
+         AH
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Dung beetles as indicators of change in the forests of northern Borneo
+       </article-title>. 
+       <source>J Appl Ecol 
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        593
+       </fpage>–
+       <lpage>
+        616
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Feer1">
+      <label>84</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feer
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Variations in dung beetles assemblages (Coleoptera: Scarabaeidae) within two rain forest habitats in French Guiana
+       </article-title>. 
+       <source>Rev Biol Trop 
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        753
+       </fpage>–
+       <lpage>
+        768
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Roslin1">
+      <label>85</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Roslin T, Viljanen H (2011) Dung beetle populations: structure and consequences. In: Simmons LW, Ridsdill-Smith TJ, editors. Ecology and evolution of dung beetles. Oxford: Blackwell Publishing. 220–244.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Arellano1">
+      <label>86</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arellano
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         León-Cortés
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ovaskainen
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Patterns of abundance and movement in relation to landscape structure: a study of a common scarab (
+        <italic>
+         Canthon cyanellus cyanellus
+        </italic>) in Southern Mexico
+       </article-title>. 
+       <source>Landsc Ecol 
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        69
+       </fpage>–
+       <lpage>
+        78
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Almeida1">
+      <label>87</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Almeida
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Louzada
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sperber
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Subtle land-use change and tropical biodiversity: dung beetle communities in Cerrado grasslands and exotic pastures
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        43
+       </volume>: 
+       <fpage>
+        704
+       </fpage>–
+       <lpage>
+        710
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Davis3">
+      <label>88</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sutton
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        The effects of rainforest canopy loss on arboreal dung beetles in Borneo: implicantions for the measurement of biodiversity in derived tropical ecosystems
+       </article-title>. 
+       <source>Divers Distrib 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        167
+       </fpage>–
+       <lpage>
+        173
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Davis4">
+      <label>89</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Davis
+        </surname>
+        <given-names>
+         ALV
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Habitat associations in a South African, summer rainfall, dung beetle community (Coleoptera: Scarabaeidae, Aphodiidae, Staphylinidae, Histeridae, Hydrophilidae)
+       </article-title>. 
+       <source>Pedobiologia 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        260
+       </fpage>–
+       <lpage>
+        280
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Filgueiras1">
+      <label>90</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Filgueiras
+        </surname>
+        <given-names>
+         BKC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Iannuzzi
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Leal
+        </surname>
+        <given-names>
+         IR
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Habitat fragmentation alters the structure of dung beetle communities in the Atlantic Forest
+       </article-title>. 
+       <source>Biol Conserv 
+       <volume>
+        144
+       </volume>: 
+       <fpage>
+        362
+       </fpage>–
+       <lpage>
+        369
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Larsen2">
+      <label>91</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lopera
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Forsyth
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Extreme trophic and habitat specialization by Peruvian dung beetles (Coleoptera: Scarabaeidae: Scarabaeinae)
+       </article-title>. 
+       <source>Coleopts Bull 
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        315
+       </fpage>–
+       <lpage>
+        324
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Spector2">
+      <label>92</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Spector
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ayzama
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Rapid turnover and edge effects in dung beetle assemblages (Scarabaeidae) at a Bolivian Neotropical forest-savanna ecotone
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        35
+       </volume>: 
+       <fpage>
+        394
+       </fpage>–
+       <lpage>
+        404
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Klein2">
+      <label>93</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Klein AHF, Menezes JT, Diehl FL, Abreu JGN, Polette M, et al. (2006) Erosão e progradação do litoral brasileiro - Santa Catarina. In: Muehe D, editor editors. Erosão e progradação do litoral brasileiro. Brasília: Ministério do Meio Ambiente. 401–436.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Caruso1">
+      <label>94</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Caruso MML (1983) O desmatamento da Ilha de Santa Catarina de 1500 aos dias atuais. Florianópolis: Editora da Universidade Federal de Santa Catarina. 158 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-May1">
+      <label>95</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         May
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Giladi
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ristow
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ziv
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jeltsch
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Metacommunity, mainland-island system or island communities? Assessing the regional dynamics of plant communities in a fragmented landscape
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        842
+       </fpage>–
+       <lpage>
+        853
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Nouhuys1">
+      <label>96</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nouhuys S, Hanski I (2005) Metacommunities of butterflies, their hosts and their parasitoids. In: Holyoak M, Leibold MA, Holt RD, editors. Metacommunities: Spatial dynamics and ecological communities. Chicago: The University of Chicago Press. 99–121.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-MacArthur1">
+      <label>97</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       MacArthur RH, Wilson EO (1967) The Theory of Island Biogeography. Princeton: Princeton University Press. 224 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Andrewartha1">
+      <label>98</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Andrewartha HG, Birch LC (1954) The distribution and abundance of animals. Chicago: The University of Chicago Press. 793 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Legendre5">
+      <label>99</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Studying beta diversity: ecological variation partitioning by multiple regression and canonical analysis
+       </article-title>. 
+       <source>J Plant Ecol 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        8
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0111883-Mouquet1">
+      <label>100</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Mouquet N, Carr MC, Cottenie K (2005) The world is patchy and heterogeneous! Trade-off and source-sink dynamics in competitive metacommunities. In: Holyoak M, Leibold MA, Holt RD, editors. Metacommunities: Spatial dynamics and ecological communities. Chicago: The University of Chicago Press. 237–262.
+      </mixed-citation> 
+     </ref> 
+    </ref-list>
+   </back> 
+  </article>
+ </body>
+</html>
