@@ -1,0 +1,5042 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0119922
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-14-48819
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Quantifying Patterns of Change in Marine Ecosystem Response to Multiple Pressures
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Gradient Forests in Marine Ecosystem Responses to Multiple Pressures
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Large
+        </surname> 
+        <given-names>
+         Scott I.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+       <xref rid="currentaff001" ref-type="fn">
+        <sup>¤a</sup>
+       </xref> 
+       <xref rid="cor001" ref-type="corresp">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Fay
+        </surname> 
+        <given-names>
+         Gavin
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+       <xref rid="currentaff002" ref-type="fn">
+        <sup>¤b</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Friedland
+        </surname> 
+        <given-names>
+         Kevin D.
+        </given-names> 
+       </name> 
+       <xref rid="aff002" ref-type="aff">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         Jason S.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       NOAA-Fisheries, Woods Hole, Massachusetts, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       NOAA-Fisheries, Narragansett, Rhode Island, United States of America
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bianchi
+        </surname> 
+        <given-names>
+         Carlo Nike
+        </given-names> 
+       </name> 
+       <role>
+        Academic Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Università di Genova, ITALY
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: SL GF KDF JSL. Performed the experiments: SL GF KDF JSL. Analyzed the data: SL GF. Contributed reagents/materials/analysis tools: SL GF KDF JSL. Wrote the paper: SL JSL.</p> 
+      </fn> 
+      <fn fn-type="current-aff" id="currentaff001"> 
+       <label>¤a</label>
+       <p>Current Address: ICES Secretariat, Copenhagen, Denmark</p> 
+      </fn> 
+      <fn fn-type="current-aff" id="currentaff002"> 
+       <label>¤b</label>
+       <p>Current Address: Department of Fisheries Oceanography, School for Marine Science and Technology, Fairhaven, Massachusetts, United States of America</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        largesi@gmail.com
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       17
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2015
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2015
+      </year> 
+     </pub-date> 
+     <volume>
+      10
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e0119922
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        30
+       </day> 
+       <month>
+        10
+       </month> 
+       <year>
+        2014
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        1
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <license xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the 
+        <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple">
+         Creative Commons CC0
+        </ext-link> public domain dedication
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0119922" xlink:type="simple" /> 
+     <abstract> 
+      <p>The ability to understand and ultimately predict ecosystem response to multiple pressures is paramount to successfully implement ecosystem-based management. Thresholds shifts and nonlinear patterns in ecosystem responses can be used to determine reference points that identify levels of a pressure that may drastically alter ecosystem status, which can inform management action. However, quantifying ecosystem reference points has proven elusive due in large part to the multi-dimensional nature of both ecosystem pressures and ecosystem responses. We used ecological indicators, synthetic measures of ecosystem status and functioning, to enumerate important ecosystem attributes and to reduce the complexity of the Northeast Shelf Large Marine Ecosystem (NES LME). Random forests were used to quantify the importance of four environmental and four anthropogenic pressure variables to the value of ecological indicators, and to quantify shifts in aggregate ecological indicator response along pressure gradients. Anthropogenic pressure variables were critical defining features and were able to predict an average of 8-13% (up to 25-66% for individual ecological indicators) of the variation in ecological indicator values, whereas environmental pressures were able to predict an average of 1-5 % (up to 9-26% for individual ecological indicators) of ecological indicator variation. Each pressure variable predicted a different suite of ecological indicator’s variation and the shapes of ecological indicator responses along pressure gradients were generally nonlinear. Threshold shifts in ecosystem response to exploitation, the most important pressure variable, occurred when commercial landings were 20 and 60% of total surveyed biomass. Although present, threshold shifts in ecosystem response to environmental pressures were much less important, which suggests that anthropogenic pressures have significantly altered the ecosystem structure and functioning of the NES LME. Gradient response curves provide ecologically informed transformations of pressure variables to explain patterns of ecosystem structure and functioning. By concurrently identifying thresholds for a suite of ecological indicator responses to multiple pressures, we demonstrate that ecosystem reference points can be evaluated and used to support ecosystem-based management.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       This study was supported by the Fisheries and the Environment Program (JSL and KDF). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="5" /> 
+      <table-count count="3" /> 
+      <page-count count="15" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability" xlink:type="simple"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        All Bottom Trawl Survey data are available from the OBIS database, Northeast Fisheries Science Center Bottom Trawl Survey Data: 
+        <ext-link ext-link-type="uri" xlink:href="http://iobis.org/mapper/?resource_id=1435" xlink:type="simple">
+         http://iobis.org/mapper/?resource_id=1435
+        </ext-link>. Requests to the NEFSC Director may be necessary for the most recent data, which will be distributed freely. Atlantic multidecadal oscillation (AMO) data are available from the NOAA Earth System Research Laboratory database: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.esrl.noaa.gov/psd/data/correlation/amon.us.data" xlink:type="simple">
+         http://www.esrl.noaa.gov/psd/data/correlation/amon.us.data
+        </ext-link>. Winter North Atlantic Oscillation index data are available as a Supporting Information file. Sea surface temperature data are available from the National Climate Data Center dataset: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v3b" xlink:type="simple">
+         http://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v3b
+        </ext-link>. Precipitation data are available from the Carbon Dioxide Information Analysis Center database: 
+        <ext-link ext-link-type="uri" xlink:href="http://cdiac.ornl.gov/ftp/ushcn_v2_monthly/" xlink:type="simple">
+         http://cdiac.ornl.gov/ftp/ushcn_v2_monthly/
+        </ext-link>.
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>Natural environmental variation [
+     <xref rid="pone.0119922.ref001" ref-type="bibr">
+      1
+     </xref>–
+     <xref rid="pone.0119922.ref003" ref-type="bibr">
+      3
+     </xref>] and multiple human uses, such as coastal-zone development and the harvest of living marine resources (LMRs; [
+     <xref rid="pone.0119922.ref004" ref-type="bibr">
+      4
+     </xref>–
+     <xref rid="pone.0119922.ref006" ref-type="bibr">
+      6
+     </xref>]), influence the structure and function of marine ecosystems. Ultimately, these pressures can also have direct implications on management actions designed to conserve these systems [
+     <xref rid="pone.0119922.ref007" ref-type="bibr">
+      7
+     </xref>]. Ecosystem-based management is a holistic living resource management approach that concurrently addresses multiple human uses and ecosystem processes [
+     <xref rid="pone.0119922.ref007" ref-type="bibr">
+      7
+     </xref>,
+     <xref rid="pone.0119922.ref008" ref-type="bibr">
+      8
+     </xref>]. Similar to any complex system of decision-making, EBM requires the development of goals, relevant ecosystem assessments, and decision criteria for management action [
+     <xref rid="pone.0119922.ref009" ref-type="bibr">
+      9
+     </xref>,
+     <xref rid="pone.0119922.ref010" ref-type="bibr">
+      10
+     </xref>].</p> 
+    <p>A specific ocean-use sector where EBM has been repeatedly explored is ecosystem-based fisheries management (EBFM). EBFM seeks to identify, among multiple pressures and responses, the suite of management options that best address the myriad tradeoffs for fisheries within an ecosystem [
+     <xref rid="pone.0119922.ref011" ref-type="bibr">
+      11
+     </xref>]. Fish and fisheries are known to respond to a triad of pressures, including human-induced, internal system dynamics, and natural environmental variability [
+     <xref rid="pone.0119922.ref012" ref-type="bibr">
+      12
+     </xref>,
+     <xref rid="pone.0119922.ref013" ref-type="bibr">
+      13
+     </xref>]. A key challenge hindering fuller implementation of EBFM has been the delineation of appropriate decision criteria cognizant of these multiple pressures and responses [
+     <xref rid="pone.0119922.ref014" ref-type="bibr">
+      14
+     </xref>,
+     <xref rid="pone.0119922.ref015" ref-type="bibr">
+      15
+     </xref>]. Development of ecosystem-based thresholds has high utility.</p> 
+    <p>Ecosystem thresholds occur when a small change in a pressure causes either a large response or an abrupt change in the direction of ecosystem state or function [
+     <xref rid="pone.0119922.ref012" ref-type="bibr">
+      12
+     </xref>,
+     <xref rid="pone.0119922.ref016" ref-type="bibr">
+      16
+     </xref>–
+     <xref rid="pone.0119922.ref018" ref-type="bibr">
+      18
+     </xref>]. Using ecological indicators of ecosystem status, pressure-response thresholds (i.e., single-indicator response to a single-pressure) can be calculated from known functional forms such as piecewise regression models or estimated with generalized additive models [
+     <xref rid="pone.0119922.ref019" ref-type="bibr">
+      19
+     </xref>,
+     <xref rid="pone.0119922.ref020" ref-type="bibr">
+      20
+     </xref>]. An understanding of how single indicators respond to single pressures can be used to inform decision criteria for management action, however, multiple pressures often influence ecosystems simultaneously. Pressure-response thresholds can be extended into two-covariate thresholds (i.e., single-indicator response to two pressures) that can be used to identify how multiple pressures influence indicator values [
+     <xref rid="pone.0119922.ref021" ref-type="bibr">
+      21
+     </xref>], however, reconciling multiple pressure-response thresholds from a suite of indicators may not be feasible. Here, we introduce a multivariate technique to identify thresholds of response to multiple pressures, for a suite of ecological indicators.</p> 
+    <p>Gradient forest analysis [
+     <xref rid="pone.0119922.ref022" ref-type="bibr">
+      22
+     </xref>] extends random forest [
+     <xref rid="pone.0119922.ref023" ref-type="bibr">
+      23
+     </xref>], which fits an ensemble of regression tree models between ecological indicators and environmental and anthropogenic variables. Gradient forest accumulates standardized measures of indicator changes along the gradients for multiple indicators and uses them to build cumulative response curves, which are empirical nonlinear functions of change for each pressure variable. When considered as a multivariate ordination method, the cumulative response curve for each pressure variable can be expressed as a vector on a scree-plot, where vector length is determined by the importance of each ecologically informed transformation of the pressure variables. Gradient forest has been used to quantify spatial gradients in species distributional response to environmental variables for use with marine spatial planning [
+     <xref rid="pone.0119922.ref022" ref-type="bibr">
+      22
+     </xref>–
+     <xref rid="pone.0119922.ref025" ref-type="bibr">
+      25
+     </xref>]. Here, we present the first application of gradient forest exploring marine ecosystem response to anthropogenic and environmental pressures. The overall goal is to compare and contrast ecosystem response to multiple pressures and identify ecosystem thresholds to facilitate development of ecosystem reference points for ecosystem-based fisheries management [
+     <xref rid="pone.0119922.ref014" ref-type="bibr">
+      14
+     </xref>,
+     <xref rid="pone.0119922.ref015" ref-type="bibr">
+      15
+     </xref>]. Gradient forest enables us to explore the empirical shape and magnitude of changes in composition of ecosystem response along environmental and anthropogenic pressure gradients, and to identify critical values along these gradients that correspond to threshold changes in composition.</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="sec003"> 
+     <title>Ecological indicators</title> 
+     <p>The ecological indicator data used in this study were compiled from Northeast Fisheries Science Center (NEFSC) bottom trawl surveys (BTS) that provide information regarding the regional ecology and oceanography of the NES LME, which spans the continental shelf from Cape Hatteras to Nova Scotia (data source: 
+      <ext-link ext-link-type="uri" xlink:href="http://iobis.org/mapper/?resource_id=1435" xlink:type="simple">
+       http://iobis.org/mapper/?resource_id=1435
+      </ext-link>). These data are routinely used to monitor trends in abundance and distribution of important living marine resources for the region [
+      <xref rid="pone.0119922.ref026" ref-type="bibr">
+       26
+      </xref>–
+      <xref rid="pone.0119922.ref028" ref-type="bibr">
+       28
+      </xref>]. Using a random depth stratified survey design, the NEFSC scientific monitoring program has sampled 350–400 stations throughout the NES LME biannually since 1963. Stations within each depth-region stratum were randomly sampled and surveyed fish and invertebrates were sorted according to species, weighed, and the length was measured. Survey data were aggregated spatially and averaged across seasons to create annual averages for each ecological indicator from 1964–2010 [
+      <xref rid="pone.0119922.ref029" ref-type="bibr">
+       29
+      </xref>]. We chose a suite of six ecological indicators that have been suggested and vetted as useful indicators for assessing ecosystem status and function for the NES LME [
+      <xref rid="pone.0119922.ref015" ref-type="bibr">
+       15
+      </xref>,
+      <xref rid="pone.0119922.ref030" ref-type="bibr">
+       30
+      </xref>–
+      <xref rid="pone.0119922.ref032" ref-type="bibr">
+       32
+      </xref>]: overall fish community length, planktivore and benthivore to piscivore and shrimp-fish feeder ratio, pelagic to demersal ratio, species richness, indicator species (Longhorn sculpin, 
+      <italic>
+       Myoxocephalus octodecemspinosus
+      </italic>), and trophic level (
+      <xref rid="pone.0119922.t001" ref-type="table">
+       Table 1
+      </xref>).</p> 
+     <table-wrap id="pone.0119922.t001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.t001
+      </object-id> 
+      <label>Table 1</label> 
+      <title>Ecological indicators used as response variables in gradient forest analysis.</title> 
+      <alternatives> 
+       <graphic id="pone.0119922.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.t001" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left" rowspan="1" colspan="1">Indicator</th> 
+          <th align="left" rowspan="1" colspan="1">Abbreviation</th> 
+          <th align="left" rowspan="1" colspan="1">Definition</th> 
+          <th align="left" rowspan="1" colspan="1">Indicator rationale</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Length (mean)</td> 
+          <td align="left" rowspan="1" colspan="1">length_mean</td> 
+          <td align="left" rowspan="1" colspan="1">mean length (cm) of individual fish for all spp. From BTS [
+           <xref rid="pone.0119922.ref015" ref-type="bibr">
+            15
+           </xref>,
+           <xref rid="pone.0119922.ref029" ref-type="bibr">
+            29
+           </xref>,
+           <xref rid="pone.0119922.ref047" ref-type="bibr">
+            47
+           </xref>–
+           <xref rid="pone.0119922.ref050" ref-type="bibr">
+            50
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">size distribution</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Planktivore and benthivore to piscivore and shrimp-fish feeder ratio (index)</td> 
+          <td align="left" rowspan="1" colspan="1">plank</td> 
+          <td align="left" rowspan="1" colspan="1">ratio of abundance of lower trophic level guilds to upper trophic level guilds from the BTS [
+           <xref rid="pone.0119922.ref015" ref-type="bibr">
+            15
+           </xref>,
+           <xref rid="pone.0119922.ref031" ref-type="bibr">
+            31
+           </xref>,
+           <xref rid="pone.0119922.ref032" ref-type="bibr">
+            32
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">trophic dynamics, energy flow, community structure</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Pelagic to demersal ratio (index)</td> 
+          <td align="left" rowspan="1" colspan="1">pd_ratio</td> 
+          <td align="left" rowspan="1" colspan="1">ratio of abundance of pelagic and demersal fishes from BTS [
+           <xref rid="pone.0119922.ref015" ref-type="bibr">
+            15
+           </xref>,
+           <xref rid="pone.0119922.ref031" ref-type="bibr">
+            31
+           </xref>,
+           <xref rid="pone.0119922.ref032" ref-type="bibr">
+            32
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">energy flow, community structure</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Species richness (frequency)</td> 
+          <td align="left" rowspan="1" colspan="1">richness</td> 
+          <td align="left" rowspan="1" colspan="1">number of surveyed spp. from BTS [
+           <xref rid="pone.0119922.ref047" ref-type="bibr">
+            47
+           </xref>,
+           <xref rid="pone.0119922.ref051" ref-type="bibr">
+            51
+           </xref>–
+           <xref rid="pone.0119922.ref053" ref-type="bibr">
+            53
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">aggregate community status</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Longhorn sculpin biomass (t)</td> 
+          <td align="left" rowspan="1" colspan="1">b_scul</td> 
+          <td align="left" rowspan="1" colspan="1">total biomass of longhorn sculpin from BTS [
+           <xref rid="pone.0119922.ref046" ref-type="bibr">
+            46
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">sensitive species, index of disturbance</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Trophic level (mean)</td> 
+          <td align="left" rowspan="1" colspan="1">TL_mean</td> 
+          <td align="left" rowspan="1" colspan="1">mean trophic level of surveyed spp. weighted by abundance (biomass) [
+           <xref rid="pone.0119922.ref004" ref-type="bibr">
+            4
+           </xref>,
+           <xref rid="pone.0119922.ref047" ref-type="bibr">
+            47
+           </xref>,
+           <xref rid="pone.0119922.ref054" ref-type="bibr">
+            54
+           </xref>,
+           <xref rid="pone.0119922.ref055" ref-type="bibr">
+            55
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">how energy flow within an ecosystem is processed and distributed</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Pressure variables</title> 
+     <p>We chose environmental pressure variables that influence ecosystem circulation patterns, primary production, vertical mixing, and the availability of nutrients across multiple geographic and temporal scales (
+      <xref rid="pone.0119922.t002" ref-type="table">
+       Table 2
+      </xref>). Fishing pressure has proven a challenge to estimate from an ecosystem perspective and the scientific community has yet to reach consensus on best practices for its measure [
+      <xref rid="pone.0119922.ref033" ref-type="bibr">
+       33
+      </xref>–
+      <xref rid="pone.0119922.ref036" ref-type="bibr">
+       36
+      </xref>]. We quantified fishing pressure using two variables: total commercial landings and exploitation. Landings, the total live weight of commercial species landed in the NES LME, serves as an estimate of removals from the system and is calculated by aggregating data reported to the National Marine Fisheries Service (NMFS) by dealers at weigh-out, logbooks, and vessel trip reports [
+      <xref rid="pone.0119922.ref028" ref-type="bibr">
+       28
+      </xref>,
+      <xref rid="pone.0119922.ref037" ref-type="bibr">
+       37
+      </xref>]. Fishing pressure is influenced by both fishing effort and resource potential [
+      <xref rid="pone.0119922.ref033" ref-type="bibr">
+       33
+      </xref>,
+      <xref rid="pone.0119922.ref034" ref-type="bibr">
+       34
+      </xref>], so we also quantified fishing pressure as exploitation: the ratio landings to surveyed biomass [
+      <xref rid="pone.0119922.ref035" ref-type="bibr">
+       35
+      </xref>]. However, ecological indicators are also formulated with survey data including surveyed biomass, which may result in problems with confounding. Beyond influencing the current ecosystem state, fishing pressure may also have lagged effects on ecosystems [
+      <xref rid="pone.0119922.ref038" ref-type="bibr">
+       38
+      </xref>]. Therefore, we also introduced a one-year time lag for both measures of fishing pressure.</p> 
+     <table-wrap id="pone.0119922.t002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.t002
+      </object-id> 
+      <label>Table 2</label> 
+      <title>Environmental factors used as pressure variables in gradient forest analysis.</title> 
+      <alternatives> 
+       <graphic id="pone.0119922.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.t002" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left" rowspan="1" colspan="1">Pressure</th> 
+          <th align="left" rowspan="1" colspan="1">Definition</th> 
+          <th align="left" rowspan="1" colspan="1">Pressure Rationale</th> 
+          <th align="left" rowspan="1" colspan="1">Data source</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Atlantic multidecadal oscillation (AMO)</td> 
+          <td align="left" rowspan="1" colspan="1">Measure of basin-scale warm and cold phases in the Atlantic</td> 
+          <td align="left" rowspan="1" colspan="1">Provides a measure of variance in thermohaline circulation patterns [
+           <xref rid="pone.0119922.ref056" ref-type="bibr">
+            56
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <ext-link ext-link-type="uri" xlink:href="http://www.esrl.noaa.gov/psd/data/correlation/amon.us.data" xlink:type="simple">
+            http://www.esrl.noaa.gov/psd/data/correlation/amon.us.data
+           </ext-link></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Winter North Atlantic Oscillation (NAO_w)</td> 
+          <td align="left" rowspan="1" colspan="1">Winter (December-March) Average of relative strength between subpolar (Icelandic) low and subtropical (Azores) High atmospheric pressure cells (index)</td> 
+          <td align="left" rowspan="1" colspan="1">Influences temperature, precipitation, and wind fields [
+           <xref rid="pone.0119922.ref031" ref-type="bibr">
+            31
+           </xref>,
+           <xref rid="pone.0119922.ref032" ref-type="bibr">
+            32
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <xref rid="pone.0119922.s001" ref-type="supplementary-material">
+            S1_Data.csv
+           </xref></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Sea Surface Temperature (SST)</td> 
+          <td align="left" rowspan="1" colspan="1">Mean surface temperature of the NES LME waters (°C)</td> 
+          <td align="left" rowspan="1" colspan="1">Species' distribution, growth, and many ecological and biological processes [
+           <xref rid="pone.0119922.ref057" ref-type="bibr">
+            57
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <ext-link ext-link-type="uri" xlink:href="http://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v3b" xlink:type="simple">
+            http://www.ncdc.noaa.gov/data-access/marineocean-data/extended-reconstructed-sea-surface-temperature-ersst-v3b
+           </ext-link></td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Precipitation (Precip)</td> 
+          <td align="left" rowspan="1" colspan="1">Annual precipitation in the catchment areas associated with the NES LME (cm)</td> 
+          <td align="left" rowspan="1" colspan="1">Influences oceanic conditions such as salinity, stratification, and nutrient supply [
+           <xref rid="pone.0119922.ref034" ref-type="bibr">
+            34
+           </xref>,
+           <xref rid="pone.0119922.ref058" ref-type="bibr">
+            58
+           </xref>]</td> 
+          <td align="left" rowspan="1" colspan="1">
+           <ext-link ext-link-type="uri" xlink:href="http://cdiac.ornl.gov/ftp/ushcn_v2_monthly/" xlink:type="simple">
+            http://cdiac.ornl.gov/ftp/ushcn_v2_monthly/
+           </ext-link> Monthly data partitioned to 1 degree boxes and assigned to the NES LME drainages</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Random forests</title> 
+     <p>We applied random forest methods from the R package “randomForest” [
+      <xref rid="pone.0119922.ref039" ref-type="bibr">
+       39
+      </xref>,
+      <xref rid="pone.0119922.ref040" ref-type="bibr">
+       40
+      </xref>] to time series of ecological indicators to assess the importance of environmental and anthropogenic pressures on ecosystem structure and function. Random forests are composed of regression trees, where indicator values are partitioned into two groups at a specific split value 
+      <italic>
+       v
+      </italic> for each predictor 
+      <italic>
+       p
+      </italic> to maximize homogeneity [
+      <xref rid="pone.0119922.ref023" ref-type="bibr">
+       23
+      </xref>]. At each partition, splits are selected to minimize the sum of squared deviations from the group mean, termed impurity. Partitions are recursively split until a partition becomes a terminal node. The importance of a split within each node in the tree is measured as the reduction in the amount of variation explained by the partition.</p> 
+     <p>A random forest is an aggregation of the results from an ensemble of regression trees that synthesizes output with high classification accuracy and accounts for interactions among predictor variables [
+      <xref rid="pone.0119922.ref039" ref-type="bibr">
+       39
+      </xref>,
+      <xref rid="pone.0119922.ref041" ref-type="bibr">
+       41
+      </xref>]. An independent bootstrap sample of data (resampled with replacement) is used to fit each tree (0.632, on average). Each partition within a tree is then split on the best of a random subsample of predictor variables. Data not selected in the bootstrap sample, the out-of-bag (OOB) data, are used to provide cross validations of generalized error estimates. Three important metrics are used with random forests: the goodness-of-fit 
+      <inline-formula id="pone.0119922.e001">
+       <alternatives>
+        <graphic id="pone.0119922.e001g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e001" xlink:type="simple" />
+        <mml:math display="inline" id="M1" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> for indicator s, the importance 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        sp
+       </italic></sub> of each predictor 
+      <italic>
+       p
+      </italic> (here the pressure variables), and the raw importance value 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        spvt
+       </italic></sub> for a predictor at each split value 
+      <italic>
+       v
+      </italic> in each tree 
+      <italic>
+       t
+      </italic>. Predictor importance 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        sp
+       </italic></sub> quantifies the contribution of a predictor to the model goodness-of-fit by computing the prediction error of the model without the predictor and comparing it to the prediction error of the full model. Specifically, 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        sp
+       </italic></sub> is estimated as the increase in OOB mean square prediction error when the predictor is randomly permuted while the other variables in the model remain constant, effectively removing the predictor signal.</p> 
+     <p>The proportion of variance explained in a random forest, or the goodness-of-fit 
+      <inline-formula id="pone.0119922.e002">
+       <alternatives>
+        <graphic id="pone.0119922.e002g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e002" xlink:type="simple" />
+        <mml:math display="inline" id="M2" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> indicator 
+      <italic>
+       s
+      </italic> is defined as 
+      <disp-formula id="pone.0119922.e003"> 
+       <alternatives> 
+        <graphic id="pone.0119922.e003g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e003" xlink:type="simple" /> 
+        <mml:math display="block" id="M3" overflow="scroll"> 
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:mo>
+          =
+         </mml:mo>
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:mn>
+          1
+         </mml:mn>
+         <mml:mo>
+          -
+         </mml:mo>
+         <mml:mrow>
+          <mml:munder>
+           <mml:mo stretchy="false">
+            ∑
+           </mml:mo>
+           <mml:mrow>
+            <mml:mi>
+             i
+            </mml:mi>
+           </mml:mrow>
+          </mml:munder>
+          <mml:mrow>
+           <mml:mfrac>
+            <mml:mrow>
+             <mml:msup>
+              <mml:mrow>
+               <mml:msub>
+                <mml:mrow>
+                 <mml:mo>
+                  (
+                 </mml:mo>
+                 <mml:mi>
+                  X
+                 </mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                 <mml:mi>
+                  s
+                 </mml:mi>
+                 <mml:mi>
+                  i
+                 </mml:mi>
+                </mml:mrow>
+               </mml:msub>
+               <mml:mo>
+                -
+               </mml:mo>
+               <mml:msub>
+                <mml:mrow>
+                 <mml:mover accent="true">
+                  <mml:mrow>
+                   <mml:mi>
+                    X
+                   </mml:mi>
+                  </mml:mrow>
+                  <mml:mo>
+                   ^
+                  </mml:mo>
+                 </mml:mover>
+                </mml:mrow>
+                <mml:mrow>
+                 <mml:mi>
+                  s
+                 </mml:mi>
+                 <mml:mi>
+                  i
+                 </mml:mi>
+                </mml:mrow>
+               </mml:msub>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mrow>
+               <mml:mn>
+                2
+               </mml:mn>
+              </mml:mrow>
+             </mml:msup>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:msup>
+              <mml:mrow>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:msub>
+                <mml:mrow>
+                 <mml:mi>
+                  X
+                 </mml:mi>
+                </mml:mrow>
+                <mml:mrow>
+                 <mml:mi>
+                  s
+                 </mml:mi>
+                 <mml:mi>
+                  i
+                 </mml:mi>
+                </mml:mrow>
+               </mml:msub>
+               <mml:mo>
+                -
+               </mml:mo>
+               <mml:msub>
+                <mml:mrow>
+                 <mml:mover accent="true">
+                  <mml:mrow>
+                   <mml:mi>
+                    X
+                   </mml:mi>
+                  </mml:mrow>
+                  <mml:mo>
+                   -
+                  </mml:mo>
+                 </mml:mover>
+                </mml:mrow>
+                <mml:mrow>
+                 <mml:mi>
+                  s
+                 </mml:mi>
+                </mml:mrow>
+               </mml:msub>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+              <mml:mrow>
+               <mml:mn>
+                2
+               </mml:mn>
+              </mml:mrow>
+             </mml:msup>
+            </mml:mrow>
+           </mml:mfrac>
+          </mml:mrow>
+         </mml:mrow> 
+        </mml:math> 
+       </alternatives> 
+       <label>(1)</label> 
+      </disp-formula> Where 
+      <italic>
+       X
+      </italic><sub>
+       <italic>
+        si
+       </italic></sub> is the 
+      <italic>
+       i
+      </italic>th observation of indicator 
+      <italic>
+       s
+      </italic>, 
+      <inline-formula id="pone.0119922.e004">
+       <alternatives>
+        <graphic id="pone.0119922.e004g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e004" xlink:type="simple" />
+        <mml:math display="inline" id="M4" overflow="scroll">
+         <mml:msub>
+          <mml:mrow>
+           <mml:mover accent="true">
+            <mml:mrow>
+             <mml:mi>
+              X
+             </mml:mi>
+            </mml:mrow>
+            <mml:mo>
+             ^
+            </mml:mo>
+           </mml:mover>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            i
+           </mml:mi>
+          </mml:mrow>
+         </mml:msub>
+        </mml:math>
+       </alternatives>
+      </inline-formula> is the OOB prediction, and 
+      <inline-formula id="pone.0119922.e005">
+       <alternatives>
+        <graphic id="pone.0119922.e005g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e005" xlink:type="simple" />
+        <mml:math display="inline" id="M5" overflow="scroll">
+         <mml:msub>
+          <mml:mrow>
+           <mml:mover accent="true">
+            <mml:mrow>
+             <mml:mi>
+              X
+             </mml:mi>
+            </mml:mrow>
+            <mml:mo>
+             -
+            </mml:mo>
+           </mml:mover>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+         </mml:msub>
+        </mml:math>
+       </alternatives>
+      </inline-formula> is the mean value.</p> 
+     <p>The goodness-of-fit 
+      <inline-formula id="pone.0119922.e006">
+       <alternatives>
+        <graphic id="pone.0119922.e006g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e006" xlink:type="simple" />
+        <mml:math display="inline" id="M6" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> for each random forest is portioned among predictor variables in proportion to their importance 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        sp
+       </italic></sub>, such that 
+      <inline-formula id="pone.0119922.e007">
+       <alternatives>
+        <graphic id="pone.0119922.e007g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e007" xlink:type="simple" />
+        <mml:math display="inline" id="M7" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> (predictor 
+      <italic>
+       p
+      </italic> for indicator 
+      <italic>
+       s
+      </italic>) is calculated as 
+      <disp-formula id="pone.0119922.e008"> 
+       <alternatives> 
+        <graphic id="pone.0119922.e008g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e008" xlink:type="simple" /> 
+        <mml:math display="block" id="M8" overflow="scroll"> 
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:mo>
+          =
+         </mml:mo>
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:mfrac>
+          <mml:mrow>
+           <mml:msubsup>
+            <mml:mrow>
+             <mml:mi>
+              R
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi>
+              s
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mn>
+              2
+             </mml:mn>
+            </mml:mrow>
+           </mml:msubsup>
+           <mml:msub>
+            <mml:mrow>
+             <mml:mi>
+              I
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi>
+              s
+             </mml:mi>
+             <mml:mi>
+              p
+             </mml:mi>
+            </mml:mrow>
+           </mml:msub>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mrow>
+            <mml:mo stretchy="false">
+             ∑
+            </mml:mo>
+            <mml:mrow>
+             <mml:mi>
+              p
+             </mml:mi>
+            </mml:mrow>
+           </mml:mrow>
+           <mml:msub>
+            <mml:mrow>
+             <mml:mi>
+              I
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi>
+              s
+             </mml:mi>
+             <mml:mi>
+              p
+             </mml:mi>
+            </mml:mrow>
+           </mml:msub>
+          </mml:mrow>
+         </mml:mfrac> 
+        </mml:math> 
+       </alternatives> 
+       <label>(2)</label> 
+      </disp-formula> The importance of a predictor variable for the ecosystem 
+      <inline-formula id="pone.0119922.e009">
+       <alternatives>
+        <graphic id="pone.0119922.e009g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e009" xlink:type="simple" />
+        <mml:math display="inline" id="M9" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> is estimated by averaging 
+      <inline-formula id="pone.0119922.e010">
+       <alternatives>
+        <graphic id="pone.0119922.e010g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e010" xlink:type="simple" />
+        <mml:math display="inline" id="M10" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> across all indicators, such that 
+      <disp-formula id="pone.0119922.e011"> 
+       <alternatives> 
+        <graphic id="pone.0119922.e011g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e011" xlink:type="simple" /> 
+        <mml:math display="block" id="M11" overflow="scroll"> 
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:mo>
+          =
+         </mml:mo>
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:mfrac>
+          <mml:mrow>
+           <mml:mn>
+            1
+           </mml:mn>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            N
+           </mml:mi>
+          </mml:mrow>
+         </mml:mfrac>
+         <mml:mrow>
+          <mml:munder>
+           <mml:mo stretchy="false">
+            ∑
+           </mml:mo>
+           <mml:mrow>
+            <mml:mi>
+             s
+            </mml:mi>
+           </mml:mrow>
+          </mml:munder>
+          <mml:mrow>
+           <mml:msubsup>
+            <mml:mrow>
+             <mml:mi>
+              R
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi>
+              s
+             </mml:mi>
+             <mml:mi>
+              p
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mn>
+              2
+             </mml:mn>
+            </mml:mrow>
+           </mml:msubsup>
+          </mml:mrow>
+         </mml:mrow> 
+        </mml:math> 
+       </alternatives> 
+       <label>(3)</label> 
+      </disp-formula> We used a conditional permutation approach to account for correlations between predictor variable values [
+      <xref rid="pone.0119922.ref042" ref-type="bibr">
+       42
+      </xref>]. Values for each predictor were only permuted within data defined by splits on any other predictors that were correlated above a threshold of r = 0.5 [
+      <xref rid="pone.0119922.ref022" ref-type="bibr">
+       22
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec006"> 
+     <title>Gradient forests</title> 
+     <p>Changes in ecosystem attributes along environmental and anthropogenic gradients were identified using gradient forest methods. Random forest methods are useful for quantifying the ability for pressure variables to predict response variables and the importance of each response variable to these predictions. Gradient forests integrate individual random forests analyses over many response variables, which are used to develop flexible, non-parametric functions to quantify thresholds in indicator response to anthropogenic and environmental pressures (see diagram and further discription of these methods in [
+      <xref rid="pone.0119922.ref022" ref-type="bibr">
+       22
+      </xref>]).</p> 
+     <p>For the NES LME, we developed data matrices for both pressure (year x pressure variable) and response (year x ecological indicator) variables. Threshold estimates along gradients of each environmental and anthropogenic pressure variable 
+      <italic>
+       p
+      </italic> were generated using the gradientForest package, which distributes 
+      <italic>
+       R
+      </italic><sup>2</sup> values for all indicators among predictors in proportion to predictor importance 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        sp
+       </italic></sub> and along the gradient of values for each predictor according to the density of raw importance values 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        spvt
+       </italic></sub> ([
+      <xref rid="pone.0119922.ref022" ref-type="bibr">
+       22
+      </xref>]; available online at: 
+      <ext-link ext-link-type="uri" xlink:href="http://gradientforest.r-forge.r-project.org/" xlink:type="simple">
+       http://gradientforest.r-forge.r-project.org/]
+      </ext-link>. The importance associated with a split value along a predictor gradient indicates the relative change in indicator value. Therefore, changes in indicator values are reflected in split importance. For each predictor 
+      <italic>
+       p
+      </italic>, the split values 
+      <italic>
+       v
+      </italic> and the importance values at each split 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        spvt
+       </italic></sub> were combined from every tree in all random forests for each indicator 
+      <italic>
+       s
+      </italic>. For each indicator, importance values 
+      <italic>
+       I
+      </italic><sub>
+       <italic>
+        spvt
+       </italic></sub> were standardized by the density of observed values for each predictor 
+      <italic>
+       p
+      </italic> and normalized to sum to
+      <inline-formula id="pone.0119922.e012">
+       <alternatives>
+        <graphic id="pone.0119922.e012g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e012" xlink:type="simple" />
+        <mml:math display="inline" id="M12" overflow="scroll">
+         <mml:mi>
+          &nbsp;
+         </mml:mi>
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>. A monotonic function proportional to the importance of splits with minimum 0 and maximum 
+      <inline-formula id="pone.0119922.e013">
+       <alternatives>
+        <graphic id="pone.0119922.e013g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e013" xlink:type="simple" />
+        <mml:math display="inline" id="M13" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            &nbsp;
+           </mml:mi>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> was used to define the turnover 
+      <italic>
+       F
+      </italic><sub>sp</sub>(
+      <italic>
+       x
+      </italic>) for each indicator along a pressure gradient, which describes the cumulative shift in indicator value along each pressure gradient and provides an estimate of the importance for any given pressure value 
+      <italic>
+       x
+      </italic>. Cumulative ecosystem response 
+      <italic>
+       F
+      </italic><sub>p</sub>(
+      <italic>
+       x
+      </italic>) for each pressure variable was estimated as mean 
+      <italic>
+       F
+      </italic><sub>sp</sub>(
+      <italic>
+       x
+      </italic>) for all indicators. The cumulative ecosystem response 
+      <italic>
+       F
+      </italic><sub>p</sub> transforms ecological units reflecting changes in ecological indicator value for each pressure variable [
+      <xref rid="pone.0119922.ref022" ref-type="bibr">
+       22
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec007"> 
+     <title>Ordination of ecosystem response to pressure variables</title> 
+     <p>Cumulative ecosystem response can be used to transform environmental and anthropogenic pressure data onto a common scale. Using principal component analysis, we used ordination to represent 
+      <italic>
+       F
+      </italic><sub>p</sub> transformed data as a biplot where coordinate position represents different patterns in ecological indicators, as associated with the pressure variables. Pressure variables were superimposed on the biplot as vectors indicating the direction and magnitude of the most important variables [
+      <xref rid="pone.0119922.ref022" ref-type="bibr">
+       22
+      </xref>,
+      <xref rid="pone.0119922.ref024" ref-type="bibr">
+       24
+      </xref>].</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec008" sec-type="results"> 
+    <title>RESULTS</title> 
+    <sec id="sec009"> 
+     <title>Model prediction performance for ecological indicators</title> 
+     <p>Overall, ecological indicator mean prediction performance (
+      <inline-formula id="pone.0119922.e014">
+       <alternatives>
+        <graphic id="pone.0119922.e014g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e014" xlink:type="simple" />
+        <mml:math display="inline" id="M14" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>) of the random forest on the OOB samples was between 0 and 0.07 (
+      <xref rid="pone.0119922.t003" ref-type="table">
+       Table 3
+      </xref>). Ecological indicators that served as synthetic measures of energy flow (pelagic to demersal ratio, 
+      <inline-formula id="pone.0119922.e015">
+       <alternatives>
+        <graphic id="pone.0119922.e015g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e015" xlink:type="simple" />
+        <mml:math display="inline" id="M15" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.078; planktivore and benthivore to piscivore and shrimp-fish feeders ratio, 
+      <inline-formula id="pone.0119922.e016">
+       <alternatives>
+        <graphic id="pone.0119922.e016g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e016" xlink:type="simple" />
+        <mml:math display="inline" id="M16" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0. 056), diversity (species richness, 
+      <inline-formula id="pone.0119922.e017">
+       <alternatives>
+        <graphic id="pone.0119922.e017g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e017" xlink:type="simple" />
+        <mml:math display="inline" id="M17" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.061), and a species sensitive to disturbance (longhorn sculpin biomass, 
+      <inline-formula id="pone.0119922.e018">
+       <alternatives>
+        <graphic id="pone.0119922.e018g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e018" xlink:type="simple" />
+        <mml:math display="inline" id="M18" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.07) had the highest mean 
+      <inline-formula id="pone.0119922.e019">
+       <alternatives>
+        <graphic id="pone.0119922.e019g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e019" xlink:type="simple" />
+        <mml:math display="inline" id="M19" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            &nbsp;
+           </mml:mi>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>, suggesting that the anthropogenic and environmental pressures that we chose were able to predict variation in these measures. Size based indicators (mean length, 
+      <inline-formula id="pone.0119922.e020">
+       <alternatives>
+        <graphic id="pone.0119922.e020g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e020" xlink:type="simple" />
+        <mml:math display="inline" id="M20" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.037; trophic level, 
+      <inline-formula id="pone.0119922.e021">
+       <alternatives>
+        <graphic id="pone.0119922.e021g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e021" xlink:type="simple" />
+        <mml:math display="inline" id="M21" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.0) had the lowest mean prediction performance, which suggests that variation in these indicators was poorly predicted by the selected pressure variables. Trophic level was not predicted by any of the pressure variables and was eliminated from the gradient forest model.</p> 
+     <table-wrap id="pone.0119922.t003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.t003
+      </object-id> 
+      <label>Table 3</label> 
+      <title>Mean and range of model performance by ecological indicator, &lt;inline-formula id="pone.0119922.e022"&gt;&lt;alternatives&gt;&lt;graphic id="pone.0119922.e022g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e022" xlink:type="simple"/&gt;&lt;mml:math display="inline" id="M22" overflow="scroll"&gt;&lt;mml:msubsup&gt;&lt;mml:mrow&gt;&lt;mml:mi mathvariant="bold-italic"&gt;R&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mi mathvariant="bold-italic"&gt;s&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msubsup&gt;&lt;/mml:math&gt;&lt;/alternatives&gt;&lt;/inline-formula&gt;.</title> 
+      <alternatives> 
+       <graphic id="pone.0119922.t003g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.t003" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left" rowspan="1" colspan="1">Ecological Indicator</th> 
+          <th align="left" rowspan="1" colspan="1">
+           <inline-formula id="pone.0119922.e023">
+            <alternatives>
+             <graphic id="pone.0119922.e023g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e023" xlink:type="simple" />
+             <mml:math display="inline" id="M23" overflow="scroll">
+              <mml:msubsup>
+               <mml:mrow>
+                <mml:mi mathvariant="bold-italic">
+                 R
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi mathvariant="bold-italic">
+                 s
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mn>
+                 2
+                </mml:mn>
+               </mml:mrow>
+              </mml:msubsup>
+             </mml:math>
+            </alternatives>
+           </inline-formula></th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Longhorn sculpin biomass</td> 
+          <td align="left" rowspan="1" colspan="1">0.07 (0–0.21)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Length (mean)</td> 
+          <td align="left" rowspan="1" colspan="1">0.037 (0–0.091)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Pelagic to demersal ratio</td> 
+          <td align="left" rowspan="1" colspan="1">0.072 (0–0.14</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Planktivore and benthivore to piscivore and shrimp-fish feeder ratio</td> 
+          <td align="left" rowspan="1" colspan="1">0.056 (0–0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Species richness</td> 
+          <td align="left" rowspan="1" colspan="1">0.061 (0–0.12)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Trophic level (mean)</td> 
+          <td align="left" rowspan="1" colspan="1">0 (0–0)</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+    </sec> 
+    <sec id="sec010"> 
+     <title>Importance measures for pressure variables</title> 
+     <p>The most important pressure variables for predicting ecological indicators were anthropogenic variables (
+      <xref rid="pone.0119922.g001" ref-type="fig">
+       Fig. 1
+      </xref>). The mean importance of pressure variables (
+      <inline-formula id="pone.0119922.e024">
+       <alternatives>
+        <graphic id="pone.0119922.e024g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e024" xlink:type="simple" />
+        <mml:math display="inline" id="M24" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>), as measured by its contribution to prediction accuracy on the OOB response was between 0.019 and 0.13. Anthropogenic pressure variables (exploitation, 
+      <inline-formula id="pone.0119922.e025">
+       <alternatives>
+        <graphic id="pone.0119922.e025g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e025" xlink:type="simple" />
+        <mml:math display="inline" id="M25" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.13; 1-yr lagged exploitation, 
+      <inline-formula id="pone.0119922.e026">
+       <alternatives>
+        <graphic id="pone.0119922.e026g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e026" xlink:type="simple" />
+        <mml:math display="inline" id="M26" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.082; 1-yr lagged landings, 
+      <inline-formula id="pone.0119922.e027">
+       <alternatives>
+        <graphic id="pone.0119922.e027g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e027" xlink:type="simple" />
+        <mml:math display="inline" id="M27" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.058; landings, 
+      <inline-formula id="pone.0119922.e028">
+       <alternatives>
+        <graphic id="pone.0119922.e028g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e028" xlink:type="simple" />
+        <mml:math display="inline" id="M28" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.053) had higher mean 
+      <inline-formula id="pone.0119922.e029">
+       <alternatives>
+        <graphic id="pone.0119922.e029g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e029" xlink:type="simple" />
+        <mml:math display="inline" id="M29" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            &nbsp;
+           </mml:mi>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> than environmental variables, suggesting that these pressure variables were better able to predict variation in ecological indicators. Landings (
+      <inline-formula id="pone.0119922.e030">
+       <alternatives>
+        <graphic id="pone.0119922.e030g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e030" xlink:type="simple" />
+        <mml:math display="inline" id="M30" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.053) were not as important as 1-yr lagged landings (
+      <inline-formula id="pone.0119922.e031">
+       <alternatives>
+        <graphic id="pone.0119922.e031g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e031" xlink:type="simple" />
+        <mml:math display="inline" id="M31" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.058), however, exploitation (
+      <inline-formula id="pone.0119922.e032">
+       <alternatives>
+        <graphic id="pone.0119922.e032g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e032" xlink:type="simple" />
+        <mml:math display="inline" id="M32" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.13) was more important than 1-yr lagged exploitation (
+      <inline-formula id="pone.0119922.e033">
+       <alternatives>
+        <graphic id="pone.0119922.e033g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e033" xlink:type="simple" />
+        <mml:math display="inline" id="M33" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.082), therefore, including an estimate of community production available to harvest may be more useful in estimating ecosystem fishing pressure than by lagging pressure variables. Environmental pressure variables SST (
+      <inline-formula id="pone.0119922.e034">
+       <alternatives>
+        <graphic id="pone.0119922.e034g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e034" xlink:type="simple" />
+        <mml:math display="inline" id="M34" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.051) and winter NAO (
+      <inline-formula id="pone.0119922.e035">
+       <alternatives>
+        <graphic id="pone.0119922.e035g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e035" xlink:type="simple" />
+        <mml:math display="inline" id="M35" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.047) had importances comparable to landings, whereas AMO (
+      <inline-formula id="pone.0119922.e036">
+       <alternatives>
+        <graphic id="pone.0119922.e036g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e036" xlink:type="simple" />
+        <mml:math display="inline" id="M36" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.033) and precipitation (
+      <inline-formula id="pone.0119922.e037">
+       <alternatives>
+        <graphic id="pone.0119922.e037g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e037" xlink:type="simple" />
+        <mml:math display="inline" id="M37" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            p
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> = 0.019) had lower mean importance.</p> 
+     <fig id="pone.0119922.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>Importance of environmental and anthropogenic pressure variables weighted across ecological indicator outputs&lt;inline-formula id="pone.0119922.e038"&gt;&lt;alternatives&gt;&lt;graphic id="pone.0119922.e038g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e038" xlink:type="simple"/&gt;&lt;mml:math display="inline" id="M38" overflow="scroll"&gt;&lt;mml:msubsup&gt;&lt;mml:mrow&gt;&lt;mml:mi&gt;&nbsp;&lt;/mml:mi&gt;&lt;mml:mi&gt;R&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mi&gt;s&lt;/mml:mi&gt;&lt;mml:mi&gt;p&lt;/mml:mi&gt;&lt;/mml:mrow&gt;&lt;mml:mrow&gt;&lt;mml:mn&gt;2&lt;/mml:mn&gt;&lt;/mml:mrow&gt;&lt;/mml:msubsup&gt;&lt;/mml:math&gt;&lt;/alternatives&gt;&lt;/inline-formula&gt;.</title> 
+      <p>EXP, exploitation; EXP_1, 1-yr lagged exploitation; LANDINGS_1, 1-yr lagged landings (t); LANDINGS, landings (t); SST, sea surface temperature (°C); NAO_w, winter North Atlantic Oscillation Index; AMO_a, mean annual Atlantic multi-decadal oscillation index; PRECIP, precipitation.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.g001" position="float" xlink:type="simple" /> 
+     </fig> 
+     <p>Thresholds in ecological indicator response to pressure variables becomes evident when the cumulative predictive performance (
+      <inline-formula id="pone.0119922.e039">
+       <alternatives>
+        <graphic id="pone.0119922.e039g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e039" xlink:type="simple" />
+        <mml:math display="inline" id="M39" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>) of each ecological indicator is integrated along each pressure gradient (
+      <xref rid="pone.0119922.g002" ref-type="fig">
+       Fig. 2
+      </xref>). Indicators of energy flow (planktivore and benthivore to piscivore and shrimp-fish feeders ratio, exploitation ~ 0.25; pelagic to demersal ratio, exploitation ~ 0.4) and a species sensitive to disturbance (Longhorn sculpin biomass, exploitation ~ 0.3) have a threshold response when exploitation is between 0.2 and 0.4, whereas indicators of diversity (species richness, exploitation ~ 0.8) and body size (length, exploitation ~ 0.8) have a threshold response when exploitation is ~ 0.8. These differing responses between types of ecological indicators suggests that diversity and body size may not be as sensitive to selected pressures as indicators of energy flow. Indicator threshold responses to 1-yr lagged exploitation were at levels similar to exploitation; however, the cumulative predictive performance (
+      <inline-formula id="pone.0119922.e040">
+       <alternatives>
+        <graphic id="pone.0119922.e040g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e040" xlink:type="simple" />
+        <mml:math display="inline" id="M40" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>) was generally lower. Pelagic to demersal ratio and longhorn sculpin biomass both had threshold responses when 1-yr lagged landings were ~300,000 t and 400,000 t. Indicators of energy flow (planktivore and benthivore to piscivore and shrimp-fish feeders ratio, pelagic to demersal ratio) and species sensitive to disturbance (Longhorn sculpin biomass) have a threshold response when landings were ~300,000 t, whereas indicators of diversity (species richness) and body size (length) have a threshold response when landings were ~ 600,000 t. Species richness had a distinct threshold response when SST ~ 11.5°C, whereas length and pelagic to demersal ratio had a gradual response with no distinct thresholds. Mean length and pelagic to demersal ratio had threshold responses to winter NAO when NAO ~ -1 and 2, respectively. Species richness and planktivore and benthivore to piscivore and shrimp-fish feeders ratio had a threshold response when AMO was slightly greater than 0. Mean length and species richness both had a threshold response when precipitation was ~ 100 cm, whereas longhorn sculpin biomass had a gradual response with increasing precipitation.</p> 
+     <fig id="pone.0119922.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title>Cumulative shifts (in &lt;italic&gt;R&lt;/italic&gt;&lt;sup&gt;2&lt;/sup&gt; units) of ecological indicator value across the gradient of environmental and anthropogenic pressure variables.</title> 
+      <p>Each plot is scaled to the maximum cumulative response to allow for direct comparison of ecological indicator response to each pressure variable. Ecological indicator abbreviations are listed in 
+       <xref rid="pone.0119922.t003" ref-type="table">
+        Table 3
+       </xref>.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.g002" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec011"> 
+     <title>Important breakpoints along pressure gradients</title> 
+     <p>The weighted average of all ecological indicator responses (
+      <xref rid="pone.0119922.g003" ref-type="fig">
+       Fig. 3
+      </xref>), or aggregate ecosystem response, for each pressure was calculated as the cumulative importance distributions of split improvement (
+      <xref rid="pone.0119922.g004" ref-type="fig">
+       Fig. 4
+      </xref>) scaled by 
+      <italic>
+       R
+      </italic><sup>2</sup> weighted importance (
+      <xref rid="pone.0119922.s002" ref-type="supplementary-material">
+       Fig. S1
+      </xref>) and standardized by the density of observations (
+      <xref rid="pone.0119922.s003" ref-type="supplementary-material">
+       Fig. S2
+      </xref>). Thresholds in ecosystem response are identified at peak values where the ratio is greater than one (
+      <xref rid="pone.0119922.g004" ref-type="fig">
+       Fig. 4
+      </xref>). Important breakpoints in ecosystem composition are noted for exploitation (0.2, 0.6), 1-yr lagged exploitation (0.2), 1-yr lagged landings (220,000 t, 400,000 t, and 770,000 t), SST (11.0°C, 12.2°C, and 13.0°C), winter NAO (-1.5, 1.8), AMO (0.0), and precipitation (98 cm, 110 cm, and 130 cm).</p> 
+     <fig id="pone.0119922.g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.g003
+      </object-id> 
+      <label>Fig 3</label>  
+      <title>Cumulative shifts (in &lt;italic&gt;R&lt;/italic&gt;&lt;sup&gt;2&lt;/sup&gt; units) of aggregate ecological indicator response across the gradient for each environmental and anthropogenic pressure variable.</title> 
+      <p>Common scale allows for the direct comparison ecosystem response across pressure variables.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.g003" position="float" xlink:type="simple" /> 
+     </fig> 
+     <fig id="pone.0119922.g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.g004
+      </object-id> 
+      <label>Fig 4</label>  
+      <title>Threshold shifts in the value of aggregated ecological indicators along the gradient of environmental and anthropogenic pressure variables and reflect a rate of change in ecosystem processes.</title> 
+      <p>Binned raw importance of splits from random forests for ecological indicator value relative to the pressure variable on the horizontal axis. Density plots (lines) illustrate the estimated importance or turnover rate at any given pressure value, which is estimated as the ratio of the density of split importance to the density of observed predictor values along the predictor gradient. The dashed line indicates where the ratio is 1. Ratios &gt; 1 indicate locations of relatively greater change in community composition, such that peaks in the density plot indicate threshold values for each environmental predictor where ecosystem status is expected to shift.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.g004" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec012"> 
+     <title>Biplot of ecological indicator values according to anthropogenic and environmental pressures</title> 
+     <p>Using cumulative importance functions (
+      <xref rid="pone.0119922.g003" ref-type="fig">
+       Fig. 3
+      </xref>), shifts in ecological indicator value along pressure gradients can be mapped in multivariate space using principal component analysis (PCA; sensu 
+      <xref rid="pone.0119922.g005" ref-type="fig">
+       Fig. 5
+      </xref> in [
+      <xref rid="pone.0119922.ref029" ref-type="bibr">
+       29
+      </xref>]). The first two principal components account for 94.59% of the total variance. Coordinate position represents inferred ecosystem compositions, as associated with the anthropogenic and environmental pressure variables, as vectors. Each coordinate position is linked by a line segment to facilitate comparison as a time-series. Given the coordinate position of the inferred ecosystem compositions, two distinct groupings of data emerge: 1965–1977 and 1978–2010 (
+      <xref rid="pone.0119922.g005" ref-type="fig">
+       Fig. 5
+      </xref>). Pressure variable vectors further indicate that exploitation, landings, and 1-yr lagged landings are important in defining this difference, which accounts for 89.5% of the explained variation. Both groupings vary according to the 2<sup>nd</sup> PCA axis representative of environmental pressure variables, however, this axis only accounts for 4% of the explained variation.</p> 
+     <fig id="pone.0119922.g005" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0119922.g005
+      </object-id> 
+      <label>Fig 5</label>  
+      <title>Biplot of the first two principal components display the coordinate positions and connecting segments for each year and indicating inferred compositional patterns.</title> 
+      <p>Environmental and anthropogenic pressure variables used in the analysis displayed as vectors.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.g005" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="sec013" sec-type="conclusions"> 
+    <title>Discussion</title> 
+    <p>In this study, we explored ecosystem response to a suite of anthropogenic and environmental pressure variables using an extension of random forest models, gradient forest. Specifically, we sought to 1) quantify the importance of environmental and anthropogenic pressure variables in predicting ecological indicator response, and 2) explore empirical shape and magnitude of changes in indicator response across these pressure gradients.</p> 
+    <sec id="sec014"> 
+     <title>Strengths and weaknesses of gradient forest approach</title> 
+     <p>It can be useful to think of gradient forests in a multivariate sense, similar to PCA. The importance of each pressure variable is comparable to the length of a vector on a PCA scree-plot. But the gradient forest proves to be more informative, as the cumulative response curve is an ecologically informed transformation of the pressure variables, which can be used to predict and map potential patterns of ecological composition.</p> 
+     <p>Given our objectives, gradient forest provided a robust and concise way to quantify the importance of pressure variables on ecological indicators of ecosystem status for the NES LME. We found anthropogenic pressure variables to be more important in predicting ecological indicator values than environmental variables. Although evidence suggests that the biological and ecological processes are being influenced by environmental pressures in the NES LME [
+      <xref rid="pone.0119922.ref043" ref-type="bibr">
+       43
+      </xref>,
+      <xref rid="pone.0119922.ref044" ref-type="bibr">
+       44
+      </xref>], the region has experienced far more significant pressure from fishing for centuries. Gradient forest also enabled us to identify threshold changes in ecosystem response to multiple pressure variables and to present these changes in a multivariate manner. Our results build upon previous findings exploring pressure-response relationships with similar ecological indicators and pressure variables for the NES LME using generalized additive models [
+      <xref rid="pone.0119922.ref020" ref-type="bibr">
+       20
+      </xref>]. Large et al. [
+      <xref rid="pone.0119922.ref020" ref-type="bibr">
+       20
+      </xref>] identified similar threshold levels and pressure response relationships for SST, AMO, and landings; however, each of these relationships were modeled as separate models and one main finding was the difficulty in synthesizing multiple pressures and multiple responses. The gradient forest approach we describe here provides a simple way to synthesize multiple indicators and multiple pressure variables using a common language, 
+      <italic>
+       R
+      </italic><sup>2</sup> units, and across a common set of dimensions, via PCA. Further, the translation into a common language can also facilitate comparisons between multiple ecosystems to identify patterns in ecological indicator response to multiple pressures and levels of pressures that result in ecosystem thresholds. However, multiple pressures can also have non-additive [
+      <xref rid="pone.0119922.ref045" ref-type="bibr">
+       45
+      </xref>] effects on ecosystems and additional exploration of thresholds between different combinations of pressures is warranted [
+      <xref rid="pone.0119922.ref021" ref-type="bibr">
+       21
+      </xref>].</p> 
+     <p>Compared to previous studies, model prediction performance on OOB sample values (
+      <inline-formula id="pone.0119922.e041">
+       <alternatives>
+        <graphic id="pone.0119922.e041g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e041" xlink:type="simple" />
+        <mml:math display="inline" id="M41" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula>) from our study (
+      <inline-formula id="pone.0119922.e042">
+       <alternatives>
+        <graphic id="pone.0119922.e042g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e042" xlink:type="simple" />
+        <mml:math display="inline" id="M42" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> range: 0–0.21) were notably low compared to Pitcher et al. ([
+      <xref rid="pone.0119922.ref024" ref-type="bibr">
+       24
+      </xref>]; 
+      <inline-formula id="pone.0119922.e043">
+       <alternatives>
+        <graphic id="pone.0119922.e043g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e043" xlink:type="simple" />
+        <mml:math display="inline" id="M43" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> range 0–0.35) and Baker and Hallowed ([
+      <xref rid="pone.0119922.ref025" ref-type="bibr">
+       25
+      </xref>]; 
+      <inline-formula id="pone.0119922.e044">
+       <alternatives>
+        <graphic id="pone.0119922.e044g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0119922.e044" xlink:type="simple" />
+        <mml:math display="inline" id="M44" overflow="scroll">
+         <mml:msubsup>
+          <mml:mrow>
+           <mml:mi>
+            R
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mi>
+            s
+           </mml:mi>
+          </mml:mrow>
+          <mml:mrow>
+           <mml:mn>
+            2
+           </mml:mn>
+          </mml:mrow>
+         </mml:msubsup>
+        </mml:math>
+       </alternatives>
+      </inline-formula> range: 0–0.77). However, both Pitcher et al. [
+      <xref rid="pone.0119922.ref024" ref-type="bibr">
+       24
+      </xref>] and Baker and Hallowed [
+      <xref rid="pone.0119922.ref025" ref-type="bibr">
+       25
+      </xref>] were investigating community compositional changes across physical gradients and used species abundance metrics derived from survey data linked directly to physical variables. Here, we present aggregated ecological data for an entire large marine ecosystem linked to commercial landings and large-scale environmental variables. Ecosystems are highly dynamic and ecological data often contains more unexplained variability, however, gradient forest was still able to identify important variables and thresholds.</p> 
+    </sec> 
+    <sec id="sec015"> 
+     <title>Ecological indicators</title> 
+     <p>Anthropogenic pressure variables were able to predict ecological indicator values better than environmental pressure variables. Further, threshold responses were more pronounced (i.e., more rapid increase on cumulative importance curves) for anthropogenic pressures compared to environmental pressures, and we identified levels of fishing pressure that resulted in a distinct ecosystem structure (
+      <xref rid="pone.0119922.g005" ref-type="fig">
+       Fig. 5
+      </xref>). Care and context are important when interpreting indicator response to pressures, as magnitude and direction of ecosystem response to pressures may not be entirely straightforward. Here, we identify regions of change, both positive and negative, relative to pressure. Patterns of threshold responses were similar between exploitation and landings, suggesting that confounding between exploitation and ecological indicators did not influence our findings. However, as ecological indicators of ecosystem status have been developed, much of the impetus in indicator selection has been to measure the effects of fishing pressure on ecosystem attributes [
+      <xref rid="pone.0119922.ref035" ref-type="bibr">
+       35
+      </xref>,
+      <xref rid="pone.0119922.ref036" ref-type="bibr">
+       36
+      </xref>]. Given that EBFM is a management approach, the ability to control fishing pressure has been the rationale behind the use of ecological indicators that are heavily influenced by fishing pressure [
+      <xref rid="pone.0119922.ref015" ref-type="bibr">
+       15
+      </xref>]. We suggest that ecological indicators should be reconsidered so they are relevant measures of ecosystem status and function without any pre-disposed sensitivity to any perceived pressure, thereby, creating a suite of ecological indicators that are more holistic and we can ensure that fishing and environmental thresholds can be identified. Given the gradient forest framework, additional ecological indicators could provide a much more comprehensive representation of how multiple pressures influence ecosystems without the fear of over-parameterizing models.</p> 
+    </sec> 
+    <sec id="sec016"> 
+     <title>Ecosystem thresholds</title> 
+     <p>Using the gradient forest method, we found that increased fishing pressure (i.e., exploitation, landings, and both 1-yr lagged fishing pressure variables) resulted in rapid compositional change in ecological indicator values. Threshold responses in energy flow indicators occurred at lower levels of fishing pressure, suggesting that with increasing fishing pressure energy transfer within the NES LME is altered. As fishing pressure increases further, threshold responses in the diversity indicator occurs. Given the multiple community configurations that can produce similar diversity indices, Link [
+      <xref rid="pone.0119922.ref015" ref-type="bibr">
+       15
+      </xref>] suggests that ecological indicators of diversity might be better suited as a precautionary tool. Perhaps the high level of fishing pressure that results in a diversity response might reinforce this suggestion. Longhorn sculpin, a scavenging generalist that rapidly increases in abundance in response to seafloor disturbance caused by bottom trawling [
+      <xref rid="pone.0119922.ref046" ref-type="bibr">
+       46
+      </xref>], has drastic threshold responses that correspond to both types of fishing pressure.</p> 
+     <p>Collectively our results indicate significant ecosystem responses when landings are at 400,000 t, which represent ~30% of the maximum ever observed for this system. Similarly, significant ecosystem responses are observed at exploitation rates of 20%. Certainly environmental pressures also elicit some response, yet fishing pressure is potentially the one variable that we can control. These results suggest that when landings approach 30% of those ever observed, or more practically that when the ratio of surveyed biomass to landings approaches 20%, the NES LME will likely be approaching an ecosystem threshold. These empirical derivations warrant further testing in other ecosystems to see if these approximate levels hold, but the method proposed here provides a highly feasible means to do so. Further, delayed effects of fishing and environmental pressures should be explored in more detail [
+      <xref rid="pone.0119922.ref038" ref-type="bibr">
+       38
+      </xref>]. As we continue to move towards implementing EBM, the need for clearly defined decision criteria remains paramount. This gradient forest approach could serve as an important means for establishing ecosystem-level decision criteria to make EBM more of an operational reality.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec017"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0119922.s001" xlink:href="info:doi/10.1371/journal.pone.0119922.s001" mimetype="text/csv" position="float" xlink:type="simple"> 
+     <label>S1 Data</label>  
+     <title>North Atlantic Oscillation index (December-March) accessed at &lt;ext-link ext-link-type="uri" xlink:href="https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based" xlink:type="simple"&gt;https://climatedataguide.ucar.edu/climate-data/hurrell-north-atlantic-oscillation-nao-index-pc-based&lt;/ext-link&gt; on 28 January 2015.</title> 
+     <p>(CSV)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0119922.s002" xlink:href="info:doi/10.1371/journal.pone.0119922.s002" mimetype="image/tiff" position="float" xlink:type="simple"> 
+     <label>S1 Fig</label>  
+     <title>Histogram and kernel density of splits location and importance.</title> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0119922.s003" xlink:href="info:doi/10.1371/journal.pone.0119922.s003" mimetype="image/tiff" position="float" xlink:type="simple"> 
+     <label>S2 Fig</label>  
+     <title>Histogram of splits location and importance, and kernel density of observations along the gradient.</title> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank all those who participated in the NEFSC bottom trawl survey and have maintained this database, and J. Gove and A. Heenan for their thoughtful comments on earlier versions of this work.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0119922.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Stenseth
+        </surname> 
+        <given-names>
+         NC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mysterud
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ottersen
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurrell
+        </surname> 
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chan
+        </surname> 
+        <given-names>
+         KS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lima
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Ecological effects of climate fluctuations
+       </article-title>. 
+       <source>Science. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        297
+       </volume>: 
+       <fpage>
+        1292
+       </fpage>–
+       <lpage>
+        1296
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        12193777
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brander
+        </surname> 
+        <given-names>
+         KM
+        </given-names>
+       </name>. 
+       <article-title>
+        Global fish production and climate change
+       </article-title>. 
+       <source>Proc Natl Acad Sci. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        19709
+       </fpage>. 
+       <object-id pub-id-type="pmid">
+        18077405
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Beaugrand
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brander
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luczak
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ibanez
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>. 
+       <article-title>
+        Causes and projections of abrupt climate-driven ecosystem shifts in the North Atlantic
+       </article-title>. 
+       <source>Ecol Lett. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        1157
+       </fpage>–
+       <lpage>
+        1168
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2008.01218.x" xlink:type="simple">
+         10.1111/j.1461-0248.2008.01218.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18647332
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pauly
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Christensen
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dalsgaard
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Froese
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Torres
+        </surname> 
+        <given-names>
+         F
+        </given-names> 
+        <suffix>
+         Jr
+        </suffix>
+       </name>. 
+       <article-title>
+        Fishing down marine food webs
+       </article-title>. 
+       <source>Science. 
+       <year>
+        1998
+       </year>;
+       <volume>
+        279
+       </volume>: 
+       <fpage>
+        860
+       </fpage>–
+       <lpage>
+        863
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        9452385
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jackson
+        </surname> 
+        <given-names>
+         JBC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kirby
+        </surname> 
+        <given-names>
+         MX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berger
+        </surname> 
+        <given-names>
+         WH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bjorndal
+        </surname> 
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Botsford
+        </surname> 
+        <given-names>
+         LW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bourque
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Historical overfishing and the recent collapse of coastal ecosystems
+       </article-title>. 
+       <source>Science. 
+       <year>
+        2001
+       </year>;
+       <volume>
+        293
+       </volume>: 
+       <fpage>
+        629
+       </fpage>–
+       <lpage>
+        637
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        11474098
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hsieh
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reiss
+        </surname> 
+        <given-names>
+         CS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hunter
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beddington
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         May
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sugihara
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>. 
+       <article-title>
+        Fishing elevates variability in the abundance of exploited species
+       </article-title>. 
+       <source>Nature. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        443
+       </volume>: 
+       <fpage>
+        859
+       </fpage>–
+       <lpage>
+        862
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        17051218
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Christensen
+        </surname> 
+        <given-names>
+         NL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bartuska
+        </surname> 
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname> 
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         D’Antonio
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Francis
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        The report of the Ecological Society of America committee on the scientific basis for ecosystem management
+       </article-title>. 
+       <source>Ecol Appl. 
+       <year>
+        1996
+       </year>;
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        665
+       </fpage>–
+       <lpage>
+        691
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mangel
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Talbot
+        </surname> 
+        <given-names>
+         LM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meffe
+        </surname> 
+        <given-names>
+         GK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Agardy
+        </surname> 
+        <given-names>
+         MT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alverson
+        </surname> 
+        <given-names>
+         DL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barlow
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Principles for the conservation of wild living resources
+       </article-title>. 
+       <source>Ecol Appl. 
+       <year>
+        1996
+       </year>;
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        338
+       </fpage>–
+       <lpage>
+        362
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lackey
+        </surname> 
+        <given-names>
+         RT
+        </given-names>
+       </name>. 
+       <article-title>
+        Seven pillars of ecosystem management
+       </article-title>. 
+       <source>Landsc Urban Plan. 
+       <year>
+        1998
+       </year>;
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        21
+       </fpage>–
+       <lpage>
+        30
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Slocombe
+        </surname> 
+        <given-names>
+         DS
+        </given-names>
+       </name>. 
+       <article-title>
+        Defining goals and criteria for ecosystem-based management. Environ Manage
+       </article-title>. 
+       <source>Springer; 
+       <year>
+        1998
+       </year>;
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        483
+       </fpage>–
+       <lpage>
+        493
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>. 
+       <source>Ecosystem-based fisheries management: confronting tradeoffs. 
+       <publisher-name>
+        Cambridge Univ Pr
+       </publisher-name>; 
+       <year>
+        2010
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gaichas
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bundy
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Miller
+        </surname> 
+        <given-names>
+         TJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moksness
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stergiou
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>. 
+       <article-title>
+        What drives marine fisheries production
+       </article-title>. 
+       <source>Mar Ecol Prog Ser. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        459
+       </volume>: 
+       <fpage>
+        159
+       </fpage>–
+       <lpage>
+        163
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaichas
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Miller
+        </surname> 
+        <given-names>
+         TJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Essington
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bundy
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boldt
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Synthesizing lessons learned from comparing fisheries production in 13 northern hemisphere ecosystems: emergent fundamental features
+       </article-title>. 
+       <source>Mar Ecol Prog Ser. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        459
+       </volume>: 
+       <fpage>
+        293
+       </fpage>–
+       <lpage>
+        302
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Murawski
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>. 
+       <article-title>
+        Definitions of overfishing from an ecosystem perspective
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        57
+       </volume>: 
+       <fpage>
+        649
+       </fpage>–
+       <lpage>
+        658
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>. 
+       <article-title>
+        Translating ecosystem indicators into decision criteria
+       </article-title>. 
+       <source>ICES J Mar Sci. 
+       <year>
+        2005
+       </year>;
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        569
+       </fpage>–
+       <lpage>
+        576
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Groffman
+        </surname> 
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baron
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blett
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gold
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goodman
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gunderson
+        </surname> 
+        <given-names>
+         LH
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Ecological thresholds: the key to successful environmental management or an important concept with no practical application?
+       </article-title> 
+       <source>Ecosystems. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        13
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Runge
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nichols
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lubow
+        </surname> 
+        <given-names>
+         BC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kendall
+        </surname> 
+        <given-names>
+         WL
+        </given-names>
+       </name>. 
+       <article-title>
+        Structured decision making as a conceptual framework to identify thresholds for conservation and management
+       </article-title>. 
+       <source>Ecol Appl. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        1079
+       </fpage>–
+       <lpage>
+        1090
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        19688917
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rice
+        </surname> 
+        <given-names>
+         JC
+        </given-names>
+       </name>. 
+       <article-title>
+        A generalization of the three-stage model for advice using the precautionary approach in fisheries, to apply broadly to ecosystem properties and pressures
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        433
+       </fpage>–
+       <lpage>
+        444
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fewster
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buckland
+        </surname> 
+        <given-names>
+         ST
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Siriwardena
+        </surname> 
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baillie
+        </surname> 
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>. 
+       <article-title>
+        Analysis of population trends for farmland birds using generalized additive models
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        1970
+       </fpage>–
+       <lpage>
+        1984
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Large
+        </surname> 
+        <given-names>
+         SI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fay
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Friedland
+        </surname> 
+        <given-names>
+         KD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>. 
+       <article-title>
+        Defining trends and thresholds in responses of ecological indicators to fishing and environmental pressures
+       </article-title>. 
+       <source>ICES J Mar Sci. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        755
+       </fpage>–
+       <lpage>
+        767
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Large SI, Fay G, Friedland KD, Link JS. Critical points in ecosystem responses to fishing and environmental pressures. Mar Ecol Prog Ser. 2015;
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ellis
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname> 
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pitcher
+        </surname> 
+        <given-names>
+         CR
+        </given-names>
+       </name>. 
+       <article-title>
+        Gradient forests: calculating importance gradients on physical predictors. Ecology
+       </article-title>. 
+       <source>Ecological Society of America; 
+       <year>
+        2012
+       </year>;
+       <volume>
+        93
+       </volume>: 
+       <fpage>
+        156
+       </fpage>–
+       <lpage>
+        168
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1890/11-0252.1" xlink:type="simple">
+         10.1890/11-0252.1
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Breiman
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        Random forests
+       </article-title>. 
+       <source>Mach Learn. 
+       <year>
+        2001
+       </year>;
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        5
+       </fpage>–
+       <lpage>
+        32
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pitcher
+        </surname> 
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawton
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ellis
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname> 
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Incze
+        </surname> 
+        <given-names>
+         LS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wei
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Exploring the role of environmental variables in shaping patterns of seabed biodiversity composition in regional-scale ecosystems
+       </article-title>. 
+       <source>J Appl Ecol. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        670
+       </fpage>–
+       <lpage>
+        679
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        22879681
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baker
+        </surname> 
+        <given-names>
+         MR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hollowed
+        </surname> 
+        <given-names>
+         AB
+        </given-names>
+       </name>. 
+       <article-title>
+        Delineating ecological regions in marine systems: Integrating physical structure and community composition to inform spatial management in the eastern Bering Sea
+       </article-title>. 
+       <source>Deep Sea Res Part II Top Stud Oceanogr. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        215
+       </fpage>–
+       <lpage>
+        240
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Azarovitz
+        </surname> 
+        <given-names>
+         TR
+        </given-names>
+       </name>. 
+       <article-title>
+        A brief historical review of the Woods Hole Laboratory trawl survey time series
+       </article-title>. 
+       <source>Can Spec Publ Fish Aquat Sci. 
+       <year>
+        1981
+       </year>;
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        62
+       </fpage>–
+       <lpage>
+        67
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       NEFC. An evaluation of the bottom trawl survey program of the Northeast Fishery Science Center. NOAA Tech Memo. 1988;NMFS-F/NEC.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       NEFSC. Status of fishery resources off the Northeastern United States for 1998. NOAA Tech Memo NMFS-NE-115. 1998;Northeast: 149.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref029">
+      <label>29</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brodziak
+        </surname> 
+        <given-names>
+         JKT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname> 
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Overholtz
+        </surname> 
+        <given-names>
+         WJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mountain
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jossi
+        </surname> 
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Marine ecosystem assessment in a fisheries management context
+       </article-title>. 
+       <source>Can J Fish Aquat Sci. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        59
+       </volume>: 
+       <fpage>
+        1429
+       </fpage>–
+       <lpage>
+        1440
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref030">
+      <label>30</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Methratta
+        </surname> 
+        <given-names>
+         ET
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>. 
+       <article-title>
+        Associations between surficial sediments and groundfish distributions in the Gulf of Maine–Georges Bank Region
+       </article-title>. 
+       <source>North Am J Fish Manag. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        26
+       </volume>: 
+       <fpage>
+        473
+       </fpage>–
+       <lpage>
+        489
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref031">
+      <label>31</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <collab xlink:type="simple">
+        Ecosystem Assessment Program (EcoAP)
+       </collab>. 
+       <article-title>
+        Ecosystem Status Report For the Northeast U.S. Continental Shelf Large Marine Ecosystem
+       </article-title>. 
+       <source>Northeast Fish Sci Cent Ref Doc. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        09–11
+       </volume>: 
+       <fpage>
+        34
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref032">
+      <label>32</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <collab xlink:type="simple">
+        Ecosystem Assessment Program (EcoAP)
+       </collab>. 
+       <article-title>
+        Ecosystem Status Report For the Northeast Shelf Large Marine Ecosystem-2011
+       </article-title>. 
+       <source>Northeast Fish Sci Cent Ref Doc. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        12–07
+       </volume>: 
+       <fpage>
+        38
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref033">
+      <label>33</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jennings
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>. 
+       <article-title>
+        Indicators to support an ecosystem approach to fisheries
+       </article-title>. 
+       <source>Fish Fish. 
+       <year>
+        2005
+       </year>;
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        212
+       </fpage>–
+       <lpage>
+        232
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        15774035
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref034">
+      <label>34</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bundy
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shannon
+        </surname> 
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rochet
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Neira
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shin
+        </surname> 
+        <given-names>
+         YJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hill
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        The good (ish), the bad, and the ugly: a tripartite classification of ecosystem trends
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        67
+       </volume>: 
+       <fpage>
+        745
+       </fpage>–
+       <lpage>
+        768
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref035">
+      <label>35</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shin
+        </surname> 
+        <given-names>
+         Y-J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shannon
+        </surname> 
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bundy
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coll
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aydin
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bez
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Using indicators for evaluating, comparing, and communicating the ecological status of exploited marine ecosystems. 2. Setting the scene
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        67
+       </volume>: 
+       <fpage>
+        692
+       </fpage>–
+       <lpage>
+        716
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref036">
+      <label>36</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shin
+        </surname> 
+        <given-names>
+         YJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bundy
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shannon
+        </surname> 
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Simier
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coll
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fulton
+        </surname> 
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Can simple be useful and reliable? Using ecological indicators to represent and compare the states of marine ecosystems
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        67
+       </volume>: 
+       <fpage>
+        717
+       </fpage>–
+       <lpage>
+        731
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref037">
+      <label>37</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Link JS, Almeida FP. An overview and history of the food web dynamics program of the Northeast Fisheries Science Center, Woods Hole, Massachusetts. NOAA Tech Memo. 2000;NMFS-NE-15.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref038">
+      <label>38</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blanchard
+        </surname> 
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dulvy
+        </surname> 
+        <given-names>
+         NK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jennings
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ellis
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pinnegar
+        </surname> 
+        <given-names>
+         JK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tidd
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Do climate and fishing influence size-based indicators of Celtic Sea fish community structure?
+       </article-title> 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2005
+       </year>;
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        405
+       </fpage>–
+       <lpage>
+        411
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref039">
+      <label>39</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Liaw
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wiener
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Classification and Regression by randomForest
+       </article-title>. 
+       <source>R news. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        18
+       </fpage>–
+       <lpage>
+        22
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        12028823
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref040">
+      <label>40</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team. R: A language and environment for statistical computing. R Found Stat Comput Vienna Austria. 2010; Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org" xlink:type="simple">
+        http://www.r-project.org
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref041">
+      <label>41</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cutler
+        </surname> 
+        <given-names>
+         DR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edwards
+        </surname> 
+        <given-names>
+         TC
+        </given-names> 
+        <suffix>
+         Jr
+        </suffix>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beard
+        </surname> 
+        <given-names>
+         KH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cutler
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hess
+        </surname> 
+        <given-names>
+         KT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gibson
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Random forests for classification in ecology
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        88
+       </volume>: 
+       <fpage>
+        2783
+       </fpage>–
+       <lpage>
+        2792
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        18051647
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref042">
+      <label>42</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Strobl
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boulesteix
+        </surname> 
+        <given-names>
+         A-L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kneib
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Augustin
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zeileis
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>. 
+       <article-title>
+        Conditional variable importance for random forests
+       </article-title>. 
+       <source>BMC Bioinformatics. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        307
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1186/1471-2105-9-307" xlink:type="simple">
+         10.1186/1471-2105-9-307
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18620558
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref043">
+      <label>43</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nye
+        </surname> 
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Joyce
+        </surname> 
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kwon
+        </surname> 
+        <given-names>
+         Y-O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>. 
+       <article-title>
+        Silver hake tracks changes in Northwest Atlantic circulation
+       </article-title>. 
+       <source>Nat Commun. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        412
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ncomms1420" xlink:type="simple">
+         10.1038/ncomms1420
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21811241
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref044">
+      <label>44</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mills
+        </surname> 
+        <given-names>
+         KE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pershing
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheehan
+        </surname> 
+        <given-names>
+         TF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mountain
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>. 
+       <article-title>
+        Climate and ecosystem linkages explain widespread declines in North American Atlantic salmon populations
+       </article-title>. 
+       <source>Glob Chang Biol. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        3046
+       </fpage>–
+       <lpage>
+        3061
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/gcb.12298" xlink:type="simple">
+         10.1111/gcb.12298
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23780876
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref045">
+      <label>45</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Darling
+        </surname> 
+        <given-names>
+         ES
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Côté
+        </surname> 
+        <given-names>
+         IM
+        </given-names>
+       </name>. 
+       <article-title>
+        Quantifying the evidence for ecological synergies
+       </article-title>. 
+       <source>Ecol Lett. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        1278
+       </fpage>–
+       <lpage>
+        1286
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2008.01243.x" xlink:type="simple">
+         10.1111/j.1461-0248.2008.01243.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18785986
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref046">
+      <label>46</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Almeida
+        </surname> 
+        <given-names>
+         FP
+        </given-names>
+       </name>. 
+       <article-title>
+        Opportunistic feeding of longhorn sculpin (Myoxocephalus octodecemspinosus): Are scallop fishery discards an important food subsidy for scavengers on Georges Bank?
+       </article-title> 
+       <source>Fish Bull Ocean Atmos Adm. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        100
+       </volume>: 
+       <fpage>
+        381
+       </fpage>–
+       <lpage>
+        385
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref047">
+      <label>47</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jennings
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kaiser
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>. 
+       <article-title>
+        The effects of fishing on marine ecosystems
+       </article-title>. 
+       <source>Adv Mar Biol. 
+       <year>
+        1998
+       </year>;
+       <volume>
+        34
+       </volume>: 
+       <fpage>
+        201
+       </fpage>–
+       <lpage>
+        352
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref048">
+      <label>48</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nicholson
+        </surname> 
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jennings
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>. 
+       <article-title>
+        Testing candidate indicators to support ecosystem-based management: the power of monitoring surveys to detect temporal trends in fish community metrics
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2004
+       </year>;
+       <volume>
+        61
+       </volume>: 
+       <fpage>
+        35
+       </fpage>–
+       <lpage>
+        42
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref049">
+      <label>49</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brodziak
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Report on the status of the NE US continental shelf ecosystem
+       </article-title>. 
+       <source>NEFSC Ecosyst Status Work Group Northeast Fish Sci Cent Ref Doc. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        245
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref050">
+      <label>50</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rochet
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trenkel
+        </surname> 
+        <given-names>
+         VM
+        </given-names>
+       </name>. 
+       <article-title>
+        Performance of indicators derived from abundance estimates for detecting the impact of fishing on a fish community
+       </article-title>. 
+       <source>Can J Fish Aquat Sci. 
+       <year>
+        2003
+       </year>;
+       <volume>
+        60
+       </volume>: 
+       <fpage>
+        67
+       </fpage>–
+       <lpage>
+        85
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref051">
+      <label>51</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gislason
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rice
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Modelling the response of size and diversity spectra of fish assemblages to changes in exploitation
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        1998
+       </year>;
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        362
+       </fpage>–
+       <lpage>
+        370
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref052">
+      <label>52</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hall
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>. 
+       <article-title>
+        The Effects of Fishing on Marine Ecosystems and Communities
+       </article-title>. 
+       <source>Blackwell Sci Oxford OX 2 0 EL(UK) 
+       <volume>
+        296
+       </volume>. 
+       <year>
+        1999
+       </year>; 
+       <fpage>
+        1999
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref053">
+      <label>53</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rice
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gislason
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>. 
+       <article-title>
+        Patterns of change in the size spectra of numbers and diversity of the North Sea fish assemblage, as reflected in surveys and models
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        1996
+       </year>;
+       <volume>
+        53
+       </volume>: 
+       <fpage>
+        1214
+       </fpage>–
+       <lpage>
+        1225
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref054">
+      <label>54</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jennings
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Greenstreet
+        </surname> 
+        <given-names>
+         SPR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reynolds
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>. 
+       <article-title>
+        Structural change in an exploited fish community: a consequence of differential fishing effects on species with contrasting life histories
+       </article-title>. 
+       <source>J Anim Ecol. 
+       <year>
+        1999
+       </year>;
+       <volume>
+        68
+       </volume>: 
+       <fpage>
+        617
+       </fpage>–
+       <lpage>
+        627
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref055">
+      <label>55</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Overholtz
+        </surname> 
+        <given-names>
+         WJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Link
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Suslowicz
+        </surname> 
+        <given-names>
+         LE
+        </given-names>
+       </name>. 
+       <article-title>
+        Consumption of important pelagic fish and squid by predatory fish in the northeastern USA shelf ecosystem with some fishery comparisons
+       </article-title>. 
+       <source>ICES J Mar Sci J du Cons. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        57
+       </volume>: 
+       <fpage>
+        1147
+       </fpage>–
+       <lpage>
+        1159
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref056">
+      <label>56</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brander
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>. 
+       <article-title>
+        Impacts of climate change on fisheries
+       </article-title>. 
+       <source>J Mar Syst. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        79
+       </volume>: 
+       <fpage>
+        389
+       </fpage>–
+       <lpage>
+        402
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref057">
+      <label>57</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname> 
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reynolds
+        </surname> 
+        <given-names>
+         RW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peterson
+        </surname> 
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lawrimore
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Improvements to NOAA’s historical merged land-ocean surface temperature analysis (1880–2006)
+       </article-title>. 
+       <source>J Clim. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        2283
+       </fpage>–
+       <lpage>
+        2296
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0119922.ref058">
+      <label>58</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Greene
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pershing
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cronin
+        </surname> 
+        <given-names>
+         TM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ceci
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>. 
+       <article-title>
+        Arctic climate change and its impacts on the ecology of the North Atlantic
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        89
+       </volume>: 
+       <fpage>
+        24
+       </fpage>–
+       <lpage>
+        38
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

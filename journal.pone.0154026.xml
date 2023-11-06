@@ -1,0 +1,2966 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<html>
+ <head></head>
+ <body>
+  <article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0154026
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-53797
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant communities
+          </subject>
+          <subj-group>
+           <subject>
+            Grasslands
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant communities
+          </subject>
+          <subj-group>
+           <subject>
+            Grasslands
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Plant science
+        </subject>
+        <subj-group>
+         <subject>
+          Plant ecology
+         </subject>
+         <subj-group>
+          <subject>
+           Plant communities
+          </subject>
+          <subj-group>
+           <subject>
+            Grasslands
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Grasslands
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Deserts
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Deserts
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Deserts
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        People and places
+       </subject>
+       <subj-group>
+        <subject>
+         Geographical locations
+        </subject>
+        <subj-group>
+         <subject>
+          Asia
+         </subject>
+         <subj-group>
+          <subject>
+           China
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geography
+        </subject>
+        <subj-group>
+         <subject>
+          Cartography
+         </subject>
+         <subj-group>
+          <subject>
+           Latitude
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Relationship of Productivity to Species Richness in the Xinjiang Temperate Grassland
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Relationship of Productivity to Species Richness in the Xinjiang Temperate Grassland
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Liu
+        </surname> 
+        <given-names>
+         Lili
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001" /> 
+      </contrib> 
+      <contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Cheng
+        </surname> 
+        <given-names>
+         Junhui
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001" /> 
+      </contrib> 
+      <contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Liu
+        </surname> 
+        <given-names>
+         Yunhua
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001" /> 
+      </contrib> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <contrib-id contrib-id-type="orcid">
+        http://orcid.org/0000-0002-2278-2221
+       </contrib-id> 
+       <name name-style="western"> 
+        <surname>
+         Sheng
+        </surname> 
+        <given-names>
+         Jiandong
+        </given-names> 
+       </name> 
+       <xref ref-type="corresp" rid="cor001">
+        *
+       </xref> 
+       <xref ref-type="aff" rid="aff001" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <addr-line>
+       Xinjiang Key Laboratory of Soil and Plant Ecological Processes, College of Grassland and Environmental Sciences, Xinjiang Agricultural University, Urumqi, Xinjiang Uygur Autonomous Region, China
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hui
+        </surname> 
+        <given-names>
+         Dafeng
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Tennessee State University, UNITED STATES
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: JS YL. Performed the experiments: LL YL. Analyzed the data: JC. Contributed reagents/materials/analysis tools: LL. Wrote the paper: LL JC.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        sjd_2004@126.com
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       21
+      </day> 
+      <month>
+       4
+      </month> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <volume>
+      11
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e0154026
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        3
+       </day> 
+       <month>
+        1
+       </month> 
+       <year>
+        2016
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        7
+       </day> 
+       <month>
+        4
+       </month> 
+       <year>
+        2016
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2016
+      </copyright-year> 
+      <copyright-holder>
+       Liu et al
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0154026" /> 
+     <abstract> 
+      <p>The relationship between species richness (SR) and aboveground net primary productivity (ANPP) is still a central and debated issue in community ecology. Previous studies have often emphasized the relationship of alpha diversity (number of species identity) to the mean ANPP with respect to the SR-ANPP relationship while neglecting the contribution of beta diversity (dissimilarity in species composition) to the mean ANPP and to the stability of ANPP (coefficient of ANPP: CV of ANPP). In this study, we used alpha and beta diversity, mean ANPP and the CV of ANPP collected from 159 sites and belonging to three vegetation types in the Xinjiang temperate grassland to first examine their trends along climatic factors and among different vegetation types and then test the relationship among alpha (beta) diversity and mean ANPP and the CV of ANPP. Our results showed that in the Xinjiang temperate grasslands, alpha diversity was positively and linearly correlated with MAP but unimodally correlated with MAT. Meanwhile, beta diversity was unimodally correlated with MAP but linearly correlated with MAT. Relative to desert steppe, meadow steppe and typical steppe had the highest alpha and beta diversity, respectively. Except for ANPP exhibiting a quadratic relationship with MAP, no significant relationship was found among ANPP, the CV of ANPP and climatic factors. ANPP and the CV of ANPP also exhibited no apparent patterns in variation among different vegetation types. Our results further showed that mean ANPP was closely associated with alpha diversity. Both linear and unimodal relationships were detected between alpha diversity and mean ANPP, but their particular form was texture-dependent. Meanwhile, the CV of ANPP was positively correlated with beta diversity. Our results indicated that in addition to incorporating alpha diversity and mean ANPP, incorporating beta diversity and the CV of ANPP could expand our understanding of the SR-ANPP relationship.</p> 
+     </abstract> 
+     <funding-group> 
+      <award-group id="award001"> 
+       <funding-source> 
+        <institution-wrap> 
+         <institution-id institution-id-type="funder-id">
+          http://dx.doi.org/10.13039/501100001809
+         </institution-id> 
+         <institution>
+          National Natural Science Foundation of China
+         </institution> 
+        </institution-wrap> 
+       </funding-source> 
+       <award-id>
+        XDA05050405
+       </award-id> 
+       <principal-award-recipient> 
+        <contrib-id contrib-id-type="orcid">
+         http://orcid.org/0000-0002-2278-2221
+        </contrib-id> 
+        <name name-style="western"> 
+         <surname>
+          Sheng
+         </surname> 
+         <given-names>
+          Jiandong
+         </given-names> 
+        </name> 
+       </principal-award-recipient> 
+      </award-group> 
+      <funding-statement>
+       This work was financially supported by Strategic Priority Research Program of Chinese Academy of Sciences (XDA05050405). JD S received the funding. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="5" /> 
+      <table-count count="0" /> 
+      <page-count count="11" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        All relevant data are within the paper.
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>The relationship between species richness (SR) and aboveground net primary productivity (ANPP) has been a central issue in community ecology [
+     <xref ref-type="bibr" rid="pone.0154026.ref001">
+      1
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0154026.ref003">
+      3
+     </xref>]. Despite the patterns and mechanisms of the SR-ANPP relationship having been widely discussed in most terrestrial ecosystems [
+     <xref ref-type="bibr" rid="pone.0154026.ref004">
+      4
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref005">
+      5
+     </xref>], the reported SR-ANPP relationship remains controversial, ranging from a unimodal to positively linear relationship to a neutral form in different ecosystems [
+     <xref ref-type="bibr" rid="pone.0154026.ref003">
+      3
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref006">
+      6
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref007">
+      7
+     </xref>]. These varied SR-ANPP relationships have often been explained by differently varying patterns in alpha diversity (numbers of species identity in community) along the ANPP gradient [
+     <xref ref-type="bibr" rid="pone.0154026.ref005">
+      5
+     </xref>], whereas the contribution of beta diversity (dissimilarity in species composition in the community) to the SR-ANPP relationship has been neglected. Some recent studies have suggested that in addition to alpha diversity, beta diversity also plays an important factor in regulating the SR-ANPP relationship because species richness is heterogeneously distributed in ecosystems [
+     <xref ref-type="bibr" rid="pone.0154026.ref008">
+      8
+     </xref>], providing a new mechanism for understanding the SR-ANPP relationship. However, our knowledge about the contribution of alpha and beta diversity to ANPP is still limited, and more studies are needed.</p> 
+    <p>In particular, the mechanisms of alpha and beta diversity in influencing the SR-ANPP relationship are different. For alpha diversity, if the peak diversity occurs at the intermediate level of ANPP, then a unimodal SR-ANPP relationship will be observed [
+     <xref ref-type="bibr" rid="pone.0154026.ref005">
+      5
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref009">
+      9
+     </xref>]. If the peak diversity appears at the highest level of ANPP, then a positively linear relationship is produced [
+     <xref ref-type="bibr" rid="pone.0154026.ref006">
+      6
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref010">
+      10
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref011">
+      11
+     </xref>]. For beta diversity, a high dissimilarity in species composition often appears at a high level of ANPP [
+     <xref ref-type="bibr" rid="pone.0154026.ref012">
+      12
+     </xref>], which in turn generates a positive and linear relationship between beta diversity and ANPP [
+     <xref ref-type="bibr" rid="pone.0154026.ref013">
+      13
+     </xref>]. These findings suggest that for a given ecosystem, the observed SR-ANPP relationship is simultaneously determined by alpha and beta diversity. For example, alpha and beta diversity alone or together can result in a positive and linear SR-ANPP relationship (if one exists). Thus, separately exploring the relationship among alpha diversity, beta diversity and ANPP could expand our understanding of the mechanisms influencing the SR-ANPP relationship.</p> 
+    <p>Generally, ecologists have often used mean ANPP to test its relationship with species richness [
+     <xref ref-type="bibr" rid="pone.0154026.ref002">
+      2
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref003">
+      3
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref006">
+      6
+     </xref>] while ignoring the connection between species richness and the coefficient of variation (CV) of ANPP. The CV of ANPP is another important dimension for understanding the SR-ANPP relationship because ANPP also shifts with the change in species composition and environmental conditions [
+     <xref ref-type="bibr" rid="pone.0154026.ref002">
+      2
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref006">
+      6
+     </xref>]. In particular, the CV of ANPP reflects the degree of stability in ANPP [
+     <xref ref-type="bibr" rid="pone.0154026.ref014">
+      14
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0154026.ref016">
+      16
+     </xref>]. A greater (smaller) CV of ANPP indicates that the community has a lower (higher) stability in ANPP [
+     <xref ref-type="bibr" rid="pone.0154026.ref014">
+      14
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0154026.ref016">
+      16
+     </xref>]. Despite the importance of the CV of ANPP in understanding ecosystem stability, studies on the connection of the CV of ANPP to alpha and beta diversity are still lacking, which in turn limits our understanding of the SR-ANPP relationship.</p> 
+    <p>At a regional scale, the SR-ANPP relationship is also influenced by environmental factors and vegetation types because alpha and beta diversity, the mean ANPP and the CV of ANPP are significantly regulated by environmental factors and vegetation types [
+     <xref ref-type="bibr" rid="pone.0154026.ref006">
+      6
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref010">
+      10
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0154026.ref017">
+      17
+     </xref>]. A recent study reported that the positive SR-ANPP relationship observed in the temperate grasslands of China stemmed from the parallel responding patterns of SR (alpha diversity) and ANPP along a climatic gradient [
+     <xref ref-type="bibr" rid="pone.0154026.ref010">
+      10
+     </xref>]. These studies imply that to better understand the SR-ANPP relationship, the variations in alpha and beta diversity, mean ANPP and CV of ANPP and the relationships among these variables should be separately tested in each vegetation type.</p> 
+    <p>Here, we used alpha and beta diversity, mean ANPP and the CV of ANPP measured in the Xinjiang temperate grasslands in northwest China, which cover a wide range of climatic gradients and include different vegetation types, to address the following three questions: (1) how does alpha and beta diversity, mean ANPP and the CV of ANPP in the Xinjiang temperate grassland vary along a climatic gradient and among different vegetation types? (2) What is the general relationship between alpha diversity and ANPP and the CV of ANPP in the Xinjiang temperate grasslands? (3) What is the general relationship between beta diversity and ANPP and the CV of ANPP in the Xinjiang temperate grasslands?</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="sec003"> 
+     <title>Study area</title> 
+     <p>This study was conducted in the Xinjiang Uygur Autonomous Region, located in the northwest part of China (
+      <xref ref-type="fig" rid="pone.0154026.g001">
+       Fig 1
+      </xref>). The study area ranges from 34°25′N to 48°10′N in latitude and from 73°40′E to 96°18′E in longitude, covering an area of 16.6×10<sup>6</sup> km<sup>2</sup>. Grassland is the predominant vegetation type and accounts for more than 34% of the total land area in XUAR, which is the third largest grassland in China [
+      <xref ref-type="bibr" rid="pone.0154026.ref018">
+       18
+      </xref>]. In particular, the grasslands in this area belong to temperate grasslands in terms of climate, soil and vegetation composition [
+      <xref ref-type="bibr" rid="pone.0154026.ref018">
+       18
+      </xref>].</p> 
+     <fig id="pone.0154026.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0154026.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>Location, study area and sites distribution of this study.</title> 
+      <p>The green color represented the place where was dominated by grassland.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0154026.g001" xlink:type="simple" /> 
+     </fig> 
+     <p>The Xinjiang grasslands are characterized by a temperate continental climate. The mean annual precipitation (MAP) ranges from 10 to 550 mm, with 34% of precipitation occurring in the growing season (May-August). The mean annual temperature (MAT) ranges from 9 to 12°C, with the lowest mean monthly temperature in January (-20°C) and the highest in July (33°C). The major soil types in the Xinjiang grasslands are sandy soil, brown desert soil, brown calcic soil, frigid frozen soil and lithosol soil. The Xinjiang grasslands include nine vegetation types according to the variation in dominant species: alpine meadow (dominated by 
+      <italic>
+       Carex liparocarpos
+      </italic> and 
+      <italic>
+       Polygonum viviparum
+      </italic>), alpine steppe (dominated by 
+      <italic>
+       Stipa purpurea
+      </italic> and 
+      <italic>
+       Seriphidium rhodanthum
+      </italic>), lowland meadow (dominated by 
+      <italic>
+       Phragmites australis
+      </italic> and 
+      <italic>
+       Glycyrrhiza uralensis
+      </italic>), temperate steppe (dominated by 
+      <italic>
+       Stipa sareptana
+      </italic> and 
+      <italic>
+       Carex liparocarpos
+      </italic>), temperate desert (dominated by 
+      <italic>
+       Seriphidium terrae-albae
+      </italic> and 
+      <italic>
+       Ceratocarpus arenarius
+      </italic>), temperate desert-steppe (dominated by 
+      <italic>
+       Stipa caucasica
+      </italic> and 
+      <italic>
+       Seriphidium
+      </italic>), temperate steppe-desert (dominated by 
+      <italic>
+       Stipa Sareptana
+      </italic> and 
+      <italic>
+       Seriphidium heptapotamicum
+      </italic>), temperate mountain meadow (dominated by 
+      <italic>
+       Achillea millefolium
+      </italic> and 
+      <italic>
+       Poa pratensis
+      </italic>), and temperate meadow steppe (dominated by 
+      <italic>
+       Stipa purpurea
+      </italic> and 
+      <italic>
+       Carex spp
+      </italic>.) [
+      <xref ref-type="bibr" rid="pone.0154026.ref018">
+       18
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Survey of alpha, beta diversity, mean values and CV of ANPP</title> 
+     <p>We investigated alpha and beta diversity, mean ANPP and the CV of ANPP in the Xinjiang temperate grasslands in 2011, 2012 and 2013. A survey was conducted in the summers (July-August) of each year because ANPP reaches its peak value during this period [
+      <xref ref-type="bibr" rid="pone.0154026.ref019">
+       19
+      </xref>]. In this study, only temperate meadow steppe (MS), temperate steppe (TS) and temperate desert steppe (DS) data were used for further analysis because their sample sizes satisfied statistical requirements and were proportional to their distribution area (
+      <xref ref-type="fig" rid="pone.0154026.g001">
+       Fig 1
+      </xref>). Thus, a total of 159 field sites, which were evenly distributed in the Xinjiang temperate grasslands, were included in this study (
+      <xref ref-type="fig" rid="pone.0154026.g001">
+       Fig 1
+      </xref>).</p> 
+     <p>At each site, a 100×100 m sampling area was randomly selected. After recording the geographical coordinates, elevation and vegetation types, three or five 1×1 m quadrats were randomly chosen within this sampling area in each site. For each quadrat, we first recorded species names and the individual numbers for each species, and then we harvested the ANPP for each quadrat. We pre-dried the harvested ANPP in the field and then dried it to constant weight at 70°C in an oven in the laboratory of Xinjiang Agriculture University [
+      <xref ref-type="bibr" rid="pone.0154026.ref010">
+       10
+      </xref>]. Based on these investigated data, we calculated the alpha and beta diversity, mean ANPP and CV of ANPP for each site. In particular, alpha diversity was expressed by the mean number of species appearing in all quadrats of each site. The beta diversity for each site was calculated as the proportion of unshared species among these investigated quadrats (one minus the Jaccard index). Specifically, beta diversity was calculated via following two steps. Firstly, for any two given quadrats (i.e. quadrats 
+      <italic>
+       i
+      </italic> and 
+      <italic>
+       j
+      </italic>, respectively), we calculated the proportion of unshared species between them using the equation: 1-a/(a+b+c), where a is the number of shared species between two quadrats, b is the number of species that appeared in quadrats 
+      <italic>
+       i
+      </italic> but not in 
+      <italic>
+       j
+      </italic> while c is the number of species that occurred in quadrat 
+      <italic>
+       j
+      </italic> but not in 
+      <italic>
+       i
+      </italic> [
+      <xref ref-type="bibr" rid="pone.0154026.ref013">
+       13
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0154026.ref020">
+       20
+      </xref>]. This procedure was repeated to calculate the beta diversity between any two combined quadrats (3 or 10 combinations if a site had three or five quadrats, respectively). Then, for each site, the mean values of beta diversity was calculated and further used to explore their relationship with ANPP (above-ground net primary productivity)[
+      <xref ref-type="bibr" rid="pone.0154026.ref013">
+       13
+      </xref>]. The mean ANPP was expressed by averaging the ANPP in all quadrats, whereas the CV of ANPP was obtained by dividing the standard deviation of ANPP by its mean value.</p> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Collection of climatic variables</title> 
+     <p>Based on the long-term meteorological data (1961–2010) obtained from 756 evenly distributed climatic stations in China, we calculated the mean annual precipitation (MAP) and mean annual temperature (MAT) of each site in our study. In detail, MAP and MAT were calculated from a Geographic Information System-based multiple regression method which used latitude, longitude and elevation as predicators [
+      <xref ref-type="bibr" rid="pone.0154026.ref021">
+       21
+      </xref>]. The interpolated climatic conditions among our surveyed sites changed differently, with MAP ranged from 33.4 to 398.2 mm while MAT ranged from 2.9 to 12.7 °C, which revealed an apparent climatic gradient in terms of MAP and MAT.</p> 
+    </sec> 
+    <sec id="sec006"> 
+     <title>Statistical analysis</title> 
+     <p>To resolve our first question, we used a general linear model (GLM) to examine the relationship between MAP, MATand alpha and beta diversity, mean ANPP and the CV of ANPP separately [
+      <xref ref-type="bibr" rid="pone.0154026.ref006">
+       6
+      </xref>]. For each examination, we fitted species diversity and ANPP as both a linear and quadratic function of the climatic factors. If the quadratic term did not statistically reduce the residuals (
+      <italic>
+       a
+      </italic> = 0.05), then we dropped it from the model. The best-fitted model was selected using the Akaike Information Criterion (AIC) [
+      <xref ref-type="bibr" rid="pone.0154026.ref022">
+       22
+      </xref>]. An unbalanced one-way ANOVA followed by LSD multiple comparisons was also used to test the variation of alpha and beta diversity, mean ANPP and the CV of ANPP among vegetation types [
+      <xref ref-type="bibr" rid="pone.0154026.ref006">
+       6
+      </xref>].</p> 
+     <p>To resolve our second and third questions, GLM was also used to examine whether a significant linear or quadratic relationship existed between alpha/beta diversity and the mean ANPP/CV of ANPP in each of vegetation type [
+      <xref ref-type="bibr" rid="pone.0154026.ref010">
+       10
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0154026.ref023">
+       23
+      </xref>]. The best-fitting relationship between diversity and ANPP was also selected by AIC in this analysis. All statistical analysis were performed in R software(Vienna, Austria) [
+      <xref ref-type="bibr" rid="pone.0154026.ref024">
+       24
+      </xref>].</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec007" sec-type="results"> 
+    <title>Results</title> 
+    <sec id="sec008"> 
+     <title>Variations of alpha, beta diversity, mean value and CV of ANPP along climatic gradient</title> 
+     <p>In the Xinjiang temperate grasslands, alpha and beta diversity, mean ANPP and the CV of ANPP responded differently to climatic factors at the site level (
+      <xref ref-type="fig" rid="pone.0154026.g002">
+       Fig 2
+      </xref>). In particular, alpha diversity was positively and linearly correlated with MAP but exhibited a unimodal relationship with MAT (
+      <xref ref-type="fig" rid="pone.0154026.g002">
+       Fig 2A and 2B
+      </xref>), indicating that peak alpha diversity occurred in sites with an intermediate level of MAT. However, beta diversity showed a unimodal relationship with MAP but negatively decreased with increasing MAT (
+      <xref ref-type="fig" rid="pone.0154026.g002">
+       Fig 2C and 2D
+      </xref>), suggesting that peak beta diversity appeared in sites with an intermediate level of MAP. ANPP was only significantly correlated with MAP, with a tendency of decreasing with low levels of MAP but greatly increasing with high levels of MAP (
+      <xref ref-type="fig" rid="pone.0154026.g002">
+       Fig 2E
+      </xref>). No significant relationship was detected between the CV of ANPP and MAP or MAT (
+      <xref ref-type="fig" rid="pone.0154026.g002">
+       Fig 2G and 2H
+      </xref>).</p> 
+     <fig id="pone.0154026.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0154026.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title></title> &lt;p&gt;Relationship of alpha and beta diversity, ANPP and the CV of ANPP with mean annual precipitation (MAP) (A,C,E,G) and mean annual temperature (MAT) (B,D,F,H) in the Xinjiang temperate grasslands. NS indicates that no significant relationship was detected.&lt;/p&gt; &lt;/caption&gt; &lt;graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0154026.g002" xlink:type="simple"/&gt; &lt;/fig&gt; &lt;/sec&gt; &lt;sec id="sec009"&gt; &lt;title&gt;Variations of alpha, beta diversity, mean value and CV of ANPP among vegetation types 
+      <p>Among vegetation types, alpha diversity was highest in meadow steppe but lowest in desert steppe, while beta diversity was highest in typical steppe but lowest in desert steppe (
+       <xref ref-type="fig" rid="pone.0154026.g003">
+        Fig 3A and 3B
+       </xref>). On average, the alpha diversity in meadow steppe (7.7±1.3) was nearly twice as high as that in desert steppe (3.9±0.19) (
+       <xref ref-type="fig" rid="pone.0154026.g003">
+        Fig 3A
+       </xref>), whereas beta diversity in typical steppe (0.44±0.05) was 1.29 times higher than that in desert steppe (0.35±0.02) (
+       <xref ref-type="fig" rid="pone.0154026.g003">
+        Fig 3B
+       </xref>). No significant variation was detected in ANPP and the CV of ANPP among vegetation types. (
+       <xref ref-type="fig" rid="pone.0154026.g003">
+        Fig 3C and 3D
+       </xref>). On average, ANPP in the Xinjiang temperate grasslands was 47.09 g m<sup>-2</sup>, and the CV of ANPP was 41.82%.</p> 
+      <fig id="pone.0154026.g003" position="float"> 
+       <object-id pub-id-type="doi">
+        10.1371/journal.pone.0154026.g003
+       </object-id> 
+       <label>Fig 3</label>  
+       <title></title> &lt;p&gt;Variation in alpha (A) and beta diversity (B), ANPP (C) and the CV of ANPP (D) among meadow steppe (MS), typical steppe (TS) and desert steppe (DS) in the Xinjiang temperate grasslands.&lt;/p&gt; &lt;/caption&gt; &lt;graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0154026.g003" xlink:type="simple"/&gt; &lt;/fig&gt; &lt;/sec&gt; &lt;sec id="sec010"&gt; &lt;title&gt;Relationship of alpha diversity with mean value and CV of ANPP 
+       <p>In the Xinjiang temperate grasslands, alpha diversity was tightly correlated with ANPP but not with the CV of ANPP (
+        <xref ref-type="fig" rid="pone.0154026.g004">
+         Fig 4
+        </xref>). When all sites were pooled into the analysis, alpha diversity was positively and linearly correlated with ANPP (
+        <xref ref-type="fig" rid="pone.0154026.g004">
+         Fig 4A
+        </xref>). The positively linear relationship between ANPP and alpha diversity was still existed even the outlier (i.e. the dot on the most right location in 
+        <xref ref-type="fig" rid="pone.0154026.g004">
+         Fig 4A
+        </xref>) was removing from the data pool. When alpha diversity and ANPP were reclassified into vegetation types, the positive relationship between alpha diversity and ANPP was still detected in meadow steppe and desert steppe (
+        <xref ref-type="fig" rid="pone.0154026.g004">
+         Fig 4B and 4D
+        </xref>), indicating that in meadow and desert steppe, high ANPP generally occurred in the sites that also had high alpha diversity. However, in typical steppe, their alpha diversity exhibited a significant unimodal relationship with ANPP (
+        <xref ref-type="fig" rid="pone.0154026.g004">
+         Fig 4C
+        </xref>), suggesting that in typical steppe, high ANPP appeared in the sites that had an intermediate level of alpha diversity. Moreover, no significant relationship was found between alpha diversity and the CV of ANPP in either grasslands or each of these three vegetation types (
+        <xref ref-type="fig" rid="pone.0154026.g004">
+         Fig 4E–4H
+        </xref>).</p> 
+       <fig id="pone.0154026.g004" position="float"> 
+        <object-id pub-id-type="doi">
+         10.1371/journal.pone.0154026.g004
+        </object-id> 
+        <label>Fig 4</label>  
+        <title></title> &lt;p&gt;Relationship of alpha diversity with ANPP (A-D) and the CV of ANPP (E-H) in the Xinjiang temperate grasslands. MS, TS and DS are the abbreviations for meadow steppe, typical steppe and desert steppe, respectively. NS indicates that no significant relationship was detected.&lt;/p&gt; &lt;/caption&gt; &lt;graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0154026.g004" xlink:type="simple"/&gt; &lt;/fig&gt; &lt;/sec&gt; &lt;sec id="sec011"&gt; &lt;title&gt;Relationship of beta diversity with mean value and CV of ANPP 
+        <p>Our results revealed that in the Xinjiang temperate grasslands, beta diversity was significantly correlated with the CV of ANPP but not with ANPP (
+         <xref ref-type="fig" rid="pone.0154026.g005">
+          Fig 5
+         </xref>). In all sites and desert steppe, a positive and linear relationship was found between beta diversity and the CV of ANPP (
+         <xref ref-type="fig" rid="pone.0154026.g005">
+          Fig 5E and 5H
+         </xref>), demonstrating that the greater the dissimilarity in species composition, the more unstable the ANPP in the Xinjiang temperate grasslands and in desert steppe. Contrary to desert steppe, a significant quadratic relationship between beta diversity and the CV of ANPP was detected in typical steppe, with the tendency of decreasing in low beta diversity but increasing in high beta diversity (
+         <xref ref-type="fig" rid="pone.0154026.g005">
+          Fig 5G
+         </xref>), indicating that in typical steppe, the high level of instability in ANPP occurred both in sites with less dissimilarity in species composition and in sites with large dissimilarity in species composition. In meadow steppe, however, no significant relationship was detected between beta diversity and the CV of ANPP (
+         <xref ref-type="fig" rid="pone.0154026.g005">
+          Fig 5F
+         </xref>). Our results also revealed that beta diversity was unrelated to changes in ANPP in the Xinjiang temperate grasslands (
+         <xref ref-type="fig" rid="pone.0154026.g005">
+          Fig 5A–5D
+         </xref>).</p> 
+        <fig id="pone.0154026.g005" position="float"> 
+         <object-id pub-id-type="doi">
+          10.1371/journal.pone.0154026.g005
+         </object-id> 
+         <label>Fig 5</label>  
+         <title></title> &lt;p&gt;Relationship of beta diversity with ANPP (A-D) and the CV of ANPP (E-H) in the Xinjiang temperate grasslands. MS, TS and DS are the abbreviations for meadow steppe, typical steppe and desert steppe, respectively. NS indicates that no significant relationship was detected.&lt;/p&gt; &lt;/caption&gt; &lt;graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0154026.g005" xlink:type="simple"/&gt; &lt;/fig&gt; &lt;/sec&gt; &lt;/sec&gt; &lt;sec id="sec012" sec-type="conclusions"&gt; &lt;title&gt;Discussion 
+         <sec id="sec013"> 
+          <title>Variations of alpha, beta diversity, mean value and CV of ANPP along climatic gradient</title> 
+          <p>Our results showed that in the Xinjiang temperate grasslands, despite the influence on alpha and beta diversity by both MAP and MAT, alpha and beta diversity responded differently to MAP and MAT. We found that alpha diversity responded linearly to MAP but unimodally to MAT, which is consistent with previous studies conducted in Xinjiang and on a global scale [
+           <xref ref-type="bibr" rid="pone.0154026.ref025">
+            25
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref026">
+            26
+           </xref>]. These results were also in agreement with the prediction of the water-energy dynamics hypothesis, which suggests that in arid regions, species richness is positively correlated with water availability but negatively associated with energy availability [
+           <xref ref-type="bibr" rid="pone.0154026.ref026">
+            26
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref027">
+            27
+           </xref>]. Beside the effect of water and energy dynamics, the relationship between alpha diversity and MAP, MAT on our study was also influenced by the snow and snow melt water. Particularly, Xinjiang has a high snow depth (16.7–18.7 cm) and longer snow cover time (87.3–85.4 days a<sup>-1</sup>) relative to the other provinces in China [
+           <xref ref-type="bibr" rid="pone.0154026.ref028">
+            28
+           </xref>]. It has reported that snow respectively accounted for more than 30% and 80% of annual precipitation in plain and mountains in our study area[
+           <xref ref-type="bibr" rid="pone.0154026.ref029">
+            29
+           </xref>]. Moreover, the thawing period of snow in our study area was coincided with the period of species germination, indicating that snow melt water also had potential effects on species diversity distribution. Actually, snow melt water could influence species diversity via following two mechanisms: Firstly, snow melt water could indirectly decrease the air temperature during the processes of thaw, which may affect species germination time especially in the meadow steppe where was originally limited by temperature. Secondly, snow melt water will improve soil water availability, which can facilitate species diversity and plant growth in this arid regions[
+           <xref ref-type="bibr" rid="pone.0154026.ref030">
+            30
+           </xref>]. In contrast to alpha diversity, we found that beta diversity responded unimodally to MAP but linearly to MAT, indicating that the highest dissimilarity in species composition appeared at the intermediate level of MAP.</p> 
+          <p>The quadratic relationship between ANPP and MAP in our study was inconsistent with previous studies in the temperate grasslands in Inner Mongolia and in Kansas, which had reported a positive and linear correlation between ANPP and MAP. [
+           <xref ref-type="bibr" rid="pone.0154026.ref006">
+            6
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref017">
+            17
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref031">
+            31
+           </xref>]. These different findings may be attributed to the difference in species composition between Xinjiang and Inner Mongolian grasslands because a previous study suggested that different grasses responded differently to water availability with respect to their aboveground biomass [
+           <xref ref-type="bibr" rid="pone.0154026.ref032">
+            32
+           </xref>]. Moreover, the lack of a significant relationship between the CV of ANPP and MAP in our study was also inconsistent with one of these previous studies [
+           <xref ref-type="bibr" rid="pone.0154026.ref017">
+            17
+           </xref>], suggesting that the stability of ANPP in the Xinjiang temperate grasslands is influenced by other potential factors (i.e., species composition) rather than by climatic factors.</p> 
+         </sec> 
+         <sec id="sec014"> 
+          <title>Variations of alpha, beta diversity, mean value and CV of ANPP among vegetation types</title> 
+          <p>Our results also showed that in the Xinjiang temperate grasslands, alpha diversity in meadow steppe is significantly higher than that in typical steppe and desert steppe, which is consistent with the previous studies conducted in Inner Mongolian grasslands and in Tibetan grasslands [
+           <xref ref-type="bibr" rid="pone.0154026.ref006">
+            6
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref010">
+            10
+           </xref>]. However, the varying magnitude of alpha diversity among meadow, typical and desert steppes (7.7, 5.1, and 3.9, respectively) in our study is lower than that reported in Inner Mongolian grasslands (20.9, 14.0 and 11.6 for meadow, typical and desert steppes, respectively) and in Tibetan grasslands (17 and 8 for alpine meadow and alpine steppes, respectively). The low alpha diversity in our study could be explained by the relatively low aridity index (ratio of precipitation to evapotranspiration) in the Xinjiang temperate grasslands (0.01–0.10) because previous studies have confirmed that the plant species richness in arid and semi-arid regions in Northwest China is tightly determined by the aridity index [
+           <xref ref-type="bibr" rid="pone.0154026.ref025">
+            25
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref033">
+            33
+           </xref>].</p> 
+          <p>The higher beta diversity in meadow and typical steppes observed in this study indicated that in the Xinjiang temperate grasslands, the species community is highly dissimilar in meadow and typical steppes, which is consistent with a previous study on Inner Mongolian grasslands, which reported that the highest species dissimilarity was observed under high MAP conditions (meadow steppe) [
+           <xref ref-type="bibr" rid="pone.0154026.ref006">
+            6
+           </xref>]. Despite the significant variation in alpha and beta diversity observed, ANPP and the CV of ANPP exhibited no significant variation among meadow, typical and desert steppes in our study, suggesting that species diversity, ANPP and the CV of ANPP exhibited different patterns among vegetation types.</p> 
+         </sec> 
+         <sec id="sec015"> 
+          <title>Relationship of alpha diversity with mean value and CV of ANPP</title> 
+          <p>Our results showed that the positively linear and unimodal relationship between species richness (alpha diversity) and ANPP occurred simultaneously in different vegetation types in the Xinjiang temperate grasslands. In particular, a positive and linear relationship was detected in meadow and desert steppes, but a unimodal relationship was found in typical steppe. This finding was inconsistent with a recent study that reported the unimodal relationship as a worldwide phenomenon in grasslands with respect to the relationship of species richness to ANPP [
+           <xref ref-type="bibr" rid="pone.0154026.ref003">
+            3
+           </xref>]. Indeed, the texture-dependent relationship between alpha diversity and ANPP in our study was supported by a previous hypothesis suggesting that the relationship between species richness and ANPP changes from unimodal to positively linear as resource conditions shift from heterogeneity to homogeneity [
+           <xref ref-type="bibr" rid="pone.0154026.ref005">
+            5
+           </xref>]. This is because in the resource-poor conditions in desert steppes, only few species with a tolerance strategy can survive and the strength of competition is weak [
+           <xref ref-type="bibr" rid="pone.0154026.ref009">
+            9
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref034">
+            34
+           </xref>], whereas in the resource-rich conditions in meadow steppes, the robust competition only allows a few dominant species with high competitive ability to exist [
+           <xref ref-type="bibr" rid="pone.0154026.ref004">
+            4
+           </xref>]; in turn, the limited species number in desert and meadow steppes produce a positive relationship between alpha diversity and ANPP [
+           <xref ref-type="bibr" rid="pone.0154026.ref005">
+            5
+           </xref>]. Because the resource conditions in typical steppe gradually transform from poor to rich, competition first increases with increasing ANPP, and then the competition under high ANPP conditions results in species loss, which in turn generates a unimodal relationship between alpha diversity and ANPP [
+           <xref ref-type="bibr" rid="pone.0154026.ref005">
+            5
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref035">
+            35
+           </xref>]. The lack of a significant relationship between alpha diversity and the CV of ANPP in our study indicated that the stability of ANPP was not determined by the number of species identified in the Xinjiang temperate grasslands.</p> 
+         </sec> 
+         <sec id="sec016"> 
+          <title>Relationship of beta diversity with mean value and CV of ANPP</title> 
+          <p>Contrary to alpha diversity, we found that beta diversity was not significantly correlated with ANPP, which was consistent with a previous study conducted on Californian serpentine flora [
+           <xref ref-type="bibr" rid="pone.0154026.ref013">
+            13
+           </xref>]. However, we further found that beta diversity was positively correlated with the CV of ANPP in each vegetation type except for meadow steppe. This is because in our study beta diversity was expressed by the proportion of unshared species among different quadrats, and high beta diversity thus indicates high dissimilarity in species composition within a site [
+           <xref ref-type="bibr" rid="pone.0154026.ref023">
+            23
+           </xref>,
+           <xref ref-type="bibr" rid="pone.0154026.ref036">
+            36
+           </xref>]. The positive relationship observed between beta diversity and the CV of ANPP may have resulted from the parallel response pattern of the dissimilarity in species composition and the variance in ANPP along the ANPP gradient [
+           <xref ref-type="bibr" rid="pone.0154026.ref006">
+            6
+           </xref>].</p> 
+         </sec> 
+        </fig>
+       </fig>
+      </fig>
+     </fig>
+    </sec> 
+    <sec id="sec017" sec-type="conclusions"> 
+     <title>Conclusions</title> 
+     <p>By examining variations in alpha and beta diversity, mean ANPP and the CV of APPP along climatic factors and among different vegetation types, our study showed that in the Xinjiang temperate grasslands, alpha and beta diversity were closely associated with both MAP and MAT and were highest in meadow and typical steppes relative to desert steppe. Except for ANPP exhibiting a quadratic relationship with MAP, no significant relationship was found between ANPP, the CV of ANPP and climatic factors. ANPP and the CV of ANPP also exhibited no apparent patterns in variation among different vegetation types. Based on testing the relationship between species diversity and ANPP, our results further showed that alpha diversity was tightly correlated with mean ANPP, whereas beta diversity was significantly associated with the CV of ANPP. Our results demonstrated that a positive linear and unimodal relationship appeared simultaneously in different vegetation types in the Xinjiang temperate grasslands.</p> 
+    </sec>  
+    <back> 
+     <ack> 
+      <p>We are grateful to students from Xinjiang Agriculture University for their field assistance in surveying community composition. This work was financially supported by the Strategic Priority Research Program of Chinese Academy of Sciences (XDA05050405).</p> 
+     </ack> 
+     <ref-list> 
+      <title>References</title> 
+      <ref id="pone.0154026.ref001">
+       <label>1</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name> (
+        <year>
+         1999
+        </year>) 
+        <article-title>
+         The ecological consequences of changes in biodiversity: A search for general principles
+        </article-title>. 
+        <source>Ecology 
+        <volume>
+         80
+        </volume>: 
+        <fpage>
+         1455
+        </fpage>–
+        <lpage>
+         1474
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000085187900001
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref002">
+       <label>2</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname> 
+         <given-names>
+          DU
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chapin
+         </surname> 
+         <given-names>
+          FS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ewel
+         </surname> 
+         <given-names>
+          JJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname> 
+         <given-names>
+          P
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          lavorel
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2005
+        </year>) 
+        <article-title>
+         Effects of biodiversity on ecosystem functioning: A consensus of current knowledge
+        </article-title>. 
+        <source>Ecol Monogr 
+        <volume>
+         75
+        </volume>: 
+        <fpage>
+         3
+        </fpage>–
+        <lpage>
+         35
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000227254000001
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref003">
+       <label>3</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Fraser
+         </surname> 
+         <given-names>
+          LH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Pither
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Jentsch
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sternberg
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Zobel
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Askarizadeb
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2015
+        </year>) 
+        <article-title>
+         Worldwide evidence of a unimodal relationship between productivity and plant species richness
+        </article-title>. 
+        <source>Science 
+        <volume>
+         349
+        </volume>: 
+        <fpage>
+         302
+        </fpage>–
+        <lpage>
+         305
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         26185249
+        </object-id>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.aab3916" xlink:type="simple">
+          10.1126/science.aab3916
+         </ext-link>
+        </comment>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref004">
+       <label>4</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Huston
+         </surname> 
+         <given-names>
+          MA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Deangelis
+         </surname> 
+         <given-names>
+          DL
+         </given-names>
+        </name> (
+        <year>
+         1994
+        </year>) 
+        <article-title>
+         Competition and Coexistence—the Effects of Resource Transport and Supply Rates
+        </article-title>. 
+        <source>Am Nat
+        <volume>
+         144
+        </volume>: 
+        <fpage>
+         954
+        </fpage>–
+        <lpage>
+         977
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         A1994PW45000005
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref005">
+       <label>5</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Guo
+         </surname> 
+         <given-names>
+          QF
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Berry
+         </surname> 
+         <given-names>
+          WL
+         </given-names>
+        </name> (
+        <year>
+         1998
+        </year>) 
+        <article-title>
+         Species richness and biomass: Dissection of the hump-shaped relationships
+        </article-title>. 
+        <source>Ecology 
+        <volume>
+         79
+        </volume>: 
+        <fpage>
+         2555
+        </fpage>–
+        <lpage>
+         2559
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000076300200028
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref006">
+       <label>6</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Bai
+         </surname> 
+         <given-names>
+          YF
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          JG
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Pan
+         </surname> 
+         <given-names>
+          QM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Huang
+         </surname> 
+         <given-names>
+          JH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname> 
+         <given-names>
+          QB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          FS
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2007
+        </year>) 
+        <article-title>
+         Positive linear relationship between productivity and diversity: evidence from the Eurasian Steppe
+        </article-title>. 
+        <source>J Appl Ecol 
+        <volume>
+         44
+        </volume>: 
+        <fpage>
+         1023
+        </fpage>–
+        <lpage>
+         1034
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000249425100013
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref007">
+       <label>7</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Gross
+         </surname> 
+         <given-names>
+          KL
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Willig
+         </surname> 
+         <given-names>
+          MR
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Gough
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Inouye
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Cox
+         </surname> 
+         <given-names>
+          SB
+         </given-names>
+        </name> (
+        <year>
+         2000
+        </year>) 
+        <article-title>
+         Patterns of species density and productivity at different spatial scales in herbaceous plant communities
+        </article-title>. 
+        <source>Oikos 
+        <volume>
+         89
+        </volume>: 
+        <fpage>
+         417
+        </fpage>–
+        <lpage>
+         427
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref008">
+       <label>8</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Chesson
+         </surname> 
+         <given-names>
+          PL
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Warner
+         </surname> 
+         <given-names>
+          RR
+         </given-names>
+        </name> (
+        <year>
+         1981
+        </year>) 
+        <article-title>
+         Environmental variability promotes coexistence in lottery competitive systems
+        </article-title>. 
+        <source>Am Nat 
+        <volume>
+         117
+        </volume>: 
+        <fpage>
+         923
+        </fpage>–
+        <lpage>
+         943
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref009">
+       <label>9</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Johnson
+         </surname> 
+         <given-names>
+          KH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Vogt
+         </surname> 
+         <given-names>
+          KA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname> 
+         <given-names>
+          HJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Schmitz
+         </surname> 
+         <given-names>
+          OJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Vogt
+         </surname> 
+         <given-names>
+          DJ
+         </given-names>
+        </name> (
+        <year>
+         1996
+        </year>). 
+        <article-title>
+         Biodiversity and the productivity and stability of ecosystems
+        </article-title>. 
+        <source>Trends Ecol Evol. 
+        <volume>
+         11
+        </volume>:
+        <fpage>
+         372
+        </fpage>–
+        <lpage>
+         377
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         21237882
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref010">
+       <label>10</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ma
+         </surname> 
+         <given-names>
+          WH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          He
+         </surname> 
+         <given-names>
+          JS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Yang
+         </surname> 
+         <given-names>
+          YH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname> 
+         <given-names>
+          XP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Liang
+         </surname> 
+         <given-names>
+          CZ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Anwar
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2010
+        </year>) 
+        <article-title>
+         Environmental factors covary with plant diversity-productivity relationships among Chinese grassland sites
+        </article-title>. 
+        <source>GLOBAL ECOL BIOGEOGR 
+        <volume>
+         19
+        </volume>: 
+        <fpage>
+         233
+        </fpage>–
+        <lpage>
+         243
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000274320600008
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref011">
+       <label>11</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname> 
+         <given-names>
+          TM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          McNaughton
+         </surname> 
+         <given-names>
+          SJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ritchie
+         </surname> 
+         <given-names>
+          ME
+         </given-names>
+        </name> (
+        <year>
+         2004
+        </year>). 
+        <article-title>
+         Scale-dependent relationships between the spatial distribution of a limiting resource and plant species diversity in an African grassland ecosystem
+        </article-title>. 
+        <source>Oecologia. 
+        <volume>
+         139
+        </volume>:
+        <fpage>
+         277
+        </fpage>–
+        <lpage>
+         287
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         15007724
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref012">
+       <label>12</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Cavieres
+         </surname> 
+         <given-names>
+          LA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Badano
+         </surname> 
+         <given-names>
+          EI
+         </given-names>
+        </name> (
+        <year>
+         2009
+        </year>) 
+        <article-title>
+         Do facilitative interactions increase species richness at the entire community level?
+        </article-title>.
+        <source>J Ecol 
+        <volume>
+         97
+        </volume>: 
+        <fpage>
+         1181
+        </fpage>–
+        <lpage>
+         1191
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref013">
+       <label>13</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Harrison
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Davies
+         </surname> 
+         <given-names>
+          KF
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Safford
+         </surname> 
+         <given-names>
+          HD
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Viers
+         </surname> 
+         <given-names>
+          JH
+         </given-names>
+        </name> (
+        <year>
+         2006
+        </year>) 
+        <article-title>
+         Beta diversity and the scale-dependence of the productivity-diversity relationship: a test in the Californian serpentine flora
+        </article-title>. 
+        <source>J Ecol 
+        <volume>
+         94
+        </volume>: 
+        <fpage>
+         110
+        </fpage>–
+        <lpage>
+         117
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref014">
+       <label>14</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Bai
+         </surname> 
+         <given-names>
+          YF
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Han
+         </surname> 
+         <given-names>
+          XG
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          JG
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chen
+         </surname> 
+         <given-names>
+          ZZ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          LH
+         </given-names>
+        </name> (
+        <year>
+         2004
+        </year>) 
+        <article-title>
+         Ecosystem stability and compensatory effects in the Inner Mongolia grassland
+        </article-title>. 
+        <source>Nature 
+        <volume>
+         431
+        </volume>: 
+        <fpage>
+         181
+        </fpage>–
+        <lpage>
+         184
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000223746000043
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref015">
+       <label>15</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Yang
+         </surname> 
+         <given-names>
+          HJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Jiang
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          LH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          MY
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wan
+         </surname> 
+         <given-names>
+          SQ
+         </given-names>
+        </name>. (
+        <year>
+         2012
+        </year>) 
+        <article-title>
+         Diversity-dependent stability under mowing and nutrient addition: evidence from a 7-year grassland experiment
+        </article-title>. 
+        <source>Ecol Lett 
+        <volume>
+         15
+        </volume>: 
+        <fpage>
+         619
+        </fpage>–
+        <lpage>
+         626
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000303666200014
+        </object-id>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2012.01778.x" xlink:type="simple">
+          10.1111/j.1461-0248.2012.01778.x
+         </ext-link>
+        </comment>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref016">
+       <label>16</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Reich
+         </surname> 
+         <given-names>
+          PB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname> 
+         <given-names>
+          JMH
+         </given-names>
+        </name> (
+        <year>
+         2006
+        </year>) 
+        <article-title>
+         Biodiversity and ecosystem stability in a decade-long grassland experiment
+        </article-title>. 
+        <source>Nature 
+        <volume>
+         441
+        </volume>: 
+        <fpage>
+         629
+        </fpage>–
+        <lpage>
+         632
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000237920800046
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref017">
+       <label>17</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Bai
+         </surname> 
+         <given-names>
+          YF
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          JG
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Xing
+         </surname> 
+         <given-names>
+          Q
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Pan
+         </surname> 
+         <given-names>
+          QM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Huang
+         </surname> 
+         <given-names>
+          JH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Yang
+         </surname> 
+         <given-names>
+          DL
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2008
+        </year>) 
+        <article-title>
+         Primary production and rain use efficiency across a precipitation gradient on the Mongolia plateau
+        </article-title>. 
+        <source>Ecology 
+        <volume>
+         89
+        </volume>: 
+        <fpage>
+         2140
+        </fpage>–
+        <lpage>
+         2153
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000258236400008
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref018">
+       <label>18</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <collab>
+         Department of Animal Husbandry of Xinjiang Uygur Autonomous Region
+        </collab> (
+        <year>
+         1993
+        </year>). 
+        <chapter-title>
+         Resource and ultilizaition of Xinjiang Grassland
+        </chapter-title>. 
+        <publisher-loc>
+         Urumqi
+        </publisher-loc>: 
+        <publisher-name>
+         Xinjiang Publishing House of Science, Technology and Health
+        </publisher-name>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref019">
+       <label>19</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Sala
+         </surname> 
+         <given-names>
+          OE
+         </given-names>
+        </name> (
+        <year>
+         2000
+        </year>) 
+        <article-title>
+         Global biodiversity scenarios for the year 2100
+        </article-title>. 
+        <source>Science 
+        <volume>
+         287
+        </volume>: 
+        <fpage>
+         1770
+        </fpage>–
+        <lpage>
+         1774
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         10710299
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref020">
+       <label>20</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname> 
+         <given-names>
+          MJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Crist
+         </surname> 
+         <given-names>
+          TO
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chase
+         </surname> 
+         <given-names>
+          JM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Vellend
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Inouye
+         </surname> 
+         <given-names>
+          BD
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Freestone
+         </surname> 
+         <given-names>
+          AL
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2011
+        </year>) 
+        <article-title>
+         Navigating the multiple meanings of beta diversity: a roadmap for the practicing ecologist
+        </article-title>. 
+        <source>Ecol Lett 
+        <volume>
+         14
+        </volume>: 
+        <fpage>
+         19
+        </fpage>–
+        <lpage>
+         28
+        </lpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2010.01552.x" xlink:type="simple">
+          10.1111/j.1461-0248.2010.01552.x
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         21070562
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref021">
+       <label>21</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ninyerola
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Pons
+         </surname> 
+         <given-names>
+          X
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Roure
+         </surname> 
+         <given-names>
+          JM
+         </given-names>
+        </name> (
+        <year>
+         2000
+        </year>) 
+        <article-title>
+         A methodological approach of climatological modelling of air temperature and precipitation through GIS techniques
+        </article-title>. 
+        <source>Int J Climatol 
+        <volume>
+         20
+        </volume>: 
+        <fpage>
+         1823
+        </fpage>–
+        <lpage>
+         1841
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000165835200012
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref022">
+       <label>22</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Wardle
+         </surname> 
+         <given-names>
+          DA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Bonner
+         </surname> 
+         <given-names>
+          IB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Barker
+         </surname> 
+         <given-names>
+          GM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Yeates
+         </surname> 
+         <given-names>
+          GW
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Nicholson
+         </surname> 
+         <given-names>
+          KS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Bardgett
+         </surname> 
+         <given-names>
+          RD
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         1999
+        </year>) 
+        <article-title>
+         Plant removals in perennial grassland: vegetation dynamics, decomposers, soil biodiversity, and ecosystem properties
+        </article-title>. 
+        <source>Ecol Monogr 
+        <volume>
+         69
+        </volume>: 
+        <fpage>
+         535
+        </fpage>–
+        <lpage>
+         568
+        </lpage>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref023">
+       <label>23</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Chase
+         </surname> 
+         <given-names>
+          JM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Leibold
+         </surname> 
+         <given-names>
+          MA
+         </given-names>
+        </name> (
+        <year>
+         2002
+        </year>) 
+        <article-title>
+         Spatial scale dictates the productivity-biodiversity relationship
+        </article-title>. 
+        <source>Nature 
+        <volume>
+         416
+        </volume>: 
+        <fpage>
+         427
+        </fpage>–
+        <lpage>
+         430
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000174607800046
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref024">
+       <label>24</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <collab>
+         R Development Core Team
+        </collab> (
+        <year>
+         2012
+        </year>) 
+        <chapter-title>
+         R: A Language and Environment for Statistical Computing
+        </chapter-title>. 
+        <publisher-loc>
+         Vienna, Austria
+        </publisher-loc>: 
+        <publisher-name>
+         R Foundation for Statistical Computing
+        </publisher-name>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref025">
+       <label>25</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname> 
+         <given-names>
+          Z
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Zerbe
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Abdusalih
+         </surname> 
+         <given-names>
+          N
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Tang
+         </surname> 
+         <given-names>
+          Z
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ma
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2013
+        </year>) 
+        <article-title>
+         Species Richness Patterns and Water-Energy Dynamics in the Drylands of Northwest China
+        </article-title>. 
+        <source>PLoS ONE 
+        <volume>
+         8
+        </volume>: 
+        <fpage>
+         e66450
+        </fpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0066450" xlink:type="simple">
+          10.1371/journal.pone.0066450
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         23840472
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref026">
+       <label>26</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Trumbore
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name> (
+        <year>
+         2009
+        </year>) 
+        <article-title>
+         Radiocarbon and Soil Carbon Dynamics
+        </article-title>. 
+        <source>Annu Rev earth Planet Sci 
+        <volume>
+         37
+        </volume>: 
+        <fpage>
+         47
+        </fpage>–
+        <lpage>
+         66
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref027">
+       <label>27</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lawler
+         </surname> 
+         <given-names>
+          SP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lawton
+         </surname> 
+         <given-names>
+          JH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Woodfin
+         </surname> 
+         <given-names>
+          RM
+         </given-names>
+        </name> (
+        <year>
+         1994
+        </year>) 
+        <article-title>
+         Declining biodiversity can alter the performance of ecosystems
+        </article-title>. 
+        <source>Nature 
+        <volume>
+         368
+        </volume>: 
+        <fpage>
+         734
+        </fpage>–
+        <lpage>
+         737
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref028">
+       <label>28</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hu
+         </surname> 
+         <given-names>
+          LQ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Liang
+         </surname> 
+         <given-names>
+          FC
+         </given-names>
+        </name> (
+        <year>
+         2013
+        </year>) 
+        <article-title>
+         Analysis of the variation characteristics of snow covers in Xinjiang region during recent 50 years
+        </article-title>. 
+        <source>Journal of Glaciology and Geocryology 
+        <volume>
+         35
+        </volume>: 
+        <fpage>
+         793
+        </fpage>–
+        <lpage>
+         800
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref029">
+       <label>29</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          JF
+         </given-names>
+        </name> (
+        <year>
+         1991
+        </year>) 
+        <chapter-title>
+         Climate in Xinjiang
+        </chapter-title>. 
+        <publisher-loc>
+         Beijing
+        </publisher-loc>: 
+        <publisher-name>
+         China Meteorological Press
+        </publisher-name>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref030">
+       <label>30</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Fan
+         </surname> 
+         <given-names>
+          LL
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ma
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          LF
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Xu
+         </surname> 
+         <given-names>
+          GQ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Li
+         </surname> 
+         <given-names>
+          Y
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Tang
+         </surname> 
+         <given-names>
+          LS
+         </given-names>
+        </name>. (
+        <year>
+         2012
+        </year>) 
+        <article-title>
+         Response of the herbaceous layer to snow variability at the south margin of the Gurbantonggut Desert of China
+        </article-title>. 
+        <source>Chinese Journal of Plant Ecology 
+        <volume>
+         36
+        </volume>: 
+        <fpage>
+         126
+        </fpage>–
+        <lpage>
+         135
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref031">
+       <label>31</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Knapp
+         </surname> 
+         <given-names>
+          AK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Briggs
+         </surname> 
+         <given-names>
+          JM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Koelliker
+         </surname> 
+         <given-names>
+          JK
+         </given-names>
+        </name> (
+        <year>
+         2001
+        </year>) 
+        <article-title>
+         Frequency and extent of water limitation to primary production in a mesic temperate grassland
+        </article-title>. 
+        <source>Ecosystems 
+        <volume>
+         4
+        </volume>: 
+        <fpage>
+         19
+        </fpage>–
+        <lpage>
+         28
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000167550100003
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref032">
+       <label>32</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Yang
+         </surname> 
+         <given-names>
+          HJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          MY
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Liu
+         </surname> 
+         <given-names>
+          WX
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname> 
+         <given-names>
+          Z
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname> 
+         <given-names>
+          NL
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wan
+         </surname> 
+         <given-names>
+          SQ
+         </given-names>
+        </name> (
+        <year>
+         2011
+        </year>) 
+        <article-title>
+         Community structure and composition in response to climate change in a temperate steppe
+        </article-title>. 
+        <source>GLOB CHANGE BIOL. 
+        <volume>
+         17
+        </volume>:
+        <fpage>
+         452
+        </fpage>–
+        <lpage>
+         65
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         000284851500037
+        </object-id>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref033">
+       <label>33</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname> 
+         <given-names>
+          XB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Liu
+         </surname> 
+         <given-names>
+          DW
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname> 
+         <given-names>
+          HH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lu
+         </surname> 
+         <given-names>
+          XT
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Fang
+         </surname> 
+         <given-names>
+          YT
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2014
+        </year>) 
+        <article-title>
+         Aridity threshold in controlling ecosystem nitrogen cycling in arid and semi-arid grasslands
+        </article-title>. 
+        <source>Nat Commun 
+        <volume>
+         5
+        </volume>:
+        <fpage>
+         4799
+        </fpage>. 
+        <object-id pub-id-type="pmid">
+         000342928700003
+        </object-id>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ncomms5799" xlink:type="simple">
+          10.1038/ncomms5799
+         </ext-link>
+        </comment>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref034">
+       <label>34</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Grime
+         </surname> 
+         <given-names>
+          JP
+         </given-names>
+        </name> (
+        <year>
+         2001
+        </year>) 
+        <chapter-title>
+         Plant strategies,vegetation processes, and ecosystem properties
+        </chapter-title>. 
+        <publisher-loc>
+         Chichester
+        </publisher-loc>: 
+        <publisher-name>
+         John Wiley &amp; Sons
+        </publisher-name>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref035">
+       <label>35</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ruijven
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Berendse
+         </surname> 
+         <given-names>
+          F
+         </given-names>
+        </name> (
+        <year>
+         2005
+        </year>) 
+        <article-title>
+         Diversity–productivity relationships: Initial effects, long-term patterns, and underlying mechanisms
+        </article-title>. 
+        <source>Proc Natl Acad Sci,USA 
+        <volume>
+         102
+        </volume>: 
+        <fpage>
+         695
+        </fpage>–
+        <lpage>
+         700
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         15640357
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0154026.ref036">
+       <label>36</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname> 
+         <given-names>
+          P
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          De Caceres
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name> (
+        <year>
+         2013
+        </year>). 
+        <article-title>
+         Beta diversity as the variance of community data: dissimilarity coefficients and partitioning
+        </article-title>. 
+        <source>Ecol Lett. 
+        <volume>
+         16
+        </volume>:
+        <fpage>
+         951
+        </fpage>–
+        <lpage>
+         963
+        </lpage> 
+        <object-id pub-id-type="pmid">
+         23809147
+        </object-id>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/ele.12141" xlink:type="simple">
+          10.1111/ele.12141
+         </ext-link>
+        </comment>
+       </mixed-citation>
+      </ref> 
+     </ref-list> 
+    </back> 
+   </sec>
+  </article>
+ </body>
+</html>

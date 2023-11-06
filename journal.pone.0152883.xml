@@ -1,0 +1,2860 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<html>
+ <head></head>
+ <body>
+  <article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0152883
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-34643
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Engineering and technology
+       </subject>
+       <subj-group>
+        <subject>
+         Remote sensing
+        </subject>
+        <subj-group>
+         <subject>
+          Lidar
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Forests
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Forest ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Forest ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Biomass (ecology)
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Biomass (ecology)
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Computational biology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystem modeling
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem modeling
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem modeling
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        People and places
+       </subject>
+       <subj-group>
+        <subject>
+         Demography
+        </subject>
+        <subj-group>
+         <subject>
+          Death rates
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Population biology
+        </subject>
+        <subj-group>
+         <subject>
+          Population metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Death rates
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Engineering and technology
+       </subject>
+       <subj-group>
+        <subject>
+         Remote sensing
+        </subject>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       The Impact of Fine-Scale Disturbances on the Predictability of Vegetation Dynamics and Carbon Flux
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Predictability of Vegetation Dynamics
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         G. C.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="corresp" rid="cor001">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Thomas
+        </surname> 
+        <given-names>
+         R. Q.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Fisk
+        </surname> 
+        <given-names>
+         J. P.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff003">
+        <sup>3</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         R. O.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Sheldon
+        </surname> 
+        <given-names>
+         S. L.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       Department of Geographical Sciences, University of Maryland, College Park, MD, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       Department of Forest Resources and Environmental Conservation, Virginia Tech, Blacksburg, VA, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff003">
+      <label>3</label> 
+      <addr-line>
+       Applied Geosolutions, Durham, NH, United States of America
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Poulter
+        </surname> 
+        <given-names>
+         Benjamin
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Montana State University, UNITED STATES
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: GCH RQT JPF. Performed the experiments: GCH RQT JPF. Analyzed the data: GCH RQT JPF. Contributed reagents/materials/analysis tools: GCH RQT JPF ROD SLS. Wrote the paper: GCH RQT JPF ROD SLS.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        gchurtt@umd.edu
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       19
+      </day> 
+      <month>
+       4
+      </month> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <volume>
+      11
+     </volume> 
+     <issue>
+      4
+     </issue> 
+     <elocation-id>
+      e0152883
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        6
+       </day> 
+       <month>
+        8
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        21
+       </day> 
+       <month>
+        3
+       </month> 
+       <year>
+        2016
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2016
+      </copyright-year> 
+      <copyright-holder>
+       Hurtt et al
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0152883" /> 
+     <abstract> 
+      <p>Predictions from forest ecosystem models are limited in part by large uncertainties in the current state of the land surface, as previous disturbances have important and lasting influences on ecosystem structure and fluxes that can be difficult to detect. Likewise, future disturbances also present a challenge to prediction as their dynamics are episodic and complex and occur across a range of spatial and temporal scales. While large extreme events such as tropical cyclones, fires, or pest outbreaks can produce dramatic consequences, small fine-scale disturbance events are typically much more common and may be as or even more important. This study focuses on the impacts of these smaller disturbance events on the predictability of vegetation dynamics and carbon flux. Using data on vegetation structure collected for the same domain at two different times, i.e. “repeat lidar data”, we test high-resolution model predictions of vegetation dynamics and carbon flux across a range of spatial scales at an important tropical forest site at La Selva Biological Station, Costa Rica. We found that predicted height change from a height-structured ecosystem model compared well to lidar measured height change at the domain scale (~150 ha), but that the model-data mismatch increased exponentially as the spatial scale of evaluation decreased below 20 ha. We demonstrate that such scale-dependent errors can be attributed to errors predicting the pattern of fine-scale forest disturbances. The results of this study illustrate the strong impact fine-scale forest disturbances have on forest dynamics, ultimately limiting the spatial resolution of accurate model predictions.</p> 
+     </abstract> 
+     <funding-group> 
+      <award-group id="award001"> 
+       <funding-source> 
+        <institution-wrap> 
+         <institution-id institution-id-type="funder-id">
+          http://dx.doi.org/10.13039/100000104
+         </institution-id> 
+         <institution>
+          National Aeronautics and Space Administration
+         </institution> 
+        </institution-wrap> 
+       </funding-source> 
+       <principal-award-recipient> 
+        <name name-style="western"> 
+         <surname>
+          Hurtt
+         </surname> 
+         <given-names>
+          G. C.
+         </given-names> 
+        </name> 
+       </principal-award-recipient> 
+      </award-group> 
+      <funding-statement>
+       This work was supported by research grants from the NASA Terrestrial Ecology and Interdisciplinary Science Research Programs.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="6" /> 
+      <table-count count="2" /> 
+      <page-count count="11" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        Data can be found in the publication Hurtt, G.C., R.Q. Thomas, J. Fisk, R.O. Dubayah, and S.L. Sheldon. 2016. Canopy height and biomass, 1998 &amp; 2005, from LiDAR surveys at La Selva, Costa Rica. ORNL DAAC, Oak Ridge, Tennessee, USA (
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3334/ORNLDAAC/1312" xlink:type="simple">
+         http://dx.doi.org/10.3334/ORNLDAAC/1312
+        </ext-link>).
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>Forest ecosystem dynamics are characterized by processes of disturbance and recovery across a range of spatial scales, from large catastrophic events including tropical cyclones, fires, and pest outbreaks, to fine-scale forest canopy gap dynamics [
+     <xref ref-type="bibr" rid="pone.0152883.ref001">
+      1
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0152883.ref006">
+      6
+     </xref>]. The spatially and temporally heterogeneous patterns of vegetation structure and fluxes that result from these disturbances present a special challenge to interpretation and prediction [
+     <xref ref-type="bibr" rid="pone.0152883.ref007">
+      7
+     </xref>]. Disturbances episodically alter vegetation structure and create important fluxes of carbon from vegetation to coarse woody debris, litter, and the atmosphere. Recovery following disturbances tends to restore vegetation structure and carbon over longer time scales (decades to centuries) as vegetation regrows and debris decomposes. The complex spatial pattern from a legacy of past events, together with ongoing and potentially changing future events, presents a challenge not only for understanding, but also for prediction.</p> 
+    <p>In light of the need for accurate prediction future forest dynamics and carbon sequestration, how can ecosystem models that account for disturbance processes be evaluated and how does model performance vary across a range of spatial scales? A systematic and quantitative evaluation of model predictions using remote sensing observations is important for assessing the accuracy of model predictions and to facilitate model development [
+     <xref ref-type="bibr" rid="pone.0152883.ref008">
+      8
+     </xref>]. While wall-to-wall estimates of vegetation dynamics and carbon flux at high spatial resolution are rare or non-existent, gridded observations of canopy height change from lidar can potentially be used for model evaluation at spatial scales that range from a lidar footprint (&lt; 1 ha) to large forested domains (&gt; 100 ha).</p> 
+    <p>To ensure the fairest comparison of simulated forest dynamics with observed changes in forest structure, accurate initialization of vegetation in the model is important. Model initialization allows for predicted forest dynamics to reflect the past history of disturbance events. Recent advances linking lidar remote sensing and height-structured forest ecosystem modeling have demonstrated the potential of using these technologies together to reduce uncertainty in initial conditions and thereby constrain model estimates of future carbon stocks and fluxes through the accurate initialization of vegetation structure [
+     <xref ref-type="bibr" rid="pone.0152883.ref009">
+      9
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0152883.ref013">
+      13
+     </xref>]. Previous studies [
+     <xref ref-type="bibr" rid="pone.0152883.ref009">
+      9
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0152883.ref010">
+      10
+     </xref>] used lidar measurements of canopy height to initialize the Ecosystem Demography (ED) model [
+     <xref ref-type="bibr" rid="pone.0152883.ref014">
+      14
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0152883.ref015">
+      15
+     </xref>] at the La Selva Biological Station in Costa Rica, and Hubbard Brook Experimental Forest in Northeastern U.S., respectively. At both study sites, lidar-initialized ED model estimates of aboveground biomass were within &lt;5% of regression-based approaches using field data. Moreover, the resulting predictions of future carbon flux were tightly constrained relative to bracketing alternatives that lacked initialization with data on vegetation structure.</p> 
+    <p>Here, we build on this previous work and use lidar data on vegetation structure collected for the same area at two different times are used to test model predictions of vegetation dynamics across a range of spatial scales at an important tropical forest study site. While multiple measures of vegetation structure are potentially relevant (e.g. biomass, basal area, etc.), we focus on height because both remote sensing and models can directly measure or predict it. Results of this study suggest that fine-scale forest disturbance events limit the spatial resolution of accurate model predictions.</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Methods</title> 
+    <sec id="sec003"> 
+     <title>Study Area and Data</title> 
+     <p>The La Selva Biological Station (108259 N, 848009 W) in northeast Costa Rica is a Tropical Wet Forest covering 1600 ha in multiple land-uses including primary and secondary forest [
+      <xref ref-type="bibr" rid="pone.0152883.ref016">
+       16
+      </xref>] It has been a focal site for the development of remote sensing and modeling of vegetation structure in forest ecosystems, especially using the Laser Vegetation Imaging Sensor (LVIS) [
+      <xref ref-type="bibr" rid="pone.0152883.ref009">
+       9
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0152883.ref017">
+       17
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0152883.ref020">
+       20
+      </xref>]. LVIS is a medium altitude waveform digitizing lidar with 10–30 m diameter footprints [
+      <xref ref-type="bibr" rid="pone.0152883.ref021">
+       21
+      </xref>]. The return signal from LVIS represents a vertical record of intercepted canopy surface and is used derive metrics of vertical vegetation structure, including two measures of canopy height: distance above the ground, and distance above Earth’s ellipsoid (i.e. the elevation of canopy top). Estimation of canopy height requires detecting a ground signal via a computer algorithm, and differencing the calculated ground elevation from the canopy top elevation. The latter estimate of canopy height is a potentially preferred metric for calculating canopy height change because it avoids errors associated with locating the ground under forest canopies, but is still sensitive to the threshold used for first-return detection [
+      <xref ref-type="bibr" rid="pone.0152883.ref020">
+       20
+      </xref>]. Research at La Selva has established strong relationships between lidar derived canopy height and field biomass [
+      <xref ref-type="bibr" rid="pone.0152883.ref017">
+       17
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0152883.ref018">
+       18
+      </xref>], and lidar-derived height change and aboveground carbon increment [
+      <xref ref-type="bibr" rid="pone.0152883.ref020">
+       20
+      </xref>]. While land-use history has been shown to be important, above ground biomass does not differ significantly over the relatively small edaphic gradients at this site [
+      <xref ref-type="bibr" rid="pone.0152883.ref017">
+       17
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0152883.ref022">
+       22
+      </xref>].</p> 
+     <p>Two LVIS data collections have been flown at La Selva. The first collection was flown in March 1998 at an altitude of 8 km with a nominal footprint diameter of 25 m. The LVIS footprints were separated by 25 m across the 1 km track and 9 m along track [
+      <xref ref-type="bibr" rid="pone.0152883.ref023">
+       23
+      </xref>]. The second collection was flown in March of 2005 at an altitude of 10 km. The 2 km swath-width had 20 m across track spacing between the 25 m footprints. After both data collections, the vertical waveform was digitized to 30 cm resolution. Canopy Top Height (CTH, RH100) and Canopy Top Elevation (CTE, RH<sub>E</sub>100) were derived for each footprint. For the purpose of model initialization and testing, the footprint data were aggregated to form 1 ha resolution datasets of mean CTH and mean CTE in 1998 and 2005 (for details, see [
+      <xref ref-type="bibr" rid="pone.0152883.ref009">
+       9
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0152883.ref020">
+       20
+      </xref>]).</p> 
+     <p>A total of 1036 ha were classified as forest, 732 old growth (primary) and 304 recovering (secondary) (
+      <xref ref-type="fig" rid="pone.0152883.g001">
+       Fig 1
+      </xref>). The mean CTH across the entire domain (primary and secondary) for 1998 and 2005 was 30.6 ± 0.15 m and 31.4 ± 0.14, respectively (1 SE). The mean CTH for primary and secondary forest in 1998 was 32.6 ± 0.11 m and 25.4 ± 0.30 m (1 SE), respectively. 
+      <xref ref-type="fig" rid="pone.0152883.g002">
+       Fig 2
+      </xref> shows a map of mean CTH in 1998 at 1 ha resolution. 
+      <xref ref-type="fig" rid="pone.0152883.g003">
+       Fig 3
+      </xref> shows a map of LVIS mean canopy top height change (2005–1998) at 1 ha resolution.</p> 
+     <fig id="pone.0152883.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0152883.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>La Selva gridded (1 ha) land-use history classification.</title> 
+      <p>Primary denotes natural old-growth vegetation. Secondary denotes vegetation recovering from prior land-use (Organization for Tropical Studies, unpublished data).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.g001" xlink:type="simple" /> 
+     </fig> 
+     <fig id="pone.0152883.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0152883.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title>LVIS mean CTH 1998 at 1 ha.</title> 
+      <p>[
+       <xref ref-type="bibr" rid="pone.0152883.ref009">
+        9
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0152883.ref020">
+        20
+       </xref>].</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.g002" xlink:type="simple" /> 
+     </fig> 
+     <fig id="pone.0152883.g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0152883.g003
+      </object-id> 
+      <label>Fig 3</label>  
+      <title>LVIS mean canopy top height change (2005–1998) at 1 ha.</title> 
+      <p>Mean canopy height change was determined by differencing elevation of the canopy top in 1998 and 2005 (ΔCTH, see Dubayah et al. 2010).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.g003" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Analysis</title> 
+     <p>Our analysis approach consisted of the following five major steps. 1) Initialize the height-structured ED model [
+      <xref ref-type="bibr" rid="pone.0152883.ref014">
+       14
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0152883.ref015">
+       15
+      </xref>] at La Selva Biological Station using the 1998 lidar canopy top height data. 2) Use the lidar-initalized ED model to predict canopy top height changes across the domain between 1998 and 2005. 3) Compare model predicted changes in mean canopy top height to lidar measured changes in mean canopy top height over the same period. 4) Investigate how the results from the model-data comparison depended on the spatial scale of comparison. 5) Assess corresponding predictions of carbon flux.</p> 
+     <p>To begin, the ED model was initialized with lidar data over La Selva using the initialization protocol presented in [
+      <xref ref-type="bibr" rid="pone.0152883.ref009">
+       9
+      </xref>]. Following that study, 1 ha resolution mean CTH data from 1998 were used in a “look-up table” approach to index corresponding pre-computed ED model estimates of forest structure as predicted to develop through succession at that site. To develop the look-up table, a climatology [
+      <xref ref-type="bibr" rid="pone.0152883.ref024">
+       24
+      </xref>] was used as input to spin-up the model through succession from recently disturbed to old growth conditions, and in the process develop a database relating state variables in the model to mean canopy top height in 0.5 m increments. The 1998 lidar data on mean CTH were used to index the look-up table and initialize the state-variables in the model with corresponding values for each hectare in the domain. Model initialized estimated aboveground biomass across the domain at La Selva was within 1.2% of lidar-derived aboveground biomass (see [
+      <xref ref-type="bibr" rid="pone.0152883.ref009">
+       9
+      </xref>] for more details on the initialization).</p> 
+     <p>Following initialization, ED was used to predict gridded ecosystem dynamics including changes in mean canopy height and aboveground biomass at 1 ha resolution across the domain over the 7-year period between lidar data collections (
+      <xref ref-type="fig" rid="pone.0152883.g004">
+       Fig 4
+      </xref>). For consistency, the same climatology used in the initialization was used drive the model forward in time. Hectares observed to be at or above modeled maximum canopy height were predicted to have no change in height, and the corresponding predicted aboveground biomass change was bracketed between zero (dynamic equilibrium) and the net flux estimated for stands when they first reach maximum canopy height.</p> 
+     <fig id="pone.0152883.g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0152883.g004
+      </object-id> 
+      <label>Fig 4</label>  
+      <title>Lidar-initialized ED estimates of mean canopy top height change (2005–1998).</title> 
+      <p>The ED model was initialized with 1 ha lidar mean canopy top heights from 1998, and used to predict 1 ha mean canopy top height change in 2005.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.g004" xlink:type="simple" /> 
+     </fig> 
+     <p>To test model predictions, predicted gridded changes in mean canopy height were compared to the measured gridded changes using LVIS. To ensure the fairest comparison between the model and lidar data the focus was on 1) hectares with ≥ 20 footprints in both 1998 and 2005 and 2) hectares classified as primary and secondary forest. The dynamics of other land-use types at La Selva, including forest plantations and selective logging, were outside the scope of this study. Model predictions of mean canopy height change were compared to observations based on both lidar measures (ΔCTH and ΔCTE). A standard t-test was used to test for differences between the model predictions and observations. A bootstrap analysis yielded similar results to the t-test.</p> 
+     <p>To investigate the accuracy of model predictions as a function of spatial resolution, both model predicted and observed changes in mean canopy height were aggregated from the 1 ha scale (described above) continuously to the domain scale, and compared modeled and observed changes as a function of spatial scale. Since the domain was not spatially continuous with straight boundaries, neighboring hectares could not be consistently grouped together to form the coarser aggregations. Instead, aggregations were formed by taking 1000 iterations where the hectares are randomly aggregated together at each spatial scale (e.g., for the 2 ha resolution comparison, all hectares were randomly paired and the mean from pairs was used as the canopy height at the 2 ha resolution). The root-mean-square error (RMSE) was calculated for each iteration and a mean RSME was determined for each aggregation scale.</p> 
+     <p>Finally, to help investigate the underlying mechanisms, a second simpler model was used to quantify the expected results in an idealized system in which all aspects of forest dynamics are prescribed. The model [
+      <xref ref-type="bibr" rid="pone.0152883.ref007">
+       7
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0152883.ref011">
+       11
+      </xref>] is a highly simplified spatial stochastic forest simulator that represents an idealized forest landscape on a gridded horizontal plane where each grid cell was the approximate size of a canopy tree (e.g. 10 m; as implemented in the ED model). At each time step, height growth occurred as a saturating function of height in the grid cell, and disturbance followed a power-law size-frequency relationship typical of forest ecosystems [
+      <xref ref-type="bibr" rid="pone.0152883.ref007">
+       7
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0152883.ref025">
+       25
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0152883.ref026">
+       26
+      </xref>]. The model was first used to create a hypothetical forest with a range of successional states, analogous to the heterogeneity at La Selva. Then it was run an additional 7 years, comparable to the time between successive lidar measurements. This served as a reference case. An additional set of 7-year simulations were run that used the same initial state as the reference case, but in which the complex spatial pattern of disturbance was replaced with a uniform rate, and potential errors in growth could be investigated and compared to results obtained using ED.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec005" sec-type="results"> 
+    <title>Results</title> 
+    <p>At the domain scale, lidar-initialized model predictions of canopy height change compared favorably to observed changes in canopy (
+     <xref ref-type="table" rid="pone.0152883.t001">
+      Table 1
+     </xref>). Averaged over the domain, the model prediction of mean canopy height change was 0.53 ± 0.04 m. This result was close to (within &lt; 0.5 m), in between, and significantly different than the observed changes in mean canopy height based on the two lidar methods (ΔCTH 0.85 ± 0.09 and ΔCTE 0.37 ± 0.07). Analogous results were obtained for the subset of primary forest, where model predictions of canopy height change (0.04 ± 0.01 m) and observations of canopy height change (ΔCTH 0.44 ± 0.09 m and ΔCTE -0.32 ± 0.06 m) were as expected lower than for the domain as a whole. Over secondary forest, predicted and observed height changes were larger, also as expected. Here, model predictions of canopy height change (1.71 ± 0.09 m) were closer to observations and significance depended on lidar method (ΔCTH 1.84 ± 0.18 m, ΔCTE 2.08 ± 0.13 m). Stratifying by canopy height and considering only patches below max canopy height simulated by the ED model (1 ha mean 2005 CTH &lt; 27.5 m), height changes were larger still, and model predictions of canopy height change (2.71 ± 0.04 m) compared even more favorably to observations and were not significantly different than data based on either lidar method (ΔCTH 2.63 ± 0.22 m and ΔCTE 2.69 ± 0.15 m). An analagous statistical result was found for the subset of these patches classified as Secondary; the subset classified as Primary could not be tested due to small sample size.</p> 
+    <table-wrap id="pone.0152883.t001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0152883.t001
+     </object-id> 
+     <label>Table 1</label> 
+     <title>Mean canopy height change (2005–1998).</title> 
+     <alternatives> 
+      <graphic id="pone.0152883.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.t001" xlink:type="simple" /> 
+      <table> 
+       <colgroup> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th align="center">Forest Type</th> 
+         <th align="center">N</th> 
+         <th align="center">Mean ΔCTH</th> 
+         <th align="center">Mean ΔCTE</th> 
+         <th align="center">Mean ΔED Height</th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left">All</td> 
+         <td align="center">886</td> 
+         <td align="center">0.85 ± 0.09</td> 
+         <td align="center">0.37 ± 0.07</td> 
+         <td align="center">0.53 ± 0.04*†</td> 
+        </tr> 
+        <tr> 
+         <td align="left">Primary</td> 
+         <td align="center">629</td> 
+         <td align="center">0.44 ± 0.09</td> 
+         <td align="center">-0.32 ± 0.06</td> 
+         <td align="center">0.04 ± 0.01*†</td> 
+        </tr> 
+        <tr> 
+         <td align="left">Secondary</td> 
+         <td align="center">257</td> 
+         <td align="center">1.84 ± 0.18</td> 
+         <td align="center">2.08 ± 0.13</td> 
+         <td align="center">1.71 ± 0.09†</td> 
+        </tr> 
+        <tr> 
+         <td align="left">All–height &lt; 27.5 m</td> 
+         <td align="center">172</td> 
+         <td align="center">2.63 ± 0.22</td> 
+         <td align="center">2.69 ± 0.15</td> 
+         <td align="center">2.71 ± 0.04</td> 
+        </tr> 
+        <tr> 
+         <td align="left">Primary–height &lt; 27.5 m</td> 
+         <td align="center">13</td> 
+         <td align="center">3.58 ± 1.03</td> 
+         <td align="center">0.12 ± 0.4</td> 
+         <td align="center">2.13 ± 0.08<sup>NA</sup></td> 
+        </tr> 
+        <tr> 
+         <td align="left">Secondary–height &lt; 27.5 m</td> 
+         <td align="center">159</td> 
+         <td align="center">2.55 ± 0.23</td> 
+         <td align="center">2.90 ± 0.15</td> 
+         <td align="center">2.76 ± 0.04</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+     <table-wrap-foot> 
+      <fn id="t001fn001">
+       <p>N represents the number of hectares with ≥ 20 lidar footprints in both 1998 and 2005.</p>
+      </fn> 
+      <fn id="t001fn002">
+       <p>
+        <italic>
+         ΔCTH
+        </italic> is the change in mean canopy height determined by differencing lidar vegetation height in 1998 and 2005.</p>
+      </fn> 
+      <fn id="t001fn003">
+       <p>
+        <italic>
+         ΔCTE
+        </italic> is the change in mean canopy height determined from changes in lidar canopy top height elevation.</p>
+      </fn> 
+      <fn id="t001fn004">
+       <p>
+        <italic>
+         ΔED Height
+        </italic> is the lidar-initialized ED estimate of changes in mean canopy height.</p>
+      </fn> 
+      <fn id="t001fn005">
+       <p>All uncertainty values are ± 1 S.E.</p>
+      </fn> 
+      <fn id="t001fn006">
+       <p>A statistically significant difference between the ED estimate and ΔCTH is marked by * and ΔCTE is marked by †.</p>
+      </fn> 
+      <fn id="t001fn007">
+       <p>NA indicates statistical test not preformed due to small sample size.</p>
+      </fn> 
+      <fn id="t001fn008">
+       <p>Statistical significance was assessed at the 0.05 level using both t-test and bootstrap methods; both methods agreed with one another.</p>
+      </fn> 
+      <fn id="t001fn009">
+       <p>
+        <italic>
+         NA
+        </italic> indicates statistical test not preformed due to small sample size.</p>
+      </fn> 
+     </table-wrap-foot> 
+    </table-wrap> 
+    <p>The spatial scale of comparison had a strong influence on the accuracy of model predictions (
+     <xref ref-type="fig" rid="pone.0152883.g005">
+      Fig 5
+     </xref>). At the coarsest scale analyzed, 150 ha, the predicted canopy height change was in close agreement to observed (RMSE&lt;0.25 m). Prediction error increased non-linearly with increasing spatial resolution. At 20 ha, prediction error was approximately twice the result at the coarsest scale, and at 1 ha the prediction error was nearly ten times higher (RMSE&lt;2.69 m).</p> 
+    <fig id="pone.0152883.g005" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0152883.g005
+     </object-id> 
+     <label>Fig 5</label>  
+     <title>Root mean squared error between the ΔCTH lidar measurement and the ED model prediction as a function of spatial scale.</title> 
+     <p>The model-data comparison at coarse scales (i.e. &gt;50 ha) has relatively low error (RMSE). The error increases rapidly as the spatial resolution of comparison increases. Contours denote the additional expected average RMSE using the simulator at each scale assuming potential systematic bias errors in predicted growth or mortality. Only results with no systematic bias in growth or mortality produce results of similar magnitude as those predicted by ED.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.g005" xlink:type="simple" /> 
+    </fig> 
+    <p>Analyses using the second simpler model (simulator) indicate these errors are likely due to the fine-scale spatial pattern of disturbance per se. Model error contours generated using the simulator (
+     <xref ref-type="fig" rid="pone.0152883.g005">
+      Fig 5
+     </xref>) illustrate that a simulation with no error in growth or mortality rates (0% contour), but which failed to capture the complex spatial pattern of disturbance, produced results similar to those found using ED. Systematic bias in either of the two other potential factors of growth or mortality rates (&gt;0% contours) did not produce results such as this, but instead increase the expected RMSE at all spatial scales. Deconstructing the net height change at 1 ha resolution into predicted growth and mortality components (
+     <xref ref-type="fig" rid="pone.0152883.g006">
+      Fig 6
+     </xref>) illustrates that application of uniform disturbance rates at this scale results in error in the mortality component which propagated to error in the predicted net height change similar to that predicted by ED. These errors in predicted net height change occurred despite accurate predictions of growth.</p> 
+    <fig id="pone.0152883.g006" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0152883.g006
+     </object-id> 
+     <label>Fig 6</label>  
+     <title>Simulator estimates of mean canopy top height change at 1 ha resolution (2005–1998, y-axis) compared to the corresponding observed mean canopy top height change (x-axis).</title> 
+     <p>Solid-line 1:1 line. Green symbols: simulator predicted height change due to growth. Red symbols: simulator predicted height change due to mortality. Blue symbols: simulator predicted net height change. Black symbols: lidar- initialized ED prediction vs. ΔCTH. Replacing the complex pattern of spatial disturbances with a uniform pattern in the simulator results in fine-resolution errors in predicted mortality that propagate to errors in net predicted height change similar to that predicted by ED.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.g006" xlink:type="simple" /> 
+    </fig> 
+    <p>Finally, these results have major implications for carbon as well as height due to the strong association between vegetation height and biomass. At the domain scale, lidar-initialized ED predicted aboveground carbon flux at La Selva was 0.019–0.053 kg C m<sup>-2</sup> yr<sup>-1</sup> (upper and lower bounds). Within the secondary forest, the predicted carbon flux was larger, and ranged between 0.056–0.072 kg C m<sup>-2</sup> yr<sup>-1</sup> for all hectares and as expected was higher still at 0.103 kg C m<sup>-2</sup> yr<sup>-1</sup> the subset less than 27.5 m (
+     <xref ref-type="table" rid="pone.0152883.t002">
+      Table 2
+     </xref>). The ED predicted carbon flux in the secondary forest was similar whether the change was predicted from a 1998 lidar initialization, or determined by initializing the carbon stocks with lidar in 1998 and 2005 separately and differencing the stocks (
+     <xref ref-type="table" rid="pone.0152883.t002">
+      Table 2
+     </xref>). These ED-based carbon flux estimates were similar to and inclusive of estimates of aboveground flux made by differencing empirical biomass maps (“LVIS differenced” method, 
+     <xref ref-type="table" rid="pone.0152883.t002">
+      Table 2
+     </xref>). The scale dependency of prediction error for carbon was also strong and analogous to that for height.</p> 
+    <table-wrap id="pone.0152883.t002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0152883.t002
+     </object-id> 
+     <label>Table 2</label> 
+     <title>Average net above ground carbon flux on secondary land (kg C m&lt;sup&gt;-2&lt;/sup&gt; yr&lt;sup&gt;-1&lt;/sup&gt;).</title> 
+     <alternatives> 
+      <graphic id="pone.0152883.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0152883.t002" xlink:type="simple" /> 
+      <table> 
+       <colgroup> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th align="left">&nbsp;</th> 
+         <th align="center" colspan="3">All heights &amp; all # of footprints</th> 
+         <th align="center" colspan="3">All heights &amp; ≥ 20 footprints</th> 
+         <th align="center" colspan="2">Height &lt; 27.5 m &amp; ≥ 20 footprints</th> 
+        </tr> 
+        <tr> 
+         <th align="left">Estimation method</th> 
+         <th align="right">N</th> 
+         <th align="right">Lower bound</th> 
+         <th align="right">Upper bound</th> 
+         <th align="right">N</th> 
+         <th align="right">Lower bound</th> 
+         <th align="right">Upper bound</th> 
+         <th align="right">N</th> 
+         <th align="right">Estimate</th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left">ED predicted</td> 
+         <td align="right">334</td> 
+         <td align="right">0.056 (0.002)</td> 
+         <td align="right">0.072 (0.002)</td> 
+         <td align="right">257</td> 
+         <td align="right">0.060 (0.003)</td> 
+         <td align="right">0.073 (0.02)</td> 
+         <td align="right">111</td> 
+         <td align="right">0.103 (0.002)</td> 
+        </tr> 
+        <tr> 
+         <td align="left">ED differenced (
+          <italic>
+           ΔCTH
+          </italic>)</td> 
+         <td align="right">334</td> 
+         <td align="right">0.042 (0.004)</td> 
+         <td align="right">0.11 (0.014)</td> 
+         <td align="right">257</td> 
+         <td align="right">0.045 (0.004)</td> 
+         <td align="right">0.11 (0.016)</td> 
+         <td align="right">111</td> 
+         <td align="right">0.089 (0.012)</td> 
+        </tr> 
+        <tr> 
+         <td align="left">ED differenced (
+          <italic>
+           ΔCTE
+          </italic>)</td> 
+         <td align="right">334</td> 
+         <td align="right">0.048 (0.004)</td> 
+         <td align="right">0.11 (0.013)</td> 
+         <td align="right">257</td> 
+         <td align="right">0.060 (0.004)</td> 
+         <td align="right">0.126 (0.013)</td> 
+         <td align="right">111</td> 
+         <td align="right">0.108 (0.007)</td> 
+        </tr> 
+        <tr> 
+         <td align="left">LVIS differenced (
+          <italic>
+           ΔCTH
+          </italic>)</td> 
+         <td align="right">334</td> 
+         <td align="right">0.070 (0.006)</td> 
+         <td align="right">0.070 (0.006)</td> 
+         <td align="right">257</td> 
+         <td align="right">0.069 (0.006)</td> 
+         <td align="right">0.069 (0.006)</td> 
+         <td align="right">111</td> 
+         <td align="right">0.091 (0.011)</td> 
+        </tr> 
+        <tr> 
+         <td align="left">LVIS differenced (
+          <italic>
+           ΔCTE
+          </italic>)</td> 
+         <td align="right">334</td> 
+         <td align="right">0.071 (0.04)</td> 
+         <td align="right">0.071 (0.04)</td> 
+         <td align="right">257</td> 
+         <td align="right">0.078(0.005)</td> 
+         <td align="right">0.078 (0.005)</td> 
+         <td align="right">111</td> 
+         <td align="right">0.110 (0.007)</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+     <table-wrap-foot> 
+      <fn id="t002fn001">
+       <p>Lower and upper bounds represent the assumptions about carbon increment in hectares with height &gt; = 27.5 m. The bounds do not apply to lidar measures but are presented alongside the model bounds. Means with standard error (SE). The SE is from the aggregation of the 1 ha data and does not represent error in the 1 ha level estimates.</p>
+      </fn> 
+     </table-wrap-foot> 
+    </table-wrap> 
+   </sec> 
+   <sec id="sec006" sec-type="conclusions"> 
+    <title>Discussion</title> 
+    <p>Forest disturbances occur across a wide range of spatial and temporal scales, and are known to influence both the structure and dynamics of forest ecosystems. But much remains unknown about the pattern and predictability of disturbance events and their consequences. While large dramatic events such as hurricanes, fires etc, have garnered the attention of remote sensing and modeling communities, and forest gap dynamics have long been known to impact forest dynamics [
+     <xref ref-type="bibr" rid="pone.0152883.ref027">
+      27
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0152883.ref028">
+      28
+     </xref>], relatively less attention has been given recently to characterizing and understanding the pattern and impact on model prediction of these relatively fine-scale events which are typically much more numerous. Here, advances in high-resolution modeling and remote sensing are combined to test model predictions of forest dynamics over an intensively studied field site. Results confirm the importance of fine-scale disturbance events to forest dynamics, and more profoundly demonstrate a scale-dependence of predictability that is driven by the pattern of fine-scale stochastic disturbance events.</p> 
+    <p>The capacity to accurately predict height change at high spatial resolution in this study was ultimately limited by the ability to predict the pattern of fine-scale disturbances. In principle, model prediction errors could have been caused by errors in predicted growth, mortality, or both. However, systematic bias in either growth or mortality would not produce the spatial-scale dependent errors found here, because bias would produce error at all scales (
+     <xref ref-type="fig" rid="pone.0152883.g005">
+      Fig 5
+     </xref>). Previous studies have shown that disturbances typically follow a power-spectrum distribution [
+     <xref ref-type="bibr" rid="pone.0152883.ref007">
+      7
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0152883.ref025">
+      25
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0152883.ref026">
+      26
+     </xref>], and are highly variable at 1 ha resolution. Failure to represent this heterogeneity produces the scale-dependent pattern of errors observed with ED. From a practical point of view, accurately modeling vegetation dynamics at 1 ha resolution will require models able to deterministically predict the heterogeneity of disturbance events in each hectare, which is beyond current model capabilities. However, highly accurate model predictions of vegetation dynamics at coarser scales, in this case &gt;20–50 ha, are possible as disturbance rates were less variable and better characterized by an average rate at these scales.</p> 
+    <p>We hypothesize that the finding of scale dependence in the predictability of vegetation dynamics found at this site is common to other forest systems. Complex fine-scale disturbance patterns are common in forests, but are not represented in current prognostic approaches. Furthermore, we expect that the steepness of the scale dependence will vary between different disturbance regimes. In a forests dominated by relatively frequent, small, and unclustered disturbance events (i.e. steep power-law size-frequency relationship of events), we expect relatively high resolutions of predictability will be possible because the vast majority of disturbance events repeat within a small units of area. In contrast, in forests dominated by more infrequent, larger, and clustered events (i.e. flatter power-law size-frequency relationship of events), we expect coarser limits to accurate predictions because the unit area required for a vast majority of events to repeat would be larger.</p> 
+    <p>This study focused on quantifying vegetation dynamics in units of height, native to both lidar remote sensing and the height-structured ecosystem model used, and thereby providing a direct linkage between data and model. However, analogous results were also obtained for carbon due to the strong relationship between height and carbon. Quantitatively, two different empirically based estimates of the magnitude of carbon flux at this site are available and appear inconsistent; the results from this study agree with one, and are lower than the second. The magnitude of carbon flux predicted by the model are consistent with the approach using the site-specific empirical relationship between lidar height and aboveground carbon stocks [
+     <xref ref-type="bibr" rid="pone.0152883.ref009">
+      9
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0152883.ref017">
+      17
+     </xref>] to calculate the carbon flux by differencing biomass maps from the initial and ending period (
+     <xref ref-type="table" rid="pone.0152883.t002">
+      Table 2
+     </xref>). However this difference-based estimate is 37–77% lower than the carbon flux on secondary forests at the same site using an alternative approach using repeat lidar to estimate flux directly [
+     <xref ref-type="bibr" rid="pone.0152883.ref020">
+      20
+     </xref>]. Reconciling the differences between these alternative approaches to carbon flux is beyond the scope of the present study, and it is important to note that they do not diminish the results found here in native height units or the finding of scale dependent predictability.</p> 
+    <p>With ever increasing advances in technology (e.g. remote sensing, computing, etc.), we live in an increasingly data-rich world. But the capacity to measure and simulate vegetation dynamics at increasingly higher resolutions does not automatically confer increased predictability at ever higher resolutions. As spatial resolution increases, at some level predictability will require corresponding advances in process representation. In particular, achieving high predictability at the highest spatial resolutions investigated here will require both data at these resolutions and new process representation in models to predict the complex spatial pattern of forest disturbance at these scales. Meanwhile, the finding of the spatial-scale dependent accuracy of model results with the current modeling approach implies there are corresponding limits to the spatial resolution of the use of these model predictions in applications and potential future land-management decisions.</p> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We gratefully acknowledge the support of the NASA Terrestrial Ecology Program and NASA Interdisciplinary Science Program in this research. Comments by David Clark and James Kellner greatly improved this manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0152883.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dwyer
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pinnock
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gregoire
+        </surname> 
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pereira
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Global spatial and temportal distribution of vegetation fire as determined from satellite observations
+       </article-title>. 
+       <source>International Journal of Remote Sensing. 
+       <year>
+        2000
+       </year>; 
+       <volume>
+        21
+       </volume>(
+       <issue>
+        6 &amp; 7
+       </issue>): 
+       <fpage>
+        1289
+       </fpage>–
+       <lpage>
+        1302
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Frolking
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Palace
+        </surname> 
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shugart
+        </surname> 
+        <given-names>
+         HH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>. 
+       <article-title>
+        Forest disturbance and recovery: A general review in the context of spaceborne remote sensing of impacts on aboveground biomass and canopy structure
+       </article-title>. 
+       <source>Journal of Geophysical Research. 
+       <year>
+        2009
+       </year>; 
+       <volume>
+        114
+       </volume>, 
+       <fpage>
+        G00E02
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname> 
+        <given-names>
+         JI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zeng
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapman
+        </surname> 
+        <given-names>
+         EL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baker
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>. 
+       <article-title>
+        Hurricane Katrina's Carbon Footprint on U.S. Gulf Coast Forests
+       </article-title>. 
+       <source>Science. 
+       <year>
+        2008
+       </year>; 
+       <volume>
+        318
+       </volume>, 
+       <fpage>
+        1107
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Negron-Juarez
+        </surname> 
+        <given-names>
+         RI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marra
+        </surname> 
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Higuchi
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>. 
+       <article-title>
+        Lack of intermediate-scale disturbance data prevents robust extrapolation of plot-level tree mortality rates for old-growth tropical forests
+       </article-title>. 
+       <source>Ecology Letters. 
+       <year>
+        2009
+       </year>; 
+       <volume>
+        12
+       </volume>(
+       <issue>
+        12
+       </issue>), 
+       <fpage>
+        E22
+       </fpage>–
+       <lpage>
+        E25
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2009.01398.x" xlink:type="simple">
+         10.1111/j.1461-0248.2009.01398.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Negron-Juárez
+        </surname> 
+        <given-names>
+         RI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marra
+        </surname> 
+        <given-names>
+         DM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vittorio
+        </surname> 
+        <given-names>
+         AD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tews
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Riberio
+        </surname> 
+        <given-names>
+         GHPM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Trumbore
+        </surname> 
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Higucki
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>. 
+       <article-title>
+        The steady-state mosaic of disturbance and succession across and old-growth central amazon forest landscape
+       </article-title>. 
+       <source>PNAS. 
+       <year>
+        2013
+       </year>; 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        6
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1202894110/-/DCSupplemental/pnas.201202894SI.pdf" xlink:type="simple">
+         10.1073/pnas.1202894110/-/DCSupplemental/pnas.201202894SI.pdf
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fisk
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zeng
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dolan
+        </surname> 
+        <given-names>
+         KA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Negrón-Juárez
+        </surname> 
+        <given-names>
+         RI
+        </given-names>
+       </name>. 
+       <article-title>
+        The impacts of tropical cyclones on the net carbon balance of eastern US forests (1851–2000)
+       </article-title>. 
+       <source>Environmental Research Letters. 
+       <year>
+        2013
+       </year>; 
+       <volume>
+        8
+       </volume>(
+       <issue>
+        4
+       </issue>), 
+       <fpage>
+        045017
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1088/1748-9326/8/4/045017" xlink:type="simple">
+         10.1088/1748-9326/8/4/045017
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fisher
+        </surname> 
+        <given-names>
+         JI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thomas
+        </surname> 
+        <given-names>
+         RQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chambers
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>. 
+       <article-title>
+        Clustered disturbances lead to bias in large-scale estimates based on forest sample plots
+       </article-title>. 
+       <source>Ecology Letters. 
+       <year>
+        2008
+       </year>; 
+       <volume>
+        11
+       </volume>, 
+       <fpage>
+        554
+       </fpage>–
+       <lpage>
+        563
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2008.01169.x" xlink:type="simple">
+         10.1111/j.1461-0248.2008.01169.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18373680
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Randerson
+        </surname> 
+        <given-names>
+         JT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hoffman
+        </surname> 
+        <given-names>
+         FM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thornton
+        </surname> 
+        <given-names>
+         PE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mahowald
+        </surname> 
+        <given-names>
+         NM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lindsay
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nevison
+        </surname> 
+        <given-names>
+         CD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Doney
+        </surname> 
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonan
+        </surname> 
+        <given-names>
+         GB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stoeckli
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Covey
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Running
+        </surname> 
+        <given-names>
+         SW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fung
+        </surname> 
+        <given-names>
+         IY
+        </given-names>
+       </name>. 
+       <article-title>
+        Systematic assessment of terrestrial biogeochemistry in coupled climate-carbon models
+       </article-title>. 
+       <source>Global Change Biology. 
+       <year>
+        2009
+       </year>; 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        2462
+       </fpage>–
+       <lpage>
+        2484
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Drake
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pacala
+        </surname> 
+        <given-names>
+         SW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fearon
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Beyond potential vegetation: combining lidar remote sensing and a height-structured ecosystem model for improved estimates of carbon stocks and fluxes
+       </article-title>. 
+       <source>Ecological Applications. 
+       <year>
+        2004
+       </year>; 
+       <volume>
+        14
+       </volume>, 
+       <fpage>
+        873
+       </fpage>–
+       <lpage>
+        883
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thomas
+        </surname> 
+        <given-names>
+         RQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schilz
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Using lidar data and a height structured ecosystem model to estimate forest carbon stocks and fluxes over mountainous terrain
+       </article-title>, 
+       <source>Canadian Journal of Remote Sensing. 
+       <year>
+        2008
+       </year>; 
+       <volume>
+        34
+       </volume>, 
+       <fpage>
+        S351
+       </fpage>–
+       <lpage>
+        S363
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fisk
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thomas
+        </surname> 
+        <given-names>
+         RQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shugart
+        </surname> 
+        <given-names>
+         HH
+        </given-names>
+       </name>. 
+       <article-title>
+        Linking models and data on vegetation structure: quantifying model-data requirements for future space-borne missions
+       </article-title>. 
+       <source>Journal of Geophysical Research. 
+       <year>
+        2010
+       </year>; 
+       <volume>
+        115
+       </volume>, 
+       <fpage>
+        G00E10
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Antokarakis
+        </surname> 
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Saatchi
+        </surname> 
+        <given-names>
+         SS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chazdon
+        </surname> 
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>. 
+       <article-title>
+        Using lidar and radar measurements to constrain predictions of forest ecosystem structure and function
+       </article-title>. 
+       <source>Ecological Applications. 
+       <year>
+        2011
+       </year>; 
+       <volume>
+        21
+       </volume>(
+       <issue>
+        4
+       </issue>), 
+       <fpage>
+        1120
+       </fpage>–
+       <lpage>
+        1137
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        21774418
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Antokarakis
+        </surname> 
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Munger
+        </surname> 
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>. 
+       <article-title>
+        Imaging spectroscopy- and lidar-derived estimates of canopy composition and structure to improve predictions of forest carbon fluxes and ecosystem dynamics
+       </article-title>. 
+       <source>Geophysical Research Letters. 
+       <year>
+        2014
+       </year>; 
+       <fpage>
+        2535
+       </fpage>–
+       <lpage>
+        2452
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pacala
+        </surname> 
+        <given-names>
+         SW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levin
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>. 
+       <article-title>
+        Terrestrial models and global change: challenges for the future
+       </article-title>. 
+       <source>Global Change Biology. 
+       <year>
+        1998
+       </year>; 
+       <volume>
+        4
+       </volume>, 
+       <fpage>
+        581
+       </fpage>–
+       <lpage>
+        590
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pacala
+        </surname> 
+        <given-names>
+         SW
+        </given-names>
+       </name>. 
+       <article-title>
+        A method for scaling vegetation dynamics: the Ecosystem Demography Model (ED)
+       </article-title>, 
+       <source>Ecological Monographs. 
+       <year>
+        2001
+       </year>; 
+       <volume>
+        71
+       </volume>, 
+       <fpage>
+        557
+       </fpage>–
+       <lpage>
+        585
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McDade
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bawa
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hespenheide
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hartshorn
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (editors) 
+       <chapter-title>
+        <italic>
+         La Selva
+        </italic>: 
+        <italic>
+         ecology and natural history of a Neotropical rain forest
+        </italic>
+       </chapter-title>. 
+       <publisher-name>
+        University of Chicago Press
+       </publisher-name>, 
+       <publisher-loc>
+        Chicago, Illinois, USA
+       </publisher-loc>. 
+       <year>
+        1994
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Drake
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knox
+        </surname> 
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blair
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hofton
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chazdon
+        </surname> 
+        <given-names>
+         RL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weishampel
+        </surname> 
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prince
+        </surname> 
+        <given-names>
+         SD
+        </given-names>
+       </name>. 
+       <article-title>
+        Estimation of tropical forest structural characteristics using large-footprint lidar
+       </article-title>. 
+       <source>Remote Sensing of Environment. 
+       <year>
+        2002
+       </year>; 
+       <volume>
+        79
+       </volume>, 
+       <fpage>
+        305
+       </fpage>–
+       <lpage>
+        319
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Drake
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knox
+        </surname> 
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blair
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>. 
+       <article-title>
+        Sensitivity of large-footprint lidar to canopy structure and biomass in a neotropical rainforest
+       </article-title>. 
+       <source>Remote Sensing of Environment. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        81
+       </volume>, 
+       <fpage>
+        378
+       </fpage>–
+       <lpage>
+        392
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Drake
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knox
+        </surname> 
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Condits
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blair
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hofton
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>. 
+       <article-title>
+        Above-ground biomass estimation in closed canopy Neotropical forest using lidar remote sensing: factors affecting the generality of relationships
+       </article-title>. 
+       <source>Global Ecology and Biogeography. 
+       <year>
+        2003
+       </year>; 
+       <volume>
+        12
+       </volume>, 
+       <fpage>
+        147
+       </fpage>–
+       <lpage>
+        159
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sheldon
+        </surname> 
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hofton
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blair
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hurtt
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chazdon
+        </surname> 
+        <given-names>
+         RL
+        </given-names>
+       </name>. 
+       <article-title>
+        Estimation of tropical forest height and biomass dynamics using lidar remote sensing
+       </article-title>. 
+       <source>Journal of Geophysical Research. 
+       <year>
+        2010
+       </year>; 
+       <volume>
+        115
+       </volume>, 
+       <fpage>
+        G00E09
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blair
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rabine
+        </surname> 
+        <given-names>
+         DL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hofton
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>. 
+       <article-title>
+        The laser vegetation imaging sensor (LVIS)
+       </article-title>. 
+       <source>
+       <italic>
+        ISPRS
+       </italic> Journal of Photogrammetry and Remote Sensing. 
+       <year>
+        1999
+       </year>; 
+       <volume>
+        54
+       </volume>, 
+       <fpage>
+        115
+       </fpage>–
+       <lpage>
+        122
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DA
+        </given-names>
+       </name>. 
+       <article-title>
+        Landscape-scale variation in forest structures and biomass in a tropical rain forest
+       </article-title>. 
+       <source>Forest Ecology and Management. 
+       <year>
+        2000
+       </year>; 
+       <volume>
+        137
+       </volume>, 
+       <fpage>
+        185
+       </fpage>–
+       <lpage>
+        198
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hofton
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocchio
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blair
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dubayah
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>. 
+       <article-title>
+        Validation of vegetation canopy lidar sub-canopy topography measurements for a dense tropical forest
+       </article-title>. 
+       <source>Journal of Geodynamics. 
+       <year>
+        2002
+       </year>; 
+       <volume>
+        34
+       </volume>, 
+       <fpage>
+        491
+       </fpage>–
+       <lpage>
+        502
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sellers
+        </surname> 
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meeson
+        </surname> 
+        <given-names>
+         BW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Closs
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Collatz
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Corprew
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dazlich
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hall
+        </surname> 
+        <given-names>
+         FG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kerr
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Koster
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Los
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mitchell
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McManus
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <etal>
+        et al
+       </etal>. 
+       <chapter-title>
+        An overview of the ISLSCP I global datasets
+       </chapter-title>. 
+       <source>ISLSCP Initiative I: global datasets for land-atmosphere models, 1987–1988. Volumes 
+       <volume>
+        1–5
+       </volume>. 
+       <publisher-name>
+        National Aeronautics and Space Administration
+       </publisher-name>, 
+       <publisher-loc>
+        Washington, D.C., USA
+       </publisher-loc>. 
+       <year>
+        1995
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kellner
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>. 
+       <article-title>
+        Convergent structural responses of tropical forests to diverse disturbance regimes
+       </article-title>. 
+       <source>Ecology Letters. 
+       <year>
+        2009
+       </year>; 
+       <volume>
+        12
+       </volume>, 
+       <fpage>
+        887
+       </fpage>–
+       <lpage>
+        897
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2009.01345.x" xlink:type="simple">
+         10.1111/j.1461-0248.2009.01345.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        19614757
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kellner
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hubbell
+        </surname> 
+        <given-names>
+         SP
+        </given-names>
+       </name>. 
+       <article-title>
+        Pervasive canopy dynamics produce short-term stability in a tropical rain forest landscape
+       </article-title>. 
+       <source>Ecology Letters, 
+       <year>
+        2009
+       </year>; 
+       <volume>
+        12
+       </volume>(
+       <issue>
+        2
+       </issue>), 
+       <fpage>
+        155
+       </fpage>–
+       <lpage>
+        164
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2008.01274.x" xlink:type="simple">
+         10.1111/j.1461-0248.2008.01274.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        19143827
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Botkin
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Janak
+        </surname> 
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wallis
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>. 
+       <article-title>
+        Some ecological consequences of a computer model of forest growth
+       </article-title>. 
+       <source>The Journal of Ecology. 
+       <year>
+        1972
+       </year>; 
+       <fpage>
+        849
+       </fpage>–
+       <lpage>
+        872
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0152883.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Shugart
+        </surname> 
+        <given-names>
+         HH
+        </given-names>
+       </name>. 
+       <chapter-title>
+        A theory of forest dynamics
+       </chapter-title>. 
+       <source>The ecological implications of forest succession models. 
+       <publisher-name>
+        Springer-Verlag
+       </publisher-name>. 
+       <year>
+        1984
+       </year>.
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

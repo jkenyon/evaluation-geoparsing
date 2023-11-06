@@ -1,0 +1,4378 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0118403
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-14-28424
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Operational Tree Species Mapping in a Diverse Tropical Forest with Airborne Imaging Spectroscopy
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Operational Tree Species Mapping in a Diverse Tropical Forest
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Baldeck
+        </surname> 
+        <given-names>
+         Claire A.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+       <xref rid="cor001" ref-type="corresp">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         Gregory P.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Martin
+        </surname> 
+        <given-names>
+         Robin E.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Anderson
+        </surname> 
+        <given-names>
+         Christopher B.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Knapp
+        </surname> 
+        <given-names>
+         David E.
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Kellner
+        </surname> 
+        <given-names>
+         James R.
+        </given-names> 
+       </name> 
+       <xref rid="aff002" ref-type="aff">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Wright
+        </surname> 
+        <given-names>
+         S. Joseph
+        </given-names> 
+       </name> 
+       <xref rid="aff003" ref-type="aff">
+        <sup>3</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       Department of Global Ecology, Carnegie Institution for Science, Stanford, CA, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       Department of Ecology and Evolutionary Biology, Brown University, Providence, RI, United States of America
+      </addr-line>
+     </aff> 
+     <aff id="aff003">
+      <label>3</label> 
+      <addr-line>
+       Smithsonian Tropical Research Institute, Washington, DC, United States of America
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Kumar
+        </surname> 
+        <given-names>
+         Lalit
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       University of New England, AUSTRALIA
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: CAB GPA. Performed the experiments: CAB. Analyzed the data: CAB. Contributed reagents/materials/analysis tools: CAB GPA REM CBA DEK JRK SJW. Wrote the paper: CAB GPA REM CBA JRK SJW.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        cbaldeck@carnegiescience.edu
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       8
+      </day> 
+      <month>
+       7
+      </month> 
+      <year>
+       2015
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2015
+      </year> 
+     </pub-date> 
+     <volume>
+      10
+     </volume> 
+     <issue>
+      7
+     </issue> 
+     <elocation-id>
+      e0118403
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        30
+       </day> 
+       <month>
+        6
+       </month> 
+       <year>
+        2014
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        14
+       </day> 
+       <month>
+        1
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <license xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the 
+        <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/publicdomain/zero/1.0/" xlink:type="simple">
+         Creative Commons CC0
+        </ext-link> public domain dedication
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0118403" xlink:type="simple" /> 
+     <abstract> 
+      <p>Remote identification and mapping of canopy tree species can contribute valuable information towards our understanding of ecosystem biodiversity and function over large spatial scales. However, the extreme challenges posed by highly diverse, closed-canopy tropical forests have prevented automated remote species mapping of non-flowering tree crowns in these ecosystems. We set out to identify individuals of three focal canopy tree species amongst a diverse background of tree and liana species on Barro Colorado Island, Panama, using airborne imaging spectroscopy data. First, we compared two leading single-class classification methods—binary support vector machine (SVM) and biased SVM—for their performance in identifying pixels of a single focal species. From this comparison we determined that biased SVM was more precise and created a multi-species classification model by combining the three biased SVM models. This model was applied to the imagery to identify pixels belonging to the three focal species and the prediction results were then processed to create a map of focal species crown objects. Crown-level cross-validation of the training data indicated that the multi-species classification model had pixel-level producer’s accuracies of 94–97% for the three focal species, and field validation of the predicted crown objects indicated that these had user’s accuracies of 94–100%. Our results demonstrate the ability of high spatial and spectral resolution remote sensing to accurately detect non-flowering crowns of focal species within a diverse tropical forest. We attribute the success of our model to recent classification and mapping techniques adapted to species detection in diverse closed-canopy forests, which can pave the way for remote species mapping in a wider variety of ecosystems.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       This study has been supported by the Avatar Alliance Foundation, Gordon and Betty Moore Foundation, John D. and Catherine R. MacArthur Foundation, Grantham Foundation for the Protection of the Environment, W. M. Keck Foundation, Margaret A. Cargill Foundation, Mary Anne Nyburg Baker and G. Leonard Baker Jr., and William R. Hearst III. There are no grant numbers or URLs. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="6" /> 
+      <table-count count="2" /> 
+      <page-count count="21" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability" xlink:type="simple"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        The spectral data are owned by The Carnegie Airborne Observatory. Requests to access this data should be directed to Gregory Asner (
+        <email xlink:type="simple">
+         gpa@stanford.edu
+        </email>).
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>A comprehensive understanding of tropical forest biodiversity and function over large spatial scales is hindered by a lack of spatially extensive information on tree species composition, as field measurements are often spatially localized and have difficulty resolving large geographic patterns [
+     <xref rid="pone.0118403.ref001" ref-type="bibr">
+      1
+     </xref>]. Remote sensing can extend field-based knowledge over large areas by providing continuous spatial coverage of surface reflectance and structural properties [
+     <xref rid="pone.0118403.ref002" ref-type="bibr">
+      2
+     </xref>,
+     <xref rid="pone.0118403.ref003" ref-type="bibr">
+      3
+     </xref>]. In particular, imaging spectroscopy (or hyperspectral remote sensing) measures light reflected in hundreds of narrow, contiguous spectral bands, which may allow the discrimination of different plant species. However, the use of imaging spectroscopy for remote species mapping presents a major practical challenge in tropical forests where the species richness of trees ≥ 10 cm dbh may exceed 300 species per ha [
+     <xref rid="pone.0118403.ref004" ref-type="bibr">
+      4
+     </xref>]. As automated tree species mapping has not yet been accomplished in a high diversity tropical forest, we currently have little understanding of the ability of imaging spectroscopy to map species in these ecosystems.</p> 
+    <p>To assess the potential for remote species mapping in tropical forests, a number of studies have examined the spectral separability and classification performance of different tropical plant species and growth forms. Spectral differences have been found among leaf- and branch-level spectra of different species from the same ecosystem, as well as the spectra of different species detected from hyperspectral airborne and satellite sensors [
+     <xref rid="pone.0118403.ref005" ref-type="bibr">
+      5
+     </xref>–
+     <xref rid="pone.0118403.ref011" ref-type="bibr">
+      11
+     </xref>]. Important spectral differences have also been found between tree and liana species [
+     <xref rid="pone.0118403.ref012" ref-type="bibr">
+      12
+     </xref>,
+     <xref rid="pone.0118403.ref013" ref-type="bibr">
+      13
+     </xref>], as well as between groups of native and invasive species [
+     <xref rid="pone.0118403.ref014" ref-type="bibr">
+      14
+     </xref>]. These results indicate the potential for classification models to differentiate species or groups of species based on their remotely-sensed spectral signatures.</p> 
+    <p>In a foundational study, Clark et al. [
+     <xref rid="pone.0118403.ref007" ref-type="bibr">
+      7
+     </xref>] attempted to classify seven canopy tree species from a diverse Costa Rican rainforest based on their remotely-sensed hyperspectral signatures collected with the airborne sensor HYDICE. Their most successful model classified the crowns of their study species with 92% accuracy. Despite these encouraging results, this classification model could not be used to map any of the seven study species across the study site. The primary reason for this was that the classification model differentiated the seven study species from one another, but not from the hundreds of other tree and liana species present at the site. In addition, the preferred model was based on crown-mean spectra, and thus operational species mapping would require automatic delineation of tree crowns throughout the image prior to applying the classification model to predict species identity. At the time of the study, the ability to accurately, automatically delineate individual tree crowns in a closed-canopy tropical forest did not exist, and nearly a decade later it still does not.</p> 
+    <p>Since Clark et al. [
+     <xref rid="pone.0118403.ref007" ref-type="bibr">
+      7
+     </xref>], others have performed successful classifications of tropical forest species based on their remotely-sensed spectral signatures, but these models were also non-operational in that they were unable to distinguish the study species from the other species present at the study site, e.g., [
+     <xref rid="pone.0118403.ref015" ref-type="bibr">
+      15
+     </xref>]. Meanwhile, operational species mapping has been accomplished in several ecosystems with relatively low species diversity [
+     <xref rid="pone.0118403.ref016" ref-type="bibr">
+      16
+     </xref>–
+     <xref rid="pone.0118403.ref020" ref-type="bibr">
+      20
+     </xref>]. The inability of operational species mapping to move beyond lower diversity ecosystems may lie in the classification approach used. In the aforementioned classification and mapping studies, species classification models were based upon the traditional multi-class classification approach, which requires representative training data to be collected for all model classes (species) present in the scene. This requirement is not likely to be fulfilled in tropical forests that harbor hundreds to thousands of species. Even if representative training data were available for all canopy species in a high-diversity forest, the outlook for such a classification model would be quite dim as classification accuracy is known to decline as the number of classes increases [
+     <xref rid="pone.0118403.ref018" ref-type="bibr">
+      18
+     </xref>,
+     <xref rid="pone.0118403.ref021" ref-type="bibr">
+      21
+     </xref>]. In the face of these mounting challenges, it is not surprising that the remote sensing community has expressed ambivalence towards the prospect of remote species mapping in high diversity tropical forests [
+     <xref rid="pone.0118403.ref022" ref-type="bibr">
+      22
+     </xref>].</p> 
+    <p>Clearly, a different approach is needed to accomplish operational remote species mapping in high-diversity forests. A possible solution may come from single-class classification methods that distinguish samples of a single focal class from those of all other classes, e.g., [
+     <xref rid="pone.0118403.ref023" ref-type="bibr">
+      23
+     </xref>–
+     <xref rid="pone.0118403.ref025" ref-type="bibr">
+      25
+     </xref>]. These methods are advantageous when the interest is in mapping a single class because they aim to maximize classification accuracy with respect to the focal class rather than the average classification accuracy over all model classes. They also reduce the overall amount of training data required compared to traditional multi-class classification, and some require training data from only the class of interest [
+     <xref rid="pone.0118403.ref023" ref-type="bibr">
+      23
+     </xref>,
+     <xref rid="pone.0118403.ref024" ref-type="bibr">
+      24
+     </xref>], making acquisition of an appropriate training dataset more feasible for tropical forests. Moreover, single-species classification models can be directly applied for species mapping in the area of study because they explicitly aim to distinguish the focal species from all other species. Thus far, single-class classification methods have been explored for species classification and mapping with promising results in a few ecosystems with relatively low species diversity [
+     <xref rid="pone.0118403.ref025" ref-type="bibr">
+      25
+     </xref>–
+     <xref rid="pone.0118403.ref027" ref-type="bibr">
+      27
+     </xref>]. If these methods are found to be effective in high-diversity ecosystems, single-species classification may solve many of the problems associated with remote species mapping in tropical forests.</p> 
+    <p>Taking a single-species detection approach, we set out to map three important canopy tree species within the diverse, closed-canopy tropical forest of Barro Colorado Island, Panama, using high spatial resolution imaging spectrometer data. We evaluated two leading single-class classification methods (discussed in detail in Methods section) for their ability to distinguish the remotely-sensed spectra of the focal species from a diverse background of other tree and liana species based solely on their non-flowering crown spectral characteristics. We combined the selected single-species models into a multi-species model for mapping the three focal species across the island and evaluated the predictions by confirming the species identities in the field. Our species maps were highly reliable, demonstrating that tropical tree species can be effectively mapped with airborne imaging spectroscopy data. Together, the techniques presented here represent a high-performance, operational method for the identification of individual tree crown objects of one or more focal species that is adapted to the challenges encountered in tropical forests and greatly reduces the burden of training data collection.</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Methods</title> 
+    <sec id="sec003"> 
+     <title>Study site</title> 
+     <p>Barro Colorado Island (BCI) is a 1560-ha island located in Gatun Lake, which was formed in the early 20<sup>th</sup> century as part of the construction of the Panama Canal (
+      <xref rid="pone.0118403.g001" ref-type="fig">
+       Fig 1
+      </xref>). The BCI forest is tropical moist, with a mean annual temperature of 26°C and mean annual rainfall of 2600 mm. There is a distinct dry season from January to April, and an estimated 6.3% of trees &gt; 30 cm dbh are deciduous during the dry season [
+      <xref rid="pone.0118403.ref028" ref-type="bibr">
+       28
+      </xref>]. There are approximately 500 tree species in the BCI forest [
+      <xref rid="pone.0118403.ref029" ref-type="bibr">
+       29
+      </xref>,
+      <xref rid="pone.0118403.ref030" ref-type="bibr">
+       30
+      </xref>], with nearly 60 tree species ha<sup>-1</sup> among trees ≥ 20 cm dbh [
+      <xref rid="pone.0118403.ref031" ref-type="bibr">
+       31
+      </xref>], a size typically considered to occupy the canopy. In addition to the high species diversity of trees present in the canopy, there are many lianas present in this forest. Less is known about the diversity of lianas at the top of the canopy, but a census of liana stems on BCI found an average of 75 liana species ha<sup>-1</sup> for stems ≥ 1 cm in diameter [
+      <xref rid="pone.0118403.ref032" ref-type="bibr">
+       32
+      </xref>]. Surveys of liana infestation of trees have estimated that ~78% of trees ≥ 20 cm dbh have at least one liana in their crown, though not necessarily overtopping the crown [
+      <xref rid="pone.0118403.ref033" ref-type="bibr">
+       33
+      </xref>].</p> 
+     <fig id="pone.0118403.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>Map of Barro Colorado Island (BCI), Panama.</title>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.g001" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Spectral data</title> 
+     <p>Imaging spectrometer data were collected over Barro Colorado Island, Panama, with the Carnegie Airborne Observatory Airborne Taxonomic Mapping System (CAO AToMS; [
+      <xref rid="pone.0118403.ref034" ref-type="bibr">
+       34
+      </xref>]) in February of 2012. The CAO was flown at an altitude of 1 km providing data at 1.12 m spatial resolution, and was flown between 10 am and 1:30 pm under nearly cloud-free conditions to minimize shadow effects. The CAO AToMS system consists of three instrument subunits: i) a High-fidelity Imaging Spectrometer (HiFIS), ii) a Light Detection and Ranging (LiDAR) scanner, and iii) a Global Positioning System-Inertial Measurement Unit (GPS-IMU). The CAO HiFIS subsystem provided spectroscopic images spanning the visible to shortwave infrared portion of the spectrum between 380 and 2512 nm, which was resampled to 10.4 nm spectral resolution. The LiDAR subsystem was operated in discrete return mode with a density of four laser shots per square meter with up to four returns per shot, providing three-dimensional information on terrain and canopy structure [
+      <xref rid="pone.0118403.ref034" ref-type="bibr">
+       34
+      </xref>]. The GPS-IMU subsystem provided positioning and attitude data to project the HiFIS and LiDAR data onto the land surface. Canopy height information provided by the LiDAR subsystem was used for accurate orthorectification of the spectral data. Radiance data were converted to surface reflectance using ACORN 5BatchLi (Imspec LLC, Palmdale, CA) with a MODTRAN look-up table and reflectance was BRDF adjusted to correct for cross-track reflectance gradients [
+      <xref rid="pone.0118403.ref035" ref-type="bibr">
+       35
+      </xref>]. Prior to analysis, we removed spectral bands that were heavily influenced by water absorption (1330–1460 nm and 1770–2022 nm) and noisy bands at the upper and lower portions of the spectrum (below 400 nm and above 2422 nm). This resulted in a total of 167 spectral bands used for analysis.</p> 
+     <p>A field campaign was conducted to locate and identify individual tree crowns within the CAO image in January of 2013. Crown locations were recorded in the field with a handheld Global Positioning System (GS50 Leica Geosystems Inc., Norcross, GA, USA). These crowns were then manually delineated in the CAO imagery, taking care to ensure that the pixels extracted were as pure as possible, without contamination from lianas or neighboring trees. The crowns were collected along trails traversing the full east-west span of the island, sampling across all flight lines. The campaign was conducted to sample the tree diversity of the island as widely as possible, without sampling large numbers of any one species. This resulted in 340 crowns representing 84 tree species. Although not used in this study, leaves were collected from identified crowns with a permit from the Smithsonian Tropical Research Institution to Robin Martin.</p> 
+     <p>To obtain a larger sample of crowns for a few key species, we used satellite imagery collected over the island from the Ikonos, QuickBird, and WorldView-2 sensors. Three common canopy tree species–
+      <italic>
+       Dipteryx panamensis
+      </italic>, 
+      <italic>
+       Handroanthus guayacan
+      </italic> (formerly assigned to the genus 
+      <italic>
+       Tabebuia
+      </italic>), and 
+      <italic>
+       Jacaranda copaia
+      </italic>–flower at different times of the year. 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic> flowers in June-August, 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> flowers after heavy rainfall events in the second half of the dry season, and 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic> flowers in March-April before the onset of the wet season. In these events, many mature canopy individuals will display colorful flowers that allow them to be identified in multispectral satellite images or aerial photographs. Individuals of these species were identified in a series of satellite images acquired between 2002 and 2011 during flowering events [
+      <xref rid="pone.0118403.ref036" ref-type="bibr">
+       36
+      </xref>]. Locations of crowns identified from the satellite images were superimposed on the CAO image and 40 crowns of each species were manually delineated in the CAO image. Crowns transferred to the CAO image were distributed evenly across the island while avoiding proximity to trails (&lt; 20 m). Crowns of 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> and 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic> were checked in the field at the time of the CAO flight and both species were found to have foliage but not flowers. Thus our efforts to identify these species using imaging spectroscopy are based solely on the optical reflectance properties of non-flowering tree crowns.</p> 
+     <p>The field-collected crowns and those obtained from the satellite data were combined into a single dataset to compare methods for single species identification and to map the focal species across BCI. Each of the three focal species was well represented by over 40 training crowns, while the field-collected crowns provided a broad sampling of the tree species across the island. Prior to analysis, all of the spectral data were filtered to include only well-lit, leafy vegetation pixels with NDVI ≥ 0.7 and mean NIR (850–1050 nm) reflectance ≥ 21% (referred to here as “vegetation pixels”). A summary of the spectral data is presented in 
+      <xref rid="pone.0118403.t001" ref-type="table">
+       Table 1
+      </xref> and the mean and 95% confidence interval of the spectra for the three focal species is shown in 
+      <xref rid="pone.0118403.g002" ref-type="fig">
+       Fig 2
+      </xref>, superimposed on the 95% confidence interval for the spectra of all vegetation pixels on the island.</p> 
+     <fig id="pone.0118403.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title>Mean and 95% confidence interval of the reflectance spectra for each focal species.</title> 
+      <p>(a) 
+       <italic>
+        Dipteryx panamensis
+       </italic>, (b) 
+       <italic>
+        Handroanthus guayacan
+       </italic>, and (c) 
+       <italic>
+        Jacaranda copaia
+       </italic>. The colored lines represent the mean reflectance, and the colored areas represent the 95% confidence interval for each spectral band. The gray area represents the 95% confidence interval for the well-lit leafy vegetation on BCI.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.g002" position="float" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone.0118403.t001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.t001
+      </object-id> 
+      <label>Table 1</label> 
+      <title>Summary of the spectral data from both the field-collection campaign and the crowns obtained from satellite data.</title> 
+      <alternatives> 
+       <graphic id="pone.0118403.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.t001" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left" rowspan="1" colspan="1">Species</th> 
+          <th align="left" rowspan="1" colspan="1"># Crowns</th> 
+          <th align="left" rowspan="1" colspan="1"># Pixels</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            D
+           </italic>. 
+           <italic>
+            panamensis
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">50</td> 
+          <td align="left" rowspan="1" colspan="1">10726</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            H
+           </italic>. 
+           <italic>
+            guayacan
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">44</td> 
+          <td align="left" rowspan="1" colspan="1">3325</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">
+           <italic>
+            J
+           </italic>. 
+           <italic>
+            copaia
+           </italic></td> 
+          <td align="left" rowspan="1" colspan="1">44</td> 
+          <td align="left" rowspan="1" colspan="1">2091</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Other</td> 
+          <td align="left" rowspan="1" colspan="1">322</td> 
+          <td align="left" rowspan="1" colspan="1">9350</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">Total</td> 
+          <td align="left" rowspan="1" colspan="1">460</td> 
+          <td align="left" rowspan="1" colspan="1">25492</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Single-species classification methods</title> 
+     <p>We investigated two support vector machine (SVM) techniques that have shown promise in distinguishing samples of a single focal species from those of all other species–binary SVM and biased SVM [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>]. The basic SVM is a non-parametric classification method that is widely used in remote sensing because of its good classification performance and elegant handling of high-dimensional data [
+      <xref rid="pone.0118403.ref037" ref-type="bibr">
+       37
+      </xref>–
+      <xref rid="pone.0118403.ref039" ref-type="bibr">
+       39
+      </xref>]. It has also been shown to be among the top-performing classification methods in remote species identification [
+      <xref rid="pone.0118403.ref017" ref-type="bibr">
+       17
+      </xref>,
+      <xref rid="pone.0118403.ref018" ref-type="bibr">
+       18
+      </xref>,
+      <xref rid="pone.0118403.ref040" ref-type="bibr">
+       40
+      </xref>]. SVM is a binary classifier that separates samples of two classes in feature space with a decision boundary [
+      <xref rid="pone.0118403.ref041" ref-type="bibr">
+       41
+      </xref>,
+      <xref rid="pone.0118403.ref042" ref-type="bibr">
+       42
+      </xref>]. This boundary is generated by maximizing the margins between the boundary and the closest training samples (the support vectors), while minimizing misclassification errors. A fitted cost parameter, 
+      <italic>
+       C
+      </italic>, controls the penalty associated with misclassification error and thus the complexity of the decision boundary; a higher misclassification penalty will result in a more complex model, but with more danger of overfitting. A kernel function may be used to perform an implicit mapping of the data into a higher dimensional feature space [
+      <xref rid="pone.0118403.ref043" ref-type="bibr">
+       43
+      </xref>,
+      <xref rid="pone.0118403.ref044" ref-type="bibr">
+       44
+      </xref>], allowing non-linear separation of the classes in the original feature space. The popular radial basis function (RBF) kernel has a single fitted parameter, γ, controlling the kernel width. Thus, constructing an SVM with an RBF kernel requires fitting of two parameters, γ and 
+      <italic>
+       C
+      </italic>. Optimal values of these parameters are found through cross-validation on the training dataset.</p> 
+     <p>For this analysis we used a specific type of binary SVM in which samples from a single class of interest, or the focal class, are contrasted against samples from all other classes, which together make up the non-focal, or outlier, class. This is also referred to as “one-against-all” binary SVM. The F-score on the focal class (F = 2
+      <italic>
+       pr
+      </italic>/(
+      <italic>
+       p
+      </italic>+
+      <italic>
+       r
+      </italic>), where 
+      <italic>
+       r
+      </italic> = sensitivity or recall accuracy and 
+      <italic>
+       p
+      </italic> = precision) is an appropriate choice of optimization criterion in single-class classification with highly imbalanced class sizes. Sensitivity is the proportion of focal class samples that are correctly assigned by the classifier to the focal class (i.e., the producer’s accuracy for the focal class) and precision is the proportion of samples assigned to the focal class that truly belong to the focal class (i.e., the user’s accuracy for the focal class). Maximization of the F-score selects a combination of parameter values that yields both high sensitivity and high precision, while keeping these two aspects of model performance relatively well balanced.</p> 
+     <p>Biased SVM [
+      <xref rid="pone.0118403.ref024" ref-type="bibr">
+       24
+      </xref>] works similarly to the standard binary SVM in that it finds an optimal separation between two classes in feature space. However, the collected training data from the focal class are contrasted against samples that are randomly selected from the data pool (in this case, the vegetation pixels from the entire island), referred to here as “pseudo-outliers”. Because the pseudo-outlier data are of unknown identity and will contain samples from the focal class, errors occurring within the pseudo-outlier class are given a lower penalty than errors occurring within the focal class. An extra parameter, 
+      <italic>
+       w
+      </italic><sub>
+       <italic>
+        c
+       </italic></sub>, is added to the model, which controls the relative cost of errors occurring in the two classes.</p> 
+     <p>The parameterization of biased SVM is also performed through cross-validation on the training dataset. However, without known samples from the outlier class, precision cannot be calculated. A tuning criterion that works well for biased SVM is 
+      <italic>
+       r
+      </italic><sup>2</sup>/P[ƒ(x) = 1], where 
+      <italic>
+       r
+      </italic> is the sensitivity (recall accuracy) and P[ƒ(x) = 1] is the probability that a sample is assigned to the focal class [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>,
+      <xref rid="pone.0118403.ref045" ref-type="bibr">
+       45
+      </xref>]. This criterion is based on the concept that model sensitivity should be maximized while simultaneously minimizing the number of samples that are assigned to the focal class, and is thought to work similarly to the F-score in that it will be large when both recall and precision are large [
+      <xref rid="pone.0118403.ref045" ref-type="bibr">
+       45
+      </xref>]. In a study examining the optimization of biased SVM for remote tree species mapping, Baldeck and Asner [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>] found that this criterion worked well for optimizing biased SVMs and generally outperformed an alternative optimization criterion. They also found that cross-validation generally worked best when performed at the crown level (i.e., by splitting crowns rather than pixels into the cross-validation groups).</p> 
+     <p>One-against-all binary SVM and biased SVM have thus far been applied to species detection in only a few instances [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>,
+      <xref rid="pone.0118403.ref027" ref-type="bibr">
+       27
+      </xref>]. Binary SVM was initially used in a study exploring different methods for species detection in a Hawaiian forest [
+      <xref rid="pone.0118403.ref027" ref-type="bibr">
+       27
+      </xref>]. Biased SVM is a relatively new single-class classification method that first showed promise in studies of web document and land-cover classification [
+      <xref rid="pone.0118403.ref024" ref-type="bibr">
+       24
+      </xref>,
+      <xref rid="pone.0118403.ref046" ref-type="bibr">
+       46
+      </xref>], and represented an attractive possibility for species detection because it could be trained with a fraction of the training data used in binary SVM. Only one study has investigated the potential of biased SVM for use in single-species detection [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>]. That study compared biased SVM to binary SVM using crown spectral data from a savanna ecosystem and found that biased SVM performed well, though it did not achieve as high overall performance as binary SVM.</p> 
+    </sec> 
+    <sec id="sec006"> 
+     <title>Comparison of binary versus biased SVM</title> 
+     <p>To create the binary SVM models, the training data were divided into the focal species class and the non-focal, or outlier, species class. The training dataset for each focal species consisted of all the focal species crowns plus all outlier species crowns from the field collection campaign. Only crowns from the field collection campaign were used to form the outlier class to prevent skewing this class heavily toward the other focal species. It has been shown that the balance in the amount of data from the focal and outlier classes can affect model performance in this type of one-against-all binary classification [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>]; therefore, we conducted a preliminary analysis to assess model balance for these datasets, which is described in the Supporting Information. We found that the ratio of focal to outlier species crowns present in these datasets (approximately 0.15) yielded good results (
+      <xref rid="pone.0118403.s001" ref-type="supplementary-material">
+       S1 Fig
+      </xref>), and so the full datasets were used in the tests of the binary SVM models.</p> 
+     <p>For each focal species binary SVM model, the optimal values of γ and 
+      <italic>
+       C
+      </italic> were found by an exhaustive grid search over the values γ ∈ {
+      <italic>
+       e
+      </italic><sup>-12</sup>, 
+      <italic>
+       e
+      </italic><sup>-11</sup>, …, 
+      <italic>
+       e
+      </italic><sup>-6</sup>} and 
+      <italic>
+       C
+      </italic> ∈ {
+      <italic>
+       e
+      </italic><sup>5</sup>, 
+      <italic>
+       e
+      </italic><sup>6</sup>, …, 
+      <italic>
+       e
+      </italic><sup>15</sup>} using five-fold crown-level cross-validation [
+      <xref rid="pone.0118403.ref021" ref-type="bibr">
+       21
+      </xref>]. In this procedure, the crowns of each class were split into five roughly equally sized groups. One group from each class was set aside to form the test dataset and a model was built from the remaining data using the trial parameter values. This was repeated five times such that the data from each group was predicted with a model built from a separate set of crowns. The F-score on the focal class was calculated based on the number of pixels that were correctly classified and this was repeated for every parameter combination. The combination of γ and 
+      <italic>
+       C
+      </italic> resulting in the highest cross-validation F-score was chosen for the final model for each species.</p> 
+     <p>To create the biased SVM models, the focal species crowns were used to form the focal class and 40,000 vegetation pixels were randomly sampled from the CAO imagery to form the pseudo-outlier class. The biased SVM models were optimized using the same crown-level cross-validation procedure described for binary SVM, except that the pseudo-outlier data were split into five groups randomly by pixel. The optimal values of γ, 
+      <italic>
+       C
+      </italic>, and 
+      <italic>
+       w
+      </italic><sub>
+       <italic>
+        c
+       </italic></sub> were found through a grid search over the values γ ∈ {
+      <italic>
+       e
+      </italic><sup>-8</sup>, 
+      <italic>
+       e
+      </italic><sup>-7</sup>, …, 
+      <italic>
+       e
+      </italic><sup>-2</sup>}, 
+      <italic>
+       C
+      </italic> ∈ {
+      <italic>
+       e
+      </italic><sup>5</sup>, 
+      <italic>
+       e
+      </italic><sup>6</sup>, …, 
+      <italic>
+       e
+      </italic><sup>11</sup>}, and 
+      <italic>
+       w
+      </italic><sub>
+       <italic>
+        c
+       </italic></sub> ∈ {0.1, 0.2, …, 0.7}. To save computation time, a coarse search was conducted over these ranges using every other value of each parameter, then a fine-scale search was conducted bracketing the optimal values identified from the coarse search. The biased SVMs were optimized using the 
+      <italic>
+       r
+      </italic><sup>2</sup>/P[ƒ(x) = 1] criterion estimated using all focal species and pseudo-outlier pixels [
+      <xref rid="pone.0118403.ref045" ref-type="bibr">
+       45
+      </xref>].</p> 
+     <p>Once the optimal parameters were identified, we compared the performance of the binary and biased SVM models. For binary SVM, one-fifth of both the focal and outlier crowns were removed to form the test dataset and a model was built using the remaining data using the optimal parameter values. For biased SVM, one-fifth of the focal species crowns were removed and placed in the test dataset and a model was built using the remaining focal species crowns and 32,000 pseudo-outlier pixels. Focal and outlier crowns were randomly assigned to the training and test groups and the same group assignments were used for both the binary and biased models of the same species. This procedure was repeated 100 times. We were especially interested in comparing the sensitivity and specificity (the proportion of outlier class samples that are correctly assigned to the outlier class) of the two classifiers. Therefore, although the outlier crowns were not used to train the biased SVMs, the test outlier crowns were passed to the biased SVM models to estimate specificity. We also compared the performance of binary and biased SVM by using each to map the focal species across the island. For each focal species and classifier type, a classification model was built from the full dataset and this was applied to all vegetation pixels in the CAO imagery.</p> 
+    </sec> 
+    <sec id="sec007"> 
+     <title>Focal species mapping</title> 
+     <p>Based on our comparison of binary and biased SVM methods for mapping the focal species (see 
+      <bold>
+       <xref rid="sec009" ref-type="sec">
+        Results
+       </xref> 
+      </bold>section below), we chose to use the biased SVM method as the basis for creating the final maps of the three focal species. A final biased SVM model was created for each focal species using all of the data available for that species plus all of the pseudo-outlier data. Then the three final biased SVMs were combined into a multi-species classification to be used for mapping the three species simultaneously.</p> 
+     <p>As the three biased SVM models are independent of one another, it is possible for a pixel to be assigned to the focal species of more than one model. To break such ties we trained an ordinary multi-class SVM with an RBF kernel to differentiate the three focal classes from one another. All crowns from the three focal species were used, but the data from 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic> and 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> were randomly subset to 2091 pixels (the number available for 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>) to create evenly balanced species classes. The biased SVMs for the three focal species and the tie-breaking SVM were combined into the final, multi-species classification model with the following rules: (i) If a pixel was assigned to the outlier class by all of the biased SVM models, then that pixel was assigned to the outlier class. (ii) If a pixel was assigned to the focal species class by only one biased SVM model, then it was assigned to the corresponding focal species. (iii) If a pixel was assigned to the focal species class by more than one biased SVM model, the pixel was passed to the tie-breaking SVM to determine the species assignment. For the final multi-species classification model, we obtained estimates of the pixel-level producer’s accuracies for the three focal species (equivalent to the sensitivity, but for multi-class models) using five-fold crown-level cross-validation. We then applied this model to all vegetation pixels in the CAO imagery to map the three focal species.</p> 
+     <p>The raster of the model prediction results contained some amount of undesirable noise (spatially random pixels assigned to the focal classes). To reduce this noise, we applied contextual filters to the model prediction results. First, we resized the raster grid by cutting each pixel into quarters and performed opening-closing on the raster of predicted occurrences for each species (3 × 3 pixel kernel; ENVI software, Exelis, Boulder, CO USA). The opening procedure removed small objects of two pixels in width and then the closing procedure filled small holes of two pixels in width (here, two pixels in width is equivalent to one pixel in width at the original resolution). The raster grid was then resized to the original resolution and each contiguous area belonging to the same focal class was designated as an individual object (contiguity was defined as pixels that were side-adjacent). Objects with fewer than ten pixels were eliminated and objects that remained were counted as crown objects. We refer to these areas as “crown objects” rather than “crowns” to acknowledge that a single crown object may contain the crowns of two or more individual conspecific trees, and that the crown of one individual tree may be represented by two or more smaller crown objects, separated perhaps by liana or shadow.</p> 
+    </sec> 
+    <sec id="sec008"> 
+     <title>Field validation</title> 
+     <p>To obtain estimates of model precision for predicted crown objects, we returned to the island to verify their species identity. The prediction map was brought to the field on a tablet PC and predicted crown objects located near trails (&lt; 20 m away) were checked to verify their species identity. Only trail segments that were not visited in the first field campaign were used for model verification. No permits were needed to check the identities of the tree crowns on the island.</p> 
+     <p>Additional field observations were recorded to help with the interpretation of the prediction map. We noted the presence of individuals of the focal species with crowns reaching the top of the canopy (at least 5 m in diameter) that were encountered in the field but not indicated by the prediction map, which might be considered as a failure of the model to detect the presence of that species. For all focal species trees encountered, the presence and severity of liana infestation of the tree crown was recorded, with special attention to whether the lianas were covering the top of the canopy. However, the field search for omitted focal species crowns was not systematic and there was ambiguity in which ones should be considered to be a genuine omission error (for example, the presence of lianas may indicate that the omission is correct from a remote sensing perspective). Therefore, we could not quantify the proportion of focal species canopy individuals that were not detected (i.e., we could not measure crown-object-level sensitivity). These observations were meant only to explore sources of error; we relied on the previously described accuracy analyses to estimate model sensitivity.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec009" sec-type="results"> 
+    <title>Results</title> 
+    <sec id="sec010"> 
+     <title>Comparison of binary versus biased SVM</title> 
+     <p>In general, binary SVM had higher sensitivity but lower specificity than biased SVM for the same focal species (
+      <xref rid="pone.0118403.g003" ref-type="fig">
+       Fig 3
+      </xref>). The average model sensitivity for binary SVM was 0.036–0.057 higher across species than that of biased SVM. The difference was smaller for specificity, which was 0.004–0.012 higher across species for biased SVM compared to binary SVM. The maps produced from these models were consistent with this general result as more pixels were assigned to the focal class by the binary SVM models (
+      <xref rid="pone.0118403.g004" ref-type="fig">
+       Fig 4
+      </xref>). However, the contrast in the amount of pixels assigned to the focal classes was quite strong, as 11.9%, 3.9%, and 4.3% of the vegetation pixels were classified as 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic>, 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>, and 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>, respectively, using the binary SVM models versus only 4.1%, 0.7%, and 1.0%, respectively, using the biased SVM models. Accordingly, the binary SVM maps were noticeably noisier than those produced from biased SVM (
+      <xref rid="pone.0118403.g004" ref-type="fig">
+       Fig 4
+      </xref>). We found the higher precision provided by the biased SVM models to be desirable for our mapping application; therefore, we chose biased SVM as the basis for the final species classification model.</p> 
+     <fig id="pone.0118403.g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.g003
+      </object-id> 
+      <label>Fig 3</label>  
+      <title>Performance of binary and biased SVM for the three focal species.</title> 
+      <p>Results are given for both model sensitivity (a, c, e) and specificity (b, d, f) measured on the spectra from a separate set of crowns. Sensitivity is the proportion of focal class samples that are correctly assigned to the focal class and specificity is the proportion of outlier class samples that are correctly assigned to the outlier class. Note the difference in the y-axis between sensitivity and specificity.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.g003" position="float" xlink:type="simple" /> 
+     </fig> 
+     <fig id="pone.0118403.g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.g004
+      </object-id> 
+      <label>Fig 4</label>  
+      <title>Mapped prediction results of binary and biased SVM models for the three focal species.</title> 
+      <p>The true-color representation of the raw imagery is on the left-hand side, results from the binary SVM models are in the center, and results from the biased SVM models are on the right-hand side. The three spectral bands used to display the true-color image are R = 640 nm, G = 550 nm, and B = 460 nm.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.g004" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec011"> 
+     <title>Focal species mapping</title> 
+     <p>The tie-breaking three-species classification model showed good classification performance, with an overall accuracy of 97.9% based on five-fold crown-level cross-validation. However, the tie-breaking model was rarely needed to break prediction ties. When the biased SVM models were applied to the imagery, 5.6% of the vegetation pixels were assigned to at least one of the focal species classes and of these, only 2.1% were assigned to more than one focal species class. Thus, the tie-breaking model was used to predict the identity of only 0.1% of the vegetation pixels. We estimated that the final classification model, which included the three individual biased SVM models plus the tie-breaking model, had pixel-level producer’s accuracies (sensitivity for the focal class × 100) of 97.4%, 94.3%, and 93.9% for 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic>, 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>, and 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>, respectively, based on five-fold crown-level cross-validation. A portion of the mapped results of the final multi-species classification is shown in 
+      <xref rid="pone.0118403.g005" ref-type="fig">
+       Fig 5B
+      </xref>.</p> 
+     <fig id="pone.0118403.g005" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.g005
+      </object-id> 
+      <label>Fig 5</label>  
+      <title>Mapped results of the multi-species model before and after applying the contextual filters.</title> 
+      <p>The panels are (a) true-color representation of the raw imagery, (b) prediction results for the multi-species classification model, and (c) prediction results after undergoing crown smoothing and size filtering. The three spectral bands used to display the true-color image in (a) are R = 640 nm, G = 550 nm, and B = 460 nm. The colors used to represent the species in (b) and (c) are blue = 
+       <italic>
+        D
+       </italic>. 
+       <italic>
+        panamensis
+       </italic>, red = 
+       <italic>
+        H
+       </italic>. 
+       <italic>
+        guayacan
+       </italic>, and yellow = 
+       <italic>
+        J
+       </italic>. 
+       <italic>
+        copaia
+       </italic>.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.g005" position="float" xlink:type="simple" /> 
+     </fig> 
+     <p>The contextual filters reduced the number of pixels assigned to the focal species classes by 12.8%, 26.4%, and 23.1% for 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic>, 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>, and 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>, respectively. The number of objects (contiguous areas) assigned to the three species was reduced much more drastically by 90.4%, 88.1%, and 85.1%, respectively (
+      <xref rid="pone.0118403.g005" ref-type="fig">
+       Fig 5C
+      </xref>). This occurred because the filters removed a large quantity of small objects, often only one pixel in size. After filtering, there were a total of 2,107 predicted crown objects of 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic>, 837 of 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>, and 1,405 of 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic> across the entire island (
+      <xref rid="pone.0118403.g006" ref-type="fig">
+       Fig 6
+      </xref>).</p> 
+     <fig id="pone.0118403.g006" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.g006
+      </object-id> 
+      <label>Fig 6</label>  
+      <title>Prediction results for the three focal species across BCI.</title> 
+      <p>Blue = 
+       <italic>
+        D
+       </italic>. 
+       <italic>
+        panamensis
+       </italic>, red = 
+       <italic>
+        H
+       </italic>. 
+       <italic>
+        guayacan
+       </italic>, and yellow = 
+       <italic>
+        J
+       </italic>. 
+       <italic>
+        copaia
+       </italic>. Insets show close-up of results for high-density areas of each focal species.</p>  
+      <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.g006" position="float" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec012"> 
+     <title>Field validation</title> 
+     <p>Field validation indicated that our map of predicted crown objects was very precise. We visited 39 crown objects assigned to 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic>, 38 of 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>, and 32 of 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>. Of these, only one crown object assigned to 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic> and two assigned to 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> were found to be incorrect. This resulted in an estimated false-positive error rate of 2.6% for 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic>, 5.3% for 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>, and 0% for 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>.</p> 
+     <p>We observed some individuals of each species in the field that were not detected by our model. Six 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic> crowns were encountered that were not predicted by our maps. Of these, one was found to have been cut by the NDVI filter (through inspection of the CAO imagery), one had interference by lianas, and two were small (~ 5 m in diameter). We encountered nine crowns of 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> which were not predicted, of which one had low NDVI, one had interference by lianas, and one was small. We also encountered eight 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic> crowns in the field that were not predicted, seven of which were small. Most of the small non-detected 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic> crowns had been swept out of the prediction map by the image processing steps designed to remove noise and small objects. Both the false-positive rates and the relative lack of plausible reasons for crown omission errors indicate that 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> was the most troublesome of the three focal species to detect.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec013" sec-type="conclusions"> 
+    <title>Discussion</title> 
+    <sec id="sec014"> 
+     <title>Model performance</title> 
+     <p>Our final classification model was found to perform very well, which was especially remarkable considering that it was produced using 138 training crowns from only the species that were mapped. The crown object map that we produced from the classification results was highly reliable in the sense that it had a very low false-positive error rate for predicted crown objects. The classification model had high pixel-level producer’s accuracies for the three focal species, though some of the model’s sensitivity in detecting the focal species was certainly lost after the contextual filters were applied to the model results to create the map of crown objects. This was evidenced by the fact that omission errors were observed for crowns of each species while we were validating the maps in the field.</p> 
+     <p>When observing focal species crowns in the field, it could be quite unclear as to what constituted an omission error. With examples from each of the focal species, we observed crowns in the field that were not predicted or only partially predicted by our model that were highly contaminated or partially or fully covered by lianas. Additionally, it was not uncommon that a crown object appearing to represent a single crown both in the CAO imagery and in the prediction map was found to be two or more adjacent individuals of the same species. Both of these occurrences are important from an ecological perspective because they contribute to an under-estimation of the number of individuals of a species, though we do not consider them to be errors from a remote species detection perspective. Some of the omitted crowns, such as many of those of 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic>, were simply small, and may have been captured by our model if we had used a less conservative size filter (though this may have introduced false-positives). There were other instances from each species where crowns were missed by the prediction model for no apparent reason of interference by other species, insufficient size, or lower NDVI, which occurred most often for 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic>.</p> 
+     <p>The three species examined here have previously been mapped across the island either by their flowering characteristics or through visual interpretation of aerial photographs. Flowering crowns of 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> were mapped across BCI using two Quickbird images from different years with an automatic approach combining spectral angle mapping and one-class SVM [
+      <xref rid="pone.0118403.ref047" ref-type="bibr">
+       47
+      </xref>]. Using visual interpretation of aerial photographs, 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       panamensis
+      </italic> crowns were identified based on canopy structure [
+      <xref rid="pone.0118403.ref048" ref-type="bibr">
+       48
+      </xref>], and 
+      <italic>
+       H
+      </italic>. 
+      <italic>
+       guayacan
+      </italic> and 
+      <italic>
+       J
+      </italic>. 
+      <italic>
+       copaia
+      </italic> crowns were identified through their flowering traits [
+      <xref rid="pone.0118403.ref049" ref-type="bibr">
+       49
+      </xref>,
+      <xref rid="pone.0118403.ref050" ref-type="bibr">
+       50
+      </xref>]. Additionally, J. R. Kellner produced island-wide maps of all three focal species (the same used to obtain focal species training data used in this study) based on crown flowering using multispectral satellite imagery with an automatic detection method [
+      <xref rid="pone.0118403.ref036" ref-type="bibr">
+       36
+      </xref>]. The island-wide distributions of the three focal species produced by our species detection model resemble those found in these previous studies [
+      <xref rid="pone.0118403.ref036" ref-type="bibr">
+       36
+      </xref>,
+      <xref rid="pone.0118403.ref047" ref-type="bibr">
+       47
+      </xref>,
+      <xref rid="pone.0118403.ref048" ref-type="bibr">
+       48
+      </xref>,
+      <xref rid="pone.0118403.ref050" ref-type="bibr">
+       50
+      </xref>]. However, our model detected many more crown objects than the number of crowns reported in these studies (
+      <xref rid="pone.0118403.t002" ref-type="table">
+       Table 2
+      </xref>). This suggests that our model, which uses imaging spectroscopy and is not limited to detecting flowering individuals, was more powerful. However, caution is warranted with these comparisons as our results pertain to crown objects and not individuals 
+      <italic>
+       per se
+      </italic> (though the same logic likely applies to other studies as well).</p> 
+     <table-wrap id="pone.0118403.t002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0118403.t002
+      </object-id> 
+      <label>Table 2</label> 
+      <title>The number of crown objects detected in the present study compared to previous studies.</title> 
+      <alternatives> 
+       <graphic id="pone.0118403.t002g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0118403.t002" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+         <col align="left" valign="middle" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left" rowspan="1" colspan="1">
+           <italic>
+            D
+           </italic>. 
+           <italic>
+            panamensis
+           </italic></th> 
+          <th align="left" rowspan="1" colspan="1">
+           <italic>
+            H
+           </italic>. 
+           <italic>
+            guayacan
+           </italic></th> 
+          <th align="left" rowspan="1" colspan="1">
+           <italic>
+            J
+           </italic>. 
+           <italic>
+            copaia
+           </italic></th> 
+          <th align="left" rowspan="1" colspan="1">Study</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">2107</td> 
+          <td align="left" rowspan="1" colspan="1">837</td> 
+          <td align="left" rowspan="1" colspan="1">1405</td> 
+          <td align="left" rowspan="1" colspan="1">Present study</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">706</td> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">Sanchez-Azofeifa et al. [
+           <xref rid="pone.0118403.ref046" ref-type="bibr">
+            46
+           </xref>]</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1"></td> 
+          <td align="left" rowspan="1" colspan="1">688</td> 
+          <td align="left" rowspan="1" colspan="1">977</td> 
+          <td align="left" rowspan="1" colspan="1">Garzon-Lopez et al. [
+           <xref rid="pone.0118403.ref049" ref-type="bibr">
+            49
+           </xref>]</td> 
+         </tr> 
+         <tr> 
+          <td align="left" rowspan="1" colspan="1">904</td> 
+          <td align="left" rowspan="1" colspan="1">804</td> 
+          <td align="left" rowspan="1" colspan="1">432</td> 
+          <td align="left" rowspan="1" colspan="1">J. R. Kellner [
+           <xref rid="pone.0118403.ref050" ref-type="bibr">
+            50
+           </xref>]</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+     <p>The forest of Barro Colorado Island posed several challenges to remote species mapping; namely, high species diversity of the canopy, high prevalence of lianas, and a continuous canopy layer in which individual tree crowns are difficult to distinguish. We attribute the success of remote species mapping in this forest to two main factors: i) a shift from multi-species to single-species classification, and ii) performing species classification at the pixel-level, with crown objects identified after classification.</p> 
+    </sec> 
+    <sec id="sec015"> 
+     <title>Single-species detection</title> 
+     <p>A single-species classification approach has considerable advantages over the traditional multi-species classification framework when the interest is in mapping one or a few focal species. Single-species classification can increase model performance with respect to the focal species and decrease the overall amount of data required to train the species that are not of interest (or in the case of biased SVM, it eliminates this requirement altogether) [
+      <xref rid="pone.0118403.ref025" ref-type="bibr">
+       25
+      </xref>,
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>]. However, a focus on single-species detection need not restrict mapping to only one species; single-class classification models can be combined in different ways to make a multi-class classification [
+      <xref rid="pone.0118403.ref051" ref-type="bibr">
+       51
+      </xref>]. For example, Muñoz-Marí et al. [
+      <xref rid="pone.0118403.ref052" ref-type="bibr">
+       52
+      </xref>] combined several support vector domain description classifiers (very similar to one-class SVM) into a multi-class model to map land cover classes. One-against-all binary SVM and biased SVM were found to outperform one-class SVM for remote species identification [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>], and for this analysis, we combined biased SVMs to create a multi-species identification model. Thus, improving single-species classification models can be one important route towards building more effective multi-species classification models.</p> 
+     <p>Both binary and biased SVM models yielded reasonable performance with this dataset. Tested on a separate crown dataset, we found that binary SVM provided greater sensitivity but slightly lower specificity than biased SVM. However, comparing the performance of these methods in this way may give an incomplete view of their relative performances. When the models were applied to the imagery, binary SVM assigned approximately three to six times more pixels to the focal species compared to biased SVM. We may expect that small differences in model specificity have a large impact when the model is applied to the image as the non-focal species make up the majority of the landscape. However, it is also possible that noisy results from the binary SVM model could be an artifact of less-than-complete representation of the non-focal vegetation by our training dataset of over 300 crowns. This phenomenon was suggested by the results of a previous study comparing binary and biased SVM for remote species identification of five focal species in a savanna ecosystem [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>]. In that study, binary SVM generally performed better than biased SVM, except that binary SVM produced noticeably noisier maps than biased SVM for one of the focal species. This was hypothesized to be caused by less representative training of the non-focal class for the higher-diversity riparian areas in which that particular focal species was found. In the current study we found that biased SVM consistently produced more precise maps than binary SVM, which supports the hypothesis that biased SVM has an advantage in high diversity landscapes.</p> 
+     <p>Thus, although our preliminary experiments using cross-validation of the training dataset indicated that the binary SVM models had very high specificity, maps produced by these models were not as precise as we wished. The precision of binary SVM would likely improve if more training data were gathered for the non-focal species, but pursuing this track may be impractical in such an ecosystem. With high tree species diversity it becomes very costly to comprehensively sample the non-focal tree species, and in the BCI forest there is also a high diversity of other vegetation types, mostly lianas, that contributes to the non-focal class in the canopy. Biased SVM offers a solution to this problem by comprehensively sampling the spectra of all vegetation present and using this information to constrain the focal species class. Whereas the details of optimizing and implementing biased SVM for single-species detection were previously unclear, recent work exploring possible alternatives has made this method more straightforward to use for remote species mapping [
+      <xref rid="pone.0118403.ref026" ref-type="bibr">
+       26
+      </xref>]. It now appears that biased SVM, through its ability to constrain the focal class independently of the quality of the outlier training data available, is not only a viable alternative but likely a preferred alternative to binary SVM when performing remote species mapping in very high diversity ecosystems.</p> 
+    </sec> 
+    <sec id="sec016"> 
+     <title>Delineation of tree crowns</title> 
+     <p>The automatic delineation of individual tree crowns, or crown segmentation, has long been an obstacle for operational species mapping. Segmentation of individual crowns has generally been viewed as the first step before applying species classification to an image [
+      <xref rid="pone.0118403.ref007" ref-type="bibr">
+       7
+      </xref>,
+      <xref rid="pone.0118403.ref053" ref-type="bibr">
+       53
+      </xref>–
+      <xref rid="pone.0118403.ref056" ref-type="bibr">
+       56
+      </xref>]. This is not without reason, as some studies have found that accuracy of species classification models was higher when classification was performed on crowns instead of pixels; for example, by using the mean spectra from crowns for classification or majority vote of the pixel class assignments [
+      <xref rid="pone.0118403.ref007" ref-type="bibr">
+       7
+      </xref>,
+      <xref rid="pone.0118403.ref035" ref-type="bibr">
+       35
+      </xref>]. Additionally, a map of crown identities may be more ecologically meaningful than a map of pixel identities.</p> 
+     <p>Crown segmentation may rely on structural differences among crowns detected by LiDAR or indicated by shadow, spatial separation of crowns, or spectral differences among crowns. Segmentation of individual tree crowns has been successfully accomplished in many places where structural differences among crowns facilitate crown separation, such as coniferous forest, savannas, or urban areas, e.g., [
+      <xref rid="pone.0118403.ref020" ref-type="bibr">
+       20
+      </xref>,
+      <xref rid="pone.0118403.ref035" ref-type="bibr">
+       35
+      </xref>,
+      <xref rid="pone.0118403.ref053" ref-type="bibr">
+       53
+      </xref>,
+      <xref rid="pone.0118403.ref056" ref-type="bibr">
+       56
+      </xref>–
+      <xref rid="pone.0118403.ref058" ref-type="bibr">
+       58
+      </xref>], and this is especially facilitated by the use of LiDAR. In closed-canopy, non-conifer forests where there are fewer structural clues, spectral differences have been emphasized as a way to differentiate crowns, e.g., [
+      <xref rid="pone.0118403.ref018" ref-type="bibr">
+       18
+      </xref>,
+      <xref rid="pone.0118403.ref059" ref-type="bibr">
+       59
+      </xref>]. Segmentation of individual tree crowns based on spectral data alone is extremely difficult, and to date there has been very limited success delineating individual tree crowns in tropical forests (though progress is being made; see [
+      <xref rid="pone.0118403.ref059" ref-type="bibr">
+       59
+      </xref>,
+      <xref rid="pone.0118403.ref060" ref-type="bibr">
+       60
+      </xref>]). This may partially explain why some crown-level species identification models have not made it to the mapping step despite promising classification results, e.g., [
+      <xref rid="pone.0118403.ref007" ref-type="bibr">
+       7
+      </xref>,
+      <xref rid="pone.0118403.ref015" ref-type="bibr">
+       15
+      </xref>].</p> 
+     <p>The closed-canopy and high prevalence of lianas in the BCI forest meant that individual crowns were difficult to observe in the image. However, during the model validation field campaign we found many instances where the pixel-level species predictions correctly determined the shape and size of individual tree crowns (more specifically, the shape and size of the crown area uncovered by lianas), even where 
+      <italic>
+       a priori
+      </italic> visual interpretation had failed. Therefore, we found that it was preferable to train a pixel-level species classifier and use the prediction results to dictate the spatial coverage of the focal species crowns. This approach had the advantage that errors due to incorrect delineation of tree crowns were not fed into a species identification model. It also suited our objectives because we were only interested in delineating crowns of the focal species, rather than delineating all crowns on the island. Although we could not eliminate cases where a single crown object identified by our procedure was actually two or more adjacent conspecific individuals (as observed in the field), this limitation is unlikely to be overcome using existing methods with spectral data alone. Our mapped crown results show that automatic crown segmentation can be accomplished for selected species in a closed-canopy, high diversity tropical forest when paired with species identification as a first step, and that this strategy may be a preferable alternative to attempting to perform individual tree crown segmentation based on raw spectral data followed by object-based classification of crowns.</p> 
+    </sec> 
+    <sec id="sec017"> 
+     <title>Remote species mapping in the tropics</title> 
+     <p>In their review of high resolution remote sensing in tropical forests, Nagendra and Rocchini [
+      <xref rid="pone.0118403.ref022" ref-type="bibr">
+       22
+      </xref>] argued that high spatial resolution remote sensing data are best suited to accurately locating features within an image and less well suited for species identification. They concluded that high-spatial resolution data may make it more difficult to characterize the spectral signatures of different species to perform species classification, citing the problem of variability among pixels within the same crown when pixels are smaller than the crown being identified. However, we found that the high spatial and spectral resolution data are suitable for both accurate feature location and species identification, and that within-crown spectral variability does not preclude species classification of pixels. A possible explanation for this disparity could be the recent shift from endmember-based classification methods such as spectral angle mapper, which use one or a few exemplar spectra for each class, towards classification methods such as linear discriminant analysis, random forest, and SVM, which can accommodate greater within-class variability. The latter two methods are even able to accommodate complex, non-normal, multi-modal within-class variation.</p> 
+     <p>Here we showed that remote species identification can be successfully achieved in a diverse, closed-canopy tropical forest using high spatial resolution imaging spectroscopy data. We produced an accurate crown object map of three focal species that was found to be very precise. The recently developed biased SVM performed well as the basis for our final multi-species classification model, and its performance was judged superior to the current standard method of binary SVM for our dataset. Thus our final multi-species classification model had the considerable advantage of only requiring representative training data from the species of interest, which can greatly ease the burden associated with producing species classification models, especially in high diversity ecosystems. Our method of producing crown objects from the pixel-level classification results also has implications for automatic tree crown delineation, indicating that individual crowns in can be delineated in high diversity, closed-canopy tropical forests when coupled with species identification. Further experimentation is needed to determine whether these methods will prove useful for remote species mapping in other ecosystems, especially those with high species diversity and a continuous closed canopy.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec018"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0118403.s001" xlink:href="info:doi/10.1371/journal.pone.0118403.s001" mimetype="application/eps" position="float" xlink:type="simple"> 
+     <label>S1 Fig</label>  
+     <title>Overall performance (F-score) of binary SVM models for the three focal species as the number of training crowns was varied for both the focal species and the outlier species classes.</title> 
+     <p>
+      <italic>
+       n
+      </italic><sub>
+       <italic>
+        f
+       </italic></sub> indicates the number of crowns of the focal species class and 
+      <italic>
+       n
+      </italic><sub>
+       <italic>
+        o
+       </italic></sub> indicates the number of crowns for the outlier species class.</p> 
+     <p>(EPS)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0118403.s002" xlink:href="info:doi/10.1371/journal.pone.0118403.s002" mimetype="application/msword" position="float" xlink:type="simple"> 
+     <label>S1 Methods</label>  
+     <title>Methods and results for the analysis of the training data amount and balance for binary SVM.</title> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Raul Tupayachi, Felipe Sinca, Nestor Jaramillo, Katie Kryston, Byron Tsang, and Kelly McManus for their outstanding support during field collection of tree crowns. We also thank Rufino Gonzalez for his botanical expertise during the field crown collection and model validation. The Carnegie Airborne Observatory has been supported by the Avatar Alliance Foundation, Gordon and Betty Moore Foundation, John D. and Catherine T. MacArthur Foundation, Grantham Foundation for the Protection of the Environment, W. M. Keck Foundation, Margaret A. Cargill Foundation, Mary Anne Nyburg Baker and G. Leonard Baker Jr., and William R. Hearst III. We also thank Stephanie Bohlman and one anonymous reviewer for helpful comments on the manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0118403.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schimel
+        </surname> 
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moorcroft
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Observing changing ecological diversity in the Anthropocene
+       </article-title>. 
+       <source>Front Ecol Environ 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        137
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1890/120111" xlink:type="simple">
+         10.1890/120111
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Turner
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spector
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gardiner
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fladeland
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sterling
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steininger
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Remote sensing for biodiversity science and conservation
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        18
+       </volume>: 
+       <fpage>
+        306
+       </fpage>–
+       <lpage>
+        314
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0169-5347(03)00070-3" xlink:type="simple">
+         10.1016/S0169-5347(03)00070-3
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gillespie
+        </surname> 
+        <given-names>
+         TW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Foody
+        </surname> 
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Giorgi
+        </surname> 
+        <given-names>
+         AP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Saatchi
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Measuring and modelling biodiversity from space
+       </article-title>. 
+       <source>Prog Phys Geogr 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        203
+       </fpage>–
+       <lpage>
+        221
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1177/0309133308093606" xlink:type="simple">
+         10.1177/0309133308093606
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Valencia
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Balslev
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         C
+        </surname> 
+        <given-names>
+         GPYM
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        High tree alpha-diversity in Amazonian Ecuador
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        21
+       </fpage>–
+       <lpage>
+        28
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00115330" xlink:type="simple">
+         10.1007/BF00115330
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fung
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ma
+        </surname> 
+        <given-names>
+         FY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Siu
+        </surname> 
+        <given-names>
+         WL
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Hyperspectral data analysis for subtropical tree species recognition
+       </article-title>. 
+       <source>Geoscience and Remote Sensing Symposium Proceedings, 1998. IGARSS ‘98. 1998 IEEE International. Vol. 
+       <volume>
+        3
+       </volume>. pp. 
+       <fpage>
+        1298
+       </fpage>–
+       <lpage>
+        1300
+       </lpage> vol.3. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/IGARSS.1998.691383" xlink:type="simple">
+         10.1109/IGARSS.1998.691383
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cochrane
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Using vegetation reflectance variability for species level classification of hyperspectral data
+       </article-title>. 
+       <source>Int J Remote Sens 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        2075
+       </fpage>–
+       <lpage>
+        2087
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1080/01431160050021303" xlink:type="simple">
+         10.1080/01431160050021303
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname> 
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Hyperspectral discrimination of tropical rain forest tree species at leaf to crown scales
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        375
+       </fpage>–
+       <lpage>
+        398
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2005.03.009" xlink:type="simple">
+         10.1016/j.rse.2005.03.009
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Castro-Esau
+        </surname> 
+        <given-names>
+         KL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname> 
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rivard
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname> 
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quesada
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Variability in leaf optical properties of Mesoamerican trees and the potential for species classification
+       </article-title>. 
+       <source>Am J Bot 
+       <volume>
+        93
+       </volume>: 
+       <fpage>
+        517
+       </fpage>–
+       <lpage>
+        530
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3732/ajb.93.4.517" xlink:type="simple">
+         10.3732/ajb.93.4.517
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21646212
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rivard
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Castro-Esau
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Intra- and inter-class spectral variability of tropical tree species at La Selva, Costa Rica: implications for species identification using HYDICE imagery
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        105
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        141
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2006.06.010" xlink:type="simple">
+         10.1016/j.rse.2006.06.010
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname> 
+        <given-names>
+         RE
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Canopy phylogenetic, chemical and spectral assembly in a lowland Amazonian forest
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        189
+       </volume>: 
+       <fpage>
+        999
+       </fpage>–
+       <lpage>
+        1012
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-8137.2010.03549.x" xlink:type="simple">
+         10.1111/j.1469-8137.2010.03549.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21118261
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname> 
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carranza-Jiménez
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sinca
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tupayachi
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname> 
+        <given-names>
+         CB
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Functional and biological diversity of foliar spectra in tree canopies throughout the Andes to Amazon region
+       </article-title>. 
+       <source>New Phytol 
+       <volume>
+        204
+       </volume>: 
+       <fpage>
+        127
+       </fpage>–
+       <lpage>
+        139
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/nph.12895" xlink:type="simple">
+         10.1111/nph.12895
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        24942328
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Castro-Esau
+        </surname> 
+        <given-names>
+         KL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname> 
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caelli
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Discrimination of lianas and trees with leaf-level hyperspectral data
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        353
+       </fpage>–
+       <lpage>
+        372
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2004.01.013" xlink:type="simple">
+         10.1016/j.rse.2004.01.013
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kalacska
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohlman
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sanchez-Azofeifa
+        </surname> 
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Castro-Esau
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Caelli
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Hyperspectral discrimination of tropical dry forest lianas and trees: comparative data reduction approaches at the leaf and canopy levels
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        406
+       </fpage>–
+       <lpage>
+        415
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2007.01.012" xlink:type="simple">
+         10.1016/j.rse.2007.01.012
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Somers
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Hyperspectral time series analysis of native and invasive species in Hawaiian rainforests
+       </article-title>. 
+       <source>Remote Sens 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        2510
+       </fpage>–
+       <lpage>
+        2529
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/rs4092510" xlink:type="simple">
+         10.3390/rs4092510
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Papeş
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tupayachi
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martínez
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peterson
+        </surname> 
+        <given-names>
+         AT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Seasonal variation in spectral signatures of five genera of rainforest trees
+       </article-title>. 
+       <source>IEEE J Sel Top Appl Earth Obs Remote Sens 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        339
+       </fpage>–
+       <lpage>
+        350
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/JSTARS.2012.2228468" xlink:type="simple">
+         10.1109/JSTARS.2012.2228468
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lucas
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bunting
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paterson
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chisholm
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Classification of Australian forest communities using aerial photography, CASI and HyMap data
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        112
+       </volume>: 
+       <fpage>
+        2088
+       </fpage>–
+       <lpage>
+        2103
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2007.10.011" xlink:type="simple">
+         10.1016/j.rse.2007.10.011
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dalponte
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruzzone
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gianelle
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Tree species classification in the Southern Alps based on the fusion of very high geometrical resolution multispectral/hyperspectral images and LiDAR data
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        123
+       </volume>: 
+       <fpage>
+        258
+       </fpage>–
+       <lpage>
+        270
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2012.03.013" xlink:type="simple">
+         10.1016/j.rse.2012.03.013
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Féret
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Tree species discrimination in tropical forests using airborne imaging spectroscopy
+       </article-title>. 
+       <source>IEEE Trans Geosci Remote Sens 
+       <volume>
+        51
+       </volume>: 
+       <fpage>
+        73
+       </fpage>–
+       <lpage>
+        84
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TGRS.2012.2199323" xlink:type="simple">
+         10.1109/TGRS.2012.2199323
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baldeck
+        </surname> 
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colgan
+        </surname> 
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Féret J-
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levick
+        </surname> 
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname> 
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Landscape-scale variation in plant community composition of an African savanna from airborne species mapping
+       </article-title>. 
+       <source>Ecol Appl 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        84
+       </fpage>–
+       <lpage>
+        93
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1890/13-0307.1" xlink:type="simple">
+         10.1890/13-0307.1
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        24640536
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Alonzo
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bookhagen
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roberts
+        </surname> 
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Urban tree species mapping using hyperspectral and lidar data fusion
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        148
+       </volume>: 
+       <fpage>
+        70
+       </fpage>–
+       <lpage>
+        83
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2014.03.018" xlink:type="simple">
+         10.1016/j.rse.2014.03.018
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baldeck
+        </surname> 
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Improving remote species identification through efficient training data collection
+       </article-title>. 
+       <source>Remote Sens 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        2682
+       </fpage>–
+       <lpage>
+        2698
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/rs6042682" xlink:type="simple">
+         10.3390/rs6042682
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nagendra
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rocchini
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        High resolution satellite imagery for tropical biodiversity studies: the devil is in the detail
+       </article-title>. 
+       <source>Biodivers Conserv 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        3431
+       </fpage>–
+       <lpage>
+        3442
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s10531-008-9479-0" xlink:type="simple">
+         10.1007/s10531-008-9479-0
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tax
+        </surname> 
+        <given-names>
+         DMJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duin
+        </surname> 
+        <given-names>
+         RPW
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Support vector domain description
+       </article-title>. 
+       <source>Pattern Recognit Lett 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        1191
+       </fpage>–
+       <lpage>
+        1199
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0167-8655(99)00087-2" xlink:type="simple">
+         10.1016/S0167-8655(99)00087-2
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Liu B, Dai Y, Li X, Lee WS, Yu PS (2003) Building text classifiers using positive and unlabeled examples. Third IEEE International Conference on Data Mining, 2003. ICDM 2003. pp. 179–186. doi:10.1109/ICDM.2003.1250918.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Foody
+        </surname> 
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Atkinson
+        </surname> 
+        <given-names>
+         PM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gething
+        </surname> 
+        <given-names>
+         PW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ravenhill
+        </surname> 
+        <given-names>
+         NA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kelly
+        </surname> 
+        <given-names>
+         CK
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Identification of specific tree species in ancient semi-natural woodland from digital aerial sensor imagery
+       </article-title>. 
+       <source>Ecol Appl 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        1233
+       </fpage>–
+       <lpage>
+        1244
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1890/04-1061" xlink:type="simple">
+         10.1890/04-1061
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Baldeck CA, Asner GP (in press) Single species detection with airborne imaging spectroscopy data: a comparison of support vector techniques. IEEE J Sel Top Appl Earth Obs Remote Sens. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/JSTARS.2014.2346475" xlink:type="simple">
+         10.1109/JSTARS.2014.2346475
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Féret
+        </surname> 
+        <given-names>
+         J-B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Semi-supervised methods to identify individual crowns of lowland tropical canopy species using imaging spectroscopy and LiDAR
+       </article-title>. 
+       <source>Remote Sens 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        2457
+       </fpage>–
+       <lpage>
+        2476
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Condit
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Watts
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohlman
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pérez
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Foster
+        </surname> 
+        <given-names>
+         RB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hubbell
+        </surname> 
+        <given-names>
+         SP
+        </given-names>
+       </name>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Quantifying the deciduousness of tropical forest canopies under varying climates
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        649
+       </fpage>–
+       <lpage>
+        658
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2307/3236572" xlink:type="simple">
+         10.2307/3236572
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref029">
+      <label>29</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Croat
+        </surname> 
+        <given-names>
+         TB
+        </given-names>
+       </name> (
+       <year>
+        1978
+       </year>) 
+       <chapter-title>
+        Flora of Barro Colorado Island
+       </chapter-title>. 
+       <publisher-loc>
+        Stanford, CA
+       </publisher-loc>: 
+       <publisher-name>
+        Stanford University Press
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref030">
+      <label>30</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garwood
+        </surname> 
+        <given-names>
+         NC
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <chapter-title>
+        Seedlings of Barro Colorado Island and the Neotropics
+       </chapter-title>. 
+       <publisher-loc>
+        Ithaca, NY
+       </publisher-loc>: 
+       <publisher-name>
+        Comstock Publishing Associates
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref031">
+      <label>31</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thorington
+        </surname> 
+        <given-names>
+         RW
+        </given-names> 
+        <suffix>
+         Jr
+        </suffix>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tannenbaum
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tarak
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rudran
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1982
+       </year>) 
+       <chapter-title>
+        Distribution of trees on Barro Colorado Island: a five hectare sample
+       </chapter-title>. In: 
+       <name name-style="western">
+        <surname>
+         Leigh
+        </surname> 
+        <given-names>
+         EG
+        </given-names> 
+        <suffix>
+         Jr
+        </suffix>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rand
+        </surname> 
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Windsor
+        </surname> 
+        <given-names>
+         DM
+        </given-names>
+       </name>, editors. 
+       <source>The ecology of a tropical forest: seasonal rythms and long-term changes. 
+       <publisher-name>
+        Smithsonian Institution Press
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref032">
+      <label>32</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schnitzer
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mangan
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dalling
+        </surname> 
+        <given-names>
+         JW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baldeck
+        </surname> 
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hubbell
+        </surname> 
+        <given-names>
+         SP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ledo
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Liana abundance, diversity, and distribution on Barro Colorado Island, Panama
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        e52114
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0052114" xlink:type="simple">
+         10.1371/journal.pone.0052114
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23284889
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref033">
+      <label>33</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ingwell
+        </surname> 
+        <given-names>
+         LL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Joseph
+        </surname> 
+        <given-names>
+         Wright S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Becklund
+        </surname> 
+        <given-names>
+         KK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hubbell
+        </surname> 
+        <given-names>
+         SP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schnitzer
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        The impact of lianas on 10 years of tree growth and mortality on Barro Colorado Island, Panama
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        98
+       </volume>: 
+       <fpage>
+        879
+       </fpage>–
+       <lpage>
+        887
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2745.2010.01676.x" xlink:type="simple">
+         10.1111/j.1365-2745.2010.01676.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref034">
+      <label>34</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knapp
+        </surname> 
+        <given-names>
+         DE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boardman
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Green
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kennedy-Bowdoin
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Carnegie Airborne Observatory-2: increasing science data dimensionality via high-fidelity multi-sensor fusion
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        124
+       </volume>: 
+       <fpage>
+        454
+       </fpage>–
+       <lpage>
+        465
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2012.06.012" xlink:type="simple">
+         10.1016/j.rse.2012.06.012
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref035">
+      <label>35</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Colgan
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Baldeck
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Féret
+        </surname> 
+        <given-names>
+         J-B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Asner
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Mapping savanna tree species at ecosystem scales using support vector machine classification and BRDF correction on airborne hyperspectral and LiDAR data
+       </article-title>. 
+       <source>Remote Sens 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        3462
+       </fpage>–
+       <lpage>
+        3480
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/rs4113462" xlink:type="simple">
+         10.3390/rs4113462
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref036">
+      <label>36</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kellner
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <chapter-title>
+        Population and community dynamics of tropical rain forest canopy trees Athens
+       </chapter-title>, 
+       <publisher-loc>
+        GA
+       </publisher-loc>: 
+       <publisher-name>
+        The University of Georgia
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref037">
+      <label>37</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Camps-Valls
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gómez-Chova
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Calpe-Maravilla
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martín-Guerrero
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soria-Olivas
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Robust support vector method for hyperspectral data classification and knowledge discovery
+       </article-title>. 
+       <source>IEEE Trans Geosci Remote Sens 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        1530
+       </fpage>–
+       <lpage>
+        1542
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TGRS.2004.827262" xlink:type="simple">
+         10.1109/TGRS.2004.827262
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref038">
+      <label>38</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Melgani
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruzzone
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Classification of hyperspectral remote sensing images with support vector machines
+       </article-title>. 
+       <source>IEEE Trans Geosci Remote Sens 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        1778
+       </fpage>–
+       <lpage>
+        1790
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TGRS.2004.831865" xlink:type="simple">
+         10.1109/TGRS.2004.831865
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref039">
+      <label>39</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mountrakis
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Im
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ogole
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Support vector machines in remote sensing: a review
+       </article-title>. 
+       <source>ISPRS J Photogramm Remote Sens 
+       <volume>
+        66
+       </volume>: 
+       <fpage>
+        247
+       </fpage>–
+       <lpage>
+        259
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.isprsjprs.2010.11.001" xlink:type="simple">
+         10.1016/j.isprsjprs.2010.11.001
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref040">
+      <label>40</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dalponte
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Orka
+        </surname> 
+        <given-names>
+         HO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gobakken
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gianelle
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Naesset
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Tree species classification in boreal forests with hyperspectral data
+       </article-title>. 
+       <source>IEEE Trans Geosci Remote Sens 
+       <volume>
+        51
+       </volume>: 
+       <fpage>
+        2632
+       </fpage>–
+       <lpage>
+        2645
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TGRS.2012.2216272" xlink:type="simple">
+         10.1109/TGRS.2012.2216272
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref041">
+      <label>41</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cortes
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vapnik
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Support-vector networks
+       </article-title>. 
+       <source>Mach Learn 
+       <volume>
+        20
+       </volume>: 
+       <fpage>
+        273
+       </fpage>–
+       <lpage>
+        297
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/BF00994018" xlink:type="simple">
+         10.1007/BF00994018
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref042">
+      <label>42</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vapnik
+        </surname> 
+        <given-names>
+         VN
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <chapter-title>
+        Statistical Learning Theory
+       </chapter-title>. 
+       <publisher-name>
+        Wiley
+       </publisher-name>. 736 p.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref043">
+      <label>43</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Aizerman
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Braverman
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rozoner
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        1964
+       </year>) 
+       <article-title>
+        Theoretical foundations of the potential function method in pattern recognition learning
+       </article-title>. 
+       <source>Autom Remote Control 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        821
+       </fpage>–
+       <lpage>
+        837
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref044">
+      <label>44</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Boser
+        </surname> 
+        <given-names>
+         BE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guyon
+        </surname> 
+        <given-names>
+         IM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vapnik
+        </surname> 
+        <given-names>
+         VN
+        </given-names>
+       </name> (
+       <year>
+        1992
+       </year>) 
+       <chapter-title>
+        A training algorithm for optimal margin classifiers
+       </chapter-title>. 
+       <source>Proceedings of the Fifth Annual Workshop on Computational Learning Theory. COLT ‘92. 
+       <publisher-loc>
+        New York, NY, USA
+       </publisher-loc>: 
+       <publisher-name>
+        ACM
+       </publisher-name>. pp. 
+       <fpage>
+        144
+       </fpage>–
+       <lpage>
+        152
+       </lpage>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.acm.org/10.1145/130385.130401" xlink:type="simple">
+        http://doi.acm.org/10.1145/130385.130401
+       </ext-link>. Accessed 5 March 2014.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref045">
+      <label>45</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Lee WS, Liu B (2003) Learning with positive and unlabeled examples using weighted logistic regression. Twentieth international conference on machine learning, ICML-2003. Vol. 3. pp. 448–455.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref046">
+      <label>46</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Muñoz-Marí
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bovolo
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gómez-Chova
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruzzone
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Camp-Valls
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Semisupervised one-class support vector machines for classification of remote sensing data
+       </article-title>. 
+       <source>IEEE Trans Geosci Remote Sens 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        3188
+       </fpage>–
+       <lpage>
+        3197
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TGRS.2010.2045764" xlink:type="simple">
+         10.1109/TGRS.2010.2045764
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref047">
+      <label>47</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sánchez-Azofeifa
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rivard
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wright
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Feng
+        </surname> 
+        <given-names>
+         J-L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Li
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chong
+        </surname> 
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Estimation of the distribution of Tabebuia guayacan (Bignoniaceae) using high-resolution remote sensing imagery
+       </article-title>. 
+       <source>Sensors 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        3831
+       </fpage>–
+       <lpage>
+        3851
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3390/s110403831" xlink:type="simple">
+         10.3390/s110403831
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        22163825
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref048">
+      <label>48</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Caillaud
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Crofoot
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Scarpino
+        </surname> 
+        <given-names>
+         SV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jansen
+        </surname> 
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Garzon-Lopez
+        </surname> 
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Winkelhagen
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Modeling the spatial distribution and fruiting pattern of a key tree species in a neotropical forest: methodology and potential applications
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        e15002
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0015002" xlink:type="simple">
+         10.1371/journal.pone.0015002
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21124927
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref049">
+      <label>49</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garzon-Lopez
+        </surname> 
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohlman
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Olff
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jansen
+        </surname> 
+        <given-names>
+         PA
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Mapping tropical forest trees using high-resolution aerial digital photographs
+       </article-title>. 
+       <source>Biotropica 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        308
+       </fpage>–
+       <lpage>
+        316
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/btp.12009" xlink:type="simple">
+         10.1111/btp.12009
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref050">
+      <label>50</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garzon-Lopez
+        </surname> 
+        <given-names>
+         CX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jansen
+        </surname> 
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohlman
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ordonez
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Olff
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Effects of sampling scale on patterns of habitat association in tropical trees
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        25
+       </volume>: 
+       <fpage>
+        349
+       </fpage>–
+       <lpage>
+        362
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/jvs.12090" xlink:type="simple">
+         10.1111/jvs.12090
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref051">
+      <label>51</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Duin
+        </surname> 
+        <given-names>
+         RPW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tax
+        </surname> 
+        <given-names>
+         DMJ
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <chapter-title>
+        Experiments with classifier combining rules. Multiple Classifier Systems
+       </chapter-title>. 
+       <source>Lecture Notes in Computer Science. 
+       <publisher-name>
+        Springer Berlin Heidelberg
+       </publisher-name>. pp. 
+       <fpage>
+        16
+       </fpage>–
+       <lpage>
+        29
+       </lpage>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://link.springer.com/chapter/10.1007/3-540-45014-9_2" xlink:type="simple">
+        http://link.springer.com/chapter/10.1007/3-540-45014-9_2
+       </ext-link>. Accessed 21 May 2014.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref052">
+      <label>52</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Muñoz-Marí
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bruzzone
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Camps-Valls
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        A support vector domain description approach to supervised classification of remote sensing images
+       </article-title>. 
+       <source>IEEE Trans Geosci Remote Sens 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        2683
+       </fpage>–
+       <lpage>
+        2692
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/TGRS.2007.897425" xlink:type="simple">
+         10.1109/TGRS.2007.897425
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref053">
+      <label>53</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gougeon
+        </surname> 
+        <given-names>
+         FA
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        A crown-following approach to the automatic delineation of individual tree crowns in high spatial resolution aerial images
+       </article-title>. 
+       <source>Can J Remote Sens 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        274
+       </fpage>–
+       <lpage>
+        284
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref054">
+      <label>54</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Meyer
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Staenzb
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ittena
+        </surname> 
+        <given-names>
+         KI
+        </given-names>
+       </name> (
+       <year>
+        1996
+       </year>) 
+       <article-title>
+        Semi-automated procedures for tree species identification in high spatial resolution data from digitized colour infrared-aerial photography
+       </article-title>. 
+       <source>ISPRS J Photogramm Remote Sens 
+       <volume>
+        51
+       </volume>: 
+       <fpage>
+        5
+       </fpage>–
+       <lpage>
+        16
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/0924-2716(96)00003-2" xlink:type="simple">
+         10.1016/0924-2716(96)00003-2
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref055">
+      <label>55</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McGraw
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Warner
+        </surname> 
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Key
+        </surname> 
+        <given-names>
+         TL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lamar
+        </surname> 
+        <given-names>
+         WR
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        High spatial resolution remote sensing of forest trees
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        300
+       </fpage>–
+       <lpage>
+        301
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        21238315
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref056">
+      <label>56</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leckie
+        </surname> 
+        <given-names>
+         DG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gougeon
+        </surname> 
+        <given-names>
+         FA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walsworth
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paradine
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Stand delineation and composition estimation using semi-automated individual tree crown analysis
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        355
+       </fpage>–
+       <lpage>
+        369
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/S0034-4257(03)00013-0" xlink:type="simple">
+         10.1016/S0034-4257(03)00013-0
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref057">
+      <label>57</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gong
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Biging
+        </surname> 
+        <given-names>
+         GS
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Individual tree-crown delineation and treetop detection in high-spatial-resolution aerial imagery
+       </article-title>. 
+       <source>Photogramm Eng Remote Sens 
+       <volume>
+        70
+       </volume>: 
+       <fpage>
+        351
+       </fpage>–
+       <lpage>
+        357
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.14358/PERS.70.3.351" xlink:type="simple">
+         10.14358/PERS.70.3.351
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref058">
+      <label>58</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bunting
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lucas
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        The delineation of tree crowns in Australian mixed species forests using hyperspectral Compact Airborne Spectrographic Imager (CASI) data
+       </article-title>. 
+       <source>Remote Sens Environ 
+       <volume>
+        101
+       </volume>: 
+       <fpage>
+        230
+       </fpage>–
+       <lpage>
+        248
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.rse.2005.12.015" xlink:type="simple">
+         10.1016/j.rse.2005.12.015
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref059">
+      <label>59</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Tochon G, Feret J, Martin RE, Tupayachi R, Chanussot J, Asner GP. (2012) Binary partition tree as a hyperspectral segmentation tool for tropical rainforests. Geoscience and Remote Sensing Symposium (IGARSS), 2012 IEEE International. pp. 6368–6371. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/IGARSS.2012.6352716" xlink:type="simple">
+         10.1109/IGARSS.2012.6352716
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0118403.ref060">
+      <label>60</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Ferreira MP, Zanotta DC, Zortea M, Korting TS, Fonseca LMG, Shimabukuro YE. (2014) Automatic tree crown delineation in tropical forest using hyperspectral data. Geoscience and Remote Sensing Symposium (IGARSS), 2014 IEEE International. pp. 784–787. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1109/IGARSS.2014.6946541" xlink:type="simple">
+         10.1109/IGARSS.2014.6946541
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

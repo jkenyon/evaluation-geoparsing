@@ -1,0 +1,4467 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-10-03809
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0017476
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subject>
+          Plant ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Plant science
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Plant Biology
+       </subject> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Functional Structure of Biological Communities Predicts Ecosystem Multifunctionality
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Community Structure &amp; Ecosystem Multifunctionality
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Mouillot
+        </surname> 
+        <given-names>
+         David
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Villéger
+        </surname> 
+        <given-names>
+         Sébastien
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Scherer-Lorenzen
+        </surname> 
+        <given-names>
+         Michael
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Mason
+        </surname> 
+        <given-names>
+         Norman W. H.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Laboratoire Ecologie des Systèmes Marins Côtiers UMR 5119, Université Montpellier 2, Montpellier, France
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Laboratoire Evolution et Diversité Biologique UMR 5174, Université Paul Sabatier, Toulouse, France
+      </addr-line> 
+     </aff>
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Faculty of Biology - Geobotany, University of Freiburg, Freiburg, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Landcare Research, Hamilton, New Zealand
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Romanuk
+        </surname> 
+        <given-names>
+         Tamara
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      Dalhousie University, Canada
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        david.mouillot@univ-montp2.fr
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: MSL. Performed the experiments: MSL. Analyzed the data: DM SV NWHM MSL. Contributed reagents/materials/analysis tools: DM SV NWHM MSL. Wrote the manuscript: DM SV NWHM MSL.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       10
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <volume>
+      6
+     </volume>
+     <issue>
+      3
+     </issue>
+     <elocation-id>
+      e17476
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        21
+       </day> 
+       <month>
+        10
+       </month> 
+       <year>
+        2010
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        3
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2011
+      </copyright-year>
+      <copyright-holder>
+       Mouillot et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>The accelerating rate of change in biodiversity patterns, mediated by ever increasing human pressures and global warming, demands a better understanding of the relationship between the structure of biological communities and ecosystem functioning (BEF). Recent investigations suggest that the functional structure of communities, i.e. the composition and diversity of functional traits, is the main driver of ecological processes. However, the predictive power of BEF research is still low, the integration of all components of functional community structure as predictors is still lacking, and the multifunctionality of ecosystems (i.e. rates of multiple processes) must be considered. Here, using a multiple-processes framework from grassland biodiversity experiments, we show that functional identity of species and functional divergence among species, rather than species diversity 
+       <italic>
+        per se
+       </italic>, together promote the level of ecosystem multifunctionality with a predictive power of 80%. Our results suggest that primary productivity and decomposition rates, two key ecosystem processes upon which the global carbon cycle depends, are primarily sustained by specialist species, i.e. those that hold specialized combinations of traits and perform particular functions. Contrary to studies focusing on single ecosystem functions and considering species richness as the sole measure of biodiversity, we found a linear and non-saturating effect of the functional structure of communities on ecosystem multifunctionality. Thus, sustaining multiple ecological processes would require focusing on trait dominance and on the degree of community specialization, even in species-rich assemblages.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       The BIODEPTH project ran from 1996 to 1998 and was funded by the European Commission within the Framework IV Environment and Climate programme (ENV-CT95-0008). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="9" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Ecosystems are facing ever increasing levels of human pressures which imperil the goods and services they provide to humanity. It is now recognized that both changes in environmental conditions (e.g., global warming) and modifications to biological communities (e.g., biodiversity erosion) affect ecosystem processes 
+     <xref ref-type="bibr" rid="pone.0017476-Chapin1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Hooper1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Smith1">
+      [3]
+     </xref>, the latter issue having stimulated convincing advances but also controversy 
+     <xref ref-type="bibr" rid="pone.0017476-Loreau1">
+      [4]
+     </xref>. During the last two decades the positive relationship between biodiversity and ecosystem functioning (BEF hereafter) has been demonstrated through experiments manipulating species composition in model assemblages 
+     <xref ref-type="bibr" rid="pone.0017476-Hooper1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Loreau1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Cardinale1">
+      [5]
+     </xref>. These studies helped to place the problems of environmental change and biodiversity loss into the mainstream political agenda 
+     <xref ref-type="bibr" rid="pone.0017476-Chapin2">
+      [6]
+     </xref>. However, there is an urgent need to move beyond the heuristic objective of early biodiversity experiments, and then to disentangle the contributions of the various components of biodiversity on ecosystem processes and, ultimately, to build a predictive framework for BEF research that can forecast the potential effects of biodiversity changes that all ecosystems on earth are experiencing.</p> 
+    <p>To reach this objective, at least two limitations remain. First, biodiversity has been recognized as a multidimensional concept 
+     <xref ref-type="bibr" rid="pone.0017476-Purvis1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Devictor1">
+      [8]
+     </xref> but many BEF studies rely solely on species richness for practical reasons and remain silent on the functional structure of communities. Yet, the functional trait composition of biological communities is a key component that most often explains ecosystem functioning better than species richness 
+     <italic>
+      per se
+     </italic> whatever the biota 
+     <xref ref-type="bibr" rid="pone.0017476-Hooper1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Danovaro1">
+      [9]
+     </xref>, a functional trait being any morphological, physiological or phenological feature, measurable at the individual level, that determines species effects on ecosystem properties 
+     <xref ref-type="bibr" rid="pone.0017476-Violle1">
+      [10]
+     </xref>. The limited predictive power of BEF research, even if biodiversity effects were demonstrated to be positive and significant 
+     <xref ref-type="bibr" rid="pone.0017476-Balvanera1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Tilman1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Hector1">
+      [13]
+     </xref>, is certainly due to the clear initial focus on testing diversity effects (mostly on the species richness level) irrespective of other compositional factors, such as species or functional identity, and the resultant lack of an integrative framework where different components of biodiversity were considered altogether as predictor variables. Second, the vast majority of BEF studies have focused on a single ecosystem process (e.g. productivity) while overall ecosystem functioning is sustained by several processes 
+     <xref ref-type="bibr" rid="pone.0017476-Reiss1">
+      [14]
+     </xref>. Recent results suggest that the effect of biodiversity in natural ecosystems may be much larger than currently thought if we consider a multiple-processes framework 
+     <xref ref-type="bibr" rid="pone.0017476-Hector2">
+      [15]
+     </xref>, .</p> 
+    <p>Taxonomic diversity, functional identity and functional diversity of ecological communities are each known to influence ecosystem processes but their relative effects remain largely untested, particularly in predicting rates of multiple ecosystem processes 
+     <xref ref-type="bibr" rid="pone.0017476-Hooper2">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Diaz1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Mokany1">
+      [20]
+     </xref>. Species richness was the first biodiversity component to be related to ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0017476-Tilman2">
+      [21]
+     </xref> supporting the hypothesis that species complementarity and sampling effects both enhance resource use and productivity. Then, species evenness, or how equitably abundance is distributed among species within a community, was demonstrated to positively influence productivity 
+     <xref ref-type="bibr" rid="pone.0017476-Wilsey1">
+      [22]
+     </xref>. The functionally orientated BEF research began as early as 1941 
+     <xref ref-type="bibr" rid="pone.0017476-Jenny1">
+      [23]
+     </xref> with the study of the effect of particular species functional traits (functional identity) on ecosystem processes (soil formation). Then, other authors have pointed out that ecosystem properties should primarily depend on the identity of dominant species and their functional traits following the ‘mass ratio hypothesis’ 
+     <xref ref-type="bibr" rid="pone.0017476-Grime1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Hillebrand1">
+      [25]
+     </xref>. Indeed, functional identity, usually expressed as the biomass-weighted mean trait value for a community, has been demonstrated to be a key driver of ecosystem functioning from local 
+     <xref ref-type="bibr" rid="pone.0017476-Mokany1">
+      [20]
+     </xref> to regional 
+     <xref ref-type="bibr" rid="pone.0017476-Garnier1">
+      [26]
+     </xref> and global 
+     <xref ref-type="bibr" rid="pone.0017476-Cornwell1">
+      [27]
+     </xref> scales. Beyond functional identity, functional diversity, defined as the diversity and abundance distribution of traits within a community 
+     <xref ref-type="bibr" rid="pone.0017476-Mason1">
+      [28]
+     </xref>, has been shown to be an accurate predictor of ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0017476-Tilman3">
+      [29]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-Hooper3">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen1">
+      [31]
+     </xref>, reinforcing the importance of niche complementarity for enhancing ecosystem processes 
+     <xref ref-type="bibr" rid="pone.0017476-Fargione1">
+      [32]
+     </xref>.</p> 
+    <p>All these biodiversity components are not mutually exclusive but are unlikely to exert equal influence on ecosystem processes and on the multifunctionality of ecosystems. Thus the question is no longer whether each of the three components of biodiversity (taxonomic diversity, functional identity and functional diversity) matters but whether it still matters after removing the effect of two other components? In other words, we examined the additional effect of each biodiversity component on the prediction of ecosystem processes to determine whether each component has an essential and complementary contribution to the explanation of ecosystem multifunctionality. Further, by including the eight biodiversity indices, embracing all aspects of taxonomic and functional structure of communities, we built a minimum adequate model that reached an unprecedented level of explanatory power with functional identity and functional diversity together as predictor variables of multiple ecosystem processes. Finally, we implemented structural equation models to explore both causal and spurious associations between predictors of ecosystem processes.</p> 
+    <p>We used data on several ecosystem processes including biomass production and decomposition trials within the German BIODEPTH experiment (BIODiversity and Ecological Processes in Terrestrial Herbaceous Ecosystems) to predict the effects of biodiversity change on ecosystem functioning. This experiment allows testing all components of biodiversity given that, for each species richness level, different species combinations were constructed.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Experiment</title> 
+     <p>Data have been collected at the German site of the pan-European BIODEPTH project 
+      <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen2">
+       [33]
+      </xref>. A gradient of plant species richness and number of functional groups (grasses, legumes, non-leguminous herbs) was created by sowing mixtures containing 1, 2, 4, 8 or 16 species, typically found in mid-European hay meadows (total species pool was 31 species). Total seed density was 2,000 viable seeds per m<sup>2</sup>, equally divided among all species following a substitutive replacement series design. Each diversity level was replicated with several mixtures differing in species composition. The whole experiment was replicated in a second block with new randomization of plots, yielding a total of 60 plots of 2×2 m in size. Unsown seedlings were continuously weeded, and the plots were not fertilized. Among the 60 plots, we retained only 26 since we had to select only those with species richness ranging from 4 to 16 species to be able to estimate indices of functional community structure. Indeed, there is no functional volume (functional richness index) with 1 or 2 species. As an alternative, we should use the Functional Diversity (FD) index 
+      <xref ref-type="bibr" rid="pone.0017476-Petchey1">
+       [34]
+      </xref>, based on a dendrogram, to cope with species poor communities (less than 3 species) and thus use the entire range of species richness available in BIODEPTH. However, the building of functional dendrograms is contentious 
+      <xref ref-type="bibr" rid="pone.0017476-Mouchet1">
+       [35]
+      </xref> and we cannot estimate the other functional diversity components (those including species abundances) with this approach.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Ecosystem processes</title> 
+     <p>Among the ecological processes that were measured at the German BIODEPTH site we selected those that were relatively independent (mean correlation over all selected processes was 0.5) since two highly correlated processes would be trivially ruled by the same biodiversity components. The response variables were cotton decomposition in 1997 and 1998, litter decomposition in 1998, productivity in 1997 and 1998, and nitrogen pool size in aboveground biomass 1998. Cotton decomposition trials are a standard method to test for effects of microenvironmental conditions on decomposition processes. It was measured as dry weight loss (g.g<sup>−1</sup>.d<sup>−1</sup>) of a standard cotton fabric using strips of 5×12 cm (Shirley Soil Burial Test Fabric, c. 95% cellulose; initial nitrogen concentration of 0.09%) during 10 weeks of field exposure in all experimental communities, with three strips per plot 
+      <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen1">
+       [31]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0017476-Spehn1">
+       [36]
+      </xref>. Litter decomposition was the dry weight loss (g.g<sup>−1</sup>.d<sup>−1</sup>) of plot-specific senescent leaf and stem material, sealed in litter bags of 5×5 cm made of a 0.5 mm nylon mesh, during 10 weeks in autumn 1998.</p> 
+     <p>Macrofauna was excluded with this mesh size. Assuming an equal effect of a small mesh size in all treatments, excluding one decomposer group should not have an effect on our results. This assumption might not be true in case of a diversity effect on macrofauna occurrence. In another experiment, carried out on the same plots and half a year later, we could show, however, that several indices of soil fauna, including different groups of earthworms (litter feeding epigeics and anecics) and nematodes, were not influenced by our plant diversity treatments 
+      <xref ref-type="bibr" rid="pone.0017476-Gastine1">
+       [37]
+      </xref>.</p> 
+     <p>The litter bags were placed in a homogeneous patch of an adjacent meadow, thus quantifying the effect of community-specific litter composition and quality on decomposition processes, independent of differences in microenvironmental conditions induced by the experimental communities. Thus, both decomposition trials independently quantified different pathways of potential diversity effects on decomposition processes 
+      <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen1">
+       [31]
+      </xref>. Productivity was the sum of two harvests per year (June and September) in 1997 and 1998, as a proxy for annual biomass production (dry weight, g.m<sup>−2</sup>). Standing biomass was cut at a height of 5 cm in two areas of 0.5 m×0.2 m each within a permanent quadrat placed in the center of each plot 
+      <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen2">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0017476-Spehn1">
+       [36]
+      </xref>. Nitrogen pool size in aboveground biomass 1998 was the nitrogen content in dried aboveground biomass of the year 1998, calculated as the product of N concentration and biomass (gN.m<sup>−2</sup>). Nitrogen was measured by dry combustion with an automated C/N analyzer (Carlo Erba NA 1500, Carlo Erba, Mailand, Italy) 
+      <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen2">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0017476-Spehn1">
+       [36]
+      </xref>. We also calculated a multifunctionality variable as the mean performance of communities over the four processes after standardizing each community performance (mean of 0 and standard deviation of 1) in order to give them the same weight. When the same process was measured for two years we first calculated a mean value for this process over the two years.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Functional traits</title> 
+     <p>The selected traits were growth form: caespitosa, reptantia, scandentia, semirosulata and rosulata; leaf size: nanophyllous (20–200 mm<sup>2</sup>), microphyllous (2–6 cm<sup>2</sup>), submicrophyllous (6–20 cm<sup>2</sup>) and mesophyllous (20–100 cm<sup>2</sup>); leaf seasonality: summergreen, partly evergreen and evergreen, CN ratio of plant litter 
+      <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen1">
+       [31]
+      </xref>; SLA based on measurements in another biodiversity experiment 
+      <xref ref-type="bibr" rid="pone.0017476-Heisse1">
+       [38]
+      </xref>; and leaf angle: predominantly vertical leaf orientation, predominantly inclined leaf orientation and predominantly horizontal leaf orientation 
+      <xref ref-type="bibr" rid="pone.0017476-Heisse1">
+       [38]
+      </xref>. See 
+      <xref ref-type="supplementary-material" rid="pone.0017476.s001">
+       Table S1
+      </xref> for details by species.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Indices for community structure</title> 
+     <p>We considered two independent variables related to taxonomic composition: species richness and the evenness of abundance distribution among species using the Pielou index 
+      <xref ref-type="bibr" rid="pone.0017476-Legendre1">
+       [39]
+      </xref>. Since we have both quantitative and qualitative traits, we performed a Principal Coordinate Analysis (PCoA) on a Gower distance matrix to provide three independent axes that summarize species distribution within a trait functional space 
+      <xref ref-type="bibr" rid="pone.0017476-Legendre1">
+       [39]
+      </xref>. The functional structure of each community was assessed within this 3-dimensional PCoA space which represents more than 90% of the total inertia. These three independent functional axes from PCoA were used to measure functional identity through biomass-weighted mean trait values for each community.</p> 
+     <p>Three independent variables were related to functional diversity 
+      <xref ref-type="bibr" rid="pone.0017476-Villeger1">
+       [40]
+      </xref> (
+      <xref ref-type="fig" rid="pone-0017476-g001">
+       Figure 1
+      </xref>). Functional richness was measured as the amount of functional space filled by the community which is the volume inside the convex hull that contains all trait combinations represented in the community, which basically corresponds to a multivariate functional range 
+      <xref ref-type="bibr" rid="pone.0017476-Villeger1">
+       [40]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0017476-Cornwell2">
+       [41]
+      </xref>. Functional evenness was estimated as the regularity of abundance distribution in the multidimensional functional space, i.e. the regularity with which species abundances fill the functional space. Finally, functional divergence quantified whether higher abundances are close to the volume borders, i.e. whether specialist species 
+      <italic>
+       sensu
+      </italic> Elton 
+      <xref ref-type="bibr" rid="pone.0017476-Devictor2">
+       [42]
+      </xref> have the highest abundances. See 
+      <xref ref-type="supplementary-material" rid="pone.0017476.s003">
+       Text S1
+      </xref> for details on functional diversity indices.</p> 
+     <fig id="pone-0017476-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0017476.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Geometrical presentation of functional diversity indices.</title> 
+      <p>For simplicity, only two traits are considered to define a two-dimensional functional space. For the 6 panels, a local community of 10 species (dark disks) is considered among a regional pool of 25 species (grey crosses). Species are plotted in this space according to their respective trait values while the circle areas are proportional to their abundances. Functional diversity of a community is thus the distribution of species and of their abundances in this functional space. Functional richness is the functional space occupied by the community, functional evenness is the regularity in the distribution of species abundances in the functional space and functional divergence quantifies how species abundances diverge from the centre of the functional space. For each component of functional diversity, two contrasting communities are represented, the right column showing an increase of the index value. More details on indices can be found in 
+       <xref ref-type="supplementary-material" rid="pone.0017476.s003">
+        Text S1
+       </xref>.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.g001" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Statistical analyses</title> 
+     <p>In order to disentangle the relative effect of each biodiversity component on ecosystem processes, several alternative nested models were tested. We used the generalized likelihood ratio test 
+      <xref ref-type="bibr" rid="pone.0017476-Burnham1">
+       [43]
+      </xref> to determine whether each biodiversity component has a significant additional contribution to the explanation of ecosystem processes. Then the parsimony of each model was assessed using the AICc criteria given the ratio between the number of observations (26) and the number of variables (8) 
+      <xref ref-type="bibr" rid="pone.0017476-Burnham1">
+       [43]
+      </xref>.</p> 
+     <p>In order to prioritize the biodiversity indices related to ecosystem processes, and to investigate their effects (coefficients), we followed a multiple regression approach. Starting with a full model including all 8 indices, the relative importance of indices was assessed using a backward selection procedure. The significance of the increase in deviance resulting from the deletion of a variable in the model was estimated using the chi-squared deletion test 
+      <xref ref-type="bibr" rid="pone.0017476-Chatterjee1">
+       [44]
+      </xref>. The minimal adequate model was selected as the one containing nothing but significant variables. For each response variable (ecosystem process), we performed multiple regressions and we then selected the minimal adequate model. We did not rely on classical AIC, BIC or AICc criteria to select the most parsimonious model, i.e. the one offering an optimal trade-off between increased information (number of explicative variables) and decreased reliability (goodness-of-fit), since the number of potential models with 8 predictors vastly exceeds the number of observations 
+      <xref ref-type="bibr" rid="pone.0017476-Chatterjee1">
+       [44]
+      </xref>. This may lead to spurious model selection results 
+      <xref ref-type="bibr" rid="pone.0017476-Burnham1">
+       [43]
+      </xref>.</p> 
+     <p>To correctly estimate the influence of each biodiversity index on ecosystem processes we need to rely on independent biodiversity predictors, since the inherent collinearity among explanatory variables has blurred many statistical and inferential interpretations in ecology 
+      <xref ref-type="bibr" rid="pone.0017476-Graham1">
+       [45]
+      </xref>. This potential multicollinearity among predictive variables was tested using the variance inflation factor (VIF) 
+      <xref ref-type="bibr" rid="pone.0017476-Fox1">
+       [46]
+      </xref>.</p> 
+     <p>However, even if VIF values are lower than 10, we may still obtain significant biases in parameter estimates and low statistical power, potentially impairing the identification of significant effects and invalidating approaches assuming no collinearity among predictor variables 
+      <xref ref-type="bibr" rid="pone.0017476-Graham1">
+       [45]
+      </xref>. To examine the role of co-varying factors, we constructed and applied structural equation models (SEMs) for each ecosystem process. This allows direct and indirect effects of the variables of interest to be teased apart and has already applied in BEF research 
+      <xref ref-type="bibr" rid="pone.0017476-Mokany1">
+       [20]
+      </xref>. On one hand, taxonomic diversity or species composition may have significant effects on ecosystem processes but they should be driven by relationships with functional community structure 
+      <xref ref-type="bibr" rid="pone.0017476-Loreau1">
+       [4]
+      </xref>. On the other hand, taxonomic diversity is not expected to be perfectly correlated with functional structure 
+      <xref ref-type="bibr" rid="pone.0017476-Gastine1">
+       [37]
+      </xref>. SEMs allow us to test simultaneously how well functional structure accounts for any effects of taxonomic diversity on EF, and how strongly taxonomic diversity influences functional structure. This will ultimately provide a causal framework linking taxonomic diversity and EF via functional community structure.</p> 
+     <p>All statistical analyses were carried out using R software and packages ‘qpcR’, ‘car’ and ‘lavaan’.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Contribution of each biodiversity component</title> 
+     <p>First we ran four linear models for each ecosystem process: the full model including taxonomic diversity (TD), functional identity (FI) and functional diversity (FD) with 8 biodiversity indices (TD+FI+FD), the model without any taxonomic component (FI+FD) where species richness and evenness were removed, the model without any functional identity component (TD+FD) where the biomass-weighted mean trait values were removed, and the model without any functional diversity component (TD+FI) where the 3 functional diversity indices were removed. The most parsimonious model, according to the AICc criteria, was the model without any taxonomic component for all processes but litter decomposition (
+      <xref ref-type="table" rid="pone-0017476-t001">
+       Table 1
+      </xref>). This FI+FD model also provided the highest adjusted 
+      <italic>
+       R
+       <sup>2</sup>
+      </italic> values whatever the process except litter decomposition and productivity in 1997 (
+      <xref ref-type="table" rid="pone-0017476-t001">
+       Table 1
+      </xref>).</p> 
+     <table-wrap id="pone-0017476-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0017476.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Summary of model comparisons for each ecosystem process as well as multifunctionality.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0017476-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.t001" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Process</td> 
+          <td align="left" colspan="1" rowspan="1">Model</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            df
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            AICc
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            R
+            <sup>2</sup>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            p
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">Test</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            L.Ratio
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            p
+           </italic> </td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Cottondecom 97</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">16</td> 
+          <td align="left" colspan="1" rowspan="1">−216.9</td> 
+          <td align="left" colspan="1" rowspan="1">0.25</td> 
+          <td align="left" colspan="1" rowspan="1">0.114</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">18</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            −227.0
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.313
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">0.041</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">0.243</td> 
+          <td align="left" colspan="1" rowspan="1">0.787</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1">−226.9</td> 
+          <td align="left" colspan="1" rowspan="1">0.225</td> 
+          <td align="left" colspan="1" rowspan="1">0.076</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">1.205</td> 
+          <td align="left" colspan="1" rowspan="1">0.340</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1">−222.1</td> 
+          <td align="left" colspan="1" rowspan="1">0.059</td> 
+          <td align="left" colspan="1" rowspan="1">0.306</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">2.612</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.087
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Cottondecom 98</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">−229.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.29</td> 
+          <td align="left" colspan="1" rowspan="1">0.073</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            −239.5
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.354
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">0.022</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">0.149</td> 
+          <td align="left" colspan="1" rowspan="1">0.863</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">−238.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.256</td> 
+          <td align="left" colspan="1" rowspan="1">0.049</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">1.320</td> 
+          <td align="left" colspan="1" rowspan="1">0.301</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">−228.2</td> 
+          <td align="left" colspan="1" rowspan="1">0.119</td> 
+          <td align="left" colspan="1" rowspan="1">0.794</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">4.838</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.013
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Litterdecom</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">−291.9</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.648
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1">−295.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.599</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">2.317</td> 
+          <td align="left" colspan="1" rowspan="1">0.129</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">−297.0</td> 
+          <td align="left" colspan="1" rowspan="1">0.572</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">2.436</td> 
+          <td align="left" colspan="1" rowspan="1">0.100</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            −298.1
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">0.589</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">2.124</td> 
+          <td align="left" colspan="1" rowspan="1">0.135</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Productivity 97</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">368.1</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.794
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            361.2
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">0.791</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">1.139</td> 
+          <td align="left" colspan="1" rowspan="1">0.344</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">367.6</td> 
+          <td align="left" colspan="1" rowspan="1">0.701</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">4.030</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.025
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">362.9</td> 
+          <td align="left" colspan="1" rowspan="1">0.751</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">2.418</td> 
+          <td align="left" colspan="1" rowspan="1">0.102</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Productivity 98</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">367.0</td> 
+          <td align="left" colspan="1" rowspan="1">0.713</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            358.4
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.725
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">0.594</td> 
+          <td align="left" colspan="1" rowspan="1">0.563</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">358.6</td> 
+          <td align="left" colspan="1" rowspan="1">0.695</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">1.413</td> 
+          <td align="left" colspan="1" rowspan="1">0.273</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">367.5</td> 
+          <td align="left" colspan="1" rowspan="1">0.567</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">4.381</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.019
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Npool bm 98</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">131.3</td> 
+          <td align="left" colspan="1" rowspan="1">0.823</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            122.2
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.834
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">0.363</td> 
+          <td align="left" colspan="1" rowspan="1">0.701</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">127.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.77</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">2.980</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.061
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">134.9</td> 
+          <td align="left" colspan="1" rowspan="1">0.698</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">5.689</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.007
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Multifunctionality</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">51.3</td> 
+          <td align="left" colspan="1" rowspan="1">0.751</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">19</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            42.8
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.762
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. FI+FD</td> 
+          <td align="left" colspan="1" rowspan="1">0.552</td> 
+          <td align="left" colspan="1" rowspan="1">0.586</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">47.7</td> 
+          <td align="left" colspan="1" rowspan="1">0.679</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FD</td> 
+          <td align="left" colspan="1" rowspan="1">2.916</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.064
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">20</td> 
+          <td align="left" colspan="1" rowspan="1">52.1</td> 
+          <td align="left" colspan="1" rowspan="1">0.62</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">TD+FI+FD vs. TD+FI</td> 
+          <td align="left" colspan="1" rowspan="1">4.495</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            0.017
+           </bold> </td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>The weight of support for the alternative models (TD: taxonomic diversity, FI: functional identity, FD: functional diversity) and estimates of model parameters for each ecosystem process (Cottondecomp: cotton decomposition, Litterdecom 98: litter decomposition in 1998, Productivity: productivity as annual biomass production, Npool bm: nitrogen pool size in aboveground biomass, Multifunctionality: mean performance over all processes). Results of likelihood ratio tests comparing nested models (
+         <italic>
+          L.Ratio
+         </italic>) and associated p-values. Adjusted 
+         <italic>
+          R
+          <sup>2</sup>s
+         </italic> for the ordinary least squares regression models and p-value associated to the multiple regressions are presented. The lowest AICc value for each process, the highest adjusted 
+         <italic>
+          R
+          <sup>2</sup>
+         </italic> and the significant differences between models (
+         <italic>
+          p
+         </italic>&lt;0.1) are in bold.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>Then, we examined whether each of the three biodiversity components added a significant contribution to the explanation of ecosystem processes using generalized likelihood-ratio tests comparing nested models. The taxonomic component (richness and evenness) never made an additional contribution to the explanation of ecosystem processes since the FI+FD model was not significantly outperformed by any full model (TD+FI+FD) with all 8 indices (
+      <xref ref-type="table" rid="pone-0017476-t001">
+       Table 1
+      </xref>). Conversely, functional identity and functional diversity added a significant contribution for, respectively, 3 and 5 processes. We found that all variance inflation factors were lower than the critical heuristic value of 10 suggesting that collinearity among explanatory variables did not strongly affect our results (see 
+      <xref ref-type="supplementary-material" rid="pone.0017476.s002">
+       Table S2
+      </xref> for values by predictor).</p> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Selection of the minimal adequate model and its explanatory power</title> 
+     <p>For each ecosystem process, we performed a multiple regression including the 8 indices as predictive variables with a backward procedure to select the minimal adequate model (
+      <xref ref-type="table" rid="pone-0017476-t002">
+       Table 2
+      </xref>). Biodiversity indices explained significantly, albeit weakly, cotton decomposition (
+      <italic>
+       R
+      </italic><sup>2</sup> = 0.34–0.42) but only functional aspects of community structure were retained in the minimal adequate model, with functional divergence having the main effect (positive) over the two years. For litter decomposition, 69% of the variation was explained by community structure with a combination of three indices: species evenness, functional identity on the second axis and functional divergence, the latter having a positive influence. More interestingly, up to 82% of the variation in productivity was explained by community structure with consistent effects of functional divergence and functional identity (first and second axis) over the two years. Similarly, the functional structure of communities explained nitrogen pool size at 84%, with a predominant positive effect of functional divergence, while species richness was not retained in the final model. Finally, 80% of the level of multifunctionality was explained by only three variables: functional identity (first and third PCoA axes) and functional divergence, with functional divergence having the greatest influence (positive). In other words, the aggregated mean position of the community within functional trait space in combination with functional divergence accurately predicts the level of ecosystem multifunctionality. 
+      <xref ref-type="fig" rid="pone-0017476-g002">
+       Figure 2a
+      </xref> shows the influence of position in functional space for multifunctionality, with communities having higher values than −0.1 on the first PCoA axis also have higher levels of multifunctionality than the others while communities with low values on both the first and third PCoA axes have a low average multifunctionality values. In addition, all communities with high functional divergence values (&gt;0.85) show high multifunctionality levels (
+      <xref ref-type="fig" rid="pone-0017476-g002">
+       Figure 2b
+      </xref>).</p> 
+     <fig id="pone-0017476-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0017476.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Relationships between community structure and ecosystem multifunctionality.</title> 
+      <p>(A) Multifunctionality performance of each community in the functional trait space (first and third axes of the PCoA – PCoA 1 and PCoA 3 respectively). (A) Multifunctionality performance against functional divergence (FDiv). Circle sizes are proportional to performance of communities. See 
+       <xref ref-type="table" rid="pone-0017476-t001">
+        Table 1
+       </xref> for associated statistics.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.g002" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0017476-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0017476.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Summary of the minimal adequate models.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0017476-t002-2" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.t002" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">S</td> 
+          <td align="left" colspan="1" rowspan="1">E</td> 
+          <td align="left" colspan="1" rowspan="1">PC1</td> 
+          <td align="left" colspan="1" rowspan="1">PC2</td> 
+          <td align="left" colspan="1" rowspan="1">PC3</td> 
+          <td align="left" colspan="1" rowspan="1">FRic</td> 
+          <td align="left" colspan="1" rowspan="1">FEve</td> 
+          <td align="left" colspan="1" rowspan="1">FDiv</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            R
+           </italic> <sup>2</sup> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            p
+           </italic> </td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Cottondecom 97</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−2.0*</td> 
+          <td align="left" colspan="1" rowspan="1">−2.1
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">−1.9*</td> 
+          <td align="left" colspan="1" rowspan="1">3.6
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.34</td> 
+          <td align="left" colspan="1" rowspan="1">0.0140</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Cottondecom 98</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−2.3
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−4.1
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">2.5
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.42</td> 
+          <td align="left" colspan="1" rowspan="1">0.0016</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Litterdecom homo</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−3.1
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">2.4
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">−1.7*</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">2.9
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.69</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Productivity 97</td> 
+          <td align="left" colspan="1" rowspan="1">2.3
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">3.8
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−2.8
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">2.7
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.82</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Productivity 98</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">1.8*</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−2.2
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">3.0
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">2.4
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.75</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Npool bm 98</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">3.1
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−2.8
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">2.4
+           <xref ref-type="table-fn" rid="nt104">
+            **
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">3.4
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.84</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Multifunctionality</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">3.0
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−3.5
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">4.2
+           <xref ref-type="table-fn" rid="nt105">
+            ***
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">0.80</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.0001</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt102"> 
+        <label></label> 
+        <p>Results of regressions of ecosystem processes (Cottondecomp: cotton decomposition, Litterdecom 98: litter decomposition in 1998, Productivity: productivity as annual biomass production, Npool bm: nitrogen pool size in aboveground biomass, Multifunctionality: mean performance over all processes) against 8 biodiversity indices (S: species richness, E: species evenness, PC1 PC2 and PC3: aggregated mean trait values along three PCoA axes, FRic: functional richness, FEve: functional evenness, FDiv: functional divergence). 
+         <italic>
+          t
+         </italic>-value for each selected variable, adjusted 
+         <italic>
+          R
+         </italic><sup>2</sup>s for the ordinary least squares regression models and 
+         <italic>
+          p
+         </italic>-value associated to the multiple regressions are presented. Explanatory variables (biodiversity indices) were selected using a backward selection procedure starting with a maximal model towards the one containing nothing but significant terms (
+         <italic>
+          p
+         </italic>&lt;0.1).</p> 
+       </fn> 
+       <fn id="nt103"> 
+        <label></label> 
+        <p>
+         <italic>
+          p
+         </italic>&lt;0.1,</p> 
+       </fn> 
+       <fn id="nt104"> 
+        <label></label> 
+        <p>**
+         <italic>
+          p
+         </italic>&lt;0.05,</p> 
+       </fn> 
+       <fn id="nt105"> 
+        <label></label> 
+        <p>***
+         <italic>
+          p
+         </italic>&lt;0.01.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>
+      <xref ref-type="fig" rid="pone-0017476-g003">
+       Figure 3
+      </xref> shows two communities containing the same number of species (8) with extreme values along the gradient of multifunctionality level (community 
+      <italic>
+       a
+      </italic>&gt;community 
+      <italic>
+       b
+      </italic>). In the high functioning community 
+      <italic>
+       a
+      </italic>, all the dominant species are specialists (
+      <italic>
+       i.e.
+      </italic> with extreme combinations of traits), which contributes to a high functional divergence value. Community 
+      <italic>
+       a
+      </italic> also has a higher mean value on the first PCoA axis of all communities (indicated by the black triangle in 
+      <xref ref-type="fig" rid="pone-0017476-g003">
+       Figure 3a
+      </xref>). Conversely, the low functioning community 
+      <italic>
+       b
+      </italic> has a lower functional divergence value with some dominant species being generalists (i.e. close to the center of the functional space occupied by the community) that are functionally redundant (
+      <xref ref-type="fig" rid="pone-0017476-g003">
+       Figure 3b
+      </xref>). This community has also a lower mean value on the first PCoA axis.</p> 
+     <fig id="pone-0017476-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0017476.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Two species communities represented in functional space with contrasting multifunctionality levels.</title> 
+      <p>Two 8-species communities of our experiment with the highest multifunctionality level (a) and the lowest (b). Positions of species are presented in the functional space (first and third PCoA axes). The black triangle labeled “Agg” represents the biomass-weighted mean trait values (aggregated trait) along the two PCoA axes while the lines represent the functional volume occupied by each community. The sizes of grey circles are proportional to species relative abundances. Full species names and trait values can be found in 
+       <xref ref-type="supplementary-material" rid="pone.0017476.s001">
+        Table S1
+       </xref>.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.g003" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Structural Equation Model</title> 
+     <p>Using a structural equation model (SEM) for ecosystem multifunctionality (models for other processes are provided in 
+      <xref ref-type="supplementary-material" rid="pone.0017476.s004">
+       Text S2
+      </xref>), we confirm that taxonomic composition of communities had no direct significant influence on ecosystem multifunctionality (
+      <xref ref-type="fig" rid="pone-0017476-g004">
+       Figure 4
+      </xref>); only functional identity (through first and third PCoA axes) and functional divergence had a significant direct effect with functional divergence having the greatest influence (positive). Taxonomic diversity did have a significant influence on the functional structure of communities, but the greatest effect was the positive influence of species richness on functional richness, which had no significant effect on multifunctionality. Functional indices were weakly related between each other and only two correlations were significant and positive (functional divergence and first PCoA axis, functional richness and second PCoA axis). The SEM illustrates that despite the co-linearity between the first PCoA axis and functional divergence, both indices had significant independent effects on multifunctionality.</p> 
+     <fig id="pone-0017476-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0017476.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Results of the structural equation model (SEM) linking the multifunctionality of ecosystems to biodiversity indices.</title> 
+      <p>(S: species richness, E: evenness in species abundances, PC1 PC2 and PC3: aggregated mean trait values along three PCoA axes, FRic: functional richness, FEve: functional evenness, FDiv: functional divergence.) Numbers next to unidirectional arrows are standardized slopes and those next to bidirectional arrows are correlations. Only significant effects or correlations are shown (
+       <italic>
+        * p
+       </italic>&lt;0.1, 
+       <italic>
+        ** p
+       </italic>&lt;0.05, 
+       <italic>
+        *** p
+       </italic>&lt;0.01). For detailed statistics and for each process, see 
+       <xref ref-type="supplementary-material" rid="pone.0017476.s004">
+        Text S2
+       </xref>.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.g004" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Our results demonstrate that biodiversity components differ greatly in their influence on ecosystem processes. The taxonomic component, after removing the effects of functional identity and diversity, has no additional effect on processes with consistently low and non significant likelihood-ratio values (
+     <xref ref-type="table" rid="pone-0017476-t001">
+      Table 1
+     </xref>). In addition, species richness and evenness were rarely retained in the minimal adequate model (
+     <xref ref-type="table" rid="pone-0017476-t002">
+      Table 2
+     </xref>) or by the SEM (
+     <xref ref-type="fig" rid="pone-0017476-g004">
+      Figure 4
+     </xref>) for their direct influence on ecosystem processes (
+     <xref ref-type="supplementary-material" rid="pone.0017476.s004">
+      Text S2
+     </xref>). This result can be partly explained by the positive relationship between functional richness and species richness (
+     <xref ref-type="fig" rid="pone-0017476-g004">
+      Figure 4
+     </xref>) 
+     <xref ref-type="bibr" rid="pone.0017476-Villeger1">
+      [40]
+     </xref> since communities with more species are more likely to hold a higher diversity of traits and thus perform more functions 
+     <xref ref-type="bibr" rid="pone.0017476-Halpern1">
+      [47]
+     </xref>. Therefore, the additional effect of species richness is likely to be weak after removing the effect of functional richness. Similarly, species evenness has no significant influence on ecosystem processes (except litter decomposition) but it influences the functional structure of communities as revealed by the SEM analysis (
+     <xref ref-type="fig" rid="pone-0017476-g004">
+      Figure 4
+     </xref>). We conclude that while the influence of taxonomic structure on ecosystem processes is less important than that of functional identity and diversity, taxonomic composition mediates functional structure. This implies that the taxonomic composition of communities may have indirect effects on ecosystem processes since they are not their proximate, but partly their ultimate, drivers.</p> 
+    <p>While it remains difficult to provide a definite mechanistic explanation for the relationship between functional structure and multifunctionality, existing literature and our own observations may provide some clues. Two of the key functional traits for explaining multifunctionality were leaf phenology (evergreen vs. partly evergreen vs. summergreen) and leaf inclination. There is only very little evidence that increased phenological complementarity can have a positive effect on annual productivity in early successional forb communities, although such an effect might be stronger at low levels of species richness 
+     <xref ref-type="bibr" rid="pone.0017476-Stevens1">
+      [48]
+     </xref>. Evergreen species at our site might have some photosynthetic activity during mild winter days, but biomass production is very low until the onset of spring. Some of the evergreen or partly evergreen species, however, shown an early onset of growth in spring with an early peak in the season (e.g. 
+     <italic>
+      Alopecurus pratensis
+     </italic>, 
+     <italic>
+      Plantago lanceolata
+     </italic>), while the summergreen species have a tendency to peak later in the year (e.g. 
+     <italic>
+      Centaurea jacea
+     </italic>, 
+     <italic>
+      Geranium pratense
+     </italic>). Thus, this temporal complementarity of growth might have induced higher productivity with higher functional divergence in leaf phenology. Variability in leaf inclination is known to enhance the photosynthetic light capture of individual tree crowns (e.g. 
+     <xref ref-type="bibr" rid="pone.0017476-Posada1">
+      [49]
+     </xref>), while in a study of mixed red clover (
+     <italic>
+      Trifolium pratense
+     </italic>) and tall fescue (
+     <italic>
+      Festuca arundinacea
+     </italic>) canopy differences in leaf inclination between the two species increase equality in light partitioning between the taller fescue and shorter clover 
+     <xref ref-type="bibr" rid="pone.0017476-Sonohat1">
+      [50]
+     </xref>. In our model plant community, the influence of functional divergence on productivity may be due to temporal and spatial partitioning in light capture via complementarity in phenology and leaf inclination, respectively.</p> 
+    <p>In a previous study on the same site, it has been shown that increasing functional diversity positively influences decomposition rates of plant litter, while species richness had no such effect 
+     <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen1">
+      [31]
+     </xref>. These results suggest that this positive effect of functional diversity was due to improved microenvironmental conditions for decomposer fauna, and due to higher litter quality.</p> 
+    <p>With reference to functional identity, increasing dominance of species with more horizontal leaf inclination might enhance productivity by increasing total light capture relative to communities dominated by species with vertical inclination, which might partially explain the influence of PC1 on multifunctionality. Supporting this mechanism, communities dominated by forb species with horizontal leaf inclination also had higher leaf area index than those dominated by grasses with a more vertical inclination. In addition, all nitrogen-fixing legumes planted show a horizontal leaf inclination, partly confounding leaf inclination with N-fixation, the latter being known to positively influence productivity at our site 
+     <xref ref-type="bibr" rid="pone.0017476-Spehn2">
+      [51]
+     </xref>. However, it is unclear how aggregate mean phenology would affect multifunctionality. Perhaps summergreen species are able to grow faster since decreased leaf longevity is associated with increased photosynthetic rates 
+     <xref ref-type="bibr" rid="pone.0017476-Reich1">
+      [52]
+     </xref>. Short lived leaves also have traits associated with more rapid decomposition rates (e.g. high nutrient content, 
+     <xref ref-type="bibr" rid="pone.0017476-Cornwell1">
+      [27]
+     </xref>), which would explain the influence of PC3 on litter decomposition in the minimal adequate regression. The higher nutrient content of summergreen leaves is supported by the negative relationship between PC3 and the amount of nitrogen in biomass in the minimal adequate regression.</p> 
+    <p>The predominance of variables linked to the functional structure of communities over taxonomic variables in predicting ecosystem processes is in accordance with the most recent findings obtained in experiments 
+     <xref ref-type="bibr" rid="pone.0017476-Mokany1">
+      [20]
+     </xref> or with empirical data 
+     <xref ref-type="bibr" rid="pone.0017476-Danovaro1">
+      [9]
+     </xref>. Except for decomposition, we show that functional identity and diversity bring independent and additional explanatory power to ecosystem processes with consistently high likelihood-ratio values. Overall, the results suggest that neither functional identity nor functional divergence was more important than the other in explaining ecosystem processes and particularly the multifunctionality. So, contrary to other studies, demonstrating the higher contribution of one component over the others 
+     <xref ref-type="bibr" rid="pone.0017476-Mokany1">
+      [20]
+     </xref>
+     <xref ref-type="bibr" rid="pone.0017476-Arenas1">
+      [53]
+     </xref>, we demonstrate that this differential contribution may depend on the process involved, and when considering multiple processes the magnitude of the two component effects is similar. Thus, to reach high levels of predictability in modelling multiple ecosystem processes, functional identity and diversity components have to be taken into account in a common framework 
+     <xref ref-type="bibr" rid="pone.0017476-Schumacher1">
+      [54]
+     </xref>.</p> 
+    <p>It has been suggested that, since different species often influence different functions, the level of biodiversity needed to sustain multifunctionality in ecosystems is higher than previously thought 
+     <xref ref-type="bibr" rid="pone.0017476-Hector2">
+      [15]
+     </xref>
+     <xref ref-type="bibr" rid="pone.0017476-Gamfeldt1">
+      [16]
+     </xref>. By integrating across four ecosystem processes in assessing the level of community multifunctionality, we show that both functional divergence and functional identity have a predominant role, while species richness has no direct effects (
+     <xref ref-type="table" rid="pone-0017476-t002">
+      Table 2
+     </xref>) and few indirect effects (
+     <xref ref-type="fig" rid="pone-0017476-g004">
+      Figure 4
+     </xref>). We suggest that this absence of a species richness effect is partly explained by the relatively high richness values considered in our study (4 to 16 species) while past evidence for positive effects of species richness on ecosystem processes have often been due to the weak performances of monocultures or very species poor communities 
+     <xref ref-type="bibr" rid="pone.0017476-Hooper1">
+      [2]
+     </xref>. Indeed our results are not in contradiction with previous studies demonstrating positive species diversity effects on ecosystem functioning. Rather, they suggest that, except at the extreme low end of species richness gradients, the taxonomic structure of ecological communities is no longer the main driver of ecosystem processes, with the functional structure being the primary determinant.</p> 
+    <p>Our study reconciles two hypotheses that have been alternatively suggested to primarily underpin ecosystem processes: the complementarity and the mass ratio hypotheses. We suggest that a combined effect of functional identity and functional divergence is the most parsimonious explanation for key ecosystem processes. Taken separately, each biodiversity component has weak explanatory power for ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0017476-Mokany1">
+      [20]
+     </xref>
+     <xref ref-type="bibr" rid="pone.0017476-SchererLorenzen1">
+      [31]
+     </xref>
+     <xref ref-type="bibr" rid="pone.0017476-Spehn1">
+      [36]
+     </xref>. However, the combined effect of biodiversity components related to the functional structure of communities used in our study consistently reached unprecedented levels of predictive accuracy (up to 84%) whatever the process and for all processes together.</p> 
+    <p>Our finding is crucial since recent work has demonstrated that global gradients in decomposition rates, for example, are primarily driven by plant functional traits rather than climate 
+     <xref ref-type="bibr" rid="pone.0017476-Cornwell1">
+      [27]
+     </xref>, emphasizing the need for better understanding of the interplay between functional structure of communities and ecosystem functioning. The predominance of functional divergence effects on most of ecosystem processes sheds light on the need to preserve specialist species 
+     <italic>
+      sensu
+     </italic> Elton (i.e. those that have a particular combination of traits and perform particular functions in the system). However, since under the combined influence of habitat degradation or global change, we are increasingly losing local specialist species 
+     <xref ref-type="bibr" rid="pone.0017476-Devictor3">
+      [55]
+     </xref>
+     <xref ref-type="bibr" rid="pone.0017476-Villeger2">
+      [56]
+     </xref>, the level of functional diversity held by communities is declining worldwide 
+     <xref ref-type="bibr" rid="pone.0017476-Flynn1">
+      [57]
+     </xref>. Our results show that modifying the functional structure of communities has a strong impact on ecosystem processes and should receive more attention in assessing and countering the global decline of biodiversity.</p> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0017476.s001" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.s001" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p>Species used in the German BIODEPTH experiment with their traits.</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0017476.s002" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.s002" xlink:type="simple"> 
+     <label>Table S2</label>  
+     <p>Values of the variance inflation factor (VIF) for each biodiversity index (S: species richness, E: species evenness, PC1 PC2 and PC3: aggregated mean trait values along three PCoA axes, FRic: functional richness, FEve: functional evenness, FDiv: functional divergence).</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0017476.s003" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.s003" xlink:type="simple"> 
+     <label>Text S1</label>  
+     <p>Calculation of functional diversity indices.</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0017476.s004" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0017476.s004" xlink:type="simple"> 
+     <label>Text S2</label>  
+     <p>Results from Structural Equation Models (SEM) for each process.</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We are grateful to those colleagues that commented on earlier versions of this manuscript, including Michel Loreau, Andy Hector and Eric Garnier.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0017476-Chapin1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chapin
+         </surname>
+         <given-names>
+          FS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Walker
+         </surname>
+         <given-names>
+          BH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hobbs
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lawton
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Biotic control over the functioning of ecosystems.
+       </article-title> 
+       <source>Science 
+       <volume>
+        277
+       </volume> 
+       <fpage>
+        500
+       </fpage> 
+       <lpage>
+        504
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Hooper1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chapin
+         </surname>
+         <given-names>
+          FS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ewel
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Effects of biodiversity on ecosystem functioning: A consensus of current knowledge.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        3
+       </fpage> 
+       <lpage>
+        35
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Smith1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Smith
+         </surname>
+         <given-names>
+          SD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Huxman
+         </surname>
+         <given-names>
+          TE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zitzer
+         </surname>
+         <given-names>
+          SF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Charlet
+         </surname>
+         <given-names>
+          TN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Housman
+         </surname>
+         <given-names>
+          DC
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Elevated CO2 increases productivity and invasive species success in an arid ecosystem.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        408
+       </volume> 
+       <fpage>
+        79
+       </fpage> 
+       <lpage>
+        82
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Loreau1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bengtsson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grime
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Ecology - Biodiversity and ecosystem functioning: Current knowledge and future challenges.
+       </article-title> 
+       <source>Science 
+       <volume>
+        294
+       </volume> 
+       <fpage>
+        804
+       </fpage> 
+       <lpage>
+        808
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Cardinale1"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Srivastava
+         </surname>
+         <given-names>
+          DS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wright
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Downing
+         </surname>
+         <given-names>
+          AL
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Effects of biodiversity on the functioning of trophic groups and ecosystems.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        443
+       </volume> 
+       <fpage>
+        989
+       </fpage> 
+       <lpage>
+        992
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Chapin2"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chapin
+         </surname>
+         <given-names>
+          FS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sala
+         </surname>
+         <given-names>
+          OE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Burke
+         </surname>
+         <given-names>
+          IC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grime
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Ecosystem consequences of changing biodiversity - Experimental evidence and a research agenda for the future.
+       </article-title> 
+       <source>Bioscience 
+       <volume>
+        48
+       </volume> 
+       <fpage>
+        45
+       </fpage> 
+       <lpage>
+        52
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Purvis1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Purvis
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Getting the measure of biodiversity.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        405
+       </volume> 
+       <fpage>
+        212
+       </fpage> 
+       <lpage>
+        219
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Devictor1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Devictor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Meynard
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jiguet
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thuiller
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Spatial mismatch and congruence between taxonomic, phylogenetic and functional diversity: the need for integrative conservation strategies in a changing world.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        1030
+       </fpage> 
+       <lpage>
+        1040
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Danovaro1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Danovaro
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gambi
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dell'Anno
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Corinaidesi
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fraschetti
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Exponential decline of deep-sea ecosystem functioning linked to benthic biodiversity loss.
+       </article-title> 
+       <source>Current Biology 
+       <volume>
+        18
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        8
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Violle1"> 
+      <label>10</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Violle
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Navas
+         </surname>
+         <given-names>
+          ML
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vile
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kazakou
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fortunel
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Let the concept of trait be functional!
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        116
+       </volume> 
+       <fpage>
+        882
+       </fpage> 
+       <lpage>
+        892
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Balvanera1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Balvanera
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pfisterer
+         </surname>
+         <given-names>
+          AB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Buchmann
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          He
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nakashizuka
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Quantifying the evidence for biodiversity effects on ecosystem functioning and services.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        1146
+       </fpage> 
+       <lpage>
+        1156
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Tilman1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reich
+         </surname>
+         <given-names>
+          PB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wedin
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mielke
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Diversity and productivity in a long-term grassland experiment.
+       </article-title> 
+       <source>Science 
+       <volume>
+        294
+       </volume> 
+       <fpage>
+        843
+       </fpage> 
+       <lpage>
+        845
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Hector1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Beierkuhnlein
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Caldeira
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Diemer
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Plant diversity and productivity experiments in European grasslands.
+       </article-title> 
+       <source>Science 
+       <volume>
+        286
+       </volume> 
+       <fpage>
+        1123
+       </fpage> 
+       <lpage>
+        1127
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Reiss1"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Reiss
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bridle
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montoya
+         </surname>
+         <given-names>
+          JM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Woodward
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Emerging horizons in biodiversity and ecosystem functioning research.
+       </article-title> 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        24
+       </volume> 
+       <fpage>
+        505
+       </fpage> 
+       <lpage>
+        514
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Hector2"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bagchi
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Biodiversity and ecosystem multifunctionality.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        448
+       </volume> 
+       <fpage>
+        188
+       </fpage> 
+       <lpage>
+        U186
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Gamfeldt1"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gamfeldt
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hillebrand
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jonsson
+         </surname>
+         <given-names>
+          PR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Multiple functions increase the importance of biodiversity for overall ecosystem functioning.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        1223
+       </fpage> 
+       <lpage>
+        1231
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Zavaleta1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Zavaleta
+         </surname>
+         <given-names>
+          ES
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pasari
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hulvey
+         </surname>
+         <given-names>
+          KB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          GD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Sustaining multiple ecosystem functions in grassland communities requires higher biodiversity.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        107
+       </volume> 
+       <fpage>
+        1443
+       </fpage> 
+       <lpage>
+        1446
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Hooper2"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vitousek
+         </surname>
+         <given-names>
+          PM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        The effects of plant composition and diversity on ecosystem processes.
+       </article-title> 
+       <source>Science 
+       <volume>
+        277
+       </volume> 
+       <fpage>
+        1302
+       </fpage> 
+       <lpage>
+        1305
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Diaz1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Diaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavorel
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          de Bello
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Quetier
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grigulis
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Incorporating plant functional diversity effects in ecosystem service assessments.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        20684
+       </fpage> 
+       <lpage>
+        20689
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Mokany1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mokany
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ash
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Roxburgh
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Functional identity is more important than diversity in influencing ecosystem processes in a temperate native grassland.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        96
+       </volume> 
+       <fpage>
+        884
+       </fpage> 
+       <lpage>
+        893
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Tilman2"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wedin
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1996
+       </year> 
+       <article-title>
+        Productivity and sustainability influenced by biodiversity in grassland ecosystems.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        379
+       </volume> 
+       <fpage>
+        718
+       </fpage> 
+       <lpage>
+        720
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Wilsey1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wilsey
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Potvin
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Biodiversity and ecosystem functioning: Importance of species evenness in an old field.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        887
+       </fpage> 
+       <lpage>
+        892
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Jenny1"> 
+      <label>23</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jenny
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1941
+       </year> 
+       <source>Factors of Soil Formation 
+       <publisher-loc>
+        New york
+       </publisher-loc> 
+       <publisher-name>
+        McGraw-Hill
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Grime1"> 
+      <label>24</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Grime
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Benefits of plant diversity to ecosystems: immediate, filter and founder effects.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        86
+       </volume> 
+       <fpage>
+        902
+       </fpage> 
+       <lpage>
+        910
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Hillebrand1"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hillebrand
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bennett
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cadotte
+         </surname>
+         <given-names>
+          MW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Consequences of dominance: A review of evenness effects on local and regional ecosystem processes.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        1510
+       </fpage> 
+       <lpage>
+        1520
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Garnier1"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Garnier
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cortez
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Billes
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Navas
+         </surname>
+         <given-names>
+          ML
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Roumet
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Plant functional markers capture ecosystem properties during secondary succession.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        85
+       </volume> 
+       <fpage>
+        2630
+       </fpage> 
+       <lpage>
+        2637
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Cornwell1"> 
+      <label>27</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cornwell
+         </surname>
+         <given-names>
+          WK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cornelissen
+         </surname>
+         <given-names>
+          JHC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Amatangelo
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dorrepaal
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Eviner
+         </surname>
+         <given-names>
+          VT
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Plant species traits are the predominant control on litter decomposition rates within biomes worldwide.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        11
+       </volume> 
+       <fpage>
+        1065
+       </fpage> 
+       <lpage>
+        1071
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Mason1"> 
+      <label>28</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          WG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname>
+         <given-names>
+          JB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Functional richness, functional evenness and functional divergence: the primary components of functional diversity.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        111
+       </volume> 
+       <fpage>
+        112
+       </fpage> 
+       <lpage>
+        118
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Tilman3"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Weldin
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reich
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ritchie
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        The influence of functional diversity and composition on ecosystem processes.
+       </article-title> 
+       <source>Science 
+       <volume>
+        277
+       </volume> 
+       <fpage>
+        1300
+       </fpage> 
+       <lpage>
+        1302
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Hooper3"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vitousek
+         </surname>
+         <given-names>
+          PM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Effects of plant composition and diversity on nutrient cycling.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        68
+       </volume> 
+       <fpage>
+        121
+       </fpage> 
+       <lpage>
+        149
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-SchererLorenzen1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Functional diversity affects decomposition processes in experimental grasslands.
+       </article-title> 
+       <source>Functional Ecology 
+       <volume>
+        22
+       </volume> 
+       <fpage>
+        547
+       </fpage> 
+       <lpage>
+        555
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Fargione1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Fargione
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dybzinski
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          HilleRisLambers
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        From selection to complementarity: shifts in the causes of biodiversity-productivity relationships in a long-term biodiversity experiment.
+       </article-title> 
+       <source>Proceedings of the Royal Society B-Biological Sciences 
+       <volume>
+        274
+       </volume> 
+       <fpage>
+        871
+       </fpage> 
+       <lpage>
+        876
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-SchererLorenzen2"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Palmborg
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Prinz
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          ED
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        The role of plant diversity and composition for nitrate leaching in grasslands.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        84
+       </volume> 
+       <fpage>
+        1539
+       </fpage> 
+       <lpage>
+        1552
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Petchey1"> 
+      <label>34</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Petchey
+         </surname>
+         <given-names>
+          OL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Functional diversity (FD), species richness and community composition.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        5
+       </volume> 
+       <fpage>
+        402
+       </fpage> 
+       <lpage>
+        411
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Mouchet1"> 
+      <label>35</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mouchet
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Guilhaumon
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Villeger
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tomasini
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Towards a consensus for calculating dendrogram-based functional diversity indices.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        117
+       </volume> 
+       <fpage>
+        794
+       </fpage> 
+       <lpage>
+        800
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Spehn1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Spehn
+         </surname>
+         <given-names>
+          EM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Joshi
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Ecosystem effects of biodiversity manipulations in European grasslands.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        37
+       </fpage> 
+       <lpage>
+        63
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Gastine1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gastine
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Leadley
+         </surname>
+         <given-names>
+          PW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        No consistent effects of plant diversity on root biomass, soil biota and soil abiotic conditions in temperate grassland communities.
+       </article-title> 
+       <source>Applied Soil Ecology 
+       <volume>
+        24
+       </volume> 
+       <fpage>
+        101
+       </fpage> 
+       <lpage>
+        111
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Heisse1"> 
+      <label>38</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Heisse
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Roscher
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schumacher
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          ED
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Establishment of grassland species in monocultures: different strategies lead to success.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        152
+       </volume> 
+       <fpage>
+        435
+       </fpage> 
+       <lpage>
+        447
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Legendre1"> 
+      <label>39</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <source>Numerical Ecology 
+       <publisher-loc>
+        Amsterdam
+       </publisher-loc> 
+       <publisher-name>
+        Elsevier
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        853
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Villeger1"> 
+      <label>40</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Villeger
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        New multidimensional functional diversity indices for a multifaceted framework in functional ecology.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        2290
+       </fpage> 
+       <lpage>
+        2301
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Cornwell2"> 
+      <label>41</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cornwell
+         </surname>
+         <given-names>
+          WK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schwilk
+         </surname>
+         <given-names>
+          DW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ackerly
+         </surname>
+         <given-names>
+          DD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        A trait-based test for habitat filtering: Convex hull volume.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        87
+       </volume> 
+       <fpage>
+        1465
+       </fpage> 
+       <lpage>
+        1471
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Devictor2"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Devictor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clavel
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Julliard
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavergne
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Defining and measuring ecological specialization.
+       </article-title> 
+       <source>Journal of Applied Ecology 
+       <volume>
+        47
+       </volume> 
+       <fpage>
+        15
+       </fpage> 
+       <lpage>
+        25
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Burnham1"> 
+      <label>43</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Burnham
+         </surname>
+         <given-names>
+          KP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <source>Model selection and inference. A practical information-theoretic approach 
+       <publisher-loc>
+        New York
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Chatterjee1"> 
+      <label>44</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chatterjee
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hadi
+         </surname>
+         <given-names>
+          AS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <source>Regression analysis by example: 
+       <publisher-name>
+        John Wiley &amp; Sons
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        371
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Graham1"> 
+      <label>45</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Graham
+         </surname>
+         <given-names>
+          MH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Confronting multicollinearity in ecological multiple regression.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        84
+       </volume> 
+       <fpage>
+        2809
+       </fpage> 
+       <lpage>
+        2815
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Fox1"> 
+      <label>46</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Fox
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <source>Applied Regression Analysis and Generalized Linear Models: 
+       <publisher-name>
+        Sage
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Halpern1"> 
+      <label>47</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Halpern
+         </surname>
+         <given-names>
+          BS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Floeter
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Functional diversity responses to changing species richness in reef fish communities.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        364
+       </volume> 
+       <fpage>
+        147
+       </fpage> 
+       <lpage>
+        156
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Stevens1"> 
+      <label>48</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stevens
+         </surname>
+         <given-names>
+          MHH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Carson
+         </surname>
+         <given-names>
+          WP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Phenological complementarity, species diversity, and ecosystem function.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        92
+       </volume> 
+       <fpage>
+        291
+       </fpage> 
+       <lpage>
+        296
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Posada1"> 
+      <label>49</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Posada
+         </surname>
+         <given-names>
+          JM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lechowicz
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kitajima
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Optimal photosynthetic use of light by tropical tree crowns achieved by adjustment of individual leaf angles and nitrogen content.
+       </article-title> 
+       <source>Annals of Botany 
+       <volume>
+        103
+       </volume> 
+       <fpage>
+        795
+       </fpage> 
+       <lpage>
+        805
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Sonohat1"> 
+      <label>50</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sonohat
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sinoquet
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Varlet-Grancher
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rakocevic
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jacquet
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Leaf dispersion and light partitioning in three-dimensionally digitized tall fescue-white clover mixtures.
+       </article-title> 
+       <source>Plant Cell and Environment 
+       <volume>
+        25
+       </volume> 
+       <fpage>
+        529
+       </fpage> 
+       <lpage>
+        538
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Spehn2"> 
+      <label>51</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Spehn
+         </surname>
+         <given-names>
+          EM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Caldeira
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        The role of legumes as a component of biodiversity in a cross-European study of grassland biomass nitrogen.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        98
+       </volume> 
+       <fpage>
+        205
+       </fpage> 
+       <lpage>
+        218
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Reich1"> 
+      <label>52</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Reich
+         </surname>
+         <given-names>
+          PB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ellsworth
+         </surname>
+         <given-names>
+          DS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Walters
+         </surname>
+         <given-names>
+          MB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vose
+         </surname>
+         <given-names>
+          JM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gresham
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Generality of leaf trait relationships: A test across six biomes.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        80
+       </volume> 
+       <fpage>
+        1955
+       </fpage> 
+       <lpage>
+        1969
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Arenas1"> 
+      <label>53</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Arenas
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sanchez
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hawkins
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jenkins
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        The invasibility of marine algal assemblages: Role of functional diversity and identity.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        87
+       </volume> 
+       <fpage>
+        2851
+       </fpage> 
+       <lpage>
+        2861
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Schumacher1"> 
+      <label>54</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schumacher
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Roscher
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Differential effects of functional traits on aboveground biomass in semi-natural grasslands.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        118
+       </volume> 
+       <fpage>
+        1659
+       </fpage> 
+       <lpage>
+        1668
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Devictor3"> 
+      <label>55</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Devictor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Julliard
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jiguet
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Distribution of specialist and generalist species along spatial gradients of habitat disturbance and fragmentation.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        117
+       </volume> 
+       <fpage>
+        507
+       </fpage> 
+       <lpage>
+        514
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Villeger2"> 
+      <label>56</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Villeger
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Miranda
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hernandez
+         </surname>
+         <given-names>
+          DF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Contrasting changes in taxonomic vs. functional diversity of tropical fish communities after habitat degradation.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        20
+       </volume> 
+       <fpage>
+        1512
+       </fpage> 
+       <lpage>
+        1522
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0017476-Flynn1"> 
+      <label>57</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Flynn
+         </surname>
+         <given-names>
+          DFB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gogol-Prokurat
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nogeire
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Molinari
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Richers
+         </surname>
+         <given-names>
+          BT
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Loss of functional diversity under land use intensification across multiple taxa.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        22
+       </fpage> 
+       <lpage>
+        33
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

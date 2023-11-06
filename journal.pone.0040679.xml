@@ -1,0 +1,4037 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-11-22432
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0040679
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Community assembly
+          </subject> 
+          <subject>
+           Community structure
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Marine environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological metrics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Species diversity
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Bioindicators
+         </subject> 
+         <subject>
+          Biogeography
+         </subject> 
+         <subject>
+          Coastal ecology
+         </subject> 
+         <subject>
+          Marine ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Zoology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ichthyology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Low Functional 
+       <italic>
+        β
+       </italic>-Diversity Despite High Taxonomic 
+       <italic>
+        β
+       </italic>-Diversity among Tropical Estuarine Fish Communities
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Low Functional β-Diversity among Fish Communities
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Villéger
+        </surname> 
+        <given-names>
+         Sébastien
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Miranda
+        </surname> 
+        <given-names>
+         Julia Ramos
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hernandez
+        </surname> 
+        <given-names>
+         Domingo Flores
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Mouillot
+        </surname> 
+        <given-names>
+         David
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Laboratoire Évolution et Diversité Biologique, Université Paul Sabatier, Toulouse, France
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Centro de Ecología, Pesquerías y Oceanografía de Golfo de México, Universidad Autónoma de Campeche, Campeche, México
+      </addr-line> 
+     </aff>
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       ARC Centre of Excellence for Coral Reef Studies, James Cook University, Townsville, Queensland, Australia
+      </addr-line> 
+     </aff>
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Ecologie des systèmes marins côtier, Université Montpellier 2, Montpellier, France
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Swenson
+        </surname> 
+        <given-names>
+         Nathan G.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      Michigan State University, United States of America
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        sebastien.villeger@univ-tlse3.fr
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: SV JRM DFH DM. Performed the experiments: SV JRM DFH. Analyzed the data: SV. Contributed reagents/materials/analysis tools: SV JRM DFH. Wrote the paper: SV JRM DFH DM.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       9
+      </day> 
+      <month>
+       7
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      7
+     </issue>
+     <elocation-id>
+      e40679
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        9
+       </day> 
+       <month>
+        11
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        13
+       </day> 
+       <month>
+        6
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2012
+      </copyright-year>
+      <copyright-holder>
+       Villéger et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>The concept of 
+       <italic>
+        β
+       </italic>-diversity, defined as dissimilarity among communities, has been widely used to investigate biodiversity patterns and community assembly rules. However, in ecosystems with high taxonomic 
+       <italic>
+        β
+       </italic>-diversity, due to marked environmental gradients, the level of functional 
+       <italic>
+        β
+       </italic>-diversity among communities is largely overlooked while it may reveal processes shaping community structure. Here, decomposing biodiversity indices into α (local) and 
+       <italic>
+        γ
+       </italic> (regional) components, we estimated taxonomic and functional 
+       <italic>
+        β
+       </italic>-diversity among tropical estuarine fish communities, through space and time. We found extremely low functional 
+       <italic>
+        β
+       </italic>-diversity values among fish communities (&lt;1.5%) despite high dissimilarity in species composition and species dominance. Additionally, in contrast to the high α and 
+       <italic>
+        γ
+       </italic> taxonomic diversities, α and 
+       <italic>
+        γ
+       </italic> functional diversities were very close to the minimal value. These patterns were caused by two dominant functional groups which maintained a similar functional structure over space and time, despite the strong dissimilarity in taxonomic structure along environmental gradients. Our findings suggest that taxonomic and functional 
+       <italic>
+        β
+       </italic>-diversity deserve to be quantified simultaneously since these two facets can show contrasting patterns and the differences can in turn shed light on community assembly rules.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       This study was partially funded by a PICS-CNRS program and by the ANR project “BIODIVNEK”. JRM and DFH benefited from a CONACYT grant. DM was supported by Marie Curie International Outgoing Fellowship (FISHECO) IOF-GA-2009-236316. SV was supported by the EU project BIOFRESH (7th Framework European program, Contract N°226874). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="10" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Partitioning biological diversity across spatial scales has been focused on in numerous ecological studies for several decades since the pioneering works of Whittaker 
+     <xref ref-type="bibr" rid="pone.0040679-Whittaker1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Whittaker2">
+      [2]
+     </xref>. The local and regional diversities were called 
+     <italic>
+      α-
+     </italic> and 
+     <italic>
+      γ
+     </italic>-diversities, respectively, while dissimilarity between these two scales was coined as 
+     <italic>
+      ß-
+     </italic>diversity 
+     <xref ref-type="bibr" rid="pone.0040679-Whittaker1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Tuomisto1">
+      [3]
+     </xref>. 
+     <italic>
+      ß-
+     </italic>diversity is thus a key component of biodiversity since measuring whether communities share similar species is crucial for understanding the driving forces underlying community structure at multiple spatial scales 
+     <xref ref-type="bibr" rid="pone.0040679-Buckley1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Krasnov1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Qian1">
+      [6]
+     </xref> as well as for conservation purposes 
+     <xref ref-type="bibr" rid="pone.0040679-Devictor1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-McKnight1">
+      [8]
+     </xref>.</p> 
+    <p>In studies investigating diversity partitioning among sites, biodiversity indices are almost exclusively based on species composition even though the definition of biodiversity includes various facets of the diversity of life 
+     <xref ref-type="bibr" rid="pone.0040679-Devictor1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Purvis1">
+      [9]
+     </xref>. Most current measures of 
+     <italic>
+      ß-
+     </italic>diversity ignore what makes communities different over space and time: species relative abundances and species biological features. Indeed, for most 
+     <italic>
+      ß-
+     </italic>diversity indices (e.g. Jaccard, Sorensen indices), the maximum value is reached when the communities have no species in common 
+     <xref ref-type="bibr" rid="pone.0040679-Koleff1">
+      [10]
+     </xref>. This kind of species-based approach is an incomplete view of community structure. However, rapid movement has been occurring in this field, with recent studies that start to include phylogenetic and functional differences among species when assessing dissimilarity between communities 
+     <xref ref-type="bibr" rid="pone.0040679-Krasnov1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Devictor1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Pavoine1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Sokol1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Stegen1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Swenson1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Swenson2">
+      [16]
+     </xref>. Indeed, two communities can be very dissimilar in terms of species composition but very similar in terms of biological composition regarding trophic levels 
+     <xref ref-type="bibr" rid="pone.0040679-Villeger1">
+      [17]
+     </xref>, morphological traits 
+     <xref ref-type="bibr" rid="pone.0040679-Irz1">
+      [18]
+     </xref> or phylogenetic lineages 
+     <xref ref-type="bibr" rid="pone.0040679-Bryant1">
+      [19]
+     </xref>. In other words, should a set of communities with no species in common be always assigned the highest possible 
+     <italic>
+      ß
+     </italic>-diversity value? A negative answer to this question raises two often overlooked issues. What is the level of functional 
+     <italic>
+      ß
+     </italic>-diversity among communities when taxonomic 
+     <italic>
+      ß
+     </italic>-diversity is high? What can the examination of taxonomic and functional 
+     <italic>
+      ß
+     </italic>-diversity teach us about the ecological processes shaping community structure?</p> 
+    <p>The potential of functional traits to reveal processes structuring communities has been recently emphasized 
+     <xref ref-type="bibr" rid="pone.0040679-Ackerly1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Cornwell1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-McGill1">
+      [22]
+     </xref>. More particularly, comparing taxonomic and functional beta-diversity levels can disentangle community assembly rules 
+     <xref ref-type="bibr" rid="pone.0040679-Sokol1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Stegen1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Swenson1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Swenson2">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Meynard1">
+      [23]
+     </xref>. For instance, a strong niche filtering process along an environmental gradient will induce a high level of taxonomic dissimilarity coupled to a high level of functional dissimilarity as the dominant functional strategies will vary along the gradient 
+     <xref ref-type="bibr" rid="pone.0040679-Sokol1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Stegen1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Swenson2">
+      [16]
+     </xref>. In contrast, if neutral processes are predominant, then taxonomic and functional beta-diversity should not differ from random association between species abundance and functional traits.</p> 
+    <p>Fish communities inhabiting tropical estuaries provide a unique opportunity to investigate functional diversity partitioning because (
+     <italic>
+      i
+     </italic>) the functional traits of the fish have already revealed mechanisms underlying community structure 
+     <xref ref-type="bibr" rid="pone.0040679-Mason1">
+      [24]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Mason2">
+      [25]
+     </xref>, (
+     <italic>
+      ii
+     </italic>) estuarine communities are generally species-rich 
+     <xref ref-type="bibr" rid="pone.0040679-SosaLopez1">
+      [26]
+     </xref> and such communities are necessary to implement null models of community structure and (
+     <italic>
+      iii
+     </italic>) estuaries present high variability in environmental conditions (mainly salinity) which often forces a high species turnover across space and time 
+     <xref ref-type="bibr" rid="pone.0040679-Villeger1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-SosaLopez2">
+      [27]
+     </xref>. Moreover, tropical estuarine ecosystems are of primary concern for human population welfare since they provide various services of high value (protein source, regulation of pollution, recreational areas) although they can be severely impacted by human activities 
+     <xref ref-type="bibr" rid="pone.0040679-Lotze1">
+      [28]
+     </xref>. Fishes (teleosts and chondrichthyes) constitute a key component of biodiversity in estuaries since they have a large range of morphologies, life-history traits, behaviors, and diets, and thus are central in controlling fluxes of matter and energy within aquatic systems 
+     <xref ref-type="bibr" rid="pone.0040679-Holmlund1">
+      [29]
+     </xref>.</p> 
+    <p>To contribute to the estimation of functional 
+     <italic>
+      ß
+     </italic>-diversity among communities, a large dataset of estuarine fish communities was collected and a set of functional traits related to fish diet and fish locomotion was measured. Then, we assessed the 
+     <italic>
+      α, γ
+     </italic> and 
+     <italic>
+      ß
+     </italic> components of taxonomic and functional diversity of fish communities using a common framework based on the concept of equivalent number of species 
+     <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Jost1">
+      [30]
+     </xref>. Since estuarine ecosystems experience high variability in environmental conditions across space and time 
+     <xref ref-type="bibr" rid="pone.0040679-Villeger1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Blaber1">
+      [31]
+     </xref> we investigated taxonomic and functional diversity patterns spatially and temporally. We further tested whether the level of functional 
+     <italic>
+      ß
+     </italic>-diversity observed among communities is different from expectations given a random association between functional traits and abundances. Finally, we highlighted the role of some functional groups that stabilize the functional structure of fish communities across space and time despite high species turnover.</p> 
+   </sec> 
+   <sec id="s2"> 
+    <title>Material and Methods</title> 
+    <sec id="s2a"> 
+     <title>Ethics Statement</title> 
+     <p>The field sampling protocol received the agreement of the Mexican National Commission for Aquaculture and Fisheries (permit number: 070503-613-03).</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>The Study System</title> 
+     <p>The study area was located in the south of the Gulf of Mexico along the coast of the Campeche State (Mexico) (
+      <xref ref-type="fig" rid="pone-0040679-g001">
+       Figure 1
+      </xref>). More precisely, the survey focused on a 150-km long transect (18°37′16N–92°42′28W to 18°30′20N–91°28′03W) of 37 stations distributed in the south-western part of the Terminos Lagoon and along the adjacent coast 
+      <xref ref-type="bibr" rid="pone.0040679-Villeger1">
+       [17]
+      </xref>. This transect crossed the discharge of three main rivers (the Usumacinta, San Pedro y San Pablo, and Palizada rivers) and the Carmen inlet, i.e. the exit of the Terminos Lagoon flow 
+      <xref ref-type="bibr" rid="pone.0040679-David1">
+       [32]
+      </xref>. Local environmental conditions were highly variable through space and time (
+      <xref ref-type="supplementary-material" rid="pone.0040679.s002">
+       Table S1
+      </xref>). For example, salinity ranged from 0 to 42 psu (practical salinity unit), depth from 0.8 to 12 meters and transparency from 0 to 100% of the water column depth 
+      <xref ref-type="bibr" rid="pone.0040679-Villeger1">
+       [17]
+      </xref>. Tide has very low amplitude (0.3 m), and thus does not significantly affect this ecosystem 
+      <xref ref-type="bibr" rid="pone.0040679-David1">
+       [32]
+      </xref>.</p> 
+     <fig id="pone-0040679-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Location of the study area and of the 37 sampled stations (UTM coordinates).</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.g001" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Sampling Protocol</title> 
+     <p>Two sampling campaigns were conducted, one from February 2003 to January 2004 and the other from February 2006 to January 2007. No major environmental changes were noticed between the two campaigns which were used separately to reinforce the robustness of our findings. Each campaign consisted of a monthly biological survey of the 37 stations (
+      <xref ref-type="fig" rid="pone-0040679-g001">
+       Figure 1
+      </xref>) localized using a Global Positioning System with a precision of 75 m. Fish communities were sampled using a shrimp-trawl (length: 5 m, mouth opening diameter: 2.5 m, mesh size: 19 mm) towed for 12 minutes at a constant speed of 2.5 knots. The volume sampled was thus of 4,500 m<sup>3</sup>. This active sampling method is well suited to fishes living in this shallow coastal area since they are relatively small (juveniles or sub-adults and adults of standard length&lt;30 cm) and slow swimmers. For each sample, all individuals were identified at the species level and weighed to the nearest decigram.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Morphological Traits</title> 
+     <p>For several decades, many studies have focused on the assessment of fish ecological niches through morphological traits (e.g. 
+      <xref ref-type="bibr" rid="pone.0040679-Mason2">
+       [25]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0040679-Boyle1">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0040679-Winemiller1">
+       [34]
+      </xref>). During the 2006–07 sampling campaign, a maximum of 20 individuals per species were randomly selected. On each of these individuals, 16 morphological traits were measured to describe fish functional niche. See 
+      <xref ref-type="supplementary-material" rid="pone.0040679.s005">
+       Text S1
+      </xref>, 
+      <xref ref-type="supplementary-material" rid="pone.0040679.s001">
+       Figure S1
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0040679.s003">
+       Table S2
+      </xref> in Supporting Information for more details about trait assessment. This set of traits aims to quantify, as well as possible, two key functions performed by fish: food acquisition and locomotion 
+      <xref ref-type="bibr" rid="pone.0040679-Villeger2">
+       [35]
+      </xref>. The correlations between the 16 traits were globally weak (mean ±sd absolute value of Pearson coefficient 0.26±0.20) which illustrate their complementarity (see 
+      <xref ref-type="supplementary-material" rid="pone.0040679.s004">
+       Table S3
+      </xref>).</p> 
+     <p>For each species, mean trait values were finally computed from individual measures assuming that intraspecific variations were lower than interspecific variations 
+      <xref ref-type="bibr" rid="pone.0040679-Dumay1">
+       [36]
+      </xref>.</p> 
+     <p>In particular, ontogenic changes were not considered as the studied species were mainly represented by juveniles and sub-adults, thus exhibiting a relatively small size-range.</p> 
+     <p>Then, for each trait, mean values were standardized so that the mean was 0 and standard deviation was 1. Functional distances among fish species pairs were estimated using the Euclidean distance on standardized functional trait values. This raw functional distance matrix was then standardized by dividing it by its maximal value to obtain the operational distance matrix 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e001" xlink:type="simple" />
+      </inline-formula>
+      <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+       [12]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Partitioning Functional Diversity into &lt;italic&gt;α&lt;/italic&gt;, &lt;italic&gt;β&lt;/italic&gt; and &lt;italic&gt;γ&lt;/italic&gt; Components</title> 
+     <p>We studied functional 
+      <italic>
+       ß
+      </italic>-diversity among fish communities belonging to the same stratum. These strata were defined both through time (between months for a given site) and space (between sites for a given month). Thus, for each of the two periods (2003–2004 and 2006–2007), sampling points were grouped into 12 temporal strata (37 stations for each month) and 37 spatial strata (12 months for each station). Samples with no fish were removed prior to statistical analyses, thus some strata actually contain less than 12 months or less than 37 sites. The two periods were used as replicates to strengthen our conclusions.</p> 
+     <p>Functional 
+      <italic>
+       ß
+      </italic>-diversity was estimated using the decomposition of Rao’s quadratic entropy index 
+      <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0040679-deBello1">
+       [37]
+      </xref>. Let us consider 
+      <italic>
+       N
+      </italic> local communities with a global species richness of 
+      <italic>
+       S
+       <sub>G</sub>
+      </italic>. Each local community 
+      <italic>
+       k
+      </italic> has a species richness 
+      <italic>
+       S
+       <sub>k</sub>
+      </italic>. Abundance (here biomass) of species 
+      <italic>
+       j
+      </italic> in community 
+      <italic>
+       k
+      </italic> is noted 
+      <italic>
+       A
+       <sub>kj</sub>
+      </italic>. Relative abundance of species 
+      <italic>
+       j
+      </italic> in community 
+      <italic>
+       k
+      </italic>, noted 
+      <italic>
+       p
+       <sub>kj</sub>
+      </italic>, is computed as: 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e002" xlink:type="simple" />
+      </inline-formula>, thus 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e003" xlink:type="simple" />
+      </inline-formula></p> 
+     <p>Our sampling protocol provides robust differences in local abundances, thus the relative abundance of species 
+      <italic>
+       j
+      </italic> at the stratum scale noted 
+      <italic>
+       p
+       <sub>.j</sub>
+      </italic>, has to be computed as: 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e004" xlink:type="simple" />
+      </inline-formula> with 
+      <italic>
+       w
+       <sub>k</sub>
+      </italic> being the weight of community 
+      <italic>
+       k
+      </italic>:
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e005" xlink:type="simple" />
+      </inline-formula> 
+      <xref ref-type="bibr" rid="pone.0040679-Villeger3">
+       [38]
+      </xref>.</p> 
+     <p>For a community with 
+      <italic>
+       S
+      </italic> species, Rao’s quadratic entropy 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e006" xlink:type="simple" />
+      </inline-formula>is maximal when two conditions are met: all species present are maximally dissimilar and have equal abundances, i.e. for all 
+      <italic>
+       i
+      </italic> = 1,2,…,
+      <italic>
+       S
+      </italic> 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e007" xlink:type="simple" />
+      </inline-formula> and for all 
+      <italic>
+       i
+      </italic>≠j 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e008" xlink:type="simple" />
+      </inline-formula> (while as usual for all 
+      <italic>
+       i
+      </italic> = j 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e009" xlink:type="simple" />
+      </inline-formula>). In this case, maximal quadratic entropy is 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e010" xlink:type="simple" />
+      </inline-formula>.</p> 
+     <p>Following its definition, the equivalent number of species 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e011" xlink:type="simple" />
+      </inline-formula> is the number of maximally dissimilar species having equal abundance which produces maximal entropy. Thus, by replacing 
+      <italic>
+       S
+      </italic> by 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e012" xlink:type="simple" />
+      </inline-formula> in the previous equation, we obtain 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e013" xlink:type="simple" />
+      </inline-formula> and 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e014" xlink:type="simple" />
+      </inline-formula> 
+      <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+       [12]
+      </xref>.</p> 
+     <p>Each local diversity 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e015" xlink:type="simple" />
+      </inline-formula> is computed following species local relative abundances and pairwise functional distances using the classical quadratic entropy formula: 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e016" xlink:type="simple" />
+      </inline-formula></p> 
+     <p>Then the mean local diversity 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e017" xlink:type="simple" />
+      </inline-formula>, is computed as 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e018" xlink:type="simple" />
+      </inline-formula> where the weights of the communities 
+      <italic>
+       w
+       <sub>k</sub>
+      </italic> are the same as those used for the computation of relative abundances at the stratum scale to ensure Q concavity 
+      <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0040679-deBello1">
+       [37]
+      </xref>.</p> 
+     <p>Finally, mean local diversity is transformed to its equivalent number of species 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e019" xlink:type="simple" />
+      </inline-formula> 
+      <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+       [12]
+      </xref>.</p> 
+     <p>Similarly, the equivalent number of species for stratum diversity 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e020" xlink:type="simple" />
+      </inline-formula> is computed based on species relative abundances at the stratum scale as:
+      <disp-formula>
+       <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.e021" xlink:type="simple" />
+      </disp-formula></p> 
+     <p>Following the multiplicative framework built on the equivalent number of species, functional 
+      <italic>
+       ß
+      </italic>-diversity (
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e022" xlink:type="simple" />
+      </inline-formula>) is then the ratio between global and local diversity: 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e023" xlink:type="simple" />
+      </inline-formula>
+      <xref ref-type="bibr" rid="pone.0040679-Jost1">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0040679-deBello1">
+       [37]
+      </xref>.</p> 
+     <p>By definition, functional 
+      <italic>
+       ß
+      </italic>-diversity is minimal when all the local communities have identical functional structure. In this extreme case, the functional structure of the stratum is the same as that of local communities and thus average local diversity equals regional diversity, i.e. 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e024" xlink:type="simple" />
+      </inline-formula> and consequently 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e025" xlink:type="simple" />
+      </inline-formula>. In contrast, when functional structures of local communities strongly diverge 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e026" xlink:type="simple" />
+      </inline-formula> becomes higher than 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e027" xlink:type="simple" />
+      </inline-formula> and then 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e028" xlink:type="simple" />
+      </inline-formula>. More precisely, Riccotta and Szeidl 
+      <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+       [12]
+      </xref> demonstrated that the 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e029" xlink:type="simple" />
+      </inline-formula> index follows the replication principle, which postulates that “when 
+      <italic>
+       N
+      </italic> equally diverse, equally large, and maximally dissimilar assemblages are pooled, the diversity of the pooled assemblage must be 
+      <italic>
+       N
+      </italic> times the diversity of the individual assemblages, i.e. 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e030" xlink:type="simple" />
+      </inline-formula>”. In other words, the maximal possible value of the functional 
+      <italic>
+       ß
+      </italic>-diversity index equals the number of communities considered (
+      <italic>
+       N
+      </italic>). Consequently, to have an index allowing comparison of functional 
+      <italic>
+       ß
+      </italic>-diversity values between study cases having different numbers of local communities, we propose a standardized measure which ranges between 0 and 1: 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e031" xlink:type="simple" />
+      </inline-formula></p> 
+     <p>Functional 
+      <italic>
+       ß
+      </italic>-diversity based on species abundances and functional distances (hereafter noted 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic>) was computed for each temporal and spatial stratum using the formula detailed above. We also measured functional 
+      <italic>
+       ß
+      </italic>-diversity based only on functional composition (hereafter noted 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic>). To this aim, for each local community, the abundance of each of the 
+      <italic>
+       k
+      </italic> species present was set to 1/S<sub>k</sub>, which guarantees that all the local communities have the same weight for a given stratum. In other words, 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic> differs from 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic> by considering equal contribution of species to local diversity and equal contribution of local communities to the stratum diversity.</p> 
+    </sec> 
+    <sec id="s2f"> 
+     <title>Measuring Taxonomic &lt;italic&gt;β&lt;/italic&gt;-diversity</title> 
+     <p>We measured taxonomic 
+      <italic>
+       ß
+      </italic>-diversity in two ways in order to determine the relative effects of species identities and species abundances on the level of 
+      <italic>
+       ß
+      </italic>-diversity observed among fish communities.</p> 
+     <p>First, we quantified the taxonomic 
+      <italic>
+       ß
+      </italic>-diversity including species abundances (hereafter noted 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic>) using the framework proposed by Jost 
+      <xref ref-type="bibr" rid="pone.0040679-Jost1">
+       [30]
+      </xref>. This taxonomic 
+      <italic>
+       ß
+      </italic>-diversity index is based on the concept of equivalent number of species applied to the Shannon entropy. More specifically, Jost’s measure of relative homogeneity was converted to a relative heterogeneity measure to be analogous to 
+      <italic>
+       β
+      </italic>-diversity (
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e032" xlink:type="simple" />
+      </inline-formula>), 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e033" xlink:type="simple" />
+      </inline-formula>, with 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e034" xlink:type="simple" />
+      </inline-formula> and 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e035" xlink:type="simple" />
+      </inline-formula>, where 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e036" xlink:type="simple" />
+      </inline-formula> and 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e037" xlink:type="simple" />
+      </inline-formula></p> 
+     <p>
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0040679.e038" xlink:type="simple" />
+      </inline-formula>equals 0 when communities share the same species and when species have the same relative abundances in all communities. It equals unity when communities have no species in common whatever species abundances.</p> 
+     <p>We also measured taxonomic 
+      <italic>
+       ß
+      </italic>-diversity based only on species composition (hereafter noted 
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>) using the same decomposition after setting all species abundances to 1/S<sub>k</sub>.</p> 
+     <p>We assessed the environmental variability in each stratum by computing the average Euclidean distance among communities based on standardized values of depth, transparency, salinity and dissolved oxygen. Then, we estimated the correlation between this environmental variability and the four metrics of 
+      <italic>
+       ß
+      </italic>-diversity.</p> 
+    </sec> 
+    <sec id="s2g"> 
+     <title>Testing Assembly Rules</title> 
+     <p>Observed α, γ and 
+      <italic>
+       ß
+      </italic> values are informative 
+      <italic>
+       per se
+      </italic> to assess the diversity and level of dissimilarity in the taxonomic and functional structure of communities. To this aim, the use of taxonomic and functional 
+      <italic>
+       ß-
+      </italic>diversity
+      <italic /> indices based on the same framework (i.e. equivalent number of species) and which have the same potential range is particularly useful.</p> 
+     <p>However, one step further, it is necessary to assess whether the measured values of 
+      <italic>
+       ß
+      </italic>-diversity are significantly different from those expected under suitable ecological hypotheses 
+      <xref ref-type="bibr" rid="pone.0040679-Hardy1">
+       [39]
+      </xref>. Here, we aimed to test whether spatial and temporal functional 
+      <italic>
+       ß
+      </italic>-diversity observed among fish communities were due to random associations between functional identities and abundances. To address this issue, we generated four complementary null expectations using permutations of species abundances and functional identities (
+      <xref ref-type="fig" rid="pone-0040679-g002">
+       Figure 2
+      </xref>).</p> 
+     <fig id="pone-0040679-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Schematic representation of the null-models used.</title> 
+      <p>Matrices of species abundances in set of communities (i.e. a stratum) and of pairwise functional distances are illustrated at the top. Note that species present at the stratum scale are a subset of the species present at the regional scale (i.e. global area of the study) and thus some columns of the abundance matrix contain only null values. A hypothetical example is provided on the top right, with the sum of columns (i.e. species abundances at the stratum scale) and lines (i.e. total abundances in local communities). The first procedure consists in shuffling abundances among the species present in each local community. This generates expected values of dissimilarity in taxonomic structure given the observed dissimilarity in taxonomic composition (null-model 1) as well as expected values of dissimilarity in functional structure given observed dissimilarity in functional composition (null-model 4). The second procedure randomly permutes columns of the abundance matrix at the regional scale to generate expected values of dissimilarity in functional composition without modifying the dissimilarity in taxonomic composition (null-model 2). The third procedure is similar but columns are permuted only among species present at the stratum scale so it produces the expected level of dissimilarity in functional structure without modifying dissimilarity in functional composition (null-model 3). None of the three permutation processes modifies the distribution of local abundances (i.e. contribution of the local communities to the total abundance of the stratum). For each procedure an illustration of output given the above example is provided.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.g002" xlink:type="simple" /> 
+     </fig> 
+     <p>First, dissimilarity in taxonomic structure is influenced by the level of dissimilarity in taxonomic composition as well as by the distribution of species abundances within and between local communities. For instance, given a high dissimilarity in taxonomic composition (
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>), dissimilarity in taxonomic structure (
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic>) could be low if a few species are dominant in all local communities or in contrast could be high if there is a strong turnover in species dominance among local communities. Therefore, to ask whether non-random species dominance influences 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> beyond its influence over 
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>, we generated a null expectation for 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> that maintained the observed level of 
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>. The randomization procedure shuffles abundances among species present in each local community (
+      <xref ref-type="fig" rid="pone-0040679-g002">
+       Figure 2
+      </xref>, null-model 1).</p> 
+     <p>Another question is whether the diversity of functional identities present at the stratum scale constrains the dissimilarity in functional composition among local communities. For example, a low dissimilarity in functional composition (
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic>) despite a high dissimilarity in taxonomic composition (
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>) could result from a filtering of the diverse functional strategies present at the regional scale and the presence of only few able to cope with conditions in local communities. Therefore to determine whether non-random ecological processes (e.g. niche filtering) influence 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic> beyond their influence over 
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>, we generated null expectations for 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic> that maintained the observed level of 
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic> (null-model 2). The randomization procedure shuffles species functional identities among all the species present at the regional scale (
+      <xref ref-type="fig" rid="pone-0040679-g002">
+       Figure 2
+      </xref>). Note that this procedure randomizes the functional identity of species but functional trait values were not permuted within species to prevent producing unrealistic trait combinations.</p> 
+     <p>Furthermore, the functional structure of communities is determined by the association between species functional identities and their abundances. For example, given a high level of dissimilarity in taxonomic structure (
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic>), the dissimilarity in functional structure (
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic>) would be low if the dominant species at the stratum scale are functionally close. Therefore, we tested whether 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic> was significantly different from the null expectation postulating a random association between functional identities and species abundances at the stratum scale but keeping 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> constant. The permutation procedure for this null model randomly shuffles functional identity among species present at the stratum scale (
+      <xref ref-type="fig" rid="pone-0040679-g002">
+       Figure 2
+      </xref>, null-model 3).</p> 
+     <p>Finally, to determine whether a non-random association between functional strategies at the local scale influences 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic> beyond its effect on 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic>, we generated a null expectation for 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic> that maintained the observed level of 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic> (null-model 4). The procedure used to generate this fourth null-expectation was the same as that used to generate 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> given the observed 
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic> (
+      <xref ref-type="fig" rid="pone-0040679-g002">
+       Figure 2
+      </xref>). Indeed, the random permutation of abundances among species present in each local community does not modify the functional strategies present in each community while permuting the association between local abundances and functional identities.</p> 
+     <p>For each null-model, 999 randomizations were carried out in each stratum. Then, observed 
+      <italic>
+       β
+      </italic>-diversity (functional or taxonomic) values were compared to the distribution of simulated 
+      <italic>
+       ß
+      </italic>-diversity values obtained under each null hypothesis to obtain p-values 
+      <xref ref-type="bibr" rid="pone.0040679-Manly1">
+       [40]
+      </xref>. Thus, considering a two-sided test with a global risk of 5%, a 
+      <italic>
+       p
+      </italic>-value lower than 2.5% indicated a 
+      <italic>
+       β
+      </italic>-diversity lower than expected whereas a 
+      <italic>
+       p
+      </italic>-value higher than 97.5% indicated a 
+      <italic>
+       β
+      </italic>-diversity higher than expected 
+      <xref ref-type="bibr" rid="pone.0040679-Manly1">
+       [40]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2h"> 
+     <title>Functional Groups</title> 
+     <p>To visualize the relative position of fish species in the functional space, a Principal Coordinates Analysis (PCoA) was carried out on the standardized functional distance matrix 
+      <italic>
+       d
+      </italic>. In addition, species were gathered into 20 functional groups based on their pairwise functional distances, using a “partitioning around medoids” algorithm (“pam” function in R) which searches for the clustering that minimizes the distances among species within each functional group. Species and group dominance were explored in terms of biomass and occurrence both at sample and stratum scales.</p> 
+     <p>Calculation of indices and statistical analyses were carried out using R statistical software 
+      <xref ref-type="bibr" rid="pone.0040679-R1">
+       [41]
+      </xref>. The script for computing functional 
+      <italic>
+       β
+      </italic>-diversity is provided as 
+      <xref ref-type="supplementary-material" rid="pone.0040679.s006">
+       Text S2
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Data Collected</title> 
+     <p>A total of 46,012 and 25,639 individuals were caught in 2003–2004 and 2006–2007 respectively for corresponding weights of 557 and 398 kg. Species richness was 87 for both periods while total species richness was of 105 species over the two periods.</p> 
+     <p>The 16 functional traits were measured on 1021 individuals belonging to 70 species. Among these 70 species, the 16 functional traits were estimated on 20 individuals for 40 species and on more than 10 individuals for 50 species. Indeed, some fish species were very rare and thus not captured in sufficient numbers during the 2006–07 campaign, preventing an estimation of their functional traits. Consequently, the rare species were not included in our study but their low biomass would only marginally influence the estimations of our functional diversity components that are based on abundances.</p> 
+     <p>The 16 samples where the biomass of species functionally characterized represented less than 80% of community biomass were not considered in the analyses. For the remaining communities, the biomass belonging to species not functionally characterized was removed before conducting analyses.</p> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Observed Taxonomic and Functional Diversities</title> 
+     <p>Species richness was relatively high with a mean of more than 7 species in each sample and a mean global richness at the stratum scale higher than 40 for temporal strata and higher than 25 for spatial ones (
+      <xref ref-type="fig" rid="pone-0040679-g003">
+       Figure 3
+      </xref>). Taxonomic α- and γ-diversity measured using the Shannon diversity index and expressed as equivalent number of species were lower than species richness but higher than 3 and 8 for temporal and spatial strata respectively.</p> 
+     <fig id="pone-0040679-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Taxonomic and functional diversity at local and regional scale.</title> 
+      <p>Local (mean α) and regional (γ) components are expressed as equivalent number of species (mean±SD), of taxonomic (circles) and functional (squares) diversities computed on community composition (white) or abundance structure (black) for temporal and spatial strata. The grey triangles represent species richness.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>Taxonomic 
+      <italic>
+       ß-
+      </italic>diversity based only on species composition (
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>) was high with values of around 75% (
+      <xref ref-type="fig" rid="pone-0040679-g004">
+       Figure 4
+      </xref>). Similarly, taxonomic 
+      <italic>
+       ß-
+      </italic>diversity accounting for species abundances (
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic>) was &gt;70% among temporal strata and &gt;55% among spatial strata. Therefore, as expected, the taxonomic structure of fish communities in the Terminos region exhibits a strong variation both temporally and spatially.</p> 
+     <fig id="pone-0040679-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Taxonomic and functional &lt;italic&gt;ß&lt;/italic&gt;-diversity.</title> 
+      <p>Taxonomic (circles) and functional (squares) 
+       <italic>
+        ß
+       </italic>-diversity values, based on community composition (white) or abundance structure (black), for the two scales of interest (mean±SE).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.g004" xlink:type="simple" /> 
+     </fig> 
+     <p>In contrast, the two functional 
+      <italic>
+       ß-
+      </italic>diversities (based only on functional composition 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic>, and on functional structure 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic>) were both very low with values lower than 1.5% (
+      <xref ref-type="fig" rid="pone-0040679-g004">
+       Figure 4
+      </xref>). These low turnover values resulted from both low α and γ-diversity, with respective equivalent number of species close to 1 (i.e. the minimum value possible).</p> 
+     <p>Taxonomic 
+      <italic>
+       ß-
+      </italic>diversity based only on species composition (
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>) was positively correlated to environmental heterogeneity within strata (Pearson’s correlation r = 0.43, p&lt;0.001). In contrast, taxonomic 
+      <italic>
+       ß-
+      </italic>diversity accounting for species abundance 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> was weakly related to environmental heterogeneity (r = 0.19, p = 0.06). The two metrics of functional 
+      <italic>
+       ß-
+      </italic>diversity, 
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic> and 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic><sub>,</sub> were negatively (r = −0.12 and −0.14, respectively), although not significantly, related to environmental heterogeneity.</p> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Null Models Outputs</title> 
+     <p>The first null model revealed that the observed high taxonomic 
+      <italic>
+       ß-
+      </italic>diversity (
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic>) is significantly lower than expected given the strong dissimilarity in species composition (
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>) and the local abundance distributions among species (
+      <xref ref-type="table" rid="pone-0040679-t001">
+       Table 1
+      </xref>).</p> 
+     <table-wrap id="pone-0040679-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Statistics obtained under the four null-models (&lt;xref ref-type="fig" rid="pone-0040679-g002"&gt;Figure 2&lt;/xref&gt;) for the taxonomic &lt;italic&gt;ß&lt;sub&gt;TA&lt;/sub&gt;&lt;/italic&gt; and functional &lt;italic&gt;ß&lt;/italic&gt;-diversity indices (&lt;italic&gt;ß&lt;sub&gt;FC&lt;/sub&gt;&lt;/italic&gt; and &lt;italic&gt;ß&lt;sub&gt;FA&lt;/sub&gt;&lt;/italic&gt;).</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0040679-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.t001" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="3" rowspan="1">Null-model 1: Expected dissimilarity in taxonomic structure (β
+           <italic>
+            <sub>TA</sub>
+           </italic>) given observed dissimilarity in taxonomic composition (β
+           <italic>
+            <sub>TC</sub>
+           </italic>)</td> 
+          <td align="left" colspan="3" rowspan="1">Null-model 2: Expected dissimilarity in functional composition (β
+           <italic>
+            <sub>FC</sub>
+           </italic>) given observed dissimilarity in taxonomic composition (β
+           <italic>
+            <sub>TC</sub>
+           </italic>)</td> 
+          <td align="left" colspan="3" rowspan="1">Null-model 3: Expected dissimilarity in functional structure (ß
+           <italic>
+            <sub>FA</sub>
+           </italic>) given observed dissimilarity in taxonomic structure (β
+           <italic>
+            <sub>TA</sub>
+           </italic>)</td> 
+          <td align="left" colspan="3" rowspan="1">Null-model 4: Expected dissimilarity in functional structure (β
+           <italic>
+            <sub>FA</sub>
+           </italic>) given observed dissimilarity in functional composition (β
+           <italic>
+            <sub>FC</sub>
+           </italic>)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">−</td> 
+          <td align="left" colspan="1" rowspan="1">ns</td> 
+          <td align="left" colspan="1" rowspan="1">+</td> 
+          <td align="left" colspan="1" rowspan="1">−</td> 
+          <td align="left" colspan="1" rowspan="1">ns</td> 
+          <td align="left" colspan="1" rowspan="1">+</td> 
+          <td align="left" colspan="1" rowspan="1">−</td> 
+          <td align="left" colspan="1" rowspan="1">ns</td> 
+          <td align="left" colspan="1" rowspan="1">+</td> 
+          <td align="left" colspan="1" rowspan="1">−</td> 
+          <td align="left" colspan="1" rowspan="1">ns</td> 
+          <td align="left" colspan="1" rowspan="1">+</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Temporal 2003</td> 
+          <td align="left" colspan="1" rowspan="1">100</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">8</td> 
+          <td align="left" colspan="1" rowspan="1">92</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">8</td> 
+          <td align="left" colspan="1" rowspan="1">92</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">33</td> 
+          <td align="left" colspan="1" rowspan="1">67</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Temporal 2006</td> 
+          <td align="left" colspan="1" rowspan="1">83</td> 
+          <td align="left" colspan="1" rowspan="1">17</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">100</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">100</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">8</td> 
+          <td align="left" colspan="1" rowspan="1">92</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Spatial 2003</td> 
+          <td align="left" colspan="1" rowspan="1">68</td> 
+          <td align="left" colspan="1" rowspan="1">32</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">8</td> 
+          <td align="left" colspan="1" rowspan="1">92</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">3</td> 
+          <td align="left" colspan="1" rowspan="1">97</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">32</td> 
+          <td align="left" colspan="1" rowspan="1">68</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Spatial 2006</td> 
+          <td align="left" colspan="1" rowspan="1">46</td> 
+          <td align="left" colspan="1" rowspan="1">54</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">100</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">0</td> 
+          <td align="left" colspan="1" rowspan="1">95</td> 
+          <td align="left" colspan="1" rowspan="1">5</td> 
+          <td align="left" colspan="1" rowspan="1">21</td> 
+          <td align="left" colspan="1" rowspan="1">76</td> 
+          <td align="left" colspan="1" rowspan="1">3</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>Values represent the percentage of strata in which p-values indicate that the observed 
+         <italic>
+          ß
+         </italic>-diversity is significantly lower (−), not significantly (ns) different and significantly higher (+) than expected under the corresponding null hypothesis.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>The results of the second null model showed that functional 
+      <italic>
+       ß-
+      </italic>diversity based only on functional composition (
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic>) is almost always not significantly different from those obtained with a random assignment of functional identities, given both the observed dissimilarity in species composition (
+      <italic>
+       ß
+       <sub>TC</sub>
+      </italic>) and the observed distribution of functional distances among species at the regional level (
+      <xref ref-type="table" rid="pone-0040679-t001">
+       Table 1
+      </xref>).</p> 
+     <p>The two other null models aimed to test the determinants of the observed stability in the functional structure (i.e. low functional 
+      <italic>
+       ß-
+      </italic>diversity 
+      <italic>
+       ß
+       <sub>FA</sub>
+      </italic>). First, when testing the assumption of a random association between functional identities and abundance patterns at the stratum scale (i.e. taxonomic 
+      <italic>
+       ß-
+      </italic>diversity 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> kept constant), the observed functional 
+      <italic>
+       β
+      </italic>-diversity was significantly lower than expected in less than one fourth of the strata (
+      <xref ref-type="table" rid="pone-0040679-t001">
+       Table 1
+      </xref>). Similarly, the observed low functional 
+      <italic>
+       ß-
+      </italic>diversity was almost always not significantly different from those obtained under the null expectation suggesting a random association between species functional identities and abundance patterns at the local scale, i.e. dissimilarity in functional composition (
+      <italic>
+       ß
+       <sub>FC</sub>
+      </italic>) remained constant (
+      <xref ref-type="table" rid="pone-0040679-t001">
+       Table 1
+      </xref>).</p> 
+    </sec> 
+    <sec id="s3d"> 
+     <title>Functional Group Dominance</title> 
+     <p>The PCoA summarizing the functional distances among species (
+      <xref ref-type="fig" rid="pone-0040679-g005">
+       Figure 5
+      </xref>) clearly highlights the dominance of generalist species, i.e. species close to the centre of the functional space 
+      <xref ref-type="bibr" rid="pone.0040679-Bellwood1">
+       [42]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0040679-Devictor2">
+       [43]
+      </xref>. On the contrary, the most extreme parts of the functional space contain rare specialist species, for instance six rays (right bottom corner), two carangids (left middle part) and four flatfishes (right top corner).</p> 
+     <fig id="pone-0040679-g005" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.g005
+      </object-id> 
+      <label>Figure 5</label>  
+      <title>Principal Coordinates Analysis (PCoA) carried out on the 70 species using standardized functional distances.</title> 
+      <p>The 15 dominant species are represented by circles of sizes that are proportional to their mean relative biomass when they occur. Their percentages of occurrence over the 810 samples are given in parentheses. The other 55 species are plotted with grey crosses. Codes for dominant species names are: Af = 
+       <italic>
+        Ariopsis felis
+       </italic>, Ar = 
+       <italic>
+        Archosargus rhomboidalis
+       </italic>, Bc = 
+       <italic>
+        Bairdiella chrysoura
+       </italic>, Bm = 
+       <italic>
+        Bagre marinus
+       </italic>, Br = 
+       <italic>
+        Bairdiella ronchus
+       </italic>, Ca = 
+       <italic>
+        Cynoscion arenarius
+       </italic>, Cf = 
+       <italic>
+        Chaetodipteurs faber
+       </italic>, Cm = 
+       <italic>
+        Cathorops melanopus
+       </italic>, Cn = 
+       <italic>
+        Cynoscion nothus
+       </italic>, Ma = 
+       <italic>
+        Menticirrhus americanus
+       </italic>, Mu = 
+       <italic>
+        Micropogonias undulatus
+       </italic>, Po = 
+       <italic>
+        Polydactylus octonemus
+       </italic>, Sl = 
+       <italic>
+        Stellifer lanceolatus
+       </italic>, Sp = 
+       <italic>
+        Symphurus plagiusa
+       </italic>, St = 
+       <italic>
+        Sphoeroides testudineus
+       </italic>. Bold names are for species belonging to the sea-catfishes group (a group on 
+       <xref ref-type="fig" rid="pone-0040679-g006">
+        Figure 6
+       </xref>) while names underlined or in italics correspond to species from the two sciaenid groups (respectively b and d groups on 
+       <xref ref-type="fig" rid="pone-0040679-g006">
+        Figure 6
+       </xref>). The center part of the PCoA plane is blown up in the top left corner.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.g005" xlink:type="simple" /> 
+     </fig> 
+     <p>Species were then gathered into 20 groups based on their functional identity. The rank frequency diagrams (
+      <xref ref-type="fig" rid="pone-0040679-g006">
+       Figure 6
+      </xref>) reveal a strong dominance of two groups which are frequent and abundant, the presence of an intermediate group often present but not dominant, and a right-skewed tail containing many rare groups. Among the 20 groups, the two most abundant groups contribute, on average, to 34 and 24% respectively of the total local biomass while they only contain 3 and 8 species (out of 70), respectively (
+      <xref ref-type="fig" rid="pone-0040679-g006">
+       Figure 6
+      </xref>). These groups also occur very frequently (present in more than 75% of the 810 samples).</p> 
+     <fig id="pone-0040679-g006" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0040679.g006
+      </object-id> 
+      <label>Figure 6</label>  
+      <title>Rank-frequency diagrams representing relative abundances (left) and occurrences (right) of the 20 functional groups.</title> 
+      <p>The relative abundance is the mean relative biomass of the group. The percentage of occurrence is computed for each functional group over the 810 stations studied. The five most abundant groups for each function are named with letters (a-e) in the two plots. Number of species in each functional group is reported above the bars.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.g006" xlink:type="simple" /> 
+     </fig> 
+     <p>The most abundant group pools the three Ariidae sea catfish species (the dark sea catfish 
+      <italic>
+       Cathorops melanopus
+      </italic>, the hardhead 
+      <italic>
+       Ariopsis felis
+      </italic> and the gafftopsail sea catfish 
+      <italic>
+       Bagre marinus
+      </italic>). These three sea catfishes occupy the first, fourth and fifth rank (among the 70 species studied) in terms of mean relative biomass over all the samples. The second group is mainly composed of Sciaenidae species, in particular the American stardrum 
+      <italic>
+       Stellifer lanceolatus,
+      </italic> the croaker 
+      <italic>
+       Bairdiella chrysoura
+      </italic> and the two weakers 
+      <italic>
+       Cynoscion arenarius
+      </italic> and 
+      <italic>
+       C. nothus
+      </italic>, which are respectively the second, eighth, ninth and twelfth most abundant species locally. The third most abundant group pools four flatfishes which are functionally different from other fish species, including those from the two most abundant groups (
+      <xref ref-type="fig" rid="pone-0040679-g005">
+       Figure 5
+      </xref>). Even though these flatfishes occurred frequently (525 occurrences over the 810 samples), they contributed only moderately to the local abundances (less than 10%).</p> 
+     <p>We estimated the turnover in taxonomic structure within the two dominant functional groups in each stratum using the 
+      <italic>
+       ß
+       <sub>TA</sub>
+      </italic> index 
+      <xref ref-type="bibr" rid="pone.0040679-Jost1">
+       [30]
+      </xref>. The values were consistent across strata for the two functional groups with a mean of 0.32±0.16 for the sea catfish and of 0.48±0.16 for the sciaenid group, respectively. This clearly demonstrates that the dominance of these functional groups was not only determined by one ultra dominant species but, instead, by a set of species which alternatively dominate inside each group across space and time. For instance, the most abundant of the sea catfish species, the dark sea catfish 
+      <italic>
+       Cathorops melanopus
+      </italic> was present in 423 of the 810 samples whereas the sea catfish group was present in 593 samples. This species had the highest biomass in 217 samples whereas the sea catfish group was the most abundant in 349 samples. The same pattern was true for the sciaenid group which contains more species but was the dominant group in only 194 samples. Among these sciaenid species, the American stardrum 
+      <italic>
+       Stellifer lanceolatus
+      </italic> was the most widespread species (529 occurrences) but was not often the most abundant (95 samples).</p> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>The Terminos Lagoon area, like most estuarine ecosystems 
+     <xref ref-type="bibr" rid="pone.0040679-Blaber1">
+      [31]
+     </xref>, is marked by a high environmental variability in terms of water salinity, depth, sediment and organic matter input 
+     <xref ref-type="bibr" rid="pone.0040679-Villeger1">
+      [17]
+     </xref>. We found a high fish richness in this tropical region both at regional (more than one hundred fish species) and local scales (
+     <xref ref-type="fig" rid="pone-0040679-g003">
+      Figure 3
+     </xref>). This high taxonomic richness is coupled with a strong (around 65%) taxonomic 
+     <italic>
+      ß-
+     </italic>diversity, i.e. dissimilarity in taxonomic structure, both through space and time (
+     <xref ref-type="fig" rid="pone-0040679-g004">
+      Figure 4
+     </xref>). However, a null-model approach revealed that the observed taxonomic 
+     <italic>
+      ß-
+     </italic>diversity is actually lower than expected given the high dissimilarity in species composition. This apparent contradiction could be explained by the dominance of few species which occur in most local communities where they furthermore contribute to most of the fish biomass. Indeed, among the 12 species present in more than one fifth of local communities, 8 contributed to more than 10% of total abundance (
+     <xref ref-type="fig" rid="pone-0040679-g005">
+      Figure 5
+     </xref>).</p> 
+    <p>Despite the strong taxonomic 
+     <italic>
+      ß-
+     </italic>diversity (including species abundances or not), we found extremely low functional 
+     <italic>
+      ß-
+     </italic>diversity values among fish communities (&lt;1.5%), in terms of both functional trait composition and abundance structure. Additionally, in contrast to the high taxonomic diversity at local and stratum scales, functional diversity in local communities and in each stratum was very close to the minimal possible value. Thus, in our study case, the observed low functional 
+     <italic>
+      ß-
+     </italic>diversity results from a low functional diversity both at local (
+     <italic>
+      α
+     </italic>) and stratum (
+     <italic>
+      γ
+     </italic>) scales (
+     <xref ref-type="fig" rid="pone-0040679-g003">
+      Figure 3
+     </xref>).</p> 
+    <p>Using a null-model (
+     <xref ref-type="fig" rid="pone-0040679-g002">
+      Figure 2
+     </xref>, 
+     <xref ref-type="table" rid="pone-0040679-t001">
+      Table 1
+     </xref>) we demonstrate that the low dissimilarity in functional composition is not significantly different from a random expectation given the dissimilarity in species composition and the functional identities present in the regional pool of species. In other words, these results indicate that there is no strong niche filtering from the regional to the stratum scale. Species present in each stratum are thus a representative subset of the regional pool of species. As most of the species present at the regional scale are generalist species thus having similar functional identities (as illustrated on 
+     <xref ref-type="fig" rid="pone-0040679-g005">
+      Figure 5
+     </xref>), global functional diversity in each stratum (γ) tends to be low. Indeed, the Rao’s quadratic entropy index is maximal when all the species are equally and thus maximally dissimilar to each other 
+     <xref ref-type="bibr" rid="pone.0040679-Ricotta1">
+      [12]
+     </xref>. In our study case most of the species were functionally close and only a few couples of them were functionally very different. This pattern is not due to the set of morphological traits we used as it was able to discriminate flatfish (e.g. “Sp” on 
+     <xref ref-type="fig" rid="pone-0040679-g004">
+      figure 4
+     </xref>), bentho-pelagic sea catfish (“Af”) and zooplanktonivorous pelagic species (“Po”). It rather reflects the predominance of functionally close species (sea catfish and sciaenid species). Therefore, despite the strong turnover in species composition, the species occurring in each local community are functionally close to each other leading to low local functional diversity (α). The observed low dissimilarity in functional composition thus results from the absence of niche filtering processes and the specificity of the regional pool of species which is dominated by generalist species.</p> 
+    <p>The observed low functional 
+     <italic>
+      β
+     </italic>-diversity values, measured considering abundances, result from a combination of the patterns presented previously: a regional pool dominated by generalist species and the consistent presence across space and time of a few abundant species, particularly those belonging to the sea catfish and sciaenid functional groups (
+     <xref ref-type="fig" rid="pone-0040679-g005">
+      Figure 5
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0040679-g006">
+      Figure 6
+     </xref>). Indeed, these generalist species are functionally relatively close and at the same time abundant in most local communities, hence they constrain α-functional diversity to be low. Furthermore, these functional groups do not contain an ultra-dominant species but are on the contrary structured by several co-dominant species which replace each other through space and time, allowing the dominance of these groups whatever the environmental conditions and species composition. This statement is supported by correlation results between β-diversity components and environmental variability suggesting that dominant species are consistently present in all samples (
+     <italic>
+      ß
+      <sub>TA</sub>
+     </italic> weakly related to environmental heterogeneity within strata) while rarer species occur if environmental conditions are suitable (
+     <italic>
+      ß
+      <sub>TC</sub>
+     </italic> highly related to environmental heterogeneity). In other words generalist species in terms of functional traits (
+     <italic>
+      sensu
+     </italic> Elton) also tend to be generalists in terms of environmental conditions (
+     <italic>
+      sensu
+     </italic> Grinnell) stabilizing the functional structure of communities across space and time. However we recognize that embracing the Eltonian and Grinnellian niches using a set of traits remains challenging. Further investigations on community assembly rules may include traits that are closely related to species functions in the ecosystem and to species responses to various environmental stressors after performing experiments if necessary 
+     <xref ref-type="bibr" rid="pone.0040679-Weiher1">
+      [44]
+     </xref>.</p> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Conclusion</title> 
+    <p>Diversity partitioning among scales has been investigated for more than 40 years based on the taxonomic composition of communities 
+     <xref ref-type="bibr" rid="pone.0040679-Whittaker1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Whittaker2">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Jost1">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Legendre1">
+      [45]
+     </xref>, but an increasing number of studies are now considering biological distances between species 
+     <xref ref-type="bibr" rid="pone.0040679-Krasnov1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Devictor1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Pavoine1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Sokol1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Swenson2">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0040679-Hardy2">
+      [46]
+     </xref>. Here, using a procedure to decompose 
+     <italic>
+      γ
+     </italic>-functional diversity into independent 
+     <italic>
+      α
+     </italic> and 
+     <italic>
+      ß
+     </italic>-components, we demonstrate that a low functional 
+     <italic>
+      β
+     </italic>-diversity occurs among tropical estuarine fish communities (temporally and spatially) despite high taxonomic 
+     <italic>
+      β
+     </italic>-diversity both in terms of species composition and community structure.</p> 
+    <p>Overall, our results suggest that the low functional 
+     <italic>
+      ß-
+     </italic>diversity observed in this ecosystem is mainly attributable to the ultra dominance of a few functionally similar species. However, going one step further, it would be challenging to analyze the determinants of this low proportion of specialist species in the regional pool. This could be achieved by comparing the regional pool of species present in the Terminos lagoon region with the pool of species present at a larger spatial scale (e.g. southwestern part of the Gulf of Mexico) to test whether there is a filtering between this global pool and the regional one studied here. Indeed, it could be argued that this estuarine ecosystem is favorable to bentho-pelagic omnivorous species which can feed on a large variety of prey and move across portions of the ecosystem depending on abiotic conditions. In contrast, other functional strategies typically dominant in seagrass meadows or reefs (e.g. herbivorous sedentary species such as Tetraodontiformes) are marginal as these habitats are becoming scarce in the region studied here 
+     <xref ref-type="bibr" rid="pone.0040679-Villeger2">
+      [35]
+     </xref>.</p> 
+    <p>The functional approach, focusing on functional attributes of species rather than only on their taxonomic identity, has the conceptual advantage of providing ecological conclusions transposable to ecosystems that host different species 
+     <xref ref-type="bibr" rid="pone.0040679-McGill1">
+      [22]
+     </xref>. Therefore, an important challenge is to test whether the stable functional structure found across the fish communities of Terminos lagoon still holds when considering other estuarine assemblages (tropical or temperate) or even other aquatic ecosystems with high taxonomic 
+     <italic>
+      ß
+     </italic>-diversity. Moreover, analyzing patterns of functional 
+     <italic>
+      ß
+     </italic>-diversity has the potential to provide indications on the processes that structure communities over spatial and temporal scales 
+     <xref ref-type="bibr" rid="pone.0040679-Mnkemller1">
+      [47]
+     </xref>. One step further, a challenging issue will be to link these 
+     <italic>
+      ß
+     </italic>-diversity patterns to ecosystem functioning and stability.</p> 
+   </sec> 
+   <sec id="s6"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0040679.s001" mimetype="image/jpeg" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Morphological traits.
+      </bold> Morphological traits measured on digital pictures (a): 
+      <italic>
+       Bl
+      </italic> body standard length, 
+      <italic>
+       Bd
+      </italic> body depth, 
+      <italic>
+       CPd
+      </italic> caudal peduncle minimal depth, 
+      <italic>
+       CFd
+      </italic> caudal fin depth, 
+      <italic>
+       CFs
+      </italic> caudal fin surface, 
+      <italic>
+       PFi
+      </italic> distance between the insertion of the pectoral fin to the top of the body, 
+      <italic>
+       PFb
+      </italic> body depth at the level of the pectoral fin insertion, 
+      <italic>
+       PFl
+      </italic> pectoral fin length, 
+      <italic>
+       PFs
+      </italic> pectoral fin surface, 
+      <italic>
+       Hd
+      </italic> head depth along the vertical axis of the eye, 
+      <italic>
+       Ed
+      </italic> eye diameter, 
+      <italic>
+       Eh
+      </italic> distance between the centre of the eye to the bottom of the head, 
+      <italic>
+       Mo
+      </italic> distance from the top of the mouth to the bottom of the head along the head depth axis; and with an electronic caliper (b) : 
+      <italic>
+       Bw
+      </italic> body width, 
+      <italic>
+       Md
+      </italic> mouth depth, 
+      <italic>
+       Mw
+      </italic> mouth width.</p> 
+     <p>(JPG)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0040679.s002" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.s002" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p>
+      <bold>
+       Environmental heterogeneity.
+      </bold> Values are means and standard deviations of coefficients of variation (%) in each stratum for four main environmental variables.</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0040679.s003" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.s003" xlink:type="simple"> 
+     <label>Table S2</label>  
+     <p>
+      <bold>
+       List of the 16 functional traits used.
+      </bold> Codes for morphological measures are the same as in 
+      <xref ref-type="supplementary-material" rid="pone.0040679.s001">
+       figure S1
+      </xref>. 
+      <italic>
+       GRl
+      </italic> is length of the longest gill raker and 
+      <italic>
+       Gl
+      </italic> is length of the gut from the oesophagus to the anus. The logarithm of the mass was also considered.</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0040679.s004" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.s004" xlink:type="simple"> 
+     <label>Table S3</label>  
+     <p>
+      <bold>
+       Pairwise Correlations (Pearson’s coefficient) between the 16 functional traits.
+      </bold> Traits codes are provided in Appendix A. Values in bold are significantly different from 0 with a p-value lower than 5%. The mean of the absolute correlations is 0.26 (sd = 0.20) and only 17 out of the 120 pairs of traits show a correlation higher than 0.5 in absolute value.</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0040679.s005" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.s005" xlink:type="simple"> 
+     <label>Text S1</label>  
+     <p> 
+      <bold>
+       Functional characterization of fishes.
+      </bold> </p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0040679.s006" mimetype="text/plain" position="float" xlink:href="info:doi/10.1371/journal.pone.0040679.s006" xlink:type="simple"> 
+     <label>Text S2</label>  
+     <p> 
+      <bold>
+       betaQmult: R function to compute functional beta-diversity based on the multiplicative decomposition of the Rao's quadratic entropy.
+      </bold> </p> 
+     <p>(TXT)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Peter Winterton for correcting the English and we are grateful to two anonymous reviewers and to the editor Nathan G. Swenson for their comments that helped us to improve this manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0040679-Whittaker1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Whittaker
+         </surname>
+         <given-names>
+          RH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1960
+       </year> 
+       <article-title>
+        Vegetation of the Siskiyou mountains, Oregon and California.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        30
+       </volume> 
+       <fpage>
+        280
+       </fpage> 
+       <lpage>
+        338
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Whittaker2"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Whittaker
+         </surname>
+         <given-names>
+          RH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1972
+       </year> 
+       <article-title>
+        Evolution and measurement of species diversity.
+       </article-title> 
+       <source>Taxon 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        213
+       </fpage> 
+       <lpage>
+        251
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Tuomisto1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tuomisto
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        A diversity of beta diversities: straightening up a concept gone awry. Part 1. Defining beta diversity as a function of alpha and gamma diversity.
+       </article-title> 
+       <source>Ecography 
+       <volume>
+        33
+       </volume> 
+       <fpage>
+        2
+       </fpage> 
+       <lpage>
+        22
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Buckley1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Buckley
+         </surname>
+         <given-names>
+          LB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jetz
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Linking global turnover of species and environments.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        105
+       </volume> 
+       <fpage>
+        17836
+       </fpage> 
+       <lpage>
+        17841
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Krasnov1"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Krasnov
+         </surname>
+         <given-names>
+          BR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shenbrot
+         </surname>
+         <given-names>
+          GI
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Khokhlova
+         </surname>
+         <given-names>
+          IS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vinarski
+         </surname>
+         <given-names>
+          MV
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Similarity in ectoparasite faunas of Palaearctic rodents as a function of host phylogenetic, geographic or environmental distances: Which matters the most?
+       </article-title> 
+       <source>International Journal for Parasitology 
+       <volume>
+        40
+       </volume> 
+       <fpage>
+        807
+       </fpage> 
+       <lpage>
+        817
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Qian1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Qian
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Global tests of regional effect on species richness of vascular plants and terrestrial vertebrates.
+       </article-title> 
+       <source>Ecography 
+       <volume>
+        32
+       </volume> 
+       <fpage>
+        553
+       </fpage> 
+       <lpage>
+        560
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Devictor1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Devictor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Meynard
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jiguet
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thuiller
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Spatial mismatch and congruence between taxonomic, phylogenetic and functional diversity: the need for integrative conservation strategies in a changing world.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        1030
+       </fpage> 
+       <lpage>
+        1040
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-McKnight1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          McKnight
+         </surname>
+         <given-names>
+          MW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          White
+         </surname>
+         <given-names>
+          PS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McDonald
+         </surname>
+         <given-names>
+          RI
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lamoreux
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sechrest
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Putting beta-diversity on the map: Broad-scale congruence and coincidence in the extremes.
+       </article-title> 
+       <source>Plos Biology 
+       <volume>
+        5
+       </volume> 
+       <fpage>
+        2424
+       </fpage> 
+       <lpage>
+        2432
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Purvis1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Purvis
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Getting the measure of biodiversity.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        405
+       </volume> 
+       <fpage>
+        212
+       </fpage> 
+       <lpage>
+        219
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Koleff1"> 
+      <label>10</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Koleff
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lennon
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Measuring beta diversity for presence-absence data.
+       </article-title> 
+       <source>Journal of Animal Ecology 
+       <volume>
+        72
+       </volume> 
+       <fpage>
+        367
+       </fpage> 
+       <lpage>
+        382
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Pavoine1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pavoine
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Love
+         </surname>
+         <given-names>
+          MS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bonsall
+         </surname>
+         <given-names>
+          MB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Hierarchical partitioning of evolutionary and ecological patterns in the organization of phylogenetically-structured species assemblages: application to rockfish (genus: Sebastes) in the Southern California Bight.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        898
+       </fpage> 
+       <lpage>
+        908
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Ricotta1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ricotta
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Szeidl
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Diversity partitioning of Rao's quadratic entropy.
+       </article-title> 
+       <source>Theoretical Population Biology 
+       <volume>
+        76
+       </volume> 
+       <fpage>
+        299
+       </fpage> 
+       <lpage>
+        302
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Sokol1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sokol
+         </surname>
+         <given-names>
+          ER
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Benfield
+         </surname>
+         <given-names>
+          EF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Belden
+         </surname>
+         <given-names>
+          LK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Valett
+         </surname>
+         <given-names>
+          HM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        The Assembly of Ecological Communities Inferred from Taxonomic and Functional Composition.
+       </article-title> 
+       <source>American Naturalist 
+       <volume>
+        177
+       </volume> 
+       <fpage>
+        630
+       </fpage> 
+       <lpage>
+        644
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Stegen1"> 
+      <label>14</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stegen
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hurlbert
+         </surname>
+         <given-names>
+          AH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Inferring Ecological Processes from Taxonomic, Phylogenetic and Functional Trait beta-Diversity.
+       </article-title> 
+       <source>Plos One 6 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Swenson1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Swenson
+         </surname>
+         <given-names>
+          NG
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Phylogenetic beta diversity metrics, trait evolution and inferring the functional beta diversity of communities.
+       </article-title> 
+       <source>PloS one 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        e21264
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Swenson2"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Swenson
+         </surname>
+         <given-names>
+          NG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anglada-Cordero
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Barone
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Deterministic tropical tree community turnover: evidence from patterns of functional beta diversity along an elevational gradient.
+       </article-title> 
+       <source>Proceedings of the Royal Society B-Biological Sciences 
+       <volume>
+        278
+       </volume> 
+       <fpage>
+        877
+       </fpage> 
+       <lpage>
+        884
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Villeger1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Villeger
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Miranda
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hernandez
+         </surname>
+         <given-names>
+          DF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lopez
+         </surname>
+         <given-names>
+          AS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Stable trophic structure across coastal nekton assemblages despite high species turnover.
+       </article-title> 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        364
+       </volume> 
+       <fpage>
+        135
+       </fpage> 
+       <lpage>
+        146
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Irz1"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Irz
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Michonneau
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Oberdorff
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Whittier
+         </surname>
+         <given-names>
+          TR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lamouroux
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Fish community comparisons along environmental gradients in lakes of France and north-east USA.
+       </article-title> 
+       <source>Global Ecology and Biogeography 
+       <volume>
+        16
+       </volume> 
+       <fpage>
+        350
+       </fpage> 
+       <lpage>
+        366
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Bryant1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bryant
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lamanna
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Morlon
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kerkhoff
+         </surname>
+         <given-names>
+          AJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Enquist
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Microbes on mountainsides: Contrasting elevational patterns of bacterial and plant diversity.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        105
+       </volume> 
+       <fpage>
+        11505
+       </fpage> 
+       <lpage>
+        11511
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Ackerly1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ackerly
+         </surname>
+         <given-names>
+          DD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cornwell
+         </surname>
+         <given-names>
+          WK
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        A trait-based approach to community assembly: partitioning of species trait values into within- and among-community components.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        10
+       </volume> 
+       <fpage>
+        135
+       </fpage> 
+       <lpage>
+        145
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Cornwell1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cornwell
+         </surname>
+         <given-names>
+          WK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schwilk
+         </surname>
+         <given-names>
+          DW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ackerly
+         </surname>
+         <given-names>
+          DD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        A trait-based test for habitat filtering: Convex hull volume.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        87
+       </volume> 
+       <fpage>
+        1465
+       </fpage> 
+       <lpage>
+        1471
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-McGill1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          McGill
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Enquist
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Weiher
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Westoby
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Rebuilding community ecology from functional traits.
+       </article-title> 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        178
+       </fpage> 
+       <lpage>
+        185
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Meynard1"> 
+      <label>23</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Meynard
+         </surname>
+         <given-names>
+          CN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Devictor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thuiller
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jiguet
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Beyond taxonomic diversity patterns: how do alpha, beta and gamma components of bird functional and phylogenetic diversity respond to environmental gradients across France?
+       </article-title> 
+       <source>Global Ecology and Biogeography 
+       <volume>
+        20
+       </volume> 
+       <fpage>
+        893
+       </fpage> 
+       <lpage>
+        903
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Mason1"> 
+      <label>24</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lanoiselee
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname>
+         <given-names>
+          JB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Argillier
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Does niche overlap control relative abundance in French lacustrine fish communities? A new method incorporating functional traits.
+       </article-title> 
+       <source>Journal of Animal Ecology 
+       <volume>
+        77
+       </volume> 
+       <fpage>
+        661
+       </fpage> 
+       <lpage>
+        669
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Mason2"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lanoiselee
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Irz
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Argillier
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Functional characters combined with null models reveal inconsistency in mechanisms of species turnover in lacustrine fish communities.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        153
+       </volume> 
+       <fpage>
+        441
+       </fpage> 
+       <lpage>
+        452
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-SosaLopez1"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sosa-Lopez
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ramos-Miranda
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Flores-Hernandez
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chi
+         </surname>
+         <given-names>
+          TD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Fish species richness decreases with salinity in tropical coastal lagoons.
+       </article-title> 
+       <source>Journal of Biogeography 
+       <volume>
+        34
+       </volume> 
+       <fpage>
+        52
+       </fpage> 
+       <lpage>
+        61
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-SosaLopez2"> 
+      <label>27</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sosa-Lopez
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Spatiotemporal segregation regulates species richness along biomass gradients in estuarine fish assemblages.
+       </article-title> 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        342
+       </volume> 
+       <fpage>
+        217
+       </fpage> 
+       <lpage>
+        226
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Lotze1"> 
+      <label>28</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lotze
+         </surname>
+         <given-names>
+          HK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lenihan
+         </surname>
+         <given-names>
+          HS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bourque
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bradbury
+         </surname>
+         <given-names>
+          RH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cooke
+         </surname>
+         <given-names>
+          RG
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Depletion, degradation, and recovery potential of estuaries and coastal seas.
+       </article-title> 
+       <source>Science 
+       <volume>
+        312
+       </volume> 
+       <fpage>
+        1806
+       </fpage> 
+       <lpage>
+        1809
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Holmlund1"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Holmlund
+         </surname>
+         <given-names>
+          CM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hammer
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Ecosystem services generated by fish populations.
+       </article-title> 
+       <source>Ecological Economics 
+       <volume>
+        29
+       </volume> 
+       <fpage>
+        253
+       </fpage> 
+       <lpage>
+        268
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Jost1"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jost
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Partitioning diversity into independent alpha and beta components.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        2427
+       </fpage> 
+       <lpage>
+        2439
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Blaber1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Blaber
+         </surname>
+         <given-names>
+          SJM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        ‘Fish in hot water’: the challenges facing fish and fisheries research in tropical estuaries.
+       </article-title> 
+       <source>Journal of Fish Biology 
+       <volume>
+        61
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        20
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-David1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          David
+         </surname>
+         <given-names>
+          LT
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kjerfve
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Tides and currents in a two-inlet coastal lagoon: Laguna de Terminos, Mexico.
+       </article-title> 
+       <source>Continental Shelf Research 
+       <volume>
+        18
+       </volume> 
+       <fpage>
+        1057
+       </fpage> 
+       <lpage>
+        1079
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Boyle1"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Boyle
+         </surname>
+         <given-names>
+          KS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Horn
+         </surname>
+         <given-names>
+          MH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Comparison of feeding guild structure and ecomorphology of intertidal fish assemblages from central California and central Chile.
+       </article-title> 
+       <source>Marine Ecology-Progress Series 
+       <volume>
+        319
+       </volume> 
+       <fpage>
+        65
+       </fpage> 
+       <lpage>
+        84
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Winemiller1"> 
+      <label>34</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Winemiller
+         </surname>
+         <given-names>
+          KO
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1991
+       </year> 
+       <article-title>
+        Ecomorphological diversification in lowland fresh-water fish assemblages from 5 biotic regions.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        61
+       </volume> 
+       <fpage>
+        343
+       </fpage> 
+       <lpage>
+        365
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Villeger2"> 
+      <label>35</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Villeger
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Miranda
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hernandez
+         </surname>
+         <given-names>
+          DF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Contrasting changes in taxonomic vs. functional diversity of tropical fish communities after habitat degradation.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        20
+       </volume> 
+       <fpage>
+        1512
+       </fpage> 
+       <lpage>
+        1522
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Dumay1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Dumay
+         </surname>
+         <given-names>
+          O
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tari
+         </surname>
+         <given-names>
+          PS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tomasini
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Functional groups of lagoon fish species in Languedoc Roussillon, southern France.
+       </article-title> 
+       <source>Journal of Fish Biology 
+       <volume>
+        64
+       </volume> 
+       <fpage>
+        970
+       </fpage> 
+       <lpage>
+        983
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-deBello1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          de Bello
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavergne
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Meynard
+         </surname>
+         <given-names>
+          CN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Leps
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thuiller
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        The partitioning of diversity: showing Theseus a way out of the labyrinth.
+       </article-title> 
+       <source>Journal of Vegetation Science 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        992
+       </fpage> 
+       <lpage>
+        1000
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Villeger3"> 
+      <label>38</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Villeger
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Additive partitioning of diversity including species differences: a comment on Hardy &amp; Senterre (2007).
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        96
+       </volume> 
+       <fpage>
+        845
+       </fpage> 
+       <lpage>
+        848
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Hardy1"> 
+      <label>39</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hardy
+         </surname>
+         <given-names>
+          OJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Testing the spatial phylogenetic structure of local communities: statistical performances of different null models and test statistics on a locally neutral community.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        96
+       </volume> 
+       <fpage>
+        914
+       </fpage> 
+       <lpage>
+        926
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Manly1"> 
+      <label>40</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Manly
+         </surname>
+         <given-names>
+          BFJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Randomization, Bootstrap and Monte Carlo Methods in Biology.
+       </article-title> 
+       <source>Cornwall: Chapman &amp; Hall 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-R1"> 
+      <label>41</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        R Development Core Team
+       </collab> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        R: A Language and Environment for Statistical Computing.
+       </article-title> 
+       <source>R Foundation for Statistical Computing, Vienna, Austria 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Bellwood1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bellwood
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wainwright
+         </surname>
+         <given-names>
+          PC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fulton
+         </surname>
+         <given-names>
+          CJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hoey
+         </surname>
+         <given-names>
+          AS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Functional versatility supports coral reef biodiversity.
+       </article-title> 
+       <source>Proceedings of the Royal Society B-Biological Sciences 
+       <volume>
+        273
+       </volume> 
+       <fpage>
+        101
+       </fpage> 
+       <lpage>
+        107
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Devictor2"> 
+      <label>43</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Devictor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clavel
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Julliard
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavergne
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Defining and measuring ecological specialization.
+       </article-title> 
+       <source>Journal of Applied Ecology 
+       <volume>
+        47
+       </volume> 
+       <fpage>
+        15
+       </fpage> 
+       <lpage>
+        25
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Weiher1"> 
+      <label>44</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Weiher
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Freund
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bunton
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stefanski
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Advances, challenges and a developing synthesis of ecological community assembly theory.
+       </article-title> 
+       <source>Philosophical Transactions of the Royal Society B-Biological Sciences 
+       <volume>
+        366
+       </volume> 
+       <fpage>
+        2403
+       </fpage> 
+       <lpage>
+        2413
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Legendre1"> 
+      <label>45</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Borcard
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Peres-Neto
+         </surname>
+         <given-names>
+          PR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Analyzing beta diversity: Partitioning the spatial variation of community composition data.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        435
+       </fpage> 
+       <lpage>
+        450
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Hardy2"> 
+      <label>46</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hardy
+         </surname>
+         <given-names>
+          OJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Senterre
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Characterizing the phylogenetic structure of communities by an additive partitioning of phylogenetic diversity.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        95
+       </volume> 
+       <fpage>
+        493
+       </fpage> 
+       <lpage>
+        506
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0040679-Mnkemller1"> 
+      <label>47</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Münkemüller
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          de Bello
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Meynard
+         </surname>
+         <given-names>
+          CN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gravel
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavergne
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2012
+       </year> 
+       <article-title>
+        From diversity indices to community assembly processes.
+       </article-title> 
+       <source>Ecography In press 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

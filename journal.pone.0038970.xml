@@ -1,0 +1,5490 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-07609
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0038970
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Conservation science
+         </subject> 
+         <subject>
+          Ecological economics
+         </subject> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subject>
+          Environmental protection
+         </subject> 
+         <subject>
+          Global change ecology
+         </subject> 
+         <subject>
+          Terrestrial ecology
+         </subject> 
+         <subject>
+          Urban ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Earth sciences
+       </subject> 
+       <subj-group> 
+        <subject>
+         Environmental sciences
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Social and behavioral sciences
+       </subject> 
+       <subj-group> 
+        <subject>
+         Sociology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Culture
+         </subject> 
+         <subject>
+          Sexual and gender issues
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Uncovering Ecosystem Service Bundles through Social Preferences
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Ecosystem Service Bundles
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Martín-López
+        </surname> 
+        <given-names>
+         Berta
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Iniesta-Arandia
+        </surname> 
+        <given-names>
+         Irene
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         García-Llorente
+        </surname> 
+        <given-names>
+         Marina
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Palomo
+        </surname> 
+        <given-names>
+         Ignacio
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Casado-Arzuaga
+        </surname> 
+        <given-names>
+         Izaskun
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Amo
+        </surname> 
+        <given-names>
+         David García Del
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Gómez-Baggethun
+        </surname> 
+        <given-names>
+         Erik
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Oteros-Rozas
+        </surname> 
+        <given-names>
+         Elisa
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Palacios-Agundez
+        </surname> 
+        <given-names>
+         Igone
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Willaarts
+        </surname> 
+        <given-names>
+         Bárbara
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff5"> 
+        <sup>5</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         González
+        </surname> 
+        <given-names>
+         José A.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Santos-Martín
+        </surname> 
+        <given-names>
+         Fernando
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Onaindia
+        </surname> 
+        <given-names>
+         Miren
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         López-Santiago
+        </surname> 
+        <given-names>
+         Cesar
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Montes
+        </surname> 
+        <given-names>
+         Carlos
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Social-Ecological Systems Laboratory, Department of Ecology, Universidad Autónoma de Madrid, Madrid, Spain
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Department of Plant Biology and Ecology, Universidad de Almería, Almería, Spain
+      </addr-line> 
+     </aff>
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Plant Biology and Ecology Department – Universidad del País Vasco UPV/EHU, Bizkaia, Spain
+      </addr-line> 
+     </aff>
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Institute of Environmental Science and Technology, Faculty of Sciences, Universitat Autònoma de Barcelona, Bellaterra–Cerdanyola del Vallés, Spain
+      </addr-line> 
+     </aff>
+     <aff id="aff5">
+      <label>5</label>
+      <addr-line>
+       Research Center for the Management of Agricultural and Environmental Risks (CEIGRAM), Universidad Politécnica de Madrid, Madrid, Spain
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bawa
+        </surname> 
+        <given-names>
+         Kamal
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      University of Massachusetts, United States of America
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        berta.martin@uam.es
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: BML IIA MGL EGB. Performed the experiments: IIA MGL ICA IP DGA EGB EOR IPA BW. Analyzed the data: BML. Wrote the paper: BML. Contributed to the discussion: IIA MGL ICA IP EGB EOR IPA BW JAG FSM CLS. Supervised experimental design: JAG CM MO.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       18
+      </day> 
+      <month>
+       6
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      6
+     </issue>
+     <elocation-id>
+      e38970
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        6
+       </day> 
+       <month>
+        3
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        14
+       </day> 
+       <month>
+        5
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2012
+      </copyright-year>
+      <copyright-holder>
+       Martín-López et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>Ecosystem service assessments have increasingly been used to support environmental management policies, mainly based on biophysical and economic indicators. However, few studies have coped with the social-cultural dimension of ecosystem services, despite being considered a research priority. We examined how ecosystem service bundles and trade-offs emerge from diverging social preferences toward ecosystem services delivered by various types of ecosystems in Spain. We conducted 3,379 direct face-to-face questionnaires in eight different case study sites from 2007 to 2011. Overall, 90.5% of the sampled population recognized the ecosystem’s capacity to deliver services. Formal studies, environmental behavior, and gender variables influenced the probability of people recognizing the ecosystem’s capacity to provide services. The ecosystem services most frequently perceived by people were regulating services; of those, air purification held the greatest importance. However, statistical analysis showed that socio-cultural factors and the conservation management strategy of ecosystems (i.e., National Park, Natural Park, or a non-protected area) have an effect on social preferences toward ecosystem services. Ecosystem service trade-offs and bundles were identified by analyzing social preferences through multivariate analysis (redundancy analysis and hierarchical cluster analysis). We found a clear trade-off among provisioning services (and recreational hunting) versus regulating services and almost all cultural services. We identified three ecosystem service bundles associated with the conservation management strategy and the rural-urban gradient. We conclude that socio-cultural preferences toward ecosystem services can serve as a tool to identify relevant services for people, the factors underlying these social preferences, and emerging ecosystem service bundles and trade-offs.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       Funding for the Andalusian case studies came from the Department of Innovation, Science, and Enterprise of Andalusian Government (project P08-RNM-03945) and the Ministry of the Environment and Rural and Marine Affairs of Spain (project 018/2009). The study of the Conquense Drove Road was funded by the Ministry of the Environment and Rural and Marine Affairs of Spain (project #079/RN08/02.1). The Bilbao Metropolitan Greenbelt study was funded by the Department of Education, University and Research of the Basque Government through the doctoral grant received by I. Casado-Arzuaga (BFI09.231), and the Environment Department of the Regional Government of Bizkaia through the project “Millennium Ecosystem Assessment in Bizkaia.” This paper was further supported by the Biodiversity Foundation through the Spanish Millennium Ecosystem Assessment project (
+       <ext-link ext-link-type="uri" xlink:href="http://www.ecomilenio.es/" xlink:type="simple">
+        http://www.ecomilenio.es/
+       </ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="11" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>The ecosystem services concept has been increasingly used by academics, researchers and policy-makers 
+     <xref ref-type="bibr" rid="pone.0038970-Fisher1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Lamarque1">
+      [2]
+     </xref> to support and inform environmental management and biodiversity conservation strategies 
+     <xref ref-type="bibr" rid="pone.0038970-Chan1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Chan2">
+      [4]
+     </xref>. Most studies have focused either on biophysical assessments of the capacity of ecosystems to deliver services (e.g., 
+     <xref ref-type="bibr" rid="pone.0038970-Daz1">
+      [5]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0038970-GarcaLLorente1">
+      [8]
+     </xref>), or on the economic value of ecosystem services (e.g., 
+     <xref ref-type="bibr" rid="pone.0038970-GarcaLLorente1">
+      [8]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0038970-MartnLpez1">
+      [11]
+     </xref>). Few studies, however, have addressed socio-cultural preferences toward ecosystem services from the perspective of human values, attitudes, and beliefs while using a non-economic approach 
+     <xref ref-type="bibr" rid="pone.0038970-Vihervaara1">
+      [12]
+     </xref>. A non-economic evaluation offers ways of understanding the motivations underlying social preferences toward ecosystem services, thereby unraveling values that tend to be obscured by monetary languages 
+     <xref ref-type="bibr" rid="pone.0038970-Phillipson1">
+      [13]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Chan3">
+      [14]
+     </xref>.</p> 
+    <p>Because ecosystem service assessments are determined by analyzing the effect of ecosystems and biodiversity on human well-being, it is necessary to understand the ways society benefits from nature and, hence, the many reasons that societies value ecosystem services 
+     <xref ref-type="bibr" rid="pone.0038970-Menzel1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Anton1">
+      [16]
+     </xref>. Identifying the reasons and motivations for protecting ecosystem services helps to understand which services are relevant for different stakeholders and which trade-offs need to be addressed when making decisions regarding land-use management 
+     <xref ref-type="bibr" rid="pone.0038970-Seppelt1">
+      [17]
+     </xref>. Trade-offs can arise from the different interests of social agents involved because one ecosystem may be valued differently by different stakeholders in relation to its capacity to provide services that fulfill their own interests. For instance, a wetland is likely to be valued by fishermen primarily for its capacity to maintain the abundance of specific game fish species, by farmers for its ability to supply water for irrigation, by conservationists for their capacity to provide habitat for endangered and rare wildlife species, and by nature tourists for its capacity to provide recreation and aesthetic enjoyment 
+     <xref ref-type="bibr" rid="pone.0038970-GarcaLLorente1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Paetzold1">
+      [18]
+     </xref>.</p> 
+    <p>Based on socio-cultural preferences, the concept of ecosystem service bundles emerge as a useful tool for identifying ecosystem service synergies and trade-offs 
+     <xref ref-type="bibr" rid="pone.0038970-Bennett1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-RaudseppHearne1">
+      [20]
+     </xref> resulting from stakeholders’ diverging interests and knowledge. Given the growing demand for the incorporation of the socio-cultural dimension of ecosystem services in environmental policy agendas 
+     <xref ref-type="bibr" rid="pone.0038970-Menzel1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Bryan1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0038970-Kumar1">
+      [22]
+     </xref>, understanding social preferences toward the protection of ecosystem services has become a research priority 
+     <xref ref-type="bibr" rid="pone.0038970-Anton1">
+      [16]
+     </xref>. To our knowledge, no empirical studies have addressed ecosystem service bundles based on socio-cultural preferences, and few studies have analyzed the stakeholders’ preferences toward several services (see 
+     <xref ref-type="table" rid="pone-0038970-t001">
+      Table 1
+     </xref>). Therefore, there is a specific need to explore social preferences and perceptions toward ecosystem services in the context of current scientific and environmental policy interests at international organization levels (i.e., Millennium Ecosystem Assessment follow-up; The Economics of Ecosystems and Biodiversity (TEEB) 
+     <xref ref-type="bibr" rid="pone.0038970-TEEB1">
+      [10]
+     </xref>; Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) 
+     <xref ref-type="bibr" rid="pone.0038970-Perrings1">
+      [23]
+     </xref>; or the Convention of Biological Diversity’s (CBD) 2020 targets) as well as national organization levels (i.e., the Millennium Ecosystem Assessment of Spain 
+     <xref ref-type="bibr" rid="pone.0038970-MillenniumEcosystemAssessmentof1">
+      [24]
+     </xref> and the Spanish law 42/2007, on Natural Heritage and Biodiversity).</p> 
+    <table-wrap id="pone-0038970-t001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0038970.t001
+     </object-id>
+     <label>Table 1</label> 
+     <title>Studies analyzing social perceptions of ecosystem services.</title> 
+     <!--===== Grouping alternate versions of objects =====-->
+     <alternatives>
+      <graphic id="pone-0038970-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.t001" xlink:type="simple" />
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Source</td> 
+         <td align="left" colspan="1" rowspan="1">Type of ecosystems(after 
+          <xref ref-type="bibr" rid="pone.0038970-Millennium1">
+           [71]
+          </xref>)</td> 
+         <td align="left" colspan="1" rowspan="1">Category of ecosystem services (after 
+          <xref ref-type="bibr" rid="pone.0038970-Millennium1">
+           [71]
+          </xref>)</td> 
+         <td align="left" colspan="1" rowspan="1">Study area</td> 
+         <td align="left" colspan="1" rowspan="1">Methodology</td> 
+         <td align="left" colspan="1" rowspan="1">Stakeholderssampled</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Martín-López, 2007 
+          <xref ref-type="bibr" rid="pone.0038970-MartnLpez2">
+           [72]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Wetlands</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Doñana Protected Area,Spain</td> 
+         <td align="left" colspan="1" rowspan="1">Face-to-face questionnaires</td> 
+         <td align="left" colspan="1" rowspan="1">Local people, visitors, environmental experts</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Rönnbäck, 2007 
+          <xref ref-type="bibr" rid="pone.0038970-Rnnbck1">
+           [49]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Coastal system (mangroves)</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Gazi and Makongeni, Kenia</td> 
+         <td align="left" colspan="1" rowspan="1">Semi-structured interviews</td> 
+         <td align="left" colspan="1" rowspan="1">Local people</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Agbenyega, 2008 
+          <xref ref-type="bibr" rid="pone.0038970-Agbenyega1">
+           [30]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Forests</td> 
+         <td align="left" colspan="1" rowspan="1">Supporting; Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Eastern England, UK</td> 
+         <td align="left" colspan="1" rowspan="1">Questionnaires</td> 
+         <td align="left" colspan="1" rowspan="1">Local people</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Iftekhar, 2008 
+          <xref ref-type="bibr" rid="pone.0038970-Iftekhar1">
+           [32]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Wetlands</td> 
+         <td align="left" colspan="1" rowspan="1">Supporting; Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Nijhum Dwip, Bangladesh</td> 
+         <td align="left" colspan="1" rowspan="1">Individual interviews andgroup meetings</td> 
+         <td align="left" colspan="1" rowspan="1">Local people andkey informants</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Sodhi, 2009 
+          <xref ref-type="bibr" rid="pone.0038970-Sodhi1">
+           [33]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Forests</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Forested parks in Myanmar, Philippines, and Thailand</td> 
+         <td align="left" colspan="1" rowspan="1">Individual interviews</td> 
+         <td align="left" colspan="1" rowspan="1">Local people</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Hartter, 2010 
+          <xref ref-type="bibr" rid="pone.0038970-Hartter1">
+           [31]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Forests andwetlands</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating</td> 
+         <td align="left" colspan="1" rowspan="1">The Kibale National Park, Uganda</td> 
+         <td align="left" colspan="1" rowspan="1">Semi-structured interviews</td> 
+         <td align="left" colspan="1" rowspan="1">Local people</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Zheng, 2010 
+          <xref ref-type="bibr" rid="pone.0038970-Zhen1">
+           [34]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Drylands</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Mongolia Plateau</td> 
+         <td align="left" colspan="1" rowspan="1">Individual interviews and face-to-face questionnaires</td> 
+         <td align="left" colspan="1" rowspan="1">Local people</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Castro, 2011 
+          <xref ref-type="bibr" rid="pone.0038970-Castro1">
+           [73]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Drylands</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Almería, Spain</td> 
+         <td align="left" colspan="1" rowspan="1">Face-to-face questionnaires</td> 
+         <td align="left" colspan="1" rowspan="1">Local people, visitors, environmental experts</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Lamarque, 2011 
+          <xref ref-type="bibr" rid="pone.0038970-Lamarque2">
+           [26]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Grasslands ofmountains</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">French Alps, Austrian Alps,and English uplands</td> 
+         <td align="left" colspan="1" rowspan="1">Individual and groupinterviews</td> 
+         <td align="left" colspan="1" rowspan="1">Regional experts andlocal farmers</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Vilardy, 2011 
+          <xref ref-type="bibr" rid="pone.0038970-Vilardy1">
+           [74]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Coastal wetland</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Ciénaga Grande of SantaMarta, Colombia</td> 
+         <td align="left" colspan="1" rowspan="1">Semi-structured interviewsand expert meetings</td> 
+         <td align="left" colspan="1" rowspan="1">Local people and environmental experts</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Warren-Rhodes,2011 
+          <xref ref-type="bibr" rid="pone.0038970-WarrenRhodes1">
+           [50]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Coastal system (mangroves)</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Solomon Islands</td> 
+         <td align="left" colspan="1" rowspan="1">Semi-structured interviews</td> 
+         <td align="left" colspan="1" rowspan="1">Local people</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Calvet-Mir, 2012 
+          <xref ref-type="bibr" rid="pone.0038970-CalvetMir1">
+           [27]
+          </xref></td> 
+         <td align="left" colspan="1" rowspan="1">Home gardens</td> 
+         <td align="left" colspan="1" rowspan="1">Provisioning; Regulating; Cultural</td> 
+         <td align="left" colspan="1" rowspan="1">Catalan Pyrenees, Spain</td> 
+         <td align="left" colspan="1" rowspan="1">Semi-structured interviewsand questionnaires</td> 
+         <td align="left" colspan="1" rowspan="1">Local people, visitors,and scientists</td> 
+        </tr> 
+       </tbody> 
+      </table>
+     </alternatives>
+    </table-wrap> 
+    <p>In this study, we analyzed socio-cultural preferences toward ecosystem services delivered by different types of Spanish ecosystems and how they can promote ecosystem service trade-offs and bundles. Here, the term “socio-cultural preferences” incorporates individual perceptions, knowledge, and associated values 
+     <xref ref-type="bibr" rid="pone.0038970-Brown1">
+      [25]
+     </xref>. In doing so, we specifically explore the following: (
+     <italic>
+      i
+     </italic>) the probability that people recognize the capacity of ecosystems to deliver services to society and the factors influencing such recognition; (
+     <italic>
+      ii
+     </italic>) the relative importance given by people to different categories of ecosystem services (i.e., provisioning, regulating, and cultural) and their underlying factors; (
+     <italic>
+      iii
+     </italic>) the factors that affect the relative importance stakeholders give to particular ecosystem service and the potential trade-offs emerging; and (
+     <italic>
+      iv
+     </italic>) the ecosystem service bundles that can emerge from diverging socio-cultural preferences.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study Sites</title> 
+     <p>The research was conducted at eight sites in the Iberian Peninsula (
+      <xref ref-type="fig" rid="pone-0038970-g001">
+       Figure 1
+      </xref>) to capture (
+      <italic>
+       i
+      </italic>) a representative sample of ecosystem diversity and (
+      <italic>
+       ii
+      </italic>) different environmental management strategies (i.e., National Parks with a strict conservation level, Natural Parks with a medium conservation level that allows traditional and cultural management practices, and non-protected areas). Thus, both biophysical and socio-cultural variability were considered to select case sites because they determine a different supply and demand of ecosystem services 
+      <xref ref-type="bibr" rid="pone.0038970-Lamarque2">
+       [26]
+      </xref>. For more details regarding case study sites, see Supplementary Information (
+      <xref ref-type="supplementary-material" rid="pone.0038970.s001">
+       Figure S1
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0038970.s002">
+       Table S1
+      </xref>).</p> 
+     <fig id="pone-0038970-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Study areas.</title> 
+      <p>Sample points are indicated with red circles. National and Natural Parks are shown in dark and light green, respectively.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.g001" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Data Sampling</title> 
+     <p>Data sampling was conducted in each of the eight case sites by following a consistent survey design. The population sampled was randomly selected to cover a wide range of ecosystem service beneficiaries, such as local inhabitants, visitors, or environmental technical experts. The sampling population was restricted to individuals over 18 years old. A total of 3379 direct face-to-face questionnaires were conducted between 2007 and 2011. To test the suitability of the questionnaire design, we conducted a preliminary sampling in each case study. More details about the sampling characteristics are provided in 
+      <xref ref-type="supplementary-material" rid="pone.0038970.s002">
+       Table S1
+      </xref>, and further details of the sampling population are provided in 
+      <xref ref-type="supplementary-material" rid="pone.0038970.s003">
+       Table S2
+      </xref>.</p> 
+     <p>The questionnaire was structured in four sections, regarding the following topics: (
+      <italic>
+       i
+      </italic>) the respondents’ previous knowledge about the studied ecosystem’s capacity to provide services to society; (
+      <italic>
+       ii
+      </italic>) the respondents’ perception of the importance of ecosystem services for the well-being of people in the area, after pollsters provided information about the services potentially delivered by ecosystems; (
+      <italic>
+       iii
+      </italic>) the individuals’ environmental behavior (i.e., if the respondent was a member of either an environmental or social association and if the respondent had visited any protected areas during the previous year); and (
+      <italic>
+       iv
+      </italic>) socio-demographic characteristics of the surveyed individuals (i.e., place of residence, formal education, age, gender, and monthly income). While conducting the surveys, the term ecosystem service was always referred to as “the benefits that the ecosystems of the area provide for human well-being” to make the term more understandable and to avoid educational biases. In addition, to facilitate interpretation, a list of ecosystem services with related pictures was presented to respondents in the second portion (
+      <italic>
+       ii
+      </italic>) of the questionnaire 
+      <xref ref-type="bibr" rid="pone.0038970-CalvetMir1">
+       [27]
+      </xref>.</p> 
+     <p>The variables obtained from the questionnaire are shown in the supplementary material (
+      <xref ref-type="supplementary-material" rid="pone.0038970.s004">
+       Table S3
+      </xref>).</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Statistical Analysis</title> 
+     <p>We used binomial logit regression to predict the probability that a respondent recognized an ecosystem’s capacity to deliver services to society. The dependent variable was coded as ‘1’ if the respondent recognized an ecosystem’s capacity to supply services and as ‘0’ if the respondent did not. Akaike’s Information Criteria (AIC) was used to select the best model among all the possible combinations of independent variables 
+      <xref ref-type="bibr" rid="pone.0038970-Burham1">
+       [28]
+      </xref>. To validate the prediction of the regression, we used 250 randomly selected observations. Then, we calculated the percentage of observations where the model correctly predicted the 0–1 responses (% well classified). We also tested whether the probability of a respondent to acknowledge an ecosystem’s capacity to provide services to society differed among ecosystem types, using chi-squared contingency tests.</p> 
+     <p>We used the chi-squared test to analyze the relative importance of different service categories for respondents’ well-being, comparing the number of ecosystem services identified by the respondents in each of the service categories (i.e., provisioning, regulating, and cultural). Then, we used the non-parametric Kruskal-Wallis test followed by Dunn’s multiple comparison test to analyze whether the relative importance given to each service category by respondents was affected by social (i.e., formal education) and management factors (i.e., if the ecosystem under analysis was protected by a National Park, by a Natural Park, or was a non-protected area). We also performed a non-parametric Mann-Whitney 
+      <italic>
+       U
+      </italic>-test to analyze whether the relative importance of different service categories differed with gender, rural versus urban population, elderly versus younger people, and between respondents showing environmental behavior versus those who did not.</p> 
+     <p>A redundancy analysis (RDA) was used to identify socio-cultural factors associated with the relative importance of particular ecosystem services by relating ecosystem services to socio-demographic and environmental behavior variables, as well as the management strategy and ecosystem type. A Monte Carlo permutation test (1000 permutations) was performed to determine the significance of independent variables in determining the relative importance of ecosystem services. The factors with the highest inertia were used to identify ecosystem service bundles using a hierarchical cluster analysis. We used Ward’s linkage method with Euclidean distances to identify relatedness among ecosystem service preferences 
+      <xref ref-type="bibr" rid="pone.0038970-Ward1">
+       [29]
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Probability of Recognizing the Ecosystem’s Capacity to Deliver Services to Society</title> 
+     <p>Overall, 90.5% of the sampled population recognized that ecosystems can deliver services to society. According to the logit model, factors affecting the probability that respondents recognized the ecosystem’s capacity to deliver services were the level of formal education, environmental behavior, and gender (
+      <xref ref-type="table" rid="pone-0038970-t002">
+       Table 2
+      </xref>). Our results indicate that respondents were more likely to recognize the ecosystem’s capacity to supply services when they have a higher level of formal education, higher environmental behavior, and if they were female. From the validation dataset (
+      <italic>
+       N
+      </italic> = 250), we obtained that 92.8% of the answers were correctly classified.</p> 
+     <table-wrap id="pone-0038970-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Logit regression for respondents’ recognition of an ecosystem’s capacity to provide services.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0038970-t002-2" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.t002" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Variables</td> 
+          <td align="left" colspan="1" rowspan="1">Coefficient</td> 
+          <td align="left" colspan="1" rowspan="1">Standard deviation</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            z
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">
+           <italic>
+            p
+           </italic>&gt; |
+           <italic>
+            z
+           </italic>|</td> 
+          <td align="left" colspan="2" rowspan="1">[95% C.I.]</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Constant</td> 
+          <td align="left" colspan="1" rowspan="1">1.156</td> 
+          <td align="left" colspan="1" rowspan="1">0.999</td> 
+          <td align="left" colspan="1" rowspan="1">1.362</td> 
+          <td align="left" colspan="1" rowspan="1">0.234</td> 
+          <td align="left" colspan="1" rowspan="1">−0.785</td> 
+          <td align="left" colspan="1" rowspan="1">3.096</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Education</td> 
+          <td align="left" colspan="1" rowspan="1">0.385</td> 
+          <td align="left" colspan="1" rowspan="1">0.066</td> 
+          <td align="left" colspan="1" rowspan="1">33.557</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.0001</td> 
+          <td align="left" colspan="1" rowspan="1">0.254</td> 
+          <td align="left" colspan="1" rowspan="1">0.515</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Female</td> 
+          <td align="left" colspan="1" rowspan="1">0.212</td> 
+          <td align="left" colspan="1" rowspan="1">0.130</td> 
+          <td align="left" colspan="1" rowspan="1">2.669</td> 
+          <td align="left" colspan="1" rowspan="1">0.072</td> 
+          <td align="left" colspan="1" rowspan="1">−0.042</td> 
+          <td align="left" colspan="1" rowspan="1">0.466</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Organization</td> 
+          <td align="left" colspan="1" rowspan="1">0.572</td> 
+          <td align="left" colspan="1" rowspan="1">0.247</td> 
+          <td align="left" colspan="1" rowspan="1">5.335</td> 
+          <td align="left" colspan="1" rowspan="1">0.021</td> 
+          <td align="left" colspan="1" rowspan="1">0.087</td> 
+          <td align="left" colspan="1" rowspan="1">1.057</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">PAs</td> 
+          <td align="left" colspan="1" rowspan="1">0.423</td> 
+          <td align="left" colspan="1" rowspan="1">0.128</td> 
+          <td align="left" colspan="1" rowspan="1">10.856</td> 
+          <td align="left" colspan="1" rowspan="1">0.001</td> 
+          <td align="left" colspan="1" rowspan="1">0.171</td> 
+          <td align="left" colspan="1" rowspan="1">0.674</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="7" rowspan="1">
+           <italic>
+            N
+           </italic> = 3129</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="7" rowspan="1">Log-likelihood  = 1892.67, Wald Chi-squared  = 72.23, (
+           <italic>
+            p
+           </italic>&gt; Chi<sup>2</sup>) &lt;0.0001</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="7" rowspan="1">AIC  = 1904.67</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="7" rowspan="1">Percentage of correct estimated predictions (%)  = 90.47%</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>C.I. refers to its 95% confidence.</p> 
+       </fn> 
+       <fn id="nt102"> 
+        <label></label> 
+        <p>PAs  =  If respondent visited protected areas during the previous year.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>We also found differences in the stakeholders’ recognition regarding the capacity to provide services among different types of ecosystems (
+      <italic>
+       χ
+      </italic><sup>2</sup> = 79.8, d.f. = 7, 
+      <italic>
+       p
+      </italic>&lt;0.0001). While the scores regarding the recognition of an ecosystem’s capacity to supply services were high for coastal systems, forests, and wetlands, these scores were significantly lower for various ecosystems, including rivers and streams, drylands, and urban systems (
+      <xref ref-type="fig" rid="pone-0038970-g002">
+       Figure 2
+      </xref>).</p> 
+     <fig id="pone-0038970-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Perception of stakeholders regarding an ecosystem’s capacity to provide services.</title> 
+      <p>Ecosystem classification based on the Millennium Ecosystem Assessment 
+       <xref ref-type="bibr" rid="pone.0038970-Millennium1">
+        [71]
+       </xref>.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.g002" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Factors Underlying the Relative Importance given to Categories of Ecosystem Services</title> 
+     <p>We found significant differences in the social perception about the relative importance of different ecosystem service categories (
+      <italic>
+       χ
+      </italic><sup>2</sup> = 885.4, d.f. = 2, 
+      <italic>
+       p
+      </italic>&lt;0.0001): regulating services showed the highest saliency (44% of total respondents), followed by cultural services (33%), and provisioning services (23%). When respondents were asked to identify the relative importance of particular services, more than 40% identified air purification, the existence value of biodiversity, and nature tourism, as the most important services (
+      <italic>
+       χ
+      </italic><sup>2</sup> = 3522.2, d.f. = 13, 
+      <italic>
+       p
+      </italic>&lt;0.0001). Few respondents seemed to perceive the role of ecosystems as providers of forests products (13% of respondents) or hunting as a recreational activity (11%). 
+      <xref ref-type="table" rid="pone-0038970-t003">
+       Table 3
+      </xref> provides a summary of descriptive statistics of the particular ecosystem services perceived by the respondents.</p> 
+     <table-wrap id="pone-0038970-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>Descriptive statistics of respondents’ preferences toward ecosystem services.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0038970-t003-3" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.t003" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Ecosystem services</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            N
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">Mean (%)</td> 
+          <td align="left" colspan="1" rowspan="1">S.D.</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="4" rowspan="1"> 
+           <bold> 
+            <italic>
+             Provisioning services
+            </italic> 
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Agriculture</td> 
+          <td align="left" colspan="1" rowspan="1">905</td> 
+          <td align="left" colspan="1" rowspan="1">26.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.44</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Cattle</td> 
+          <td align="left" colspan="1" rowspan="1">788</td> 
+          <td align="left" colspan="1" rowspan="1">23.3</td> 
+          <td align="left" colspan="1" rowspan="1">0.42</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Fishing</td> 
+          <td align="left" colspan="1" rowspan="1">724</td> 
+          <td align="left" colspan="1" rowspan="1">21.4</td> 
+          <td align="left" colspan="1" rowspan="1">0.42</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Forest products</td> 
+          <td align="left" colspan="1" rowspan="1">430</td> 
+          <td align="left" colspan="1" rowspan="1">12.7</td> 
+          <td align="left" colspan="1" rowspan="1">0.33</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="4" rowspan="1"> 
+           <bold> 
+            <italic>
+             Regulating services
+            </italic> 
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Micro-climate regulation</td> 
+          <td align="left" colspan="1" rowspan="1">1071</td> 
+          <td align="left" colspan="1" rowspan="1">31.7</td> 
+          <td align="left" colspan="1" rowspan="1">0.46</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Air purification</td> 
+          <td align="left" colspan="1" rowspan="1">1522</td> 
+          <td align="left" colspan="1" rowspan="1">45.0</td> 
+          <td align="left" colspan="1" rowspan="1">0.49</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Water regulation</td> 
+          <td align="left" colspan="1" rowspan="1">1297</td> 
+          <td align="left" colspan="1" rowspan="1">38.4</td> 
+          <td align="left" colspan="1" rowspan="1">0.48</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Soil formation</td> 
+          <td align="left" colspan="1" rowspan="1">938</td> 
+          <td align="left" colspan="1" rowspan="1">27.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.45</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="4" rowspan="1"> 
+           <bold> 
+            <italic>
+             Cultural services
+            </italic> 
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Nature tourism</td> 
+          <td align="left" colspan="1" rowspan="1">1392</td> 
+          <td align="left" colspan="1" rowspan="1">41.2</td> 
+          <td align="left" colspan="1" rowspan="1">0.49</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Aesthetic values</td> 
+          <td align="left" colspan="1" rowspan="1">605</td> 
+          <td align="left" colspan="1" rowspan="1">17.9</td> 
+          <td align="left" colspan="1" rowspan="1">0.38</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Environmental education</td> 
+          <td align="left" colspan="1" rowspan="1">906</td> 
+          <td align="left" colspan="1" rowspan="1">26.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.44</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Local ecological knowledge</td> 
+          <td align="left" colspan="1" rowspan="1">913</td> 
+          <td align="left" colspan="1" rowspan="1">27.0</td> 
+          <td align="left" colspan="1" rowspan="1">0.44</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Recreational hunting</td> 
+          <td align="left" colspan="1" rowspan="1">358</td> 
+          <td align="left" colspan="1" rowspan="1">10.6</td> 
+          <td align="left" colspan="1" rowspan="1">0.30</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Existence value</td> 
+          <td align="left" colspan="1" rowspan="1">1420</td> 
+          <td align="left" colspan="1" rowspan="1">42.0</td> 
+          <td align="left" colspan="1" rowspan="1">0.49</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt103"> 
+        <label></label> 
+        <p>S.D. refers to standard deviation.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>The importance of different ecosystem service categories varied significantly among respondents depending on their level of formal education, gender, place of residence (i.e., urban vs. rural), age, and reported level of environmental behavior (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>). While rural and elderly people (i.e., more than 70 years old) mostly acknowledged provisioning services, urban and younger people (i.e., less than 30 years old) mostly acknowledged regulating services. Overall, males mostly perceived provisioning services and females mostly perceived regulating services. Additionally, people with a lower level of formal education placed more value on provisioning services (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>).</p> 
+     <table-wrap id="pone-0038970-t004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.t004
+      </object-id>
+      <label>Table 4</label> 
+      <title>Factors influencing people’s awareness of different ecosystem service categories.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0038970-t004-4" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.t004" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Factors</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="3" rowspan="1">Mean relative value (S.D.)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="2" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Provisioning
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Regulating
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Cultural
+           </italic> </td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="5" rowspan="1"> 
+           <bold> 
+            <italic>
+             Environmental behavior
+            </italic> 
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">PAs</td> 
+          <td align="left" colspan="1" rowspan="1">Visitor</td> 
+          <td align="left" colspan="1" rowspan="1">0.184 (0.20)</td> 
+          <td align="left" colspan="1" rowspan="1">0.356 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.214 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Non-visitor</td> 
+          <td align="left" colspan="1" rowspan="1">0.208 (0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.318 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.261 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            U
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">1 245 269.0<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 294 822.0<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 358 297.0<sup>***</sup></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Organization</td> 
+          <td align="left" colspan="1" rowspan="1">Membership</td> 
+          <td align="left" colspan="1" rowspan="1">0.197 (0.19)</td> 
+          <td align="left" colspan="1" rowspan="1">0.281 (0.26)</td> 
+          <td align="left" colspan="1" rowspan="1">0.211 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Non-membership</td> 
+          <td align="left" colspan="1" rowspan="1">0.177 (0.19)</td> 
+          <td align="left" colspan="1" rowspan="1">0.344 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.221 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            U
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">590 526.0<sup>*</sup></td> 
+          <td align="left" colspan="1" rowspan="1">647 158.5<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">528 289.5</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="5" rowspan="1"> 
+           <bold> 
+            <italic>
+             Socio-economic
+            </italic> 
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Place of residence</td> 
+          <td align="left" colspan="1" rowspan="1">Rural</td> 
+          <td align="left" colspan="1" rowspan="1">0.240 (0.22)</td> 
+          <td align="left" colspan="1" rowspan="1">0.300 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.299 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Urban</td> 
+          <td align="left" colspan="1" rowspan="1">0.183 (0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.428 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.300 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            U
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">1 623 990.5<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">996 411.0<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 375 845.0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Level of education</td> 
+          <td align="left" colspan="1" rowspan="1">None</td> 
+          <td align="left" colspan="1" rowspan="1">0.293<sup>c</sup> (0.24)</td> 
+          <td align="left" colspan="1" rowspan="1">0.370 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.228<sup>a</sup> (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Primary</td> 
+          <td align="left" colspan="1" rowspan="1">0.240<sup>b,c</sup> (0.22)</td> 
+          <td align="left" colspan="1" rowspan="1">0.350 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.253<sup>b</sup> (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Secondary</td> 
+          <td align="left" colspan="1" rowspan="1">0.215<sup>a,b</sup>(0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.365 (0.28)</td> 
+          <td align="left" colspan="1" rowspan="1">0.254<sup>b</sup> (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">University</td> 
+          <td align="left" colspan="1" rowspan="1">0.194<sup>a</sup> (0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.351 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.250<sup>b</sup> (0.19)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            χ
+           </italic> <sup>2</sup> </td> 
+          <td align="left" colspan="1" rowspan="1">40.53<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">3.21</td> 
+          <td align="left" colspan="1" rowspan="1">19.77<sup>***</sup></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Age</td> 
+          <td align="left" colspan="1" rowspan="1">&gt;30 years</td> 
+          <td align="left" colspan="1" rowspan="1">0.221 (0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.347 (0.28)</td> 
+          <td align="left" colspan="1" rowspan="1">0.242 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">&lt;30 years</td> 
+          <td align="left" colspan="1" rowspan="1">0.203 (0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.377 (0.28)</td> 
+          <td align="left" colspan="1" rowspan="1">0.244 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            U
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">1 265 767.5<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 137 165.0<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 094 182.0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">&gt;70 years</td> 
+          <td align="left" colspan="1" rowspan="1">0.273 (0.24)</td> 
+          <td align="left" colspan="1" rowspan="1">0.317 (0.24)</td> 
+          <td align="left" colspan="1" rowspan="1">0.250 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">&lt;70 years</td> 
+          <td align="left" colspan="1" rowspan="1">0.213 (0.22)</td> 
+          <td align="left" colspan="1" rowspan="1">0.358 (0.28)</td> 
+          <td align="left" colspan="1" rowspan="1">0.242 (0.18)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            U
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">203 202.0<sup>**</sup></td> 
+          <td align="left" colspan="1" rowspan="1">249 135.5</td> 
+          <td align="left" colspan="1" rowspan="1">224 874.5</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Gender</td> 
+          <td align="left" colspan="1" rowspan="1">Male</td> 
+          <td align="left" colspan="1" rowspan="1">0.217 (0.22)</td> 
+          <td align="left" colspan="1" rowspan="1">0.348 (0.28)</td> 
+          <td align="left" colspan="1" rowspan="1">0.241 (0.185)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Female</td> 
+          <td align="left" colspan="1" rowspan="1">0.210 (0.22)</td> 
+          <td align="left" colspan="1" rowspan="1">0.368 (0.27)</td> 
+          <td align="left" colspan="1" rowspan="1">0.245 (0.185)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            U
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">1 390 008.5<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 318 087.0<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">1 363 616.0</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="5" rowspan="1"> 
+           <bold> 
+            <italic>
+             Management strategy
+            </italic> 
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">National Park</td> 
+          <td align="left" colspan="1" rowspan="1">0.196<sup>a</sup> (0.19)</td> 
+          <td align="left" colspan="1" rowspan="1">0.333<sup>b</sup> (0.26)</td> 
+          <td align="left" colspan="1" rowspan="1">0.198<sup>a</sup> (0.17)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Natural Park</td> 
+          <td align="left" colspan="1" rowspan="1">0.230<sup>a</sup> (0.24)</td> 
+          <td align="left" colspan="1" rowspan="1">0.430<sup>c</sup> (0.31)</td> 
+          <td align="left" colspan="1" rowspan="1">0.277<sup>c</sup> (0.17)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Non-protected</td> 
+          <td align="left" colspan="1" rowspan="1">0.223<sup>a</sup> (0.21)</td> 
+          <td align="left" colspan="1" rowspan="1">0.320<sup>a</sup> (0.25)</td> 
+          <td align="left" colspan="1" rowspan="1">0.254<sup>b</sup> (0.19)</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            χ
+           </italic> <sup>2</sup> </td> 
+          <td align="left" colspan="1" rowspan="1">6.34<sup>*</sup></td> 
+          <td align="left" colspan="1" rowspan="1">74.97<sup>***</sup></td> 
+          <td align="left" colspan="1" rowspan="1">150.85<sup>***</sup></td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt104"> 
+        <label></label> 
+        <p>S.D.  =  standard deviation.</p> 
+       </fn> 
+       <fn id="nt105"> 
+        <label></label> 
+        <p>PAs  =  If respondent visited protected areas during the previous year.</p> 
+       </fn> 
+       <fn id="nt106"> 
+        <label></label> 
+        <p>Asterisks indicate significant differences after the Kruskal-Wallis and the Mann-Whitney-
+         <italic>
+          U
+         </italic> tests (<sup>*</sup> 
+         <italic>
+          p
+         </italic>&lt;0.05, <sup>**</sup> 
+         <italic>
+          p
+         </italic>&lt;0.01, <sup>***</sup> 
+         <italic>
+          p
+         </italic>&lt;0.001).</p> 
+       </fn> 
+       <fn id="nt107"> 
+        <label></label> 
+        <p>Values marked with the same letter are not significantly different (Dunn’s test, 
+         <italic>
+          p
+         </italic>&lt;0.05).</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>Regarding cultural services, we found two groups of services depending on the respondents’ place of residence. While services such as nature tourism, aesthetic values, environmental education, and the existence value of biodiversity were mostly perceived by urban inhabitants (Mann-Whitney: 
+      <italic>
+       U = 
+      </italic>919 499.0, 
+      <italic>
+       p
+      </italic>&lt;0.0001), recreational hunting and local ecological knowledge obtained higher value scores from inhabitants of rural areas (Mann-Whitney: 
+      <italic>
+       U = 
+      </italic>1 320 478.0, 
+      <italic>
+       p
+      </italic>&lt;0.0001).</p> 
+     <p>People who visited protected areas regularly largely recognized regulating services, while members of environmental or social organizations largely recognized provisioning services (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>). Recreational hunting and local ecological knowledge were the most recognized services by rural people (Mann-Whitney: 
+      <italic>
+       U = 
+      </italic>536 998.0, 
+      <italic>
+       p
+      </italic> = 0.012).</p> 
+     <p>Respondents recognized all categories of ecosystem services when they were interviewed in Natural Parks (i.e., medium level of landscape protection) (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>). However, provisioning and cultural services were less recognized when respondents were interviewed in National Parks (high level of protection) (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>).</p> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Factors Influencing the Relative Importance People give to Particular Ecosystem Services</title> 
+     <p>The RDA indicates a statistically significant association between the relative importance of ecosystem services perceived by people and stakeholders’ characteristics, the protection level of ecosystems, and ecosystem type (
+      <italic>
+       p
+      </italic>&lt;0.0001, from 1000 permutations). The first three axes explained 87.8% of the total variance (
+      <xref ref-type="table" rid="pone-0038970-t005">
+       Table 5
+      </xref>). The biplot of the RDA, representing the first two axes, is shown in 
+      <xref ref-type="fig" rid="pone-0038970-g003">
+       Figure 3
+      </xref>.</p> 
+     <table-wrap id="pone-0038970-t005" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.t005
+      </object-id>
+      <label>Table 5</label> 
+      <title>Results of the redundancy analysis.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0038970-t005-5" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.t005" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Axes 1</td> 
+          <td align="left" colspan="1" rowspan="1">Axes 2</td> 
+          <td align="left" colspan="1" rowspan="1">Axes 3</td> 
+          <td align="left" colspan="1" rowspan="1">Axes 4</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Eigenvalue</td> 
+          <td align="left" colspan="1" rowspan="1">0.167</td> 
+          <td align="left" colspan="1" rowspan="1">0.065</td> 
+          <td align="left" colspan="1" rowspan="1">0.034</td> 
+          <td align="left" colspan="1" rowspan="1">0.014</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Percentage variance explained</td> 
+          <td align="left" colspan="1" rowspan="1">55.125</td> 
+          <td align="left" colspan="1" rowspan="1">21.572</td> 
+          <td align="left" colspan="1" rowspan="1">11.077</td> 
+          <td align="left" colspan="1" rowspan="1">4.561</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Cumulative % variance explained</td> 
+          <td align="left" colspan="1" rowspan="1">55.125</td> 
+          <td align="left" colspan="1" rowspan="1">76.697</td> 
+          <td align="left" colspan="1" rowspan="1">87.775</td> 
+          <td align="left" colspan="1" rowspan="1">92.335</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Total inertia</td> 
+          <td align="left" colspan="1" rowspan="1">6.760</td> 
+          <td align="left" colspan="1" rowspan="1">2.645</td> 
+          <td align="left" colspan="1" rowspan="1">1.358</td> 
+          <td align="left" colspan="1" rowspan="1">0.559</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+     </table-wrap> 
+     <fig id="pone-0038970-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Redundancy analysis biplot.</title> 
+      <p>The biplot shows the relationships between stakeholders’ perceptions towards particular ecosystem services and variables related to stakeholders’ characteristics and land management strategies. Grey variables in bold represent explaining variables with higher standardized canonical coefficients for Axes 1 and 2. Detail legend: circles  =  ecosystem services; squares  =  land management strategy (i.e., National Park, Natural Park, or non-protected land); triangles  =  environmental behavior and socio-economic characteristics of stakeholders; diamonds  =  ecosystems. (PAs  =  If respondent visited protected areas during the previous year, LEK  =  local ecological knowledge and sense of place services).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>The first axis of the RDA (55.1% of the variance) revealed a trade-off between provisioning (and recreational hunting) and all other ecosystem services (i.e., regulating and cultural services). RDA1 also revealed different stakeholder perceptions regarding ecosystem services, mainly explained by a rural-urban dichotomy (
+      <xref ref-type="fig" rid="pone-0038970-g003">
+       Figure 3
+      </xref>). Rural people most often mentioned provisioning services and recreational hunting. However, urban people reported regulating services that contribute directly to their quality of life in an urban context (i.e., air purification and micro-climate regulation) as well as highly demanded cultural services, including nature tourism, aesthetic values, environmental education and the moral satisfaction obtained from conserving biodiversity (i.e., existence value).</p> 
+     <p>The second axis of the RDA (21.6% of the variance) revealed a gradient of ecosystem services perception related to the level of ecosystem protection, with non-protected areas having positive scores and ‘Natural Parks’ having negative scores. Positive scores were associated with services provided by ecosystems in non-protected areas (e.g., food from agriculture and fishing). Negative scores were associated with services provided by ecosystems in Natural Parks (e.g., forest products, food from cattle, soil formation, water regulation, recreational hunting, and environmental education) (
+      <xref ref-type="fig" rid="pone-0038970-g003">
+       Figure 3
+      </xref>).</p> 
+     <p>In addition, the RDA highlights that the respondents’ acknowledgement of particular ecosystem services was associated with specific ecosystem types (
+      <xref ref-type="fig" rid="pone-0038970-g003">
+       Figure 3
+      </xref>). For example, food obtained from fishing and shellfishing was strongly related with coastal systems.</p> 
+    </sec> 
+    <sec id="s3d"> 
+     <title>Bundling Ecosystem Services through Social Preferences</title> 
+     <p>Using the first three axes of the RDA in the hierarchical cluster analysis, we identified three well-defined bundles of ecosystem services (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>). Group I contains ecosystem services demanded by urban populations, including most cultural services, air purification, and micro-climate regulation. Group II represents ecosystem services demanded by rural people in multi-functional landscapes, often protected under the category of Natural Parks. This group contains a high diversity of services, including provisioning (cattle and forest products), regulating (soil formation and water regulation), and cultural services (recreational hunting and local ecological knowledge). Group III contains provisioning services related to food (agriculture and fishing), perceived mostly by rural people and provided mostly by non-protected areas.</p> 
+     <fig id="pone-0038970-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0038970.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Dendogram of the hierarchical cluster analysis.</title> 
+      <p>The dendogram shows ecosystem service bundles resulting from diverging social preferences. Ecosystem service bundles are shown in different colors to improve visualization.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.g004" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>Social Preferences towards Ecosystem Services: A Rural-urban Gradient</title> 
+     <p>Previous studies have found that human preferences toward ecosystem services focus first on provisioning services, followed by regulating services, and finally, on cultural services (e.g., 
+      <xref ref-type="bibr" rid="pone.0038970-Agbenyega1">
+       [30]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0038970-Iftekhar1">
+       [32]
+      </xref>). In contrast, our results show that regulating services are reported more often than provisioning services, even though the latter are easier to physically identify. Among regulating services, air purification was the service perceived to be the most important, being recognized by 45% of respondents (
+      <xref ref-type="table" rid="pone-0038970-t003">
+       Table 3
+      </xref>). The saliency in the recognition of air quality is consistent with previous studies 
+      <xref ref-type="bibr" rid="pone.0038970-GarcaLLorente1">
+       [8]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Hartter1">
+       [31]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Sodhi1">
+       [33]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Zhen1">
+       [34]
+      </xref> and may be explained by a combination of factors, including communication media or advertising, education programs 
+      <xref ref-type="bibr" rid="pone.0038970-Hartter1">
+       [31]
+      </xref>, and an awareness of high levels of air pollution in Spanish cities 
+      <xref ref-type="bibr" rid="pone.0038970-ObservatoriodelaSostenibilidaden1">
+       [35]
+      </xref>.</p> 
+     <p>However, social preferences over specific ecosystem services may vary among respondents due to a complex set of factors, including individual needs, cultural traditions, access to ecosystem services, and sources of household income 
+      <xref ref-type="bibr" rid="pone.0038970-Hartter1">
+       [31]
+      </xref>. In fact, these factors are likely to explain a large extent of the contrasting representations of ecosystem services between rural and urban inhabitants. Specific ecosystem services, such as air purification, microclimate regulation, aesthetic value, tourism activities, environmental education, and the existence value of biodiversity were highly valued by urban people (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>) 
+      <xref ref-type="bibr" rid="pone.0038970-Bolund1">
+       [36]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0038970-Kroll1">
+       [38]
+      </xref>. However, ecosystem services essential for life, such as food, are less perceived by urban people, despite their increasing dependence on these essential provisioning services 
+      <xref ref-type="bibr" rid="pone.0038970-Folke1">
+       [39]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Grimm1">
+       [40]
+      </xref>. This might happen because dominating worldviews in urban societies have cognitively disconnected their human well-being from life-supporting environments, perceiving ecosystems as external factors to urban people 
+      <xref ref-type="bibr" rid="pone.0038970-Folke2">
+       [41]
+      </xref>, places for enjoying silence 
+      <xref ref-type="bibr" rid="pone.0038970-Kim1">
+       [42]
+      </xref>, aesthetics, and recreational activities 
+      <xref ref-type="bibr" rid="pone.0038970-Bolund1">
+       [36]
+      </xref>. However, the Spanish urban population, which accounts for more than 80% of the total population 
+      <xref ref-type="bibr" rid="pone.0038970-MinisteriodeMedioAmbienteyMedioRuraly1">
+       [43]
+      </xref>, depends largely on the rural and natural landscapes of Spain, in addition to non-Spanish ecosystems, to satisfy most of its ecosystem service demands 
+      <xref ref-type="bibr" rid="pone.0038970-MillenniumEcosystemAssessmentof1">
+       [24]
+      </xref>.</p> 
+     <p>The fact that rural people recognized a highly diversified flow of services (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>) may be because their own well-being is closely connected with more ecosystem services. In fact, particularly in the Mediterranean basin, rural people have acted for centuries as landscape ‘sculptors’, designing multifunctional landscapes that guarantee a diverse flow of ecosystem services 
+      <xref ref-type="bibr" rid="pone.0038970-Blondel1">
+       [44]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-GmezBaggethun1">
+       [45]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Synergies among Socio-economic Variables Supporting the Rural-urban Gradient</title> 
+     <p>The rural-urban gradient identified in this study in relation to the social perception of ecosystem services is a consequence of different lifestyles and socio-economic characteristics. Variables such as age, formal education level, gender, and income clearly vary along the rural-urban gradient, having an impact on the rural-urban pattern of ecosystem service perceptions 
+      <xref ref-type="bibr" rid="pone.0038970-Kroll1">
+       [38]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Gutman1">
+       [46]
+      </xref> (see 
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>). For instance, rural areas of Europe suffer a depopulation process as younger people migrate to cities, resulting in aging of the rural population 
+      <xref ref-type="bibr" rid="pone.0038970-Gutman1">
+       [46]
+      </xref>. Our results show that elderly people from rural areas were more aware of provisioning services and recreational hunting because their lifestyle is more likely to depend on the primary sector and their understanding of ecosystem services is based on experiential local knowledge related to traditional agroecological activities 
+      <xref ref-type="bibr" rid="pone.0038970-Lamarque2">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Lewan1">
+       [47]
+      </xref>. In contrast, the perception of ecosystem services by younger urban people is mediated more by formal education 
+      <xref ref-type="bibr" rid="pone.0038970-Pilgrim1">
+       [48]
+      </xref> (
+      <xref ref-type="fig" rid="pone-0038970-g003">
+       Figure 3
+      </xref>). In fact, higher education levels of younger people are associated with a higher perception of environmental education as an important ecosystem service. This synergy reinforces people’s attitudes in valuing services such as nature tourism, aesthetics, and the existence value of biodiversity (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>). Similarly, higher education levels combined with environmental behavior increases the probability that people acknowledge an ecosystem’s capacity to provide services (
+      <xref ref-type="table" rid="pone-0038970-t002">
+       Table 2
+      </xref>).</p> 
+     <p>Additionally, we found that gender roles are significant in defining preferences toward ecosystem services. In contrast to previous studies on the topic, which have shown that females perceived fewer ecosystem services than males 
+      <xref ref-type="bibr" rid="pone.0038970-Hartter1">
+       [31]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Rnnbck1">
+       [49]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-WarrenRhodes1">
+       [50]
+      </xref>, our results show that females have a higher probability of perceiving an ecosystem’s capacity to provide services (
+      <xref ref-type="table" rid="pone-0038970-t002">
+       Table 2
+      </xref>). Moreover, while men were more likely to perceive provisioning services, women were more likely to perceive regulating services (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>). These findings are in accordance with previous research on gender and pro-environmental behaviors, which have found that women exhibit more environmental behavior than men (e.g., 
+      <xref ref-type="bibr" rid="pone.0038970-GarcaLlorente1">
+       [51]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0038970-Zelezny1">
+       [54]
+      </xref>). Gender differences on ecosystem service awareness could be explained by the gender-differentiated roles in agroecological labor, expertise, and knowledge 
+      <xref ref-type="bibr" rid="pone.0038970-ReyesGarca1">
+       [55]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Pfeiffer1">
+       [56]
+      </xref>, as well as by the masculinization phenomenon taking place in Spanish rural areas 
+      <xref ref-type="bibr" rid="pone.0038970-MinisteriodeMedioAmbienteyMedioRuraly1">
+       [43]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>The Importance of Formal vs. Non-formal Education in Shaping People’s Perception of Ecosystem Services</title> 
+     <p>Our results suggest that different types of knowledge may be required to capture the entire range of services that ecosystems provide, i.e., experiential or local knowledge (non-formal) and technical or experimental knowledge (formal) 
+      <xref ref-type="bibr" rid="pone.0038970-Lamarque2">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Lewan1">
+       [47]
+      </xref>. Previous studies have shown that both types of knowledge are complementary and that their combination might play a positive role in sustaining the delivery of multiple ecosystem services (e.g., 
+      <xref ref-type="bibr" rid="pone.0038970-Gonzalez1">
+       [57]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Teng1">
+       [58]
+      </xref>). Here, we found that formal knowledge associated with environmental education service is linked to urban worldviews, whereas local ecological knowledge is related to rural worldviews. Both types of knowledge are bundled with different ecosystem services (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>). Environmental education service is bundled with cultural services associated with recreational activities and aesthetic benefits. In contrast, local ecological knowledge is bundled with services related to multifunctional landscapes, i.e., soil formation, water regulation, forest products, recreational hunting, and food from cattle (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>). In fact, in the Mediterranean agro-silvo-pastoral systems, local ecological knowledge has played a crucial role for centuries in developing management practices that secure essential ecosystem service supplies for maintaining their livelihood 
+      <xref ref-type="bibr" rid="pone.0038970-GmezBaggethun1">
+       [45]
+      </xref>.</p> 
+     <p>The fact that local ecological knowledge is bundled with regulating services related to water and soil suggests that most traditional land management practices in Spain focus on managing these ecosystem components to tackle soil erosion, aridity, drought, and flooding 
+      <xref ref-type="bibr" rid="pone.0038970-Butzer1">
+       [59]
+      </xref>. However, this Mediterranean social-ecological memory is currently endangered along with the ecosystem services delivered by multifunctional landscapes in Spain 
+      <xref ref-type="bibr" rid="pone.0038970-MillenniumEcosystemAssessmentof1">
+       [24]
+      </xref> due to the increasing land homogenization process, as a consequence of global market integration, mechanization, rural abandonment, and strict biodiversity conservation policies 
+      <xref ref-type="bibr" rid="pone.0038970-GmezBaggethun1">
+       [45]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4d"> 
+     <title>Land-use Management Matters</title> 
+     <p>It is broadly recognized that over the past century most landscape management strategies have favored the delivery of provisioning services at the expense of regulating and cultural services 
+      <xref ref-type="bibr" rid="pone.0038970-DeFries1">
+       [60]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0038970-Carpenter2">
+       [62]
+      </xref>. Rodríguez et al. 
+      <xref ref-type="bibr" rid="pone.0038970-Rodriguez1">
+       [63]
+      </xref> noted that a strong emphasis on provisioning services in land-use planning is likely related to the fact that their value is more tangible and identifiable by society. Interestingly, our results found the opposite trend, with people placing higher value on regulating and cultural services than provisioning services.</p> 
+     <p>To a large extent, the institutional response to accelerate land use change that promotes provisioning services has led to a parallel increase in biodiversity conservation policies through the establishment of protected areas 
+      <xref ref-type="bibr" rid="pone.0038970-DeFries1">
+       [60]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Pyke1">
+       [64]
+      </xref>. However, in Spain, land disuse because of strict protected areas and land overuse through land intensification in non-protected areas, have affected the provision of a diverse flow of ecosystem services 
+      <xref ref-type="bibr" rid="pone.0038970-MillenniumEcosystemAssessmentof1">
+       [24]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-GmezBaggethun1">
+       [45]
+      </xref>. The multifunctionality of the Mediterranean agro-silvo-pastoral systems is declining due to homogenization as a result of landscape intensification, rural abandonment, and strict conservation policies, which can decrease biodiversity and ecosystem services 
+      <xref ref-type="bibr" rid="pone.0038970-Bugalho1">
+       [65]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Arnaez1">
+       [66]
+      </xref>.</p> 
+     <p>Rather than supporting the revitalization of traditional rural practices, institutional responses to land-use change have favored the demands of an urban conservation movement through the creation of strict protected areas, i.e., National Parks 
+      <xref ref-type="bibr" rid="pone.0038970-Gutman1">
+       [46]
+      </xref>. The lack of incentives to maintain traditional management practices, due to both market integration and strict conservation policies, has resulted in a territorial matrix in which strict conservation takes place inside National Parks while land intensification occurs at their borders, establishing a conservation versus development model 
+      <xref ref-type="bibr" rid="pone.0038970-MartnLpez1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Folke3">
+       [67]
+      </xref>. This territorial management model leads to loss of multifunctional landscapes and diversity in the flow of ecosystem services 
+      <xref ref-type="bibr" rid="pone.0038970-MillenniumEcosystemAssessmentof1">
+       [24]
+      </xref>. Indeed, multifunctional landscapes with associated cultural values and traditional practices (in this study, referring to Natural Parks) are perceived by people to supply a more diverse flow of services (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>). On the contrary, respondents in urban and industrialized areas perceived mostly cultural services, primarily tourism, aesthetics, environmental education, or existence value; and people interviewed in intensively managed rural areas mostly perceived services related to food (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>). In fact, while regulating and cultural services related to traditional practices are mostly perceived in multi-functional land-use areas, food-related provisioning services are primarily perceived from mono-functional, intensively managed agricultural areas. Tourism and aesthetics play a central role in urban areas 
+      <xref ref-type="bibr" rid="pone.0038970-Schneiders1">
+       [68]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4e"> 
+     <title>Concluding Remarks</title> 
+     <p>Recent contributions have stressed the need to advance our understanding of the social values of ecosystem services, trade-offs resulting from different interests in ecosystem use, and ecosystem service bundles promoted by different landscape management strategies 
+      <xref ref-type="bibr" rid="pone.0038970-Carpenter2">
+       [62]
+      </xref>. Our results have increased our understanding of the socio-cultural values of ecosystem services by empirically demonstrating the following: (
+      <italic>
+       i
+      </italic>) different stakeholders hold different values and perceptions toward ecosystem services; (
+      <italic>
+       ii
+      </italic>) there is an important rural-urban gradient in preferences toward ecosystem services based on gender, different lifestyles, and different sources of knowledge regarding ecosystem services (i.e., formal education versus local knowledge 
+      <xref ref-type="bibr" rid="pone.0038970-Lamarque2">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Lewan1">
+       [47]
+      </xref>) (
+      <xref ref-type="fig" rid="pone-0038970-g003">
+       Figure 3
+      </xref>); (
+      <italic>
+       iii
+      </italic>) local ecological knowledge is bundled with key regulating services related to ecosystem functioning (i.e., soil formation and water regulation) (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>); (
+      <italic>
+       iv)
+      </italic> a gender-differentiated role exists regarding perceptions of ecosystem services (
+      <xref ref-type="table" rid="pone-0038970-t002">
+       Table 2
+      </xref> and 
+      <xref ref-type="table" rid="pone-0038970-t004">
+       4
+      </xref>); (
+      <italic>
+       v
+      </italic>) the perception of ecosystem services may vary as a consequence of land management strategy (i.e., National Park, Natural Park, and non-protected areas) (
+      <xref ref-type="table" rid="pone-0038970-t004">
+       Table 4
+      </xref>); (
+      <italic>
+       vi
+      </italic>) trade-offs can be identified from socio-cultural preferences as people’s willingness to trade-off conservation of one ecosystem service against another 
+      <xref ref-type="bibr" rid="pone.0038970-Lamarque2">
+       [26]
+      </xref>; and (
+      <italic>
+       vii
+      </italic>) ecosystem service bundles can be identified from people’s systemic representations of interrelationships between ecosystem services (
+      <xref ref-type="fig" rid="pone-0038970-g004">
+       Figure 4
+      </xref>).</p> 
+     <p>Although different studies have recognized that ecosystem service assessments should incorporate ecological, socio-cultural, and monetary values 
+      <xref ref-type="bibr" rid="pone.0038970-TEEB1">
+       [10]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-DeGroot1">
+       [69]
+      </xref>, most studies restrict their analysis to biophysical and monetary factors 
+      <xref ref-type="bibr" rid="pone.0038970-Vihervaara1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0038970-Seppelt1">
+       [17]
+      </xref>, leaving the assessment of the socio-cultural values of ecosystem services largely unaddressed. Overlooking social awareness of ecosystem services can blind society to the variety of services provided by ecosystems and can act as an obstacle for mainstreaming ecosystem services across societal sectors. Ecosystem service trade-offs emerge as societies modify landscapes because of their different perceptions, interests and values. As a result, ecosystem service evaluations should incorporate stakeholders’ representations and their intangible values of the ecosystems, i.e., socio-cultural preferences 
+      <xref ref-type="bibr" rid="pone.0038970-Fagerholm1">
+       [70]
+      </xref>. Visualizing ecosystem service trade-offs based on socio-cultural preferences can serve as a tool to identify the impact of different management options on an ecosystem’s capacity to deliver services and as a basis for decision-making processes. Therefore, ecosystem service assessments should incorporate non-monetary methods to assess social preferences in order to identify relevant services for people 
+      <xref ref-type="bibr" rid="pone.0038970-Seppelt1">
+       [17]
+      </xref>, potential social conflicts due to different needs and perceptions, trade-offs among ecosystem services, and ecosystem service bundles.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0038970.s001" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p> 
+      <bold>
+       Characteristics of study sites in relation to climate data in Spain.
+      </bold> </p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0038970.s002" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.s002" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p> 
+      <bold>
+       Main characteristics of sites included in this study.
+      </bold> </p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0038970.s003" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.s003" xlink:type="simple"> 
+     <label>Table S2</label>  
+     <p> 
+      <bold>
+       Summary statistics of socio-economic characteristics of polled people for each case site.
+      </bold> </p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0038970.s004" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0038970.s004" xlink:type="simple"> 
+     <label>Table S3</label>  
+     <p> 
+      <bold>
+       Summary of the variables obtained from the questionnaire and used for the different analysis performed in the study.
+      </bold> </p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>All members of the social-ecological systems laboratory (
+      <ext-link ext-link-type="uri" xlink:href="http://www.uam.es/gruposinv/socioeco/" xlink:type="simple">
+       http://www.uam.es/gruposinv/socioeco/
+      </ext-link>) provided inspiring ideas for developing this work.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0038970-Fisher1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Fisher
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Turner
+         </surname>
+         <given-names>
+          RK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Morling
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Defining and classifying ecosystem services for decision making.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        68
+       </volume> 
+       <fpage>
+        643
+       </fpage> 
+       <lpage>
+        653
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Lamarque1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lamarque
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Quétier
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavorel
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        The diversity of the ecosystem services concept and its implications for their assessment and management.
+       </article-title> 
+       <source>CR Biol 
+       <volume>
+        334
+       </volume> 
+       <fpage>
+        441
+       </fpage> 
+       <lpage>
+        449
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Chan1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chan
+         </surname>
+         <given-names>
+          KMA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shaw
+         </surname>
+         <given-names>
+          MR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cameron
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Underwood
+         </surname>
+         <given-names>
+          EC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Daily
+         </surname>
+         <given-names>
+          GC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Conservation Planning for Ecosystem Services.
+       </article-title> 
+       <source>PLoS Biol 
+       <volume>
+        4
+       </volume> 
+       <fpage>
+        15
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Chan2"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chan
+         </surname>
+         <given-names>
+          KMA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hoshizaki
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Klinkenberg
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Ecosystem Services in Conservation Planning: Targeted Benefits vs. Co-Benefits or Costs?
+       </article-title> 
+       <source>PLoS ONE 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        14
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Daz1"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Díaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavorel
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bello
+         </surname>
+         <given-names>
+          FD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Quetier
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grigulis
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Incorporating plant functional diversity effects in ecosystem service assessments.
+       </article-title> 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        20684
+       </fpage> 
+       <lpage>
+        20689
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Luck1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Luck
+         </surname>
+         <given-names>
+          GW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harrington
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harrison
+         </surname>
+         <given-names>
+          PA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kremen
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Berry
+         </surname>
+         <given-names>
+          PAMM
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Quantifying the Contribution of Organisms to the Provision of Ecosystem Services.
+       </article-title> 
+       <source>BioScience 
+       <volume>
+        59
+       </volume> 
+       <fpage>
+        223
+       </fpage> 
+       <lpage>
+        235
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-deBello1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          de Bello
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavorel
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Díaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harrington
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cornelissen
+         </surname>
+         <given-names>
+          JHC
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Towards an assessment of multiple ecosystem processes and services via functional traits.
+       </article-title> 
+       <source>Biodivers Conserv 
+       <volume>
+        19
+       </volume> 
+       <fpage>
+        2873
+       </fpage> 
+       <lpage>
+        2893
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-GarcaLLorente1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          García-LLorente
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Martín-López
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Díaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Can ecosystem properties be fully translated into service values?? An economic valuation of aquatic plant services.
+       </article-title> 
+       <source>Ecol Appl 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        3083
+       </fpage> 
+       <lpage>
+        3103
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Costanza1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Costanza
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          D’Arge
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          de Groot
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Farber
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grasso
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        The value of the world’s ecosystem services and natural capital.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        387
+       </volume> 
+       <fpage>
+        253
+       </fpage> 
+       <lpage>
+        260
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-TEEB1"> 
+      <label>10</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        TEEB
+       </collab> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        The Economics of Ecosystems and Biodiversity: Ecological and Economic Foundations. London: Earthscan.
+       </article-title> 
+       <source>410 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-MartnLpez1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Martín-López
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          García-Llorente
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Palomo
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        The conservation against development paradigm in protected areas: Valuation of ecosystem services in the Doñana social–ecological system (southwestern Spain).
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        70
+       </volume> 
+       <fpage>
+        1481
+       </fpage> 
+       <lpage>
+        1491
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Vihervaara1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Vihervaara
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rönkä
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Walls
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Trends in Ecosystem Service Research: Early Steps and Current Drivers.
+       </article-title> 
+       <source>Ambio 
+       <volume>
+        39
+       </volume> 
+       <fpage>
+        314
+       </fpage> 
+       <lpage>
+        324
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Phillipson1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Phillipson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lowe
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bullock
+         </surname>
+         <given-names>
+          JM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Navigating the social sciences: interdisciplinarity and ecology.
+       </article-title> 
+       <source>J Appl Ecol 
+       <volume>
+        46
+       </volume> 
+       <fpage>
+        261
+       </fpage> 
+       <lpage>
+        264
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Chan3"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chan
+         </surname>
+         <given-names>
+          KMA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Satterfield
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Goldstein
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2012
+       </year> 
+       <article-title>
+        Rethinking ecosystem services to better address and navigate cultural values.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        74
+       </volume> 
+       <fpage>
+        8
+       </fpage> 
+       <lpage>
+        18
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Menzel1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Menzel
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Teng
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Ecosystem services as a stakeholder-driven concept for conservation science.
+       </article-title> 
+       <source>Conserv Biol 
+       <volume>
+        24
+       </volume> 
+       <fpage>
+        907
+       </fpage> 
+       <lpage>
+        909
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Anton1"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Anton
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Young
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harrison P
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Musche
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bela
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Research needs for incorporating the ecosystem service approach into EU biodiversity conservation policy.
+       </article-title> 
+       <source>Biodivers Conserv 
+       <volume>
+        19
+       </volume> 
+       <fpage>
+        2979
+       </fpage> 
+       <lpage>
+        2994
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Seppelt1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Seppelt
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dormann
+         </surname>
+         <given-names>
+          CF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Eppink
+         </surname>
+         <given-names>
+          FV
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lautenbach
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmidt
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        A quantitative review of ecosystem service studies: approaches, shortcomings and the road ahead.
+       </article-title> 
+       <source>J Appl Ecol 
+       <volume>
+        48
+       </volume> 
+       <fpage>
+        630
+       </fpage> 
+       <lpage>
+        636
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Paetzold1"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Paetzold
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Warren
+         </surname>
+         <given-names>
+          PH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Maltby
+         </surname>
+         <given-names>
+          LL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        A framework for assessing ecological quality based on ecosystem services.
+       </article-title> 
+       <source>Ecol Complex 
+       <volume>
+        7
+       </volume> 
+       <fpage>
+        273
+       </fpage> 
+       <lpage>
+        281
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Bennett1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bennett
+         </surname>
+         <given-names>
+          EM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Peterson
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gordon
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Understanding relationships among multiple ecosystem services.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        1394
+       </fpage> 
+       <lpage>
+        1404
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-RaudseppHearne1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Raudsepp-Hearne
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Peterson
+         </surname>
+         <given-names>
+          GD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bennett
+         </surname>
+         <given-names>
+          EM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Ecosystem service bundles for analyzing tradeoffs in diverse landscapes.
+       </article-title> 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        107
+       </volume> 
+       <fpage>
+        5242
+       </fpage> 
+       <lpage>
+        5247
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Bryan1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bryan
+         </surname>
+         <given-names>
+          BA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Raymond
+         </surname>
+         <given-names>
+          CM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Crossman
+         </surname>
+         <given-names>
+          ND
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Macdonald
+         </surname>
+         <given-names>
+          DH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Targeting the management of ecosystem services based on social values: Where, what, and how?
+       </article-title> 
+       <source>Landscape Urban Plan 
+       <volume>
+        97
+       </volume> 
+       <fpage>
+        111
+       </fpage> 
+       <lpage>
+        122
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Kumar1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kumar
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kumar
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Valuation of the ecosystem services: a psycho-cultural perspective.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        64
+       </volume> 
+       <fpage>
+        808
+       </fpage> 
+       <lpage>
+        819
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Perrings1"> 
+      <label>23</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Perrings
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duraiappah
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Larigauderie
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mooney
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        The Biodiversity and Ecosystem Services Science-Policy Interface.
+       </article-title> 
+       <source>Science 
+       <volume>
+        331
+       </volume> 
+       <fpage>
+        17
+       </fpage> 
+       <lpage>
+        19
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-MillenniumEcosystemAssessmentof1"> 
+      <label>24</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Millennium Ecosystem Assessment of
+         </surname>
+         <given-names>
+          Spain
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Millennium Ecosystem Assessment of Spain (EME) - Managing Biodiversity and Ecosystem services for human well-being.
+       </article-title> 
+       <source>Madrid, Spain: Fundación Biodiversidad, Ministerio de Medio Ambiente y Medio Rural y Marino. 304 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Brown1"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brown
+         </surname>
+         <given-names>
+          TC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1984
+       </year> 
+       <article-title>
+        The Concept of Value in Resource Allocation.
+       </article-title> 
+       <source>Land Econ 
+       <volume>
+        60
+       </volume> 
+       <fpage>
+        231
+       </fpage> 
+       <lpage>
+        246
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Lamarque2"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lamarque
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tappeiner
+         </surname>
+         <given-names>
+          U
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Turner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Steinbacher
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bardgett
+         </surname>
+         <given-names>
+          RD
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Stakeholder perceptions of grassland ecosystem services in relation to knowledge on soil fertility and biodiversity.
+       </article-title> 
+       <source>Reg Environ Change 
+       <volume>
+        11
+       </volume> 
+       <fpage>
+        791
+       </fpage> 
+       <lpage>
+        804
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-CalvetMir1"> 
+      <label>27</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Calvet-Mir
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gómez-Baggethun
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reyes-García
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2012
+       </year> 
+       <article-title>
+        Beyond food production: Ecosystem services provided by home gardens. A case study in Vall Fosca, Catalan Pyrenees, Northeastern Spain.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        74
+       </volume> 
+       <fpage>
+        153
+       </fpage> 
+       <lpage>
+        160
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Burham1"> 
+      <label>28</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Burham
+         </surname>
+         <given-names>
+          KP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Model selection and multimodel inference: a practical information-theoretic approach. New York: Springer.
+       </article-title> 
+       <source>488 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Ward1"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ward
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1963
+       </year> 
+       <article-title>
+        Hierarchical Grouping to Optimize an Objective Function.
+       </article-title> 
+       <source>J Am Stat Assoc 
+       <volume>
+        58
+       </volume> 
+       <fpage>
+        236
+       </fpage> 
+       <lpage>
+        244
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Agbenyega1"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Agbenyega
+         </surname>
+         <given-names>
+          O
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Burgess
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cook
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Morris
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Application of an ecosystem function framework to perceptions of community woodlands.
+       </article-title> 
+       <source>Land Use Policy 
+       <volume>
+        26
+       </volume> 
+       <fpage>
+        551
+       </fpage> 
+       <lpage>
+        557
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Hartter1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hartter
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Resource Use and Ecosystem Services in a Forest Park Landscape.
+       </article-title> 
+       <source>Soc Natur Resour 
+       <volume>
+        23
+       </volume> 
+       <fpage>
+        207
+       </fpage> 
+       <lpage>
+        223
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Iftekhar1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Iftekhar
+         </surname>
+         <given-names>
+          MS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Takama
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Perceptions of biodiversity, environmental services, and conservation of planted mangroves: a case study on Nijhum Dwip Island, Bangladesh.
+       </article-title> 
+       <source>Wetlands Ecol 
+       <volume>
+        Manag16
+       </volume> 
+       <fpage>
+        119
+       </fpage> 
+       <lpage>
+        137
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Sodhi1"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sodhi
+         </surname>
+         <given-names>
+          NS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          TM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sekercioglu
+         </surname>
+         <given-names>
+          CH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Webb
+         </surname>
+         <given-names>
+          EL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Prawiradilaga
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Local people value environmental services provided by forested parks.
+       </article-title> 
+       <source>Biodivers Conserv 
+       <volume>
+        19
+       </volume> 
+       <fpage>
+        1175
+       </fpage> 
+       <lpage>
+        1188
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Zhen1"> 
+      <label>34</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Zhen
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ochirbat
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lv
+         </surname>
+         <given-names>
+          Y
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wei
+         </surname>
+         <given-names>
+          YJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Liu
+         </surname>
+         <given-names>
+          XL
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Comparing patterns of ecosystem service consumption and perceptions of range management between ethnic herders in Inner Mongolia and Mongolia. Environl Res Lett 5: 1–11. Available: stacks.iop.org/ERL/5/015001.
+       </article-title> 
+       <source>Accessed 2011 Nov 1 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-ObservatoriodelaSostenibilidaden1"> 
+      <label>35</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Observatorio de la Sostenibilidad en
+         </surname>
+         <given-names>
+          España
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Sostenibilidad en España 2010. Madrid, Spain: Ministerio de Medio Ambiente y Medio Rural y Marino, Fundación Biodiversidad, FG Universidad de Alcalá.
+       </article-title> 
+       <source>479 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Bolund1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bolund
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hunhammar
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Ecosystem services in urban areas.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        29
+       </volume> 
+       <fpage>
+        293
+       </fpage> 
+       <lpage>
+        301
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Mcdonald1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mcdonald
+         </surname>
+         <given-names>
+          RI
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Ecosystem service demand and supply along the urban-to-rural gradient.
+       </article-title> 
+       <source>J Conserv Plan 
+       <volume>
+        5
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        14
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Kroll1"> 
+      <label>38</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kroll
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Müller
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Haase
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fohrer
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2012
+       </year> 
+       <article-title>
+        Rural-urban gradient analysis of ecosystem services supply and demand dynamics.
+       </article-title> 
+       <source>Land Use Policy 
+       <volume>
+        29
+       </volume> 
+       <fpage>
+        521
+       </fpage> 
+       <lpage>
+        535
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Folke1"> 
+      <label>39</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Folke
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jansson
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Larsson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Costanza
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Ecosystem appropriation by cities.
+       </article-title> 
+       <source>Ambio 
+       <volume>
+        26
+       </volume> 
+       <fpage>
+        167
+       </fpage> 
+       <lpage>
+        172
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Grimm1"> 
+      <label>40</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Grimm
+         </surname>
+         <given-names>
+          NB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Faeth
+         </surname>
+         <given-names>
+          SH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Golubiewski
+         </surname>
+         <given-names>
+          NE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Redman
+         </surname>
+         <given-names>
+          CL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wu
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Global change and the ecology of cities.
+       </article-title> 
+       <source>Science 
+       <volume>
+        319
+       </volume> 
+       <fpage>
+        756
+       </fpage> 
+       <lpage>
+        760
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Folke2"> 
+      <label>41</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Folke
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Asa
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rockstrom
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Olsson
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Carpenter
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Reconnecting to the Biosphere.
+       </article-title> 
+       <source>Ambio 
+       <volume>
+        40
+       </volume> 
+       <fpage>
+        719
+       </fpage> 
+       <lpage>
+        738
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Kim1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kim
+         </surname>
+         <given-names>
+          KS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Park
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kweon
+         </surname>
+         <given-names>
+          Y-J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Highway traffic noise effects on land price in an urban area.
+       </article-title> 
+       <source>Transp Res Part D: Transp Environ 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        275
+       </fpage> 
+       <lpage>
+        280
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-MinisteriodeMedioAmbienteyMedioRuraly1"> 
+      <label>43</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ministerio de Medio Ambiente y Medio Rural y
+         </surname>
+         <given-names>
+          Marino
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Diagnóstico de la Igualdad de Género en el Medio Rural.
+       </article-title> 
+       <source>Madrid, Spain: Ministerio de Medio Ambiente y Medio Rural y Marino. 338 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Blondel1"> 
+      <label>44</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Blondel
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aronson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bodiou
+         </surname>
+         <given-names>
+          J-Y
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Boeuf
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        The Mediterranean Region Biological Diversity in Space and Time. USA: Oxford University Press.
+       </article-title> 
+       <source>392 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-GmezBaggethun1"> 
+      <label>45</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gómez-Baggethun
+         </surname>
+         <given-names>
+          EG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mingorría
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reyes-García
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Calvet
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Traditional ecological knowledge trends in the transition to a market economy: empirical study in the Doñana natural areas.
+       </article-title> 
+       <source>Conserv Biol 
+       <volume>
+        24
+       </volume> 
+       <fpage>
+        721
+       </fpage> 
+       <lpage>
+        729
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Gutman1"> 
+      <label>46</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gutman
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Ecosystem services: Foundations for a new rural–urban compact.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        62
+       </volume> 
+       <fpage>
+        383
+       </fpage> 
+       <lpage>
+        387
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Lewan1"> 
+      <label>47</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lewan
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Söderqvist
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Knowledge and recognition of ecosystem services among the general public in a drainage basin in Scania, Southern Sweden.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        42
+       </volume> 
+       <fpage>
+        459
+       </fpage> 
+       <lpage>
+        467
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Pilgrim1"> 
+      <label>48</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pilgrim
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Smith
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pretty
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        A cross-regional assessment of the factors affecting ecoliteracy: Implications for policy and practice.
+       </article-title> 
+       <source>Ecol Appl 
+       <volume>
+        17
+       </volume> 
+       <fpage>
+        1742
+       </fpage> 
+       <lpage>
+        1751
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Rnnbck1"> 
+      <label>49</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Rönnbäck
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Crona
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ingwall
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        The return of ecosystem goods and services in replanted mangrove forests: perspectives from local communities in Kenya.
+       </article-title> 
+       <source>Environ Conserv 
+       <volume>
+        34
+       </volume> 
+       <fpage>
+        313
+       </fpage> 
+       <lpage>
+        324
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-WarrenRhodes1"> 
+      <label>50</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Warren-Rhodes
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schwarz
+         </surname>
+         <given-names>
+          A-M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Boyle
+         </surname>
+         <given-names>
+          LN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Albert
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Agalo
+         </surname>
+         <given-names>
+          SS
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Mangrove ecosystem services and the potential for carbon revenue programmes in Solomon Islands.
+       </article-title> 
+       <source>Environ Conserv 
+       <volume>
+        38
+       </volume> 
+       <fpage>
+        485
+       </fpage> 
+       <lpage>
+        496
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-GarcaLlorente1"> 
+      <label>51</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          García-Llorente
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Martín-López
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Exploring the motivations of protesters in contingent valuation?: Insights for conservation policies.
+       </article-title> 
+       <source>Environ Sci Policy 
+       <volume>
+        14
+       </volume> 
+       <fpage>
+        76
+       </fpage> 
+       <lpage>
+        88
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Martino1"> 
+      <label>52</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Martino
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Gender and Urban Perceptions of Nature and Protected Areas in Bañados del Este Biosphere Reserve.
+       </article-title> 
+       <source>Environ Manage 
+       <volume>
+        41
+       </volume> 
+       <fpage>
+        654
+       </fpage> 
+       <lpage>
+        662
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Dietz1"> 
+      <label>53</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Dietz
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kalof
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stern
+         </surname>
+         <given-names>
+          PC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Gender, Values, and Environmentalism.
+       </article-title> 
+       <source>Soc Sci Quart 
+       <volume>
+        83
+       </volume> 
+       <fpage>
+        353
+       </fpage> 
+       <lpage>
+        364
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Zelezny1"> 
+      <label>54</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Zelezny
+         </surname>
+         <given-names>
+          LC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aldrich
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chua
+         </surname>
+         <given-names>
+          P-P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        New Ways of Thinking about Environmentalism: Elaborating on Gender Differences in Environmentalism.
+       </article-title> 
+       <source>J Soc Issues 
+       <volume>
+        56
+       </volume> 
+       <fpage>
+        443
+       </fpage> 
+       <lpage>
+        457
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-ReyesGarca1"> 
+      <label>55</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Reyes-García
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vila
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aceituno-Mata
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Calvet-Mir
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Garnatje
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Gendered Homegardens?: A Study in Three Mountain Areas of the Iberian Peninsula.
+       </article-title> 
+       <source>Econ Bot 
+       <volume>
+        64
+       </volume> 
+       <fpage>
+        235
+       </fpage> 
+       <lpage>
+        247
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Pfeiffer1"> 
+      <label>56</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pfeiffer
+         </surname>
+         <given-names>
+          JM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Butz
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Assessing cultural and ecological variation in ethnobiological research: The importance of gender.
+       </article-title> 
+       <source>J Ethnobiol 
+       <volume>
+        25
+       </volume> 
+       <fpage>
+        240
+       </fpage> 
+       <lpage>
+        278
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Gonzalez1"> 
+      <label>57</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gonzalez
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clemente
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nielsen
+         </surname>
+         <given-names>
+          KA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Branquinho
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dos Santos
+         </surname>
+         <given-names>
+          RF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Human-Nature Relationship in Mediterranean Streams: Integrating Different Types of Knowledge to Improve Water Management. Ecol Soc 14: 35.
+       </article-title> 
+       <comment>
+         Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.ecologyandsociety.org/vol14/iss2/art35/" xlink:type="simple">
+         http://www.ecologyandsociety.org/vol14/iss2/art35/
+        </ext-link>.
+       </comment> 
+       <comment>
+        Accessed 2011 Jun 1.
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Teng1"> 
+      <label>58</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tengö
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Belfrage
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Local Management Practices for Dealing with Change and Uncertainty?: A Cross-scale Comparison of Cases in Sweden and Tanzania. Ecol Soc 9: 4.
+       </article-title> 
+       <comment>
+         Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.ecologyandsociety.org/vol9/iss3/art4/" xlink:type="simple">
+         http://www.ecologyandsociety.org/vol9/iss3/art4/
+        </ext-link>.
+       </comment> 
+       <comment>
+        Accessed 2011 Jun 1.
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Butzer1"> 
+      <label>59</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Butzer
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Environmental history in the Mediterranean world: cross-disciplinary investigation of cause-and-effect for degradation and soil erosion.
+       </article-title> 
+       <source>J Archaeol Sci 
+       <volume>
+        32
+       </volume> 
+       <fpage>
+        1773
+       </fpage> 
+       <lpage>
+        1800
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-DeFries1"> 
+      <label>60</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          DeFries
+         </surname>
+         <given-names>
+          RS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Foley
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Asner
+         </surname>
+         <given-names>
+          GP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Land-use choices: balancing human needs and ecosystem function.
+       </article-title> 
+       <source>Front Ecol Environ 
+       <volume>
+        2
+       </volume> 
+       <fpage>
+        249
+       </fpage> 
+       <lpage>
+        257
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Carpenter1"> 
+      <label>61</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Carpenter
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          DeFries
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dietz
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mooney
+         </surname>
+         <given-names>
+          HA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Polasky
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Millennium Ecosystem Assessment?: Research Needs.
+       </article-title> 
+       <source>Science 
+       <volume>
+        314
+       </volume> 
+       <fpage>
+        257
+       </fpage> 
+       <lpage>
+        258
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Carpenter2"> 
+      <label>62</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Carpenter
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mooney
+         </surname>
+         <given-names>
+          HA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Agard
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Capistrano
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          DeFries
+         </surname>
+         <given-names>
+          RS
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Science for managing ecosystem services?: Beyond the Millennium Ecosystem Assessment.
+       </article-title> 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        106
+       </volume> 
+       <fpage>
+        1305
+       </fpage> 
+       <lpage>
+        1312
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Rodriguez1"> 
+      <label>63</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Rodriguez
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Beard
+         </surname>
+         <given-names>
+          TDJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bennett
+         </surname>
+         <given-names>
+          EM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cumming
+         </surname>
+         <given-names>
+          GS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cork
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Trade-offs across space, time, and ecosystem services. Ecol Soc 11: 28.
+       </article-title> 
+       <comment>
+         Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.ecologyandsociety.org/vol11/iss1/art28/" xlink:type="simple">
+         http://www.ecologyandsociety.org/vol11/iss1/art28/
+        </ext-link>.
+       </comment> 
+       <comment>
+        Accessed 2011 Jun 1.
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Pyke1"> 
+      <label>64</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pyke
+         </surname>
+         <given-names>
+          CR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        The Implications of Global Priorities for Biodiversity and Ecosystem Services Associated with Protected Areas. Ecol Soc 12: 4.
+       </article-title> 
+       <comment>
+         Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.ecologyandsociety.org/vol12/iss1/art4/" xlink:type="simple">
+         http://www.ecologyandsociety.org/vol12/iss1/art4/
+        </ext-link>.
+       </comment> 
+       <comment>
+        Accessed 2011 Jun 1.
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Bugalho1"> 
+      <label>65</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bugalho
+         </surname>
+         <given-names>
+          MN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Caldeira
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pereira
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aronson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pausas
+         </surname>
+         <given-names>
+          JG
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Mediterranean cork oak savannas require human use to sustain biodiversity and ecosystem services.
+       </article-title> 
+       <source>Front Ecol Environ 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        278
+       </fpage> 
+       <lpage>
+        286
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Arnaez1"> 
+      <label>66</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Arnaez
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lasanta
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Errea
+         </surname>
+         <given-names>
+          MP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ortigosa
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Land abandonment, landscape evolution, and soil erosion in a Spanish Mediterranean mountain region: The case of Camero Viejo.
+       </article-title> 
+       <source>Land Degrad Dev 
+       <volume>
+        22
+       </volume> 
+       <fpage>
+        537
+       </fpage> 
+       <lpage>
+        550
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Folke3"> 
+      <label>67</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Folke
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        The Economic Perspective: Conservation against Development versus Conservation for Development.
+       </article-title> 
+       <source>Conserv Biol 
+       <volume>
+        20
+       </volume> 
+       <fpage>
+        686
+       </fpage> 
+       <lpage>
+        688
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Schneiders1"> 
+      <label>68</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schneiders
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Van Daele
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Van Landuyt
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Van Reeth
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2012
+       </year> 
+       <article-title>
+        Biodiversity and ecosystem services: Complementary approaches for ecosystem management?
+       </article-title> 
+       <source>Ecol Indic 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        123
+       </fpage> 
+       <lpage>
+        133
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-DeGroot1"> 
+      <label>69</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          De Groot
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Function-analysis and valuation as a tool to assess land use conflicts in planning for sustainable, multi-functional landscapes.
+       </article-title> 
+       <source>Landscape Urban Plan 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        175
+       </fpage> 
+       <lpage>
+        186
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Fagerholm1"> 
+      <label>70</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Fagerholm
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Käyhkö
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ndumbaro
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Khamis
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2012
+       </year> 
+       <article-title>
+        Community stakeholders’ knowledge in landscape assessments – Mapping indicators for landscape services.
+       </article-title> 
+       <source>Ecol Indic 
+       <volume>
+        18
+       </volume> 
+       <fpage>
+        421
+       </fpage> 
+       <lpage>
+        433
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Millennium1"> 
+      <label>71</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        Millennium Ecosystem Assessment (MA)
+       </collab> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Ecosystems and Human Well-being: Synthesis. Washington, DC.: Island Press.
+       </article-title> 
+       <source>137 p 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-MartnLpez2"> 
+      <label>72</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Martín-López
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Benayas
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Influence of user characteristics on valuation of ecosystem services in Doñana Natural Protected Area (south-west Spain).
+       </article-title> 
+       <source>Environ Conserv 
+       <volume>
+        34
+       </volume> 
+       <fpage>
+        215
+       </fpage> 
+       <lpage>
+        224
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Castro1"> 
+      <label>73</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Castro
+         </surname>
+         <given-names>
+          AJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Martín-López
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          García-LLorente
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aguilera
+         </surname>
+         <given-names>
+          PA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          López
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Social preferences regarding the delivery of ecosystem services in a semiarid Mediterranean region.
+       </article-title> 
+       <source>J Arid Environ 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        1201
+       </fpage> 
+       <lpage>
+        1208
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0038970-Vilardy1"> 
+      <label>74</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Vilardy
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          González
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Martín-López
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Montes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Relationships between hydrological regime and ecosystem services supply in a Caribbean coastal wetland?: a social-ecological approach.
+       </article-title> 
+       <source>Hydrolog Sci J 
+       <volume>
+        56
+       </volume> 
+       <fpage>
+        1423
+       </fpage> 
+       <lpage>
+        1435
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

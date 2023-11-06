@@ -1,0 +1,3016 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-11-00370
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0024107
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Terrestrial environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Conservation science
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Assessing Natural Resource Use by Forest-Reliant Communities in Madagascar Using Functional Diversity and Functional Redundancy Metrics
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Assessing Resource Use with Functional Diversity
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Brown
+        </surname> 
+        <given-names>
+         Kerry A.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Flynn
+        </surname> 
+        <given-names>
+         Dan F. B.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Abram
+        </surname> 
+        <given-names>
+         Nicola K.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Ingram
+        </surname> 
+        <given-names>
+         J. Carter
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Johnson
+        </surname> 
+        <given-names>
+         Steig E.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff5"> 
+        <sup>5</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Wright
+        </surname> 
+        <given-names>
+         Patricia
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff6"> 
+        <sup>6</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       School of Geography, Geology and the Environment, Kingston University London, Surrey, United Kingdom
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Department of Ecology, Evolution, and Environmental Biology, Columbia University, New York, New York, United States of America
+      </addr-line> 
+     </aff>
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Durrell Institute of Conservation and Ecology (DICE), University of Kent, Canterbury, Kent, United Kingdom
+      </addr-line> 
+     </aff>
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Wildlife Conservation Society, Bronx, New York, United States of America
+      </addr-line> 
+     </aff>
+     <aff id="aff5">
+      <label>5</label>
+      <addr-line>
+       Department of Anthropology, University of Calgary, Calgary, Alberta, Canada
+      </addr-line> 
+     </aff>
+     <aff id="aff6">
+      <label>6</label>
+      <addr-line>
+       Institute for the Conservation of Tropical Environments, Stony Brook University, Stony Brook, New York, United States of America
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Mouquet
+        </surname> 
+        <given-names>
+         Nicolas
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      University of Montpellier II, France
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        k.brown@kingston.ac.uk
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Analyzed the data: KAB DFBF. Wrote the paper: KAB DFBF NKA JCI SEJ PW. Survey and questionnaire design: SEJ NKA PCW. Conducted survey and questionnaire: SEJ NKA PCW. Wrote code for Functional Diversity and redundancy analysis: DFBF.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       1
+      </day> 
+      <month>
+       9
+      </month> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <volume>
+      6
+     </volume>
+     <issue>
+      9
+     </issue>
+     <elocation-id>
+      e24107
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        29
+       </day> 
+       <month>
+        12
+       </month> 
+       <year>
+        2010
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        4
+       </day> 
+       <month>
+        8
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2011
+      </copyright-year>
+      <copyright-holder>
+       Brown et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>Biodiversity plays an integral role in the livelihoods of subsistence-based forest-dwelling communities and as a consequence it is increasingly important to develop quantitative approaches that capture not only changes in taxonomic diversity, but also variation in natural resources and provisioning services. We apply a functional diversity metric originally developed for addressing questions in community ecology to assess utilitarian diversity of 56 forest plots in Madagascar. The use categories for utilitarian plants were determined using expert knowledge and household questionnaires. We used a null model approach to examine the utilitarian (functional) diversity and utilitarian redundancy present within ecological communities. Additionally, variables that might influence fluctuations in utilitarian diversity and redundancy—specifically number of felled trees, number of trails, basal area, canopy height, elevation, distance from village—were analyzed using Generalized Linear Models (GLMs). Eighteen of the 56 plots showed utilitarian diversity values significantly higher than expected. This result indicates that these habitats exhibited a low degree of utilitarian redundancy and were therefore comprised of plants with relatively distinct utilitarian properties. One implication of this finding is that minor losses in species richness may result in reductions in utilitarian diversity and redundancy, which may limit local residents' ability to switch between alternative choices. The GLM analysis showed that the most predictive model included basal area, canopy height and distance from village, which suggests that variation in utilitarian redundancy may be a result of local residents harvesting resources from the protected area. Our approach permits an assessment of the diversity of provisioning services available to local communities, offering unique insights that would not be possible using traditional taxonomic diversity measures. These analyses introduce another tool available to conservation biologists for assessing how future losses in biodiversity will lead to a reduction in natural resources and provisioning services from forests.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       Funding was provided by the David and Lucile Packard Foundation (PCW) (
+       <ext-link ext-link-type="uri" xlink:href="http://www.packard.org/" xlink:type="simple">
+        http://www.packard.org/
+       </ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="11" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>The livelihoods of rural, subsistence societies living in and around forests are intimately connected to the natural resources that can be procured from these ecosystems 
+     <xref ref-type="bibr" rid="pone.0024107-Schachenmann1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0024107-YeoChang1">
+      [2]
+     </xref>. The diversity of wild plants within forests supply people with a range of services, such as wood for fuel, timber for construction, as well as numerous non-timber forest products (NTFPs) for food, weaving and medicines 
+     <xref ref-type="bibr" rid="pone.0024107-Shaanker1">
+      [3]
+     </xref>. Access to these resources is necessary for sustaining livelihood practices and preserving important cultural, commercial, and spiritual activities 
+     <xref ref-type="bibr" rid="pone.0024107-Luck1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0024107-Millennium1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0024107-Byron1">
+      [6]
+     </xref>. Over time, these natural resources may become depleted through a complex set of external and internal factors. Unsustainable extraction of these resources may also drive changes in diversity and species composition 
+     <xref ref-type="bibr" rid="pone.0024107-Davidar1">
+      [7]
+     </xref>. Consequently, it is important to assess variation in natural resource use and its concomitant effect on biodiversity using metrics that accurately reflect the utilitarian demands of rural forest-dwelling communities.</p> 
+    <p>Predicting how local-scale human activities influence population- and community-level forest dynamics can be complex. One way to assess that process is by quantifying traditional uses of wild plants—the utilitarian species in the forests 
+     <xref ref-type="bibr" rid="pone.0024107-Ingram1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0024107-Kremen1">
+      [9]
+     </xref>. These plants are essential for maintaining people's livelihoods and well-being, as they are ecosystem service providers (ESPs) 
+     <xref ref-type="bibr" rid="pone.0024107-Luck1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0024107-Kremen2">
+      [10]
+     </xref>. A clear understanding about the condition of provisioning services in particular, relies upon knowing both the resource use patterns of the people who are most reliant on those services, as well as the utility of the plants exploited by local people 
+     <xref ref-type="bibr" rid="pone.0024107-Cocks1">
+      [11]
+     </xref>. Our goal in this paper is to present a practical framework for quantifying the status of forest provisioning services by assessing the functional diversity and redundancy of utilitarian plant species (see below). Although our case study examines natural resource use in rainforests in southeastern Madagascar, the methods we describe are applicable to other environments and regions.</p> 
+    <sec id="s1a"> 
+     <title>Functional diversity and functional redundancy with utilitarian species</title> 
+     <p>Functional diversity (FD) measures the variation of traits for species present in an ecological community and provides a way to compare the diversity of species' roles between plant communities. In the ecological literature on plant functional diversity, commonly assessed traits include specific leaf area (SLA), wood density or height 
+      <xref ref-type="bibr" rid="pone.0024107-Diaz1">
+       [12]
+      </xref>. In contrast to metrics such as species diversity, FD accounts for the functional distinctness of an assemblage (e.g., plot or ecological community) of species rather than simply their taxonomy, and in some cases can provide greater explanatory power about ecosystem functions and services 
+      <xref ref-type="bibr" rid="pone.0024107-Griffin1">
+       [13]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Diaz2">
+       [14]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Flynn1">
+       [15]
+      </xref>. In this study, we calculate FD for an assemblage of plants using utilitarian properties (e.g., firewood, construction wood) instead of traits defined by ecological function. In this context, the term “utilitarian property” is analogous to functional traits; we refer to the diversity of these properties as “utilitarian diversity”, while the degree of overlap in properties is termed “utilitarian redundancy” (See 
+      <xref ref-type="fig" rid="pone-0024107-g001">
+       Figure 1
+      </xref>, Glossary of terms). Thus, even though utilitarian and ecological functional diversity are likely correlated, the degree to which they are related will be dependent on the number of functional traits and utilitarian properties considered. For instance, they may be perfectly correlated if all the utilitarian properties (e.g., construction) assigned to each species are directly associated with particular functional traits (e.g., high wood density), such that there is a one-to-one matching of trait and property. However, whether people's uses of wild plants are related to one or a suite of functional traits is unknown for most assemblages. Yet one would presume that forest-dependent communities would favor some species over others because of a certain utilitarian property that makes those species better for particular services.</p> 
+     <fig id="pone-0024107-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Glossary to distinguish between terms used in ecological studies on functional trait and those used throughout this manuscript.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.g001" xlink:type="simple" /> 
+     </fig> 
+     <p>A crucial component of FD and a corresponding feature of community assemblages is functional redundancy 
+      <xref ref-type="bibr" rid="pone.0024107-Petchey1">
+       [16]
+      </xref> (see also functional divergence in 
+      <xref ref-type="bibr" rid="pone.0024107-Mason1">
+       [17]
+      </xref>). Functional redundancy indicates the degree of overlap in the traits of species within a community assemblage. If an assemblage has high species richness and shows little change in functional diversity as species are lost, then the species pool in the assemblage has high functional redundancy. That is to say, many species share similar traits, therefore the loss of a few species has little impact on FD. In contrast, an assemblage with low functional redundancy may exhibit considerable changes in FD with only minor changes in species richness 
+      <xref ref-type="bibr" rid="pone.0024107-Flynn2">
+       [18]
+      </xref>. From a human livelihoods perspective, low utilitarian redundancy could indicate how threatened certain services may be for local people. Ideally, for communities who depend on forests for many different purposes, plant communities would exhibit a balance between utilitarian diversity and redundancy.</p> 
+     <p>Functional redundancy can be assessed by examining the relative change in FD and species richness across many community assemblages using field experiments or through simulations that model observed versus expected FD, given a particular species richness for an assemblage. In this study, we used the latter approach (see 
+      <xref ref-type="sec" rid="s2">
+       Methods
+      </xref> for more details) 
+      <xref ref-type="bibr" rid="pone.0024107-Petchey1">
+       [16]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Micheli1">
+       [19]
+      </xref>. When assessed in this manner, if observed FD (or in our analyses, utilitarian diversity) is higher than expected, species are more functionally distinct from one another than expected by chance and this, in turn, indicates low redundancy. Conversely, environments that have lower than expected FD (utilitarian diversity) is an indication of high redundancy, such that species in a given plot are more similar than expected by chance.</p> 
+     <p>In the context of human welfare and livelihood, ecological communities will exhibit higher or lower utilitarian redundancy as a consequence of many different extraction patterns. For instance, targeting particular species for unsustainable harvest could lead to plant communities with low utilitarian redundancy. Species may be targeted because of their availability in forests (abundance), people's preference 
+      <xref ref-type="bibr" rid="pone.0024107-Tabuti1">
+       [20]
+      </xref>, proximity to villages 
+      <xref ref-type="bibr" rid="pone.0024107-Davidar1">
+       [7]
+      </xref> or lack of available substitutes 
+      <xref ref-type="bibr" rid="pone.0024107-Kremen1">
+       [9]
+      </xref>. If such targeting resulted in only a few remaining species with a particular set of uses (e.g., only a small number of species used for construction remain), then those assemblages would have low utilitarian redundancy. Conversely, if the targeted species belong to the same group (i.e., offer the same service) and a remaining, relatively high number of species belong to another group of service providers, then that would result in high redundancy, since the remaining species would share the same properties. Therefore, a non-random distribution of utilitarian properties can result from the exploitation of natural resources, which could show both high and low redundancy. In reality, there will likely be multiple groups of service providers present in any one community, such that a combination of species will be used for medicine, fuelwood, construction and food. A service provider group (i.e., species that provide fuelwood) with high utilitarian redundancy would mean that more substitutes for a specific service are available, thus allowing local people to switch between preferred and alternative choices.</p> 
+     <p>We used Ranomafana National Park (RNP), located in southeastern Madagascar, as a case study to further develop a framework for applying FD metrics to the study of natural resource use. We focused on three questions regarding availability of important service provider groups:</p> 
+     <list list-type="order"> 
+      <list-item> 
+       <p>What is the utilitarian diversity and utilitarian redundancy within plant assemblages in RNP?</p> 
+      </list-item> 
+      <list-item> 
+       <p>Which suite of anthropogenic and environmental variables most influence changes in utilitarian redundancy within community assemblages?</p> 
+      </list-item> 
+      <list-item> 
+       <p>Which utilitarian property was most important within a given assemblage?</p> 
+      </list-item> 
+     </list> 
+     <p>Given the rapid rate of forest loss in Madagascar 
+      <xref ref-type="bibr" rid="pone.0024107-Harper1">
+       [21]
+      </xref> and prospective changes in availability of utilitarian species, we wanted to determine the utilitarian redundancy of tree assemblages surrounding rural subsistence communities in the study area. Considering that many subsistence communities in developing countries—such as Madagascar—are often reliant on forest resources for their livelihoods 
+      <xref ref-type="bibr" rid="pone.0024107-YeoChang1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Byron1">
+       [6]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Gavin1">
+       [22]
+      </xref>, we expected that the majority of assemblages would show low utilitarian redundancy. Regarding the second research question, we assessed variables associated with anthropogenic use patterns to determine the extent to which certain factors influenced utilitarian redundancy. We also included environmental variables unrelated to human use, because local-scale resource utilization in tropical forests is influenced by both anthropogenic and natural factors 
+      <xref ref-type="bibr" rid="pone.0024107-Gavin2">
+       [23]
+      </xref>. Finally, we expected that certain utilitarian plants would have been used more frequently than others. Given this disproportionate use, we hypothesized that resource extraction by local people would directly affect the identity of particular utilitarian properties, but expected these use patterns to be modulated by distance from villages. However, we did not have any 
+      <italic>
+       a priori
+      </italic> reasons to hypothesize that one utilitarian species would be more important than another.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study site</title> 
+     <p>Ranomafana National Park (RNP) is located between 47° 18′–47° 37′E and 21° 02′–21° 25 S (
+      <xref ref-type="fig" rid="pone-0024107-g002">
+       Figure 2
+      </xref>). Ranomafana consists of 43,500 ha of continuous mid-altitude montane rainforest, with annual rainfall ranging from 1700–4300 mm. Since RNP was gazetted in 1991, local settlements have been restricted to the peripheral zones. These areas have been degraded through past and current human extraction, but some relict patches remain with relatively intact forest and mixed plantations 
+      <xref ref-type="bibr" rid="pone.0024107-Peters1">
+       [24]
+      </xref>. Available figures estimate that 160 villages surround the forest area of RNP, with a total population of 27,000 within a 500 km<sup>2</sup> area 
+      <xref ref-type="bibr" rid="pone.0024107-Peters1">
+       [24]
+      </xref>; the population has likely increased in the past decade (C. Holmes, pers. comm.). Brooks et al. 
+      <xref ref-type="bibr" rid="pone.0024107-Brooks1">
+       [25]
+      </xref> and Brown et al. 
+      <xref ref-type="bibr" rid="pone.0024107-Brown1">
+       [26]
+      </xref> provide a more detailed summary of the land use activities associated with RNP.</p> 
+     <fig id="pone-0024107-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Site map showing the boundary for Ranomafana National Park (RNP).</title> 
+      <p>Filled circles indicate plots along the transect line moving from RNP's edge to its interior. The gray area represents forest limits.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.g002" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Vegetation sampling</title> 
+     <p>Vegetation sampling was carried out from October 2003–June 2005. Surveys were conducted in forests adjacent to eight villages on the periphery of RNP (
+      <xref ref-type="fig" rid="pone-0024107-g002">
+       Figure 2
+      </xref>), corresponding to localities where human land use has been investigated in related research (see 
+      <xref ref-type="bibr" rid="pone.0024107-Brooks1">
+       [25]
+      </xref>). Seven plots measuring 40 m×40 m were established along a transect at each site, with a total sampling effort of 1.12 ha per site. Each plot was treated as a separate assemblage. The transects commenced 10 m from the forest edge and were oriented approximately perpendicular to the edge; plots were set at the following edge-interior distance intervals along the transect: 0 m, 100 m, 200 m, 400 m, 800 m, 1600 m, and 3200 m. Within each plot, we recorded the diameter at 1.3 m height (DBH) for all woody stems &gt;10 cm DBH and identified these stems to species (scientific and vernacular) and family.</p> 
+     <p>We collected evidence of local residents' use of the forests that could have influenced utilitarian properties within each plot. Evidence of the following activities were systematically collected: (1) number of felled trees; (2) number of damaged trees (e.g., bark stripped, branches cut); (3) number of human trails; and (4) amount of cattle dung. Trees categorized as “felled” were clearly cut down by people, as signs of this activity are persistent. The position of each village was recorded at its center; and the distance from each plot to the closest village was determined using ArcGIS 9.3. The mean canopy height and elevation of each plot was also taken. We also calculated the basal area for each assemblage using DBH.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Utilitarian properties</title> 
+     <p>Utilitarian properties for the species encountered in the vegetation survey were determined by two methods: (i) expert knowledge and (ii) household questionnaires. First, traditional ecological knowledge was recorded from local village experts about local people's uses of plant species, with construction and firewood species ranked according to preference. These species were classified according to six utilitarian properties (details below). Secondary data were gathered from villages surrounding another protected area, Manombo Special Reserve and Manombo Classified Forest, which is 175 km south of RNP 
+      <xref ref-type="bibr" rid="pone.0024107-Abram1">
+       [27]
+      </xref>. We used data collected from Manombo's humid forests and concentrated only on those species that shared uses, local vernacular and scientific names with those found in RNP. The second approach used structured household questionnaires derived from a total of 247 households, to gather more detailed information about residents' consumption patterns for firewood and construction species, as well as preference for construction species. NKA sought and received verbal informed consent from all participants; however the data were analyzed anonymously. The ethics committee at Stony Brook University approved the consent procedure for collecting data on expert knowledge.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Utiliarian diversity calculations</title> 
+     <p>For our purposes, “functional diversity” refers to the diversity of utilitarian properties across species in a given ecological community. We used Petchey and Gaston's Functional Diversity (FD) 
+      <xref ref-type="bibr" rid="pone.0024107-Petchey2">
+       [28]
+      </xref> as a measure of utilitarian diversity 
+      <xref ref-type="bibr" rid="pone.0024107-Brown1">
+       [26]
+      </xref>. FD is a dendrogram-based index of functional diversity. We used the Gower method to calculate multivariate distances between species because our trait data were of mixed types (continuous, ordinal, and binary) and unweighted pair-group method with arithmetic means (UPGMA) to create the functional dendrograms, because this clustering algorithm gave the highest cophenetic correlation with the original multivariate distances 
+      <xref ref-type="bibr" rid="pone.0024107-Petchey3">
+       [29]
+      </xref>. Species' uses of interest were as follows: construction (ordinal), firewood (ordinal), medicinal (binary), food (binary), wood for tools (binary), and wood for furniture (binary). Construction and firewood species were ranked into three preference categories based on their level of use by local residents: high, moderate and least preferred.</p> 
+     <p>To distinguish whether an observed change in utilitarian diversity was simply a product of changing species richness (S) and to assess the level of utilitarian redundancy within service provider groups comprising these communities, we used a simulation approach to create a null distribution of utilitarian diversity values for the observed number of species. The goal of the null models was to detect if there were any non-random changes in species composition. Holding species richness constant for each of the 56 plots, we randomly selected species from the species pool (the total number of species in the study) to calculate a null utilitarian diversity for each community. We repeated this 5000 times to produce a distribution of null values and tested whether the observed utilitarian diversity for each community was significantly higher or lower than the expected utilitarian diversity values at α = 0.05. The “expected utilitarian FD” is the mean of the utilitarian diversity calculated from the 5000 null communities for each plot.</p> 
+     <p>In an effort to determine which utilitarian property was most important, we sequentially removed one property from each simulation. We then calculated a new FD without that utilitarian property and compared it to the FD from the model that included all the properties (e.g., FD<sub>all</sub> vs. FD<sub>firewood</sub>; FD<sub>all</sub> vs. FD<sub>construction</sub>, with the property listed indicating removal from the model). The new FD value that had the largest decrease from the original FD was deemed the most important property. This analysis was done at the plot-level and we report values averaged across plots.</p> 
+     <p>Utilitarian redundancy was assessed using the Index of Variance (IV) 
+      <xref ref-type="bibr" rid="pone.0024107-Mason2">
+       [30]
+      </xref>, which is the ratio of the observed to expected utilitarian diversity for each forest plot:
+      <disp-formula>
+       <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.e001" xlink:type="simple" />
+      </disp-formula>where 
+      <italic>
+       Obs
+      </italic> is the observed utilitarian diversity and Exp is the mean utilitarian diversity from the randomizations. The IV gives a continuous measurement of redundancy and a positive IV value indicates that observed utilitarian diversity is greater than expected utilitarian diversity while holding species richness constant (i.e., high IV correspond to low utilitarian redundancy).</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Generalized Linear Models (GLM)</title> 
+     <p>We used Generalized Linear Models (GLM) to analyze the relationship between utilitarian redundancy (as reflected by the Index of Variance [IV] from the null model) and six predictor variables: basal area, number of felled trees, canopy height, distance from village, number of trails and elevation. We did not include the variables damaged trees nor cattle dung incidence, because of the overabundance of zero values for those variables. The GLM model used for these analyses comprised error terms approximated by Gaussian distribution and an identity link function.</p> 
+     <p>The performance of the GLM was assessed using Akaike Information Criterion (AIC). We used two measures associated with the AIC to determine the optimal model given the data. The 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e002" xlink:type="simple" />
+      </inline-formula> ranks alternative models according to their AIC values and the AIC for each model is rescaled based on the best model. Therefore, the 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e003" xlink:type="simple" />
+      </inline-formula> measured the fit of each model relative to the best model which has an 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e004" xlink:type="simple" />
+      </inline-formula> = 0. Small differences in 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e005" xlink:type="simple" />
+      </inline-formula> (&lt;2) indicate convincing evidence for the model and values between 3–7 indicate less support 
+      <xref ref-type="bibr" rid="pone.0024107-Burnham1">
+       [31]
+      </xref>. The other measure used to assess model optimality was the Akaike weights, which indicated the probability that a given model was the best among the whole set of candidate models 
+      <xref ref-type="bibr" rid="pone.0024107-Burnham1">
+       [31]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2f"> 
+     <title>Regression Trees</title> 
+     <p>Identifying which utilitarian properties are associated with trees at the varying distances from village cannot be accomplished by using a metric like FD, which summarized utilitarian diversity across the community. We used a regression tree approach to test the association of utilitarian properties with tree size at different distances from the village. For a given distance from villages (across all sites) we applied regression trees, which recursively partition the predictor variables (the utilitarian properties) to explain the variation in the response variable, which was tree size, as measured by DBH. We used the sum of squares around group means to establish splitting criteria, selected optimal tree size by K-fold cross-validation, and evaluated model fit with Pearson correlation of predicted to observed DBH 
+      <xref ref-type="bibr" rid="pone.0024107-Death1">
+       [32]
+      </xref>. Therefore, the results of this approach showed which utilitarian properties were most closely associated with variation in tree size, depending on distance from village. All calculations and statistical analyses were carried out using the statistical program R 
+      <xref ref-type="bibr" rid="pone.0024107-RDevelopmentCoreTeam1">
+       [33]
+      </xref>; the optimal GLM models were selected using MuMIn package version 0.13.17 
+      <xref ref-type="bibr" rid="pone.0024107-Barton1">
+       [34]
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Utilitarian diversity and redundancy: null model approach</title> 
+     <p>The null model simulations assessed whether observed utilitarian diversity deviated significantly from that of the randomly assembled utilitarian species pools in RNP. Utilitarian redundancy increased positively with species richness, with indications that the initial non-saturating relationship was beginning to plateau at high species richness (
+      <xref ref-type="fig" rid="pone-0024107-g003">
+       Figure 3A
+      </xref>). Eighteen of the 56 plots exhibited IV values significantly higher than expected by chance at α = 0.05, indicating low utilitarian redundancy (
+      <xref ref-type="fig" rid="pone-0024107-g003">
+       Figure 3B
+      </xref>). None of the plots showed significantly lower than expected IV values, which would have indicated high utilitarian redundancy (
+      <xref ref-type="fig" rid="pone-0024107-g003">
+       Figure 3B
+      </xref>). Although the remaining 38 plots did not exhibit significantly low or high IV values at the established α level, there is a notable trend of plots with low utilitarian redundancy (30 plots), with very few having high redundancy. Moreover, The null model removal simulations indicated that the most important utilitarian properties within each assemblage were construction and firewood (FD<sub>all</sub> = 20.1 vs. FD<sub>construction</sub> = 12.2 and FD<sub>firewood</sub> = 13.7), while the least important were medicinal and wood for furniture (FD<sub>medicinal</sub> = 19.2 and FD<sub>furniture</sub> = 19.1).</p> 
+     <fig id="pone-0024107-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Scatterplots showing results from the utilitarian diversity and redundancy null model analyses.</title> 
+      <p>(
+       <bold>
+        A
+       </bold>). Functional diversity plot showing observed utilitarian diversity versus species richness. (
+       <bold>
+        B
+       </bold>). Index of variance (IV) values for the utilitarian diversity indices versus species richness. A positive IV value indicates that observed utilitarian diversity is greater than expected utilitarian diversity while holding species richness constant (i.e., it indicates low utilitarian redundancy). Triangles indicate plots that were significantly greater than expected at α = 0.05. 
+       <italic>
+        N
+       </italic> = 56.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>The functional dendrogram describes the relationship among the utilitarian species in the study (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4
+      </xref>). Examples are given for low and high utilitarian redundancy plots, Vohiparara (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4A
+      </xref>) and Mangevo (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4B
+      </xref>) respectively. Species on opposite ends of the dendrogram are most dissimilar in terms of utilitarian properties, while those in closest proximity have similar properties. For example, 
+      <italic>
+       Polyscias ornifolia
+      </italic> and 
+      <italic>
+       Mammea augustifolia
+      </italic> are both low preference construction species (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4A
+      </xref>). The other end of the dendrogram shows 
+      <italic>
+       Anthocleista madagascariensis
+      </italic> and 
+      <italic>
+       Weinmannia bojeriana
+      </italic>, which are highly preferred species used for both construction and firewood (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4A
+      </xref>). Each of those two species also has secondary uses, with the former used for medicine and the latter's fruit used as food. Consequently, both functional dendrograms illustrate the fact that many of these plants have multiple uses. The major difference between the dendrograms is that Mangevo, the high redundancy plot contains several sets of species with similar uses, indicating an elevated degree of utilitarian redundancy of utilitarian properties (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4B
+      </xref>). For instance, 
+      <italic>
+       Cryptocarya thouvenotii
+      </italic>, 
+      <italic>
+       Abrahamia ditimena
+      </italic>, 
+      <italic>
+       Diospyros
+      </italic> sp, 
+      <italic>
+       Eugenia emirnensis
+      </italic>, and 
+      <italic>
+       Homalium albiflorum
+      </italic> are all rated as moderately good firewood species. Consequently, even though Vohiparara village has higher species richness (S<sub>Vohiparara</sub> = 46 vs. S<sub>Mangevo</sub> = 26), Mangevo village exhibits higher redundancy (
+      <xref ref-type="fig" rid="pone-0024107-g004">
+       Figure 4
+      </xref>).</p> 
+     <fig id="pone-0024107-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Dendrogram of the utilitarian relationships among plant species used for provisioning services for the villages of Vohiparara (4A) Mangevo (4B).</title> 
+      <p>The dendrogram was produced by hierarchical clustering by the UPGMA (Unweighted Pair Group Method with Arithmetic Mean) algorithm of the distance matrix, which was calculated based on species' uses. Horizontal distance represents separation in “utilitarian space”. Species richness for Vohiparara = 46 and Mangevo = 26; the observed utilitarian diversity for Vohiparara is 24.2 and Mangevo is 33.8; and IV for Vohiparara = 0.08 and IV for Mangevo = 0.03.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.g004" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Influence of predictor variables: GLM analysis</title> 
+     <p>The GLM consisted of six predictor variables and results are presented for the models with a 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e006" xlink:type="simple" />
+      </inline-formula> of &lt;2. The AIC scores indicated that the best model fit included only basal area; two additional models (with basal area and distance, and with basal area and canopy height) were also a good fit to the data (
+      <xref ref-type="table" rid="pone-0024107-t001">
+       Table 1
+      </xref>). Thus, the 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e007" xlink:type="simple" />
+      </inline-formula> comparisons supported a strong basal area effect, since all the best-fit models, with the exception of one, included that variable as a predictor (
+      <xref ref-type="table" rid="pone-0024107-t001">
+       Table 1
+      </xref>). The variance explained was lower for the optimal model (
+      <italic>
+       R
+      </italic><sup>2</sup> = 0.091) than for the next top two models that included distance (
+      <italic>
+       R
+       <sup>2</sup>
+      </italic> = 0.118) and canopy (
+      <italic>
+       R
+       <sup>2</sup>
+      </italic> = 0.114). The model that explained the highest amount of variation included basal area, distance to village and canopy height (
+      <xref ref-type="table" rid="pone-0024107-t001">
+       Table 1
+      </xref>), although R<sup>2</sup> values were relatively low for all models (suggesting there may be other important predictors).</p> 
+     <table-wrap id="pone-0024107-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Summary of selected optimal Generalized Linear Models (GLM) fitted to utilitarian redundancy (assessed as Index of Variance, IV) and six predictor variables.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0024107-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.t001" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Models</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            df
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">AIC</td> 
+          <td align="left" colspan="1" rowspan="1">
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e008" xlink:type="simple" />
+           </inline-formula>AIC</td> 
+          <td align="left" colspan="1" rowspan="1">Akaike weight</td> 
+          <td align="left" colspan="1" rowspan="1">R<sup>2</sup></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e009" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">54</td> 
+          <td align="left" colspan="1" rowspan="1">−172.8</td> 
+          <td align="left" colspan="1" rowspan="1">0.00</td> 
+          <td align="left" colspan="1" rowspan="1">0.114</td> 
+          <td align="left" colspan="1" rowspan="1">0.091</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e010" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">53</td> 
+          <td align="left" colspan="1" rowspan="1">−172.4</td> 
+          <td align="left" colspan="1" rowspan="1">0.68</td> 
+          <td align="left" colspan="1" rowspan="1">0.081</td> 
+          <td align="left" colspan="1" rowspan="1">0.118</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e011" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">53</td> 
+          <td align="left" colspan="1" rowspan="1">−172.2</td> 
+          <td align="left" colspan="1" rowspan="1">0.91</td> 
+          <td align="left" colspan="1" rowspan="1">0.073</td> 
+          <td align="left" colspan="1" rowspan="1">0.114</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e012" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">52</td> 
+          <td align="left" colspan="1" rowspan="1">−171.5</td> 
+          <td align="left" colspan="1" rowspan="1">2.01</td> 
+          <td align="left" colspan="1" rowspan="1">0.042</td> 
+          <td align="left" colspan="1" rowspan="1">0.134</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e013" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">53</td> 
+          <td align="left" colspan="1" rowspan="1">−170.9</td> 
+          <td align="left" colspan="1" rowspan="1">2.22</td> 
+          <td align="left" colspan="1" rowspan="1">0.038</td> 
+          <td align="left" colspan="1" rowspan="1">0.093</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e014" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">53</td> 
+          <td align="left" colspan="1" rowspan="1">−170.8</td> 
+          <td align="left" colspan="1" rowspan="1">2.32</td> 
+          <td align="left" colspan="1" rowspan="1">0.036</td> 
+          <td align="left" colspan="1" rowspan="1">0.091</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e015" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">53</td> 
+          <td align="left" colspan="1" rowspan="1">−171.0</td> 
+          <td align="left" colspan="1" rowspan="1">2.32</td> 
+          <td align="left" colspan="1" rowspan="1">0.036</td> 
+          <td align="left" colspan="1" rowspan="1">0.091</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>
+         <italic>
+          The full model  = 
+         </italic>
+         <inline-formula>
+          <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e016" xlink:type="simple" />
+         </inline-formula>. Deviance explained = 14.8% (
+         <italic>
+          n = 55
+         </italic>), residual deviance = 12.7% (
+         <italic>
+          n = 49
+         </italic>). AIC is the Akaike Information Criterion; see text for details on 
+         <inline-formula>
+          <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0024107.e017" xlink:type="simple" />
+         </inline-formula> and Akaike weights. Coefficients: intercept = 1.24×10<sup>−1</sup>; basal area = −5.81×10<sup>−4</sup>; distance = −8.26×10<sup>−6</sup>; canopy = −2.51×10<sup>−3</sup>; trail = 4.87×10<sup>−4</sup>; trees cut = −3.51×10<sup>−4</sup>; elevation = 2.55×10<sup>−5</sup>.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>Moreover, there was an inverse relationship between IV and basal area, indicating that utilitarian redundancy was lowest in assemblages with small basal area (
+      <xref ref-type="fig" rid="pone-0024107-g005">
+       Figure 5A
+      </xref>). The variables included in the other two top models exhibited similar inverse relationships. Index of variance decreased with increasing distance from village, suggesting that assemblages closer to villages were more likely to have low utilitarian redundancy than those farther away (
+      <xref ref-type="fig" rid="pone-0024107-g005">
+       Figure 5B
+      </xref>). Also, IV values decreased with increasing canopy height, which indicated that lower utilitarian redundancy occurred in short statured assemblages (
+      <xref ref-type="fig" rid="pone-0024107-g005">
+       Figure 5C
+      </xref>). The models that included number of trails, felled trees and elevation did not exhibit any consistent patterns (Figures D–F).</p> 
+     <fig id="pone-0024107-g005" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.g005
+      </object-id> 
+      <label>Figure 5</label>  
+      <title>The response of the Index of Variance (IV) to variables included in the Generalized Liner Model (GLM).</title> 
+      <p>The response of IV to: 
+       <bold>
+        A.
+       </bold> basal area (m2/ha); 
+       <bold>
+        B.
+       </bold> distance from village (m); 
+       <bold>
+        C.
+       </bold> canopy height (m); 
+       <bold>
+        D.
+       </bold> number of trails; 
+       <bold>
+        E.
+       </bold> number of felled trees; and 
+       <bold>
+        F.
+       </bold> elevation (m). Solid black lines indicate response and dashed lines indicate 95% confidence intervals for the mean response.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.g005" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Regression tree analysis</title> 
+     <p>Firewood was the primary splitting variable for all distances, with the exception of those plots far from the forest edge (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6
+      </xref>). Moreover, this primary split was most associated with large trees. Specifically, at the forest edge, the sole split was firewood (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6A
+      </xref>; 
+      <italic>
+       R
+      </italic> = 0.03), while for 100-m from edge, variables for splitting included firewood and wood for furniture, with the latter most associated with larger trees (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6B
+      </xref>; 
+      <italic>
+       R
+      </italic> = 0.10). At 200-m, a secondary splitting variable was associated with large trees used for food and another split based on firewood (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6C
+      </xref>; 
+      <italic>
+       R
+      </italic> = 0.11). For distances 400-m and 800-m from the forest edge, there was a secondary split based on wood used for furniture; with the 400-m distance also split according to trees used for medicine and then large girthed individuals used for construction (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6D
+      </xref>; 
+      <italic>
+       R
+      </italic> = 0.08) and at 800-m there was only a split for large trees associated with construction (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6E
+      </xref>; 
+      <italic>
+       R
+      </italic> = 0.14). The strongest predictor of utilitarian properties associated with tree size at 1600-m was large individuals used to make furniture and also for construction (
+      <xref ref-type="fig" rid="pone-0024107-g006">
+       Figure 6F
+      </xref>; 
+      <italic>
+       R
+      </italic> = 0.13).</p> 
+     <fig id="pone-0024107-g006" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0024107.g006
+      </object-id> 
+      <label>Figure 6</label>  
+      <title>Best-fit regression trees relating utilitarian properties to tree size (as measured by diameter at breast height, DBH) at increasing distances from villages.</title> 
+      <p>Results are shown across all species, for all sites. Split labels show the criteria for splitting the right-hand branch from the left-hand branch. Tip labels represent mean DBH of the individuals at the tip. For example, at 0-m from village (A), the optimal regression tree identified species used for firewood and rated 2 (good) or 3 (very good) as most associated with large-girth individuals (with a mean DBH of 110 cm). No other utilitarian property was associated with tree size at this location.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0024107.g006" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <sec id="s4a"> 
+     <title>Utilitarian diversity and redundancy</title> 
+     <p>Our goal in assessing utilitarian diversity and redundancy was to place the ecological underpinnings of natural resource use within a social context by focusing primarily on provisioning services that were important for rural, subsistence people in Madagascar. Our results showed that many areas had low utilitarian redundancy, which implied that these assemblages have a moderate to high risk of losing the diversity of utilitarian properties provided by forests. These results also highlight the importance of two utilitarian properties—construction and firewood—for local residents. For many rural communities, there is a complete dependence on forest services for firewood and construction material. Similarly, NTFPs from forests often constitute a crucial aspect of people's livelihoods, especially in times of agricultural shortfalls, droughts, pestilence or other emergencies 
+      <xref ref-type="bibr" rid="pone.0024107-Ferraro1">
+       [35]
+      </xref>. Consequently, this issue of low redundancy is important, because it suggests that few alternative species could be used as substitutes for more vital services, such as construction. If the differences between low and high utilitarian redundancy forest assemblages is being driven by land use change, then residents' livelihoods surrounding forests with low redundancy may become increasingly challenging, since minor losses in species richness would result in substantial reductions in utilitarian diversity.</p> 
+     <p>In light of these results, one of the goals for conservation, particularly when dealing with rural, subsistence people, should be to enhance or maintain high functional redundancy within ESPs or each service provider group. Moreover, at a community or landscape scale at which multiple service provider groups may be present to supply a range of services (i.e., fuelwood, medicine, construction materials), it is important to maintain a diversity of service provider groups, reflected by high utilitarian diversity. Within each service provider group, it would be important to maintain high utilitarian redundancy, so that the needs of people can be sustained throughout time by ensuring multiple species are available to provide that service in the case that one or several species decline.</p> 
+     <p>One of the advantages of analyzing utilitarian diversity and redundancy is that areas at risk of losing utilitarian species can be identified and be used to prioritize areas for conservation action in conjunction with other priority setting conservation schemes. In this respect, habitats that fall within the significantly lower than expected categories can be directly targeted for either participatory forestry management with local communities or habitat restoration projects that focus on native utilitarian species. Similarly, conservation efforts to maintain certain ecosystem service providers would benefit the livelihood of local residents. For instance, construction and firewood were identified as the two most important utilitarian properties and contributed most to changes in utilitarian diversity. Therefore, species associated with both of these provisioning services are important resources for villagers surrounding RNP and could be specifically targeted for sustainable management programs.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Factors driving variation in utilitarian redundancy</title> 
+     <p>The observed relationship between index of variance (IV) and the three most important predictor variables indicated that there was a strong basal area effect that was inversely related to utilitarian redundancy. This relationship suggested that large-girthed trees were associated with fewer utilitarian properties. We suspect that specific utilitarian properties—and consequently the availability of alternative resources—were scarce or absent from assemblages with large-girthed species, because local residents have harvested many of the small-to-medium sized utilitarian trees. Such trees would most likely be used for construction, particularly medium-sized planks used predominantly for flooring and in some cases to reinforce walls of houses 
+      <xref ref-type="bibr" rid="pone.0024107-Abram1">
+       [27]
+      </xref>. With regard to firewood, results from the regression tree showed that at almost all distances from the forest edge, firewood was the utilitarian property most useful in distinguishing between large and small trees. Either “good for firewood” is consistent with “grows big and fast”, or local residents are leaving large trees even though they are good for firewood. We suspect the latter, since circumstances wherein the entire tree is harvested is most likely restricted to small girthed trees. We continue to research this question, as little is known about the functional traits associated with utilitarian species and how those traits are related to human use.</p> 
+     <p>Our analyses also showed that village proximity plays an important role in the extraction rate of natural resources. Studies in tropical forests, including Madagascar, demonstrated a similar pattern between human impact and village proxmity: use of forest resources declines with increasing distance from forest boundary 
+      <xref ref-type="bibr" rid="pone.0024107-Davidar1">
+       [7]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Hedge1">
+       [36]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Kistler1">
+       [37]
+      </xref>. One of the implications of this result is that assemblages with high diversity of utilitarian properties are found increasingly farther from villages, and local residents may need to travel greater distances to access certain provisioning services.</p> 
+     <p>Overall, our analyses suggest that variation in utilitarian redundancy was most likely a result of local residents harvesting utilitarian species from forests associated with villages surrounding RNP. Resource use that could have led to this pattern occurs if residents overharvest species with certain uses, leading to a steady decrease in particular utilitarian properties. For instance, a spate of construction in the RNP region due to large numbers of new migrant households that have cleared lands between 1989–2003 
+      <xref ref-type="bibr" rid="pone.0024107-Brooks1">
+       [25]
+      </xref> would result in selective harvesting of construction species. An influx of migrants would also increase pressure on firewood species and natural resource use in general. These results are supported by other studies which show that variability in biodiversity and forest structure can be partly modulated by the magnitude and intensity of resource extraction by subsistence communities 
+      <xref ref-type="bibr" rid="pone.0024107-Gavin1">
+       [22]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Syampungani1">
+       [38]
+      </xref>. Our findings illustrate the connection between local residents' use of provisioning services and the associated decrease in the redundancy and diversity of utilitarian properties, which gives a direct assessment about whether forests would be able to provide a buffer against rapid declines in the availability of certain natural resources.</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Important considerations regarding utilitarian diversity and redundancy</title> 
+     <p>It is important to note a few further caveats, however. First, this study defined species by their utility to local people (i.e., utilitarian properties) rather than their ecological functional trait values, as is traditionally the case when defining functional diversity 
+      <xref ref-type="bibr" rid="pone.0024107-Petchey2">
+       [28]
+      </xref>. Additionally, careful consideration should be given to the choice of “properties” used to develop utilitarian diversity. We focused on utilitarian properties, but including species used for cultural and other services could be important for developing conservation opportunities that integrate research approaches from different disciplines, while also emphasizing the complex interactions between social and ecological systems 
+      <xref ref-type="bibr" rid="pone.0024107-Daily1">
+       [39]
+      </xref>. Furthermore, functional diversity metrics are affected by the number and choice of traits used. With respect to these analyses, incorporating a greater number of utilitarian properties, especially if some are not relevant to the question at hand, may artificially reduce utilitarian redundancy by making species appear to be more different from each other than they are in practice 
+      <xref ref-type="bibr" rid="pone.0024107-Petchey1">
+       [16]
+      </xref>.</p> 
+     <p>Ecological processes unrelated to harvesting of natural resources, such as limiting similarity or environmental filtering can regulate community assembly and species composition. Limiting similarity occurs when species with similar traits cannot coexist within the same habitat, particularly at increasing densities at relatively small spatial scales 
+      <xref ref-type="bibr" rid="pone.0024107-Schwilk1">
+       [40]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0024107-Holdaway1">
+       [41]
+      </xref>. Environmental filtering restricts community membership to species that possess traits that enable their growth and survival in the particular environment 
+      <xref ref-type="bibr" rid="pone.0024107-Holdaway1">
+       [41]
+      </xref>. Comparisons between these competing hypotheses can be explored by examining different functional trait distributions, similar to the analyses done here. For instance, greater observed than expected functional diversity can be viewed as evidence for limiting similarity among species, while lower observed than expected functional diversity can be viewed as evidence for environmental filtering 
+      <xref ref-type="bibr" rid="pone.0024107-Weiher1">
+       [42]
+      </xref>. For our purposes, we did not directly address these competing hypotheses; instead, we focused on describing utilitarian diversity and redundancy. We recognize that such ecological processes can produce patterns in diversity and redundancy similar to those influenced by anthropogenic activities, and that the analytical techniques employed here cannot adequately resolve whether natural or anthropogenic drivers are controlling these patterns. Consequently, our results were interpreted cautiously.</p> 
+     <p>Furthermore, whether local residents are affected by low utilitarian redundancy will depend on the extent to which they integrate collection of wood and NTFPs with subsistence farming to supplement their livelihoods 
+      <xref ref-type="bibr" rid="pone.0024107-McElwee1">
+       [43]
+      </xref>. Subsistence societies' reliance on natural resources may vary from village to village and household to household depending on livelihood options 
+      <xref ref-type="bibr" rid="pone.0024107-Byron1">
+       [6]
+      </xref> and might be affected differently by a decrease in utilitarian diversity. For instance, households around RNP that rely on crayfish (
+      <italic>
+       Astacoides
+      </italic> sp.) to supplement agricultural shortfalls, through both consumption and trade 
+      <xref ref-type="bibr" rid="pone.0024107-Jones1">
+       [44]
+      </xref>, might be affected less by a decrease in the utilitarian diversity of tree assemblages. Also, the degree of household vulnerability due to low utilitarian redundancy will depend directly on the uses of the species that are lost. For example, low redundancy for construction species might be a cause for concern, particularly if there is increased frequency with which people construct (or reconstruct) homes (e.g., due to a high prevalence of cyclones); in contrast, households may not need to be as selective when choosing firewood, where a wide variety of species may be used. As a further note, it also should be pointed out that utilitarian properties are defined by presently observed use patterns, and it is possible that other forest species could begin to take these functions under conditions of scarcity.</p> 
+    </sec> 
+    <sec id="s4d"> 
+     <title>Conclusion</title> 
+     <p>Overall, the advantage of the approach taken in this study is that it presents a quantitative method for integrating ecological, social and cultural systems to address the condition of provisioning ecosystem services. Equally important, this approach translates an analytical method from the ecological literature and extends it to an important applied, socio-ecological question about natural resource use, allowing for a potential exchange of information between researchers and resource managers.</p> 
+    </sec> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Madagascar National Parks (MNP), 
+      <italic>
+       Association Nationale pour la Gestion des Aires Protégées
+      </italic> (ANGAP), Benjamin Andriamihaja and the staff at 
+      <italic>
+       Madagascar Institute pour la Conservation des Environnements Tropicaux
+      </italic> (MICET), and Institute for the Conservation of Tropical Environments (ICTE) for valuable logical support. We thank the research assistants at Centre ValBio research station and the Director, Anna Feistner. Many thanks to Félix Ratelolahy for managing the field expeditions. Thanks to Tracy Wyman and Mitch Irwin for help with the site map. Tim Keitt is thanked for his insights into the structure of this project. Suggestions from two anonymous reviewers substantially improved the manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0024107-Schachenmann1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schachenmann
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Spiritual values in Madagascar - The starting point for endogenous conservation initiatives.
+       </article-title> 
+       <source>Mountain Research and Development 
+       <volume>
+        26
+       </volume> 
+       <fpage>
+        323
+       </fpage> 
+       <lpage>
+        327
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-YeoChang1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Yeo-Chang
+         </surname>
+         <given-names>
+          Y
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Use of forest resources, traditional forest-related knowledge and livelihood of forest dependent communities: Cases in South Korea.
+       </article-title> 
+       <source>Forest Ecol Manag 
+       <volume>
+        257
+       </volume> 
+       <fpage>
+        2027
+       </fpage> 
+       <lpage>
+        2034
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Shaanker1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Shaanker
+         </surname>
+         <given-names>
+          RU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ganeshaiah
+         </surname>
+         <given-names>
+          KN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Krishnan
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ramya
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Meera
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Livelihood gains and ecological costs of non-timber forest product dependence: assessing the roles of dependence, ecological knowledge and market structure in three contrasting human and ecological settings in south India.
+       </article-title> 
+       <source>Environ Conserv 
+       <volume>
+        31
+       </volume> 
+       <fpage>
+        242
+       </fpage> 
+       <lpage>
+        253
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Luck1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Luck
+         </surname>
+         <given-names>
+          GW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harrington
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harrison
+         </surname>
+         <given-names>
+          PA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kremen
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Berry
+         </surname>
+         <given-names>
+          PM
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Quantifying the Contribution of Organisms to the Provision of Ecosystem Services.
+       </article-title> 
+       <source>Bioscience 
+       <volume>
+        59
+       </volume> 
+       <fpage>
+        223
+       </fpage> 
+       <lpage>
+        235
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Millennium1"> 
+      <label>5</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        Millennium Ecosystem Assessment
+       </collab> 
+       <year>
+        2005
+       </year> 
+       <source>Ecosystems and human well-being: biodiversity synthesis 
+       <publisher-loc>
+        Washington, DC
+       </publisher-loc> 
+       <publisher-name>
+        World Resources Institute
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Byron1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Byron
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Arnold
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        What futures for the people of the tropical forests?
+       </article-title> 
+       <source>World Development 
+       <volume>
+        27
+       </volume> 
+       <fpage>
+        789
+       </fpage> 
+       <lpage>
+        805
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Davidar1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Davidar
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Arjunan
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Puyravaud
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Why do local households harvest forest products? A case study from the southern Western Ghats, India.
+       </article-title> 
+       <source>Biol Conserv 
+       <volume>
+        141
+       </volume> 
+       <fpage>
+        1876
+       </fpage> 
+       <lpage>
+        1884
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Ingram1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ingram
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Whittaker
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dawson
+         </surname>
+         <given-names>
+          TP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Tree structure and diversity in human-impacted littoral forests, Madagascar.
+       </article-title> 
+       <source>Environ Manage 
+       <volume>
+        35
+       </volume> 
+       <fpage>
+        779
+       </fpage> 
+       <lpage>
+        798
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Kremen1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kremen
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Raymond
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lance
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        An interdisciplinary tool for monitoring conservation impacts in Madagascar.
+       </article-title> 
+       <source>Conserv Biol 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        549
+       </fpage> 
+       <lpage>
+        563
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Kremen2"> 
+      <label>10</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kremen
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Managing ecosystem services: what do we need to know about their ecology?
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        468
+       </fpage> 
+       <lpage>
+        479
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Cocks1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cocks
+         </surname>
+         <given-names>
+          ML
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bangay
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shackleton
+         </surname>
+         <given-names>
+          CM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wiersum
+         </surname>
+         <given-names>
+          KF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        ‘Rich man poor man’ - inter-household and community factors influencing the use of wild plant resources amongst rural households in South Africa.
+       </article-title> 
+       <source>Int J Sust Dev 
+       <volume>
+        15
+       </volume> 
+       <fpage>
+        198
+       </fpage> 
+       <lpage>
+        210
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Diaz1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Diaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hodgson
+         </surname>
+         <given-names>
+          JG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cabido
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cornelissen
+         </surname>
+         <given-names>
+          JHC
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        The plant traits that drive ecosystems: Evidence from three continents.
+       </article-title> 
+       <source>J Veg Sci 
+       <volume>
+        15
+       </volume> 
+       <fpage>
+        295
+       </fpage> 
+       <lpage>
+        304
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Griffin1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Griffin
+         </surname>
+         <given-names>
+          JN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mendez
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Johnson
+         </surname>
+         <given-names>
+          AF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jenkins
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Foggo
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Functional diversity predicts overyielding effect of species combination on primary productivity.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        118
+       </volume> 
+       <fpage>
+        37
+       </fpage> 
+       <lpage>
+        44
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Diaz2"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Diaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lavorel
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          de Bello
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Quetier
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grigulis
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Incorporating plant functional diversity effects in ecosystem service assessments.
+       </article-title> 
+       <source>P Natl Acad Sci USA 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        20684
+       </fpage> 
+       <lpage>
+        20689
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Flynn1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Flynn
+         </surname>
+         <given-names>
+          DFB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mirotchnick
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jain
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Palmer
+         </surname>
+         <given-names>
+          MI
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Functional and phylogenetic diversity as predictors of biodiversity-ecosystem function relationships.
+       </article-title> 
+       <source>Ecology 
+       <comment>
+        In press
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Petchey1"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Petchey
+         </surname>
+         <given-names>
+          OL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Evans
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fishburn
+         </surname>
+         <given-names>
+          IS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Low Functional diversity and no redundancy in British avian assemblages.
+       </article-title> 
+       <source>J Anim Ecol 
+       <volume>
+        76
+       </volume> 
+       <fpage>
+        977
+       </fpage> 
+       <lpage>
+        985
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Mason1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          WG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Functional richness, functional evenness and functional divergence: the primary components of functional diversity.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        111
+       </volume> 
+       <fpage>
+        112
+       </fpage> 
+       <lpage>
+        118
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Flynn2"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Flynn
+         </surname>
+         <given-names>
+          DFB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gogol-Prokurat
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nogeire
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Molinari
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Richers
+         </surname>
+         <given-names>
+          BT
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Loss of functional diversity under land use intensification across multiple taxa.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        22
+       </fpage> 
+       <lpage>
+        33
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Micheli1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Micheli
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Halpern
+         </surname>
+         <given-names>
+          BS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Low functional redundancy in coastal marine assemblages.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        391
+       </fpage> 
+       <lpage>
+        400
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Tabuti1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tabuti
+         </surname>
+         <given-names>
+          JRS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dhillion
+         </surname>
+         <given-names>
+          SS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lye
+         </surname>
+         <given-names>
+          KA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Firewood use in Bulamogi County, Uganda: species selection, harvesting and consumption patterns.
+       </article-title> 
+       <source>Biomass and Bioenergy 
+       <volume>
+        25
+       </volume> 
+       <fpage>
+        581
+       </fpage> 
+       <lpage>
+        596
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Harper1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Harper
+         </surname>
+         <given-names>
+          GJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Steininger
+         </surname>
+         <given-names>
+          MK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tucker
+         </surname>
+         <given-names>
+          CJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Juhn
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hawkins
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Fifty years of deforestation and forest fragmentation in Madagascar.
+       </article-title> 
+       <source>Environ Conserv 
+       <volume>
+        34
+       </volume> 
+       <fpage>
+        325
+       </fpage> 
+       <lpage>
+        333
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Gavin1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gavin
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Conservation implications of rainforest use patterns: mature forests provide more resources but secondary forests supply more medicine.
+       </article-title> 
+       <source>J Appl Ecol 
+       <volume>
+        46
+       </volume> 
+       <fpage>
+        1275
+       </fpage> 
+       <lpage>
+        1282
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Gavin2"> 
+      <label>23</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gavin
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname>
+         <given-names>
+          GJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Socioeconomic predictors of forest use values in the Peruvian Amazon: A potential tool for biodiversity conservation.
+       </article-title> 
+       <source>Ecol Econ 
+       <volume>
+        60
+       </volume> 
+       <fpage>
+        752
+       </fpage> 
+       <lpage>
+        762
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Peters1"> 
+      <label>24</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Peters
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Transforming the integrated conservation and development project (ICDP) approach: Observations from the Ranomafana National Park Project, Madagascar.
+       </article-title> 
+       <source>Journal of Agricultural &amp; Environmental Ethics 
+       <volume>
+        11
+       </volume> 
+       <fpage>
+        17
+       </fpage> 
+       <lpage>
+        47
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Brooks1"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brooks
+         </surname>
+         <given-names>
+          CP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Holmes
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kramer
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Barnett
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Keitt
+         </surname>
+         <given-names>
+          TH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        The role of demography and markets in determining deforestation rates near Ranomafana National Park, Madagascar.
+       </article-title> 
+       <source>Plos One 
+       <volume>
+        4
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        6
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Brown1"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brown
+         </surname>
+         <given-names>
+          KA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ingram
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Flynn
+         </surname>
+         <given-names>
+          DFB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Razafindrazaka
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jeannoda
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Protected Areas Safeguard Tree and Shrub Communities from Degradation and Invasion: A Case Study in Eastern Madagascar.
+       </article-title> 
+       <source>Environ Manage 
+       <volume>
+        44
+       </volume> 
+       <fpage>
+        136
+       </fpage> 
+       <lpage>
+        148
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Abram1"> 
+      <label>27</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Abram
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <source>People and protected area conflict: Unravelling the complexities of illegal resource use by forest dependent communities in Manombo Forest, Madagascar 
+       <publisher-loc>
+        London
+       </publisher-loc> 
+       <publisher-name>
+        Imperial College London
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Petchey2"> 
+      <label>28</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Petchey
+         </surname>
+         <given-names>
+          OL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Functional diversity (FD), species richness and community composition.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        5
+       </volume> 
+       <fpage>
+        402
+       </fpage> 
+       <lpage>
+        411
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Petchey3"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Petchey
+         </surname>
+         <given-names>
+          OL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Dendrograms and measuring functional diversity.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        116
+       </volume> 
+       <fpage>
+        1422
+       </fpage> 
+       <lpage>
+        1426
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Mason2"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mason
+         </surname>
+         <given-names>
+          NWH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Irz
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lanoiselee
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mouillot
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Argillier
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Evidence that niche specialization explains species-energy relationships in lake fish communities.
+       </article-title> 
+       <source>J Anim Ecol 
+       <volume>
+        77
+       </volume> 
+       <fpage>
+        285
+       </fpage> 
+       <lpage>
+        296
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Burnham1"> 
+      <label>31</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Burnham
+         </surname>
+         <given-names>
+          KP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <source>Model selection and multimodel inference: a practical information-theoretic approach 
+       <publisher-loc>
+        New York
+       </publisher-loc> 
+       <publisher-name>
+        Springer-Verlag
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Death1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          De'ath
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fabricius
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Classification and regression trees: A powerful yet simple technique for ecological data analysis.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        3178
+       </fpage> 
+       <lpage>
+        3192
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-RDevelopmentCoreTeam1"> 
+      <label>33</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        R_Development_Core_Team
+       </collab> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        R: A language and environment for statistical computing.
+       </article-title> 
+       <comment>
+        R Foundation for Statistical Computing. Vienna, Austria
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Barton1"> 
+      <label>34</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Barton
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <comment>
+        Multi-model Inference
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Ferraro1"> 
+      <label>35</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ferraro
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <source>The Local Costs of Establishing Protected Areas in Low-Income Nations: Ranomafana National Park, Madagascar 
+       <publisher-loc>
+        Atlanta
+       </publisher-loc> 
+       <publisher-name>
+        Georgia State University
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Hedge1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hedge
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Enters
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Forest products and household economy: a case study from Mudumalai Wildlife Sanctuary, Southern India.
+       </article-title> 
+       <source>Environ Conserv 
+       <volume>
+        27
+       </volume> 
+       <fpage>
+        250
+       </fpage> 
+       <lpage>
+        259
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Kistler1"> 
+      <label>37</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kistler
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Spack
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Comparing agricultural systems in two areas of Madagascar.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Goodman
+         </surname>
+         <given-names>
+          SM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Benstead
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+       </person-group> 
+       <source>The Natural History of Madagascar 
+       <publisher-loc>
+        Chicago, ILL
+       </publisher-loc> 
+       <publisher-name>
+        University of Chicago Press
+       </publisher-name> 
+       <fpage>
+        123
+       </fpage> 
+       <lpage>
+        134
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Syampungani1"> 
+      <label>38</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Syampungani
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chirwa
+         </surname>
+         <given-names>
+          PW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Akinnifesi
+         </surname>
+         <given-names>
+          FK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sileshi
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ajayi
+         </surname>
+         <given-names>
+          OC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        The miombo woodlands at the cross roads: Potential threats, sustainable livelihoods, policy gaps and challenges.
+       </article-title> 
+       <source>Natural Resources Forum 
+       <volume>
+        33
+       </volume> 
+       <fpage>
+        150
+       </fpage> 
+       <lpage>
+        159
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Daily1"> 
+      <label>39</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Daily
+         </surname>
+         <given-names>
+          GC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Polasky
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Goldstein
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kareiva
+         </surname>
+         <given-names>
+          PM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mooney
+         </surname>
+         <given-names>
+          HA
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Ecosystem services in decision making: time to deliver.
+       </article-title> 
+       <source>Front Ecol Environ 
+       <volume>
+        7
+       </volume> 
+       <fpage>
+        21
+       </fpage> 
+       <lpage>
+        28
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Schwilk1"> 
+      <label>40</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schwilk
+         </surname>
+         <given-names>
+          DW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ackerly
+         </surname>
+         <given-names>
+          DD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Limiting similarity and functional diversity along environmental gradients.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        272
+       </fpage> 
+       <lpage>
+        281
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Holdaway1"> 
+      <label>41</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Holdaway
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sparrow
+         </surname>
+         <given-names>
+          AD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Assembly rules operation along a primary riverbed-grassland successional sequence.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        94
+       </volume> 
+       <fpage>
+        1092
+       </fpage> 
+       <lpage>
+        1102
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Weiher1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Weiher
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Keddy
+         </surname>
+         <given-names>
+          PA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1995
+       </year> 
+       <article-title>
+        Assembly rules, null models, and trait dispersion: new questions front old patterns.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        74
+       </volume> 
+       <fpage>
+        159
+       </fpage> 
+       <lpage>
+        164
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-McElwee1"> 
+      <label>43</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          McElwee
+         </surname>
+         <given-names>
+          PD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Resource use among rural agricultural households near protected areas in Vietnam: the social cost of conservation and implications for enforcement.
+       </article-title> 
+       <source>Environ Manage 
+       <volume>
+        45
+       </volume> 
+       <fpage>
+        113
+       </fpage> 
+       <lpage>
+        131
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0024107-Jones1"> 
+      <label>44</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jones
+         </surname>
+         <given-names>
+          JPG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Andriahajaina
+         </surname>
+         <given-names>
+          FB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ranambinintsoa
+         </surname>
+         <given-names>
+          EH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hockley
+         </surname>
+         <given-names>
+          NJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ravoahangimalala
+         </surname>
+         <given-names>
+          O
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        The economic importance of freshwater crayfish harvesting in Madagascar and the potential of community-based conservation to improve management.
+       </article-title> 
+       <source>Oryx 
+       <volume>
+        40
+       </volume> 
+       <fpage>
+        168
+       </fpage> 
+       <lpage>
+        175
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

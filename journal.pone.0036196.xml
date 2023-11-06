@@ -1,0 +1,6476 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-02583
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0036196
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Food web structure
+          </subject> 
+          <subject>
+           Species interactions
+          </subject> 
+          <subject>
+           Trophic interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Marine environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Marine ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Marine biology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Marine ecology
+         </subject> 
+         <subject>
+          Phycology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+       <subject>
+        Marine and Aquatic Sciences
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Effects of Trophic Skewing of Species Richness on Ecosystem Functioning in a Diverse Marine Community
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Trophic Skew Alters Ecosystem Functioning
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Reynolds
+        </surname> 
+        <given-names>
+         Pamela L.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bruno
+        </surname> 
+        <given-names>
+         John F.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, United States of America
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Department of Biological Sciences, Virginia Institute of Marine Science, The College of William and Mary, Gloucester Point, Virginia, United States of America
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Moen
+        </surname> 
+        <given-names>
+         Jon
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      Umea University, Sweden
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        reynolds@vims.edu
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: PLR JFB. Performed the experiments: PLR. Analyzed the data: PLR JFB. Contributed reagents/materials/analysis tools: PLR JFB. Wrote the paper: PLR JFB.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       31
+      </day> 
+      <month>
+       5
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      5
+     </issue>
+     <elocation-id>
+      e36196
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        23
+       </day> 
+       <month>
+        1
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        3
+       </day> 
+       <month>
+        4
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2012
+      </copyright-year>
+      <copyright-holder>
+       Reynolds, Bruno
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>Widespread overharvesting of top consumers of the world’s ecosystems has “skewed” food webs, in terms of biomass and species richness, towards a generally greater domination at lower trophic levels. This skewing is exacerbated in locations where exotic species are predominantly low-trophic level consumers such as benthic macrophytes, detritivores, and filter feeders. However, in some systems where numerous exotic predators have been added, sometimes purposefully as in many freshwater systems, food webs are skewed in the opposite direction toward consumer dominance. Little is known about how such modifications to food web topology, e.g., changes in the ratio of predator to prey species richness, affect ecosystem functioning. We experimentally measured the effects of trophic skew on production in an estuarine food web by manipulating ratios of species richness across three trophic levels in experimental mesocosms. After 24 days, increasing macroalgal richness promoted both plant biomass and grazer abundance, although the positive effect on plant biomass disappeared in the presence of grazers. The strongest trophic cascade on the experimentally stocked macroalgae emerged in communities with a greater ratio of prey to predator richness (bottom-rich food webs), while stronger cascades on the accumulation of naturally colonizing algae (primarily microalgae with some early successional macroalgae that recruited and grew in the mesocosms) generally emerged in communities with greater predator to prey richness (the more top-rich food webs). These results suggest that trophic skewing of species richness and overall changes in food web topology can influence marine community structure and food web dynamics in complex ways, emphasizing the need for multitrophic approaches to understand the consequences of marine extinctions and invasions.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       Funding support came from University of North Carolina’s Institute of Marine Sciences, National Science Foundation grant OCE-0623736 to Bruno, and a University of North Carolina Wilson Award to Reynolds. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="10" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Species losses from habitat destruction and overharvesting, and species gains from accidental and intentional introductions, are changing the topology of food webs with consequences for ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0036196-Ray1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Duffy1">
+      [2]
+     </xref>. Despite ongoing losses of species richness at the global scale 
+     <xref ref-type="bibr" rid="pone.0036196-Ecosystems1">
+      [3]
+     </xref>, the rate of species gain from introductions at local scales can outpace those lost to extinctions with potentially little effect on overall community diversity 
+     <xref ref-type="bibr" rid="pone.0036196-Sax1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Bardgett1">
+      [5]
+     </xref>. However, inherent species biases in extinction and invasion processes are altering the 
+     <italic>
+      distribution
+     </italic> of diversity across trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Duffy1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Byrnes1">
+      [6]
+     </xref> with potential effects on ecosystems 
+     <xref ref-type="bibr" rid="pone.0036196-Wardle1">
+      [7]
+     </xref>. While natural food webs are thought to be slightly weighted toward greater species richness at lower trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Petchey1">
+      [8]
+     </xref>, biases in which species are more likely to be lost and gained can result in food webs skewed toward ratios of greater or lower predator to prey richness.</p> 
+    <p>Local species extirpations are often biased toward species at higher trophic levels. Large consumers such as top predators are generally more likely to go extinct due to their characteristic small population sizes, small geographic ranges, slow population growth, and high susceptibility to over-harvesting and habitat loss 
+     <xref ref-type="bibr" rid="pone.0036196-Tracy1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-McKinney1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Terborgh1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Collette1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Cardillo1">
+      [13]
+     </xref>. However, recent analyses on global fisheries stock assessments and landings indicate that small-bodied consumer populations are also highly susceptible to collapse, with substantial impacts on adjacent trophic levels in oceanic food webs 
+     <xref ref-type="bibr" rid="pone.0036196-Pinsky1">
+      [14]
+     </xref>.</p> 
+    <p>Despite documented global declines in consumer guilds 
+     <xref ref-type="bibr" rid="pone.0036196-Estes1">
+      [15]
+     </xref>, there are many examples of local increases in predator richness due to species introductions and range shifts, such as those observed in fishes, snakes and birds in the Everglades 
+     <xref ref-type="bibr" rid="pone.0036196-Ferriter1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Krysko1">
+      [17]
+     </xref>, lionfish in the Caribbean 
+     <xref ref-type="bibr" rid="pone.0036196-Albins1">
+      [18]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Lesser1">
+      [19]
+     </xref>, and seagrass-associated fishes in the Gulf of Mexico 
+     <xref ref-type="bibr" rid="pone.0036196-Fodrie1">
+      [20]
+     </xref>. Intentional or accidental releases of predatory game fish in streams and lakes modified for human recreation have also elevated local predator richness in North American and European waterways 
+     <xref ref-type="bibr" rid="pone.0036196-Eby1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Gido1">
+      [22]
+     </xref>. From brown tree snakes in Guam, Burmese pythons in the Everglades, Asian carp in the Great Lakes, cactus moths in Mexico, cane toads in Australia, and black rats and feral cats around the world, many striking examples of the negative impacts of invasive species come from the establishment of exotic consumers 
+     <xref ref-type="bibr" rid="pone.0036196-Pitt1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Simberloff1">
+      [24]
+     </xref>. However, in general localized species gains may be inherently biased toward species at lower trophic levels due to mechanisms of transport and establishment. For example, in estuarine systems species at lower trophic levels, such as macroplanktivores and plants (particularly species found in ballast water), are more likely to be transported and become established 
+     <xref ref-type="bibr" rid="pone.0036196-Byrnes1">
+      [6]
+     </xref>. Highly evolved dispersal and hitchhiking abilities, as well as traits such as fast growth and reproduction of plants, fungi, and invertebrates may promote their transport as well as spread and establishment in new regions 
+     <xref ref-type="bibr" rid="pone.0036196-Sax2">
+      [25]
+     </xref>.</p> 
+    <p>Regardless of the direction, trophic skew (a re-organization of trophic structure due to a change in the ratio of predator to prey richness 
+     <xref ref-type="bibr" rid="pone.0036196-Duffy1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Dobson1">
+      [26]
+     </xref>) is changing the structural biodiversity of natural food webs with unknown consequences for ecosystem processes 
+     <xref ref-type="bibr" rid="pone.0036196-Byrnes1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Petchey1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Lotze1">
+      [27]
+     </xref>. However, understanding the consequences of shifts in species richness across multiple trophic levels is difficult because diversity effects are often contingent upon the presence and diversity of adjacent trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Gamfeldt1">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Thebault1">
+      [29]
+     </xref>. Capture and consumption of prey from within a given trophic level can be influenced by richness at lower and higher trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Aquilino1">
+      [30]
+     </xref>, and diversity can affect production through fundamentally different mechanisms across trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Long1">
+      [31]
+     </xref>. Thus explicit investigation of how species gains and losses, both consequences and drivers of global change, simultaneously affect ecosystem functioning is key to understanding current and future responses of natural ecosystems to trophic skew 
+     <xref ref-type="bibr" rid="pone.0036196-Wardle1">
+      [7]
+     </xref>.</p> 
+    <p>While a wealth of research over the past decade indicates that changes in biodiversity alter ecosystem functioning and services 
+     <xref ref-type="bibr" rid="pone.0036196-Stachowicz1">
+      [32]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Cardinale1">
+      [33]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Schmid1">
+      [34]
+     </xref>, most studies have focused on manipulating richness at only one or, more recently and rarely, two trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Cardinale2">
+      [35]
+     </xref>. Manipulations of species richness across multiple trophic levels typically employ designs in which overall community richness varies across treatments 
+     <xref ref-type="bibr" rid="pone.0036196-Downing1">
+      [36]
+     </xref>, and/or feature limited species pools where results are largely ascribed to identity effects and changes in community composition 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno1">
+      [37]
+     </xref>. Because elevated system diversity is known to affect production and other ecosystem properties 
+     <xref ref-type="bibr" rid="pone.0036196-Naeem1">
+      [38]
+     </xref>, it is often difficult to partition the effects of changes in predator to prey richness from overall changes in diversity at the community level. Expect perhaps work by Srivastava et al. 
+     <xref ref-type="bibr" rid="pone.0036196-Srivastava1">
+      [39]
+     </xref>, to date, no study has explicitly tested the effects of trophic skew on specific ecosystem properties including the strength of a trophic cascade.</p> 
+    <p>We empirically tested how trophic skew can influence ecosystem functioning in a diverse tri-trophic estuarine food web in outdoor mesocosms by simultaneously manipulating plant and predator species richness while holding overall community richness constant. Using a diverse species pool, we created four food web structures (
+     <xref ref-type="fig" rid="pone-0036196-g001">
+      Fig. 1A
+     </xref>) that reflected real or predicted degrees of trophic skewing of natural systems: 1) top-rich food webs (inverted triangle shape) with greater ratios of predator to prey richness, consistent with predictions based on accidental and intentional predator additions 
+     <xref ref-type="bibr" rid="pone.0036196-Ruzycki1">
+      [40]
+     </xref>, 2) neutral (rectangular shape) with constant predator to prey richness ratios, and 3–4) two degrees of bottom-rich food webs (triangular shapes) with greater ratios of prey to predator richness, as may be typical for impacted estuarine food webs 
+     <xref ref-type="bibr" rid="pone.0036196-Byrnes1">
+      [6]
+     </xref>. We tested the direct and indirect effects of predator (top-rich) and plant (bottom-rich) diversity 
+     <xref ref-type="bibr" rid="pone.0036196-Dyer1">
+      [41]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Hunter1">
+      [42]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Hairston1">
+      [43]
+     </xref> by comparing production and trophic cascade strength across these trophic skewing scenarios. With concurrent and opposite changes in prey and predator richness, it is possible that 1) the species richness at one trophic level may dominate and dictate final primary producer biomass, 2) effects of concurrent changes in richness may cancel out, resulting in constant primary production across different food web structures, or 3) the concurrent changes in richness may interact additively or nonadditively 
+     <xref ref-type="bibr" rid="pone.0036196-Aquilino1">
+      [30]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Douglass1">
+      [44]
+     </xref>.</p> 
+    <fig id="pone-0036196-g001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0036196.g001
+     </object-id> 
+     <label>Figure 1</label>  
+     <title>Experimental food webs.</title> 
+     <p>A) Structure of experimental food webs with varying species richness per trophic level, i.e., trophic skew, and B) experimental species pool (predators: 
+      <italic>
+       Hypleurochilus geminatus, Monacanthus hispidus, Fundulus heteroclitus
+      </italic>, swimming crabs (
+      <italic>
+       Callinectes sapidus
+      </italic> or 
+      <italic>
+       C. similis
+      </italic>), 
+      <italic>
+       Lagodon rhomboids, Penaeus aztecus, Palaemonetes vulgaris
+      </italic>, mud crabs (
+      <italic>
+       Panopeus herbstii, Eurypanopeus depressus
+      </italic> or 
+      <italic>
+       Neopanope sayi
+      </italic>); grazers: 
+      <italic>
+       Gammarus mucronatus, Elasmopus levis, Dulichiella appendiculata, Paracerceis caudata
+      </italic>; macroalgae: 
+      <italic>
+       Dictyota menstrualis, Codium fragile, Padina gymnospora, Sargassum filipendula, Ceramium sp., Gracilaria tikvahiae, G. verrucosa, Hypnea musciformis, Ulva lactuca
+      </italic>. Species are not drawn to scale.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.g001" xlink:type="simple" /> 
+    </fig> 
+    <p>Based on known dynamics in this and similar experimental systems where predator richness promoted predation and increased top-down control of grazer populations 
+     <xref ref-type="bibr" rid="pone.0036196-Douglass1">
+      [44]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+      [45]
+     </xref>, we expected that top-rich food webs (greater predator to prey richness) would exhibit lower grazer abundances and higher algal biomass compared to bottom-rich food webs (lower predator to prey richness). However, algal richness is known to promote primary as well as secondary production 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+      [46]
+     </xref>, and thus bottom-up food webs could have either higher or lower algal biomass depending on the intensity of grazing. If predator (top-down) richness effects drive this system, we expected top-rich food webs to have a stronger positive trophic cascade on algal biomass compared to bottom-rich food webs, and the reverse if algal (bottom-up) richness is more important.</p> 
+   </sec> 
+   <sec id="s2"> 
+    <title>Results</title> 
+    <p>The presence of consumers and the distribution of species richness across trophic levels (trophic skew) influenced final algal biomass and grazer abundance (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2
+     </xref>, 
+     <xref ref-type="table" rid="pone-0036196-t001">
+      Table 1
+     </xref>). Generally, grazers reduced the wet mass of experimentally stocked macroalgae (hereafter referred to as macroalgae) by 33% compared to grazer-free controls (LSM contrast, F<sub>1,83</sub> = 42.64, P&lt;0.001), but this effect disappeared when their predators were present, indicating a trophic cascade (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2A
+     </xref>; 
+     <xref ref-type="table" rid="pone-0036196-t001">
+      Table 1
+     </xref>; see 
+     <xref ref-type="supplementary-material" rid="pone.0036196.s002">
+      Fig. S2
+     </xref> for images of final macroalgal biomass). Predators generally increased macroalgal biomass (LSM contrast, F<sub>1,83</sub> = 10.44, P&lt;0.002). The strongest positive trophic cascade on macroalgae appeared in the bottom-rich food webs (e.g., triangular shaped, 
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2D
+     </xref>).</p> 
+    <fig id="pone-0036196-g002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0036196.g002
+     </object-id> 
+     <label>Figure 2</label>  
+     <title>Algal and grazer responses to trophic skew.</title> 
+     <p>Final A) biomass of experimentally stocked macroalgae, B) colonizing algae (e.g., microalgae) chlorophyll 
+      <italic>
+       a
+      </italic> accumulation C) mesograzer abundance, and the trophic cascade strength on macroalgae (D) and microalgae (E) in experimental mesocosms across trophic skewing treatments after 24 days. Higher values in D and E indicate a stronger positive trophic cascade on the algae. Values are means±1SE.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.g002" xlink:type="simple" /> 
+    </fig> 
+    <table-wrap id="pone-0036196-t001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0036196.t001
+     </object-id>
+     <label>Table 1</label> 
+     <title>Results of two-factor &lt;sc&gt;anova&lt;/sc&gt; on the effects of trophic skew and food chain length.</title> 
+     <!--===== Grouping alternate versions of objects =====-->
+     <alternatives>
+      <graphic id="pone-0036196-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.t001" xlink:type="simple" />
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Response Factor</td> 
+         <td align="left" colspan="1" rowspan="1">d.f.</td> 
+         <td align="left" colspan="1" rowspan="1">SS</td> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           F
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           P
+          </italic> </td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <bold> 
+           <italic>
+            Macroalgal biomass
+           </italic> 
+          </bold> </td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Food chain length (FCL)</td> 
+         <td align="left" colspan="1" rowspan="1">2</td> 
+         <td align="left" colspan="1" rowspan="1">3875.99</td> 
+         <td align="left" colspan="1" rowspan="1">26.59</td> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <bold>
+           &lt;0.001
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Trophic skew (TS)</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">2589.50</td> 
+         <td align="left" colspan="1" rowspan="1">11.84</td> 
+         <td align="left" colspan="1" rowspan="1">&lt;
+          <bold>
+           0.001
+          </bold></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">FCL * TS</td> 
+         <td align="left" colspan="1" rowspan="1">6</td> 
+         <td align="left" colspan="1" rowspan="1">555.11</td> 
+         <td align="left" colspan="1" rowspan="1">1.27</td> 
+         <td align="left" colspan="1" rowspan="1">0.281</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Error</td> 
+         <td align="left" colspan="1" rowspan="1">83</td> 
+         <td align="left" colspan="1" rowspan="1">6050.01</td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="2" rowspan="1"> 
+          <bold> 
+           <italic>
+            Microalgal accumulation
+           </italic> 
+          </bold> </td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Food chain length</td> 
+         <td align="left" colspan="1" rowspan="1">2</td> 
+         <td align="left" colspan="1" rowspan="1">10.17</td> 
+         <td align="left" colspan="1" rowspan="1">40.08</td> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <bold>
+           &lt;0.001
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Trophic skew (TS)</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">0.11</td> 
+         <td align="left" colspan="1" rowspan="1">0.28</td> 
+         <td align="left" colspan="1" rowspan="1">0.841</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">FCL * TS</td> 
+         <td align="left" colspan="1" rowspan="1">6</td> 
+         <td align="left" colspan="1" rowspan="1">1.44</td> 
+         <td align="left" colspan="1" rowspan="1">1.89</td> 
+         <td align="left" colspan="1" rowspan="1">0.092</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Error</td> 
+         <td align="left" colspan="1" rowspan="1">83</td> 
+         <td align="left" colspan="1" rowspan="1">10.53</td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <bold> 
+           <italic>
+            Grazer abundance
+           </italic> 
+          </bold> </td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Food chain length</td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">10703.58</td> 
+         <td align="left" colspan="1" rowspan="1">440.05</td> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <bold>
+           &lt;0.001
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Trophic skew (TS)</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">958.84</td> 
+         <td align="left" colspan="1" rowspan="1">13.14</td> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <bold>
+           &lt;0.001
+          </bold> </td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">FCL * TS</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">178.40</td> 
+         <td align="left" colspan="1" rowspan="1">2.44</td> 
+         <td align="left" colspan="1" rowspan="1">0.073</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Error</td> 
+         <td align="left" colspan="1" rowspan="1">56</td> 
+         <td align="left" colspan="1" rowspan="1">1362.12</td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+         <td align="left" colspan="1" rowspan="1"></td> 
+        </tr> 
+       </tbody> 
+      </table>
+     </alternatives>
+     <table-wrap-foot> 
+      <fn id="nt101"> 
+       <label></label> 
+       <p>The degree of trophic skewing encompassed the presence of upper trophic levels (i.e., food chain length: algae only,+grazers,+grazers+predators) and the distribution of species richness (top-rich, neutral, slightly bottom-rich, bottom-rich skewed) on final A) macroalgal biomass, B) microalgal accumulation, and C) grazer abundance. Only data from replicates in which grazers were initially stocked (all treatments except ‘algae only’) were used in the analysis of food chain length and richness distribution treatment effects on grazer abundance (C).</p> 
+      </fn> 
+     </table-wrap-foot>
+    </table-wrap> 
+    <p>Microalgae (primarily the chain-forming diatom 
+     <italic>
+      Tabellaria sp.)
+     </italic> and some early-successional 
+     <italic>
+      Cladophora sp
+     </italic>. and 
+     <italic>
+      Ulva linza
+     </italic> colonized and grew in all mesocosms. Chlorophyll 
+     <italic>
+      a
+     </italic> concentration, a proxy for growth of these naturally recruiting algae (hereafter referred to as “microalgae” due to their small size and dominance by diatoms), was affected by the presence of upper trophic levels (food chain length treatment) but not by trophic skew (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2B
+     </xref>, 
+     <xref ref-type="table" rid="pone-0036196-t001">
+      Table 1
+     </xref>). On average, grazers reduced chlorophyll 
+     <italic>
+      a
+     </italic> concentration by 83% in the absence of predators, and 66% in their presence (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2B
+     </xref>). Predators generally promoted microalgal accumulation (LSM contrast, F<sub>1,83</sub> = 4.19, P = 0.044). In contrast with the macroalgal results, the strongest trophic cascade on microalgal accumulation emerged in the top-rich food webs (inverted triangle) with a greater ratio of predator to prey species richness, although this response was highly variable (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2E
+     </xref>).</p> 
+    <p>Incidental grazer immigration was minimal across all food web structures (∼39 individuals per algae-only control mesocosm, 
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2C
+     </xref>). Both the presence of predators and changes in predator to prey richness influenced final grazer abundance (
+     <xref ref-type="table" rid="pone-0036196-t001">
+      Table 1
+     </xref>) and community composition (
+     <xref ref-type="fig" rid="pone-0036196-g003">
+      Fig. 3
+     </xref>). The inclusion of predators reduced grazer abundance by 91%. Grazer abundance was greatest in the two bottom-rich food web structures regardless of the presence of predators (LSM contrast F<sub>1,56</sub> = 27.53, P&lt;0.0001, 
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2C
+     </xref>) suggesting that macroalgal richness promoted grazer population growth. Grazer communities in treatments in which grazers were initially added (e.g., excluding algae-only treatments) were dominated by the amphipod 
+     <italic>
+      Elasmopus levis
+     </italic> (
+     <xref ref-type="fig" rid="pone-0036196-g003">
+      Fig. 3
+     </xref>). Experimental grazer communities were significantly affected by predator presence (PERMANOVA, F<sub>1,56</sub> = 97.032, P&lt;0.001) and by the trophic skew treatment (F<sub>3,56</sub> = 4.621, P = 0.006), as well as by the interaction between the two (F<sub>3,56</sub> = 3.656, P = 0.009; 
+     <xref ref-type="fig" rid="pone-0036196-g004">
+      Fig. 4
+     </xref>). However, data failed the test of multivariate homogeneity (e.g., permutation analysis of betadisper results for homogeneity across trophic skew treatments, F<sub>3,60</sub> = 2.804, P = 0.031) and treatment effects on grazer community composition should be interpreted cautiously.</p> 
+    <fig id="pone-0036196-g003" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0036196.g003
+     </object-id> 
+     <label>Figure 3</label>  
+     <title>Grazer species responses to trophic skew.</title> 
+     <p>Final grazer abundance per species across trophic skew treatments in the presence and absence of predators. Values are means±1SE.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.g003" xlink:type="simple" /> 
+    </fig> 
+    <fig id="pone-0036196-g004" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0036196.g004
+     </object-id> 
+     <label>Figure 4</label>  
+     <title>Non-metric multidimensional scaling scores for grazer community response to trophic skew and predator presence.</title> 
+     <p>Plot of the nonmetric multidimensional scaling (NMDS) scores for the two most important axes for all replicates using final grazer species composition data. Circles and stars represent the absence and presence of predators, respectively. Trophic skew treatments are represented from light to dark as follows: top-rich, neutral, slightly bottom-rich, and bottom-rich.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.g004" xlink:type="simple" /> 
+    </fig> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Discussion</title> 
+    <p>Changing the structure of food webs, via reductions in length and diversity, can alter ecosystem functioning 
+     <xref ref-type="bibr" rid="pone.0036196-Srivastava1">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Duffy2">
+      [47]
+     </xref>. The results of our experiment suggest that trophic skewing of species richness (changes in the ratio of predator to prey richness) can also affect ecosystem function in a diverse estuarine food web. Specifically, this trophic skewing of species richness can affect primary and secondary production as well as the strength of a trophic cascade.</p> 
+    <p>Similar to results from other aquatic and terrestrial studies, we found that increasing primary producer richness increased production (primary and secondary biomass) after 24 days in our experimental communities 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+      [46]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Stachowicz2">
+      [48]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Tilman1">
+      [49]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Hooper1">
+      [50]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Cardinale3">
+      [51]
+     </xref>. The observed positive effects of increasing plant richness on plant biomass are thought to be largely due to complementarity and sampling effects, whereby the likelihood of incorporating facilitators and highly productive species, as well as heightening resource partitioning, increases with elevated richness 
+     <xref ref-type="bibr" rid="pone.0036196-Loreau1">
+      [52]
+     </xref>.</p> 
+    <p>Although increasing plant richness may increase plant biomass, these effects can be weak or undetectable in the presence of consumers due to grazing compensation 
+     <xref ref-type="bibr" rid="pone.0036196-Gamfeldt1">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Fox1">
+      [53]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Naeem2">
+      [54]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno4">
+      [55]
+     </xref>. Here we found that increasing macroalgal richness from two to six species elevated macroalgal biomass (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2A
+     </xref>), but this effect was not evident in the presence of grazers. This adds to a growing list of experimental manipulations demonstrating reduced diversity effects on production with the inclusion of a higher trophic level 
+     <xref ref-type="bibr" rid="pone.0036196-Cardinale2">
+      [35]
+     </xref>, i.e., under ecologically realistic conditions. However, it is unclear whether the added production is transferred up food chains resulting in greater production at top trophic levels 
+     <xref ref-type="bibr" rid="pone.0036196-Gamfeldt1">
+      [28]
+     </xref>.</p> 
+    <p>Although a recent meta-analysis supports the concept that prey richness is a strong predictor of consumer effects and that more diverse prey communities can maintain higher abundances by containing species that are highly tolerant or resistant to consumers 
+     <xref ref-type="bibr" rid="pone.0036196-Edwards1">
+      [56]
+     </xref>, we did not see a suppression of grazer effects on macroalgal biomass with increasing macroalgal diversity (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2A
+     </xref>). Increasing macroalgal richness did not decrease the strength of top-down control by consumers 
+     <xref ref-type="bibr" rid="pone.0036196-Leibold1">
+      [57]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Duffy3">
+      [58]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Root1">
+      [59]
+     </xref>. It is possible, as with many short-term biodiversity studies in which plant biomass per species is initially low, that this experiment was not of sufficient duration to allow unpalatable algal species to replace the biomass of the more palatable species lost to herbivory 
+     <xref ref-type="bibr" rid="pone.0036196-Jolliffe1">
+      [60]
+     </xref>. Given that macroalgal diversity effects in this system are known to vary in space and time 
+     <xref ref-type="bibr" rid="pone.0036196-Boyer1">
+      [61]
+     </xref>, the lack of environmental variation within the mesocosms may also have reduced our ability to detect macroalgal richness effects on primary production in the presence of grazers 
+     <xref ref-type="bibr" rid="pone.0036196-Stachowicz3">
+      [62]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Griffin1">
+      [63]
+     </xref>. Alternatively, as several of the macroalgal species in our species pool are known to be highly productive and readily consumed by these and other small crustacean grazers 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+      [45]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+      [46]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-CruzRivera1">
+      [64]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-CruzRivera2">
+      [65]
+     </xref>, it is possible that increasing macroalgal richness increased overall macroalgal community palatability or the likelihood of incorporating a preferred macroalgal species (
+     <xref ref-type="supplementary-material" rid="pone.0036196.s003">
+      Table S1A
+     </xref>), thereby promoting grazer populations which limited primary producer biomass. Elevating plant richness and the number of plant functional groups can promote herbivore diversity and overall herbivory 
+     <xref ref-type="bibr" rid="pone.0036196-Haddad1">
+      [66]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Scherber1">
+      [67]
+     </xref>, potentially leading to the observed stronger top-down control in the most diverse macroalgal communities (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2A
+     </xref>). This decoupling of plant richness and productivity in the presence of consumers may be a general trend in this and other systems with strong top down control 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Mulder1">
+      [68]
+     </xref>.</p> 
+    <p>Generally, all grazer populations grew in response to the different experimental assemblages (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Figs. 2C
+     </xref>, 
+     <xref ref-type="fig" rid="pone-0036196-g003">
+      3
+     </xref>). However, grazer abundance was greater in the more diverse macroalgal communities (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2C
+     </xref>). Increased plant diversity can promote herbivore production directly through increased diet breadth (balanced diet hypothesis) and overall resource availability 
+     <xref ref-type="bibr" rid="pone.0036196-Gamfeldt1">
+      [28]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-DeMott1">
+      [69]
+     </xref>, and indirectly by influencing herbivore-predator interactions through increased prey refuge availability and/or quality 
+     <xref ref-type="bibr" rid="pone.0036196-Siemann1">
+      [70]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Moran1">
+      [71]
+     </xref>. Although studies in similar and other systems found that predators, while capable of destabilizing herbivore populations, had little effect on plants 
+     <xref ref-type="bibr" rid="pone.0036196-Douglass1">
+      [44]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Long2">
+      [72]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Halpern1">
+      [73]
+     </xref>, here we found that predator presence can affect primary producers (
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2
+     </xref>). Elevating predator richness can promote primary producers by increasing prey capture – due to diet complementarity 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+      [45]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Long2">
+      [72]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Burkepile1">
+      [74]
+     </xref>–and prey antipredator behaviors such as reduced grazing, thereby releasing plants from herbivory and strengthening a trophic cascade 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+      [45]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Byrnes2">
+      [75]
+     </xref>.</p> 
+    <p>The effects of trophic skew on the strength of a trophic cascade in this model estuarine system, however, varied between the two primary producer groups (experimentally stocked macroalgae and naturally colonizing microalgae, 
+     <xref ref-type="fig" rid="pone-0036196-g002">
+      Fig. 2D,E
+     </xref>). Increasing prey richness relative to predator richness (e.g., from top-rich to bottom-rich food webs) strengthened the trophic cascade on macroalgae and generally promoted standing macroalgal biomass, but potentially weakened the trophic cascade on microalgae. A recent meta-analysis of work in detrital food webs, however, found that top-down effects of changing consumer (detritivore) richness had stronger effects on functioning (e.g., decomposition) than the bottom-up effects of changing resource (detritus) diversity 
+     <xref ref-type="bibr" rid="pone.0036196-Srivastava1">
+      [39]
+     </xref>. Contrasts between this work in a ‘brown’ versus our study in a marine ‘green’ web may reflect inherent differences in processes associated with the two systems including the role of dynamic responses of ‘live’ resources to their consumers 
+     <xref ref-type="bibr" rid="pone.0036196-Cardinale2">
+      [35]
+     </xref>.</p> 
+    <p>Increasing predator richness in our experimental communities was likely correlated with increased likelihood and potential promotion of omnivory (both a sampling and nonadditive richness effect), thereby promoting overall consumption of macroalgae and appearing to weaken the trophic cascade on these producers in top-rich food webs 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+      [45]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Finke1">
+      [76]
+     </xref>. Additionally, it is possible that the variable effects on producer functional type (experimentally stocked macroalgae versus the naturally colonizing microalgae) were due to changes in grazer foraging behavior. Grazer abundance increased in response to elevated plant richness (e.g., bottom-rich food webs), potentially increasing inter-and intraspecific competition and promoting grazer consumption of microalgae. Elevated predator richness in the top-rich food webs may have reduced grazer activity and increased use of macroalgal refuges such as 
+     <italic>
+      Dictyota menstrualis
+     </italic> and 
+     <italic>
+      Ulva lactuca
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0036196-Moran1">
+      [71]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Duffy4">
+      [77]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Holmlund1">
+      [78]
+     </xref>, reducing access to and overall consumption of microalgae in these treatments. Thus, trophic skew may affect different types and dynamics of primary producers, making it difficult to predict the overall effects of concurrent species gains and losses on primary production.</p> 
+    <p>Community composition and identity effects may drive observed differences among experimentally skewed food webs. Elevated macroalgal richness, coupled with decreased predator richness, may have promoted grazer survivorship and population growth through increased refuge and food quality, and/or decreased predator efficiency of prey capture 
+     <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+      [45]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Moran1">
+      [71]
+     </xref>. An increased likelihood of incorporating unpalatable algae due to higher algal richness and a decreased likelihood of omnivory due to lower predator richness (
+     <xref ref-type="supplementary-material" rid="pone.0036196.s003">
+      Table S1A
+     </xref>, B) could further promote algae in bottom-up skewed communities. Reduced predator richness in these food webs could also reduce predator efficiency if intraspecific competition among predators is stronger than interspecific interactions. As food webs become skewed, the identity of the species being gained or lost (e.g., whether they are an omnivorous predator or a palatable plant) as well as the trophic level in which they reside may become increasingly important.</p> 
+    <p>Biodiversity can significantly affect primary production, nutrient cycling and community composition. Control of algal blooms, the yield of important commercial and recreational fisheries, and other ecosystem services may depend not only on the maintenance of biodiversity, but also on its distribution throughout a given food web. As substantial losses of species at local and global scales as well as local gains of non-native species are expected to continue 
+     <xref ref-type="bibr" rid="pone.0036196-Sax1">
+      [4]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Bardgett1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Hoffmann1">
+      [79]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0036196-Pereira1">
+      [80]
+     </xref>, understanding the effects of trophic skew on ecosystem functioning may be important for predicting the potentially synergistic effects of species extinctions and invasions on ecosystem functioning and will be an important challenge for empirical and applied endeavors across systems.</p> 
+   </sec> 
+   <sec id="s4" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s4a"> 
+     <title>Mesocosms and Experimental Design</title> 
+     <p>The experiment was performed in outdoor, flow through mesocosms at the University of North Carolina at Chapel Hill’s Institute of Marine Sciences (IMS) in Morehead City, NC in July 2007. We independently manipulated secondary consumer (referred to as predator throughout) and macroalgal richness to create four different food web structures (trophic skew treatment) mimicking different trophic skewing scenarios, with constant total community richness (
+      <xref ref-type="fig" rid="pone-0036196-g001">
+       Fig. 1A
+      </xref>). Experimental food webs were skewed to be top-rich (2 macroalgal: 4 grazer: 6 predator species), neutral (4∶4∶4), slightly bottom-rich (5∶4∶3), or bottom-rich (6∶4∶2). Trophic skew treatments were crossed by three manipulations of food chain length (algae only, algae+grazers, algae+grazers+predators) to compare changes in trophic cascade strength across experimental communities (n = 9; 108 mesocosms total).</p> 
+     <p>We used a substitutive design, manipulating initial algal and predator richness and identity while holding biomass and density constant per mesocosm (35 g algae and 6 predator individuals, 
+      <italic>
+       c
+      </italic>. 18 g) at densities comparable with natural levels in North Carolina subtidal communities 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Nelson1">
+       [81]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Powers1">
+       [82]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-OConnor1">
+       [83]
+      </xref>. Algal and predator species composition per replicate were chosen randomly from a larger pool of nine macroalgae and eight predator species (
+      <xref ref-type="fig" rid="pone-0036196-g001">
+       Fig. 1B
+      </xref>). Selection of species from these larger species pools allowed for a conservative test of richness effects in our system by varying community composition, but not richness, for replicates within a given treatment. This controlled for species identity and composition effects 
+      <xref ref-type="bibr" rid="pone.0036196-Tilman2">
+       [84]
+      </xref>. Algal composition varied among replicates and levels of trophic skew, but was replicated across the different food chain length treatments to account for the effects of initial algal composition on the final response variables. Initial grazer richness, composition and abundance were replicated such that each treatment received a mixture of four grazer species. We chose a substitutive design because it does not confound diversity with density, as do additive designs 
+      <xref ref-type="bibr" rid="pone.0036196-Finke1">
+       [76]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Sih1">
+       [85]
+      </xref>. Although replacement designs can potentially diminish intraspecific interactions by decreasing species-specific densities with increasing species richness 
+      <xref ref-type="bibr" rid="pone.0036196-Jolliffe1">
+       [60]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Griffin2">
+       [86]
+      </xref>, they are useful in detecting complementarity effects 
+      <xref ref-type="bibr" rid="pone.0036196-Byrnes3">
+       [87]
+      </xref>.</p> 
+     <p>Replicates were maintained in 30 L clear plastic aquaria provided with gravel-filtered seawater from Bogue Sound (see 
+      <xref ref-type="supplementary-material" rid="pone.0036196.s001">
+       Fig. S1
+      </xref> for images of experimental mesocosms). Seawater flowed through 100 µm nylon mesh filter bags and was delivered through a dump bucket system that maintained aeration and approximated natural subtidal turbulence 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Duffy5">
+       [88]
+      </xref>. This system limited outside grazer recruitment, but not the passage of microscopic algal propagules that colonized the mesocosms (referred to throughout as “microalgae” as they were primarily composed of diatoms). Mesocosms were covered with 5 cm opening Vexar mesh lids and were placed in water tables to maintain constant temperature. Light, temperature and salinity within the mesocosms closely approximated field conditions in the nearby Bogue Sound during the course of the experiments 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Reynolds1">
+       [89]
+      </xref>. Mesocosms were rotated every 5 days to reduce positioning artifacts.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Study System and Organisms</title> 
+     <p>The South Atlantic Bight hard-substratum communities are highly diverse, composed of tropical and temperate species of algae, invertebrates and fishes 
+      <xref ref-type="bibr" rid="pone.0036196-Hay1">
+       [90]
+      </xref>. Macro-and epiphytic algae, the main primary producers in this system, are intensely grazed by a diverse macroinvertebrate community composed largely of amphipods and isopods 
+      <xref ref-type="bibr" rid="pone.0036196-Duffy5">
+       [88]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Jernakoff1">
+       [91]
+      </xref>, which are in turn consumed by an array of invertebrate and vertebrate predators including shrimp, crabs and fishes 
+      <xref ref-type="bibr" rid="pone.0036196-Nelson1">
+       [81]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Nelson2">
+       [92]
+      </xref>. Experimental communities featured local algal, grazer, and predator species that commonly co-occur and typically dominate hard-substratum sites of North Carolina estuaries. Organisms were collected and cultured or maintained in outdoor water tables at IMS prior to experimentation.</p> 
+     <p>Chosen macroalgal species (
+      <xref ref-type="fig" rid="pone-0036196-g001">
+       Fig. 1B
+      </xref>) are common in NC estuaries, although their abundances fluctuate seasonally 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Hay1">
+       [90]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Powers2">
+       [93]
+      </xref>. We attached seven algal thalli haphazardly to 25×25 cm Vexar mesh screens (with 5 mm openings), which were secured to the bottom of each 30 L polypropylene mesocosm such that algae floated upright in natural orientation. Initial total algal biomass per mesocosm was held constant at 35 g with approximately 5 g per individual thalli attachment. Initial algal biomass was purposefully lower than field densities 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+       [46]
+      </xref> in order to allow room for growth. Algal biomass was determined after first immersing the algae in seawater for at least 15 minutes and then spinning it 15 revolutions in a salad spinner to remove excess water. We dipped algae in a diluted pesticide, Sevin, and rinsed it with fresh seawater to remove existing mobile invertebrates and trace pesticides before placement in mesocosms 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno3">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Duffy5">
+       [88]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Carpenter1">
+       [94]
+      </xref>. Any fouling organisms (e.g., tunicates) were removed by hand prior to weighing; algal pieces with encrusting invertebrates (e.g., bryozoans) were replaced.</p> 
+     <p>Mesocosms received an initial equal volume of grazers from a mixture of three amphipods (
+      <italic>
+       Dulichiella appendiculata
+      </italic>, 
+      <italic>
+       Gammarus mucronatus
+      </italic>, and 
+      <italic>
+       Elasmopus levis)
+      </italic> and one isopod (
+      <italic>
+       Paracerceis caudata
+      </italic>) prior to predator additions. These mesograzers are common in NC estuaries, achieving densities of 10–145 individuals g<sup>−1</sup> wet mass of the alga 
+      <italic>
+       Sargassum filipendula
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0036196-Duffy6">
+       [95]
+      </xref>. They also have short generation times, respond quickly to changes in habitat and predation, and consume various types of macro-and microalgae 
+      <xref ref-type="bibr" rid="pone.0036196-Nelson1">
+       [81]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Edgar1">
+       [96]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Virnstein1">
+       [97]
+      </xref>. Each subsequent week an additional equal volume of grazers was added to each mesocosm to mimic natural recruitment 
+      <xref ref-type="bibr" rid="pone.0036196-Lee1">
+       [98]
+      </xref> and to remove the possibility of predator overexploitation (for a total of 
+      <italic>
+       c
+      </italic>. 120 herbivores per mesocosm overall). Volume additions were subsampled (
+      <italic>
+       n
+      </italic> = 20) and composed mostly of 
+      <italic>
+       E. levis
+      </italic> for the initial additions, and 
+      <italic>
+       D. appendiculata
+      </italic> and 
+      <italic>
+       P. caudata
+      </italic> for the recruitment additions. The initial volume addition was supplemented with five individuals of each grazer species to ensure that all replicates received the same grazer richness. Grazers were stocked within the lower range of natural field densities to allow for natural reproduction and population growth throughout the experiment 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+       [45]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Duffy7">
+       [99]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Duffy8">
+       [100]
+      </xref>.</p> 
+     <p>Predator assignments were chosen randomly from a pool of functionally distinct invertebrates and fishes including omnivorous and strictly carnivorous species (
+      <xref ref-type="table" rid="pone-0036196-t001">
+       Table 1
+      </xref>). Due to low field abundances it was impossible to collect enough of any one of the mud and swimming crab species. To resolve this issue without risking elevating richness, each replicate assigned to either of these crab groups received individuals of only one species for that group throughout the duration of the experiment. Each mesocosm received six individual predators, which is within natural field densities 
+      <xref ref-type="bibr" rid="pone.0036196-OConnor1">
+       [83]
+      </xref>. Predators were collected within their respective average juvenile size classes. This was most important for 
+      <italic>
+       L. rhomboides
+      </italic>, which ontogenetically switches from a strict predator to an omnivore at 3.5 cm 
+      <xref ref-type="bibr" rid="pone.0036196-Muncy1">
+       [101]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0036196-Stoner1">
+       [102]
+      </xref>, or around 2.5 g (feeding trial pilot study, 
+      <italic>
+       n
+      </italic> = 8). Total predator mass per mesocosm varied (0.29–3.71 g), but did not differ greatly among treatments. Mesocosms were checked daily and dead or stressed predators were replaced throughout the experiment. This predator press design maintained the potential for species interactions (e.g., intraguild predation), although it precluded direct, long-term effects of such encounters on lower trophic levels.</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Responses and Analyses</title> 
+     <p>After 24 days we quantified treatment effects on grazer abundance, the biomass of all experimentally stocked macroalgae, and the accumulation of naturally colonizing algae (“microalgae”). This endpoint was based on observable changes in algal growth among treatments and represented approximately two overlapping grazer generations 
+      <xref ref-type="bibr" rid="pone.0036196-Sotka1">
+       [103]
+      </xref>. Grazers were preserved in 70% EtOH and later identified and counted. To assess microalgal production, we measured the chlorophyll 
+      <italic>
+       a
+      </italic> concentration from standardized 2 cm<sup>2</sup> samples scraped from the side of each mesocosm. We extracted and quantified chlorophyll 
+      <italic>
+       a
+      </italic> concentration as in Bruno and O’Connor 
+      <xref ref-type="bibr" rid="pone.0036196-Bruno2">
+       [45]
+      </xref> to quantify microalgal accumulation. Trophic cascade strength was assessed as (R<sub>p</sub>–R<sub>g</sub>)/(R<sub>a</sub>–R<sub>g</sub>) where R is the macro-or microalgal response when in the presence of grazers <sub>(g)</sub> and predators <sub>(p)</sub>, or the absence of both consumer groups<sub>(a)</sub>.</p> 
+     <p>We used a linear model with the fixed effects of trophic skew (4 levels) and food chain length (3 levels) and their interaction, with initial algal composition type as a blocking factor using the procedure PROC MIXED in SAS (v. 2.11, Cary, NC) to analyze treatment effects on all response variables. Algal composition type had no effect and was subsequently removed from the model and the analyses re-run without this blocking factor 
+      <xref ref-type="bibr" rid="pone.0036196-Searle1">
+       [104]
+      </xref>. Replicates were excluded from the analysis if the mesocosms cracked or received inadequate flow, or the predators exhibited chronic stress (13 mesocosms total). Algae-only replicates were excluded in the analysis of treatment effects on final grazer abundance as these mesocosms did not initially receive any grazers and total immigration was minimal (
+      <xref ref-type="fig" rid="pone-0036196-g003">
+       Fig. 3
+      </xref>). Results for all analyses were transformed as necessary to meet the assumptions of normality and heteroscedacity 
+      <xref ref-type="bibr" rid="pone.0036196-Underwood1">
+       [105]
+      </xref>.</p> 
+     <p>Non-metric multidimensional scaling (NMDS) 
+      <xref ref-type="bibr" rid="pone.0036196-Kruskal1">
+       [106]
+      </xref> conducted with the metaMDS function in the vegan package in R v. 2.14.0 
+      <xref ref-type="bibr" rid="pone.0036196-Oksanen1">
+       [107]
+      </xref> was used to graphically examine changes in grazer community composition across trophic skew treatments in the absence and presence of their predators. Bray-Curtis distance was used as it performs well in simulations for ecological data 
+      <xref ref-type="bibr" rid="pone.0036196-Faith1">
+       [108]
+      </xref>. The results were plotted in 2-dimensions, and the envfit procedure in vegan 
+      <xref ref-type="bibr" rid="pone.0036196-Oksanen1">
+       [107]
+      </xref> used to overlay species vectors. Replicate points which occur close together on the NMDS axes are similar in species composition. A permutational analysis of variance (PERMANOVA) using the adonis function in the vegan package was then used to test treatment effects on grazer community composition. Multivariate homogeneity of the treatments was assessed using the betadisper function in vegan, which is analogous to Levene’s test 
+      <xref ref-type="bibr" rid="pone.0036196-Levene1">
+       [109]
+      </xref> for equality of variances.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0036196.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Experimental mesocosm setup.
+      </bold> Clockwise: mesocosms receiving filtered seawater, macroalgal community, and (courtesy of M. O’Connor) mesocosm side view.</p> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0036196.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.s002" xlink:type="simple"> 
+     <label>Figure S2</label>  
+     <p>
+      <bold>
+       Images of final experimental algal communities.
+      </bold> Example algal communities after 24 days in experimental mesocosms exposed to different types and degrees of trophic skew. Images within the same column featured the same initial macroalgal community.</p> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0036196.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0036196.s003" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p>
+      <bold>
+       Experimental design.
+      </bold> Species composition of A) macroalgal and B) predator community in each mesocosm (experimental unit). Initial macroalgal biomass and predator abundance per species changed with species richness in a substitutive design. Abundance of predators by species is denoted in parentheses when multiple individuals were present. Macroalgae species in shaded cells are known to be chemically defended and less preferred by most of our experimental mesograzers, while species in lighter cells are increasingly palatable. Predator species in shaded cells are omnivorous, while species in light cells are strict carnivores.</p> 
+     <p>(TIF)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank J.E. Duffy and M.I. O’Connor for comments on this manuscript, J.E. Byrnes and J.J. Stachowicz for intellectual support, E. Moran and C. Nicolini for field assistance, A. Ciesielski and D. Crowley for laboratory assistance, and M. Whalen for images of 
+      <italic>
+       Gammarus
+      </italic> and 
+      <italic>
+       Elasmopus
+      </italic>. Research was conducted under IACUC protocol ID 07-142.0 at UNC-CH. The University of North Carolina at Chapel Hill’s Libraries provided support for open access publication.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0036196-Ray1"> 
+      <label>1</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Ray
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Redford
+         </surname>
+         <given-names>
+          KH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Steneck
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Berger
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Large carnivores and the conservation of biodiversity.
+       </article-title> 
+       <publisher-loc>
+        Washington, DC
+       </publisher-loc> 
+       <publisher-name>
+        Island Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Biodiversity loss, trophic skew and ecosystem functioning.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        680
+       </fpage> 
+       <lpage>
+        687
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Ecosystems1"> 
+      <label>3</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Ecosystems and human well-being: synthesis.
+       </article-title> 
+       <publisher-loc>
+        Washington, DC
+       </publisher-loc> 
+       <publisher-name>
+        Island Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Sax1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sax
+         </surname>
+         <given-names>
+          DF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaines
+         </surname>
+         <given-names>
+          SD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Species diversity: From global decreases to local increases.
+       </article-title> 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        18
+       </volume> 
+       <fpage>
+        561
+       </fpage> 
+       <lpage>
+        566
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Bardgett1"> 
+      <label>5</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bardgett
+         </surname>
+         <given-names>
+          RD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wardle
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Aboveground-belowground linkages: Biotic interactions, ecosystem processes, and global change.
+       </article-title> 
+       <publisher-loc>
+        Oxford, UK
+       </publisher-loc> 
+       <publisher-name>
+        Oxford University Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Byrnes1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Byrnes
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reynolds
+         </surname>
+         <given-names>
+          PL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Invasions and extinctions reshape coastal marine food webs.
+       </article-title> 
+       <source>PLoS ONE 
+       <volume>
+        2
+       </volume> 
+       <fpage>
+        e295
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Wardle1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wardle
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bardgett
+         </surname>
+         <given-names>
+          RD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Callaway
+         </surname>
+         <given-names>
+          RM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Van der Putten
+         </surname>
+         <given-names>
+          WH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Terrestrial ecosystem responses to species gains and losses.
+       </article-title> 
+       <source>Science 
+       <volume>
+        332
+       </volume> 
+       <fpage>
+        1273
+       </fpage> 
+       <lpage>
+        1277
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Petchey1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Petchey
+         </surname>
+         <given-names>
+          OL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Downing
+         </surname>
+         <given-names>
+          AL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mittelbach
+         </surname>
+         <given-names>
+          GG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Persson
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Steiner
+         </surname>
+         <given-names>
+          CF
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Species loss and the structure and functioning of multitrophic aquatic systems.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        467
+       </fpage> 
+       <lpage>
+        478
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Tracy1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tracy
+         </surname>
+         <given-names>
+          CR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          George
+         </surname>
+         <given-names>
+          TL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        On the determinants of extinction.
+       </article-title> 
+       <source>The American Naturalist 
+       <volume>
+        139
+       </volume> 
+       <fpage>
+        102
+       </fpage> 
+       <lpage>
+        122
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-McKinney1"> 
+      <label>10</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          McKinney
+         </surname>
+         <given-names>
+          ML
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Extinction vulnerability and selectivity: Combining ecological and paleontological views.
+       </article-title> 
+       <source>Annual Review of Ecology and Systematics 
+       <volume>
+        28
+       </volume> 
+       <fpage>
+        495
+       </fpage> 
+       <lpage>
+        516
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Terborgh1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Terborgh
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lopez
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          V
+         </surname>
+         <given-names>
+          PNe
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rao
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shahabuddin
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Ecological meltdown in predator-free forest fragments.
+       </article-title> 
+       <source>Science 
+       <volume>
+        294
+       </volume> 
+       <fpage>
+        1923
+       </fpage> 
+       <lpage>
+        1926
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Collette1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Collette
+         </surname>
+         <given-names>
+          BB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Carpenter
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Polidoro
+         </surname>
+         <given-names>
+          BA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Juan-Jordá
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Boustany
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        High value and long life–double jeopardy for tunas and billfishes.
+       </article-title> 
+       <source>Science 
+       <volume>
+        333
+       </volume> 
+       <fpage>
+        291
+       </fpage> 
+       <lpage>
+        292
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Cardillo1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cardillo
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mace
+         </surname>
+         <given-names>
+          GM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jones
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bielby
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bininda-Emonds
+         </surname>
+         <given-names>
+          ORP
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Multiple causes of high extinction risk in large mammal species.
+       </article-title> 
+       <source>Science 
+       <volume>
+        309
+       </volume> 
+       <fpage>
+        1239
+       </fpage> 
+       <lpage>
+        1241
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Pinsky1"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pinsky
+         </surname>
+         <given-names>
+          ML
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jensen
+         </surname>
+         <given-names>
+          OP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ricard
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Palumbi
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Unexpected patterns of fisheries collapse in the world’s oceans.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences 
+       <volume>
+        108
+       </volume> 
+       <fpage>
+        8317
+       </fpage> 
+       <lpage>
+        8322
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Estes1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Estes
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Terborgh
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brashares
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Power
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Berger
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Trophic downgrading of planet earth.
+       </article-title> 
+       <source>Science 
+       <volume>
+        333
+       </volume> 
+       <fpage>
+        301
+       </fpage> 
+       <lpage>
+        306
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Ferriter1"> 
+      <label>16</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ferriter
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Serbesoff-King
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bodle
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Goodyear
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Doren
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Exotic species in the Everglades protection area.
+       </article-title> 
+       <source>2004 Everglades consolidated report 
+       <publisher-loc>
+        West Palm Beach, FL
+       </publisher-loc> 
+       <publisher-name>
+        South Florida Water Management District
+       </publisher-name> 
+       <fpage>
+        11
+       </fpage> 
+       <lpage>
+        15
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Krysko1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Krysko
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Burgess
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rochford
+         </surname>
+         <given-names>
+          MR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gillette
+         </surname>
+         <given-names>
+          CR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cueva
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Verified non-indigenous amphibians and reptiles in Florida from 1863 through 2010: Outlining the invasion process and identifying invasion pathways and stages.
+       </article-title> 
+       <source>Zootaxa 
+       <volume>
+        3028
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        64
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Albins1"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Albins
+         </surname>
+         <given-names>
+          MA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hixon
+         </surname>
+         <given-names>
+          MA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Invasive Indo-Pacific lionfish 
+        <italic>
+         Pterois volitans
+        </italic> reduce recruitment of Atlantic coral-reef fishes.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        367
+       </volume> 
+       <fpage>
+        233
+       </fpage> 
+       <lpage>
+        238
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Lesser1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lesser
+         </surname>
+         <given-names>
+          MP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Slattery
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Phase shift to algal dominated communities at mesophotic depths associated with lionfish (
+        <italic>
+         Pterois volitans)
+        </italic> invasion on a Bahamian coral reef.
+       </article-title> 
+       <source>Biol Invasions 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        1855
+       </fpage> 
+       <lpage>
+        1868
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Fodrie1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Fodrie
+         </surname>
+         <given-names>
+          FJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Heck
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Powers
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Graham
+         </surname>
+         <given-names>
+          WM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Robinson
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Climate-related, decadal-scale assemblage changes of seagrass-associated fishes in the northern Gulf of Mexico.
+       </article-title> 
+       <source>Global Change Biology 
+       <volume>
+        16
+       </volume> 
+       <fpage>
+        48
+       </fpage> 
+       <lpage>
+        59
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Eby1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Eby
+         </surname>
+         <given-names>
+          LA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Roach
+         </surname>
+         <given-names>
+          WJR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Crowder
+         </surname>
+         <given-names>
+          LBC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stanford
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Effects of stocking-up freshwater food webs.
+       </article-title> 
+       <source>Trends in Ecology &amp; Evolution 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        576
+       </fpage> 
+       <lpage>
+        584
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Gido1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gido
+         </surname>
+         <given-names>
+          KB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brown
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Invasion of North American drainages by alien fish species.
+       </article-title> 
+       <source>Freshwater Biology 
+       <volume>
+        42
+       </volume> 
+       <fpage>
+        387
+       </fpage> 
+       <lpage>
+        399
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Pitt1"> 
+      <label>23</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pitt
+         </surname>
+         <given-names>
+          WC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Witmer
+         </surname>
+         <given-names>
+          GW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Invasive Predators: a synthesis of the past, present, and future.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Elewa
+         </surname>
+         <given-names>
+          AMT
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Predation in organisms: A distinct phenomenon 
+       <publisher-loc>
+        Berlin
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <fpage>
+        265
+       </fpage> 
+       <lpage>
+        293
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Simberloff1"> 
+      <label>24</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Simberloff
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rejmánek
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Encyclopedia of biological invasions.
+       </article-title> 
+       <publisher-loc>
+        Berkeley
+       </publisher-loc> 
+       <publisher-name>
+        University of California Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Sax2"> 
+      <label>25</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sax
+         </surname>
+         <given-names>
+          DF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaines
+         </surname>
+         <given-names>
+          SD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Species invasions: Insights into ecology, evolution, and biogeography.
+       </article-title> 
+       <publisher-loc>
+        Sunderland, MA
+       </publisher-loc> 
+       <publisher-name>
+        Sinauer Associates Inc
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Dobson1"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Dobson
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lodge
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Alder
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cumming
+         </surname>
+         <given-names>
+          GS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Keymer
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Habitat loss, trophic collapse, and the decline of ecosystem services.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        87
+       </volume> 
+       <fpage>
+        1915
+       </fpage> 
+       <lpage>
+        1924
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Lotze1"> 
+      <label>27</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lotze
+         </surname>
+         <given-names>
+          HK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Milewski
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Two centuries of multiple human impacts and successive changes in a North Atlantic food web.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        14
+       </volume> 
+       <fpage>
+        1428
+       </fpage> 
+       <lpage>
+        1447
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Gamfeldt1"> 
+      <label>28</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gamfeldt
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hillebrand
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jonsson
+         </surname>
+         <given-names>
+          PR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Species richness changes across two trophic levels simultaneously affect prey and consumer biomass.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        696
+       </fpage> 
+       <lpage>
+        703
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Thebault1"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Thebault
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        The relationship between biodiversity and ecosystem functioning in food webs.
+       </article-title> 
+       <source>Ecological Research 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        17
+       </fpage> 
+       <lpage>
+        25
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Aquilino1"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Aquilino
+         </surname>
+         <given-names>
+          KM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ives
+         </surname>
+         <given-names>
+          AR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Reciprocal effects of host plant and natural enemy diversity on herbivore suppression: an empirical study of a model tritrophic system.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        108
+       </volume> 
+       <fpage>
+        275
+       </fpage> 
+       <lpage>
+        282
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Long1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          ZT
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Biodiversity mediates productivity through different mechanisms at adjacent trophic levels.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        2821
+       </fpage> 
+       <lpage>
+        2829
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Stachowicz1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Understanding the effects of marine biodiversity on communities and ecosystems.
+       </article-title> 
+       <source>Annual Review of Ecology, Evolution, and Systematics 
+       <volume>
+        38
+       </volume> 
+       <fpage>
+        739
+       </fpage> 
+       <lpage>
+        766
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Cardinale1"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Matulich
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Byrnes
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        The functional role of producer diversity in ecosystems.
+       </article-title> 
+       <source>American Journal of Botany 
+       <volume>
+        98
+       </volume> 
+       <fpage>
+        572
+       </fpage> 
+       <lpage>
+        592
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Schmid1"> 
+      <label>34</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Balvanera
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Godbold
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pfisterer
+         </surname>
+         <given-names>
+          AB
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Consequences of species loss for ecosystem functioning: Meta-analyses of data from biodiversity experiments.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bunker
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Perrings
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Biodiversity, ecosystem functioning, and human wellbeing: An ecological and economic perspective 
+       <publisher-loc>
+        Oxford, UK
+       </publisher-loc> 
+       <publisher-name>
+        Oxford University Press
+       </publisher-name> 
+       <fpage>
+        14
+       </fpage> 
+       <lpage>
+        29
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Cardinale2"> 
+      <label>35</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Srivastava
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thomas
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Towards a food web perspective on biodiversity and ecosystem functioning.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bunker
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Perrings
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Biodiversity, ecosystem functioning, and human wellbeing: An ecological and economic perspective 
+       <publisher-loc>
+        Oxford, UK
+       </publisher-loc> 
+       <publisher-name>
+        Oxford University Press
+       </publisher-name> 
+       <fpage>
+        105
+       </fpage> 
+       <lpage>
+        120
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Downing1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Downing
+         </surname>
+         <given-names>
+          AL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Leibold
+         </surname>
+         <given-names>
+          MA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Ecosystem consequences of species richness and composition in pond food webs.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        416
+       </volume> 
+       <fpage>
+        837
+       </fpage> 
+       <lpage>
+        841
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Bruno1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Boyer
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          SC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Relative and interactive effects of plant and grazer richness in a benthic marine community.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        2518
+       </fpage> 
+       <lpage>
+        2528
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Naeem1"> 
+      <label>38</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          LJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lawler
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lawton
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Woodfin
+         </surname>
+         <given-names>
+          RM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1994
+       </year> 
+       <article-title>
+        Declining biodiversity can alter the performance of ecosystems.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        368
+       </volume> 
+       <fpage>
+        734
+       </fpage> 
+       <lpage>
+        737
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Srivastava1"> 
+      <label>39</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Srivastava
+         </surname>
+         <given-names>
+          DS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Downing
+         </surname>
+         <given-names>
+          AL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jouseau
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Diversity has stronger top-down than bottom-up effects on decomposition.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        1073
+       </fpage> 
+       <lpage>
+        1083
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Ruzycki1"> 
+      <label>40</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ruzycki
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Beauchamp
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Yule
+         </surname>
+         <given-names>
+          DL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Effects of introduced lake trout on native cutthroat trout in Yellowstone Lake.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        23
+       </fpage> 
+       <lpage>
+        37
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Dyer1"> 
+      <label>41</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Dyer
+         </surname>
+         <given-names>
+          LA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Letourneau
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Top-down and bottom-up diversity cascades in detrital vs. living food webs.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        60
+       </fpage> 
+       <lpage>
+        68
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Hunter1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hunter
+         </surname>
+         <given-names>
+          MD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Price
+         </surname>
+         <given-names>
+          PW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        Playing chutes and ladders: heterogeneity and the relative roles of bottom-up and top-down forces in natural communities.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        73
+       </volume> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Hairston1"> 
+      <label>43</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hairston
+         </surname>
+         <given-names>
+          NG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Smith
+         </surname>
+         <given-names>
+          FE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Slobodkin
+         </surname>
+         <given-names>
+          LB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1960
+       </year> 
+       <article-title>
+        Community structure, population control, and competition.
+       </article-title> 
+       <source>The American Naturalist 
+       <volume>
+        94
+       </volume> 
+       <fpage>
+        425
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Douglass1"> 
+      <label>44</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Douglass
+         </surname>
+         <given-names>
+          JG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Herbivore and predator diversity interactively affect ecosystem properties in an experimental marine community.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        11
+       </volume> 
+       <fpage>
+        598
+       </fpage> 
+       <lpage>
+        608
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Bruno2"> 
+      <label>45</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          O’Connor
+         </surname>
+         <given-names>
+          MI
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Cascading effects of predator diversity and omnivory in a marine food web.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        1048
+       </fpage> 
+       <lpage>
+        1056
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Bruno3"> 
+      <label>46</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Boyer
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          SC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kertesz
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Effects of macroalgal species identity and richness on primary production in benthic marine communities.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        1165
+       </fpage> 
+       <lpage>
+        1174
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy2"> 
+      <label>47</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Biodiversity and the functioning of seagrass ecosystems.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        311
+       </volume> 
+       <fpage>
+        233
+       </fpage> 
+       <lpage>
+        250
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Stachowicz2"> 
+      <label>48</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Graham
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bracken
+         </surname>
+         <given-names>
+          MES
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Szoboszlai
+         </surname>
+         <given-names>
+          AI
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Diversity enhances cover and stability of seaweed assemblages: the role of heterogeneity and time.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        3008
+       </fpage> 
+       <lpage>
+        3019
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Tilman1"> 
+      <label>49</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reich
+         </surname>
+         <given-names>
+          PB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wedin
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mielke
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Diversity and productivity in a long-term grassland experiment.
+       </article-title> 
+       <source>Science 
+       <volume>
+        294
+       </volume> 
+       <fpage>
+        843
+       </fpage> 
+       <lpage>
+        845
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Hooper1"> 
+      <label>50</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chapin
+         </surname>
+         <given-names>
+          ES
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          III
+         </surname>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ewel
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Effects of biodiversity on ecosystem functioning: A consensus of current knowledge.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        3
+       </fpage> 
+       <lpage>
+        35
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Cardinale3"> 
+      <label>51</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Srivastava
+         </surname>
+         <given-names>
+          DS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wright
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Downing
+         </surname>
+         <given-names>
+          AL
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Effects of biodiversity on the functioning of trophic groups and ecosystems.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        443
+       </volume> 
+       <fpage>
+        989
+       </fpage> 
+       <lpage>
+        992
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Loreau1"> 
+      <label>52</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bengtsson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grime
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Biodiversity and ecosystem functioning: current knowledge and future challenges.
+       </article-title> 
+       <source>Science 
+       <volume>
+        294
+       </volume> 
+       <fpage>
+        804
+       </fpage> 
+       <lpage>
+        808
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Fox1"> 
+      <label>53</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Fox
+         </surname>
+         <given-names>
+          JW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Effects of algal and herbivore diversity on the partitioning of biomass within and among trophic levels.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        85
+       </volume> 
+       <fpage>
+        549
+       </fpage> 
+       <lpage>
+        559
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Naeem2"> 
+      <label>54</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          JMH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Howe
+         </surname>
+         <given-names>
+          KM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kennedy
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Plant diversity increases resistance to invasion in the absence of covarying extrinsic factors.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        91
+       </volume> 
+       <fpage>
+        97
+       </fpage> 
+       <lpage>
+        108
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Bruno4"> 
+      <label>55</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Cascading effects of predator richness.
+       </article-title> 
+       <source>Frontiers in Ecology and the Environment 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        539
+       </fpage> 
+       <lpage>
+        546
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Edwards1"> 
+      <label>56</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Edwards
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aquilino
+         </surname>
+         <given-names>
+          KM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Best
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sellheim
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Prey diversity is associated with weaker consumer effects in a meta-analysis of benthic marine experiments.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        194
+       </fpage> 
+       <lpage>
+        201
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Leibold1"> 
+      <label>57</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Leibold
+         </surname>
+         <given-names>
+          MA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1989
+       </year> 
+       <article-title>
+        Resource edibility and the effects of predators and productivity on consumer-resource interactions.
+       </article-title> 
+       <source>American Naturalist 
+       <volume>
+        134
+       </volume> 
+       <fpage>
+        922
+       </fpage> 
+       <lpage>
+        949
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy3"> 
+      <label>58</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Biodiversity and ecosystem function: The consumer connection.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        99
+       </volume> 
+       <fpage>
+        201
+       </fpage> 
+       <lpage>
+        219
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Root1"> 
+      <label>59</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Root
+         </surname>
+         <given-names>
+          RB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1973
+       </year> 
+       <article-title>
+        Organization of a plant-arthropod association in simple and diverse habitats: the fauna of collards (
+        <italic>
+         Brassica oleracea
+        </italic>).
+       </article-title> 
+       <publisher-name>
+        Ecological Monographs
+       </publisher-name> 
+       <fpage>
+        95
+       </fpage> 
+       <lpage>
+        124
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Jolliffe1"> 
+      <label>60</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jolliffe
+         </surname>
+         <given-names>
+          PA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        The replacement series.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        371
+       </fpage> 
+       <lpage>
+        385
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Boyer1"> 
+      <label>61</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Boyer
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kertesz
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Environmental context influences the effects of species richness on productivity but not stability of marine macroalgal communities.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        118
+       </volume> 
+       <fpage>
+        1062
+       </fpage> 
+       <lpage>
+        1072
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Stachowicz3"> 
+      <label>62</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Best
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bracken
+         </surname>
+         <given-names>
+          MES
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Graham
+         </surname>
+         <given-names>
+          MH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Complementarity in marine biodiversity manipulations: Reconciling divergent evidence from field and mesocosm experiments.
+       </article-title> 
+       <source>PNAS 
+       <volume>
+        105
+       </volume> 
+       <fpage>
+        18842
+       </fpage> 
+       <lpage>
+        18847
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Griffin1"> 
+      <label>63</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Griffin
+         </surname>
+         <given-names>
+          JN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jenkins
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gamfeldt
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jones
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hawkins
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Spatial heterogeneity increases the importance of species richness for an ecosystem process.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        118
+       </volume> 
+       <fpage>
+        1335
+       </fpage> 
+       <lpage>
+        1342
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-CruzRivera1"> 
+      <label>64</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cruz-Rivera
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Macroalgal traits and the feeding and fitness of an herbivorous amphipod: The roles of selectivity, mixing, and compensation.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        218
+       </volume> 
+       <fpage>
+        249
+       </fpage> 
+       <lpage>
+        266
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-CruzRivera2"> 
+      <label>65</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Cruz-Rivera
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Prey nutritional quality interacts with chemical defenses to affect consumer feeding and fitness.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        73
+       </volume> 
+       <fpage>
+        483
+       </fpage> 
+       <lpage>
+        506
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Haddad1"> 
+      <label>66</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Haddad
+         </surname>
+         <given-names>
+          NM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Haarstad
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ritchie
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          JMH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Contrasting effects of plant richness and composition on insect communities: a field experiment.
+       </article-title> 
+       <source>The American Naturalist 
+       <volume>
+        158
+       </volume> 
+       <fpage>
+        17
+       </fpage> 
+       <lpage>
+        35
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Scherber1"> 
+      <label>67</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Scherber
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mulcu
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Partsch
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scheu
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Weisser
+         </surname>
+         <given-names>
+          WW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        The effects of plant diversity and insect herbivory on performance of individual plant species in experimental grassland.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        94
+       </volume> 
+       <fpage>
+        922
+       </fpage> 
+       <lpage>
+        931
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Mulder1"> 
+      <label>68</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mulder
+         </surname>
+         <given-names>
+          CPH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Koricheva
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Huss-Danell
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Högberg
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Joshi
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Insects affect relationships between plant species richness and ecosystem processes.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        2
+       </volume> 
+       <fpage>
+        237
+       </fpage> 
+       <lpage>
+        246
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-DeMott1"> 
+      <label>69</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          DeMott
+         </surname>
+         <given-names>
+          WR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Utilization of a cyanobacterium and a phosphorus-deficient green alga as complementary resources by daphnids.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        79
+       </volume> 
+       <fpage>
+        2463
+       </fpage> 
+       <lpage>
+        2481
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Siemann1"> 
+      <label>70</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Siemann
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Haartstad
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ritchie
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Experimental tests of the dependence of arthropod diversity on plant diversity.
+       </article-title> 
+       <source>American Naturalist 
+       <volume>
+        152
+       </volume> 
+       <fpage>
+        738
+       </fpage> 
+       <lpage>
+        750
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Moran1"> 
+      <label>71</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Moran
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reynolds
+         </surname>
+         <given-names>
+          PL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ladwig
+         </surname>
+         <given-names>
+          LM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          O’Connor
+         </surname>
+         <given-names>
+          MI
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          ZT
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Predation intensity is negatively related to plant species richness in a benthic marine community.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        400
+       </volume> 
+       <fpage>
+        277
+       </fpage> 
+       <lpage>
+        282
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Long2"> 
+      <label>72</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          ZT
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          EJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Food chain length and omnivory determine the stability of a marine subtidal food web.
+       </article-title> 
+       <source>Journal of Animal Ecology 
+       <volume>
+        80
+       </volume> 
+       <fpage>
+        586
+       </fpage> 
+       <lpage>
+        594
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Halpern1"> 
+      <label>73</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Halpern
+         </surname>
+         <given-names>
+          BS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Borer
+         </surname>
+         <given-names>
+          ET
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Seabloom
+         </surname>
+         <given-names>
+          EW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shurin
+         </surname>
+         <given-names>
+          JB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Predator effects on herbivore and plant stability.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        189
+       </fpage> 
+       <lpage>
+        194
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Burkepile1"> 
+      <label>74</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Burkepile
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Herbivore species richness and feeding complementarity affect community structure and function on a coral reef.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences of the United States of America 
+       <volume>
+        105
+       </volume> 
+       <fpage>
+        16201
+       </fpage> 
+       <lpage>
+        16206
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Byrnes2"> 
+      <label>75</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Byrnes
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hultgren
+         </surname>
+         <given-names>
+          KM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hughes
+         </surname>
+         <given-names>
+          AR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Olyarnik
+         </surname>
+         <given-names>
+          SV
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Predator diversity strengthens trophic cascades in kelp forests by modifying herbivore behaviour.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        61
+       </fpage> 
+       <lpage>
+        71
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Finke1"> 
+      <label>76</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Finke
+         </surname>
+         <given-names>
+          DL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Denno
+         </surname>
+         <given-names>
+          RF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Predator diversity dampens trophic cascades.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        429
+       </volume> 
+       <fpage>
+        407
+       </fpage> 
+       <lpage>
+        410
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy4"> 
+      <label>77</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1994
+       </year> 
+       <article-title>
+        Herbivore resistance to seaweed chemical defense: The roles of mobility and predation risk.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        1304
+       </fpage> 
+       <lpage>
+        1319
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Holmlund1"> 
+      <label>78</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Holmlund
+         </surname>
+         <given-names>
+          MB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Peterson
+         </surname>
+         <given-names>
+          CH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1990
+       </year> 
+       <article-title>
+        Does algal morphology affect amphipod susceptibility to fish predation?
+       </article-title> 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        139
+       </volume> 
+       <fpage>
+        65
+       </fpage> 
+       <lpage>
+        84
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Hoffmann1"> 
+      <label>79</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hoffmann
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hilton-Taylor
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Angulo
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bohm
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brooks
+         </surname>
+         <given-names>
+          TM
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        The impact of conservation on the status of the world’s vertebrates.
+       </article-title> 
+       <source>Science 
+       <volume>
+        330
+       </volume> 
+       <fpage>
+        1503
+       </fpage> 
+       <lpage>
+        1509
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Pereira1"> 
+      <label>80</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pereira
+         </surname>
+         <given-names>
+          HM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Leadley
+         </surname>
+         <given-names>
+          PW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Proenca
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Alkemade
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scharlemann
+         </surname>
+         <given-names>
+          JPW
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Scenarios for global biodiversity in the 21st century.
+       </article-title> 
+       <source>Science 
+       <volume>
+        330
+       </volume> 
+       <fpage>
+        1496
+       </fpage> 
+       <lpage>
+        1501
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Nelson1"> 
+      <label>81</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Nelson
+         </surname>
+         <given-names>
+          WG
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1979
+       </year> 
+       <article-title>
+        An analysis of structural pattern in an eelgrass (
+        <italic>
+         Zostera marina L.
+        </italic>) amphipod community.
+       </article-title> 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        39
+       </volume> 
+       <fpage>
+        231
+       </fpage> 
+       <lpage>
+        264
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Powers1"> 
+      <label>82</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Powers
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Peterson
+         </surname>
+         <given-names>
+          CH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Christian
+         </surname>
+         <given-names>
+          RR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sullivan
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Powers
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Effects of eutrophication on bottom habitat and prey resources of demersal fishes.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        302
+       </volume> 
+       <fpage>
+        233
+       </fpage> 
+       <lpage>
+        243
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-OConnor1"> 
+      <label>83</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          O’Connor
+         </surname>
+         <given-names>
+          MI
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Predator richness has no effect in a diverse marine food web.
+       </article-title> 
+       <source>Journal of Animal Ecology 
+       <volume>
+        78
+       </volume> 
+       <fpage>
+        732
+       </fpage> 
+       <lpage>
+        740
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Tilman2"> 
+      <label>84</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Distinguishing between the effects of species diversity and species composition.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        80
+       </volume> 
+       <fpage>
+        185
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Sih1"> 
+      <label>85</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sih
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Englund
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wooster
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Emergent impacts of multiple predators on prey.
+       </article-title> 
+       <source>Trends in Ecology and Evolution 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        350
+       </fpage> 
+       <lpage>
+        355
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Griffin2"> 
+      <label>86</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Griffin
+         </surname>
+         <given-names>
+          JN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          De la Haye
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hawkins
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          RC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jenkins
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Predator diversity and ecosystem functioning: Density modifies the effect of resource partitioning.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        298
+       </fpage> 
+       <lpage>
+        305
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Byrnes3"> 
+      <label>87</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Byrnes
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stachowicz
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        The consequences of consumer diversity loss: Different answers from different experimental designs.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        2879
+       </fpage> 
+       <lpage>
+        2888
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy5"> 
+      <label>88</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Strong impacts of grazing amphipods on the organization of a benthic community.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        70
+       </volume> 
+       <fpage>
+        237
+       </fpage> 
+       <lpage>
+        263
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Reynolds1"> 
+      <label>89</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Reynolds
+         </surname>
+         <given-names>
+          PL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sotka
+         </surname>
+         <given-names>
+          EE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Non-consumptive predator effects indirectly influence marine plant biomass and palatability.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        99
+       </volume> 
+       <fpage>
+        1272
+       </fpage> 
+       <lpage>
+        1281
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Hay1"> 
+      <label>90</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hay
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sutherland
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1988
+       </year> 
+       <article-title>
+        The ecology of rubble structures of the South Atlantic Bight: A community profile.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Washington
+         </surname>
+        </name>
+       </person-group> 
+       <source>D.C.: National Wetlands Research Center 
+       <comment>
+        85(7.20) p.
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Jernakoff1"> 
+      <label>91</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jernakoff
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brearley
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nielsen
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1996
+       </year> 
+       <article-title>
+        Factors affecting grazer-epiphyte interactions in temperate seagrass meadows.
+       </article-title> 
+       <source>Oceanography and Marine Biology 
+       <volume>
+        34
+       </volume> 
+       <fpage>
+        109
+       </fpage> 
+       <lpage>
+        162
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Nelson2"> 
+      <label>92</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Nelson
+         </surname>
+         <given-names>
+          WG
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1979
+       </year> 
+       <article-title>
+        Experimental studies of selective predation on amphipods: Consequences for amphipod distribution and abundance.
+       </article-title> 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        38
+       </volume> 
+       <fpage>
+        225
+       </fpage> 
+       <lpage>
+        245
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Powers2"> 
+      <label>93</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Powers
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kittinger
+         </surname>
+         <given-names>
+          JN
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Hydrodynamic mediation of predator-prey interactions: differential patterns of prey susceptibility and predator success explained by variation in water flow.
+       </article-title> 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        273
+       </volume> 
+       <fpage>
+        171
+       </fpage> 
+       <lpage>
+        187
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Carpenter1"> 
+      <label>94</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Carpenter
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lodge
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1986
+       </year> 
+       <article-title>
+        Effects of submerged macrophytes on ecosystem processes.
+       </article-title> 
+       <source>Aquatic Botany 
+       <volume>
+        26
+       </volume> 
+       <fpage>
+        341
+       </fpage> 
+       <lpage>
+        370
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy6"> 
+      <label>95</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1989
+       </year> 
+       <source>Ecology and evolution of herbivory by marine amphipods: University of North Carolina at Chapel Hill 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Edgar1"> 
+      <label>96</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Edgar
+         </surname>
+         <given-names>
+          GJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        Patterns of colonization of mobile epifauna in a Western Australian seagrass bed.
+       </article-title> 
+       <source>Journal of Experimental Marine Biology and Ecology 
+       <volume>
+        157
+       </volume> 
+       <fpage>
+        225
+       </fpage> 
+       <lpage>
+        246
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Virnstein1"> 
+      <label>97</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Virnstein
+         </surname>
+         <given-names>
+          RW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Curran
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1986
+       </year> 
+       <article-title>
+        Colonization of artificial seagrass versus time and distance from source.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        29
+       </volume> 
+       <fpage>
+        279
+       </fpage> 
+       <lpage>
+        288
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Lee1"> 
+      <label>98</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname>
+         <given-names>
+          SC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Propagule supply controls grazer community structure and primary production in a benthic marine ecosystem.
+       </article-title> 
+       <source>Proceedings of the National Academy of Sciences 
+       <volume>
+        106
+       </volume> 
+       <fpage>
+        7052
+       </fpage> 
+       <lpage>
+        7057
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy7"> 
+      <label>99</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Richardson
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canuel
+         </surname>
+         <given-names>
+          EA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Grazer diversity effects on ecosystem functioning in seagrass beds.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        637
+       </fpage> 
+       <lpage>
+        645
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Duffy8"> 
+      <label>100</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Richardson
+         </surname>
+         <given-names>
+          JP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          France
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Ecosystem consequences of diversity depend on food chain length in estuarine vegetation.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        301
+       </fpage> 
+       <lpage>
+        309
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Muncy1"> 
+      <label>101</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Muncy
+         </surname>
+         <given-names>
+          RJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1984
+       </year> 
+       <article-title>
+        Species profiles: Life histories and environmental requirements of coastal fishes and invertebrates (Gulf of Mexico): Pinfish.
+       </article-title> 
+       <publisher-name>
+        U.S. Army Corps of Engineers publication TR ER-82–7. 18 p
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Stoner1"> 
+      <label>102</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stoner
+         </surname>
+         <given-names>
+          AW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1979
+       </year> 
+       <article-title>
+        Species-specific predation on amphipod crustacea by the pinfish 
+        <italic>
+         Lagodon rhomboides
+        </italic>: Mediation by macrophyte standing crop.
+       </article-title> 
+       <source>Marine Biology 
+       <volume>
+        55
+       </volume> 
+       <fpage>
+        201
+       </fpage> 
+       <lpage>
+        207
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Sotka1"> 
+      <label>103</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sotka
+         </surname>
+         <given-names>
+          EE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reynolds
+         </surname>
+         <given-names>
+          PL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Rapid experimental shifts in host use traits of a polyphagous marine herbivore reveals fitness costs on alternative hosts.
+       </article-title> 
+       <source>Evolutionary Ecology 
+       <volume>
+        25
+       </volume> 
+       <fpage>
+        1335
+       </fpage> 
+       <lpage>
+        1355
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Searle1"> 
+      <label>104</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Searle
+         </surname>
+         <given-names>
+          SR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Casella
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McCulloch
+         </surname>
+         <given-names>
+          CE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        Variance components.
+       </article-title> 
+       <publisher-loc>
+        New York
+       </publisher-loc> 
+       <publisher-name>
+        John Wiley &amp; Sons
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Underwood1"> 
+      <label>105</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Underwood
+         </surname>
+         <given-names>
+          AJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Experiments in ecology: Their logistical design and interpretation using analysis of variance.
+       </article-title> 
+       <publisher-loc>
+        Cambridge, UK
+       </publisher-loc> 
+       <publisher-name>
+        Cambridge University Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Kruskal1"> 
+      <label>106</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kruskal
+         </surname>
+         <given-names>
+          JB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1964
+       </year> 
+       <article-title>
+        Nonmetric multidimensional scalng: a numerical method.
+       </article-title> 
+       <source>Psychometrika 
+       <volume>
+        29
+       </volume> 
+       <fpage>
+        115
+       </fpage> 
+       <lpage>
+        129
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Oksanen1"> 
+      <label>107</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Oksanen
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kindt
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          O’Hara
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Simpson
+         </surname>
+         <given-names>
+          GL
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <comment>
+        Vegan: community ecology package. R package version 1.17–6. Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://vegan.r-forge.r-project.org/" xlink:type="simple">
+         http://vegan.r-forge.r-project.org/
+        </ext-link>. Accessed 4 April 2012
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Faith1"> 
+      <label>108</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Faith
+         </surname>
+         <given-names>
+          DP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Minchin
+         </surname>
+         <given-names>
+          PR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Belbin
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1987
+       </year> 
+       <article-title>
+        Compositional dissimilarity as a robust measure of ecological distance.
+       </article-title> 
+       <source>Plant Ecology 
+       <volume>
+        69
+       </volume> 
+       <fpage>
+        57
+       </fpage> 
+       <lpage>
+        68
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0036196-Levene1"> 
+      <label>109</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Levene
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1960
+       </year> 
+       <article-title>
+        Contributions to probability and statistics: Essays in honor of Harold Hotelling.
+       </article-title> 
+       <publisher-name>
+        Stanford University Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

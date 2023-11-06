@@ -1,0 +1,5253 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0150520
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-50160
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Forests
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Animals
+         </subject>
+         <subj-group>
+          <subject>
+           Invertebrates
+          </subject>
+          <subj-group>
+           <subject>
+            Arthropoda
+           </subject>
+           <subj-group>
+            <subject>
+             Insects
+            </subject>
+            <subj-group>
+             <subject>
+              Moths and butterflies
+             </subject>
+            </subj-group>
+           </subj-group>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+          <subj-group>
+           <subject>
+            Rainforests
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+          <subj-group>
+           <subject>
+            Rainforests
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Forests
+         </subject>
+         <subj-group>
+          <subject>
+           Rainforests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Habitats
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Conservation science
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Forest ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Forest ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Past Human Disturbance Effects upon Biodiversity are Greatest in the Canopy; A Case Study on Rainforest Butterflies
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Canopy Butterflies Most Severely Affected by Human Disturbance
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Whitworth
+        </surname> 
+        <given-names>
+         Andrew
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+       <xref ref-type="corresp" rid="cor001">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Villacampa
+        </surname> 
+        <given-names>
+         Jaime
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Brown
+        </surname> 
+        <given-names>
+         Alice
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Huarcaya
+        </surname> 
+        <given-names>
+         Ruthmery Pillco
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff003">
+        <sup>3</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Downie
+        </surname> 
+        <given-names>
+         Roger
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         MacLeod
+        </surname> 
+        <given-names>
+         Ross
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       Institute of Biodiversity, Animal Health and Comparative Medicine, College of Medical, Veterinary and Life Sciences, University of Glasgow, Glasgow, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       The Crees Foundation, Urb. Mariscal Gamarra B-5, Zona 1, Cusco, Peru
+      </addr-line>
+     </aff> 
+     <aff id="aff003">
+      <label>3</label> 
+      <addr-line>
+       Universidad Nacional San Antonio Abad del Cusco (UNSAAC), Cusco, Peru
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Umapathy
+        </surname> 
+        <given-names>
+         Govindhaswamy
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Centre for Cellular and Molecular Biology, INDIA
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: AW JVO RPH RM. Performed the experiments: AW JVO AB RPH. Analyzed the data: AW JVO AB RPH RM. Contributed reagents/materials/analysis tools: AW RM. Wrote the paper: AW JVO AB RPH RD RM.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        andy.w.whitworth@gmail.com
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       7
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <volume>
+      11
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e0150520
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        17
+       </day> 
+       <month>
+        11
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        15
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2016
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2016
+      </copyright-year> 
+      <copyright-holder>
+       Whitworth et al
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0150520" /> 
+     <abstract> 
+      <p>A key part of tropical forest spatial complexity is the vertical stratification of biodiversity, with widely differing communities found in higher rainforest strata compared to terrestrial levels. Despite this, our understanding of how human disturbance may differentially affect biodiversity across vertical strata of tropical forests has been slow to develop. For the first time, how the patterns of current biodiversity vary between three vertical strata within a single forest, subject to three different types of historic anthropogenic disturbance, was directly assessed. In total, 229 species of butterfly were detected, with a total of 5219 individual records. Butterfly species richness, species diversity, abundance and community evenness differed markedly between vertical strata. We show for the first time, for any group of rainforest biodiversity, that different vertical strata within the same rainforest, responded differently in areas with different historic human disturbance. Differences were most notable within the canopy. Regenerating forest following complete clearance had 47% lower canopy species richness than regenerating forest that was once selectively logged, while the reduction in the mid-storey was 33% and at ground level, 30%. These results also show for the first time that even long term regeneration (over the course of 30 years) may be insufficient to erase differences in biodiversity linked to different types of human disturbance. We argue, along with other studies, that ignoring the potential for more pronounced effects of disturbance on canopy fauna, could lead to the underestimation of the effects of habitat disturbance on biodiversity, and thus the overestimation of the conservation value of regenerating forests more generally.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       The Crees Foundation (
+       <ext-link ext-link-type="uri" xlink:href="http://www.crees-manu.org" xlink:type="simple">
+        www.crees-manu.org
+       </ext-link>) and its director Quinn Meyer have supported this research as part of their conservation and biodiversity monitoring programme and the University of Glasgow have supported field work conducted at the Manu Learning Centre. The TJMF Foundation provided crucial support for this work through their Amazon Research Programme grant to the University of Glasgow. The Darwin Initiative provided financial support of the Sustainable Manu project, a collaborative initiative between the Crees Foundation and The University of Glasgow that supported this research. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="4" /> 
+      <table-count count="2" /> 
+      <page-count count="20" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        Data are available from the The University of Glasgow, Enlighten: Research Data repository: Datacite DOI: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5525/gla.researchdata.241" xlink:type="simple">
+         10.5525/gla.researchdata.241
+        </ext-link>.
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>Tropical forests provide habitats of exceptional spatial complexity, which contribute significantly to global biodiversity, while making them vulnerable to human disturbance that disrupts this complexity [
+     <xref ref-type="bibr" rid="pone.0150520.ref001">
+      1
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150520.ref003">
+      3
+     </xref>]. A key part of tropical forest spatial complexity is the vertical stratification of biodiversity [
+     <xref ref-type="bibr" rid="pone.0150520.ref003">
+      3
+     </xref>], with widely differing communities often found in higher rainforest strata compared to terrestrial levels [
+     <xref ref-type="bibr" rid="pone.0150520.ref004">
+      4
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150520.ref007">
+      7
+     </xref>]. Despite this, understanding of how human disturbance may differentially affect biodiversity across vertical strata of tropical forests has been slow to develop [
+     <xref ref-type="bibr" rid="pone.0150520.ref004">
+      4
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref005">
+      5
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref007">
+      7
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150520.ref009">
+      9
+     </xref>].</p> 
+    <p>Biodiversity differences across vertical levels have been detected for a variety of both vertebrate and invertebrate taxa. In vertebrates for example, fruit bats from Malaysian rainforest displayed higher species diversity in the canopy than the understorey [
+     <xref ref-type="bibr" rid="pone.0150520.ref010">
+      10
+     </xref>], and Neotropical bird communities were found to display a pronounced vertical layering of species [
+     <xref ref-type="bibr" rid="pone.0150520.ref011">
+      11
+     </xref>]. Understorey birds were found to occupy a wider vertical niche, and therefore forage in a greater variety of light levels than either canopy or terrestrial species [
+     <xref ref-type="bibr" rid="pone.0150520.ref011">
+      11
+     </xref>]. In addition to vertical differences in rainforest vertebrates, a number of invertebrate groups, including ants, butterflies and dung beetles, have also been found to display differences in vertical levels of biodiversity [
+     <xref ref-type="bibr" rid="pone.0150520.ref003">
+      3
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref005">
+      5
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref007">
+      7
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref012">
+      12
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref013">
+      13
+     </xref>]. Therefore, despite being less well studied, it has been suggested that understanding vertical differences will be as important, or perhaps of even greater importance for understanding biodiversity patterns, than more traditional assessments along the horizontal gradient [
+     <xref ref-type="bibr" rid="pone.0150520.ref014">
+      14
+     </xref>].</p> 
+    <p>Despite evidence for differences in biodiversity patterns between vertical strata, there remains disagreement as to which vertical strata contain the most biodiversity. For example, in one of the best studied indicator taxa for tropical forests, butterflies, DeVries et al. [
+     <xref ref-type="bibr" rid="pone.0150520.ref004">
+      4
+     </xref>] found that estimated species richness in the Ecuadorian Amazon was higher in the canopy than in the terrestrial community. In addition, Ribeiro and Freitas [
+     <xref ref-type="bibr" rid="pone.0150520.ref015">
+      15
+     </xref>], found in the Brazilian Amazon that the canopy community was significantly richer and more species diverse than the terrestrial layer. In contrast, other studies of tropical forest butterflies have found understorey strata to hold higher levels of biodiversity, than those detected in the canopy [
+     <xref ref-type="bibr" rid="pone.0150520.ref012">
+      12
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref016">
+      16
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150520.ref018">
+      18
+     </xref>]. Thus, forest faunas from different regions differ in the proportion of canopy specialists and may suggest that sampling within a single stratum could lead to under or over estimation of true overall levels of biodiversity, and therefore bias judgements about the relative conservation value of these areas [
+     <xref ref-type="bibr" rid="pone.0150520.ref004">
+      4
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref015">
+      15
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150520.ref018">
+      18
+     </xref>].</p> 
+    <p>As many of the world’s tropical forests are being rapidly modified through on-going anthropogenic disturbance [
+     <xref ref-type="bibr" rid="pone.0150520.ref019">
+      19
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref020">
+      20
+     </xref>], there is a pressing need to understand how biodiversity at different vertical levels responds to such disturbance [
+     <xref ref-type="bibr" rid="pone.0150520.ref004">
+      4
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref014">
+      14
+     </xref>]. Any bias resulting from single stratum assessments has the potential to be of particular importance in studies aiming to assess the conservation and biodiversity value of secondary rainforests (arising from both natural and human disturbances) [
+     <xref ref-type="bibr" rid="pone.0150520.ref002">
+      2
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref021">
+      21
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref022">
+      22
+     </xref>], specifically because biodiversity could be under or overestimated and therefore lead to an under or overestimation of the conservation and biodiversity value of such forests [
+     <xref ref-type="bibr" rid="pone.0150520.ref023">
+      23
+     </xref>]. For example, Dumbrell and Hill [
+     <xref ref-type="bibr" rid="pone.0150520.ref005">
+      5
+     </xref>] have shown for butterflies in a Southeast Asian rainforest, that understorey species diversity of regenerating forest (15 years since logging) was similar to primary forest. However, when canopy data were included, they found the disturbed habitat to be less biodiverse than undisturbed forest controls. Canopy dwelling specialists can play an integral role in forest regeneration through the provision of essential ecosystem services, but are often overlooked within habitat disturbance assessments [
+     <xref ref-type="bibr" rid="pone.0150520.ref014">
+      14
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref024">
+      24
+     </xref>]. Despite the importance for conservation about the differential effects of habitat disturbance upon rainforest biodiversity across vertical strata, research remains sparse.</p> 
+    <p>In this study, we use Neotropical butterfly communities to assess the impact of past habitat disturbance upon biodiversity, across vertical strata. Barlow et al. [
+     <xref ref-type="bibr" rid="pone.0150520.ref016">
+      16
+     </xref>] suggest there is an over-emphasis on the high conservation value of regenerating forest for butterflies, likely due to the failure to consider different vertical strata (amongst other factors, such as a lack of seasonal replication and small sample sizes; [
+     <xref ref-type="bibr" rid="pone.0150520.ref023">
+      23
+     </xref>]). Butterflies are key components within their ecosystems and are effective in detecting ecological change due to their sensitivity to forest disturbance [
+     <xref ref-type="bibr" rid="pone.0150520.ref025">
+      25
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref026">
+      26
+     </xref>], specifically through association with specific food plants [
+     <xref ref-type="bibr" rid="pone.0150520.ref027">
+      27
+     </xref>]. Butterfly biodiversity assessments are therefore well suited to assess changes in biodiversity due to anthropogenic habitat disturbance. Previous terrestrial based study designs have often suggested no difference in butterfly species diversity between human disturbed and primary forest [
+     <xref ref-type="bibr" rid="pone.0150520.ref026">
+      26
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref028">
+      28
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150520.ref031">
+      31
+     </xref>]. However, studies including canopy data suggest that disturbance effects may be greater at higher vertical strata, making butterflies an ideal group to investigate how human disturbances affect current levels of biodiversity within the canopy [
+     <xref ref-type="bibr" rid="pone.0150520.ref005">
+      5
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref015">
+      15
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref016">
+      16
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref018">
+      18
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150520.ref023">
+      23
+     </xref>].</p> 
+    <p>In this study, patterns of current biodiversity across three vertical strata within a single forest subject to three different types of past anthropogenic disturbance were assessed for the first time. Although a number of studies to date have compared primary forest with logged forest, or forest that has started to regenerate after complete clearance, very few studies have assessed biodiversity within a forest once subjected to different types of disturbance [
+     <xref ref-type="bibr" rid="pone.0150520.ref032">
+      32
+     </xref>]. We do this in a regenerating rainforest study site located in one of the world’s most biodiverse and important conservation areas: the Manu Biosphere Reserve, a UNESCO World Heritage Site, designated to protect the globally important Amazon rainforest and its biodiversity. Specifically, we quantified and compared species richness, diversity, abundance and community evenness of butterflies across three vertical strata, between areas regenerating after three different types of past human disturbance. The aim of which was to answer the following questions; 
+     <italic>
+      i)
+     </italic> How do patterns of biodiversity differ between vertical strata of this regenerating rainforest study site?, 
+     <italic>
+      ii)
+     </italic> How do forest areas, which were once subjected to different forms of past human disturbance, differ in current biodiversity between vertical strata of this regenerating rainforest?, 
+     <italic>
+      iii)
+     </italic> Can study designs within different vertical strata affect our understanding of the response of biodiversity to different types of past disturbance?, and 
+     <italic>
+      iv)
+     </italic> If so, could this influence (
+     <italic>
+      i
+     </italic>.
+     <italic>
+      e
+     </italic>. under or overestimate) the perceived value of regenerating forest for biodiversity conservation?</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Methods</title> 
+    <sec id="sec003"> 
+     <title>Study site</title> 
+     <p>The study was carried out at the Manu Learning Centre (MLC) research station in the Peruvian Amazon (71°23’28”W 12°47’21”S; 
+      <xref ref-type="fig" rid="pone.0150520.g001">
+       Fig 1
+      </xref>); owned and operated by conservation NGO the Crees Foundation (see [
+      <xref ref-type="bibr" rid="pone.0150520.ref033">
+       33
+      </xref>]). Beyond the study site to the west lies the core area of the Manu National Park (over 1.5 million ha of mainly primary tropical forest), whilst to the east of the reserve lies the second largest protected area in the biosphere reserve; the Amarakaeri Communal Reserve (402,335 ha of forest reserve, created in 2002). The Manu Biosphere Reserve consists of a network of core protected areas surrounded by areas designated as cultural buffer strata due to previous high human impact, including extensive logging or clearance for subsistence agriculture.</p> 
+     <fig id="pone.0150520.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150520.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>The context of the study site (as indicated by a red circle) in the Manu Biosphere Reserve in SE Peru, and the study site highlighting butterfly sampling locations; SLR–previously selective logged, regenerating forest, CCR–previously cleared, regenerating forest and MXD–previously mixed disturbance, regenerating forest.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.g001" xlink:type="simple" /> 
+     </fig> 
+     <p>The study site lay within one of these cultural buffer strata. It consists of ~800ha of regenerating lowland tropical forest, accessed by a 20km trail system, and covers an altitudinal range of 450–740m asl. During the period of the study (2011–2014) the average daily wet season (October-March) temperature was 24.78°C (average high of 27.89°C; average low of 22.19°C), the average humidity was 90.58% (average high of 96.32%; average low of 69.26%) and the average seasonal rainfall was 3098mm. The average dry season (April-September) temperature was 23.74°C (average high of 27.17°C; average low of 20.95°C), humidity was 84.89% (average high of 94.54%; average low of 66.16%) and the average seasonal rainfall was 1557mm (weather data collected as part of this research).</p> 
+     <p>A key feature of the study site for this research was a known history of where within the site three different anthropogenic disturbance types had occurred. The nearest undisturbed primary forest that we had access to was ~80 km away and at a lowland elevation of ~300 m asl. We considered this to be unsuitable for disentangling any potential differences in disturbance history, from those related to differences in elevation, soil type, climate and topography. Where studies have been carried out to investigate within-site variation, there is often information lacking needed to compare directly between different disturbance histories [
+      <xref ref-type="bibr" rid="pone.0150520.ref032">
+       32
+      </xref>]. The low frequency of direct (within-site) comparisons is a concern considering that previous research has indicated disturbance history to be the most important factor driving species richness [
+      <xref ref-type="bibr" rid="pone.0150520.ref034">
+       34
+      </xref>]. The disturbance types assessed within this study were 1) selective logging (identified herein with the acronym SLR–selectively logged and now regenerating forest), 2) complete clearance due to conversion to agriculture for coffee, cacao and other subsistence crops such as banana (identified herein with the acronym CCR–completely cleared and now regenerating forest). 3) a mixed area that had previously consisted of a mosaic of small completely cleared areas used for subsistence agriculture combined with selective logging of the adjacent forest (identified herein as MXD–mixed disturbance and now regenerating forest). Major human disturbance had started ~60 years prior to the study and lasted for 30 years before systematic human disturbance activities were abandoned in the 1980s. For 30 years following abandonment the site was left to regenerate, and from 2003 the site was actively protected from further human disturbance. At the time of the study the whole area was covered by closed canopy regenerating tropical forest.</p> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Disturbance history habitat classification</title> 
+     <p>Initially the boundaries between the three different disturbance history types were identified by two of the authors visiting the site to visually inspect it. This allowed points of transition between distinct forest disturbance types to be identified, based on subjective observation of forest structure. These observations were confirmed by consulting local guides, who had expert local knowledge related to historic land-use of the study site. Independent of the authors’ observations, the guides were asked to point out areas of different historic land use and indicate from memory where transitions between areas of different disturbance types had been. Each approach identified consistent transitional points, which were marked as the boundaries of the different disturbance histories. A systematic vegetation structure survey was then carried out to assess specific structural forest differences, and to confirm the subjective observations of differences in forest structure. The following seven parameters were measured: upper canopy height in meters; canopy coverage (to the nearest 5%); leaf-litter depth (to the nearest 0.5cm); the number of trees with a diameter at breast height (DBH) &gt;10cm/100m<sup>2</sup>; shrub layer and herb density; and epiphyte cover, estimated using the DAFOR scale (5 = dominant, 4 = abundant, 3 = frequent, 2 = occasional and 1 = rare; [
+      <xref ref-type="bibr" rid="pone.0150520.ref035">
+       35
+      </xref>]).</p> 
+     <p>In order to compare structural features between disturbance areas, average values for each structural habitat parameter were calculated per butterfly trap location, from ten sample points surrounding each trap site in each of the three different disturbance areas. A multivariate factor analysis was then performed using Minitab analysis software (v14.12) in order to detect if there was separation of disturbance types by their specific habitat variables [
+      <xref ref-type="bibr" rid="pone.0150520.ref036">
+       36
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref037">
+       37
+      </xref>]. Factor scores were sorted both without and with rotation (quartimax) in order to provide the most logical representation of the data visually.</p> 
+     <p>The factor analysis resulted in the original variables reducing to three factors with an eigenvalue greater than one (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s006">
+       S1 Text
+      </xref> for factor analysis results). These three factors represent 72.7% of variation in the original data set (Factors 1, 2 and 3 contained 33%, 24% and 15.6% of variation respectively). Factor 1 loaded positively with a denser herb layer, shrub layer and increased epiphyte cover and negatively with leaf litter depth. Factor 2 loaded positively with epiphyte cover, canopy height and canopy cover and negatively with leaf litter depth. Factor 3 loaded negatively with the number of trees&gt;10cm DBH. Factor scores were plotted against each other in a correlation matrix (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s001">
+       S1 Fig
+      </xref>) in order to demonstrate the structural differences between the habitat disturbance type classifications. As illustrated in 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s001">
+       S1 Fig
+      </xref>, the SLR and CCR survey locations separated out with no overlap when factors 1 and 2 were plotted against one another, whilst MXD sampling locations lay between CCR and SLR. The factor analyses demonstrated that even after 30 years of regeneration the past selectively logged and now regenerating forest had a higher forest canopy and greater canopy cover, with an increased occurrence of epiphytes, whereas the past completely cleared and now regenerating forest was characterised by the opposite trends, and a deeper leaf litter.</p> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Study approach, sampling design and sampling effort</title> 
+     <p>The study was planned to focus on the potential for biodiversity to utilise different vertical levels of anthropogenic-disturbed rainforest following a long period of regeneration. A natural (or mensurative) experiment approach [
+      <xref ref-type="bibr" rid="pone.0150520.ref038">
+       38
+      </xref>] was used and an appropriate regenerating rainforest study site was chosen, where historic human disturbance had varied across a relatively small area (~800 ha). Studying within site differences in biodiversity distribution across this small spatial scale was used to avoid confounding effects of large scale drivers of spatial auto-correlation, such as climatic differences or differences in physical geography. In addition, we were confident that butterflies were not hindered in dispersing across the site, as there were no geographic barriers (such as large rivers or mountain ranges). We predicted that in the absence of any effects of differences in historic disturbance (“treatment”), biodiversity would be distributed randomly across the site. Therefore, if human disturbance history differentially impacted on biodiversity distribution patterns, we would see systematic differences at different vertical levels, and across areas once subjected to different forms of disturbance. To test this, butterflies were surveyed across 18 sampling locations, six in each of the three regenerating disturbance areas (
+      <xref ref-type="fig" rid="pone.0150520.g001">
+       Fig 1
+      </xref>). All survey locations were situated a minimum distance of 200m apart to ensure sampling independence [
+      <xref ref-type="bibr" rid="pone.0150520.ref016">
+       16
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref030">
+       30
+      </xref>].</p> 
+     <p>Three traps were suspended at each location to represent three vertical strata of forest structure: understorey strata (1–2m), midstorey strata (6–10m) and canopy strata (&gt;16m). At each of the 18 locations, two bait types (rotten banana and rotten fish) were used. Rotten fish bait was used in addition to the more widely used rotting fruit bait, because carrion bait has been shown to capture a greater number of individuals and provide wider coverage of the butterfly community [
+      <xref ref-type="bibr" rid="pone.0150520.ref039">
+       39
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0150520.ref041">
+       41
+      </xref>]. Total trapping effort over a 12 month period was 2160 trap days (April 2013 –March 2014; 720 trap days per disturbance type). This overall sampling effort consisted of 120 trap days (40 trap days from each of the three vertical strata) at each individual sampling location. At each sampling location the traps in the three vertical strata were set to collect simultaneously, with each trap operated twice in each of four three month periods, once with banana and once with fish bait. Each of these trapping sessions lasted for five days: accumulating to four sessions with banana (20 days) and four sessions with fish bait (20 days), for each trap over the 12 month sampling period.</p> 
+    </sec> 
+    <sec id="sec006"> 
+     <title>Field survey methodology</title> 
+     <p>Butterflies were surveyed using Van Someren-Rydon traps [
+      <xref ref-type="bibr" rid="pone.0150520.ref042">
+       42
+      </xref>]. These simple cylindrical baited traps have been used successfully by previous studies on butterflies in the tropics [
+      <xref ref-type="bibr" rid="pone.0150520.ref017">
+       17
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref042">
+       42
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0150520.ref044">
+       44
+      </xref>]. Traps were checked daily between 0900 and 1500, with a randomized site visiting sequence to avoid any systematic bias [
+      <xref ref-type="bibr" rid="pone.0150520.ref016">
+       16
+      </xref>]. Bait was replaced every day to ensure similar bait freshness across all sites [
+      <xref ref-type="bibr" rid="pone.0150520.ref017">
+       17
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref042">
+       42
+      </xref>]. The number of butterflies of each species at each site was recorded; individuals large enough and without transparent wings were marked with a non-toxic silver marker, to allow the identification of recaptures, which were excluded from the analysis in order to avoid double counting within sessions. The rotting banana bait was prepared following the methods by DeVries et al. [
+      <xref ref-type="bibr" rid="pone.0150520.ref045">
+       45
+      </xref>] and the rotten fish bait was prepared a week prior to sampling [
+      <xref ref-type="bibr" rid="pone.0150520.ref039">
+       39
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref042">
+       42
+      </xref>]. Butterflies were identified using field plates from The Field Museum [
+      <xref ref-type="bibr" rid="pone.0150520.ref046">
+       46
+      </xref>] and the development of an internal identification guide, in which species codes were assigned to any species that were not immediately identifiable. Photographs were taken to aid further identification and verification once out of the field by experts from the Department of Entomology at the Natural History Museum of San Marcos in Lima. All individuals were later released.</p> 
+    </sec> 
+    <sec id="sec007"> 
+     <title>Analyses methodologies</title> 
+     <p>In order to investigate differences in biodiversity patterns at different vertical levels, and in forest with differences in disturbance history, we assessed species richness, species diversity, and community evenness [
+      <xref ref-type="bibr" rid="pone.0150520.ref047">
+       47
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref048">
+       48
+      </xref>]. Individual records and the number of species detected overall, were calculated for both fruit-baited and carrion-baited traps, and stratum specialist species (
+      <italic>
+       i
+      </italic>.
+      <italic>
+       e
+      </italic>. consisting of; 1. specialist species, determined as those significantly more abundant in a particular stratum, confirmed by an ANOVA test, and 2. species that were exclusively caught within a single stratum; see [
+      <xref ref-type="bibr" rid="pone.0150520.ref012">
+       12
+      </xref>]) were calculated for each vertical strata. To assess species richness levels and the extent to which our effort had detected as many species as were likely to be found within each disturbance area, we plotted species accumulation curves for each sampling methodology using the Rich package [
+      <xref ref-type="bibr" rid="pone.0150520.ref049">
+       49
+      </xref>] and presented these graphically along with 95% confidence intervals, using program R [
+      <xref ref-type="bibr" rid="pone.0150520.ref050">
+       50
+      </xref>]. Where sampling effort detected fewer individuals in one area, we extrapolated the lower lying curve towards an equal number of individuals, for a clearer comparison of where our observed richness accumulation curves would have projected given detection of an even number of individuals [
+      <xref ref-type="bibr" rid="pone.0150520.ref051">
+       51
+      </xref>]. The following estimators of species richness, which have previously been utilised for butterflies [
+      <xref ref-type="bibr" rid="pone.0150520.ref032">
+       32
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref052">
+       52
+      </xref>] were calculated: Abundance-based Coverage Estimator (ACE), Incidence-based Coverage Estimator (ICE), Chao1 estimator, Chao2 estimator, Jack1 estimator, Jack2 estimator and Michaelis–Menten Means estimator [
+      <xref ref-type="bibr" rid="pone.0150520.ref053">
+       53
+      </xref>]. The average of these estimators was calculated for each habitat, as the understanding of their relative performance is still poorly unknown [
+      <xref ref-type="bibr" rid="pone.0150520.ref054">
+       54
+      </xref>].</p> 
+     <p>To ensure comparability with previous studies on butterflies, species diversity was assessed using the Shannon diversity index [
+      <xref ref-type="bibr" rid="pone.0150520.ref055">
+       55
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref056">
+       56
+      </xref>]. Repeating the analyses using Fisher’s Alpha, Simpson’s and Shannon Exponential diversity indices did not change the pattern of results and are therefore not presented. All richness and diversity estimators were calculated using EstimateS software [
+      <xref ref-type="bibr" rid="pone.0150520.ref057">
+       57
+      </xref>]. Species abundance was recorded as the number of individuals caught in each trap per 40 trapping days. In order to determine the degree of community similarity between vertical strata, beta similarity was calculated using EstimateS software [
+      <xref ref-type="bibr" rid="pone.0150520.ref057">
+       57
+      </xref>].</p> 
+     <p>Community evenness was compared by producing dominance-diversity (Whittaker) plots using the vegan package [
+      <xref ref-type="bibr" rid="pone.0150520.ref058">
+       58
+      </xref>] in program R [
+      <xref ref-type="bibr" rid="pone.0150520.ref050">
+       50
+      </xref>]. Such plots compare the evenness of a community, with shallow curves representing a community of many species of similar abundance, whereas steep curves represent a skewed assemblage with one or more species in substantially higher abundance than others. Significant differences in slope, and therefore significant differences in community evenness, were assessed through the use of a linear model with log relative abundance of species as the response term, and an interaction between species rank and disturbance history or vertical zone as continuous and categorical fixed effects respectively (vegan package [
+      <xref ref-type="bibr" rid="pone.0150520.ref058">
+       58
+      </xref>], function ‘rad.zipfbrot’; see [
+      <xref ref-type="bibr" rid="pone.0150520.ref036">
+       36
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref059">
+       59
+      </xref>]). Results are reported as ΔG, which corresponds to absolute change in gradient between disturbance areas and vertical strata, whereby more negative values denote steeper curves and thus less even assemblages [
+      <xref ref-type="bibr" rid="pone.0150520.ref036">
+       36
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref059">
+       59
+      </xref>].</p> 
+     <p>As this was a natural experiment and not a human designed one, it was not possible to intersperse independent sampling locations to guarantee treatment replication (in addition to the sampling replication described). It was recently highlighted that nearly all tropical forest studies investigating effects of human disturbance on biodiversity due to logging have the potential for pseudo-replication ([
+      <xref ref-type="bibr" rid="pone.0150520.ref060">
+       60
+      </xref>]; in agreement with [
+      <xref ref-type="bibr" rid="pone.0150520.ref038">
+       38
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150520.ref061">
+       61
+      </xref>]). However, Ramage et al. [
+      <xref ref-type="bibr" rid="pone.0150520.ref060">
+       60
+      </xref>] also point out that whilst interspersion is a desired goal where human designed experiments are practical, natural experiments still provide useful scientific evidence if potential causes of spatial variation (other than the potential “treatment” effect) are investigated and controlled for, where necessary. Pseudo-replication only occurs if the results are over generalised [
+      <xref ref-type="bibr" rid="pone.0150520.ref060">
+       60
+      </xref>]. We agree with Ramage [
+      <xref ref-type="bibr" rid="pone.0150520.ref060">
+       60
+      </xref>] and Hulbert [
+      <xref ref-type="bibr" rid="pone.0150520.ref038">
+       38
+      </xref>] and therefore included additional environmental data as control variables in our analysis, utilised spatial statistics to confirm the absence of spatial auto-correlation (that might create pseudo-replication) and finally, considered the likelihood of potential alternative inferences from the results. Therefore, in order to investigate if differences in average estimated species richness, Shannon diversity and abundance, between survey locations in different areas of past disturbance and across vertical strata were significant, a series of linear models were carried out. Where both habitat and vertical zone were found to be significant, an interaction between ‘disturbance history’ and ‘vertical strata’ was included. Having excluded most potential large scale causes of spatial auto-correlation by choice of a small scale study area, we considered if there were any consistent local scale differences between the sampling locations. As a result of a general trend for altitude to increase north to south, and distance from the river to increase east to west, the local environmental variables ‘altitude’ and ‘distance to the main river’ of each sampling location were included as covariates, to control for any potential spatial auto-correlation that might make either of these variables confounding effects. We utilised a dredge of the global model, followed by a top model averaging approach (on models where ΔAICc &lt;2), to determine relative variable importance. Finally, to confirm that any potential spatial auto-correlation between survey locations had been controlled for in the analysis, a Moran’s I test was carried out in program R [
+      <xref ref-type="bibr" rid="pone.0150520.ref050">
+       50
+      </xref>] on the residuals of each model (ape package; [
+      <xref ref-type="bibr" rid="pone.0150520.ref062">
+       62
+      </xref>]).</p> 
+     <p>Data available from the The University of Glasgow, Enlighten: Research Data repository: Datacite DOI: 
+      <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5525/gla.researchdata.241" xlink:type="simple">
+       10.5525/gla.researchdata.241
+      </ext-link> [
+      <xref ref-type="bibr" rid="pone.0150520.ref063">
+       63
+      </xref>].</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec008" sec-type="results"> 
+    <title>Results</title> 
+    <sec id="sec009"> 
+     <title>Species richness</title> 
+     <p>In total 229 species of butterfly were detected (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s009">
+       S4 Text
+      </xref> for a checklist of species), with a total of 5219 individual records (
+      <xref ref-type="table" rid="pone.0150520.t001">
+       Table 1
+      </xref>). Fish baited traps constituted almost 60% of the records with 3127 individuals recorded and 2092 individuals recorded in banana-baited traps. Species richness was highest in the understorey community (193 species) and decreased with sampling height, with 167 and 115 species detected in the midstorey and canopy strata respectively. The greatest number of stratum specialist species overall (see [
+      <xref ref-type="bibr" rid="pone.0150520.ref012">
+       12
+      </xref>]) was encountered within the understorey (93 species; 48% of species encountered in the understorey), followed by the midstorey (30 species; 18% of species encountered within the midstorey), and with the canopy stratum containing only 11 stratum specialist species (just 10% of species encountered within the canopy). When combining values for the midstorey and canopy, 41 stratum specialist species were detected above the understorey, representing 31% of stratum specialist species detected within the study overall (134 stratum specialist species). Results were similar when considering fruit and carrion-baited trap data separately, but with a slightly higher percentage of stratum specialist species within the canopy for fruit-baited traps (17%), compared with carrion-baited traps (11%).</p> 
+     <table-wrap id="pone.0150520.t001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150520.t001
+      </object-id> 
+      <label>Table 1</label> 
+      <title>Summary table; individual records and the number of species detected overall, and for both fruit-baited and carrion-baited traps separately.</title> 
+      <p>Stratum specialist species are those that are significantly (ANOVA test) more abundant in a particular stratum (Specialist species) or were exclusively caught in one of the strata (as in [
+       <xref ref-type="bibr" rid="pone.0150520.ref012">
+        12
+       </xref>]).</p> 
+      <alternatives> 
+       <graphic id="pone.0150520.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.t001" xlink:type="simple" /> 
+       <table> 
+        <colgroup> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="center"></th> 
+          <th align="center" colspan="3">Fruit-baited traps</th> 
+          <th align="center" colspan="3">Carrion-baited traps</th> 
+          <th align="center" colspan="3">Overall (Fruit + Carrion)</th> 
+         </tr> 
+         <tr> 
+          <th align="center"></th> 
+          <th align="center">Understorey</th> 
+          <th align="center">Midstorey</th> 
+          <th align="center">Canopy</th> 
+          <th align="center">Understorey</th> 
+          <th align="center">Midstorey</th> 
+          <th align="center">Canopy</th> 
+          <th align="center">Understorey</th> 
+          <th align="center">Midstorey</th> 
+          <th align="center">Canopy</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left">Number of records</td> 
+          <td align="center">1198</td> 
+          <td align="center">556</td> 
+          <td align="center">338</td> 
+          <td align="center">1788</td> 
+          <td align="center">905</td> 
+          <td align="center">434</td> 
+          <td align="center">2986</td> 
+          <td align="center">1461</td> 
+          <td align="center">772</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Species richness</td> 
+          <td align="center">138</td> 
+          <td align="center">115</td> 
+          <td align="center">72</td> 
+          <td align="center">170</td> 
+          <td align="center">145</td> 
+          <td align="center">99</td> 
+          <td align="center">193</td> 
+          <td align="center">167</td> 
+          <td align="center">115</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Specialist species</td> 
+          <td align="center">21</td> 
+          <td align="center">4</td> 
+          <td align="center">4</td> 
+          <td align="center">38</td> 
+          <td align="center">5</td> 
+          <td align="center">5</td> 
+          <td align="center">50</td> 
+          <td align="center">10</td> 
+          <td align="center">8</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Exclusively in one stratum</td> 
+          <td align="center">44</td> 
+          <td align="center">17</td> 
+          <td align="center">8</td> 
+          <td align="center">44</td> 
+          <td align="center">24</td> 
+          <td align="center">6</td> 
+          <td align="center">43</td> 
+          <td align="center">20</td> 
+          <td align="center">3</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Stratum specialist species</td> 
+          <td align="center">65</td> 
+          <td align="center">21</td> 
+          <td align="center">12</td> 
+          <td align="center">82</td> 
+          <td align="center">29</td> 
+          <td align="center">11</td> 
+          <td align="center">93</td> 
+          <td align="center">30</td> 
+          <td align="center">11</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Percentage (%) of stratum specialists</td> 
+          <td align="center">47</td> 
+          <td align="center">18</td> 
+          <td align="center">17</td> 
+          <td align="center">48</td> 
+          <td align="center">20</td> 
+          <td align="center">11</td> 
+          <td align="center">48</td> 
+          <td align="center">18</td> 
+          <td align="center">10</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+     <p>Overall, observed species richness was a high proportion of the averaged estimated species richness (74% ±2.43%; ranging between 57–88%). Observed species richness was lowest in forest that had regenerated after a history of disturbance due to complete clearance, compared to forest that had regenerated after disturbance by selective logging, with intermediate species richness levels observed in the mixed disturbance history type (
+      <xref ref-type="table" rid="pone.0150520.t002">
+       Table 2
+      </xref>).</p> 
+     <table-wrap id="pone.0150520.t002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150520.t002
+      </object-id> 
+      <label>Table 2</label> 
+      <title>Capture frequency, survey effort, observed, extrapolated and estimated species richness and sample completeness per disturbance history.</title> 
+      <p>O = Overall community, U = Understorey community, M = Midstorey community and C = Canopy community. Disturbance types: SLR–selectively logged and now regenerating forest, CCR–completely cleared and now regenerating forest and MXD–mixed disturbance and now regenerating forest.</p> 
+      <alternatives> 
+       <graphic id="pone.0150520.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.t002" xlink:type="simple" /> 
+       <table> 
+        <colgroup> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="center">Strata</th> 
+          <th align="center">Past disturbance area</th> 
+          <th align="center">Number of individuals recorded</th> 
+          <th align="center">Survey effort: samples</th> 
+          <th align="center">Observed species</th> 
+          <th align="center">Extrapolated species
+           <xref ref-type="table-fn" rid="t002fn002">
+            <sup>a</sup>
+           </xref></th> 
+          <th align="center" colspan="9">Species richness estimates</th> 
+          <th align="center">% average estimated species richness compared to SLR</th> 
+          <th align="center">Coverage (%)
+           <xref ref-type="table-fn" rid="t002fn004">
+            <sup>c</sup>
+           </xref></th> 
+          <th align="center">Completeness (%
+           <italic>
+            )
+           </italic>
+           <xref ref-type="table-fn" rid="t002fn005">
+            <sup>d</sup>
+           </xref></th> 
+         </tr> 
+         <tr> 
+          <th align="center"></th> 
+          <th align="center"></th> 
+          <th align="center"></th> 
+          <th align="center"></th> 
+          <th align="center"></th> 
+          <th align="center"></th> 
+          <th align="center">
+           <italic>
+            ACE
+           </italic></th> 
+          <th align="center">
+           <italic>
+            ICE
+           </italic></th> 
+          <th align="center">
+           <italic>
+            Chao1
+           </italic></th> 
+          <th align="center">
+           <italic>
+            Chao2
+           </italic></th> 
+          <th align="center">
+           <italic>
+            Jacknife1
+           </italic></th> 
+          <th align="center">
+           <italic>
+            Jacknife2
+           </italic></th> 
+          <th align="center">
+           <italic>
+            Bootstrap
+           </italic></th> 
+          <th align="center">
+           <italic>
+            MMMean
+           </italic></th> 
+          <th align="center">Average
+           <xref ref-type="table-fn" rid="t002fn003">
+            <sup>b</sup>
+           </xref></th> 
+          <th align="left">&nbsp;</th> 
+          <th align="left">&nbsp;</th> 
+          <th align="left">&nbsp;</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="center">O</td> 
+          <td align="center">SLR</td> 
+          <td align="center">2399</td> 
+          <td align="center">720</td> 
+          <td align="center">207</td> 
+          <td align="center">207</td> 
+          <td align="center">230</td> 
+          <td align="center">233</td> 
+          <td align="center">233</td> 
+          <td align="center">236</td> 
+          <td align="center">248</td> 
+          <td align="center">262</td> 
+          <td align="center">227</td> 
+          <td align="center">223</td> 
+          <td align="center">237</td> 
+          <td align="center"></td> 
+          <td align="center">88</td> 
+          <td align="center">90</td> 
+         </tr> 
+         <tr> 
+          <td align="center">O</td> 
+          <td align="center">CCR</td> 
+          <td align="center">1215</td> 
+          <td align="center">720</td> 
+          <td align="center">145</td> 
+          <td align="center">163</td> 
+          <td align="center">165</td> 
+          <td align="center">172</td> 
+          <td align="center">163</td> 
+          <td align="center">167</td> 
+          <td align="center">181</td> 
+          <td align="center">190</td> 
+          <td align="center">163</td> 
+          <td align="center">165</td> 
+          <td align="center">171</td> 
+          <td align="center">72</td> 
+          <td align="center">85</td> 
+          <td align="center">63</td> 
+         </tr> 
+         <tr> 
+          <td align="center">O</td> 
+          <td align="center">MXD</td> 
+          <td align="center">1605</td> 
+          <td align="center">720</td> 
+          <td align="center">176</td> 
+          <td align="center">197</td> 
+          <td align="center">217</td> 
+          <td align="center">220</td> 
+          <td align="center">237</td> 
+          <td align="center">238</td> 
+          <td align="center">227</td> 
+          <td align="center">257</td> 
+          <td align="center">199</td> 
+          <td align="center">196</td> 
+          <td align="center">224</td> 
+          <td align="center">95</td> 
+          <td align="center">79</td> 
+          <td align="center">77</td> 
+         </tr> 
+         <tr> 
+          <td align="center">O</td> 
+          <td align="center">Total</td> 
+          <td align="center">5219</td> 
+          <td align="center">2160</td> 
+          <td align="center">229</td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+         </tr> 
+         <tr> 
+          <td align="center">U</td> 
+          <td align="center">SLR</td> 
+          <td align="center">1299</td> 
+          <td align="center">240</td> 
+          <td align="center">168</td> 
+          <td align="center">168</td> 
+          <td align="center">211</td> 
+          <td align="center">220</td> 
+          <td align="center">203</td> 
+          <td align="center">214</td> 
+          <td align="center">221</td> 
+          <td align="center">245</td> 
+          <td align="center">192</td> 
+          <td align="center">196</td> 
+          <td align="center">213</td> 
+          <td align="center"></td> 
+          <td align="center">79</td> 
+          <td align="center">87</td> 
+         </tr> 
+         <tr> 
+          <td align="center">U</td> 
+          <td align="center">CCR</td> 
+          <td align="center">883</td> 
+          <td align="center">240</td> 
+          <td align="center">117</td> 
+          <td align="center">148</td> 
+          <td align="center">143</td> 
+          <td align="center">153</td> 
+          <td align="center">141</td> 
+          <td align="center">152</td> 
+          <td align="center">155</td> 
+          <td align="center">174</td> 
+          <td align="center">134</td> 
+          <td align="center">137</td> 
+          <td align="center">149</td> 
+          <td align="center">70</td> 
+          <td align="center">79</td> 
+          <td align="center">61</td> 
+         </tr> 
+         <tr> 
+          <td align="center">U</td> 
+          <td align="center">MXD</td> 
+          <td align="center">804</td> 
+          <td align="center">240</td> 
+          <td align="center">116</td> 
+          <td align="center">159</td> 
+          <td align="center">153</td> 
+          <td align="center">156</td> 
+          <td align="center">170</td> 
+          <td align="center">171</td> 
+          <td align="center">158</td> 
+          <td align="center">184</td> 
+          <td align="center">134</td> 
+          <td align="center">141</td> 
+          <td align="center">158</td> 
+          <td align="center">74</td> 
+          <td align="center">73</td> 
+          <td align="center">60</td> 
+         </tr> 
+         <tr> 
+          <td align="center">U</td> 
+          <td align="center">Total</td> 
+          <td align="center">2986</td> 
+          <td align="center">720</td> 
+          <td align="center">193</td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+         </tr> 
+         <tr> 
+          <td align="center">M</td> 
+          <td align="center">SLR</td> 
+          <td align="center">701</td> 
+          <td align="center">240</td> 
+          <td align="center">127</td> 
+          <td align="center">127</td> 
+          <td align="center">171</td> 
+          <td align="center">176</td> 
+          <td align="center">179</td> 
+          <td align="center">193</td> 
+          <td align="center">175</td> 
+          <td align="center">207</td> 
+          <td align="center">148</td> 
+          <td align="center">163</td> 
+          <td align="center">176</td> 
+          <td align="center"></td> 
+          <td align="center">72</td> 
+          <td align="center">76</td> 
+         </tr> 
+         <tr> 
+          <td align="center">M</td> 
+          <td align="center">CCR</td> 
+          <td align="center">249</td> 
+          <td align="center">240</td> 
+          <td align="center">80</td> 
+          <td align="center">111</td> 
+          <td align="center">119</td> 
+          <td align="center">130</td> 
+          <td align="center">112</td> 
+          <td align="center">118</td> 
+          <td align="center">117</td> 
+          <td align="center">136</td> 
+          <td align="center">96</td> 
+          <td align="center">121</td> 
+          <td align="center">118</td> 
+          <td align="center">67</td> 
+          <td align="center">68</td> 
+          <td align="center">48</td> 
+         </tr> 
+         <tr> 
+          <td align="center">M</td> 
+          <td align="center">MXD</td> 
+          <td align="center">511</td> 
+          <td align="center">240</td> 
+          <td align="center">115</td> 
+          <td align="center">130</td> 
+          <td align="center">155</td> 
+          <td align="center">174</td> 
+          <td align="center">147</td> 
+          <td align="center">170</td> 
+          <td align="center">163</td> 
+          <td align="center">190</td> 
+          <td align="center">136</td> 
+          <td align="center">165</td> 
+          <td align="center">162</td> 
+          <td align="center">92</td> 
+          <td align="center">71</td> 
+          <td align="center">69</td> 
+         </tr> 
+         <tr> 
+          <td align="center">M</td> 
+          <td align="center">Total</td> 
+          <td align="center">1461</td> 
+          <td align="center">720</td> 
+          <td align="center">167</td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+         </tr> 
+         <tr> 
+          <td align="center">C</td> 
+          <td align="center">SLR</td> 
+          <td align="center">399</td> 
+          <td align="center">240</td> 
+          <td align="center">86</td> 
+          <td align="center">86</td> 
+          <td align="center">116</td> 
+          <td align="center">119</td> 
+          <td align="center">112</td> 
+          <td align="center">117</td> 
+          <td align="center">120</td> 
+          <td align="center">137</td> 
+          <td align="center">101</td> 
+          <td align="center">113</td> 
+          <td align="center">117</td> 
+          <td align="center"></td> 
+          <td align="center">74</td> 
+          <td align="center">75</td> 
+         </tr> 
+         <tr> 
+          <td align="center">C</td> 
+          <td align="center">CCR</td> 
+          <td align="center">83</td> 
+          <td align="center">240</td> 
+          <td align="center">35</td> 
+          <td align="center">51</td> 
+          <td align="center">60</td> 
+          <td align="center">61</td> 
+          <td align="center">58</td> 
+          <td align="center">51</td> 
+          <td align="center">53</td> 
+          <td align="center">61</td> 
+          <td align="center">43</td> 
+          <td align="center">103</td> 
+          <td align="center">61</td> 
+          <td align="center">53</td> 
+          <td align="center">57</td> 
+          <td align="center">30</td> 
+         </tr> 
+         <tr> 
+          <td align="center">C</td> 
+          <td align="center">MXD</td> 
+          <td align="center">290</td> 
+          <td align="center">240</td> 
+          <td align="center">77</td> 
+          <td align="center">88</td> 
+          <td align="center">119</td> 
+          <td align="center">117</td> 
+          <td align="center">121</td> 
+          <td align="center">113</td> 
+          <td align="center">111</td> 
+          <td align="center">129</td> 
+          <td align="center">92</td> 
+          <td align="center">114</td> 
+          <td align="center">115</td> 
+          <td align="center">98</td> 
+          <td align="center">67</td> 
+          <td align="center">67</td> 
+         </tr> 
+         <tr> 
+          <td align="center">C</td> 
+          <td align="center">Total</td> 
+          <td align="center">772</td> 
+          <td align="center">720</td> 
+          <td align="center">115</td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+          <td align="center"></td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+      <table-wrap-foot> 
+       <fn id="t002fn001">
+        <p>NB</p>
+       </fn> 
+       <fn id="t002fn002">
+        <p><sup>
+          <bold>
+           a
+          </bold></sup> Number of species estimated when curves extrapolated to the same number of individuals</p>
+       </fn> 
+       <fn id="t002fn003">
+        <p><sup>
+          <bold>
+           b
+          </bold></sup> Mean estimated species richness—'classic Chao values were used in cases where CV&gt;0.5</p>
+       </fn> 
+       <fn id="t002fn004">
+        <p><sup>
+          <bold>
+           c
+          </bold></sup> Sampling coverage defined as: (observed species richness/average estimated species richness)*100</p>
+       </fn> 
+       <fn id="t002fn005">
+        <p><sup>
+          <bold>
+           d
+          </bold></sup> Number of species observed as a percentage of combined species across all habitats.</p>
+       </fn> 
+      </table-wrap-foot> 
+     </table-wrap> 
+     <p>Extrapolated rarefaction curves based on observed species richness (
+      <xref ref-type="fig" rid="pone.0150520.g002">
+       Fig 2
+      </xref>) show similar patterns both overall (with 207 species in SLR v 145 species in CCR), and in each sampling strata separately (understorey butterfly community, 168 species in SLR v 117 species in CCR; midstorey butterfly community, 127 species in SLR v 80 species in CCR; canopy butterfly community, 86 species in SLR v 35 species in CCR). For all but the midstorey community, the non-overlapping 95% confidence intervals suggest these differences are significant.</p> 
+     <fig id="pone.0150520.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150520.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title>Butterfly species richness of regenerating rainforest with different disturbance histories.</title> 
+      <p>Solid lines represent the observed number of individuals recorded and dashed lines represent extrapolated species richness. The grey shades represent 95% confidence intervals. Mean species accumulation lines falling outside of this envelope are statistically significant. (a) the overall community, (b) the understorey community, (c) the midstorey community and (d) the canopy community.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.g002" xlink:type="simple" /> 
+     </fig> 
+     <p>The average estimated understorey species richness was highest in the forest regenerating after selective logging (an average estimated 213 ±11.56 species) and 30% lower in forest regenerating after complete clearance (149 ±8.82 species). For the midstorey butterfly community the difference between disturbance types increased slightly to 33%, with average estimated midstorey butterfly species richness higher in past selectively logged regenerating forest (an average estimated 176 ±12.33 species) than the past clear-felled regenerating forest (118 ±8.11 species). The canopy community showed the largest difference between disturbance types (47%). The average estimated canopy butterfly species richness was higher in the past selectively logged regenerating forest, with an average estimated 117 ±6.88 species in SLR and just 61 ±12.54 species in CCR.</p> 
+     <p>The linear modelling showed that these differences in estimated species richness patterns were significant. Both vertical strata and disturbance history type appear as key predictors of butterfly species richness across the study site, each showing full support, with relative variable importance = 1 (within top models where ΔAICc &lt;2; see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s004">
+       S1 Table
+      </xref>, and 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s007">
+       S2 Text
+      </xref> for top model averaged co-efficients). There was no evidence to suggest that there was an interaction between strata and disturbance type, or that there was any influence from distance to the main river (neither variable within the top models where ΔAICc &lt;2), and only weak support that increasing altitude had a negative effect on species richness (relative variable importance = 0.38 within the top models where ΔAICc &lt;2; see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s004">
+       S1 Table
+      </xref>). Testing of the model residuals showed no evidence of spatial auto-correlation between samples, with a very low and non-significant observed Moran’s I value of -0.04, s.d. = 0.02, p = 0.42 (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s008">
+       S3 Text
+      </xref>).</p> 
+    </sec> 
+    <sec id="sec010"> 
+     <title>Butterfly species diversity, abundance, beta diversity and community evenness</title> 
+     <p>Shannon diversity was found to be higher in the past selectively logged regenerating forest than in the past cleared regenerating area of forest, and in SLR was higher in the understorey stratum than midstorey, but not for CCR (
+      <xref ref-type="fig" rid="pone.0150520.g003">
+       Fig 3
+      </xref>); MXD values (not illustrated) were intermediate. The midstorey was more diverse than the canopy stratum in both CCR and SLR areas.</p> 
+     <fig id="pone.0150520.g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150520.g003
+      </object-id> 
+      <label>Fig 3</label>  
+      <title>Shannon species diversity of overall, understorey, midstorey and canopy strata of butterflies in regenerating rainforest with different disturbance histories.</title> 
+      <p>Error bars are 95% confidence intervals.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>Both vertical level and disturbance history were found to predict Shannon diversity of regenerating forest butterflies within the linear models, with evidence to suggest that diversity differed across vertical strata between habitats (each showing full support for relative variable importance = 1 within the top models where ΔAICc &lt;2; see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s004">
+       S1 Table
+      </xref>). Shannon diversity of the canopy was therefore affected to a greater extent than understorey diversity by differing historic human disturbance. There was no influence from altitude upon Shannon diversity (not represented within the top models where ΔAICc &lt;2) and only weak support for any effect from distance to the main river (relative variable importance = 0.37 within the top models where ΔAICc &lt;2; see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s004">
+       S1 Table
+      </xref>). Testing of the model residuals showed no evidence of spatial auto-correlation, with a very low and non-significant observed Moran’s I value of -0.02, s.d. = 0.02, p = 0.93 (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s008">
+       S3 Text
+      </xref>).</p> 
+     <p>Overall butterfly abundance was found to be higher in SLR than CCR, being highest in the understorey and lowest in the canopy (the midstorey was intermediate; see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s002">
+       S2 Fig
+      </xref>). Results from the linear models showed that vertical strata, disturbance history and distance from the river were found to influence abundance (each showing full support for relative variable importance = 1 within the top models where ΔAICc &lt;2; see see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s004">
+       S1 Table
+      </xref>). Although abundance was higher in SLR forest, there was no evidence to suggest that butterfly abundance differed across strata between habitats, or that there was any influence from altitude (not represented within the top models where ΔAICc &lt;2). Testing of the model residuals showed no evidence of spatial auto-correlation, with a very low and non-significant observed Moran’s I value of -0.04, s.d. = 0.02, p = 0.46 (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s008">
+       S3 Text
+      </xref>). Beta similarity for the Morisita-Horn index was highest between the midstorey and canopy communities (0.52; see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s005">
+       S2 Table
+      </xref>) and lowest between the understorey and canopy communities (0.31). However, when considering the Chao-Jaccard Estimated Abundance measure, all strata display a high value of similarity, with a high degree of overlap between confidence intervals; the understorey and canopy communities once again were the least similar communities (0.91 ±0.1), but the midstorey and understorey had the greatest degree of similarity (0.93 ±0.06).</p> 
+     <p>Dominance-diversity plots between disturbance histories demonstrate that the past selectively logged regenerating forest supports a significantly more even community assemblage than the past clear-felled regenerating forest (see 
+      <xref ref-type="supplementary-material" rid="pone.0150520.s003">
+       S3 Fig
+      </xref>) for overall (ΔG = −0.005, p = &lt;0.001), understorey (ΔG = −0.008, p = &lt;0.001), midstorey (ΔG = −0.006, p = &lt;0.001) and canopy strata (ΔG = −0.02, p = &lt;0.001).</p> 
+     <p>Dominance-diversity plots between vertical strata of the past selectively logged regenerating forest demonstrate that the understorey supports a significantly more even community assemblage than both midstorey (ΔG = −0.003, p = &lt;0.001) and canopy strata (ΔG = −0.014, p = &lt;0.001), and that the midstorey supports a significantly more even community assemblage than the canopy stratum (
+      <xref ref-type="fig" rid="pone.0150520.g004">
+       Fig 4A
+      </xref>; ΔG = −0.011, p = &lt;0.001). Dominance-diversity plots between vertical strata of the past clear-felled regenerating forest demonstrate that the understorey supports a significantly more even assemblage than the canopy stratum (ΔG = −0.03, p = &lt;0.001) and that the midstorey also supports a significantly more even community assemblage than the canopy (ΔG = −0.03, p = &lt;0.001) but as with the Shannon diversity results there is no significant difference between the community evenness of the understorey and midstorey strata (
+      <xref ref-type="fig" rid="pone.0150520.g004">
+       Fig 4B
+      </xref>; ΔG = −0.001, p = 0.47).</p> 
+     <fig id="pone.0150520.g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150520.g004
+      </object-id> 
+      <label>Fig 4</label>  
+      <title></title> &lt;p&gt;&lt;bold&gt;Dominance-diversity (Whittaker) plots for understorey, midstorey and canopy butterfly communities in regenerating rainforest with different disturbance histories; (a) the previously selectively logged, regenerating forest and (b) the previously cleared, regenerating forest.&lt;/bold&gt; Species are represented by points. For each habitat the relative abundance of each species (ni/N) was plotted on a logarithmic scale against the species rank ordered from most to least abundant. O = Understorey, Δ = Midstorey and + = Canopy. Linear models were used to determine if the slopes of understorey, midstorey and canopy communities were significantly different, where ΔG denotes to absolute change in gradient from the predicted line and the symbol denote the level of significance of the deviation where *** = &lt;0.001, ** = &lt;0.01, * = &lt;0.05 and blank = not significant.&lt;/p&gt; &lt;/caption&gt; &lt;graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.g004" xlink:type="simple"/&gt; &lt;/fig&gt; &lt;/sec&gt; &lt;/sec&gt; &lt;sec id="sec011" sec-type="conclusions"&gt; &lt;title&gt;Discussion 
+      <p>We sampled fruit and carrion-feeding butterflies at the same study site within forest areas differing in the type of past disturbance, and found that the canopy community was more affected by more intensive past disturbance than both the midstorey and understorey communities. This is the first investigation of the disruption to biodiversity across vertical strata carried out at the same site that compares areas subjected to different historic disturbances. Although more stratum specialist species were found within the understorey, 31% were detected above the ground (within the midstorey and the canopy), and would therefore have been either underrepresented or for some species, undetected, had only an understorey assessment been carried out. We found that differences between past disturbed areas were most notable within the canopy. Regenerating forest following complete clearance had 47% lower canopy species richness than regenerating forest that was once selectively logged, while the reduction in the midstorey was 33% and at ground level, 30%. There were also significant differences in species diversity and community evenness. Species diversity and community evenness were different between all three vertical strata within past logged regenerating forest, but regenerating forest that was cleared in the past didn’t show any difference in species diversity or community evenness between understorey and midstorey communities. Although abundance was lower across all three strata in past cleared regenerating forest when compared to past logged regenerating forest, the pattern remained the same, with both areas differing in abundances between all three vertical strata. We show that butterfly communities within a regenerating tropical forest displayed many marked differences between vertical strata, with species richness, species diversity, species abundance and community evenness all differing significantly. The understorey community was the most biodiverse, followed by the midstorey and finally, the canopy community displayed the lowest species richness, diversity and abundance. The canopy also displayed less evenly balanced community evenness. Our results also show for the first time, that even long term regeneration (over the course of 30 years) was insufficient to erase differences in butterfly biodiversity linked to different types of past human disturbance.</p> 
+      <p>The general pattern of biodiversity differences between vertical levels in this study showed that the butterfly fauna was greatest terrestrially (in terms of both overall species richness and for exclusive species), followed by the midstorey and finally, the canopy; a result in contrast with DeVries et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref004">
+        4
+       </xref>] and Ribeiro and Freitas [
+       <xref ref-type="bibr" rid="pone.0150520.ref015">
+        15
+       </xref>]. Although DeVries et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref004">
+        4
+       </xref>] found estimated canopy species richness to be highest, DeVries and Walla [
+       <xref ref-type="bibr" rid="pone.0150520.ref017">
+        17
+       </xref>] subsequently showed that accumulation of species was faster in the canopy over short-term assessments, but that understorey communities displayed higher species richness given longer-term sampling. As such, long-term studies like ours, which account for annual variation [
+       <xref ref-type="bibr" rid="pone.0150520.ref012">
+        12
+       </xref>], should provide more complete outcomes related to lepidopteran biodiversity across strata [
+       <xref ref-type="bibr" rid="pone.0150520.ref016">
+        16
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0150520.ref023">
+        23
+       </xref>]. We therefore conclude that the pattern we show, of higher butterfly species richness in the understorey strata, is unlikely to be driven by seasonal differences. Further, survey coverage within this study was overall very high, with 84% (±2.65) of estimated species detected over 2160 trap-days; higher than many previous studies, including for example, the detailed study by Ribeiro et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref024">
+        24
+       </xref>]. Ribeiro et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref024">
+        24
+       </xref>] found that 1435 trap-days in Central Amazonian forest detected 74% of butterfly fauna. We also show that within vertical strata (720 trap-days per level), coverage was high, with 77% (±2.0) for the understorey community, 70.33% (±1.2) for the midstorey community and 66% (±4.93) for the canopy community. Although this suggests that different survey effort may be required in order to equally assess biodiversity patterns between strata, coverage was still high for all strata within this study, and it is therefore unlikely that our results were driven by insufficient survey effort.</p> 
+      <p>This study was deliberately designed to investigate biodiversity differences over a small scale (~800ha), so that any differences detected could be more clearly linked to past disturbance type and not due to differences in the landscape more generally. Over a small scale, butterflies can move easily and select between regenerating areas previously subjected to different types of disturbance, so we can be confident that differences were not due to larger patterns of heterogeneity that are often present in landscape ecology scale studies [
+       <xref ref-type="bibr" rid="pone.0150520.ref016">
+        16
+       </xref>]. Landscape studies in which survey areas are kept spatially separate, often &gt;10km apart (e.g. [
+       <xref ref-type="bibr" rid="pone.0150520.ref064">
+        64
+       </xref>]), address questions over much larger regions and seek to include the effects of natural heterogeneity due to locality differences in climate, soil types and general topography, so that these effects can be investigated. In contrast, in order to answer specific questions about differences between one type of treatment and another, as in the case of on-trail vs. off-trail [
+       <xref ref-type="bibr" rid="pone.0150520.ref065">
+        65
+       </xref>], near to a road vs. far from a road [
+       <xref ref-type="bibr" rid="pone.0150520.ref059">
+        59
+       </xref>], or high altitude vs. lower altitude [
+       <xref ref-type="bibr" rid="pone.0150520.ref066">
+        66
+       </xref>], a within-site scale approach of the type we adopted here is often more desirable; as it eliminates large scale drivers of heterogeneity. One potential complication of a small spatial scale is that transient species may enter adjacent treatment types temporarily [
+       <xref ref-type="bibr" rid="pone.0150520.ref016">
+        16
+       </xref>]. Individuals may therefore not necessarily be able to survive in a given habitat where detected, but risk being recorded. However, in this study, this is true of all three disturbance types and as such, should not significantly affect the detection of overall differences in biodiversity patterns between disturbance areas. As this study used a natural experiment approach, we followed the recommendations of Ramage et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref060">
+        60
+       </xref>] for avoiding potential pseudo-replication problems in tropical forest ecology. This was achieved by including environmental factors in the analytical models, and examining whether spatial autocorrelation of the sampling locations could be driving the biodiversity patterns detected. Our autocorrelation analysis confirmed that biodiversity patterns detected were not being driven by spatial autocorrelation.</p> 
+      <p>Our results therefore provide evidence that two common land uses within the cultural zone of the Manu Biosphere Reserve (and common in rainforest ecosystems more generally) display different potential to sustain levels of butterfly biodiversity, despite a significant time for natural regeneration (&gt;30 years). The forest that was once selectively logged, for the removal of commercially valuable hardwood trees, displayed higher levels of biodiversity than forests that were once cleared for agriculture. Even small changes in rainforest vegetation structure have been shown to create significant changes to biodiversity [
+       <xref ref-type="bibr" rid="pone.0150520.ref067">
+        67
+       </xref>], and considering that butterflies are known to be sensitive to forest disturbance [
+       <xref ref-type="bibr" rid="pone.0150520.ref026">
+        26
+       </xref>], largely through the association with specific food plants [
+       <xref ref-type="bibr" rid="pone.0150520.ref027">
+        27
+       </xref>], it seems likely that this relates to the significant difference in butterfly biodiversity between the regenerating areas in this study.</p> 
+      <p>The differences we have shown in the responses of butterfly biodiversity at different vertical levels in this regenerating rainforest contribute to a growing body of evidence, that canopy dwelling species are likely under greater threat than other communities due to anthropogenic habitat change [
+       <xref ref-type="bibr" rid="pone.0150520.ref007">
+        7
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0150520.ref013">
+        13
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0150520.ref024">
+        24
+       </xref>]. Although not specifically assessed within areas subjected to different previous disturbance, other invertebrates [
+       <xref ref-type="bibr" rid="pone.0150520.ref003">
+        3
+       </xref>]; including ants and dung beetles, have been shown to display increased sensitivity to human disturbance in the canopy [
+       <xref ref-type="bibr" rid="pone.0150520.ref007">
+        7
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0150520.ref013">
+        13
+       </xref>]. It therefore seems likely that other groups, yet to be assessed, may be similarly affected. For vertebrates, fruit bats from Malaysian rainforest showed species diversity and capture rates (100 times greater) to be higher in the arboreal strata [
+       <xref ref-type="bibr" rid="pone.0150520.ref010">
+        10
+       </xref>], and as such, it was suggested they would be severely affected by habitat modification of the canopy [
+       <xref ref-type="bibr" rid="pone.0150520.ref007">
+        7
+       </xref>]. Together, these results suggest that we need to improve our understanding of how canopy and arboreal biodiversity respond to human disturbance if we are to have an accurate understanding of the conservation value of disturbed forests, especially if we aim to develop appropriate management strategies for, both human and naturally, disturbed tropical forests. Further significant impacts upon arboreal species could subsequently negatively affect natural forest regeneration processes, especially considering the key role of many canopy dwelling specialists as rainforest pollinators and seed dispersers [
+       <xref ref-type="bibr" rid="pone.0150520.ref024">
+        24
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0150520.ref068">
+        68
+       </xref>,
+       <xref ref-type="bibr" rid="pone.0150520.ref069">
+        69
+       </xref>]. We suggest future research should aim to assess these patterns more widely, and determine the impact of habitat change at different vertical strata for a variety of taxa. This is especially true for vertebrate groups such as amphibians, birds, mammals and reptiles, which to date remain largely understudied [
+       <xref ref-type="bibr" rid="pone.0150520.ref068">
+        68
+       </xref>].</p> 
+      <p>To our knowledge, only this study and Fermon et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref018">
+        18
+       </xref>], consider the effects of habitat change upon biodiversity at more than two vertical levels. Had we utilised only understorey and canopy traps and not included the midstorey, we could not have detected the degrees of difference between vertical strata of once cleared forest. Both Fermon et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref018">
+        18
+       </xref>] (working on butterfly assemblages in natural forests of Indonesia) and this study, show clear differences in species diversity and community structure between vertical strata; but Fermon et al. [
+       <xref ref-type="bibr" rid="pone.0150520.ref018">
+        18
+       </xref>] found the stratification that was evident in the primary forest, was no longer pronounced in the regenerating recently abandoned human disturbed forest. However, we found that even though the stratification was pronounced in our long term regenerating low disturbance area (previously selectively logged), although less distinct (between understorey and midstorey) in the area with the most pronounced past human disturbance type (previously clear-felled), there was still a significant difference between the two lower strata in comparison to the upper canopy. Further assessments across multiple sites and regions could determine if the findings from this case study are a general pattern within regenerating forests recovering from different types of previous disturbance.</p> 
+      <p>We suggest that future studies assessing vertical biodiversity patterns should assess more strata than only understorey and upper canopy communities. Rainforests are structurally complex and floristically diverse three-dimensional environments, from the ground, to the herb and shrub layer, to the lower and upper canopy, right through to the emergent trees above the canopy itself [
+       <xref ref-type="bibr" rid="pone.0150520.ref069">
+        69
+       </xref>]. Understanding biodiversity patterns for a variety of taxa, across a number of vertical strata, will be important for effective conservation decision making about the value of regenerating rainforest. If coupled with detailed assessments of how human-caused rainforest disturbance differentially impacts vertical environments of tropical forests, conservation managers and decision makers will be better informed as to which forests are most important for biodiversity conservation.</p> 
+      <sec id="sec012"> 
+       <title>Ethical statement</title> 
+       <p>The Ministerio de Agricultura of Peru provided the permit to conduct research at the Manu Learning Centre in Peru, which involved the trapping and handling of butterflies for this study (Permit provided by the Ministerio de Agricultura of Peru; Permit Number ‘Codigo de Tramite’: 25397; Authorisation Number ‘Autorización No.’ 2904-2012-AG-DGFFS-DGEFFS). Once species codes were assigned and photographs were taken to aid further identification, all individuals were later released; therefore no species of protected status were collected.</p> 
+      </sec> 
+     </fig>
+    </sec> 
+    <sec id="sec013"> 
+     <title>Supporting Information</title> 
+     <supplementary-material id="pone.0150520.s001" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s001" xlink:type="simple"> 
+      <label>S1 Fig</label>  
+      <title>Matrix plot of factor scores for each of the three factors across survey sites, based upon the factor analysis of vegetation survey data.</title> 
+      <p>(TIF)</p>  
+     </supplementary-material> 
+     <supplementary-material id="pone.0150520.s002" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s002" xlink:type="simple"> 
+      <label>S2 Fig</label>  
+      <title>Average individuals per survey site of overall, understorey, midstorey and canopy strata of butterflies in regenerating rainforest with different disturbance histories, with standard error mean bars.</title> 
+      <p>(TIF)</p>  
+     </supplementary-material> 
+     <supplementary-material id="pone.0150520.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s003" xlink:type="simple"> 
+      <label>S3 Fig</label>  
+      <title></title> &lt;p&gt;&lt;bold&gt;Dominance-diversity (Whittaker) plots for understorey, midstorey and canopy butterfly communities in regenerating rainforest with different disturbance histories; (a) overall, (b) understorey, (c) midstorey and (d) canopy.&lt;/bold&gt; Species are represented by points. For each habitat the relative abundance of each species (ni/N) was plotted on a logarithmic scale against the species rank ordered from most to least abundant. O = SLR–previously selective logged, regenerating forest, Δ = CCR–previously cleared, regenerating forest. Linear models were used to determine if the slopes of SLR and CCR were significantly different, where ΔG denotes to absolute change in gradient from the predicted line for past selectively logged forest and the symbol denote the level of significance of the deviation where *** = &lt;0.001, ** = &lt;0.01, * = &lt;0.05 and blank = not significant.&lt;/p&gt; &lt;p&gt;(TIF)&lt;/p&gt; &lt;/caption&gt; &lt;/supplementary-material&gt; &lt;supplementary-material id="pone.0150520.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s004" xlink:type="simple"&gt; &lt;label&gt;S1 Table&lt;/label&gt; &lt;caption&gt; &lt;title&gt;Candidate models explaining variation in estimated species richness, Shannon diversity and abundance of butterflies, ranked according to increasing value of delta AICc. 
+      <p>See 
+       <xref ref-type="supplementary-material" rid="pone.0150520.s007">
+        S2 Text
+       </xref> for top model averaged co-efficients. df = degrees of freedom; logLik = maximum log likelihood; delta AICc = AICci–AICcmin and weight = Akaike weights; + = inclusion within a given model.</p> 
+      <p>(DOCX)</p>  
+     </supplementary-material> 
+     <supplementary-material id="pone.0150520.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s005" xlink:type="simple"> 
+      <label>S2 Table</label>  
+      <title></title> &lt;p&gt;&lt;bold&gt;Beta similarity;&lt;/bold&gt; measurements between strata for Morisita-Horn and Chao-Jaccard Estimated Abundance measures.&lt;/p&gt; &lt;p&gt;(DOCX)&lt;/p&gt; &lt;/caption&gt; &lt;/supplementary-material&gt; &lt;supplementary-material id="pone.0150520.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s006" xlink:type="simple"&gt; &lt;label&gt;S1 Text&lt;/label&gt; &lt;caption&gt; &lt;title&gt;Factor analysis outputs of the vegetation mapping data across butterfly survey sites. 
+      <p>(DOCX)</p>  
+     </supplementary-material> 
+     <supplementary-material id="pone.0150520.s007" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s007" xlink:type="simple"> 
+      <label>S2 Text</label>  
+      <title>Top model averaged coefficients (with shrinkage).</title> 
+      <p>(DOCX)</p>  
+     </supplementary-material> 
+     <supplementary-material id="pone.0150520.s008" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s008" xlink:type="simple"> 
+      <label>S3 Text</label>  
+      <title>Moran’s index test results for spatio-autocorrelation; carried out on model residuals from the selected model for each response variable tested.</title> 
+      <p>(DOCX)</p>  
+     </supplementary-material> 
+     <supplementary-material id="pone.0150520.s009" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150520.s009" xlink:type="simple"> 
+      <label>S4 Text</label>  
+      <title>Checklist of species detected.</title> 
+      <p>(DOCX)</p>  
+     </supplementary-material> 
+    </sec>  
+    <back> 
+     <ack> 
+      <p>We first of all thank the Crees Foundation (
+       <ext-link ext-link-type="uri" xlink:href="http://www.crees-manu.org/" xlink:type="simple">
+        www.crees-manu.org
+       </ext-link>) and its director Quinn Meyer for supporting this research as part of their conservation and biodiversity monitoring programme, and also the University of Glasgow for supporting field work conducted at the Manu Learning Centre. We gratefully acknowledge the financial support and encouragement of the TJMF Foundation, who provided crucial support for this work through their Amazon Research Programme grant to the University of Glasgow. Thanks to the Darwin Initiative for financial support of the Sustainable Manu project, a collaborative initiative between the Crees Foundation and The University of Glasgow that supported this research. Thanks to Laura Dominie Braunholtz and Lawrence Whittaker for putting together the identification guide and for working on so many species identifications. Thanks to Lepidoptera expert Gerardo Lamas from the Department of Entomology at the Natural History Museum of San Marcos in Lima for reviewing and verifying the species identification guide created. Finally, thanks to Freerk Molleman, Jasmine Rowe and one other anonymous reviewer for providing comments to improve the final quality of this manuscript.</p> 
+     </ack> 
+     <ref-list> 
+      <title>References</title> 
+      <ref id="pone.0150520.ref001">
+       <label>1</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Gardner
+         </surname> 
+         <given-names>
+          TA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Barlow
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chazdon
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ewers
+         </surname> 
+         <given-names>
+          RM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Harvey
+         </surname> 
+         <given-names>
+          CA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Peres
+         </surname> 
+         <given-names>
+          CA
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Prospects for tropical forest biodiversity in a human‐modified world
+        </article-title>. 
+        <source>Ecol Lett, 
+        <year>
+         2009
+        </year>; 
+        <volume>
+         12
+        </volume>(
+        <issue>
+         6
+        </issue>): 
+        <fpage>
+         561
+        </fpage>–
+        <lpage>
+         582
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         19504750
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref002">
+       <label>2</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Gibson
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lee
+         </surname> 
+         <given-names>
+          TM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Koh
+         </surname> 
+         <given-names>
+          LP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Brook
+         </surname> 
+         <given-names>
+          BW
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Gardner
+         </surname> 
+         <given-names>
+          TA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Barlow
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Primary forests are irreplaceable for sustaining tropical biodiversity
+        </article-title>. 
+        <source>Nature, 
+        <year>
+         2011
+        </year>; 
+        <volume>
+         478
+        </volume>(
+        <issue>
+         7369
+        </issue>): 
+        <fpage>
+         378
+        </fpage>–
+        <lpage>
+         381
+        </lpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature10425" xlink:type="simple">
+          10.1038/nature10425
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         21918513
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref003">
+       <label>3</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Basset
+         </surname> 
+         <given-names>
+          Y
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Cizek
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Cuénoud
+         </surname> 
+         <given-names>
+          P
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Didham
+         </surname> 
+         <given-names>
+          RK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Novotny
+         </surname> 
+         <given-names>
+          V
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ødegaard
+         </surname> 
+         <given-names>
+          F
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. (
+        <year>
+         2015
+        </year>). 
+        <article-title>
+         Arthropod Distribution in a Tropical Rainforest: Tackling a Four Dimensional Puzzle
+        </article-title>. 
+        <source>PloS one, 
+        <volume>
+         10
+        </volume>(
+        <issue>
+         12
+        </issue>), 
+        <fpage>
+         e0144110
+        </fpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0144110" xlink:type="simple">
+          10.1371/journal.pone.0144110
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         26633187
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref004">
+       <label>4</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          DeVries
+         </surname> 
+         <given-names>
+          PJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Murray
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lande
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>. 
+        <article-title>
+         Species diversity in vertical, horizontal, and temporal dimensions of a fruit‐feeding butterfly community in an Ecuadorian rainforest
+        </article-title>. 
+        <source>Biol J Linn Soc Lond, 
+        <year>
+         1997
+        </year>; 
+        <volume>
+         62
+        </volume>(
+        <issue>
+         3
+        </issue>): 
+        <fpage>
+         343
+        </fpage>–
+        <lpage>
+         364
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref005">
+       <label>5</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Dumbrell
+         </surname> 
+         <given-names>
+          AJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Hill
+         </surname> 
+         <given-names>
+          JK
+         </given-names>
+        </name>. 
+        <article-title>
+         Impacts of selective logging on canopy and ground assemblages of tropical forest butterflies: implications for sampling
+        </article-title>. 
+        <source>Biol Conserv, 
+        <year>
+         2005
+        </year>; 
+        <volume>
+         125
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         123
+        </fpage>–
+        <lpage>
+         131
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref006">
+       <label>6</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Maguire
+         </surname> 
+         <given-names>
+          DY
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Robert
+         </surname> 
+         <given-names>
+          K
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Brochu
+         </surname> 
+         <given-names>
+          K
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Larrivée
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Buddle
+         </surname> 
+         <given-names>
+          CM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wheeler
+         </surname> 
+         <given-names>
+          TA
+         </given-names>
+        </name>. 
+        <article-title>
+         Vertical Stratification of Beetles (Coleoptera) and Flies (Diptera) in Temperate Forest Canopies
+        </article-title>. 
+        <source>Environ entomol, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         43
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         9
+        </fpage>–
+        <lpage>
+         17
+        </lpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1603/EN13056" xlink:type="simple">
+          10.1603/EN13056
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         24472199
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref007">
+       <label>7</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Tregidgo
+         </surname> 
+         <given-names>
+          DJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Qie
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Barlow
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sodhi
+         </surname> 
+         <given-names>
+          NS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lim
+         </surname> 
+         <given-names>
+          SLH
+         </given-names>
+        </name>. 
+        <article-title>
+         Vertical stratification responses of an arboreal dung beetle species to tropical forest fragmentation in Malaysia
+        </article-title>. 
+        <source>Biotropica, 
+        <year>
+         2010
+        </year>; 
+        <volume>
+         42
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         521
+        </fpage>–
+        <lpage>
+         525
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref008">
+       <label>8</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Haefke
+         </surname> 
+         <given-names>
+          BJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Spiers
+         </surname> 
+         <given-names>
+          AI
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Miller
+         </surname> 
+         <given-names>
+          WR
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lowman
+         </surname> 
+         <given-names>
+          MD
+         </given-names>
+        </name>. 
+        <article-title>
+         Tardigrades in the canopy: Using double rope techniques to conduct sampling along vertical transects
+        </article-title>. 
+        <source>Trans Kans Acad Sci, 
+        <year>
+         2013
+        </year>; 
+        <volume>
+         116
+        </volume>(
+        <issue>
+         3–4
+        </issue>): 
+        <fpage>
+         119
+        </fpage>–
+        <lpage>
+         124
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref009">
+       <label>9</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Robbins
+         </surname> 
+         <given-names>
+          RK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lamas
+         </surname> 
+         <given-names>
+          G
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Mielke
+         </surname> 
+         <given-names>
+          OHH
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Harvey
+         </surname> 
+         <given-names>
+          DJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Casagrande
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>. 
+        <chapter-title>
+         Taxonomic composition and ecological structure of the species-rich butterfly community at Pakitza, Parque Nacional del Manu, Peru
+        </chapter-title>. 
+        <source>Manu: The biodiversity of Southeastern Peru. 
+        <publisher-name>
+         Smithsonian Institution Press
+        </publisher-name>, 
+        <publisher-loc>
+         Washington DC
+        </publisher-loc>, 
+        <year>
+         1996
+        </year>; 
+        <fpage>
+         217
+        </fpage>–
+        <lpage>
+         252
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref010">
+       <label>10</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Francis
+         </surname> 
+         <given-names>
+          CM
+         </given-names>
+        </name>. 
+        <article-title>
+         Vertical stratification of fruit bats (Pteropodidae) in lowland dipterocarp rainforest in Malaysia
+        </article-title>. 
+        <source>J Trop Ecol, 
+        <year>
+         1994
+        </year>; 
+        <volume>
+         10
+        </volume>(
+        <issue>
+         4
+        </issue>): 
+        <fpage>
+         523
+        </fpage>–
+        <lpage>
+         530
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref011">
+       <label>11</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Walther
+         </surname> 
+         <given-names>
+          BA
+         </given-names>
+        </name>. 
+        <article-title>
+         Vertical stratification and use of vegetation and light habitats by Neotropical forest birds
+        </article-title>. 
+        <source>Journal für Ornithologie, 
+        <year>
+         2002
+        </year>; 
+        <volume>
+         143
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         64
+        </fpage>–
+        <lpage>
+         81
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref012">
+       <label>12</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Aduse‐Poku
+         </surname> 
+         <given-names>
+          K
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          William
+         </surname> 
+         <given-names>
+          O
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Oppong
+         </surname> 
+         <given-names>
+          SK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Larsen
+         </surname> 
+         <given-names>
+          T
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ofori‐Boateng
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Molleman
+         </surname> 
+         <given-names>
+          F
+         </given-names>
+        </name>. (
+        <year>
+         2012
+        </year>). 
+        <article-title>
+         Spatial and temporal variation in butterfly biodiversity in a West African forest: lessons for establishing efficient rapid monitoring programmes
+        </article-title>. 
+        <source>African Journal of Ecology, 
+        <volume>
+         50
+        </volume>(
+        <issue>
+         3
+        </issue>), 
+        <fpage>
+         326
+        </fpage>–
+        <lpage>
+         334
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref013">
+       <label>13</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Klimes
+         </surname> 
+         <given-names>
+          P
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Idigel
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Rimandai
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Fayle
+         </surname> 
+         <given-names>
+          TM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Janda
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Weiblen
+         </surname> 
+         <given-names>
+          GD
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Why are there more arboreal ant species in primary than in secondary tropical forests?
+        </article-title>. 
+        <source>J Anim Ecol, 
+        <year>
+         2012
+        </year>; 
+        <volume>
+         81
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         1103
+        </fpage>–
+        <lpage>
+         1112
+        </lpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2656.2012.02002.x" xlink:type="simple">
+          10.1111/j.1365-2656.2012.02002.x
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         22642689
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref014">
+       <label>14</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          de Faria Lopes
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Vale
+         </surname> 
+         <given-names>
+          VS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Schiavini
+         </surname> 
+         <given-names>
+          I
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Júnior
+         </surname> 
+         <given-names>
+          JAP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Oliveira
+         </surname> 
+         <given-names>
+          AP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Arantes
+         </surname> 
+         <given-names>
+          CS
+         </given-names>
+        </name>. 
+        <article-title>
+         Canopy stratification in tropical seasonal forests: how the functional traits of community change among the layers
+        </article-title>. 
+        <source>Bioscience Journal, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         30
+        </volume>(
+        <issue>
+         5
+        </issue>).
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref015">
+       <label>15</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ribeiro
+         </surname> 
+         <given-names>
+          DB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Freitas
+         </surname> 
+         <given-names>
+          AV
+         </given-names>
+        </name>. 
+        <article-title>
+         The effect of reduced-impact logging on fruit-feeding butterflies in Central Amazon
+        </article-title>, 
+        <source>Brazil. Journal of Insect Conservation, 
+        <year>
+         2012
+        </year>; 
+        <volume>
+         16
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         733
+        </fpage>–
+        <lpage>
+         744
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref016">
+       <label>16</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Barlow
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Gardner
+         </surname> 
+         <given-names>
+          TA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Araujo
+         </surname> 
+         <given-names>
+          IS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ávila-Pires
+         </surname> 
+         <given-names>
+          TC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Bonaldo
+         </surname> 
+         <given-names>
+          AB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Costa
+         </surname> 
+         <given-names>
+          JE
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Quantifying the biodiversity value of tropical primary, secondary, and plantation forests
+        </article-title>. 
+        <source>Proc Natl Acad Sci, 
+        <year>
+         2007
+        </year>; 
+        <volume>
+         104
+        </volume>(
+        <issue>
+         47
+        </issue>): 
+        <fpage>
+         18555
+        </fpage>–
+        <lpage>
+         18560
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         18003934
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref017">
+       <label>17</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          DeVries
+         </surname> 
+         <given-names>
+          PJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Walla
+         </surname> 
+         <given-names>
+          TR
+         </given-names>
+        </name>. 
+        <article-title>
+         Species diversity and community structure in neotropical fruit‐feeding butterflies
+        </article-title>. 
+        <source>Biol J Linn Soc Lond, 
+        <year>
+         2001
+        </year>; 
+        <volume>
+         74
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         1
+        </fpage>–
+        <lpage>
+         15
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref018">
+       <label>18</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Fermon
+         </surname> 
+         <given-names>
+          H
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Waltert
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Vane-Wright
+         </surname> 
+         <given-names>
+          RI
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Mühlenberg
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>. 
+        <article-title>
+         Forest use and vertical stratification in fruit-feeding butterflies of Sulawesi, Indonesia: impacts for conservation
+        </article-title>. 
+        <source>Biodivers Conserv, 
+        <year>
+         2005
+        </year>; 
+        <volume>
+         14
+        </volume>(
+        <issue>
+         2
+        </issue>), 
+        <fpage>
+         333
+        </fpage>–
+        <lpage>
+         350
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref019">
+       <label>19</label>
+       <mixed-citation publication-type="other" xlink:type="simple">
+        FAO—The Global Forest Resources Assessment. 2010; Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/forestry/fra/fra2010/en/" xlink:type="simple">
+         http://www.fao.org/forestry/fra/fra2010/en/
+        </ext-link>. Accessed March 2013.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref020">
+       <label>20</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Gardner
+         </surname> 
+         <given-names>
+          T
+         </given-names>
+        </name>. 
+        <chapter-title>
+         Monitoring Forest Biodiversity: improving conservation through ecologically responsible management
+        </chapter-title>. 
+        <year>
+         2012
+        </year>; 
+        <publisher-name>
+         Routledge
+        </publisher-name>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref021">
+       <label>21</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Edwards
+         </surname> 
+         <given-names>
+          DP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Tobias
+         </surname> 
+         <given-names>
+          JA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sheil
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Meijaard
+         </surname> 
+         <given-names>
+          E
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Laurance
+         </surname> 
+         <given-names>
+          WF
+         </given-names>
+        </name>. 
+        <article-title>
+         Maintaining ecosystem function and services in logged tropical forests
+        </article-title>. 
+        <source>Trends Ecol Evol, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         29
+        </volume>(
+        <issue>
+         9
+        </issue>): 
+        <fpage>
+         511
+        </fpage>–
+        <lpage>
+         520
+        </lpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tree.2014.07.003" xlink:type="simple">
+          10.1016/j.tree.2014.07.003
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         25092495
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref022">
+       <label>22</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Letcher
+         </surname> 
+         <given-names>
+          SG
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chazdon
+         </surname> 
+         <given-names>
+          RL
+         </given-names>
+        </name>. 
+        <article-title>
+         Rapid recovery of biomass, species richness, and species composition in a forest chronosequence in northeastern Costa Rica
+        </article-title>. 
+        <source>Biotropica, 
+        <year>
+         2009
+        </year>; 
+        <volume>
+         41
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         608
+        </fpage>–
+        <lpage>
+         617
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref023">
+       <label>23</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          de la Peña-Domene
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Martínez-Garza
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Palmas-Pérez
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Rivas-Alonso
+         </surname> 
+         <given-names>
+          E
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Howe
+         </surname> 
+         <given-names>
+          HF
+         </given-names>
+        </name>. 
+        <article-title>
+         Roles of birds and bats in early tropical-forest restoration
+        </article-title>. 
+        <source>PloS one, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         9
+        </volume>(
+        <issue>
+         8
+        </issue>): 
+        <fpage>
+         e104656
+        </fpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0104656" xlink:type="simple">
+          10.1371/journal.pone.0104656
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         25118608
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref024">
+       <label>24</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ribeiro
+         </surname> 
+         <given-names>
+          DB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Williams
+         </surname> 
+         <given-names>
+          MR
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Specht
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Freitas
+         </surname> 
+         <given-names>
+          AV
+         </given-names>
+        </name>. 
+        <article-title>
+         Vertical and temporal variability in the probability of detection of fruit‐feeding butterflies and moths (Lepidoptera) in tropical forest
+        </article-title>. 
+        <source>Aus Entomol. 
+        <year>
+         2015
+        </year>; 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/aen.12157" xlink:type="simple">
+          10.1111/aen.12157
+         </ext-link>
+        </comment>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref025">
+       <label>25</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Bonebrake
+         </surname> 
+         <given-names>
+          TC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ponisio
+         </surname> 
+         <given-names>
+          LC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Boggs
+         </surname> 
+         <given-names>
+          CL
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ehrlich
+         </surname> 
+         <given-names>
+          PR
+         </given-names>
+        </name>. 
+        <article-title>
+         More than just indicators: a review of tropical butterfly ecology and conservation
+        </article-title>. 
+        <source>Biol Conserv, 
+        <year>
+         2010
+        </year>; 
+        <volume>
+         143
+        </volume>(
+        <issue>
+         8
+        </issue>): 
+        <fpage>
+         1831
+        </fpage>–
+        <lpage>
+         1841
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref026">
+       <label>26</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hamer
+         </surname> 
+         <given-names>
+          KC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Hill
+         </surname> 
+         <given-names>
+          JK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Benedick
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Mustaffa
+         </surname> 
+         <given-names>
+          N
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sherratti
+         </surname> 
+         <given-names>
+          TN
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Maryati
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Ecology of butterflies in natural and selectively logged forests of northern Borneo: the importance of habitat heterogeneity
+        </article-title>. 
+        <source>J Appl Ecol, 
+        <year>
+         2003
+        </year>; 
+        <volume>
+         40
+        </volume>: 
+        <fpage>
+         150
+        </fpage>–
+        <lpage>
+         162
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref027">
+       <label>27</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Horner-Devine
+         </surname> 
+         <given-names>
+          MC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Daily
+         </surname> 
+         <given-names>
+          GC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ehrlich
+         </surname> 
+         <given-names>
+          PR
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Boggs
+         </surname> 
+         <given-names>
+          CI
+         </given-names>
+        </name>. 
+        <article-title>
+         Countryside biogeography of tropical butterflies
+        </article-title>. 
+        <source>Conserv Biol 
+        <year>
+         2003
+        </year>; 
+        <volume>
+         17
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         168
+        </fpage>–
+        <lpage>
+         177
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref028">
+       <label>28</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Devy
+         </surname> 
+         <given-names>
+          MS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Davidar
+         </surname> 
+         <given-names>
+          P
+         </given-names>
+        </name>. 
+        <article-title>
+         Response of wet forest butterflies to selective logging in Kalakad-mundanthurai tiger reserve: implications for conservation
+        </article-title>. 
+        <source>Curr Sci, 
+        <year>
+         2001
+        </year>; 
+        <volume>
+         80
+        </volume>(
+        <issue>
+         3
+        </issue>): 
+        <fpage>
+         400
+        </fpage>–
+        <lpage>
+         405
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref029">
+       <label>29</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Kudavidanage
+         </surname> 
+         <given-names>
+          EP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wanger
+         </surname> 
+         <given-names>
+          TC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Alwis
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sanjeewa
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Kotagama
+         </surname> 
+         <given-names>
+          SW
+         </given-names>
+        </name>. 
+        <article-title>
+         Amphibian and butterfly diversity across a tropical land‐use gradient in Sri Lanka; implications for conservation decision making
+        </article-title>. 
+        <source>Anim Conserv, 
+        <year>
+         2012
+        </year>; 
+        <volume>
+         15
+        </volume>(
+        <issue>
+         3
+        </issue>): 
+        <fpage>
+         253
+        </fpage>–
+        <lpage>
+         265
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref030">
+       <label>30</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Lewis
+         </surname> 
+         <given-names>
+          OT
+         </given-names>
+        </name>. 
+        <article-title>
+         Effect of experimental selective logging on tropical butterflies
+        </article-title>. 
+        <source>Conserv Biol, 
+        <year>
+         2001
+        </year>; 
+        <volume>
+         15
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         389
+        </fpage>–
+        <lpage>
+         400
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref031">
+       <label>31</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Posa
+         </surname> 
+         <given-names>
+          MRC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sodhi
+         </surname> 
+         <given-names>
+          NS
+         </given-names>
+        </name>. 
+        <article-title>
+         Effects of anthropogenic land use on forest birds and butterflies in Subic Bay, Philippines
+        </article-title>. 
+        <source>Biol Conserv, 
+        <year>
+         2006
+        </year>; 
+        <volume>
+         129
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         256
+        </fpage>–
+        <lpage>
+         270
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref032">
+       <label>32</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Bowen
+         </surname> 
+         <given-names>
+          ME
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          McAlpine
+         </surname> 
+         <given-names>
+          CA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          House
+         </surname> 
+         <given-names>
+          AP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Smith
+         </surname> 
+         <given-names>
+          GC
+         </given-names>
+        </name>. 
+        <article-title>
+         Regrowth forests on abandoned agricultural land: a review of their habitat values for recovering forest fauna
+        </article-title>. 
+        <source>Bioll Conserv, 
+        <year>
+         2007
+        </year>; 
+        <volume>
+         140
+        </volume>(
+        <issue>
+         3
+        </issue>): 
+        <fpage>
+         273
+        </fpage>–
+        <lpage>
+         296
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref033">
+       <label>33</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Whitworth
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Downie
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          von May
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Villacampa
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          MacLeod
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>. (
+        <year>
+         2016
+        </year>) 
+        <article-title>
+         A second chance to conserve? A multi-taxa assessment of the biodiversity and conservation value of a regenerating rainforest
+        </article-title>. (in press) 
+        <source>Tropical Conservation Science. In press.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref034">
+       <label>34</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ross
+         </surname> 
+         <given-names>
+          KA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Fox
+         </surname> 
+         <given-names>
+          BJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Fox
+         </surname> 
+         <given-names>
+          MD
+         </given-names>
+        </name>. (
+        <year>
+         2002
+        </year>). 
+        <article-title>
+         Changes to plant species richness in forest fragments: fragment age, disturbance and fire history may be as important as area
+        </article-title>. 
+        <source>Journal of Biogeography, 
+        <volume>
+         29
+        </volume>(
+        <issue>
+         5‐6
+        </issue>), 
+        <fpage>
+         749
+        </fpage>–
+        <lpage>
+         765
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref035">
+       <label>35</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Affre
+         </surname> 
+         <given-names>
+          L
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Suehs
+         </surname> 
+         <given-names>
+          CM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Charpentier
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Vila
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Brund
+         </surname> 
+         <given-names>
+          G
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lambdon
+         </surname> 
+         <given-names>
+          P
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Consistency in the habitat degree of invasion for three invasive plant species across Mediterranean islands
+        </article-title>. 
+        <source>Biol Invasions, 
+        <year>
+         2010
+        </year>; 
+        <volume>
+         12
+        </volume>(
+        <issue>
+         8
+        </issue>): 
+        <fpage>
+         2537
+        </fpage>–
+        <lpage>
+         2548
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref036">
+       <label>36</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Beirne
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Burdekin
+         </surname> 
+         <given-names>
+          O
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Whitworth
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>. 
+        <article-title>
+         Herpetofaunal responses to anthropogenic habitat change within a small forest reserve in Eastern Ecuador
+        </article-title>. 
+        <source>The Herpetological Journal, 
+        <year>
+         2013
+        </year>; 
+        <volume>
+         23
+        </volume>(
+        <issue>
+         4
+        </issue>): 
+        <fpage>
+         209
+        </fpage>–
+        <lpage>
+         209
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref037">
+       <label>37</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hilje
+         </surname> 
+         <given-names>
+          B
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Aide
+         </surname> 
+         <given-names>
+          MT
+         </given-names>
+        </name>. 
+        <article-title>
+         Recovery of amphibian species richness and composition in a chronosequence of secondary forests, northeastern Costa Rica
+        </article-title>. 
+        <source>Biol Conserv, 
+        <year>
+         2012
+        </year>; 
+        <volume>
+         146
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         170
+        </fpage>–
+        <lpage>
+         176
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref038">
+       <label>38</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hulbert
+         </surname> 
+         <given-names>
+          SH
+         </given-names>
+        </name>. 
+        <article-title>
+         Pseudoreplication and the design of ecological field experiments
+        </article-title>. 
+        <source>Ecol Monogr, 
+        <year>
+         1984
+        </year>; 
+        <volume>
+         54
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         187
+        </fpage>–
+        <lpage>
+         211
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref039">
+       <label>39</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Austin
+         </surname> 
+         <given-names>
+          GT
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Riley
+         </surname> 
+         <given-names>
+          TJ
+         </given-names>
+        </name>. 
+        <article-title>
+         Portable bait traps for the study of butterflies
+        </article-title>. 
+        <source>Trop Lepid, 
+        <year>
+         1995
+        </year>; 
+        <volume>
+         6
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         5
+        </fpage>–
+        <lpage>
+         9
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref040">
+       <label>40</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hall
+         </surname> 
+         <given-names>
+          JP
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Willmott
+         </surname> 
+         <given-names>
+          KR
+         </given-names>
+        </name>. 
+        <article-title>
+         Patterns of feeding behaviour in adult male riodinid butterflies and their relationship to morphology and ecology
+        </article-title>. 
+        <source>Bioll J Linn Soc, 
+        <year>
+         2000
+        </year>; 
+        <volume>
+         69
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         1
+        </fpage>–
+        <lpage>
+         23
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref041">
+       <label>41</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Sourakov
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Emmel
+         </surname> 
+         <given-names>
+          TC
+         </given-names>
+        </name>. 
+        <article-title>
+         Bait trapping for butterflies in Kenya
+        </article-title>. 
+        <source>Tropic Lepid, 
+        <year>
+         1995
+        </year>; 
+        <volume>
+         6
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         1
+        </fpage>–
+        <lpage>
+         2
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref042">
+       <label>42</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hughes
+         </surname> 
+         <given-names>
+          JB
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Daily
+         </surname> 
+         <given-names>
+          GC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ehrlich
+         </surname> 
+         <given-names>
+          PR
+         </given-names>
+        </name>. 
+        <article-title>
+         Use of fruit bait traps for monitoring of butterflies (Lepidoptera: Nymphalidae)
+        </article-title>. 
+        <source>Rev Biol Trop, 
+        <year>
+         1998
+        </year>; 
+        <volume>
+         46
+        </volume>(
+        <issue>
+         3
+        </issue>): 
+        <fpage>
+         697
+        </fpage>–
+        <lpage>
+         704
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref043">
+       <label>43</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Armstrong
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>. 
+        <article-title>
+         The effect of forest edges on the community structure of tropical fruit-feeding butterflies
+        </article-title>. 
+        <source>The Plymouth Student Scientist, 
+        <year>
+         2010
+        </year>; 
+        <volume>
+         3
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         3
+        </fpage>–
+        <lpage>
+         17
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref044">
+       <label>44</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hill
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Hamer
+         </surname> 
+         <given-names>
+          K
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Tangah
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Dawood
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>. 
+        <article-title>
+         Ecology of tropical butterflies in rainforest gaps
+        </article-title>. 
+        <source>Oecologia, 
+        <year>
+         2001
+        </year>; 
+        <volume>
+         128
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         294
+        </fpage>–
+        <lpage>
+         302
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref045">
+       <label>45</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          DeVries
+         </surname> 
+         <given-names>
+          PJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lande
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Murray
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name>. 
+        <article-title>
+         Associations of co-mimetic ithomiine butterflies on small spatial and temporal scales in a neotropical rainforest
+        </article-title>. 
+        <source>Biol J Linn Soc Lond, 
+        <year>
+         1999
+        </year>; 
+        <volume>
+         67
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         73
+        </fpage>–
+        <lpage>
+         85
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref046">
+       <label>46</label>
+       <mixed-citation publication-type="other" xlink:type="simple">
+        The Field Museum. 2014. Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://fieldguides.fieldmuseum.org/guides" xlink:type="simple">
+         http://fieldguides.fieldmuseum.org/guides
+        </ext-link>. Accessed December 2014.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref047">
+       <label>47</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Bruton
+         </surname> 
+         <given-names>
+          MJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          McAlpine
+         </surname> 
+         <given-names>
+          CA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Maron
+         </surname> 
+         <given-names>
+          M
+         </given-names>
+        </name>. 
+        <article-title>
+         Regrowth woodlands are valuable habitat for reptile communities
+        </article-title>. 
+        <source>Biol Conserv, 
+        <year>
+         2013
+        </year>; 
+        <volume>
+         165
+        </volume>: 
+        <fpage>
+         95
+        </fpage>–
+        <lpage>
+         103
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref048">
+       <label>48</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hu
+         </surname> 
+         <given-names>
+          Y
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Magaton
+         </surname> 
+         <given-names>
+          S
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Gillespie
+         </surname> 
+         <given-names>
+          G
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Jessop
+         </surname> 
+         <given-names>
+          TS
+         </given-names>
+        </name>. 
+        <article-title>
+         Small reptile community responses to rotational logging
+        </article-title>. 
+        <source>Biol Conserv, 
+        <year>
+         2013
+        </year>; 
+        <volume>
+         166
+        </volume>: 
+        <fpage>
+         76
+        </fpage>–
+        <lpage>
+         83
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref049">
+       <label>49</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Rossi
+         </surname> 
+         <given-names>
+          JP
+         </given-names>
+        </name>. 
+        <article-title>
+         rich: an R package to analyse species richness
+        </article-title>. 
+        <source>Diversity, 
+        <year>
+         2011
+        </year>; 
+        <volume>
+         3
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         112
+        </fpage>–
+        <lpage>
+         120
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref050">
+       <label>50</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <collab>
+         R Core Team
+        </collab>. 
+        <source>R: A Language and Environment for Statistical Computing. 
+        <publisher-loc>
+         Vienna Austria
+        </publisher-loc> 
+        <publisher-name>
+         R Foundation for Statistical Computing
+        </publisher-name>. 
+        <year>
+         2012
+        </year>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref051">
+       <label>51</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Colwell
+         </surname> 
+         <given-names>
+          RK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chao
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Gotelli
+         </surname> 
+         <given-names>
+          NJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lin
+         </surname> 
+         <given-names>
+          SY
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Mao
+         </surname> 
+         <given-names>
+          CX
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Chazdon
+         </surname> 
+         <given-names>
+          RL
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Models and estimators linking individual-based and sample-based rarefaction, extrapolation and comparison of assemblages
+        </article-title>. 
+        <source>J Plant Ecol, 
+        <year>
+         2012
+        </year>; 
+        <volume>
+         5
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         3
+        </fpage>–
+        <lpage>
+         21
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref052">
+       <label>52</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Koh
+         </surname> 
+         <given-names>
+          LP
+         </given-names>
+        </name>. 
+        <article-title>
+         Can oil palm plantations be made more hospitable for forest butterflies and birds?
+        </article-title>. 
+        <source>J Appl Ecol, 
+        <year>
+         2008
+        </year>; 
+        <volume>
+         45
+        </volume>(
+        <issue>
+         4
+        </issue>): 
+        <fpage>
+         1002
+        </fpage>–
+        <lpage>
+         1009
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref053">
+       <label>53</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Gotelli
+         </surname> 
+         <given-names>
+          NJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Colwell
+         </surname> 
+         <given-names>
+          RK
+         </given-names>
+        </name>. 
+        <chapter-title>
+         Estimating species richness
+        </chapter-title>. Pages 
+        <fpage>
+         39
+        </fpage>–
+        <lpage>
+         54
+        </lpage> in 
+        <name name-style="western">
+         <surname>
+          Magurran
+         </surname> 
+         <given-names>
+          A. E.
+         </given-names>
+        </name> and 
+        <name name-style="western">
+         <surname>
+          McGill
+         </surname> 
+         <given-names>
+          B. J.
+         </given-names>
+        </name>, editors. 
+        <source>Frontiers in measuring biodiversity. 
+        <year>
+         2011
+        </year>. 
+        <publisher-name>
+         Oxford University Press
+        </publisher-name>, 
+        <publisher-loc>
+         New York
+        </publisher-loc>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref054">
+       <label>54</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Reese
+         </surname> 
+         <given-names>
+          GC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname> 
+         <given-names>
+          KR
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Flather
+         </surname> 
+         <given-names>
+          CH
+         </given-names>
+        </name>. 
+        <article-title>
+         Performance of species richness estimators across assemblage types and survey parameters
+        </article-title>. 
+        <source>Glob Ecol Biogeogr, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         23
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         585
+        </fpage>–
+        <lpage>
+         594
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref055">
+       <label>55</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Seshadri
+         </surname> 
+         <given-names>
+          KS
+         </given-names>
+        </name>. 
+        <article-title>
+         Effects of historical selective logging on anuran communities in a wet evergreen forest, south India
+        </article-title>. 
+        <source>Biotropica, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         46
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         615
+        </fpage>–
+        <lpage>
+         623
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref056">
+       <label>56</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Trimble
+         </surname> 
+         <given-names>
+          MJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Aarde
+         </surname> 
+         <given-names>
+          RJ
+         </given-names>
+        </name>. 
+        <article-title>
+         Amphibian and reptile communities and functional groups over a land‐use gradient in a coastal tropical forest landscape of high richness and endemicity
+        </article-title>. 
+        <source>Anim Conserv, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         17
+        </volume>(
+        <issue>
+         5
+        </issue>): 
+        <fpage>
+         441
+        </fpage>–
+        <lpage>
+         453
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref057">
+       <label>57</label>
+       <mixed-citation publication-type="other" xlink:type="simple">
+        Colwell RK. Estimate S: Statistical estimation of species richness and shared species from samples. 2013; Version 9.0.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref058">
+       <label>58</label>
+       <mixed-citation publication-type="other" xlink:type="simple">
+        Oksanen J, Blanchet FG, Kindt R, Legendre P, Minchin PR, O’Hara RB, et al. Vegan: community ecology package version 2.0–2. 2011; R CRAN package.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref059">
+       <label>59</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Whitworth
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Beirne
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Rowe
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Ross
+         </surname> 
+         <given-names>
+          F
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Acton
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Burdekin
+         </surname> 
+         <given-names>
+          O
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         The response of faunal biodiversity to an unmarked road in the Western Amazon
+        </article-title>. 
+        <source>Biodiv Conserv, 
+        <year>
+         2015
+        </year>; 
+        <volume>
+         24
+        </volume>(
+        <issue>
+         7
+        </issue>): 
+        <fpage>
+         1657
+        </fpage>–
+        <lpage>
+         1670
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref060">
+       <label>60</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Ramage
+         </surname> 
+         <given-names>
+          BS
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Sheil
+         </surname> 
+         <given-names>
+          D
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Salim
+         </surname> 
+         <given-names>
+          HM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Fletcher
+         </surname> 
+         <given-names>
+          C
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Mustafa
+         </surname> 
+         <given-names>
+          NZA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Luruthusamay
+         </surname> 
+         <given-names>
+          JC
+         </given-names>
+        </name>, 
+        <etal>
+         et al
+        </etal>. 
+        <article-title>
+         Pseudoreplication in tropical forests and the resulting effects on biodiversity conservation
+        </article-title>. 
+        <source>Conserv Biol, 
+        <year>
+         2013
+        </year>; 
+        <volume>
+         27
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         364
+        </fpage>–
+        <lpage>
+         372
+        </lpage>. 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/cobi.12004" xlink:type="simple">
+          10.1111/cobi.12004
+         </ext-link>
+        </comment> 
+        <object-id pub-id-type="pmid">
+         23282082
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref061">
+       <label>61</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Heffner
+         </surname> 
+         <given-names>
+          RA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Butler
+         </surname> 
+         <given-names>
+          MJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Reilly
+         </surname> 
+         <given-names>
+          CK
+         </given-names>
+        </name>. 
+        <article-title>
+         Pseudoreplication revisited
+        </article-title>. 
+        <source>Ecology, 
+        <year>
+         1996
+        </year>; 
+        <volume>
+         77
+        </volume>: 
+        <fpage>
+         2558
+        </fpage>–
+        <lpage>
+         2562
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref062">
+       <label>62</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Paradis
+         </surname> 
+         <given-names>
+          E
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Claude
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Strimmer
+         </surname> 
+         <given-names>
+          K
+         </given-names>
+        </name>. 
+        <article-title>
+         APE: analyses of phylogenetics and evolution in R language
+        </article-title>. 
+        <source>Bioinformatics, 
+        <year>
+         2004
+        </year>; 
+        <volume>
+         20
+        </volume>(
+        <issue>
+         2
+        </issue>): 
+        <fpage>
+         289
+        </fpage>–
+        <lpage>
+         290
+        </lpage>. 
+        <object-id pub-id-type="pmid">
+         14734327
+        </object-id>
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref063">
+       <label>63</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Whitworth
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Villacampa
+         </surname> 
+         <given-names>
+          J
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Brown
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Huarcaya
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Downie
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          MacLeod
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>. 
+        <article-title>
+         Data from ‘Historical human disturbance effects upon biodiversity are greatest in the canopy; a case study on rainforest butterflies.’
+        </article-title>—
+        <source>The University of Glasgow, Enlighten: Research Data repository: 
+        <comment>
+         doi: 
+         <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5525/gla.researchdata.241" xlink:type="simple">
+          10.5525/gla.researchdata.241
+         </ext-link>
+        </comment> 
+        <year>
+         2015
+        </year>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref064">
+       <label>64</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Hill
+         </surname> 
+         <given-names>
+          JK
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Hamer
+         </surname> 
+         <given-names>
+          KC
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Lace
+         </surname> 
+         <given-names>
+          LA
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Banham
+         </surname> 
+         <given-names>
+          WMT
+         </given-names>
+        </name>. 
+        <article-title>
+         Effects of selective logging on tropical forest butterflies on Buru, Indonesia
+        </article-title>. 
+        <source>J Appl Ecol, 
+        <year>
+         1995
+        </year>; 
+        <fpage>
+         754
+        </fpage>–
+        <lpage>
+         760
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref065">
+       <label>65</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          von May
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Donnelly
+         </surname> 
+         <given-names>
+          MA
+         </given-names>
+        </name>. 
+        <article-title>
+         Do trails affect relative abundance estimates of rainforest frogs and lizards?
+        </article-title> 
+        <source>Aust Ecol, 
+        <year>
+         2009
+        </year>; 
+        <volume>
+         34
+        </volume>(
+        <issue>
+         6
+        </issue>), 
+        <fpage>
+         613
+        </fpage>–
+        <lpage>
+         620
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref066">
+       <label>66</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Linden
+         </surname> 
+         <given-names>
+          VM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Weier
+         </surname> 
+         <given-names>
+          SM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Gaigher
+         </surname> 
+         <given-names>
+          I
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Kuipers
+         </surname> 
+         <given-names>
+          HJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Weterings
+         </surname> 
+         <given-names>
+          MJ
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Taylor
+         </surname> 
+         <given-names>
+          PJ
+         </given-names>
+        </name>. 
+        <article-title>
+         Changes of bat activity, species richness, diversity and community composition over an altitudinal gradient in the Soutpansberg range, South Africa
+        </article-title>. 
+        <source>Acta Chiropterologica, 
+        <year>
+         2014
+        </year>; 
+        <volume>
+         16
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         27
+        </fpage>–
+        <lpage>
+         40
+        </lpage>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref067">
+       <label>67</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Cortés-Gómez
+         </surname> 
+         <given-names>
+          AM
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Castro-Herrera
+         </surname> 
+         <given-names>
+          F
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Urbina-Cardona
+         </surname> 
+         <given-names>
+          JN
+         </given-names>
+        </name>. 
+        <article-title>
+         Small changes in vegetation structure create great changes in amphibian ensembles in the Colombian Pacific rainforest
+        </article-title>. 
+        <source>Trop Conserv Sci, 
+        <year>
+         2013
+        </year>; 
+        <volume>
+         6
+        </volume>(
+        <issue>
+         6
+        </issue>).
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref068">
+       <label>68</label>
+       <mixed-citation publication-type="book" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Kays
+         </surname> 
+         <given-names>
+          R
+         </given-names>
+        </name>, 
+        <name name-style="western">
+         <surname>
+          Allison
+         </surname> 
+         <given-names>
+          A
+         </given-names>
+        </name>. 
+        <chapter-title>
+         Arboreal tropical forest vertebrates: current knowledge and research trends
+        </chapter-title>. In 
+        <source>Tropical Forest Canopies: Ecology and Management, 
+        <year>
+         2001
+        </year>; (pp. 
+        <fpage>
+         109
+        </fpage>–
+        <lpage>
+         120
+        </lpage>). 
+        <publisher-name>
+         Springer
+        </publisher-name> 
+        <publisher-loc>
+         Netherlands
+        </publisher-loc>.
+       </mixed-citation>
+      </ref> 
+      <ref id="pone.0150520.ref069">
+       <label>69</label>
+       <mixed-citation publication-type="journal" xlink:type="simple">
+        <name name-style="western">
+         <surname>
+          Lowman
+         </surname> 
+         <given-names>
+          MD
+         </given-names>
+        </name>. 
+        <article-title>
+         Canopy research in the twenty-first century: a review of arboreal ecology
+        </article-title>. 
+        <source>Trop Ecol, 
+        <year>
+         2009
+        </year>; 
+        <volume>
+         50
+        </volume>(
+        <issue>
+         1
+        </issue>): 
+        <fpage>
+         125
+        </fpage>.
+       </mixed-citation>
+      </ref> 
+     </ref-list> 
+    </back> 
+   </sec>
+  </article>
+ </body>
+</html>

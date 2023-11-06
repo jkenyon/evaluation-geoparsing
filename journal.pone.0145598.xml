@@ -1,0 +1,4394 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0145598
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-06824
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Animals
+         </subject>
+         <subj-group>
+          <subject>
+           Invertebrates
+          </subject>
+          <subj-group>
+           <subject>
+            Arthropoda
+           </subject>
+           <subj-group>
+            <subject>
+             Insects
+            </subject>
+            <subj-group>
+             <subject>
+              Beetles
+             </subject>
+             <subj-group>
+              <subject>
+               Dung beetles
+              </subject>
+             </subj-group>
+            </subj-group>
+           </subj-group>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Animals
+         </subject>
+         <subj-group>
+          <subject>
+           Invertebrates
+          </subject>
+          <subj-group>
+           <subject>
+            Arthropoda
+           </subject>
+           <subj-group>
+            <subject>
+             Insects
+            </subject>
+            <subj-group>
+             <subject>
+              Beetles
+             </subject>
+            </subj-group>
+           </subj-group>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Animals
+         </subject>
+         <subj-group>
+          <subject>
+           Invertebrates
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem functioning
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Ecosystem functioning
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Assessing the Importance of Intraspecific Variability in Dung Beetle Functional Traits
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Variability in Dung Beetle Traits
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Griffiths
+        </surname> 
+        <given-names>
+         Hannah M.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff003">
+        <sup>3</sup>
+       </xref> 
+       <xref ref-type="corresp" rid="cor001">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Louzada
+        </surname> 
+        <given-names>
+         Julio
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bardgett
+        </surname> 
+        <given-names>
+         Richard D.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff004">
+        <sup>4</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Barlow
+        </surname> 
+        <given-names>
+         Jos
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff005">
+        <sup>5</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       Lancaster Environment Centre, Lancaster University, Bailrigg, Lancaster, LA1 4YQ, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       Departamento de Biologia, Universidade Federal de Lavras, Lavras, Minas Gerais, 37200–000, Brazil
+      </addr-line>
+     </aff> 
+     <aff id="aff003">
+      <label>3</label> 
+      <addr-line>
+       School of Environmental Sciences, The University of Liverpool, Liverpool, 4 Brownlow Street, L69 3GP, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff004">
+      <label>4</label> 
+      <addr-line>
+       Faculty of Life Sciences, Michael Smith Building, The University of Manchester, Oxford Road, Manchester, M13 9PT, United Kingdom
+      </addr-line>
+     </aff> 
+     <aff id="aff005">
+      <label>5</label> 
+      <addr-line>
+       Museu Paraense Emilio Goeldi, Av. Magalhães Barata, 376, Belém-Pará, Brazil
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hector
+        </surname> 
+        <given-names>
+         Andrew
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       University of Oxford, UNITED KINGDOM
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: HG JB. Performed the experiments: HG. Analyzed the data: HG. Contributed reagents/materials/analysis tools: JL. Wrote the paper: HG. Revision of manuscript: RB JB.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        han.m.griffiths@gmail.com
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       3
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <volume>
+      11
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e0145598
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        16
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        7
+       </day> 
+       <month>
+        12
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2016
+      </copyright-year> 
+      <copyright-holder>
+       Griffiths et al
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0145598" /> 
+     <abstract> 
+      <p>Functional diversity indices are used to facilitate a mechanistic understanding of many theoretical and applied questions in current ecological research. The use of mean trait values in functional indices assumes that traits are robust, in that greater variability exists between than within species. While the assertion of robust traits has been explored in plants, there exists little information on the source and extent of variability in the functional traits of higher trophic level organisms. Here we investigated variability in two functionally relevant dung beetle traits, measured from individuals collected from three primary forest sites containing distinct beetle communities: body mass and back leg length. In doing so we too addressed the following questions: (i) what is the contribution of intra vs. interspecific differences in trait values; (ii) what sample size is needed to provide representative species mean trait values; and (iii) what impact does omission of intraspecific trait information have on the calculation of functional diversity (FD) indices from naturally assembled communities? At the population level, interspecific differences explained the majority of variability in measured traits (between 94% and 96%). In accordance with this, the error associated with calculating FD without inclusion of intraspecific variability was low, less than 20% in all cases. This suggests that complete sampling to capture intraspecific variance in traits is not necessary even when investigating the FD of small and/or naturally formed communities. To gain an accurate estimation of species mean trait values we encourage the measurement of 30–60 individuals and, where possible, these should be taken from specimens collected from the site of study.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       National Environment Research Council, studentship awarded to HG. Programa de Pesquisa Ecológica de Longa Duração awarded to JB. CNPq-PELD site 23, CNPq 400640/2012-0.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="3" /> 
+      <table-count count="0" /> 
+      <page-count count="14" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        All relevant data are within the paper and its Supporting Information files.
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>Understanding how biological diversity influences ecosystem processes is crucial if we are to predict and thus mitigate the consequences of anthropogenic driven species losses [
+     <xref ref-type="bibr" rid="pone.0145598.ref001">
+      1
+     </xref>]. Functional diversity (FD) quantifies the value, range, and relative abundance of functional traits in a given ecosystem [
+     <xref ref-type="bibr" rid="pone.0145598.ref002">
+      2
+     </xref>] and has been used to link biodiversity with a suite of ecosystem functions and services [
+     <xref ref-type="bibr" rid="pone.0145598.ref003">
+      3
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0145598.ref009">
+      9
+     </xref>]. It has improved our understanding of species interactions and community assembly rules [
+     <xref ref-type="bibr" rid="pone.0145598.ref010">
+      10
+     </xref>], as well as species responses to disturbance [
+     <xref ref-type="bibr" rid="pone.0145598.ref011">
+      11
+     </xref>]. Additionally, it has been proposed that FD and its links to ecosystem processes could be of value for defining a planetary threshold for biodiversity loss [
+     <xref ref-type="bibr" rid="pone.0145598.ref012">
+      12
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref013">
+      13
+     </xref>]. Functional diversity, therefore, has the capacity to facilitate a mechanistic understanding of the impact anthropogenic disturbances on biological communities and the processes they govern [
+     <xref ref-type="bibr" rid="pone.0145598.ref010">
+      10
+     </xref>], and could ultimately inform conservation management and policymaking decisions.</p> 
+    <p>Functional traits (physiological, morphological or phenological characteristics measurable at the individual level that impact upon fitness; [
+     <xref ref-type="bibr" rid="pone.0145598.ref014">
+      14
+     </xref>]) are the building blocks of FD indices and are generally calculated using mean trait values applied to all individuals of that species. This assumes that traits are ‘robust’, i.e. that greater variability exists between than within species [
+     <xref ref-type="bibr" rid="pone.0145598.ref010">
+      10
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref015">
+      15
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0145598.ref017">
+      17
+     </xref>]. There is, however, growing evidence that this is not always the case [
+     <xref ref-type="bibr" rid="pone.0145598.ref010">
+      10
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref018">
+      18
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0145598.ref022">
+      22
+     </xref>], especially when considering the traits of individuals originating from spatially discrete locations [
+     <xref ref-type="bibr" rid="pone.0145598.ref021">
+      21
+     </xref>]. Furthermore, intraspecific trait variability is increasingly recognised as an important component of diversity driving ecosystem functioning [
+     <xref ref-type="bibr" rid="pone.0145598.ref021">
+      21
+     </xref>] as well as functional responses to disturbances [
+     <xref ref-type="bibr" rid="pone.0145598.ref023">
+      23
+     </xref>], and recent work has demonstrated that the failure to consider intraspecific trait variability in FD investigations has the potential to influence findings [
+     <xref ref-type="bibr" rid="pone.0145598.ref024">
+      24
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0145598.ref026">
+      26
+     </xref>]. There is, therefore, a clear need to better understand the magnitude and source of variability in the traits of functionally relevant organisms [
+     <xref ref-type="bibr" rid="pone.0145598.ref019">
+      19
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref024">
+      24
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref026">
+      26
+     </xref>].</p> 
+    <p>It is often not feasible, or necessary, to gather information on every trait, from every individual within a given community [
+     <xref ref-type="bibr" rid="pone.0145598.ref027">
+      27
+     </xref>]. Consequently, quantifying intraspecific trait variability [
+     <xref ref-type="bibr" rid="pone.0145598.ref019">
+      19
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref022">
+      22
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref024">
+      24
+     </xref>] and understanding when and how it should be measured [
+     <xref ref-type="bibr" rid="pone.0145598.ref015">
+      15
+     </xref>] has received reasonable attention in recent years. Concurrently, investigations have focussed on methods of incorporating within species variability into FD indices [
+     <xref ref-type="bibr" rid="pone.0145598.ref028">
+      28
+     </xref>] and the impact of doing so for interpretation of results [
+     <xref ref-type="bibr" rid="pone.0145598.ref026">
+      26
+     </xref>]. However, to our knowledge, this work has been exclusively carried out on plant traits [
+     <xref ref-type="bibr" rid="pone.0145598.ref015">
+      15
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref018">
+      18
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref026">
+      26
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref029">
+      29
+     </xref>], likely because the use of functional traits as a tool to investigate diversity-functioning relationships in non-producer systems is comparatively uncommon (but see [
+     <xref ref-type="bibr" rid="pone.0145598.ref008">
+      8
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref028">
+      28
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref029">
+      29
+     </xref>]). Researchers adopting a trait-based approach using higher trophic level organisms must, therefore, make methodologically important decisions regarding the level of precision to employ without any empirical guidelines.</p> 
+    <p>Here we investigated variability in invertebrate functional traits. Using data from a field-based biodiversity-ecosystem function experiment [
+     <xref ref-type="bibr" rid="pone.0145598.ref008">
+      8
+     </xref>], where morphological measurements were collected from dung beetle individuals (n = 1962), we quantified the source and extent of variation in two functionally relevant traits: body mass and back leg length. In doing so, we ask the following questions: (i) what is the relative contribution of intra vs. interspecific variability in trait values; (ii) what sample size is needed to provide representative species mean trait values; and (iii) what impact does omission of intraspecific trait information have on the calculation of functional diversity indices from naturally assembled communities?</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="sec003"> 
+     <title>Field sites and sampling strategy</title> 
+     <p>Sampling was carried out during July and August 2012 in the 17 000km<sup>2</sup> landholding of Jari Florestal, located in the State of Pará in the north-eastern Brazilian Amazon (0°53S, 52°36W). Dung beetles were sampled from three 
+      <italic>
+       terra firme
+      </italic> primary forests (n = 30 beetle communities in each forest) as part of a biodiversity-ecosystem functioning experiment [
+      <xref ref-type="bibr" rid="pone.0145598.ref008">
+       8
+      </xref>]; full permission was granted by the private land-owner, Jari Florestal, to carry out work at these sites, sampling did not involve any endangered species and permission to collect zoological material was granted to JL by the Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (IBAMA). All sites were within 100km of one another, classified as dense lowland tropical rain forest, were subject to the same regional climatic conditions and contained distinct dung beetle communities (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s001">
+       S1 Appendix
+      </xref> for multidimensional scaling ordination plots and Multivariate Analysis of Variance of beetle communities and 
+      <xref ref-type="supplementary-material" rid="pone.0145598.s002">
+       S2 Appendix
+      </xref> for a map of the region and study sites).</p> 
+     <p>Dung beetle communities were collected from within ninety 50 cm x 50 cm experimental plots (30 plots were arranged in a grid at each forest site, plots were separated by 100m within each grid) baited with a 100g mixture of 50:50 human and pig dung [
+      <xref ref-type="bibr" rid="pone.0145598.ref030">
+       30
+      </xref>], protected from the rain by a plastic cover. After baiting the plots were left open for colonisation by beetles for either 12 or 24 hours. These opening times were selected to increase variation in the diversity in beetle communities that colonised the plots. Following colonisation, plots were closed to ensure beetles could not escape. Un-baited pitfall traps (13.5cm width, 9cm depth), buried flush with the ground surface and filled with salt and water were located inside each of the plots; these were opened when the plots were closed to capture the beetle communities following emergence from the soil. Experimental plots remained closed, and internal pitfall traps left in place for seven days in site 1 and site 3 but because logging operations in site 2 restricted access to the area, beetles were removed after fourteen days at this site. This difference in the time that beetles remained in the pitfall traps did not significantly reduce the body mass of beetles collected from site 2 (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s003">
+       S3 Appendix
+      </xref> for analysis of the effect of site on beetle biomass). When the plots were opened, beetles were collected from the pitfall traps and the soil beneath the plots was destructively sampled; beetles were also collected from this soil up to a depth of 50cm. More detailed sampling design and rationale are presented in [
+      <xref ref-type="bibr" rid="pone.0145598.ref008">
+       8
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Trait selection and measurement</title> 
+     <p>Beetles were identified to species level using a reference collection held at the 
+      <italic>
+       Universidade Federal de Lavras
+      </italic> (UFLA) in Brazil and region-specific classification keys developed by F.Z. Vaz-de-Mello and T.A. Gardner (unpublished). Using traits to inform biodiversity-ecosystem functioning investigations involves defining the function of interest, identifying predictive traits for that function, and gathering representative values for those traits [
+      <xref ref-type="bibr" rid="pone.0145598.ref031">
+       31
+      </xref>]. The ecological functions provided by dung beetles result from the burial of mammalian dung [
+      <xref ref-type="bibr" rid="pone.0145598.ref032">
+       32
+      </xref>]. We therefore measured morphological traits relevant to excavation and burial [
+      <xref ref-type="bibr" rid="pone.0145598.ref033">
+       33
+      </xref>] from every individual (n = 1962); namely pronotum volume (pronotum area multiplied by pronotum height), front leg area, the ratio of back to front leg lengths (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s004">
+       S4 Appenidix
+      </xref> for example of these morphological measurements; measured using a Leica M250 microscope and Life Measurement software); and dry body mass (determined using a Shimatzu AY220 balance with precision to 0.0001g). Body mass, the ratio of back to front leg lengths, body mass adjusted pronotum volume and body mass adjusted front leg area were used previously to create multi-trait FD indices and successfully predict seed burial and dispersion throughout the soil profile [
+      <xref ref-type="bibr" rid="pone.0145598.ref008">
+       8
+      </xref>]. We therefore selected these traits for use in this study. However, because the non-body mass-adjusted traits are co-linear (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s008">
+       S1 Fig
+      </xref>) we present results from the two least correlated traits in the main text: body mass and back leg length (Pearson’s ρ = 0.89). Analyses on all other results are detailed in 
+      <xref ref-type="supplementary-material" rid="pone.0145598.s005">
+       S5 Appendix
+      </xref>.</p> 
+     <p>Sixty-one species and morphospecies were recovered during sampling; the abundance of each varied from 1–239 individuals. However, in order to assess the magnitude and source of variability of measured traits, we selected only the species from the complete dataset for which we collected 50 or more individuals (n = 13).</p> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Statistical analyses</title> 
+     <p>All analyses were carried out in R version 3.0.2 [
+      <xref ref-type="bibr" rid="pone.0145598.ref034">
+       34
+      </xref>]. The first aim of this investigation was to quantify the extent and source of variability (intra vs. interspecific) in dung beetle functional traits. To do this, we performed variance component analyses following methods presented by Messier, McGill &amp; Lechowicz (2010) [
+      <xref ref-type="bibr" rid="pone.0145598.ref018">
+       18
+      </xref>]. Each trait was log<sub>10</sub> transformed to normalise the data and general linear mixed models (lme) from the ‘nlme’ package [
+      <xref ref-type="bibr" rid="pone.0145598.ref035">
+       35
+      </xref>] were fitted to the variance within and between species. These models contained no fixed effects; individual was nested within species and these were included as random factors. A variance component analysis (varcomp) from the ‘varComp’ package [
+      <xref ref-type="bibr" rid="pone.0145598.ref036">
+       36
+      </xref>] was performed on each model.</p> 
+     <p>Our second objective was to determine the number of individuals from which measurements should be taken in order to provide a representative value for each dung beetle functional trait. This was achieved through resampling (with replacement) all individuals of the thirteen species for which we had a sample size of n ≥ 50, to create sub-sets containing 3 to 100 individuals for each species (n = 1000 per sub-set). This was possible up to a sub-set size of 50 individuals for every species, but where the target sub-set size was larger than the number of individuals collected for a particular species, re-sampling was stopped. From each resampled dataset the standard error (SE) of each trait was calculated and from these we created a mean SE for each sub-set size. These mean standard error values were compared to the overall mean trait value calculated using every individual in the dataset for each trait and each species. The number of individuals needed to create a mean standard error within 5% of the overall sample mean was considered the minimum necessary to provide a representative trait value. This threshold value was chosen based on the 95% confidence limits commonly used in frequentist statistics. To assess if sample size can be reduced when considering a single population, this process was repeated but using only individuals collected from one of the experimental sites. As with the analysis using all individuals from each species, resampled sub-sets of individuals from just one site contained a minimum of 3 individuals and a maximum of 100. Site was selected for each species based on where they occurred in the greatest abundance (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s006">
+       S6 Appendix
+      </xref> for species abundances at each site). The mean standard errors generated during resampling were compared to site-specific species mean trait values.</p> 
+     <p>The final goal of this study was to better understand how omission of intraspecific trait variability influences functional diversity indices when assessing naturally formed communities. Our focal traits were used previously to calculate multi-dimensional functional diversity indices [
+      <xref ref-type="bibr" rid="pone.0145598.ref008">
+       8
+      </xref>]. However, in a plant-based investigation, Albert 
+      <italic>
+       et al
+      </italic>. (2010) [
+      <xref ref-type="bibr" rid="pone.0145598.ref025">
+       25
+      </xref>] demonstrated that functional traits are likely to display unequal variance. Combining multiple traits together to calculate multidimensional indices could, therefore, mask the differences in traits and species that we are seeking to better understand [
+      <xref ref-type="bibr" rid="pone.0145598.ref024">
+       24
+      </xref>]. Consequently, for the purposes of this study we calculated functional diversity using two single trait indices: community weighted mean (CWM) and functional richness (FRic). Community weighted mean is the mean value of a trait within a community, weighted by the relative abundances of the species carrying that trait [
+      <xref ref-type="bibr" rid="pone.0145598.ref014">
+       14
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0145598.ref037">
+       37
+      </xref>]. FRic describes the volume of functional trait space occupied by a community; when using single traits it is the range in values [
+      <xref ref-type="bibr" rid="pone.0145598.ref038">
+       38
+      </xref>].</p> 
+     <p>These two indices were calculated twice for each community, once using individual trait values from each beetle captured within experimental plots (inclusion of intraspecific trait variability) and subsequently using mean species trait values (omission of intraspecific trait variability). We carried out these analyses using mean trait values because they are most commonly used in the calculation of FD indices (e.g. [
+      <xref ref-type="bibr" rid="pone.0145598.ref024">
+       24
+      </xref>]). Following methods presented in Lavorel 
+      <italic>
+       et al
+      </italic>. (2007) [
+      <xref ref-type="bibr" rid="pone.0145598.ref039">
+       39
+      </xref>], when calculating CWM traits with the inclusion of intraspecific variability, we calculated a mean for each community using values measured from each individual. Linear regressions were performed to assess the relationships between FD indices calculated with and without the inclusion of intraspecific trait information. R<sup>2</sup> values from these models provide the percentage of information excluded from the FD indices when intraspecific trait information is omitted [
+      <xref ref-type="bibr" rid="pone.0145598.ref026">
+       26
+      </xref>].</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec006" sec-type="results"> 
+    <title>Results</title> 
+    <sec id="sec007"> 
+     <title>Extent of trait variability</title> 
+     <p>The complete measurement of body mass, pronotum volume, front leg area and back and front leg lengths from all 1962 dung beetle individuals amounted to around 240 hours of researcher time. We found large interspecific variability across both the body mass and back leg lengths of the thirteen focal species studied (
+      <xref ref-type="fig" rid="pone.0145598.g001">
+       Fig 1
+      </xref>). Species mean values ranged from 0.005g to 0.804g for body mass (FRic = 0.779g; 
+      <xref ref-type="fig" rid="pone.0145598.g001">
+       Fig 1(A)
+      </xref>) and from 2.32mm to 15.59mm for back leg length (FRic = 13.27mm; 
+      <xref ref-type="fig" rid="pone.0145598.g001">
+       Fig 1(B)
+      </xref>). When individual, rather than mean trait values were considered, variability increased by 87.03% for body mass, ranging from 0.003g to 1.460g (FRic = 1.457g) and by 21.70% for back leg length, ranging from 1.68mm to 17.83mm (FRic = 16.15mm). This greater influence of intraspecific variability on the range in body mass values is reflected in differences in the coefficients of variation (CV: standard deviation divided by the mean) for both traits. The mean CV of all species for body mass was consistently larger than that of back leg length; 0.33 compared to 0.1, respectively (
+      <xref ref-type="fig" rid="pone.0145598.g001">
+       Fig 1
+      </xref>).</p> 
+     <fig id="pone.0145598.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0145598.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title></title> &lt;p&gt;&lt;bold&gt;Extent of intraspecific variability in dung beetle body mass (a) and back leg length (b).&lt;/bold&gt; Violin plots display (i) the density of data estimated by kernel method (grey areas); (ii) the median value (black horizontal dots in the centre of violins); and (iii) the interquartile range (between the top and bottom of the vertical black lines). Results are presented by species, ordered by their mean trait values and the coefficients of variation are given for each species below the violin. Horizontal dashed lines on each panel show the mean body mass and back leg length value (0.079g and 7.77mm respectively) of all species collected during sampling (61 species).&lt;/p&gt; &lt;/caption&gt; &lt;graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.g001" xlink:type="simple"/&gt; &lt;/fig&gt; &lt;/sec&gt; &lt;sec id="sec008"&gt; &lt;title&gt;Source of trait variability 
+      <p>The partitioning of variance in the two traits revealed interspecific variance accounted for the vast majority of variability compared to intraspecific differences. Interspecific differences were responsible for 94% and 96% of variability for body mass and back leg length respectively, whereas intraspecific variation accounted for just 5% and 3% for body mass and back leg length.</p> 
+     </fig>
+    </sec> 
+    <sec id="sec009"> 
+     <title>Sample size selection</title> 
+     <p>Between 35 and 60 individuals were needed to reduce the mean standard error (SE) of body mass to within 5% of the total sample mean when individuals from all three sampling locations were included in resampling (
+      <xref ref-type="fig" rid="pone.0145598.g002">
+       Fig 2
+      </xref>). When analyses were repeated using individuals from just one sampling site, 5 or 10 fewer individuals were required for 5 of the focal species (dashed lines 
+      <xref ref-type="fig" rid="pone.0145598.g002">
+       Fig 2
+      </xref>). This resulted in between 30 and 60 individuals needed to attain an accurate estimate of the population mean. When considering beetles from one sampling site, or all three, 35 individuals was the most frequently required sample size (
+      <xref ref-type="fig" rid="pone.0145598.g002">
+       Fig 2
+      </xref>). The mean SE of back leg length fell to within 5% of the total sample mean when considering just 3 individuals for the majority of species (10 out of 13; 
+      <xref ref-type="fig" rid="pone.0145598.g002">
+       Fig 2
+      </xref>). Examining just one population did not reduce the number of individuals required to accurately estimate mean leg length in any species.</p> 
+     <fig id="pone.0145598.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0145598.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title>Resampling of dung beetle body mass and back leg length.</title> 
+      <p>Total population mean (solid horizontal black lines; calculated using all individuals from each species, n = 51–229) and mean standard error (grey ribbons; calculated using resampled data from focal species, n = 13, collected from all sampling locations) of dung beetle dry body mass (left panel) and back leg length (right panel) with species photographs. Photographs are scaled to each other; smallest species, 
+       <italic>
+        Trichillum pauliani
+       </italic>, length: 5.5mm; largest species, 
+       <italic>
+        Dichotomius boreus
+       </italic>, length: 24mm length. Species trait values were resampled to create new datasets containing 3 to 100 individuals and the mean standard error was calculated from the new datasets. Vertical lines indicate the number of individuals needed to create a mean standard error within 5% of the total population mean when considering individuals from every site (thin solid lines), one site only (dashed lines). When there was no difference in the numbers needed between all sites and one site, thick solid lines are used. The body mass panel for 
+       <italic>
+        D
+       </italic>. 
+       <italic>
+        boreus
+       </italic> has no vertical lines because resampling was stopped at a sub-set size of 50 individuals (the sample size of this species), which was before the mean SE had fallen within 5% of the total sample mean. Histograms display the frequency with which each sample size created a mean standard error below the 5% threshold using individuals from all site (light grey) and one site (dark grey). Results are presented by species, ordered by their mean trait values.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.g002" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="sec010"> 
+     <title>The influence of intraspecific trait variability on functional diversity indices</title> 
+     <p>The error associated with calculating CWMs without considering intraspecific trait information was 8% and 7% for body mass and back leg length respectively (
+      <xref ref-type="fig" rid="pone.0145598.g003">
+       Fig 3(A) and 3(C)
+      </xref>). Calculating FRic without including individual trait variability resulted in 16% and 4% loss of information for body mass and back leg length (
+      <xref ref-type="fig" rid="pone.0145598.g003">
+       Fig 3(B) and 3(D)
+      </xref>). The strength of relationships between the indices calculated with and without intraspecific trait variability were consistently weakest when considering body mass.</p> 
+     <fig id="pone.0145598.g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0145598.g003
+      </object-id> 
+      <label>Fig 3</label>  
+      <title>Associations between functional diversity indices calculated with (x–axis) and without (y–axis) the inclusion of intraspecific trait variability.</title> 
+      <p>Community weighted mean (CWM) of body mass (a), functional richness (FRic) of body mass (b), CWM back of back leg length (c) and FRic of back leg length (d). Linear model outputs are displayed: regression lines (solid back lines), standard errors (grey ribbons) and the inverse of R<sup>2</sup> values to describe the loss of information as a result of exclusion of intraspecific trait information.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.g003" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="sec011" sec-type="conclusions"> 
+    <title>Discussion</title> 
+    <p>Our study has taken the first steps in quantifying the importance of variability in invertebrate traits for the calculation of functional diversity (FD) indices. In doing so, we reveal that the dung beetle traits we examined displayed much greater inter- than intraspecific variability at the spatial scale of this investigation. This resulted in small errors when using mean trait values to calculate single trait functional diversity indices compared to using individual trait values. Our results therefore support the use of mean trait values to summarise species trait information when considering trait diversity of invertebrate communities sampled at relatively small geographic scales.</p> 
+    <sec id="sec012"> 
+     <title>Are dung beetle functional traits robust?</title> 
+     <p>We tested the assumption that dung beetle functional traits are robust, i.e. that they vary more between than within species [
+      <xref ref-type="bibr" rid="pone.0145598.ref017">
+       17
+      </xref>]. Intraspecific differences in trait values were responsible for between 2.6% and 5% of total variability for pronotum volume (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s005">
+       S5 Appendix
+      </xref>; 
+      <xref ref-type="fig" rid="pone.0145598.g003">
+       Fig 3
+      </xref>) and body mass, respectively. We are therefore confident that the assumption of robust traits in dung beetles is valid, at least within geographically close primary forest sites (i.e. 90 km) located within the same interfluvium. However, we recognise that the contribution of intraspecific differences in trait values could increase with increasing spatial scales or along large environmental gradients. Therefore, to more thoroughly test our assertion, further work is needed to quantify variability in traits derived from individuals originating from geographically distant sites, as well as sites distributed along longer gradients of environmental conditions, including anthropogenic disturbance [
+      <xref ref-type="bibr" rid="pone.0145598.ref011">
+       11
+      </xref>].</p> 
+     <p>Our conclusion that dung beetle functional traits vary more between than within species is in contrast to a number of plant based studies that report greater [
+      <xref ref-type="bibr" rid="pone.0145598.ref021">
+       21
+      </xref>], equal [
+      <xref ref-type="bibr" rid="pone.0145598.ref018">
+       18
+      </xref>] or less (but non-negligible) [
+      <xref ref-type="bibr" rid="pone.0145598.ref019">
+       19
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0145598.ref025">
+       25
+      </xref>] contributions of intra, compared with interspecific variability [
+      <xref ref-type="bibr" rid="pone.0145598.ref022">
+       22
+      </xref>]. Although these studies were conducted over larger spatial scales, with differences in sampling strategies, there are well-established biological reasons as to why the traits of animals should display less intraspecific variability than those of plants. Namely, most animals can move in response to environmental cues or pressures whereas plants cannot. Therefore, many plant species can quickly respond physiologically to changes in, for example, resource availability [
+      <xref ref-type="bibr" rid="pone.0145598.ref040">
+       40
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0145598.ref041">
+       41
+      </xref>]. Phenotypic plasticity (the capacity of a given genotype to adopt different phenotypes under varying environmental conditions; [
+      <xref ref-type="bibr" rid="pone.0145598.ref042">
+       42
+      </xref>]) in morphological/physiological traits is therefore likely to be of a greater evolutionary advantage in sessile plants than in mobile animals.</p> 
+     <p>Although not specifically tested, our findings caution against the categorisation of continuous traits in dung beetles and other invertebrates, unless the distribution of values within a community show clearly discrete clusters of species within which a threshold can be reasonably placed. This is because the mean trait value of one species can frequently represent a small or large value of an individual from a species of a similar size, which is apparent from consideration of the violin plots. Furthermore, 
+      <italic>
+       O
+      </italic>. 
+      <italic>
+       carinifrons
+      </italic>, 
+      <italic>
+       D
+      </italic>. 
+      <italic>
+       lucasi and E
+      </italic>. 
+      <italic>
+       caribaeus
+      </italic> all display body mass values that traverse the mean value of all species collected, while individuals of 
+      <italic>
+       O
+      </italic>. 
+      <italic>
+       carinifrons
+      </italic> and 
+      <italic>
+       C
+      </italic>. 
+      <italic>
+       triangularis
+      </italic> have back leg length values that span the population mean. A number of previous dung beetle functional diversity investigations have categorised species as small or large based on thresholds such as body length [
+      <xref ref-type="bibr" rid="pone.0145598.ref043">
+       43
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0145598.ref045">
+       45
+      </xref>] or ability to fit through a certain size mesh [
+      <xref ref-type="bibr" rid="pone.0145598.ref046">
+       46
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0145598.ref047">
+       47
+      </xref>]. Our threshold value (the mean body mass all species) artificially categorises three species as either large or small when in fact individuals have a high probability of displaying trait values that places them in a different category. Therefore, gathering species into groups artificially imposes a discrete structure on functional differences that are generally continuous, resulting in loss of information [
+      <xref ref-type="bibr" rid="pone.0145598.ref048">
+       48
+      </xref>]. This could ultimately compromise efforts to determine patterns between organisms and the ecosystem processes they govern if the miss-categorisation of individuals involved leads to an underestimation of relationships.</p> 
+    </sec> 
+    <sec id="sec013"> 
+     <title>How many traits are enough?</title> 
+     <p>We have demonstrated that intraspecific trait variability in dung beetle traits is negligible, suggesting that average values should accurately represent species functional characteristics. But how many individuals per species should be assessed to provide a realistic estimation of the actual sample mean, whilst minimising sampling effort? Our results suggest that this depends on the trait and species of interest. Body mass was the most variable, and consequently the trait from which most individuals must be measured in order to provide a reliable mean. For the majority of species, we found that it was necessary to measure between 35 and 55 individuals to reduce the standard error of biomass to within 5% of the total sample mean, whereas between just 3 and 10 individuals were required for back leg length. Considering individuals from one sampling location reduced the sample size required for 5 species by 5 or 10 individuals for body mass, but had no impact on the numbers needed for back leg length. This implies that caution is needed when designing a sampling regime based on the assumption that individuals will display less intraspecific trait variability if originating from the same population. While this may be true (for some traits), it appears that this does not necessary translate into a large reduction in the numbers of individuals needed to gain a representative estimate of mean trait values. These results suggest that investigators should measure at least 30 individuals when working with invertebrate traits that are likely to display high levels of phenotypic plasticity.</p> 
+     <p>An explanation for the different levels of variability in traits and the sample size required to reduce their standard error to within 5% of the total sample mean could lie in differing levels of plasticity displayed by each trait. Body mass can change in response to short term environmental cues, and as such it displays phenotypic plasticity [
+      <xref ref-type="bibr" rid="pone.0145598.ref042">
+       42
+      </xref>]. Morphological characteristics such as leg length or leg area are, however, determined during larval development [
+      <xref ref-type="bibr" rid="pone.0145598.ref049">
+       49
+      </xref>] and are fixed during adult life. Thus, fluctuations in resources over very small spatiotemporal scales (e.g. weeks or kilometres) would have little impact on the variability of these fixed traits compared with body mass. This is supported when considering pronotum volume and front leg area (
+      <xref ref-type="supplementary-material" rid="pone.0145598.s005">
+       S5 Appendix
+      </xref>), both of which, like back leg length, are non-plastic traits in adult beetles. The number of individuals needed for these traits to reduce variability to within 5% of the total sample mean was also fewer than was needed for body mass.</p> 
+     <p>These findings suggest that the sampling of invertebrate traits from all individuals collected during an ecological investigation is not necessary. However, if dealing with small populations, complete sampling may not represent significant increases in time investments, but will increase the accuracy with which the organisms are described. Furthermore, detailed data such as these will be useful for the creation of large-scale trait databases and would allow future investigation into the relative importance of intraspecific variability of individuals originating from geographically distant sites. Trait databases (e.g. [
+      <xref ref-type="bibr" rid="pone.0145598.ref050">
+       50
+      </xref>]) are increasingly important tools in facilitating large-scale functional investigations in plant-focussed studies (e.g. [
+      <xref ref-type="bibr" rid="pone.0145598.ref051">
+       51
+      </xref>]) but equivalent trait collections are lacking for higher trophic level organisms. Further work is therefore needed to understand the ability of plastic versus fixed traits to predict animal-mediated ecosystem functioning. This would facilitate the targeted development of much-needed trait databases for non-producer organisms.</p> 
+    </sec> 
+    <sec id="sec014"> 
+     <title>The influence of intraspecific trait variability on functional diversity indices</title> 
+     <p>Our final objective was to assess how the omission of intraspecific information in dung beetle traits influenced the accuracy with which functional diversity indices described naturally formed communities. Intraspecific variability contributed very little (less than 5%) to overall community level trait variability. Therefore, perhaps unsurprisingly, omission of within species differences in trait values only led to the loss of small amounts of information when calculating functional diversity indices; less than 20% for all traits and indices. For all traits CWM was more sensitive to the omission of intraspecific trait variability than FRic. This is incongruent with the findings of Albert 
+      <italic>
+       et al
+      </italic>. (2012) [
+      <xref ref-type="bibr" rid="pone.0145598.ref026">
+       26
+      </xref>] who report CWM to be less sensitive than FRic to the exclusion of intraspecific variability. Albert 
+      <italic>
+       et al
+      </italic>. (2012) [
+      <xref ref-type="bibr" rid="pone.0145598.ref026">
+       26
+      </xref>] calculated FD of single traits with and without varying levels intraspecific differences for communities consisting of between 22 and 51 species, covering an area of 1% - 87% of the sampling plots. In contrast, this investigation considered communities containing between 1 and 11 species with abundances of between 1 and 95 individuals. It is feasible, therefore, that the differences we see in the sensitivity of the indices to the exclusion of intraspecific trait information between this study and that of Albert 
+      <italic>
+       et al
+      </italic>. (2012) [
+      <xref ref-type="bibr" rid="pone.0145598.ref026">
+       26
+      </xref>] could arise from a reduction in precision of metrics as abundance and/or species decreases; a possibility that has not been previously explored. Further work on which index performs best under contrasting community sizes and levels of diversity will provide useful guidelines for the investigator faced with the choice of multiple functional diversity indices (e.g. [
+      <xref ref-type="bibr" rid="pone.0145598.ref052">
+       52
+      </xref>]).</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec015" sec-type="conclusions"> 
+    <title>Conclusion</title> 
+    <p>Our exploration into the sources of trait variability in a functionally important invertebrate group has demonstrated that using dung beetle mean trait values when dealing with individuals from the same geographic region is likely the most ecologically meaningful approach [
+     <xref ref-type="bibr" rid="pone.0145598.ref015">
+      15
+     </xref>]. To accurately estimate mean trait values, however, we urge thoughtful consideration of the variability of the focal traits and the sampling location(s) from which individuals are collected. We reveal that even when considering small communities of low species richness and/or abundances, failure to incorporate intraspecific trait variability does not result in the loss of large amounts of information. However, our results show that to ensure accurate estimation of invertebrate mean trait values for use in functional diversity indices, the measurement of at least 30 individuals is necessary. Increasing the precision with which the functional traits of organisms are described within an environment will increase the accuracy with which biological diversity can be linked to ecological processes. The importance of functional diversity is increasingly recognised as a tool for predicting the consequences of human impacts on ecosystems [
+     <xref ref-type="bibr" rid="pone.0145598.ref013">
+      13
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0145598.ref053">
+      53
+     </xref>], and functional traits are the fundamental building blocks of this fast developing field. Developing a better understanding of the ecological importance of intraspecific variance in trait values will help develop functional ecology into a more precise, quantitative and predictive science [
+     <xref ref-type="bibr" rid="pone.0145598.ref010">
+      10
+     </xref>].</p> 
+   </sec> 
+   <sec id="sec016"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0145598.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s001" xlink:type="simple"> 
+     <label>S1 Appendix</label>  
+     <title>Multidimensional scaling ordination plots of dung beetle communities and multivariate analysis of variance.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s002" xlink:type="simple"> 
+     <label>S2 Appendix</label>  
+     <title>Map of study sites.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s003" xlink:type="simple"> 
+     <label>S3 Appendix</label>  
+     <title>Analysis of site on dung beetle body mass values.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s004" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s004" xlink:type="simple"> 
+     <label>S4 Appendix</label>  
+     <title>Dung beetle morphological trait measurements.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s005" xlink:type="simple"> 
+     <label>S5 Appendix</label>  
+     <title>Analyses carried out on pronotum volume and back leg length.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s006" xlink:type="simple"> 
+     <label>S6 Appendix</label>  
+     <title>Species abundances at each site.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s007" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s007" xlink:type="simple"> 
+     <label>S1 Data</label>  
+     <title>Excel file of data used in this paper.</title> 
+     <p>(XLSX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0145598.s008" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0145598.s008" xlink:type="simple"> 
+     <label>S1 Fig</label>  
+     <title>Associations between raw traits.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank our field assistants Edivar Dias Correa, Jucelino Alves dos Santos, Filipe França and Daniel Tregidgo, as well as Tom Walker for essential statistical advice. We are also grateful to Jari Forestal for permission to work on their landholding and logistical support throughout the duration of the project. This work was funded by a studentship awarded to H. Griffiths by the National Environmental Research Council (UK), CNPq-PELD site 23 and CNPq 40064/2012-0.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0145598.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Barnosky
+        </surname> 
+        <given-names>
+         AD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Matzke
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tomiya
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wogan
+        </surname> 
+        <given-names>
+         GOU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Swartz
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quental
+        </surname> 
+        <given-names>
+         TB
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Has the Earth’s sixth mass extinction already arrived?
+       </article-title> 
+       <source>Nature. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        471
+       </volume>: 
+       <fpage>
+        51
+       </fpage>–
+       <lpage>
+        7
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature09678" xlink:type="simple">
+         10.1038/nature09678
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21368823
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Díaz
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cabido
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Vive la différence : plant functional diversity matters to ecosystem processes
+       </article-title>. 
+       <source>Trends Ecol Evol. 
+       <year>
+        2001
+       </year>;
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        646
+       </fpage>–
+       <lpage>
+        655
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hooper
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapin
+        </surname> 
+        <given-names>
+         Iii F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewel
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hector
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Inchausti
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Effects of biodiversity on ecosystem functioning: a consensus of current knowledge
+       </article-title>. 
+       <source>Ecol Monogr. Eco Soc America; 
+       <year>
+        2005
+       </year>;
+       <volume>
+        75
+       </volume>: 
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        35
+       </lpage>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.esajournals.org/doi/pdf/10.1890/04-0922" xlink:type="simple">
+        http://www.esajournals.org/doi/pdf/10.1890/04-0922
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hooper
+        </surname> 
+        <given-names>
+         DU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adair
+        </surname> 
+        <given-names>
+         EC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Byrnes
+        </surname> 
+        <given-names>
+         JEK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hungate
+        </surname> 
+        <given-names>
+         B a.
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Matulich
+        </surname> 
+        <given-names>
+         KL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        A global synthesis reveals biodiversity loss as a major driver of ecosystem change
+       </article-title>. 
+       <source>Nature. Nature Publishing Group; 
+       <year>
+        2012
+       </year>;
+       <volume>
+        486
+       </volume>: 
+       <fpage>
+        105
+       </fpage>–
+       <lpage>
+        108
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature11118" xlink:type="simple">
+         10.1038/nature11118
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        22678289
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Balvanera
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pfisterer
+        </surname> 
+        <given-names>
+         AB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buchmann
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname> 
+        <given-names>
+         J-S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nakashizuka
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raffaelli
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Quantifying the evidence for biodiversity effects on ecosystem functioning and services
+       </article-title>. 
+       <source>Ecol Lett. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        1146
+       </fpage>–
+       <lpage>
+        56
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2006.00963.x" xlink:type="simple">
+         10.1111/j.1461-0248.2006.00963.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        16972878
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cardinale
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Matulich
+        </surname> 
+        <given-names>
+         KL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hooper
+        </surname> 
+        <given-names>
+         DU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Byrnes
+        </surname> 
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gamfeldt
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        The functional role of producer diversity in ecosystems
+       </article-title>. 
+       <source>Am J Bot. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        98
+       </volume>: 
+       <fpage>
+        572
+       </fpage>–
+       <lpage>
+        92
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.3732/ajb.1000364" xlink:type="simple">
+         10.3732/ajb.1000364
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21613148
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Clark
+        </surname> 
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Flynn
+        </surname> 
+        <given-names>
+         DFB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Butterfield
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reich
+        </surname> 
+        <given-names>
+         PB
+        </given-names>
+       </name>. 
+       <article-title>
+        Testing the link between functional diversity and ecosystem functioning in a Minnesota grassland experiment
+       </article-title>. 
+       <source>PLoS One. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        e52821
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0052821" xlink:type="simple">
+         10.1371/journal.pone.0052821
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23300787
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Griffiths
+        </surname> 
+        <given-names>
+         HM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Louzada
+        </surname> 
+        <given-names>
+         JNC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bardgett
+        </surname> 
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beiroz
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         França
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tregidgo
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Biodiversity and environmental context predict dung beetle-mediated seed dispersal in a tropical forest field experiment
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2015
+       </year>;
+       <volume>
+        96
+       </volume>: 
+       <fpage>
+        1607
+       </fpage>–
+       <lpage>
+        1619
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gagic
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bartomeus
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jonsson
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Taylor
+        </surname> 
+        <given-names>
+         a.
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Winqvist
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Functional identity and diversity of animals predict ecosystem functioning better than species-based indices
+       </article-title>. 
+       <source>Proc R Soc B Biol Sci. 
+       <year>
+        2015
+       </year>;
+       <volume>
+        282
+       </volume>: 
+       <fpage>
+        20142620
+       </fpage>–
+       <lpage>
+        20142620
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rspb.2014.2620" xlink:type="simple">
+         10.1098/rspb.2014.2620
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         McGill
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Weiher
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Westoby
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Rebuilding community ecology from functional traits
+       </article-title>. 
+       <source>Trends Ecol Evol. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        178
+       </fpage>–
+       <lpage>
+        85
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tree.2006.02.002" xlink:type="simple">
+         10.1016/j.tree.2006.02.002
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        16701083
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname> 
+        <given-names>
+         N a J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Villéger
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname> 
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bellwood
+        </surname> 
+        <given-names>
+         DR
+        </given-names>
+       </name>. 
+       <article-title>
+        A functional approach reveals community responses to disturbances
+       </article-title>. 
+       <source>Trends Ecol Evol. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        167
+       </fpage>–
+       <lpage>
+        77
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tree.2012.10.004" xlink:type="simple">
+         10.1016/j.tree.2012.10.004
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23141923
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rockstrom
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Steffen
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Noone
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Persson
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapin
+        </surname> 
+        <given-names>
+         FS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lambin
+        </surname> 
+        <given-names>
+         EF
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        A safe operating space for humanity
+       </article-title>. 
+       <source>Nature. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        461
+       </volume>: 
+       <fpage>
+        472
+       </fpage>–
+       <lpage>
+        475
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/461472a" xlink:type="simple">
+         10.1038/461472a
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        19779433
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mace
+        </surname> 
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reyers
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Alkemade
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Biggs
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chapin
+        </surname> 
+        <given-names>
+         FS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cornell
+        </surname> 
+        <given-names>
+         SE
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Approaches to defining a planetary boundary for biodiversity
+       </article-title>. 
+       <source>Glob Environ Chang. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        289
+       </fpage>–
+       <lpage>
+        297
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.gloenvcha.2014.07.009" xlink:type="simple">
+         10.1016/j.gloenvcha.2014.07.009
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Violle
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navas
+        </surname> 
+        <given-names>
+         ML
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vile
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kazakou
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fortunel
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hummel
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Let the concept of trait be functional!
+       </article-title> 
+       <source>Oikos. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        116
+       </volume>: 
+       <fpage>
+        882
+       </fpage>–
+       <lpage>
+        892
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.0030-1299.2007.15559.x" xlink:type="simple">
+         10.1111/j.0030-1299.2007.15559.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grassein
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schurr
+        </surname> 
+        <given-names>
+         FM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vieilledent
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Violle
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>. 
+       <article-title>
+        When and how should intraspecific variability be considered in trait-based plant ecology?
+       </article-title> 
+       <source>Perspect Plant Ecol Evol Syst. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        217
+       </fpage>–
+       <lpage>
+        225
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.ppees.2011.04.003" xlink:type="simple">
+         10.1016/j.ppees.2011.04.003
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Violle
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Enquist
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McGill
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hulshof
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        The return of the variance: intraspecific variability in community ecology
+       </article-title>. 
+       <source>Trends Ecol Evol. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        27
+       </volume>: 
+       <fpage>
+        244
+       </fpage>–
+       <lpage>
+        52
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.tree.2011.11.014" xlink:type="simple">
+         10.1016/j.tree.2011.11.014
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        22244797
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garnier
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Laurent
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bellmann
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Debain
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berthelier
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ducout
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Consistency of species ranking based on functional leaf traits
+       </article-title>. 
+       <source>New Phytol. 
+       <year>
+        2001
+       </year>; 
+       <fpage>
+        69
+       </fpage>–
+       <lpage>
+        83
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Messier
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McGill
+        </surname> 
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lechowicz
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>. 
+       <article-title>
+        How do traits vary across ecological scales? A case for trait-based ecology
+       </article-title>. 
+       <source>Ecol Lett. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        838
+       </fpage>–
+       <lpage>
+        48
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2010.01476.x" xlink:type="simple">
+         10.1111/j.1461-0248.2010.01476.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        20482582
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thuiller
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yoccoz
+        </surname> 
+        <given-names>
+         NG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soudant
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boucher
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Saccone
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Intraspecific functional variability: extent, structure and sources of variation
+       </article-title>. 
+       <source>J Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        98
+       </volume>: 
+       <fpage>
+        604
+       </fpage>–
+       <lpage>
+        613
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2745.2010.01651.x" xlink:type="simple">
+         10.1111/j.1365-2745.2010.01651.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hulshof
+        </surname> 
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Swenson
+        </surname> 
+        <given-names>
+         NG
+        </given-names>
+       </name>. 
+       <article-title>
+        Variation in leaf functional trait values within and across individuals and species: an example from a Costa Rican dry forest
+       </article-title>. 
+       <source>Funct Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        217
+       </fpage>–
+       <lpage>
+        223
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2435.2009.01614.x" xlink:type="simple">
+         10.1111/j.1365-2435.2009.01614.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lecerf
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chauvet
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>. 
+       <article-title>
+        Intraspecific variability in leaf traits strongly affects alder leaf decomposition in a stream
+       </article-title>. 
+       <source>Basic Appl Ecol. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        598
+       </fpage>–
+       <lpage>
+        605
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.baae.2007.11.003" xlink:type="simple">
+         10.1016/j.baae.2007.11.003
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Siefert
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chalmandrier
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Taudiere
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fajardo
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aarssen
+        </surname> 
+        <given-names>
+         LW
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        REVIEW AND SYNTHESIS A global meta-analysis of the relative extent of intraspecific trait variation in plant communities
+       </article-title>. 
+       <source>Ecol Lett. 
+       <year>
+        2015
+       </year>; 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        14
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jung
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Violle
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kunstler
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loucougaray
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spiegelberger
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>. 
+       <article-title>
+        Intraspecific trait variability mediates the response of subalpine grassland communities to extreme drought events
+       </article-title>. 
+       <source>J Ecol. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        45
+       </fpage>–
+       <lpage>
+        53
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/1365-2745.12177" xlink:type="simple">
+         10.1111/1365-2745.12177
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thuiller
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grigulis
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dolezal
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Quantifying the relevance of intraspecific trait variability for functional diversity
+       </article-title>. 
+       <source>Methods Ecol Evol. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        163
+       </fpage>–
+       <lpage>
+        174
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.2041-210X.2010.00071.x" xlink:type="simple">
+         10.1111/j.2041-210X.2010.00071.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thuiller
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yoccoz
+        </surname> 
+        <given-names>
+         NG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Douzet
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aubert
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>. 
+       <article-title>
+        A multi-trait approach reveals the structure and the relative importance of intra- vs. interspecific variability in plant traits
+       </article-title>. 
+       <source>Funct Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        1192
+       </fpage>–
+       <lpage>
+        1201
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2435.2010.01727.x" xlink:type="simple">
+         10.1111/j.1365-2435.2010.01727.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Albert
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boulangeat
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pellet
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thuiller
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>. 
+       <article-title>
+        On the importance of intraspecific variability for the quantification of functional diversity
+       </article-title>. 
+       <source>Oikos. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        121
+       </volume>: 
+       <fpage>
+        116
+       </fpage>–
+       <lpage>
+        126
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1600-0706.2011.19672.x" xlink:type="simple">
+         10.1111/j.1600-0706.2011.19672.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baraloto
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Timothy
+        </surname> 
+        <given-names>
+         Paine CE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         PatiÃ±o
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bonal
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         HÃ©rault
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chave
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Functional trait variation and sampling strategies in species-rich plant communities
+       </article-title>. 
+       <source>Funct Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        208
+       </fpage>–
+       <lpage>
+        216
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2435.2009.01600.x" xlink:type="simple">
+         10.1111/j.1365-2435.2009.01600.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cianciaruso
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Batalha
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>. 
+       <article-title>
+        Including intraspecific variability in functional diversity
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        81
+       </fpage>–
+       <lpage>
+        89
+       </lpage>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.esajournals.org/doi/pdf/10.1890/07-1864.1" xlink:type="simple">
+        http://www.esajournals.org/doi/pdf/10.1890/07-1864.1
+       </ext-link> 
+       <object-id pub-id-type="pmid">
+        19294915
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref029">
+      <label>29</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hulshof
+        </surname> 
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Swenson
+        </surname> 
+        <given-names>
+         NG
+        </given-names>
+       </name>. 
+       <article-title>
+        Variation in leaf functional trait values within and across individuals and species: an example from a Costa Rican dry forest
+       </article-title>. 
+       <source>Funct Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        217
+       </fpage>–
+       <lpage>
+        223
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2435.2009.01614.x" xlink:type="simple">
+         10.1111/j.1365-2435.2009.01614.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref030">
+      <label>30</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Barnes
+        </surname> 
+        <given-names>
+         AD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emberson
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Krell
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Didham
+        </surname> 
+        <given-names>
+         RK
+        </given-names>
+       </name>. 
+       <article-title>
+        The Role of Species Traits in Mediating Functional Recovery during Matrix Restoration
+       </article-title>. 
+       <source>PLoS One. 
+       <year>
+        2014
+       </year>; 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        19
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.62512" xlink:type="simple">
+         10.5061/dryad.62512
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref031">
+      <label>31</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Marsh
+        </surname> 
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Louzada
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beiroz
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>. 
+       <article-title>
+        Optimising Bait for Pitfall Trapping of Amazonian Dung Beetles (Coleoptera: Scarabaeinae)
+       </article-title>. 
+       <name name-style="western">
+        <surname>
+         Wilby
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, editor. 
+       <source>PLoS One. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        e73147
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0073147" xlink:type="simple">
+         10.1371/journal.pone.0073147
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        24023675
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref032">
+      <label>32</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname> 
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gorman
+        </surname> 
+        <given-names>
+         EJO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Flynn
+        </surname> 
+        <given-names>
+         DFB
+        </given-names>
+       </name>. 
+       <article-title>
+        A functional guide to functional diversity measures
+       </article-title>. 
+       <year>
+        2006
+       </year>; 
+       <fpage>
+        49
+       </fpage>–
+       <lpage>
+        59
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref033">
+      <label>33</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nichols
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Spector
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Louzada
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Larsen
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amequita
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Favila
+        </surname> 
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Ecological functions and ecosystem services provided by Scarabaeinae dung beetles
+       </article-title>. 
+       <source>Biol Conserv. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        141
+       </volume>: 
+       <fpage>
+        1461
+       </fpage>–
+       <lpage>
+        1474
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biocon.2008.04.011" xlink:type="simple">
+         10.1016/j.biocon.2008.04.011
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref034">
+      <label>34</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Inward
+        </surname> 
+        <given-names>
+         DJG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname> 
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pergande
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Denham
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vogler
+        </surname> 
+        <given-names>
+         AP
+        </given-names>
+       </name>. 
+       <article-title>
+        Local and regional ecological morphology of dung beetle assemblages across four biogeographic regions
+       </article-title>. 
+       <source>J Biogeogr. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        38
+       </volume>: 
+       <fpage>
+        1668
+       </fpage>–
+       <lpage>
+        1682
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2699.2011.02509.x" xlink:type="simple">
+         10.1111/j.1365-2699.2011.02509.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref035">
+      <label>35</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <collab>
+        R Core Team
+       </collab>. 
+       <chapter-title>
+        R: A language and environment for statistical computing
+       </chapter-title> [Internet]. 
+       <publisher-name>
+        R Foundation for Statistical Computing
+       </publisher-name>, 
+       <publisher-loc>
+        Vienna, Austria
+       </publisher-loc>; 
+       <year>
+        2013
+       </year>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.r-project.org/" xlink:type="simple">
+        http://www.r-project.org/
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref036">
+      <label>36</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Pinheiro J, Bates D, DebRoy S, Sarkar D, R Development Core Team. Linear and Nonlinear Mixed Effects Models. 2013.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref037">
+      <label>37</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Qu L. varComp: Variance component models. R package [Internet]. 2013. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org/package=varComp" xlink:type="simple">
+        http://cran.r-project.org/package=varComp
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref038">
+      <label>38</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Garnier
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cortez
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Billes
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navas
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Roumet
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Debusschie
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Plant functional markers capture ecosystem properties during secondary succession
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2004
+       </year>;
+       <volume>
+        85
+       </volume>: 
+       <fpage>
+        2630
+       </fpage>–
+       <lpage>
+        2637
+       </lpage>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.esajournals.org/doi/abs/10.1890/03-0799" xlink:type="simple">
+        http://www.esajournals.org/doi/abs/10.1890/03-0799
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref039">
+      <label>39</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mason
+        </surname> 
+        <given-names>
+         NWH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mouillot
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname> 
+        <given-names>
+         WG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Functional
+        </surname> 
+        <given-names>
+         JB
+        </given-names>
+       </name>. 
+       <article-title>
+        Functional richness, functional evenness and functional divergence : the primary components of functional diversity
+       </article-title>. 
+       <source>Oikos. 
+       <year>
+        2005
+       </year>;
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        112
+       </fpage>–
+       <lpage>
+        118
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref040">
+      <label>40</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grigulis
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McIntyre
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname> 
+        <given-names>
+         NSG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Garden
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dorrough
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Assessing functional diversity in the field–methodology matters!
+       </article-title> 
+       <source>Funct Ecol. 
+       <year>
+        2007
+       </year>; 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        14
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2435.2007.01339.x" xlink:type="simple">
+         10.1111/j.1365-2435.2007.01339.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref041">
+      <label>41</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Díaz
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Bello
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quétier
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grigulis
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Robson
+        </surname> 
+        <given-names>
+         TM
+        </given-names>
+       </name>. 
+       <article-title>
+        Incorporating plant functional diversity effects in ecosystem service assessments
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        20684
+       </fpage>–
+       <lpage>
+        9
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0704716104" xlink:type="simple">
+         10.1073/pnas.0704716104
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18093933
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref042">
+      <label>42</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname> 
+        <given-names>
+         YY
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colot
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bossdorf
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>. 
+       <article-title>
+        Epigenetic variation creates potential for evolution of plant phenotypic plasticity
+       </article-title>. 
+       <source>New Phytol. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        197
+       </volume>: 
+       <fpage>
+        314
+       </fpage>–
+       <lpage>
+        322
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/nph.12010" xlink:type="simple">
+         10.1111/nph.12010
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23121242
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref043">
+      <label>43</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bardgett
+        </surname> 
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         van der Putten
+        </surname> 
+        <given-names>
+         WH
+        </given-names>
+       </name>. 
+       <article-title>
+        Belowground biodiversity and ecosystem functioning
+       </article-title>. 
+       <source>Nature. Nature Publishing Group; 
+       <year>
+        2014
+       </year>;
+       <volume>
+        515
+       </volume>: 
+       <fpage>
+        505
+       </fpage>–
+       <lpage>
+        511
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature13855" xlink:type="simple">
+         10.1038/nature13855
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        25428498
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref044">
+      <label>44</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Valladares
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gianoli
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gómez
+        </surname> 
+        <given-names>
+         JM
+        </given-names>
+       </name>. 
+       <article-title>
+        Ecological limits to plant phenotypic plasticity
+       </article-title>. 
+       <source>New Phytol. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        176
+       </volume>: 
+       <fpage>
+        749
+       </fpage>–
+       <lpage>
+        63
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-8137.2007.02275.x" xlink:type="simple">
+         10.1111/j.1469-8137.2007.02275.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        17997761
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref045">
+      <label>45</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Barragán
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moreno
+        </surname> 
+        <given-names>
+         CE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Escobar
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Halffter
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navarrete
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barragan
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>. 
+       <article-title>
+        Negative impacts of human land use on dung beetle functional diversity
+       </article-title>. 
+       <source>PLoS One. 2011/03/31 ed. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        8
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0017976" xlink:type="simple">
+         10.1371/journal.pone.0017976
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref046">
+      <label>46</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Braga
+        </surname> 
+        <given-names>
+         RF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Korasaki
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Andresen
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Louzada
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Dung Beetle Community and Functions along a Habitat-Disturbance Gradient in the Amazon: A Rapid Assessment of Ecological Functions Associated to Biodiversity
+       </article-title>. 
+       <source>PLoS One. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        e57786
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0057786" xlink:type="simple">
+         10.1371/journal.pone.0057786
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23460906
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref047">
+      <label>47</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Escobar
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Halffter
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Solís
+        </surname> 
+        <given-names>
+         Á
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Halffter
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Navarrete
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>. 
+       <article-title>
+        Temporal shifts in dung beetle community structure within a protected area of tropical wet forest: a 35-year study and its implications for long-term conservation
+       </article-title>. 
+       <source>J Appl Ecol. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        1584
+       </fpage>–
+       <lpage>
+        1592
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2664.2008.01551.x" xlink:type="simple">
+         10.1111/j.1365-2664.2008.01551.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref048">
+      <label>48</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dangles
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpio
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Woodward
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>. 
+       <article-title>
+        Size-dependent species removal impairs ecosystem functioning in a large-scale tropical field experiment
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        93
+       </volume>: 
+       <fpage>
+        2615
+       </fpage>–
+       <lpage>
+        25
+       </lpage>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23431592" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/pubmed/23431592
+       </ext-link> 
+       <object-id pub-id-type="pmid">
+        23431592
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref049">
+      <label>49</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Slade
+        </surname> 
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mann
+        </surname> 
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Villanueva
+        </surname> 
+        <given-names>
+         JF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lewis
+        </surname> 
+        <given-names>
+         OT
+        </given-names>
+       </name>. 
+       <article-title>
+        Experimental evidence for the effects of dung beetle functional group richness and composition on ecosystem function in a tropical forest
+       </article-title>. 
+       <source>J Anim Ecol. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        76
+       </volume>: 
+       <fpage>
+        1094
+       </fpage>–
+       <lpage>
+        104
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2656.2007.01296.x" xlink:type="simple">
+         10.1111/j.1365-2656.2007.01296.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        17922706
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref050">
+      <label>50</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Petchey
+        </surname> 
+        <given-names>
+         OL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaston
+        </surname> 
+        <given-names>
+         KJ
+        </given-names>
+       </name>. 
+       <article-title>
+        Functional diversity: back to basics and looking forward
+       </article-title>. 
+       <source>Ecol Lett. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        741
+       </fpage>–
+       <lpage>
+        58
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2006.00924.x" xlink:type="simple">
+         10.1111/j.1461-0248.2006.00924.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        16706917
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref051">
+      <label>51</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hunt
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Simmons
+        </surname> 
+        <given-names>
+         LW
+        </given-names>
+       </name>. 
+       <article-title>
+        Patterns of fuctuating asymmetry in beetle horns : an experimental examination of the honest signalling hypothesis
+       </article-title>. 
+       <source>Behav Ecol Sociobiol. 
+       <year>
+        1997
+       </year>; 
+       <fpage>
+        109
+       </fpage>–
+       <lpage>
+        114
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref052">
+      <label>52</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kattge
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Díaz
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lavorel
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        TRY—a global database of plant traits
+       </article-title>. 
+       <source>Glob Chang Biol. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        2905
+       </fpage>–
+       <lpage>
+        2935
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2486.2011.02451.x" xlink:type="simple">
+         10.1111/j.1365-2486.2011.02451.x
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0145598.ref053">
+      <label>53</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pietsch
+        </surname> 
+        <given-names>
+         K a.
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ogle
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cornelissen
+        </surname> 
+        <given-names>
+         JHC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cornwell
+        </surname> 
+        <given-names>
+         WK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bönisch
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Craine
+        </surname> 
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Global relationship of wood and leaf litter decomposability: The role of functional traits within and across plant organs
+       </article-title>. 
+       <source>Glob Ecol Biogeogr. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        23
+       </volume>: 
+       <fpage>
+        1046
+       </fpage>–
+       <lpage>
+        1057
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/geb.12172" xlink:type="simple">
+         10.1111/geb.12172
+        </ext-link>
+       </comment>
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

@@ -1,0 +1,1525 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-10-05960
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0018982
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ecological metrics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Relative abundance distribution
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem modeling
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Biota
+         </subject> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subject>
+          Macroecology
+         </subject> 
+         <subject>
+          Population ecology
+         </subject> 
+         <subject>
+          Spatial and landscape ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Population biology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Population dynamics
+         </subject> 
+         <subject>
+          Population ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Zoology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Entomology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Positive Interspecific Relationship between Temporal Occurrence and Abundance in Insects
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Interspecific Abundance-Occurrence Relationship
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Scrosati
+        </surname> 
+        <given-names>
+         Ricardo A.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1" /> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Patten
+        </surname> 
+        <given-names>
+         Ruth D.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1" /> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Lauff
+        </surname> 
+        <given-names>
+         Randolph F.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1"> 
+      <addr-line>
+       Department of Biology, Saint Francis Xavier University, Antigonish, Nova Scotia, Canada
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Boyce
+        </surname> 
+        <given-names>
+         Mark S.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      University of Alberta, Canada
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        rscrosat@stfx.ca
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: RDP RFL. Performed the experiments: RDP RFL. Contributed reagents/materials/analysis tools: RAS RDP RFL. Wrote the paper: RAS. Generated the idea that motivated the paper, analyzed and interpreted the data in the context of the research goals, and wrote the first version of the article: RAS. Designed the field study, collected the organisms, identified the species, generated the data, and contributed towards improving the manuscript: RDP RFL.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       20
+      </day> 
+      <month>
+       4
+      </month> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <volume>
+      6
+     </volume>
+     <issue>
+      4
+     </issue>
+     <elocation-id>
+      e18982
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        6
+       </day> 
+       <month>
+        12
+       </month> 
+       <year>
+        2010
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        20
+       </day> 
+       <month>
+        3
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2011
+      </copyright-year>
+      <copyright-holder>
+       Scrosati et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>One of the most studied macroecological patterns is the interspecific abundance–occupancy relationship, which relates species distribution and abundance across space. Interspecific relationships between temporal distribution and abundance, however, remain largely unexplored. Using data for a natural assemblage of tabanid flies measured daily during spring and summer in Nova Scotia, we found that temporal occurrence (proportion of sampling dates in which a species occurred in an experimental trap) was positively related to temporal mean abundance (number of individuals collected for a species during the study period divided by the total number of sampling dates). Moreover, two models that often describe spatial abundance–occupancy relationships well, the He–Gaston and negative binomial models, explained a high amount of the variation in our temporal data. As for the spatial abundance–occupancy relationship, the (temporal) aggregation parameter, 
+       <italic>
+        k
+       </italic>, emerged as an important component of the hereby named interspecific temporal abundance–occurrence relationship. This may be another case in which a macroecological pattern shows similarities across space and time, and it deserves further research because it may improve our ability to forecast colonization dynamics and biological impacts.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       Funding was provided through grants to RAS from the Natural Sciences and Engineering Research Council of Canada (NSERC, 
+       <ext-link ext-link-type="uri" xlink:href="http://www.nserc-crsng.gc.ca" xlink:type="simple">
+        www.nserc-crsng.gc.ca
+       </ext-link>), the Canada Foundation for Innovation (CFI, 
+       <ext-link ext-link-type="uri" xlink:href="http://www.innovation.ca" xlink:type="simple">
+        www.innovation.ca
+       </ext-link>), and the Canada Research Chairs program (CRC, 
+       <ext-link ext-link-type="uri" xlink:href="http://www.chairs-chaires.gc.ca" xlink:type="simple">
+        www.chairs-chaires.gc.ca
+       </ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="4" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Macroecology investigates the distribution and abundance of organisms at broad scales 
+     <xref ref-type="bibr" rid="pone.0018982-Blackburn1">
+      [1]
+     </xref>. One of the most studied macroecological patterns is the interspecific abundance–occupancy relationship. For species assemblages in a region, there is a relationship between the mean local abundance of each species and the proportion of local sites that each species occupies. Studies done on plants and animals have shown that such a relationship is generally positive 
+     <xref ref-type="bibr" rid="pone.0018982-Blackburn2">
+      [2]
+     </xref>. The factors that shape the spatial abundance–occupancy relationship are not entirely clear, although likely ones are niche breadth, habitat selection, vital rates, range overlap, body size, and dispersal 
+     <xref ref-type="bibr" rid="pone.0018982-Blackburn2">
+      [2]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0018982-Verberk1">
+      [6]
+     </xref>. What is certain is that the search for such factors has stimulated research on the links between species distribution and abundance.</p> 
+    <p>Both species distribution and mean abundance can be viewed across space as well as time 
+     <xref ref-type="bibr" rid="pone.0018982-Blackburn1">
+      [1]
+     </xref>. Thus, it is also relevant to investigate whether the temporal distribution and mean abundance of species over time may be related. For this purpose, we define temporal occurrence as the proportion of sampling dates in which a species occurs in a given place, and temporal mean abundance as the number of individuals counted in that place throughout the study period divided by the total number of sampling dates. Finding a link between both traits could have important implications for basic and applied ecology. For example, the frequency of visits of mobile species to an area of interest (e.g., a new agriculture field or a restored habitat) could be predicted from knowledge on the abundance of species in similar neighboring environments, which could help to forecast ecological impact or colonization patterns. Conversely, collecting data from simple counts of species occurrence in traps or species sightings in an area might allow one to estimate species abundances in the region, a useful option when traditional methods of abundance estimation are difficult to implement. Interestingly, however, the possible existence of an interspecific temporal abundance–occurrence relationship remains largely unexplored. To investigate this issue, we used an insect assemblage.</p> 
+    <p>Specifically, we asked whether temporal occurrence and temporal mean abundance are related and, if so, whether the relationship is positive. A number of mathematical models have been proposed to describe the spatial abundance–occupancy relationship, among which the He–Gaston model and the negative binomial model usually yield the greatest fit 
+     <xref ref-type="bibr" rid="pone.0018982-Holt1">
+      [7]
+     </xref>. These models (see 
+     <xref ref-type="sec" rid="s2">
+      Materials and Methods
+     </xref>) are based on the degree of spatial aggregation of species, which is a common feature in plant and animal populations 
+     <xref ref-type="bibr" rid="pone.0018982-He1">
+      [8]
+     </xref>. In fact, this predominant trait of natural systems makes the He–Gaston and negative binomial models theoretically more realistic alternatives than the other proposed models, since the latter are based either only on random distribution patterns or on restricted conditions of aggregation that exclude natural variation 
+     <xref ref-type="bibr" rid="pone.0018982-Holt1">
+      [7]
+     </xref>. Since aggregated patterns of species occurrence may also happen over time, the He–Gaston and negative binomial models emerged as potentially useful tools to describe temporal relationships. Therefore, we tested their utility for our data.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <p>We used data for a species assemblage composed of horse and deer flies (Diptera, Tabanidae) from South Side Harbour, Nova Scotia, Canada (45°40′N, 61°53′W). The daily occurrence and abundance of 31 species (
+     <xref ref-type="table" rid="pone-0018982-t001">
+      Table 1
+     </xref>) were recorded on 37 consecutive days in June–July 2000 (
+     <xref ref-type="supplementary-material" rid="pone.0018982.s001">
+      Data S1
+     </xref>) using a trap box located in a hay field surrounded by forest vegetation near freshwater marshes. The box design has been described by French and Hagan 
+     <xref ref-type="bibr" rid="pone.0018982-French1">
+      [9]
+     </xref>; it is particularly suitable to detect the abundance of tabanid fly species in the environment. Because most tabanid flies are diurnal 
+     <xref ref-type="bibr" rid="pone.0018982-Mullen1">
+      [10]
+     </xref>, the trap was emptied daily at dusk for measurements. The daily samples were frozen within 30 minutes of being collected. Every collected specimen was analyzed under a stereomicroscope and identified using the taxonomic key developed by Teskey 
+     <xref ref-type="bibr" rid="pone.0018982-Teskey1">
+      [11]
+     </xref>.</p> 
+    <table-wrap id="pone-0018982-t001" position="float">
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0018982.t001
+     </object-id>
+     <label>Table 1</label> 
+     <title>Number of days in which each species of tabanid fly occurred in the trap (total n = 37 days) and total number of individuals found for each species during the study period.</title> 
+     <!--===== Grouping alternate versions of objects =====-->
+     <alternatives>
+      <graphic id="pone-0018982-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0018982.t001" xlink:type="simple" />
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" span="1"> 
+        <col align="center" span="1"> 
+        <col align="center" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1">Species</td> 
+         <td align="left" colspan="1" rowspan="1">Number of days</td> 
+         <td align="left" colspan="1" rowspan="1">Total number of individuals</td> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops aestuans
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops calvus
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">6</td> 
+         <td align="left" colspan="1" rowspan="1">7</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops carbonarius
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops cincticornis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">4</td> 
+         <td align="left" colspan="1" rowspan="1">4</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops cuclux
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops excitans
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">31</td> 
+         <td align="left" colspan="1" rowspan="1">500</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops frigidus
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">6</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops lateralis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops mitis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops niger
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">17</td> 
+         <td align="left" colspan="1" rowspan="1">38</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops sordidus
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">4</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Chrysops vittatus
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">2</td> 
+         <td align="left" colspan="1" rowspan="1">4</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra affinis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">6</td> 
+         <td align="left" colspan="1" rowspan="1">16</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra arpadi
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">2</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra epistates
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">32</td> 
+         <td align="left" colspan="1" rowspan="1">531</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra frontalis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">5</td> 
+         <td align="left" colspan="1" rowspan="1">9</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra illota
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra lasiopthalma
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">31</td> 
+         <td align="left" colspan="1" rowspan="1">3348</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra liorinha
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">2</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra longliglossa
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra lurida
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">2</td> 
+         <td align="left" colspan="1" rowspan="1">5</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra microcephala
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra nitidifrons nuda
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">16</td> 
+         <td align="left" colspan="1" rowspan="1">221</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra pechumani
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">9</td> 
+         <td align="left" colspan="1" rowspan="1">15</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra trepida
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">24</td> 
+         <td align="left" colspan="1" rowspan="1">91</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra typhus
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">12</td> 
+         <td align="left" colspan="1" rowspan="1">20</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Hybomitra zonalis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">3</td> 
+         <td align="left" colspan="1" rowspan="1">4</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Tabanus marginalis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Tabanus nigrovittatus
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">5</td> 
+         <td align="left" colspan="1" rowspan="1">19</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Tabanus reinwardtii
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+         <td align="left" colspan="1" rowspan="1">1</td> 
+        </tr> 
+        <tr> 
+         <td align="left" colspan="1" rowspan="1"> 
+          <italic>
+           Tabanus similis
+          </italic> </td> 
+         <td align="left" colspan="1" rowspan="1">27</td> 
+         <td align="left" colspan="1" rowspan="1">181</td> 
+        </tr> 
+       </tbody> 
+      </table>
+     </alternatives>
+    </table-wrap> 
+    <p>For each species, we determined temporal occurrence as the proportion of sampling dates in which individuals were found in the trap. We determined the temporal mean abundance of each species as the total number of individuals found in the trap during the study period divided by the total number of sampling dates (37). We investigated the relationship between temporal occurrence and temporal mean abundance by evaluating the fit of the data to the He–Gaston and negative binomial models. The He–Gaston equation is:
+     <disp-formula>
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0018982.e001" xlink:type="simple" />
+     </disp-formula>where 
+     <italic>
+      p
+     </italic> was originally defined as the spatial occupancy of a species (proportion of surveyed sites occupied by the species), 
+     <italic>
+      μ
+     </italic> as the mean local abundance across the surveyed sites, 
+     <italic>
+      k
+     </italic> as a spatial aggregation parameter, and 
+     <italic>
+      α
+     </italic> and 
+     <italic>
+      β
+     </italic> as generic parameters empirically determined on a case-by-case basis 
+     <xref ref-type="bibr" rid="pone.0018982-Holt1">
+      [7]
+     </xref>. For our study, we considered 
+     <italic>
+      p
+     </italic> to be the temporal occurrence of a species, 
+     <italic>
+      μ
+     </italic> as the temporal mean abundance of that species, and 
+     <italic>
+      k
+     </italic> as a temporal aggregation parameter. The negative binomial model derives from the He–Gaston model simply by considering that both empirical parameters are 1 
+     <xref ref-type="bibr" rid="pone.0018982-Holt1">
+      [7]
+     </xref>:
+     <disp-formula>
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0018982.e002" xlink:type="simple" />
+     </disp-formula></p> 
+    <p>We parameterized both models using nonlinear least-squares regression 
+     <xref ref-type="bibr" rid="pone.0018982-Quinn1">
+      [12]
+     </xref>. We evaluated the degree of model fit by calculating the Pearson correlation coefficient (
+     <italic>
+      r
+     </italic>) between the observed values and model-predicted values of temporal occurrence. In general terms, a perfect fit of a data set to a nonlinear model should produce a perfect correlation (
+     <italic>
+      r
+     </italic> = 1) using all predicted–observed data pairs. We did the analyses using SYSTAT 5.2 for Macintosh.</p> 
+    <p>A number of studies on the spatial abundance–occupancy relationship have calculated the mean local abundance of each species by dividing the total number of organisms found in the region of interest by the number of sampling units in which the species occurred (not by the total number of surveyed units). However, such an alternative measure of mean local abundance produces a number of undesirable artefacts on the abundance–occupancy relationship 
+     <xref ref-type="bibr" rid="pone.0018982-Wilson1">
+      [13]
+     </xref>. Therefore, for our study, we did not consider the equivalent form of temporal mean abundance (that is, temporal mean abundance calculated for each species using only the sampling dates in which individuals occurred in the trap).</p> 
+    <p>As part of our descriptive statistics, we calculated Simpson's evenness index applied to the abundance values for our insect species 
+     <xref ref-type="bibr" rid="pone.0018982-Krebs1">
+      [14]
+     </xref>:
+     <disp-formula>
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0018982.e003" xlink:type="simple" />
+     </disp-formula>where 
+     <italic>
+      S
+     </italic> was the species richness (31) and 
+     <italic>
+      p
+      <sub>i</sub>
+     </italic> was the proportional abundance of each species relative to the total number of individuals counted during the study period. Simpson's evenness index ranges between 0 and 1 
+     <xref ref-type="bibr" rid="pone.0018982-Krebs1">
+      [14]
+     </xref>.</p> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <p>We found 5049 individuals of tabanid flies during the study period (
+     <xref ref-type="table" rid="pone-0018982-t001">
+      Table 1
+     </xref>; 
+     <xref ref-type="supplementary-material" rid="pone.0018982.s001">
+      Data S1
+     </xref>). There was a wide range in the occurrence of species over time, with some appearing only in one date and others almost throughout the entire study period (
+     <xref ref-type="table" rid="pone-0018982-t001">
+      Table 1
+     </xref>). Most species, however, occurred in a limited amount of dates: 8.1±1.8 dates (mean ± SE, n = 31 species). Likewise, species abundance also showed a wide range, with some species contributing with only one individual during the study period and others contributing with many (
+     <xref ref-type="table" rid="pone-0018982-t001">
+      Table 1
+     </xref>). Most individuals, however (96%), belonged to just six species, which yielded a low evenness index for this assemblage (
+     <italic>
+      E
+     </italic> = 0.07).</p> 
+    <p>Temporal occurrence and temporal mean abundance were positively related for our insect assemblage. The data showed a high degree of fit to the He–Gaston and negative binomial models. Even by having two empirical parameters (
+     <italic>
+      α
+     </italic> and 
+     <italic>
+      β
+     </italic>) in addition to the temporal aggregation parameter (
+     <italic>
+      k
+     </italic>), the He–Gaston model showed only a marginally higher fit (
+     <italic>
+      r
+     </italic> = 0.971, 
+     <italic>
+      P
+     </italic>&lt;0.001) than the negative binomial model (
+     <italic>
+      r
+     </italic> = 0.970, 
+     <italic>
+      P
+     </italic>&lt;0.001; 
+     <xref ref-type="fig" rid="pone-0018982-g001">
+      Fig. 1
+     </xref>).</p> 
+    <fig id="pone-0018982-g001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0018982.g001
+     </object-id> 
+     <label>Figure 1</label>  
+     <title>Relationship between the temporal occurrence (&lt;italic&gt;p&lt;/italic&gt;) and temporal mean abundance (&lt;italic&gt;μ&lt;/italic&gt;) of species of an insect assemblage from Nova Scotia, Canada.</title> 
+     <p>The temporal mean abundance was calculated for each species based on all sampling dates (n = 37). The upper line (a) is the He–Gaston model and the lower line (b) is the negative binomial model as parameterized for this data set.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0018982.g001" xlink:type="simple" /> 
+    </fig> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Our study has revealed a positive relationship between temporal occurrence and temporal mean abundance using tabanid flies as a model species assemblage. In addition, two equations that often describe spatial abundance–occupancy relationships well, the He–Gaston and negative binomial models 
+     <xref ref-type="bibr" rid="pone.0018982-Holt1">
+      [7]
+     </xref>, were also found to describe the temporal abundance–occurrence relationship successfully. Since the He–Gaston model yielded only a marginally higher fit than the negative binomial model, the temporal aggregation parameter (
+     <italic>
+      k
+     </italic>) emerges as a key element of the temporal abundance–occurrence relationship. Thus, investigating what determines the timing of occurrence of different species in communities should lead to building functions with appropriate 
+     <italic>
+      k
+     </italic> values to predict outcomes under different scenarios.</p> 
+    <p>It is worth noting that a previous study had found a positive correlation between the number of years in which annual plants occurred in an Arizona desert and their overall abundance over time 
+     <xref ref-type="bibr" rid="pone.0018982-Guo1">
+      [15]
+     </xref>. However, no attempt was made in that study to test the ability of equations developed for the spatial abundance–occupancy relationship to model temporal data, as done here.</p> 
+    <p>The high degree of model fit found for our data set calls for studies on other species assemblages to test for the generality of the temporal abundance–occurrence relationship. It may also be interesting to examine possible links between temporal and spatial patterns and possible effects of community traits such as species richness and evenness or habitat traits such as environmental suitability 
+     <xref ref-type="bibr" rid="pone.0018982-VanDerWal1">
+      [16]
+     </xref>. The existence of similar patterns across space and time is not infrequent in ecology, although the factors affecting spatial vs. temporal relationships may differ to some extent (for example, biomass–density patterns in crowded plant stands 
+     <xref ref-type="bibr" rid="pone.0018982-Weller1">
+      [17]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0018982-Weller2">
+      [18]
+     </xref>). The aggregation parameter (
+     <italic>
+      k
+     </italic>) appears to be a key component for both the spatial and temporal relationship between species distribution and abundance. Thus, it may also be pertinent to investigate what processes may affect species aggregation in space and time in comparable ways. Overall, we hope that the present study opens the door to long-term research on the fundamental and applied aspects of the interspecific temporal abundance–occurrence relationship.</p> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0018982.s001" mimetype="application/x-excel" position="float" xlink:href="info:doi/10.1371/journal.pone.0018982.s001" xlink:type="simple"> 
+     <label>Data S1</label>  
+     <p>Data set in Excel format.</p> 
+     <p>(XLS)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Sebastián P. Luque and two reviewers for their constructive comments on our manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0018982-Blackburn1"> 
+      <label>1</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Blackburn
+         </surname>
+         <given-names>
+          TM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <source>Macroecology: concepts and consequences 
+       <publisher-loc>
+        Oxford
+       </publisher-loc> 
+       <publisher-name>
+        Blackwell Science
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        464
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Blackburn2"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Blackburn
+         </surname>
+         <given-names>
+          TM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cassey
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Variations on a theme: sources of heterogeneity in the form of the interspecific relationship between abundance and distribution.
+       </article-title> 
+       <source>J Anim Ecol 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        1426
+       </fpage> 
+       <lpage>
+        1439
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Foggo1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Foggo
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bilton
+         </surname>
+         <given-names>
+          DT
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rundle
+         </surname>
+         <given-names>
+          SD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Do developmental mode and dispersal shape abundance–occupancy relationships in marine macroinvertebrates?
+       </article-title> 
+       <source>J Anim Ecol 
+       <volume>
+        76
+       </volume> 
+       <fpage>
+        695
+       </fpage> 
+       <lpage>
+        702
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Webb1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Webb
+         </surname>
+         <given-names>
+          TJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tyler
+         </surname>
+         <given-names>
+          EHM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Somerfield
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Life history mediates large-scale population ecology in marine benthic taxa.
+       </article-title> 
+       <source>Mar Ecol Prog Ser 
+       <volume>
+        396
+       </volume> 
+       <fpage>
+        293
+       </fpage> 
+       <lpage>
+        306
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Buckley1"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Buckley
+         </surname>
+         <given-names>
+          HL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Freckleton
+         </surname>
+         <given-names>
+          RP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Understanding the role of species dynamics in abundance–occupancy relationships.
+       </article-title> 
+       <source>J Ecol 
+       <volume>
+        98
+       </volume> 
+       <fpage>
+        645
+       </fpage> 
+       <lpage>
+        658
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Verberk1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Verberk
+         </surname>
+         <given-names>
+          WCEP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          van der Velde
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Esselink
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Explaining abundance–occupancy relationships in specialists and generalists: a case study on aquatic macroinvertebrates in standing waters.
+       </article-title> 
+       <source>J Anim Ecol 
+       <volume>
+        79
+       </volume> 
+       <fpage>
+        589
+       </fpage> 
+       <lpage>
+        601
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Holt1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Holt
+         </surname>
+         <given-names>
+          AR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          He
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Occupancy–abundance relationships and spatial distribution: a review.
+       </article-title> 
+       <source>Basic Appl Ecol 
+       <volume>
+        3
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        13
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-He1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          He
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gaston
+         </surname>
+         <given-names>
+          KJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Estimating species abundance from occurrence.
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        156
+       </volume> 
+       <fpage>
+        553
+       </fpage> 
+       <lpage>
+        559
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-French1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          French
+         </surname>
+         <given-names>
+          FE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hagan
+         </surname>
+         <given-names>
+          DV
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1995
+       </year> 
+       <article-title>
+        Two-tier box trap catches 
+        <italic>
+         Chrysops atlanticus
+        </italic> and 
+        <italic>
+         C. fuliginosus
+        </italic> (Diptera: Tabanidae) near a Georgia salt marsh.
+       </article-title> 
+       <source>J Med Entomol 
+       <volume>
+        32
+       </volume> 
+       <fpage>
+        197
+       </fpage> 
+       <lpage>
+        200
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Mullen1"> 
+      <label>10</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mullen
+         </surname>
+         <given-names>
+          GR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mullen
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Durden
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <source>Medical and veterinary entomology 
+       <publisher-loc>
+        San Diego
+       </publisher-loc> 
+       <publisher-name>
+        Academic Press
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        259
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Teskey1"> 
+      <label>11</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Teskey
+         </surname>
+         <given-names>
+          HJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1990
+       </year> 
+       <source>The insects and arachnids of Canada. Part 16: The horse flies and deer flies of Canada and Alaska (Diptera: Tabanidae) 
+       <publisher-loc>
+        Ottawa
+       </publisher-loc> 
+       <publisher-name>
+        Agriculture Canada
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        381
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Quinn1"> 
+      <label>12</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Quinn
+         </surname>
+         <given-names>
+          GP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Keough
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <source>Experimental design and data analysis for biologists 
+       <publisher-loc>
+        Cambridge
+       </publisher-loc> 
+       <publisher-name>
+        Cambridge University Press
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        520
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Wilson1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname>
+         <given-names>
+          PD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        The consequences of using different measures of mean abundance to characterize the abundance–occupancy relationship.
+       </article-title> 
+       <source>Global Ecol Biogeogr 
+       <volume>
+        20
+       </volume> 
+       <fpage>
+        193
+       </fpage> 
+       <lpage>
+        202
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Krebs1"> 
+      <label>14</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Krebs
+         </surname>
+         <given-names>
+          CJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <source>Ecological methodology 
+       <publisher-loc>
+        Menlo Park
+       </publisher-loc> 
+       <publisher-name>
+        Benjamin Cummings
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        624
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Guo1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Guo
+         </surname>
+         <given-names>
+          Q
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brown
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Valone
+         </surname>
+         <given-names>
+          TJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Abundance and distribution of desert annuals: are spatial and temporal patterns related?
+       </article-title> 
+       <source>J Ecol 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        551
+       </fpage> 
+       <lpage>
+        560
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-VanDerWal1"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          VanDerWal
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shoo
+         </surname>
+         <given-names>
+          LP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Johnson
+         </surname>
+         <given-names>
+          CN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Williams
+         </surname>
+         <given-names>
+          SE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Abundance and the environmental niche: environmental suitability estimated from niche models predicts the upper limit of local abundance.
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        174
+       </volume> 
+       <fpage>
+        282
+       </fpage> 
+       <lpage>
+        291
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Weller1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Weller
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1987
+       </year> 
+       <article-title>
+        A reevaluation of the −3/2 power rule of plant self-thinning.
+       </article-title> 
+       <source>Ecol Monogr 
+       <volume>
+        57
+       </volume> 
+       <fpage>
+        23
+       </fpage> 
+       <lpage>
+        43
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0018982-Weller2"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Weller
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1989
+       </year> 
+       <article-title>
+        The interspecific size-density relationship among crowded plant stands and its implications for the −3/2 power rule of self-thinning.
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        133
+       </volume> 
+       <fpage>
+        20
+       </fpage> 
+       <lpage>
+        41
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

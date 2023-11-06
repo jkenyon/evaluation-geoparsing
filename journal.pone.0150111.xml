@@ -1,0 +1,4613 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0150111
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-48990
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Spatial and landscape ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Spatial and landscape ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Forests
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Research and analysis methods
+       </subject>
+       <subj-group>
+        <subject>
+         Mathematical and statistical techniques
+        </subject>
+        <subj-group>
+         <subject>
+          Statistical methods
+         </subject>
+         <subj-group>
+          <subject>
+           Multivariate analysis
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Physical sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Mathematics
+        </subject>
+        <subj-group>
+         <subject>
+          Statistics (mathematics)
+         </subject>
+         <subj-group>
+          <subject>
+           Statistical methods
+          </subject>
+          <subj-group>
+           <subject>
+            Multivariate analysis
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Community ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Conservation science
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Aquatic environments
+        </subject>
+        <subj-group>
+         <subject>
+          Freshwater environments
+         </subject>
+         <subj-group>
+          <subject>
+           Wetlands
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Marine and aquatic sciences
+        </subject>
+        <subj-group>
+         <subject>
+          Aquatic environments
+         </subject>
+         <subj-group>
+          <subject>
+           Freshwater environments
+          </subject>
+          <subj-group>
+           <subject>
+            Wetlands
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Earth sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Geomorphology
+        </subject>
+        <subj-group>
+         <subject>
+          Topography
+         </subject>
+         <subj-group>
+          <subject>
+           Landforms
+          </subject>
+          <subj-group>
+           <subject>
+            Wetlands
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Population ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Population ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Population biology
+        </subject>
+        <subj-group>
+         <subject>
+          Population ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       A Holistic Landscape Description Reveals That Landscape Configuration Changes More over Time than Composition: Implications for Landscape Ecology Studies
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Landscape Configuration Changes More over Time than Composition
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Mimet
+        </surname> 
+        <given-names>
+         Anne
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+       <xref ref-type="corresp" rid="cor001">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Pellissier
+        </surname> 
+        <given-names>
+         Vincent
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+       <xref ref-type="fn" rid="currentaff001">
+        <sup>¤</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Houet
+        </surname> 
+        <given-names>
+         Thomas
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff003">
+        <sup>3</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Julliard
+        </surname> 
+        <given-names>
+         Romain
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Simon
+        </surname> 
+        <given-names>
+         Laurent
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       UMR 7533 CNRS-Paris 1-Paris 7-Paris 8-Paris 10, Laboratory of Social Dynamics and Space Recomposition [LADYSS], 2 rue Valette, FR-75005, Paris, France
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       UMR 7204 MNHN-CNRS-UPCM, Center of Conservation Science [CESCO], 55 rue Buffon, FR-75005, Paris, France
+      </addr-line>
+     </aff> 
+     <aff id="aff003">
+      <label>3</label> 
+      <addr-line>
+       UMR 5602 CNRS-UTM, Geography of the Environment [GEODE], 5 Allée A. Machado, FR-31058, Toulouse, Cedex 1, France
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Crowther
+        </surname> 
+        <given-names>
+         Mathew S.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       University of Sydney, AUSTRALIA
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: AM TH RJ. Performed the experiments: AM VP. Analyzed the data: AM VP. Contributed reagents/materials/analysis tools: AM TH VP. Wrote the paper: AM VP TH LS.</p> 
+      </fn> 
+      <fn fn-type="current-aff" id="currentaff001"> 
+       <label>¤</label>
+       <p>Current address: Section for Ecoinformatics &amp; Biodiversity, Department of Bioscience, Ny Munkegade 114–116, Aarhus University, DK 8000, Aarhus, Denmark</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        anne.mimet@gmail.com
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       9
+      </day> 
+      <month>
+       3
+      </month> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <volume>
+      11
+     </volume> 
+     <issue>
+      3
+     </issue> 
+     <elocation-id>
+      e0150111
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        9
+       </day> 
+       <month>
+        11
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        9
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2016
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2016
+      </copyright-year> 
+      <copyright-holder>
+       Mimet et al
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0150111" /> 
+     <abstract> 
+      <sec id="sec001"> 
+       <title>Background</title> 
+       <p>Space-for-time substitution—that is, the assumption that spatial variations of a system can explain and predict the effect of temporal variations—is widely used in ecology. However, it is questionable whether it can validly be used to explain changes in biodiversity over time in response to land-cover changes.</p> 
+      </sec> 
+      <sec id="sec002"> 
+       <title>Hypothesis</title> 
+       <p>Here, we hypothesize that different temporal 
+        <italic>
+         vs
+        </italic> spatial trajectories of landscape composition and configuration may limit space-for-time substitution in landscape ecology. Land-cover conversion changes not just the surface areas given over to particular types of land cover, but also affects isolation, patch size and heterogeneity. This means that a small change in land cover over time may have only minor repercussions on landscape composition but potentially major consequences for landscape configuration.</p> 
+      </sec> 
+      <sec id="sec003"> 
+       <title>Methods</title> 
+       <p>Using land-cover maps of the Paris region for 1982 and 2003, we made a holistic description of the landscape disentangling landscape composition from configuration. After controlling for spatial variations, we analyzed and compared the amplitudes of changes in landscape composition and configuration over time.</p> 
+      </sec> 
+      <sec id="sec004"> 
+       <title>Results</title> 
+       <p>For comparable spatial variations, landscape configuration varied more than twice as much as composition over time. Temporal changes in composition and configuration were not always spatially matched.</p> 
+      </sec> 
+      <sec id="sec005"> 
+       <title>Significance</title> 
+       <p>The fact that landscape composition and configuration do not vary equally in space and time calls into question the use of space-for-time substitution in landscape ecology studies. The instability of landscapes over time appears to be attributable to configurational changes in the main. This may go some way to explaining why the landscape variables that account for changes over time in biodiversity are not the same ones that account for the spatial distribution of biodiversity.</p> 
+      </sec> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       The study was funded by the Atlas dynamique de la biodiversité en Seine-et-Marne. LS and RJ received the funding.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="4" /> 
+      <table-count count="2" /> 
+      <page-count count="16" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        Data (land cover data) are now freely available from the Institute of Urban Planning and Development in the Paris Region, website: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.iau-idf.fr/liau-et-vous/cartes-donnees/open-data/donnees.html" xlink:type="simple">
+         http://www.iau-idf.fr/liau-et-vous/cartes-donnees/open-data/donnees.html
+        </ext-link>. A data set of the landscape metrics before CA and PCA is available as supporting information (
+        <xref ref-type="supplementary-material" rid="pone.0150111.s003">
+         S2
+        </xref> and 
+        <xref ref-type="supplementary-material" rid="pone.0150111.s004">
+         S3
+        </xref> Files).
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec006" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>One of the main goals of landscape ecology is to provide a better understanding of how populations and communities respond to changes in land use and cover [LUC] in space and time [
+     <xref ref-type="bibr" rid="pone.0150111.ref001">
+      1
+     </xref>]. Ecological conservation requires both an understanding of the ecological processes associated with landscape composition and configuration, and a complete understanding of the landscape dynamics of composition and configuration induced by LUC changes which strongly impact biodiversity. In this study, a LUC patch is an isolated tract of homogeneous land use cover (e.g. an agricultural plot). Landscape composition is determined by the type and proportion of LUC patches present in elementary landscape units [
+     <xref ref-type="bibr" rid="pone.0150111.ref002">
+      2
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref003">
+      3
+     </xref>]. Landscape configuration is determined by the diversity and spatial arrangement of LUC patches in landscape units determined by various landscape variables such as distance between patches or patch size [
+     <xref ref-type="bibr" rid="pone.0150111.ref004">
+      4
+     </xref>]. The influence of landscape composition and configuration on biodiversity has been widely investigated in the literature based on two strong assumptions: the habitat/matrix paradigm [
+     <xref ref-type="bibr" rid="pone.0150111.ref005">
+      5
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref006">
+      6
+     </xref>] and the space-for-time substitution (also termed the ergodic principle or static approach) [
+     <xref ref-type="bibr" rid="pone.0150111.ref007">
+      7
+     </xref>] applied to landscape ecology studies to predict future biodiversity dynamics [
+     <xref ref-type="bibr" rid="pone.0150111.ref008">
+      8
+     </xref>]. In the habitat/matrix paradigm, which is derived from island biogeography theory and metapopulation theory [
+     <xref ref-type="bibr" rid="pone.0150111.ref009">
+      9
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref010">
+      10
+     </xref>], habitat patches are viewed as islands surrounded by an inhospitable matrix. The space-for-time substitution states that the average of the value of a single system over time is equal to the average of the values of 
+     <italic>
+      n
+     </italic> identical systems at any given moment. In our context, this would mean that the consequences for biodiversity of changes in landscape composition and configuration over time could be evaluated by studying the spatial variations of biodiversity with respect to spatial variations of landscape composition and configuration. Obtaining time series data for land cover and biodiversity data over periods long enough to show significant change in biodiversity and landscape involves substantial economic costs and is time consuming. The saving that can be made with space-for-time substitution is probably the main reason it being so widely used in landscape ecology [
+     <xref ref-type="bibr" rid="pone.0150111.ref011">
+      11
+     </xref>].</p> 
+    <p>Several authors have shown that composition is usually more important than configuration when explaining spatial biodiversity patterns [
+     <xref ref-type="bibr" rid="pone.0150111.ref003">
+      3
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref012">
+      12
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref013">
+      13
+     </xref>]. Using the space-for-time substitution, the results of those studies are widely extrapolated to conclude that composition changes are likely to be much more important than configuration changes in explaining species and community changes. Thus it is claimed that composition is the element to focus on to protect biodiversity [
+     <xref ref-type="bibr" rid="pone.0150111.ref014">
+      14
+     </xref>].</p> 
+    <p>These views have been challenged. The habitat/matrix paradigm has been shown to lead to an oversimplification of landscape processes [
+     <xref ref-type="bibr" rid="pone.0150111.ref003">
+      3
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref005">
+      5
+     </xref>]. Studies using holistic descriptions of the landscape, i.e. detailing the composition and configuration of the various types of land cover, have revealed that small variations in configuration can significantly alter the suitability of a landscape for a species, even when compositions are comparable, i.e. there are similar amounts of the various types of land cover in the landscape [
+     <xref ref-type="bibr" rid="pone.0150111.ref012">
+      12
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref015">
+      15
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref016">
+      16
+     </xref>]. Long-term studies are recognized to be preferable to space-for-time substitution in studying biodiversity dynamics [
+     <xref ref-type="bibr" rid="pone.0150111.ref017">
+      17
+     </xref>]. Some studies have challenged the space-for-time approach in landscape ecology by showing that the landscape variables that are used to explain the spatial distribution of biodiversity are not necessarily the same variables as are used to explain biodiversity dynamics over time [
+     <xref ref-type="bibr" rid="pone.0150111.ref018">
+      18
+     </xref>,
+     <xref ref-type="bibr" rid="pone.0150111.ref019">
+      19
+     </xref>]. Other studies have indicated that the spatial and temporal landscape variables explaining the current distribution of biodiversity are not necessarily the same [
+     <xref ref-type="bibr" rid="pone.0150111.ref020">
+      20
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150111.ref024">
+      24
+     </xref>]. One explanation for these observations may be that when studying biodiversity dynamics, the space-for-time substitution assumes that historical and current landscapes do not differ significantly across sites [
+     <xref ref-type="bibr" rid="pone.0150111.ref007">
+      7
+     </xref>], which is probably wrong or at least not verified in most studies [
+     <xref ref-type="bibr" rid="pone.0150111.ref025">
+      25
+     </xref>].</p> 
+    <p>Given these challenges, it is critical to understand the dynamics of landscape composition versus configuration over time in response to subtle land cover changes in order to improve the combination of conservation concerns and human activities in landscapes [
+     <xref ref-type="bibr" rid="pone.0150111.ref026">
+      26
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150111.ref031">
+      31
+     </xref>].</p> 
+    <p>Composition and configuration variables are strongly correlated and interrelated [
+     <xref ref-type="bibr" rid="pone.0150111.ref032">
+      32
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0150111.ref034">
+      34
+     </xref>]. The decline in extent of any particular LUC type affects both landscape composition and configuration. For instance, the conversion of a small fraction of a patch of farmland into urbanized land will modify the proportions of the two types of land cover in the landscape. As only a small area is directly involved, the proportions of the two types of land cover will change only slightly, and the conversion will induce only minor changes in overall landscape composition. However, this conversion will also affect the landscape configuration by modifying the distance between patches (isolation), as well as their size, shape and/or number. It will also modify heterogeneity by changing the relative proportions of the two types of land cover, and one type may simply disappear from the landscape. Thus, this change may have greater repercussions for landscape configuration than composition, as it will probably have consequences on more metrics and for both types of land cover involved (isolation, size, and shape).</p> 
+    <p>Using time series of a holistic description of the landscape in the Seine-et-Marne department near Paris, France, the present study tests the validity of the space-for-time substitution on the landscape scale to assess landscape composition and configuration changes over time. It focuses on understanding the repercussions of subtle changes in LUC over time on landscape composition and configuration, which are assumed to be key landscape characteristics for biodiversity.</p> 
+   </sec> 
+   <sec id="sec007" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="sec008"> 
+     <title>Study site and land cover data</title> 
+     <p>The study was conducted in Seine-et-Marne, which is the largest administrative department around Paris, covering 5915 km<sup>2</sup> (48°06’– 49°7’ N; 2°23’– 3°32’ W). In 2007, the population of the region was nearly 1 353 946, with a density of 218 inhabitants per km². Farmland is the dominant LUC type, with more than 60% of the territory being allocated to farming. The proximity of the department to Paris has resulted in substantial LUC changes, dominated by urbanization, the development of transport networks, and loss of farmland and forest. Natural areas of interest remain in some locations across the department, mostly in the form of forested areas and wetlands (
+      <xref ref-type="fig" rid="pone.0150111.g001">
+       Fig 1
+      </xref>).</p> 
+     <fig id="pone.0150111.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0150111.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>Main LUC types in the Seine-et-Marne department in 2003.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.g001" xlink:type="simple" /> 
+     </fig> 
+     <p>The Île-de-France Institute of Urban Planning and Development (
+      <italic>
+       IAU
+      </italic>) provided the Land Use Pattern (LUP) database, which is a LUC database covering the Île-de-France region for 1982 and 2003 at 25 m resolution with 1:5000 geometric precision. These data were derived from the interpretation of aerial photographs and additional data on municipalities’ territories, building cartography and type provided by the municipalities. The information provided by the LUP database was simplified by grouping its 83 LUC divisions into just six LUC classes:</p> 
+     <list list-type="bullet"> 
+      <list-item>
+       <p>Agricultural areas: areas given over to arable farming and pasture.</p>
+      </list-item> 
+      <list-item>
+       <p>Urbanized areas: built areas, urban parks and gardens, building land, or swimming pools.</p>
+      </list-item> 
+      <list-item>
+       <p>Forest: natural woodlands, forests, and poplar stands.</p>
+      </list-item> 
+      <list-item>
+       <p>Water and wetlands: rivers, other bodies of water, and wetlands.</p>
+      </list-item> 
+      <list-item>
+       <p>Transport areas: road, rail, car parks</p>
+      </list-item> 
+      <list-item>
+       <p>Natural open areas: wasteland and cut forest.</p>
+      </list-item> 
+     </list> 
+    </sec> 
+    <sec id="sec009"> 
+     <title>Description of the landscape</title> 
+     <p>The methods and data used to describe the landscapes in the present study have been presented at length in previous studies [
+      <xref ref-type="bibr" rid="pone.0150111.ref015">
+       15
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref016">
+       16
+      </xref>] but are briefly described below (for an explanation of the importance of a holistic landscape description in ecology studies see 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s002">
+       S1 File
+      </xref>).</p> 
+     <p>The holistic landscape description was based on two parallel descriptions of landscape units, one for composition and one for configuration. These two descriptions followed the same methodology: landscape metrics were computed and the two sets of metrics reduced by two separate multivariate analyses. This step eliminated co-variation 
+      <italic>
+       within
+      </italic> composition and configuration metrics respectively, because landscape metrics are usually closely correlated [
+      <xref ref-type="bibr" rid="pone.0150111.ref032">
+       32
+      </xref>]. This step therefore ensured that the analyses did not include any redundant information. However, the methodology did not prevent covariation 
+      <italic>
+       between
+      </italic> composition and configuration as the metrics were obtained from two separate multivariate analyses. This was necessary, because the information common to composition and configuration variables could not be attributed to one or the other of these landscape characteristics and consequently had to be saved in both instances [
+      <xref ref-type="bibr" rid="pone.0150111.ref013">
+       13
+      </xref>].</p> 
+     <p>The region was divided into 6524 hexagonal landscape units (hexagonal cells) with centroids spaced 1 km apart (approximately 78 ha each), roughly equivalent to the area covered by a circle with a 500 m radius. Because landscape scaling is species-specific [
+      <xref ref-type="bibr" rid="pone.0150111.ref035">
+       35
+      </xref>], we selected a scale that would allow for unique yet comparable landscape descriptions. This scale was selected on the basis of the literature as suitable for multi-species studies of bird-landscape relationships for forest species [
+      <xref ref-type="bibr" rid="pone.0150111.ref036">
+       36
+      </xref>] and farmland species [
+      <xref ref-type="bibr" rid="pone.0150111.ref013">
+       13
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref037">
+       37
+      </xref>]. Each of these units was then considered to represent a landscape. Landscape composition and configuration were computed for each landscape and for the two years of the LUC data. The landscape variables of the two years of the study (1982 and 2003) were integrated in the multivariate analyses.</p> 
+     <p>Landscape composition was assessed by computing the respective proportions of the six LUC classes in each landscape unit and analyzing them through correspondence analysis [CA] with the ade4 package [
+      <xref ref-type="bibr" rid="pone.0150111.ref038">
+       38
+      </xref>] for R.2.10.1 [
+      <xref ref-type="bibr" rid="pone.0150111.ref039">
+       39
+      </xref>] [
+      <xref ref-type="bibr" rid="pone.0150111.ref040">
+       40
+      </xref>]. The first three axes explained 86% of the observed variance (Table A in 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s001">
+       S1 Table
+      </xref>). The first axis corresponded to a gradient of human conversion of natural areas, mainly forests, for agricultural purposes (hereafter referred to as the “forest-to-farmland” variable). The second axis corresponded to a gradient of urbanization (hereafter, the “urbanization” variable). Note that historically urbanization in the department is located mainly in the great valleys of the rivers Seine and Marne, which explains the weight of the water/wetlands variable on the second axis. The third axis identified natural wetlands and open natural areas (hereafter referred to as the “decline in natural wetlands” variable).</p> 
+     <p>Rather than being based on the configuration of each LUC type, the landscape configuration was described in terms of the discrimination between dominant LUC classes (over 20% of the area in a hexagonal unit) and minority LUC classes in the landscape unit (under 20% of the landscape unit, see [
+      <xref ref-type="bibr" rid="pone.0150111.ref016">
+       16
+      </xref>], for the rationale for the 20% threshold). Accordingly, landscape metrics were computed for each LUC type and then averaged by dominant (one or two LUC types depending on the landscape units) and minority (zero to five LUC types) LUC types in each landscape unit. This method not only limited the number and complexity of initial configuration variables but also described the landscape configuration without reference to LUC type (and consequently to landscape composition), because the configuration variables referred to the dominant/minority status. By this method, landscape configuration was rendered qualitatively independent of landscape composition: a configuration described by variables of comparable values could exist for different compositions. Thus, an example of a configuration metric is the shape complexity of the patches of the dominant LUC, and not the shape complexity of forest patches. It also allowed for statistical independence between composition and configuration [
+      <xref ref-type="bibr" rid="pone.0150111.ref015">
+       15
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref041">
+       41
+      </xref>]. When considering a landscape unit, the information yielded by composition made it possible to identify the dominant and minority LUCs referred to by the configuration variables. Landscape configuration metrics were selected according to the literature to inform the main components of landscape characterization [
+      <xref ref-type="bibr" rid="pone.0150111.ref032">
+       32
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref042">
+       42
+      </xref>]. We computed the mean patch perimeter/area ratio, the Euclidean distance between patches, the number of patches, and the mean patch perimeter. Unlike the methodology presented in 14 and 15, we omitted heterogeneity variables from the configuration analyses in the main methodology, as they are often described as composition variables [
+      <xref ref-type="bibr" rid="pone.0150111.ref003">
+       3
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref030">
+       30
+      </xref>] (Table B in 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s001">
+       S1 Table
+      </xref>). However, to ensure consistency with the landscape description presented in those two earlier papers, results incorporating heterogeneity variables into the configuration description are presented in Table C in 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s001">
+       S1 Table
+      </xref>. Each metric was computed for both the dominant and minority LUC classes. All of these variables are linked to biodiversity or ecological processes [
+      <xref ref-type="bibr" rid="pone.0150111.ref006">
+       6
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref043">
+       43
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref044">
+       44
+      </xref>]. All eight variables were computed in a principal component analysis (PCA) using the ade4 package. Based on the eigenvalue plot, we kept the first seven axes, which explained 96% of the observed variance. The first axis provided general information about the configuration at the landscape level, describing a gradient from patchy landscapes to uniform landscapes (referred to as the “decrease in patchiness” variable). The second axis explained the decreasing isolation of the dominant and minority LUC patches (the “decreasing isolation” variable). The third axis provided information about patch shape complexity (the “decrease in shape complexity” variable). The fourth axis increased with complex shapes and size of the patches of minority LUCs (the “shape complexity and size of minority LUC” variable). The fifth axis separated complex-shaped dominant LUC landscapes from complex-shaped minority LUC landscapes (the “Dominant to minority shape complexity” variable). The sixth axis highlighted landscapes with numerous patches of minority LUC and large distances between patches of dominant LUC (the “Minority patchiness between distant dominant LUC” variable). Finally, the seventh axis highlighted landscapes with a small number of clustered minority LUC patches (the “Clustered minority LUC” variable). The landscape composition and configuration metrics used in the multivariate analyses are available in 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s003">
+       S2
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s004">
+       S3
+      </xref> Files.</p> 
+    </sec> 
+    <sec id="sec010"> 
+     <title>Comparison of the variations in composition and configuration over time</title> 
+     <p>We followed a five-step method for comparing the variations in composition and configuration over time:</p> 
+     <list list-type="order"> 
+      <list-item>
+       <p>
+        <bold>
+         Computation of composition and configuration variables
+        </bold>: We computed the values for the three composition variables and the seven configuration variables extracted from the CA and the PCA for each landscape in 1982 and 2003. After this step, the composition variables have comparable 
+        <italic>
+         within
+        </italic> variation and the configuration variables comparable 
+        <italic>
+         within
+        </italic> variation.</p>
+      </list-item> 
+      <list-item>
+       <p>
+        <bold>
+         Standardization between composition and configuration variables
+        </bold>: This is the fundamental step in making composition and configuration comparable in space and time, independently of the number of variables used to build them. We standardized each composition and configuration variable by the total (i.e. summed) variation of the selected variables of the CA and the PCA respectively to (a) obtain comparable values for the composition and configuration variables for 1982 and 2003, and so to [b] ensure we observe only time variations when considering the differences between 1982 and 2003, following the formula: 
+        <disp-formula id="pone.0150111.e001"> 
+         <alternatives> 
+          <graphic id="pone.0150111.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0150111.e001" xlink:type="simple" /> 
+          <mml:math display="block" id="M1"> 
+           <mml:msub>
+            <mml:mrow>
+             <mml:mi>
+              S
+             </mml:mi>
+             <mml:mi>
+              t
+             </mml:mi>
+             <mml:mi>
+              d
+             </mml:mi>
+             <mml:mi>
+              z
+             </mml:mi>
+             <mml:mo>
+              _
+             </mml:mo>
+             <mml:mi>
+              L
+             </mml:mi>
+             <mml:mi>
+              a
+             </mml:mi>
+             <mml:mi>
+              n
+             </mml:mi>
+             <mml:mi>
+              d
+             </mml:mi>
+             <mml:mi>
+              V
+             </mml:mi>
+             <mml:mi>
+              a
+             </mml:mi>
+             <mml:mi>
+              r
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi>
+              i
+             </mml:mi>
+             <mml:mi>
+              j
+             </mml:mi>
+            </mml:mrow>
+           </mml:msub>
+           <mml:mo>
+            =
+           </mml:mo>
+           <mml:mrow>
+            <mml:mrow>
+             <mml:msub>
+              <mml:mrow>
+               <mml:mi>
+                L
+               </mml:mi>
+               <mml:mi>
+                a
+               </mml:mi>
+               <mml:mi>
+                n
+               </mml:mi>
+               <mml:mi>
+                d
+               </mml:mi>
+               <mml:mi>
+                V
+               </mml:mi>
+               <mml:mi>
+                a
+               </mml:mi>
+               <mml:mi>
+                r
+               </mml:mi>
+              </mml:mrow>
+              <mml:mrow>
+               <mml:mi>
+                i
+               </mml:mi>
+               <mml:mi>
+                j
+               </mml:mi>
+              </mml:mrow>
+             </mml:msub>
+            </mml:mrow>
+            <mml:mo>
+             /
+            </mml:mo>
+            <mml:mrow>
+             <mml:mrow>
+              <mml:msubsup>
+               <mml:mstyle displaystyle="false">
+                <mml:mo>
+                 ∑
+                </mml:mo>
+               </mml:mstyle>
+               <mml:mrow>
+                <mml:mi>
+                 i
+                </mml:mi>
+                <mml:mo>
+                 =
+                </mml:mo>
+                <mml:mn>
+                 1
+                </mml:mn>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 n
+                </mml:mi>
+               </mml:mrow>
+              </mml:msubsup>
+              <mml:mrow>
+               <mml:mi>
+                s
+               </mml:mi>
+               <mml:mi>
+                d
+               </mml:mi>
+               <mml:mo>
+                (
+               </mml:mo>
+               <mml:mrow>
+                <mml:msub>
+                 <mml:mrow>
+                  <mml:mi>
+                   L
+                  </mml:mi>
+                  <mml:mi>
+                   a
+                  </mml:mi>
+                  <mml:mi>
+                   n
+                  </mml:mi>
+                  <mml:mi>
+                   d
+                  </mml:mi>
+                  <mml:mi>
+                   V
+                  </mml:mi>
+                  <mml:mi>
+                   a
+                  </mml:mi>
+                  <mml:mi>
+                   r
+                  </mml:mi>
+                 </mml:mrow>
+                 <mml:mrow>
+                  <mml:mi>
+                   i
+                  </mml:mi>
+                 </mml:mrow>
+                </mml:msub>
+               </mml:mrow>
+               <mml:mo>
+                )
+               </mml:mo>
+              </mml:mrow>
+             </mml:mrow>
+            </mml:mrow>
+           </mml:mrow> 
+          </mml:math> 
+         </alternatives> 
+         <label>(1)</label> 
+        </disp-formula> with 
+        <italic>
+         LandVar
+        </italic><sub>
+         <italic>
+          i
+         </italic></sub> 
+        <italic>
+         as
+        </italic> the composition or configuration variable i, j the year and n the number of selected composition or configuration variables of the PCAs.</p> 
+       <p>Therefore, in each landscape, we divided the values for the composition and configuration variables by the sum of the standard deviations of the selected axes from the multifactorial analysis to which they belonged (i.e. by the total standard deviation of the CA for the three composition variables and by the total standard deviation of the PCA for the seven configuration variables). After standardization, the summed spatial variation of the three composition variables was equal to the summed spatial variation of the seven configuration variables in 1982 and 2003. Thus, standardization gave the same weight to composition and configuration, regardless of the number of variables composing each. Consequently, the amplitudes of variation in composition and configuration (obtained by summing the standard deviations of the composition or configuration variables) were equal in space (and equal to 1), and their changes over time were therefore comparable.</p>
+      </list-item> 
+      <list-item>
+       <p>
+        <bold>
+         Computation of the standardized changes over time
+        </bold>: We then computed the standardized temporal changes between 1982 and 2003 (
+        <italic>
+         Chg_LandVar
+        </italic><sub>
+         <italic>
+          i
+         </italic></sub>) for the three composition and seven configuration variables in each landscape by subtracting the values of these ten variables in 1982 from their values in 2003 by the formula: 
+        <disp-formula id="pone.0150111.e002"> 
+         <alternatives> 
+          <graphic id="pone.0150111.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0150111.e002" xlink:type="simple" /> 
+          <mml:math display="block" id="M2"> 
+           <mml:mrow>
+            <mml:mi>
+             C
+            </mml:mi>
+            <mml:mi>
+             h
+            </mml:mi>
+            <mml:mi>
+             g
+            </mml:mi>
+            <mml:mo>
+             _
+            </mml:mo>
+            <mml:mi>
+             L
+            </mml:mi>
+            <mml:mi>
+             a
+            </mml:mi>
+            <mml:mi>
+             n
+            </mml:mi>
+            <mml:mi>
+             d
+            </mml:mi>
+            <mml:mi>
+             V
+            </mml:mi>
+            <mml:mi>
+             a
+            </mml:mi>
+            <mml:msub>
+             <mml:mi>
+              r
+             </mml:mi>
+             <mml:mi>
+              i
+             </mml:mi>
+            </mml:msub>
+            <mml:mo>
+             =
+            </mml:mo>
+            <mml:mi>
+             S
+            </mml:mi>
+            <mml:mi>
+             t
+            </mml:mi>
+            <mml:mi>
+             d
+            </mml:mi>
+            <mml:msub>
+             <mml:mi>
+              z
+             </mml:mi>
+             <mml:mrow>
+              <mml:mi>
+               L
+              </mml:mi>
+              <mml:mi>
+               a
+              </mml:mi>
+              <mml:mi>
+               n
+              </mml:mi>
+              <mml:mi>
+               d
+              </mml:mi>
+              <mml:mi>
+               V
+              </mml:mi>
+              <mml:mi>
+               a
+              </mml:mi>
+              <mml:mi>
+               r
+              </mml:mi>
+             </mml:mrow>
+            </mml:msub>
+            <mml:msub>
+             <mml:mrow />
+             <mml:mrow>
+              <mml:msub>
+               <mml:mrow />
+               <mml:mi>
+                i
+               </mml:mi>
+              </mml:msub>
+             </mml:mrow>
+            </mml:msub>
+            <mml:mo stretchy="false">
+             (
+            </mml:mo>
+            <mml:mn>
+             2003
+            </mml:mn>
+            <mml:mo stretchy="false">
+             (
+            </mml:mo>
+            <mml:mo>
+             −
+            </mml:mo>
+            <mml:mi>
+             S
+            </mml:mi>
+            <mml:mi>
+             t
+            </mml:mi>
+            <mml:mi>
+             d
+            </mml:mi>
+            <mml:msub>
+             <mml:mi>
+              z
+             </mml:mi>
+             <mml:mrow>
+              <mml:mi>
+               L
+              </mml:mi>
+              <mml:mi>
+               a
+              </mml:mi>
+              <mml:mi>
+               n
+              </mml:mi>
+              <mml:mi>
+               d
+              </mml:mi>
+              <mml:mi>
+               V
+              </mml:mi>
+              <mml:mi>
+               a
+              </mml:mi>
+              <mml:mi>
+               r
+              </mml:mi>
+             </mml:mrow>
+            </mml:msub>
+            <mml:msub>
+             <mml:mrow />
+             <mml:mrow>
+              <mml:msub>
+               <mml:mrow />
+               <mml:mi>
+                i
+               </mml:mi>
+              </mml:msub>
+             </mml:mrow>
+            </mml:msub>
+            <mml:mrow>
+             <mml:mo stretchy="false">
+              (
+             </mml:mo>
+             <mml:mrow>
+              <mml:mn>
+               1982
+              </mml:mn>
+             </mml:mrow>
+             <mml:mo stretchy="false">
+              )
+             </mml:mo>
+            </mml:mrow>
+            <mml:mo stretchy="false">
+             )
+            </mml:mo>
+           </mml:mrow> 
+          </mml:math> 
+         </alternatives> 
+         <label>(2)</label> 
+        </disp-formula> with 
+        <italic>
+         Stdz_LandVar
+        </italic> as the standardized composition or configuration variable i in 1982 or 2003.</p>
+      </list-item> 
+      <list-item>
+       <p>
+        <bold>
+         Total variation of the temporal changes
+        </bold>: We computed the standard deviations (sd) for the standardized temporal changes in each of the composition and configuration variables as a measure of the amplitude of their respective variations over time (
+        <italic>
+         Sd_Chg_LandVar
+        </italic><sub>
+         <italic>
+          i]
+         </italic></sub>)<sub>
+         <italic>
+          )
+         </italic></sub> by the formula: 
+        <disp-formula id="pone.0150111.e003"> 
+         <alternatives> 
+          <graphic id="pone.0150111.e003g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0150111.e003" xlink:type="simple" /> 
+          <mml:math display="block" id="M3"> 
+           <mml:msub>
+            <mml:mrow>
+             <mml:mi>
+              S
+             </mml:mi>
+             <mml:mi>
+              d
+             </mml:mi>
+             <mml:mo>
+              _
+             </mml:mo>
+             <mml:mi>
+              C
+             </mml:mi>
+             <mml:mi>
+              h
+             </mml:mi>
+             <mml:mi>
+              g
+             </mml:mi>
+             <mml:mo>
+              _
+             </mml:mo>
+             <mml:mi>
+              L
+             </mml:mi>
+             <mml:mi>
+              a
+             </mml:mi>
+             <mml:mi>
+              n
+             </mml:mi>
+             <mml:mi>
+              d
+             </mml:mi>
+             <mml:mi>
+              V
+             </mml:mi>
+             <mml:mi>
+              a
+             </mml:mi>
+             <mml:mi>
+              r
+             </mml:mi>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mi>
+              i
+             </mml:mi>
+            </mml:mrow>
+           </mml:msub>
+           <mml:mo>
+            =
+           </mml:mo>
+           <mml:mi>
+            s
+           </mml:mi>
+           <mml:mi>
+            d
+           </mml:mi>
+           <mml:mo>
+            [
+           </mml:mo>
+           <mml:mo>
+            (
+           </mml:mo>
+           <mml:mrow>
+            <mml:msub>
+             <mml:mrow>
+              <mml:mi>
+               C
+              </mml:mi>
+              <mml:mi>
+               h
+              </mml:mi>
+              <mml:mi>
+               g
+              </mml:mi>
+              <mml:mo>
+               _
+              </mml:mo>
+              <mml:mi>
+               L
+              </mml:mi>
+              <mml:mi>
+               a
+              </mml:mi>
+              <mml:mi>
+               n
+              </mml:mi>
+              <mml:mi>
+               d
+              </mml:mi>
+              <mml:mi>
+               V
+              </mml:mi>
+              <mml:mi>
+               a
+              </mml:mi>
+              <mml:mi>
+               r
+              </mml:mi>
+             </mml:mrow>
+             <mml:mrow>
+              <mml:mi>
+               i
+              </mml:mi>
+             </mml:mrow>
+            </mml:msub>
+           </mml:mrow>
+           <mml:mo>
+            )
+           </mml:mo>
+           <mml:mo>
+            )
+           </mml:mo> 
+          </mml:math> 
+         </alternatives> 
+         <label>(3)</label> 
+        </disp-formula></p>
+      </list-item> 
+      <list-item>
+       <p>
+        <bold>
+         Total amplitude of temporal changes in composition and configuration
+        </bold>: We summed the standardized standard deviations of the temporal changes for the three composition variables and seven configuration variables to obtain the amplitudes of the temporal changes in composition and configuration by the formula: 
+        <disp-formula id="pone.0150111.e004"> 
+         <alternatives> 
+          <graphic id="pone.0150111.e004g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0150111.e004" xlink:type="simple" /> 
+          <mml:math display="block" id="M4"> 
+           <mml:mi>
+            T
+           </mml:mi>
+           <mml:mi>
+            o
+           </mml:mi>
+           <mml:mi>
+            t
+           </mml:mi>
+           <mml:mo>
+            _
+           </mml:mo>
+           <mml:mi>
+            C
+           </mml:mi>
+           <mml:mi>
+            h
+           </mml:mi>
+           <mml:mi>
+            g
+           </mml:mi>
+           <mml:mo>
+            _
+           </mml:mo>
+           <mml:mi>
+            C
+           </mml:mi>
+           <mml:mi>
+            o
+           </mml:mi>
+           <mml:mi>
+            m
+           </mml:mi>
+           <mml:mi>
+            p
+           </mml:mi>
+           <mml:mo>
+            =
+           </mml:mo>
+           <mml:mrow>
+            <mml:msubsup>
+             <mml:mstyle displaystyle="false">
+              <mml:mo>
+               ∑
+              </mml:mo>
+             </mml:mstyle>
+             <mml:mrow>
+              <mml:mi>
+               i
+              </mml:mi>
+              <mml:mo>
+               =
+              </mml:mo>
+              <mml:mn>
+               1
+              </mml:mn>
+             </mml:mrow>
+             <mml:mrow>
+              <mml:mi>
+               n
+              </mml:mi>
+             </mml:mrow>
+            </mml:msubsup>
+            <mml:mrow>
+             <mml:msub>
+              <mml:mrow>
+               <mml:mi>
+                S
+               </mml:mi>
+               <mml:mi>
+                d
+               </mml:mi>
+               <mml:mo>
+                _
+               </mml:mo>
+               <mml:mi>
+                C
+               </mml:mi>
+               <mml:mi>
+                h
+               </mml:mi>
+               <mml:mi>
+                g
+               </mml:mi>
+               <mml:mo>
+                _
+               </mml:mo>
+               <mml:mi>
+                C
+               </mml:mi>
+               <mml:mi>
+                o
+               </mml:mi>
+               <mml:mi>
+                m
+               </mml:mi>
+               <mml:mi>
+                p
+               </mml:mi>
+              </mml:mrow>
+              <mml:mrow>
+               <mml:mi>
+                i
+               </mml:mi>
+              </mml:mrow>
+             </mml:msub>
+            </mml:mrow>
+           </mml:mrow> 
+          </mml:math> 
+         </alternatives> 
+         <label>(4)</label> 
+        </disp-formula> 
+        <disp-formula id="pone.0150111.e005"> 
+         <alternatives> 
+          <graphic id="pone.0150111.e005g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0150111.e005" xlink:type="simple" /> 
+          <mml:math display="block" id="M5"> 
+           <mml:mi>
+            T
+           </mml:mi>
+           <mml:mi>
+            o
+           </mml:mi>
+           <mml:mi>
+            t
+           </mml:mi>
+           <mml:mo>
+            _
+           </mml:mo>
+           <mml:mi>
+            C
+           </mml:mi>
+           <mml:mi>
+            h
+           </mml:mi>
+           <mml:mi>
+            g
+           </mml:mi>
+           <mml:mo>
+            _
+           </mml:mo>
+           <mml:mi>
+            C
+           </mml:mi>
+           <mml:mi>
+            o
+           </mml:mi>
+           <mml:mi>
+            n
+           </mml:mi>
+           <mml:mi>
+            f
+           </mml:mi>
+           <mml:mo>
+            =
+           </mml:mo>
+           <mml:mrow>
+            <mml:msubsup>
+             <mml:mstyle displaystyle="false">
+              <mml:mo>
+               ∑
+              </mml:mo>
+             </mml:mstyle>
+             <mml:mrow>
+              <mml:mi>
+               i
+              </mml:mi>
+              <mml:mo>
+               =
+              </mml:mo>
+              <mml:mn>
+               1
+              </mml:mn>
+             </mml:mrow>
+             <mml:mrow>
+              <mml:mi>
+               n
+              </mml:mi>
+             </mml:mrow>
+            </mml:msubsup>
+            <mml:mrow>
+             <mml:msub>
+              <mml:mrow>
+               <mml:mi>
+                S
+               </mml:mi>
+               <mml:mi>
+                d
+               </mml:mi>
+               <mml:mo>
+                _
+               </mml:mo>
+               <mml:mi>
+                C
+               </mml:mi>
+               <mml:mi>
+                h
+               </mml:mi>
+               <mml:mi>
+                g
+               </mml:mi>
+               <mml:mo>
+                _
+               </mml:mo>
+               <mml:mi>
+                C
+               </mml:mi>
+               <mml:mi>
+                o
+               </mml:mi>
+               <mml:mi>
+                n
+               </mml:mi>
+               <mml:mi>
+                f
+               </mml:mi>
+              </mml:mrow>
+              <mml:mrow>
+               <mml:mi>
+                i
+               </mml:mi>
+              </mml:mrow>
+             </mml:msub>
+            </mml:mrow>
+           </mml:mrow> 
+          </mml:math> 
+         </alternatives> 
+         <label>(5)</label> 
+        </disp-formula> with 
+        <italic>
+         Sd_Chg_Comp
+        </italic> the total variation of the temporal change of composition variables i and 
+        <italic>
+         Sd_Chg_Conf
+        </italic> the total variation of the temporal change of configuration variables i.</p> 
+       <p>This step was the equivalent of the sum performed in step (ii) to evaluate global spatial variability and global temporal variability.</p>
+      </list-item> 
+     </list> 
+     <p>To provide a basis for comparison using more conventional metrics we also applied an alternative method to the entire set of landscape metrics (
+      <xref ref-type="supplementary-material" rid="pone.0150111.s005">
+       S4 File
+      </xref>, Tables A and B in 
+      <xref ref-type="supplementary-material" rid="pone.0150111.s005">
+       S4 File
+      </xref>). This method dispenses with the multivariate analysis step, so it gives the standardized temporal changes of the initial composition and configuration metrics. Although it does not avoid the covariation and standardization issues (as multivariate analyses are not done), the results cannot be used to quantify the differences in temporal variations between composition and configuration.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec011" sec-type="results"> 
+    <title>Results</title> 
+    <p>Between 1982 and 2003, the net change in LUC concerned 4.6% of the Seine-et-Marne study area, i.e. a mean change of 0.242% per year, whereas the average annual rate of change in France during the period 1990–2000, based on Corine Land Cover data, was estimated to be approximately 0.198% per year [
+     <xref ref-type="bibr" rid="pone.0150111.ref045">
+      45
+     </xref>]. The forest and farmland classes lost large areas, mainly through conversion into open natural and urbanized areas (Tables 
+     <xref ref-type="table" rid="pone.0150111.t001">
+      1
+     </xref> and 
+     <xref ref-type="table" rid="pone.0150111.t002">
+      2
+     </xref>). Some conversions of urbanized areas to natural open areas and farmland can be observed. They are mainly explained by the conversion of large green areas (such as parks and gardens) that had been for urban use in 1982 into farmland and natural open areas. In many instances these new natural open areas were intended as future construction sites.</p> 
+    <table-wrap id="pone.0150111.t001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0150111.t001
+     </object-id> 
+     <label>Table 1</label> 
+     <title>Areas of the six LUC types in 1982 and 2003 in hectares, their respective proportion of the study area as a percentage, and their percentage change with respect to their area in 1982.</title> 
+     <alternatives> 
+      <graphic id="pone.0150111.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.t001" xlink:type="simple" /> 
+      <table> 
+       <colgroup> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th align="justify">a)</th> 
+         <th align="right">1982</th> 
+         <th align="right">2003</th> 
+         <th align="right">Difference between 1982 and 2003</th> 
+         <th align="right">Difference between 1982 and 2003 (% of 1982 area)</th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Farmland
+          </bold></td> 
+         <td align="right">374037 
+          <bold>
+           (63,1%
+          </bold>)</td> 
+         <td align="right">359332 
+          <bold>
+           (60,6%)
+          </bold></td> 
+         <td align="right">-14705 
+          <bold>
+           (-2,5%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           -3,9%
+          </bold></td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Urban
+          </bold></td> 
+         <td align="right">48769 
+          <bold>
+           (8,2%)
+          </bold></td> 
+         <td align="right">61953 
+          <bold>
+           (10,5%)
+          </bold></td> 
+         <td align="right">13184 
+          <bold>
+           (+ 2,2%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           +27%
+          </bold></td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Forest
+          </bold></td> 
+         <td align="right">142876 
+          <bold>
+           (24,1%)
+          </bold></td> 
+         <td align="right">130523 
+          <bold>
+           (22%)
+          </bold></td> 
+         <td align="right">-12353 
+          <bold>
+           (-2,1%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           -8,6%
+          </bold></td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Open natural
+          </bold></td> 
+         <td align="right">17162 
+          <bold>
+           (2,9%)
+          </bold></td> 
+         <td align="right">27906 
+          <bold>
+           (4,7%)
+          </bold></td> 
+         <td align="right">10744 
+          <bold>
+           (+1,8%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           +62,6%
+          </bold></td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Transport
+          </bold></td> 
+         <td align="right">4092 
+          <bold>
+           (0,7%)
+          </bold></td> 
+         <td align="right">5749 
+          <bold>
+           (1%)
+          </bold></td> 
+         <td align="right">1657 
+          <bold>
+           (+0,3%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           +40,5%
+          </bold></td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Wetlands/Water
+          </bold></td> 
+         <td align="right">5863 
+          <bold>
+           (1%)
+          </bold></td> 
+         <td align="right">7336 
+          <bold>
+           (1,2%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           1473 (+0,2%)
+          </bold></td> 
+         <td align="right">
+          <bold>
+           +25,1%
+          </bold></td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+    </table-wrap> 
+    <table-wrap id="pone.0150111.t002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0150111.t002
+     </object-id> 
+     <label>Table 2</label> 
+     <title>Matrix conversion of LUC changes between 1982 and 2003 in hectares.</title> 
+     <alternatives> 
+      <graphic id="pone.0150111.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.t002" xlink:type="simple" /> 
+      <table> 
+       <colgroup> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+        <col align="left" valign="middle"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th align="left"></th> 
+         <th align="center" colspan="6">2003</th> 
+        </tr> 
+        <tr> 
+         <th align="left">b]</th> 
+         <th align="right">Farmland</th> 
+         <th align="right">Urban</th> 
+         <th align="right">Forest</th> 
+         <th align="right">Open natural</th> 
+         <th align="right">Transport</th> 
+         <th align="right">Wetlands /Water</th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Farmland
+          </bold></td> 
+         <td align="right">354142</td> 
+         <td align="right">11141</td> 
+         <td align="right">1069</td> 
+         <td align="right">5514</td> 
+         <td align="right">1060</td> 
+         <td align="right">1111</td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Urban
+          </bold></td> 
+         <td align="right">1292</td> 
+         <td align="right">45431</td> 
+         <td align="right">275</td> 
+         <td align="right">1159</td> 
+         <td align="right">356</td> 
+         <td align="right">255</td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Forest
+          </bold></td> 
+         <td align="right">1536</td> 
+         <td align="right">1740</td> 
+         <td align="right">125391</td> 
+         <td align="right">13718</td> 
+         <td align="right">254</td> 
+         <td align="right">236</td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Open natural
+          </bold></td> 
+         <td align="right">2291</td> 
+         <td align="right">3504</td> 
+         <td align="right">3756</td> 
+         <td align="right">7313</td> 
+         <td align="right">73</td> 
+         <td align="right">224</td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Transport
+          </bold></td> 
+         <td align="right">7</td> 
+         <td align="right">48</td> 
+         <td align="right">8</td> 
+         <td align="right">29</td> 
+         <td align="right">3999</td> 
+         <td align="right">1</td> 
+        </tr> 
+        <tr> 
+         <td align="justify">
+          <bold>
+           Wetlands/Water
+          </bold></td> 
+         <td align="right">64</td> 
+         <td align="right">89</td> 
+         <td align="right">24</td> 
+         <td align="right">172</td> 
+         <td align="right">6</td> 
+         <td align="right">5508</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+    </table-wrap> 
+    <p>The variable exhibiting the greatest change was a composition variable, “increasing urbanization”, distantly followed by a configuration variable, “Shape complexity and size of minority LUC” (Stdz_LandVar<sub>i</sub>) (
+     <xref ref-type="fig" rid="pone.0150111.g002">
+      Fig 2
+     </xref>). The sums of the absolute values of the average changes in composition (0.069) and configuration (0.076) were similar, with configuration changing on average only a little more than composition over time (
+     <xref ref-type="fig" rid="pone.0150111.g002">
+      Fig 2
+     </xref>).</p> 
+    <fig id="pone.0150111.g002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0150111.g002
+     </object-id> 
+     <label>Fig 2</label>  
+     <title>Averaged temporal variation of the standardized three composition and seven configuration variables from the multivariate analyses for the overall landscapes of the study area between 1982 and 2003 (DLUC for dominant LUC, MLUC for minority LUC).</title>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.g002" xlink:type="simple" /> 
+    </fig> 
+    <p>The range of the standard temporal changes (Chg_LandVar<sub>i</sub>) was smaller, with values between 0.07 and 0.16 (
+     <xref ref-type="fig" rid="pone.0150111.g003">
+      Fig 3
+     </xref>). The variables with the greatest amplitude were again the increasing urbanization (a composition variable) and isolation (a configuration variable), although the latter did not show large changes in averaged temporal variation (Stdz_LandVar<sub>i</sub>) (
+     <xref ref-type="fig" rid="pone.0150111.g003">
+      Fig 3
+     </xref>). The other configuration variables had quite comparable standard deviation values, whereas they had different averaged values of change (
+     <xref ref-type="fig" rid="pone.0150111.g003">
+      Fig 3
+     </xref>). These results highlight contrasting temporal dynamics of the landscape units for these variables. The sum of the standard deviations of the temporal changes was 0.8 for the configuration (Tot_Chg_Conf) versus 0.31 for the composition (Tot_Chg_Comp) variables (
+     <xref ref-type="fig" rid="pone.0150111.g003">
+      Fig 3
+     </xref>). In other words, configuration changes were 2.6 times greater than the composition ones.</p> 
+    <fig id="pone.0150111.g003" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0150111.g003
+     </object-id> 
+     <label>Fig 3</label>  
+     <title>Standard deviations of the standardized temporal changes (Chg_LandVar&lt;sub&gt;i&lt;/sub&gt;) for the composition and configuration variables and their sum (DLUC for dominant LUC, MLUC for minority LUC).</title>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.g003" xlink:type="simple" /> 
+    </fig> 
+    <p>The results obtained by the alternative simplified method showed qualitatively similar results, with configuration metrics being on average more variable over time than composition metrics (
+     <xref ref-type="supplementary-material" rid="pone.0150111.s006">
+      S1 Fig
+     </xref>). The results obtained by the method including heterogeneity variables in the configuration description also yielded similar results but with a reduced difference between the temporal changes of composition and configuration (Figures A and B in 
+     <xref ref-type="supplementary-material" rid="pone.0150111.s007">
+      S2 Fig
+     </xref>), suggesting that heterogeneity is less variable over time than the configuration variables.</p> 
+    <p>The amplitude maps for the changes in terms of composition and configuration (
+     <xref ref-type="fig" rid="pone.0150111.g004">
+      Fig 4
+     </xref>) highlight that most changes were related to configuration. Composition showed greater variation in valleys, and to a lesser extent in urbanized areas and forests, which represent a relatively small proportion of the surface area of the department. Some of the changes in configuration matched composition changes, but configuration changes appeared in other places and were more common in the entire department. They were more marked in forested areas, and were also present and often strong in the intensive agricultural areas of the southwest, northwest and east-central parts of the department. This result reflected two antagonistic landscape dynamics. In urbanized areas, large changes corresponded to conversions of LUC patches of forest, natural open areas and farmland to urban areas, increasing number and the size and of urban patches by aggregation. In forested areas, changes corresponded to increased sprawl and new LUC patches due to forest cutting and management (conversion into natural open areas).</p> 
+    <fig id="pone.0150111.g004" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0150111.g004
+     </object-id> 
+     <label>Fig 4</label>  
+     <title>Maps of the changes in the amplitude of the temporal composition and configuration between 1982 and 2003.</title> 
+     <p>The amplitudes are computed as the sum of the absolute values of the changes of the standardized composition and configuration variables between 1982 and 2003.</p>  
+     <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.g004" xlink:type="simple" /> 
+    </fig> 
+   </sec> 
+   <sec id="sec012" sec-type="conclusions"> 
+    <title>Discussion/Conclusion</title> 
+    <sec id="sec013"> 
+     <title>Configuration varies much more over time than composition: questioning and balancing the response of biodiversity to LUC changes</title> 
+     <p>This study indicates that, under the conditions of our investigation, landscape configuration is more variable over time than landscape composition, up to 2.6 times higher in this study. These results concern the Seine-et-Marne department between 1982 and 2003 and for the given landscape scale. Configuration appears to be more sensitive to LUC changes, suggesting that subtle changes in composition have a marked influence on landscape stability via its configuration. The results highlight the fact that taken independently, the 10 landscape variables (three composition and seven configuration variables) display similar temporal variation. Consequently, the higher temporal variation for configuration than composition is due to the multiple facets of configurational changes induced by land cover changes over time (as a reminder, the variable standardization step made composition and configuration comparable in space and time, independently of the number of variables composing them: we thus expected equal temporal variations between the sums of all composition and configuration variables). For instance, in a simple landscape with two different types of land cover, variations in the total area of one type of land cover will modify the respective amount of the two types of land cover (composition) and have direct consequences for the configuration variables of these two types of land cover (shape, isolation, perimeter, number of patches). In our case, a conversion from one type of land cover to another will affect two composition metrics but probably four configuration metrics (size, distance, perimeter, and/or number of patches).</p> 
+     <p>These results go further than the findings of Long et al. [
+      <xref ref-type="bibr" rid="pone.0150111.ref046">
+       46
+      </xref>] who only considered the changes of a single land cover (forest) in assessing their impacts on forest composition and configuration in landscapes and found that forest composition changed more over time than forest configuration. The differences in results can be explained by the integration of more landscape variables linked to the different LUC types, which better described landscape complexity, i.e. by the use of a holistic approach to landscape description [
+      <xref ref-type="bibr" rid="pone.0150111.ref047">
+       47
+      </xref>]. Moreover these results suggest that different LUC types are not equally involved in composition and configuration changes. The geography (topography, hydrography, etc.) and anthropogenic features (human settlements or transport network, etc.) may influence the trajectories of composition and configuration [
+      <xref ref-type="bibr" rid="pone.0150111.ref030">
+       30
+      </xref>]. In our study, urbanized areas appeared to be highly sensitive to both landscape composition and configuration changes, probably because of the intensity of the LUC changes in these areas. On the other hand, the configuration changes were clearly greater than composition changes in forested and agricultural areas, which are commonly composed of more homogeneous (less fragmented and diversified) landscapes [
+      <xref ref-type="bibr" rid="pone.0150111.ref015">
+       15
+      </xref>].</p> 
+     <p>These emergent properties of LUC changes observed on the landscape scale might alter our understanding of the responses of biodiversity to LUC changes, particularly regarding the spatial causes of changes in biodiversity over time. The landscape variables explaining the spatial distribution patterns of biodiversity are indeed not necessarily the same as those explaining the changes in biodiversity over time [
+      <xref ref-type="bibr" rid="pone.0150111.ref018">
+       18
+      </xref>]. As subtle landscape changes in terms of composition induce larger variations in terms of configuration, the temporal instability of the landscape might increase when considering landscapes using a holistic landscape description. While the stability of a landscape over time is known to be a key driver of biodiversity distribution patterns [
+      <xref ref-type="bibr" rid="pone.0150111.ref048">
+       48
+      </xref>], favouring specialized communities and limiting biological homogenization [
+      <xref ref-type="bibr" rid="pone.0150111.ref021">
+       21
+      </xref>], our results suggest that the use of the space-for-time substitution to estimate the relative importance of composition and configuration changes for biodiversity dynamics may lead to an under-estimation of the importance of configurational changes. This may explain the importance of landscape configuration variables found in previous studies of landscape-biodiversity relationships based on temporal data [
+      <xref ref-type="bibr" rid="pone.0150111.ref020">
+       20
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref021">
+       21
+      </xref>] or the weak explanatory power of composition in explaining biodiversity changes [
+      <xref ref-type="bibr" rid="pone.0150111.ref018">
+       18
+      </xref>].</p> 
+     <p>The different speeds of composition and configuration changes should have contrasting impacts on species. Due to their particular preferred habitats and movement abilities, species are not equally dependent on landscape composition and configuration [
+      <xref ref-type="bibr" rid="pone.0150111.ref012">
+       12
+      </xref>]. Therefore, the coincidence of the sensitivity of species to changes in composition and configuration over time could lead to different trajectories of communities in various geographic and anthropogenic contexts. [
+      <xref ref-type="bibr" rid="pone.0150111.ref016">
+       16
+      </xref>] showed that, for the area under study, farmland bird species are more sensitive to variation of configuration than forest species. Therefore, the substantial changes over time in the configuration observed in farmland might have greater consequences for farmland communities than the changes observed in forest areas would have on forest communities. However, an important result here is that landscape instability over time is more largely attributable to configuration than composition changes, when instability is known to be a major factor of biotic homogenization [
+      <xref ref-type="bibr" rid="pone.0150111.ref021">
+       21
+      </xref>,
+      <xref ref-type="bibr" rid="pone.0150111.ref049">
+       49
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec014"> 
+     <title>Limitations and perspectives for landscape ecology and conservation</title> 
+     <p>These results concern only the Seine-et-Marne department over the last 20 years of the twentieth century. Because of the contrasting landscape and human contexts, this department is representative of the main anthropogenic LUC in France and Western Europe. However, similar studies should be conducted in other regions and/or countries to confirm these results. This would help us to better understand and distinguish the spatial and temporal mismatches of landscape composition and configuration changes induced by LUC changes. As landscape patterns can change with scale [
+      <xref ref-type="bibr" rid="pone.0150111.ref001">
+       1
+      </xref>], the importance of landscape extent as well as data resolution should also be tested to define the scales for which these findings are valid.</p> 
+     <p>This study does not focus on the precise consequences for species or biodiversity of identified changes in composition and configuration of landscape. We look only at the amplitude of the repercussions of LUC changes on landscape composition and configuration. Only a holistic approach to landscape, not directed at any particular species or group of species, can be used in addressing this point [
+      <xref ref-type="bibr" rid="pone.0150111.ref047">
+       47
+      </xref>]. This has interesting implications for the way landscape should be described in biodiversity studies. The mechanistic consequences of LUC changes on landscape composition and configuration highlight the fact that their spatial and temporal variations do not have the same amplitudes. Partial description of composition or configuration (i.e. habitat-oriented) would not allow us to observe the same patterns and would limit the captured importance of configuration in explaining both biodiversity distribution and changes over time.</p> 
+     <p>The consequence of this result for biodiversity studies is that extrapolating the relative importance of the composition and configuration to temporal biodiversity changes based only on spatial data is not completely accurate as by definition it ignores how landscape actually changes over time. It questions the validity of the space-for-time substitution in landscape ecology studies, which has been widely applied in ecology and is today called into question [
+      <xref ref-type="bibr" rid="pone.0150111.ref050">
+       50
+      </xref>]. These results indicate only that with the variables widely used to describe landscapes in ecology studies and in a context of disentangling composition from configuration effects, space-for-time substitution should not be considered self-evident and should not be used without further investigation [
+      <xref ref-type="bibr" rid="pone.0150111.ref018">
+       18
+      </xref>].</p> 
+     <p>From a conservation perspective, increased attention should be paid to configuration changes (but overall landscape configuration changes, taking all land cover into account, not only habitat configuration changes in the landscape) which commonly affect landscape stability and appear to be decisive for species distribution, especially in the late stages of fragmentation [
+      <xref ref-type="bibr" rid="pone.0150111.ref051">
+       51
+      </xref>]. More generally, a strong research investment in studying changes in biodiversity over time related to landscape changes is really needed to understand which landscape variables induce change in biodiversity patterns and go beyond the variables explaining the spatial patterns of biodiversity. The recent development of large temporal biodiversity datasets (such as the Breeding Bird Census data developed by numerous countries) and of remote sensing products could be of use in investigating these questions.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec015"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0150111.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s001" xlink:type="simple"> 
+     <label>S1 Table</label>  
+     <title></title> &lt;p&gt;Variables coordinates on axis of (A) the initial composition variables with the three selected axes of the CA of the composition, (B) the initial configuration variables with the seven selected axes of the PCA of the configuration (C) the initial configuration variables with the seven selected axes of the PCA of the configuration when configuration variables include heterogeneity variables.&lt;/p&gt; &lt;p&gt;(DOCX)&lt;/p&gt; &lt;/caption&gt; &lt;/supplementary-material&gt; &lt;supplementary-material id="pone.0150111.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s002" xlink:type="simple"&gt; &lt;label&gt;S1 File&lt;/label&gt; &lt;caption&gt; &lt;title&gt;Ecological processes, spatial patterns and landscape descriptions. 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0150111.s003" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s003" xlink:type="simple"> 
+     <label>S2 File</label>  
+     <title>Description of the data set.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0150111.s004" mimetype="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s004" xlink:type="simple"> 
+     <label>S3 File</label>  
+     <title>Data set.</title> 
+     <p>(XLSX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0150111.s005" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s005" xlink:type="simple"> 
+     <label>S4 File</label>  
+     <title>Simplified method applied to the initial set of landscape metrics.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0150111.s006" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s006" xlink:type="simple"> 
+     <label>S1 Fig</label>  
+     <title>Results of the simplified method.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0150111.s007" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:href="info:doi/10.1371/journal.pone.0150111.s007" xlink:type="simple"> 
+     <label>S2 Fig</label>  
+     <title>Results of the analyses including the heterogeneity variables in the PCA of landscape configuration.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>The authors wish to thank the IAU (Institut d’Aménagement et d’Urbanisme) for the land-use and land cover data.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0150111.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tscharntke
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tylianakis
+        </surname> 
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rand
+        </surname> 
+        <given-names>
+         T a
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Didham
+        </surname> 
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Batáry
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Landscape moderation of biodiversity patterns and processes—eight hypotheses
+       </article-title>. 
+       <source>Biol Rev Camb Philos Soc [Internet]. 
+       <year>
+        2012
+       </year> 
+       <month>
+        Aug
+       </month> [cited 2014 Feb 19];
+       <volume>
+        87
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        661
+       </fpage>–
+       <lpage>
+        85
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/22272640" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/pubmed/22272640
+       </ext-link> 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1469-185X.2011.00216.x" xlink:type="simple">
+         10.1111/j.1469-185X.2011.00216.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        22272640
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reynolds
+        </surname> 
+        <given-names>
+         JF
+        </given-names>
+       </name>. 
+       <article-title>
+        On definition and quantification of heterogeneity
+       </article-title>. 
+       <source>Oikos. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        73
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        280
+       </fpage>–
+       <lpage>
+        4
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname> 
+        <given-names>
+         AF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Radford
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Haslem
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>. 
+       <article-title>
+        Properties of land mosaics: Implications for nature conservation in agricultural environments
+       </article-title>. 
+       <source>Biol Conserv. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        133
+       </volume>:
+       <fpage>
+        250
+       </fpage>–
+       <lpage>
+        64
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lindenmayer
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hobbs
+        </surname> 
+        <given-names>
+         RJ
+        </given-names>
+       </name>. 
+       <source>Managing and Designing Landscapes for Conservation: Moving from Perspectives to Principles. 
+       <publisher-name>
+        Blackwell Publishing
+       </publisher-name>, editor. 
+       <publisher-loc>
+        Victoria
+       </publisher-loc>: Blakwell Publising; 
+       <year>
+        2007
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fischer
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lindenmayer
+        </surname> 
+        <given-names>
+         DB
+        </given-names>
+       </name>. 
+       <article-title>
+        Beyond fragmentation: the continuum model for fauna research and conservation in human-modified landscapes
+       </article-title>. 
+       <source>Oikos. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        2
+       </volume>:
+       <fpage>
+        473
+       </fpage>–
+       <lpage>
+        80
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        Functional landscape heterogeneity and animal biodiversity in agricultural landscapes
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2010
+       </year>;
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pickett
+        </surname> 
+        <given-names>
+         ST
+        </given-names>
+       </name>. 
+       <chapter-title>
+        Space-for-Time Substitution as an Alternative to Long-Term Studies
+       </chapter-title>. In: 
+       <name name-style="western">
+        <surname>
+         Likens
+        </surname> 
+        <given-names>
+         GE
+        </given-names>
+       </name>, editor. 
+       <source>Long-Term Studies in Ecology [Internet]. 
+       <publisher-loc>
+        New-York
+       </publisher-loc>: 
+       <publisher-name>
+        Springe
+       </publisher-name>; 
+       <year>
+        1989
+       </year>. p. 
+       <fpage>
+        110
+       </fpage>–
+       <lpage>
+        35
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://link.springer.com/10.1007/978-1-4615-7358-6" xlink:type="simple">
+        http://link.springer.com/10.1007/978-1-4615-7358-6
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sanderson
+        </surname> 
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kloch
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sachanowicz
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Donald
+        </surname> 
+        <given-names>
+         PF
+        </given-names>
+       </name>. 
+       <article-title>
+        Predicting the effects of agricultural change on farmland bird populations in Poland
+       </article-title>. 
+       <source>Agric Ecosyst Environ. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        129
+       </volume>(
+       <issue>
+        1–3
+       </issue>):
+       <fpage>
+        37
+       </fpage>–
+       <lpage>
+        42
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Levins
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>. 
+       <article-title>
+        Some demographic and genetic consequences of environmental heterogeneity for biological control
+       </article-title>. 
+       <source>Bull ESA. 
+       <year>
+        1969
+       </year>;
+       <volume>
+        15
+       </volume>:
+       <fpage>
+        237
+       </fpage>–
+       <lpage>
+        40
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hanski
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaggiotti
+        </surname> 
+        <given-names>
+         OE
+        </given-names>
+       </name>. 
+       <source>Ecology, Genetics ad Evolution of Metapopulations. 
+       <publisher-name>
+        Elsevier academic Press
+       </publisher-name>; 
+       <year>
+        2004
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Strayer
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Glitezenstein
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname> 
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kolasa
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Likens
+        </surname> 
+        <given-names>
+         GE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McDonnell
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        LongTerm Ecological Studies: An Illustrated Account Of their Design, Operation, and Importance To Ecology
+       </article-title>. 
+       <source>Cell Press. 
+       <year>
+        1986
+       </year>. p. 
+       <fpage>
+        574
+       </fpage>–
+       <lpage>
+        82
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Radford
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname> 
+        <given-names>
+         AF
+        </given-names>
+       </name>. 
+       <article-title>
+        The relative importance of landscape properties for woodland birds in agricultural environments
+       </article-title>. 
+       <source>J Appl Ecol. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        44
+       </volume>:
+       <fpage>
+        737
+       </fpage>–
+       <lpage>
+        47
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Koper
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Francis
+        </surname> 
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        Confronting collinearity: comparing methods for disentangling the effects of habitat loss and fragmentation
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        24
+       </volume>:
+       <fpage>
+        1271
+       </fpage>–
+       <lpage>
+        128
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Trzcinski
+        </surname> 
+        <given-names>
+         MK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Merriam
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>. 
+       <article-title>
+        TrzcinskietalEcolAppl_1999.pdf
+       </article-title>. 
+       <source>Ecol Appl. 
+       <year>
+        1999
+       </year>;
+       <volume>
+        9
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        586
+       </fpage>–
+       <lpage>
+        93
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mimet
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Maurel
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pellissier
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Simon
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Julliard
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>. 
+       <article-title>
+        Towards a unique landscape description for multi-species studies: A model comparison with common birds in a human-dominated French region
+       </article-title>. 
+       <source>Ecol Indic. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        36
+       </volume>:
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        32
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mimet
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Houet
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Julliard
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Simon
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        Assessing functional connectivity: a landscape approach for handling multiple ecological requirements
+       </article-title>. 
+       <source>Methods Ecol Evol. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        4
+       </volume>:
+       <fpage>
+        453
+       </fpage>–
+       <lpage>
+        63
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kratz
+        </surname> 
+        <given-names>
+         TK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Deegan
+        </surname> 
+        <given-names>
+         L a.
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harmon
+        </surname> 
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lauenroth
+        </surname> 
+        <given-names>
+         WK
+        </given-names>
+       </name>. 
+       <article-title>
+        Ecological Variability in Space and Time: Insights Gained from the US LTER Program
+       </article-title>. 
+       <source>Bioscience. 
+       <year>
+        2003
+       </year>;
+       <volume>
+        53
+       </volume>(
+       <issue>
+        1
+       </issue>):
+       <fpage>
+        57
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bonthoux
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barnagaud
+        </surname> 
+        <given-names>
+         J-Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goulard
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Balent
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>. 
+       <article-title>
+        Contrasting spatial and temporal responses of bird communities to landscape changes
+       </article-title>. 
+       <source>Oecologia [Internet]. 
+       <year>
+        2013
+       </year> 
+       <month>
+        Jun
+       </month> [cited 2014 Nov 5];
+       <volume>
+        172
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        563
+       </fpage>–
+       <lpage>
+        74
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/23080303" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/pubmed/23080303
+       </ext-link> 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/s00442-012-2498-2" xlink:type="simple">
+         10.1007/s00442-012-2498-2
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23080303
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wretenberg
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pärt
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Berg
+        </surname> 
+        <given-names>
+         Å
+        </given-names>
+       </name>. 
+       <article-title>
+        Changes in local species richness of farmland birds in relation to land-use changes and landscape structure
+       </article-title>. 
+       <source>Biol Conserv [Internet]. Elsevier Ltd; 
+       <year>
+        2010
+       </year> 
+       <month>
+        Feb
+       </month> [cited 2014 Oct 24];
+       <volume>
+        143
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        375
+       </fpage>–
+       <lpage>
+        81
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S0006320709004650" xlink:type="simple">
+        http://linkinghub.elsevier.com/retrieve/pii/S0006320709004650
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Boulinier
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nichols
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hines
+        </surname> 
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sauer
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Flather
+        </surname> 
+        <given-names>
+         CH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pollock
+        </surname> 
+        <given-names>
+         KH
+        </given-names>
+       </name>. 
+       <article-title>
+        Forest Fragmentation and Bird Community Dynamics: Inference at Regional Scales
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        82
+       </volume>(
+       <issue>
+        4
+       </issue>):
+       <fpage>
+        1159
+       </fpage>–
+       <lpage>
+        69
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Devictor
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Julliard
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clavel
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jiguet
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Couvet
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>. 
+       <article-title>
+        Functional biotic homogenization of bird communities in disturbed landscapes
+       </article-title>. 
+       <source>Glob Ecol Biogeogr. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        17
+       </volume>:
+       <fpage>
+        252
+       </fpage>–
+       <lpage>
+        61
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Camargo
+        </surname> 
+        <given-names>
+         Martensen A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dixo
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bernacci
+        </surname> 
+        <given-names>
+         LC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Godoy
+        </surname> 
+        <given-names>
+         Teixeira AM
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Time-lag in biological responses to landscape changes in a highly dynamic Atlantic forest region
+       </article-title>. 
+       <source>Biol Conserv [Internet]. Elsevier Ltd; 
+       <year>
+        2009
+       </year>;
+       <volume>
+        142
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        1166
+       </fpage>–
+       <lpage>
+        77
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biocon.2009.01.033" xlink:type="simple">
+        http://dx.doi.org/10.1016/j.biocon.2009.01.033
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Price
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McAlpine
+        </surname> 
+        <given-names>
+         C a
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kutt
+        </surname> 
+        <given-names>
+         AS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ward
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Phinn
+        </surname> 
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ludwig
+        </surname> 
+        <given-names>
+         J a
+        </given-names>
+       </name>. 
+       <article-title>
+        Disentangling how landscape spatial and temporal heterogeneity affects Savanna birds
+       </article-title>. 
+       <source>PLoS One [Internet]. 
+       <year>
+        2013
+       </year> 
+       <month>
+        Jan
+       </month> [cited 2014 Dec 5];
+       <volume>
+        8
+       </volume>(
+       <issue>
+        9
+       </issue>):
+       <fpage>
+        e74333
+       </fpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3774622&amp;tool=pmcentrez&amp;rendertype=abstract" xlink:type="simple">
+        http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3774622&amp;tool=pmcentrez&amp;rendertype=abstract
+       </ext-link> 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0074333" xlink:type="simple">
+         10.1371/journal.pone.0074333
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        24066138
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sirami
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brotons
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martin
+        </surname> 
+        <given-names>
+         J-L
+        </given-names>
+       </name>. 
+       <article-title>
+        Do bird spatial distribution patterns reflect population trends in changing landscapes?
+       </article-title> 
+       <source>Landsc Ecol. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        24
+       </volume>:
+       <fpage>
+        893
+       </fpage>–
+       <lpage>
+        906
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Molnar
+        </surname> 
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Botta
+        </surname> 
+        <given-names>
+         Dukat Z
+        </given-names>
+       </name>. 
+       <article-title>
+        Improved space-for-time substitution for hypothesis generation: secondary grasslands with documented site history in SE-Hungary
+       </article-title>. 
+       <source>Phytocoenologia. 
+       <year>
+        1998
+       </year>. p. 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        29
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bürgi
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hersperger
+        </surname> 
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schneeberger
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>. 
+       <article-title>
+        Driving forces of landscape change–current and new directions
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        2004
+       </year>;
+       <volume>
+        19
+       </volume>:
+       <fpage>
+        857
+       </fpage>–
+       <lpage>
+        68
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Houet
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Verburg
+        </surname> 
+        <given-names>
+         PH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loveland
+        </surname> 
+        <given-names>
+         TR
+        </given-names>
+       </name>. 
+       <article-title>
+        Monitoring and modelling landscape dynamics
+       </article-title>. 
+       <source>Innovation. 
+       <year>
+        2010
+       </year>;
+       <fpage>
+        163
+       </fpage>–
+       <lpage>
+        7
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Houet
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loveland
+        </surname> 
+        <given-names>
+         TR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hubert-Moy
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gaucherel
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Napton
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barnes
+        </surname> 
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Exploring subtle land use and land cover changes: a framework for future landscape studies
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        25
+       </volume>:
+       <fpage>
+        249
+       </fpage>–
+       <lpage>
+        66
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref029">
+      <label>29</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pellissier
+        </surname> 
+        <given-names>
+         V
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cohen
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boulay
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clergeau
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>. 
+       <article-title>
+        Birds are also sensitive to landscape composition and configuration within the city centre
+       </article-title>. 
+       <source>Landsc Urban Plan [Internet]. Elsevier B.V.; 
+       <year>
+        2011
+       </year>;
+       <volume>
+        104
+       </volume>:
+       <fpage>
+        181
+       </fpage>–
+       <lpage>
+        8
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.landurbplan.2011.10.011" xlink:type="simple">
+        http://dx.doi.org/10.1016/j.landurbplan.2011.10.011
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref030">
+      <label>30</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Proulx
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        Detecting human-driven deviations from trajectories in landscape composition and configuration
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        25
+       </volume>:
+       <fpage>
+        1479
+       </fpage>–
+       <lpage>
+        87
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref031">
+      <label>31</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hobbs
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>. 
+       <article-title>
+        Key issues and research priorities in landscape ecology: An idiosyncratic synthesis
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        17
+       </volume>:
+       <fpage>
+        355
+       </fpage>–
+       <lpage>
+        65
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref032">
+      <label>32</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Riitters
+        </surname> 
+        <given-names>
+         KH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         O’Neill
+        </surname> 
+        <given-names>
+         R V
+        </given-names>
+       </name>. 
+       <article-title>
+        A factor analysis of landscape pattern and structure metrics
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        1995
+       </year>;
+       <volume>
+        10
+       </volume>:
+       <fpage>
+        23
+       </fpage>–
+       <lpage>
+        39
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref033">
+      <label>33</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cushman
+        </surname> 
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McGarigal
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>. 
+       <chapter-title>
+        Multivariate landscape trajectory analysis. Temporal dimensions of landscape ecology
+       </chapter-title>. 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <publisher-loc>
+        US
+       </publisher-loc>; 
+       <year>
+        2007
+       </year>. p. 
+       <fpage>
+        119
+       </fpage>–
+       <lpage>
+        40
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref034">
+      <label>34</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schindler
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Poirazidis
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wrbka
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>. 
+       <article-title>
+        Towards a core set of landscape metrics for biodiversity assessments: A case study from Dadia National Park, Greece
+       </article-title>. 
+       <source>Ecol Indic. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        8
+       </volume>:
+       <fpage>
+        502
+       </fpage>–
+       <lpage>
+        14
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref035">
+      <label>35</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tischendorf
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        On the usage and measurement of landscape connectivity
+       </article-title>. 
+       <source>Oikos. 
+       <year>
+        2000
+       </year>(
+       <issue>
+        90
+       </issue>):
+       <fpage>
+        7
+       </fpage>–
+       <lpage>
+        19
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref036">
+      <label>36</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Caprio
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ellena
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rolando
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>. 
+       <article-title>
+        Assessing habitat/landscape predictors of birds diversty in managed deciduous forests: a seasonal and guild-based approach
+       </article-title>. 
+       <source>Biol Conserv. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        18
+       </volume>:
+       <fpage>
+        1287
+       </fpage>–
+       <lpage>
+        303
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref037">
+      <label>37</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Filippi-Codaccioni
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clobert
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Julliard
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>. 
+       <article-title>
+        Urbanisation effects on the functional diversity of avian agricultural communities
+       </article-title>. 
+       <source>Acta Oecologica. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        35
+       </volume>:
+       <fpage>
+        705
+       </fpage>–
+       <lpage>
+        10
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref038">
+      <label>38</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dray
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dufour
+        </surname> 
+        <given-names>
+         AB
+        </given-names>
+       </name>. 
+       <article-title>
+        The ade4 package: implementing the duality diagram for ecologists
+       </article-title>. 
+       <source>J Stat Softw. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        22
+       </volume>:
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        20
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref039">
+      <label>39</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       R Development Core Team. R: A language and environment for statistical computing. 2010;ISBN 3–900051–07–0, URL 
+       <ext-link ext-link-type="uri" xlink:href="http://www.R–project.org" xlink:type="simple">
+        http://www.R–project.org
+       </ext-link>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref040">
+      <label>40</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Griffith
+        </surname> 
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martinko
+        </surname> 
+        <given-names>
+         EA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Price
+        </surname> 
+        <given-names>
+         KP
+        </given-names>
+       </name>. 
+       <article-title>
+        Landscape structure analysis of Kansas at three scales
+       </article-title>. 
+       <source>Landsc Urban Plan. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        52
+       </volume>:
+       <fpage>
+        45
+       </fpage>–
+       <lpage>
+        61
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref041">
+      <label>41</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname> 
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cumming
+        </surname> 
+        <given-names>
+         SG
+        </given-names>
+       </name>. 
+       <article-title>
+        Measuring landscape configuration with normalized metrics
+       </article-title>. 
+       <source>Landsc Ecol. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        26
+       </volume>:
+       <fpage>
+        723
+       </fpage>–
+       <lpage>
+        36
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref042">
+      <label>42</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Birch
+        </surname> 
+        <given-names>
+         CPD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Om
+        </surname> 
+        <given-names>
+         SP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beecham
+        </surname> 
+        <given-names>
+         JA
+        </given-names>
+       </name>. 
+       <article-title>
+        Rectangular and hexagonal grids used for observation, experiment and simulation in ecology
+       </article-title>. 
+       <source>Ecol Modell. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        206
+       </volume>:
+       <fpage>
+        347
+       </fpage>–
+       <lpage>
+        59
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref043">
+      <label>43</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Henle
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname> 
+        <given-names>
+         KF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kleyer
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Margules
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Settele
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Predictors of species sensitivity to fragmentation
+       </article-title>. 
+       <source>Biodivers Conserv. 
+       <year>
+        2004
+       </year>;
+       <volume>
+        13
+       </volume>:
+       <fpage>
+        207
+       </fpage>–
+       <lpage>
+        51
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref044">
+      <label>44</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hanski
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>. 
+       <article-title>
+        Spatially realistic theory of metapopulation ecology
+       </article-title>. 
+       <source>Naturwissenschaften. 
+       <year>
+        2001
+       </year>; 
+       <volume>
+        88
+       </volume>:
+       <fpage>
+        372
+       </fpage>–
+       <lpage>
+        81
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        11688412
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref045">
+      <label>45</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feranec
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jaffrain
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Soukup
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gerard
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>. 
+       <article-title>
+        Determining changes and flows in European landscapes 1990–2000 using CORINE land cover data
+       </article-title>. 
+       <source>Appl Geogr. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        30
+       </volume>:
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        35
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref046">
+      <label>46</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Long
+        </surname> 
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nelson
+        </surname> 
+        <given-names>
+         TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wulder
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>. 
+       <article-title>
+        Characterizing forest fragmentation: Distinguishing change in composition from configuration
+       </article-title>. 
+       <source>Appl Geogr. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        30
+       </volume>:
+       <fpage>
+        426
+       </fpage>–
+       <lpage>
+        35
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref047">
+      <label>47</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Li
+        </surname> 
+        <given-names>
+         B-L
+        </given-names>
+       </name>. 
+       <article-title>
+        Why is the holistic approach becoming so important in landscape ecology?
+       </article-title> 
+       <source>Landsc Urban Plan [Internet]. 
+       <year>
+        2000
+       </year> 
+       <month>
+        Aug
+       </month>;
+       <volume>
+        50
+       </volume>(
+       <issue>
+        1–3
+       </issue>):
+       <fpage>
+        27
+       </fpage>–
+       <lpage>
+        41
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S0169204600000785" xlink:type="simple">
+        http://linkinghub.elsevier.com/retrieve/pii/S0169204600000785
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref048">
+      <label>48</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ives
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname> 
+        <given-names>
+         SR
+        </given-names>
+       </name>. 
+       <article-title>
+        Stability and Diversity of Ecosystems
+       </article-title>. 
+       <source>Science (80-). 
+       <year>
+        2007
+       </year>;
+       <volume>
+        317
+       </volume>:
+       <fpage>
+        58
+       </fpage>–
+       <lpage>
+        62
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref049">
+      <label>49</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname> 
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chen
+        </surname> 
+        <given-names>
+         Q
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Elser
+        </surname> 
+        <given-names>
+         JJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         He
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Linking stoichiometric homoeostasis with ecosystem structure, functioning and stability
+       </article-title>. 
+       <source>Ecol Lett [Internet]. 
+       <year>
+        2010
+       </year> 
+       <month>
+        Nov
+       </month> [cited 2014 Dec 5];
+       <volume>
+        13
+       </volume>(
+       <issue>
+        11
+       </issue>):
+       <fpage>
+        1390
+       </fpage>–
+       <lpage>
+        9
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/20849443" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/pubmed/20849443
+       </ext-link> 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2010.01532.x" xlink:type="simple">
+         10.1111/j.1461-0248.2010.01532.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        20849443
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref050">
+      <label>50</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ricklefs
+        </surname> 
+        <given-names>
+         RE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jenkins
+        </surname> 
+        <given-names>
+         DG
+        </given-names>
+       </name>. 
+       <article-title>
+        Biogeography and ecology: towards the integration of two disciplines
+       </article-title>. 
+       <source>Philos Trans R Soc Lond B Biol Sci [Internet]. 
+       <year>
+        2011
+       </year> 
+       <month>
+        Aug
+       </month> 
+       <day>
+        27
+       </day> [cited 2014 Apr 30];
+       <volume>
+        366
+       </volume>(
+       <issue>
+        1576
+       </issue>):
+       <fpage>
+        2438
+       </fpage>–
+       <lpage>
+        48
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3130436&amp;tool=pmcentrez&amp;rendertype=abstract" xlink:type="simple">
+        http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3130436&amp;tool=pmcentrez&amp;rendertype=abstract
+       </ext-link> 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rstb.2011.0066" xlink:type="simple">
+         10.1098/rstb.2011.0066
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21768158
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0150111.ref051">
+      <label>51</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hu
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wu
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Feeley
+        </surname> 
+        <given-names>
+         KJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Xu
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yu
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        The effects of landscape variables on the species-area relationship during late-stage habitat fragmentation
+       </article-title>. 
+       <source>PLoS One [Internet]. 
+       <year>
+        2012
+       </year> 
+       <month>
+        Jan
+       </month> [cited 2014 Dec 5];
+       <volume>
+        7
+       </volume>(
+       <issue>
+        8
+       </issue>):
+       <fpage>
+        e43894
+       </fpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3427301&amp;tool=pmcentrez&amp;rendertype=abstract" xlink:type="simple">
+        http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3427301&amp;tool=pmcentrez&amp;rendertype=abstract
+       </ext-link> 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0043894" xlink:type="simple">
+         10.1371/journal.pone.0043894
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        22937120
+       </object-id>
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

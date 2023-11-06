@@ -1,0 +1,4723 @@
+<!--?xml version="1.0" encoding="utf-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article article-type="research-article" dtd-version="3.0" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0147909
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-44477
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecosystems
+         </subject>
+         <subj-group>
+          <subject>
+           Forests
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Terrestrial environments
+        </subject>
+        <subj-group>
+         <subject>
+          Forests
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Organisms
+        </subject>
+        <subj-group>
+         <subject>
+          Animals
+         </subject>
+         <subj-group>
+          <subject>
+           Vertebrates
+          </subject>
+          <subj-group>
+           <subject>
+            Birds
+           </subject>
+          </subj-group>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Conservation biology
+        </subject>
+        <subj-group>
+         <subject>
+          Species extinction
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Conservation science
+        </subject>
+        <subj-group>
+         <subject>
+          Conservation biology
+         </subject>
+         <subj-group>
+          <subject>
+           Species extinction
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Evolutionary biology
+        </subject>
+        <subj-group>
+         <subject>
+          Evolutionary processes
+         </subject>
+         <subj-group>
+          <subject>
+           Species extinction
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Habitats
+        </subject>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Forest ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Forest ecology
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Species diversity
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Extinction risk
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Ecological metrics
+         </subject>
+         <subj-group>
+          <subject>
+           Extinction risk
+          </subject>
+         </subj-group>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Biology and life sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+      <subj-group subj-group-type="Discipline-v3">
+       <subject>
+        Ecology and environmental sciences
+       </subject>
+       <subj-group>
+        <subject>
+         Ecology
+        </subject>
+        <subj-group>
+         <subject>
+          Biodiversity
+         </subject>
+        </subj-group>
+       </subj-group>
+      </subj-group>
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Time-Lag in Responses of Birds to Atlantic Forest Fragmentation: Restoration Opportunity and Urgency
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Time-Lag in Bird Responses a Restoration Opportunity
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Uezu
+        </surname> 
+        <given-names>
+         Alexandre
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff001">
+        <sup>1</sup>
+       </xref> 
+       <xref ref-type="corresp" rid="cor001">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         Jean Paul
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff002">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       Instituto de Pesquisas Ecológicas, Nazaré Paulista, São Paulo, Brazil
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       Departamento de Ecologia, Instituto de Biociências, Universidade de São Paulo, São Paulo, São Paulo, Brazil
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Zang
+        </surname> 
+        <given-names>
+         RunGuo
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Chinese Academy of Forestry, CHINA
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: AU JPM. Performed the experiments: AU. Analyzed the data: AU. Contributed reagents/materials/analysis tools: AU JPM. Wrote the paper: AU JPM.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        aleuezu@ipe.org.br
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       28
+      </day> 
+      <month>
+       1
+      </month> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2016
+      </year> 
+     </pub-date> 
+     <volume>
+      11
+     </volume> 
+     <issue>
+      1
+     </issue> 
+     <elocation-id>
+      e0147909
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        9
+       </day> 
+       <month>
+        10
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        10
+       </day> 
+       <month>
+        1
+       </month> 
+       <year>
+        2016
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2016
+      </copyright-year> 
+      <copyright-holder>
+       Uezu, Metzger
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0147909" /> 
+     <abstract> 
+      <p>There are few opportunities to evaluate the relative importance of landscape structure and dynamics upon biodiversity, especially in highly fragmented tropical landscapes. Conservation strategies and species risk evaluations often rely exclusively on current aspects of landscape structure, although such limited assumptions are known to be misleading when time-lag responses occur. By relating bird functional-group richness to forest patch size and isolation in ten-year intervals (1956, 1965, 1978, 1984, 1993 and 2003), we revealed that birds with different sensitivity to fragmentation display contrasting responses to landscape dynamics in the Brazilian Atlantic Forest. For non-sensitive groups, there was no time-lag in response: the recent degree of isolation best explains their variation in richness, which likely relates to these species’ flexibility to adapt to changes in landscape structure. However, for sensitive bird groups, the 1978 patch area was the best explanatory variable, providing evidence for a 25-year time-lag in response to habitat reduction. Time-lag was more likely in landscapes that encompass large patches, which can support temporarily the presence of some sensitive species, even when habitat cover is relatively low. These landscapes potentially support the most threatened populations and should be priorities for restoration efforts to avoid further species loss. Although time-lags provide an opportunity to counteract the negative consequences of fragmentation, it also reinforces the urgency of restoration actions. Fragmented landscapes will be depleted of biodiversity if landscape structure is only maintained, and not improved. The urgency of restoration action may be even higher in landscapes where habitat loss and fragmentation history is older and where no large fragment remained to act temporarily as a refuge.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       Financial support was provided by FAPESP (The São Paulo State Research Foundation, process no. 02/01746-1), Idea Wild and the Association of Field Ornithologists. J.P. Metzger thanks the Brazilian Science Council (Conselho Nacional de Desenvolvimento Científico) for his research fellowship (process no. 307934/2011-0). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="3" /> 
+      <table-count count="4" /> 
+      <page-count count="16" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        Data are available from Dryad (doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.f180j" xlink:type="simple">
+         10.5061/dryad.f180j
+        </ext-link>).
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>Delays in a species’ response to habitat modification can occur after habitat restoration, when species or communities take longer to reoccupy suitable restored areas (colonization credit) [
+     <xref ref-type="bibr" rid="pone.0147909.ref001">
+      1
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref003">
+      3
+     </xref>] or conversely, after habitat loss/fragmentation, when there is a time-lag until species extinctions (extinction debt) [
+     <xref ref-type="bibr" rid="pone.0147909.ref004">
+      4
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref006">
+      6
+     </xref>]. The latter occurs when an environmental change restricts resources to a level below those necessary to maintain species viability, although populations persist temporarily in the landscape [
+     <xref ref-type="bibr" rid="pone.0147909.ref004">
+      4
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref006">
+      6
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref007">
+      7
+     </xref>]. Such landscapes are important to identify as they must be prioritized in habitat restoration in order to avoid future extinctions.</p> 
+    <p>Although studies during the last two decades revealed general patterns vis-à-vis the time-lag of species responses to habitat alteration, notably relating time-lag with the duration of species life cycle, the degree of habitat disturbance, and the dynamic of spatial structure of habitat patches [
+     <xref ref-type="bibr" rid="pone.0147909.ref004">
+      4
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref005">
+      5
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref008">
+      8
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref014">
+      14
+     </xref>], we still need to understand several specifics. These include which environmental conditions promote longer lags, which characteristics make species more prone to response delays, and how long these delays last in different species, groups and/or communities [
+     <xref ref-type="bibr" rid="pone.0147909.ref011">
+      11
+     </xref>]. Evaluating the time-lag is difficult because past species composition in a specific location (landscape or habitat patches) is not usually available, forcing researchers to use indirect inferences of time-lag [
+     <xref ref-type="bibr" rid="pone.0147909.ref011">
+      11
+     </xref>]. Additionally, only recently has its importance been realized [
+     <xref ref-type="bibr" rid="pone.0147909.ref012">
+      12
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref015">
+      15
+     </xref>]. Moreover, studies on time-lags in species or community responses to landscape changes are biased to non-tropical regions [
+     <xref ref-type="bibr" rid="pone.0147909.ref016">
+      16
+     </xref>], although it is within the tropics that biodiversity is concentrated and extinction debts (the number of species predicted to go extinct even without further habitat changes [
+     <xref ref-type="bibr" rid="pone.0147909.ref004">
+      4
+     </xref>]) are most likely to occur because of more recent habitat alteration [
+     <xref ref-type="bibr" rid="pone.0147909.ref017">
+      17
+     </xref>].</p> 
+    <p>The time-lag may vary according to the intensity of habitat modification and species characteristics [
+     <xref ref-type="bibr" rid="pone.0147909.ref013">
+      13
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref018">
+      18
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref019">
+      19
+     </xref>]. High levels of disturbance generally provoke immediate loss of many species [
+     <xref ref-type="bibr" rid="pone.0147909.ref009">
+      9
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref012">
+      12
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref020">
+      20
+     </xref>], while low or intermediate disturbance leads to longer delays in species responses. A longer relaxation period may occur in long-lived species, such as trees, for example [
+     <xref ref-type="bibr" rid="pone.0147909.ref010">
+      10
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref015">
+      15
+     </xref>]. Species that are just below the critical threshold for metapopulation maintenance may persist longer in fragmented landscapes because of local population dynamics [
+     <xref ref-type="bibr" rid="pone.0147909.ref006">
+      6
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref007">
+      7
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref021">
+      21
+     </xref>]. In the latter instance, species idiosyncrasies, such as dispersal capacity, home range, tolerance to edge effects, and demand for specific resource types may drive this dynamic and, consequently, may influence time-lag. Thus, in addition to historic landscape changes, consideration of taxa or species traits is highly relevant [
+     <xref ref-type="bibr" rid="pone.0147909.ref013">
+      13
+     </xref>].</p> 
+    <p>The Atlantic Forest is one of the most threatened tropical regions in the world [
+     <xref ref-type="bibr" rid="pone.0147909.ref022">
+      22
+     </xref>]. Although its original cover has been reduced to 11–16% [
+     <xref ref-type="bibr" rid="pone.0147909.ref023">
+      23
+     </xref>], no cases of bird extinction have been registered so far, a factor potentially explained by time-lags [
+     <xref ref-type="bibr" rid="pone.0147909.ref005">
+      5
+     </xref>], although another possibility is that bird extinctions occurred before scientific documentation of the species. Most of the deforestation in the region occurred from one century to 50 years ago [
+     <xref ref-type="bibr" rid="pone.0147909.ref017">
+      17
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref024">
+      24
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref025">
+      25
+     </xref>]. This has led to a high ecological debt, which can be inferred from the high number of threatened species [
+     <xref ref-type="bibr" rid="pone.0147909.ref005">
+      5
+     </xref>] (see also Cowlishaw (1999) for similar examples from Africa [
+     <xref ref-type="bibr" rid="pone.0147909.ref008">
+      8
+     </xref>]). It is therefore essential to consider landscape dynamics in risk evaluations of species in this highly diverse forest [
+     <xref ref-type="bibr" rid="pone.0147909.ref015">
+      15
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref026">
+      26
+     </xref>]. Ignoring the historical changes may be misleading and provoke underestimates of the species threats [
+     <xref ref-type="bibr" rid="pone.0147909.ref007">
+      7
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref010">
+      10
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0147909.ref027">
+      27
+     </xref>].</p> 
+    <p>We tracked the historical fragmentation of an Atlantic Forest area, quantifying landscape structure in ten-year intervals from the time the area was continuous forest until its contemporary configuration, representing probably the most complete historical landscape mapping of the Atlantic Forest. We sampled bird communities in 28 areas (21 forest fragments and seven areas within a large forest tract). From these data, we evaluated when landscape structure best explained the current richness of bird groups based on ecological species traits, allowing us not only to infer time-lag responses but also to exam whether time-lags vary according to bird traits. We hypothesized that bird groups that differ in sensitivity to habitat modification may display different time-lags in response to forest fragmentation. The most sensitive groups may be more likely to present time-lag when certain conditions of the landscape (e.g., large patches or intermediate degree of isolation) prolong the persistence of these species for some time. These groups are composed of species that present low density, low dispersal capacity, and demand larger areas to survive. On the contrary, the non-sensitive species may accommodate faster to the landscape changes as they generally have higher dispersal capacity and are more flexible to adapt to habitat/landscape changes. We also hypothesized that patch size and isolation may affect time-lag in species responses. This can be the case when the patch is reduced to a size that is smaller than the minimum to maintain viable populations, or when patch isolation is too large to connect functionally the populations/resources that could allow for the persistence in the long term of species in the landscape.</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Methods</title> 
+    <sec id="sec003"> 
+     <title>Study area and sites</title> 
+     <p>The study area, the Pontal do Paranapanema, is situated in the interior of the Atlantic Forest region (52°29’29”W, 22°24’09”S; 
+      <xref ref-type="fig" rid="pone.0147909.g001">
+       Fig 1
+      </xref>). This area is characterized by a tropical semi-deciduous forest [
+      <xref ref-type="bibr" rid="pone.0147909.ref028">
+       28
+      </xref>], one of the most threatened sub-types within the Atlantic Forest [
+      <xref ref-type="bibr" rid="pone.0147909.ref023">
+       23
+      </xref>]. Deforestation in the area began in the 1950s, mainly for logging and pasture [
+      <xref ref-type="bibr" rid="pone.0147909.ref017">
+       17
+      </xref>]. An important feature of this area is a continuous forest, Morro do Diabo State Park (36,000 ha), which is one of only four patches within this physiognomy larger than 10,000 ha. Adjacent to the park are forest fragments ranging from 2 to 2,000 ha, most of which are within private properties. The remnant forest, including the State Park, now occupies about 18% of the whole region. The matrix is composed mainly of pasture (59.9%) and agriculture (14.6%), both of which are strong impediments to dispersal [
+      <xref ref-type="bibr" rid="pone.0147909.ref029">
+       29
+      </xref>].</p> 
+     <fig id="pone.0147909.g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.g001
+      </object-id> 
+      <label>Fig 1</label>  
+      <title>Location of Pontal do Paranapanema region and its changes in forest cover.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.g001" xlink:type="simple" /> 
+     </fig> 
+     <p>Surveys were performed in 28 sites: 21 forest patches and seven sites within the continuous forest of Morro do Diabo State Park (
+      <xref ref-type="fig" rid="pone.0147909.g001">
+       Fig 1
+      </xref>). To ensure a range of fragment sizes to represent the entire set of relevant patches for bird conservation in the region, we selected seven large (400–1500 ha), seven medium (100–200 ha) and seven small fragments (30–80 ha). We did not chose patches smaller than 30 ha because generally these patches are much degraded due to the edge effect, which is very intense in this type of tropical semi-deciduous forest. We verified such a condition in the region based on imagery analysis and field visits.</p> 
+     <p>Pontal do Paranapanema is an excellent region to study the species’ time lag response to habitat fragmentation, as there are good records of landscape modification (in aerial photos and satellite images) since it was a ~200,000 ha block of continuous forest. Furthermore, during its history the landscape matrix was maintained as homogenous, composed of pasture and sugarcane with low human density, which permits us to keep the analysis relatively simple as there are few other factors influencing species richness in the region besides the spatial structure of forest patches and its dynamics.</p> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Biological survey and classification</title> 
+     <p>Bird surveys were conducted using the point count methodology [
+      <xref ref-type="bibr" rid="pone.0147909.ref030">
+       30
+      </xref>] during three reproductive seasons from 2003 to 2005, with each site visited eight times. Sampling was conducted during the first three morning hours after sunrise. At each sample site, six points were selected 200 m apart in a rectangular 3 x 2 format quadrat. During each visit, every point was observed during ten minutes. Only one person (A.U.) did the survey in order to avoid bias provoked by different bird identification capacities. Bird songs not immediately recognized in the field were recorded for later identification. We did not include non-forest-dependent species (according to [
+      <xref ref-type="bibr" rid="pone.0147909.ref031">
+       31
+      </xref>] and field observations) and those that did not adhere to the sample criteria, species that are nocturnal or vocalize inconspicuously. The permit for bird surveys in the Morro do Diabo State Park was provided by Instituto Florestal (Forest Institute, COTEC n. 42.125/2002), from the Environmental Department of the State of São Paulo, and in private land, permissions were given by all landowners. As this study was observational and did not involve collecting birds, all the necessary permissions were related exclusively to the access of the researcher in the areas and this study did not involve endangered species.</p> 
+     <p>To verify which species traits might be associated with time-lags in bird responses, we categorized taxa into groups defined according to six criteria. 
+      <italic>
+       Proximity to the edge of distribution
+      </italic> was determined using species-distribution maps [
+      <xref ref-type="bibr" rid="pone.0147909.ref032">
+       32
+      </xref>] by measuring the distance (d) from a central point in the study region to the nearest limit of a species distribution. We separated species into two categories: near the edge (d &lt; 200 km) and far from the distribution edge (d &gt; 200 km). 
+      <italic>
+       Degree of endemism
+      </italic> was defined by a taxon’s status as endemic or non-endemic to the Atlantic Forest [
+      <xref ref-type="bibr" rid="pone.0147909.ref031">
+       31
+      </xref>]. 
+      <italic>
+       Center of abundance
+      </italic> in lowland (&lt;500 m) or highland (&gt; 500 m) was adapted from [
+      <xref ref-type="bibr" rid="pone.0147909.ref031">
+       31
+      </xref>]. 
+      <italic>
+       Flexibility in the use of different forest types
+      </italic> was subdivided into species that occur in 1–2 types, 3–4 types, and 5–6 types of forest [
+      <xref ref-type="bibr" rid="pone.0147909.ref031">
+       31
+      </xref>]. The 
+      <italic>
+       relative abundance
+      </italic> criterion was defined as low, medium or high [
+      <xref ref-type="bibr" rid="pone.0147909.ref031">
+       31
+      </xref>]. 
+      <italic>
+       Guilds
+      </italic> were: 1. carnivores, 2. large canopy frugivores and omnivores, 3. large canopy insectivores, 4. edge insectivores, 5. understory insectivores, 6. canopy insectivores, 7. edge frugivores and omnivores, 8. understory omnivores and 9. large ground insectivores and frugivores [
+      <xref ref-type="bibr" rid="pone.0147909.ref031">
+       31
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref033">
+       33
+      </xref>]. Uezu and Metzger (2011) observed previously that these traits are related to bird sensitivity to habitat reduction and/or fragmentation, and the following groups were the most affected by landscape changes: Atlantic Forest endemics, species proximal to their distribution limit, those with low forest-type flexibility (1–2 types), highlands species, understory insectivores, understory omnivores, and large terrestrial [
+      <xref ref-type="bibr" rid="pone.0147909.ref029">
+       29
+      </xref>]. For our analysis, we considered both strictly forest-dependent and generalist species. We considered generalist those forest species that are also able to use open areas.</p> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Landscape structural analyses</title> 
+     <p>The study area was mapped for six different years: 1956, 1965, 1978, 1984, 1993 and 2003. We interpreted aerial photographs to map the study area in 1956 using ArcGIS (scale 1:35,000). Data from 1965 and 1978 were collected by digitalization of topographic maps (scales 1:50,000 and 1:10,000; respectively). We classified LANDSAT 5 satellite images for 1984, 1993 and 2003. For each year, we mapped two categories of occupation: forest and non-forest. Maps were geo-referenced using the same projection and datum and, because the sources were of different resolution, we converted these to raster type and resampled them for a pixel size of 30 m (which corresponded to the lowest map resolution) prior to the analysis. In order to remove small patches, we used a low-pass filter (3 x 3 pixel) and, additionally, eliminated patches smaller than 1 ha. Since the beginning of substantial human occupation in the early 50’s, there has been a great contrast between the natural forest and the surrounding matrix (generally composed of pasture and sugar cane), which facilitates the delimitation of land use and land cover types and reduced the chances of mapping errors.</p> 
+     <p>To quantify the deforestation process, we calculated landscape indexes at regional and local scales. At a regional level, we considered an area of about 250,000 ha, which correspond to the mapped area of 1956 (
+      <xref ref-type="fig" rid="pone.0147909.g001">
+       Fig 1
+      </xref>). The metrics were: 1. 
+      <italic>
+       number of patches
+      </italic> (NP); 2. 
+      <italic>
+       mean largest patches size
+      </italic> (MLP), mean of the tenth largest patches, excluding the control site; 3. 
+      <italic>
+       percentage of area occupied by forest
+      </italic> (PF%); and 4. 
+      <italic>
+       degree of isolation
+      </italic>, which is the mean Euclidean nearest neighbor distance from all forest fragments in the landscape (ENN_MN; m). For the latter metric, we eliminated all fragments smaller than 10 ha to suppress the effect of small patches. These indices give a general description of the landscape structure and allow a quantitative comparison of the landscape along time.</p> 
+     <p>At a local level, we considered metrics that are usually associated with the occurrence of bird species in fragmented landscapes: patch size and isolation. Those metrics may have different effects in different bird groups. Patch area might be more relevant for species with a restricted dispersal capacity, particularly those that rarely cross open areas [
+      <xref ref-type="bibr" rid="pone.0147909.ref029">
+       29
+      </xref>]. For species that can overpass partially the matrix, the degree of isolation might be more relevant, affecting the capacity of the species to use a cluster of patches to achieve their food demands. We selected two indexes that present low correlation along the studied period (R Pearson = 0.24–0.35): logarithm of the area (AREA) and the logarithm of proximity (PROX). The latter consists of the sum of all forest fragment areas within a radius of 2 km from the edge of the focal fragment, divided by the squared distance, edge-to-edge, between these fragments [
+      <xref ref-type="bibr" rid="pone.0147909.ref034">
+       34
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec006"> 
+     <title>Data Analysis</title> 
+     <p>Bird richness (number of species, i.e. alpha diversity) was obtained from the survey data of species groups. To find evidence for time lag in species responses, we related bird richness indices with landscape variables (AREA and PROX, log transformed) from present and past landscapes. If past landscape parameters best explain the present-day pattern of bird richness, we considered that bird groups are still responding to the past landscape and time lag exists (a similar approach was used in other studies [
+      <xref ref-type="bibr" rid="pone.0147909.ref010">
+       10
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref014">
+       14
+      </xref>]). It is expected that both landscape variables (size and isolation) can affect time lag, as expressed in the hypotheses. The interaction between these variables is also important, because they both can regulate key processes that affects population and metapopulation survival.</p> 
+     <p>We only considered landscape indices from 1965, 1978 and 2003 because landscape structure remained relatively stable from 1984 to 2003, and landscape indices were highly correlated among each other (r &gt; 0.98 for patch area and r &gt; 0.99 for degree of proximity). Moreover, in 1956 most studied fragments belonged to the same continuum, preventing any statistical analysis. We proposed 13 Generalized Linear Models: a null model; six models for each temporal studied period (1965, 1978 and 2003) considering one explicative variable at a time (AREA or PROX); and six models considering both landscape metrics from each corresponding year, allowing for additive and interactive models (
+      <xref ref-type="table" rid="pone.0147909.t001">
+       Table 1
+      </xref>). Error structure was assumed to have a Poisson distribution.</p> 
+     <table-wrap id="pone.0147909.t001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.t001
+      </object-id> 
+      <label>Table 1</label> 
+      <title>Landscape variables for the nine candidate models of linear regression: multiple (m01–m03, considering only the additive effect of explicative variables and m10 –m12, considering the interactive effect of explicative variables) and simple regression (m04–m09).</title> 
+      <p>The variables AREA and PROX represent the logarithm of patch area and degree of proximity calculated for different dates in the Pontal do Paranapanema, Brazil.</p> 
+      <alternatives> 
+       <graphic id="pone.0147909.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.t001" xlink:type="simple" /> 
+       <table> 
+        <colgroup> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left">Models</th> 
+          <th align="left">Var. 1</th> 
+          <th align="left">Var. 2</th> 
+          <th align="left">Type</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m00
+           </bold></td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">Null model</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m01
+           </bold></td> 
+          <td align="left">AREA65</td> 
+          <td align="left">PROX65</td> 
+          <td align="left">Additive effect</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m02
+           </bold></td> 
+          <td align="left">AREA78</td> 
+          <td align="left">PROX78</td> 
+          <td align="left">Additive effect</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m03
+           </bold></td> 
+          <td align="left">AREA03</td> 
+          <td align="left">PROX03</td> 
+          <td align="left">Additive effect</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m04
+           </bold></td> 
+          <td align="left">AREA65</td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">Single variable</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m05
+           </bold></td> 
+          <td align="left">AREA78</td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">Single variable</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m06
+           </bold></td> 
+          <td align="left">AREA03</td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">Single variable</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m07
+           </bold></td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">PROX65</td> 
+          <td align="left">Single variable</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m08
+           </bold></td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">PROX78</td> 
+          <td align="left">Single variable</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m09
+           </bold></td> 
+          <td align="left">&nbsp;</td> 
+          <td align="left">PROX03</td> 
+          <td align="left">Single variable</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m10
+           </bold></td> 
+          <td align="left">AREA65</td> 
+          <td align="left">PROX65</td> 
+          <td align="left">Interactive effect</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m11
+           </bold></td> 
+          <td align="left">AREA78</td> 
+          <td align="left">PROX78</td> 
+          <td align="left">Interactive effect</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <bold>
+            m12
+           </bold></td> 
+          <td align="left">AREA03</td> 
+          <td align="left">PROX03</td> 
+          <td align="left">Interactive effect</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+     <p>To identify the model that best fits, we used AICc–Akaike’s Information Criteria, adjusted for small sample sizes [
+      <xref ref-type="bibr" rid="pone.0147909.ref035">
+       35
+      </xref>]. This procedure ranks the models indicating those with higher probabilities to be selected according to the sample data set. In this analysis, we calculated: AICc–estimation of the relative distance between a candidate model and the “real” model; Δi AIC–relative difference of AICc value (from a certain model) in relation to the smaller value of AICc among all models and w AICc–chance for the model to be selected, which varies from 0 to 1. The pseudo R-squared (pseudo coefficient of determination [
+      <xref ref-type="bibr" rid="pone.0147909.ref036">
+       36
+      </xref>]) and the relative importance of the variables were also calculated. The latter corresponds to the sum of w AICc of all models in which a variable was included [
+      <xref ref-type="bibr" rid="pone.0147909.ref035">
+       35
+      </xref>].</p> 
+     <p>Finally, to indicate the patches with a higher potential to hold more species that have yet to stabilize but may be lost in the near future in the region, we used the regression model that best explained the variation of sensitive bird richness to estimate the number of sensitive species in all forest patches in the region. This analysis illustrated how we can use this type of information of landscape dynamics to set priority areas for conservation and restoration.</p> 
+     <p>Bird and landscape data for open-access use are available online at the Dryad Digital Repository: doi:
+      <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.f180j" xlink:type="simple">
+       10.5061/dryad.f180j
+      </ext-link></p> 
+    </sec> 
+   </sec> 
+   <sec id="sec007" sec-type="results"> 
+    <title>Results</title> 
+    <sec id="sec008"> 
+     <title>The fragmentation process</title> 
+     <p>In 1956, the Pontal do Paranapanema was approximately 80% covered with forest, mostly arranged in a continuous expanse of more than 200,000 ha (
+      <xref ref-type="fig" rid="pone.0147909.g001">
+       Fig 1
+      </xref>). All the patches considered in this study were connected to each other in 1956. The landscape underwent considerable change beginning in 1965, with the proportion of forest cover reduced to approximately 40%. This resulted in a fragmented landscape with many isolated patches, but these comprised large forests. However, the region still harbored twice as much forest cover as compared to today. In 1965, some patches analyzed herein were still interconnected, but many had already become isolated (Figs 
+      <xref ref-type="fig" rid="pone.0147909.g001">
+       1
+      </xref> and 
+      <xref ref-type="fig" rid="pone.0147909.g002">
+       2
+      </xref>).</p> 
+     <fig id="pone.0147909.g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.g002
+      </object-id> 
+      <label>Fig 2</label>  
+      <title>Variation across time in percentage of forest (PF), the mean Euclidean distance to nearest neighbor among the patches (ENN), number of patches (NP), and mean largest patches size (MLP), in Pontal do Paranapanema region.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.g002" xlink:type="simple" /> 
+     </fig> 
+     <p>In 1978, the percentage of forest was 27.5%. Many of the previously large remnants had been replaced by many smaller patches. During this period, the region underwent the highest level of fragmentation. There were more patches in the landscape, and mean patch size was substantially reduced, although the current largest patches were still larger then (
+      <xref ref-type="fig" rid="pone.0147909.g002">
+       Fig 2
+      </xref>). The decade around 1978 saw deforestation shape the landscape into the currently recognizable forest patches (
+      <xref ref-type="fig" rid="pone.0147909.g001">
+       Fig 1
+      </xref>). It was also during this period when patch isolation reached a plateau. In 1984, the region comprised less than 18% forest, the lowest level recorded in this study. Since then, there has been a slight increase in forest coverage, reaching 18.2% in 1993 and, almost 19% in 2003 (
+      <xref ref-type="fig" rid="pone.0147909.g002">
+       Fig 2
+      </xref>).</p> 
+    </sec> 
+    <sec id="sec009"> 
+     <title>Structure of the bird community</title> 
+     <p>We registered 159 bird species, but considered only 99 strictly forest-dependent and 19 generalists ones. The group richness based on ecological traits varied considerably among patches and bird communities showed no autocorrelation among study sites, as verified in previous work [
+      <xref ref-type="bibr" rid="pone.0147909.ref029">
+       29
+      </xref>] (
+      <xref ref-type="supplementary-material" rid="pone.0147909.s001">
+       S1 Appendix
+      </xref>).</p> 
+    </sec> 
+    <sec id="sec010"> 
+     <title>Most important models and parameters</title> 
+     <p>Models for 1978 had the highest chance of being selected and better explained the variation of many bird groups’ richness (
+      <xref ref-type="table" rid="pone.0147909.t002">
+       Table 2
+      </xref>): Atlantic Forest endemics, species proximal to their distribution limit, those with low forest-type flexibility (1–2 types), highlands species, understory insectivores and understory omnivores. These groups encompass all species traits that were related with high sensitivity to habitat fragmentation in our previous study [
+      <xref ref-type="bibr" rid="pone.0147909.ref029">
+       29
+      </xref>], suggesting that sensitive groups’ richness is more closely related to the landscape of ~25 years before the bird survey was conducted than to its present-day configuration. For those groups, patch area was a more relevant explicative variable than proximity. The large ground insectivores and frugivores was the only sensitive group that was not related to 1978 landscape parameters. In addition, the interaction between the independent variables (patch area and proximity) was not relevant to explain bird richness.</p> 
+     <table-wrap id="pone.0147909.t002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.t002
+      </object-id> 
+      <label>Table 2</label> 
+      <title>Best regression models selected (Δi AICc &lt; 2) that explain the variation of &lt;italic&gt;bird groups’ richness&lt;/italic&gt;, using AICc, including: pseudo R&lt;sup&gt;2&lt;/sup&gt; –coefficients of determination; AICc–the model distance to the “real” model; Δi AICc–relative value of AICc and w AICc–Akaike’s weight, chance for the model to be selected.</title> 
+      <alternatives> 
+       <graphic id="pone.0147909.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.t002" xlink:type="simple" /> 
+       <table> 
+        <colgroup> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left">Bird groups</th> 
+          <th align="center">Independent variables</th> 
+          <th align="center">Pseudo R<sup>2</sup></th> 
+          <th align="center">AICc</th> 
+          <th align="center">Δi AIC</th> 
+          <th align="center">w AIC</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left">Endemic</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.80</td> 
+          <td align="center">85.5</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.41</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Endemic</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.72</td> 
+          <td align="center">85.7</td> 
+          <td align="center">0.17</td> 
+          <td align="center">0.38</td> 
+         </tr> 
+         <tr> 
+          <td align="left">1–2 types of forest</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.58</td> 
+          <td align="center">115.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.37</td> 
+         </tr> 
+         <tr> 
+          <td align="left">1–2 types of forest</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.65</td> 
+          <td align="center">116.0</td> 
+          <td align="center">1.13</td> 
+          <td align="center">0.21</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Low abundance</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.44</td> 
+          <td align="center">78.6</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.41</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Low abundance</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.54</td> 
+          <td align="center">79.3</td> 
+          <td align="center">0.73</td> 
+          <td align="center">0.29</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High land</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.55</td> 
+          <td align="center">114.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.45</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High land</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.60</td> 
+          <td align="center">114.0</td> 
+          <td align="center">0.51</td> 
+          <td align="center">0.35</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge (&lt;200 km)</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.60</td> 
+          <td align="center">116.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.47</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge (&lt;200 km)</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.48</td> 
+          <td align="center">117.0</td> 
+          <td align="center">1.25</td> 
+          <td align="center">0.25</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Understory insectivores</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.55</td> 
+          <td align="center">109.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.41</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Understory insectivores</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.62</td> 
+          <td align="center">110.0</td> 
+          <td align="center">0.28</td> 
+          <td align="center">0.35</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Understory omnivores</td> 
+          <td align="left">AREA78+PROX78</td> 
+          <td align="center">0.76</td> 
+          <td align="center">26.7</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.51</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Understory omnivores</td> 
+          <td align="left">AREA78*PROX78</td> 
+          <td align="center">0.81</td> 
+          <td align="center">28.5</td> 
+          <td align="center">1.76</td> 
+          <td align="center">0.21</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large ground insetivores frugivores</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">53.9</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.29</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Non endemic</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.22</td> 
+          <td align="center">154.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.50</td> 
+         </tr> 
+         <tr> 
+          <td align="left">≥3 types of forest</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.16</td> 
+          <td align="center">146.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.34</td> 
+         </tr> 
+         <tr> 
+          <td align="left">≥3 types of forest</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">148.0</td> 
+          <td align="center">1.68</td> 
+          <td align="center">0.15</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High abundance</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.25</td> 
+          <td align="center">131.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.25</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High abundance</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.21</td> 
+          <td align="center">131.0</td> 
+          <td align="center">0.72</td> 
+          <td align="center">0.17</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High abundance</td> 
+          <td align="left">AREA03</td> 
+          <td align="center">0.20</td> 
+          <td align="center">132.0</td> 
+          <td align="center">1.08</td> 
+          <td align="center">0.14</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High abundance</td> 
+          <td align="left">AREA03+PROX03</td> 
+          <td align="center">0.32</td> 
+          <td align="center">132.0</td> 
+          <td align="center">1.47</td> 
+          <td align="center">0.12</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Medium abundance</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.26</td> 
+          <td align="center">126.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.26</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Medium abundance</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">128.0</td> 
+          <td align="center">1.40</td> 
+          <td align="center">0.13</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Low land</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.23</td> 
+          <td align="center">149.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.57</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Center (&gt;200 km)</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.19</td> 
+          <td align="center">146.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.35</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Center (&gt;200 km)</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">147.0</td> 
+          <td align="center">1.95</td> 
+          <td align="center">0.13</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Carnivores</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">61.7</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.30</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Carnivores</td> 
+          <td align="left">AREA03</td> 
+          <td align="center">0.13</td> 
+          <td align="center">63.3</td> 
+          <td align="center">1.54</td> 
+          <td align="center">0.14</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Carnivores</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.08</td> 
+          <td align="center">63.7</td> 
+          <td align="center">1.98</td> 
+          <td align="center">0.11</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large canopy frugivores omnivores</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.37</td> 
+          <td align="center">105.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.19</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large canopy frugivores omnivores</td> 
+          <td align="left">AREA65</td> 
+          <td align="center">0.33</td> 
+          <td align="center">106.0</td> 
+          <td align="center">0.32</td> 
+          <td align="center">0.17</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large canopy frugivores omnivores</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">106.0</td> 
+          <td align="center">0.46</td> 
+          <td align="center">0.15</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large canopy insectivores</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">79.7</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.31</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge insectivores</td> 
+          <td align="left">AREA78</td> 
+          <td align="center">0.37</td> 
+          <td align="center">94.1</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.24</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge insectivores</td> 
+          <td align="left">AREA03</td> 
+          <td align="center">0.32</td> 
+          <td align="center">94.5</td> 
+          <td align="center">0.45</td> 
+          <td align="center">0.19</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge insectivores</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">94.7</td> 
+          <td align="center">0.64</td> 
+          <td align="center">0.18</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Canopy insectivores</td> 
+          <td align="left">PROX03</td> 
+          <td align="center">0.30</td> 
+          <td align="center">95.3</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.44</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge frugivores omnivores</td> 
+          <td align="left">NULL</td> 
+          <td align="center">0.00</td> 
+          <td align="center">112.0</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.30</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+     <p>In contrast, for non-sensitive bird groups the responses were more heterogeneous, 
+      <italic>
+       i
+      </italic>.
+      <italic>
+       e
+      </italic>. there was a higher uncertainty in model selection and for many groups the null model was among those selected. In general, the w AIC was low and not very different among candidate models. The pseudo coefficients of determination (pseudo R-square) are also low (
+      <xref ref-type="table" rid="pone.0147909.t002">
+       Table 2
+      </xref>), indicating that landscape parameters poorly explain the variation in richness of these bird groups. Nevertheless, for some non-sensitive groups, models including the more recent (2003) proximity variable had the highest chance to be selected.</p> 
+     <p>The relative importance of the variables confirms that the most sensitive bird groups respond most to 1978 patch sizes, whereas for some non-sensitive groups, the 2003 proximity variable was of relatively high importance (
+      <xref ref-type="table" rid="pone.0147909.t003">
+       Table 3
+      </xref>).</p> 
+     <table-wrap id="pone.0147909.t003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.t003
+      </object-id> 
+      <label>Table 3</label> 
+      <title>Relative Importance of explicative variable from nine candidate models: sum of w AICc (chance of a model to be selected, which range from 0 to 1) of all the models where a variable were included.</title> 
+      <p>Higher values define more important variables. Values higher than 0.50 are in boldface.</p> 
+      <alternatives> 
+       <graphic id="pone.0147909.t003g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.t003" xlink:type="simple" /> 
+       <table> 
+        <colgroup> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="left">Bird groups</th> 
+          <th align="center">area65</th> 
+          <th align="center">prox65</th> 
+          <th align="center">area78</th> 
+          <th align="center">prox78</th> 
+          <th align="center">area03</th> 
+          <th align="center">prox03</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left">Endemic</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.00</td> 
+          <td align="center">
+           <bold>
+            0.86
+           </bold></td> 
+          <td align="center">0.49</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.05</td> 
+         </tr> 
+         <tr> 
+          <td align="left">1–2 types of forest</td> 
+          <td align="center">0.06</td> 
+          <td align="center">0.02</td> 
+          <td align="center">
+           <bold>
+            0.63
+           </bold></td> 
+          <td align="center">0.26</td> 
+          <td align="center">0.29</td> 
+          <td align="center">0.18</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Low abundance</td> 
+          <td align="center">0.01</td> 
+          <td align="center">0.00</td> 
+          <td align="center">
+           <bold>
+            0.79
+           </bold></td> 
+          <td align="center">0.41</td> 
+          <td align="center">0.15</td> 
+          <td align="center">0.07</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High land</td> 
+          <td align="center">0.06</td> 
+          <td align="center">0.03</td> 
+          <td align="center">
+           <bold>
+            0.89
+           </bold></td> 
+          <td align="center">0.44</td> 
+          <td align="center">0.05</td> 
+          <td align="center">0.03</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge (&lt;200 km)</td> 
+          <td align="center">0.01</td> 
+          <td align="center">0.00</td> 
+          <td align="center">
+           <bold>
+            0.82
+           </bold></td> 
+          <td align="center">
+           <bold>
+            0.58
+           </bold></td> 
+          <td align="center">0.16</td> 
+          <td align="center">0.10</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Understory insectivores</td> 
+          <td align="center">0.01</td> 
+          <td align="center">0.00</td> 
+          <td align="center">
+           <bold>
+            0.82
+           </bold></td> 
+          <td align="center">0.42</td> 
+          <td align="center">0.17</td> 
+          <td align="center">0.09</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Understory omnivores</td> 
+          <td align="center">0.00</td> 
+          <td align="center">0.00</td> 
+          <td align="center">
+           <bold>
+            0.78
+           </bold></td> 
+          <td align="center">
+           <bold>
+            0.72
+           </bold></td> 
+          <td align="center">0.22</td> 
+          <td align="center">0.16</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large ground insectivores and frugivores</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.11</td> 
+          <td align="center">0.17</td> 
+          <td align="center">0.11</td> 
+          <td align="center">0.16</td> 
+          <td align="center">0.11</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Non endemic</td> 
+          <td align="center">0.06</td> 
+          <td align="center">0.04</td> 
+          <td align="center">0.10</td> 
+          <td align="center">0.07</td> 
+          <td align="center">0.22</td> 
+          <td align="center">
+           <bold>
+            0.68
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left">≥3 types of forest</td> 
+          <td align="center">0.08</td> 
+          <td align="center">0.07</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.11</td> 
+          <td align="center">0.18</td> 
+          <td align="center">0.45</td> 
+         </tr> 
+         <tr> 
+          <td align="left">High abundance</td> 
+          <td align="center">0.10</td> 
+          <td align="center">0.05</td> 
+          <td align="center">0.31</td> 
+          <td align="center">0.10</td> 
+          <td align="center">0.28</td> 
+          <td align="center">0.31</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Medium abundance</td> 
+          <td align="center">0.12</td> 
+          <td align="center">0.10</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.15</td> 
+          <td align="center">0.18</td> 
+          <td align="center">0.36</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Low land</td> 
+          <td align="center">0.03</td> 
+          <td align="center">0.03</td> 
+          <td align="center">0.05</td> 
+          <td align="center">0.05</td> 
+          <td align="center">0.20</td> 
+          <td align="center">
+           <bold>
+            0.73
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left">Center (&gt;200 km)</td> 
+          <td align="center">0.10</td> 
+          <td align="center">0.06</td> 
+          <td align="center">0.13</td> 
+          <td align="center">0.08</td> 
+          <td align="center">0.19</td> 
+          <td align="center">0.47</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Carnivores</td> 
+          <td align="center">0.13</td> 
+          <td align="center">0.12</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.12</td> 
+          <td align="center">0.17</td> 
+          <td align="center">0.11</td> 
+         </tr> 
+         <tr> 
+          <td align="justify">Large canopy frugivores and omnivores</td> 
+          <td align="center">0.21</td> 
+          <td align="center">0.09</td> 
+          <td align="center">0.26</td> 
+          <td align="center">0.17</td> 
+          <td align="center">0.16</td> 
+          <td align="center">0.11</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Large canopy insectivores</td> 
+          <td align="center">0.10</td> 
+          <td align="center">0.11</td> 
+          <td align="center">0.12</td> 
+          <td align="center">0.20</td> 
+          <td align="center">0.12</td> 
+          <td align="center">0.15</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge insectivores</td> 
+          <td align="center">0.06</td> 
+          <td align="center">0.06</td> 
+          <td align="center">0.32</td> 
+          <td align="center">0.17</td> 
+          <td align="center">0.25</td> 
+          <td align="center">0.10</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Canopy insectivores</td> 
+          <td align="center">0.05</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.09</td> 
+          <td align="center">0.14</td> 
+          <td align="center">0.15</td> 
+          <td align="center">
+           <bold>
+            0.56
+           </bold></td> 
+         </tr> 
+         <tr> 
+          <td align="left">Edge frugivores and omnivores</td> 
+          <td align="center">0.11</td> 
+          <td align="center">0.13</td> 
+          <td align="center">0.13</td> 
+          <td align="center">0.20</td> 
+          <td align="center">0.11</td> 
+          <td align="center">0.12</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+    </sec> 
+   </sec> 
+   <sec id="sec011" sec-type="conclusions"> 
+    <title>Discussion</title> 
+    <sec id="sec012"> 
+     <title>Distinctive time-lags between sensitive and non-sensitive bird groups</title> 
+     <p>Species groups displayed different responses to the fragmentation dynamics. Non-sensitive species generally presented a wider distribution and higher frequency in the sampled areas, reflecting a higher capacity to adapt to novel habitat arrangements. This flexibility would explain the lower correlation between the richness of these groups and the landscape parameters. Moreover, many of these species are less averse to crossing open areas than the more sensitive species [
+      <xref ref-type="bibr" rid="pone.0147909.ref037">
+       37
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0147909.ref038">
+       38
+      </xref>], increasing their rates of dispersal between patches and, consequently, making 
+      <italic>
+       proximity
+      </italic> a more important parameter for explaining distribution. In another Atlantic Forest landscape [
+      <xref ref-type="bibr" rid="pone.0147909.ref015">
+       15
+      </xref>], species with higher dispersal capacity had stronger responses to habitat connectivity. Moreover, higher dispersal rates would make them less likely to experience a time-lag, as suggested by Lindborg and Eriksson (2004) [
+      <xref ref-type="bibr" rid="pone.0147909.ref010">
+       10
+      </xref>].</p> 
+     <p>Although the recent landscape partly explains the species richness of sensitive birds in forest fragments [
+      <xref ref-type="bibr" rid="pone.0147909.ref029">
+       29
+      </xref>], we observed that landscape parameters from 1978, especially patch size, better fit their spatial pattern of richness. These groups are composed of species with lower dispersion capacity (understory insectivores, understory omnivores, and large terrestrial), with naturally low abundance (Atlantic Forest endemics, species proximal to their distribution limit, and highlands species) and with higher demands for habitat (those with low forest-type flexibility, 1–2 types). Our results indicate that the diversity of these groups did not stabilize, and more losses are likely as the communities relax (even without further landscape changes), indicating a higher risk for these taxa. The data about past landscape structure contributed to our understanding of the current process of species losses [
+      <xref ref-type="bibr" rid="pone.0147909.ref006">
+       6
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref010">
+       10
+      </xref>], suggesting that landscape management is imperative to avoid future extinctions.</p> 
+     <p>When the species are ranked according to their sensitivities (as observed in the study region and described in the literature), we can speculate which species are more susceptible to local extinction following community relaxation in forest fragments. There are two groups especially threatened: those that we verified are very affected by forest fragmentation and those previously confirmed in the region in other studies but that were not observed during the surveys, potentially because of low density. These species have many characteristics that correlate to a higher sensitivity, such as endemism to the Atlantic Forest and low natural abundance (
+      <xref ref-type="table" rid="pone.0147909.t004">
+       Table 4
+      </xref>). Many of these taxa are already locally extinct in other Atlantic Forest regions [
+      <xref ref-type="bibr" rid="pone.0147909.ref039">
+       39
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0147909.ref041">
+       41
+      </xref>], highlighting the real possibility of similar losses in the Pontal do Paranapanema region.</p> 
+     <table-wrap id="pone.0147909.t004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.t004
+      </object-id> 
+      <label>Table 4</label> 
+      <title>List of species probably most susceptible to local extinction following community relaxation in forest fragments.</title> 
+      <alternatives> 
+       <graphic id="pone.0147909.t004g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.t004" xlink:type="simple" /> 
+       <table> 
+        <colgroup> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+         <col align="left" valign="middle"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <th align="center">Family</th> 
+          <th align="center">English</th> 
+          <th align="center">Species</th> 
+          <th align="center">Status in the study</th> 
+          <th align="center">Endemism</th> 
+          <th align="center">Natural Abundance</th> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left">Tinamidae</td> 
+          <td align="left">Solitary Tinamou</td> 
+          <td align="left">
+           <italic>
+            Tinamus solitarius
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Low</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Odontophoridae</td> 
+          <td align="left">&nbsp;Spot-winged Wood-Quail</td> 
+          <td align="left">
+           <italic>
+            Odontophorus capueira
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Cotingidae</td> 
+          <td align="left">Shrike-like Cotinga</td> 
+          <td align="left">
+           <italic>
+            Laniisoma elegans
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">No</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Cotingidae</td> 
+          <td align="left">Wing-barred Piprites</td> 
+          <td align="left">
+           <italic>
+            Piprites chloris
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">No</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Cotingidae</td> 
+          <td align="left">Bare-throated Bellbird</td> 
+          <td align="left">
+           <italic>
+            Procnias nudicollis
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Falconidae</td> 
+          <td align="left">Barred forest-falcon</td> 
+          <td align="left">
+           <italic>
+            Micrastur ruficollis
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">No</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Formicariidae</td> 
+          <td align="left">Eye-ringed Tody-Tyrant</td> 
+          <td align="left">
+           <italic>
+            Hemitriccus orbitatus
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Formicariidae</td> 
+          <td align="left">Short-tailed antthrush</td> 
+          <td align="left">
+           <italic>
+            Chamaeza campanisona
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">No</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Furnariidae</td> 
+          <td align="left">Rufous-breasted leaftosser</td> 
+          <td align="left">
+           <italic>
+            Sclerurus scansor
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Low</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Parulidae</td> 
+          <td align="left">White-browed Warbler</td> 
+          <td align="left">
+           <italic>
+            Myiothlypis leucoblephara
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">Yes</td> 
+          <td align="center">High</td> 
+         </tr> 
+         <tr> 
+          <td align="left">Psittacidae</td> 
+          <td align="left">Red-and-green Macaw</td> 
+          <td align="left">
+           <italic>
+            Ara chloropterus
+           </italic></td> 
+          <td align="left">Low Abundance</td> 
+          <td align="center">No</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Accipitridae
+           </italic></td> 
+          <td align="left">Ornate Hawk-Eagle</td> 
+          <td align="left">
+           <italic>
+            Spizaetus ornatus
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">No</td> 
+          <td align="center">Low</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Accipitridae
+           </italic></td> 
+          <td align="justify">Black-and-white hawk eagle</td> 
+          <td align="left">
+           <italic>
+            Spizaetus melanoleucus
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">No</td> 
+          <td align="center">Low</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Cotingidae
+           </italic></td> 
+          <td align="left">Red-ruffed Fruitcrow</td> 
+          <td align="left">
+           <italic>
+            Pyroderus scutatus&nbsp;
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Low</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Ramphastidae
+           </italic></td> 
+          <td align="left">&nbsp;Black-necked Aracari</td> 
+          <td align="left">
+           <italic>
+            Pteroglossus aracari
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">No</td> 
+          <td align="center">High</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Ramphastidae
+           </italic></td> 
+          <td align="left">Saffron Toucanet</td> 
+          <td align="left">
+           <italic>
+            Pteroglossus bailloni
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Ramphastidae
+           </italic></td> 
+          <td align="left">Spot-billed Toucanet</td> 
+          <td align="left">
+           <italic>
+            Selenidera maculirostris
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Low</td> 
+         </tr> 
+         <tr> 
+          <td align="left">
+           <italic>
+            Ramphastidae
+           </italic></td> 
+          <td align="left">Red-breasted Toucan</td> 
+          <td align="left">
+           <italic>
+            Ramphastos dicolorus
+           </italic></td> 
+          <td align="left">Not detected</td> 
+          <td align="center">Yes</td> 
+          <td align="center">Medium</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives> 
+     </table-wrap> 
+    </sec> 
+    <sec id="sec013"> 
+     <title>Fragmentation threshold and the time-lag</title> 
+     <p>Based on the inferred history of the Pontal do Paranapanema region and on the estimated 25-year time-lag, we posit that sensitive groups are still responding to events that occurred between 1965 and 1978, when the landscape became highly modified. It follows that many species should go extinct in a near future if landscape structure is not improved by restoration action [
+      <xref ref-type="bibr" rid="pone.0147909.ref042">
+       42
+      </xref>]. Although landscapes with 10 to 30% habitat cover experience rapid biodiversity decline [
+      <xref ref-type="bibr" rid="pone.0147909.ref018">
+       18
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref043">
+       43
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0147909.ref048">
+       48
+      </xref>], many species persist even after habitat reduction and isolation, resulting in an extinction debt.</p> 
+     <p>In the Pontal do Paranapanema, two conditions were essential to create extinction debts: the maintenance of large patches in the landscapes and the high degree of isolation of bird communities. The mean largest patch sizes in the Pontal do Paranapanema declined by almost three times between 1978 and 2003. However, despite this reduction, there are still large patches (~ 100 ha) in the fragmented landscape allowing to maintain the populations of those sensitive specie just below their minimum requirements. Larger patches (including the Park used as a control) allow for longer persistence of local populations, where sensitive species become concentrated in low density. As a consequence, time-lag is longer in these conditions [
+      <xref ref-type="bibr" rid="pone.0147909.ref006">
+       6
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref011">
+       11
+      </xref>]. Conversely, species loss is more rapid in smaller patches, which we observed in the fewer number of sensitive species in small and medium patches. We did not survey patches smaller than 30 ha, but probably they have experienced a much faster species loss than in the patches we have included in the analysis.</p> 
+     <p>Moreover, concerning the isolation of bird communities, in 1978 the mean distance between forest fragments was already far from each other, approximately 700 m, longer than the distance that most forest bird species will travel (e.g., &lt; 100 m; [
+      <xref ref-type="bibr" rid="pone.0147909.ref049">
+       49
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0147909.ref052">
+       52
+      </xref>]. This high degree of isolation makes the species more dependent on the forest patches they already occupied, which can explain why sensitive groups were more affected by fragment size. If patch isolation were less intense, higher rates of dispersal would increase persistence in fragments, resulting in longer time-lags [
+      <xref ref-type="bibr" rid="pone.0147909.ref006">
+       6
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref011">
+       11
+      </xref>] or even in stable viable populations. In this last situation, sensitive species would show the same pattern as non-sensitive groups, being affected by current proximity and not presenting evidence of time-lag.</p> 
+    </sec> 
+    <sec id="sec014"> 
+     <title>Restoration opportunity and urgency</title> 
+     <p>The history of human settlement in the Pontal do Paranapanema during the last fifty years reflects that of the entire Atlantic Forest. In both cases, forest cover is below a critical 30% extinction threshold, observed previously for birds in the Atlantic forest [
+      <xref ref-type="bibr" rid="pone.0147909.ref053">
+       53
+      </xref>]. Despite this high level of deforestation, no bird extinctions were detected in the Atlantic Forest [
+      <xref ref-type="bibr" rid="pone.0147909.ref005">
+       5
+      </xref>]. The main evidence of an extinction debt is the number of threatened species, consistent with what is predicted to go extinct by species-area relationships [
+      <xref ref-type="bibr" rid="pone.0147909.ref005">
+       5
+      </xref>]. These taxa are primarily concentrated in large continuous forests, or in particular habitats that support their long-term presence [
+      <xref ref-type="bibr" rid="pone.0147909.ref050">
+       50
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref054">
+       54
+      </xref>]. However, in the many regions without such remnants, these species have already gone locally extinct [
+      <xref ref-type="bibr" rid="pone.0147909.ref039">
+       39
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0147909.ref040">
+       40
+      </xref>]. These results emphasize the benefits of keeping large patches in regional or landscape scales. Even in highly-degraded regions with low overall forest cover (&lt;30%), these patches can support (for some time) the presence of many sensitive species even after years of isolation, being a refuge for many species that can be rescued by future restoration actions.</p> 
+     <p>Our results emphasize the need to consider historical landscape changes to inform how fragmentation threatens species. It is also a way to predict where future extinctions will occur, so we can anticipate and prioritize the actions needed to avoid them [
+      <xref ref-type="bibr" rid="pone.0147909.ref055">
+       55
+      </xref>]. For instance, we used the 28 studied sites to infer extinction debts for all patches in Pontal do Paranapanema (
+      <xref ref-type="fig" rid="pone.0147909.g003">
+       Fig 3
+      </xref>). With this information, we suggest two restoration actions to neutralize these debts: to expand the largest fragments, aiming to reach a size comparable to the fragments existing in 1978, or alternatively, to connect these forest patches (e.g. with the creation of corridors), reducing the dependence of species on single forest patches and increasing the chance of forest colonization. In both cases, the plan would be to recreate a landscape’s condition for viable populations, and to avoid paying the extinction debt.</p> 
+     <fig id="pone.0147909.g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0147909.g003
+      </object-id> 
+      <label>Fig 3</label>  
+      <title>Potential extinction debt estimated by the number of sensitive bird species, based on 1978 patch size as predictive variable (model in the chart) in Pontal do Paranapanema, SP-Brazil.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>In most parts of the Atlantic Forest, the situation may be more critical. This could be particularly the case in areas where the critical value of fragmentation was reached more than 50 years ago and where no larger fragment is left. Time-lags likely also vary across the Atlantic Forest because of the range of landscapes, from more connected [
+      <xref ref-type="bibr" rid="pone.0147909.ref015">
+       15
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref040">
+       40
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref047">
+       47
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref050">
+       50
+      </xref>] to more isolated [
+      <xref ref-type="bibr" rid="pone.0147909.ref039">
+       39
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0147909.ref056">
+       56
+      </xref>]. In landscapes with small and highly isolated patches, fragmentation effects should be immediate [
+      <xref ref-type="bibr" rid="pone.0147909.ref011">
+       11
+      </xref>]. Nonetheless, we expect longer responses in landscapes where conditions are beyond the threshold to maintain viable (meta) populations [
+      <xref ref-type="bibr" rid="pone.0147909.ref006">
+       6
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0147909.ref007">
+       7
+      </xref>]. In our study, we found strong evidence that large patch size can create such a condition. These landscapes must hold the most threatened populations and, therefore, are where (or from where) we should concentrate restoration actions.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec015" sec-type="conclusions"> 
+    <title>Conclusion</title> 
+    <p>By relating the richness of sensitive species to present and past landscape structure, it is possible to consider past landscape dynamics in species risk evaluation and extinction debt estimation, identifying priority areas for restoration actions. Our data showed that birds sensitive to fragmentation effects present a 25 years time-lag to landscape changes, reinforcing the idea that it is not enough to conserve the present landscape structure to maintain those species in the long term. It is necessary and urgent to improve this structure through landscape restoration, enlarging or improving the best and largest fragments, and increasing connectivity among those fragments [
+     <xref ref-type="bibr" rid="pone.0147909.ref057">
+      57
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0147909.ref059">
+      59
+     </xref>]. This approach can be useful to optimize conservation funds and rescue species from extinction in highly endangered and biodiverse systems, such as the Atlantic Forest [
+     <xref ref-type="bibr" rid="pone.0147909.ref055">
+      55
+     </xref>].</p> 
+   </sec> 
+   <sec id="sec016"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0147909.s001" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0147909.s001" xlink:type="simple"> 
+     <label>S1 Appendix</label>  
+     <title>List of studied forest species with their sensibility to habitat loss and fragmentation.</title> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Clinton Jenkins, Maria Ogrzewalska, Pedro Develey, Miguel Â. Marini, Paulo Inácio Prado and Wesley Silva for revising previous version of this manuscript. We are also grateful for the cooperation of the staff of IPÊ –Institute for Ecological Research for logistical support and for the field assistance of Cicero José da Silva Filho, o Cicinho. Financial support was provided by FAPESP (The São Paulo State Research Foundation, process no. 02/01746-1), Idea Wild and the Association of Field Ornithologists. JP Metzger thanks the Brazilian Science Council (Conselho Nacional de Desenvolvimento Científico) for his research fellowship (process no. 307934/2011-0). Landsat data available from the U.S. Geological Survey</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0147909.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Huxel
+        </surname> 
+        <given-names>
+         GR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hastings
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>. 
+       <article-title>
+        Habitat Loss, Fragmentation, and Restoration
+       </article-title>. 
+       <source>Restor Ecol [Internet]. 
+       <year>
+        1999
+       </year>;
+       <volume>
+        7
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        309
+       </fpage>–
+       <lpage>
+        15
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1046/j.1526-100X.1999.72024.x" xlink:type="simple">
+        http://dx.doi.org/10.1046/j.1526-100X.1999.72024.x
+       </ext-link>\n
+       <ext-link ext-link-type="uri" xlink:href="http://onlinelibrary.wiley.com/store/10.1046/j.1526-100X.1999.72024.x/asset/j.1526-100X.1999.72024.x.pdf?v=1&amp;t=hkujg490&amp;s=85360672d08ca28817fdf8917a4431f79022c562" xlink:type="simple">
+        http://onlinelibrary.wiley.com/store/10.1046/j.1526-100X.1999.72024.x/asset/j.1526-100X.1999.72024.x.pdf?v=1&amp;t=hkujg490&amp;s=85360672d08ca28817fdf8917a4431f79022c562
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ernest
+        </surname> 
+        <given-names>
+         SKM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname> 
+        <given-names>
+         JH
+        </given-names>
+       </name>. 
+       <article-title>
+        for Compensation Delayed Species by Missing Keystone
+       </article-title>. 
+       <source>Adv Sci. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        292
+       </volume>(
+       <issue>
+        5514
+       </issue>):
+       <fpage>
+        101
+       </fpage>–
+       <lpage>
+        4
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Menendez
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Megias
+        </surname> 
+        <given-names>
+         AG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hill
+        </surname> 
+        <given-names>
+         JK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Braschler
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Willis
+        </surname> 
+        <given-names>
+         SG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Collingham
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Species richness changes lag behind climate change
+       </article-title>. 
+       <source>Proc R Soc B Biol Sci [Internet]. 
+       <year>
+        2006
+       </year>;
+       <volume>
+        273
+       </volume>(
+       <issue>
+        1593
+       </issue>):
+       <fpage>
+        1465
+       </fpage>–
+       <lpage>
+        70
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://rspb.royalsocietypublishing.org/cgi/doi/10.1098/rspb.2006.3484" xlink:type="simple">
+        http://rspb.royalsocietypublishing.org/cgi/doi/10.1098/rspb.2006.3484
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         May
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lehman
+        </surname> 
+        <given-names>
+         CL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nowak
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>. 
+       <article-title>
+        Habitat destruction and the extinction debt
+       </article-title>. 
+       <source>Nature [Internet]. 
+       <year>
+        1994
+       </year> 
+       <month>
+        Sep
+       </month> 
+       <day>
+        1
+       </day>;
+       <volume>
+        371
+       </volume>(
+       <issue>
+        6492
+       </issue>):
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        6
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.nature.com/doifinder/10.1038/371065a0" xlink:type="simple">
+        http://www.nature.com/doifinder/10.1038/371065a0
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tobias
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Balmford
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>. 
+       <article-title>
+        Deforestation and bird extinctions in the Atlantic forest
+       </article-title>. 
+       <source>Anim Conserv [Internet]. 
+       <year>
+        1999
+       </year>;
+       <volume>
+        2
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        211
+       </fpage>–
+       <lpage>
+        22
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.wiley.com/10.1017/S1367943099000542" xlink:type="simple">
+        http://doi.wiley.com/10.1017/S1367943099000542
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hanski
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ovaskainen
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>. 
+       <article-title>
+        Extinction debt at extinction threshold
+       </article-title>. 
+       <source>Conserv Biol. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        16
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        666
+       </fpage>–
+       <lpage>
+        73
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Nagelkerke K, Verboom J, van den Bosch F, van de Wolfshaar K. Time lags in metapopulation responses to landscape change. In: Applying landscape ecology in biological conservation. 2002. p. 330–54.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cowlishaw
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>. 
+       <article-title>
+        Predicting the pattern of decline of African primate diversity: An extinction debt from historical deforestation
+       </article-title>. 
+       <source>Conserv Biol. 
+       <year>
+        1999
+       </year>;
+       <volume>
+        13
+       </volume>(
+       <issue>
+        5
+       </issue>):
+       <fpage>
+        1183
+       </fpage>–
+       <lpage>
+        93
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ferraz
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Russell
+        </surname> 
+        <given-names>
+         GJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stouffer
+        </surname> 
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bierregaard
+        </surname> 
+        <given-names>
+         RO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pimm
+        </surname> 
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lovejoy
+        </surname> 
+        <given-names>
+         TE
+        </given-names>
+       </name>. 
+       <article-title>
+        Rates of species loss from Amazonian forest fragments
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A. 
+       <year>
+        2003
+       </year>;
+       <volume>
+        100
+       </volume>(
+       <issue>
+        24
+       </issue>):
+       <fpage>
+        14069
+       </fpage>–
+       <lpage>
+        73
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        14614134
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lindborg
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eriksson
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>. 
+       <article-title>
+        Historical landscape connectivity affects present plant species diversity
+       </article-title>. 
+       <source>Ecology. 
+       <year>
+        2004
+       </year>;
+       <volume>
+        85
+       </volume>(
+       <issue>
+        7
+       </issue>):
+       <fpage>
+        1840
+       </fpage>–
+       <lpage>
+        5
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kuussaari
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bommarco
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Heikkinen
+        </surname> 
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Helm
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Krauss
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lindborg
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Extinction debt: a challenge for biodiversity conservation
+       </article-title>. 
+       <source>Trends Ecol Evol [Internet]. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        24
+       </volume>(
+       <issue>
+        10
+       </issue>):
+       <fpage>
+        564
+       </fpage>–
+       <lpage>
+        71
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S0169534709001918" xlink:type="simple">
+        http://linkinghub.elsevier.com/retrieve/pii/S0169534709001918
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cousins
+        </surname> 
+        <given-names>
+         S a O
+        </given-names>
+       </name>. 
+       <article-title>
+        Extinction debt in fragmented grasslands: Paid or not?
+       </article-title> 
+       <source>J Veg Sci. 
+       <year>
+        2009
+       </year>;
+       <volume>
+        20
+       </volume>:
+       <fpage>
+        3
+       </fpage>–
+       <lpage>
+        7
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hylander
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ehrlén
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        The mechanisms causing extinction debts
+       </article-title>. 
+       <source>Trends Ecol Evol [Internet]. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        28
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        341
+       </fpage>–
+       <lpage>
+        6
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S016953471300027X" xlink:type="simple">
+        http://linkinghub.elsevier.com/retrieve/pii/S016953471300027X
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bommarco
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lindborg
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marini
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Öckinger
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>. 
+       <article-title>
+        Extinction debt for plants and flower-visiting insects in landscapes with contrasting land use history
+       </article-title>. 
+       <source>Divers Distrib [Internet]. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        20
+       </volume>(
+       <issue>
+        5
+       </issue>):
+       <fpage>
+        591
+       </fpage>–
+       <lpage>
+        9
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.wiley.com/10.1111/ddi.12187" xlink:type="simple">
+        http://doi.wiley.com/10.1111/ddi.12187
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. P, 
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>. C, 
+       <name name-style="western">
+        <surname>
+         Dixo
+        </surname> 
+        <given-names>
+         M.
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bernacci
+        </surname> 
+        <given-names>
+         LC
+        </given-names>
+       </name>. C, 
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>. C, 
+       <name name-style="western">
+        <surname>
+         Teixeira
+        </surname> 
+        <given-names>
+         AMG
+        </given-names>
+       </name>. MG, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Time-lag in biological responses to landscape changes in a highly dynamic Atlantic forest region
+       </article-title>. 
+       <source>Biol Conserv [Internet]. Elsevier Ltd; 
+       <year>
+        2009
+       </year>;
+       <volume>
+        142
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        1166
+       </fpage>–
+       <lpage>
+        77
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.scopus.com/inward/record.url?eid=2-s2.0-63349093285&amp;partnerID=40&amp;md5=fbe0d0462afc9a233286b7796cb2396b\nfiles/34989/display.html" xlink:type="simple">
+        http://www.scopus.com/inward/record.url?eid=2-s2.0-63349093285&amp;partnerID=40&amp;md5=fbe0d0462afc9a233286b7796cb2396b\nfiles/34989/display.html
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lira
+        </surname> 
+        <given-names>
+         PK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Banks-Leite
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pardini
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        Evaluating the legacy of landscape history: extinction debt and species credit in bird and small mammal assemblages in the Brazilian Atlantic Forest
+       </article-title>. 
+       <source>J Appl Ecol [Internet]. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        49
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        1325
+       </fpage>–
+       <lpage>
+        33
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.wiley.com/10.1111/j.1365-2664.2012.02214.x" xlink:type="simple">
+        http://doi.wiley.com/10.1111/j.1365-2664.2012.02214.x
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         DEAN
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>. 
+       <chapter-title>
+        a Ferro E Fogo: a História E a Devastação Da Mata Atlântica Brasileira
+       </chapter-title>. 
+       <publisher-loc>
+        São Paulo
+       </publisher-loc>: 
+       <publisher-name>
+        Companhia das Letras
+       </publisher-name>; 
+       <year>
+        1996
+       </year>. 484 p.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rigueira
+        </surname> 
+        <given-names>
+         DMG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         da Rocha
+        </surname> 
+        <given-names>
+         PLB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mariano-Neto
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>. 
+       <article-title>
+        Forest cover, extinction thresholds and time lags in woody plants (Myrtaceae) in the Brazilian Atlantic Forest: Resources for conservation
+       </article-title>. 
+       <source>Biodivers Conserv. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        22
+       </volume>(
+       <issue>
+        13–14
+       </issue>):
+       <fpage>
+        3141
+       </fpage>–
+       <lpage>
+        63
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Guardiola
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pino
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rodà
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>. 
+       <article-title>
+        Patch history and spatial scale modulate local plant extinction and extinction debt in habitat patches
+       </article-title>. 
+       <source>Divers Distrib. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        19
+       </volume>(
+       <issue>
+        7
+       </issue>):
+       <fpage>
+        825
+       </fpage>–
+       <lpage>
+        33
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Stouffer PC, Strong C, Naka LN. Twenty years of understorey bird extinctions from Amazonian rain forest fragments : consistent trends and landscape-mediated dynamics. 2009;88–97.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bulman
+        </surname> 
+        <given-names>
+         CR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname> 
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holt
+        </surname> 
+        <given-names>
+         AR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bravo
+        </surname> 
+        <given-names>
+         LG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Early
+        </surname> 
+        <given-names>
+         RI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Warren
+        </surname> 
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Minimum viable metapopulation size, extinction debt, and the conservation of a declining species
+       </article-title>. 
+       <source>Ecol Appl. 
+       <year>
+        2007
+       </year>;
+       <volume>
+        17
+       </volume>(
+       <issue>
+        5
+       </issue>):
+       <fpage>
+        1460
+       </fpage>–
+       <lpage>
+        73
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        17708221
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Myers
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname> 
+        <given-names>
+         R a
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mittermeier
+        </surname> 
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         da Fonseca
+        </surname> 
+        <given-names>
+         G a
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kent
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>. 
+       <article-title>
+        Biodiversity hotspots for conservation priorities
+       </article-title>. 
+       <source>Nature [Internet]. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        403
+       </volume>(
+       <issue>
+        6772
+       </issue>):
+       <fpage>
+        853
+       </fpage>–
+       <lpage>
+        8
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/10706275" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/pubmed/10706275
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ponzoni
+        </surname> 
+        <given-names>
+         FJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hirota
+        </surname> 
+        <given-names>
+         MM
+        </given-names>
+       </name>. 
+       <article-title>
+        The Brazilian Atlantic forest: How much is left, and how is the remaining forest distributed? Implications for conservation
+       </article-title>. 
+       <source>Biol Conserv [Internet]. Elsevier Ltd; 
+       <year>
+        2009
+       </year>;
+       <volume>
+        142
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        1141
+       </fpage>–
+       <lpage>
+        53
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biocon.2009.02.021" xlink:type="simple">
+        http://dx.doi.org/10.1016/j.biocon.2009.02.021
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         da Fonseca
+        </surname> 
+        <given-names>
+         GAB
+        </given-names>
+       </name>. 
+       <article-title>
+        The vanishing Brazilian Atlantic forest
+       </article-title>. 
+       <source>Biol Conserv [Internet]. 
+       <year>
+        1985
+       </year>;
+       <volume>
+        34
+       </volume>(
+       <issue>
+        1
+       </issue>):
+       <fpage>
+        17
+       </fpage>–
+       <lpage>
+        34
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.sciencedirect.com/science/article/B6V5X-48XKB58-KC/2/b52ec138565057c57826bb9da5404da2" xlink:type="simple">
+        http://www.sciencedirect.com/science/article/B6V5X-48XKB58-KC/2/b52ec138565057c57826bb9da5404da2
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Viana
+        </surname> 
+        <given-names>
+         VM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tabanez
+        </surname> 
+        <given-names>
+         AAJ
+        </given-names>
+       </name>. 
+       <article-title>
+        Patch structure within Brazilian Atlantic forest fragments and implications for conservation
+       </article-title>. 
+       <source>Biotropica. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        32
+       </volume>(
+       <issue>
+        4B
+       </issue>):
+       <fpage>
+        925
+       </fpage>–
+       <lpage>
+        33
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tabarelli
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Venceslau
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cezar
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paul
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peres
+        </surname> 
+        <given-names>
+         CA
+        </given-names>
+       </name>. 
+       <article-title>
+        Prospects for biodiversity conservation in the Atlantic Forest : Lessons from aging human-modified landscapes
+       </article-title>. 
+       <source>Biol Conserv [Internet]. Elsevier Ltd; 
+       <year>
+        2010
+       </year>;
+       <volume>
+        143
+       </volume>(
+       <issue>
+        10
+       </issue>):
+       <fpage>
+        2328
+       </fpage>–
+       <lpage>
+        40
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biocon.2010.02.005" xlink:type="simple">
+        http://dx.doi.org/10.1016/j.biocon.2010.02.005
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Knick
+        </surname> 
+        <given-names>
+         ST
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rotenberry
+        </surname> 
+        <given-names>
+         JT
+        </given-names>
+       </name>. 
+       <article-title>
+        Ghosts of habitats past: contribution of landscape change to current habitats used by shrubland birds
+       </article-title>. 
+       <source>Ecology [Internet]. 
+       <year>
+        2000
+       </year> 
+       <month>
+        Jan
+       </month>;
+       <volume>
+        81
+       </volume>(
+       <issue>
+        1
+       </issue>):
+       <fpage>
+        220
+       </fpage>–
+       <lpage>
+        7
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.esajournals.org/doi/abs/10.1890/0012-9658(2000)081[0220:GOHPCO]2.0.CO;2" xlink:type="simple">
+        http://www.esajournals.org/doi/abs/10.1890/0012-9658(2000)081[0220:GOHPCO]2.0.CO;2
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Oliveira-Filho
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fontes
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Patterns of Floristic Differentiation among Atlantic Forests in Southeastern Brazil and the Influence of Climate1
+       </article-title>. 
+       <source>Biotropica [Internet]. 
+       <year>
+        2000
+       </year>;
+       <volume>
+        32
+       </volume>(
+       <month>
+        March
+       </month> 1999):
+       <fpage>
+        793
+       </fpage>–
+       <lpage>
+        810
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://onlinelibrary.wiley.com/doi/10.1111/j.1744-7429.2000.tb00619.x/abstract" xlink:type="simple">
+        http://onlinelibrary.wiley.com/doi/10.1111/j.1744-7429.2000.tb00619.x/abstract
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref029">
+      <label>29</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Uezu
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        Vanishing bird species in the Atlantic Forest: relative importance of landscape configuration, forest structure and species characteristics
+       </article-title>. 
+       <source>Biodivers Conserv [Internet]. 
+       <year>
+        2011
+       </year>;
+       <volume>
+        20
+       </volume>(
+       <issue>
+        14
+       </issue>):
+       <fpage>
+        3627
+       </fpage>–
+       <lpage>
+        43
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.springerlink.com/index/10.1007/s10531-011-0154-5" xlink:type="simple">
+        http://www.springerlink.com/index/10.1007/s10531-011-0154-5
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref030">
+      <label>30</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blondel
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chessel
+        </surname> 
+        <given-names>
+         FC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Frochot
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>. 
+       <article-title>
+        La méthode des indices ponctuels d´abondance (I.P.A.) ou des relevés d´avifaune par “stations d´écoute.”
+       </article-title> 
+       <source>Alauda. 
+       <volume>
+        38
+       </volume>:
+       <fpage>
+        55
+       </fpage>–
+       <lpage>
+        71
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref031">
+      <label>31</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Parker
+        </surname> 
+        <given-names>
+         Iii TA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stotz
+        </surname> 
+        <given-names>
+         DF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fitzpatrick
+        </surname> 
+        <given-names>
+         JW
+        </given-names>
+       </name>. 
+       <article-title>
+        Ecological and distributional databases
+       </article-title>. 
+       <source>Neotrop Birds Ecol Conserv. 
+       <year>
+        1996
+       </year>;
+       <fpage>
+        113
+       </fpage>–
+       <lpage>
+        436
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref032">
+      <label>32</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Ridgely RS, Allnutt TF, Brooks T, Mcnicol DK, Mehlman DW, Zook JR. Digital Distribution Maps of the Birds of the Western Hemisphere. 2003;0–6.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref033">
+      <label>33</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Willis
+        </surname> 
+        <given-names>
+         EO
+        </given-names>
+       </name>. 
+       <article-title>
+        The composition of avian communities in the remanescent woodlots in southern Brazil
+       </article-title>. 
+       <source>Pap Avulsos Zool. 
+       <year>
+        1979
+       </year>;
+       <volume>
+        33
+       </volume>:
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        25
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref034">
+      <label>34</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Elkie
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rempel
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carr
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>. 
+       <chapter-title>
+        Patch analyst user’s manual
+       </chapter-title>. 
+       <publisher-loc>
+        Ontario
+       </publisher-loc>: 
+       <publisher-name>
+        Ontario Ministry of Natural Resources Northwest Science &amp; Technology
+       </publisher-name>; 
+       <year>
+        1999
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref035">
+      <label>35</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Burnham
+        </surname> 
+        <given-names>
+         KP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname> 
+        <given-names>
+         DR
+        </given-names>
+       </name>. 
+       <chapter-title>
+        Model Selection and Multimodel Inference
+       </chapter-title>, 
+       <source>A practical information—theoretic approach. 
+       <publisher-name>
+        Springer-Verlag
+       </publisher-name>. 
+       <year>
+        2002
+       </year>. 488 p.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref036">
+      <label>36</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dobson
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>. 
+       <source>An Introduction to Generalized Linear Models. 
+       <publisher-loc>
+        Florida
+       </publisher-loc>: 
+       <publisher-name>
+        Chapman &amp; Hall/CRC Press
+       </publisher-name>.; 
+       <year>
+        2008
+       </year>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref037">
+      <label>37</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Greenberg
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>. 
+       <article-title>
+        Neophobia, aversion to open space, and ecological plasticity in song and swamp sparrows
+       </article-title>. 
+       <source>Can J Zool. 
+       <year>
+        1989
+       </year>;
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref038">
+      <label>38</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sekercioglu
+        </surname> 
+        <given-names>
+         ÇH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ehrlich
+        </surname> 
+        <given-names>
+         PR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daily
+        </surname> 
+        <given-names>
+         GC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aygen
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Goehring
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sandí
+        </surname> 
+        <given-names>
+         RF
+        </given-names>
+       </name>. 
+       <article-title>
+        Disappearance of insectivorous birds from tropical forest fragments
+       </article-title>. 
+       <source>Proc Natl Acad Sci [Internet]. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        99
+       </volume>(
+       <issue>
+        1
+       </issue>):
+       <fpage>
+        263
+       </fpage>–
+       <lpage>
+        7
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.pnas.org/content/99/1/263.abstract" xlink:type="simple">
+        http://www.pnas.org/content/99/1/263.abstract
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref039">
+      <label>39</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Christiansen MB, Pitter E. Species loss in a forest bird community near Lagoa Santa in Southeastern Brazil. 1997;80.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref040">
+      <label>40</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ribon
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Simon
+        </surname> 
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mattos
+        </surname> 
+        <given-names>
+         GT
+        </given-names>
+       </name>. 
+       <article-title>
+        Bird extinction in Atlantic Forest fragments of the Viçosa region, southeastern Brazil
+       </article-title>. 
+       <source>Conserv Biol. 
+       <year>
+        2003
+       </year>;
+       <volume>
+        17
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        1827
+       </fpage>–
+       <lpage>
+        39
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref041">
+      <label>41</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Antunes
+        </surname> 
+        <given-names>
+         AZ
+        </given-names>
+       </name>. 
+       <article-title>
+        Alterações na composição da comunidade de aves ao longo do tempo em um fragmento florestal no sudeste do Brasil
+       </article-title>. 
+       <source>Ararajuba. 
+       <year>
+        2005
+       </year>;
+       <volume>
+        13
+       </volume>(
+       <issue>
+        1
+       </issue>):
+       <fpage>
+        47
+       </fpage>–
+       <lpage>
+        61
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref042">
+      <label>42</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Joly
+        </surname> 
+        <given-names>
+         C a
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tabarelli
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>. 
+       <article-title>
+        Experiences from the Brazilian Atlantic Forest: ecological findings and conservation initiatives
+       </article-title>. 
+       <source>New Phytol [Internet]. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        204
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        459
+       </fpage>–
+       <lpage>
+        73
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/25209030" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/pubmed/25209030
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref043">
+      <label>43</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Andren
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>. 
+       <article-title>
+        Effects of Habitat Fragmentation on Birds and Mammals in Landscapes With Different Proportions of Suitable Habitat—a Review
+       </article-title>. 
+       <source>Oikos [Internet]. 
+       <year>
+        1994
+       </year>;
+       <volume>
+        71
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        355
+       </fpage>–
+       <lpage>
+        66
+       </lpage>. Available from: &lt;Go to ISI&gt;://WOS:A1994QA75600002
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref044">
+      <label>44</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fahrig
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>. 
+       <article-title>
+        Effect of habitat fragmentation on the extinction threshold: A synthesis
+       </article-title>. 
+       <source>Ecol Appl. 
+       <year>
+        2002
+       </year>;
+       <volume>
+        12
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        346
+       </fpage>–
+       <lpage>
+        53
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref045">
+      <label>45</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Radford
+        </surname> 
+        <given-names>
+         JQ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname> 
+        <given-names>
+         AF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cheers
+        </surname> 
+        <given-names>
+         GJ
+        </given-names>
+       </name>. 
+       <article-title>
+        Landscape-level thresholds of habitat cover for woodland-dependent birds
+       </article-title>. 
+       <source>Biol Conserv [Internet]. 
+       <year>
+        2005
+       </year>;
+       <volume>
+        124
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        317
+       </fpage>–
+       <lpage>
+        37
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S0006320705000662" xlink:type="simple">
+        http://linkinghub.elsevier.com/retrieve/pii/S0006320705000662
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref046">
+      <label>46</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pardini
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bueno
+        </surname> 
+        <given-names>
+         ADA
+        </given-names>
+       </name>, 
+       <article-title>
+        Gardner T a, Prado PI, Metzger JP. Beyond the fragmentation threshold hypothesis: regime shifts in biodiversity across fragmented landscapes
+       </article-title>. 
+       <source>PLoS One [Internet]. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        5
+       </volume>(
+       <issue>
+        10
+       </issue>):
+       <fpage>
+        e1366
+       </fpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2965145&amp;tool=pmcentrez&amp;rendertype=abstract" xlink:type="simple">
+        http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2965145&amp;tool=pmcentrez&amp;rendertype=abstract
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref047">
+      <label>47</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pimentel
+        </surname> 
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        Relative effects of fragment size and connectivity on bird community in the Atlantic Rain Forest: Implications for conservation
+       </article-title>. 
+       <source>Biol Conserv. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        141
+       </volume>(
+       <issue>
+        9
+       </issue>):
+       <fpage>
+        2184
+       </fpage>–
+       <lpage>
+        92
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref048">
+      <label>48</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Banks-leite
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname> 
+        <given-names>
+         RM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Banks-leite
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Unraveling the drivers of community dissimilarity and species extinction in fragmented landscapes
+       </article-title> Author(s): 
+       <name name-style="western">
+        <surname>
+         Banks-Leite
+        </surname> 
+        <given-names>
+         Cristina
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ewers
+        </surname> 
+        <given-names>
+         Robert M.
+        </given-names>
+       </name> and 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         Jean Paul
+        </given-names>
+       </name> 
+       <source>Source: 
+       <year>
+        2016
+       </year>;
+       <volume>
+        93
+       </volume>(
+       <issue>
+        12
+       </issue>):
+       <fpage>
+        2560
+       </fpage>–
+       <lpage>
+        9
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref049">
+      <label>49</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Develey
+        </surname> 
+        <given-names>
+         PF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stouffer
+        </surname> 
+        <given-names>
+         PC
+        </given-names>
+       </name>. 
+       <article-title>
+        Effects of roads on movements by understory birds in mixed-species flocks in central Amazonian Brazil
+       </article-title>. 
+       <source>Conserv Biol. 
+       <year>
+        2001
+       </year>;
+       <volume>
+        15
+       </volume>(
+       <issue>
+        5
+       </issue>):
+       <fpage>
+        1416
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref050">
+      <label>50</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Uezu
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vielliard
+        </surname> 
+        <given-names>
+         JME
+        </given-names>
+       </name>. 
+       <article-title>
+        Effects of structural and functional connectivity and patch size on the abundance of seven Atlantic … [Internet]
+       </article-title>. 
+       <source>Biol Conserv. 
+       <year>
+        2005
+       </year>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=7601034272961025263related:71RpNWZMfGkJ" xlink:type="simple">
+        http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&amp;cmd=Retrieve&amp;dopt=AbstractPlus&amp;list_uids=7601034272961025263related:71RpNWZMfGkJ
+       </ext-link>\n
+       <ext-link ext-link-type="uri" xlink:href="http://linkinghub.elsevier.com/retrieve/pii/S0006320705000091" xlink:type="simple">
+        http://linkinghub.elsevier.com/retrieve/pii/S0006320705000091
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref051">
+      <label>51</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Awade
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        Using gap-crossing capacity to evaluate functional connectivity of two Atlantic rainforest birds and their response to fragmentation
+       </article-title>. 
+       <source>Austral Ecol [Internet]. 
+       <year>
+        2008
+       </year>;
+       <volume>
+        33
+       </volume>(
+       <issue>
+        7
+       </issue>):
+       <fpage>
+        863
+       </fpage>–
+       <lpage>
+        71
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.wiley.com/10.1111/j.1442-9993.2008.01857.x" xlink:type="simple">
+        http://doi.wiley.com/10.1111/j.1442-9993.2008.01857.x
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref052">
+      <label>52</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hansbauer
+        </surname> 
+        <given-names>
+         MM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Storch
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Knauer
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pilz
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Küchenhoff
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Végvári
+        </surname> 
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. 
+       <article-title>
+        Landscape perception by forest understory birds in the Atlantic Rainforest: black-and-white versus shades of grey
+       </article-title>. 
+       <source>Landsc Ecol [Internet]. 
+       <year>
+        2010
+       </year>;
+       <volume>
+        25
+       </volume>(
+       <issue>
+        3
+       </issue>):
+       <fpage>
+        407
+       </fpage>–
+       <lpage>
+        17
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://link.springer.com/10.1007/s10980-009-9418-9" xlink:type="simple">
+        http://link.springer.com/10.1007/s10980-009-9418-9
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref053">
+      <label>53</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Banks-Leite
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Prado
+        </surname> 
+        <given-names>
+         PI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        Associations of Forest Cover, Fragment Area, and Connectivity with Neotropical Understory Bird Species Richness and Abundance
+       </article-title>. 
+       <source>Conserv Biol [Internet]. 
+       <year>
+        2012
+       </year>;
+       <volume>
+        26
+       </volume>(
+       <issue>
+        6
+       </issue>):
+       <fpage>
+        1100
+       </fpage>–
+       <lpage>
+        11
+       </lpage>. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.wiley.com/10.1111/j.1523-1739.2012.01940.x" xlink:type="simple">
+        http://doi.wiley.com/10.1111/j.1523-1739.2012.01940.x
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref054">
+      <label>54</label>
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Develey PF, Metzger JP. Emerging threats to birds in Brazilian Atlantic forests: the roles of forest loss and configuration in a severely fragmented ecosystem. In: Laurance W, Peres CA, editors. Emerging threats to tropical forests. Chicago; 2006. p. 269–90.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref055">
+      <label>55</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rappaport
+        </surname> 
+        <given-names>
+         DI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tambosi
+        </surname> 
+        <given-names>
+         LR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        A landscape triage approach: combining spatial and temporal dynamics to prioritize restoration and conservation
+       </article-title>. 
+       <source>J Appl Ecol [Internet]. 
+       <year>
+        2015
+       </year>;n/a–n/a. Available from: 
+       <ext-link ext-link-type="uri" xlink:href="http://doi.wiley.com/10.1111/1365-2664.12405" xlink:type="simple">
+        http://doi.wiley.com/10.1111/1365-2664.12405
+       </ext-link>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref056">
+      <label>56</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Aleixo
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vielliard
+        </surname> 
+        <given-names>
+         JME
+        </given-names>
+       </name>. 
+       <article-title>
+        Composição e dinâmica da avifauna da Mata de Santa Genebra, Campinas, São Paulo, Brasil
+       </article-title>. 
+       <source>Rev Bras Zool. 
+       <year>
+        1995
+       </year>;
+       <volume>
+        12
+       </volume>:
+       <fpage>
+        493
+       </fpage>–
+       <lpage>
+        511
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref057">
+      <label>57</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brancalion
+        </surname> 
+        <given-names>
+         PHS
+        </given-names>
+       </name>. 
+       <article-title>
+        Challenges and opportunities in applying a landscape ecology perspective in ecological restoration: A powerful approach to Shape Neolandscapes
+       </article-title>. 
+       <source>Nat a Conserv. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        11
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        103
+       </fpage>–
+       <lpage>
+        7
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref058">
+      <label>58</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Leite
+        </surname> 
+        <given-names>
+         MDS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tambosi
+        </surname> 
+        <given-names>
+         LR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Romitelli
+        </surname> 
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        Landscape Ecology Perspective in Restoration Projects for Biodiversity Conservation: a Review
+       </article-title>. 
+       <source>Nat Conserv. 
+       <year>
+        2013
+       </year>;
+       <volume>
+        11
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        108
+       </fpage>–
+       <lpage>
+        18
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0147909.ref059">
+      <label>59</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tambosi
+        </surname> 
+        <given-names>
+         LR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martensen
+        </surname> 
+        <given-names>
+         AC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ribeiro
+        </surname> 
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metzger
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>. 
+       <article-title>
+        A framework to optimize biodiversity restoration efforts based on habitat amount and landscape connectivity
+       </article-title>. 
+       <source>Restor Ecol. 
+       <year>
+        2014
+       </year>;
+       <volume>
+        22
+       </volume>(
+       <issue>
+        2
+       </issue>):
+       <fpage>
+        169
+       </fpage>–
+       <lpage>
+        77
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

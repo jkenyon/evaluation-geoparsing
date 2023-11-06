@@ -1,0 +1,3765 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-11-03039
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0021265
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Species interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological metrics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Species diversity
+          </subject> 
+          <subject>
+           Species richness
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+         <subject>
+          Coastal ecology
+         </subject> 
+         <subject>
+          Marine ecology
+         </subject> 
+         <subject>
+          Theoretical ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Marine biology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Coastal ecology
+         </subject> 
+         <subject>
+          Marine ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Computer science
+       </subject> 
+       <subj-group> 
+        <subject>
+         Geoinformatics
+        </subject> 
+        <subj-group> 
+         <subject>
+          Remote sensing imagery
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Earth sciences
+       </subject> 
+       <subj-group> 
+        <subject>
+         Geography
+        </subject> 
+        <subj-group> 
+         <subject>
+          Cartography
+         </subject> 
+         <subj-group> 
+          <subject>
+           Remote sensing imagery
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Geoinformatics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Remote sensing imagery
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Geomorphology
+        </subject> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Marine and aquatic sciences
+        </subject> 
+        <subj-group> 
+         <subject>
+          Coastal ecology
+         </subject> 
+         <subject>
+          Marine ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Social and behavioral sciences
+       </subject> 
+       <subj-group> 
+        <subject>
+         Geography
+        </subject> 
+        <subj-group> 
+         <subject>
+          Cartography
+         </subject> 
+         <subj-group> 
+          <subject>
+           Remote sensing imagery
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Geoinformatics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Remote sensing imagery
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+       <subject>
+        Marine and Aquatic Sciences
+       </subject> 
+       <subject>
+        Computer Science
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Predicting Species Diversity of Benthic Communities within Turbid Nearshore Using Full-Waveform Bathymetric LiDAR and Machine Learners
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Coastal Biodiversity Using LiDAR, Machine Learners
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Collin
+        </surname> 
+        <given-names>
+         Antoine
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Archambault
+        </surname> 
+        <given-names>
+         Phillippe
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Long
+        </surname> 
+        <given-names>
+         Bernard
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Department of Geosciences, INRS-ETE, University of Québec, Québec, Canada
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Institut des Sciences de la Mer, Université du Québec à Rimouski, Rimouski, Canada
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Browman
+        </surname> 
+        <given-names>
+         Howard
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      Institute of Marine Research, Norway
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        antoinecollin1@gmail.com
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: AC BL PA. Performed the experiments: AC BL PA. Analyzed the data: AC. Contributed reagents/materials/analysis tools: AC BL PA. Wrote the paper: AC.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have read the journal's policy and have the following conflicts. Optech Int. supported this study and was involved in data collection and analysis. This does not alter the authors' adherence to all the PLoS ONE policies on sharing data and materials.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       20
+      </day> 
+      <month>
+       6
+      </month> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <volume>
+      6
+     </volume>
+     <issue>
+      6
+     </issue>
+     <elocation-id>
+      e21265
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        10
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        27
+       </day> 
+       <month>
+        5
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2011
+      </copyright-year>
+      <copyright-holder>
+       Collin et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>Epi-macrobenthic species richness, abundance and composition are linked with type, assemblage and structural complexity of seabed habitat within coastal ecosystems. However, the evaluation of these habitats is highly hindered by limitations related to both waterborne surveys (slow acquisition, shallow water and low reactivity) and water clarity (turbid for most coastal areas). Substratum type/diversity and bathymetric features were elucidated using a supervised method applied to airborne bathymetric LiDAR waveforms over Saint-Siméon–Bonaventure's nearshore area (Gulf of Saint-Lawrence, Québec, Canada). High-resolution underwater photographs were taken at three hundred stations across an 8-km<sup>2</sup> study area. Seven models based upon state-of-the-art machine learning techniques such as Naïve Bayes, Regression Tree, Classification Tree, C 4.5, Random Forest, Support Vector Machine, and CN2 learners were tested for predicting eight epi-macrobenthic species diversity metrics as a function of the class number. The Random Forest outperformed other models with a three-discretized Simpson index applied to epi-macrobenthic communities, explaining 69% (Classification Accuracy) of its variability by mean bathymetry, time range and skewness derived from the LiDAR waveform. Corroborating marine ecological theory, areas with low Simpson epi-macrobenthic diversity responded to low water depths, high skewness and time range, whereas higher Simpson diversity relied upon deeper bottoms (correlated with stronger hydrodynamics) and low skewness and time range. The degree of species heterogeneity was therefore positively linked with the degree of the structural complexity of the benthic cover. This work underpins that fully exploited bathymetric LiDAR (not only bathymetrically derived by-products), coupled with proficient machine learner, is able to rapidly predict habitat characteristics at a spatial resolution relevant to epi-macrobenthos diversity, ranging from clear to turbid waters. This method might serve both to nurture marine ecological theory and to manage areas with high species heterogeneity where navigation is hazardous and water clarity opaque to passive optical sensors.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       This study was supported by the network of excellence GEOIDE (Canada), Fisheries and Oceans Canada, US Naval Hydrographic Service, and Optech Int. The funders had no role in study design, decision to publish, or preparation of the manuscript. Optech Int. was involved in data collection and analysis.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="16" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>The biodiversity conservation strategy usually starts with the characterization of landscapes and biological communities, then focuses on habitats that support biodiversity positive anomalies 
+     <xref ref-type="bibr" rid="pone.0021265-Myers1">
+      [1]
+     </xref>. Ecological theory assumes that species distributions are determined in part by environmental gradients and resources 
+     <xref ref-type="bibr" rid="pone.0021265-Austin1">
+      [2]
+     </xref>. Defining a set of environmental variables which are recognized to entail direct or indirect responses from presence/absence species and linking them by an ecologically-relevant statistical model enable the acquisition of significant information aimed at conservation planning 
+     <xref ref-type="bibr" rid="pone.0021265-Austin1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Guisan1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Austin2">
+      [4]
+     </xref>. Therefore, spatial predictions of suitable habitats for hotspots represent a proactive tool for decision makers in the selection and evaluation of protected areas 
+     <xref ref-type="bibr" rid="pone.0021265-Harborne1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+      [6]
+     </xref>. Despite the rapidly growing use of ecological spatial modelling within last decade 
+     <xref ref-type="bibr" rid="pone.0021265-Guisan1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Purkis1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Lvesque1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Maxwell1">
+      [9]
+     </xref>, Austin 
+     <xref ref-type="bibr" rid="pone.0021265-Austin1">
+      [2]
+     </xref> showed a paucity of consistency between species predictive models and ecological theory as well as little discussion about these discrepancies. Statistical models based on linear regression such as Generalized Linear Models (GLM), Multivariate Adaptative Regression Splines (MARS) or Structural Equation Modelling (SEM) are extensively used while being constrained by assumptions that ecological data is unlikely to meet, such as normality and homoscedasticity in species' response 
+     <xref ref-type="bibr" rid="pone.0021265-Austin1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Guisan1">
+      [3]
+     </xref>. However, new approaches calling upon nonparametric coefficients, especially decision trees, have been demonstrated to outperform linear models since both linear and nonlinear relationships between biotic and abiotic components are well identified 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Elith1">
+      [10]
+     </xref>. Pittman et al. 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+      [6]
+     </xref> equated three modelling techniques for predicting fish species richness across shallow-water seascapes and concluded that the tree-based model was more proficient than multiple linear regression and neural networks, showing an overall map accuracy of 75% for osteichthyes.</p> 
+    <p>Traditional methods carried out to evaluate and conserve marine biodiversity have mostly been supported by punctual and scattered data derived from cursory surveys 
+     <xref ref-type="bibr" rid="pone.0021265-Ward1">
+      [11]
+     </xref>, likely hindering accurate predictions of areas that should be sanctuarized. In addition to the development of improved analysis techniques, two major advances have occurred during the last ten years and have allowed to address marine conservation issues: the progress of remote sensing and the change of biological level. Firstly, despite the relative opacity of water regarding electromagnetic waves, recent improvements have enabled the acquisition of quasi-continuous measurements of environmental predictors, either proximal or distal, over broad seascapes and conduct species distribution or richness modelling through acoustic methods and optical remote sensing over clear water 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Purkis1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Galparsoro1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Kobler1">
+      [13]
+     </xref>. Secondly, albeit usually the core of a conservation perspective, a species-level approach is not appropriate for direct monitoring by either the best echo-sounder or even the most valuable, spectrally and spatially, spaceborne sensor. Adopting habitat-level surrogates for underwater biodiversity both interfaces the resolution inherent to the sensor with the size of the measured biotic unit and promotes the conservation of common species complementary to species of interest (e.g., keystone, umbrella or rare) which would not have received much consideration otherwise 
+     <xref ref-type="bibr" rid="pone.0021265-Ward1">
+      [11]
+     </xref>.</p> 
+    <p>Depth and structural complexity are indirect environmental gradients which play fundamental roles in macrobenthic and fish species richness and abundance 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+      [6]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Adjeroud1">
+      [14]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Wedding1">
+      [15]
+     </xref>. This assertion is especially intuitive for epi-macrobenthic species, whose adults are sessile and communities strongly influenced by habitat selection preferences of larvae, sensitive to depth-related temperature, pressure, salinity and bottom structure 
+     <xref ref-type="bibr" rid="pone.0021265-Gray1">
+      [16]
+     </xref>. Structurally-complex habitats present larger surfaces than smooth ones, constitute larger targets for potential colonizers, and can accordingly receive more immigrants 
+     <xref ref-type="bibr" rid="pone.0021265-McArthur1">
+      [17]
+     </xref>. Robust predictions of species features are closely dependent on the ability to match response data resolution with more proximal predictors ( i.e. to accurately monitor seafloor physical heterogeneity). Austin 
+     <xref ref-type="bibr" rid="pone.0021265-Austin1">
+      [2]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Austin2">
+      [4]
+     </xref> duly advocated that response data resolution should be consistent with ecological theory and the predictors being used. However, spaceborne sensors do not offer high enough resolution to provide ecologically relevant structural information. Optically passive airborne platforms are able to derive such resolution but are limited by water clarity, whereas waterborne devices, unrestricted by turbidity, cannot acquire data over shallow and hazardous (strong currents and wind) waters 
+     <xref ref-type="bibr" rid="pone.0021265-Guenther1">
+      [18]
+     </xref>.</p> 
+    <p>The airborne bathymetric LiDAR (Light Detection And Ranging) is the only technique capable of providing large datasets over turbid and shallow water at an appropriate metricresolutionto explain the spatial distribution of abiotic and biotic components. The bathymetric LiDAR is an active laser-based pulsed altimeter that allows for accurate depth measurements (up to three times the Secchi depth) by generating Digital Depth Models (DDM) during optimal environmental windows, making it a time and cost-effective tool in support of coastal hydrography 
+     <xref ref-type="bibr" rid="pone.0021265-Guenther1">
+      [18]
+     </xref>. LiDAR has recently been used towards benthic habitat mapping 
+     <xref ref-type="bibr" rid="pone.0021265-Wedding1">
+      [15]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Pittman2">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Collin1">
+      [20]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0021265-Brock1">
+      [21]
+     </xref>, as well as the characterization of their structural complexity using full-waveform data 
+     <xref ref-type="bibr" rid="pone.0021265-Collin2">
+      [22]
+     </xref>. Using such an innovative technique to derive seabed and bathymetric features in modelling species richness, abundance and composition in opaque nearshore areas is a novel approach and may considerably facilitate the delineation of areas showing high levels of ecological importance.</p> 
+    <p>This work's objectives are to (1) establish the species richness, abundance and composition of the epi-macrobenthic species within the Baie des Chaleurs (Québec, Canada) , (2) retrieve seabed type and diversity data as well as morphometric features from full-waveform LiDAR data, (3) assess the amount of variability in biotic indices that can be reliably predicted by LiDAR-derived controlling factors by means of machine learning techniques, and (4) model the spatial patterns of biotic information across the LiDAR-surveyed whole area using GIS.</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study site</title> 
+     <p>The study took place along a part of the north shore in the Baie des Chaleurs (48°N, 65°W), southern Gulf of Saint-Lawrence, Quebec, Canada (
+      <xref ref-type="fig" rid="pone-0021265-g001">
+       Fig. 1
+      </xref>). The Baie des Chaleurs is a semi-enclosed basin 130 km long, steadily widening and deepening towards the opening, i.e., 40 km and 90 m, respectively. The coast of Saint-Siméon – Bonaventure was selected based upon the broad range of habitat diversity: a river delta, sand banks, boulders, pebbles, kelp fields and an eelgrass meadow. The structural complexity inherent to boulders and their surroundings offer refuges, whereas the sedimentary crown is a suitable hunting-ground for lobsters. The alternation and the adjacency of algae-covered boulders and sand patches create a heterogeneous mosaic in this benthoscape, and are therefore correlated with a high probability of lobster (
+      <italic>
+       Homarus americanus
+      </italic>) presence, as demonstrated by the monospecies-oriented catch effort. Two spionidae polychaetes, 
+      <italic>
+       Prionospio steenstrupi
+      </italic> and 
+      <italic>
+       Spiophanes bombyx
+      </italic>, the bivalve 
+      <italic>
+       Spisula
+      </italic> spp., the crustacean 
+      <italic>
+       Corophium bonelli
+      </italic>, and the echinoderm 
+      <italic>
+       Echinarachnius parma
+      </italic> were sampled over sandy-gravely seabed, while the macroalgae 
+      <italic>
+       Laminaria
+      </italic> spp. populated cobble and pebble bottoms 
+      <xref ref-type="bibr" rid="pone.0021265-Long1">
+       [23]
+      </xref>.</p> 
+     <fig id="pone-0021265-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Location of the study area along Bonaventure's nearshore area (South of Gapsesia Peninsula, Quebec, Canada) and the underlying LiDAR bathymetric map based upon a 2 m grid. </title> 
+      <p>Water depths ranged from 2.05 to 10.91 m.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g001" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Epi-macrobenthic diversity and abundance responses</title> 
+     <p>The ecological model assumed that surveyed epi-macrobenthic species distributions were determined at least in part by environmental gradients, and that reasonable approximations for these gradients could be estimated 
+      <xref ref-type="bibr" rid="pone.0021265-Austin1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Austin2">
+       [4]
+      </xref>. Despite the added theoretical complexity, collective properties of the epi-macrobenthic populations, such as species richness, abundance and composition, were investigated owing to their ecological significance.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Sampling design</title> 
+     <p>Macrobenthic sampling surveys were carried out between the 25th June and the 3rd July 2006, with an underwater digital high-resolution (5 megapixels) camcorder. The camera was mounted on a tetrapod frame, and dropped over the seabed. Face to the field of view, a reference ruler was added on the frame in order to evaluate the size of objects of the seafloor. Each image was captured from a continuous video and monitored 0.16 m2 (0.4×0.4 m). A total of 300 images were collected and their position accurately recorded by a Differential GPS (DGPS), meeting a submetric horizontal accuracy. Constrained by the draught-imposed limit landward and the loss of the LiDAR bottom signal seaward, which a 
+      <italic>
+       posteriori
+      </italic> corresponded to the 16 m isobath, the sampled area covered 8 km2. Point-observations were spread across the entire study area, without 
+      <italic>
+       a priori
+      </italic> knowledge of the distribution of substrata. The analysis of the seabed image allowed the computing of diversity and abundance indices at each point.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Diversity and abundance indices</title> 
+     <p>Biological diversity and abundance indices associated to epi-macrobenthic features were derived from a species-sediment matrix. Each row of this matrix corresponded to the percentage of the surface covered by epi-macrobenthos and sediment variables. The quantification of the surface occupied by each benthic component was facilitated by the superimposition of a grid of 100 uniformly distributed squares on each photograph 
+      <xref ref-type="bibr" rid="pone.0021265-Archambault1">
+       [24]
+      </xref>. The identification of both the lowest possible taxonomic level and the grain size constituted 12 biotic and 4 abiotic variables: Crustacea, Echinoidea, Annelida (and/or burrows), Gastropoda, Asteroidea, Dead shells, 
+      <italic>
+       Fucus
+      </italic> spp., 
+      <italic>
+       Zostera marina
+      </italic>, 
+      <italic>
+       Chondrus crispus
+      </italic>, 
+      <italic>
+       Laminaria
+      </italic> spp., 
+      <italic>
+       Chorda tomentosa
+      </italic>, 
+      <italic>
+       Polysiphonia
+      </italic> spp., Boulders &gt;256 mm with encrusting algae, Cobbles&gt;64 mm, Pebbles&gt;4 mm, Fine-sand&gt;0.06 mm.</p> 
+     <p>The α-diversity was defined as the species richness (S) of epi-macrobenthos within each station. Since the observed number of species in the survey is a biased estimator of the true species richness in the area, and since the observed species number increases non-linearly with sampling effort, the species richness of the observed epi-macrobenthic species richness was referred to as species density (d) per m2. The abundance and composition of biotic components were examined by means of seven indices: the overall abundance (A), i.e., sum of the percentages of the colonized surface, and its log transformation, the Simpson diversity index applied to the percentages of the surface (D), expressed as one minus the sum of the squares of the ratio of the image covered by the ith biotic variable with overall abundance, and its log transformation, the Shannon diversity index applied to the percentages of the surface (H'), corresponding to the opposite of the sum of the fraction of the image covered by the ith biotic variable multiplied by the natural logarithm of this same fraction, and its log (X+1) transformation, as well as a modified Pielou evenness (mJ'), computing the ratio between the previous Shannon index and the natural logarithm of the species richness +1.</p> 
+     <p>The data model used in this work was clearly underpinned by both the purpose of the paper and the scale, which is consistent with the underlying ecological theory. In addition, the selection of biotic variables, namely various measures of diversity and abundance data, was incorporated within the data model. The last salient part of the data model relied upon the selection of environmental variables. Albeit indirect, the bathymetry and derived features, as well as the seafloor nature and diversity, were recognized to be robust proxies for modelling spatial distribution of benthic species 
+      <xref ref-type="bibr" rid="pone.0021265-Harborne1">
+       [5]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Seafloor structure and diversity predictors</title> 
+     <p>The bathymetric variability and related spatial configuration structuring the neritic benthoscape at fine-scale as well as the seafloor structure and diversity were quantified using the Scanning Hydrographic Operational Airborne LiDAR Survey (SHOALS) system.</p> 
+    </sec> 
+    <sec id="s2f"> 
+     <title>Bathymetric LiDAR</title> 
+     <p>The SHOALS system is an airborne, scanning, pulse-based laser altimeter that measures accurately and reliably the distance from the aircraft to the surface and the sea bottom. Unlike passive sensors constrained by solar irradiance, the active bathymetric LiDAR has the capabilities to acquire bathymetry and seafloor data in only accounting for its own energy source, thus providing data over water bodies considered too turbid for any optical passive sensors. Other conspicuous reasons for integrating this state-of-the-art technology to marine ecology are i) the ability to complete rapid high-resolution surveys over large areas in very short periods (relevant for monitoring seasonal or storm-induced change), increasing the cost-effectiveness 
+      <xref ref-type="bibr" rid="pone.0021265-Guenther1">
+       [18]
+      </xref>, ii) the capacity to map habitats where it would be hazardous to use waterborne techniques 
+      <xref ref-type="bibr" rid="pone.0021265-Irish1">
+       [25]
+      </xref>, and iii) the facility to simultaneously survey the subtidal, intertidal and supratidal ecological structures 
+      <xref ref-type="bibr" rid="pone.0021265-Collin3">
+       [26]
+      </xref>. The SHOALS measurements are accurate to IHO Order 1 standards, i.e., ±0.15 m vertically and ±2 m horizontally 
+      <xref ref-type="bibr" rid="pone.0021265-Irish1">
+       [25]
+      </xref>. Each sounding was precisely positioned by the recording of the aircraft (using a differential and kinematic GPS) and its roll, pitch, and yaw at 200 Hz by an Inertial Measurement Unit (IMU). The system emits the 532 nm wavelength (green) from a Nd-YAG laser, allowing the detection of bottom characteristics because of its high water transmission. In addition, the SHOALS system is a full-waveform system which allows the digitization and recording of the entire backscattered signal as a function of time for each laser pulse. A typical waveform may be divided into three distinguished parts: water surface, water column, and the benthic return (
+      <xref ref-type="fig" rid="pone-0021265-g002">
+       Figure 2
+      </xref>). The SHOALS scanning operated at 3 KHz, and the study area was covered by a series of 8 NW-SE overlapping flight lines at 269.3±9.6 m altitude inducing a swath width of 198.1±4.4 m and a spot spacing of 2 m, i.e., 2 548 536 soundings covering a 7.982 km2 seafloor area. The maximum depth penetration matched the 16 m isobath owing to water clarity of this bay at this time.</p> 
+     <fig id="pone-0021265-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Chart of the bathymetric LiDAR full-waveform monitored by the green (532 nm) channel.</title> 
+      <p>This signal was acquired at 4.50 m depth and the oblique dashed line consisted of a linear fit of the water column return.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g002" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s2g"> 
+     <title>Bathymetry and derived morphometric indices</title> 
+     <p>The influence of the bathymetry and related structural complexity on benthic community ecology has been well documented 
+      <xref ref-type="bibr" rid="pone.0021265-Rosenzweig1">
+       [27]
+      </xref>, and is what prompted the use of these continuous variables as robust environmental predictors. The bathymetric LiDAR points, containing easting, northing and ellipsoidal height, were processed into IDL-ENVI 4.2 
+      <xref ref-type="bibr" rid="pone.0021265-Research1">
+       [28]
+      </xref> so that different surfaces were constructed. Triangular Irregular Networks (TIN) were constructed based on the ellipsoid-corrected height that was linearly interpolated to a 2 m resolution Digital Depth Model (DDM) with a very high resolution accuracy of 15 cm. In addition to the mean bathymetry, the complexity of the benthic structure was examined in extracting 12 bathymetric features, such as Absolute Roughness, Local Roughness, Slope, Aspect, Shaded Relief, Profile Convexity, Plan Convexity, Longitudinal Convexity, Cross Sectional Convexity, Minimum Curvature, Maximum Curvature, Root Mean Square Error (
+      <xref ref-type="table" rid="pone-0021265-t001">
+       Table 1
+      </xref>). Each morphometric index of the fine-grained benthoscape was quantified and then spatially rendered by building a 2 m grid. Based upon these macrohabitat-related measurements, two bathymetric feature classification images were created at two spatial scales (6 m and 12 m), and each pixel of the output was assigned according to the following terrain types: peak, ridge, pass, plane, channel or pit 
+      <xref ref-type="bibr" rid="pone.0021265-Wood1">
+       [29]
+      </xref>.</p> 
+     <table-wrap id="pone-0021265-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Description of the LiDAR-derived environmental predictors.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0021265-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.t001" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="2" rowspan="1">Predictors</td> 
+          <td align="left" colspan="1" rowspan="1">Description</td> 
+          <td align="left" colspan="1" rowspan="1">Unit</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Bathymetry</td> 
+          <td align="left" colspan="1" rowspan="1">Bathymetry</td> 
+          <td align="left" colspan="1" rowspan="1">Average bathymetry</td> 
+          <td align="left" colspan="1" rowspan="1">Meters</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Absolute Roughness</td> 
+          <td align="left" colspan="1" rowspan="1">Standard Deviation of bathymetric values between pixel and eight neighbours</td> 
+          <td align="left" colspan="1" rowspan="1">Meters</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Local Roughness</td> 
+          <td align="left" colspan="1" rowspan="1">Slope-corrected Absolute Roughness</td> 
+          <td align="left" colspan="1" rowspan="1">Meters</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Slope</td> 
+          <td align="left" colspan="1" rowspan="1">Average rate of change in slope between pixel and eight neighbours</td> 
+          <td align="left" colspan="1" rowspan="1">Degrees</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Aspect</td> 
+          <td align="left" colspan="1" rowspan="1">Horizontal direction to which the pixel slope faces</td> 
+          <td align="left" colspan="1" rowspan="1">Degrees</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Shaded relief</td> 
+          <td align="left" colspan="1" rowspan="1">Computed cast shadow thrown upon raised bathymetric DEM (Lambertian surfaces)</td> 
+          <td align="left" colspan="1" rowspan="1">Lux [0-1]</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Profile Convexity</td> 
+          <td align="left" colspan="1" rowspan="1">Intersection between the plane of the bathymetry axis and aspect direction (rate of change of slope along the profile)</td> 
+          <td align="left" colspan="1" rowspan="1">+:convex-:concave</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Plan Convexity</td> 
+          <td align="left" colspan="1" rowspan="1">Intersection between the latitutde-longitude (rate of change of aspect along the plan)</td> 
+          <td align="left" colspan="1" rowspan="1">+:convex-:concave</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Longitudinal Convexity</td> 
+          <td align="left" colspan="1" rowspan="1">Intersection between the plane of the slope normal and aspect direction</td> 
+          <td align="left" colspan="1" rowspan="1">Degrees</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Cross-sectional Convexity</td> 
+          <td align="left" colspan="1" rowspan="1">Intersection between the plane of the slope normal and perpendicular aspect direction</td> 
+          <td align="left" colspan="1" rowspan="1">Degrees</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Minimum Curvature</td> 
+          <td align="left" colspan="1" rowspan="1">Minimum overall surface curvature</td> 
+          <td align="left" colspan="1" rowspan="1">Degrees</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Maximum Curvature</td> 
+          <td align="left" colspan="1" rowspan="1">Maximum overall surface curvature</td> 
+          <td align="left" colspan="1" rowspan="1">Degrees</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Root Mean Square Error</td> 
+          <td align="left" colspan="1" rowspan="1">Residuals between the quadratic surface and the actual digital elevation data</td> 
+          <td align="left" colspan="1" rowspan="1">Meters</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Bathymetric features (6 m)</td> 
+          <td align="left" colspan="1" rowspan="1">Classification of morphometric features at 6 m scale: ridge, pass, channel</td> 
+          <td align="left" colspan="1" rowspan="1">Class</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Bathymetric features (12 m)</td> 
+          <td align="left" colspan="1" rowspan="1">Classification of morphometric features at 12 m scale: ridge, pass, channel</td> 
+          <td align="left" colspan="1" rowspan="1">Class</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Substratum</td> 
+          <td align="left" colspan="1" rowspan="1">Substratum type</td> 
+          <td align="left" colspan="1" rowspan="1">Classification of substratum type relied upon 16 waveform-based statistics and camera-driven photos</td> 
+          <td align="left" colspan="1" rowspan="1">Class</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Substratum Dissimilarity</td> 
+          <td align="left" colspan="1" rowspan="1">Bray-Curtis Dissimilarity applied to substratum type map</td> 
+          <td align="left" colspan="1" rowspan="1">Percent</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Substratum Evenness</td> 
+          <td align="left" colspan="1" rowspan="1">Pielou Evenness applied to substratum type map</td> 
+          <td align="left" colspan="1" rowspan="1">[0–1]</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Benthic Waveform</td> 
+          <td align="left" colspan="1" rowspan="1">Mean</td> 
+          <td align="left" colspan="1" rowspan="1">Mean of the probability distribution of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Variance</td> 
+          <td align="left" colspan="1" rowspan="1">Squared deviation of the probability distribution of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Skewness</td> 
+          <td align="left" colspan="1" rowspan="1">Asymmetry of the probability distribution of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Kurtosis</td> 
+          <td align="left" colspan="1" rowspan="1">Flattening of the probability distribution of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Median</td> 
+          <td align="left" colspan="1" rowspan="1">Median of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Mean Absolute deviation</td> 
+          <td align="left" colspan="1" rowspan="1">Average deviation from the Mean</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Minimum</td> 
+          <td align="left" colspan="1" rowspan="1">Minimum value of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Maximum</td> 
+          <td align="left" colspan="1" rowspan="1">Maximum value of the benthic waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Area Under Curve</td> 
+          <td align="left" colspan="1" rowspan="1">Integration of the tabulated waveform on the closed benthic interval</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts<sup>2</sup></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Intensity Range</td> 
+          <td align="left" colspan="1" rowspan="1">Intensity Difference between the maximum and the minimum values of the benthic waveform</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Time Range</td> 
+          <td align="left" colspan="1" rowspan="1">Time Difference between the maximum and the minimum values of the benthic waveform</td> 
+          <td align="left" colspan="1" rowspan="1">Nano-second</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Intensity Shannon</td> 
+          <td align="left" colspan="1" rowspan="1">Shannon diversity index applied to benthic waveform intensity deciles</td> 
+          <td align="left" colspan="1" rowspan="1">[0–1]</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Transition Waveform</td> 
+          <td align="left" colspan="1" rowspan="1">Mean</td> 
+          <td align="left" colspan="1" rowspan="1">Mean of the probability distribution of the water column-end/benthic-start waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Variance</td> 
+          <td align="left" colspan="1" rowspan="1">Squared deviation of the probability distribution of the water column-end/benthic-start waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Skewness</td> 
+          <td align="left" colspan="1" rowspan="1">Asymmetry of the probability distribution of the water column-end/benthic-start waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Kurtosis</td> 
+          <td align="left" colspan="1" rowspan="1">Flattening of the probability distribution of the water column-end/benthic-start waveform intensity</td> 
+          <td align="left" colspan="1" rowspan="1">Photo counts</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+     </table-wrap> 
+    </sec> 
+    <sec id="s2h"> 
+     <title>Seafloor nature</title> 
+     <p>The seafloor nature may be deemed as habitat type in this study's context. This nominal environmental predictor has long been linked to macrobenthic assemblages 
+      <xref ref-type="bibr" rid="pone.0021265-Peterson1">
+       [30]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Thorson1">
+       [31]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Wei1">
+       [32]
+      </xref>. The bathymetric LiDAR has recently been used to discriminate benthic habitats through waveform-retrieved statistical parameters from the benthic part 
+      <xref ref-type="bibr" rid="pone.0021265-Collin1">
+       [20]
+      </xref>. Briefly, the designed methodology consisted of retrieving the benthic waveform, computing 12 statistics, non-linearly regressing them on depth, keeping the first Principal Components (PC) and classifying them (detailed in 
+      <xref ref-type="bibr" rid="pone.0021265-Collin1">
+       [20]
+      </xref>). The same authors then added the quantiles of the benthic waveform and tested the enhanced LiDAR-derived dataset as a surrogate for the benthic type 
+      <xref ref-type="bibr" rid="pone.0021265-Collin2">
+       [22]
+      </xref>. We proposed here to refine the methodology in synthesizing the deciles' information, 10 intensity-related bands, into a band corresponding to the Shannon diversity index.</p> 
+     <p>A greater diversity of deciles within the benthic waveform returned a high 
+      <italic>
+       H'dec
+      </italic> value. In addition to the 
+      <italic>
+       H'dec
+      </italic> variable, other descriptive statistical variables were computed - namely mean, variance, skewness, kurtosis, median, mean absolute deviation, area under curve, maximum, minimum, time and intensity ranges between 0% and 100% of the benthic waveform, as well as mean, variance, skewness, kurtosis, quantifying the curve stretching from the end of the water column to the start of the benthic signal. The dataset, composed of 16 variables and 2548536 soundings was then constrained by the methodology designed by Collin et al. 
+      <xref ref-type="bibr" rid="pone.0021265-Collin1">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Collin2">
+       [22]
+      </xref>. A 2 m×2 m seafloor map was achieved using a supervised classification, performed by the Support Vector Machine (SVM). Given that LiDAR soundings were accurately located to within 2 m, no post-classification resampling was proceeded. Accuracy assessment of the seafloor map was conducted based on a confusion matrix confronting the resulting map, derived from training polygons (2/3 ground-truth pixels), and validation polygons (1/3 ground-truth pixels).</p> 
+    </sec> 
+    <sec id="s2i"> 
+     <title>Seafloor diversity</title> 
+     <p>In addition to the seafloor categorization, the seafloor β-diversity was calculated using special codes written in IDL 6.2 
+      <xref ref-type="bibr" rid="pone.0021265-Research1">
+       [28]
+      </xref>. Applied to the thematic seafloor map (raster grid of pixels), two algorithms returned the composition of seafloor types, in the form of metrics, around one pixel within a kernel of a given radius.</p> 
+     <p>The Bray-Curtis dissimilarity 
+      <xref ref-type="bibr" rid="pone.0021265-Mumby1">
+       [33]
+      </xref> value reflected the dissimilarity between the species compositions of two locations. A score near 0 was obtained between similar regions, while a maximum score of 100 described two entirely different locations. The Pielou evenness index 
+      <xref ref-type="bibr" rid="pone.0021265-Purkis1">
+       [7]
+      </xref> was comprised into 0-1 boundaries, where 0 meant a single substratum type covering the kernel, and 1 referred to an equal proportion of all substratum types within the kernel.</p> 
+    </sec> 
+    <sec id="s2j"> 
+     <title>Machine learners</title> 
+     <p>Habitat suitability and species distribution predictions require reliable and robust modelling techniques. Because of the widespread variety of interactions between species individuals with their biotic and abiotic environment, it is well admitted that traditional statistical models mostly provide relationships between the contextual realized niche of a species rather than the fundamental one 
+      <xref ref-type="bibr" rid="pone.0021265-Guisan1">
+       [3]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Austin3">
+       [34]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Malanson1">
+       [35]
+      </xref>. However, recent research advancements in statistics, called machine learning, enable to overcome overly simplistic species-habitat modelling by automatically recognizing complex patterns based upon improvements and in making decisions based on these improvements 
+      <xref ref-type="bibr" rid="pone.0021265-Mitchell1">
+       [36]
+      </xref>. In addition to being clearer in terms of ecological interpretation (decision rules), supervised learners can elucidate very complex underlying relationships even though the mathematical form of the dependencies are unknown. Thus, their systematic superiority of performance over linear models is even generalized 
+      <xref ref-type="bibr" rid="pone.0021265-Elith1">
+       [10]
+      </xref>. Model performance, however, has commonly been assessed by a single n-class combination, which might lead to questionable outputs. While developing a series of seven statistical models, such as Naïve Bayes, Regression Tree, Classification Tree, C 4.5, Random Forest, Support Vector Machine, and CN2 learners, we analyzed their performance against the number of categories (or classes) within each of the eight biotic responses (
+      <xref ref-type="fig" rid="pone-0021265-g003">
+       Figure 3
+      </xref>).</p> 
+     <fig id="pone-0021265-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Workflow summarizing the statistical analysis.</title> 
+      <p>Blue tabs indicated initial datasets and the discretization procedure; orange tabs highlighted machine learners used; green tab represented the models' evaluators and red tabs represented analytical evaluators.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>The Naïve Bayes is a simple probabilistic classifier based on applying Bayes' theorem with strong independence assumptions. Relative frequency was the method used for estimating prior class probabilities from the data, and the classification threshold was fixed at 0.5.</p> 
+     <p>Decision trees are constituted of leaves representing predicted outcomes and branches representing conjunctions of features that lead to those outcomes 
+      <xref ref-type="bibr" rid="pone.0021265-Breiman1">
+       [37]
+      </xref>. The Regression Tree gives a numeric (e.g., real number) value as the output, and is built by using a data-analysis method that most effectively and recursively partitions data into sets each of which are simply modeled using regression methods. Settings specified to the regressor were the binarization, i.e., the splitting of values within multivalued variables into two groups in the particular node, the pruning during the induction, i.e., prohibiting the splitting with less samples than 10, and finally, the pruning after the induction with 5-estimate of error. Unlike Tree Regression, leaves of Classification Tree are composed of classes (categorical values) to which data belong. However, settings assigned to Classification Tree were rigorously similar to those of Regression Tree, with the addition of a variable selection criterion based upon the information gain (difference in entropy) as well as a recursive merge of leaves with same majority class within the post-pruning. Overfitting of decision trees can thus be avoided by halting tree growth when no more significant information can be gained. The originality of the C 4.5 algorithm relies on the gain ratio (variable selection criterion) that results from choosing the variable with the highest gain ratio for splitting the data and making the decision 
+      <xref ref-type="bibr" rid="pone.0021265-Quinlan1">
+       [38]
+      </xref>. The pre and post-prunings were defined by 10 samples minimum for splitting and a confidence level of 25, respectively. Random Forest is a classifier that builds a set of classification trees 
+      <xref ref-type="bibr" rid="pone.0021265-Breiman1">
+       [37]
+      </xref>. Each tree growth is developed from a bootstrap sample from data, and an arbitrary (or randomly) subset of variables (n = 6, i.e., square-root of the number of predictors) from which the best variable regarding splitting is adopted. The classification is founded on the majority vote from individually developed tree learners in the forest (constituted, here, of 10 trees). Although Brieman 
+      <xref ref-type="bibr" rid="pone.0021265-Breiman1">
+       [37]
+      </xref> advocated letting trees grow without any pre-pruning, we set at 10 the minimum number of samples within a node before splitting, for the sake of unequivocal comparisons. The Support Vector Machine classifier constructs a separating hyperplane or set of hyperplanes in the variable-dimensioned space which has the largest distance to the nearest samples of different classes. In order to create non-linear classifiers, we chose a Radial Basis Function kernel that efficiently (less complex and fewer numerical difficulties than a polynomial kernel) transforms variable space to a new feature space supporting the margin-maximized hyperplane 
+      <xref ref-type="bibr" rid="pone.0021265-Hsu1">
+       [39]
+      </xref>. Furthermore, even if it slowed down the algorithm, the dataset was normalized for better classification performance. The CN2 classifier produces an ordered list of if-then rules from data. Rules induced by CN2 each have the form “if 
+      <italic>
+       complex
+      </italic> then predict 
+      <italic>
+       class
+      </italic>”, where 
+      <italic>
+       complex
+      </italic> is the conjunction of variable tests 
+      <xref ref-type="bibr" rid="pone.0021265-Clark1">
+       [40]
+      </xref>. The iteratively-searched complex was optimally both predictive and reliable according to Laplace's evaluation function 
+      <xref ref-type="bibr" rid="pone.0021265-Demar1">
+       [41]
+      </xref>. Carrying out a pre-pruned general-to-specific search, we set two parameters of Likelihood Ratio Statistics, namely Alpha ( = 0.05) and Stopping Alpha ( = 0.2). Alpha determined required significance of a rule when compared to the default rule, and Stopping Alpha verified whether the last specialization of the rule was significant enough. The best rules, whose number was set at 5, were, in each step, further specialized, while other rules were discarded. Finally, the algorithm was implemented so that all covered samples were removed and learning on remaining samples was continued (i.e., exclusive covering).</p> 
+    </sec> 
+    <sec id="s2k"> 
+     <title>Spatial autocorrelation</title> 
+     <p>Spatial autocorrelations of the selected diversity response (initial and predicted) were evaluated using the univariate Moran's I. The Moran's I looks for an overall pattern between the proximity and similarity of samples, in comparing the differences between neighboring samples and the mean to provide a measure of local homogeneity. This index indicates high positive and negative spatial autocorrelation when tending to 1 and −1, respectively, while it reveals that data are spatially uncorrelated when near 0. Moran's I was computed using the open-source GeoDa 0.9.5 software intended for exploratory spatial data analysis 
+      <xref ref-type="bibr" rid="pone.0021265-Anselin1">
+       [42]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2l"> 
+     <title>Evaluation of learners' accuracy</title> 
+     <p>Predictions of the 8 biotic responses stemming from the 7 learners were evaluated by means of a 34%-random test dataset (n = 100), as well as 4 performance scores. We chose a high dataset size (relatively to the training dataset) in order to avoid overestimated performance measures, as smaller size, cross-validation or leave-one-out methods would run. The Classification Accuracy (CA) of a learner is the ratio of the number of samples correctly classified (true positives + true negatives) divided by the total number of sample cases. As a summary statistic, the Area Under receiver-operating characteristics Curve (AUC) was equal to the probability that a learner ranked a randomly-chosen positive sample higher than a randomly-chosen negative one. A high-quality test had an AUC approaching 1. The Information Score (IS), i.e., information-based evaluation criterion, was the average amount of information per classified sample, as defined by Kononenko and Bratko 
+      <xref ref-type="bibr" rid="pone.0021265-Kononenko1">
+       [43]
+      </xref>. It excluded the influence of prior probabilities (which might enable a completely uninformed learner to trivially achieve high classification accuracy), and dealt with various types of imperfect or probabilistic answers. The IS's upper limit equaled to the entropy (best) of the class and the lower limit is 0 (worse). Brier score measured the accuracy of probability assessments, which measured the average deviation between the predicted probabilities of events and the actual events. The Brier score was a proper score function (0: perfect prediction, and 1: completely false prediction) that measured the accuracy of a set of probability assessments, which computed the average squared deviation between predicted probabilities of events and the actual events 
+      <xref ref-type="bibr" rid="pone.0021265-Brier1">
+       [44]
+      </xref>. In addition to calculations of those performance measures, we tested the evolution of the learners' predictions in respect to the number of responses' class. Based upon the equal-width discretization process of the response variable 
+      <xref ref-type="bibr" rid="pone.0021265-Demar1">
+       [41]
+      </xref>, performance accuracy was evaluated for 2 to 10 classes with a 1-class step.</p> 
+     <p>The confusion matrix and the Receiver Operating Characteristics (ROC) were exclusively employed for the best learner with the best number of class, and allowed to support finer assessments of performance.</p> 
+     <p>The statistical distributions for each biotic response was analyzed with the software JMP 8 
+      <xref ref-type="bibr" rid="pone.0021265-SAS1">
+       [45]
+      </xref>, and models were developed using the open-source Orange software 
+      <xref ref-type="bibr" rid="pone.0021265-Demar1">
+       [41]
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Biological responses</title> 
+     <p>The eight biotic indices showed both uni- and multimodal Gaussian distributions (
+      <xref ref-type="fig" rid="pone-0021265-g004">
+       Figure 4
+      </xref> and 
+      <xref ref-type="table" rid="pone-0021265-t002">
+       Table 2
+      </xref>). As a categorical index, Species Density (d) displayed the most well-defined multimodal distribution, i.e., a fourfold one. This index was significantly correlated with Shannon index (H'), 0.8322 with p&lt;0.05, as well as Log(Shannon+1), i.e., Log(H'+1), 0.8262 with p&lt;0.05. The abundance appraisal, Overall Abundance (A), might be depicted as tri- or bimodal distributions. The distribution of its Log transformation (Log(A)) was much closer to a single leptokurtic mode with negative skew. While A was significantly correlated with Simpson index (D), 0.913 with p&lt;0.05, and Log(Simpson), or Log(D), 0.9238 with p&lt;0.05, Log(A) was significantly correlated with Log(D), 0.9799 with p&lt;0.05. The Simpson index (D) distribution matched a positive-skewed leptokurtic unimode, and the distribution of its Log transformation (Log(D)) exhibited a negative-skewed leptokurtic bimode. The histogram of Shannon index (H') revealed a positive-skewed platykurtic bimode. While the pattern of Log(H'+1) distribution basically matched that of H', lowered variance and skewness characterized it. Both latter distributions were significantly correlated with modified Pielou Evenness (mJ'), 0.8772 with p&lt;0.05 and 0.8875 with p&lt;0.05, respectively. As for mJ', its distribution followed a strongly negative-skewed platykurtic unimode.</p> 
+     <fig id="pone-0021265-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Distributions of the eight biotic indices in the form of shadowgrams statistically analyzed by quantile box plots, and augmented by the photograph of the station corresponding to the maximum of the related index.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g004" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0021265-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Descriptive statistics of the eight biotic indices.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0021265-t002-2" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.t002" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Biotic indices</td> 
+          <td align="left" colspan="1" rowspan="1">Mean</td> 
+          <td align="left" colspan="1" rowspan="1">Variance</td> 
+          <td align="left" colspan="1" rowspan="1">Skewness</td> 
+          <td align="left" colspan="1" rowspan="1">Kurtosis</td> 
+          <td align="left" colspan="1" rowspan="1">Coefficient of Variation</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Species Density (d)</td> 
+          <td align="left" colspan="1" rowspan="1">11.83</td> 
+          <td align="left" colspan="1" rowspan="1">25.68</td> 
+          <td align="left" colspan="1" rowspan="1">0.58</td> 
+          <td align="left" colspan="1" rowspan="1">−0.3</td> 
+          <td align="left" colspan="1" rowspan="1">42.83</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Overall Abundance (A)</td> 
+          <td align="left" colspan="1" rowspan="1">274.83</td> 
+          <td align="left" colspan="1" rowspan="1">29594.71</td> 
+          <td align="left" colspan="1" rowspan="1">0.36</td> 
+          <td align="left" colspan="1" rowspan="1">−0.98</td> 
+          <td align="left" colspan="1" rowspan="1">62.59</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Log(Overall Abundance)</td> 
+          <td align="left" colspan="1" rowspan="1">2.31</td> 
+          <td align="left" colspan="1" rowspan="1">0.15</td> 
+          <td align="left" colspan="1" rowspan="1">−1.14</td> 
+          <td align="left" colspan="1" rowspan="1">1.17</td> 
+          <td align="left" colspan="1" rowspan="1">16.6</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Simspon (D)</td> 
+          <td align="left" colspan="1" rowspan="1">0.21</td> 
+          <td align="left" colspan="1" rowspan="1">0.07</td> 
+          <td align="left" colspan="1" rowspan="1">1.35</td> 
+          <td align="left" colspan="1" rowspan="1">0.68</td> 
+          <td align="left" colspan="1" rowspan="1">121.87</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Log(Simpson)</td> 
+          <td align="left" colspan="1" rowspan="1">−1.17</td> 
+          <td align="left" colspan="1" rowspan="1">0.59</td> 
+          <td align="left" colspan="1" rowspan="1">−0.79</td> 
+          <td align="left" colspan="1" rowspan="1">0.58</td> 
+          <td align="left" colspan="1" rowspan="1">−68.98</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Shannon (H')</td> 
+          <td align="left" colspan="1" rowspan="1">0.19</td> 
+          <td align="left" colspan="1" rowspan="1">0.009</td> 
+          <td align="left" colspan="1" rowspan="1">0.17</td> 
+          <td align="left" colspan="1" rowspan="1">−0.8</td> 
+          <td align="left" colspan="1" rowspan="1">51.48</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Log(Shannon +1)</td> 
+          <td align="left" colspan="1" rowspan="1">0.07</td> 
+          <td align="left" colspan="1" rowspan="1">0.001</td> 
+          <td align="left" colspan="1" rowspan="1">0.028</td> 
+          <td align="left" colspan="1" rowspan="1">−0.86</td> 
+          <td align="left" colspan="1" rowspan="1">48.1</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Modified Pielou Evenness (mJ')</td> 
+          <td align="left" colspan="1" rowspan="1">0.41</td> 
+          <td align="left" colspan="1" rowspan="1">0.02</td> 
+          <td align="left" colspan="1" rowspan="1">−0.63</td> 
+          <td align="left" colspan="1" rowspan="1">−0.17</td> 
+          <td align="left" colspan="1" rowspan="1">36</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+     </table-wrap> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Learners and evaluators</title> 
+     <p>Along the increasing gradient of the number of classes, the four evaluators basically indicated a performance reduction for most of the learners (
+      <xref ref-type="fig" rid="pone-0021265-g005">
+       Figure 5
+      </xref>). The best performance was therefore attained when the discretization was only binary (i.e., 2 classes), except for the evaluator Information Score (IS). The maximum of the Classification Accuracy (CA) met 0.83 with both the Support Vector Machine (SVM) and C4.5 while classifying Species Diversity (d) and Log(A), respectively, into 2 classes. The Area Under receiver-operating characteristics Curve (AUC) also topped with 2 classes at 0.78 resulting from the d classification by Naïve Bayes (NB). The best performance of Brier score (Bs), i.e., 0.28, also emerged with 2 classes stemming from the d classification by SVM. As for IS, the maximum, i.e., 0.56, was met with 7 classes resulting from the C4.5-clustered A. For all learners, the decrease of the CA performance across the number of classes strongly matched a number of classes-inversed model (
+      <xref ref-type="table" rid="pone-0021265-t003">
+       Table 3
+      </xref>). Although the best model depicting the decline of the AUC and the IS as a function of the number of classes was also an inverse model, the scores were lowly significant and even insignificant. Since a good prediction amounts to zero-neighboured Brier index, the loss of performance across the number of classes was satisfactorily modeled by a growing inverse adjustment, whose R2adj. reached sizeable values. Since binary classifications oversimplified the current ecological modelling, we excluded it from the selection of the best algorithm. Hence newly-highlighted maxima of CA, AUC and Bs were systematically found with the Random Forest (RF) learner related to a tercile discretization, and D (0.69), A (0.73) and D (0.49). The classification involving D with the RF and three classes have hence been chosen according to both CA and Bs indices.</p> 
+     <fig id="pone-0021265-g005" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g005
+      </object-id> 
+      <label>Figure 5</label>  
+      <title>Three-dimensional scatterplots of the eight biotic indices representing the values taken by four evaluators in respect to the seven machine learners and to nine numbers of classes.</title> 
+      <p>The four coloured envelopes correspond to the four nonparametric density contours (each one associated with one evaluator group), drawing a 50% kernel contour shell around the points.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g005" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0021265-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>R&lt;sup&gt;2&lt;/sup&gt; adjusted of the model describing the evolution of the eight biotic indices against the inversed number of classes as a function of the four evaluators.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0021265-t003-3" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.t003" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Biotic indices</td> 
+          <td align="left" colspan="1" rowspan="1">Classification Accuracy</td> 
+          <td align="left" colspan="1" rowspan="1">Area Under Curve</td> 
+          <td align="left" colspan="1" rowspan="1">Information Score</td> 
+          <td align="left" colspan="1" rowspan="1">Brier score</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Species Density (d)</td> 
+          <td align="left" colspan="1" rowspan="1">0.44</td> 
+          <td align="left" colspan="1" rowspan="1">0.12</td> 
+          <td align="left" colspan="1" rowspan="1">0.16</td> 
+          <td align="left" colspan="1" rowspan="1">0.28</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Overall Abundance (A)</td> 
+          <td align="left" colspan="1" rowspan="1">0.85</td> 
+          <td align="left" colspan="1" rowspan="1">0.05</td> 
+          <td align="left" colspan="1" rowspan="1">0.09</td> 
+          <td align="left" colspan="1" rowspan="1">0.46</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Log(Overall Abundance)</td> 
+          <td align="left" colspan="1" rowspan="1">0.83</td> 
+          <td align="left" colspan="1" rowspan="1">0.15</td> 
+          <td align="left" colspan="1" rowspan="1">0.27</td> 
+          <td align="left" colspan="1" rowspan="1">0.65</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Simspon (D)</td> 
+          <td align="left" colspan="1" rowspan="1">0.23</td> 
+          <td align="left" colspan="1" rowspan="1">−0.02</td> 
+          <td align="left" colspan="1" rowspan="1">0.19</td> 
+          <td align="left" colspan="1" rowspan="1">−0.51</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Log(Simpson)</td> 
+          <td align="left" colspan="1" rowspan="1">0.88</td> 
+          <td align="left" colspan="1" rowspan="1">0.23</td> 
+          <td align="left" colspan="1" rowspan="1">0.17</td> 
+          <td align="left" colspan="1" rowspan="1">0.63</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Shannon (H’)</td> 
+          <td align="left" colspan="1" rowspan="1">0.88</td> 
+          <td align="left" colspan="1" rowspan="1">0.15</td> 
+          <td align="left" colspan="1" rowspan="1">−0.000045</td> 
+          <td align="left" colspan="1" rowspan="1">0.36</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Log(Shannon +1)</td> 
+          <td align="left" colspan="1" rowspan="1">0.91</td> 
+          <td align="left" colspan="1" rowspan="1">0.08</td> 
+          <td align="left" colspan="1" rowspan="1">0.006</td> 
+          <td align="left" colspan="1" rowspan="1">0.35</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Modified Pielou Evenness (mJ')</td> 
+          <td align="left" colspan="1" rowspan="1">0.87</td> 
+          <td align="left" colspan="1" rowspan="1">−0.009</td> 
+          <td align="left" colspan="1" rowspan="1">0.48</td> 
+          <td align="left" colspan="1" rowspan="1">0.43</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+     </table-wrap> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Selected model</title> 
+     <p>Neither the initial Simpson diversity dataset nor modelled Simpson values displayed significant spatial autocorrelation (Moran's I = 0.13 and 0.36, respectively). Those results assumed that the contribution of the spatial autocorrelation was sufficiently low to not bias the predictions. The selected Random Forest Tree consisted of 7 nodes with 4 leaves including bathymetry, time range and skewness predictors (
+      <xref ref-type="fig" rid="pone-0021265-g006">
+       Figure 6
+      </xref>); two latter ones were derived from LiDAR benthic waveform (
+      <xref ref-type="fig" rid="pone-0021265-g002">
+       Figure 2
+      </xref>). The contributions of these 3 splitting variables explained 62.83% of the total variation in epi-macrobenthic Simpson diversity. The first split was based upon mean bathymetry, and the learner computed a threshold value of 6.25 m depth to discriminate deeper habitats from habitats closer to the shoreline. On one side, deeper habitats were divided into high and medium Simpson diversity (i.e., &gt;0.6667 and [0.3334, 0.6667), respectively) according to the time range split evaluated at 3.83 ns. On the other side, shallower habitats were distinguished between medium and low Simpson diversity ([0.3334, 0.6667) and &lt;0.3334, respectively) supporting from the splitting of the skewness variable optimized at −3.44 ns (
+      <xref ref-type="fig" rid="pone-0021265-g006">
+       Figure 6
+      </xref>).</p> 
+     <fig id="pone-0021265-g006" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g006
+      </object-id> 
+      <label>Figure 6</label>  
+      <title>Random Forest tree model for Simpson index (D) discretized into three classes across a neritic benthoscape located north of the Baie des Chaleurs (Québec, Canada).</title> 
+      <p>Within each node are mentioned the label of the class (1st line), the probability of belonging to the target class (2nd line) and the splitting variable. Above the node is indicated the threshold value related to the splitting variable inherent to the previous node. Pie plots associated with each node show the number of training samples belonging to the &lt;0.3334 (green), [0.3334, 0.6667) (yellow), and &gt;0.6667 (red) classes.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g006" xlink:type="simple" /> 
+     </fig> 
+     <p>Despite the best overall performance among learners, the rate of good prediction depended upon the target class, as both confusion matrix and ROC curves demonstrated it (
+      <xref ref-type="fig" rid="pone-0021265-g007">
+       Figure 7
+      </xref>). The low Simpson cluster (&lt;0.3339) was highly satisfactorily classified (78.3% and 88.5% of predicted and true proportions, respectively) by RF as both the upper left position of the red ROC curve, relatively to other coloured curves, and the optimal threshold given 500/500 costs, indicated it. The confusion matrix summarized a moderate performance (50% and 36% of predicted and true proportions, respectively) concerning the medium Simpson class [0.3339, 0.6667). However, the RF-related envelope still encompassed the tangential point of the iso-performance line, and outperformed the other learners from a sensitivity neighbouring 0.58 to 1. Note that Regression, Classification and C4.5 classifiers displayed negative predictive power. Finally, even if the confusion matrix showed moderately-scored classification (46.1% and 42.8% of predicted and true proportions, respectively) into the high (&gt;0.6667) Simpson class, the RF ROC curve revealed a non-random classification (above the diagonal), as well as best-emphasized convexity (distance regarding the diagonal) together with Naïve Bayes and Regression Tree learners.</p> 
+     <fig id="pone-0021265-g007" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g007
+      </object-id> 
+      <label>Figure 7</label>  
+      <title>Receiver Operating Characteristics curves of the three final Simpson index (D) classes.</title> 
+      <p>The diagonal line (black thin) represents the behaviour of a random classifier. The iso-performance line (black bold) embodies all the points subject to trade-off between true positive (benefits) and false positive (costs), in the ROC space. The confusion matrix is depicted on the bottom right corner.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g007" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3d"> 
+     <title>Relationships between Simpson index and best predictors</title> 
+     <p>Even if values are low, Simpson index displayed significant correlations with bathymetry (Pearson correlation r = 0.1194, p = 0.0394*), time range (Spearman correlation ρ = −0.1771, p = 0.0021*), and skewness (Pearson correlation r = −0.0794, p = 0.1718; and Hoeffding correlation DH = 0.0210, p≤0.0001*). Simpson index therefore decreased with the vicinity of coastline, benthic waveform spreading as well as benthic waveform skewed to the right (visual support from 
+      <xref ref-type="fig" rid="pone-0021265-g002">
+       Figure 2
+      </xref>). The Simpson index and the three predictors were averaged per 20 stations in order to determine trends of the Simpson diversity across the three gradients (
+      <xref ref-type="fig" rid="pone-0021265-g008">
+       Figure 8
+      </xref>). Highest values of bathymetry, time range and skewness (3.86 m, 4.39 ns and 0.92 ns, respectively) were associated with the lowest value of Simpson (0.006). Both time range and skewness gradients exhibited a constant decrease against Simpson index classes, as witnessed by their trendlines in the form of a natural logarithmic regression (R2 = 0.62 and R2 = 0.48, respectively). However, the bathymetry did not follow a clear decline against Simpson index, but fitting a 2-degree polynomial model properly matched their relationships (R2 = 0.56). The “synclinal” model relied upon deep bottoms linked with both the lowest and highest Simpson classes, as well as shallow bottoms related to medium Simpson classes.</p> 
+     <fig id="pone-0021265-g008" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g008
+      </object-id> 
+      <label>Figure 8</label>  
+      <title>20 stations-averaged Simpson index in respect to the three 20 stations-averaged predictors highlighted by the Random Forest learner: bathymetry (light blue), time range (light green) and skewness (light red).</title> 
+      <p>Trendlines correspond to 3-degree polynomial fitting models and R2 stand for the coefficient of determination.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g008" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3e"> 
+     <title>Predictive map</title> 
+     <p>The modelled spatial distribution of epi-macrobenthic Simpson index highlighted both a diversified elongated offshore band to the west of the survey, scattered patches to the south, and a taxa-homogeneous area landward (
+      <xref ref-type="fig" rid="pone-0021265-g009">
+       Figure 9
+      </xref>). The Simpson pattern of distribution was strongly influenced by bathymetry, as corroborated by its hierarchical status within the Random Forest splitting. Shallower-mapped pixels mostly appeared as belonging to the low class, except scarce and disseminated soundings. Otherwise, deeper-mapped pixels benefited much more from sample-balanced splitting, regarding the time range. While the high-labeled space units (i.e., low time range) were situated seaward, the medium-classified pixels (i.e., high time range) chiefly resulted over contours squeezed between low and high classes.</p> 
+     <fig id="pone-0021265-g009" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g009
+      </object-id> 
+      <label>Figure 9</label>  
+      <title>Map predicted epi-macrobenthic Simspon index (D) model for a neritic benthoscape of north of the Baie des Chaleurs (Québec, Canada) derived from the selected Random Forest Tree.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g009" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>Explicitly comparing competitive machine learners enabled to select the Random Forest algorithm (Classification Accuracy: 0.69) and to capture an efficient combination of predictors of epi-macrobenthic Simpson diversity, despite their low Pearson's correlations. Through only three variables derived from bathymetric LiDAR waveform (bathymetry, time range and skewness), efficient predictive mapping of the biotic index was fully driven across turbid nearshore ecosystems.</p> 
+    <sec id="s4a"> 
+     <title>Revealing the depth and the structure of epi-macrobenthos habitat</title> 
+     <p>The positive correlation linking Simpson index and bathymetry could be interpreted as a consequence of the hydrodynamic influence. Parallel to the coastline, a 50–100 m slice of sandy-gravely area was well nourished by meso- and microscale sedimentary dynamics (regional alongshore current and closeness to both an estuary and a tidal marsh), hindering an increase in the bottom structural complexity, correlated to the available amount of microhabitats. A little more seaward, substrata seemingly remained equivalent as in shallower areas regarding their niche-diversified properties, but actually lay on bedrock 
+      <xref ref-type="bibr" rid="pone.0021265-Long1">
+       [23]
+      </xref>, which provided an augmented array of epi-macrobenthic refuges. Such added information stemmed from an acoustic survey, whose backscatter released meaningful products regarding the hardness/smoothness of the seabed. The evaluation of such parameters with LiDAR is an ongoing research, but has already been demonstrated at fine-scale (surface density of sand ripple correlated with a 532 nm LASER, 
+      <xref ref-type="bibr" rid="pone.0021265-Long2">
+       [46]
+      </xref>). Many biological and ecological processes within temperate coastal oceanic provinces are recognized to be driven by light, temperature, nutrients and currents, all of which are influenced by bathymetry 
+      <xref ref-type="bibr" rid="pone.0021265-Pittman1">
+       [6]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Galparsoro1">
+       [12]
+      </xref>. Although water depth did not directly act on benthic communities' structure and dynamics, bathymetry exerted an important control, or at least was a reliable proxy for proximal variables of Simpson diversity in shallow marine systems, considering the level of surrogacy inherent to these processes. Based upon the recurrent explanatory power of bathymetry among the wide range of environmental predictors available, the sea level rising could be assumed to induce landward shifts of controlling gradients, thus dramatic changes with which coastal and marine epi-macrobenthic organisms will have to cope.</p> 
+     <p>Otherwise, the negative relationships between Simpson index and skewness showed that the shape of the LiDAR benthic waveform could measure the biodiversity of such a shallow environment. The significant natural logarithmic fitting indicated that a low Simpson index matched a right-skewed benthic waveform distribution, while a high Simpson index corresponded to a left-skewed benthic waveform distribution. The pseudo-angle that could be drawn between the end part of the water column and the beginning part of the benthic return (cf. 
+      <xref ref-type="fig" rid="pone-0021265-g002">
+       Figure 2
+      </xref>) tended to be acute when photons related to the beginning of the benthic return were reflected evenly and within a relative short temporal window. This helped reveal the flatness of the benthic cover, hence the low Simpson diversity (
+      <xref ref-type="fig" rid="pone-0021265-g010">
+       Figure 10a
+      </xref>). Conversely, the less acute the pseudo-angle was, the more widespread the distribution of the beginning of the benthic return was. This result was highlighted as a more complex benthic cover, providing a larger range of ecological niches, hence the high Simpson diversity (
+      <xref ref-type="fig" rid="pone-0021265-g010">
+       Figure 10b
+      </xref>). Collin et al. 
+      <xref ref-type="bibr" rid="pone.0021265-Collin3">
+       [26]
+      </xref> sought for assessing a bespoke “Habitat Rugosity” by means of LiDAR abilities and found a negative correlation (Pearson  = −0.17) between the designed index and the skewness stemmed from the LiDAR benthic return. This corroborates with our last result and supports the assumption that left/negative-skewed benthic return witnessed the vertical structural complexity of the benthic cover.</p> 
+     <fig id="pone-0021265-g010" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0021265.g010
+      </object-id> 
+      <label>Figure 10</label>  
+      <title>Hypothetical scenario explaining the evolution of the shape of the benthic waveform against the increase of Simpson diversity over seabed.</title>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0021265.g010" xlink:type="simple" /> 
+     </fig> 
+     <p>The negative relationship between Simpson index and time range implied that a Simpson-diversified benthic cover was related to a shortening of the benthic return distribution. Taking into account the link between Simpson index and skewness, the latter result could seem paradoxical as it is expected to see a temporal increase of the benthic return. However, the following scenario could suit the change of the benthic return against Simpson index:</p> 
+     <p>a. low Simpson diversity over the seabed  = &gt; photons were reflected in a relative short period due to the flatness of the seabed (i.e., acute angle between water column and benthic return), elongated tail of the waveform due to significant noise (positive-skewed benthic return)</p> 
+     <p>b. increase of the Simpson diversity over the seabed  = &gt; photons were reflected from and/or absorbed by an increasing suite of horizontal targets-strata inherent to surfaces of the structurally-complex seabed (i.e., less and less acute angle between water column and benthic return), shortening of the tail of the waveform due to the increasing reflection and absorption of photons before the peak of the benthic return (null- and negative-skewed benthic return)</p> 
+     <p>c. high Simpson diversity over the seabed  = &gt; photons were reflected from and/or absorbed by a wide range of horizontal targets-strata inherent to surfaces of the structurally-complex seabed (i.e., right or obtuse angle between water column and benthic return), absence of the tail of the waveform due to complete reflection and absorption of photons before the peak of the benthic return (negative-skewed benthic return).</p> 
+     <p>The joint increase of the left-skewed benthic return and the Simpson index could be attributed to the increase in surface area of the substratum and the habitat-macrophytobenthos, which provide both an enhanced availability of ecological niches as well as specific microhabitats to demanding marine organisms 
+      <xref ref-type="bibr" rid="pone.0021265-Hewitt1">
+       [47]
+      </xref>. By means of its capabilities to accurately detect seagrass/kelp canopy and stand structure as well as its ability to estimate above-bottom biomass, bathymetric LiDAR is emerging as a powerful tool to rapidly survey benthic diversity over nearshores ranging from the shoreline to threefold-Secchi-depth m. In agreement with well established ecological processes, areas with high epi-macrobenthic diversity were predicted for the most structurally-complex bottoms with high variability of both substrata and benthos, deduced by important left-skewed benthic return. Substratum type and dissimilarity or the bathymetric variability in the seascape were of secondary importance in this study.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Modelling techniques</title> 
+     <p>The Random Forest (RF) algorithm was able to satisfactorily fit relationships between epi-macrobenthic Simpson diversity and the environment. The separation process of the three-dimensional space, constituted by the three predictors, was sufficiently relevant to maximize the volume between the three Simpson classes, while minimizing the volume within each class, so that the other learners were outperformed. The RF highlighted an ecologically-meaningful threshold related to bathymetry. The 6-m isobath indeed embodied a boundary over which an embayment occurred and above which WE currents dominated. The relative protection of the embayment might have facilitated the settlement of an eelgrass (
+      <italic>
+       Z. marina
+      </italic>) meadow and scattered macroalgae (
+      <italic>
+       Chorda tomentosa
+      </italic>), thus the low Simpson index, whilst deeper contours, benefiting from nutrient supply driven by primary currents, might have provided niches for 
+      <italic>
+       Laminaria
+      </italic> spp., thus the high Simpson index spatially-modelled. This analysis testified the adequacy of using such a modelling technique to characterize ecological patterns and model them across significant areas.</p> 
+     <p>As a summary of many decision trees, the RF found itself to be the best learner within the Classification And Regression Tree family, which is recognized to be highly efficient for predictive habitat modelling (see 
+      <xref ref-type="bibr" rid="pone.0021265-Austin2">
+       [4]
+      </xref>). However, a novel CART approach, the Boosted Regression Tree (BRT), has repeatedly demonstrated its power of ecological modelling through terrestrial and marine studies 
+      <xref ref-type="bibr" rid="pone.0021265-Elith1">
+       [10]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Pittman2">
+       [19]
+      </xref>. This machine learning technique grows a suite of regression trees (built from randomly-subset data) which predict the residuals inherent to the previous tree to consistently boost the overall predictive performance 
+      <xref ref-type="bibr" rid="pone.0021265-Friedman1">
+       [48]
+      </xref>. In the absence of this technique in Orange software, we could not have been able to integrate the BRT within comparisons of learners (lack of the evaluators and discretization). However, the Classification Accuracy (2/3 training and 1/3 validation) has been computed, for the sake of heuristics and completeness, with respect to the eight epi-macrobenthic indices using the Gaussian BRT implemented in R 
+      <xref ref-type="bibr" rid="pone.0021265-Ridgeway1">
+       [49]
+      </xref>: d = 0.45, A = 0.61, Log(A) = 0.63, D = 0.65, Log(D) = 0.65, H' = 0.54, Log(H'+1) = 0.56, mJ' = 0.67. The analysis of the best predictive model, i.e., the modified Pielou index, showed that the three best predictors were bathymetry, skewness and kurtosis, whose relative influence equaled 13.27%, 8.35% and 4.85%, respectively. RF and BRT consist of new statistical strategies for predictive habitat modelling which hold great promise to develop marine ecological theory.</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Implications to ecological theory</title> 
+     <p>Albeit often neglected, there is an intimate relationship between ecological theory and method, either acquisition- or statistics-related 
+      <xref ref-type="bibr" rid="pone.0021265-Austin1">
+       [2]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Austin2">
+       [4]
+      </xref>. Biotic responses, investigated in this study, all represented diversity indices aiming at synthesizing the structural composition of benthic communities (e.g., the presence and abundance of benthic species). Modelling the spatial distribution of epi-macrobenthic heterogeneity boiled down to figure out the relationships between patterns of combined species responses against the environment. Niche theory assumes that collective properties, synthesized by Simpson diversity, do not show response patterns along environmental gradients 
+      <xref ref-type="bibr" rid="pone.0021265-Austin2">
+       [4]
+      </xref>, mostly because of differences in species growth forms inducing different response patterns 
+      <xref ref-type="bibr" rid="pone.0021265-Minchin1">
+       [50]
+      </xref>. However, such responses have been demonstrated at broad scale (&gt;1 km) with vegetation communities in respect to indirect gradients 
+      <xref ref-type="bibr" rid="pone.0021265-Austin4">
+       [51]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0021265-Leathwick1">
+       [52]
+      </xref>. The novelty of our results evidenced for emphasizing curvilinear responses of marine communities at fine-scale (1 m) against an indirect gradient. The latter gradient, namely, bathymetry, contained direct (e.g., light) and resource (e.g., nutrient supply correlated with currents) gradients that led to robust predictive models. The curve depicting the relationship between Simpson index and bathymetry indicated that both low and high values of species heterogeneity matched with deeper bottoms in the study area, thus the “syncline-like” curve (
+      <xref ref-type="fig" rid="pone-0021265-g008">
+       Figure 8
+      </xref>). Stronger currents below 6-m depth might have resulted in greater species heterogeneity than that of the embayment. Accounting for LiDAR bottom detection and light absorption by a dense canopy of 
+      <italic>
+       Laminaria
+      </italic> spp., the distribution of species heterogeneity could be assumed to be truncated at the observed upper (i.e., deeper) limits of the environmental predictor (i.e., bathymetry), since presence of 
+      <italic>
+       Laminaria
+      </italic> spp. has been testified over deeper bottoms in this region 
+      <xref ref-type="bibr" rid="pone.0021265-Long1">
+       [23]
+      </xref>. Knowing that species position along an environmental gradient has been shown to shape the response 
+      <xref ref-type="bibr" rid="pone.0021265-Rydgren1">
+       [53]
+      </xref>, the species heterogeneity distribution lying near its upper limits had to be somewhat biased. However, the bathymetric gradient was significantly steep given the difference between low depths of the embayment and deeper bottoms inherent to the seaward current-eroded slope. Being a distal variable encompassing the biodiversity response near its limits and characterized by a significant steep gradient (as advocated by 
+      <xref ref-type="bibr" rid="pone.0021265-Austin2">
+       [4]
+      </xref>), the bathymetry can be considered as a successful predictor to those benthic communities.</p> 
+     <p>The spatial scale at which photographs were acquired played a crucial role in those results. For instance, the species heterogeneity at high depths would have been profoundly reworked (trend to smooth differences) if the acquisition scale has been 10 m. The method of acquisition, besides constraining the scale, filtered out all cryptic and epiphytic macroorganisms. Large and wide thalli of macroalgae have precluded the observation of those organisms (e.g., asteroidea on thalli, echinoidea over seafloor, crustacea in crevices), when the video device projected the volume of algae onto the bottom surface. Both the size and behaviour of biological material strongly conditioned the computed Simpson index.</p> 
+     <p>The exclusive use of LiDAR-derived environmental predictors constituted the main challenge of this modelling study, given the rapid data acquisition. Although the survey of biotic processes suffers from time-efficiency (hence cost-efficiency), it significantly contributes to the spatial patterning of benthic communities, as well as abiotic processes 
+      <xref ref-type="bibr" rid="pone.0021265-Guisan1">
+       [3]
+      </xref>. The optimization of data collecting concerning predation, competition, dispersal, recruitment and anthropogenic pressure needs greater consideration in order to incorporate them into statistical models of communities' distributions and to identify the “directness” of all these factors. The volitional omission of biotic processes into modelling did not entail low performance of the spatial prediction. We can assume that the RF learning process incorporated non-linear interactions between monitored environmental predictors and uncollected biotic processes. RF spatially modelled Simpson index into three discrete classes, impeding any continuous patterns between them. The classification of benthic communities into categorical types strongly fits with the traditional vision adopted by landscape ecologists 
+      <xref ref-type="bibr" rid="pone.0021265-Turner1">
+       [54]
+      </xref>. However, most of the ecological variables can be deemed as fundamentally continuous, at least at the landscape scale. This prompts in handling concepts of communities as biotic-intricate superimpositions of continuous species responses to habitat suitability, instead of considering them as a mosaic of benthic “enclosed fields”. A more transparent practice may be to experimentally outline biotic and abiotic direct predictors, optimize the cost-efficiency of their collection (already optimized for LiDAR-derived geomorphic predictors), and analyze data with machine learners and Generalized Additive Models for Location, Scale and Shape (GAMLSS) 
+      <xref ref-type="bibr" rid="pone.0021265-Rigby1">
+       [55]
+      </xref>, so that results can be readily interpreted from an ecological viewpoint.</p> 
+    </sec> 
+    <sec id="s4d"> 
+     <title>Conclusions</title> 
+     <p>The combination of moderate ground-truth effort (underwater photographs), bathymetric LiDAR and the Random Forest learner allowed to robustly predict the spatial distribution of the Simpson diversity index related to epi-macrobenthic communities over a relatively turbid nearshore area. Bathymetry, skewness and time range were rapidly acquired by airborne LiDAR and had the greatest explanatory power to determine the Simpson diversity response. This species heterogeneity index showed an overall increase in respect to water depth (with a maximum value related to areas inherent to augmented hydrodynamics) and decreased with skewness and time range, which testified the increase of the structural complexity of the benthos/bottom. The degree of species heterogeneity was thereafter linked with the degree of their physical complexity.</p> 
+     <p>This study displayed three major novelties within the realm of marine habitat modelling: predicting marine communities' diversity (rather than individual species), employing information from the bathymetric LiDAR full-waveform (not only the bathymetry and its related by-products), as well as confronting the state-of-the-art machine learners.</p> 
+     <p>This work underpins that fully-exploited bathymetric LiDAR (not only bathymetrically-derived by-products), coupled with a powerful machine learner, is able to rapidly predict habitat characteristics at a spatial resolution relevant to epi-macrobenthos diversity ranging from clear to turbid waters. This method might serve both to nurture marine ecological theory and to manage areas with high species heterogeneity where navigation is hazardous and water clarity opaque to passive optical sensors.</p> 
+    </sec> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>Special thanks to M. Huot for English improvement of the manuscript. This manuscript was greatly improved by the reviews and comments of two anonymous reviewers, whom we deeply thank.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0021265-Myers1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Myers
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mittermeier
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mittermeier
+         </surname>
+         <given-names>
+          CG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          daFonseca
+         </surname>
+         <given-names>
+          GAB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kent
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Biodiversity hotspots for conservation priorities.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        403
+       </volume> 
+       <fpage>
+        853
+       </fpage> 
+       <lpage>
+        858
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Austin1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Austin
+         </surname>
+         <given-names>
+          MP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Species distribution models and ecological theory: A critical assessment and some possible new approaches.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        200
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        19
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Guisan1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Guisan
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zimmermann
+         </surname>
+         <given-names>
+          NE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Predictive habitat distribution models in ecology.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        135
+       </volume> 
+       <fpage>
+        147
+       </fpage> 
+       <lpage>
+        186
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Austin2"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Austin
+         </surname>
+         <given-names>
+          MP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Spatial prediction of species distribution: an interface between ecological theory and statistical modelling.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        157
+       </volume> 
+       <fpage>
+        101
+       </fpage> 
+       <lpage>
+        118
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Harborne1"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Harborne
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mumby
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zychaluk
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hedley
+         </surname>
+         <given-names>
+          JD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Blackwell
+         </surname>
+         <given-names>
+          PG
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Modeling the beta diversity of coral reefs.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        87
+       </volume> 
+       <issue>
+        11
+       </issue> 
+       <fpage>
+        2871
+       </fpage> 
+       <lpage>
+        2881
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Pittman1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pittman
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Christensen
+         </surname>
+         <given-names>
+          JD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Caldow
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Menza
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Monaco
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Predictive mapping of fish species richness across shallow-water seascapes in the Caribbean.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        204
+       </volume> 
+       <fpage>
+        9
+       </fpage> 
+       <lpage>
+        21
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Purkis1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Purkis
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Graham
+         </surname>
+         <given-names>
+          NAJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Riegl
+         </surname>
+         <given-names>
+          BM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Predictability of reef fish diversity and abundance using remote sensing data in Diego Garcia (Chagos Archipelago).
+       </article-title> 
+       <source>Coral reefs 
+       <volume>
+        27
+       </volume> 
+       <fpage>
+        167
+       </fpage> 
+       <lpage>
+        178
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Lvesque1"> 
+      <label>8</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lévesque
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Archambault
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McKindsey
+         </surname>
+         <given-names>
+          CW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vaz
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Archambault
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Predictive benthic habitat suitability model for the Estuary and the northern Gulf of St. Lawrence.
+       </article-title> 
+       <source>Can. Tech. Rep. Fish. Aquat. Sci 
+       <comment>
+        2893 vii +20 pp
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Maxwell1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Maxwell
+         </surname>
+         <given-names>
+          DL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stelzenmüller
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Eastwood
+         </surname>
+         <given-names>
+          PD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rogers
+         </surname>
+         <given-names>
+          SI
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Modelling the spatial distribution of plaice (
+        <italic>
+         Pleuronectes platessa
+        </italic>), sole (
+        <italic>
+         Solea solea
+        </italic>), and thornbach ray (
+        <italic>
+         Raja clavata
+        </italic>) in UK waters for marine management and planning.
+       </article-title> 
+       <source>Journal of Sea Research 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        258
+       </fpage> 
+       <lpage>
+        267
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Elith1"> 
+      <label>10</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Elith
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Graham
+         </surname>
+         <given-names>
+          CH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Do they? How do they? Why do they differ?
+       </article-title> 
+       <source>On finding reasons for differing performances of species distribution models 
+       <publisher-name>
+        Forum piece of Ecograph.
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        20
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Ward1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ward
+         </surname>
+         <given-names>
+          TJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vanderklift
+         </surname>
+         <given-names>
+          MA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nicholls
+         </surname>
+         <given-names>
+          AO
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kenchington
+         </surname>
+         <given-names>
+          RA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Selecting marine reserves using habitats and species assemblages as surrogates for biological diversity.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        691
+       </fpage> 
+       <lpage>
+        698
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Galparsoro1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Galparsoro
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Borja
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bald
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Liria
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chust
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Predicting suitable habitat for the European lobster (
+        <italic>
+         Homarus gammarus
+        </italic>), on the Basque continental shelf (Bay of Biscay), using Ecological-Niche Factor Analysis.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        220
+       </volume> 
+       <fpage>
+        556
+       </fpage> 
+       <lpage>
+        567
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Kobler1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kobler
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dzeroski
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Keramitsoglou
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Habitat mapping using machine learning-extended kernel-based reclassification of an Ikonos satellite image.
+       </article-title> 
+       <source>Ecological modelling 
+       <volume>
+        191
+       </volume> 
+       <fpage>
+        83
+       </fpage> 
+       <lpage>
+        95
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Adjeroud1"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Adjeroud
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Factors influencing spatial patterns on coral reefs around Moorea, French Polynesia.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        159
+       </volume> 
+       <fpage>
+        105
+       </fpage> 
+       <lpage>
+        119
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Wedding1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wedding
+         </surname>
+         <given-names>
+          LM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Friedlander
+         </surname>
+         <given-names>
+          AM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McGranaghan
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Yost
+         </surname>
+         <given-names>
+          RS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Monaco
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Using bathymetric LiDAR to define nearshore benthic habitat complexity: Implications for management of reef fish assemblages in Hawaii.
+       </article-title> 
+       <source>Remote Sensing of Environment 
+       <volume>
+        112
+       </volume> 
+       <fpage>
+        4159
+       </fpage> 
+       <lpage>
+        4165
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Gray1"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gray
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1974
+       </year> 
+       <article-title>
+        Animal-sediment relationships.
+       </article-title> 
+       <source>Oceanography and Marine Biology: An Annual Review 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        223
+       </fpage> 
+       <lpage>
+        261
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-McArthur1"> 
+      <label>17</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mc Arthur
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname>
+         <given-names>
+          EO
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1967
+       </year> 
+       <article-title>
+        The Theory of Island Biogeography.
+       </article-title> 
+       <publisher-name>
+        Princeton Univ. Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Guenther1"> 
+      <label>18</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Guenther
+         </surname>
+         <given-names>
+          GC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cunningham
+         </surname>
+         <given-names>
+          AG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          LaRocque
+         </surname>
+         <given-names>
+          PE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Reid
+         </surname>
+         <given-names>
+          DJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Meeting the Accuracy Challenge in Airborne LiDAR Bathymetry.
+       </article-title> 
+       <publisher-name>
+        Presented at EARSel, Dresden
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Pittman2"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pittman
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Costa
+         </surname>
+         <given-names>
+          BM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Battista
+         </surname>
+         <given-names>
+          TA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Using Lidar bathymetry and boosted regression trees to predict the diversity and abundance of fish and corals.
+       </article-title> 
+       <source>Journal of Coastal Research 
+       <volume>
+        53
+       </volume> 
+       <fpage>
+        27
+       </fpage> 
+       <lpage>
+        38
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Collin1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Collin
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Archambault
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Mapping the shallow water seabed habitat with the SHOALS.
+       </article-title> 
+       <source>IEEE Transactions on Geoscience and Remote Sensing 
+       <volume>
+        46
+       </volume> 
+       <issue>
+        10
+       </issue> 
+       <fpage>
+        2947
+       </fpage> 
+       <lpage>
+        2955
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Brock1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brock
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wrigth
+         </surname>
+         <given-names>
+          CW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kuffner
+         </surname>
+         <given-names>
+          IB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hernandez
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Airborne lidar sensing of massive stone coral colonies on patch reefs in the northern Florida reef tract.
+       </article-title> 
+       <source>Remote Sensing of Environment 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        31
+       </fpage> 
+       <lpage>
+        42
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Collin2"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Collin
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Archambault
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Salt-marsh mapping and zonation heterogeneity through a dual-wavelength LiDAR.
+       </article-title> 
+       <source>Remote Sensing of Environment 
+       <volume>
+        114
+       </volume> 
+       <issue>
+        3
+       </issue> 
+       <fpage>
+        520
+       </fpage> 
+       <lpage>
+        530
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Long1"> 
+      <label>23</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Desrosiers
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Étude hydrodynamique, sédimentologique et biologique des sites de Maria, Saint-Siméon, Bonaventure, Newport et Cap-d'espoir dans la baie des Chaleurs, Québec, Canada.
+       </article-title> 
+       <comment>
+        Ministère des Transports du Québec: 121 pages + 4 appendices
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Archambault1"> 
+      <label>24</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Archambault
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Banwell
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Underwood
+         </surname>
+         <given-names>
+          AJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Temporal variation in the structure of emerged assemblages following the removal of sewage.
+       </article-title> 
+       <source>Marine Ecology Progress Series 
+       <volume>
+        222
+       </volume> 
+       <fpage>
+        51
+       </fpage> 
+       <lpage>
+        62
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Irish1"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Irish
+         </surname>
+         <given-names>
+          JL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McClung
+         </surname>
+         <given-names>
+          JK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lillycrop
+         </surname>
+         <given-names>
+          WJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Airborne lidar bathymetry: the SHOALS system.
+       </article-title> 
+       <source>PIANC Bulletin 
+       <volume>
+        103
+       </volume> 
+       <fpage>
+        43
+       </fpage> 
+       <lpage>
+        53
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Collin3"> 
+      <label>26</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Collin
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Archambault
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Structural complexity assessment and accurate mapping of seamless coastal habitats using a multispectral LiDAR.
+       </article-title> 
+       <publisher-name>
+        Remote Sensing of Environment, submitted
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Rosenzweig1"> 
+      <label>27</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Rosenzweig
+         </surname>
+         <given-names>
+          ML
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1995
+       </year> 
+       <article-title>
+        Species Diversity in Space and Time.
+       </article-title> 
+       <publisher-name>
+        Cambridge University Press
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Research1"> 
+      <label>28</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        Research Systems
+       </collab> 
+       <year>
+        2005
+       </year> 
+       <source>ENVI User's Guide, ENVI Version 4.2 Boulder, CO 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Wood1"> 
+      <label>29</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wood
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1996
+       </year> 
+       <article-title>
+        The Geomorphological Characterization of Digital Elevation Models.
+       </article-title> 
+       <publisher-loc>
+        Leicester, UK.
+       </publisher-loc> 
+       <publisher-name>
+        Ph.D. Thesis, University of Leicester, Department of Geography
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Peterson1"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Peterson
+         </surname>
+         <given-names>
+          CGJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1913
+       </year> 
+       <article-title>
+        Valuation of the sea. II. The animal communities of the sea bottom and their importance for marine zoogeography.
+       </article-title> 
+       <source>Report of the Danish Biological Station 
+       <volume>
+        16
+       </volume> 
+       <fpage>
+        229
+       </fpage> 
+       <lpage>
+        311
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Thorson1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Thorson
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1957
+       </year> 
+       <article-title>
+        Bottom communities (sublittoral or shallow shelf).
+       </article-title> 
+       <source>Memorandum of the Geographical Society of America 
+       <volume>
+        67
+       </volume> 
+       <fpage>
+        461
+       </fpage> 
+       <lpage>
+        534
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Wei1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wei
+         </surname>
+         <given-names>
+          CL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rowe
+         </surname>
+         <given-names>
+          GT
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Escobar-Briones
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Boetius
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Soltwedel
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Global Patterns and Predictions of Seafloor Biomass Using Random Forests.
+       </article-title> 
+       <source>PLoS ONE 
+       <volume>
+        5
+       </volume> 
+       <issue>
+        12
+       </issue> 
+       <fpage>
+        e15323
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Mumby1"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mumby
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Beta and habitat diversity in marine systems: a new approach to measurement, scaling and interpretation.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        128
+       </volume> 
+       <fpage>
+        274
+       </fpage> 
+       <lpage>
+        280
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Austin3"> 
+      <label>34</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Austin
+         </surname>
+         <given-names>
+          MP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Heyligers
+         </surname>
+         <given-names>
+          PC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1989
+       </year> 
+       <article-title>
+        Vegetation survey design for conservation: gradsect sampling of forests in North-eastern New South Wales.
+       </article-title> 
+       <source>Biology Conservation 
+       <volume>
+        50
+       </volume> 
+       <fpage>
+        13
+       </fpage> 
+       <lpage>
+        32
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Malanson1"> 
+      <label>35</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Malanson
+         </surname>
+         <given-names>
+          GP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Westman
+         </surname>
+         <given-names>
+          WE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Van
+         </surname>
+         <given-names>
+          YL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        Realized versus fundamental niche functions in a model of chaparral response to climatic change.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        64
+       </volume> 
+       <fpage>
+        261
+       </fpage> 
+       <lpage>
+        277
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Mitchell1"> 
+      <label>36</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mitchell
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1997
+       </year> 
+       <article-title>
+        Machine Learning.
+       </article-title> 
+       <publisher-name>
+        McGraw Hill
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Breiman1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Breiman
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Random forests.
+       </article-title> 
+       <source>Machine Learning 
+       <volume>
+        45
+       </volume> 
+       <issue>
+        1
+       </issue> 
+       <fpage>
+        5
+       </fpage> 
+       <lpage>
+        32
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Quinlan1"> 
+      <label>38</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Quinlan
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1993
+       </year> 
+       <article-title>
+        C4.5 Programs for machine learning.
+       </article-title> 
+       <publisher-name>
+        Morgan Kaufmann Publishers Inc
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Hsu1"> 
+      <label>39</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hsu
+         </surname>
+         <given-names>
+          C-W
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chang
+         </surname>
+         <given-names>
+          C-C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lin
+         </surname>
+         <given-names>
+          C-J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <source>A Practical Guide to Support Vector Classification. 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        16
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Clark1"> 
+      <label>40</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Niblett
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1989
+       </year> 
+       <article-title>
+        The CN2 induction algorithm.
+       </article-title> 
+       <source>Machine Learning 
+       <volume>
+        3
+       </volume> 
+       <issue>
+        4
+       </issue> 
+       <fpage>
+        261
+       </fpage> 
+       <lpage>
+        283
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Demar1"> 
+      <label>41</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Demšar
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zupan
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Leban
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Curk
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        3202/2004
+       </year> 
+       <article-title>
+        Orange: From Experimental Machine Learning to Interactive Data Mining.
+       </article-title> 
+       <source>Lecture Notes in Computer Science 
+       <fpage>
+        537
+       </fpage> 
+       <lpage>
+        539
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Anselin1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Anselin
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        GeoDa 0.9 User's Guide.
+       </article-title> 
+       <source>Spatial Analysis Laboratory, University of Illinois, Urbana-Champaign, 
+       <volume>
+        IL
+       </volume> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Kononenko1"> 
+      <label>43</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kononenko
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bratko
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1991
+       </year> 
+       <article-title>
+        Information-based evaluation criterion for classifier's performance.
+       </article-title> 
+       <source>Machine Learning 
+       <volume>
+        6
+       </volume> 
+       <issue>
+        1
+       </issue> 
+       <fpage>
+        67
+       </fpage> 
+       <lpage>
+        80
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Brier1"> 
+      <label>44</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brier
+         </surname>
+         <given-names>
+          GW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1950
+       </year> 
+       <article-title>
+        Verification of forecasts expressed in terms of probability.
+       </article-title> 
+       <source>Monthly Weather Review 
+       <volume>
+        78
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        3
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-SAS1"> 
+      <label>45</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        SAS Institute Inc.
+       </collab> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        JMP® 8 User's Guide, Second Edition.
+       </article-title> 
+       <publisher-loc>
+        NC, USA.
+       </publisher-loc> 
+       <publisher-name>
+        Cary
+       </publisher-name> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Long2"> 
+      <label>46</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Long
+         </surname>
+         <given-names>
+          BF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Robitaille
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Use of a multi-beam autonomous portable laser equipment (MAPLE) to measure the reflectance of shallow water facies and habitats - a new tool to calibrate airborne laser bathymetry instruments.
+       </article-title> 
+       <source>Proceedings of the 2nd FUDOTERAM Workshop (Québec, Canada) 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Hewitt1"> 
+      <label>47</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hewitt
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thrush
+         </surname>
+         <given-names>
+          SF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Halliday
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        The importance of small-scale habitat structure for maintaining beta diversity.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        86
+       </volume> 
+       <issue>
+        6
+       </issue> 
+       <fpage>
+        1619
+       </fpage> 
+       <lpage>
+        1626
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Friedman1"> 
+      <label>48</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Friedman
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Stochastic gradient boosting.
+       </article-title> 
+       <source>Computational Statistics and Data Analysis 
+       <volume>
+        38
+       </volume> 
+       <issue>
+        4
+       </issue> 
+       <fpage>
+        367
+       </fpage> 
+       <lpage>
+        378
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Ridgeway1"> 
+      <label>49</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ridgeway
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Generalized boosted regression models. Documentation on the R Package ‘gbm’, version 1.5–7.
+       </article-title> 
+       <comment>
+        Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.i-pensieri.com/gregr/gbm.shtml" xlink:type="simple">
+         http://www.i-pensieri.com/gregr/gbm.shtml
+        </ext-link>. Accessed 2011 May 31
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Minchin1"> 
+      <label>50</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Minchin
+         </surname>
+         <given-names>
+          PR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1989
+       </year> 
+       <article-title>
+        Montane vegetation of the Mt. Field Massif, Tasmania: a test of some hypotheses about properties of community patterns.
+       </article-title> 
+       <source>Vegetatio 
+       <volume>
+        83
+       </volume> 
+       <fpage>
+        97
+       </fpage> 
+       <lpage>
+        110
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Austin4"> 
+      <label>51</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Austin
+         </surname>
+         <given-names>
+          MP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pausas
+         </surname>
+         <given-names>
+          JG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nicholls
+         </surname>
+         <given-names>
+          AO
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1996
+       </year> 
+       <article-title>
+        Patterns of tree species richness in relation to environment in south-eastern New South Wales, Australia.
+       </article-title> 
+       <source>Aust. J. Ecol 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        154
+       </fpage> 
+       <lpage>
+        164
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Leathwick1"> 
+      <label>52</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Leathwick
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Burns
+         </surname>
+         <given-names>
+          BR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clarkson
+         </surname>
+         <given-names>
+          BD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Environmental correlates of tree alpha-diversity in New Zealand primary forests.
+       </article-title> 
+       <source>Ecography 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        235
+       </fpage> 
+       <lpage>
+        246
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Rydgren1"> 
+      <label>53</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Rydgren
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Okland
+         </surname>
+         <given-names>
+          RH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Okland
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Species response curves along environmental gradients. A case study from SE Norwegian swamp forests.
+       </article-title> 
+       <source>J. Veg. Sci 
+       <volume>
+        14
+       </volume> 
+       <fpage>
+        869
+       </fpage> 
+       <lpage>
+        880
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Turner1"> 
+      <label>54</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Turner
+         </surname>
+         <given-names>
+          MG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gardner
+         </surname>
+         <given-names>
+          RH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          O'Neill
+         </surname>
+         <given-names>
+          RV
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Landscape ecology in theory and practice: pattern and process.
+       </article-title> 
+       <source>Springer Science 
+       <publisher-loc>
+        New York
+       </publisher-loc> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        363
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0021265-Rigby1"> 
+      <label>55</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Rigby
+         </surname>
+         <given-names>
+          RA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stasinopoulos
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        The GAMLSS project: a flexible approach to statistical modelling.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Klein
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Korsholm
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+       </person-group> 
+       <source>New Trends in Statistical Modelling: Proceedings of the 16th International Workshop on Statistical Modelling. Odense, Denmark 
+       <fpage>
+        249
+       </fpage> 
+       <lpage>
+        256
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

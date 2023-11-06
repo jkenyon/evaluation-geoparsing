@@ -1,0 +1,4670 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-11-02674
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0022905
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+         <subj-group> 
+          <subject>
+           Trophic interactions
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological environments
+         </subject> 
+         <subj-group> 
+          <subject>
+           Terrestrial environments
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecological metrics
+         </subject> 
+         <subj-group> 
+          <subject>
+           Species diversity
+          </subject> 
+          <subject>
+           Species richness
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Ecosystem functioning
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Biodiversity
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Zoology
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Predator Diversity and Abundance Provide Little Support for the Enemies Hypothesis in Forests of High Tree Diversity
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Predator Diversity and Enemies Hypothesis
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Schuldt
+        </surname> 
+        <given-names>
+         Andreas
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Both
+        </surname> 
+        <given-names>
+         Sabine
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Bruelheide
+        </surname> 
+        <given-names>
+         Helge
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Härdtle
+        </surname> 
+        <given-names>
+         Werner
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Schmid
+        </surname> 
+        <given-names>
+         Bernhard
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Zhou
+        </surname> 
+        <given-names>
+         Hongzhang
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Assmann
+        </surname> 
+        <given-names>
+         Thorsten
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       Institute of Ecology, Leuphana University Lüneburg, Lüneburg, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Institute of Biology/Geobotany and Botanical Garden, Martin-Luther-University Halle-Wittenberg, Halle, Germany
+      </addr-line> 
+     </aff>
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Institute of Evolutionary Biology and Environmental Sciences, University of Zurich, Zurich, Switzerland
+      </addr-line> 
+     </aff>
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Institute of Zoology, Chinese Academy of Sciences, Beijing, China
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Boyce
+        </surname> 
+        <given-names>
+         Mark S.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      University of Alberta, Canada
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        schuldt@uni.leuphana.de
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: AS HB WH BS HZ TA. Performed the experiments: AS. Analyzed the data: AS. Contributed reagents/materials/analysis tools: SB HB WH BS. Wrote the paper: AS. Commented on previous versions of the manuscript: SB HB WH BS HZ TA.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       28
+      </day> 
+      <month>
+       7
+      </month> 
+      <year>
+       2011
+      </year> 
+     </pub-date>
+     <volume>
+      6
+     </volume>
+     <issue>
+      7
+     </issue>
+     <elocation-id>
+      e22905
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        7
+       </day> 
+       <month>
+        2
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        1
+       </day> 
+       <month>
+        7
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2011
+      </copyright-year>
+      <copyright-holder>
+       Schuldt et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>Predatory arthropods can exert strong top-down control on ecosystem functions. However, despite extensive theory and experimental manipulations of predator diversity, our knowledge about relationships between plant and predator diversity—and thus information on the relevance of experimental findings—for species-rich, natural ecosystems is limited. We studied activity abundance and species richness of epigeic spiders in a highly diverse forest ecosystem in subtropical China across 27 forest stands which formed a gradient in tree diversity of 25–69 species per plot. The enemies hypothesis predicts higher predator abundance and diversity, and concomitantly more effective top-down control of food webs, with increasing plant diversity. However, in our study, activity abundance and observed species richness of spiders decreased with increasing tree species richness. There was only a weak, non-significant relationship with tree richness when spider richness was rarefied, i.e. corrected for different total abundances of spiders. Only foraging guild richness (i.e. the diversity of hunting modes) of spiders was positively related to tree species richness. Plant species richness in the herb layer had no significant effects on spiders. Our results thus provide little support for the enemies hypothesis—derived from studies in less diverse ecosystems—of a positive relationship between predator and plant diversity. Our findings for an important group of generalist predators question whether stronger top-down control of food webs can be expected in the more plant diverse stands of our forest ecosystem. Biotic interactions could play important roles in mediating the observed relationships between spider and plant diversity, but further testing is required for a more detailed mechanistic understanding. Our findings have implications for evaluating the way in which theoretical predictions and experimental findings of functional predator effects apply to species-rich forest ecosystems, in which trophic interactions are often considered to be of crucial importance for the maintenance of high plant diversity.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       The funding by the German Science Foundation (DFG FOR 891/1) and by the National Science Foundation of China (NSFC 30710103907 and 30930005), as well as various travel grants to prepare the project financed by DFG, NSFC and the Sino-German Centre for Research Promotion in Beijing (GZ 524, 592, 698 and 699) are highly acknowledged. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="8" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>The presence, abundance and biodiversity of predatory arthropods have significant impacts on the functioning of ecosystems 
+     <xref ref-type="bibr" rid="pone.0022905-Bruno1">
+      [1]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0022905-Snyder1">
+      [4]
+     </xref>. Predator-mediated changes in herbivore feeding preferences or intensity can alter plant community structure and diversity (e.g. 
+     <xref ref-type="bibr" rid="pone.0022905-Schmitz2">
+      [5]
+     </xref>). Interactions between predators and detritivores affect decomposition dynamics 
+     <xref ref-type="bibr" rid="pone.0022905-Lawrence1">
+      [6]
+     </xref>. While the importance of these trophic interactions in influencing and modifying ecosystem processes such as biomass production and nutrient cycling is increasingly recognized, and trophic complexity is increasingly being implemented in ecosystem functioning experiments 
+     <xref ref-type="bibr" rid="pone.0022905-Bruno1">
+      [1]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Griffiths1">
+      [7]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Hillebrand1">
+      [8]
+     </xref>, our basic knowledge on how the diversity and abundance of secondary consumers relates to plant diversity in natural ecosystems is still limited 
+     <xref ref-type="bibr" rid="pone.0022905-Balvanera1">
+      [9]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+      [11]
+     </xref>. More information on the relationship between the biodiversity at different trophic levels is required to understand how natural ecosystems and their functioning are influenced by the potentially diversity-dependent effects of trophic interactions reported from experiments or theory 
+     <xref ref-type="bibr" rid="pone.0022905-Hillebrand1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Duffy1">
+      [12]
+     </xref>. This knowledge is also of crucial importance in biodiversity conservation (e.g. 
+     <xref ref-type="bibr" rid="pone.0022905-Voigt1">
+      [13]
+     </xref>).</p> 
+    <p>Generally, predator abundance and diversity are expected to increase with increasing plant diversity, as diverse plant communities are hypothesized to offer a greater amount of resources (in terms of biomass production and resource heterogeneity; 
+     <xref ref-type="bibr" rid="pone.0022905-Hutchinson1">
+      [14]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0022905-Strong1">
+      [16]
+     </xref>) to consumers. A popular hypothesis concerned with trophic interactions in relation to species diversity is the ‘enemies hypothesis’ 
+     <xref ref-type="bibr" rid="pone.0022905-Root1">
+      [17]
+     </xref>, which predicts that predators are more abundant and more diverse (and can thus more effectively regulate lower trophic levels such as herbivores) in species-rich plant communities because these communities offer a greater variety of habitats as well as a broader spectrum and temporally more stable availability of prey 
+     <xref ref-type="bibr" rid="pone.0022905-Jactel1">
+      [18]
+     </xref>. Many of the studies which analyzed predator diversity and abundance in relation to plant diversity so far, however, only compared monocultures to mixtures of few plant species (e.g. 
+     <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Andow1">
+      [19]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Sobek1">
+      [20]
+     </xref>). Results of these studies were ambiguous and often depended on the plant species studied, with strong effects of plant species identity making it difficult to assess the effect of plant species richness 
+     <italic>
+      per se
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0022905-Nadrowski1">
+      [21]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0022905-Schuldt1">
+      [23]
+     </xref>. Several studies in grassland ecosystems have also analyzed the relationship between plant diversity and predators over larger gradients of plant diversity, but here again results were mixed 
+     <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Koricheva1">
+      [24]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0022905-Eisenhauer1">
+      [27]
+     </xref>. For more complex ecosystems such as forests, however, which are characterized by long-lived plant individuals and which provide critically important ecosystem services 
+     <xref ref-type="bibr" rid="pone.0022905-SchererLorenzen1">
+      [28]
+     </xref>, comparable studies including high diversity levels are lacking 
+     <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+      [11]
+     </xref>. Yet, species-rich forests are of particular interest in this respect, as trophic interactions might play an important role in maintaining the high levels of tree diversity in these ecosystems 
+     <xref ref-type="bibr" rid="pone.0022905-Givnish1">
+      [29]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0022905-Wills1">
+      [31]
+     </xref>.</p> 
+    <p>Here, we analyze activity abundance and species richness of an important group of predatory forest arthropods, epigeic spiders, across 27 differentially diverse forest stands (between 25 and 69 tree and shrub species per 900 m<sup>2</sup>; 
+     <xref ref-type="bibr" rid="pone.0022905-Bruelheide1">
+      [32]
+     </xref>) of different ages in subtropical China. Epigeic arthropods make up a large part of the overall faunal diversity in plant species-rich forests 
+     <xref ref-type="bibr" rid="pone.0022905-Stork1">
+      [33]
+     </xref> and can play an indirect role in the long-term maintenance of tree diversity: ground-active predators can particularly affect densities of insect herbivores feeding on recruits (seedlings and saplings) growing close to the forest floor (e.g. 
+     <xref ref-type="bibr" rid="pone.0022905-GarciaGunman1">
+      [34]
+     </xref>), i.e., on plant individuals which will determine tree diversity in the long run. These predators might even affect herbivores of higher vegetation strata, as many of these herbivores develop or take shelter during inactivity periods on the forest floor 
+     <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+      [11]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Riihimki1">
+      [22]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Pringle1">
+      [35]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Tanhuanp1">
+      [36]
+     </xref>. Moreover, the diversity and abundance of epigeic predators can strongly affect decomposer assemblages and thus influence ecosystem functions such as nutrient cycling 
+     <xref ref-type="bibr" rid="pone.0022905-Lawrence1">
+      [6]
+     </xref>. Tree species diversity, in turn, can directly or indirectly feed back on epigeic arthropods by affecting abiotic and biotic characteristics (e.g. litter depth and structure, microclimate, pH, prey availability and vegetation structure) of the forest floor 
+     <xref ref-type="bibr" rid="pone.0022905-Httenschwiler1">
+      [37]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Scheu1">
+      [38]
+     </xref>. We tested to which degree predator assemblages at plant diversity levels beyond the scope of most previous biodiversity studies respond to differences in plant diversity. Whether relationships observed at lower levels of plant diversity reach an asymptote at higher diversity or not is still unclear 
+     <xref ref-type="bibr" rid="pone.0022905-Hooper1">
+      [39]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Schmid1">
+      [40]
+     </xref>. Epigeic spiders might respond positively to higher structural heterogeneity (e.g., via a more diverse litter layer or a potentially higher herb layer diversity) and potentially increased prey availability in forest stands of high tree diversity, which would be in accordance with the enemies hypothesis 
+     <xref ref-type="bibr" rid="pone.0022905-Strong1">
+      [16]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Jactel1">
+      [18]
+     </xref>. Interestingly, in a previous study we found that insect herbivory on saplings (i.e., tree individuals with a strong connection to the forest floor) in these 27 study plots was higher in the more diverse plant stands 
+     <xref ref-type="bibr" rid="pone.0022905-Schuldt2">
+      [41]
+     </xref>: this is in contrast to the predictions of the enemies hypothesis and more consistent with a positive bottom-up effect of plant diversity on herbivore diversity 
+     <xref ref-type="bibr" rid="pone.0022905-Scherber1">
+      [42]
+     </xref>. Our present study provides information needed for a better understanding of the role of trophic interactions in the long-term maintenance of high plant diversity and the functioning of such phytodiverse ecosystems 
+     <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Givnish1">
+      [29]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0022905-Coley1">
+      [43]
+     </xref> by testing one of the major assumptions of the enemies hypothesis (increasing abundance and richness of predators with higher plant species richness) for an important group of generalist predators.</p> 
+   </sec> 
+   <sec id="s2" sec-type="methods"> 
+    <title>Methods</title> 
+    <sec id="s2a"> 
+     <title>Study site and plot selection</title> 
+     <p>The study was conducted in the Gutianshan National Nature Reserve (GNNR; 29°14′ N, 118°07′ E), Zhejiang Province, in South-East China. The GNNR is located in a mountain range at an elevation of 300–1260 m a.s.l. It was established as a National Forest Reserve in 1975 and is characterized by 8000 ha of semi-evergreen, broad-leaved forests in a subtropical monsoon climate. The mean annual temperature is 15.3°C; mean annual precipitation amounts to ca. 2000 mm. The parent rock of the mountain range is granite, with pH ranging from 5.5–6.5 
+      <xref ref-type="bibr" rid="pone.0022905-Hu1">
+       [44]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Legendre1">
+       [45]
+      </xref>.</p> 
+     <p>Within the framework of the ‘BEF China’ project 
+      <xref ref-type="bibr" rid="pone.0022905-Bruelheide1">
+       [32]
+      </xref>, we established 27 study plots of 30×30 m in the GNNR. The original intention was to select plots according to a factorial design of three richness levels of woody species and three successional stages. However, it was not possible to find young stages with high richness. Thus, the plots, which represented a deliberately large range of woody species richness (25–69 tree and shrub species per plot), were stratified a posteriori according to stand age (between &lt;20 and ≥80 years, 
+      <xref ref-type="bibr" rid="pone.0022905-Bruelheide1">
+       [32]
+      </xref>) into five classes reflecting different successional stages and woody species richness. Plots were randomly distributed throughout the reserve, with limitations due to inaccessibility or inclinations &gt;55°. Typical tree species of this subtropical forest are the evergreen 
+      <italic>
+       Castanopsis eyrei
+      </italic> (Champ. ex Benth.) Tutch and 
+      <italic>
+       Schima superba
+      </italic> Gardn. et Champ. Mean height of the upper tree layer varies from 13–25 m along the successional gradient. Further details on plot establishment and plot characteristics are provided in 
+      <xref ref-type="bibr" rid="pone.0022905-Bruelheide1">
+       [32]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Spider data</title> 
+     <p>In each of the 27 study plots, four pitfall traps (i.e. a total of 108 traps) were installed for standardized trapping of epigeic arthropods. The traps were set up at the corners of a 10×10 m square around the center of each plot and consisted of a plastic cup (diameter 8.5 cm, depth 15 cm, capacity 550 ml) sunk into the ground and filled with 150 ml of preserving solution (40% ethanol, 30% water, 20% glycerol, 10% acetic acid, with a few drops of detergent to reduce surface tension) for continuous trapping. Sampling was conducted in 2009 for five months (30 March–2 September) and covered the main growing season. The traps were emptied and refilled at 14 day intervals. As composite measures of activity and abundance of the species caught 
+      <xref ref-type="bibr" rid="pone.0022905-Topping1">
+       [46]
+      </xref>, pitfall traps record ‘activity abundances’. These can be interpreted as longer-term (over the trapping interval) patterns in the locomotory activity and the densities of individual species 
+      <xref ref-type="bibr" rid="pone.0022905-Southwood1">
+       [47]
+      </xref>. In the following, we use ‘activity abundance’ to characterize the trap catches.</p> 
+     <p>Spiders were sorted and determined to species or morphospecies level. Classification of spiders by morphospecies (within families or genera) can be easily and reliably achieved on the basis of their genitalia (e.g. 
+      <xref ref-type="bibr" rid="pone.0022905-Kapoor1">
+       [48]
+      </xref>). For our analyses we further assigned spiders to foraging guilds. The functional effects of spiders depend on their foraging mode, and foraging guild diversity can thus be a functionally important characteristic of spider assemblages 
+      <xref ref-type="bibr" rid="pone.0022905-Schmitz2">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Schmitz3">
+       [49]
+      </xref>. Guild classification was based on the primary hunting mode of the respective family (
+      <xref ref-type="bibr" rid="pone.0022905-Jocqu1">
+       [50]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Uetz1">
+       [51]
+      </xref> and own observations) and comprised the following nine guilds: orb-web weavers (Araneidae, Tetragnathidae), space-web weavers (Dictynidae, Theridiidae), sheet-web weavers (Hahniidae, Linyphiidae), ground-funnel-web weavers (Agelenidae, Amaurobiidae), ground-space-web weavers (Leptonetidae), ground-tube-web or burrow weavers (Atypidae, Ctenizidae, Hexathelidae, Nemesiidae), trip-line-retreat builders (Segestriidae), foliage hunters (Clubionidae, Ctenidae, Mimetidae, Philodromidae, Pisauridae, Salticidae, Sparassidae, Thomisidae) and ground hunters (Corinnidae, Gnaphosidae, Liocranidae, Lycosidae, Oonopidae, Zodariidae, Zoridae).</p> 
+     <p>While scales of perception of plant diversity by epigeic spiders might vary between species, this does not affect our results: first, our plots represent subsections of larger forest expanses for which they could be considered typical; second, many predatory arthropods can establish viable populations already in areas as small as our study plots (e.g. 
+      <xref ref-type="bibr" rid="pone.0022905-Matern1">
+       [52]
+      </xref>); third, woody plant species richness at the plot level was also highly correlated with plant species richness at subplot levels (Pearson's 
+      <italic>
+       r
+      </italic> between 0.88 and 0.72 for correlations between total and rarefied richness for 200–20 tree individuals 
+      <xref ref-type="bibr" rid="pone.0022905-Schuldt2">
+       [41]
+      </xref>).</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Environmental predictors</title> 
+     <p>Observational studies allow for the analysis of ecological patterns and processes under near-natural conditions (e.g. fully established animal and plant communities) in complex, real-world ecosystems 
+      <xref ref-type="bibr" rid="pone.0022905-Leuschner1">
+       [53]
+      </xref>. However, adequate interpretation of species richness effects in such studies requires that potentially confounding environmental factors, which might be correlated with plant species richness and might directly or indirectly affect spiders, are taken into consideration 
+      <xref ref-type="bibr" rid="pone.0022905-Vil1">
+       [54]
+      </xref>. We thus included a set of environmental variables in the analyses to account for potential effects of important abiotic (e.g. soil pH, vegetation-mediated light availability) and biotic (e.g. plant biomass, which might, for instance, affect prey densities) characteristics of the plots and the immediate surroundings of the traps: besides successional stage and species richness of woody plants (see above), canopy and herb cover, altitude, tree density (all tree and shrub individuals &gt;1 m height—constituting the bulk of plant biomass and production in the plots) were assessed for all plots during plot establishment in 2008. Total basal area of trees and shrubs as a measure of plot biomass was calculated from diameter at breast height (dbh) measurements of all trees &gt;10 cm dbh in the whole plot and for all individuals &gt;3 cm dbh in a central subplot of 10×10 m. The pH of the topsoil (0–5 cm) was determined from nine dried and sieved soil samples per plot, taken in the summer of 2009. These were pooled and measured potentiometrically in a water-soil solution 
+      <xref ref-type="bibr" rid="pone.0022905-Bruelheide1">
+       [32]
+      </xref>. To take into account differences in the surrounding matrix of the pitfall traps, which can affect spider movement and catch efficiency 
+      <xref ref-type="bibr" rid="pone.0022905-Topping1">
+       [46]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Southwood1">
+       [47]
+      </xref>, we further recorded litter depth, percentage cover of litter and of plants in the (in many cases relatively sparsely developed) herb layer, and vegetation height of the herb layer in a 1×1 m grid around each trap in the summer of 2009. We also included the richness of plant species in the herb layer (all plant individuals &lt;1 m height, measured in the 10×10 m central subplot) to distinguish between effects of the tree (e.g. via tree litter heterogeneity) and the herb layer (i.e., horizontal plant structure within the realm of ground-active spiders).</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Statistical analysis</title> 
+     <p>All analyses were performed using R 2.8.1 
+      <xref ref-type="bibr" rid="pone.0022905-R1">
+       [55]
+      </xref>. Activity abundance was square-root transformed to meet assumptions of normality and homogeneity of variances. Spider species richness in our samples was found to be correlated with spider activity abundance (Pearson's 
+      <italic>
+       r
+      </italic> = 0.63; 
+      <italic>
+       P
+      </italic>&lt;0.001). We thus used two different measures of spider species richness, observed and individual-based rarefied, to analyze relationships between the richness of woody plant species and spider species. Rarefaction calculates species numbers for a standardized number of individuals across all samples and yields species richness data which are independent of the number of individuals in a particular sample, as the latter is potentially affected by differences in sampling efficiency. However, differences in the number of individuals sampled may also reflect real and biologically meaningful patterns 
+      <xref ref-type="bibr" rid="pone.0022905-Gotelli1">
+       [56]
+      </xref>. Thus, the two measures allow for a simultaneous assessment of pure (rarefied richness) and abundance-mediated (observed richness) responses of spider species richness to differences in woody plant species richness. We also checked for the completeness of our trap catches with nonparametric first-order jackknife estimation 
+      <xref ref-type="bibr" rid="pone.0022905-Brose1">
+       [57]
+      </xref>. Rarefaction and species estimations were performed using the package 
+      <sc>
+       vegan
+      </sc> 
+      <xref ref-type="bibr" rid="pone.0022905-Oksanen1">
+       [58]
+      </xref>. Species richness of woody plants was not affected by potential sampling bias and thus not corrected for differences in the total number of individuals per plot (density). Furthermore, observed and rarefied (for n = 200 individual plants) species richness of woody plants were highly correlated (
+      <italic>
+       r
+      </italic> = 0.88; 
+      <italic>
+       P
+      </italic>&lt;0.001) because observed species richness was not correlated with density of woody plants (
+      <italic>
+       r
+      </italic> = −0.07; 
+      <italic>
+       P
+      </italic> = 0.737). The species richness of woody plants was also not correlated with the abundance of any of the dominant tree or shrub species (Pearson correlations with the eight most abundant species, which accounted for &gt;55% of all tree individuals in the 27 study plots, were all non-significant; not shown), i.e., relationships between woody plant species richness and spiders are independent of and not affected by the species identity of the dominant tree and shrub species in the individual study plots.</p> 
+     <p>The relationships between a) activity abundance, b) observed spider species richness, c) rarefied spider species richness and d) foraging guild richness of spiders as response variables and species richness of woody plants as an explanatory variable were analyzed with linear mixed-effects models, using the package 
+      <sc>
+       nlme
+      </sc> in R 
+      <xref ref-type="bibr" rid="pone.0022905-Pinheiro1">
+       [59]
+      </xref>. Mixed-effects models take into account hierarchical structures and potential non-independence of data by the inclusion of a random effects structure 
+      <xref ref-type="bibr" rid="pone.0022905-Pinheiro2">
+       [60]
+      </xref>. In our case, the hierarchical structure was given by the traps nested within plots; thus, plot identity was fitted as random effect. We checked for significant nonlinear relationships between the response variables and the predictors by analyzing second- and third-order polynomials of the predictors. Before fitting the full model, the environmental predictors were checked for collinearity. Tree density (Pearson's 
+      <italic>
+       r
+      </italic> = −0.77; 
+      <italic>
+       P
+      </italic>&lt;0.001) and total basal area (
+      <italic>
+       r
+      </italic> = 0.82; 
+      <italic>
+       P
+      </italic>&lt;0.001) were strongly related to successional stage and primarily reflected stand age-related differences in plot characteristics (see also 
+      <xref ref-type="bibr" rid="pone.0022905-Schuldt2">
+       [41]
+      </xref>). Likewise, vegetation height of the herb layer was strongly correlated with vegetation cover around the traps (
+      <italic>
+       r
+      </italic> = 0.73; 
+      <italic>
+       P
+      </italic>&lt;0.001). To avoid potential effects of multicollinearity, we did not include tree density, total basal area or vegetation height in the models. The full models were thus fitted with successional stage, canopy and herb cover, altitude, soil pH, woody plant species richness of the shrub and tree layers, and the richness of plant species in the herb layer as covariates representing plot characteristics, and with litter cover, litter depth and vegetation cover as covariates representing characteristics of the microhabitat around the traps within plots. We also fitted the interaction between woody plant species richness and stand age to check whether potential species richness effects depended on the successional age of the forest stands.</p> 
+     <p>We used model simplification with an information-theoretic approach to obtain the most parsimonious explanatory models. Model simplification was based on the Akaike Information Criterion, corrected for small sample sizes (AIC<sub>c</sub> 
+      <xref ref-type="bibr" rid="pone.0022905-Burnham1">
+       [61]
+      </xref>). Predictors whose exclusion improved model fit by reducing the AIC<sub>c</sub> of the resulting model were eliminated in an automated stepwise procedure (a modified version of the stepAIC procedure in R; 
+      <xref ref-type="bibr" rid="pone.0022905-Scherber1">
+       [42]
+      </xref>) until a minimal, best-fit model with the lowest global AIC<sub>c</sub> was obtained. The model with the smallest number of predictors was chosen as being the most parsimonious in case differences in AIC<sub>c</sub> (ΔAIC<sub>c</sub>) of ≤2 between two candidate models indicated that both models are almost equally likely 
+      <xref ref-type="bibr" rid="pone.0022905-Burnham1">
+       [61]
+      </xref>. Model residuals were checked for assumptions of normality and homoscedasticity. Further, we calculated Moran's I coefficients to test for spatial autocorrelation in the model residuals, using the R package 
+      <sc>
+       ncf
+      </sc> 
+      <xref ref-type="bibr" rid="pone.0022905-Bjornstad1">
+       [62]
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Species numbers, activity abundance and foraging guild richness</title> 
+     <p>In total, 7952 spiders (of which 6166 were adults), belonging to 195 (morpho-) species of 29 families, were captured in pitfall traps. The most species-rich families in the forest stands were Salticidae (35 species) and Linyphiidae (30), while the most abundant families were Lycosidae (2125 individuals belonging to 6 species) and Liocranidae (1485 individuals of 12 species). First-order jackknife estimation (with traps as samples) showed that all plots were equally sampled, with 66–78% of the estimated species numbers for each plot. In total, 268 (±19 
+      <italic>
+       SE
+      </italic>) epigeic spider species can be expected to occur on the forest floor of the 27 study sites.</p> 
+     <p>The mean number of spider individuals per trap decreased strongly from more than 100 in the plots with the lowest woody plant species richness to about 50 individuals in the plots with the highest woody plant species richness (
+      <xref ref-type="fig" rid="pone-0022905-g001">
+       Figure 1A
+      </xref>), and a minimal model with negative effects of woody plant species richness (
+      <italic>
+       t
+      </italic> = −3.8; 
+      <italic>
+       P
+      </italic>&lt;0.001) and positive effects of soil pH (
+      <italic>
+       t
+      </italic> = 3.0; 
+      <italic>
+       P
+      </italic> = 0.007) best explained the observed patterns in activity abundance (
+      <xref ref-type="table" rid="pone-0022905-t001">
+       Table 1
+      </xref>). There was a strong positive relationship between activity abundance and the species richness of spiders in the study plots (see 
+      <xref ref-type="sec" rid="s2">
+       Methods
+      </xref> section), and, like abundance, mean spider richness per plot (trap means ranging from 12.8 to 23.0) decreased significantly with increasing woody plant species richness (
+      <xref ref-type="fig" rid="pone-0022905-g001">
+       Figure 1B
+      </xref>). Woody plant species richness (
+      <italic>
+       t
+      </italic> = −2.6; 
+      <italic>
+       P
+      </italic> = 0.015), together with a negative effect of altitude (
+      <italic>
+       t
+      </italic> = −3.2; 
+      <italic>
+       P
+      </italic> = 0.004), was also retained in the minimal mixed-effects model for spider richness when potentially confounding plot characteristics were accounted for (
+      <xref ref-type="table" rid="pone-0022905-t001">
+       Table 1
+      </xref>). Species richness and activity abundance of spiders were neither affected by plant species richness of the herb layer, nor by litter cover, litter depth or vegetation cover in the immediate surroundings of the traps, and none of these variables were retained in any of the minimal mixed-effects models (
+      <xref ref-type="table" rid="pone-0022905-t001">
+       Table 1
+      </xref>).</p> 
+     <fig id="pone-0022905-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0022905.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Relationships between species richness of woody plants and spiders.</title> 
+      <p>(A) activity abundance, (B) original species richness, (C) rarefied species richness, and (D) rarefied foraging guild richness of epigeic spiders (trap means ± SE for each plot) across a plant species diversity gradient of 27 study plots in subtropical China. Regression lines show significant relationships at 
+       <italic>
+        P
+       </italic>&lt;0.05.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0022905.g001" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0022905-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0022905.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Mixed-effects models for spider species richness and activity abundance.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0022905-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0022905.t001" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="4" rowspan="1">Activity abundance
+           <xref ref-type="table-fn" rid="nt103">
+            b
+           </xref></td> 
+          <td align="left" colspan="4" rowspan="1">Spider species richness</td> 
+          <td align="left" colspan="4" rowspan="1">Rarefied richness</td> 
+          <td align="left" colspan="4" rowspan="1">Foraging guilds (rarefied)</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Fixed effects
+           </italic> 
+           <xref ref-type="table-fn" rid="nt102">
+            a
+           </xref> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>n</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>d</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            F
+           </italic> 
+           <xref ref-type="table-fn" rid="nt104">
+            c
+           </xref> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            P
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>n</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>d</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            F
+           </italic> 
+           <xref ref-type="table-fn" rid="nt104">
+            c
+           </xref> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            P
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>n</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>d</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            F
+           </italic> 
+           <xref ref-type="table-fn" rid="nt104">
+            c
+           </xref> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            P
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>n</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            DF
+            <sub>d</sub>
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            F
+           </italic> 
+           <xref ref-type="table-fn" rid="nt104">
+            c
+           </xref> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            P
+           </italic> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Successional stage</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">4</td> 
+          <td align="left" colspan="1" rowspan="1">22</td> 
+          <td align="left" colspan="1" rowspan="1">2.9</td> 
+          <td align="left" colspan="1" rowspan="1">0.045</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Herb cover</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">1</td> 
+          <td align="left" colspan="1" rowspan="1">24</td> 
+          <td align="left" colspan="1" rowspan="1">7.9 (+)</td> 
+          <td align="left" colspan="1" rowspan="1">0.009</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Altitude</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">1</td> 
+          <td align="left" colspan="1" rowspan="1">24</td> 
+          <td align="left" colspan="1" rowspan="1">10.9 (−)</td> 
+          <td align="left" colspan="1" rowspan="1">0.003</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Soil pH</td> 
+          <td align="left" colspan="1" rowspan="1">1</td> 
+          <td align="left" colspan="1" rowspan="1">24</td> 
+          <td align="left" colspan="1" rowspan="1">8.7 (+)</td> 
+          <td align="left" colspan="1" rowspan="1">0.007</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Woody plant species richness</td> 
+          <td align="left" colspan="1" rowspan="1">1</td> 
+          <td align="left" colspan="1" rowspan="1">24</td> 
+          <td align="left" colspan="1" rowspan="1">14.5 (−)</td> 
+          <td align="left" colspan="1" rowspan="1">&lt;0.001</td> 
+          <td align="left" colspan="1" rowspan="1">1</td> 
+          <td align="left" colspan="1" rowspan="1">24</td> 
+          <td align="left" colspan="1" rowspan="1">6.9 (−)</td> 
+          <td align="left" colspan="1" rowspan="1">0.015</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">-</td> 
+          <td align="left" colspan="1" rowspan="1">1</td> 
+          <td align="left" colspan="1" rowspan="1">24</td> 
+          <td align="left" colspan="1" rowspan="1">6.8 (+)</td> 
+          <td align="left" colspan="1" rowspan="1">0.015</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            AIC
+            <sub>c</sub> full model
+           </italic> 
+           <xref ref-type="table-fn" rid="nt105">
+            d
+           </xref> </td> 
+          <td align="left" colspan="4" rowspan="1">396.1</td> 
+          <td align="left" colspan="4" rowspan="1">598.5</td> 
+          <td align="left" colspan="4" rowspan="1">371.1</td> 
+          <td align="left" colspan="4" rowspan="1">199.9</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            AIC
+            <sub>c</sub> minimal model
+           </italic> </td> 
+          <td align="left" colspan="4" rowspan="1">373.5</td> 
+          <td align="left" colspan="4" rowspan="1">578.5</td> 
+          <td align="left" colspan="4" rowspan="1">349.4</td> 
+          <td align="left" colspan="4" rowspan="1">179.9</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>Results for the fixed effects of the minimal mixed-effects models (numerator and denominator degrees of freedom DF<sub>n</sub> and DF<sub>d</sub>; 
+         <italic>
+          F
+         </italic>-value and probabilities 
+         <italic>
+          P
+         </italic>; terms dropped during model simplification are marked “−”) for activity abundance, original and rarefied species richness, and rarefied foraging guild richness of spiders as response variables.</p> 
+       </fn> 
+       <fn id="nt102"> 
+        <label>a</label> 
+        <p>Canopy cover, litter cover (trap surroundings), litter depth (trap surroundings), vegetation cover of the herb layer (trap surroundings) and interaction successional age:woody plant species richness (non-significant and excluded in all cases during model simplification) not shown.</p> 
+       </fn> 
+       <fn id="nt103"> 
+        <label>b</label> 
+        <p>Square root-transformed.</p> 
+       </fn> 
+       <fn id="nt104"> 
+        <label>c</label> 
+        <p>(+) and (−) indicate positive and negative relationship, respectively.</p> 
+       </fn> 
+       <fn id="nt105"> 
+        <label>d</label> 
+        <p>Full model: fitted with the full set of fixed effects; minimal model: simplified model with lowest AIC<sub>c</sub>.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>Rarefied species richness of spiders tended to increase slightly across the gradient of woody plant species richness (
+      <xref ref-type="fig" rid="pone-0022905-g001">
+       Figure 1C
+      </xref>). However, this effect was not significant, and thus woody plant species richness was not retained in the minimal mixed-effects model for rarefied spider richness, which only included successional age as an explanatory variable (
+      <xref ref-type="table" rid="pone-0022905-t001">
+       Table 1
+      </xref>). Rarefied spider species richness was high in plots &gt;20 yr and lowest in the youngest forest stands (
+      <xref ref-type="fig" rid="pone-0022905-g002">
+       Figure 2
+      </xref>). In contrast, there was a significant increase in rarefied feeding-guild richness of spiders with increasing species richness of trees and shrubs (
+      <xref ref-type="fig" rid="pone-0022905-g001">
+       Figure 1D
+      </xref>). The minimal mixed-effects model pointed out positive effects of both woody plant species richness (
+      <italic>
+       t
+      </italic> = 2.6; 
+      <italic>
+       P
+      </italic> = 0.015) and herb cover (
+      <italic>
+       t
+      </italic> = 3.0; 
+      <italic>
+       P
+      </italic> = 0.006) in the forest stands (
+      <xref ref-type="table" rid="pone-0022905-t001">
+       Table 1
+      </xref>). The results of our study were not affected by the sequence in which woody plant species richness and stand age were fitted in the analyses (i.e., results did not differ between models with plant richness fitted before or after stand age; not shown). There was no significant spatial autocorrelation in the residuals of the minimal mixed models, with Moran's I values all close to zero and 
+      <italic>
+       P
+      </italic>&gt;0.05 (not shown).</p> 
+     <fig id="pone-0022905-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0022905.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Rarefied spider species richness in relation to plot age.</title> 
+      <p>Mean values per trap are shown in relation to the successional stage (1–5: &lt;20, &lt;40, &lt;60, &lt;80 and ≥80 years old) of the 27 subtropical forest stands in south-east China. Different letters indicate significant differences between successional stages at 
+       <italic>
+        P
+       </italic>&lt;0.05.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0022905.g002" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>The results of our study provide insight into the relationship between predator and plant diversity for complex forest ecosystems, extending our knowledge from observational and experimental studies of relatively species-poor to highly diverse forest ecosystems. Our findings for spider activity and species richness only partially reflect patterns reported from studies of species-poor forests or other ecosystems and do not unambiguously support common hypotheses on diversity-dependent relationships between predators and other trophic levels.</p> 
+    <sec id="s4a"> 
+     <title>Spider activity abundance</title> 
+     <p>Contrary to what might have been expected, we observed a decrease in activity abundance of spiders in forest stands of high woody plant diversity. Considering the commonly stated positive plant productivity–diversity relationship (cf. 
+      <xref ref-type="bibr" rid="pone.0022905-Hooper1">
+       [39]
+      </xref>) and the predictions made by the enemies hypothesis 
+      <xref ref-type="bibr" rid="pone.0022905-Root1">
+       [17]
+      </xref>, we would have expected to find the opposite pattern of higher predator activity abundance (and higher species richness, see below) in more diverse forest stands. This pattern was observed for predator activity and abundance in several previous studies, mainly of non-forest ecosystems (e.g. 
+      <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+       [10]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Andow1">
+       [19]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Johnson1">
+       [63]
+      </xref> and references therein). In contrast, results from the few studies conducted in forests were ambiguous and, due to comparisons of relatively species-poor stands, often strongly affected by tree species identity 
+      <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Sobek1">
+       [20]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Schuldt1">
+       [23]
+      </xref>.</p> 
+     <p>A negative relationship between the activity of predators and plant diversity across a gradient from low to relatively high plant species richness was also found by Koricheva et al. 
+      <xref ref-type="bibr" rid="pone.0022905-Koricheva1">
+       [24]
+      </xref> in an experimental grassland study. They attributed this negative relationship primarily to indirect effects of plant diversity on predator activity through diversity-dependent changes in microclimate and prey availability. This probably does not apply in the same way to our study, as characteristics of the plots and the immediate trap surroundings which are often considered to influence the activity of ground-dwelling arthropods, such as vegetation density or litter depth (which, in turn, affect habitat structure and microclimatic conditions; 
+      <xref ref-type="bibr" rid="pone.0022905-Pearce1">
+       [64]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Sayer1">
+       [65]
+      </xref>), had no effect on spider activity abundance. The only abiotic variable which significantly covaried with spider activity abundance in our study was soil pH (which ranged between 4.1 and 5.1), which was not related to plant diversity. However, woody plant species richness had a stronger effect than pH and was retained in the minimal mixed-effects model. Our results thus indicate a negative effect of plant diversity on spider activity abundance independent of covarying plot characteristics. This effect is due to changes in tree- and shrub-layer, rather than herb-layer plant diversity, as the latter was not related to our spider data. This suggests that in the studied forest stands, the horizontal plant structure of the herb layer has little impact on epigeic spiders compared to the effects of the tree and shrub layers. Forming the dominant vegetation strata of the studied forests in terms of biomass, the latter layers and their plant diversity can be expected to have strong effects on abiotic (e.g. litter diversity) or biotic (e.g., faunal assemblage structure) characteristics at the forest floor. Missing effects of important abiotic parameters, in particular of litter depth and cover, on spider activity abundance, indicate that biotic characteristics mediated by tree diversity might play an important role in determining the observed patterns.</p> 
+     <p>While a higher prey abundance in the more diverse forest stands could potentially reduce foraging time and thus spider activity, the opposite pattern of higher spider activity in forest stands with higher prey availability has also been reported 
+      <xref ref-type="bibr" rid="pone.0022905-Schuldt1">
+       [23]
+      </xref>, which shows that prey availability cannot be used consistently as a predictor of predator activity. It will be intriguing to further explore the potential causes of the unexpected negative relationship between spider activity abundance (and observed species richness) and tree diversity. For instance, patterns in richness and abundance of spiders could be affected by the abundance or diversity of their enemies (e.g. pompilid wasps, birds, vertebrates) or competing predatory taxa (e.g. ants) (see e.g. 
+      <xref ref-type="bibr" rid="pone.0022905-Mooney1">
+       [66]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Pinol1">
+       [67]
+      </xref>). Elucidating the mechanisms underlying the observed patterns requires further investigation. Yet, the facts that in our study plots herbivore damage levels of saplings increased with increasing species richness of woody plants 
+      <xref ref-type="bibr" rid="pone.0022905-Schuldt2">
+       [41]
+      </xref> and that these damage levels are negatively correlated with spider activity abundance (Pearson'
+      <italic>
+       s r
+      </italic> = −0.48; 
+      <italic>
+       P
+      </italic> = 0.012) indicate that the influence of important predator groups on herbivores is not necessarily higher in the forest stands with higher tree and shrub diversity. With seedlings and saplings growing close to the forest floor, interactions between epigeic predators and herbivores (see 
+      <xref ref-type="sec" rid="s1">
+       Introduction
+      </xref>) can be important for these tree recruits, which play a key role in the long-term maintenance of tree diversity. The absence of positive predator effects with increasing plant species richness would be in contradiction to predictions of the enemies hypothesis (see e.g. 
+      <xref ref-type="bibr" rid="pone.0022905-Root1">
+       [17]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Jactel1">
+       [18]
+      </xref>) and to suggestions from a recent grassland study 
+      <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+       [10]
+      </xref>; however, studies of less diverse forest ecosystems 
+      <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Riihimki1">
+       [22]
+      </xref> also found no evidence of the effects predicted by the enemies hypothesis, as can also be deduced from a further study on grassland systems 
+      <xref ref-type="bibr" rid="pone.0022905-Knop1">
+       [68]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Species richness and foraging guilds</title> 
+     <p>In contrast to predator activity and abundance, little information is available on patterns of predator species richness across gradients of high plant diversity, and this information is basically limited to non-forest ecosystems. In a long-term grassland experiment Haddad et al. 
+      <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+       [10]
+      </xref> found that species richness of predators was positively related to plant diversity (see also 
+      <xref ref-type="bibr" rid="pone.0022905-Siemann1">
+       [26]
+      </xref>). However, species numbers depended on predator abundance, and rarefied species richness actually declined with increasing plant diversity. The positive effect of plant diversity on the observed species richness was attributed to higher numbers of individuals in more productive plots, in accordance with the more individuals hypothesis, which assumes that more productive sites (in terms of biomass) support larger populations of a greater number of consumer species than less productive sites 
+      <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+       [10]
+      </xref>. We also found a strong dependence of species richness patterns of spiders on activity abundance, however, with the opposite effect of decreasing activity and richness with increasing tree species richness. Our activity abundance data do not directly allow for quantification of actual abundance patterns per unit area (cf. 
+      <xref ref-type="bibr" rid="pone.0022905-Topping1">
+       [46]
+      </xref>). An evaluation of the productivity–abundance relationship as implied by the more individuals hypothesis 
+      <xref ref-type="bibr" rid="pone.0022905-Srivastava1">
+       [15]
+      </xref> is thus not directly possible in our case, as we cannot completely exclude effects of prey availability on activity patterns. However, even with richness patterns potentially influenced by effects of prey availability on spider activity in the study plots, these patterns mean that the activity-dependent species density of spiders is lower in plots with higher tree diversity. Reduced species density can affect prey organisms such as herbivores or detritivores, as the behavior of different predator species (regarding, for instance, foraging mode and foraging intensity) influences prey behavior and performance 
+      <xref ref-type="bibr" rid="pone.0022905-Schmitz2">
+       [5]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Schmitz3">
+       [49]
+      </xref>. Lower species densities due to lower predator activity (see above) might thus also contribute to less strong top-down control and to effects such as higher herbivory in forest stands with high tree diversity (see also 
+      <xref ref-type="bibr" rid="pone.0022905-Griffiths1">
+       [7]
+      </xref>). In our case, this might primarily apply to effects on seedlings and saplings, which grow close to the forest floor. However, long-term maintenance of tree diversity essentially depends on these tree recruits and thus on trophic interactions influencing tree recruitment 
+      <xref ref-type="bibr" rid="pone.0022905-Wills1">
+       [31]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Coley1">
+       [43]
+      </xref>. Moreover, changes in the strength of top-down control can also have effects on other important ecosystem functions, such as nutrient cycling, via predator impacts on decomposer food webs 
+      <xref ref-type="bibr" rid="pone.0022905-Lawrence1">
+       [6]
+      </xref>.</p> 
+     <p>Even for rarefied species richness of spiders, which is independent of the observed spider activity abundance, our results are not supportive of the assumed positive effects of plant diversity and of the concomitant higher structural heterogeneity on the species richness of predators, as proposed by the enemies hypothesis and other related hypotheses 
+      <xref ref-type="bibr" rid="pone.0022905-Haddad1">
+       [10]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Strong1">
+       [16]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Jactel1">
+       [18]
+      </xref>. Removing the effect of activity abundance on species richness of spiders resulted in the elimination of woody plant species richness as a predictor of spider species richness in the mixed model analysis. Even though a tendency towards increasing rarefied spider richness with increasing plant diversity might be discernible, this relationship was of low explanatory power and not significant for rarefied spider species richness. Instead, effects of forest stand age became important for rarefied richness. Forest age can have strong impacts on animal communities because not only biotic conditions such as plant diversity but also abiotic conditions change considerably during the course of forest succession 
+      <xref ref-type="bibr" rid="pone.0022905-Leuschner1">
+       [53]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Vil1">
+       [54]
+      </xref>. The results of our study were independent of the sequence in which woody plant richness and stand age were fitted in the analyses. When effects of the number of spider individuals are factored out, successional age thus seems to overrule effects of tree diversity on species richness of epigeic spiders in our subtropical study system.</p> 
+     <p>Interestingly, woody plant species richness positively affected the rarefied number of spider foraging guilds. Higher structural heterogeneity, as also shown by a positive relationship with herb layer cover, probably promotes the coexistence of species with different foraging behavior in plots with high plant diversity (cf. 
+      <xref ref-type="bibr" rid="pone.0022905-Uetz1">
+       [51]
+      </xref>). In contrast to mere species numbers, results for foraging guilds as an aspect of functional diversity are in accordance with predictions of the enemies hypothesis. In general, such higher functional diversity of predators has been shown to affect ecosystem processes, as different hunting modes of spiders can strongly impact herbivore behavior (e.g. 
+      <xref ref-type="bibr" rid="pone.0022905-Schmitz3">
+       [49]
+      </xref>). However, in view of our findings for spider activity and the herbivory patterns observed for the study sites 
+      <xref ref-type="bibr" rid="pone.0022905-Schuldt2">
+       [41]
+      </xref>, further research is needed to evaluate the significance of this increase in feeding-guild richness for trophic interactions such as herbivory, and to assess how this affects ecosystem processes in these forests (cf. 
+      <xref ref-type="bibr" rid="pone.0022905-Letourneau1">
+       [2]
+      </xref>).</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Conclusions</title> 
+     <p>Ground-dwelling arthropods make up a large part of the invertebrate biodiversity in forests of high tree diversity 
+      <xref ref-type="bibr" rid="pone.0022905-Stork1">
+       [33]
+      </xref> and can have strong effects on food webs also of higher vegetation strata 
+      <xref ref-type="bibr" rid="pone.0022905-Vehvilinen1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Riihimki1">
+       [22]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Pringle1">
+       [35]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Tanhuanp1">
+       [36]
+      </xref>. Knowledge of the diversity of these invertebrates and of their interactions across trophic levels is essential for our understanding of the functioning of these ecosystems 
+      <xref ref-type="bibr" rid="pone.0022905-Coley1">
+       [43]
+      </xref>. Our study provides information on predator diversity across a gradient of tree diversity far beyond the range of previous studies in forest ecosystems. For dominant epigeic predators, our results contradict common hypotheses of predator–plant diversity relationships, such as the enemies hypothesis, which were derived from studies in less diverse ecosystems. In view of previous findings of increased herbivory in the more diverse forest stands of our study sites it is questionable whether effects predicted from this hypothesis, for which support is also already mixed for less diverse ecosystems, have a strong impact on ecosystem processes also in higher vegetation strata of our subtropical forest ecosystem. Our study supports findings from previous studies of species-rich ecosystems which state that predator diversity is not necessarily a positive or simple function of plant diversity in such highly diverse plant communities 
+      <xref ref-type="bibr" rid="pone.0022905-Koricheva1">
+       [24]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0022905-Perner1">
+       [25]
+      </xref>. As our diversity gradient started at medium diversity levels it might be possible that positive effects often observed at lower plant diversity levels have leveled off (e.g. due to redundancy effects) in our forest stands (cf. 
+      <xref ref-type="bibr" rid="pone.0022905-Hooper1">
+       [39]
+      </xref>). Our results have implications for evaluating the way in which theoretical predictions and experimental findings of functional effects of predators apply to such ecosystems of high tree diversity, in which trophic interactions are often considered to be of crucial importance for the maintenance of high plant diversity 
+      <xref ref-type="bibr" rid="pone.0022905-Givnish1">
+       [29]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0022905-Wills1">
+       [31]
+      </xref>. Further exploration under experimentally controlled conditions, such as in the new tree plantations of the BEF China project, will help to shed light on the ecosystem consequences of the observed patterns.</p> 
+    </sec> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank the administration and the staff (in particular Fang Teng) of the Gutianshan National Nature Reserve for their support. We are grateful to Jiang Zaigen for help with trap maintenance and Marianne Peters for sorting trap catches.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0022905-Bruno1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bruno
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Cascading effects of predator richness.
+       </article-title> 
+       <source>Front Ecol Environ 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        539
+       </fpage> 
+       <lpage>
+        546
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Letourneau1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Letourneau
+         </surname>
+         <given-names>
+          DK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jedlicka
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bothwell
+         </surname>
+         <given-names>
+          SG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Moreno
+         </surname>
+         <given-names>
+          CR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Effects of Natural Enemy Biodiversity on the Suppression of Arthropod Herbivores in Terrestrial Ecosystems.
+       </article-title> 
+       <source>Annu Rev Ecol Evol Syst 
+       <volume>
+        40
+       </volume> 
+       <fpage>
+        573
+       </fpage> 
+       <lpage>
+        592
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Schmitz1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schmitz
+         </surname>
+         <given-names>
+          OJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Predator diversity and trophic interactions.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        2415
+       </fpage> 
+       <lpage>
+        2426
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Snyder1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Snyder
+         </surname>
+         <given-names>
+          WE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Snyder
+         </surname>
+         <given-names>
+          GB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Finke
+         </surname>
+         <given-names>
+          DL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Straub
+         </surname>
+         <given-names>
+          CS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Predator biodiversity strengthens herbivore suppression.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        789
+       </fpage> 
+       <lpage>
+        796
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Schmitz2"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schmitz
+         </surname>
+         <given-names>
+          OJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Effects of predator functional diversity on grassland ecosystem function.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        2339
+       </fpage> 
+       <lpage>
+        2345
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Lawrence1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lawrence
+         </surname>
+         <given-names>
+          KL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wise
+         </surname>
+         <given-names>
+          DH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Unexpected indirect effect of spiders on the rate of litter disappearance in a deciduous forest.
+       </article-title> 
+       <source>Pedobiologia 
+       <volume>
+        48
+       </volume> 
+       <fpage>
+        149
+       </fpage> 
+       <lpage>
+        157
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Griffiths1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Griffiths
+         </surname>
+         <given-names>
+          GJK
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wilby
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Crawley
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thomas
+         </surname>
+         <given-names>
+          MB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Density-Dependent Effects of Predator Species-Richness in Diversity-Function Studies.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        2986
+       </fpage> 
+       <lpage>
+        2993
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Hillebrand1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hillebrand
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Matthiessen
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Biodiversity in a complex world: consolidation and progress in functional biodiversity research.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        1405
+       </fpage> 
+       <lpage>
+        1419
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Balvanera1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Balvanera
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pfisterer
+         </surname>
+         <given-names>
+          AB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Buchmann
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          He
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nakashizuka
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Quantifying the evidence for biodiversity effects on ecosystem functioning and services.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        1146
+       </fpage> 
+       <lpage>
+        1156
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Haddad1"> 
+      <label>10</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Haddad
+         </surname>
+         <given-names>
+          NM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Crutsinger
+         </surname>
+         <given-names>
+          GM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gross
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Haarstad
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Knops
+         </surname>
+         <given-names>
+          JMH
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Plant species loss decreases arthropod diversity and shifts trophic structure.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        1029
+       </fpage> 
+       <lpage>
+        1039
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Vehvilinen1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Vehviläinen
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Koricheva
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ruohomaki
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Effects of stand tree species composition and diversity on abundance of predatory arthropods.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        117
+       </volume> 
+       <fpage>
+        935
+       </fpage> 
+       <lpage>
+        943
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Duffy1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Duffy
+         </surname>
+         <given-names>
+          JE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          France
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McIntyre
+         </surname>
+         <given-names>
+          PB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thebault
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        The functional role of biodiversity in ecosystems: incorporating trophic complexity.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        10
+       </volume> 
+       <fpage>
+        522
+       </fpage> 
+       <lpage>
+        538
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Voigt1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Voigt
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Perner
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Davis
+         </surname>
+         <given-names>
+          AJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Eggers
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schumacher
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Trophic levels are differentially sensitive to climate.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        84
+       </volume> 
+       <fpage>
+        2444
+       </fpage> 
+       <lpage>
+        2453
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Hutchinson1"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hutchinson
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1959
+       </year> 
+       <article-title>
+        Homage to Santa Rosalia, or why are there so many kinds of animals?
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        93
+       </volume> 
+       <fpage>
+        145
+       </fpage> 
+       <lpage>
+        159
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Srivastava1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Srivastava
+         </surname>
+         <given-names>
+          DS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lawton
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Why more productive sites have more species: An experimental test of theory using tree-hole communities.
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        152
+       </volume> 
+       <fpage>
+        510
+       </fpage> 
+       <lpage>
+        529
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Strong1"> 
+      <label>16</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Strong
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lawton
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Southwood
+         </surname>
+         <given-names>
+          TRE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1984
+       </year> 
+       <article-title>
+        Insects on plants: community patterns and mechanisms.
+       </article-title> 
+       <publisher-loc>
+        Oxford
+       </publisher-loc> 
+       <publisher-name>
+        Blackwell
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        313
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Root1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Root
+         </surname>
+         <given-names>
+          RB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1973
+       </year> 
+       <article-title>
+        Organization of a plant-arthropod association in simple and diverse habitats: the fauna of collards (
+        <italic>
+         Brassica oleracea
+        </italic>).
+       </article-title> 
+       <source>Ecol Monogr 
+       <volume>
+        43
+       </volume> 
+       <fpage>
+        95
+       </fpage> 
+       <lpage>
+        124
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Jactel1"> 
+      <label>18</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jactel
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brockerhoff
+         </surname>
+         <given-names>
+          EG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duelli
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        A test of the biodiversity-stability theory: meta-analysis of tree species diversity effects in insect pest infestations, and re-examination of responsible factors.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Körner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          E-D
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Forest diversity and function: temperate and boreal systems 
+       <publisher-loc>
+        Berlin, Heidelberg
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <fpage>
+        235
+       </fpage> 
+       <lpage>
+        261
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Andow1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Andow
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1991
+       </year> 
+       <article-title>
+        Vegetational diversity and arthropod population response.
+       </article-title> 
+       <source>Annu Rev Entomol 
+       <volume>
+        36
+       </volume> 
+       <fpage>
+        561
+       </fpage> 
+       <lpage>
+        586
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Sobek1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sobek
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scherber
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Steffan-Dewenter
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tscharntke
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Sapling herbivory, invertebrate herbivores and predators across a natural tree diversity gradient in Germany's largest connected deciduous forest.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        160
+       </volume> 
+       <fpage>
+        279
+       </fpage> 
+       <lpage>
+        288
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Nadrowski1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Nadrowski
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wirth
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Is forest diversity driving ecosystem functioning and service?
+       </article-title> 
+       <source>Curr Opin Environ Sustain 
+       <volume>
+        2
+       </volume> 
+       <fpage>
+        75
+       </fpage> 
+       <lpage>
+        79
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Riihimki1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Riihimäki
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kaitaniemi
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Koricheva
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vehviläinen
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Testing the enemies hypothesis in forest stands: the important role of tree species composition.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        142
+       </volume> 
+       <fpage>
+        90
+       </fpage> 
+       <lpage>
+        97
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Schuldt1"> 
+      <label>23</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schuldt
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fahrenholz
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brauns
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Migge-Kleian
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Platner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Communities of ground-living spiders in deciduous forests: Does tree species diversity matter?
+       </article-title> 
+       <source>Biodivers Conserv 
+       <volume>
+        17
+       </volume> 
+       <fpage>
+        1267
+       </fpage> 
+       <lpage>
+        1284
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Koricheva1"> 
+      <label>24</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Koricheva
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mulder
+         </surname>
+         <given-names>
+          CPH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Joshi
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Huss-Danell
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Numerical responses of different trophic groups of invertebrates to manipulations of plant diversity in grasslands.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        125
+       </volume> 
+       <fpage>
+        271
+       </fpage> 
+       <lpage>
+        282
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Perner1"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Perner
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wytrykush
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kahmen
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Buchmann
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Egerer
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Effects of plant diversity, plant productivity and habitat parameters on arthropod abundance in montane European grasslands.
+       </article-title> 
+       <source>Ecography 
+       <volume>
+        28
+       </volume> 
+       <fpage>
+        429
+       </fpage> 
+       <lpage>
+        442
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Siemann1"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Siemann
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tilman
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Haarstad
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ritchie
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Experimental tests of the dependence of arthropod diversity on plant diversity.
+       </article-title> 
+       <source>Am Nat 
+       <volume>
+        152
+       </volume> 
+       <fpage>
+        738
+       </fpage> 
+       <lpage>
+        750
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Eisenhauer1"> 
+      <label>27</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Eisenhauer
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Milcu
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sabais
+         </surname>
+         <given-names>
+          ACW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bessler
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brenner
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Plant diversity surpasses plant functional groups and plant productivity as driver of soil biota in the long term.
+       </article-title> 
+       <source>PLoS ONE 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        e16055
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-SchererLorenzen1"> 
+      <label>28</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Körner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          ED
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        The functional significance of forest diversity: a systhesis.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Körner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          ED
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Forest diversity and function: temperate and boreal systems 
+       <publisher-loc>
+        Berlin, Heidelberg
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <fpage>
+        377
+       </fpage> 
+       <lpage>
+        389
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Givnish1"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Givnish
+         </surname>
+         <given-names>
+          TJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        On the causes of gradients in tropical tree diversity.
+       </article-title> 
+       <source>J Ecol 
+       <volume>
+        87
+       </volume> 
+       <fpage>
+        193
+       </fpage> 
+       <lpage>
+        210
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Hubbell1"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Neutral theory and the evolution of ecological equivalence.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        87
+       </volume> 
+       <fpage>
+        1387
+       </fpage> 
+       <lpage>
+        1398
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Wills1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wills
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harms
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          King
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Nonrandom processes maintain diversity in tropical forests.
+       </article-title> 
+       <source>Science 
+       <volume>
+        311
+       </volume> 
+       <fpage>
+        527
+       </fpage> 
+       <lpage>
+        531
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Bruelheide1"> 
+      <label>32</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bruelheide
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Böhnke
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Both
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fang
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Assmann
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Community assembly during secondary forest succession in a Chinese subtropical forest.
+       </article-title> 
+       <source>Ecol Monogr 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        25
+       </fpage> 
+       <lpage>
+        41
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Stork1"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Stork
+         </surname>
+         <given-names>
+          NE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Grimbacher
+         </surname>
+         <given-names>
+          PS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Beetle assemblages from an Australian tropical rainforest show that the canopy and the ground strata contribute equally to biodiversity.
+       </article-title> 
+       <source>Proc R Soc B 
+       <volume>
+        273
+       </volume> 
+       <fpage>
+        1969
+       </fpage> 
+       <lpage>
+        1975
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-GarciaGunman1"> 
+      <label>34</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Garcia-Gunman
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Benitez-Malvido
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Effect of litter on the incidence of leaf-fungal pathogens and herbivory in seedlings of the tropical tree Nectandra ambigens.
+       </article-title> 
+       <source>J Trop Ecol 
+       <volume>
+        19
+       </volume> 
+       <fpage>
+        171
+       </fpage> 
+       <lpage>
+        177
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Pringle1"> 
+      <label>35</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pringle
+         </surname>
+         <given-names>
+          RM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fox-Dobbs
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Coupling of canopy and understory food webs by ground-dwelling predators.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        11
+       </volume> 
+       <fpage>
+        1328
+       </fpage> 
+       <lpage>
+        1337
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Tanhuanp1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Tanhuanpää
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ruohomäki
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kaitaniemi
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Klemola
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Different impact of pupal predation on populations of Epirrita autumnata (Lepidoptera; Geometridae) within and outside the outbreak range.
+       </article-title> 
+       <source>J Anim Ecol 
+       <volume>
+        68
+       </volume> 
+       <fpage>
+        562
+       </fpage> 
+       <lpage>
+        570
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Httenschwiler1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hättenschwiler
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gasser
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Soil animals alter plant litter diversity effects on decomposition.
+       </article-title> 
+       <source>Proc Natl Acad Sci USA 
+       <volume>
+        102
+       </volume> 
+       <fpage>
+        1519
+       </fpage> 
+       <lpage>
+        1524
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Scheu1"> 
+      <label>38</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Scheu
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Linkages between tree diversity, soil fauna and ecosystem processes.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Körner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          ED
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Forest diversity and function: Temperate and boreal systems 
+       <publisher-loc>
+        Berlin, Heidelberg
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <fpage>
+        211
+       </fpage> 
+       <lpage>
+        233
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Hooper1"> 
+      <label>39</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hooper
+         </surname>
+         <given-names>
+          DU
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chapin
+         </surname>
+         <given-names>
+          FS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ewel
+         </surname>
+         <given-names>
+          JJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Effects of biodiversity on ecosystem functioning: A consensus of current knowledge.
+       </article-title> 
+       <source>Ecol Monogr 
+       <volume>
+        75
+       </volume> 
+       <fpage>
+        3
+       </fpage> 
+       <lpage>
+        35
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Schmid1"> 
+      <label>40</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Balvanera
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cardinale
+         </surname>
+         <given-names>
+          BJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Godbold
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pfisterer
+         </surname>
+         <given-names>
+          AB
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Consequences of species loss for ecosystem functioning: meta-analyses of data from biodiversity experiments.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Naeem
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bunker
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hector
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Loreau
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Perrings
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Biodiversity, ecosystem functioning, and human wellbeing An ecological and economic perspective 
+       <publisher-loc>
+        Oxford
+       </publisher-loc> 
+       <publisher-name>
+        Oxford Univ. Press
+       </publisher-name> 
+       <fpage>
+        14
+       </fpage> 
+       <lpage>
+        29
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Schuldt2"> 
+      <label>41</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schuldt
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Baruffol
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Böhnke
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bruelheide
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Härdtle
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Tree diversity promotes insect herbivory in subtropical forests of south-east China.
+       </article-title> 
+       <source>J Ecol 
+       <volume>
+        98
+       </volume> 
+       <fpage>
+        917
+       </fpage> 
+       <lpage>
+        926
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Scherber1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Scherber
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Eisenhauer
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Weisser
+         </surname>
+         <given-names>
+          WW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Voigt
+         </surname>
+         <given-names>
+          W
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Bottom-up effects of plant diversity on multitrophic interactions in a biodiversity experiment.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        468
+       </volume> 
+       <fpage>
+        553
+       </fpage> 
+       <lpage>
+        556
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Coley1"> 
+      <label>43</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Coley
+         </surname>
+         <given-names>
+          PD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Barone
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1996
+       </year> 
+       <article-title>
+        Herbivory and plant defenses in tropical forests.
+       </article-title> 
+       <source>Annu Rev Ecol Syst 
+       <volume>
+        27
+       </volume> 
+       <fpage>
+        305
+       </fpage> 
+       <lpage>
+        335
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Hu1"> 
+      <label>44</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hu
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Yu
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Study on successions sequence of evergreen broad-leaved forest in Gutian Mountain of Zhejiang, Eastern China: species diversity.
+       </article-title> 
+       <source>Front Biol China 
+       <volume>
+        3
+       </volume> 
+       <fpage>
+        45
+       </fpage> 
+       <lpage>
+        49
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Legendre1"> 
+      <label>45</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mi
+         </surname>
+         <given-names>
+          XC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ren
+         </surname>
+         <given-names>
+          HB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ma
+         </surname>
+         <given-names>
+          KP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Yu
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Partitioning beta diversity in a subtropical broad-leaved forest of China.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        663
+       </fpage> 
+       <lpage>
+        674
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Topping1"> 
+      <label>46</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Topping
+         </surname>
+         <given-names>
+          CJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sunderland
+         </surname>
+         <given-names>
+          KD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        Limitations to the use of pitfall traps in ecological studies exemplified by a study of spiders in a field of winter wheat.
+       </article-title> 
+       <source>J Appl Ecol 
+       <volume>
+        29
+       </volume> 
+       <fpage>
+        485
+       </fpage> 
+       <lpage>
+        491
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Southwood1"> 
+      <label>47</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Southwood
+         </surname>
+         <given-names>
+          TRE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Henderson
+         </surname>
+         <given-names>
+          PA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Ecological Methods.
+       </article-title> 
+       <publisher-loc>
+        Third Edition. Oxford
+       </publisher-loc> 
+       <publisher-name>
+        Blackwell Science
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        475
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Kapoor1"> 
+      <label>48</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kapoor
+         </surname>
+         <given-names>
+          V
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Effects of rainforest fragmentation and shade-coffee plantations on spider communities in the Western Ghats, India.
+       </article-title> 
+       <source>J Insect Conserv 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        53
+       </fpage> 
+       <lpage>
+        68
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Schmitz3"> 
+      <label>49</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Schmitz
+         </surname>
+         <given-names>
+          OJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Effects of predator hunting mode on grassland ecosystem function.
+       </article-title> 
+       <source>Science 
+       <volume>
+        319
+       </volume> 
+       <fpage>
+        952
+       </fpage> 
+       <lpage>
+        954
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Jocqu1"> 
+      <label>50</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Jocqué
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dippenaar-Schoeman
+         </surname>
+         <given-names>
+          AS
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Spider families of the world.
+       </article-title> 
+       <publisher-loc>
+        Tervuren
+       </publisher-loc> 
+       <publisher-name>
+        Royal Museum for Central Africa
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        336
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Uetz1"> 
+      <label>51</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Uetz
+         </surname>
+         <given-names>
+          GW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Halaj
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Cady
+         </surname>
+         <given-names>
+          AB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        Guild structure of spiders in major crops.
+       </article-title> 
+       <source>J Arachnol 
+       <volume>
+        27
+       </volume> 
+       <fpage>
+        270
+       </fpage> 
+       <lpage>
+        280
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Matern1"> 
+      <label>52</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Matern
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Drees
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Meyer
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Assmann
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Population ecology of the rare carabid beetle Carabus variolosus (Coleoptera: Carabidae) in North-west Germany.
+       </article-title> 
+       <source>J Insect Conserv 
+       <volume>
+        12
+       </volume> 
+       <fpage>
+        591
+       </fpage> 
+       <lpage>
+        601
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Leuschner1"> 
+      <label>53</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Leuschner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jungkunst
+         </surname>
+         <given-names>
+          HF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Fleck
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Functional role of forest diversity: Pros and cons of synthetic stands and across-site comparisons in established forests.
+       </article-title> 
+       <source>Basic Appl Ecol 
+       <volume>
+        10
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        9
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Vil1"> 
+      <label>54</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Vilà
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Inchausti
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vayreda
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Barrantes
+         </surname>
+         <given-names>
+          O
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gracia
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Confounding factors in the observational productivity-diversity relationship in forests.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          Scherer-Lorenzen
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Körner
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schulze
+         </surname>
+         <given-names>
+          ED
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Forest diversity and function: temperate and boreal systems 
+       <publisher-loc>
+        Heidelberg
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <fpage>
+        65
+       </fpage> 
+       <lpage>
+        85
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-R1"> 
+      <label>55</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        R Development Core Team
+       </collab> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna.
+       </article-title> 
+       <comment>
+        Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org" xlink:type="simple">
+         http://www.R-project.org
+        </ext-link>. Accessed 2011 Jan 10
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Gotelli1"> 
+      <label>56</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gotelli
+         </surname>
+         <given-names>
+          NJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Colwell
+         </surname>
+         <given-names>
+          RK
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Quantifying biodiversity: procedures and pitfalls in the measurement and comparison of species richness.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        4
+       </volume> 
+       <fpage>
+        379
+       </fpage> 
+       <lpage>
+        391
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Brose1"> 
+      <label>57</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brose
+         </surname>
+         <given-names>
+          U
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Martinez
+         </surname>
+         <given-names>
+          ND
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Estimating the richness of species with variable mobility.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        105
+       </volume> 
+       <fpage>
+        292
+       </fpage> 
+       <lpage>
+        300
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Oksanen1"> 
+      <label>58</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Oksanen
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kindt
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Legendre
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          O'Hara
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Simpson
+         </surname>
+         <given-names>
+          GL
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        vegan: Community Ecology Package. R package version 1.15-1.
+       </article-title> 
+       <comment>
+        Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org" xlink:type="simple">
+         http://cran.r-project.org
+        </ext-link>. Accessed 2011 Jan 10
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Pinheiro1"> 
+      <label>59</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pinheiro
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bates
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          DebRoy
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sarkar
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <collab xlink:type="simple">
+        the R Core team
+       </collab> 
+       <year>
+        2009
+       </year> 
+       <comment>
+        nlme: linear and nonlinear mixed effects models. R package version 3.1-93. Available from: 
+        <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org" xlink:type="simple">
+         http://cran.r-project.org
+        </ext-link>
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Pinheiro2"> 
+      <label>60</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pinheiro
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bates
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Mixed-effects models in S and S-Plus.
+       </article-title> 
+       <publisher-loc>
+        New York
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        528
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Burnham1"> 
+      <label>61</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Burnham
+         </surname>
+         <given-names>
+          KP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Model selection and multimodel inference: a practical information-theoretic approach.
+       </article-title> 
+       <publisher-loc>
+        New York
+       </publisher-loc> 
+       <publisher-name>
+        Springer
+       </publisher-name> 
+       <!--===== Restructure page-count as size[@units="page"] =====-->
+       <size units="page">
+        488
+       </size> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Bjornstad1"> 
+      <label>62</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bjornstad
+         </surname>
+         <given-names>
+          ON
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        ncf: spatial nonparametric covariance functions. R package version 1.1-3.
+       </article-title> 
+       <comment>
+        Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://cran.r-project.org" xlink:type="simple">
+         http://cran.r-project.org
+        </ext-link>. Accessed 2011 Jan 10
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Johnson1"> 
+      <label>63</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Johnson
+         </surname>
+         <given-names>
+          MTJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lajeunesse
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Agrawal
+         </surname>
+         <given-names>
+          AA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Additive and interactive effects of plant genotypic diversity on arthropod communities and plant fitness.
+       </article-title> 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        24
+       </fpage> 
+       <lpage>
+        34
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Pearce1"> 
+      <label>64</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pearce
+         </surname>
+         <given-names>
+          JL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Venier
+         </surname>
+         <given-names>
+          LA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Eccles
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Pedlar
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McKenney
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Influence of habitat and microhabitat on epigeal spider (Araneae) assemblages in four stand types.
+       </article-title> 
+       <source>Biodivers Conserv 
+       <volume>
+        13
+       </volume> 
+       <fpage>
+        1305
+       </fpage> 
+       <lpage>
+        1334
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Sayer1"> 
+      <label>65</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sayer
+         </surname>
+         <given-names>
+          EJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Using experimental manipulation to assess the roles of leaf litter in the functioning of forest ecosystems.
+       </article-title> 
+       <source>Biol Rev 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        31
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Mooney1"> 
+      <label>66</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mooney
+         </surname>
+         <given-names>
+          KA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gruner
+         </surname>
+         <given-names>
+          DS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Barber
+         </surname>
+         <given-names>
+          NA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Van Bael
+         </surname>
+         <given-names>
+          SA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Philpott
+         </surname>
+         <given-names>
+          SM
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Interactions among predators and the cascading effects of vertebrate insectivores on arthropod communities and plants.
+       </article-title> 
+       <source>Proc Natl Acad Sci USA 
+       <volume>
+        107
+       </volume> 
+       <fpage>
+        7335
+       </fpage> 
+       <lpage>
+        7340
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Pinol1"> 
+      <label>67</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Pinol
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Espadaler
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canellas
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Martinez-Vilalta
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Barrientos
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Ant versus bird exclusion effects on the arthropod assemblage of an organic citrus grove.
+       </article-title> 
+       <source>Ecol Entomol 
+       <volume>
+        35
+       </volume> 
+       <fpage>
+        367
+       </fpage> 
+       <lpage>
+        376
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0022905-Knop1"> 
+      <label>68</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Knop
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kleijn
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Herzog
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schmid
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Effectiveness of the Swiss agri-environment scheme in promoting biodiversity.
+       </article-title> 
+       <source>J Appl Ecol 
+       <volume>
+        43
+       </volume> 
+       <fpage>
+        120
+       </fpage> 
+       <lpage>
+        127
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

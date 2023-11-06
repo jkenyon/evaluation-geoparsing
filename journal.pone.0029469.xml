@@ -1,0 +1,5544 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <!--===== Grouping journal title elements =====-->
+     <journal-title-group>
+      <journal-title>
+       PLoS ONE
+      </journal-title>
+     </journal-title-group>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-11-18587
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0029469
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Agriculture
+       </subject> 
+       <subj-group> 
+        <subject>
+         Forestry
+        </subject> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Community ecology
+         </subject> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Plant ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Plant science
+        </subject> 
+        <subj-group> 
+         <subject>
+          Plant ecology
+         </subject> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Plants
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Plant Biology
+       </subject> 
+       <subject>
+        Ecology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Local-Scale Drivers of Tree Survival in a Temperate Forest
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Tree Survival in a Chinese Temperate Forest
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Wang
+        </surname> 
+        <given-names>
+         Xugao
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Comita
+        </surname> 
+        <given-names>
+         Liza S.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff2"> 
+        <sup>2</sup> 
+       </xref> 
+       <xref ref-type="aff" rid="aff3"> 
+        <sup>3</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Hao
+        </surname> 
+        <given-names>
+         Zhanqing
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Davies
+        </surname> 
+        <given-names>
+         Stuart J.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff4"> 
+        <sup>4</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Ye
+        </surname> 
+        <given-names>
+         Ji
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Lin
+        </surname> 
+        <given-names>
+         Fei
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Yuan
+        </surname> 
+        <given-names>
+         Zuoqiang
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1"> 
+        <sup>1</sup> 
+       </xref> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1">
+      <label>1</label>
+      <addr-line>
+       State Key Laboratory of Forest and Soil Ecology, Institute of Applied Ecology, Chinese Academy of Sciences, Shenyang, Liaoning Province, People's Republic of China
+      </addr-line> 
+     </aff>
+     <aff id="aff2">
+      <label>2</label>
+      <addr-line>
+       Department of Evolution, Ecology, and Organismal Biology, The Ohio State University, Columbus, Ohio, United States of America
+      </addr-line> 
+     </aff>
+     <aff id="aff3">
+      <label>3</label>
+      <addr-line>
+       Smithsonian Tropical Research Institute, Balboa Ancón, Republic of Panamá
+      </addr-line> 
+     </aff>
+     <aff id="aff4">
+      <label>4</label>
+      <addr-line>
+       Center for Tropical Forest Science, Arnold Arboretum, Harvard University and Smithsonian Tropical Research Institute, Boston, Massachusetts, United States of America
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Reinhart
+        </surname> 
+        <given-names>
+         Kurt O.
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1">
+      USDA-ARS, United States of America
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        hzq@iae.ac.cn
+       </email>
+      </corresp> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: XW LSC. Performed the experiments: XW LSC. Analyzed the data: XW LSC. Contributed reagents/materials/analysis tools: ZH SJD JY FL ZY. Wrote the paper: XW LSC.</p> 
+      </fn> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn>
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       13
+      </day> 
+      <month>
+       2
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      2
+     </issue>
+     <elocation-id>
+      e29469
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        22
+       </day> 
+       <month>
+        9
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        29
+       </day> 
+       <month>
+        11
+       </month> 
+       <year>
+        2011
+       </year> 
+      </date> 
+     </history>
+     <!--===== Grouping copyright info into permissions =====-->
+     <permissions>
+      <copyright-year>
+       2012
+      </copyright-year>
+      <copyright-holder>
+       Wang et al
+      </copyright-holder>
+      <license>
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p>
+      </license>
+     </permissions>
+     <abstract> 
+      <p>Tree survival plays a central role in forest ecosystems. Although many factors such as tree size, abiotic and biotic neighborhoods have been proposed as being important in explaining patterns of tree survival, their contributions are still subject to debate. We used generalized linear mixed models to examine the relative importance of tree size, local abiotic conditions and the density and identity of neighbors on tree survival in an old-growth temperate forest in northeastern China at three levels (community, guild and species). Tree size and both abiotic and biotic neighborhood variables influenced tree survival under current forest conditions, but their relative importance varied dramatically within and among the community, guild and species levels. Of the variables tested, tree size was typically the most important predictor of tree survival, followed by biotic and then abiotic variables. The effect of tree size on survival varied from strongly positive for small trees (1–20 cm dbh) and medium trees (20–40 cm dbh), to slightly negative for large trees (&gt;40 cm dbh). Among the biotic factors, we found strong evidence for negative density and frequency dependence in this temperate forest, as indicated by negative effects of both total basal area of neighbors and the frequency of conspecific neighbors. Among the abiotic factors tested, soil nutrients tended to be more important in affecting tree survival than topographic variables. Abiotic factors generally influenced survival for species with relatively high abundance, for individuals in smaller size classes and for shade-tolerant species. Our study demonstrates that the relative importance of variables driving patterns of tree survival differs greatly among size classes, species guilds and abundance classes in temperate forest, which can further understanding of forest dynamics and offer important insights into forest management.</p> 
+     </abstract>
+     <funding-group>
+      <funding-statement>
+       This study was supported by the Knowledge Innovation Program of the Chinese Academy of Sciences (KSCX2-EW-Z-5 and KZCX2-YW-QN402) and the National Natural Science Foundation of China (40971286, 31011120470 and 31061160188). XW acknowledges the support of a fellowship from the Center for Tropical Forest Science of the Smithsonian Tropical Research Institute and the HSBC Climate Partnership. LSC acknowledges the support of a fellowship from the National Center for Ecological Analysis and Synthesis, a center funded by NSF (Grant #EF-0553768), the University of California, Santa Barbara, and the State of California. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+      </funding-statement>
+     </funding-group>
+     <counts> 
+      <page-count count="10" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Forests are an important and substantial part of the terrestrial biosphere, providing a number of key ecosystem functions such as carbon sequestration, and water and nutrient cycling. Tree mortality plays a critical role in forests 
+     <xref ref-type="bibr" rid="pone.0029469-Franklin1">
+      [1]
+     </xref>. It can determine forest dynamics or succession, alter nutrient cycling, and further contribute to tree species coexistence 
+     <xref ref-type="bibr" rid="pone.0029469-Hibbs1">
+      [2]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Lutz1">
+      [4]
+     </xref>. Without a proper understanding of the patterns and determinants of tree mortality, our overall understanding of forest dynamics is severely hampered. However, studies of tree mortality are hindered by the fact that trees are long-lived and mortality rates are often low, particularly for mature trees, making it difficult to gather sufficient observations and to gain insights into the factors influencing mortality and survival 
+     <xref ref-type="bibr" rid="pone.0029469-Das1">
+      [5]
+     </xref>. Ecologists are often forced to make overly simplistic assumptions about tree mortality processes. For instance, tree mortality has been hypothesized to be random, with all trees having an equal probability of survival 
+     <xref ref-type="bibr" rid="pone.0029469-Sterner1">
+      [6]
+     </xref>. However, in various natural forest communities numerous studies have rejected this random mortality hypothesis 
+     <xref ref-type="bibr" rid="pone.0029469-Kenkel1">
+      [7]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+      [9]
+     </xref>. This is because trees are sessile and tree mortality is likely to be strongly affected by intrinsic properties of individuals and by their local immediate neighborhoods.</p> 
+    <p>Many studies have shown that size is an important intrinsic property of trees that strongly affects survival. The probability of survival is expected to increase as trees get larger and acquire reserves to withstand environmental stress 
+     <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+      [9]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Blundell1">
+      [11]
+     </xref>. In addition, larger trees have a competitive advantage over smaller trees due to the asymmetric nature of competition for light 
+     <xref ref-type="bibr" rid="pone.0029469-Weiner1">
+      [12]
+     </xref>. However, tree survival is known to vary by tree size and these relationships are known to vary by species 
+     <xref ref-type="bibr" rid="pone.0029469-Runkle1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Woods1">
+      [13]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Lines1">
+      [19]
+     </xref>.</p> 
+    <p>Local neighborhood conditions broadly include two major classes of factors, biotic and abiotic variables. The effects of biotic and abiotic factors represent two important explanations for species coexistence in ecological communities: frequency (or density) dependence and resource niche partitioning, respectively 
+     <xref ref-type="bibr" rid="pone.0029469-Nakashizuka1">
+      [20]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Wright1">
+      [21]
+     </xref>. In tree communities, survival is commonly observed to be frequency- or density-dependent, based on several studies that modeled survival as a function of the number, size and identity of individuals in the local biotic neighborhood 
+     <xref ref-type="bibr" rid="pone.0029469-Das1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-He1">
+      [8]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+      [9]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Packer1">
+      [22]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Zhang1">
+      [28]
+     </xref>. Specifically, trees tend to have a higher probability of mortality where conspecific neighbors are denser, closer, or proportionately more abundant than heterospecific neighbors 
+     <xref ref-type="bibr" rid="pone.0029469-He1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Hubbell1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Zhao1">
+      [29]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Castagneri1">
+      [30]
+     </xref>. Such negative effects of conspecific neighbors could result from strong intraspecific competition for resources or from host-specific natural enemies, such as herbivores and pathogens that are attracted by or spread rapidly through high density patches of susceptible individuals. Negative conspecific density and frequency dependence are widely recognized as prominent mechanisms of species coexistence, and several hypotheses, such as the Janzen-Connell hypothesis, consider their effects on community assembly 
+     <xref ref-type="bibr" rid="pone.0029469-Janzen1">
+      [31]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Volkov1">
+      [34]
+     </xref>. Although there have been several studies of neighbor effects on tree survival, few have simultaneously considered the effects of both biotic and abiotic factors, although in some cases researchers have tried to select environmentally homogeneous areas 
+     <xref ref-type="bibr" rid="pone.0029469-Hubbell1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Condit1">
+      [35]
+     </xref>. However, even local environments are heterogeneous due to variation in topography and soils 
+     <xref ref-type="bibr" rid="pone.0029469-Harms1">
+      [36]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-John1">
+      [37]
+     </xref>. Failing to consider the effects of these abiotic factors on plant performance can result in incorrect inferences about the importance of density-dependent neighborhood effects 
+     <xref ref-type="bibr" rid="pone.0029469-He1">
+      [8]
+     </xref>. For example, a species will likely attain higher densities in its optimal habitat due to increased survival. As a result, survival could then be positively correlated with conspecific density, potentially masking negative impacts of conspecific neighbors.</p> 
+    <p>Studies have also shown that species with different life history strategies respond differently to intrinsic and extrinsic factors. Shade tolerance can be a key trait in determining patterns of tree growth and survival 
+     <xref ref-type="bibr" rid="pone.0029469-Hubbell1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Kunstler1">
+      [38]
+     </xref>. In addition to being less sensitive to shading by neighbors, shade-tolerant species are less susceptible to enemy attack than light-demanding species, based on differences in the allocation of resources to defense vs. growth 
+     <xref ref-type="bibr" rid="pone.0029469-Coley1">
+      [39]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Imaji1">
+      [41]
+     </xref>. As a result, shade tolerance should be an important determinant of trees' reactions to their local biotic neighborhood 
+     <xref ref-type="bibr" rid="pone.0029469-McCarthyNeumann1">
+      [42]
+     </xref>. In addition, some studies have found that species abundance is related to species' responses to their neighbors. For example, rare tropical tree species have been shown to be more sensitive to the density of neighboring conspecifics 
+     <xref ref-type="bibr" rid="pone.0029469-Hubbell1">
+      [23]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0029469-Comita2">
+      [43]
+     </xref>. Within a species, tree size may influence the effects of biotic and abiotic variables on survival. Smaller individuals may be more sensitive to neighbor density, due to asymmetric competition with taller individuals. Smaller individuals may also be more likely to show effects of abiotic habitat variables on survival, since large trees are typically found in preferred habitats due to environmental filtering occurring at earlier life stages 
+     <xref ref-type="bibr" rid="pone.0029469-Russo1">
+      [44]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0029469-Comita3">
+      [45]
+     </xref>.</p> 
+    <p>In this study we assessed the relative importance of tree size, abiotic conditions, and the local biotic neighborhood in driving patterns of tree survival in an old-growth temperate forest in northeastern China at three organizational levels (community, guild and individual species). We used data from multiple censuses of a large (25 ha), fully-mapped forest plot to address the following questions: (1) Does tree size have a consistent positive effect on tree survival? (2) Are abiotic or biotic neighborhood factors more important in influencing spatial patterns of tree survival? (3) Can life history strategy or ecological guild be used to predict the relative importance of factors driving tree survival?</p> 
+   </sec> 
+   <sec id="s2" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="s2a"> 
+     <title>Study area</title> 
+     <p>The study area was the Changbai Nature Reserve, which extends along the border of China and North Korea from 127°42′ to 128°17′E and 41°43′ to 42°26′N. It is one of the largest biosphere reserves in China and has been spared from logging and other severe human disturbances. The Changbai Nature Reserve joined the World Biosphere Reserve Network under the UNESCO Man and the Biosphere Programme in 1980. The reserve is ca. 200,000 ha, and elevation ranges from 740 m to 2,691 m at the summit of Changbai Mountain.</p> 
+     <p>Our study area is located in broad-leaved Korean pine (
+      <italic>
+       Pinus koraiensis
+      </italic>) mixed forest, the most common vegetation type in the region. Mean annual precipitation is approximately 700 mm and most of this occurs from June to September (480–500 mm). Mean annual temperature is 2.8°C, with a January mean of −13.7°C, and a July mean of 19.6°C. Mean age of overstory trees is ca. 300 years. Common tree species include 
+      <italic>
+       P. koraiensis, Tilia amurensis, Quercus mongolica, Fraxinus mandshurica, Ulmus japonica
+      </italic>, and 
+      <italic>
+       Acer mono
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0029469-Hao1">
+       [46]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Field methods</title> 
+     <p>A 25 ha (500×500 m) forest plot was established in the summer of 2004 in Changbaishan (CBS) Nature Reserve. The plot, representative of forests in the area, is located in the core zone of Changbai Nature Reserve. Mean elevation in the plot is 801.5 m and ranges from 791.8 m to 809.5 m. All free-standing trees at least 1 cm in diameter at breast height (dbh; 1.3 m above ground) were tagged, measured and identified to species, and their geographic coordinates were recorded following a standard field protocol 
+      <xref ref-type="bibr" rid="pone.0029469-Condit2">
+       [47]
+      </xref>. The first CBS plot census started in July 2004 and ended in September 2004, and the second census was carried out between July 2009 and August 2009. The status of trees, as live or dead, was recorded in the second census. The CBS plot contains 52 species with stems ≥1 cm dbh, belonging to 32 genera and 18 families 
+      <xref ref-type="bibr" rid="pone.0029469-Hao1">
+       [46]
+      </xref>. No specific permits were required for the described field studies.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Biotic neighborhood variables</title> 
+     <p>To quantify the local biotic neighborhood, we used the frequency of conspecific neighbors (basal area of conspecific stems/total basal area of all stems) and the total basal area of all stems ≥1 cm dbh within 20 m of the center of each focal tree. We chose 20 m because tree species interactions have been shown to disappear beyond 20 m 
+      <xref ref-type="bibr" rid="pone.0029469-Wang1">
+       [48]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Abiotic factors</title> 
+     <p>Elevation was measured at the corner of each 20 m×20 m quadrat in the 25 ha plot. Elevation values for these 20 m×20 m quadrats were interpolated to calculate the elevation of the corners of the 5 m×5 m subquadrats. Slope and aspect values were then calculated for each subquadrat.</p> 
+     <p>In 2007, soils were sampled using a regular grid of points every 30 m. Two additional sample points at 2, 5, or 15 m were selected in a random compass direction from the grid point to capture variation in soil nutrients at finer scales. In total, 967 points were sampled in the 25 ha plot. At each sample point 500 g of topsoil (0–10 cm depth) was collected, and eight soil properties (pH, organic matter, total N, available N, total P, available P, total K and available K) were analyzed according to Lu 
+      <xref ref-type="bibr" rid="pone.0029469-Lu1">
+       [49]
+      </xref>. Soil pH in water (1∶1) was measured by Beckman glass electrode. Soil organic matter was determined colorimetrically by the dichromate oxidation method. Total N was determined colorimetrically on the KCl extracts using the Kjeldahl method. Available N was alkali dispelled by 1 mol NaOH L<sup>−1</sup>. Total P was determined by molybdenum antimony blue colorimetry after extraction using H<sub>2</sub>SO<sub>4</sub>-HClO<sub>4</sub>. Available P content was extracted using a 0.05 mol/LHCL-0.025 mol/LH<sub>2</sub>SO<sub>4</sub> solution. Total K was determined by digesting in hydrofluoric acid and then measured by atomic absorption spectrometer. Available K was extracted with 1 mol NH4AcL-1 and then measured by atomic absorption spectrometer.</p> 
+     <p>Spatial predictions for 5 m×5 m quadrats were obtained using geostatistical methods (ordinary kriging). Because these soil variables were strongly correlated with each other, we computed the principal components (PCs) from the eight soil variables and used only the first two components as condensed variables because together they explained 86.6% of the total variance in soil variables (
+      <xref ref-type="supplementary-material" rid="pone.0029469.s002">
+       Table S1
+      </xref>). Variable condensing can reduce the possibility of overfitting the models 
+      <xref ref-type="bibr" rid="pone.0029469-John1">
+       [37]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2e"> 
+     <title>Data analysis</title> 
+     <p>We modeled the probability of an individual tree surviving the 5-year census interval as a function of initial tree size in the first census (i.e. dbh) and the abiotic and biotic neighborhood factors described above, using generalized liner mixed models (GLMM) with binomial errors with a logit link function (i.e. logistic regression). GLMM is now widely used in ecology 
+      <xref ref-type="bibr" rid="pone.0029469-Bolker1">
+       [50]
+      </xref> and details on GLMM can be found in Zurr 
+      <italic>
+       et al
+      </italic>. 
+      <xref ref-type="bibr" rid="pone.0029469-Zurr1">
+       [51]
+      </xref> Biotic factors included the total basal area of all neighboring trees and the frequency of conspecifics (basal area of conspecific stems/total basal area of all stems) within 20 m of the focal tree. For abiotic factors, we included three topographical variables (elevation, slope and aspect) and the two PC axes of soil variables. We assigned to each individual tree the abiotic factors of the 5×5 m quadrat where it was located. All abiotic and biotic variables, as well as log-transformed initial tree size (dbh), entered the model as fixed effects. For all these variables, values were standardized by subtracting the mean value of the variables (across all individuals in the analysis) and dividing by 1 standard deviation. This allows for a direct comparison of the relative importance of these explanatory variables 
+      <xref ref-type="bibr" rid="pone.0029469-Gelman1">
+       [52]
+      </xref>. The mean and range of all explanatory variables used in the analysis are listed in 
+      <xref ref-type="supplementary-material" rid="pone.0029469.s003">
+       Table S2
+      </xref>. To avoid edge effects, we excluded all potential target trees that were within 20 m of the edge of the plot from the analyses.</p> 
+     <p>Tree survival was analyzed at three different scales. First, we included all trees in the plot and conducted a community-level analysis with all species. Species was included as a random effect in the analysis. Second, we assessed the effect of species life-history traits by dividing species into different life-history guilds and analyzing each guild separately, with species as a random effect. Previous studies in the CBS forest found that species distributions and interactions varied among different guilds 
+      <xref ref-type="bibr" rid="pone.0029469-Wang1">
+       [48]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Wang2">
+       [53]
+      </xref>. Therefore, we expected that the effects of explanatory variables on tree survival would also differ among guilds. Specifically, we classified species into three shade-tolerant guilds (shade-tolerant, mid-tolerant and light-demanding) 
+      <xref ref-type="bibr" rid="pone.0029469-Wang3">
+       [54]
+      </xref>; we also grouped species into four abundance classes based on their abundance in the CBS 25-ha plot (very rare: 1–100, rare: 100–1000, common: 1000–5000, and very common: &gt;5000 individuals). In addition, we divided individuals into three size classes (1–20 cm, 20–40 cm and &gt;40 cm dbh). In these analyses, species was also included as a random effect. All explanatory variables were standardized as described above. Finally, because niche theory predicts that species will be affected differently by abiotic variables, we performed species-level analyses, by separately analyzing each of the 20 species with &gt;100 stems.</p> 
+     <p>To test the relative importance of tree size, abiotic variables and biotic variables in affecting tree survival, we constructed four candidate models with different variables: (1) only tree size; (2) tree size and abiotic variables; (3) tree size and biotic variables; (4) all variables included. We used Akaike information criterion (AIC) 
+      <xref ref-type="bibr" rid="pone.0029469-Burnham1">
+       [55]
+      </xref> to identify the best fit model, and then used the results from the best fit model to evaluate the effect and uncertainty of individual variables. Also, we validated the best fit models with Nagelkerke's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e001" xlink:type="simple" />
+      </inline-formula> and Somer's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e002" xlink:type="simple" />
+      </inline-formula> as measures of model predictive and discriminative ability, respectively. Nagelkerke's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e003" xlink:type="simple" />
+      </inline-formula> is a pseudo R<sup>2</sup> (classical R<sup>2</sup> is not appropriate for logistic models) to evaluate model predictions by calculating the square of correlation coefficient between observed and predicated values 
+      <xref ref-type="bibr" rid="pone.0029469-Nagelkerke1">
+       [56]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Harrell1">
+       [57]
+      </xref>. Somers' 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e004" xlink:type="simple" />
+      </inline-formula> measures the correlation between predicted survival probability and a binary (0–1) variable 
+      <xref ref-type="bibr" rid="pone.0029469-Harrell1">
+       [57]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Somers1">
+       [58]
+      </xref>. The 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e005" xlink:type="simple" />
+      </inline-formula> values range from −1 (where all live trees were classified as dead and vice versa) to 1 (all classifications were correct). All calculations were carried out in R version 2.10.0 
+      <xref ref-type="bibr" rid="pone.0029469-R1">
+       [59]
+      </xref>, using the “lme4” package 
+      <xref ref-type="bibr" rid="pone.0029469-Bates1">
+       [60]
+      </xref> with the Laplace method 
+      <xref ref-type="bibr" rid="pone.0029469-Bolker1">
+       [50]
+      </xref>.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>Community-level analysis</title> 
+     <p>We assessed the role of tree size, the biotic neighborhood (i.e. frequency of neighboring conspecific basal area and total basal area of all neighbors), and local abiotic variables (i.e. soil properties and topography) on tree survival using generalized liner mixed models and compared the likelihood of models of increasing complexity to determine the best fit model. At the community-level, the model including all factors proved the best fit for tree survival (as indicated by the lowest AIC; 
+      <xref ref-type="table" rid="pone-0029469-t001">
+       Table 1
+      </xref>), suggesting that tree size, abiotic and biotic factors all have significant effects on tree survival in the CBS temperate forest plot. However, low values of Nagelkerke's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e006" xlink:type="simple" />
+      </inline-formula> (0.118) and Somer's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e007" xlink:type="simple" />
+      </inline-formula> (0.452) (
+      <xref ref-type="table" rid="pone-0029469-t002">
+       Table 2
+      </xref>), measures of goodness of fit, suggest that much of the variation in probability of mortality remained unexplained. Of these influential factors, tree size (i.e. dbh) had the strongest impact on survival (
+      <xref ref-type="fig" rid="pone-0029469-g001">
+       Figure 1
+      </xref>), with larger trees having an increased probability of survival. Frequency of conspecifics and total basal area of all neighboring trees within 20 m both had negative effects on survival. In addition, we found evidence that tree survival was influenced by soil factors (
+      <xref ref-type="fig" rid="pone-0029469-g001">
+       Figure 1
+      </xref>). Specifically, the probability of survival was affected by soil PC1 (the first axis of a PCA using eight soil variables), which was associated with high concentrations of total K and low concentrations of organic matter and total N (
+      <xref ref-type="supplementary-material" rid="pone.0029469.s002">
+       Table S1
+      </xref>). In contrast, topographic factors (elevation, slope and aspect) had no significant effects on tree survival (
+      <xref ref-type="fig" rid="pone-0029469-g001">
+       Figure 1
+      </xref>).</p> 
+     <fig id="pone-0029469-g001" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Standardized parameter estimates (±2 SE) of abiotic and biotic variables and size on tree survival for all species in the Changbai temperate forest.</title> 
+      <p>Filled circles indicate significant effects (
+       <italic>
+        P
+       </italic>&lt;0.05).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.g001" xlink:type="simple" /> 
+     </fig> 
+     <table-wrap id="pone-0029469-t001" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>AIC values of the generalized linear mixed models of tree survival at the community and guild level.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0029469-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.t001" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Candidatemodels</td> 
+          <td align="left" colspan="1" rowspan="1">All species</td> 
+          <td align="left" colspan="4" rowspan="1">Abundance</td> 
+          <td align="left" colspan="3" rowspan="1">Shade-tolerance</td> 
+          <td align="left" colspan="3" rowspan="1">Tree size</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Very rare</td> 
+          <td align="left" colspan="1" rowspan="1">Rare</td> 
+          <td align="left" colspan="1" rowspan="1">Common</td> 
+          <td align="left" colspan="1" rowspan="1">Very common</td> 
+          <td align="left" colspan="1" rowspan="1">Shade-tolerant</td> 
+          <td align="left" colspan="1" rowspan="1">Mid-tolerant</td> 
+          <td align="left" colspan="1" rowspan="1">Light-demanding</td> 
+          <td align="left" colspan="1" rowspan="1">Small trees</td> 
+          <td align="left" colspan="1" rowspan="1">medium trees</td> 
+          <td align="left" colspan="1" rowspan="1">large trees</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Size</td> 
+          <td align="left" colspan="1" rowspan="1">19753.71</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            580.55
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">3519.88</td> 
+          <td align="left" colspan="1" rowspan="1">6588.36</td> 
+          <td align="left" colspan="1" rowspan="1">9053.79</td> 
+          <td align="left" colspan="1" rowspan="1">16175.32</td> 
+          <td align="left" colspan="1" rowspan="1">2053.64</td> 
+          <td align="left" colspan="1" rowspan="1">1525.81</td> 
+          <td align="left" colspan="1" rowspan="1">16798.93</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            961.73
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">577.96</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Abiotic</td> 
+          <td align="left" colspan="1" rowspan="1">19718.51</td> 
+          <td align="left" colspan="1" rowspan="1">584.94</td> 
+          <td align="left" colspan="1" rowspan="1">3519.56</td> 
+          <td align="left" colspan="1" rowspan="1">6565.15</td> 
+          <td align="left" colspan="1" rowspan="1">9029.77</td> 
+          <td align="left" colspan="1" rowspan="1">16140.39</td> 
+          <td align="left" colspan="1" rowspan="1">2058.27</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            1523.01
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">16769.66</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            961.65
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">586.13</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Biotic</td> 
+          <td align="left" colspan="1" rowspan="1">19712.22</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            581.45
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            3512.13
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">6583.34</td> 
+          <td align="left" colspan="1" rowspan="1">9017.89</td> 
+          <td align="left" colspan="1" rowspan="1">16148.04</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            2050.55
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            1521.42
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">16758.51</td> 
+          <td align="left" colspan="1" rowspan="1">964.16</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            570.11
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">All factors</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            19698.53
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">585.89</td> 
+          <td align="left" colspan="1" rowspan="1">3515.28</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            6563.68
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            9008.16
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            16130.69
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">2055.53</td> 
+          <td align="left" colspan="1" rowspan="1">1523.50</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            16745.5
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">965.14</td> 
+          <td align="left" colspan="1" rowspan="1">575.14</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label></label> 
+        <p>AIC values of the most likely models are shown in bold. Size, Abiotic, Biotic and All factors represent models with only tree size, tree size and abiotic factors, tree size and biotic factors, and all factors included, respectively. Very rare, rare, common, very common denote abundance classes with 1–100, 100–1000, 1000–5000 and &gt;5000 individuals, respectively. Small, medium, and large tree size classes include individuals with 1–20 cm, 20–40 cm, and &gt;40 cm dbh, respectively.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <table-wrap id="pone-0029469-t002" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Predictive and discriminative measures (&lt;inline-formula&gt;&lt;inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e008" xlink:type="simple"/&gt;&lt;/inline-formula&gt; and &lt;inline-formula&gt;&lt;inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e009" xlink:type="simple"/&gt;&lt;/inline-formula&gt;) of the generalized linear mixed models of tree survival at the community and guild level.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0029469-t002-2" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.t002" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">All species</td> 
+          <td align="left" colspan="4" rowspan="1">Abundance</td> 
+          <td align="left" colspan="3" rowspan="1">Shade-tolerance</td> 
+          <td align="left" colspan="3" rowspan="1">Tree size</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">Very rare</td> 
+          <td align="left" colspan="1" rowspan="1">Rare</td> 
+          <td align="left" colspan="1" rowspan="1">Common</td> 
+          <td align="left" colspan="1" rowspan="1">Very common</td> 
+          <td align="left" colspan="1" rowspan="1">Shade-tolerant</td> 
+          <td align="left" colspan="1" rowspan="1">Mid-tolerant</td> 
+          <td align="left" colspan="1" rowspan="1">Light-demanding</td> 
+          <td align="left" colspan="1" rowspan="1">Small trees</td> 
+          <td align="left" colspan="1" rowspan="1">Medium trees</td> 
+          <td align="left" colspan="1" rowspan="1">Large trees</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e010" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">0.118</td> 
+          <td align="left" colspan="1" rowspan="1">0.177</td> 
+          <td align="left" colspan="1" rowspan="1">0.170</td> 
+          <td align="left" colspan="1" rowspan="1">0.092</td> 
+          <td align="left" colspan="1" rowspan="1">0.090</td> 
+          <td align="left" colspan="1" rowspan="1">0.118</td> 
+          <td align="left" colspan="1" rowspan="1">0.099</td> 
+          <td align="left" colspan="1" rowspan="1">0.107</td> 
+          <td align="left" colspan="1" rowspan="1">0.098</td> 
+          <td align="left" colspan="1" rowspan="1">0.017</td> 
+          <td align="left" colspan="1" rowspan="1">0.044</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e011" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1">0.452</td> 
+          <td align="left" colspan="1" rowspan="1">0.542</td> 
+          <td align="left" colspan="1" rowspan="1">0.526</td> 
+          <td align="left" colspan="1" rowspan="1">0.419</td> 
+          <td align="left" colspan="1" rowspan="1">0.383</td> 
+          <td align="left" colspan="1" rowspan="1">0.446</td> 
+          <td align="left" colspan="1" rowspan="1">0.453</td> 
+          <td align="left" colspan="1" rowspan="1">0.430</td> 
+          <td align="left" colspan="1" rowspan="1">0.402</td> 
+          <td align="left" colspan="1" rowspan="1">0.206</td> 
+          <td align="left" colspan="1" rowspan="1">0.387</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+     </table-wrap> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Guild-level analysis</title> 
+     <p>When analyzing different life history guilds separately, we found that the relative importance of factors influencing tree survival varied among guilds. Similar to the community-level analysis, the values of Nagelkerke's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e012" xlink:type="simple" />
+      </inline-formula> and Somer's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e013" xlink:type="simple" />
+      </inline-formula> of the best fit model for each guild were relatively low (
+      <xref ref-type="table" rid="pone-0029469-t002">
+       Table 2
+      </xref>).</p> 
+     <p>Among the three shade-tolerance guilds (light-demanding, mid-tolerant and shade-tolerant), there were several differences in the relative importance of factors effecting tree survival. For the light-demanding group, the model with the lowest AIC only included tree size and biotic factors. That model could not be statistically differentiated from the model with tree size and abiotic factors (i.e. the difference in AIC was &lt;2; 
+      <xref ref-type="table" rid="pone-0029469-t001">
+       Table 1
+      </xref>), but none of the individual abiotic variables analyzed had a detectable effect on tree survival (
+      <xref ref-type="fig" rid="pone-0029469-g002">
+       Figure 2
+      </xref>). The model with tree size and biotic factors was the best fit for the mid-tolerant group, while the model with tree size, biotic and abiotic factors was the best fit for the shade-tolerant group. Similar to the community-level results, tree size had the strongest positive effect on tree survival and total basal area had a significant negative effect for all shade-tolerance groups. Frequency of neighboring conspecifics had a marginally significant negative effect for all three groups (light demanding: 
+      <italic>
+       P
+      </italic> = 0.056; mid-tolerant: 
+      <italic>
+       P
+      </italic> = 0.063; shade-tolerant: 
+      <italic>
+       P
+      </italic> = 0.059). None of the topographic factors had a significant effect, while soil factors (Soil PC1) significantly affected survival for the shade-tolerant group (
+      <xref ref-type="fig" rid="pone-0029469-g002">
+       Figure 2
+      </xref>).</p> 
+     <fig id="pone-0029469-g002" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Standardized parameter estimates (±2 SE) of abiotic and biotic variables and size on tree survival for three shade-tolerant guilds in the Changbai temperate forest.</title> 
+      <p>Filled circles indicate significant effects (
+       <italic>
+        P
+       </italic>&lt;0.05).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.g002" xlink:type="simple" /> 
+     </fig> 
+     <p>We also fit models separately for four abundance classes (very rare, rare, common, and very common). For the abundance class with very rare species, two best fit models were found (
+      <xref ref-type="table" rid="pone-0029469-t001">
+       Table 1
+      </xref>). Both models included the effect of tree size, and one also included biotic factors. The model with tree size and biotic factors was the best fit for rare species. The best fit models for common and very common species included all factors. Among these best fit models, tree size had the strongest positive effect on tree survival. Frequency of neighboring conspecific basal area and total basal area had significant negative effects on survival of trees of rare, common and very common species (
+      <xref ref-type="fig" rid="pone-0029469-g003">
+       Figure 3
+      </xref>). For the very rare class, the parameter value for conspecific neighbor frequency was more strongly negative than for the other classes, but was not significant. Effects of soil factors were found for common and very common classes, but topographical factors only contributed to survival for the very common class (
+      <xref ref-type="fig" rid="pone-0029469-g003">
+       Figure 3
+      </xref>).</p> 
+     <fig id="pone-0029469-g003" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Standardized parameter estimates (±2 SE) of abiotic and biotic variables and size on tree survival for three abundance classes in the Changbai temperate forest.</title> 
+      <p>Filled circles indicate significant effects (
+       <italic>
+        P
+       </italic>&lt;0.05). Abund1, Abund2, Abund3 and Abund4 show abundance classes with &lt;100, 100–1000, 1000–5000 and &gt;5000 individuals, respectively.</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.g003" xlink:type="simple" /> 
+     </fig> 
+     <p>The factors driving tree survival also varied when dividing individuals into three tree size classes (small, medium and large). For large individuals (dbh&gt;40 cm), the best fit model included tree size and biotic factors, while the best model for the small size group (1–20 cm dbh) included all factors (
+      <xref ref-type="table" rid="pone-0029469-t001">
+       Table 1
+      </xref>). For medium trees (20–40 cm dbh), the best fit model included tree size, but it was not statistically different from the model that included tree size and abiotic factors (i.e. the difference in AIC was &lt;2; 
+      <xref ref-type="table" rid="pone-0029469-t001">
+       Table 1
+      </xref>). However, none of abiotic factors analyzed had a detectable effect on tree survival for the medium size group (
+      <xref ref-type="fig" rid="pone-0029469-g004">
+       Figure 4
+      </xref>). In the three size groups, tree size did not always show strong positive effects on survival. For the small and medium size groups, survival increased strongly with increasing tree size. For the large size group, however, the relationship was slightly negative, but not significant. Total basal area of all neighboring trees had strong negative effects on tree survival for the small and large size groups, but frequency of neighboring conspecific basal area only had a significant negative effect on trees in the small size group (
+      <xref ref-type="fig" rid="pone-0029469-g004">
+       Figure 4
+      </xref>). Topographic factors had no significant effects on tree survival for any of the three size groups, but the survival of small trees was effected by soil factors (Soil PC1; 
+      <xref ref-type="fig" rid="pone-0029469-g004">
+       Figure 4
+      </xref>).</p> 
+     <fig id="pone-0029469-g004" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Standardized parameter estimates (±2 SE) of abiotic and biotic variables and size on tree survival for three tree size classes in the Changbai temperate forest.</title> 
+      <p>Small trees, Medium trees and Large trees show tree size classes with 1–20 cm, 20–40 cm and &gt;40 cm dbh, respectively. Filled circles indicate significant effects (
+       <italic>
+        P
+       </italic>&lt;0.05).</p>  
+      <graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.g004" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Species-level analysis</title> 
+     <p>There were large differences in the best fit models for twenty species that were analyzed individually (
+      <xref ref-type="table" rid="pone-0029469-t003">
+       Table 3
+      </xref>). Values of Nagelkerke's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e014" xlink:type="simple" />
+      </inline-formula> and Somer's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e015" xlink:type="simple" />
+      </inline-formula> of the best fit models for these species differed greatly (
+      <xref ref-type="table" rid="pone-0029469-t004">
+       Table 4
+      </xref>). Nagelkerke's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e016" xlink:type="simple" />
+      </inline-formula> ranged from 0.026 (
+      <italic>
+       Syringa reticulata
+      </italic>) to 0.304 (
+      <italic>
+       Tilia mandshurica
+      </italic>). Somer's 
+      <inline-formula>
+       <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e017" xlink:type="simple" />
+      </inline-formula> varied from 0.170 (
+      <italic>
+       S. reticulata
+      </italic>) to 0.692 (
+      <italic>
+       T. amurensis
+      </italic>), with 5 species higher than 0.6.</p> 
+     <table-wrap id="pone-0029469-t003" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.t003
+      </object-id>
+      <label>Table 3</label> 
+      <title>AIC values of the generalized linear mixed models of tree survival for 20 tree species with &gt;100 individuals.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0029469-t003-3" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.t003" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Species</td> 
+          <td align="left" colspan="1" rowspan="1">Size</td> 
+          <td align="left" colspan="1" rowspan="1">Abiotic</td> 
+          <td align="left" colspan="1" rowspan="1">Biotic</td> 
+          <td align="left" colspan="1" rowspan="1">All factors</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Corylus mandshurica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">6271.48</td> 
+          <td align="left" colspan="1" rowspan="1">6253.91</td> 
+          <td align="left" colspan="1" rowspan="1">6247.28</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            6240.24
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer mono
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">2739.86</td> 
+          <td align="left" colspan="1" rowspan="1">2740.21</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            2727.72
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">2733.22</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer pseudo-sieboldianum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">1938.94</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            1925.24
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">1939.84</td> 
+          <td align="left" colspan="1" rowspan="1">1929.05</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer barbinerve
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">2017.28</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            1994.27
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">2010.67</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            1993.12
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Tilia amurensis
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">793.10</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            775.65
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">790.39</td> 
+          <td align="left" colspan="1" rowspan="1">779.42</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Pinus koraiensis
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            722.02
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">725.47</td> 
+          <td align="left" colspan="1" rowspan="1">724.87</td> 
+          <td align="left" colspan="1" rowspan="1">728.51</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Syringa reticulata
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">1070.24</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            1066.53
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">1069.44</td> 
+          <td align="left" colspan="1" rowspan="1">1070.21</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Ulmus japonica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">519.25</td> 
+          <td align="left" colspan="1" rowspan="1">519.63</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            515.15
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            516.67
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Quercus mongolica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">256.28</td> 
+          <td align="left" colspan="1" rowspan="1">263.88</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            253.26
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">262.12</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Maackia amurensis
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            557.86
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">561.53</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            558.19
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">562.47</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Fraxinus mandshurica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">175.68</td> 
+          <td align="left" colspan="1" rowspan="1">180.16</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            172.42
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">176.23</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer tegmentosum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">334.25</td> 
+          <td align="left" colspan="1" rowspan="1">330.10</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            325.65
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            324.19
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Prunus padus
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            401.65
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            403.18
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            402.60
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">406.59</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Philadelphus schrenkii
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">494.82</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            485.27
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">496.82</td> 
+          <td align="left" colspan="1" rowspan="1">489.04</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Tilia mandshurica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">291.26</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            274.06
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">291.26</td> 
+          <td align="left" colspan="1" rowspan="1">277.87</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer triflorum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">95.53</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            87.18
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">89.18</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            87.91
+           </bold> </td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer mandshuricum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            99.13
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">108.30</td> 
+          <td align="left" colspan="1" rowspan="1">101.26</td> 
+          <td align="left" colspan="1" rowspan="1">109.24</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Ulmus laciniata
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">69.81</td> 
+          <td align="left" colspan="1" rowspan="1">74.85</td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            66.75
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">73.39</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Crataegus maimowiczii
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            122.84
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">129.91</td> 
+          <td align="left" colspan="1" rowspan="1">124.95</td> 
+          <td align="left" colspan="1" rowspan="1">128.90</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Malus baccata
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <bold>
+            86.39
+           </bold> </td> 
+          <td align="left" colspan="1" rowspan="1">88.95</td> 
+          <td align="left" colspan="1" rowspan="1">89.32</td> 
+          <td align="left" colspan="1" rowspan="1">91.54</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt102"> 
+        <label></label> 
+        <p>AIC values of the most likely models are shown in bold. Size, Abiotic, Biotic and All factors correspond to models with only tree size, tree size and abiotic factors, tree size and biotic factors, and all factors included, respectively.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <table-wrap id="pone-0029469-t004" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0029469.t004
+      </object-id>
+      <label>Table 4</label> 
+      <title>Predictive and discriminative measures (&lt;inline-formula&gt;&lt;inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e018" xlink:type="simple"/&gt;&lt;/inline-formula&gt; and &lt;inline-formula&gt;&lt;inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e019" xlink:type="simple"/&gt;&lt;/inline-formula&gt;) of the generalized linear mixed models of tree survival at the species level.</title> 
+      <!--===== Grouping alternate versions of objects =====-->
+      <alternatives>
+       <graphic id="pone-0029469-t004-4" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.t004" xlink:type="simple" />
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e020" xlink:type="simple" />
+           </inline-formula> </td> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <inline-formula>
+            <inline-graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0029469.e021" xlink:type="simple" />
+           </inline-formula> </td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Corylus mandshurica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.037</td> 
+          <td align="left" colspan="1" rowspan="1">0.226</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer mono
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.035</td> 
+          <td align="left" colspan="1" rowspan="1">0.268</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer pseudo-sieboldianum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.052</td> 
+          <td align="left" colspan="1" rowspan="1">0.319</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer barbinerve
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.060</td> 
+          <td align="left" colspan="1" rowspan="1">0.333</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Tilia amurensis
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.296</td> 
+          <td align="left" colspan="1" rowspan="1">0.692</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Pinus koraiensis
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.044</td> 
+          <td align="left" colspan="1" rowspan="1">0.313</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Syringa reticulata
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.026</td> 
+          <td align="left" colspan="1" rowspan="1">0.170</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Ulmus japonica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.114</td> 
+          <td align="left" colspan="1" rowspan="1">0.444</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Quercus mongolica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.080</td> 
+          <td align="left" colspan="1" rowspan="1">0.415</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Maackia amurensis
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.044</td> 
+          <td align="left" colspan="1" rowspan="1">0.258</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Fraxinus mandshurica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.174</td> 
+          <td align="left" colspan="1" rowspan="1">0.539</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer tegmentosum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.101</td> 
+          <td align="left" colspan="1" rowspan="1">0.374</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Prunus padus
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.085</td> 
+          <td align="left" colspan="1" rowspan="1">0.337</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Philadelphus schrenkii
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.083</td> 
+          <td align="left" colspan="1" rowspan="1">0.268</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Tilia mandshurica
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.304</td> 
+          <td align="left" colspan="1" rowspan="1">0.613</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer triflorum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.279</td> 
+          <td align="left" colspan="1" rowspan="1">0.673</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Acer mandshuricum
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.096</td> 
+          <td align="left" colspan="1" rowspan="1">0.440</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Ulmus laciniata
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.267</td> 
+          <td align="left" colspan="1" rowspan="1">0.638</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Crataegus maimowiczii
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.111</td> 
+          <td align="left" colspan="1" rowspan="1">0.383</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"> 
+           <italic>
+            Malus baccata
+           </italic> </td> 
+          <td align="left" colspan="1" rowspan="1">0.261</td> 
+          <td align="left" colspan="1" rowspan="1">0.619</td> 
+         </tr> 
+        </tbody> 
+       </table>
+      </alternatives>
+     </table-wrap> 
+     <p>The effects of tree size and abiotic and biotic factors on tree survival varied among these species (
+      <xref ref-type="supplementary-material" rid="pone.0029469.s001">
+       Figure S1
+      </xref>). Tree size had the most consistent effect on survival across species: for 18 of the 20 species, tree size had the strongest positive effect on survival. The other two species (
+      <italic>
+       Acer tegmentosum
+      </italic> and 
+      <italic>
+       Crataegus maimowiczii
+      </italic>) showed no effect of tree size on tree survival. For 
+      <italic>
+       C. maimowiczii
+      </italic>, there was also no obvious effect of abiotic and biotic factors on tree survival. In total, eight of the 20 species did not show effects of abiotic and biotic factors on tree survival. Among the other 12 species, three species were affected by only abiotic factors, four species by only biotic factors, and five species by both abiotic and biotic factors. Among the biotic factors that showed effects on tree survival, frequency of neighboring conspecific basal area and total basal area of all neighbors had significant negative effects on tree survival for 4 and 5 species, respectively. One species, 
+      <italic>
+       Ulmus laciniata
+      </italic>, showed a significant positive relationship with total basal area of all neighbors.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>In this study, we used generalized linear mixed models to conduct a comprehensive analysis of the relative importance of tree size and abiotic and biotic neighborhood variables on tree survival in an old-growth temperate forest in northeastern China. Our results showed that mortality did not occur randomly, since the probability of survival was affected by size, abiotic or biotic variables in nearly all cases. Only one out of twenty species (
+     <italic>
+      C. maimowiczii)
+     </italic> showed no relationships between tree survival and the factors included in the study. In addition, Wang 
+     <italic>
+      et al
+     </italic>. 
+     <xref ref-type="bibr" rid="pone.0029469-Wang4">
+      [61]
+     </xref> analyzed the spatial pattern of mortality within the 5-year period examined, and found that, for most species, dead individuals showed an aggregated spatial pattern at different spatial scales. Together these results indicate that the random mortality hypothesis can be largely rejected for this temperate forest.</p> 
+    <sec id="s4a"> 
+     <title>Tree size effects</title> 
+     <p>Although there is no consensus on the shape of the relationship between tree size and survival, empirical and theoretical studies generally suggest that higher mortality rates occur in small tree size classes 
+      <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+       [9]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Blundell1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Brown1">
+       [62]
+      </xref>. Recently, metabolic ecology theory predicted that tree mortality rates should decrease with tree size, and tree mortality should scale with tree diameter with a constant exponent 
+      <xref ref-type="bibr" rid="pone.0029469-Brown1">
+       [62]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Coomes2">
+       [63]
+      </xref>. In the CBS forest, tree size did show a strong positive effect on tree survival for most species, but the estimated relationship between tree survival and size (i.e. log(dbh)) varied among species and guilds (
+      <xref ref-type="fig" rid="pone-0029469-g002">
+       Figures 2
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0029469-g003">
+       3
+      </xref>, and 
+      <xref ref-type="fig" rid="pone-0029469-g004">
+       4
+      </xref> and 
+      <xref ref-type="supplementary-material" rid="pone.0029469.s001">
+       Figure S1
+      </xref>). Moreover, when we classified all individuals into three size classes, we found that effects of tree size on survival turned from strongly positive for small and medium trees, to slightly negative but not significant for large trees (
+      <xref ref-type="fig" rid="pone-0029469-g004">
+       Figure 4
+      </xref>), which suggests that the rate at which survival increases with size slows down and levels off, or even declines, at large sizes. This result is consistent with previous studies that found trees did not continue to have higher survival as they became larger 
+      <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+       [9]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Coomes1">
+       [18]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Lines1">
+       [19]
+      </xref>. Therefore, metabolic ecology theory might not be applicable to our temperate forest, as has been previously demonstrated for tropical forests 
+      <xref ref-type="bibr" rid="pone.0029469-MullerLandau1">
+       [17]
+      </xref>. A possible cause is that metabolic ecology theory assumes that different size classes receive and use the same amount of energy 
+      <xref ref-type="bibr" rid="pone.0029469-Coomes2">
+       [63]
+      </xref>. This assumption may be correct in even-aged forests, but does not extend to natural mixed-aged forests where equal partitioning of energy is unlikely 
+      <xref ref-type="bibr" rid="pone.0029469-Wang3">
+       [54]
+      </xref>.</p> 
+     <p>Size was the strongest predictor of survival at the community level and for nearly all guilds and species analyzed. However, models solely including tree size were often less likely than more complex models with biotic and abiotic predictors. In a study of old-growth conifer forest in the USA, Das 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0029469-Das1">
+       [5]
+      </xref> also found that neighborhood variables, such as conspecific density, improved models used to predict tree mortality. Our results were also consistent with results from a tropical forest: Uriarte 
+      <italic>
+       et al
+      </italic>. 
+      <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+       [9]
+      </xref> found that tree survival in a Puerto Rican forest was size-dependent, but also susceptible to crowding effects of neighboring trees, species life-history traits and infrequent disturbances (e.g. hurricanes).</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Abiotic and biotic neighborhood effects</title> 
+     <p>The relative importance of abiotic and biotic factors on tree survival and species coexistence in forest communities has been the subject of a continuous debate, but researchers are now generally convinced that these mechanisms are not mutually exclusive 
+      <xref ref-type="bibr" rid="pone.0029469-Queenborough2">
+       [64]
+      </xref>. In the present study, we found that the relative importance of abiotic factors on tree survival tended to be less than that of biotic factors, at least in terms of the variables included in this study. This result may be partially caused by the small spatial variation in abiotic factors in the CBS temperate forest. Topography within the CBS plot is relatively gentle with a maximum difference in elevation of less than 18 m in the 25 ha plot 
+      <xref ref-type="bibr" rid="pone.0029469-Wang5">
+       [65]
+      </xref>. Therefore, abiotic environmental factors have low spatial heterogeneity, which may explain the relatively small effect of abiotic factors on tree survival. This result is consistent with a recent study of seedling survival in a temperate forest in Japan 
+      <xref ref-type="bibr" rid="pone.0029469-Shibata1">
+       [66]
+      </xref>, which found that significant effects of abiotic factors on seedling survival were limited, while effects of biotic variables were more common.</p> 
+     <p>However, the best fit models at the community level and for many of the guilds and species examined tended also to include abiotic factors, indicating that abiotic factors do contribute to patterns of tree mortality. Moreover, our study only included topographical and soil nutrient variables, and may have missed some other important abiotic factors, such as light (although variation in light levels will be captured in part by biotic neighborhood variables). It should also be emphasized that our study is constrained to the plot level (i.e. 25 ha) and that abiotic factors were measured at the 5×5 m scale. At larger and smaller spatial scales, the relative importance of abiotic factors may change.</p> 
+     <p>Among the biotic factors tested, total basal area of neighbors tended to have a negative impact on survival, suggesting competition for resources occurring among trees of all species leads to thinning 
+      <xref ref-type="bibr" rid="pone.0029469-White1">
+       [67]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Norberg1">
+       [68]
+      </xref>. However, the frequency of conspecific neighbor basal area also tended to have a significant negative effect on tree survival, indicating that neighbors of the same species have stronger effects than neighbors of different species, likely due to strong intraspecific competition or natural enemy effects. Although not explicitly addressed in the present study, a number of studies have implicated pathogens as a major driver of negative conspecific effects in plant communities 
+      <xref ref-type="bibr" rid="pone.0029469-Packer1">
+       [22]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Mangan1">
+       [69]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Mordecai1">
+       [70]
+      </xref>. Our results are consistent with most previous studies in both tropical 
+      <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+       [9]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Hubbell1">
+       [23]
+      </xref> and temperate forests 
+      <xref ref-type="bibr" rid="pone.0029469-He1">
+       [8]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Zhang1">
+       [28]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Zhao1">
+       [29]
+      </xref> that have found negative effects of conspecific neighbors on tree performance. These studies tended to support the idea of negative density- and frequency-dependent effects. As a result, negative density- and frequency-dependence is widely hypothesized to play an important role in population dynamics (e.g. recruitment, growth and survival) of forest trees, and these processes could further contribute to species coexistence in these communities.</p> 
+    </sec> 
+    <sec id="s4c"> 
+     <title>Variation among ecological guilds and species</title> 
+     <p>Considerable differences occurred among ecological guilds in the effects of different factors on tree survival in the CBS temperate forest. For shade-tolerance, we found that survival of light-demanding species and mid-tolerant species were influenced by the biotic, but not the abiotic factors. In contrast, the survival of shade-tolerant species was impacted by both biotic and abiotic factors. This may be because mid-tolerant species and light-demanding species are more sensitive to shading, and thus their patterns of mortality are primarily driven by competition for light (i.e. the biotic neighborhood). In addition, these guilds may be more sensitive to host-specific natural enemies 
+      <xref ref-type="bibr" rid="pone.0029469-McCarthyNeumann1">
+       [42]
+      </xref>, and therefore may be more strongly influenced by their local biotic neighborhoods 
+      <xref ref-type="bibr" rid="pone.0029469-McCarthyNeumann2">
+       [71]
+      </xref>. Among abundance classes, we found significant effects of abiotic variables only for the common and very common groups. This may reflect that more common species are more strongly impacted by soils and/or topography than less common species; however, because sample sizes were smaller for the less common species groups, our power to detect significant effects of neighborhood variables was reduced relative to analyses of the more common species groups. Previous studies in tropical forests have found that less common species suffer stronger negative effects of conspecific neighbors 
+      <xref ref-type="bibr" rid="pone.0029469-Hubbell1">
+       [23]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Comita2">
+       [43]
+      </xref>. However, our study showed that negative effects of conspecific neighbors were strongest for the very common and very rare groups (although not statistically significant for the latter), and weaker, although still significant, for the immediate abundance groups.</p> 
+     <p>Individuals in the three tree size classes also differed strongly in their survival responses. For instance, small trees were more strongly affected by abiotic factors than medium and large trees. Small trees tend to be more susceptible to local environmental conditions than larger trees 
+      <xref ref-type="bibr" rid="pone.0029469-Russo1">
+       [44]
+      </xref> and can occur in suboptimal sites as a result of seed dispersal patterns. Therefore, small trees in unfavorable habitats may grow more slowly or die off in suboptimal habitats. Thus, larger trees will be found predominantly in their preferred habitat. This is consistent with the idea that habitat filtering at smaller size classes results in adult tree habitat associations 
+      <xref ref-type="bibr" rid="pone.0029469-Comita4">
+       [72]
+      </xref>. In addition, large trees can change local abiotic properties, such as soil nutrients, over time through decades of feedback via plant litter leaching, litter decomposition and root exudation, as well as associations with micro-organisms 
+      <xref ref-type="bibr" rid="pone.0029469-Finzi1">
+       [73]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Ehrenfeld1">
+       [75]
+      </xref>.</p> 
+     <p>Total neighbor basal area had negative effects on the survival of small and large trees, but no effects on medium trees. This indicates that the basal area of neighbors influences the survival of even large trees, consistent with results from tropical forests 
+      <xref ref-type="bibr" rid="pone.0029469-Peters1">
+       [76]
+      </xref>. However, the relative importance of neighbor identity differed between the small and large size classes, with the frequency of conspecifics only having a significant, negative effect on the smaller size class. This suggests that conspecific competition, or apparent competition mediated by natural enemies 
+      <xref ref-type="bibr" rid="pone.0029469-Packer2">
+       [77]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Reinhart1">
+       [78]
+      </xref>, was stronger than heterospecific competition for small trees, but became weaker for larger trees. This result is supported by a related study in the CBS temperate plot that found that trees were more regularly spaced in large size classes 
+      <xref ref-type="bibr" rid="pone.0029469-Wang2">
+       [53]
+      </xref>, indicating that large trees have a lower probability of encountering conspecific neighbors than small trees.</p> 
+     <p>We expected species within the same guild to have similar responses to intrinsic and extrinsic factors. However, our results did not meet that expectation. For example, among the six shade-tolerant species in the Aceraceae family, the relative importance of size, abiotic and biotic factors on survival varied dramatically. None of the influential factors had consistent positive or negative effects on tree survival for these six species. 
+      <italic>
+       A. tegmentosum
+      </italic> showed no relationship between survival and tree size. Frequency of neighboring conspecifics had negligible effects on survival of 
+      <italic>
+       A. pseudo-sieboldianum
+      </italic> and 
+      <italic>
+       A. mandshuricum.
+      </italic> Total neighbor basal area only had negative effects on tree survival of 
+      <italic>
+       A. mono
+      </italic>. Only half of the six species showed a detectable relationship between survival and abiotic factors. None of these results conformed to the guild-level results for the shade-tolerant guild. The contradiction between the guild-level and species-level analysis may result from the fact that species within a particular guild (e.g. shade tolerant) often varied in terms of other characteristics that influenced survival patterns. For example, the six shade-tolerant species in the Aceraceae family were grouped into three different abundance guilds (two in the very common class, one in the common class and three in the rare class). Also, tree size distributions varied greatly among these species 
+      <xref ref-type="bibr" rid="pone.0029469-Wang3">
+       [54]
+      </xref>. All these contributed to differences among species. This is consistent with a recent study of seedling survival in a tropical forest where considerable variation occurred among individual species even within the same guild 
+      <xref ref-type="bibr" rid="pone.0029469-Comita5">
+       [79]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4d"> 
+     <title>Shortcomings of the analysis</title> 
+     <p>Our study presents comprehensive analyses on the relative effects of tree size, abiotic and biotic factors on tree survival in a relatively diverse temperate forest and demonstrates that multiple factors collectively determine a tree's probability of survival. However, the factors included in our study are insufficient to fully understand and predict tree survival in the CBS temperate forest, as suggested by the relatively low predictive and discriminative ability of our models (
+      <xref ref-type="table" rid="pone-0029469-t002">
+       Tables 2
+      </xref> and 
+      <xref ref-type="table" rid="pone-0029469-t004">
+       4
+      </xref>). Several shortcomings likely affected our results. One is that tree survival is a long-term and complex process that is influenced by many factors, including random events, and our analysis included only a single 5 year census interval. Data are needed on forest dynamics over a larger temporal horizon (e.g. centuries) to capture all the relevant information about survival processes in long-lived trees. Second, other factors that may affect tree survival are not explicitly included in the analysis, such as climate change 
+      <xref ref-type="bibr" rid="pone.0029469-Lines1">
+       [19]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Slik1">
+       [80]
+      </xref>, light 
+      <xref ref-type="bibr" rid="pone.0029469-Davies1">
+       [81]
+      </xref>, pathogen or insect attack 
+      <xref ref-type="bibr" rid="pone.0029469-Filip1">
+       [82]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Maloney1">
+       [83]
+      </xref>, etc. Third, it is difficult to measure the effective neighborhood radius for each tree; hence a fixed maximum distance of influence (i.e. 20 m) was used in the analysis. In addition, by grouping all heterospecific neighbors together, our analysis did not consider species-specific effects on neighbor survival. Previous studies have shown that the effects of different species on plant performance can be asymmetric 
+      <xref ref-type="bibr" rid="pone.0029469-Uriarte1">
+       [9]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0029469-Canham1">
+       [25]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4e"> 
+     <title>Conclusions</title> 
+     <p>Our study suggests that intrinsic tree size, density- and frequency-dependent effects and niche partitioning with respect to soil and topographic factors contribute to the regulation of the CBS temperate forest community, but the relative importance of these factors varies dramatically among guilds and species. Although the implications of this result for tree species diversity remain to be explored, they imply that attempts to understand, conserve and manage temperate forests should explicitly consider the relative importance of intrinsic and extrinsic factors on forest dynamics. Specifically, if the CBS temperate forest is typical of other temperate forest regions, then one prediction of metabolic ecology theory, that tree mortality should scale with tree diameter with a constant negative exponent 
+      <xref ref-type="bibr" rid="pone.0029469-Brown1">
+       [62]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0029469-Coomes2">
+       [63]
+      </xref>, should be rejected. Survival did not continue increasing with tree size and the exponent varied greatly among species. Furthermore, we found strong evidence of negative density dependence, with the frequency of conspecific neighbors having a particularly strong negative impact on survival. This suggests that negative frequency dependence may play a role in the maintenance of diversity in this temperate forest. In addition, our study demonstrates that the relative importance of local-scale variables driving patterns of tree survival varies greatly among species, size classes, guilds and abundance classes in temperate forests. Therefore, predictive models and management decisions should be designed with this variation in mind.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0029469.s001" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Estimated effects (±2 SE) of abiotic and biotic variables on tree survival for 20 species with &gt;100 individuals in the Changbai temperate forest.
+      </bold> Filled circles indicate significant effects (p&lt;0.05).</p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0029469.s002" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.s002" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p> 
+      <bold>
+       Factor loadings of the first two components of the PCA on soil variables from the Changbai temperate forest plot.
+      </bold> </p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0029469.s003" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0029469.s003" xlink:type="simple"> 
+     <label>Table S2</label>  
+     <p> 
+      <bold>
+       Parameters used in models of tree survival in the Changbaishan temperate forest, northeastern China.
+      </bold> </p> 
+     <p>(DOC)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We thank Adrian Das and Richard Condit for valuable comments on the manuscript. We thank the CBS plot census and data management teams, and especially thank Buhang Li, Xuejiao Bai, Liwei Wang, and Dingliang Xing, for assistance with field work and data collection.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0029469-Franklin1"> 
+      <label>1</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Franklin
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Shugart
+         </surname>
+         <given-names>
+          HH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harmon
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1987
+       </year> 
+       <article-title>
+        Tree death as an ecological process.
+       </article-title> 
+       <source>Ecoscience 
+       <volume>
+        37
+       </volume> 
+       <fpage>
+        550
+       </fpage> 
+       <lpage>
+        556
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Hibbs1"> 
+      <label>2</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hibbs
+         </surname>
+         <given-names>
+          DE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1983
+       </year> 
+       <article-title>
+        Forty years of forest succession in central New England.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        64
+       </volume> 
+       <fpage>
+        1394
+       </fpage> 
+       <lpage>
+        1401
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Runkle1"> 
+      <label>3</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Runkle
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Canopy tree turnover in old-growth mesic forests of eastern North America.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        554
+       </fpage> 
+       <lpage>
+        567
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Lutz1"> 
+      <label>4</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lutz
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Halpern
+         </surname>
+         <given-names>
+          CB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Tree mortality during early forest development: a long-term study of rates, causes, and consequences.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        76
+       </volume> 
+       <fpage>
+        257
+       </fpage> 
+       <lpage>
+        275
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Das1"> 
+      <label>5</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Das
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Battles
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          van Mantgem
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stephenson
+         </surname>
+         <given-names>
+          NL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Spatial elements of mortality risk in old-growth forests.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        1744
+       </fpage> 
+       <lpage>
+        1756
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Sterner1"> 
+      <label>6</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Sterner
+         </surname>
+         <given-names>
+          RW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ribic
+         </surname>
+         <given-names>
+          CA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schatz
+         </surname>
+         <given-names>
+          GE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1986
+       </year> 
+       <article-title>
+        Testing for life historical changes in spatial patterns of four tropical tree species.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        74
+       </volume> 
+       <fpage>
+        621
+       </fpage> 
+       <lpage>
+        633
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Kenkel1"> 
+      <label>7</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kenkel
+         </surname>
+         <given-names>
+          NC
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1988
+       </year> 
+       <article-title>
+        Pattern of self-thinning in Jack pine: testing the random mortality hypothesis.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        69
+       </volume> 
+       <fpage>
+        1017
+       </fpage> 
+       <lpage>
+        1024
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-He1"> 
+      <label>8</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          He
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Duncan
+         </surname>
+         <given-names>
+          RP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Density-dependent effects on tree survival in an old growth Douglas fir forest.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        676
+       </fpage> 
+       <lpage>
+        688
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Uriarte1"> 
+      <label>9</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Uriarte
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canham
+         </surname>
+         <given-names>
+          CD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zimmerman
+         </surname>
+         <given-names>
+          JK
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        A neighborhood analysis of tree growth and survival in a hurricane-driven tropical forest.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        74
+       </volume> 
+       <fpage>
+        591
+       </fpage> 
+       <lpage>
+        614
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Clark1"> 
+      <label>10</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname>
+         <given-names>
+          DB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1992
+       </year> 
+       <article-title>
+        Life history diversity of canopy and emergent trees in a Neotropical rain forest.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        62
+       </volume> 
+       <fpage>
+        315
+       </fpage> 
+       <lpage>
+        344
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Blundell1"> 
+      <label>11</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Blundell
+         </surname>
+         <given-names>
+          AG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Peart
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Growth strategies of a shade tolerant tree: the interactive effects of herbivory and canopy gaps.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        608
+       </fpage> 
+       <lpage>
+        615
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Weiner1"> 
+      <label>12</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Weiner
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1990
+       </year> 
+       <article-title>
+        Asymmetric competition in plant populations.
+       </article-title> 
+       <source>Trends in Ecology and Evolution 
+       <volume>
+        5
+       </volume> 
+       <fpage>
+        360
+       </fpage> 
+       <lpage>
+        364
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Woods1"> 
+      <label>13</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Woods
+         </surname>
+         <given-names>
+          KD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Dynamics in late-successional hemlock-hardwood forests over three decades.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        110
+       </fpage> 
+       <lpage>
+        126
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Keane1"> 
+      <label>14</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Keane
+         </surname>
+         <given-names>
+          RE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Austin
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Field
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Huth
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lexer
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Tree mortality in gap models: application to climate change.
+       </article-title> 
+       <source>Climate Change 
+       <volume>
+        51
+       </volume> 
+       <fpage>
+        509
+       </fpage> 
+       <lpage>
+        540
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Lorimer1"> 
+      <label>15</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lorimer
+         </surname>
+         <given-names>
+          CG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dahir
+         </surname>
+         <given-names>
+          SE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nordheim
+         </surname>
+         <given-names>
+          EV
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Tree mortality rates and longevity in mature and old-growth hemlock-hardwood forests.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        960
+       </fpage> 
+       <lpage>
+        971
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Yao1"> 
+      <label>16</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Yao
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Titus
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          MacDonald
+         </surname>
+         <given-names>
+          SE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        A generalized logistic model of individual tree mortality for aspen, white spruce, and lodgepole pine in Alberta mixed wood forests.
+       </article-title> 
+       <source>Canadian Journal of Forest Research 
+       <volume>
+        31
+       </volume> 
+       <fpage>
+        283
+       </fpage> 
+       <lpage>
+        291
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-MullerLandau1"> 
+      <label>17</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Muller-Landau
+         </surname>
+         <given-names>
+          HC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Chave
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thomas
+         </surname>
+         <given-names>
+          SC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bohlman
+         </surname>
+         <given-names>
+          SA
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Testing metabolic ecology theory for allometric scaling of tree size, growth and mortality in tropical forests.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        9
+       </volume> 
+       <fpage>
+        575
+       </fpage> 
+       <lpage>
+        588
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Coomes1"> 
+      <label>18</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Coomes
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Allen
+         </surname>
+         <given-names>
+          RB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Mortality and tree-size distributions in natural mixed-age forests.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        95
+       </volume> 
+       <fpage>
+        27
+       </fpage> 
+       <lpage>
+        40
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Lines1"> 
+      <label>19</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lines
+         </surname>
+         <given-names>
+          ER
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Coomes
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Purves
+         </surname>
+         <given-names>
+          DW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Influences of forest structure, climate and species composition on tree mortality across the Eastern US.
+       </article-title> 
+       <source>PloS One 
+       <volume>
+        5
+       </volume> 
+       <fpage>
+        e13212
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Nakashizuka1"> 
+      <label>20</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Nakashizuka
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Species coexistence in temperate, mixed deciduous forests.
+       </article-title> 
+       <source>Trends in Ecology and Evolution 
+       <volume>
+        16
+       </volume> 
+       <fpage>
+        205
+       </fpage> 
+       <lpage>
+        210
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Wright1"> 
+      <label>21</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wright
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Plant diversity in tropical forests: a review of mechanisms of species coexistence.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        130
+       </volume> 
+       <fpage>
+        1
+       </fpage> 
+       <lpage>
+        14
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Packer1"> 
+      <label>22</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Packer
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clay
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Soil pathogens and spatial patterns of seedling mortality in a temperate tree.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        404
+       </volume> 
+       <fpage>
+        278
+       </fpage> 
+       <lpage>
+        281
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Hubbell1"> 
+      <label>23</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ahumada
+         </surname>
+         <given-names>
+          JA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Foster
+         </surname>
+         <given-names>
+          RB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Local neighborhood effects on long-term survival of individual trees in a Neotropical forest.
+       </article-title> 
+       <source>Ecological Research 
+       <volume>
+        16
+       </volume> 
+       <fpage>
+        859
+       </fpage> 
+       <lpage>
+        875
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-HilleRisLambers1"> 
+      <label>24</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          HilleRisLambers
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname>
+         <given-names>
+          JS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Beckage
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Density-dependent mortality and the latitudinal gradient in species diversity.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        417
+       </volume> 
+       <fpage>
+        732
+       </fpage> 
+       <lpage>
+        735
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Canham1"> 
+      <label>25</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Canham
+         </surname>
+         <given-names>
+          CD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Papaik
+         </surname>
+         <given-names>
+          MJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Uriarte
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          McWilliams
+         </surname>
+         <given-names>
+          WH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jenkins
+         </surname>
+         <given-names>
+          JC
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Neighborhood analyses of canopy tree competition along environmental gradients in New England forests.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        16
+       </volume> 
+       <fpage>
+        540
+       </fpage> 
+       <lpage>
+        554
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Queenborough1"> 
+      <label>26</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Queenborough
+         </surname>
+         <given-names>
+          SA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Burslem
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Garwood
+         </surname>
+         <given-names>
+          NC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Valencia
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Neighborhood and community interactions determine the spatial pattern of tropical tree seedling survival.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        88
+       </volume> 
+       <fpage>
+        2248
+       </fpage> 
+       <lpage>
+        2258
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Comita1"> 
+      <label>27</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Comita
+         </surname>
+         <given-names>
+          LS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Local neighborhood and species' shade tolerance influence survival in a diverse seedling bank.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        328
+       </fpage> 
+       <lpage>
+        334
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Zhang1"> 
+      <label>28</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hao
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Sun
+         </surname>
+         <given-names>
+          IF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Song
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ye
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Density dependence on tree survival in an old-growth temperate forest in northeastern China.
+       </article-title> 
+       <source>Annuals of Forest Sciences 
+       <volume>
+        66
+       </volume> 
+       <fpage>
+        204
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Zhao1"> 
+      <label>29</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Zhao
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Borders
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wilson
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rathbun
+         </surname>
+         <given-names>
+          SL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Modeling neighborhood effects on the growth and survival of individual trees in a natural temperate species-rich forest.
+       </article-title> 
+       <source>Ecological Modelling 
+       <volume>
+        196
+       </volume> 
+       <fpage>
+        90
+       </fpage> 
+       <lpage>
+        102
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Castagneri1"> 
+      <label>30</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Castagneri
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lingua
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Vacchiano
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Nolad
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Motta
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Diachronic analysis of individual-tree mortality in a Norway spruce stand in the eastern Italian Alps.
+       </article-title> 
+       <source>Annuals of Forest Science 
+       <volume>
+        67
+       </volume> 
+       <fpage>
+        304
+       </fpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Janzen1"> 
+      <label>31</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Janzen
+         </surname>
+         <given-names>
+          DH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1970
+       </year> 
+       <article-title>
+        Herbivores and the number of tree species in tropical forests.
+       </article-title> 
+       <source>American Naturalist 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        501
+       </fpage> 
+       <lpage>
+        528
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Connell1"> 
+      <label>32</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Connell
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1971
+       </year> 
+       <article-title>
+        On the role of natural enemies in preventing competitive exclusion in some marine animals and in rain forest trees.
+       </article-title> 
+       <person-group person-group-type="editor">
+        <name name-style="western">
+         <surname>
+          den Boer
+         </surname>
+         <given-names>
+          PJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gradwell
+         </surname>
+         <given-names>
+          GR
+         </given-names>
+        </name>
+       </person-group> 
+       <source>Dynamics of numbers in populations 
+       <publisher-loc>
+        Wageningen, Netherlands
+       </publisher-loc> 
+       <publisher-name>
+        Centre for Agricultural Publishing and Documentation
+       </publisher-name> 
+       <fpage>
+        298
+       </fpage> 
+       <lpage>
+        312
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Chesson1"> 
+      <label>33</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Chesson
+         </surname>
+         <given-names>
+          P
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2000
+       </year> 
+       <article-title>
+        Mechanisms of maintenance of species diversity.
+       </article-title> 
+       <source>Annual Review of Ecology and Systematics 
+       <volume>
+        31
+       </volume> 
+       <fpage>
+        343
+       </fpage> 
+       <lpage>
+        358
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Volkov1"> 
+      <label>34</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Volkov
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Banavar
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          He
+         </surname>
+         <given-names>
+          FL
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Maritan
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Density dependence explains tree species abundance and diversity in tropical forests.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        438
+       </volume> 
+       <fpage>
+        658
+       </fpage> 
+       <lpage>
+        661
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Condit1"> 
+      <label>35</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Foster
+         </surname>
+         <given-names>
+          RB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1994
+       </year> 
+       <article-title>
+        Density dependence in two understory tree species in a Neotropical forest.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        75L
+       </volume> 
+       <fpage>
+        671
+       </fpage> 
+       <lpage>
+        680
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Harms1"> 
+      <label>36</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Harms
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Foster
+         </surname>
+         <given-names>
+          RB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Habitat associations of trees and shrubs in a 50-ha Neotropical forest plot.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        947
+       </fpage> 
+       <lpage>
+        959
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-John1"> 
+      <label>37</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          John
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Dalling
+         </surname>
+         <given-names>
+          JW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harms
+         </surname>
+         <given-names>
+          KE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Yavitt
+         </surname>
+         <given-names>
+          JB
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Stallard
+         </surname>
+         <given-names>
+          RF
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Soil nutrients influence spatial distributions of tropical tree species.
+       </article-title> 
+       <source>Proceedings of the National Academy of Science
+       <italic>
+        s
+       </italic> 
+       <volume>
+        104
+       </volume> 
+       <fpage>
+        864
+       </fpage> 
+       <lpage>
+        869
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Kunstler1"> 
+      <label>38</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Kunstler
+         </surname>
+         <given-names>
+          G
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Coomes
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canham
+         </surname>
+         <given-names>
+          CD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Size-dependence of growth and mortality influence the shade tolerance of trees in a lowland temperate rain forest.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        97
+       </volume> 
+       <fpage>
+        685
+       </fpage> 
+       <lpage>
+        695
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Coley1"> 
+      <label>39</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Coley
+         </surname>
+         <given-names>
+          PD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1980
+       </year> 
+       <article-title>
+        Effects of leaf age and plant life history patterns on herbivory.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        284
+       </volume> 
+       <fpage>
+        545
+       </fpage> 
+       <lpage>
+        546
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Loehle1"> 
+      <label>40</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Loehle
+         </surname>
+         <given-names>
+          C
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1988
+       </year> 
+       <article-title>
+        Tree life history strategies: the role of defenses.
+       </article-title> 
+       <source>Canadian Journal of Forest Research 
+       <volume>
+        18
+       </volume> 
+       <fpage>
+        209
+       </fpage> 
+       <lpage>
+        222
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Imaji1"> 
+      <label>41</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Imaji
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Seiwa
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Carbon allocation to defense, storage, and growth in seedlings of two temperate broad-leaved tree species.
+       </article-title> 
+       <source>Oecologia 
+       <volume>
+        162
+       </volume> 
+       <fpage>
+        273
+       </fpage> 
+       <lpage>
+        281
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-McCarthyNeumann1"> 
+      <label>42</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          McCarthy-Neumann
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kobe
+         </surname>
+         <given-names>
+          RK
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Tolerance of soil pathogens co-varies with shade tolerance across species of tropical tree seedlings.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        89
+       </volume> 
+       <fpage>
+        1883
+       </fpage> 
+       <lpage>
+        1892
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Comita2"> 
+      <label>43</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Comita
+         </surname>
+         <given-names>
+          LS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Muller-Landau
+         </surname>
+         <given-names>
+          HC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Aguilar
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Asymmetric density dependence shapes species abundances in a tropical tree community.
+       </article-title> 
+       <source>Science 
+       <volume>
+        329
+       </volume> 
+       <fpage>
+        330
+       </fpage> 
+       <lpage>
+        332
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Russo1"> 
+      <label>44</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Russo
+         </surname>
+         <given-names>
+          SE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Davies
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          King
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tan
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Soil-related performance variation and distributions of tree species in a Bornean rain forest.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        93
+       </volume> 
+       <fpage>
+        879
+       </fpage> 
+       <lpage>
+        889
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Comita3"> 
+      <label>45</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Comita
+         </surname>
+         <given-names>
+          LS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hubbell
+         </surname>
+         <given-names>
+          SP
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2007
+       </year> 
+       <article-title>
+        Developmental changes in habitat associations of tropical trees.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        95
+       </volume> 
+       <fpage>
+        482
+       </fpage> 
+       <lpage>
+        492
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Hao1"> 
+      <label>46</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Hao
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Li
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ye
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Broad-leaved Korean pine mixed forest plot in Changbaishan (CBS) of China: Community composition and structure.
+       </article-title> 
+       <source>Acta Phytoecologica Sinica 
+       <volume>
+        32
+       </volume> 
+       <fpage>
+        238
+       </fpage> 
+       <lpage>
+        250
+       </lpage> 
+       <comment>
+        (in Chinese)
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Condit2"> 
+      <label>47</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Condit
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998
+       </year> 
+       <article-title>
+        Tropical forest census plots.
+       </article-title> 
+       <source>Springer, Berlin 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Wang1"> 
+      <label>48</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Wiegand
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hao
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Li
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ye
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Spatial associations in an old-growth temperate forest, Northeastern China.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        98
+       </volume> 
+       <fpage>
+        674
+       </fpage> 
+       <lpage>
+        686
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Lu1"> 
+      <label>49</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Lu
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1999
+       </year> 
+       <article-title>
+        <italic>
+         Analytical Methods of Soil Agrochemistry
+        </italic>.
+       </article-title> 
+       <source>China Agricultural Science and Technology Press, Beijing 
+       <comment>
+        (in Chinese)
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Bolker1"> 
+      <label>50</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bolker
+         </surname>
+         <given-names>
+          BM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Brooks
+         </surname>
+         <given-names>
+          ME
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clark
+         </surname>
+         <given-names>
+          CJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Geange
+         </surname>
+         <given-names>
+          SW
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Poulsen
+         </surname>
+         <given-names>
+          JR
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Generalized linear mixed models: a practical guide for ecology and evolution.
+       </article-title> 
+       <source>Trends in Ecology and Evolution 
+       <volume>
+        24
+       </volume> 
+       <fpage>
+        127
+       </fpage> 
+       <lpage>
+        135
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Zurr1"> 
+      <label>51</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Zurr
+         </surname>
+         <given-names>
+          AF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ieno
+         </surname>
+         <given-names>
+          EN
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Walker
+         </surname>
+         <given-names>
+          NJ
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Saveliev
+         </surname>
+         <given-names>
+          AA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Smith
+         </surname>
+         <given-names>
+          GM
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Mixed effects models and extensions in ecology with R.
+       </article-title> 
+       <source>Springer, New York 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Gelman1"> 
+      <label>52</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Gelman
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hill
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <comment>
+        Data Analysis Using Regression and Multilevel/Hierarchical Models, Cambridge University Press, Cambridge, UK
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Wang2"> 
+      <label>53</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ye
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Li
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lin
+         </surname>
+         <given-names>
+          F
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Spatial distributions of species in an old-growth temperate forest, northeastern China.
+       </article-title> 
+       <source>Canadian Journal of Forest Research 
+       <volume>
+        40
+       </volume> 
+       <fpage>
+        1011
+       </fpage> 
+       <lpage>
+        1019
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Wang3"> 
+      <label>54</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hao
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Lian
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Li
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Tree size distributions in an old-growth temperate forest.
+       </article-title> 
+       <source>Oikos 
+       <volume>
+        118
+       </volume> 
+       <fpage>
+        25
+       </fpage> 
+       <lpage>
+        36
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Burnham1"> 
+      <label>55</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Burnham
+         </surname>
+         <given-names>
+          KP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Anderson
+         </surname>
+         <given-names>
+          DR
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Model selection and inference: A practical information-theoretic approach.
+       </article-title> 
+       <source>Springer-Verlag, New York 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Nagelkerke1"> 
+      <label>56</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Nagelkerke
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1991
+       </year> 
+       <article-title>
+        A Note on a General Definition of the Coefficient of Determination.
+       </article-title> 
+       <source>Biometrika 
+       <volume>
+        78
+       </volume> 
+       <fpage>
+        691
+       </fpage> 
+       <lpage>
+        692
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Harrell1"> 
+      <label>57</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Harrell
+         </surname>
+         <given-names>
+          FE
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Regression modeling strategies with applications to linear models, logistic regression, and survival analysis.
+       </article-title> 
+       <source>Springer, New York 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Somers1"> 
+      <label>58</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Somers
+         </surname>
+         <given-names>
+          RH
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1962
+       </year> 
+       <article-title>
+        A new asymmetric measure of association for ordinal variables.
+       </article-title> 
+       <source>American Sociological Review 
+       <volume>
+        27
+       </volume> 
+       <fpage>
+        799
+       </fpage> 
+       <lpage>
+        811
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-R1"> 
+      <label>59</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <collab xlink:type="simple">
+        R Development Core Team
+       </collab> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        <italic>
+         R: A language and environment for statistical computing
+        </italic>
+       </article-title> 
+       <source>R Foundation for Statistical Computing, Vienna, Austria 
+       <comment>
+        ISBN 3-900051-07-0. Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org" xlink:type="simple">
+         http://www.R-project.org
+        </ext-link>.
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Bates1"> 
+      <label>60</label> 
+      <element-citation publication-type="other" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Bates
+         </surname>
+         <given-names>
+          D
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Maechler
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        <italic>
+         lme4: Linear mixed-effects models using S4 classes
+        </italic>.
+       </article-title> 
+       <comment>
+        Available: 
+        <ext-link ext-link-type="uri" xlink:href="http://CRAN.R-project.org/package=lme4/" xlink:type="simple">
+         http://CRAN.R-project.org/package=lme4/
+        </ext-link>
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Wang4"> 
+      <label>61</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname>
+         <given-names>
+          L
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Li
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ye
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Bai
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Yuan
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Dynamics of short-term tree mortality in broad-leaved Korean pine (
+        <italic>
+         Pinus koraiensis
+        </italic>) mixed forest in the Changbai Mountains.
+       </article-title> 
+       <source>Biodiversity Science 
+       <volume>
+        19
+       </volume> 
+       <fpage>
+        260
+       </fpage> 
+       <lpage>
+        270
+       </lpage> 
+       <comment>
+        (in Chinese)
+       </comment> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Brown1"> 
+      <label>62</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Brown
+         </surname>
+         <given-names>
+          JH
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Gillooly
+         </surname>
+         <given-names>
+          JF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Allen
+         </surname>
+         <given-names>
+          AP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Savage
+         </surname>
+         <given-names>
+          VM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          West
+         </surname>
+         <given-names>
+          GB
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2004
+       </year> 
+       <article-title>
+        Toward a metabolic theory of ecology.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        85
+       </volume> 
+       <fpage>
+        1771
+       </fpage> 
+       <lpage>
+        1789
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Coomes2"> 
+      <label>63</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Coomes
+         </surname>
+         <given-names>
+          DA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2006
+       </year> 
+       <article-title>
+        Challenges to the generality of WBE theory.
+       </article-title> 
+       <source>Trends in Ecology and Evolution 
+       <volume>
+        21
+       </volume> 
+       <fpage>
+        593
+       </fpage> 
+       <lpage>
+        596
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Queenborough2"> 
+      <label>64</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Queenborough
+         </surname>
+         <given-names>
+          SA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Burslem
+         </surname>
+         <given-names>
+          DFRP
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Garwood
+         </surname>
+         <given-names>
+          NC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Valencia
+         </surname>
+         <given-names>
+          R
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Taxonomic scale-dependence of habitat niche partitioning and biotic neighborhood on survival of tropical tree seedlings.
+       </article-title> 
+       <source>Proceedings of the Royal Society B 
+       <volume>
+        276
+       </volume> 
+       <fpage>
+        4197
+       </fpage> 
+       <lpage>
+        4205
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Wang5"> 
+      <label>65</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Wang
+         </surname>
+         <given-names>
+          X
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Hao
+         </surname>
+         <given-names>
+          Z
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ye
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Zhang
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Li
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Spatial pattern of diversity in an old-growth temperate forest in Northeastern China.
+       </article-title> 
+       <source>Acta Oecologica 
+       <volume>
+        33
+       </volume> 
+       <fpage>
+        345
+       </fpage> 
+       <lpage>
+        354
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Shibata1"> 
+      <label>66</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Shibata
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Masaki
+         </surname>
+         <given-names>
+          T
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Tanaka
+         </surname>
+         <given-names>
+          H
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Niiyama
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Iida
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Effects of abiotic and biotic factors and stochasticity on tree regeneration in a temperate forest community.
+       </article-title> 
+       <source>Ecoscience 
+       <volume>
+        17
+       </volume> 
+       <fpage>
+        137
+       </fpage> 
+       <lpage>
+        145
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-White1"> 
+      <label>67</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          White
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Harper
+         </surname>
+         <given-names>
+          JL
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1970
+       </year> 
+       <article-title>
+        Correlated changes in plant size and number in plant populations.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        58
+       </volume> 
+       <fpage>
+        467
+       </fpage> 
+       <lpage>
+        485
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Norberg1"> 
+      <label>68</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Norberg
+         </surname>
+         <given-names>
+          RA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1988
+       </year> 
+       <article-title>
+        Theory of growth geometry of plants and self-thinning of plant populations: geometric similarity, elastic similarity, and different growth modes of plant parts.
+       </article-title> 
+       <source>American Naturalist 
+       <volume>
+        131
+       </volume> 
+       <fpage>
+        220
+       </fpage> 
+       <lpage>
+        256
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Mangan1"> 
+      <label>69</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mangan
+         </surname>
+         <given-names>
+          SA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Schnitzer
+         </surname>
+         <given-names>
+          SA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Herre
+         </surname>
+         <given-names>
+          EA
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Mack
+         </surname>
+         <given-names>
+          KML
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Valencia
+         </surname>
+         <given-names>
+          MC
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Negative plant-soil feedback predicts tree-species relative abundance in a tropical forest.
+       </article-title> 
+       <source>Nature 
+       <volume>
+        466
+       </volume> 
+       <fpage>
+        752
+       </fpage> 
+       <lpage>
+        755
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Mordecai1"> 
+      <label>70</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Mordecai
+         </surname>
+         <given-names>
+          EA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2011
+       </year> 
+       <article-title>
+        Pathogen impacts on plant communities: unifying theory, concepts, and empirical work.
+       </article-title> 
+       <source>Ecological Monographs 
+       <volume>
+        81
+       </volume> 
+       <fpage>
+        429
+       </fpage> 
+       <lpage>
+        441
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-McCarthyNeumann2"> 
+      <label>71</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          McCarthy-Neumann
+         </surname>
+         <given-names>
+          S
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Kobe
+         </surname>
+         <given-names>
+          RK
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2010
+       </year> 
+       <article-title>
+        Conspecific and heterospecific plant-soil feedbacks influence survivorship and growth of temperate tree seedlings.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        98
+       </volume> 
+       <fpage>
+        408
+       </fpage> 
+       <lpage>
+        418
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Comita4"> 
+      <label>72</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Comita
+         </surname>
+         <given-names>
+          LS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Engelbrecht
+         </surname>
+         <given-names>
+          BMJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Seasonal and spatial variation in water availability drive habitat associations in a tropical forest.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        2755
+       </fpage> 
+       <lpage>
+        2765
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Finzi1"> 
+      <label>73</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Finzi
+         </surname>
+         <given-names>
+          AC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canham
+         </surname>
+         <given-names>
+          CD
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          van Breemen
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998a
+       </year> 
+       <article-title>
+        Canopy tree-soil interactions within temperate forests: species effects on pH and cations.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        447
+       </fpage> 
+       <lpage>
+        454
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Finzi2"> 
+      <label>74</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Finzi
+         </surname>
+         <given-names>
+          AC
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          van Breemen
+         </surname>
+         <given-names>
+          N
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canham
+         </surname>
+         <given-names>
+          CD
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1998b
+       </year> 
+       <article-title>
+        Canopy tree-soil interactions within temperate forests: species effects on carbon and nitrogen.
+       </article-title> 
+       <source>Ecological Applications 
+       <volume>
+        8
+       </volume> 
+       <fpage>
+        440
+       </fpage> 
+       <lpage>
+        446
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Ehrenfeld1"> 
+      <label>75</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Ehrenfeld
+         </surname>
+         <given-names>
+          JG
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Ravit
+         </surname>
+         <given-names>
+          B
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Elgersma
+         </surname>
+         <given-names>
+          E
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2005
+       </year> 
+       <article-title>
+        Feedback in the plant-soil system.
+       </article-title> 
+       <source>Annual Review of Environment and Resources 
+       <volume>
+        30
+       </volume> 
+       <fpage>
+        75
+       </fpage> 
+       <lpage>
+        115
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Peters1"> 
+      <label>76</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Peters
+         </surname>
+         <given-names>
+          HA
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2003
+       </year> 
+       <article-title>
+        Neighbour-regulated mortality: the influence of positive and negative density dependence on tree populations in species-rich tropical forests.
+       </article-title> 
+       <source>Ecology Letters 
+       <volume>
+        6
+       </volume> 
+       <fpage>
+        757
+       </fpage> 
+       <lpage>
+        765
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Packer2"> 
+      <label>77</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Packer
+         </surname>
+         <given-names>
+          A
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clay
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2002
+       </year> 
+       <article-title>
+        Soil pathogens and 
+        <italic>
+         Prunus serotina
+        </italic> seedlings and sapling growth near conspecific trees.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        84
+       </volume> 
+       <fpage>
+        108
+       </fpage> 
+       <lpage>
+        119
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Reinhart1"> 
+      <label>78</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Reinhart
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Clay
+         </surname>
+         <given-names>
+          K
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Spatial variation in soil-borne disease dynamics of a temperate tree, 
+        <italic>
+         Prunus serotina
+        </italic>.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        90
+       </volume> 
+       <fpage>
+        2984
+       </fpage> 
+       <lpage>
+        2993
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Comita5"> 
+      <label>79</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Comita
+         </surname>
+         <given-names>
+          LS
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Uriarte
+         </surname>
+         <given-names>
+          M
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Thompson
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jonckheere
+         </surname>
+         <given-names>
+          I
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Canham
+         </surname>
+         <given-names>
+          CD
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2009
+       </year> 
+       <article-title>
+        Abiotic and biotic drivers of seedling survival in a hurricane-impacted tropical forest.
+       </article-title> 
+       <source>Journal of Ecology 
+       <volume>
+        97
+       </volume> 
+       <fpage>
+        1346
+       </fpage> 
+       <lpage>
+        1359
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Slik1"> 
+      <label>80</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Slik
+         </surname>
+         <given-names>
+          JW
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        El Niño droughts and their effects on tree species composition and diversity in tropical rain forests.
+       </article-title> 
+       <source>Oecologica 
+       <volume>
+        141
+       </volume> 
+       <fpage>
+        114
+       </fpage> 
+       <lpage>
+        120
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Davies1"> 
+      <label>81</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Davies
+         </surname>
+         <given-names>
+          SJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        2001
+       </year> 
+       <article-title>
+        Tree mortality and growth in 11 sympatric Macaranga species in Borneo.
+       </article-title> 
+       <source>Ecology 
+       <volume>
+        82
+       </volume> 
+       <fpage>
+        920
+       </fpage> 
+       <lpage>
+        932
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Filip1"> 
+      <label>82</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Filip
+         </surname>
+         <given-names>
+          GM
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Goheen
+         </surname>
+         <given-names>
+          DJ
+         </given-names>
+        </name>
+       </person-group> 
+       <year>
+        1982
+       </year> 
+       <article-title>
+        Tree mortality caused by root pathogen complex in Deschutes national forest, Oregon.
+       </article-title> 
+       <source>Plant Disease 
+       <volume>
+        66
+       </volume> 
+       <fpage>
+        240
+       </fpage> 
+       <lpage>
+        243
+       </lpage> 
+      </element-citation> 
+     </ref> 
+     <ref id="pone.0029469-Maloney1"> 
+      <label>83</label> 
+      <element-citation publication-type="journal" xlink:type="simple"> 
+       <person-group person-group-type="author">
+        <name name-style="western">
+         <surname>
+          Maloney
+         </surname>
+         <given-names>
+          PE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Smith
+         </surname>
+         <given-names>
+          TF
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Jensen
+         </surname>
+         <given-names>
+          CE
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Innes
+         </surname>
+         <given-names>
+          J
+         </given-names>
+        </name>
+        <name name-style="western">
+         <surname>
+          Rizzo
+         </surname>
+         <given-names>
+          DM
+         </given-names>
+        </name>
+        <etal />
+       </person-group> 
+       <year>
+        2008
+       </year> 
+       <article-title>
+        Initial tree mortality and insect and pathogen response to fire and thinning restoration treatments in an old-growth mixed-conifer forest of the Sierra Nevada, California.
+       </article-title> 
+       <source>Canadian Journal of Forest Research 
+       <volume>
+        38
+       </volume> 
+       <fpage>
+        3011
+       </fpage> 
+       <lpage>
+        3020
+       </lpage> 
+      </element-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

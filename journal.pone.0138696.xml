@@ -1,0 +1,5537 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta> 
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id> 
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id> 
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id> 
+     <journal-title-group> 
+      <journal-title>
+       PLOS ONE
+      </journal-title> 
+     </journal-title-group> 
+     <issn pub-type="epub">
+      1932-6203
+     </issn> 
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, CA USA
+      </publisher-loc> 
+     </publisher> 
+    </journal-meta> 
+    <article-meta> 
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0138696
+     </article-id> 
+     <article-id pub-id-type="publisher-id">
+      PONE-D-15-20088
+     </article-id> 
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+     </article-categories> 
+     <title-group> 
+      <article-title>
+       Understanding the Spatio-Temporal Response of Coral Reef Fish Communities to Natural Disturbances: Insights from Beta-Diversity Decomposition
+      </article-title> 
+      <alt-title alt-title-type="running-head">
+       Beta-Diversity Decomposition in Space and Time
+      </alt-title> 
+     </title-group> 
+     <contrib-group> 
+      <contrib contrib-type="author" corresp="yes" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Lamy
+        </surname> 
+        <given-names>
+         Thomas
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+       <xref rid="aff002" ref-type="aff">
+        <sup>2</sup>
+       </xref> 
+       <xref rid="aff003" ref-type="aff">
+        <sup>3</sup>
+       </xref> 
+       <xref rid="cor001" ref-type="corresp">
+        *
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         Pierre
+        </given-names> 
+       </name> 
+       <xref rid="aff003" ref-type="aff">
+        <sup>3</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Chancerelle
+        </surname> 
+        <given-names>
+         Yannick
+        </given-names> 
+       </name> 
+       <xref rid="aff002" ref-type="aff">
+        <sup>2</sup>
+       </xref> 
+       <xref rid="aff004" ref-type="aff">
+        <sup>4</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Siu
+        </surname> 
+        <given-names>
+         Gilles
+        </given-names> 
+       </name> 
+       <xref rid="aff002" ref-type="aff">
+        <sup>2</sup>
+       </xref> 
+       <xref rid="aff004" ref-type="aff">
+        <sup>4</sup>
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Claudet
+        </surname> 
+        <given-names>
+         Joachim
+        </given-names> 
+       </name> 
+       <xref rid="aff001" ref-type="aff">
+        <sup>1</sup>
+       </xref> 
+       <xref rid="aff002" ref-type="aff">
+        <sup>2</sup>
+       </xref> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="aff001">
+      <label>1</label> 
+      <addr-line>
+       Centre National de la Recherche Scientifique, CRIOBE-USR 3278 CNRS-EPHE-UPVD, 58 Avenue Paul Alduy, 66860, Perpignan cedex, France
+      </addr-line>
+     </aff> 
+     <aff id="aff002">
+      <label>2</label> 
+      <addr-line>
+       Laboratoire d'Excellence CORAIL, 58 Avenue Paul Alduy, 66860, Perpignan cedex, France
+      </addr-line>
+     </aff> 
+     <aff id="aff003">
+      <label>3</label> 
+      <addr-line>
+       Département de sciences biologiques, Université de Montréal, C.P. 6128, Succursale Centre-ville, Montréal, Québec, Canada
+      </addr-line>
+     </aff> 
+     <aff id="aff004">
+      <label>4</label> 
+      <addr-line>
+       Ecole Pratique des Hautes Etudes, CRIOBE-USR 3278 CNRS-EPHE-UPVD, BP 1013, Papetoai, Moorea, French Polynesia
+      </addr-line>
+     </aff> 
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Chen
+        </surname> 
+        <given-names>
+         Chaolun Allen
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group> 
+     <aff id="edit1">
+      <addr-line>
+       Biodiversity Research Center, Academia Sinica, TAIWAN
+      </addr-line>
+     </aff> 
+     <author-notes> 
+      <fn fn-type="conflict" id="coi001"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="con" id="contrib001"> 
+       <p>Conceived and designed the experiments: TL YC GS JC. Performed the experiments: YC GS. Analyzed the data: TL PL. Contributed reagents/materials/analysis tools: TL PL. Wrote the paper: TL PL YC GS JC. Collected the data: YC GS.</p> 
+      </fn> 
+      <corresp id="cor001">
+       * E-mail: 
+       <email xlink:type="simple">
+        thomas.lamy27@gmail.com
+       </email>
+      </corresp> 
+     </author-notes> 
+     <pub-date pub-type="epub"> 
+      <day>
+       22
+      </day> 
+      <month>
+       9
+      </month> 
+      <year>
+       2015
+      </year> 
+     </pub-date> 
+     <pub-date pub-type="collection"> 
+      <year>
+       2015
+      </year> 
+     </pub-date> 
+     <volume>
+      10
+     </volume> 
+     <issue>
+      9
+     </issue> 
+     <elocation-id>
+      e0138696
+     </elocation-id> 
+     <history> 
+      <date date-type="received"> 
+       <day>
+        8
+       </day> 
+       <month>
+        5
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        2
+       </day> 
+       <month>
+        9
+       </month> 
+       <year>
+        2015
+       </year> 
+      </date> 
+     </history> 
+     <permissions> 
+      <copyright-year>
+       2015
+      </copyright-year> 
+      <copyright-holder>
+       Lamy et al
+      </copyright-holder> 
+      <license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple"> 
+       <license-p>
+        This is an open access article distributed under the terms of the 
+        <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+         Creative Commons Attribution License
+        </ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited
+       </license-p> 
+      </license> 
+     </permissions> 
+     <self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0138696" xlink:type="simple" /> 
+     <abstract> 
+      <p>Understanding how communities respond to natural disturbances is fundamental to assess the mechanisms of ecosystem resistance and resilience. However, ecosystem responses to natural disturbances are rarely monitored both through space and time, while the factors promoting ecosystem stability act at various temporal and spatial scales. Hence, assessing both the spatial and temporal variations in species composition is important to comprehensively explore the effects of natural disturbances. Here, we suggest a framework to better scrutinize the mechanisms underlying community responses to disturbances through both time and space. Our analytical approach is based on beta diversity decomposition into two components, replacement and biomass difference. We illustrate this approach using a 9-year monitoring of coral reef fish communities off Moorea Island (French Polynesia), which encompassed two severe natural disturbances: a crown-of-thorns starfish outbreak and a hurricane. These disturbances triggered a fast logistic decline in coral cover, which suffered a 90% decrease on all reefs. However, we found that the coral reef fish composition remained largely stable through time and space whereas compensatory changes in biomass among species were responsible for most of the temporal fluctuations, as outlined by the overall high contribution of the replacement component to total beta diversity. This suggests that, despite the severity of the two disturbances, fish communities exhibited high resistance and the ability to reorganize their compositions to maintain the same level of total community biomass as before the disturbances. We further investigated the spatial congruence of this pattern and showed that temporal dynamics involved different species across sites; yet, herbivores controlling the proliferation of algae that compete with coral communities were consistently favored. These results suggest that compensatory changes in biomass among species and spatial heterogeneity in species responses can provide further insurance against natural disturbances in coral reef ecosystems by promoting high levels of key species (herbivores). They can also allow the ecosystem to recover more quickly.</p> 
+     </abstract> 
+     <funding-group> 
+      <funding-statement>
+       T. Lamy was supported by a post-doctoral fellowship from Laboratoire d'Excellence CORAIL to J. Claudet and by a postdoctoral scholarship from NSERC grant no. 7738 to P. Legendre. J. Claudet thanks Fondation de France—INTHENSE, ANR—LIVE AND LET DIE and ANR—ACRoSS for financial support. The authors also thank the Direction des Ressources Marines et Minières (DDRM) of French Polynesia for the financial support they provided for field surveys.
+      </funding-statement> 
+     </funding-group> 
+     <counts> 
+      <fig-count count="5" /> 
+      <table-count count="1" /> 
+      <page-count count="18" /> 
+     </counts> 
+     <custom-meta-group> 
+      <custom-meta id="data-availability" xlink:type="simple"> 
+       <meta-name>
+        Data Availability
+       </meta-name> 
+       <meta-value>
+        Data are available from the SCORE database of the Centre de Recherches insulaires et Observatoire de l’Environnement (CRIOBE), B.P. 1013, Moorea, French Polynesia and online at 
+        <ext-link ext-link-type="uri" xlink:href="http://observatoire.criobe.pf/CRIOBEData/" xlink:type="simple">
+         http://observatoire.criobe.pf/CRIOBEData/
+        </ext-link>.
+       </meta-value> 
+      </custom-meta> 
+     </custom-meta-group> 
+    </article-meta> 
+   </front>  
+   <sec id="sec001" sec-type="intro"> 
+    <title>Introduction</title> 
+    <p>Many ecosystems are subject to recurrent natural disturbances such as fires, hurricanes, outbreaks of predators, diseases or droughts. Characterizing the mechanisms underlying ecosystem response during these major but transient events can be challenging [
+     <xref rid="pone.0138696.ref001" ref-type="bibr">
+      1
+     </xref>]. Natural disturbances can have several contrasting impacts on the populations and communities that are the structural components of these ecosystems. When the disturbance rate does not exceed a given treshold, most communities can maintain the same species composition despite environmental changes [
+     <xref rid="pone.0138696.ref002" ref-type="bibr">
+      2
+     </xref>,
+     <xref rid="pone.0138696.ref003" ref-type="bibr">
+      3
+     </xref>]. However, because the frequency and intensity of natural disturbances are increasing globally [
+     <xref rid="pone.0138696.ref004" ref-type="bibr">
+      4
+     </xref>,
+     <xref rid="pone.0138696.ref005" ref-type="bibr">
+      5
+     </xref>] and because of synergistic effects with additional factors such as anthropogenic stressors [
+     <xref rid="pone.0138696.ref006" ref-type="bibr">
+      6
+     </xref>], productivity [
+     <xref rid="pone.0138696.ref007" ref-type="bibr">
+      7
+     </xref>] and history [
+     <xref rid="pone.0138696.ref008" ref-type="bibr">
+      8
+     </xref>], most communities exhibit changes in species composition as a response to natural disturbances. Hereafter, we will only refer to species composition in terms of quantitative data (e.g. abundance or biomass) as they provide a more complete description of ecosystem and population dynamics.</p> 
+    <p>One of the most common methods to understand community response to natural disturbances consists in assessing the directional changes in species composition along the disturbance gradient—either through time or as a function of environmental changes caused by the disturbance [
+     <xref rid="pone.0138696.ref009" ref-type="bibr">
+      9
+     </xref>]—by computing beta diversity. Yet, changes in species composition between two observations sampled along such a gradient can result from two contrasting mechanisms. If some species decrease (respectively increase) in biomass from one observation to the other, but some other species increase (respectively decrease) in biomass with the same magnitude, replacement among these species will be responsible for the observed change in species composition while the total community biomass will remain the same. Alternatively, if some species decrease (respectively increase) without any reciprocal increase (respectively decrease) in the biomass of other species, then species composition will change solely due to a difference in total community biomass between the two observations. In many studies, the contribution of these two mechanisms are confounded due to the use of a total beta-diversity index, yielding confusing results. However, recent contributions have proposed new ways of decomposing beta-diversity indices computed from quantitative data into two major components, namely a replacement component (also called turnover when analyzed along spatial or environmental gradients) and a biomass difference component [
+     <xref rid="pone.0138696.ref010" ref-type="bibr">
+      10
+     </xref>–
+     <xref rid="pone.0138696.ref013" ref-type="bibr">
+      13
+     </xref>]. First proposed by Baselga [
+     <xref rid="pone.0138696.ref014" ref-type="bibr">
+      14
+     </xref>], the decomposition of beta-diversity has generated an intense methodological debate [
+     <xref rid="pone.0138696.ref010" ref-type="bibr">
+      10
+     </xref>–
+     <xref rid="pone.0138696.ref012" ref-type="bibr">
+      12
+     </xref>] on both the choice of the metrics and the interpretation of each component (e.g. [
+     <xref rid="pone.0138696.ref013" ref-type="bibr">
+      13
+     </xref>,
+     <xref rid="pone.0138696.ref015" ref-type="bibr">
+      15
+     </xref>]). This may have impeded any generalization of the decomposition of beta-diversity indices to resolve important ecological questions. Here, we will focus on the percentage-difference index ([
+     <xref rid="pone.0138696.ref016" ref-type="bibr">
+      16
+     </xref>], section 7.4.2), which is the quantitative equivalent of the Sørensen dissimilarity index, as it reflects the magnitude of changes in species biomass or abundance [
+     <xref rid="pone.0138696.ref009" ref-type="bibr">
+      9
+     </xref>,
+     <xref rid="pone.0138696.ref017" ref-type="bibr">
+      17
+     </xref>]. We will illustrate how this index can be studied through time [
+     <xref rid="pone.0138696.ref018" ref-type="bibr">
+      18
+     </xref>], and also through space [
+     <xref rid="pone.0138696.ref019" ref-type="bibr">
+      19
+     </xref>], and further decomposed into replacement and biomass difference components, the relative importance of which can provide helpful indications on the mechanisms underlying community responses to natural disturbances. While the above-mentioned literature developed and applied beta diversity-decomposition through space, our study is the first one to use it through both space and time and suggest ecological mechanisms that potentially underscore each fraction resulting from the decomposition.</p> 
+    <p>The percentage-difference index can be decomposed to better scrutinize temporal changes in species composition [
+     <xref rid="pone.0138696.ref009" ref-type="bibr">
+      9
+     </xref>,
+     <xref rid="pone.0138696.ref013" ref-type="bibr">
+      13
+     </xref>]. The biomass of all species fluctuates over time due to various processes, including sampling errors, stochasticity, environmental variability or species interactions. The degree to which these fluctuations are correlated among species will determine whether the community is changing due to replacement or difference in total biomass. In particular, if species display high similarity in their response to environmental changes due to the disturbance, they are likely to exhibit correlated fluctuations [
+     <xref rid="pone.0138696.ref020" ref-type="bibr">
+      20
+     </xref>] resulting in a large contribution of the biomass difference component to the total dissimilarity index. However, when populations do not fluctuate in synchrony, the contribution of replacement to total dissimilarity will be larger. Notably, compensatory dynamics between species, whereby species fluctuate non-synchronically over time [
+     <xref rid="pone.0138696.ref021" ref-type="bibr">
+      21
+     </xref>,
+     <xref rid="pone.0138696.ref022" ref-type="bibr">
+      22
+     </xref>], can be an important factor stabilizing community in the face of natural disturbances. Species interactions (e.g., asynchrony in population fluctuations due to competition; [
+     <xref rid="pone.0138696.ref023" ref-type="bibr">
+      23
+     </xref>]) and species-environment interactions (e.g., asynchrony in species environmental responses; [
+     <xref rid="pone.0138696.ref024" ref-type="bibr">
+      24
+     </xref>,
+     <xref rid="pone.0138696.ref025" ref-type="bibr">
+      25
+     </xref>]) can both drive compensatory dynamics. On the one hand, we suggest that assessing the contribution of the replacement component to the percentage-difference index along a disturbance gradient can be useful to assess the importance of stabilizing mechanisms such as compensatory dynamics. This latter mechanism is actually not frequently invoked to capture the ability of natural communities to exhibit stability in the face of environmental changes [
+     <xref rid="pone.0138696.ref001" ref-type="bibr">
+      1
+     </xref>,
+     <xref rid="pone.0138696.ref026" ref-type="bibr">
+      26
+     </xref>]. On the other hand, the biomass difference component quantifies the degree of fluctuation in total community biomass and provides indication on the similarity of species responses to the disturbance.</p> 
+    <p>Further, assessing the spatial variations in community responses is important to comprehensively explore the effects of natural disturbances. Local communities are connected by the dispersal of individuals, which can largely influence local dynamics, reducing [
+     <xref rid="pone.0138696.ref027" ref-type="bibr">
+      27
+     </xref>] or enhancing [
+     <xref rid="pone.0138696.ref028" ref-type="bibr">
+      28
+     </xref>] the temporal fluctuations. Spatial heterogeneity in species responses is an important mechanism, which can provide an insurance effect against natural disturbances [
+     <xref rid="pone.0138696.ref029" ref-type="bibr">
+      29
+     </xref>–
+     <xref rid="pone.0138696.ref031" ref-type="bibr">
+      31
+     </xref>]. However, in habitats impacted by harsh natural disturbances, a large number of species can be filtered out due to their inability to cope with the new environmental conditions without being replaced by other species. As a consequence, when a natural disturbance imposes a strong environmental filtering, spatial homogenization in species composition may consistently occur over time, i.e. species composition becomes similar across local communities [
+     <xref rid="pone.0138696.ref032" ref-type="bibr">
+      32
+     </xref>–
+     <xref rid="pone.0138696.ref034" ref-type="bibr">
+      34
+     </xref>].</p> 
+    <p>Clearly, temporal and spatial responses of communities to natural disturbances can be influenced by various mechanisms but no straightforward method has been suggested to unravel the mechanisms underlying these responses (but see [
+     <xref rid="pone.0138696.ref035" ref-type="bibr">
+      35
+     </xref>]). We suggest that the decomposition of the percentage-difference index into replacement and biomass difference components can be useful in this regard. Though there are no direct mechanistic links between these components and putative mechanisms, the relative contribution of each component can be used as evidence of the importance of stabilizing mechanisms, an example of which is compensatory dynamics. The mechanisms proposed above as possibly responsible for the relative contributions are presented as hypotheses. This is a step forward compared to previous contributions, which simply explained how to compute the decompositions without providing such hypotheses.</p> 
+    <p>As a case study, we used species-rich coral reef communities that experienced two severe natural disturbances. Using data collected from 2004 to 2012 on 13 reefs surrounding Moorea Island (Society Islands Archipelago, French Polynesia), we focused on the response of these communities to the combination of two of the most severe natural disturbances encountered on coral reefs. The first one is an extremely severe crown-of-thorns starfish (COTS; 
+     <italic>
+      Acanthaster planci
+     </italic>) outbreak that started in 2006 [
+     <xref rid="pone.0138696.ref036" ref-type="bibr">
+      36
+     </xref>]. COTS is a widespread sea star throughout the Pacific Ocean [
+     <xref rid="pone.0138696.ref037" ref-type="bibr">
+      37
+     </xref>]. It feeds on the living tissues of hard corals [
+     <xref rid="pone.0138696.ref038" ref-type="bibr">
+      38
+     </xref>]. This coral predator proceeds by first colonizing coral reefs inhabited by a large diversity of coral species, frequently referred to as healthy coral reefs. It then produces extremely rapid and intense outbreaks that reduce local coral cover to almost zero within a few years [
+     <xref rid="pone.0138696.ref036" ref-type="bibr">
+      36
+     </xref>,
+     <xref rid="pone.0138696.ref039" ref-type="bibr">
+      39
+     </xref>–
+     <xref rid="pone.0138696.ref042" ref-type="bibr">
+      42
+     </xref>]. Due to its conspicuous impact on the Great Barrier Reef and the associated loss in economic activity, COTS has been classified as serious threat and disaster for coral reef ecosystems [
+     <xref rid="pone.0138696.ref041" ref-type="bibr">
+      41
+     </xref>,
+     <xref rid="pone.0138696.ref042" ref-type="bibr">
+      42
+     </xref>]. In addition, in 2010 a second natural disturbance, a hurricane, impacted the island and decreased the structural complexity still provided by the remaining dead coral [
+     <xref rid="pone.0138696.ref043" ref-type="bibr">
+      43
+     </xref>]. Here, we studied total beta-diversity both in space and time and further decomposed this latter into the relative contributions of replacement and biomass difference components to better scrutinize the response of coral reef fish communities to these two natural disturbances. We first focused on the temporal response at each reef to characterize the relative importance of (1) stability in species composition, (2) compensatory changes in biomass among species and (3) fluctuations in total community biomass. We further investigated the spatial congruence of this pattern by assessing whether compositional changes involved the same species across different reefs.</p> 
+   </sec> 
+   <sec id="sec002" sec-type="materials|methods"> 
+    <title>Materials and Methods</title> 
+    <sec id="sec003"> 
+     <title>Study system</title> 
+     <p>The fish and coral communities of Moorea Island (French Polynesia), located in the South Pacific Ocean, have been studied extensively over the past 30 years [
+      <xref rid="pone.0138696.ref044" ref-type="bibr">
+       44
+      </xref>–
+      <xref rid="pone.0138696.ref050" ref-type="bibr">
+       50
+      </xref>]. In 2004, annual surveys of 13 reefs surrounding the island were initiated [
+      <xref rid="pone.0138696.ref051" ref-type="bibr">
+       51
+      </xref>]. The selected reefs were distributed along the northern (
+      <italic>
+       N
+      </italic> = 4), eastern (
+      <italic>
+       N
+      </italic> = 5) and western (
+      <italic>
+       N
+      </italic> = 4) coasts of the island. Eight of these reefs were designated Marine Protected Area (MPA) in 2004 while the remaining five remained unprotected. However, MPA enforcement only began in 2007 and the ecological effectiveness of this MPA network is still unclear.</p> 
+    </sec> 
+    <sec id="sec004"> 
+     <title>Yearly survey</title> 
+     <p>From 2004 to 2009, each reef was surveyed twice a year along three 50-m<sup>2</sup> (25×2) random transects on the outer slope at 10 m depth, respectively during the wet (January to March) and dry (July to September) seasons, and once a year from 2010 to 2012 during the wet season. The proportion of live coral encountered beneath 50 equidistant points within each sampling unit was recorded to estimate percent live coral cover. The fish community within each sampling unit was recorded using the fixed count method [
+      <xref rid="pone.0138696.ref052" ref-type="bibr">
+       52
+      </xref>]. In this method, all species seen (including cryptic and juveniles) are counted and sizes are estimated with training errors below 10% of total length. Biomass of each species was computed by applying the length-biomass relationships describes in Kulbicki et al [
+      <xref rid="pone.0138696.ref053" ref-type="bibr">
+       53
+      </xref>]. Because these raw biomass data were heavily skewed, we applied a square-root transformation to reduce asymmetry and compress large biomass values. With this transformation, the analysis of the replacement and biomass difference components is intermediate between analyses conducted on the raw biomass data and on presence-absence data [
+      <xref rid="pone.0138696.ref013" ref-type="bibr">
+       13
+      </xref>].</p> 
+    </sec> 
+    <sec id="sec005"> 
+     <title>Statistical analyses</title> 
+     <sec id="sec006"> 
+      <title>Temporal trajectories of live coral cover, fish biomass and richness</title> 
+      <p>We modeled total biomass (square-root transformed) and species richness as a function of the linear and quadratic effects of time (time and time<sup>2</sup> using orthogonal polynomials of degree two), space (i.e., reef factor), their interaction (time:reef and time<sup>2</sup>:reef), and season. We used stepwise multiple linear regression models to obtain parsimonious models retaining only the significant effects. To test for the temporal stability in coral and fish communities, we modeled live coral cover, total fish biomass and fish species richness using either a linear, quadratic or logistic effect of time. For each reef, we tested each model and selected the best one to describe the temporal trajectory of coral and fish communities. Indeed, a linear model assumes a constant increase or decrease over time in the response variable at a constant rate estimated by the slope of the effect of time. A quadratic model, on the other hand, makes it possible to model a nonlinear (quadratic) temporal dynamics. Finally, a logistic model assumes that a sudden increase or decrease in the response variable occurred around an inflection point at time 
+       <italic>
+        T
+       </italic>; the response variable at time 
+       <italic>
+        t
+       </italic>, 
+       <italic>
+        Y
+       </italic><sub>
+        <italic>
+         t
+        </italic></sub>, was modelled as: 
+       <disp-formula id="pone.0138696.e001"> 
+        <alternatives> 
+         <graphic id="pone.0138696.e001g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.e001" xlink:type="simple" /> 
+         <mml:math display="block" id="M1" overflow="scroll"> 
+          <mml:msub>
+           <mml:mrow>
+            <mml:mi>
+             Y
+            </mml:mi>
+           </mml:mrow>
+           <mml:mrow>
+            <mml:mi>
+             t
+            </mml:mi>
+           </mml:mrow>
+          </mml:msub>
+          <mml:mo>
+           =
+          </mml:mo>
+          <mml:msub>
+           <mml:mrow>
+            <mml:mi>
+             Y
+            </mml:mi>
+           </mml:mrow>
+           <mml:mrow>
+            <mml:mi>
+             b
+            </mml:mi>
+           </mml:mrow>
+          </mml:msub>
+          <mml:mo>
+           +
+          </mml:mo>
+          <mml:mfrac>
+           <mml:mrow>
+            <mml:msub>
+             <mml:mrow>
+              <mml:mi>
+               Y
+              </mml:mi>
+             </mml:mrow>
+             <mml:mrow>
+              <mml:mi>
+               a
+              </mml:mi>
+             </mml:mrow>
+            </mml:msub>
+            <mml:mo>
+             −
+            </mml:mo>
+            <mml:msub>
+             <mml:mrow>
+              <mml:mi>
+               Y
+              </mml:mi>
+             </mml:mrow>
+             <mml:mrow>
+              <mml:mi>
+               b
+              </mml:mi>
+             </mml:mrow>
+            </mml:msub>
+           </mml:mrow>
+           <mml:mrow>
+            <mml:mn>
+             1
+            </mml:mn>
+            <mml:mo>
+             +
+            </mml:mo>
+            <mml:msup>
+             <mml:mrow>
+              <mml:mi>
+               e
+              </mml:mi>
+             </mml:mrow>
+             <mml:mrow>
+              <mml:mfrac>
+               <mml:mrow>
+                <mml:mi>
+                 T
+                </mml:mi>
+                <mml:mo>
+                 −
+                </mml:mo>
+                <mml:mi>
+                 t
+                </mml:mi>
+               </mml:mrow>
+               <mml:mrow>
+                <mml:mi>
+                 σ
+                </mml:mi>
+               </mml:mrow>
+              </mml:mfrac>
+             </mml:mrow>
+            </mml:msup>
+           </mml:mrow>
+          </mml:mfrac> 
+         </mml:math> 
+        </alternatives> 
+       </disp-formula> where 
+       <italic>
+        Y
+       </italic><sub>
+        <italic>
+         b
+        </italic></sub> and 
+       <italic>
+        Y
+       </italic><sub>
+        <italic>
+         a
+        </italic></sub> stand for the asymptotic response variable values before and after the inflexion point, respectively. 
+       <italic>
+        T
+       </italic> corresponds to the time where inflection occurs, while 
+       <italic>
+        σ
+       </italic> is a scale parameter. Model selection was based either on the AIC criterion, or after model comparisons (quadratic 
+       <italic>
+        vs
+       </italic> linear models) by ANOVA of the difference between nested models.</p> 
+     </sec> 
+     <sec id="sec007"> 
+      <title>Temporal trajectory in fish composition</title> 
+      <p>To determine whether temporal changes in fish composition was consistent across reefs, we tested the space-time interaction at the community level using a two-way crossed-factor multivariate ANOVA (by canonical redundancy analysis, RDA) as described in Legendre and Anderson [
+       <xref rid="pone.0138696.ref054" ref-type="bibr">
+        54
+       </xref>] for balanced designs (see also [
+       <xref rid="pone.0138696.ref016" ref-type="bibr">
+        16
+       </xref>], section 11.1.10). Because a significant space-time interaction indicated that temporal evolution was not the same on all reefs, we then used multivariate regression trees (MRT; [
+       <xref rid="pone.0138696.ref055" ref-type="bibr">
+        55
+       </xref>]) to identify the major spatial and temporal groups that exhibited similar fish composition. In addition, to assess whether and when a temporal shift in fish composition did occur on each reef, we also performed chronological clustering by MRT for each reef separately (i.e., time was the only explanatory variable; [
+       <xref rid="pone.0138696.ref056" ref-type="bibr">
+        56
+       </xref>], section 4.11.5). This allowed us to define, for each reef, a pre-shift group and a post-shift group that differed significantly. The proportion of variance explained by that division was measured and tested by RDA.</p> 
+     </sec> 
+     <sec id="sec008"> 
+      <title>Beta-diversity decomposition</title> 
+      <p>We measured dissimilarity among all pairs of observations using the percentage difference index (also known as the Bray-Curtis index) on square-rooted biomass data. The percentage difference index between observation S<sub>
+        <italic>
+         j
+        </italic></sub> and S<sub>
+        <italic>
+         k
+        </italic></sub> is defined as: 
+       <disp-formula id="pone.0138696.e002"> 
+        <alternatives> 
+         <graphic id="pone.0138696.e002g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.e002" xlink:type="simple" /> 
+         <mml:math display="block" id="M2" overflow="scroll"> 
+          <mml:msub>
+           <mml:mrow>
+            <mml:mi>
+             d
+            </mml:mi>
+           </mml:mrow>
+           <mml:mrow>
+            <mml:mi>
+             B
+            </mml:mi>
+            <mml:mi>
+             C
+            </mml:mi>
+           </mml:mrow>
+          </mml:msub>
+          <mml:mo>
+           =
+          </mml:mo>
+          <mml:mfrac>
+           <mml:mrow>
+            <mml:mi>
+             B
+            </mml:mi>
+            <mml:mo>
+             +
+            </mml:mo>
+            <mml:mi>
+             C
+            </mml:mi>
+           </mml:mrow>
+           <mml:mrow>
+            <mml:mn>
+             2
+            </mml:mn>
+            <mml:mi>
+             A
+            </mml:mi>
+            <mml:mo>
+             +
+            </mml:mo>
+            <mml:mi>
+             B
+            </mml:mi>
+            <mml:mo>
+             +
+            </mml:mo>
+            <mml:mi>
+             C
+            </mml:mi>
+           </mml:mrow>
+          </mml:mfrac> 
+         </mml:math> 
+        </alternatives> 
+       </disp-formula> where A is the biomass of each species that exists both in S<sub>
+        <italic>
+         j
+        </italic></sub> and S<sub>
+        <italic>
+         k
+        </italic></sub>, B is the biomass of each species unique to S<sub>
+        <italic>
+         j
+        </italic></sub> and C the biomass of each species unique to S<sub>
+        <italic>
+         k
+        </italic></sub>. This dissimilarity index is not Euclidean but the matrix of square-rooted dissimilarities is ([
+       <xref rid="pone.0138696.ref016" ref-type="bibr">
+        16
+       </xref>], Table 7.3).</p> 
+      <p>To test the extent to which each fish composition surveyed in a given reef-time combination was unique compared to the other ones, we computed LCBD indices (i.e. Local Contributions to Beta Diversity). LCBD indices indicate how much each observation has a unique fish composition by assessing its contribution to the total variation in fish composition [
+       <xref rid="pone.0138696.ref017" ref-type="bibr">
+        17
+       </xref>]. To assess the total variation in fish composition, we first computed the total sum of squares (SS<sub>total</sub>) of the matrix of square-rooted dissimilarities by summing the dissimilarities in the lower triangular matrix and dividing by the number of observations 
+       <italic>
+        N
+       </italic>. We then computed total beta diversity (BD<sub>Total</sub>) by dividing SS<sub>total</sub> by 
+       <italic>
+        N
+       </italic>–1 [
+       <xref rid="pone.0138696.ref017" ref-type="bibr">
+        17
+       </xref>]. We measured LCBDs directly from the dissimilarity matrix of all observations as the diagonal elements of the matrix containing the centered dissimilarities, divided by SS<sub>total</sub> [
+       <xref rid="pone.0138696.ref017" ref-type="bibr">
+        17
+       </xref>].</p> 
+      <p>To test whether variations in fish composition were mainly due to compensatory changes in biomass among species or fluctuations in total community biomass, we partitioned total beta diversity into two components, namely biomass replacement (
+       <italic>
+        β
+       </italic><sub>
+        <italic>
+         replacement
+        </italic></sub>) and biomass difference components (
+       <italic>
+        β
+       </italic><sub>
+        <italic>
+         biomassdifference
+        </italic></sub>). We computed 
+       <italic>
+        β
+       </italic><sub>
+        <italic>
+         replacement
+        </italic></sub> following Legendre [
+       <xref rid="pone.0138696.ref013" ref-type="bibr">
+        13
+       </xref>] as: 
+       <disp-formula id="pone.0138696.e003"> 
+        <alternatives> 
+         <graphic id="pone.0138696.e003g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.e003" xlink:type="simple" /> 
+         <mml:math display="block" id="M3" overflow="scroll"> 
+          <mml:mrow>
+           <mml:msub>
+            <mml:mi>
+             β
+            </mml:mi>
+            <mml:mrow>
+             <mml:mi>
+              r
+             </mml:mi>
+             <mml:mi>
+              e
+             </mml:mi>
+             <mml:mi>
+              p
+             </mml:mi>
+             <mml:mi>
+              l
+             </mml:mi>
+             <mml:mi>
+              a
+             </mml:mi>
+             <mml:mi>
+              c
+             </mml:mi>
+             <mml:mi>
+              e
+             </mml:mi>
+             <mml:mi>
+              m
+             </mml:mi>
+             <mml:mi>
+              e
+             </mml:mi>
+             <mml:mi>
+              n
+             </mml:mi>
+             <mml:mi>
+              t
+             </mml:mi>
+            </mml:mrow>
+           </mml:msub>
+           <mml:mo>
+            =
+           </mml:mo>
+           <mml:mfrac>
+            <mml:mrow>
+             <mml:mn>
+              2
+             </mml:mn>
+             <mml:mi mathvariant="normal">
+              min
+             </mml:mi>
+             <mml:mrow>
+              <mml:mo>
+               (
+              </mml:mo>
+              <mml:mrow>
+               <mml:mi>
+                B
+               </mml:mi>
+               <mml:mo>
+                ,
+               </mml:mo>
+               <mml:mi>
+                C
+               </mml:mi>
+              </mml:mrow>
+              <mml:mo>
+               )
+              </mml:mo>
+             </mml:mrow>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mn>
+              2
+             </mml:mn>
+             <mml:mi>
+              A
+             </mml:mi>
+             <mml:mo>
+              +
+             </mml:mo>
+             <mml:mi>
+              B
+             </mml:mi>
+             <mml:mo>
+              +
+             </mml:mo>
+             <mml:mi>
+              C
+             </mml:mi>
+            </mml:mrow>
+           </mml:mfrac>
+          </mml:mrow> 
+         </mml:math> 
+        </alternatives> 
+        <label>(1)</label> 
+       </disp-formula> and 
+       <italic>
+        β
+       </italic><sub>
+        <italic>
+         biomassdifference
+        </italic></sub> as: 
+       <disp-formula id="pone.0138696.e004"> 
+        <alternatives> 
+         <graphic id="pone.0138696.e004g" position="anchor" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.e004" xlink:type="simple" /> 
+         <mml:math display="block" id="M4" overflow="scroll"> 
+          <mml:mrow>
+           <mml:msub>
+            <mml:mi>
+             β
+            </mml:mi>
+            <mml:mrow>
+             <mml:mi>
+              b
+             </mml:mi>
+             <mml:mi>
+              i
+             </mml:mi>
+             <mml:mi>
+              o
+             </mml:mi>
+             <mml:mi>
+              m
+             </mml:mi>
+             <mml:mi>
+              a
+             </mml:mi>
+             <mml:mi>
+              s
+             </mml:mi>
+             <mml:mi>
+              s
+             </mml:mi>
+             <mml:mi>
+              d
+             </mml:mi>
+             <mml:mi>
+              i
+             </mml:mi>
+             <mml:mi>
+              f
+             </mml:mi>
+             <mml:mi>
+              f
+             </mml:mi>
+             <mml:mi>
+              e
+             </mml:mi>
+             <mml:mi>
+              r
+             </mml:mi>
+             <mml:mi>
+              e
+             </mml:mi>
+             <mml:mi>
+              n
+             </mml:mi>
+             <mml:mi>
+              c
+             </mml:mi>
+             <mml:mi>
+              e
+             </mml:mi>
+            </mml:mrow>
+           </mml:msub>
+           <mml:mo>
+            =
+           </mml:mo>
+           <mml:mfrac>
+            <mml:mrow>
+             <mml:mrow>
+              <mml:mo>
+               |
+              </mml:mo>
+              <mml:mrow>
+               <mml:mi>
+                B
+               </mml:mi>
+               <mml:mo>
+                −
+               </mml:mo>
+               <mml:mi>
+                C
+               </mml:mi>
+              </mml:mrow>
+              <mml:mo>
+               |
+              </mml:mo>
+             </mml:mrow>
+            </mml:mrow>
+            <mml:mrow>
+             <mml:mn>
+              2
+             </mml:mn>
+             <mml:mi>
+              A
+             </mml:mi>
+             <mml:mo>
+              +
+             </mml:mo>
+             <mml:mi>
+              B
+             </mml:mi>
+             <mml:mo>
+              +
+             </mml:mo>
+             <mml:mi>
+              C
+             </mml:mi>
+            </mml:mrow>
+           </mml:mfrac>
+          </mml:mrow> 
+         </mml:math> 
+        </alternatives> 
+        <label>(2)</label> 
+       </disp-formula> Their contributions to total beta diversity were measured by computing the total sums of squares of each matrix (as in the previous paragraph) and dividing them by 
+       <italic>
+        N
+       </italic>–1. Beta diversity and its components 
+       <italic>
+        β
+       </italic><sub>replacement</sub> and 
+       <italic>
+        β
+       </italic><sub>biomasdifference</sub> were computed for all pairs of sampling units. We repeated the calculations for different stratifications of the data, through time (between temporal steps for each reef) and space (between reefs for each time step). Thus, the sampling units were grouped into 14 temporal groups (with 13 reefs for each time step) and 13 spatial groups (with 14 time steps for each reef).</p> 
+     </sec> 
+    </sec> 
+    <sec id="sec009"> 
+     <title>Spatial heterogeneity in species responses</title> 
+     <p>Finally, to characterize spatial heterogeneity in the temporal response at the 13 reefs, we computed the indicator value of each species in each of the two temporal clusters defined previously: the pre-shift and post-shift groups [
+      <xref rid="pone.0138696.ref057" ref-type="bibr">
+       57
+      </xref>]. Hence, indicator values indicate which species are predominantly found before or after the disturbances. We adjusted the 
+      <italic>
+       P
+      </italic>-values for multiple testing using a sequential Bonferroni correction [
+      <xref rid="pone.0138696.ref058" ref-type="bibr">
+       58
+      </xref>]. Species contributions to temporal shift were then measured as their scores in a RDA testing for the effect of the temporal clusters (represented as a factor in the analysis). Positive scores indicated species that increased in biomass while negative scores identified species that decreased. Hence, the higher the absolute value of a score, the higher the contribution of the species to temporal replacement. Large RDA scores jointly with indicator values were used to select, among the 227 species, a subset of species that were the most representative of the temporal shifts in fish composition occurring on each reef.</p> 
+     <p>All analyses were performed using R 3.0.1 [
+      <xref rid="pone.0138696.ref059" ref-type="bibr">
+       59
+      </xref>]. Nonlinear models were fitted to the data using the 
+      <italic>
+       nls
+      </italic> function. MRT were performed using both the mvpart and MVPARTwrap packages. Beta diversity was decomposed into the replacement and biomass difference components using the 
+      <italic>
+       beta
+      </italic>.
+      <italic>
+       div
+      </italic>.
+      <italic>
+       comp
+      </italic> function while the LCBD indices were calculated using the 
+      <italic>
+       beta
+      </italic>.
+      <italic>
+       div
+      </italic> function (available at 
+      <ext-link ext-link-type="uri" xlink:href="http://adn.biol.umontreal.ca/~numericalecology/FonctionsR/" xlink:type="simple">
+       http://adn.biol.umontreal.ca/~numericalecology/FonctionsR/
+      </ext-link>). Space-time interaction at the community level was tested using the 
+      <italic>
+       anova
+      </italic>.
+      <italic>
+       2way
+      </italic>.
+      <italic>
+       unbalanced
+      </italic> function available from the same source. Indicator values were computed using the labdsv package.</p> 
+    </sec> 
+   </sec> 
+   <sec id="sec010" sec-type="results"> 
+    <title>Results</title> 
+    <p>Between 2004 and 2012, the 13 reefs surrounding Moorea Island exhibited large variations in live coral cover (
+     <xref rid="pone.0138696.g001" ref-type="fig">
+      Fig 1
+     </xref> and Supporting Information: 
+     <xref rid="pone.0138696.s001" ref-type="supplementary-material">
+      S1 Table
+     </xref>). Clear dynamics of live coral cover loss over time was evidenced at each reef. All but one reef exhibited a logistic decline in live coral cover over the course of the survey. In 2004, live coral cover was high and stable, ranging from 32% to 59%, but it started to decrease during the first few years of the survey. Between 2007 and 2009 (median = 2008), an inflexion point in the rate of live coral cover loss occurred before it stabilized at very low values ranging from 1% to 7%. Over all reefs, the percentage decrease in live coral cover was 89.7%. Reefs located on the western side (reefs 10–13) of the island experienced slightly reduced loss in live coral cover compared to other reefs around the island (82.8% decline for the western reefs vs. 94.0% for the northeastern reefs; 
+     <xref rid="pone.0138696.g001" ref-type="fig">
+      Fig 1
+     </xref> and 
+     <xref rid="pone.0138696.s001" ref-type="supplementary-material">
+      S1 Table
+     </xref>).</p> 
+    <fig id="pone.0138696.g001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0138696.g001
+     </object-id> 
+     <label>Fig 1</label>  
+     <title>Map of the 13 reefs surveyed from 2004 to 2012 on Moorea Island.</title> 
+     <p>Reefs are labelled from 1 to 13 according to their locations. The graphs surrounding the island represent the temporal dynamics in coral cover (in percent) on the corresponding reefs. For each reef, black points represent indiviudal observations; red lines correspond to the fitted logistic models (with the exception of reef 10 for which the temporal dynamic is better represented using a linear model) with their corresponding 95% confidence intervals. 
+      <italic>
+       R
+      </italic><sup>2</sup> is the coefficient of determination.</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.g001" position="float" xlink:type="simple" /> 
+    </fig> 
+    <p>Average total fish biomass per reef ranged from 125 g.m<sup>–2</sup> (95% CI: 98:151 g.m<sup>–2</sup>) to 358 g.m<sup>–2</sup> (291:425 g.m<sup>–2</sup>; 
+     <xref rid="pone.0138696.s002" ref-type="supplementary-material">
+      S2 Table
+     </xref> and 
+     <xref rid="pone.0138696.s003" ref-type="supplementary-material">
+      S1 Fig
+     </xref>). Mean fish richness ranged from 28.8 species (27.2:30.5 species) to 42.5 species (41.1:44 species). Species richness and total biomass (square-root transformed) were highly variable among observations. Together, time and reef location explained most of that variation (
+     <xref rid="pone.0138696.t001" ref-type="table">
+      Table 1
+     </xref>). Dynamics of fish richness at each reef was well explained using quadratic models (
+     <italic>
+      R
+     </italic><sup>2</sup> ranging from 0.12 to 0.61; 
+     <xref rid="pone.0138696.s004" ref-type="supplementary-material">
+      S2 Fig
+     </xref>), with the exception of reef 9 where the temporal dynamic was better described using a linear model. The species richness on each reef was characterized by a humped curve over time with maximum richness occurring between 2008 and 2010 (i.e., SR<sub>max</sub> 
+     <xref rid="pone.0138696.s001" ref-type="supplementary-material">
+      S1 Table
+     </xref>). On average, fish richness was maximum 0.75 years after the inflexion point in live coral cover loss (
+     <xref rid="pone.0138696.s001" ref-type="supplementary-material">
+      S1 Table
+     </xref>).</p> 
+    <table-wrap id="pone.0138696.t001" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0138696.t001
+     </object-id> 
+     <label>Table 1</label> 
+     <title>Results of multiple regression analyses modeling total fish richness and total fish biomass.</title> 
+     <p>Only the significant predictors are shown, along with their partial coefficients of determination (
+      <italic>
+       r
+       <sup>2</sup>
+      </italic>). The time<sup>2</sup>:reef interaction was eliminated from the total biomass model by stepwise selection.</p> 
+     <alternatives> 
+      <graphic id="pone.0138696.t001g" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.t001" xlink:type="simple" /> 
+      <table> 
+       <colgroup span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+        <col align="left" valign="middle" span="1"> 
+       </colgroup> 
+       <thead> 
+        <tr> 
+         <th align="left" rowspan="1" colspan="1"></th> 
+         <th colspan="4" align="left" rowspan="1">Total richness</th> 
+         <th colspan="4" align="left" rowspan="1">Total biomass</th> 
+        </tr> 
+        <tr> 
+         <th align="left" rowspan="1" colspan="1">Predictor</th> 
+         <th align="left" rowspan="1" colspan="1">
+          <italic>
+           r
+           <sup>2</sup>
+          </italic></th> 
+         <th align="left" rowspan="1" colspan="1">df</th> 
+         <th align="left" rowspan="1" colspan="1">F</th> 
+         <th align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic></th> 
+         <th align="left" rowspan="1" colspan="1">
+          <italic>
+           r
+           <sup>2</sup>
+          </italic></th> 
+         <th align="left" rowspan="1" colspan="1">df</th> 
+         <th align="left" rowspan="1" colspan="1">F</th> 
+         <th align="left" rowspan="1" colspan="1">
+          <italic>
+           P
+          </italic></th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Time</td> 
+         <td align="left" rowspan="1" colspan="1">0.07</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">68.6</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         <td align="left" rowspan="1" colspan="1">0.13</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">108.0</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Time<sup>2</sup></td> 
+         <td align="left" rowspan="1" colspan="1">0.31</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">209.9</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         <td align="left" rowspan="1" colspan="1">0.05</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">42.5</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Reef</td> 
+         <td align="left" rowspan="1" colspan="1">0.39</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">27.2</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         <td align="left" rowspan="1" colspan="1">0.13</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">9.3</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Time:reef</td> 
+         <td align="left" rowspan="1" colspan="1">0.10</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">4.5</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         <td align="left" rowspan="1" colspan="1">0.08</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">5.4</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Time<sup>2</sup>:reef</td> 
+         <td align="left" rowspan="1" colspan="1">0.05</td> 
+         <td align="left" rowspan="1" colspan="1">12</td> 
+         <td align="left" rowspan="1" colspan="1">2.2</td> 
+         <td align="left" rowspan="1" colspan="1">0.01</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+         <td align="left" rowspan="1" colspan="1">-</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Season</td> 
+         <td align="left" rowspan="1" colspan="1">0.04</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">22.5</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         <td align="left" rowspan="1" colspan="1">0.01</td> 
+         <td align="left" rowspan="1" colspan="1">1</td> 
+         <td align="left" rowspan="1" colspan="1">11.5</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+        </tr> 
+        <tr> 
+         <td align="left" rowspan="1" colspan="1">Full model</td> 
+         <td align="left" rowspan="1" colspan="1">0.58</td> 
+         <td align="left" rowspan="1" colspan="1">39, 506</td> 
+         <td align="left" rowspan="1" colspan="1">18.1</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+         <td align="left" rowspan="1" colspan="1">0.40</td> 
+         <td align="left" rowspan="1" colspan="1">27, 518</td> 
+         <td align="left" rowspan="1" colspan="1">12.5</td> 
+         <td align="left" rowspan="1" colspan="1">&lt;0.0001</td> 
+        </tr> 
+       </tbody> 
+      </table> 
+     </alternatives> 
+    </table-wrap> 
+    <p>Space, time and their interaction significantly explained variation in fish composition based on square-rooted biomass (F<sub>12,364</sub> = 10.976, 
+     <italic>
+      P
+     </italic> &lt; 0.001; F<sub>13,364</sub> = 6.873, 
+     <italic>
+      P
+     </italic> &lt; 0.001; F<sub>156,364</sub> = 1.593, 
+     <italic>
+      P
+     </italic> &lt; 0.001 respectively). Clustering of the observations by multivariate regression tree analysis (MRT) revealed that fish composition was significantly different between reefs on the northeastern coast (reefs 1–9) and reefs on the western coast (reefs 10–13; 
+     <italic>
+      R
+     </italic><sup>2</sup> = 6.87% based on RDA). Within each group, a temporal shift occurred in 2007 for reefs located on the northeastern coast (
+     <italic>
+      R
+     </italic><sup>2</sup> = 4.56%) and in 2010 for reefs located on the western coast (
+     <italic>
+      R
+     </italic><sup>2</sup> = 2.71%; 
+     <xref rid="pone.0138696.g002" ref-type="fig">
+      Fig 2
+     </xref>).</p> 
+    <fig id="pone.0138696.g002" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0138696.g002
+     </object-id> 
+     <label>Fig 2</label>  
+     <title>Principal coordinates ordination (PCoA) biplots of beta diversity and its components.</title> 
+     <p>(a) PCoA of the square-rooted dissimilarity matrix among all observations. Dissimilarity was measured using the percentage-difference (alias Bray-Curtis) index on square-rooted fish biomass data. (b) PCoA of the dissimilarity matrix accounting only for biomass replacement between pairs of observations (
+      <italic>
+       β
+      </italic><sub>replacement</sub>). (c) PCoA on the dissimilarity matrix accounting only for biomass differences between pairs of observations (
+      <italic>
+       β
+      </italic><sub>biomasdifference</sub>). Groups identified in ordinations (a) and (b) are the four groups identified using MRT. In ordination (c), observations are ordered along a total square-rooted biomass gradient (see 
+      <xref rid="pone.0138696.s005" ref-type="supplementary-material">
+       S3 Fig
+      </xref> for details).</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.g002" position="float" xlink:type="simple" /> 
+    </fig> 
+    <p>Local contributions of individual observations to beta diversity (LCBDs) exhibited contrasting patterns across space and time (
+     <xref rid="pone.0138696.g003" ref-type="fig">
+      Fig 3
+     </xref>). Most of the highest and significant LCBD values were found in the marginal years of the survey, either at the beginning (i.e., 2004 to 2005) or at the end (i.e., 2010 to 2012), away from the inflexion point years shown in 
+     <xref rid="pone.0138696.g001" ref-type="fig">
+      Fig 1
+     </xref>. For 2011–2012, the reefs located on the western coast (reefs 10 to 13) exhibited higher LCBD values than the other reefs.</p> 
+    <fig id="pone.0138696.g003" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0138696.g003
+     </object-id> 
+     <label>Fig 3</label>  
+     <title>Local contributions to beta diversity (LCBD) per reef and year.</title> 
+     <p>LCBD values indicate the extent to which each local community is unique in terms of its composition. Circle surface areas are proportional to the LCBD values. Circles with a black rim indicate significant LCBD indices at the 0.05 level. Marginal diagrams indicate LCBD value averages per year (upper margin) and per reef (right margin); values are multiplied by 1000.</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.g003" position="float" xlink:type="simple" /> 
+    </fig> 
+    <p>A large fraction of fish composition was stable at the scale of the whole island (1 –total beta = 0.698). Changes in fish composition (total beta = 0.302) were mainly due to replacement in biomass among species (
+     <italic>
+      β
+     </italic><sub>replacement</sub> = 0.201, accounting for 67% of total beta) whereas fluctuations in total biomass were less important (
+     <italic>
+      β
+     </italic><sub>biomasdifference</sub> = 0.101, accounting for 33% of total beta). 
+     <italic>
+      β
+     </italic><sub>replacement</sub> was explained by the same spatio-temporal variables as total beta diversity: the northeastern reefs were opposed to the western reefs in their replacement (
+     <italic>
+      R
+     </italic><sup>2</sup> = 5.13%) while a temporal shift occurred in 2009 on the northeastern reefs (
+     <italic>
+      R
+     </italic><sup>2</sup> = 2.81%) and in 2010 on the western reefs (
+     <italic>
+      R
+     </italic><sup>2</sup> = 2.01%; 
+     <xref rid="pone.0138696.g002" ref-type="fig">
+      Fig 2
+     </xref>). 
+     <italic>
+      β
+     </italic><sub>biomasdifference</sub> was computed as the ratio |B ‒ C| over (2A + B + C) (Eq 4). Because |B ‒ C| is a unidimensional index that orders all observations on a straight line, 
+     <italic>
+      β
+     </italic><sub>biomasdifference</sub> was exclusively explained by square-rooted total biomass. However, because the denominators (i.e., 2A + B + C) differed among pairs of observations, the resulting ordination was not unidimensional but curvilinear in multivariate ordination space (
+     <xref rid="pone.0138696.g002" ref-type="fig">
+      Fig 2C
+     </xref> and 
+     <xref rid="pone.0138696.s005" ref-type="supplementary-material">
+      S3 Fig
+     </xref>). This is clearly illustrated when considering a subset of the data (
+     <xref rid="pone.0138696.s005" ref-type="supplementary-material">
+      S3 Fig
+     </xref>). For example, observations from reefs 1 and 10 are ordered in the multivariate ordination space by the value of their square-rooted total biomass. In addition, observations from reef 1 mostly have negative coordinates on the first PCoA axis while observations from reef 10 mostly have positive coordinates, reflecting that, overall, reef 1 had much more biomass than reef 10; note that the ordination axis could have been reversed.</p> 
+    <p>Using triangular plots, the response of fish communities was then analyzed separately for each of the 13 spatial groups and each of the 14 temporal groups independently. Calculation of beta diversity and its components 
+     <italic>
+      β
+     </italic><sub>replacement</sub> and 
+     <italic>
+      β
+     </italic><sub>biomasdifference</sub> within each spatial group provides information on the temporal response at each reef while their calculation within each temporal group provides information on the spatial variation within each time step. Temporal stability in fish composition was highly consistent among reefs (mean similarity across reefs = 0.732, 95% CI = [0.728:0.735]; 
+     <xref rid="pone.0138696.g004" ref-type="fig">
+      Fig 4A
+     </xref>). Temporal changes in fish composition (beta diversity across reefs = 0.268) were mainly due to biomass replacement among species (
+     <italic>
+      β
+     </italic><sub>replacement</sub> = 0.178, 95% CI = [0.175:0.181] accounting for 66% of beta diversity). Spatial stability in fish composition was also highly consistent among time steps and of the same magnitude as the temporal response (average similarity across time steps = 0.721, 95% CI = [0.719:0.725]; 
+     <xref rid="pone.0138696.g004" ref-type="fig">
+      Fig 4B
+     </xref>). Spatial variation in fish composition (beta diversity across time steps = 0.279) was also mainly due to replacement in biomass among species (0.192, 95% CI = [0.190:0.195] accounting for 70% of beta diversity).</p> 
+    <fig id="pone.0138696.g004" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0138696.g004
+     </object-id> 
+     <label>Fig 4</label>  
+     <title>Triangle plots illustrating the contributions of three mechanisms: stability in species composition, compensatory changes in biomass among species and fluctuations in total community biomass to the temporal and spatial responses of fish communities.</title> 
+     <p>(a) Temporal response measure as beta diversity for the 13 spatial groups (13 reefs with 14 time steps for each reef). (b) Spatial response measure as beta diversity for the 14 temporal groups (14 time steps with 13 reefs for each time steps). Blue points represent the means over the different time step pairs (or reef pairs).</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.g004" position="float" xlink:type="simple" /> 
+    </fig> 
+    <p>A temporal shift in fish composition was clearly visible when each reef was analyzed independently (using time as the only explanatory variable: 
+     <italic>
+      P
+     </italic> &lt; 0.001 for all reefs; 
+     <xref rid="pone.0138696.s001" ref-type="supplementary-material">
+      S1 Table
+     </xref>). It explained from 8.7% to 19.3% of the variance in fish composition at each reef. We found 35 species out of 227 to be indicators of these shifts (some were significant indicators on several different reefs; 
+     <xref rid="pone.0138696.s006" ref-type="supplementary-material">
+      S4 Fig
+     </xref>). Five of them were extremely rare and were discarded (frequencies &lt; 0.1%). However, overall we found that only a small number of species had a large contribution to the temporal shift. Only seven species explained a large part of the temporal shift, contributing on average to 80% of the total 
+     <italic>
+      R
+     </italic><sup>2</sup> explained by the temporal shift on the 13 reefs modeled separately (
+     <xref rid="pone.0138696.g005" ref-type="fig">
+      Fig 5
+     </xref>). Among them, the two most prevalent species, namely the Acanthurid 
+     <italic>
+      Ctenocheatus striatus
+     </italic> and the Scarid 
+     <italic>
+      Chlorurus sordidus
+     </italic>, which represented 9.1% and 6.9% of the total biomass (considering all observations), explained a large part of the temporal shift. Yet, their contribution to the temporal shift exhibited clear spatial heterogeneity (
+     <xref rid="pone.0138696.g005" ref-type="fig">
+      Fig 5
+     </xref>). While 
+     <italic>
+      Ctenocheatus striatus
+     </italic> and 
+     <italic>
+      Chlorurus sordidus
+     </italic> mostly increased in biomass on the northeastern reefs, they did decrease in biomass on the western reefs. In addition, the increase of 
+     <italic>
+      Scarus psittacus
+     </italic>, the third most prevalent species (5.2%), explained another large amount of the variation on the northeastern reefs but not on the western reefs. On the latter, 
+     <italic>
+      Acanthurus olivaceus
+     </italic> was the species that most contributed to the temporal shift (
+     <xref rid="pone.0138696.g005" ref-type="fig">
+      Fig 5
+     </xref>). These four species are all herbivores. On the other hand, few species consistently decreased at the scale of the island (e.g. two highly diet specialized Chaetodontidae: 
+     <italic>
+      Chaetodon reticulatus
+     </italic> and 
+     <italic>
+      Chaetodon pelewensis
+     </italic>).</p> 
+    <fig id="pone.0138696.g005" position="float"> 
+     <object-id pub-id-type="doi">
+      10.1371/journal.pone.0138696.g005
+     </object-id> 
+     <label>Fig 5</label>  
+     <title>Species contributions to the temporal shift in fish composition for each reef.</title> 
+     <p>Only the seven species that contributed the most to this temporal trend are pictured. These species are ordered according to their relative frequencies in the whole data set 1: 
+      <italic>
+       Ctenochaetus striatus
+      </italic> (a scraper, Acanthuridae); 2: 
+      <italic>
+       Chlorurus sordidus
+      </italic> and 3: 
+      <italic>
+       Scarus psittacus
+      </italic> (two scrapers, Scaridae); 4: 
+      <italic>
+       Naso lituratus
+      </italic> (a browser, Acanthuridae); 5: 
+      <italic>
+       Acanthurus olivaceus
+      </italic> (a grazer, Acanthuridae); 6: 
+      <italic>
+       Scarus oviceps
+      </italic> (a scraper, Scaridae) and 7: 
+      <italic>
+       Odonus niger
+      </italic> (a plankton feeder, Balistidae). Polygon lengths are proportional to the species contributions to the temporal shift. Positive contributions (in blue) indicate species whose biomasses increased through time, while negative contributions (red) indicate species whose biomasses decreases through time. Polygons of species that are also indicators are surrounded with a black frame (see also 
+      <xref rid="pone.0138696.s006" ref-type="supplementary-material">
+       S4 Fig
+      </xref>).</p>  
+     <graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0138696.g005" position="float" xlink:type="simple" /> 
+    </fig> 
+   </sec> 
+   <sec id="sec011" sec-type="conclusions"> 
+    <title>Discussion</title> 
+    <p>All ecosystems inherently experience episodic natural disturbances. For instance, coral reef ecosystems are frequently affected by hurricanes, whereas fires are common in natural forest and grassland ecosystems. Consequently, natural disturbances are key forces shaping the spatio-temporal dynamics of these ecosystems. In addition, as cycles of natural disturbances are already altered due to anthropogenic disturbances [
+     <xref rid="pone.0138696.ref004" ref-type="bibr">
+      4
+     </xref>,
+     <xref rid="pone.0138696.ref005" ref-type="bibr">
+      5
+     </xref>], developing a better understanding of which mechanisms underline the spatio-temporal responses of ecosystems to these disturbances can help ecologists to better inform the management of otherwise degraded ecosystems [
+     <xref rid="pone.0138696.ref060" ref-type="bibr">
+      60
+     </xref>].</p> 
+    <p>The combination of two natural disturbances that severely affected coral habitats around Moorea Island offered a unique opportunity to understand how the coral reef fish communities responded through both time and space. Within a few years, live coral cover decreased logistically by 90% over all 13 monitored reefs. This environmental change occurred at about the same time on the different reefs and corresponded to the start of a bloom of crown-of-thorns starfish (COTS; [
+     <xref rid="pone.0138696.ref036" ref-type="bibr">
+      36
+     </xref>]). This striking impact of COTS on live coral cover outlines the importance of COTS as an important driver of coral dynamics [
+     <xref rid="pone.0138696.ref036" ref-type="bibr">
+      36
+     </xref>,
+     <xref rid="pone.0138696.ref042" ref-type="bibr">
+      42
+     </xref>,
+     <xref rid="pone.0138696.ref049" ref-type="bibr">
+      49
+     </xref>]. Because of the earlier impacts of the COTS outbreak, It is however, more difficult to isolate the part played by the hurricane, which can also cause high coral mortality rates [
+     <xref rid="pone.0138696.ref042" ref-type="bibr">
+      42
+     </xref>,
+     <xref rid="pone.0138696.ref049" ref-type="bibr">
+      49
+     </xref>]. Besides, when COTS feeds on coral tissues, it leaves the mineral coral structure unaltered but corals are then more vulnerable to the mechanical disturbance caused by a hurricane [
+     <xref rid="pone.0138696.ref061" ref-type="bibr">
+      61
+     </xref>]. A recent study in the same area showed that the hurricane decreased the three-dimensional configuration of the reefs [
+     <xref rid="pone.0138696.ref043" ref-type="bibr">
+      43
+     </xref>], potentially reducing the amount of shelters available for benthic fish species.</p> 
+    <p>Our most interesting result revealed that despite major environmental changes, the reef fish communities were extremely resistant to these disturbances. That conclusion emerged consistently whether the response of the coral reef fish community was analyzed globally (among all observations), temporally (among time steps within each reef), or spatially (among reefs within each time step). Stability in reef fish composition underlined an important part of the response (~70%). Temporal variations in coral reef fish composition were mainly explained by replacement in biomass among species (~20%) suggesting that, despite the severity of the two disturbances, fish communities exhibited a high resistance and an ability to reorganize their compositions to maintain the same level of total community biomass as before the disturbances. Different stabilizing mechanisms such as compensatory dynamics may have been at work. As a result, total biomass exhibited little fluctuation over time, which contributed little (~10%) to temporal variation in coral reef fish composition. The compensatory dynamics of local communities were characterized by an increase in biomass of some species and a significant decrease of other species, leading to significant shifts in reef fish composition over time. However, compositional shifts involved changes in different species, especially when comparing the western and northeastern reefs.</p> 
+    <p>Spatial heterogeneity in species responses to the disturbances appears to be an important factor underlying the response of coral reef fish communities to the two disturbances. Compositional shift over time in fish composition was actually mostly ascribed to the consistent increase at the whole-island scale in a group of key species, the herbivores in accordance with a previous study [
+     <xref rid="pone.0138696.ref050" ref-type="bibr">
+      50
+     </xref>]. Although the two disturbances had the same effect on the habitat of all reefs, as characterized by the decline in live coral cover occurring at about the same rate and timing across the different reefs, the identity of the herbivore species fulfilling this critical function differs from site to site. The number of herbivore species identified in this study is quite high (44 species) and may provide the ecosystem with functional redundancy, although herbivory is a complex functional group that includes an increasing number of detailed functions (e.g. grazers, browsers or scrapers). However, because these herbivore species exhibited contrasted temporal trajectories across different reefs despite homogenous environmental change, they probably differed with respect to other traits that influenced their responses. This suggests that there is spatial redundancy in the herbivore response diversity [
+     <xref rid="pone.0138696.ref025" ref-type="bibr">
+      25
+     </xref>,
+     <xref rid="pone.0138696.ref062" ref-type="bibr">
+      62
+     </xref>]. Given the complexity of fish herbivory and the potential role of other functional traits mediating this response, more studies are needed to characterize the functional response of the fish communities. Alternatively, reefs may differ with respect to other environmental characteristics, such as difference in wave exposure, explaining the contrasting temporal trajectories between the western and northeastern reefs. Herbivory plays a critical role in coral reef resilience by controlling algal communities, which may then allow the ecosystem to recover more quickly [
+     <xref rid="pone.0138696.ref063" ref-type="bibr">
+      63
+     </xref>]. This abundance of herbivores probably provided the reef with sufficient herbivory pressure to facilitate coral recruitment and avoid a regime shift towards an algae-dominated system, as observed in other parts of our planet [
+     <xref rid="pone.0138696.ref064" ref-type="bibr">
+      64
+     </xref>,
+     <xref rid="pone.0138696.ref065" ref-type="bibr">
+      65
+     </xref>]. Indeed most of the substrate remained free after the corals disappearance. The extent to which these community changes are naturally occurring in coral reefs, induced by the two disturbances, or intensify due to their joint effects, are however difficult to disentangle. COTS outbreaks and hurricanes have occurred repeatedly at Moorea Island at a decadal scale (e.g. [
+     <xref rid="pone.0138696.ref049" ref-type="bibr">
+      49
+     </xref>]) though this is the first time they occurred in combination over the past few decades.</p> 
+    <p>Finally, despite homogenization of the habitat toward reduced coral cover and complexity, the spatial variation in coral reef fish composition across reefs did not become homogenous over time, as could be the case in some other communities subject to harsh habitat alteration [
+     <xref rid="pone.0138696.ref033" ref-type="bibr">
+      33
+     </xref>,
+     <xref rid="pone.0138696.ref034" ref-type="bibr">
+      34
+     </xref>]. Spatial heterogeneity in species responses may explain why no compositional homogenization occurred. Overall, these spatial responses may provide the ecosystem with greater resilience [
+     <xref rid="pone.0138696.ref066" ref-type="bibr">
+      66
+     </xref>].</p> 
+    <p>Contrary to disturbances associated with human activities such as overfishing, coastal development or extensive land use, natural disturbances are part of the regime under which coral reef ecosystems have evolved [
+     <xref rid="pone.0138696.ref067" ref-type="bibr">
+      67
+     </xref>]. COTS is perceived to be a major threat to coral reefs [
+     <xref rid="pone.0138696.ref041" ref-type="bibr">
+      41
+     </xref>]. Yet, outbreaks of this species are not different from other natural disturbances. COTS has always been a natural predator of corals [
+     <xref rid="pone.0138696.ref068" ref-type="bibr">
+      68
+     </xref>,
+     <xref rid="pone.0138696.ref069" ref-type="bibr">
+      69
+     </xref>] and as such coral reef ecosystems have evolved with this coral predator for a long time. As a natural disturbance, COTS outbreaks also play an important role in the dynamics of these ecosystems [
+     <xref rid="pone.0138696.ref068" ref-type="bibr">
+      68
+     </xref>,
+     <xref rid="pone.0138696.ref070" ref-type="bibr">
+      70
+     </xref>]. However, we have just started to appreciate the influence of COTS at the scale of whole coral reef ecosystems. Recent studies suggested that COTS impact on fish communities can be limited to specialized fish species due either to the loss of their coral habitat (e.g., specialized damselfishes: [
+     <xref rid="pone.0138696.ref071" ref-type="bibr">
+      71
+     </xref>,
+     <xref rid="pone.0138696.ref072" ref-type="bibr">
+      72
+     </xref>] but see [
+     <xref rid="pone.0138696.ref073" ref-type="bibr">
+      73
+     </xref>]) or to negative impact on their recruitment [
+     <xref rid="pone.0138696.ref074" ref-type="bibr">
+      74
+     </xref>]. Our study confirms that the impact of COTS on fish communities can be weak and restricted to some species.</p> 
+    <p>While many studies have documented how species composition varies through space [
+     <xref rid="pone.0138696.ref009" ref-type="bibr">
+      9
+     </xref>,
+     <xref rid="pone.0138696.ref016" ref-type="bibr">
+      16
+     </xref>,
+     <xref rid="pone.0138696.ref075" ref-type="bibr">
+      75
+     </xref>], we have less information about how species composition also varies through time [
+     <xref rid="pone.0138696.ref026" ref-type="bibr">
+      26
+     </xref>,
+     <xref rid="pone.0138696.ref076" ref-type="bibr">
+      76
+     </xref>] though it is a crucial issue given that most ecosystems on Earth are impacted by increasing anthropogenic forces [
+     <xref rid="pone.0138696.ref077" ref-type="bibr">
+      77
+     </xref>]. Undoubtedly, local communities are influenced by processes acting at various spatial (e.g. dispersal) and temporal scales (e.g. competition) but both types of processes are likely to interact so that spatial patterns may vary over time, or alternatively temporal patterns may vary across spatial scales. Monitoring biodiversity both through space and time is then of great interest to obtain a more realistic view of biodiversity changes. Beta diversity analysis is probably the most useful method that can be used to study biodiversity changes through space and time. Although sampling through both time and space is still rare, more time series about various ecosystems are needed to properly document the influence of such episodic natural disturbances on communities. Beta diversity, LCBD indices and beta-diversity decomposition represent useful methods to study spatio-temporal changes.</p> 
+   </sec> 
+   <sec id="sec012"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0138696.s001" xlink:href="info:doi/10.1371/journal.pone.0138696.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:type="simple"> 
+     <label>S1 Table</label>  
+     <title>Live coral cover (LCC) temporal dynamics and temporal shift in coral reef fish communities.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0138696.s002" xlink:href="info:doi/10.1371/journal.pone.0138696.s002" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" position="float" xlink:type="simple"> 
+     <label>S2 Table</label>  
+     <title>The 13 coral reefs from Moorea Island.</title> 
+     <p>(DOCX)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0138696.s003" xlink:href="info:doi/10.1371/journal.pone.0138696.s003" mimetype="image/tiff" position="float" xlink:type="simple"> 
+     <label>S1 Fig</label>  
+     <title>Temporal dynamics in total fish biomass from 2004 to 2012.</title> 
+     <p>Black points represent indiviudal observations. Orange lines correspond to the best fitted models, either linears or quadratics, with their corresponding 95% confidence intervals. When no model significantly fitted the temporal evolution of biomass orange dashed lines were used. 
+      <italic>
+       R
+      </italic><sup>2</sup> is the coefficient of determination. NS stand for not significant.</p> 
+     <p>(TIFF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0138696.s004" xlink:href="info:doi/10.1371/journal.pone.0138696.s004" mimetype="image/tiff" position="float" xlink:type="simple"> 
+     <label>S2 Fig</label>  
+     <title>Temporal dynamics in fish richness from 2004 to 2012.</title> 
+     <p>Black points represent indiviudal observations. Blue lines correspond to the fitted quadratic models (with the expetion of Maatea for which the temporal dynamic is better represented using a linear model) with their corresponding 95% confidence intervals. 
+      <italic>
+       R
+      </italic><sup>2</sup> is the coefficient of determination.</p> 
+     <p>(TIFF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0138696.s005" xlink:href="info:doi/10.1371/journal.pone.0138696.s005" mimetype="image/tiff" position="float" xlink:type="simple"> 
+     <label>S3 Fig</label>  
+     <title>Influence of the total square-rooted biomass on the ordination of observations when accounting only for biomass differences between pairs of observations.</title> 
+     <p>(a) Principal coordinates ordination (PCoA) of the dissimilarity matrix accounting only for biomass differences between pairs of observations (
+      <italic>
+       β
+      </italic><sub>
+       <italic>
+        biomassdifference
+       </italic></sub>). For the purpose of illustration we only represented observations from the first transect of reef 1 (green) and 10 (blue). Circles are proportional to the total square-rooted biomass of each observation. 186 and 878 correspond to the minimal and maximal value, respectively, of total square-rooted biomass measured at both reefs. (b) relationship between sampling units coordinates on the first axis (second axis: (c)) of the PCoA and their total square-rooted biomass.</p> 
+     <p>(TIFF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0138696.s006" xlink:href="info:doi/10.1371/journal.pone.0138696.s006" mimetype="image/tiff" position="float" xlink:type="simple"> 
+     <label>S4 Fig</label>  
+     <title>The 30 indicator species of the temporal shift.</title> 
+     <p>Circles are proportional to species score in a RDA with MRT groups corresponding to the temporal shift (i.e., before/after the shift). Black circles indicate significant indicator species. Blue circles correspond to species that increased in biomass after the temporal shift, while red circles correspond to species that decreased in biomass after the temporal shift. Species are classified according to their relative frequencies at the regional (Whole Island) scale (percent within brackets). Species are colored according to their trophic groups: herbivores fish (green); fish feeding predominantly on mobile benthic invertebrates (blue); planktivores (light orange); fish feeding predominantly on sessile invertebrates (red) and piscivores (black).</p> 
+     <p>(TIFF)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>The authors thank Yu-Yun Chen for discussions on decomposition of beta diversity, José Carlos Carvalho, Pedro Cardoso and one anonymous reviewer for providing constructive comments on previous versions of this manuscript.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0138696.ref001">
+      <label>1</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thrush
+        </surname> 
+        <given-names>
+         SF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hewitt
+        </surname> 
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dayton
+        </surname> 
+        <given-names>
+         PK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coco
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lohrer
+        </surname> 
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Norkko
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Forecasting the limits of resilience: integrating empirical research with theory
+       </article-title>. 
+       <source>Proc R Soc B Biol Sci 
+       <volume>
+        276
+       </volume>: 
+       <fpage>
+        3209
+       </fpage>–
+       <lpage>
+        3217
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref002">
+      <label>2</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allison
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        The influence of species diversity and stress intensity on community resistance and resilience
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        74
+       </volume>: 
+       <fpage>
+        117
+       </fpage>–
+       <lpage>
+        134
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref003">
+      <label>3</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bruelheide
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Luginbühl
+        </surname> 
+        <given-names>
+         U
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Peeking at Ecosystem Stability: Making Use of a Natural Disturbance Experiment to Analyze Resistance and Resilience
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        90
+       </volume>: 
+       <fpage>
+        1314
+       </fpage>–
+       <lpage>
+        1325
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        19537551
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref004">
+      <label>4</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Harley
+        </surname> 
+        <given-names>
+         CDG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Randall
+        </surname> 
+        <given-names>
+         Hughes A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hultgren
+        </surname> 
+        <given-names>
+         KM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Miner
+        </surname> 
+        <given-names>
+         BG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sorte
+        </surname> 
+        <given-names>
+         CJB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thornber
+        </surname> 
+        <given-names>
+         CS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        The impacts of climate change in coastal marine systems
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        228
+       </fpage>–
+       <lpage>
+        241
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        16958887
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref005">
+      <label>5</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Karl
+        </surname> 
+        <given-names>
+         TR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Meehl
+        </surname> 
+        <given-names>
+         GA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Miller
+        </surname> 
+        <given-names>
+         CD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hassol
+        </surname> 
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Waple
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Murray
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Weather and climate extremes in a changing climate, regions of focus: North America, Hawaii, Caribbean, and US Pacific Islands
+       </article-title>. 
+       <source>US Climate Change Science Program.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref006">
+      <label>6</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fridley
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Askew
+        </surname> 
+        <given-names>
+         AP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thompson
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hodgson
+        </surname> 
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bennett
+        </surname> 
+        <given-names>
+         CR
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Long-term resistance to simulated climate change in an infertile grassland
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        105
+       </volume>: 
+       <fpage>
+        10028
+       </fpage>–
+       <lpage>
+        10032
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0711567105" xlink:type="simple">
+         10.1073/pnas.0711567105
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18606995
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref007">
+      <label>7</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Grime
+        </surname> 
+        <given-names>
+         JP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname> 
+        <given-names>
+         VK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thompson
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Masters
+        </surname> 
+        <given-names>
+         GJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hillier
+        </surname> 
+        <given-names>
+         SH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clarke
+        </surname> 
+        <given-names>
+         IP
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        The Response of Two Contrasting Limestone Grasslands to Simulated Climate Change
+       </article-title>. 
+       <source>Science 
+       <volume>
+        289
+       </volume>: 
+       <fpage>
+        762
+       </fpage>–
+       <lpage>
+        765
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        10926535
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref008">
+      <label>8</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Peterson
+        </surname> 
+        <given-names>
+         CG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stevenson
+        </surname> 
+        <given-names>
+         RJ
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Resistance and resilience of lotic algal communities: importance of disturbance timing and current
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        1445
+       </fpage>–
+       <lpage>
+        1461
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref009">
+      <label>9</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Crist
+        </surname> 
+        <given-names>
+         TO
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname> 
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Inouye
+        </surname> 
+        <given-names>
+         BD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Freestone
+        </surname> 
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Navigating the multiple meanings of β diversity: a roadmap for the practicing ecologist
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        14
+       </volume>:
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        28
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2010.01552.x" xlink:type="simple">
+         10.1111/j.1461-0248.2010.01552.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21070562
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref010">
+      <label>10</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Podani
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmera
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        A new conceptual and methodological framework for exploring and explaining pattern in presence–absence data
+       </article-title>. 
+       <source>Oikos 
+       <volume>
+        120
+       </volume>: 
+       <fpage>
+        1625
+       </fpage>–
+       <lpage>
+        1638
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref011">
+      <label>11</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carvalho
+        </surname> 
+        <given-names>
+         JC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cardoso
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gomes
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Determining the relative roles of species replacement and species richness differences in generating beta-diversity patterns
+       </article-title>. 
+       <source>Glob Ecol Biogeogr 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        760
+       </fpage>–
+       <lpage>
+        771
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref012">
+      <label>12</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Podani
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ricotta
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmera
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        A general framework for analyzing beta diversity, nestedness and related community-level phenomena based on abundance data
+       </article-title>. 
+       <source>Ecol Complex 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        52
+       </fpage>–
+       <lpage>
+        61
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref013">
+      <label>13</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Interpreting the replacement and richness difference components of beta diversity
+       </article-title>. 
+       <source>Glob Ecol Biogeogr 
+       <volume>
+        11
+       </volume>: 
+       <fpage>
+        1324
+       </fpage>–
+       <lpage>
+        1334
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref014">
+      <label>14</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Baselga
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Partitioning the turnover and nestedness components of beta diversity
+       </article-title>. 
+       <source>Glob Ecol Biogeogr 
+       <volume>
+        19
+       </volume>: 
+       <fpage>
+        134
+       </fpage>–
+       <lpage>
+        143
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref015">
+      <label>15</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ulrich
+        </surname> 
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Almeida-Neto
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        On the meanings of nestedness: back to the basics
+       </article-title>. 
+       <source>Ecography 
+       <volume>
+        35
+       </volume>: 
+       <fpage>
+        865
+       </fpage>–
+       <lpage>
+        871
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref016">
+      <label>16</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <chapter-title>
+        Numerical ecology
+       </chapter-title>. 
+       <edition>
+        Third English Edit
+       </edition>. 
+       <publisher-name>
+        Elsevier
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref017">
+      <label>17</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         De Cáceres
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Beta diversity as the variance of community data: dissimilarity coefficients and partitioning
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        16
+       </volume>: 
+       <fpage>
+        951
+       </fpage>–
+       <lpage>
+        963
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/ele.12141" xlink:type="simple">
+         10.1111/ele.12141
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23809147
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref018">
+      <label>18</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gauthier
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Statistical methods for temporal and space–time analysis of community composition data
+       </article-title>. 
+       <source>Proc R Soc B Biol Sci 
+       <volume>
+        281
+       </volume>: 
+       <fpage>
+        20132728
+       </fpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref019">
+      <label>19</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Whittaker
+        </surname> 
+        <given-names>
+         RH
+        </given-names>
+       </name> (
+       <year>
+        1972
+       </year>) 
+       <article-title>
+        Evolution and measurement of species diversity
+       </article-title>. 
+       <source>Taxon. 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        213
+       </fpage>–
+       <lpage>
+        251
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref020">
+      <label>20</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ripa
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ives
+        </surname> 
+        <given-names>
+         AR
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Food web dynamics in correlated and autocorrelated environments
+       </article-title>. 
+       <source>Theor Popul Biol 
+       <volume>
+        64
+       </volume>: 
+       <fpage>
+        369
+       </fpage>–
+       <lpage>
+        384
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        14522176
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref021">
+      <label>21</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gonzalez
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        The Causes and Consequences of Compensatory Dynamics in Ecological Communities
+       </article-title>. 
+       <source>Annu Rev Ecol Evol Syst 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        393
+       </fpage>–
+       <lpage>
+        414
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref022">
+      <label>22</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Michel
+        </surname> 
+        <given-names>
+         Loreau
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mazancourt
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Species Synchrony and Its Drivers: Neutral and Nonneutral Community Dynamics in Fluctuating Environments
+       </article-title>. 
+       <source>Am Nat. 
+       <volume>
+        172
+       </volume>: 
+       <fpage>
+        E48
+       </fpage>–
+       <lpage>
+        E66
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/589746" xlink:type="simple">
+         10.1086/589746
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        18598188
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref023">
+      <label>23</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carr
+        </surname> 
+        <given-names>
+         MH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname> 
+        <given-names>
+         TW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hixon
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Biodiversity, population regulation, and the stability of coral-reef Fish communities
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        99
+       </volume>: 
+       <fpage>
+        11241
+       </fpage>–
+       <lpage>
+        11245
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        12177430
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref024">
+      <label>24</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walker
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kinzig
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Langridge
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Plant attribute diversity, resilience, and ecosystem function: The nature and significance of dominant and minor species
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        95
+       </fpage>–
+       <lpage>
+        113
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref025">
+      <label>25</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Elmqvist
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nyström
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peterson
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bengtsson
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Walker
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Response diversity, ecosystem change, and resilience
+       </article-title>. 
+       <source>Front Ecol Environ 
+       <volume>
+        1
+       </volume>: 
+       <fpage>
+        488
+       </fpage>–
+       <lpage>
+        494
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref026">
+      <label>26</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Magurran
+        </surname> 
+        <given-names>
+         AE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Henderson
+        </surname> 
+        <given-names>
+         PA
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Temporal turnover and the maintenance of diversity in ecological assemblages
+       </article-title>. 
+       <source>Phil Trans R Soc B 
+       <volume>
+        365
+       </volume>: 
+       <fpage>
+        3611
+       </fpage>–
+       <lpage>
+        3620
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1098/rstb.2010.0285" xlink:type="simple">
+         10.1098/rstb.2010.0285
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        20980310
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref027">
+      <label>27</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Steiner
+        </surname> 
+        <given-names>
+         CF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stockwell
+        </surname> 
+        <given-names>
+         RD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kalaimani
+        </surname> 
+        <given-names>
+         Vidhya
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Aqel
+        </surname> 
+        <given-names>
+         Z
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Dispersal promotes compensatory dynamics and stability in forced metacommunities
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        178
+       </volume>: 
+       <fpage>
+        159
+       </fpage>–
+       <lpage>
+        170
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1086/660835" xlink:type="simple">
+         10.1086/660835
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21750380
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref028">
+      <label>28</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         France
+        </surname> 
+        <given-names>
+         KE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duffy
+        </surname> 
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Diversity and dispersal interactively affect predictability of ecosystem function
+       </article-title>. 
+       <source>Nature 
+       <volume>
+        44
+       </volume>: 
+       <fpage>
+        1139
+       </fpage>–
+       <lpage>
+        1143
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref029">
+      <label>29</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schindler
+        </surname> 
+        <given-names>
+         DE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hilborn
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chasco
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Boatright
+        </surname> 
+        <given-names>
+         CP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Quinn
+        </surname> 
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rogers
+        </surname> 
+        <given-names>
+         LA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Population diversity and the portfolio effect in an exploited species
+       </article-title>. 
+       <source>Nature. 
+       <volume>
+        465
+       </volume>: 
+       <fpage>
+        609
+       </fpage>–
+       <lpage>
+        612
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature09060" xlink:type="simple">
+         10.1038/nature09060
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        20520713
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref030">
+      <label>30</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pasari
+        </surname> 
+        <given-names>
+         JR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Levi
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zavaleta
+        </surname> 
+        <given-names>
+         ES
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tilman
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Several scales of biodiversity affect ecosystem multifunctionality
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        110
+       </volume>: 
+       <fpage>
+        10219
+       </fpage>–
+       <lpage>
+        10222
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1220333110" xlink:type="simple">
+         10.1073/pnas.1220333110
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23733963
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref031">
+      <label>31</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Thorson
+        </surname> 
+        <given-names>
+         JT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Scheuerell
+        </surname> 
+        <given-names>
+         MD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Buhle
+        </surname> 
+        <given-names>
+         ER
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Copeland
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Spatial variation buffers temporal fluctuations in early juvenile survival for an endangered Pacific salmon
+       </article-title>. 
+       <source>J Anim Ecol 
+       <volume>
+        83
+       </volume>: 
+       <fpage>
+        157
+       </fpage>–
+       <lpage>
+        167
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/1365-2656.12117" xlink:type="simple">
+         10.1111/1365-2656.12117
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23919254
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref032">
+      <label>32</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Olden
+        </surname> 
+        <given-names>
+         JD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rooney
+        </surname> 
+        <given-names>
+         TP
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        On defining and quantifying biotic homogenization
+       </article-title>. 
+       <source>Glob Ecol Biogeogr 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        113
+       </fpage>–
+       <lpage>
+        120
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref033">
+      <label>33</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vellend
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Verheyen
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Flinn
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jacquemyn
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kolb
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Van Calster
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Homogenization of forest plant communities and weakening of species–environment relationships via agricultural land use
+       </article-title>. 
+       <source>J Ecol. 
+       <volume>
+        95
+       </volume>: 
+       <fpage>
+        565
+       </fpage>–
+       <lpage>
+        573
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref034">
+      <label>34</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Chase
+        </surname> 
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Drought mediates the importance of stochastic community assembly
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        104
+       </volume>: 
+       <fpage>
+        17430
+       </fpage>–
+       <lpage>
+        17434
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        17942690
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref035">
+      <label>35</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loreau
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Ecosystem stability in space: α, β and γ variability
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        891
+       </fpage>–
+       <lpage>
+        901
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/ele.12292" xlink:type="simple">
+         10.1111/ele.12292
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        24811401
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref036">
+      <label>36</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kayal
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Vercelloni
+        </surname> 
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         de Loma
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bosserelle
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chancerelle
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Geoffroy
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Predator Crown-of-Thorns Starfish (
+        <italic>
+         Acanthaster planci
+        </italic>) Outbreak, Mass Mortality of Corals, and Cascading Effects on Reef Fish and Benthic Communities
+       </article-title>. 
+       <source>PLoS One. 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        e47363
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0047363" xlink:type="simple">
+         10.1371/journal.pone.0047363
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23056635
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref037">
+      <label>37</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Vogler
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Benzie
+        </surname> 
+        <given-names>
+         JAH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tenggardjaja
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ambariyanto
+        </surname>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Barber
+        </surname> 
+        <given-names>
+         PH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wörheide
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2013
+       </year>) 
+       <article-title>
+        Phylogeography of the crown-of-thorns starfish: genetic structure within the Pacific species
+       </article-title>. 
+       <source>Coral Reefs. 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        515
+       </fpage>–
+       <lpage>
+        525
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref038">
+      <label>38</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Porter
+        </surname> 
+        <given-names>
+         JW
+        </given-names>
+       </name> (
+       <year>
+        1972
+       </year>) 
+       <article-title>
+        Predation by Acanthaster and Its Effect on Coral Species Diversity
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        106
+       </volume>: 
+       <fpage>
+        487
+       </fpage>–
+       <lpage>
+        492
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref039">
+      <label>39</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lourey
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ryan
+        </surname> 
+        <given-names>
+         DAJ
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Rates of decline and recovery of coral cover on reefs impacted by, recovering from and unaffected by crown-of-thorns starfish 
+        <italic>
+         Acanthaster planci
+        </italic>: a regional perspective of the Great Barrier Reef
+       </article-title>. 
+       <source>Mar Ecol Prog Ser 
+       <volume>
+        196
+       </volume>: 
+       <fpage>
+        179
+       </fpage>–
+       <lpage>
+        186
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref040">
+      <label>40</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname> 
+        <given-names>
+         SK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname> 
+        <given-names>
+         NAJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pratchett
+        </surname> 
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Polunin
+        </surname> 
+        <given-names>
+         NVC
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Multiple disturbances and the global degradation of coral reefs: are reef fishes at risk or resilient?
+       </article-title> 
+       <source>Glob Chang Biol 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        2220
+       </fpage>–
+       <lpage>
+        2234
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref041">
+      <label>41</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Osborne
+        </surname> 
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dolman
+        </surname> 
+        <given-names>
+         AM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Burgess
+        </surname> 
+        <given-names>
+         SC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Johns
+        </surname> 
+        <given-names>
+         KA
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Disturbance and the dynamics of coral cover on the great barrier reef (1995–2009)
+       </article-title>. 
+       <source>PLoS One 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        e17516
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0017516" xlink:type="simple">
+         10.1371/journal.pone.0017516
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21423742
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref042">
+      <label>42</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De’ath
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fabricius
+        </surname> 
+        <given-names>
+         KE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sweatman
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Puotinen
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        The 27–year decline of coral cover on the Great Barrier Reef and its causes
+       </article-title>. 
+       <source>Proc Natl Acad Sci 
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        17995
+       </fpage>–
+       <lpage>
+        17999
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.1208909109" xlink:type="simple">
+         10.1073/pnas.1208909109
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23027961
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref043">
+      <label>43</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Collin
+        </surname> 
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chancerelle
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pouteau
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <chapter-title>
+        Reefscape Ecology Within the South Pacific: Confluence of the Polynesia Mana Network and Very High Resolution Satellite Remote Sensing
+       </chapter-title>. In: 
+       <name name-style="western">
+        <surname>
+         Musard
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Le Dû-Blayo
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Francour
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Beurier
+        </surname> 
+        <given-names>
+         J-P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Feunteun
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Talassinos
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, editors. 
+       <source>Underwater Seascapes. 
+       <publisher-name>
+        Springer
+       </publisher-name>. pp. 
+       <fpage>
+        245
+       </fpage>–
+       <lpage>
+        262
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref044">
+      <label>44</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bouchon
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        Quantitative study of scleractinian coral communities of Tiahura Reef, Moorea Island, French Polynesia
+       </article-title>. 
+       <source>Proc 5th Int Coral Reef Symp 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        279
+       </fpage>–
+       <lpage>
+        284
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref045">
+      <label>45</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Galzin
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1987
+       </year>) 
+       <article-title>
+        The fish communities of a coral reef transect
+       </article-title>. 
+       <source>Pacific Sci 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        158
+       </fpage>–
+       <lpage>
+        165
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref046">
+      <label>46</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Faure
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        1989
+       </year>) 
+       <article-title>
+        Degradation of coral reefs at moorea island (French Polynesia) by 
+        <italic>
+         Acanthaster planci
+        </italic>
+       </article-title>. 
+       <source>J Coast Res 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        295
+       </fpage>–
+       <lpage>
+        305
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref047">
+      <label>47</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cadoret
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Adjeroud
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galzin
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Répartition spatiale des Chaetodontidae dans différents secteurs récifaux de l’île de Moorea, Polynésie française
+       </article-title>. 
+       <source>Écoscience 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        129
+       </fpage>–
+       <lpage>
+        140
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref048">
+      <label>48</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Adjeroud
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Augustin
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galzin
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Salvat
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Natural disturbances and interannual variability of coral reef communities on the outer slope of Tiahura (Moorea, French Polynesia): 1991 to 1997
+       </article-title>. 
+       <source>Mar Ecol Prog Ser 
+       <volume>
+        237
+       </volume>: 
+       <fpage>
+        121
+       </fpage>–
+       <lpage>
+        131
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref049">
+      <label>49</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Adjeroud
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Michonneau
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edmunds
+        </surname> 
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chancerelle
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loma
+        </surname> 
+        <given-names>
+         TL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Penin
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Recurrent disturbances, recovery trajectories, and resilience of coral assemblages on a South Central Pacific reef
+       </article-title>. 
+       <source>Coral Reefs 
+       <volume>
+        28
+       </volume>: 
+       <fpage>
+        775
+       </fpage>–
+       <lpage>
+        780
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref050">
+      <label>50</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Adam
+        </surname> 
+        <given-names>
+         TC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schmitt
+        </surname> 
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Holbrook
+        </surname> 
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Edmunds
+        </surname> 
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carpenter
+        </surname> 
+        <given-names>
+         RC
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Herbivory, Connectivity, and Ecosystem Resilience: Response of a Coral Reef to a Large-Scale Perturbation
+       </article-title>. 
+       <source>PLoS One 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        e23717
+       </fpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0023717" xlink:type="simple">
+         10.1371/journal.pone.0023717
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        21901131
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref051">
+      <label>51</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lison de Loma
+        </surname> 
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Osenberg
+        </surname> 
+        <given-names>
+         CW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shima
+        </surname> 
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chancerelle
+        </surname> 
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brooks
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        A Framework for Assessing Impacts of Marine Protected Areas in Moorea (French Polynesia)
+       </article-title>. 
+       <source>Pacific Sci 
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        431
+       </fpage>–
+       <lpage>
+        441
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref052">
+      <label>52</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Harmelin-Vivien
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harmelin
+        </surname> 
+        <given-names>
+         JG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Chauvet
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Duval
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Galzin
+        </surname> 
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lejeune
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        Evaluation visuelle des peuplements et populations de poissons. Méthodes et problémes
+       </article-title>. 
+       <source>Terre vie 
+       <volume>
+        40
+       </volume>: 
+       <fpage>
+        467
+       </fpage>–
+       <lpage>
+        539
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref053">
+      <label>53</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kulbicki
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guillemot
+        </surname> 
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amand
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        A general approach to length-weight relationships for New Caledonian lagoon fishes
+       </article-title>. 
+       <source>Cybium 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        235
+       </fpage>–
+       <lpage>
+        252
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref054">
+      <label>54</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anderson
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Distance-based redundancy analysis: testing multispecies responses in multifactorial ecological experiments
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        69
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        24
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref055">
+      <label>55</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         De’ath
+        </surname> 
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Multivariate regression trees: a new technique for modeling species-environment relationships
+       </article-title>. 
+       <source>Ecology 
+       <volume>
+        83
+       </volume>: 
+       <fpage>
+        1105
+       </fpage>–
+       <lpage>
+        1117
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref056">
+      <label>56</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Borcard
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gillet
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <source>Numerical Ecology with R. 
+       <publisher-name>
+        Springer New York
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref057">
+      <label>57</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dufrêne
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname> 
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Species assemblages and indicator species: The need for a flexible asymetrical approach
+       </article-title>. 
+       <source>Ecol Monogr 
+       <volume>
+        67
+       </volume>: 
+       <fpage>
+        345
+       </fpage>–
+       <lpage>
+        366
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref058">
+      <label>58</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Holm
+        </surname> 
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        1979
+       </year>) 
+       <article-title>
+        A Simple Sequentially Rejective Multiple Test Procedure
+       </article-title>. 
+       <source>Scand J 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        65
+       </fpage>–
+       <lpage>
+        70
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref059">
+      <label>59</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <collab xlink:type="simple">
+        R Core Team
+       </collab> (
+       <year>
+        2014
+       </year>) 
+       <chapter-title>
+        R: A language and environment for statistical computing
+       </chapter-title>. 
+       <publisher-name>
+        R Foundation for Statistical Computing
+       </publisher-name>, 
+       <publisher-loc>
+        Vienna, Austria
+       </publisher-loc>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref060">
+      <label>60</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Palumbi
+        </surname> 
+        <given-names>
+         SR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McLeod
+        </surname> 
+        <given-names>
+         KL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grünbaum
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Ecosystems in Action: Lessons from Marine Ecology about Recovery, Resistance, and Reversibility
+       </article-title>. 
+       <source>Biosci 
+       <volume>
+        58
+       </volume>: 
+       <fpage>
+        33
+       </fpage>–
+       <lpage>
+        42
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref061">
+      <label>61</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Harmelin-Vivien
+        </surname> 
+        <given-names>
+         ML
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        The effects of storms and cyclones on coral Reefs: A Review
+       </article-title>. 
+       <source>J Coast Res 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        211
+       </fpage>–
+       <lpage>
+        231
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref062">
+      <label>62</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Laliberté
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wells
+        </surname> 
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         DeClerck
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Metcalfe
+        </surname> 
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Catterall
+        </surname> 
+        <given-names>
+         CP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Queiroz
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Land-use intensification reduces functional redundancy and response diversity in plant communities
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        76
+       </fpage>–
+       <lpage>
+        86
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1461-0248.2009.01403.x" xlink:type="simple">
+         10.1111/j.1461-0248.2009.01403.x
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        19917052
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref063">
+      <label>63</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nystrom
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moberg
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Coral reef disturbance and resilience in a human-dominated environment
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        15
+       </volume>: 
+       <fpage>
+        413
+       </fpage>–
+       <lpage>
+        417
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        10998519
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref064">
+      <label>64</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hughes
+        </surname> 
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rodrigues
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bellwood
+        </surname> 
+        <given-names>
+         DR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ceccarelli
+        </surname> 
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hoegh-Guldberg
+        </surname> 
+        <given-names>
+         O
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCook
+        </surname> 
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Phase shifts, herbivory, and the resilience of coral reefs to climate change
+       </article-title>. 
+       <source>Curr Biol 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        360
+       </fpage>–
+       <lpage>
+        365
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        17291763
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref065">
+      <label>65</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Cheal
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         MacNeil
+        </surname> 
+        <given-names>
+         MA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cripps
+        </surname> 
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Emslie
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jonker
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schaffelke
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Coral–macroalgal phase shifts or reef resilience: links with diversity and functional roles of herbivorous fishes on the Great Barrier Reef
+       </article-title>. 
+       <source>Coral Reefs 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        1005
+       </fpage>–
+       <lpage>
+        1015
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref066">
+      <label>66</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nyström
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Spatial resilience of coral reefs
+       </article-title>. 
+       <source>Ecosystems 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        406
+       </fpage>–
+       <lpage>
+        417
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref067">
+      <label>67</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Moberg
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Folke
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1999
+       </year>) 
+       <article-title>
+        Ecological goods and services of coral reef ecosystems
+       </article-title>. 
+       <source>Ecol Econ 
+       <volume>
+        29
+       </volume>: 
+       <fpage>
+        215
+       </fpage>–
+       <lpage>
+        233
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref068">
+      <label>68</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bradbury
+        </surname> 
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hammond
+        </surname> 
+        <given-names>
+         LS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moran
+        </surname> 
+        <given-names>
+         PJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reichelt
+        </surname> 
+        <given-names>
+         RE
+        </given-names>
+       </name> (
+       <year>
+        1985
+       </year>) 
+       <article-title>
+        Coral reef communities and the crown-of-thorns starfish: Evidence for qualitatively stable cycles
+       </article-title>. 
+       <source>J Theor Biol 
+       <volume>
+        113
+       </volume>: 
+       <fpage>
+        69
+       </fpage>–
+       <lpage>
+        80
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref069">
+      <label>69</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Walbran
+        </surname> 
+        <given-names>
+         PD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Henderson
+        </surname> 
+        <given-names>
+         RA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jull
+        </surname> 
+        <given-names>
+         AJT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Head
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name> (
+       <year>
+        1989
+       </year>) 
+       <article-title>
+        Evidence from Sediments of Long-Term 
+        <italic>
+         Acanthaster planci
+        </italic> Predation on Corals of the Great Barrier Reef
+       </article-title>. 
+       <source>Science 
+       <volume>
+        245
+       </volume>: 
+       <fpage>
+        847
+       </fpage>–
+       <lpage>
+        850
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        17773362
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref070">
+      <label>70</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tanner
+        </surname> 
+        <given-names>
+         JE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hughes
+        </surname> 
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Connell
+        </surname> 
+        <given-names>
+         JH
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Species coexistence, keystone species, and succession: a sensitivity analysis
+       </article-title>. 
+       <source>Ecology. 
+       <volume>
+        75
+       </volume>: 
+       <fpage>
+        2204
+       </fpage>–
+       <lpage>
+        2219
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref071">
+      <label>71</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feary
+        </surname> 
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Almany
+        </surname> 
+        <given-names>
+         GR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCormick
+        </surname> 
+        <given-names>
+         MI
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Coral degradation and the structure of tropical reef fish communities
+       </article-title>. 
+       <source>Mar Ecol Prog Ser 
+       <volume>
+        333
+       </volume>: 
+       <fpage>
+        243
+       </fpage>–
+       <lpage>
+        248
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref072">
+      <label>72</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Pratchett
+        </surname> 
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coker
+        </surname> 
+        <given-names>
+         DJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Munday
+        </surname> 
+        <given-names>
+         PL
+        </given-names>
+       </name> (
+       <year>
+        2012
+       </year>) 
+       <article-title>
+        Specialization in habitat use by coral reef damselfishes and their susceptibility to habitat loss
+       </article-title>. 
+       <source>Ecol Evol 
+       <volume>
+        2
+       </volume>: 
+       <fpage>
+        2168
+       </fpage>–
+       <lpage>
+        2180
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/ece3.321" xlink:type="simple">
+         10.1002/ece3.321
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        23139876
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref073">
+      <label>73</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Emslie
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pratchett
+        </surname> 
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cheal
+        </surname> 
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Effects of different disturbance types on butterflyfish communities of Australia’s Great Barrier Reef
+       </article-title>. 
+       <source>Coral Reefs 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        461
+       </fpage>–
+       <lpage>
+        471
+       </lpage>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref074">
+      <label>74</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Feary
+        </surname> 
+        <given-names>
+         DA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Almany
+        </surname> 
+        <given-names>
+         GR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCormick
+        </surname> 
+        <given-names>
+         MI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname> 
+        <given-names>
+         GP
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Habitat choice, recruitment and the response of coral reef fishes to coral degradation
+       </article-title>. 
+       <source>Oecologia 
+       <volume>
+        153
+       </volume>: 
+       <fpage>
+        727
+       </fpage>–
+       <lpage>
+        737
+       </lpage>. 
+       <object-id pub-id-type="pmid">
+        17566781
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref075">
+      <label>75</label>
+      <mixed-citation publication-type="book" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fortin
+        </surname> 
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Dale
+        </surname> 
+        <given-names>
+         MRT
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <chapter-title>
+        Spatial analysis: a guide for ecologists
+       </chapter-title>. 
+       <publisher-name>
+        Cambridge University Press
+       </publisher-name>.
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref076">
+      <label>76</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dornelas
+        </surname> 
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gotelli
+        </surname> 
+        <given-names>
+         NJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McGill
+        </surname> 
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shimadzu
+        </surname> 
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moyes
+        </surname> 
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sievers
+        </surname> 
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Assemblage time series reveal biodiversity change but not systematic loss
+       </article-title>. 
+       <source>Science 
+       <volume>
+        344
+       </volume>: 
+       <fpage>
+        296
+       </fpage>–
+       <lpage>
+        299
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1248484" xlink:type="simple">
+         10.1126/science.1248484
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        24744374
+       </object-id>
+      </mixed-citation>
+     </ref> 
+     <ref id="pone.0138696.ref077">
+      <label>77</label>
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wolkovich
+        </surname> 
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cook
+        </surname> 
+        <given-names>
+         BI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McLauchlan
+        </surname> 
+        <given-names>
+         KK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Davies
+        </surname> 
+        <given-names>
+         TJ
+        </given-names>
+       </name> (
+       <year>
+        2014
+       </year>) 
+       <article-title>
+        Temporal ecology in the Anthropocene
+       </article-title>. 
+       <source>Ecol Lett 
+       <volume>
+        17
+       </volume>: 
+       <fpage>
+        1365
+       </fpage>–
+       <lpage>
+        1379
+       </lpage>. 
+       <comment>
+        doi: 
+        <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/ele.12353" xlink:type="simple">
+         10.1111/ele.12353
+        </ext-link>
+       </comment> 
+       <object-id pub-id-type="pmid">
+        25199649
+       </object-id>
+      </mixed-citation>
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>

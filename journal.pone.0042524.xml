@@ -1,0 +1,5129 @@
+<!--?xml version="1.0" encoding="UTF-8"?--><!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<html>
+ <head></head>
+ <body>
+  <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" article-type="research-article" dtd-version="3.0" xml:lang="en"> 
+   <front> 
+    <journal-meta>
+     <journal-id journal-id-type="nlm-ta">
+      PLoS ONE
+     </journal-id>
+     <journal-id journal-id-type="publisher-id">
+      plos
+     </journal-id>
+     <journal-id journal-id-type="pmc">
+      plosone
+     </journal-id>
+     <issn pub-type="epub">
+      1932-6203
+     </issn>
+     <publisher> 
+      <publisher-name>
+       Public Library of Science
+      </publisher-name> 
+      <publisher-loc>
+       San Francisco, USA
+      </publisher-loc> 
+     </publisher>
+    </journal-meta> 
+    <article-meta>
+     <article-id pub-id-type="publisher-id">
+      PONE-D-12-01204
+     </article-id>
+     <article-id pub-id-type="doi">
+      10.1371/journal.pone.0042524
+     </article-id>
+     <article-categories> 
+      <subj-group subj-group-type="heading"> 
+       <subject>
+        Research Article
+       </subject> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline-v2"> 
+       <subject>
+        Biology
+       </subject> 
+       <subj-group> 
+        <subject>
+         Biotechnology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Applied microbiology
+         </subject> 
+         <subject>
+          Environmental biotechnology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Ecology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Ecosystems
+         </subject> 
+         <subj-group> 
+          <subject>
+           Artificial ecosystems
+          </subject> 
+         </subj-group> 
+        </subj-group> 
+        <subj-group> 
+         <subject>
+          Microbial ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+       <subj-group> 
+        <subject>
+         Microbiology
+        </subject> 
+        <subj-group> 
+         <subject>
+          Applied microbiology
+         </subject> 
+         <subject>
+          Microbial ecology
+         </subject> 
+        </subj-group> 
+       </subj-group> 
+      </subj-group> 
+      <subj-group subj-group-type="Discipline"> 
+       <subject>
+        Microbiology
+       </subject> 
+       <subject>
+        Biotechnology
+       </subject> 
+      </subj-group> 
+     </article-categories>
+     <title-group>
+      <article-title>
+       Bacterial Community Dynamics in Full-Scale Activated Sludge Bioreactors: Operational and Ecological Factors Driving Community Assembly and Performance
+      </article-title>
+      <alt-title alt-title-type="running-head">
+       Bacterial Dynamics in CAS Bioreactors
+      </alt-title>
+     </title-group>
+     <contrib-group> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Valentín-Vargas
+        </surname> 
+        <given-names>
+         Alexis
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1" /> 
+       <xref ref-type="corresp" rid="cor1"> 
+        <sup>*</sup> 
+       </xref> 
+       <xref ref-type="fn" rid="fn1"> 
+        <sup>¤</sup> 
+       </xref> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Toro-Labrador
+        </surname> 
+        <given-names>
+         Gladys
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1" /> 
+      </contrib> 
+      <contrib contrib-type="author" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Massol-Deyá
+        </surname> 
+        <given-names>
+         Arturo A.
+        </given-names> 
+       </name> 
+       <xref ref-type="aff" rid="aff1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="aff1"> 
+      <addr-line>
+       Department of Biology, University of Puerto Rico at Mayagüez, Mayagüez, Puerto Rico, United States of America
+      </addr-line> 
+     </aff>
+     <contrib-group> 
+      <contrib contrib-type="editor" xlink:type="simple"> 
+       <name name-style="western"> 
+        <surname>
+         Ravel
+        </surname> 
+        <given-names>
+         Jacques
+        </given-names> 
+       </name> 
+       <role>
+        Editor
+       </role> 
+       <xref ref-type="aff" rid="edit1" /> 
+      </contrib> 
+     </contrib-group>
+     <aff id="edit1"> 
+      <addr-line>
+       Institute for Genome Sciences, University of Maryland School of Medicine, United States of America
+      </addr-line> 
+     </aff>
+     <author-notes> 
+      <corresp id="cor1">
+       * E-mail: 
+       <email xlink:type="simple">
+        valentin.alexis@gmail.com
+       </email>
+      </corresp> 
+      <fn fn-type="conflict"> 
+       <p>The authors have declared that no competing interests exist.</p> 
+      </fn> 
+      <fn fn-type="current-aff" id="fn1"> 
+       <label>¤</label> 
+       <p>Current address: Department of Soil, Water and Environmental Science, The University of Arizona, Tucson, Arizona, United States of America</p> 
+      </fn> 
+      <fn fn-type="con"> 
+       <p>Conceived and designed the experiments: AVV AMD. Performed the experiments: AVV GTL. Analyzed the data: AVV AMD. Contributed reagents/materials/analysis tools: GTL AMD. Wrote the paper: AVV. Reviewed the manuscript: AVV GTL AMD.</p> 
+      </fn> 
+     </author-notes>
+     <pub-date pub-type="collection"> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <pub-date pub-type="epub"> 
+      <day>
+       3
+      </day> 
+      <month>
+       8
+      </month> 
+      <year>
+       2012
+      </year> 
+     </pub-date>
+     <volume>
+      7
+     </volume>
+     <issue>
+      8
+     </issue>
+     <elocation-id>
+      e42524
+     </elocation-id>
+     <history> 
+      <date date-type="received"> 
+       <day>
+        13
+       </day> 
+       <month>
+        1
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+      <date date-type="accepted"> 
+       <day>
+        10
+       </day> 
+       <month>
+        7
+       </month> 
+       <year>
+        2012
+       </year> 
+      </date> 
+     </history>
+     <permissions> 
+      <copyright-holder>
+       Valentin-Vargas et al
+      </copyright-holder> 
+      <license xlink:type="simple"> 
+       <license-p>
+        This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+       </license-p> 
+      </license> 
+     </permissions>
+     <abstract> 
+      <p>The assembling of bacterial communities in conventional activated sludge (CAS) bioreactors was thought, until recently, to be chaotic and mostly unpredictable. Studies done over the last decade have shown that specific, and often, predictable random and non-random factors could be responsible for that process. These studies have also motivated a “structure–function” paradigm that is yet to be resolved. Thus, elucidating the factors that affect community assembly in the bioreactors is necessary for predicting fluctuations in community structure and function. For this study activated sludge samples were collected during a one-year period from two geographically distant CAS bioreactors of different size. Combining community fingerprinting analysis and operational parameters data with a robust statistical analysis, we aimed to identify relevant links between system performance and bacterial community diversity and dynamics. In addition to revealing a significant β-diversity between the bioreactors’ communities, results showed that the largest bioreactor had a less dynamic but more efficient and diverse bacterial community throughout the study. The statistical analysis also suggests that deterministic factors, as opposed to stochastic factors, may have a bigger impact on the community structure in the largest bioreactor. Furthermore, the community seems to rely mainly on mechanisms of resistance and functional redundancy to maintain functional stability. We suggest that the ecological theories behind the Island Biogeography model and the species-area relationship were appropriate to predict the assembly of bacterial communities in these CAS bioreactors. These results are of great importance for engineers and ecologists as they reveal critical aspects of CAS systems that could be applied towards improving bioreactor design and operation.</p> 
+     </abstract>
+     <funding-group> 
+      <funding-statement>
+       These authors have no support or funding to report.
+      </funding-statement> 
+     </funding-group>
+     <counts> 
+      <page-count count="12" /> 
+     </counts>
+    </article-meta> 
+   </front>  
+   <sec id="s1"> 
+    <title>Introduction</title> 
+    <p>Nowadays, biological wastewater treatment plants (WWTPs) are the most common biotechnological application in the world 
+     <xref ref-type="bibr" rid="pone.0042524-Seviour1">
+      [1]
+     </xref>. More than 15,000 WWTPs operate in the United States alone, 75% of which include a secondary biological treatment, processing billions of liters of sewage per day 
+     <xref ref-type="bibr" rid="pone.0042524-Bitton1">
+      [2]
+     </xref>. From the various alternatives of biological treatment systems that exist, conventional activated sludge (CAS) bioreactors are by far the most commonly used secondary treatment technology 
+     <xref ref-type="bibr" rid="pone.0042524-Graham1">
+      [3]
+     </xref>. Despite of periodic improvements to the technology since its invention almost a century ago 
+     <xref ref-type="bibr" rid="pone.0042524-Graham1">
+      [3]
+     </xref> and its ubiquitous global application, little is known about the underlying factors controlling the complex dynamics of the microbial populations interacting in the bioreactors and how those dynamic interactions affect the system’s functional stability 
+     <xref ref-type="bibr" rid="pone.0042524-Wang1">
+      [4]
+     </xref>. Until recently, a major obstacle was that the science behind most of those technology improvements was almost entirely empirical rather than theoretical 
+     <xref ref-type="bibr" rid="pone.0042524-Graham1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+      [5]
+     </xref>. Major changes to the design of CAS systems were done predominantly from an engineering perspective, greatly underestimating the importance of microbial communities as an integral component of these biological treatment systems 
+     <xref ref-type="bibr" rid="pone.0042524-Graham1">
+      [3]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+      [5]
+     </xref>. Thus, many essential aspects regarding the ecology and dynamics of microbial communities within these systems, necessary for a rational improvement of their design and operation, remain unresolved 
+     <xref ref-type="bibr" rid="pone.0042524-Wells1">
+      [6]
+     </xref>.</p> 
+    <p>Recent efforts have focused on improving the treatment process from a bio-ecological perspective, but so far few studies have been able to establish a clear link between the structure and function of microbial communities and the design and operation of the bioreactors 
+     <xref ref-type="bibr" rid="pone.0042524-Wagner1">
+      [7]
+     </xref>. Most of these efforts have failed due to limiting methodology issues. One of these issues is the modeling of full-scale WWTP bioreactors based on studies of lab-scale and pilot-scale bioreactors 
+     <xref ref-type="bibr" rid="pone.0042524-Kaewpipat1">
+      [8]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Padayachee1">
+      [9]
+     </xref>. These studies have often been misleading and far from mimicking the real conditions observed in full-scale bioreactors, creating a big gap between their theoretical and their practical contributions 
+     <xref ref-type="bibr" rid="pone.0042524-Jenkins1">
+      [10]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Saikaly1">
+      [11]
+     </xref>. Another issue is that many studies had focused on analyzing single bioreactors 
+     <xref ref-type="bibr" rid="pone.0042524-Ofieru1">
+      [12]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Sanapareddy1">
+      [13]
+     </xref>, neglecting from their analysis the effect that niche-specific factors may play in the structure and function of microbial communities 
+     <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+      [5]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Fierer1">
+      [14]
+     </xref>, . The most notorious, and therefore highly scrutinized, of these issues is culture- and traditional-microscopy-based studies. These studies, aimed to elucidate the diversity of microbes in WWTPs 
+     <xref ref-type="bibr" rid="pone.0042524-Benedict1">
+      [16]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0042524-vanVeen1">
+      [19]
+     </xref>, proved to be unreliable, irreproducible and created erroneous perceptions of the dominant populations in the bioreactors 
+     <xref ref-type="bibr" rid="pone.0042524-Eschenhagen1">
+      [20]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0042524-Watanabe1">
+      [23]
+     </xref>. They also failed to consider operational and geographical factors on the composition of the communities 
+     <xref ref-type="bibr" rid="pone.0042524-Green1">
+      [24]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0042524-Wang2">
+      [27]
+     </xref>.</p> 
+    <p>With the development and application of modern culture-independent molecular techniques in ecological studies of wastewater treatment systems 
+     <xref ref-type="bibr" rid="pone.0042524-Snaidr1">
+      [21]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Loy1">
+      [28]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0042524-Wilderer1">
+      [30]
+     </xref>, the capacity of researchers to understand the true dynamics of microbial communities in these ecosystems has greatly been improved 
+     <xref ref-type="bibr" rid="pone.0042524-Saikaly1">
+      [11]
+     </xref>. However, de los Reyes 
+     <xref ref-type="bibr" rid="pone.0042524-delosReyes1">
+      [31]
+     </xref> explains that advanced molecular studies of microbial communities in WWTPs have led to the emergence of a microbial community “structure-function” paradigm that has not yet been fully clarified. Linking changes in system design and operation with the ecological factors controlling community assembly in the bioreactors will be critical in fully clarifying this “structure-function” paradigm and resolving important operational issues, such as: sludge bulking (
+     <italic>
+      e.g.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0042524-Jones1">
+      [32]
+     </xref>), poor biochemical removal (
+     <italic>
+      e.g.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0042524-Carvalho1">
+      [33]
+     </xref>), and system instability (
+     <italic>
+      e.g.
+     </italic> 
+     <xref ref-type="bibr" rid="pone.0042524-Briones1">
+      [34]
+     </xref>, 
+     <xref ref-type="bibr" rid="pone.0042524-Gentile1">
+      [35]
+     </xref>); ultimately resulting in more stable and predictable systems 
+     <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+      [5]
+     </xref>. Moreover, the study of CAS systems could provide, in turn, a research platform for developing and validating ecological principles that could be used to predict the behavior of microbial communities in other engineered and natural ecosystems 
+     <xref ref-type="bibr" rid="pone.0042524-Curtis2">
+      [36]
+     </xref>–
+     <xref ref-type="bibr" rid="pone.0042524-Prosser1">
+      [38]
+     </xref>.</p> 
+    <p>Since bacteria are the dominant microbial group in full-scale WWTPs 
+     <xref ref-type="bibr" rid="pone.0042524-Wagner1">
+      [7]
+     </xref>, in the current study we aimed to (
+     <italic>
+      i
+     </italic>) assess and compare the dynamics of bacterial communities in two geographically distant full-scale CAS bioreactors treating domestic sewage in a tropical environment and to (
+     <italic>
+      ii
+     </italic>) establish links between the systems’ operational parameters and the behavior of the communities. We also evaluated the outcome of the study by applying well-established ecological theories that could allow us to better predict how microbial communities assemble in these ecosystems. We hypothesized that (
+     <italic>
+      i
+     </italic>) the structure of the bacterial communities in both bioreactors will significantly differ temporally and spatially from each other (high β-diversity) and in response to operational parameters, and that (
+     <italic>
+      ii
+     </italic>) the functional stability of the system can be linked to the dynamics and diversity of the bacterial communities in the bioreactors. We combined culture-independent molecular techniques and a robust multivariate statistical analysis to test these hypotheses and contribute to fulfilling the urgent need for rationally improved biological wastewater treatment technologies.</p> 
+   </sec> 
+   <sec id="s2" sec-type="methods"> 
+    <title>Methods</title> 
+    <sec id="s2a"> 
+     <title>Description of WWTPs, Sample Collection and Physicochemical Analysis</title> 
+     <p>Two full-scale domestic WWTPs were studied on the island of Puerto Rico. The first plant is the Puerto Rico Aqueduct and Sewers Authority (PRASA) Regional Wastewater Treatment Plant of Mayagüez, located in the coastal town of Mayagüez (18°14′53″N, 67°09′21″W). This plant has four CAS bioreactors with the capacity of processing 106 mega liters of wastewater per day (MLD). Because the plant’s average daily flow (ADF) (∼41 MLD) is below its maximum capacity, it generally has only 2 bioreactors operating simultaneously, alternating them in two-year periods. Since bioreactor #2 was scheduled to start its two-year operating period days prior to the first scheduled sampling, we selected it for our study in order to maintain consistency throughout the sampling period. The second plant is the PRASA Municipal Wastewater Treatment Plant of Adjuntas, located in the central town of Adjuntas (18°09’59”N, 66°43′40″W). This plant has only one CAS bioreactor with the capacity of processing 2.3 MLD, which routinely operates close to capacity. Since the former plant has a higher capacity we refer to it as the HC plant and the latter as the LC (low capacity) plant. Monthly grab samples of activated sludge were collected from the aeration tanks over a 12-month period (February 2007–January 2008). Samples were collected in sterile 50 mL tubes and transported to the lab on ice for immediate processing. Additional samples were collected concurrently from the WWTPs for physiochemical analysis (
+      <xref ref-type="table" rid="pone-0042524-t001">
+       Table 1
+      </xref>). The different parameters were estimated following standard methods for wastewater analysis 
+      <xref ref-type="bibr" rid="pone.0042524-Eaton1">
+       [39]
+      </xref>. All the necessary permits were obtained for the described field study. All necessary permits to enter the wastewater treatment plants (WWTPs) and for the collection of water and activated sludge samples from the systems were granted by Puerto Rico Aqueduct and Sewers Authority (PRASA, the government agency that supervise and operates the studied treatment plants).</p> 
+     <table-wrap id="pone-0042524-t001" orientation="portrait" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.t001
+      </object-id>
+      <label>Table 1</label> 
+      <title>Average values and standard deviations of the measured operational parameter for each WWTP.&lt;xref ref-type="table-fn" rid="nt101"&gt;a&lt;/xref&gt;</title> 
+      <alternatives> 
+       <graphic id="pone-0042524-t001-1" mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.t001" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Operational Parameters
+           <xref ref-type="table-fn" rid="nt102">
+            b
+           </xref></td> 
+          <td align="left" colspan="1" rowspan="1">HC</td> 
+          <td align="left" colspan="1" rowspan="1">LC</td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">BOD- Influent (mg L<sup>−1</sup>)</td> 
+          <td align="left" colspan="1" rowspan="1">297.50±186.98</td> 
+          <td align="left" colspan="1" rowspan="1">173.33±29.90</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">BOD- Effluent (mg L<sup>−1</sup>)</td> 
+          <td align="left" colspan="1" rowspan="1">4.13±1.60</td> 
+          <td align="left" colspan="1" rowspan="1">5.18±3.27</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">BOD Removal (%)</td> 
+          <td align="left" colspan="1" rowspan="1">98.33±0.89</td> 
+          <td align="left" colspan="1" rowspan="1">96.75±2.53</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">TSS- Influent (mg L<sup>−1</sup>)</td> 
+          <td align="left" colspan="1" rowspan="1">54.33±12.91</td> 
+          <td align="left" colspan="1" rowspan="1">162.83±49.54</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">TSS- Effluent (mg L<sup>−1</sup>)</td> 
+          <td align="left" colspan="1" rowspan="1">1.78±1.89</td> 
+          <td align="left" colspan="1" rowspan="1">10.81±11.81</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">TSS Removal (%)</td> 
+          <td align="left" colspan="1" rowspan="1">96.75±3.74</td> 
+          <td align="left" colspan="1" rowspan="1">92.67±8.28</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">ADF (MLD)</td> 
+          <td align="left" colspan="1" rowspan="1">41.20±4.27</td> 
+          <td align="left" colspan="1" rowspan="1">1.88±0.33</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">HRT (Hours)</td> 
+          <td align="left" colspan="1" rowspan="1">7.21±0.65</td> 
+          <td align="left" colspan="1" rowspan="1">8.73±1.78</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">SRT (Days)</td> 
+          <td align="left" colspan="1" rowspan="1">10.59±3.69</td> 
+          <td align="left" colspan="1" rowspan="1">3.32±1.63</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Food:Microbes ratio (F/M)</td> 
+          <td align="left" colspan="1" rowspan="1">0.58±0.45</td> 
+          <td align="left" colspan="1" rowspan="1">0.09±0.03</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">pH</td> 
+          <td align="left" colspan="1" rowspan="1">6.63±0.37</td> 
+          <td align="left" colspan="1" rowspan="1">6.64±0.34</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">PO<sub>4</sub><sup>3−</sup> (mg L<sup>−1</sup>)</td> 
+          <td align="left" colspan="1" rowspan="1">103.92±38.60</td> 
+          <td align="left" colspan="1" rowspan="1">61.29±37.87</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">NO<sub>3</sub><sup>–</sup>N (mg L<sup>−1</sup>)</td> 
+          <td align="left" colspan="1" rowspan="1">4.90±2.09</td> 
+          <td align="left" colspan="1" rowspan="1">5.54±2.02</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">Temperature (°C)</td> 
+          <td align="left" colspan="1" rowspan="1">29.92±1.00</td> 
+          <td align="left" colspan="1" rowspan="1">26.42±0.67</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt101"> 
+        <label>a</label> 
+        <p>WWTP: Wastewater Treatment Plant.</p> 
+       </fn> 
+       <fn id="nt102"> 
+        <label>b</label> 
+        <p>BOD: Biochemical Oxygen Demand; TSS: Total Suspended Solids; ADF: Average Daily Flow; MLD: Mega Liters per Day; HRT: Hydraulic Retention Time; SRT: Solids Retention Time.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+    </sec> 
+    <sec id="s2b"> 
+     <title>Terminal Restriction Fragment Length Polymorphism (T-RFLP)</title> 
+     <p>Sub-samples of 3 mL from each 50 mL tube of pre-homogenized activated sludge were serially centrifuged at 10,000 g for 5 min in 1.5 mL tubes. The sludge pellets were washed twice in sterile deionized water to reduce the concentration of PCR inhibitors. Total DNA extractions from the pellets were performed using the FastDNA® SPIN Kit for Soil (MP Biomedical, Ohio, USA) following the manufacturer instructions with the following modification: acid-washed crystals of Polyvinylpyrrolidone were added to the Lysis Matrix E tubes at a concentration of 0.1% before vortexing them for 15 min at maximum speed. Extracted DNA purification and quantification was done as described elsewhere 
+      <xref ref-type="bibr" rid="pone.0042524-RodrguezMartnez1">
+       [40]
+      </xref>. The 16 S rRNA gene of bacteria was PCR amplified in triplicate, using 100 ng of template DNA and the primer set 27F-1392R 
+      <xref ref-type="bibr" rid="pone.0042524-Blackwood1">
+       [41]
+      </xref>. The 5′ terminal of the 27F primer was labeled with the infrared dye IRDye® 700 (LI-COR Biosciences, Nebraska, USA). PCR reactions of 50 µL each were prepared as previously described 
+      <xref ref-type="bibr" rid="pone.0042524-RodrguezMartnez1">
+       [40]
+      </xref>, with the addition of 3% DMSO. The PCR cycling parameters were as follows: initial denaturing at 95°C for 5 min followed by 35 cycles of denaturing at 94°C for 1 min, annealing at 53°C for 1 min, extension at 72°C for 2 min, and final extension at 72°C for 8 min. Triplicate PCR products were then pooled and mixed. Three aliquots from each amplicon pool were individually digested with one of the following restriction endonucleases: 
+      <italic>
+       Hae
+      </italic>III, 
+      <italic>
+       Rsa
+      </italic>I or 
+      <italic>
+       Msp
+      </italic>I. Digestion reactions consisted of 150 ng of PCR product, 1.5 µL of 10X buffer, 0.5 µL of the endonuclease (10 U µL<sup>−1</sup>), and water to a final reaction volume of 15 µL. They were incubated for 4 hours at 37°C, followed by an enzyme inactivation step at 65°C for 10 min. A 2 µL aliquot of each digestion was mixed 1∶1 with a 10% dionized formamide IR2 stop solution (LI-COR Biosciences, Nebraska, USA), and then denatured at 94°C for 5 min. Samples were visualized in 6.5% polyacrylamide gels, processed using the DNA Analyzer LI-COR Biosciences 4300 (LI-COR Biosciences, Nebraska, USA) following the manufacturer instructions. The external and the central wells of each gel were loaded with the molecular marker 50–700 bp IRDye® 700.</p> 
+    </sec> 
+    <sec id="s2c"> 
+     <title>Analysis of T-RFLP Profiles</title> 
+     <p>The terminal restriction fragments (TRFs) profiles were analyzed with Gel-Pro Analyzer V4.5 (Media Cybernetics, Maryland, USA). Each individual TRF, considered an independent operational taxonomic unit (OTU), was assigned a hypothetical molecular weight based on the known sizes of the molecular marker. Thus, only TRFs within the range of the molecular marker (50–700 bp) were considered for the analysis. The relative abundance of the OTUs was based on the bands’ signal intensity, observed on the electropherograms as peak height. Each fluorescence signal was standardized by dividing the height of each peak by the sum of all the peak heights in a single sample profile. To accurately compare multiple T-RFLP profiles, the raw matrices of relative abundance were analyzed using two scripts written on 
+      <italic>
+       CLISP
+      </italic> (
+      <ext-link ext-link-type="uri" xlink:href="http://www.clisp.org" xlink:type="simple">
+       www.clisp.org
+      </ext-link>). The first script, called 
+      <italic>
+       PEAKS
+      </italic>, performed a recursive iteration to detect the minimal values that can separate fragment’s peaks from noise baseline based on a modification of the statistical criteria proposed by Abdo 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0042524-Abdo1">
+       [42]
+      </xref>. The selection of real peaks was based on exclusion of values equal or larger than the median plus three standard deviations (µ+3σ), the calculation and elimination of higher than expected values was done recursively until no larger values could be removed from the data set and the script saved the last calculated value as the threshold to consider real peaks. A new matrix of relative abundance values was constructed by eliminating all values below the threshold determined for each sample. This matrix was subjected to the second script, called 
+      <italic>
+       BINNING
+      </italic>, used to group, in a single OTU, TRFs from different samples with similar molecular weights. Even though the electrophoretic displacement of the TRFs was compared with the displacement of the standard of known molecular weight, subtle differences on the bands migration pattern between runs could create small discrepancies in molecular weight between TRFs of a single OTU. Thus, to compare T-RFLP profiles from different gels they first need to be aligned through a process done by grouping TRFs of similar molecular weights from different profiles 
+      <xref ref-type="bibr" rid="pone.0042524-Schtte1">
+       [43]
+      </xref>. The 
+      <italic>
+       BINNING
+      </italic> script explored all possible groups of TRFs (or “bins”) and organized individual sets of data in a unified matrix using three criteria: (
+      <italic>
+       i
+      </italic>) fragment size, (
+      <italic>
+       ii
+      </italic>) congruence and (
+      <italic>
+       iii
+      </italic>) number of peaks within a possible OTU. The fragment size criterion established the maximum binning size of an OTU depending on fragment size as suggested for Automatic rRNA Intergenic Spacer Analysis by Brown 
+      <italic>
+       et al
+      </italic>. 
+      <xref ref-type="bibr" rid="pone.0042524-Brown1">
+       [44]
+      </xref>. The congruence criterion discarded binned groups that cluster two or more peaks of the same profile into the same OTU, subdividing the grouping into two or more OTUs. Finally the script counted the number of peaks that belong to each possible OTU and favored larger bins. The 
+      <italic>
+       BINNING
+      </italic> script was repeated twice, once creating bins in ascending order of molecular weight and 
+      <italic>
+       vice versa
+      </italic>. The bins selected were used to create the final unified matrices (one per enzyme). The size assigned to each TRF in a bin was an average of the molecular weights of the TRFs within that bin. For further details on the CLISP scripts refer to Caro-Quintero 
+      <xref ref-type="bibr" rid="pone.0042524-CaroQuintero1">
+       [45]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s2d"> 
+     <title>Statistical Analysis</title> 
+     <sec id="s2d1"> 
+      <title>Community structure analysis</title> 
+      <p>The binned matrices were square-root transformed to minimize the impact of highly dominant OTUs and then subject to several statistical analyses to compare the structure of the bacterial communities within and between bioreactors. The dynamics of bacterial communities in both WWTPs were primarily analyzed by non-metric multidimensional scaling (NMDS). Since the distribution of the scatter points in the NMDS ordination diagram may converge on different arrangements depending upon the random initial conditions of the analysis, 110 iterations of the analysis were run. A stress value was calculated to measure the difference between the ranks on the ordination configuration and the ranks in the original similarity matrix for each repetition 
+       <xref ref-type="bibr" rid="pone.0042524-Ramette1">
+        [46]
+       </xref>. An acceptable stress value should be below 0.1. The ordination with the lowest stress was plotted. Analysis of similarity (ANOSIM) and non-parametric multivariate analysis of variance (NPMANOVA) were conducted to test the differences in overall bacterial community structure between the WWTPs and to further confirm the results observed in the NMDS plot. All three analyses were based on similarity matrices calculated with the Bray-Curtis similarity index selected based on its capacity to support abundance data and because it only accounts for TRFs that are present in two profiles (and not those that are absent) as a similarity between them 
+       <xref ref-type="bibr" rid="pone.0042524-Schtte1">
+        [43]
+       </xref>. Given that Bray-Curtis distance measure doesn’t incorporate any form of scaling for abundance data that could dampen the effect of outliers (
+       <italic>
+        e.i.
+       </italic> dominant and rare species contribute equally to the distance matrix) the square-root transformation of the data sets is therefore justified 
+       <xref ref-type="bibr" rid="pone.0042524-Legendre1">
+        [47]
+       </xref>.</p> 
+     </sec> 
+     <sec id="s2d2"> 
+      <title>Analysis of diversity</title> 
+      <p>Rényi diversity profiles, used to rank the bacterial communities according to their relative diversity 
+       <xref ref-type="bibr" rid="pone.0042524-Kindt1">
+        [48]
+       </xref>, were calculated from the T-RFLP abundance matrices. These profiles are based on a single continuous parameter, known as Rényi’s alpha (α) parameter, which values at the scale of 1, 2 and infinity are proportional to Shannon’s diversity index, Simpson’s diversity index and Berger–Parker diversity index, respectively 
+       <xref ref-type="bibr" rid="pone.0042524-Jesus1">
+        [49]
+       </xref>. The shape of the profiles is an indication of the evenness within the community; the more horizontal a profile is the more evenly distributed the populations are within that community 
+       <xref ref-type="bibr" rid="pone.0042524-Kindt1">
+        [48]
+       </xref>. Following a recommendation made by Kindt and Coe 
+       <xref ref-type="bibr" rid="pone.0042524-Kindt1">
+        [48]
+       </xref>, for this analysis we employed the raw data set instead of the square root transformed data set given that the overall interpretation of the profiles should be invariable to such transformation. We also compared the average richness of OTUs per restriction enzyme and conducted a paired 
+       <italic>
+        t
+       </italic>-test against the null hypothesis that there was no significant difference between the richness of OTUs detected in each bioreactor throughout the study.</p> 
+      <p>A power law, known as the species-area relationship (
+       <italic>
+        S = cA
+        <sup>z</sup>
+       </italic>), will be applied to define the relationship between the richness of bacterial populations detected in the systems and the size of the bioreactors 
+       <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+        [26]
+       </xref>.</p> 
+     </sec> 
+     <sec id="s2d3"> 
+      <title>Relationship between community dynamics and operational parameters</title> 
+      <p>To directly assess the relationship between the structure of the bacterial communities and the operational parameters of the WWTPs, a canonical correspondence analysis (CCA) was carried out. The CCA scaling focused on inter-sample distances to optimize the position of the samples in the ordination diagram, and was performed using square-root transformed abundance data against the operational parameters as explanatory variables. A CCA ordination biplot of the bacterial communities per treatment plant and the environmental variables arranged along the first two ordination axes was generated by constraining the axes to be linear combinations of environmental variable scores 
+       <xref ref-type="bibr" rid="pone.0042524-terBraak1">
+        [50]
+       </xref>. CCA eigenvalues were generated for each canonical axis to estimate how much of the total variability observed between the microbial communities could be explained by their response to the environmental variables. The CCA ordination diagram was interpreted as described by ter Braak and Smilauer 
+       <xref ref-type="bibr" rid="pone.0042524-terBraak2">
+        [51]
+       </xref>. The statistical significance of the CCA analysis was tested by a Monte Carlo permutation test (1000 unrestricted random permutations; 
+       <italic>
+        P
+       </italic>&lt;0.05) of residuals from a reduced model against the null hypothesis that bacterial community composition was unrelated to the measured operational parameters 
+       <xref ref-type="bibr" rid="pone.0042524-terBraak1">
+        [50]
+       </xref>.</p> 
+      <p>All statistical analyses were carried out with the software PAleontological STatistics V 1.9 
+       <xref ref-type="bibr" rid="pone.0042524-Hammer1">
+        [52]
+       </xref>, except CCA that was carried out with the software CANOCO V 4.5 
+       <xref ref-type="bibr" rid="pone.0042524-terBraak2">
+        [51]
+       </xref>. Rényi’s diversity profiles were generated with the R package BiodiversityR 
+       <xref ref-type="bibr" rid="pone.0042524-Kindt1">
+        [48]
+       </xref>. The errors associated to the randomness of the statistical methods and the sampling schemes were ignored given the implementation of several tests of statistical significance (e.g. ANOSIM, 
+       <italic>
+        t
+       </italic>-test, permutation test) to validate the observed statistical patterns.</p> 
+     </sec> 
+    </sec> 
+   </sec> 
+   <sec id="s3"> 
+    <title>Results</title> 
+    <sec id="s3a"> 
+     <title>WWTPs Operational Parameters</title> 
+     <p>Details of the operational parameters estimated for both WWTPs are listed in 
+      <xref ref-type="table" rid="pone-0042524-t001">
+       Table 1
+      </xref>. Both plants processed domestic sewage year-round under very similar hydraulic retention times (HRT), pH, and fairly constant warm temperatures, typical of the tropical climate in Puerto Rico. The rest of the measured parameters, however, presented important differences between the treatment plants. One of the most obvious differences between them was the average daily flow (ADF), which is directly related to the size of the bioreactors. Throughout the study the ADF in the HC plant was approximately 22 times higher than in the LC plant. On average, the biochemical oxygen demand (BOD) in the influent was much higher in the HC plant (∼72% more) but in spite of these high loads of influent BOD, the HC plant was capable of producing, on average, lower effluent BOD concentration (∼20% less) than the LC plant. 
+      <xref ref-type="fig" rid="pone-0042524-g001">
+       Figure 1B
+      </xref> shows that the HC plant was more consistent in the removal of BOD from the system, reporting equal or higher BOD removal efficiencies about 75% of the time. One intriguing observation that surfaced during the analysis of the BOD results was that in the LC plant the concentration of the influent BOD seemed to have an adverse effect on the capacity of the plant to remove BOD from the wastewater. Throughout the study, higher levels of influent BOD in the LC plant were consistently associated with lower levels of effluent BOD (higher removal efficiencies), while lower levels of influent BOD were associated with higher levels of effluent BOD (lower removal efficiencies). This was not the case for the HC plant in which lower levels of effluent BOD were, as expected, associated with lower levels of influent BOD. To test this observation we conducted regression and correlation analyses on the relationship between the influent and effluent levels of BOD (
+      <xref ref-type="fig" rid="pone-0042524-g002">
+       Figure 2
+      </xref>). The HC plant showed the expected positive relationship between the parameters (r = 0.4878), even though the result from the correlation was not significant (
+      <italic>
+       P
+      </italic> = 0.108). For the LC plant, on the other hand, the analyses showed a strong and significant negative correlation (r = −0.6330, 
+      <italic>
+       P
+      </italic> = 0.0272). We ran a Wald test to evaluate the interaction between source bioreactors and influent BOD levels as a predictor variable for the regression model and found that, indeed, the relationship between the parameters significantly differed between plants (
+      <italic>
+       P
+      </italic> = 0.0033).</p> 
+     <fig id="pone-0042524-g001" orientation="portrait" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.g001
+      </object-id> 
+      <label>Figure 1</label>  
+      <title>Temporal variations of TSS (A) and BOD (B) removal efficiencies.</title> 
+      <p>Percentage values represent the difference between measured influent and effluent concentrations of TSS and BOD for both WWTP: HC (•), LC (▪).</p>  
+      <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.g001" xlink:type="simple" /> 
+     </fig> 
+     <fig id="pone-0042524-g002" orientation="portrait" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.g002
+      </object-id> 
+      <label>Figure 2</label>  
+      <title>Correlation analyses of the relationship between plants’ influent and effluent BOD concentrations.</title> 
+      <p>LC (A) and HC (B). The Pearson’s correlation coefficient (r), the linear regression coefficient of determination (R<sup>2</sup>) and the probability value (
+       <italic>
+        P
+       </italic>) of the analysis are shown.</p>  
+      <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.g002" xlink:type="simple" /> 
+     </fig> 
+     <p>The influent concentrations of total suspended solids (TSS) throughout the study were, as opposed to those of BOD, higher in the LC plant than in the HC plant. On average, The LC plant received loads of TSS 3 times higher than the HC plant. In terms of the effluent TSS, however, the HC plant was still the leader, producing almost 85% lower effluent concentrations. Although not as evident as for BOD, the HC plant was also more consistent removing TSS (
+      <xref ref-type="fig" rid="pone-0042524-g001">
+       Figure 1A
+      </xref>) than the LC plant. With an average SRT of 10.6 days throughout the study, the HC plant showed at least 3 times higher SRT than the LC plant. Likewise, the HC plant showed 6.5 times higher F/M values. In terms of nutrients, both bioreactors showed very similar and rather low concentrations of nitrate-nitrogen. However, the levels of phosphate in both bioreactors were considerably high, with the HC plant showing about 70% higher concentrations.</p> 
+    </sec> 
+    <sec id="s3b"> 
+     <title>Temporal Dynamics of Bacterial Community Structure</title> 
+     <p>A NMDS analysis was conducted (
+      <xref ref-type="fig" rid="pone-0042524-g003">
+       Figure 3
+      </xref>) to visualize the temporal dynamics of bacterial communities in the CAS bioreactors. Given a stress of 0.04817, the NMDS tridimensional ordination diagram was a reliable representation of the original similarity matrix. In the ordination diagram we can observe that the bacterial community structure in the LC bioreactor was considerably more erratic (
+      <italic>
+       i.e.
+      </italic> dynamic) than the community structure in the HC bioreactor. During the first 4 sampling times of the study the community in the HC bioreactor showed some marked fluctuations, but after the fifth sampling time the community seemed to stabilize and maintain a more consistent yet dynamic structure. It can be also observed from the diagram that the composition of the bacterial communities in both CAS bioreactors substantially diverged from each other. The statistical significance of these differences was confirmed with ANOSIM (
+      <italic>
+       R
+      </italic> = 0.5451, 
+      <italic>
+       P
+      </italic>&lt;0.0001) and NPMANOVA (
+      <italic>
+       F
+      </italic> = 4.014, 
+      <italic>
+       P
+      </italic>&lt;0.0001).</p> 
+     <fig id="pone-0042524-g003" orientation="portrait" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.g003
+      </object-id> 
+      <label>Figure 3</label>  
+      <title>Non-Metric Multi-Dimensional Scaling (NMDS) ordination diagram of temporal variations in bacterial community structure.</title> 
+      <p>The ordination is based on a Bray-Curtis similarity matrix of the square-root transformed abundance data obtained from the T-RFLP profiles from both CAS bioreactors: HC (•) and LC (▪). The open arrows point to the first sampling time and the black arrows point to the last sampling time for each bioreactor. Each scatter point in the plot represents the bacterial community in a particular bioreactor at a particular point in time. The separation between the points is relative to their similarity in terms of community composition and they are connected chronologically to show their relative changes throughout the sampling period. The stress value for the tridimensional NMDS ordination is shown. Two non-parametric analyses were calculated to test the significance of the differences observed in the NMDS ordination plot: One-way Analysis of Similarities (ANOSIM): 
+       <bold>
+        <italic>
+         R
+        </italic>
+       </bold>
+       <bold>
+         = 0.5451
+       </bold> 
+       <bold>
+        (
+       </bold>
+       <bold>
+        <italic>
+         P
+        </italic>
+       </bold>
+       <bold>
+        &lt;0.0001)
+       </bold>; One-way Non-Parametric Multivariate Analysis of Variances (NPMANOVA): 
+       <bold>
+        <italic>
+         F
+        </italic>
+       </bold>
+       <bold>
+         = 4.014 (
+       </bold>
+       <bold>
+        <italic>
+         P
+        </italic>
+       </bold>
+       <bold>
+        &lt;0.0001)
+       </bold>.</p>  
+      <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.g003" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+    <sec id="s3c"> 
+     <title>Comparison of Bacterial Community Diversity in the CAS Bioreactors</title> 
+     <p>To compare the abundance of populations in the bacterial communities, we analyzed the richness of OTUs as deducted from the T-RFLP profiles (
+      <xref ref-type="table" rid="pone-0042524-t002">
+       Table 2
+      </xref>). On average, 7% more TRFs were detected in the HC community profiles as compared to the LC bioreactor profiles. A paired 
+      <italic>
+       t
+      </italic>-test analysis of the bacterial population richness showed that the bacterial community in the HC bioreactor was significantly richer (
+      <italic>
+       P
+      </italic> = 0.0232).</p> 
+     <table-wrap id="pone-0042524-t002" orientation="portrait" position="float">
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.t002
+      </object-id>
+      <label>Table 2</label> 
+      <title>Comparison of the richness of bacterial populations (OTUs) detected in each CAS bioreactor per restriction enzyme.&lt;xref ref-type="table-fn" rid="nt103"&gt;a&lt;/xref&gt;</title> 
+      <alternatives> 
+       <graphic id="pone-0042524-t002-2" mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.t002" xlink:type="simple" /> 
+       <table> 
+        <colgroup span="1"> 
+         <col align="left" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+         <col align="center" span="1"> 
+        </colgroup> 
+        <thead> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">WWTP
+           <xref ref-type="table-fn" rid="nt104">
+            b
+           </xref></td> 
+          <td align="left" colspan="5" rowspan="1">TRFs Richness
+           <xref ref-type="table-fn" rid="nt105">
+            c
+           </xref></td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+          <td align="left" colspan="1" rowspan="1">
+           <italic>
+            HAE
+           </italic>III (132)</td> 
+          <td align="left" colspan="1" rowspan="1">
+           <italic>
+            RSA
+           </italic>I (121)</td> 
+          <td align="left" colspan="1" rowspan="1">
+           <italic>
+            MSP
+           </italic>I (130)</td> 
+          <td align="left" colspan="1" rowspan="1">Average</td> 
+          <td align="left" colspan="1" rowspan="1"></td> 
+         </tr> 
+        </thead> 
+        <tbody> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">HC</td> 
+          <td align="left" colspan="1" rowspan="1">78±8.6</td> 
+          <td align="left" colspan="1" rowspan="1">68±11.6</td> 
+          <td align="left" colspan="1" rowspan="1">77±12.4</td> 
+          <td align="left" colspan="1" rowspan="1">74±10.1</td> 
+          <td align="left" colspan="1" rowspan="1">Paired 
+           <italic>
+            t
+           </italic>-test</td> 
+         </tr> 
+         <tr> 
+          <td align="left" colspan="1" rowspan="1">LC</td> 
+          <td align="left" colspan="1" rowspan="1">66±10.8</td> 
+          <td align="left" colspan="1" rowspan="1">64±15.3</td> 
+          <td align="left" colspan="1" rowspan="1">77±8.0</td> 
+          <td align="left" colspan="1" rowspan="1">69±12.9</td> 
+          <td align="left" colspan="1" rowspan="1">
+           <italic>
+            P
+           </italic> = 0.023</td> 
+         </tr> 
+        </tbody> 
+       </table> 
+      </alternatives>
+      <table-wrap-foot> 
+       <fn id="nt103"> 
+        <label>a</label> 
+        <p>CAS: Conventional Activated Sludge; OTU: Operational Taxonomic Unit.</p> 
+       </fn> 
+       <fn id="nt104"> 
+        <label>b</label> 
+        <p>WWTP: Wastewater Treatment Plant.</p> 
+       </fn> 
+       <fn id="nt105"> 
+        <label>c</label> 
+        <p>TRFs: Terminal Restriction Fragments; Values in parentheses represent the total number of distinctive TRFs detected per restriction enzyme in both bacterial communities combined during the 12 samplings times.</p> 
+       </fn> 
+      </table-wrap-foot>
+     </table-wrap> 
+     <p>In order to rank the bacterial communities according to their diversity, Rényi diversity profiles were generated for each WWTP from the T-RFLP abundance data (
+      <xref ref-type="fig" rid="pone-0042524-g004">
+       Figure 4
+      </xref>). Rényi diversity profiling is an ordering technique aimed to easily rank communities of organisms according to their diversity. The selection of indices to compare diversity across ecosystems has often been criticized for being arbitrary and inconsistent since the ranking of communities may change when different indices are used 
+      <xref ref-type="bibr" rid="pone.0042524-Kindt1">
+       [48]
+      </xref>. Defining a family of diversity indices based upon a single continuous parameter is recommended to make the diversity ordering more robust 
+      <xref ref-type="bibr" rid="pone.0042524-Tothmeresz1">
+       [53]
+      </xref>. Thus, ranking based on diversity profiles is ideal because several indices are collectively considered in a single analysis and if the ranking of the communities changes between alpha-values then the profiles are not comparable. Rényi’s diversity ordering method is preferred over other ordering methods [
+      <italic>
+       e.g.
+      </italic> 54,55] because of its superiority on effectively managing a wide range of data sets’ sizes and clearly pointing out the non-comparability between certain profiles 
+      <xref ref-type="bibr" rid="pone.0042524-Tothmeresz1">
+       [53]
+      </xref>. Moreover, as opposed to other methods that are more sensitive to the presence of rare species in the community [
+      <italic>
+       e.g.
+      </italic> 55], Renyi’s method seems to be more sensitive to the presence of the dominant populations and relatively indifferent to the presence of the rare ones 
+      <xref ref-type="bibr" rid="pone.0042524-Tothmeresz1">
+       [53]
+      </xref>.</p> 
+     <fig id="pone-0042524-g004" orientation="portrait" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.g004
+      </object-id> 
+      <label>Figure 4</label>  
+      <title>Rényi diversity profiles of the bacterial communities from the CAS bioreactors.</title> 
+      <p>The profiles were derived from the T-RFLP raw abundance matrices: HC (•) and LC (▪). The x- and y-axes show the alpha value of the Rényi’s formula and their associated Rényi diversity profile values (H
+       <italic>
+        α
+       </italic>), respectively. Rényi profile values at the scales of 1, 2 and infinite are proportional to Shannon diversity index, Simpson diversity index and Berger–Parker diversity index, respectively (see Kindt and Coe 
+       <xref ref-type="bibr" rid="pone.0042524-Legendre1">
+        [47]
+       </xref> for further information).</p>  
+      <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.g004" xlink:type="simple" /> 
+     </fig> 
+     <p>As inferred from the Rényi profiles, the bacterial community from the HC bioreactor was consistently more diverse than the community from the LC bioreactor across all diversity indices represented by the alpha-values. Also, it seems from the shape of the profiles that the populations in the HC bioreactor were more evenly distributed.</p> 
+    </sec> 
+    <sec id="s3d"> 
+     <title>Relationship between Operational Parameters and Bacterial Community Structure</title> 
+     <p>A CCA (
+      <xref ref-type="fig" rid="pone-0042524-g005">
+       Figure 5
+      </xref>) was conducted to determine which operational parameter had a stronger influence on the assemblage of the bacterial communities in the bioreactors and how the relationship between biotic and abiotic components of the systems translates into the bioreactor’s functional stability. Given a statistically significant CCA ordination (
+      <italic>
+       P
+      </italic> = 0.0190), the null hypothesis of no relationship between bacterial community composition and measured operational parameters was rejected. The CCA eigenvalues for the first two canonical axes showed that the measured operational parameters accounted for approximately 45.1% of the total variability observed in bacterial community structure. From a close examination of the CCA ordination diagram several observations could be made. First, we can appreciate a very prominent separation between samples from different WWTPs into opposite sides of the first canonical axis, meaning that the bacterial communities in each CAS bioreactor responded very differently (entirely opposite most of the time) to the measured operational parameters. We must emphasize that during the CCA analysis no distinction was made between samples from different WWTPs (
+      <italic>
+       i.e.
+      </italic> no nominal variables were used to differentiate samples by their origin). Thus, the separations between the samples from the two plants and the direction of their response to the operational variables should not be an artifact of the analysis but a real ecological trend. Secondly, we can see that most parameters were highly correlated to the first axis, which explains most of the variability in the bacterial communities. From all the parameters, ADF, influent TSS, SRT, F/M, HRT and temperature seem to have the strongest influence on the bacterial communities’ composition in the bioreactors. Although influent BOD and phosphate levels in the bioreactors seemed slightly less influential on the community composition, they were still highly correlated to the first axis. Levels of nitrate-nitrogen and pH in the bioreactors were more related to the differences explained by the second axis and had the weakest influence on the community composition at any given time. Interestingly, very conspicuous parameters (
+      <italic>
+       i.e.
+      </italic> ADF, F/M, SRT) had a strong positive relationship with the bacterial communities from the HC plant and a strong negative relationship with the communities from the LC plant, while other conspicuous parameters (
+      <italic>
+       i.e.
+      </italic> TSS, HRT) behaved the opposite.</p> 
+     <fig id="pone-0042524-g005" orientation="portrait" position="float"> 
+      <object-id pub-id-type="doi">
+       10.1371/journal.pone.0042524.g005
+      </object-id> 
+      <label>Figure 5</label>  
+      <title>Canonical Correspondence Analysis (CCA) of the relationship between operational parameters and bacterial community structure.</title> 
+      <p>The ordination was based on square-root transformed data of the measured operational parameters (arrows): BOD-influent (A), Flow (B), F/M (C), HRT (D), NO<sub>3</sub><sup>–</sup>N (E), pH (F), PO<sub>4</sub><sup>3−</sup> (G), SRT (H), Temperature (I), TSS-influent (J); and the T-RFLP abundance profiles from both CAS bioreactors: HC (•), LC (▪). Numbers next to symbols indicate the relative sampling time. An unrestricted Monte-Carlo permutation test was performed (1000 permutations) to determine the statistical significance of the relationship between the environmental variables and the canonical axes.</p>  
+      <graphic mimetype="image" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.g005" xlink:type="simple" /> 
+     </fig> 
+    </sec> 
+   </sec> 
+   <sec id="s4"> 
+    <title>Discussion</title> 
+    <p>In this study, we aimed to assess the dynamics of bacterial communities in two full-scale CAS bioreactors and evaluate the relationship between the WWTP performance and the behavior of the communities, relying primarily on a time series of T-RFLP profiles of community structure. By combining the T-RFLP profiles with a robust statistical analysis we were able to expose differences between the bacterial communities in the bioreactors in terms of composition, diversity and response to operational parameters. We were also able to link the performance of the systems and the mechanisms driving community assembly in the bioreactors. Overall, the two original hypotheses that motivated this study were largely supported by the results.</p> 
+    <sec id="s4a"> 
+     <title>Assessment of the Bacterial Alpha- and Beta-diversities in the CAS Bioreactors</title> 
+     <p>The biodiversity of microbial communities in CAS bioreactors is a key factor that needs to be scrutinized as it may correlate with community functional redundancy, and therefore, system functional stability 
+      <xref ref-type="bibr" rid="pone.0042524-Wang1">
+       [4]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Wang3">
+       [56]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Yuan1">
+       [57]
+      </xref>. The two main measurements applicable to spatial-scale biodiversity are: alpha-diversity (α, the diversity of populations within a defined ecosystem) and beta-diversity (β, a comparison of the variations in community composition between two ecosystems). Comparisons of α-diversity are univariate (
+      <italic>
+       e.g.
+      </italic> two samples could have the same species richness but not share any taxa), while β-diversity measures dissimilarity among samples (
+      <italic>
+       i.e
+      </italic>. taxa composition and relative abundance) through multivariate methods 
+      <xref ref-type="bibr" rid="pone.0042524-Palacios1">
+       [58]
+      </xref>. Several reports have shown that standardized T-RFLP profiles processed in parallel can be used to assess both the β-diversity 
+      <xref ref-type="bibr" rid="pone.0042524-Wang3">
+       [56]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Culman1">
+       [59]
+      </xref> and α-diversity 
+      <xref ref-type="bibr" rid="pone.0042524-Saikaly1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Ofieru1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Matsuda1">
+       [60]
+      </xref> of complex microbial communities.</p> 
+     <p>Our results show that the HC bioreactor had a significantly higher bacterial α-diversity as compared to the LC bioreactor (
+      <xref ref-type="table" rid="pone-0042524-t002">
+       Table 2
+      </xref>, 
+      <xref ref-type="fig" rid="pone-0042524-g004">
+       Figure 4
+      </xref>), plus, the bacterial communities in both bioreactors had a significantly high β-diversity (
+      <xref ref-type="fig" rid="pone-0042524-g003">
+       Figure 3
+      </xref>). Furthermore, the bacterial community in the HC bioreactor was remarkably less dynamic than the bacterial community in the LC bioreactor (
+      <xref ref-type="fig" rid="pone-0042524-g003">
+       Figure 3
+      </xref>). These results are truly pertinent if we consider that previous studies suggested that community biodiversity could be positively correlated to system’s function (
+      <italic>
+       i.e.
+      </italic> efficiency and stability) in treatment bioreactors 
+      <xref ref-type="bibr" rid="pone.0042524-Saikaly1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Miura1">
+       [61]
+      </xref> and other engineered ecosystems 
+      <xref ref-type="bibr" rid="pone.0042524-Briones1">
+       [34]
+      </xref>. Richness analysis of TRFs (
+      <xref ref-type="table" rid="pone-0042524-t002">
+       Table 2
+      </xref>) showed that generally fewer TRFs were detected in the LC system, whereas the variation in the total amount of TRFs detected per sample was greater in this system than in the HC system. This suggests that the community in the LC bioreactor was not only less stable in terms of structure (
+      <italic>
+       i.e.
+      </italic> taxa dominance) but also in terms of taxa richness. Patterns in β-diversity can further be explored by analyzing differences in the abundance of key populations that significantly contribute to the overall dissimilarity between the communities. For instance, a similarity percentage analysis (
+      <xref ref-type="supplementary-material" rid="pone.0042524.s002">
+       Table S1
+      </xref>) revealed that the 
+      <italic>
+       Betaproteobacteria
+      </italic> class was a potentially critical group within the HC bioreactor that significantly contributed to the differences between the communities. This is not surprising, considering that the rather long SRT in the HC plant coincide with the fact that crucial nitrifying 
+      <italic>
+       Betaproteobacteria
+      </italic> in WWTPs require extended growing periods (&gt;5 days) in order to build a functionally stable ammonia-oxidizing community 
+      <xref ref-type="bibr" rid="pone.0042524-Yuan1">
+       [57]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Kim1">
+       [62]
+      </xref>.</p> 
+     <p>Overall, these results are in line with other reports showing that bacterial diversity is consistently higher in WWTPs with larger capacities 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref> and also that geographically distant WWTPs, in spite of their size, usually possess divergent community structures 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Wang2">
+       [27]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Forney1">
+       [63]
+      </xref>. Van der Gast 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref> showed that the ecological power law known as the species-area relationship could predict the relationship between the number of bacterial populations in membrane bioreactors and the size of the bioreactors. This relationship is a fundamental ecological concept, first modeled by Arrhenius 
+      <xref ref-type="bibr" rid="pone.0042524-Arrhenius1">
+       [64]
+      </xref> as a power law: 
+      <italic>
+       S = cA
+       <sup>z</sup>
+      </italic>, where 
+      <italic>
+       S
+      </italic> is the number of species in a sampled community, 
+      <italic>
+       A
+      </italic> is the area (the spatial scale of the observation), 
+      <italic>
+       c
+      </italic> is an empirically derived taxon- and niche-specific constant, and 
+      <italic>
+       z
+      </italic> is a scaling exponent determined by the slope of the log-log line of the relationship that reflects species turnover. Values of 
+      <italic>
+       z
+      </italic> for the distribution of macroorganisms have been shown to differ between continuous (0.12–0.19) and insular habitats (0.2–0.4) 
+      <xref ref-type="bibr" rid="pone.0042524-Connor1">
+       [65]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-MacArthur1">
+       [66]
+      </xref>. In recent years, this relationship has also been shown to apply to microbial communities in both continuous 
+      <xref ref-type="bibr" rid="pone.0042524-HornerDevine1">
+       [67]
+      </xref> and insular habitats 
+      <xref ref-type="bibr" rid="pone.0042524-Prosser1">
+       [38]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Bell1">
+       [68]
+      </xref>. Van der Gast 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref> used a modified version of the species-area power law to use volume instead of area as the spatial scale of the sampled habitat. In our case, we did not know the volume of the bioreactors, thus, instead of volume we used the ADF as an indicator of their size to estimate the species-area relationship for these ecosystems. Surprisingly, the slope of the species-area relationship, or in our case the species-flow relationship, for the CAS bioreactors (
+      <italic>
+       z
+      </italic> = 0.359) landed well within the typical range of 
+      <italic>
+       z
+      </italic>-values reported for insular habitats. Moreover, van der Gast 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref> also observed a positive relationship between the evenness of populations and the size of the bioreactors. Likewise, the evenness of the bacterial populations in the CAS bioreactors, as inferred from the Rényi diversity profiles (
+      <xref ref-type="fig" rid="pone-0042524-g004">
+       Figure 4
+      </xref>), was higher in the HC bioreactor. This may imply that larger bioreactors with greater space for bacterial colonization have more niche space available, while smaller bioreactors have fewer vacant niches for colonization, which may potentially allow for a small group of populations to co-dominate in the community 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref>.</p> 
+     <p>The species-area relationship has been described as an important underlying component of the classic theory of Island Biogeography (IB) 
+      <xref ref-type="bibr" rid="pone.0042524-MacArthur1">
+       [66]
+      </xref>. The IB ecological model, conceived by MacArthur and Wilson 
+      <xref ref-type="bibr" rid="pone.0042524-MacArthur1">
+       [66]
+      </xref> and further developed by Hubbell 
+      <xref ref-type="bibr" rid="pone.0042524-Hubbell1">
+       [69]
+      </xref>, is essentially a neutral (
+      <italic>
+       i.e.
+      </italic> all populations are assumed to have equal chances to colonize a niche in the island) dispersal-assembly theory, based on two main assumptions: (
+      <italic>
+       i
+      </italic>) in insular ecosystems the assembly of communities is determined by a dynamic equilibrium between extinction and immigration and (
+      <italic>
+       ii
+      </italic>) the rate of that equilibrium is constrained by the size of the island 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast2">
+       [70]
+      </xref>. The theory also implies that communities inhabiting larger islands will have higher biodiversity and lower rates of immigration and extinction, thus having more stable and efficient community structure 
+      <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+       [5]
+      </xref>. Considering the CAS bioreactors as insular ecosystems, we suggest the dynamic assemblage of their bacterial communities could be predicted by the principles of the IB theory as our results are in agreement with the main features of this equilibrium model: the community in the larger bioreactor is more rich and diverse, and also functionally and structurally more stable. This suggestion is in line with previous reports that have either theoretically 
+      <xref ref-type="bibr" rid="pone.0042524-Graham1">
+       [3]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+       [5]
+      </xref> or empirically 
+      <xref ref-type="bibr" rid="pone.0042524-Saikaly1">
+       [11]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Manefield1">
+       [71]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast3">
+       [72]
+      </xref> suggested that the complex dynamics of microbial communities in WWTP bioreactors could be explained by the underlying principles of the IB theory. Although the analysis of only two CAS bioreactors may be insufficient to validate the universal applicability of the IB theory to predict microbial dynamics on all CAS systems, it does emphasize the need for more theoretical work aimed to rationally improve their operation and design. The IB theory also implies that islands sharing a common source of new species will have more similar communities than those not sharing a common source. Given that both WWTPs serve different regions of Puerto Rico, the high β-diversity observed between them is not surprising. We believe these differences could also be true for CAS systems geographically distant from the ones we studied. For instance, we generated reference clone libraries using samples from both bioreactors (
+      <xref ref-type="supplementary-material" rid="pone.0042524.s001">
+       Figure S1
+      </xref>) and they revealed distinctive patterns in the dominant bacterial populations (
+      <italic>
+       e.g.
+      </italic> unusually high detection of non-filamentous 
+      <italic>
+       Cyanobacteria
+      </italic>) that do not necessarily correspond with bacterial compositions in WWTPs from other parts of the world 
+      <xref ref-type="bibr" rid="pone.0042524-Wagner1">
+       [7]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Sanapareddy1">
+       [13]
+      </xref>.</p> 
+     <p>One intriguing observation made from the NMDS diagram (
+      <xref ref-type="fig" rid="pone-0042524-g003">
+       Figure 3
+      </xref>) was that the bacterial community structure in the HC bioreactor, despite being steadier than the community structure in the LC bioreactor, showed marked fluctuations during the first 4 samples and then seemed to stabilize through the end of the study. As mentioned above, the bioreactor we chose to monitor at the HC plant started its operational period shortly before the first sampling. This coincidence led us to speculate that the fluctuations in bacterial community structure observed during the first 4 sampling times could be explained by a gradual species succession process through which the community changed towards an “optimal”, more stable structure. Although we did not collect additional samples to corroborate this idea, we believe that the community structure observed during the last 8 samples better represents the dynamics of the bacterial community in the HC plant. Furthermore, we did not find any correlation between these initial community fluctuations and the functional stability of the treatment system nor with the measured operational parameters. These observations are consistent with several reports showing that microbial communities during the start-up period of other types of bioreactors suffered from systematic processes of species succession before reaching relative stability over time 
+      <xref ref-type="bibr" rid="pone.0042524-Dollhopf1">
+       [73]
+      </xref>–
+      <xref ref-type="bibr" rid="pone.0042524-Hoshino1">
+       [75]
+      </xref>, and also that these periods of highly dynamic community structure did not affected the performance of the systems 
+      <xref ref-type="bibr" rid="pone.0042524-Palacios1">
+       [58]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Dollhopf1">
+       [73]
+      </xref>.</p> 
+    </sec> 
+    <sec id="s4b"> 
+     <title>Influence of Deterministic, Stochastic and Ecological Factors on Communities’ Dynamics</title> 
+     <p>Two kinds of factors are thought to jointly influence the temporal dynamics of bacterial communities in CAS bioreactors and other engineered ecosystems: deterministic (competition and niche-specific variables) and stochastic (probability of microbial dispersal by random events of colonization/extinction or unpredictable fluctuations in the chemical composition of the influent) 
+      <xref ref-type="bibr" rid="pone.0042524-Ofieru1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Curtis2">
+       [36]
+      </xref>. However, there is currently a considerable debate between microbial ecologists on which of the two groups of factors are more important in determining temporal community assembly in engineered ecosystems 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast3">
+       [72]
+      </xref>.</p> 
+     <p>As we mentioned above, the analysis of the T-RFLP profiles (
+      <xref ref-type="fig" rid="pone-0042524-g003">
+       Figure 3
+      </xref>) showed drastic differences between the communities of both bioreactors in terms of temporal dynamics (
+      <italic>
+       i.e.
+      </italic> changes in community structure). Could these differences be suggesting that the size of the LC bioreactor (as a niche-specific consideration) is exerting over the community a selective pressure strong enough to overshadow the influence of stochastic factors on the temporal structuring of the bacterial assemblages? To address this question, we evaluated the impact of operational factors on the temporal and spatial assembly of bacterial communities in the bioreactors.</p> 
+     <p>BOD is considered the most popular operational parameter for assessing the effectiveness of WWTPs and the impact of their effluent on receiving waters 
+      <xref ref-type="bibr" rid="pone.0042524-Bitton1">
+       [2]
+      </xref>. From the CCA plot (
+      <xref ref-type="fig" rid="pone-0042524-g005">
+       Figure 5
+      </xref>) we observed that influent BOD was not as significant as most of the measured parameters on explaining the fluctuations in bacterial community structure in the WWTP. However, we found a significant negative relationship between influent and effluent concentration of BOD in the LC plant, but not in the HC plant (
+      <xref ref-type="fig" rid="pone-0042524-g002">
+       Figure 2
+      </xref>). This was despite the fact that, on average, the HC plant received higher and more variable loads of influent BOD (
+      <xref ref-type="table" rid="pone-0042524-t001">
+       Table 1
+      </xref>). Therefore, the results from the regression analysis suggest that the microbial community in the LC bioreactor was significantly and negatively more prone to functional fluctuations by changes in the concentration of influent BOD. This negative relationship can be observed in the relative position of the influent BOD vector and the LC samples in the CCA plot (
+      <xref ref-type="fig" rid="pone-0042524-g005">
+       Figure 5
+      </xref>). This may partially explain why the LC plant generally showed lower efficiency removing BOD from the system and higher concentrations of effluent BOD. Nevertheless, we must consider that even though the levels of influent BOD in the LC plant were generally low and steady (
+      <xref ref-type="table" rid="pone-0042524-t001">
+       Table 1
+      </xref>), the BOD removal efficiency of the plant was not as stable. This suggests that the efficiency and structure of the LC community may be more prone to variations from stochastic factors (
+      <italic>
+       e.g.
+      </italic> species immigration, drastic changes in the influent chemical composition) than the HC community. Larger bioreactors with higher biodiversity may provide the advantage of a greater buffering capacity to mitigate the impact of these unpredictable variables. Furthermore, the general response of the LC plant to fluctuations in operational parameters seems to be more unpredictable as the sample points in the CCA plot corresponding to the LC temporal communities are distributed through larger gradients along the first and second axes (
+      <xref ref-type="fig" rid="pone-0042524-g005">
+       Figure 5
+      </xref>). Given that CCA asserted that ADF was the main predictor of bacterial community assembly in the CAS bioreactors, we suggest that the magnitude to which deterministic and stochastic factors influence the structure and functional stability of bacterial communities in these bioreactors could be strongly influenced by their capacity. The suggestion that higher population evenness in the HC plant implies greater niche space available for bacterial colonization 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref> reinforces the idea that deterministic factors in the HC plant are probably more relevant to the process of bacterial community assembly. The overall observations suggest that the initial bacterial community structure in the HC bioreactor (samples 1–4) may have been heavily influenced by stochastic dynamics while the remaining samples (samples 5–12) suggest a rather stable community structure mostly shaped by deterministic dynamics constrained by the size of the bioreactor. Conversely, throughout the study the bacterial community assembly in the LC plant seems to be consistently dominated by stochastic dynamics.</p> 
+     <p>Several reports have assessed the relative importance of deterministic and stochastic factors as drivers of bacterial community dynamics in treatment bioreactors 
+      <xref ref-type="bibr" rid="pone.0042524-Ofieru1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Manefield1">
+       [71]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast3">
+       [72]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Ayarza1">
+       [76]
+      </xref>. Some authors argue that either deterministic or stochastic factors alone are sufficient to explain the dynamics of bacterial communities in WWTPs 
+      <xref ref-type="bibr" rid="pone.0042524-Curtis2">
+       [36]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-Saikaly2">
+       [77]
+      </xref>. Nevertheless, our intuition leads us to believe that both components of the ecosystem should be partially responsible for the temporal and spatial dynamics of these complex communities. The proportion to which both groups of factors influence community assembly in full-scale systems and what components of the ecosystem influence the stability of that proportion, however, remains a matter of debate. Some authors have tested the relative impact of stochastic and deterministic factors in the selection of microbial populations in lab-scale bioreactors, finding that under certain selective pressure deterministic factors drove the assembly of the communities 
+      <xref ref-type="bibr" rid="pone.0042524-Manefield1">
+       [71]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast3">
+       [72]
+      </xref>. Conversely, other authors reported that in certain full-scale bioreactors the selective pressure of the systems was not enough to favor a deterministic selection of the community, thus allowing for stochastic dynamics to dominate 
+      <xref ref-type="bibr" rid="pone.0042524-Ofieru1">
+       [12]
+      </xref>, 
+      <xref ref-type="bibr" rid="pone.0042524-vanderGast1">
+       [26]
+      </xref>. In a recent report, Ayarza and Erijman 
+      <xref ref-type="bibr" rid="pone.0042524-Ayarza1">
+       [76]
+      </xref> theoretically determined that the relative dominance of stochasticity over deterministic dynamics on microbial community assembly in lab-scale bioreactors was positively correlated to the richness of populations in the system. Our results suggest completely the opposite: a richer community and a larger bioreactor were both positively associated with the dominance of deterministic dynamics on the temporal structuring of the bacterial community and the consequent system stability. These observations may seem to contradict the suggestion made above that the assembly of the communities in the bioreactors could be predicted by the IB equilibrium theory, which is essentially a stochastic model. However, our results do not refute the relevance of stochasticity on community assembly in the bioreactor, in fact, they suggest that a gradual increase in the size of the bioreactors could result on a gradual shift from stochastic dynamics towards a more deterministic selection of the bacterial community structure.</p> 
+     <p>A further analysis of the CCA (
+      <xref ref-type="fig" rid="pone-0042524-g005">
+       Figure 5
+      </xref>) revealed other parameters (
+      <italic>
+       i.e.
+      </italic> F/M, HRT, SRT, TSS) that may also significantly contribute to the overall differences between the communities. The F/M ratio for activated sludge systems usually ranges between 0.2–0.6, although for CAS plants between 0.2–0.5 is preferred 
+      <xref ref-type="bibr" rid="pone.0042524-Bitton1">
+       [2]
+      </xref>. F/M values above the preferred range are interpreted as the system has more biodegradable material (
+      <italic>
+       i.e.
+      </italic> BOD) than the microbial communities can optimally handle. Despite the high F/M levels in the HC plant, which can be associated to the contrasting levels of influent BOD and TSS, the system’s SRTs (optimally 5–15 days for CAS systems) provided sufficient time for an efficient and robust community structure to develop. On the other hand, the very low values of F/M in the LC plant suggest that the microbial community in the bioreactor was starving. The low F/M values in the LC plant could be associated to its high levels of influent TSS, justifying its rather short SRTs, and suggesting a high mortality rate among the microbial populations. The latter suggestion could further sustain the idea that the bacterial community in this plant was heavily shaped through stochastic dynamics. Moreover, the short SRTs could explain poor system performance, as it can directly be linked to common operational problems (
+      <italic>
+       e.g.
+      </italic> sludge bulking, poor nutrient removal) 
+      <xref ref-type="bibr" rid="pone.0042524-Bitton1">
+       [2]
+      </xref>.</p> 
+     <p>Few reports have looked into the effects of HRT on the assembly of microbial communities in WWTPs 
+      <xref ref-type="bibr" rid="pone.0042524-Yuan1">
+       [57]
+      </xref>. It is evident, however, that fluctuations in HRT (typically 4–8 h for CAS systems) affect substrate gradients in treatment bioreactors; hence, it likely exerts a selective pressure on the microbial communities 
+      <xref ref-type="bibr" rid="pone.0042524-Yuan1">
+       [57]
+      </xref>. Han 
+      <italic>
+       et al.
+      </italic> 
+      <xref ref-type="bibr" rid="pone.0042524-Han1">
+       [78]
+      </xref> reported that in lab-scale bioreactors shorter HRTs were correlated with less efficient and less diverse microbial communities. This correlation could also be true for the LC plant, which had lower HRT and lower bacterial diversity. Although we do not quite understand the specific effect of HRT on the communities, we believe the current report is the first one to show a strong influence of HRT on bacterial community dynamics in full-scale CAS bioreactors. Further studies will be necessary to clarify the link between the two.</p> 
+     <p>Besides the influence that external factors may have on the dynamic of bacterial communities in the bioreactors, ecological traits intrinsic to the communities themselves could also be crucial to maintain steadier community function and structure over time. The traits of microbial communities that define their capacity to maintain function over time in dynamic ecosystems can be divided in three basic mechanisms: (
+      <italic>
+       i
+      </italic>) resistance of the community to fluctuations in composition, (
+      <italic>
+       ii
+      </italic>) community resiliency after disturbing events, (
+      <italic>
+       iii
+      </italic>) and community functional redundancy 
+      <xref ref-type="bibr" rid="pone.0042524-Allison1">
+       [79]
+      </xref>. The results from NMDS suggest that the HC community was more resistant despite marked fluctuations in operational parameters, especially during the last 8 months of the study. The slow succession process we saw in the HC plant during the initial months could be attributed to mechanisms of resilience through which the community reached stability after the highly disturbing process it underwent during the bioreactor’s start-up period. Nonetheless, the fact that there seems to be no correlation between the system’s functional stability and the dynamics of the bacterial community during this initial start-up period suggests that functional redundancy rather than resilience was the key ecological trait driving functional stability during that time 
+      <xref ref-type="bibr" rid="pone.0042524-Mills1">
+       [80]
+      </xref>. According to Briones and Raskin 
+      <xref ref-type="bibr" rid="pone.0042524-Briones1">
+       [34]
+      </xref>, ecosystem stability is not the outcome of population diversity 
+      <italic>
+       per se
+      </italic>, but of functional redundancy, ensured by the presence of a reservoir of species able to perform the same ecological function. However, functional redundancy does correlate with community biodiversity 
+      <xref ref-type="bibr" rid="pone.0042524-Briones1">
+       [34]
+      </xref>. Therefore, by having higher biodiversity, the bacterial community in the HC plant ensured a more stable treatment process even under highly dynamic periods due to its superior functional redundancy. Conversely, results from the LC plant suggest that its community was neither resistant nor resilient. Therefore, the mechanism most likely used by the community to maintain BOD and TSS removal efficiency usually above acceptable levels (
+      <italic>
+       i.e.
+      </italic> &gt;85%) seems to be functional redundancy, although at a level inferior to that observed in the HC plant.</p> 
+     <p>The outcome of the current study can be divided into 4 major findings. (
+      <italic>
+       i
+      </italic>) The bacterial community in the HC bioreactor was more diverse, less dynamic and significantly different from the one in the LC bioreactor. These characteristics were closely linked to the performance of the systems and partially explained by a positive species-flow relationship. (
+      <italic>
+       ii
+      </italic>) Both stochastic and deterministic factors are intricately involved on the assembly of bacterial communities in the system, but the proportion to which either category of factors influence that process seems to be heavily influenced by the biodiversity and capacity of the bioreactor. (
+      <italic>
+       iii
+      </italic>) The mechanisms utilized by the communities to handle the selective pressure of stochastic and deterministic factors and maintain functional stability over time involved a dynamic combination of resistance and functional redundancy. (
+      <italic>
+       iv
+      </italic>) Finally, the principles of the IB ecological model could be appropriate to predict the assemblage and efficiency of the communities. Further work is necessary to see if these patterns hold for full-scale CAS bioreactors with different capacities from other parts of the world and to elucidate the boundaries separating the dominance of either stochastic or deterministic dynamics on community assembly. Furthermore, it will be necessary to translate these observations into process-based mathematical models to be able to better explain and predict the mechanisms driving the dynamics of the bacterial communities in the bioreactors in the light of ecological theory. Given that only 12 time-points may prove to be insufficient to explain the observed patterns by such models, a more exhaustive time-series sampling (
+      <italic>
+       e.g.
+      </italic> weekly samples) is recommended.</p> 
+     <p>This study is of great importance for engineers and microbial ecologists dedicated to optimizing the design of CAS and other treatment systems as it provides evidence linking system performance and operational conditions with the temporal assembly and performance of bacterial communities in the bioreactors. If our findings and suggestions were validated by future studies in other CAS systems of distinctive size and geographical location, they could have deep implications in the way CAS systems are designed and operated. For instance, knowing that larger bioreactors will promote more efficient and stable microbial communities could influence the choice of constructing a single large bioreactor or several small bioreactors to serve a human population 
+      <xref ref-type="bibr" rid="pone.0042524-Curtis1">
+       [5]
+      </xref>. This could be crucial if we consider that the operating cost of WWTPs on a 
+      <italic>
+       per capita
+      </italic> basis decreases with increasing reactor size 
+      <xref ref-type="bibr" rid="pone.0042524-Balmr1">
+       [81]
+      </xref>. Our work emphasizes the utility of integrating theoretical ecology in the design and operation of WWTPs as it may ultimately allow for microbial community assembly to become more predictable 
+      <xref ref-type="bibr" rid="pone.0042524-Graham1">
+       [3]
+      </xref>. This contributes to the increasing pool of evidence suggesting that patterns of microbial assembly and diversity in the environment can be predicted by well-established ecological theories previously thought to apply only to macroorganisms.</p> 
+    </sec> 
+   </sec> 
+   <sec id="s5"> 
+    <title>Supporting Information</title> 
+    <supplementary-material id="pone.0042524.s001" mimetype="application/pdf" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.s001" xlink:type="simple"> 
+     <label>Figure S1</label>  
+     <p>
+      <bold>
+       Relative abundance of bacterial groups assessed by 16S rRNA environmental clones libraries.
+      </bold> The PCR reactions were carried out using the same primers (without fluorochrome) and protocol applied for the generation of the T-RFLP profiles. PCR products were cloned with the pGEM-T vector system (Promega Corp.) and purified using the Wizard Plus SV DNA Purification System (Promega Corp.). Vector’s inserts were sequenced by the High-Throughput Sequencing Unit (University of Washington, Washington, USA). The phylogenetic affiliation of the sequences was determined using the Sequence Match and Classifier tools available as part of the Ribosomal Data Base project V 10. A total of 192 clones were sequenced, from those, 97 were finally selected for analysis after an extensive process of quality control in which too-short (&lt;400 bp), low-quality and chimerical sequences were eliminated from the data set. The samples used to construct these libraries for both WWTPs plants were collected during the 6th sampling time. Note: HICAP = HC, and LOWCAP = LC.</p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+    <supplementary-material id="pone.0042524.s002" mimetype="application/pdf" orientation="portrait" position="float" xlink:href="info:doi/10.1371/journal.pone.0042524.s002" xlink:type="simple"> 
+     <label>Table S1</label>  
+     <p>Output of SIMPER analysis showing OTUs responsible for approximately 25% of the overall average dissimilarity (∼54%) observed between the bacterial communities in the CAS bioreactors. Similarity persentage (SIMPER) analysis was conducted to determine which OTUs contributed the most to the average dissimilarity in bacterial community structure observed between the treatment plants. Only those OTUs contributing to the top 25% of the total dissimilarity observed were reported. A putative phylogenetic classification was assigned to each TRF using the Phylogenetic Assignment Tool (PAT+) included in the Microbial Community Analysis III (MiCA 3) web-based software package and compared against “good quality” bacterial sequences (&gt;1200 bp) from the Ribosomal Database Project 10. Out of the 383 distinctive TRFs detected by the three restriction enzymes combined, only 35 (∼9% of the total) were needed to explain 25% of the overall differences (∼54%) observed between the two microbial communities. Also, about 57% of those 35 OTUs were more abundant in the HC bioreactor. From the assignment of putative phylogenies to the TRFs we can deduct that the Phylum that probably contributed the most to the total dissimilarity between the microbial communities was 
+      <italic>
+       Firmicutes
+      </italic>. Also, 
+      <italic>
+       Betaproteobacteria
+      </italic> and 
+      <italic>
+       Deltaproteobacteria
+      </italic> classes were only associated to TRFs from the HC and LC bioreactors, respectively.</p> 
+     <p>(PDF)</p>  
+    </supplementary-material> 
+   </sec>  
+   <back> 
+    <ack> 
+     <p>We will like to thank PRASA, Yamil Lugo and Jorge Jimenez for facilitating the collection of the activated sludge samples and providing some of the operational parameters; Dr. Carlos Rios, Dr. Rafael Montalvo and Dr. Carlos Rodriguez Minguela for facilitating laboratory materials and equipment used in this research; Dr. Raina M. Maier, Dr. Eneida C. Villanueva-Feliciano and Karis Nelson for their help on improving this manuscript; Alejandro Caro-Quintero for his assistance on the analysis of the T-RFLP profiles and for developing the 
+      <italic>
+       CLISP
+      </italic> scripts; and to the members of the Tropical Microbial Ecology Laboratory, especially Dubiezel Medina, Gloried Toledo, Lyra Medina, Elba Diaz and Gina Rodriguez for their valuable assistance in the collection, processing and analysis of the samples. We will also like to thank two anonymous reviewers for their valuable comments and suggestions.</p> 
+    </ack> 
+    <ref-list> 
+     <title>References</title> 
+     <ref id="pone.0042524-Seviour1"> 
+      <label>1</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Seviour
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nielsen
+        </surname>
+        <given-names>
+         PH
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Microbial ecology of activated sludge. London: IWA Publishing Company
+       </article-title>. 
+       <source>688 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Bitton1"> 
+      <label>2</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bitton
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Wastewater microbiology. Hoboken, NJ: John Wiley and Sons
+       </article-title>. 
+       <source>746 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Graham1"> 
+      <label>3</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Smith
+        </surname>
+        <given-names>
+         VH
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Designed ecosystem services: Application of ecological principles in wastewater treatment engineering
+       </article-title>. 
+       <source>Front Ecol Environ 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        199
+       </fpage>–
+       <lpage>
+        206
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wang1"> 
+      <label>4</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yan
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ding
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhao
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Bacterial community dynamics in a functionally stable pilot-scale wastewater treatment plant
+       </article-title>. 
+       <source>Bioresour Technol 
+       <volume>
+        102
+       </volume>: 
+       <fpage>
+        2352
+       </fpage>–
+       <lpage>
+        2357
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Curtis1"> 
+      <label>5</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Head
+        </surname>
+        <given-names>
+         IM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Graham
+        </surname>
+        <given-names>
+         DW
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Theoretical ecology in engineering biology
+       </article-title>. 
+       <source>Environ Sci Technol 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        64A
+       </fpage>–
+       <lpage>
+        70A
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wells1"> 
+      <label>6</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wells
+        </surname>
+        <given-names>
+         GF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Park
+        </surname>
+        <given-names>
+         HD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Eggleston
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Francis
+        </surname>
+        <given-names>
+         CA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Criddle
+        </surname>
+        <given-names>
+         CS
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Fine-scale bacterial community dynamics and the taxa–time relationship within a full-scale activated sludge bioreactor
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        5476
+       </fpage>–
+       <lpage>
+        5488
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wagner1"> 
+      <label>7</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wagner
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Loy
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nogueira
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Purkhold
+        </surname>
+        <given-names>
+         U
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Microbial community composition and function in wastewater treatment plants
+       </article-title>. 
+       <source>Antonie van Leeuwenhoek 
+       <volume>
+        81
+       </volume>: 
+       <fpage>
+        665
+       </fpage>–
+       <lpage>
+        680
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Kaewpipat1"> 
+      <label>8</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kaewpipat
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Grady
+        </surname>
+        <given-names>
+         CPL
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Microbial population dynamics in laboratory-scale activated sludge reactors
+       </article-title>. 
+       <source>Water Sci Technol 
+       <volume>
+        46
+       </volume>: 
+       <fpage>
+        19
+       </fpage>–
+       <lpage>
+        27
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Padayachee1"> 
+      <label>9</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Padayachee
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ismail
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bux
+        </surname>
+        <given-names>
+         F
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Elucidation of the microbial community structure within a laboratory-scale activated sludge process using molecular techniques
+       </article-title>. 
+       <source>Water SA 
+       <volume>
+        32
+       </volume>: 
+       <fpage>
+        679
+       </fpage>–
+       <lpage>
+        686
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Jenkins1"> 
+      <label>10</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jenkins
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        From total suspended solids to molecular biology tools- a personal view of biological wastewater treatment process population dynamics
+       </article-title>. 
+       <source>Water Environ Res 
+       <volume>
+        80
+       </volume>: 
+       <fpage>
+        677
+       </fpage>–
+       <lpage>
+        687
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Saikaly1"> 
+      <label>11</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Saikaly
+        </surname>
+        <given-names>
+         PE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Stroot
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oerther
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Use of 16S rRNA gene terminal restriction fragment analysis to assess the impact of solids retention time on the bacterial diversity of activated sludge
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        71
+       </volume>: 
+       <fpage>
+        5814
+       </fpage>–
+       <lpage>
+        5822
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Ofieru1"> 
+      <label>12</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ofiţeru
+        </surname>
+        <given-names>
+         ID
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lunn
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wells
+        </surname>
+        <given-names>
+         GF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Criddle
+        </surname>
+        <given-names>
+         CS
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Combined niche and neutral effects in a microbial wastewater treatment community
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        107
+       </volume>: 
+       <fpage>
+        15345
+       </fpage>–
+       <lpage>
+        15350
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Sanapareddy1"> 
+      <label>13</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Sanapareddy
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hamp
+        </surname>
+        <given-names>
+         TJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gonzalez
+        </surname>
+        <given-names>
+         LC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hilger
+        </surname>
+        <given-names>
+         HA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fodor
+        </surname>
+        <given-names>
+         AA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Molecular diversity of a North Carolina wastewater treatment plant as revealed by pyrosequencing
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        75
+       </volume>: 
+       <fpage>
+        1688
+       </fpage>–
+       <lpage>
+        1696
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Fierer1"> 
+      <label>14</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Fierer
+        </surname>
+        <given-names>
+         N
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lennon
+        </surname>
+        <given-names>
+         JT
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        The generation and maintenance of diversity in microbial communities
+       </article-title>. 
+       <source>Am J Bot 
+       <volume>
+        98
+       </volume>: 
+       <fpage>
+        439
+       </fpage>–
+       <lpage>
+        448
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Nemergut1"> 
+      <label>15</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Nemergut
+        </surname>
+        <given-names>
+         DR
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Costello
+        </surname>
+        <given-names>
+         EK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hamady
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lozupone
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jiang
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Global patterns in the biogeography of bacterial taxa
+       </article-title>. 
+       <source>Environ Microbiol 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        135
+       </fpage>–
+       <lpage>
+        144
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Benedict1"> 
+      <label>16</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Benedict
+        </surname>
+        <given-names>
+         RG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Carlson
+        </surname>
+        <given-names>
+         DA
+        </given-names>
+       </name> (
+       <year>
+        1971
+       </year>) 
+       <article-title>
+        Aerobic heterotrophic bacteria in activated sludge
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        1023
+       </fpage>–
+       <lpage>
+        1030
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Dias1"> 
+      <label>17</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dias
+        </surname>
+        <given-names>
+         FF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bhat
+        </surname>
+        <given-names>
+         JV
+        </given-names>
+       </name> (
+       <year>
+        1964
+       </year>) 
+       <article-title>
+        Microbial ecology of activated sludge
+       </article-title>. 
+       <source>Appl Microbiol 
+       <volume>
+        12
+       </volume>: 
+       <fpage>
+        412
+       </fpage>–
+       <lpage>
+        417
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Lighthart1"> 
+      <label>18</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Lighthart
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oglesby
+        </surname>
+        <given-names>
+         RT
+        </given-names>
+       </name> (
+       <year>
+        1969
+       </year>) 
+       <article-title>
+        Bacteriology of an activated sludge wastewater treatment plant: A guide to methodology
+       </article-title>. 
+       <source>J Water Pollut Control Fed 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        R267
+       </fpage>–
+       <lpage>
+        R281
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-vanVeen1"> 
+      <label>19</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         van Veen
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name> (
+       <year>
+        1973
+       </year>) 
+       <article-title>
+        Bacteriology of activated sludge, in particular the filamentous bacteria
+       </article-title>. 
+       <source>Antonie van Leeuwenhoek 
+       <volume>
+        39
+       </volume>: 
+       <fpage>
+        189
+       </fpage>–
+       <lpage>
+        205
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Eschenhagen1"> 
+      <label>20</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Eschenhagen
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schuppler
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Röske
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Molecular characterization of the microbial community structure in two activated sludge systems for the advanced treatment of domestic effluents
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        37
+       </volume>: 
+       <fpage>
+        3224
+       </fpage>–
+       <lpage>
+        3232
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Snaidr1"> 
+      <label>21</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Snaidr
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amann
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Huber
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ludwing
+        </surname>
+        <given-names>
+         W
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schleifer
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        1997
+       </year>) 
+       <article-title>
+        Phylogenetic analysis and in-situ identification of bacteria in activated sludge
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        63
+       </volume>: 
+       <fpage>
+        2884
+       </fpage>–
+       <lpage>
+        2896
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wagner2"> 
+      <label>22</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wagner
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amann
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lemmer
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schleifer
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        1993
+       </year>) 
+       <article-title>
+        Probing activated sludge with oligonucleotides specific for proteobacteria: Inadequacy of culture-dependent methods for describing microbial community structure
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        59
+       </volume>: 
+       <fpage>
+        1520
+       </fpage>–
+       <lpage>
+        1525
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Watanabe1"> 
+      <label>23</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Watanabe
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yamamoto
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hino
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harayama
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Population dynamics of phenol-degrading bacteria in activated sludge determined by gyrB-targeted quantitative PCR
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        64
+       </volume>: 
+       <fpage>
+        1203
+       </fpage>–
+       <lpage>
+        1209
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Green1"> 
+      <label>24</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Green
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohannan
+        </surname>
+        <given-names>
+         BJM
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Spatial scaling of microbial biodiversity
+       </article-title>. 
+       <source>Trends Ecol Evol 
+       <volume>
+        21
+       </volume>: 
+       <fpage>
+        501
+       </fpage>–
+       <lpage>
+        507
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Martiny1"> 
+      <label>25</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Martiny
+        </surname>
+        <given-names>
+         JBH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohannan
+        </surname>
+        <given-names>
+         BJM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         JH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Colwell
+        </surname>
+        <given-names>
+         RK
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fuhrman
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Microbial biogeography: putting microorganisms on the map
+       </article-title>. 
+       <source>Nat Rev Microbiol 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        102
+       </fpage>–
+       <lpage>
+        112
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-vanderGast1"> 
+      <label>26</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         van der Gast
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jefferson
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reid
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Robinson
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bailey
+        </surname>
+        <given-names>
+         MJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Bacterial diversity is determined by volume in membrane bioreactors
+       </article-title>. 
+       <source>Environ Microbiol 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        1048
+       </fpage>–
+       <lpage>
+        1055
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wang2"> 
+      <label>27</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Criddle
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wells
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Community analysis of ammonia-oxidizing bacteria in activated sludge of eight wastewater treatment systems
+       </article-title>. 
+       <source>J Environ Sci (China) 
+       <volume>
+        22
+       </volume>: 
+       <fpage>
+        627
+       </fpage>–
+       <lpage>
+        634
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Loy1"> 
+      <label>28</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Loy
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Daims
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wagner
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Activated sludge: molecular techniques for determining community composition
+       </article-title>. In: 
+       <name name-style="western">
+        <surname>
+         Bitton
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, editor. The Encyclopedia of environmental microbiology. Hoboken, NJ: John Wiley and Sons. 
+       <fpage>
+        26
+       </fpage>–
+       <lpage>
+        43
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Onuki1"> 
+      <label>29</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Onuki
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Satoh
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mino
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Matsuo
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name> (
+       <year>
+        2000
+       </year>) 
+       <article-title>
+        Application of molecular methods to microbial community analysis of activated sludge
+       </article-title>. 
+       <source>Water Sci Technol 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        17
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wilderer1"> 
+      <label>30</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wilderer
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bungartz
+        </surname>
+        <given-names>
+         HJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lemmer
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wagner
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Keller
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        Modern scientific methods and their potential in wastewater science and technology
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        36
+       </volume>: 
+       <fpage>
+        370
+       </fpage>–
+       <lpage>
+        393
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-delosReyes1"> 
+      <label>31</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         de los Reyes
+        </surname>
+        <given-names>
+         FL
+        </given-names>
+        <suffix>
+         III
+        </suffix>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Challenges in determining causation in structure-function studies using molecular biological techniques
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        44
+       </volume>: 
+       <fpage>
+        4948
+       </fpage>–
+       <lpage>
+        4957
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Jones1"> 
+      <label>32</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jones
+        </surname>
+        <given-names>
+         PA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schuler
+        </surname>
+        <given-names>
+         AJ
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Seasonal variability of biomass density and activated sludge settleability in full-scale wastewater treatment systems
+       </article-title>. 
+       <source>Chem Eng J 
+       <volume>
+        164
+       </volume>: 
+       <fpage>
+        16
+       </fpage>–
+       <lpage>
+        22
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Carvalho1"> 
+      <label>33</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Carvalho
+        </surname>
+        <given-names>
+         G
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lemos
+        </surname>
+        <given-names>
+         PC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oehmen
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Reis
+        </surname>
+        <given-names>
+         MAM
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Denitrifying phosphorus removal: Linking the process performance with the microbial community structure
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        4383
+       </fpage>–
+       <lpage>
+        4396
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Briones1"> 
+      <label>34</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Briones
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Raskin
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Diversity and dynamics of microbial communities in engineered environments and their implications for process stability
+       </article-title>. 
+       <source>Curr Opin Biotechnol 
+       <volume>
+        14
+       </volume>: 
+       <fpage>
+        270
+       </fpage>–
+       <lpage>
+        276
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Gentile1"> 
+      <label>35</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Gentile
+        </surname>
+        <given-names>
+         ME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Jessup
+        </surname>
+        <given-names>
+         CM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Nyman
+        </surname>
+        <given-names>
+         JL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Criddle
+        </surname>
+        <given-names>
+         CS
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Correlation of functional instability and community dynamics in denitrifying dispersed-growth reactors
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        73
+       </volume>: 
+       <fpage>
+        680
+       </fpage>–
+       <lpage>
+        690
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Curtis2"> 
+      <label>36</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sloan
+        </surname>
+        <given-names>
+         WT
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Towards the design of diversity: stochastic models for community assembly in wastewater treatment plants
+       </article-title>. 
+       <source>Water Sci Technol 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        227
+       </fpage>–
+       <lpage>
+        236
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Daims1"> 
+      <label>37</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Daims
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Taylor
+        </surname>
+        <given-names>
+         MW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wagner
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Wastewater treatment: a model system for microbial ecology
+       </article-title>. 
+       <source>Trends Biotechol 
+       <volume>
+        24
+       </volume>: 
+       <fpage>
+        483
+       </fpage>–
+       <lpage>
+        489
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Prosser1"> 
+      <label>38</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Prosser
+        </surname>
+        <given-names>
+         JI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohannan
+        </surname>
+        <given-names>
+         BJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         TP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ellis
+        </surname>
+        <given-names>
+         RJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Firestone
+        </surname>
+        <given-names>
+         MK
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        The role of ecological theory in microbial ecology
+       </article-title>. 
+       <source>Nat Rev Microbiol 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        384
+       </fpage>–
+       <lpage>
+        392
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Eaton1"> 
+      <label>39</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Eaton
+        </surname>
+        <given-names>
+         AD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Clesceri
+        </surname>
+        <given-names>
+         LS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Rice
+        </surname>
+        <given-names>
+         EW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Greenberg
+        </surname>
+        <given-names>
+         AE
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Standard methods for the examination of water and wastewater. Washington, DC: American Public Health Association, American Water Works Association, Water Pollution Control Federation
+       </article-title>. 
+       <source>1368 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-RodrguezMartnez1"> 
+      <label>40</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Rodríguez-Martínez
+        </surname>
+        <given-names>
+         EM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Pérez
+        </surname>
+        <given-names>
+         EX
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schadt
+        </surname>
+        <given-names>
+         CW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhou
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Massol-Deyá
+        </surname>
+        <given-names>
+         AA
+        </given-names>
+       </name> (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Microbial diversity and bioremediation of a hydrocarbon-contaminated aquifer (Vega Baja, Puerto Rico)
+       </article-title>. 
+       <source>Int J Environ Res Public Health 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        292
+       </fpage>–
+       <lpage>
+        300
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Blackwood1"> 
+      <label>41</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Blackwood
+        </surname>
+        <given-names>
+         CB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marsh
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kim
+        </surname>
+        <given-names>
+         SH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Paul
+        </surname>
+        <given-names>
+         EA
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Terminal restriction fragment length polymorphism data analysis for quantitative comparison of microbial communities
+       </article-title>. 
+       <source>Appl Environ Microbiol 
+       <volume>
+        69
+       </volume>: 
+       <fpage>
+        926
+       </fpage>–
+       <lpage>
+        932
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Abdo1"> 
+      <label>42</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Abdo
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schüette
+        </surname>
+        <given-names>
+         UME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bent
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Forney
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Statistical methods for characterizing diversity of microbial communities by analysis of terminal restriction fragment length polymorphisms of 16S rRNA genes
+       </article-title>. 
+       <source>Environ Microbiol 
+       <volume>
+        8
+       </volume>: 
+       <fpage>
+        929
+       </fpage>–
+       <lpage>
+        938
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Schtte1"> 
+      <label>43</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Schütte
+        </surname>
+        <given-names>
+         UME
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Abdo
+        </surname>
+        <given-names>
+         Z
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bent
+        </surname>
+        <given-names>
+         SJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Shyu
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Williams
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Mini-review: Advances in the use of terminal restriction fragment length polymorphism (T-RFLP) analysis of 16S rRNA genes to characterize microbial communities
+       </article-title>. 
+       <source>Appl Microbiol Biotechnol 
+       <volume>
+        80
+       </volume>: 
+       <fpage>
+        365
+       </fpage>–
+       <lpage>
+        380
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Brown1"> 
+      <label>44</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Brown
+        </surname>
+        <given-names>
+         MV
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Schwalbach
+        </surname>
+        <given-names>
+         MS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hewson
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Fuhrman
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Coupling 16S-ITS rDNA clone libraries and automated ribosomal intergenic spacer analysis to show marine microbial diversity: development and application to a time series
+       </article-title>. 
+       <source>Environ Microbiol 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        1466
+       </fpage>–
+       <lpage>
+        1479
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-CaroQuintero1"> 
+      <label>45</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       Caro-Quintero A (2009) Diversity and microbial community structure at a former military range in Vieques (Puerto Rico). MS thesis: University of Puerto Rico, Mayagüez, Puerto Rico. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://search.proquest.com/docview/305078033" xlink:type="simple">
+        http://search.proquest.com/docview/305078033
+       </ext-link>. Accessed 2012 Jul 11.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Ramette1"> 
+      <label>46</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ramette
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Mini-review: Multivariate analyses in microbial ecology
+       </article-title>. 
+       <source>FEMS Microbiol Ecol 
+       <volume>
+        62
+       </volume>: 
+       <fpage>
+        142
+       </fpage>–
+       <lpage>
+        160
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Legendre1"> 
+      <label>47</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Legendre
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        1998
+       </year>) 
+       <article-title>
+        Numerical ecology. Amsterdam: Elsevier
+       </article-title>. 
+       <source>853 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Kindt1"> 
+      <label>48</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kindt
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Coe
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name> (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Tree diversity analysis: A manual and software for common statistical methods and biodiversity studies. Nairobi: World Agroforestry Centre
+       </article-title>. 
+       <source>196 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Jesus1"> 
+      <label>49</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Jesus
+        </surname>
+        <given-names>
+         ED
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Marsh
+        </surname>
+        <given-names>
+         TL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tiedje
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Moreira
+        </surname>
+        <given-names>
+         FMD
+        </given-names>
+       </name> (
+       <year>
+        2009
+       </year>) 
+       <article-title>
+        Changes in land use alter the structure of bacterial communities in Western Amazon soils
+       </article-title>. 
+       <source>ISME J 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        1004
+       </fpage>–
+       <lpage>
+        1011
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-terBraak1"> 
+      <label>50</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         ter Braak
+        </surname>
+        <given-names>
+         CJF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wiertz
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        On the statistical analysis of vegetation change: A wetland affected by water extraction and soil acidification
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        361
+       </fpage>–
+       <lpage>
+        372
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-terBraak2"> 
+      <label>51</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         ter Braak
+        </surname>
+        <given-names>
+         CJF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Smilauer
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name> (
+       <year>
+        2002
+       </year>) 
+       <article-title>
+        CANOCO reference manual and CanoDraw for Windows user’s guide: Software for canonical community ordination- Version 4.5. New York: Microcomputer Power
+       </article-title>. 
+       <source>500 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Hammer1"> 
+      <label>52</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hammer
+        </surname>
+        <given-names>
+         Ø
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Harper
+        </surname>
+        <given-names>
+         DAT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ryan
+        </surname>
+        <given-names>
+         PG
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        PAST: Paleontological statistics software package for education and data analysis
+       </article-title>. 
+       <source>Palaeontol Electron 
+       <volume>
+        4
+       </volume>: 
+       <fpage>
+        1
+       </fpage>–
+       <lpage>
+        9
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Tothmeresz1"> 
+      <label>53</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Tothmeresz
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        1995
+       </year>) 
+       <article-title>
+        Comparison of different methods for diversity ordering
+       </article-title>. 
+       <source>J Veg Sci 
+       <volume>
+        6
+       </volume>: 
+       <fpage>
+        283
+       </fpage>–
+       <lpage>
+        290
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Hill1"> 
+      <label>54</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hill
+        </surname>
+        <given-names>
+         MO
+        </given-names>
+       </name> (
+       <year>
+        1973
+       </year>) 
+       <article-title>
+        Diversity and evenness: a unifying notation and its consequences
+       </article-title>. 
+       <source>Ecol 
+       <volume>
+        54
+       </volume>: 
+       <fpage>
+        427
+       </fpage>–
+       <lpage>
+        432
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Patil1"> 
+      <label>55</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Patil
+        </surname>
+        <given-names>
+         GP
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Taillie
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name> (
+       <year>
+        1982
+       </year>) 
+       <article-title>
+        Diversity as a concept and its measurement
+       </article-title>. 
+       <source>J Am Stat Ass 
+       <volume>
+        77
+       </volume>: 
+       <fpage>
+        548
+       </fpage>–
+       <lpage>
+        567
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Wang3"> 
+      <label>56</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Wang
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wen
+        </surname>
+        <given-names>
+         X
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Criddle
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yan
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Bacterial community dynamics in two full-scale wastewater treatment systems with functional stability
+       </article-title>. 
+       <source>J Appl Microbiol 
+       <volume>
+        109
+       </volume>: 
+       <fpage>
+        1218
+       </fpage>–
+       <lpage>
+        1226
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Yuan1"> 
+      <label>57</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Yuan
+        </surname>
+        <given-names>
+         ZG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oehmen
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Peng
+        </surname>
+        <given-names>
+         YZ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ma
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Keller
+        </surname>
+        <given-names>
+         J
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Sludge population optimization in biological nutrient removal wastewater treatment systems through on-line process control: A review
+       </article-title>. 
+       <source>Rev Environ Sci Biotechnol 
+       <volume>
+        7
+       </volume>: 
+       <fpage>
+        243
+       </fpage>–
+       <lpage>
+        254
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Palacios1"> 
+      <label>58</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Palacios
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zettler
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amils
+        </surname>
+        <given-names>
+         R
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Amaral-Zettler
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Contrasting microbial community assembly hypotheses: A reconciling tale from the Río Tinto
+       </article-title>. 
+       <source>PLoS ONE 
+       <volume>
+        3
+       </volume>: 
+       <fpage>
+        e3853
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Culman1"> 
+      <label>59</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Culman
+        </surname>
+        <given-names>
+         SW
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Gauch
+        </surname>
+        <given-names>
+         HG
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Blackwood
+        </surname>
+        <given-names>
+         CB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thies
+        </surname>
+        <given-names>
+         JE
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Analysis of TRFLP data using analysis of variance and ordination methods: A comparative study
+       </article-title>. 
+       <source>J Microbiol Methods 
+       <volume>
+        75
+       </volume>: 
+       <fpage>
+        55
+       </fpage>–
+       <lpage>
+        63
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Matsuda1"> 
+      <label>60</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Matsuda
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Inoue
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Anami
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tsutsui
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Sei
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Comparative analysis of DNA-based microbial community composition and substrate utilization patterns of activated sludge microorganisms from wastewater treatment plants operated under different conditions
+       </article-title>. 
+       <source>Water Sci Technol 
+       <volume>
+        61
+       </volume>: 
+       <fpage>
+        2843
+       </fpage>–
+       <lpage>
+        2851
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Miura1"> 
+      <label>61</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Miura
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hiraiwa
+        </surname>
+        <given-names>
+         MN
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ito
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Itonaga
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Watanabe
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Bacterial community structures in MBRs treating municipal wastewater: Relationship between community stability and reactor performance
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        41
+       </volume>: 
+       <fpage>
+        627
+       </fpage>–
+       <lpage>
+        637
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Kim1"> 
+      <label>62</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Kim
+        </surname>
+        <given-names>
+         YM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cho
+        </surname>
+        <given-names>
+         HU
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lee
+        </surname>
+        <given-names>
+         DS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Park
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Park
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Influence of operational parameters on nitrogen removal efficiency and microbial communities in a full-scale activated sludge process
+       </article-title>. 
+       <source>Water Res 
+       <volume>
+        45
+       </volume>: 
+       <fpage>
+        5785
+       </fpage>–
+       <lpage>
+        5795
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Forney1"> 
+      <label>63</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Forney
+        </surname>
+        <given-names>
+         LJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Liu
+        </surname>
+        <given-names>
+         WT
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Guckert
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Kumagai
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Namkung
+        </surname>
+        <given-names>
+         E
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Structure of microbial communities in activated sludge: potential implications for assessing the biodegradability of chemicals
+       </article-title>. 
+       <source>Ecotoxicol Environ Saf 
+       <volume>
+        49
+       </volume>: 
+       <fpage>
+        40
+       </fpage>–
+       <lpage>
+        53
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Arrhenius1"> 
+      <label>64</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Arrhenius
+        </surname>
+        <given-names>
+         O
+        </given-names>
+       </name> (
+       <year>
+        1921
+       </year>) 
+       <article-title>
+        Species and area
+       </article-title>. 
+       <source>J Ecol 
+       <volume>
+        9
+       </volume>: 
+       <fpage>
+        95
+       </fpage>–
+       <lpage>
+        99
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Connor1"> 
+      <label>65</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Connor
+        </surname>
+        <given-names>
+         EF
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         McCoy
+        </surname>
+        <given-names>
+         ED
+        </given-names>
+       </name> (
+       <year>
+        1979
+       </year>) 
+       <article-title>
+        The statistics and biology of the species-area relationship
+       </article-title>. 
+       <source>Am Nat 
+       <volume>
+        13
+       </volume>: 
+       <fpage>
+        791
+       </fpage>–
+       <lpage>
+        833
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-MacArthur1"> 
+      <label>66</label> 
+      <mixed-citation publication-type="other" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         MacArthur
+        </surname>
+        <given-names>
+         RH
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Wilson
+        </surname>
+        <given-names>
+         EO
+        </given-names>
+       </name> (
+       <year>
+        1967
+       </year>) 
+       <article-title>
+        The theory of island biogeography. Princeton, NJ: Princeton University Press
+       </article-title>. 
+       <source>203 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-HornerDevine1"> 
+      <label>67</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Horner-Devine
+        </surname>
+        <given-names>
+         MC
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lage
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hughes
+        </surname>
+        <given-names>
+         JB
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Bohannan
+        </surname>
+        <given-names>
+         BJM
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        A taxa-area relationship for bacteria
+       </article-title>. 
+       <source>Nat 
+       <volume>
+        432
+       </volume>: 
+       <fpage>
+        750
+       </fpage>–
+       <lpage>
+        753
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Bell1"> 
+      <label>68</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Bell
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ager
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Song
+        </surname>
+        <given-names>
+         JI
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Newman
+        </surname>
+        <given-names>
+         JA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Thompson
+        </surname>
+        <given-names>
+         IP
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2005
+       </year>) 
+       <article-title>
+        Larger islands house more bacterial taxa
+       </article-title>. 
+       <source>Sci 
+       <volume>
+        308
+       </volume>: 
+       <fpage>
+        1884
+       </fpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Hubbell1"> 
+      <label>69</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hubbell
+        </surname>
+        <given-names>
+         SP
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        The unified neutral theory of biodiversity and biogeography. Princeton, NJ: Princeton University Press
+       </article-title>. 
+       <source>448 p.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-vanderGast2"> 
+      <label>70</label> 
+      <mixed-citation publication-type="book" xlink:type="simple">
+       van der Gast CJ (2008) Chapter 6: Islands shaping thought in microbial ecology. In: Laskin AI, Sariaslani S, Gadd GM, editors. Advances in applied microbiology, Volume 64. Waltham, MA: Academic Press. 167–182.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Manefield1"> 
+      <label>71</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Manefield
+        </surname>
+        <given-names>
+         M
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Whiteley
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Curtis
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Watanabe
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name> (
+       <year>
+        2007
+       </year>) 
+       <article-title>
+        Influence of sustainability and immigration in assembling bacterial populations of known size and function
+       </article-title>. 
+       <source>Microb Ecol 
+       <volume>
+        53
+       </volume>: 
+       <fpage>
+        348
+       </fpage>–
+       <lpage>
+        354
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-vanderGast3"> 
+      <label>72</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         van der Gast
+        </surname>
+        <given-names>
+         CJ
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ager
+        </surname>
+        <given-names>
+         D
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Lilley
+        </surname>
+        <given-names>
+         AK
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Temporal scaling of bacterial taxa is influenced by both stochastic and deterministic ecological factors
+       </article-title>. 
+       <source>Environ Microbiol 
+       <volume>
+        10
+       </volume>: 
+       <fpage>
+        1411
+       </fpage>–
+       <lpage>
+        1418
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Dollhopf1"> 
+      <label>73</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Dollhopf
+        </surname>
+        <given-names>
+         SL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hashsham
+        </surname>
+        <given-names>
+         SA
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Tiedje
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name> (
+       <year>
+        2001
+       </year>) 
+       <article-title>
+        Interpreting 16S rDNA T-RFLP data: Application of self-organizing maps and principal component analysis to describe community dynamics and convergence
+       </article-title>. 
+       <source>Microb Ecol 
+       <volume>
+        42
+       </volume>: 
+       <fpage>
+        495
+       </fpage>–
+       <lpage>
+        505
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Hiraishi1"> 
+      <label>74</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hiraishi
+        </surname>
+        <given-names>
+         A
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Narihiro
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yamanaka
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Microbial community dynamics during start-up operation of flowerpot-using fed-batch reactors for composting of household biowaste
+       </article-title>. 
+       <source>Environ Microbiol 
+       <volume>
+        5
+       </volume>: 
+       <fpage>
+        765
+       </fpage>–
+       <lpage>
+        776
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Hoshino1"> 
+      <label>75</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Hoshino
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Terahara
+        </surname>
+        <given-names>
+         T
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Yamada
+        </surname>
+        <given-names>
+         K
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Okuda
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Suzuki
+        </surname>
+        <given-names>
+         I
+        </given-names>
+       </name>, 
+       <etal>
+        et al
+       </etal>. (
+       <year>
+        2006
+       </year>) 
+       <article-title>
+        Long-term monitoring of the succession of a microbial community in activated sludge from a circulation flush toilet as a closed system
+       </article-title>. 
+       <source>FEMS Microbiol Ecol 
+       <volume>
+        55
+       </volume>: 
+       <fpage>
+        459
+       </fpage>–
+       <lpage>
+        470
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Ayarza1"> 
+      <label>76</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Ayarza
+        </surname>
+        <given-names>
+         JM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Erijman
+        </surname>
+        <given-names>
+         L
+        </given-names>
+       </name> (
+       <year>
+        2011
+       </year>) 
+       <article-title>
+        Balance of neutral and deterministic components in the dynamics of activated sludge floc assembly
+       </article-title>. 
+       <source>Microb Ecol 
+       <volume>
+        61
+       </volume>: 
+       <fpage>
+        486
+       </fpage>–
+       <lpage>
+        495
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Saikaly2"> 
+      <label>77</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Saikaly
+        </surname>
+        <given-names>
+         PE
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Oerther
+        </surname>
+        <given-names>
+         DB
+        </given-names>
+       </name> (
+       <year>
+        2004
+       </year>) 
+       <article-title>
+        Bacterial competition in activated sludge: theoretical analysis of varying solids retention times on diversity
+       </article-title>. 
+       <source>Microb Ecol 
+       <volume>
+        48
+       </volume>: 
+       <fpage>
+        274
+       </fpage>–
+       <lpage>
+        284
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Han1"> 
+      <label>78</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Han
+        </surname>
+        <given-names>
+         H
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zhang
+        </surname>
+        <given-names>
+         Y
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Cui
+        </surname>
+        <given-names>
+         C
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Zheng
+        </surname>
+        <given-names>
+         S
+        </given-names>
+       </name> (
+       <year>
+        2010
+       </year>) 
+       <article-title>
+        Effect of COD level and HRT on microbial community in a yeast-predominant activated sludge system
+       </article-title>. 
+       <source>Bioresour Technol 
+       <volume>
+        101
+       </volume>: 
+       <fpage>
+        3463
+       </fpage>–
+       <lpage>
+        3465
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Allison1"> 
+      <label>79</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Allison
+        </surname>
+        <given-names>
+         SD
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Martiny
+        </surname>
+        <given-names>
+         JBH
+        </given-names>
+       </name> (
+       <year>
+        2008
+       </year>) 
+       <article-title>
+        Colloquium paper: Resistance, resilience, and redundancy in microbial communities
+       </article-title>. 
+       <source>Proc Natl Acad Sci U S A 
+       <volume>
+        105(Supplemental-1)
+       </volume>: 
+       <fpage>
+        11512
+       </fpage>–
+       <lpage>
+        11519
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Mills1"> 
+      <label>80</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Mills
+        </surname>
+        <given-names>
+         AL
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Herman
+        </surname>
+        <given-names>
+         JS
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Hornberger
+        </surname>
+        <given-names>
+         GM
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Ford
+        </surname>
+        <given-names>
+         RM
+        </given-names>
+       </name> (
+       <year>
+        2003
+       </year>) 
+       <article-title>
+        Functional redundancy promotes functional stability in diverse microbial bioreactor communities. SAE International, paper number 2003–01–2509
+       </article-title>. Available: 
+       <ext-link ext-link-type="uri" xlink:href="http://www.evsc.virginia.edu/~alm7d/pubs/82-Mills-ICES-03.pdf" xlink:type="simple">
+        http://www.evsc.virginia.edu/~alm7d/pubs/82-Mills-ICES-03.pdf
+       </ext-link>. Accessed 2012 Jul 15..
+      </mixed-citation> 
+     </ref> 
+     <ref id="pone.0042524-Balmr1"> 
+      <label>81</label> 
+      <mixed-citation publication-type="journal" xlink:type="simple">
+       <name name-style="western">
+        <surname>
+         Balmér
+        </surname>
+        <given-names>
+         P
+        </given-names>
+       </name>, 
+       <name name-style="western">
+        <surname>
+         Mattsson
+        </surname>
+        <given-names>
+         B
+        </given-names>
+       </name> (
+       <year>
+        1994
+       </year>) 
+       <article-title>
+        Wastewater treatment plant operation costs
+       </article-title>. 
+       <source>Wat Sci Technol 
+       <volume>
+        30
+       </volume>: 
+       <fpage>
+        7
+       </fpage>–
+       <lpage>
+        15
+       </lpage>.
+      </mixed-citation> 
+     </ref> 
+    </ref-list> 
+   </back> 
+  </article>
+ </body>
+</html>
